@@ -1,0 +1,17 @@
+{
+  "name": "text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "translation.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "json-bigint": "^1.0.0",
+    "json-with-bigint": "^2.4.1",
+    "openai": "^4.77.3",
+    "throttled-queue": "^2.1.4",
+    "uuid": "^11.0.4"
+  }
+}
