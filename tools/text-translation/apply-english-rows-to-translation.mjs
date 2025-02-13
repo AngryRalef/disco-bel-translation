@@ -15,18 +15,13 @@ const applyEnglishRowsToTranslation = async () => {
       continue;
     }
 
-    dialoguesTranslated[fullKey].english = simplifiedEnglishRows[key].text;
-
-    if (simplifiedEnglishRows[key].actor) {
-      dialoguesTranslated[fullKey].actor = simplifiedEnglishRows[key].actor;
-    }
-
-    if (simplifiedEnglishRows[key].to) {
-      dialoguesTranslated[fullKey].to = simplifiedEnglishRows[key].to;
-    }
-
-    if (!dialoguesTranslated[key].redacted) {
-      dialoguesTranslated[fullKey].redacted = false;
+    dialoguesTranslated[fullKey] = {
+      redacted: dialoguesTranslated[fullKey]?.redacted || false,
+      actor: simplifiedEnglishRows[key].actor ?? null,
+      to: simplifiedEnglishRows[key].to ?? null,
+      english: simplifiedEnglishRows[key].text,
+      polish: dialoguesTranslated[fullKey].polish,
+      belarusian: dialoguesTranslated[fullKey].belarusian,
     }
   }
 
