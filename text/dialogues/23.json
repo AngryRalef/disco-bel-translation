@@ -5,117 +5,207 @@
   "dialogueTree": [
     {
       "id": 56,
+      "redacted": false,
       "title": "Broken Window: \"The window stands broken in its fra...\"",
+      "actor": "Broken Window",
+      "to": "You",
       "articyId": "0x010000040000C50E",
-      "text": "The window stands broken in its frame. Cold wind blows in.",
+      "english": "The window stands broken in its frame. Cold wind blows in.",
+      "polish": "Szyba jest rozbita, lecz pozostała w ramie. Do środka wdziera się zimny wiatr.",
+      "belarusian": "Шкло разбітае, але засталося ў раме. Унутр пранікае халодны вецер.",
       "links": [
         {
           "id": 26,
+          "redacted": false,
           "title": "You: \"Look out.\"",
+          "actor": "You",
+          "to": "Broken Window",
           "articyId": "0x010000040000C51E",
-          "text": "Look out.",
+          "english": "Look out.",
+          "polish": "Wyjrzyj.",
+          "belarusian": "Зірні.",
           "links": [
             {
               "id": 43,
+              "redacted": false,
               "title": "Broken Window: \"The morning light hurts your eyes....\"",
+              "actor": "Broken Window",
+              "to": "You",
               "articyId": "0x010000580001B81C",
-              "text": "The morning light hurts your eyes. It's hazy, but you see the ocean and some war-torn buildings...",
+              "english": "The morning light hurts your eyes. It's hazy, but you see the ocean and some war-torn buildings...",
+              "polish": "Światło poranka pali cię w oczy. Jest mgła, widzisz jednak ocean i zniszczone przez wojnę budynki...",
+              "belarusian": "Святло раніцы паліць цябе ў вочы. Ёсць туман, але ты ўсё ж бачаць акіян і разбураныя вайной будынкі...",
               "links": []
             }
           ]
         },
         {
           "id": 21,
+          "redacted": false,
           "title": "You: \"Assess the damage.\"",
+          "actor": "You",
+          "to": "Broken Window",
           "articyId": "0x010000040000C54F",
-          "text": "Assess the damage.",
+          "english": "Assess the damage.",
+          "polish": "Oceń szkody.",
+          "belarusian": "Ацэні шкоду.",
           "links": [
             {
               "id": 32,
+              "redacted": false,
               "title": "Visual Calculus: \"The shards face outward. Whatever b...\"",
+              "actor": "Visual Calculus",
+              "to": "You",
               "articyId": "0x010000040000C497",
-              "text": "The shards face outward. Whatever broke this window came from the inside.",
+              "english": "The shards face outward. Whatever broke this window came from the inside.",
+              "polish": "Odłamki leżą na zewnątrz. Cokolwiek stłukło tę szybę, uderzyło ze środka.",
+              "belarusian": "Аскепкі ляжаць звонку. Што б ні разбіла гэтае шкло, удар прыйшоў знутры.",
               "links": [
                 {
                   "id": 33,
+                  "redacted": false,
                   "title": "You: \"Did I break it with my own hands? (...\"",
+                  "actor": "You",
+                  "to": "Broken Window",
                   "articyId": "0x010000040000C4E5",
-                  "text": "Did I break it with my own hands? (Look at them.)",
+                  "english": "Did I break it with my own hands? (Look at them.)",
+                  "polish": "Czyżbym rozbił ją własnymi rękami? (Spójrz na nie).",
+                  "belarusian": "Ці гэта я разбіў яе ўласнымі рукамі? (Паглядзі на іх).",
                   "links": [
                     {
                       "id": 13,
+                      "redacted": false,
                       "title": "Visual Calculus: \"A fine web of scarring covers the b...\"",
+                      "actor": "Visual Calculus",
+                      "to": "You",
                       "articyId": "0x010000040000C49D",
-                      "text": "A fine web of scarring covers the back of your right hand, but none of it is recent.",
+                      "english": "A fine web of scarring covers the back of your right hand, but none of it is recent.",
+                      "polish": "Na wierzchu twojej dłoni widać drobną siatkę blizn, żadna jednak nie jest świeża.",
+                      "belarusian": "На верхавіне тваёй далоні відна дробная сетка шнараў, але ніводны з іх не з'яўляецца свежым.",
                       "links": [
                         {
                           "id": 19,
+                          "redacted": false,
                           "title": "You: \"What did this then?\"",
+                          "actor": "You",
+                          "to": "Broken Window",
                           "articyId": "0x010000040000C475",
-                          "text": "What did this then?",
+                          "english": "What did this then?",
+                          "polish": "Więc co do tego doprowadziło?",
+                          "belarusian": "Дык што да гэтага прывяло?",
                           "links": [
                             {
                               "id": 20,
+                              "redacted": false,
                               "title": "Visual Calculus: \"More likely a projectile than a hel...\"",
+                              "actor": "Visual Calculus",
+                              "to": "You",
                               "articyId": "0x010000040000C4B1",
-                              "text": "More likely a projectile than a held object. There are no fragments on the floor from pulling a tool back in after impact.",
+                              "english": "More likely a projectile than a held object. There are no fragments on the floor from pulling a tool back in after impact.",
+                              "polish": "Raczej pocisk niż trzymany w ręce przedmiot – brak na podłodze odłamków, które by na nią spadły po cofnięciu narzędzia.",
+                              "belarusian": "Хутчэй снарад, чым прадмет у руцэ — няма на падлозе аскепкаў, якія ўпалі б на яе пасля адводзіны інструмента.",
                               "links": [
                                 {
                                   "id": 58,
+                                  "redacted": false,
                                   "title": "You: \"Wait, what am I doing?\"",
+                                  "actor": "You",
+                                  "to": "Broken Window",
                                   "articyId": "0x010000040000C469",
-                                  "text": "Wait, what am I doing?",
+                                  "english": "Wait, what am I doing?",
+                                  "polish": "Chwila, co ja robię?",
+                                  "belarusian": "Хвіліна, што я раблю?",
                                   "links": [
                                     {
                                       "id": 5,
+                                      "redacted": false,
                                       "title": "Visual Calculus: \"Something you've done before.\"",
+                                      "actor": "Visual Calculus",
+                                      "to": "You",
                                       "articyId": "0x010000040000C4DF",
-                                      "text": "Something you've done before.",
+                                      "english": "Something you've done before.",
+                                      "polish": "Coś, co już kiedyś robiłeś.",
+                                      "belarusian": "Нешта, што ты ўжо калісьці рабіў.",
                                       "links": []
                                     }
                                   ]
                                 },
                                 {
                                   "id": 38,
+                                  "redacted": false,
                                   "title": "You: \"Assess the size of the impact.\"",
+                                  "actor": "You",
+                                  "to": "Broken Window",
                                   "articyId": "0x010000040000C4C9",
-                                  "text": "Assess the size of the impact.",
+                                  "english": "Assess the size of the impact.",
+                                  "polish": "Oceń rozmiar uszkodzenia.",
+                                  "belarusian": "Ацэніце памер пашкоджання.",
                                   "links": [
                                     {
                                       "id": 46,
+                                      "redacted": false,
                                       "title": "Visual Calculus: \"It is too large for a bullet yet to...\"",
+                                      "actor": "Visual Calculus",
+                                      "to": "You",
                                       "articyId": "0x010000040000C4BD",
-                                      "text": "It is too large for a bullet yet too small for a piece of furniture. You're looking for something heavy and larger than your fist.",
+                                      "english": "It is too large for a bullet yet too small for a piece of furniture. You're looking for something heavy and larger than your fist.",
+                                      "polish": "Coś zbyt dużego, by było kulą, lecz za małego na mebel. Coś ciężkiego i większego od twojej pięści.",
+                                      "belarusian": "Нешта занадта вялікае, каб быць шарыкам, але занадта маленькае для мэблі. Нешта цяжкое і большае за твой кулак.",
                                       "links": [
                                         {
                                           "id": 30,
+                                          "redacted": false,
                                           "title": "Visual Calculus: \"The shoe you found out on the balco...\"",
+                                          "actor": "Visual Calculus",
+                                          "to": "You",
                                           "articyId": "0x010000580001B82D",
-                                          "text": "The shoe you found out on the balcony fits the hole almost as well as your foot. It would have also been heavy enough, if thrown with force.",
+                                          "english": "The shoe you found out on the balcony fits the hole almost as well as your foot. It would have also been heavy enough, if thrown with force.",
+                                          "polish": "Znaleziony przez ciebie na balkonie but pasuje do dziury prawie tak dobrze, jak twoja stopa. Odpowiednio silnie rzucony byłby też wystarczająco ciężki.",
+                                          "belarusian": "Знойдзены табой на балконе чаравік падыходзіць да дзіркі амаль так жа добра, як твая нага. Адпаведна моцна кінуўшы, ён быў бы таксама дастаткова цяжкім.",
                                           "links": [
                                             {
                                               "id": 11,
+                                              "redacted": false,
                                               "title": "Visual Calculus: \"Congratulations, you smashed the wi...\"",
+                                              "actor": "Visual Calculus",
+                                              "to": "You",
                                               "articyId": "0x010000580001B834",
-                                              "text": "Congratulations, you smashed the window with your own shoe.",
+                                              "english": "Congratulations, you smashed the window with your own shoe.",
+                                              "polish": "Gratulacje. Wybiłeś szybę swoim własnym butem.",
+                                              "belarusian": "Віншую. Ты разбіў шкло ўласным ботам.",
                                               "links": [
                                                 {
                                                   "id": 36,
+                                                  "redacted": false,
                                                   "title": "You: \"Maybe it wasn't me?\"",
+                                                  "actor": "You",
+                                                  "to": "Broken Window",
                                                   "articyId": "0x010000580001B847",
-                                                  "text": "Maybe it wasn't me?",
+                                                  "english": "Maybe it wasn't me?",
+                                                  "polish": "A może to nie byłem ja?",
+                                                  "belarusian": "А можа, гэта быў не я?",
                                                   "links": [
                                                     {
                                                       "id": 6,
+                                                      "redacted": false,
                                                       "title": "Visual Calculus: \"You mean someone else took your sho...\"",
+                                                      "actor": "Visual Calculus",
+                                                      "to": "You",
                                                       "articyId": "0x010000580001B841",
-                                                      "text": "You mean someone else took your shoe off and smashed the window with it?",
+                                                      "english": "You mean someone else took your shoe off and smashed the window with it?",
+                                                      "polish": "Chcesz powiedzieć, że ktoś inny zdjął z ciebie but i rozbił nim szybę?",
+                                                      "belarusian": "Хочаш сказаць, што нехта іншы зняў з цябе абутак і разбіў ім акно?",
                                                       "links": [
                                                         {
                                                           "id": 34,
+                                                          "redacted": false,
                                                           "title": "Logic: \"This person also *forced* the drink...\"",
+                                                          "actor": "Logic",
+                                                          "to": "You",
                                                           "articyId": "0x010000580001B83B",
-                                                          "text": "This person also *forced* the drinks on you.",
+                                                          "english": "This person also *forced* the drinks on you.",
+                                                          "polish": "Ta sama osoba *wmusiła* w ciebie alkohol.",
+                                                          "belarusian": "Та самая асоба *ўпіхнула* ў цябе алкаголь.",
                                                           "links": []
                                                         }
                                                       ]
@@ -124,21 +214,36 @@
                                                 },
                                                 {
                                                   "id": 12,
+                                                  "redacted": false,
                                                   "title": "You: \"I'm sure I had a good reason for it...\"",
+                                                  "actor": "You",
+                                                  "to": "Broken Window",
                                                   "articyId": "0x010000580001B857",
-                                                  "text": "I'm sure I had a good reason for it. Maybe I was trying to hit someone?",
+                                                  "english": "I'm sure I had a good reason for it. Maybe I was trying to hit someone?",
+                                                  "polish": "Na pewno miałem ku temu dobry powód. Może próbowałem w kogoś trafić?",
+                                                  "belarusian": "Напэўна, у мяне была на гэта добрая прычына. Можа, я спрабаваў у кагосьці трапіць?",
                                                   "links": [
                                                     {
                                                       "id": 59,
+                                                      "redacted": false,
                                                       "title": "Visual Calculus: \"And maybe, just maybe, you succeede...\"",
+                                                      "actor": "Visual Calculus",
+                                                      "to": "You",
                                                       "articyId": "0x010000580001B864",
-                                                      "text": "And maybe, just maybe, you succeeded. We'll never know.",
+                                                      "english": "And maybe, just maybe, you succeeded. We'll never know.",
+                                                      "polish": "I może nawet ci się to udało. Nigdy się nie dowiemy.",
+                                                      "belarusian": "І можа нават табе гэта ўдалося. Ніколі не даведаемся.",
                                                       "links": [
                                                         {
                                                           "id": 44,
+                                                          "redacted": false,
                                                           "title": "Inland Empire: \"Or maybe you were trying to smash y...\"",
+                                                          "actor": "Inland Empire",
+                                                          "to": "You",
                                                           "articyId": "0x010000580001B86B",
-                                                          "text": "Or maybe you were trying to smash your own reflection in the windowpane?",
+                                                          "english": "Or maybe you were trying to smash your own reflection in the windowpane?",
+                                                          "polish": "A może próbowałeś rąbnąć swoje własne odbicie w szybie?",
+                                                          "belarusian": "А можа, ты спрабаваў стукнуць сваё ўласнае адлюстраванне ў шыбе?",
                                                           "links": []
                                                         }
                                                       ]
@@ -147,21 +252,36 @@
                                                 },
                                                 {
                                                   "id": 54,
+                                                  "redacted": false,
                                                   "title": "You: \"What a stupid thing to do.\"",
+                                                  "actor": "You",
+                                                  "to": "Broken Window",
                                                   "articyId": "0x010000580001B85E",
-                                                  "text": "What a stupid thing to do.",
+                                                  "english": "What a stupid thing to do.",
+                                                  "polish": "Co za idiotyczny czyn.",
+                                                  "belarusian": "Што за ідыёцкі ўчынак.",
                                                   "links": [
                                                     {
                                                       "id": 60,
+                                                      "redacted": false,
                                                       "title": "Visual Calculus: \"Pretty much. But, hey, at least you...\"",
+                                                      "actor": "Visual Calculus",
+                                                      "to": "You",
                                                       "articyId": "0x010000580001B874",
-                                                      "text": "Pretty much. But, hey, at least you found your shoe.",
+                                                      "english": "Pretty much. But, hey, at least you found your shoe.",
+                                                      "polish": "Owszem. Ale słuchaj, przynajmniej znalazłeś swój but.",
+                                                      "belarusian": "Вядома. Але слухай, прынамсі ты знайшоў сваю боты.",
                                                       "links": [
                                                         {
                                                           "id": 48,
+                                                          "redacted": false,
                                                           "title": "Pain Threshold: \"Not that it will keep you warm at n...\"",
+                                                          "actor": "Pain Threshold",
+                                                          "to": "You",
                                                           "articyId": "0x010000580001B87B",
-                                                          "text": "Not that it will keep you warm at night. Brrr.",
+                                                          "english": "Not that it will keep you warm at night. Brrr.",
+                                                          "polish": "Nie żeby miał cię ogrzać za to nocą. Brrr.",
+                                                          "belarusian": "Не каб сагрэць цябе ўначы. Бррр.",
                                                           "links": []
                                                         }
                                                       ]
@@ -174,33 +294,58 @@
                                         },
                                         {
                                           "id": 61,
+                                          "redacted": false,
                                           "title": "Visual Calculus: \"The shoe you found out on the balco...\"",
+                                          "actor": "Visual Calculus",
+                                          "to": "You",
                                           "articyId": "0x0100008900000A8E",
-                                          "text": "The shoe you found out on the balcony fits the hole almost as well as your foot. It's similar to the green shoe that's on the hat rack in the corner, which -- coincidentally -- is missing its friend.",
+                                          "english": "The shoe you found out on the balcony fits the hole almost as well as your foot. It's similar to the green shoe that's on the hat rack in the corner, which -- coincidentally -- is missing its friend.",
+                                          "polish": "Znaleziony przez ciebie na balkonie but pasuje do dziury prawie tak dobrze, jak twoja stopa. Jest podobny do zielonego buta na wieszaku w kącie, który – jak się dziwnie składa – zagubił gdzieś swojego przyjaciela.",
+                                          "belarusian": "Знойдзены табой на балконе чаравік пасуе да дзіркі амаль так добра, як твая нага. Ён падобны да зялёнага чаравіка на вешалцы ў куце, які — як гэта дзіўна, — страціў дзесьці свайго сябра.",
                                           "links": [
                                             {
                                               "id": 49,
+                                              "redacted": false,
                                               "title": "Visual Calculus: \"Congratulations, you smashed the wi...\"",
+                                              "actor": "Visual Calculus",
+                                              "to": "You",
                                               "articyId": "0x0100008900000A94",
-                                              "text": "Congratulations, you smashed the window with your own shoe.",
+                                              "english": "Congratulations, you smashed the window with your own shoe.",
+                                              "polish": "Gratulacje. Wybiłeś szybę swoim własnym butem.",
+                                              "belarusian": "Віншую. Ты выбіў шкло сваім уласным ботам.",
                                               "links": [
                                                 {
                                                   "id": 37,
+                                                  "redacted": false,
                                                   "title": "You: \"Maybe it wasn't me?\"",
+                                                  "actor": "You",
+                                                  "to": "Broken Window",
                                                   "articyId": "0x010000040000C47D",
-                                                  "text": "Maybe it wasn't me?",
+                                                  "english": "Maybe it wasn't me?",
+                                                  "polish": "A może to nie byłem ja?",
+                                                  "belarusian": "А можа, гэта не быў я?",
                                                   "links": [
                                                     {
                                                       "id": 28,
+                                                      "redacted": false,
                                                       "title": "Visual Calculus: \"You mean someone else took your sho...\"",
+                                                      "actor": "Visual Calculus",
+                                                      "to": "You",
                                                       "articyId": "0x010000040000C48A",
-                                                      "text": "You mean someone else took your shoe off and smashed the window with it?",
+                                                      "english": "You mean someone else took your shoe off and smashed the window with it?",
+                                                      "polish": "Chcesz powiedzieć, że ktoś inny zdjął z ciebie but i rozbił nim szybę?",
+                                                      "belarusian": "Хочаш сказаць, што нехта іншы зняў з цябе абутак і разбіў ім акно?",
                                                       "links": [
                                                         {
                                                           "id": 9,
+                                                          "redacted": false,
                                                           "title": "Logic: \"This person also *forced* the drink...\"",
+                                                          "actor": "Logic",
+                                                          "to": "You",
                                                           "articyId": "0x010000040000C457",
-                                                          "text": "This person also *forced* the drinks on you.",
+                                                          "english": "This person also *forced* the drinks on you.",
+                                                          "polish": "Ta sama osoba *wmusiła* w ciebie alkohol.",
+                                                          "belarusian": "Гэта ж самая асоба *змусіла* цябе выпіць алкаголь.",
                                                           "links": []
                                                         }
                                                       ]
@@ -209,30 +354,50 @@
                                                 },
                                                 {
                                                   "id": 25,
+                                                  "redacted": false,
                                                   "title": "You: \"I should go and get that shoe.\"",
+                                                  "actor": "You",
+                                                  "to": "Broken Window",
                                                   "articyId": "0x010000040000C581",
-                                                  "text": "I should go and get that shoe.",
+                                                  "english": "I should go and get that shoe.",
+                                                  "polish": "Powinienem pójść po ten but.",
+                                                  "belarusian": "Я павінен пайсці па гэтую абутак.",
                                                   "links": [
                                                     {
                                                       "id": 35,
+                                                      "redacted": false,
                                                       "title": "Broken Window: \"A cool wind gushes in. Your toes cu...\"",
+                                                      "actor": "Broken Window",
+                                                      "to": "You",
                                                       "articyId": "0x010000040000C591",
-                                                      "text": "A cool wind gushes in. Your toes curl up from the cold.",
+                                                      "english": "A cool wind gushes in. Your toes curl up from the cold.",
+                                                      "polish": "Do środka wdziera się zimny wiatr. Podkurczasz z zimna palce u nóg.",
+                                                      "belarusian": "У сярэдзіну пранікае халодны вецер. Ты падгінаеш пальцы на нагах ад холаду.",
                                                       "links": []
                                                     }
                                                   ]
                                                 },
                                                 {
                                                   "id": 50,
+                                                  "redacted": false,
                                                   "title": "You: \"I don't need it. I don't need *anyo...\"",
+                                                  "actor": "You",
+                                                  "to": "Broken Window",
                                                   "articyId": "0x010000040000C57B",
-                                                  "text": "I don't need it. I don't need *anyone*.",
+                                                  "english": "I don't need it. I don't need *anyone*.",
+                                                  "polish": "Nie potrzebuję go. Nie potrzebuję *nikogo*.",
+                                                  "belarusian": "Мне ён не патрэбен. Мне *ніхто* не патрэбен.",
                                                   "links": [
                                                     {
                                                       "id": 47,
+                                                      "redacted": false,
                                                       "title": "Broken Window: \"The window agrees. Its cracked smil...\"",
+                                                      "actor": "Broken Window",
+                                                      "to": "You",
                                                       "articyId": "0x010000040000C589",
-                                                      "text": "The window agrees. Its cracked smile is cold and sparkly.",
+                                                      "english": "The window agrees. Its cracked smile is cold and sparkly.",
+                                                      "polish": "Okno się z tobą zgadza. Uśmiech jego pęknięcia jest zimny i błyszczący.",
+                                                      "belarusian": "Акно з табой згодна. Усмешка яго расколіны халодная і бліскучая.",
                                                       "links": []
                                                     }
                                                   ]
@@ -243,30 +408,50 @@
                                         },
                                         {
                                           "id": 55,
+                                          "redacted": false,
                                           "title": "Visual Calculus: \"The single green shoe you found fit...\"",
+                                          "actor": "Visual Calculus",
+                                          "to": "You",
                                           "articyId": "0x010000040000C4C3",
-                                          "text": "The single green shoe you found fits the hole almost as well as your foot. It would have also been heavy enough, if thrown with force.",
+                                          "english": "The single green shoe you found fits the hole almost as well as your foot. It would have also been heavy enough, if thrown with force.",
+                                          "polish": "Znaleziony przez ciebie pojedynczy zielony but pasuje do dziury prawie tak dobrze, jak twoja stopa. Odpowiednio silnie rzucony byłby też wystarczająco ciężki.",
+                                          "belarusian": "Знойдзены табой адзінокі зялёны бот падыходзіць да дзіркі амаль так жа добра, як твая нага. Калі яго кінуць дастаткова моцна, ён таксама будзе дастаткова цяжкі.",
                                           "links": [
                                             {
                                               "id": 57,
+                                              "redacted": false,
                                               "title": "Visual Calculus: \"Congratulations, you smashed the wi...\"",
+                                              "actor": "Visual Calculus",
+                                              "to": "You",
                                               "articyId": "0x010000580001B883",
-                                              "text": "Congratulations, you smashed the window with your own shoe. Now you only have one. If you're lucky, you can still find the other on the balcony outside. The door to it should be outside your room.",
+                                              "english": "Congratulations, you smashed the window with your own shoe. Now you only have one. If you're lucky, you can still find the other on the balcony outside. The door to it should be outside your room.",
+                                              "polish": "Gratulacje, wybiłeś szybę własnym butem. Teraz masz tylko jeden. O ile ci się poszczęści, znajdziesz drugi na balkonie, na zewnątrz. Drzwi na niego powinny być koło twojego pokoju.",
+                                              "belarusian": "Віншую, ты выбіў шкло ўласным ботам. Цяпер у цябе толькі адзін. Калі табе пашанцуе, знойдзеш другі на балконе, з вонкавага боку. Дзьверы на яго павінны быць каля тваёй пакоя.",
                                               "links": []
                                             }
                                           ]
                                         },
                                         {
                                           "id": 14,
+                                          "redacted": false,
                                           "title": "Visual Calculus: \"Like the green shoe that's on the h...\"",
+                                          "actor": "Visual Calculus",
+                                          "to": "You",
                                           "articyId": "0x010000040000C4CF",
-                                          "text": "Like the green shoe that's on the hat rack in the corner, which -- coincidentally -- is missing its friend.",
+                                          "english": "Like the green shoe that's on the hat rack in the corner, which -- coincidentally -- is missing its friend.",
+                                          "polish": "Jak ten zielony but na wieszaku w kącie, który – jak się dziwnie składa – zagubił gdzieś swojego przyjaciela.",
+                                          "belarusian": "Як той зялёны бот на вешаку ў куце, які — як дзіўна складваецца — згубіў недзе свайго сябра.",
                                           "links": [
                                             {
                                               "id": 31,
+                                              "redacted": false,
                                               "title": "Visual Calculus: \"Congratulations, you smashed the wi...\"",
+                                              "actor": "Visual Calculus",
+                                              "to": "You",
                                               "articyId": "0x010000040000C45D",
-                                              "text": "Congratulations, you smashed the window with your own shoe. Now you only have one. If you're lucky you can still find the other on the balcony outside. The door to it should be outside your room.",
+                                              "english": "Congratulations, you smashed the window with your own shoe. Now you only have one. If you're lucky you can still find the other on the balcony outside. The door to it should be outside your room.",
+                                              "polish": "Gratulacje, wybiłeś szybę własnym butem. Teraz masz tylko jeden. O ile ci się poszczęści, znajdziesz drugi na balkonie, na zewnątrz. Drzwi na niego powinny być koło twojego pokoju.",
+                                              "belarusian": "Віншую, ты выбіў шкло сваім ботам. Цяпер у цябе толькі адзін. Калі пашанцуе, знойдзеш другі на балконе, звонку. Дзверы на яго павінны быць каля твайго пакоя.",
                                               "links": []
                                             }
                                           ]
@@ -287,18 +472,28 @@
             },
             {
               "id": 8,
+              "redacted": false,
               "title": "Visual Calculus: \"What do you mean *assess the damage...\"",
+              "actor": "Visual Calculus",
+              "to": "You",
               "articyId": "0x010000040000C55E",
-              "text": "What do you mean *assess the damage*? How would you do that? What are you even trying to do?",
+              "english": "What do you mean *assess the damage*? How would you do that? What are you even trying to do?",
+              "polish": "Co to znaczy *oceń szkody*? Jak miałbyś to zrobić? Czego ty w ogóle próbujesz dokonać?",
+              "belarusian": "Што азначае *ацэні шкоду*? Як бы ты гэта зрабіў? Чаго ты ўвогуле спрабуеш дасягнуць?",
               "links": []
             }
           ]
         },
         {
           "id": 10,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Broken Window",
           "articyId": "0x010000040000C52A",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Пайсці].",
           "links": []
         }
       ]

@@ -5,54 +5,94 @@
   "dialogueTree": [
     {
       "id": 14,
+      "redacted": false,
       "title": "Bed: \"And then -- sleep doesn't come.\"",
+      "actor": "Bed",
+      "to": "You",
       "articyId": "0x0100000500003455",
-      "text": "And then -- sleep doesn't come.",
+      "english": "And then -- sleep doesn't come.",
+      "polish": "Później zaś... sen nie nadchodzi.",
+      "belarusian": "Пазней жа... сон не прыходзіць.",
       "links": [
         {
           "id": 22,
+          "redacted": false,
           "title": "You: \"But I *want* to sleep...\"",
+          "actor": "You",
+          "to": "Limbic System",
           "articyId": "0x010000060001667C",
-          "text": "But I *want* to sleep...",
+          "english": "But I *want* to sleep...",
+          "polish": "Ale ja *chcę* spać...",
+          "belarusian": "Але я *хачу* спаць...",
           "links": [
             {
               "id": 18,
+              "redacted": false,
               "title": "Bed: \"Obviously -- you're in bed with you...\"",
+              "actor": "Bed",
+              "to": "You",
               "articyId": "0x010000060001668B",
-              "text": "Obviously -- you're in bed with your eyes closed. But it's not happening.",
+              "english": "Obviously -- you're in bed with your eyes closed. But it's not happening.",
+              "polish": "To jasne. Leżysz w łóżku z zamkniętymi oczami. Ale to się nie dzieje.",
+              "belarusian": "Гэта ясна. Ты ляжыш у ложку з заплюшчанымі вачыма. Але гэта не адбываецца.",
               "links": []
             }
           ]
         },
         {
           "id": 8,
+          "redacted": false,
           "title": "You: \"Why?\"",
+          "actor": "You",
+          "to": "Limbic System",
           "articyId": "0x0100000500003344",
-          "text": "Why?",
+          "english": "Why?",
+          "polish": "Dlaczego?",
+          "belarusian": "Чаму?",
           "links": [
             {
               "id": 16,
+              "redacted": false,
               "title": "Bed: \"Maybe it's the bed's fault?\"",
+              "actor": "Bed",
+              "to": "You",
               "articyId": "0x010000050000334A",
-              "text": "Maybe it's the bed's fault?",
+              "english": "Maybe it's the bed's fault?",
+              "polish": "Może to wina łóżka?",
+              "belarusian": "Можа гэта віна ложка?",
               "links": [
                 {
                   "id": 12,
+                  "redacted": false,
                   "title": "You: \"Check the pillow.\"",
+                  "actor": "You",
+                  "to": "Limbic System",
                   "articyId": "0x0100000500003351",
-                  "text": "Check the pillow.",
+                  "english": "Check the pillow.",
+                  "polish": "Sprawdź poduszkę.",
+                  "belarusian": "Праверце падушку.",
                   "links": [
                     {
                       "id": 3,
+                      "redacted": false,
                       "title": "Bed: \"Its synthetic filling has separated...\"",
+                      "actor": "Bed",
+                      "to": "You",
                       "articyId": "0x0100000500003373",
-                      "text": "Its synthetic filling has separated into hard lumps. The pillowcase smells oddly.",
+                      "english": "Its synthetic filling has separated into hard lumps. The pillowcase smells oddly.",
+                      "polish": "Syntetyczne wypełnienie zebrało się w twarde grudy. Poszewka dziwnie pachnie.",
+                      "belarusian": "Сінтэтычнае напаўненне сабралася ў цвёрдыя згусткі. Навалач дзіўна пахне.",
                       "links": [
                         {
                           "id": 19,
+                          "redacted": false,
                           "title": "Perception (Smell): \"Smells of alcohol and sweat. And gr...\"",
+                          "actor": "Perception (Smell)",
+                          "to": "You",
                           "articyId": "0x010000050000338A",
-                          "text": "Smells of alcohol and sweat. And grease.",
+                          "english": "Smells of alcohol and sweat. And grease.",
+                          "polish": "Czuć ją alkoholem i potem. I smarem.",
+                          "belarusian": "Пахне ад яе алкаголем і потам. І змазкай.",
                           "links": []
                         }
                       ]
@@ -61,33 +101,58 @@
                 },
                 {
                   "id": 23,
+                  "redacted": false,
                   "title": "You: \"Check the blanket.\"",
+                  "actor": "You",
+                  "to": "Limbic System",
                   "articyId": "0x0100000500003358",
-                  "text": "Check the blanket.",
+                  "english": "Check the blanket.",
+                  "polish": "Sprawdź koc.",
+                  "belarusian": "Праверце коўдру.",
                   "links": [
                     {
                       "id": 11,
+                      "redacted": false,
                       "title": "Bed: \"It barely covers your toes, stretch...\"",
+                      "actor": "Bed",
+                      "to": "You",
                       "articyId": "0x010000050000337A",
-                      "text": "It barely covers your toes, stretching over your soft belly. This is your body here, intimate and warm, breathing...",
+                      "english": "It barely covers your toes, stretching over your soft belly. This is your body here, intimate and warm, breathing...",
+                      "polish": "Ledwo przykrywa twoje nogi, rozciągnięty na twoim miękkim brzuchu. To twoje ciało, bliskie ci i ciepłe, oddychające...",
+                      "belarusian": "Ледзь прыкрывае твае ногі, расцягнуты на тваім мяккім жываце. Гэта тваё цела, блізкае табе і цёплае, дыхаючае...",
                       "links": [
                         {
                           "id": 7,
+                          "redacted": false,
                           "title": "Composure: \"A bit tense in the muscles -- relax...\"",
+                          "actor": "Composure",
+                          "to": "You",
                           "articyId": "0x010000050000339A",
-                          "text": "A bit tense in the muscles -- relax.",
+                          "english": "A bit tense in the muscles -- relax.",
+                          "polish": "Masz trochę spięte mięśnie. Rozluźnij się.",
+                          "belarusian": "У цябе трохі напружаныя мышцы. Расслабся.",
                           "links": [
                             {
                               "id": 20,
+                              "redacted": false,
                               "title": "Half Light: \"Breathing, are you sure? Your heart...\"",
+                              "actor": "Half Light",
+                              "to": "You",
                               "articyId": "0x01000005000033A1",
-                              "text": "Breathing, are you sure? Your heart beats a little bit faster at this unnerving thought.",
+                              "english": "Breathing, are you sure? Your heart beats a little bit faster at this unnerving thought.",
+                              "polish": "Oddychające? Na pewno? Twoje serce przyspiesza nieco pod wpływem tej niepokojącej myśli.",
+                              "belarusian": "Дыхаецца? Напэўна? Тваё сэрца трохі паскараецца пад уплывам гэтай турботнай думкі.",
                               "links": [
                                 {
                                   "id": 10,
+                                  "redacted": false,
                                   "title": "Inland Empire: \"Under your thrumming eyelids, you s...\"",
+                                  "actor": "Inland Empire",
+                                  "to": "You",
                                   "articyId": "0x010000050000345F",
-                                  "text": "Under your thrumming eyelids, you see a dizzying array of colours. You won't get off this carousel quite so easily.",
+                                  "english": "Under your thrumming eyelids, you see a dizzying array of colours. You won't get off this carousel quite so easily.",
+                                  "polish": "Pod rozedrganymi powiekami widzisz oszałamiającą paletę kolorów. Nie zsiądziesz z tej karuzeli tak łatwo.",
+                                  "belarusian": "Пад уздрыгваючымі павекамі ты бачыш ашаламляльную палітру колераў. Ты не сыдзеш з гэтай каруселі так лёгка.",
                                   "links": []
                                 }
                               ]
@@ -100,48 +165,83 @@
                 },
                 {
                   "id": 21,
+                  "redacted": false,
                   "title": "You: \"Roll over to the other side.\"",
+                  "actor": "You",
+                  "to": "Limbic System",
                   "articyId": "0x010000050000335F",
-                  "text": "Roll over to the other side.",
+                  "english": "Roll over to the other side.",
+                  "polish": "Przewróć się na drugi bok.",
+                  "belarusian": "Перавярніся на другі бок.",
                   "links": [
                     {
                       "id": 6,
+                      "redacted": false,
                       "title": "Bed: \"It's a little better... Colours, sc...\"",
+                      "actor": "Bed",
+                      "to": "You",
                       "articyId": "0x0100000500003366",
-                      "text": "It's a little better... Colours, scenes, and half-formed phrases still litter your mind. Part of you is still trying to solve the case, isn't it?",
+                      "english": "It's a little better... Colours, scenes, and half-formed phrases still litter your mind. Part of you is still trying to solve the case, isn't it?",
+                      "polish": "Jest troszkę lepiej. Barwy, sceny, pourywane zdania wciąż zaśmiecają ci umysł. Jakiś fragment ciebie ciągle próbuje rozwiązać sprawę, prawda?",
+                      "belarusian": "Крыху лепш. Колеры, сцэны, парваныя сказы ўсё яшчэ замінаюць табе. Нейкі фрагмент цябе пастаянна спрабуе разабрацца ў справе, праўда?",
                       "links": [
                         {
                           "id": 4,
+                          "redacted": false,
                           "title": "You: \"Who killed him? Who?\"",
+                          "actor": "You",
+                          "to": "Limbic System",
                           "articyId": "0x01000005000033A9",
-                          "text": "Who killed him? Who?",
+                          "english": "Who killed him? Who?",
+                          "polish": "Kto go zabił? Kto?",
+                          "belarusian": "Хто яго забіў? Хто?",
                           "links": [
                             {
                               "id": 2,
+                              "redacted": false,
                               "title": "Bed: \"Something to do with... What was it...\"",
+                              "actor": "Bed",
+                              "to": "You",
                               "articyId": "0x01000005000033B7",
-                              "text": "Something to do with... What was it that the lieutenant said? Union? And it's gone again, your thoughts lost between the slowing brain waves.",
+                              "english": "Something to do with... What was it that the lieutenant said? Union? And it's gone again, your thoughts lost between the slowing brain waves.",
+                              "polish": "Są jakieś powiązania z... Jak to mówił porucznik? Ze Związkiem? I znów wszystko znika, twoje myśli giną między zwalniającymi falami mózgowymi.",
+                              "belarusian": "Ёсць нейкія сувязі з... Як казаў лейтэнант? З Саюзам? І зноў усё знікае, твае думкі губляюцца сярод запаволеных хваль мозга.",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 5,
+                          "redacted": false,
                           "title": "You: \"No more thoughts. Fall asleep now.....\"",
+                          "actor": "You",
+                          "to": "Limbic System",
                           "articyId": "0x01000005000033AF",
-                          "text": "No more thoughts. Fall asleep now...",
+                          "english": "No more thoughts. Fall asleep now...",
+                          "polish": "Dość już myśli. Czas zasnąć...",
+                          "belarusian": "Досыць ужо думак. Час заснуць...",
                           "links": [
                             {
                               "id": 13,
+                              "redacted": false,
                               "title": "Bed: \"Your breathing steadies. A great si...\"",
+                              "actor": "Bed",
+                              "to": "You",
                               "articyId": "0x01000005000033C3",
-                              "text": "Your breathing steadies. A great silence washes over you... until your eyelids *twitch* in your sleep and images... images start forming...",
+                              "english": "Your breathing steadies. A great silence washes over you... until your eyelids *twitch* in your sleep and images... images start forming...",
+                              "polish": "Twój oddech się uspokaja. Spowija cię wielka cisza... a potem twoje powieki *drgają* we śnie i... zaczynają pojawiać się obrazy...",
+                              "belarusian": "Тваё дыханне супакойваецца. Цябе ахутвае вялікая цішыня... а потым твае павекі *дрыжаць* у сне і... пачынаюць з'яўляцца вобразы...",
                               "links": [
                                 {
                                   "id": 15,
+                                  "redacted": true,
                                   "title": "Bed: \"...\"",
+                                  "actor": "Bed",
+                                  "to": "You",
                                   "articyId": "0x01000003000002C2",
-                                  "text": "...",
+                                  "english": "...",
+                                  "polish": "...",
+                                  "belarusian": "...",
                                   "links": []
                                 }
                               ]

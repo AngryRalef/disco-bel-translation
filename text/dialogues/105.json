@@ -5,33 +5,58 @@
   "dialogueTree": [
     {
       "id": 131,
+      "redacted": false,
       "title": "Sleeping Dockworker: \"The worker is in a deep slumber.\"",
+      "actor": "Sleeping Dockworker",
+      "to": "You",
       "articyId": "0x0100002F000027CE",
-      "text": "The worker is in a deep slumber.",
+      "english": "The worker is in a deep slumber.",
+      "polish": "Robotnik jest pogrążony w głębokim śnie.",
+      "belarusian": "Рабочы пагружаны ў глыбокі сон.",
       "links": [
         {
           "id": 4,
+          "redacted": false,
           "title": "You: \"\"Lieutenant, who is this?\"\"",
+          "actor": "You",
+          "to": "Sleeping Dockworker",
           "articyId": "0x0100001600001F6E",
-          "text": "\"Lieutenant, who is this?\"",
+          "english": "\"Lieutenant, who is this?\"",
+          "polish": "„Poruczniku, kto to jest?”",
+          "belarusian": "«Лейтэнант, хто гэта?»",
           "links": [
             {
               "id": 110,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"No idea. Looks like he works for W...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100001600001F68",
-              "text": "\"No idea. Looks like he works for Wild Pines, the logistics company who owns and operates the harbour.\"",
+              "english": "\"No idea. Looks like he works for Wild Pines, the logistics company who owns and operates the harbour.\"",
+              "polish": "„Nie mam pojęcia. Wygląda na to, że pracuje dla Wild Pines, firmy logistycznej, do której należy i która obsługuje port”.",
+              "belarusian": "«Не маю паняцця. Падаецца, што ён працуе на Wild Pines, лагістычную кампанію, якой належыць порт і якая аперуе ім».",
               "links": [
                 {
                   "id": 96,
+                  "redacted": false,
                   "title": "You: \"\"But why is he sleeping during the...\"",
+                  "actor": "You",
+                  "to": "Sleeping Dockworker",
                   "articyId": "0x01000057000220A2",
-                  "text": "\"But why is he sleeping during the day?\"",
+                  "english": "\"But why is he sleeping during the day?\"",
+                  "polish": "„Ale dlaczego on śpi w ciągu dnia?”",
+                  "belarusian": "«Але чаму ён спіць удзень?»",
                   "links": [
                     {
                       "id": 40,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"Possibly because there's a strike...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x01000057000220AA",
-                      "text": "\"Possibly because there's a strike going on in the harbour. There's not much to do -- aside from drinking and sleeping.\"",
+                      "english": "\"Possibly because there's a strike going on in the harbour. There's not much to do -- aside from drinking and sleeping.\"",
+                      "polish": "„Być może dlatego, że w porcie trwa strajk. Nie ma za dużo do roboty poza piciem i spaniem”.",
+                      "belarusian": "«Можа, таму што ў порце адбываецца страйк. Няма шмат чаго рабіць, акрамя піцця і сну».",
                       "links": []
                     }
                   ]
@@ -42,21 +67,36 @@
         },
         {
           "id": 11,
+          "redacted": false,
           "title": "You: \"Pick up the pills.\"",
+          "actor": "You",
+          "to": "Sleeping Dockworker",
           "articyId": "0x010000060000FFFA",
-          "text": "Pick up the pills.",
+          "english": "Pick up the pills.",
+          "polish": "Weź tabletki.",
+          "belarusian": "Прынясі таблеткі.",
           "links": [
             {
               "id": 145,
+              "redacted": false,
               "title": "Sleeping Dockworker: \"The man does not mind. You probably...\"",
+              "actor": "Sleeping Dockworker",
+              "to": "You",
               "articyId": "0x0100000600010001",
-              "text": "The man does not mind. You probably need them more than he does.",
+              "english": "The man does not mind. You probably need them more than he does.",
+              "polish": "Mężczyzna nie ma nic przeciwko. Potrzebujesz ich zapewne bardziej niż on.",
+              "belarusian": "Мужчына не мае нічога супраць. Табе яны, напэўна, патрэбныя больш, чым яму.",
               "links": [
                 {
                   "id": 100,
+                  "redacted": false,
                   "title": "Tutorial Agent: \"You’ve just picked up some MAGNESIU...\"",
+                  "actor": "Tutorial Agent",
+                  "to": "You",
                   "articyId": "0x0100000600010008",
-                  "text": "You’ve just picked up some MAGNESIUM. This item is stored in the bottom left corner of the screen, above your character portrait. Use MAGNESIUM to heal your Morale, if you have Morale damage.",
+                  "english": "You’ve just picked up some MAGNESIUM. This item is stored in the bottom left corner of the screen, above your character portrait. Use MAGNESIUM to heal your Morale, if you have Morale damage.",
+                  "polish": "Znalazłeś właśnie nieco MAGNEZU. Ten przedmiot przechowywany jest w lewym dolnym rogu ekranu, nad portretem twojej postaci. Używaj MAGNEZU do leczenia morale, jeśli uległo ono obniżeniu.",
+                  "belarusian": "Вы толькі што знайшлі крыху МАГНІЮ. Гэты прадмет захоўваецца ў левым ніжнім куце экрана, над партрэтам вашага персанажа. Выкарыстоўвайце МАГНІЙ для аднаўлення маралі, калі яна панізілася.",
                   "links": []
                 }
               ]
@@ -65,108 +105,193 @@
         },
         {
           "id": 57,
+          "redacted": false,
           "title": "You: \"Inspect the piece of plastic on his...\"",
+          "actor": "You",
+          "to": "Sleeping Dockworker",
           "articyId": "0x0100005700022073",
-          "text": "Inspect the piece of plastic on his carabiner.",
+          "english": "Inspect the piece of plastic on his carabiner.",
+          "polish": "Przyjrzyj się kawałkowi plastiku na jego karabińczyku.",
+          "belarusian": "Прыгледзься да кавалка пластыку на яго карабіне.",
           "links": [
             {
               "id": 58,
+              "redacted": false,
               "title": "Sleeping Dockworker: \"It's a dockworker's ID, doubling as...\"",
+              "actor": "Sleeping Dockworker",
+              "to": "You",
               "articyId": "0x0100005700022079",
-              "text": "It's a dockworker's ID, doubling as a shift card and a job permit. A young, able-bodied man stares back at you from the photo: Santiago S. John.",
+              "english": "It's a dockworker's ID, doubling as a shift card and a job permit. A young, able-bodied man stares back at you from the photo: Santiago S. John.",
+              "polish": "To identyfikator pracowniczy pełniący też funkcję karty dostępu i pozwolenia na pracę. Ze zdjęcia patrzy na ciebie młody, postawny mężczyzna: Santiago S. John.",
+              "belarusian": "Гэта ідэнтыфікатар работніка, які таксама выконвае функцыю карты доступу і дазволу на працу. З фатаграфіі глядзіць на вас малады, статны мужчына: Сант'яга С. Джон.",
               "links": []
             }
           ]
         },
         {
           "id": 67,
+          "redacted": false,
           "title": "You: \"Wake him up.\"",
+          "actor": "You",
+          "to": "Sleeping Dockworker",
           "articyId": "0x0100001600001EB8",
-          "text": "Wake him up.",
+          "english": "Wake him up.",
+          "polish": "Obudź go.",
+          "belarusian": "Разбудзь яго.",
           "links": [
             {
               "id": 142,
+              "redacted": false,
               "title": "Physical Instrument: \"There is only one way to awake this...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x01000057000220B3",
-              "text": "There is only one way to awake this bone idle from his slumber. Roar like a hurricane, rip the buildings from the Earth!",
+              "english": "There is only one way to awake this bone idle from his slumber. Roar like a hurricane, rip the buildings from the Earth!",
+              "polish": "Jest tylko jeden sposób na obudzenie tego bumelanta ze snu. Ryknij niczym huragan! Wyrwij budynki z posad!",
+              "belarusian": "Ёсць толькі адзін спосаб абудзіць гэтага лентяя ад сну. Рыкні, як ураган! Вырві будынкі з падмуркаў!",
               "links": [
                 {
                   "id": 144,
+                  "redacted": false,
                   "title": "You: \"\"WAKE UP! THIS IS AN ORDER, I AM TH...\"",
+                  "actor": "You",
+                  "to": "Sleeping Dockworker",
                   "articyId": "0x01000057000220FE",
-                  "text": "\"WAKE UP! THIS IS AN ORDER, I AM THE LAW.\"",
+                  "english": "\"WAKE UP! THIS IS AN ORDER, I AM THE LAW.\"",
+                  "polish": "„POBUDKA! ROZKAZ, PRAWO TO JA!”",
+                  "belarusian": "«ПАД'ЁМ! ЗАГАД, ПРАВА – ГЭТА Я!»",
                   "links": [
                     {
                       "id": 84,
+                      "redacted": false,
                       "title": "Sleeping Dockworker: \"\"Why the yelling, man?\" The 30-some...\"",
+                      "actor": "Sleeping Dockworker",
+                      "to": "You",
                       "articyId": "0x0100002D0000000B",
-                      "text": "\"Why the yelling, man?\" The 30-something man slowly lifts his head and gives you a pensive look.",
+                      "english": "\"Why the yelling, man?\" The 30-something man slowly lifts his head and gives you a pensive look.",
+                      "polish": "„I czego wrzeszczysz, chłopie?” – mężczyzna, około trzydziestki, powoli podnosi głowę i spogląda na ciebie z zadumą.",
+                      "belarusian": "«І чаго ты крычыш, хлопча?» — мужчына, каля трыццаці, павольна падымае галаву і задуменна глядзіць на цябе.",
                       "links": [
                         {
                           "id": 178,
+                          "redacted": false,
                           "title": "Encyclopedia: \"Looks like a Sao descendant. A lot...\"",
+                          "actor": "Encyclopedia",
+                          "to": "You",
                           "articyId": "0x01000006000181AE",
-                          "text": "Looks like a Sao descendant. A lot of Sao dockworkers around.",
+                          "english": "Looks like a Sao descendant. A lot of Sao dockworkers around.",
+                          "polish": "Wygląda na potomka Sao. Wielu Sao pracuje jako portowcy.",
+                          "belarusian": "Выглядае як нашчадак Сао. Шматлікія Сао працуюць у партах.",
                           "links": [
                             {
                               "id": 51,
+                              "redacted": false,
                               "title": "You: \"\"You're *alive*? You looked out for...\"",
+                              "actor": "You",
+                              "to": "Sleeping Dockworker",
                               "articyId": "0x0100002D0000001D",
-                              "text": "\"You're *alive*? You looked out for the long count there...\"",
+                              "english": "\"You're *alive*? You looked out for the long count there...\"",
+                              "polish": "„Ty *żyjesz*? Wyglądało to na permanentny nokaut...”",
+                              "belarusian": "«Ты *жывы*? Гэта выглядала як пастаянны накаўт...»",
                               "links": [
                                 {
                                   "id": 56,
+                                  "redacted": false,
                                   "title": "Sleeping Dockworker: \"\"Wait, what? I was just sleeping.\"...\"",
+                                  "actor": "Sleeping Dockworker",
+                                  "to": "You",
                                   "articyId": "0x0100002D0000003F",
-                                  "text": "\"Wait, what? I was just sleeping.\" He seems pissed off. \"What do you want, officer?\"",
+                                  "english": "\"Wait, what? I was just sleeping.\" He seems pissed off. \"What do you want, officer?\"",
+                                  "polish": "„Że co? Spałem po prostu” – wydaje się wkurzony. „W czym mogę pomóc, panie władzo?”",
+                                  "belarusian": "«Што? Я проста спаў», — здаецца раззлаваны. «Чым я магу дапамагчы, пане ўлады?»",
                                   "links": [
                                     {
                                       "id": 159,
+                                      "redacted": false,
                                       "title": "Authority: \"Officer? Even after a rude awakenin...\"",
+                                      "actor": "Authority",
+                                      "to": "You",
                                       "articyId": "0x0100000600010A6B",
-                                      "text": "Officer? Even after a rude awakening -- this dockworker respects the police. More than they usually do at least.",
+                                      "english": "Officer? Even after a rude awakening -- this dockworker respects the police. More than they usually do at least.",
+                                      "polish": "„Panie władzo”? Nawet po niegrzecznym przebudzeniu portowiec okazuje szacunek policji. A w każdym razie większy szacunek niż większość z nich.",
+                                      "belarusian": "«Пане ўлада»? Нават пасля грубага абуджэння портавы рабочы праяўляе павагу да паліцыі. А ў любым выпадку, больш павагі, чым большасць з іх.",
                                       "links": [
                                         {
                                           "id": 87,
+                                          "redacted": false,
                                           "title": "You: \"\"See anything interesting in your d...\"",
+                                          "actor": "You",
+                                          "to": "Sleeping Dockworker",
                                           "articyId": "0x0100005700022118",
-                                          "text": "\"See anything interesting in your dreams?\"",
+                                          "english": "\"See anything interesting in your dreams?\"",
+                                          "polish": "„Widziałeś coś ciekawego w swoich snach?”",
+                                          "belarusian": "«Ці бачылі вы нешта цікавае ў сваіх снах?»",
                                           "links": [
                                             {
                                               "id": 106,
+                                              "redacted": false,
                                               "title": "Sleeping Dockworker: \"\"Thank god, no.\"\"",
+                                              "actor": "Sleeping Dockworker",
+                                              "to": "You",
                                               "articyId": "0x0100005700022179",
-                                              "text": "\"Thank god, no.\"",
+                                              "english": "\"Thank god, no.\"",
+                                              "polish": "„Nie, dzięki bogu”.",
+                                              "belarusian": "«Не, дзякуй богу».",
                                               "links": [
                                                 {
                                                   "id": 41,
+                                                  "redacted": false,
                                                   "title": "You: \"\"Was it a fathomless darkness into...\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x0100005700022180",
-                                                  "text": "\"Was it a fathomless darkness into which we ought to be deferred, like corpses to a mausoleum?\"",
+                                                  "english": "\"Was it a fathomless darkness into which we ought to be deferred, like corpses to a mausoleum?\"",
+                                                  "polish": "„Czy była tam nieprzenikniona ciemność, w której powinniśmy spoczywać niczym ciała w mauzoleum?”",
+                                                  "belarusian": "«Ці была там непранікальная цемра, у якой мы павінны спачываць, як целы ў маўзалеі?»",
                                                   "links": [
                                                     {
                                                       "id": 121,
+                                                      "redacted": false,
                                                       "title": "Sleeping Dockworker: \"The worker stares at you, his eyes...\"",
+                                                      "actor": "Sleeping Dockworker",
+                                                      "to": "You",
                                                       "articyId": "0x01000057000221B1",
-                                                      "text": "The worker stares at you, his eyes dry from sleep. A web of wrinkles covers his tanned forehead.",
+                                                      "english": "The worker stares at you, his eyes dry from sleep. A web of wrinkles covers his tanned forehead.",
+                                                      "polish": "Robotnik spogląda na ciebie przekrwionymi od snu oczami. Na jego opalonym czole rysuje się siatka zmarszczek.",
+                                                      "belarusian": "Рабочы глядзіць на цябе з чырвонымі ад сну вачыма. На яго загарэлым ілбе бачная сетка маршчынак.",
                                                       "links": [
                                                         {
                                                           "id": 59,
+                                                          "redacted": false,
                                                           "title": "Sleeping Dockworker: \"\"I don't know what you're talking a...\"",
+                                                          "actor": "Sleeping Dockworker",
+                                                          "to": "You",
                                                           "articyId": "0x01000057000221F7",
-                                                          "text": "\"I don't know what you're talking about, kind sir, but when I'm out, then I'm really *out*. No corpses. No mausoleums. Just *quality-time*.\"",
+                                                          "english": "\"I don't know what you're talking about, kind sir, but when I'm out, then I'm really *out*. No corpses. No mausoleums. Just *quality-time*.\"",
+                                                          "polish": "„Nie wiem, o co panu chodzi, łaskawy panie, ale kiedy śpię, to *naprawdę* głęboko. Żadnych trupów, żadnych mauzoleów. Tylko *doskonały odpoczynek*”.",
+                                                          "belarusian": "«Не ведаю, пра што вам ідзе, спадар, але калі я сплю, дык *сапраўды* глыбока. Ніякіх трупаў, ніякіх маўзалеяў. Толькі *выдатны адпачынак*».",
                                                           "links": [
                                                             {
                                                               "id": 168,
+                                                              "redacted": false,
                                                               "title": "Inland Empire: \"A little *me*-time in the abyssopel...\"",
+                                                              "actor": "Inland Empire",
+                                                              "to": "You",
                                                               "articyId": "0x0100000600010A5D",
-                                                              "text": "A little *me*-time in the abyssopelagic zone... you can never return to it now. Only detective-work remains. Wakefulness and detection.",
+                                                              "english": "A little *me*-time in the abyssopelagic zone... you can never return to it now. Only detective-work remains. Wakefulness and detection.",
+                                                              "polish": "Odrobina czasu *dla siebie* w strefie abisalnej... Nigdy już tam nie wrócisz. Pozostaje tylko detektywistyczna robota. Czuwanie, wykrywanie.",
+                                                              "belarusian": "Крыху часу *для сябе* ў абісальнай зоне... Ніколі ўжо туды не вернешся. Застаецца толькі дэтэктыўная праца. Дзяжурства, выяўленне.",
                                                               "links": [
                                                                 {
                                                                   "id": 128,
+                                                                  "redacted": false,
                                                                   "title": "Endurance: \"Fuck sleep. Despite the headache --...\"",
+                                                                  "actor": "Endurance",
+                                                                  "to": "You",
                                                                   "articyId": "0x010000060001F53F",
-                                                                  "text": "Fuck sleep. Despite the headache -- and the queasiness -- you feel like you've got at least a ten kilometre run in you.",
+                                                                  "english": "Fuck sleep. Despite the headache -- and the queasiness -- you feel like you've got at least a ten kilometre run in you.",
+                                                                  "polish": "Jebać sen. Boli cię łeb i jest ci niedobrze, ale i tak czujesz, że mógłbyś przebiec co najmniej dziesięć kilosów.",
+                                                                  "belarusian": "Забіць сон. Балiць табе галава і табе дрэнна, але ўсё роўна адчуваеш, што мог бы прабегчы як мінімум дзесяць кіламетраў.",
                                                                   "links": []
                                                                 }
                                                               ]
@@ -179,21 +304,36 @@
                                                 },
                                                 {
                                                   "id": 101,
+                                                  "redacted": false,
                                                   "title": "You: \"\"Was it pure nothing, your consciou...\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x0100000600010A30",
-                                                  "text": "\"Was it pure nothing, your consciousness no larger than a single grain of malt?\"",
+                                                  "english": "\"Was it pure nothing, your consciousness no larger than a single grain of malt?\"",
+                                                  "polish": "„Czy była tam czysta nicość? A twoja świadomość miała rozmiar raptem ziarnka słodu?”",
+                                                  "belarusian": "«Ці была там чыстая пустэча? А ваша свядомасць мела памер толькі зярнятак будаў?»",
                                                   "links": [
                                                     {
                                                       "id": 102,
+                                                      "redacted": false,
                                                       "title": "Sleeping Dockworker: \"The worker stares at you, his eyes...\"",
+                                                      "actor": "Sleeping Dockworker",
+                                                      "to": "You",
                                                       "articyId": "0x0100000600010A45",
-                                                      "text": "The worker stares at you, his eyes dry from sleep. A web of wrinkles covers his tanned forehead.",
+                                                      "english": "The worker stares at you, his eyes dry from sleep. A web of wrinkles covers his tanned forehead.",
+                                                      "polish": "Robotnik spogląda na ciebie przekrwionymi od snu oczami. Na jego opalonym czole rysuje się siatka zmarszczek.",
+                                                      "belarusian": "Работнік глядзіць на цябе з чырвонымі ад сну вачамі. На яго загарэлым ілбе вырысоўваецца сетка зморшчын.",
                                                       "links": [
                                                         {
                                                           "id": 92,
+                                                          "redacted": false,
                                                           "title": "Sleeping Dockworker: \"\"I don't know what you're talking a...\"",
+                                                          "actor": "Sleeping Dockworker",
+                                                          "to": "You",
                                                           "articyId": "0x0100000600010A3F",
-                                                          "text": "\"I don't know what you're talking about, kind sir, but when I'm out, then I'm really *out*. No malt grains or whatever. No poetry-stuff. Just *quality-time*.\"",
+                                                          "english": "\"I don't know what you're talking about, kind sir, but when I'm out, then I'm really *out*. No malt grains or whatever. No poetry-stuff. Just *quality-time*.\"",
+                                                          "polish": "„Nie wiem, o co panu chodzi, łaskawy panie, ale kiedy śpię, to *naprawdę* głęboko. Żadnych ziarenek słodu ani innych poetyckich bzdur. Tylko *doskonały odpoczynek*”.",
+                                                          "belarusian": "«Не ведаю, чаго вам трэба, добры пане, але калі я сплю, то *сапраўды* глыбока. Ніякіх зерней соладу ці іншых паэтычных глупстваў. Толькі *выдатны адпачынак*».",
                                                           "links": []
                                                         }
                                                       ]
@@ -202,21 +342,36 @@
                                                 },
                                                 {
                                                   "id": 167,
+                                                  "redacted": false,
                                                   "title": "You: \"\"Tell me -- was it a bliss free of...\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x0100000600010A37",
-                                                  "text": "\"Tell me -- was it a bliss free of ex-somethings?",
+                                                  "english": "\"Tell me -- was it a bliss free of ex-somethings?",
+                                                  "polish": "„Powiedz mi – czy była to absolutnie wolna od eks-czegokolwiek błogość?”",
+                                                  "belarusian": "«Скажы мне – ці была гэта абсалютна вольная ад экс-што-небудзь блажэнства?»",
                                                   "links": [
                                                     {
                                                       "id": 146,
+                                                      "redacted": false,
                                                       "title": "Sleeping Dockworker: \"The worker stares at you, his eyes...\"",
+                                                      "actor": "Sleeping Dockworker",
+                                                      "to": "You",
                                                       "articyId": "0x0100000600010A51",
-                                                      "text": "The worker stares at you, his eyes dry from sleep. A web of wrinkles covers his tanned forehead.",
+                                                      "english": "The worker stares at you, his eyes dry from sleep. A web of wrinkles covers his tanned forehead.",
+                                                      "polish": "Robotnik spogląda na ciebie przekrwionymi od snu oczami. Na jego opalonym czole rysuje się siatka zmarszczek.",
+                                                      "belarusian": "Работнік глядзіць на цябе заплывшымі ад недахопу сну вачыма. На яго загарэлым ілбе відаць сетка зморшчын.",
                                                       "links": [
                                                         {
                                                           "id": 65,
+                                                          "redacted": false,
                                                           "title": "Sleeping Dockworker: \"\"I don't know what you're talking a...\"",
+                                                          "actor": "Sleeping Dockworker",
+                                                          "to": "You",
                                                           "articyId": "0x0100000600010A4B",
-                                                          "text": "\"I don't know what you're talking about, kind sir, but when I'm out, then I'm really *out*. No ex-anything. Just *quality time*.\"",
+                                                          "english": "\"I don't know what you're talking about, kind sir, but when I'm out, then I'm really *out*. No ex-anything. Just *quality time*.\"",
+                                                          "polish": "„Nie wiem, o co panu chodzi, łaskawy panie, ale kiedy śpię, to *naprawdę* głęboko. Żadnego eks-kogokolwiek. Tylko *doskonały odpoczynek*”.",
+                                                          "belarusian": "«Не ведаю, у чым справа, ласкавы пан, але калі я сплю, то *сапраўды* глыбока. Ніякага былога каго-небудзь. Толькі *выдатны адпачынак*».",
                                                           "links": []
                                                         }
                                                       ]
@@ -225,15 +380,25 @@
                                                 },
                                                 {
                                                   "id": 192,
+                                                  "redacted": false,
                                                   "title": "You: \"\"You're right. Let's talk about som...\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x010000570002218C",
-                                                  "text": "\"You're right. Let's talk about something else.\"",
+                                                  "english": "\"You're right. Let's talk about something else.\"",
+                                                  "polish": "„Racja. Porozmawiajmy o czym innym”.",
+                                                  "belarusian": "«Сапраўды. Пагаворым пра нешта іншае».",
                                                   "links": [
                                                     {
                                                       "id": 9,
+                                                      "redacted": false,
                                                       "title": "Sleeping Dockworker: \"\"Brilliant.\" The worker blinks, as...\"",
+                                                      "actor": "Sleeping Dockworker",
+                                                      "to": "You",
                                                       "articyId": "0x01000057000221BD",
-                                                      "text": "\"Brilliant.\" The worker blinks, as if trying to scare away the sleep.",
+                                                      "english": "\"Brilliant.\" The worker blinks, as if trying to scare away the sleep.",
+                                                      "polish": "„Cudownie” – portowiec mruga, jakby chciał odpędzić sen.",
+                                                      "belarusian": "«Выдатна» – портавік міргае, быццам хоча адганяць сон.",
                                                       "links": []
                                                     }
                                                   ]
@@ -244,57 +409,102 @@
                                         },
                                         {
                                           "id": 190,
+                                          "redacted": false,
                                           "title": "You: \"\"Tell me about Wild Pines.\" (Point...\"",
+                                          "actor": "You",
+                                          "to": "Sleeping Dockworker",
                                           "articyId": "0x0100002D0000008C",
-                                          "text": "\"Tell me about Wild Pines.\" (Point to the writing on his overalls.)",
+                                          "english": "\"Tell me about Wild Pines.\" (Point to the writing on his overalls.)",
+                                          "polish": "„Opowiedz mi o Wild Pines”. (Wskaż na napis na jego ubraniu).",
+                                          "belarusian": "«Раскажы мне пра Wild Pines». (Пакажы на надпіс на яго адзенні).",
                                           "links": [
                                             {
                                               "id": 54,
+                                              "redacted": false,
                                               "title": "Sleeping Dockworker: \"\"That's the name of my employer. I...\"",
+                                              "actor": "Sleeping Dockworker",
+                                              "to": "You",
                                               "articyId": "0x0100001800002BBD",
-                                              "text": "\"That's the name of my employer. I work in logistics.\"",
+                                              "english": "\"That's the name of my employer. I work in logistics.\"",
+                                              "polish": "„To nazwa mojego pracodawcy. Robię w logistyce”.",
+                                              "belarusian": "«Гэта назва майго працадаўцы. Я працую ў лагістыцы».",
                                               "links": [
                                                 {
                                                   "id": 160,
+                                                  "redacted": false,
                                                   "title": "Empathy: \"He doesn't sound too enthusiastic a...\"",
+                                                  "actor": "Empathy",
+                                                  "to": "You",
                                                   "articyId": "0x010000570002211E",
-                                                  "text": "He doesn't sound too enthusiastic about this.",
+                                                  "english": "He doesn't sound too enthusiastic about this.",
+                                                  "polish": "Nie okazuje zbytniego entuzjazmu.",
+                                                  "belarusian": "Не праяўляе асаблівага энтузіязму.",
                                                   "links": [
                                                     {
                                                       "id": 173,
+                                                      "redacted": false,
                                                       "title": "You: \"\"How's that going?\"\"",
+                                                      "actor": "You",
+                                                      "to": "Sleeping Dockworker",
                                                       "articyId": "0x0100005700022125",
-                                                      "text": "\"How's that going?\"",
+                                                      "english": "\"How's that going?\"",
+                                                      "polish": "„I jak ci to idzie?”",
+                                                      "belarusian": "«І як табе гэта атрымліваецца?»",
                                                       "links": [
                                                         {
                                                           "id": 201,
+                                                          "redacted": false,
                                                           "title": "Sleeping Dockworker: \"\"How's it going?\" The dockworker le...\"",
+                                                          "actor": "Sleeping Dockworker",
+                                                          "to": "You",
                                                           "articyId": "0x0100005700022132",
-                                                          "text": "\"How's it going?\" The dockworker lets out a big yawn, then stares at the cafeteria's terrace doors. Some fingerprints glisten on the glass.",
+                                                          "english": "\"How's it going?\" The dockworker lets out a big yawn, then stares at the cafeteria's terrace doors. Some fingerprints glisten on the glass.",
+                                                          "polish": "„Jak idzie?” – portowiec ziewa potężnie, po czym spogląda na drzwi wiodące na taras baru. Szyba jest poznaczona odciskami palców.",
+                                                          "belarusian": "«Як ідзе?» — портовік магутна пазяхае, пасля чаго глядзіць на дзверы, якія вядуць на тэрасу бара. Шкло пазначана адбіткамі пальцаў.",
                                                           "links": [
                                                             {
                                                               "id": 174,
+                                                              "redacted": false,
                                                               "title": "Sleeping Dockworker: \"\"Haven't you noticed what's going o...\"",
+                                                              "actor": "Sleeping Dockworker",
+                                                              "to": "You",
                                                               "articyId": "0x0100005700022139",
-                                                              "text": "\"Haven't you noticed what's going on outside?\"",
+                                                              "english": "\"Haven't you noticed what's going on outside?\"",
+                                                              "polish": "„Nie zauważyłeś, co się dzieje na zewnątrz?”",
+                                                              "belarusian": "«Ці не заўважыў ты, што адбываецца на вуліцы?»",
                                                               "links": [
                                                                 {
                                                                   "id": 8,
+                                                                  "redacted": false,
                                                                   "title": "You: \"\"Of course. It's a total *madhouse*.\"\"",
+                                                                  "actor": "You",
+                                                                  "to": "Sleeping Dockworker",
                                                                   "articyId": "0x0100005700022140",
-                                                                  "text": "\"Of course. It's a total *madhouse*.\"",
+                                                                  "english": "\"Of course. It's a total *madhouse*.\"",
+                                                                  "polish": "„Oczywiście, że tak. Kompletne *wariatkowo*”.",
+                                                                  "belarusian": "«Вядома, што так. Поўнае *звар'яцеласць*».",
                                                                   "links": [
                                                                     {
                                                                       "id": 153,
+                                                                      "redacted": false,
                                                                       "title": "Sleeping Dockworker: \"\"Good, then you understand the gist...\"",
+                                                                      "actor": "Sleeping Dockworker",
+                                                                      "to": "You",
                                                                       "articyId": "0x0100005700022154",
-                                                                      "text": "\"Good, then you understand the gist of it. We would all be better off without the employers and their employment.\"",
+                                                                      "english": "\"Good, then you understand the gist of it. We would all be better off without the employers and their employment.\"",
+                                                                      "polish": "„Świetnie, to rozumiesz, o co chodzi. Lepiej by nam było bez pracodawców i ich pracodawania”.",
+                                                                      "belarusian": "«Выдатна, ты разумееш, пра што ідзе гаворка. Нам было б лепш без працадаўцаў і іх найму».",
                                                                       "links": [
                                                                         {
                                                                           "id": 72,
+                                                                          "redacted": false,
                                                                           "title": "Sleeping Dockworker: \"\"For one -- I could get some god da...\"",
+                                                                          "actor": "Sleeping Dockworker",
+                                                                          "to": "You",
                                                                           "articyId": "0x0100005700022169",
-                                                                          "text": "\"For one -- I could get some god damn shut-eye.\" He rubs his eyes, then lets his head fall back on the table. \"Right to *sleep*, I say.\"",
+                                                                          "english": "\"For one -- I could get some god damn shut-eye.\" He rubs his eyes, then lets his head fall back on the table. \"Right to *sleep*, I say.\"",
+                                                                          "polish": "„Mógłbym na przykład... trochę się, cholera, wyspać” – pociera oczy i pozwala głowie opaść z powrotem na stół. „Prawo do *spania*, tak ci powiem”.",
+                                                                          "belarusian": "«Мог бы, напрыклад... крышачку, чорт вазьмі, выспацца» — церэ вочы і дазваляе галаве зноў упасці на стол. «Права на *сон*, вось табе скажу».",
                                                                           "links": []
                                                                         }
                                                                       ]
@@ -303,21 +513,36 @@
                                                                 },
                                                                 {
                                                                   "id": 175,
+                                                                  "redacted": false,
                                                                   "title": "You: \"\"I'm not sure what you mean.\"\"",
+                                                                  "actor": "You",
+                                                                  "to": "Sleeping Dockworker",
                                                                   "articyId": "0x0100005700022146",
-                                                                  "text": "\"I'm not sure what you mean.\"",
+                                                                  "english": "\"I'm not sure what you mean.\"",
+                                                                  "polish": "„Nie rozumiem, co masz na myśli”.",
+                                                                  "belarusian": "«Я не разумею, што ты маеш на ўвазе».",
                                                                   "links": [
                                                                     {
                                                                       "id": 152,
+                                                                      "redacted": false,
                                                                       "title": "Sleeping Dockworker: \"\"We're in the middle of a strike do...\"",
+                                                                      "actor": "Sleeping Dockworker",
+                                                                      "to": "You",
                                                                       "articyId": "0x010000570002214E",
-                                                                      "text": "\"We're in the middle of a strike down at the harbour. Trying to force some sense into the executive board of Wild Pines.\"",
+                                                                      "english": "\"We're in the middle of a strike down at the harbour. Trying to force some sense into the executive board of Wild Pines.\"",
+                                                                      "polish": "„W porcie trwa właśnie strajk. Próbujemy przemówić trochę do rozumu radzie nadzorczej Wild Pines”.",
+                                                                      "belarusian": "«У порце цяпер ідзе страйк. Мы спрабуем пераканаць якую-небудзь раду дырэктараў Wild Pines».",
                                                                       "links": [
                                                                         {
                                                                           "id": 133,
+                                                                          "redacted": false,
                                                                           "title": "Sleeping Dockworker: \"\"For one -- I could use some more s...\"",
+                                                                          "actor": "Sleeping Dockworker",
+                                                                          "to": "You",
                                                                           "articyId": "0x010000570002215D",
-                                                                          "text": "\"For one -- I could use some more shut-eye in the mornings...\" He rubs his eyes and sighs. \"Right to work? Right to *sleep*, I say.\"",
+                                                                          "english": "\"For one -- I could use some more shut-eye in the mornings...\" He rubs his eyes and sighs. \"Right to work? Right to *sleep*, I say.\"",
+                                                                          "polish": "„Mógłbym na przykład... trochę lepiej się wysypiać rano...” – pociera oczy i wzdycha. „Prawo do pracy? Jak dla mnie ważniejsze jest prawo do *spania*”.",
+                                                                          "belarusian": "„Мог бы, напрыклад... трохі лепш высыпацца раніцай...” – церэ вочы і ўздыхае. „Права на працу? Як для мяне, важнейшае права на *сон*”.",
                                                                           "links": []
                                                                         }
                                                                       ]
@@ -326,15 +551,25 @@
                                                                 },
                                                                 {
                                                                   "id": 80,
+                                                                  "redacted": false,
                                                                   "title": "You: \"\"I've almost never been outside of...\"",
+                                                                  "actor": "You",
+                                                                  "to": "Sleeping Dockworker",
                                                                   "articyId": "0x010000060001F54D",
-                                                                  "text": "\"I've almost never been outside of this building.\"",
+                                                                  "english": "\"I've almost never been outside of this building.\"",
+                                                                  "polish": "„Prawie w ogóle nie wychodziłem z tego budynku”.",
+                                                                  "belarusian": "«Амаль зусім не выходзіў з гэтай будыніны».",
                                                                   "links": [
                                                                     {
                                                                       "id": 195,
+                                                                      "redacted": false,
                                                                       "title": "Sleeping Dockworker: \"\"Good.\" He doesn't dwell on the par...\"",
+                                                                      "actor": "Sleeping Dockworker",
+                                                                      "to": "You",
                                                                       "articyId": "0x010000060001F554",
-                                                                      "text": "\"Good.\" He doesn't dwell on the particulars of your existence. \"We're in the middle of a strike down at the harbour. Trying to force some sense into the executive board of Wild Pines.\"",
+                                                                      "english": "\"Good.\" He doesn't dwell on the particulars of your existence. \"We're in the middle of a strike down at the harbour. Trying to force some sense into the executive board of Wild Pines.\"",
+                                                                      "polish": "„Dobrze” – nie przejmuje się szczegółami związanymi z twoim istnieniem. „W porcie trwa akurat strajk. Próbujemy przemówić trochę do rozumu radzie nadzorczej Wild Pines”.",
+                                                                      "belarusian": "«Добра» — не турбуецца дэталямі, звязанымі з вашым існаваннем. «У порце якраз адбываецца страйк. Прабуем трохі павучыць раду дырэктараў Wild Pines».",
                                                                       "links": []
                                                                     }
                                                                   ]
@@ -347,15 +582,25 @@
                                                     },
                                                     {
                                                       "id": 30,
+                                                      "redacted": false,
                                                       "title": "You: \"\"That's wonderful.\"\"",
+                                                      "actor": "You",
+                                                      "to": "Sleeping Dockworker",
                                                       "articyId": "0x010000570002212B",
-                                                      "text": "\"That's wonderful.\"",
+                                                      "english": "\"That's wonderful.\"",
+                                                      "polish": "„Coś wspaniałego”.",
+                                                      "belarusian": "\"Нешта выдатнае\".",
                                                       "links": [
                                                         {
                                                           "id": 73,
+                                                          "redacted": false,
                                                           "title": "Sleeping Dockworker: \"\"Logistics? No, it's a nightmare.\"...\"",
+                                                          "actor": "Sleeping Dockworker",
+                                                          "to": "You",
                                                           "articyId": "0x0100005700022171",
-                                                          "text": "\"Logistics? No, it's a nightmare.\" He lets his head fall back on the table.",
+                                                          "english": "\"Logistics? No, it's a nightmare.\" He lets his head fall back on the table.",
+                                                          "polish": "„Logistyka? Nie. To koszmar” – pozwala swojej głowie opaść z powrotem na stół.",
+                                                          "belarusian": "«Лагістыка? Не. Гэта кашмар» – дазваляе сваёй галаве зноў апусціцца на стол.",
                                                           "links": []
                                                         }
                                                       ]
@@ -368,28 +613,48 @@
                                         },
                                         {
                                           "id": 85,
+                                          "redacted": false,
                                           "title": "You: \"\"Why are you sleeping here while th...\"",
+                                          "actor": "You",
+                                          "to": "Sleeping Dockworker",
                                           "articyId": "0x0100002D00000051",
-                                          "text": "\"Why are you sleeping here while the others are out striking?\"",
+                                          "english": "\"Why are you sleeping here while the others are out striking?\"",
+                                          "polish": "„Czemu tu śpisz, kiedy inni strajkują na zewnątrz?”",
+                                          "belarusian": "«Чаму ты спіш тут, калі іншыя страйкуюць на вуліцы?»",
                                           "links": [
                                             {
                                               "id": 42,
+                                              "redacted": false,
                                               "title": "Sleeping Dockworker: \"\"They got it. Measurehead's got it,...\"",
+                                              "actor": "Sleeping Dockworker",
+                                              "to": "You",
                                               "articyId": "0x0100005700022198",
-                                              "text": "\"They got it. Measurehead's got it, he's guarding the gate. I'm just getting some sleep. Or *was*...\"",
+                                              "english": "\"They got it. Measurehead's got it, he's guarding the gate. I'm just getting some sleep. Or *was*...\"",
+                                              "polish": "„Dadzą radę. Miarogłowy da radę, pilnuje bramy. Ja tylko ucinam sobie drzemkę. No, *ucinałem*...”",
+                                              "belarusian": "«Дадуць рады. Міяголавы справіцца, сочыць за брамай. Я толькі крыху падрамаю. Ну, *драмаў*...»",
                                               "links": [
                                                 {
                                                   "id": 179,
+                                                  "redacted": false,
                                                   "title": "Physical Instrument: \"The way he says \"Measurehead\" impli...\"",
+                                                  "actor": "Physical Instrument",
+                                                  "to": "You",
                                                   "articyId": "0x010000060001F55C",
-                                                  "text": "The way he says \"Measurehead\" implies ultimate trust in this head-reckoner's physical prowess.",
+                                                  "english": "The way he says \"Measurehead\" implies ultimate trust in this head-reckoner's physical prowess.",
+                                                  "polish": "Sposób, w jaki wymawia słowo „Miarogłowy”, wskazuje, że bezgranicznie wierzy w fizyczne możliwości tego mierniczego czerepów.",
+                                                  "belarusian": "Спосаб, якім ён вымаўляе слова \"Міароглавы\", паказвае, што бязмежна верыць у фізічныя магчымасці гэтага мераўніка чарапоў.",
                                                   "links": []
                                                 },
                                                 {
                                                   "id": 50,
+                                                  "redacted": false,
                                                   "title": "Physical Instrument: \"The way he says \"Measurehead\" impli...\"",
+                                                  "actor": "Physical Instrument",
+                                                  "to": "You",
                                                   "articyId": "0x010000060001F56B",
-                                                  "text": "The way he says \"Measurehead\" implies ultimate trust in this head-reckoner's physical prowess. He seems like a worthy rival. You should *slay* him.",
+                                                  "english": "The way he says \"Measurehead\" implies ultimate trust in this head-reckoner's physical prowess. He seems like a worthy rival. You should *slay* him.",
+                                                  "polish": "Sposób, w jaki wymawia słowo „Miarogłowy”, wskazuje, że bezgranicznie wierzy w fizyczne możliwości tego mierniczego czerepów. To chyba godzien ciebie rywal. Powinieneś go *zabić*.",
+                                                  "belarusian": "Спосаб, у які ён вымаўляе слова «Miarogłowy», паказвае, што ён бязмежна верыць у фізічныя магчымасці гэтага мерачнага чарапа. Гэта, мабыць, варты цябе супернік. Ты павінен яго *забіць*.",
                                                   "links": []
                                                 }
                                               ]
@@ -398,36 +663,61 @@
                                         },
                                         {
                                           "id": 158,
+                                          "redacted": false,
                                           "title": "You: \"\"Who's behind organizing the strike?\"\"",
+                                          "actor": "You",
+                                          "to": "Sleeping Dockworker",
                                           "articyId": "0x0100006B0000103A",
-                                          "text": "\"Who's behind organizing the strike?\"",
+                                          "english": "\"Who's behind organizing the strike?\"",
+                                          "polish": "„Kto jest odpowiedzialny za organizację strajku?”",
+                                          "belarusian": "„Хто нясе адказнасць за арганізацыю страйку?”",
                                           "links": [
                                             {
                                               "id": 194,
+                                              "redacted": false,
                                               "title": "Sleeping Dockworker: \"\"We are... the workers. The Union....\"",
+                                              "actor": "Sleeping Dockworker",
+                                              "to": "You",
                                               "articyId": "0x0100006B00001041",
-                                              "text": "\"We are... the workers. The Union. We know what we need, what's right for us.\"",
+                                              "english": "\"We are... the workers. The Union. We know what we need, what's right for us.\"",
+                                              "polish": "„My. Pracownicy. Związek. Wiemy, czego potrzebujemy, co dla nas słuszne”.",
+                                              "belarusian": "«Мы. Працаўнікі. Саюз. Ведаем, што нам трэба, што для нас слушна».",
                                               "links": [
                                                 {
                                                   "id": 108,
+                                                  "redacted": false,
                                                   "title": "You: \"\"You mean there's no leader?\"\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x0100006B0000104C",
-                                                  "text": "\"You mean there's no leader?\"",
+                                                  "english": "\"You mean there's no leader?\"",
+                                                  "polish": "„Czyli nie macie żadnego przywódcy?”",
+                                                  "belarusian": "«Дык у вас няма ніводнага лідара?»",
                                                   "links": [
                                                     {
                                                       "id": 176,
+                                                      "redacted": false,
                                                       "title": "Sleeping Dockworker: \"\"Okay, I guess there's also Evrart,...\"",
+                                                      "actor": "Sleeping Dockworker",
+                                                      "to": "You",
                                                       "articyId": "0x0100006B00001059",
-                                                      "text": "\"Okay, I guess there's also Evrart, he's in charge of the Union. He's smart. Knows how to negotiate. He's got our back.\"",
+                                                      "english": "\"Okay, I guess there's also Evrart, he's in charge of the Union. He's smart. Knows how to negotiate. He's got our back.\"",
+                                                      "polish": "„No dobra, jest jeszcze Evrart, stoi na czele Związku. Sprytny gość. Umie negocjować. Wspiera nas”.",
+                                                      "belarusian": "«Ну добра, ёсць яшчэ Эўрар, стаіць на чале Саюза. Хітры хлопец. Умее весці перамовы. Падтрымлівае нас».",
                                                       "links": []
                                                     }
                                                   ]
                                                 },
                                                 {
                                                   "id": 151,
+                                                  "redacted": false,
                                                   "title": "You: \"\"Huh, alright. I guess that makes s...\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x0100006B00001053",
-                                                  "text": "\"Huh, alright. I guess that makes sense... somehow.\"",
+                                                  "english": "\"Huh, alright. I guess that makes sense... somehow.\"",
+                                                  "polish": "„Hm, no dobra. W sumie ma to... jakiś sens”.",
+                                                  "belarusian": "«Хм, добра. Увогуле гэта мае... нейкі сэнс».",
                                                   "links": []
                                                 }
                                               ]
@@ -436,87 +726,157 @@
                                         },
                                         {
                                           "id": 104,
+                                          "redacted": false,
                                           "title": "You: \"\"What about the dead body in the ya...\"",
+                                          "actor": "You",
+                                          "to": "Sleeping Dockworker",
                                           "articyId": "0x0100001800001E6C",
-                                          "text": "\"What about the dead body in the yard?\"",
+                                          "english": "\"What about the dead body in the yard?\"",
+                                          "polish": "„Co jest z tym ciałem na podwórzu?”",
+                                          "belarusian": "«Што з гэтым целам на двары?»",
                                           "links": [
                                             {
                                               "id": 196,
+                                              "redacted": false,
                                               "title": "Sleeping Dockworker: \"\"Yeah, what about it?\"\"",
+                                              "actor": "Sleeping Dockworker",
+                                              "to": "You",
                                               "articyId": "0x0100001800001E73",
-                                              "text": "\"Yeah, what about it?\"",
+                                              "english": "\"Yeah, what about it?\"",
+                                              "polish": "„No? Co z nim?”",
+                                              "belarusian": "«Ну? Што з ім?»",
                                               "links": [
                                                 {
                                                   "id": 14,
+                                                  "redacted": false,
                                                   "title": "You: \"\"You seem cool with it. Do you have...\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x0100001800001E7A",
-                                                  "text": "\"You seem cool with it. Do you have many of those hanging from the trees here?\"",
+                                                  "english": "\"You seem cool with it. Do you have many of those hanging from the trees here?\"",
+                                                  "polish": "„Zdaje się, że ci nie przeszkadza. Wiele takich zwisa wam tutaj z drzew?”",
+                                                  "belarusian": "«Здаецца, што табе гэта не замінае. Многа такіх вісіць тут на дрэвах?»",
                                                   "links": [
                                                     {
                                                       "id": 170,
+                                                      "redacted": false,
                                                       "title": "Sleeping Dockworker: \"\"You know, people die here every da...\"",
+                                                      "actor": "Sleeping Dockworker",
+                                                      "to": "You",
                                                       "articyId": "0x0100001800001F1F",
-                                                      "text": "\"You know, people die here every day. Someone's found in a ditch, another one falls in a manhole, a third one gets eaten by stray dogs.\" He respites.",
+                                                      "english": "\"You know, people die here every day. Someone's found in a ditch, another one falls in a manhole, a third one gets eaten by stray dogs.\" He respites.",
+                                                      "polish": "„Wiesz pan, ludzie tu umierają codziennie. Ktoś kończy w rowie, kto inny w otwartej studzience, a jeszcze kogoś zjadają dzikie psy” – cedzi.",
+                                                      "belarusian": "«Ведаеце, людзі тут паміраюць кожны дзень. Хто сканчвае ў рове, хто іншы — у адкрытай студні, а яшчэ кагосьці з'ядаюць дзікія сабакі», — кажа ён праз зубы.",
                                                       "links": [
                                                         {
                                                           "id": 55,
+                                                          "redacted": false,
                                                           "title": "Sleeping Dockworker: \"\"If someone has decided to die on t...\"",
+                                                          "actor": "Sleeping Dockworker",
+                                                          "to": "You",
                                                           "articyId": "0x0100001800002DAE",
-                                                          "text": "\"If someone has decided to die on top of a tree, then how is it my concern?\"",
+                                                          "english": "\"If someone has decided to die on top of a tree, then how is it my concern?\"",
+                                                          "polish": "„A co to, mój problem, że ktoś postanowił se umrzeć na drzewie?”",
+                                                          "belarusian": "«А што, мая праблема, што нехта вырашыў памерці на дрэве?»",
                                                           "links": [
                                                             {
                                                               "id": 111,
+                                                              "redacted": false,
                                                               "title": "You: \"\"Someone has to look into it. Looks...\"",
+                                                              "actor": "You",
+                                                              "to": "Sleeping Dockworker",
                                                               "articyId": "0x0100001800001F39",
-                                                              "text": "\"Someone has to look into it. Looks like I'm that someone. Tell me what you know.\"",
+                                                              "english": "\"Someone has to look into it. Looks like I'm that someone. Tell me what you know.\"",
+                                                              "polish": "„Ktoś musi się przyjrzeć tej sprawie. I zdaje się, że ja tym kimś jestem. Powiedz mi, co wiesz”.",
+                                                              "belarusian": "«Хтось мусіць прыгледзецца да гэтай справы. І здаецца, што гэтым кімсьці з'яўляюся я. Скажы мне, што ты ведаеш».",
                                                               "links": [
                                                                 {
                                                                   "id": 112,
+                                                                  "redacted": false,
                                                                   "title": "Sleeping Dockworker: \"\"I can tell you this -- trouble's a...\"",
+                                                                  "actor": "Sleeping Dockworker",
+                                                                  "to": "You",
                                                                   "articyId": "0x0100001800001FA0",
-                                                                  "text": "\"I can tell you this -- trouble's ahead.\"",
+                                                                  "english": "\"I can tell you this -- trouble's ahead.\"",
+                                                                  "polish": "„Mogę powiedzieć jedno – zbliżają się kłopoty”.",
+                                                                  "belarusian": "«Магу сказаць адно — набліжаюцца непрыемнасці».",
                                                                   "links": [
                                                                     {
                                                                       "id": 149,
+                                                                      "redacted": false,
                                                                       "title": "Physical Instrument: \"You have a pretty solid feeling tha...\"",
+                                                                      "actor": "Physical Instrument",
+                                                                      "to": "You",
                                                                       "articyId": "0x0100001800001FB4",
-                                                                      "text": "You have a pretty solid feeling that the man's *not* just mouthing off. He's strong, but even he has reasons to be cautious here.",
+                                                                      "english": "You have a pretty solid feeling that the man's *not* just mouthing off. He's strong, but even he has reasons to be cautious here.",
+                                                                      "polish": "Masz dość jasne przeczucie, że ten facet *nie gada* po próżnicy. Jest silny, ale nawet on ma powody, żeby być w tym przypadku ostrożnym.",
+                                                                      "belarusian": "У цябе досыць яснае прадчуванне, што гэты мужчына *не гаворыць* упустую. Ён моцны, але нават у яго ёсць прычыны, каб у гэтым выпадку быць асцярожным.",
                                                                       "links": [
                                                                         {
                                                                           "id": 113,
+                                                                          "redacted": false,
                                                                           "title": "You: \"\"The trouble is already here. Or ho...\"",
+                                                                          "actor": "You",
+                                                                          "to": "Sleeping Dockworker",
                                                                           "articyId": "0x0100001800001FA7",
-                                                                          "text": "\"The trouble is already here. Or how else would you call a dead man hanging from a tree?\"",
+                                                                          "english": "\"The trouble is already here. Or how else would you call a dead man hanging from a tree?\"",
+                                                                          "polish": "„Kłopoty to już przyszły. Chyba że wisielca na drzewie nazwałbyś jakoś inaczej?”",
+                                                                          "belarusian": "„Бяда ўжо прыйшла. Хіба што ты назваў бы вісельніка на дрэве неяк інакш?”",
                                                                           "links": [
                                                                             {
                                                                               "id": 114,
+                                                                              "redacted": false,
                                                                               "title": "Sleeping Dockworker: \"\"They say your guy was a killer. Yo...\"",
+                                                                              "actor": "Sleeping Dockworker",
+                                                                              "to": "You",
                                                                               "articyId": "0x0100001800001FAE",
-                                                                              "text": "\"They say your guy was a killer. Your tree-man. He has friends, same as him. Killers. There's only one thing they know well -- how to wreak havoc.\"",
+                                                                              "english": "\"They say your guy was a killer. Your tree-man. He has friends, same as him. Killers. There's only one thing they know well -- how to wreak havoc.\"",
+                                                                              "polish": "„Gadają, że ten typek był mordercą. Ten z drzewa. I że ma takich jak on koleżków, też morderców. Tylko jedno umieją robić: rozpieprz”.",
+                                                                              "belarusian": "«Кажуць, што гэты тып быў забойцам. Той з дрэва. І што ў яго ёсць сябры, такія ж, як ён, таксама забойцы. Яны толькі аднаго ўмеюць: разваліць».",
                                                                               "links": [
                                                                                 {
                                                                                   "id": 49,
+                                                                                  "redacted": false,
                                                                                   "title": "You: \"\"Wait -- *who* says that?\"\"",
+                                                                                  "actor": "You",
+                                                                                  "to": "Sleeping Dockworker",
                                                                                   "articyId": "0x01000006000181B7",
-                                                                                  "text": "\"Wait -- *who* says that?\"",
+                                                                                  "english": "\"Wait -- *who* says that?\"",
+                                                                                  "polish": "„Chwila – *kto* tak gada?”",
+                                                                                  "belarusian": "«Момант — *хто* так гаворыць?»",
                                                                                   "links": [
                                                                                     {
                                                                                       "id": 127,
+                                                                                      "redacted": false,
                                                                                       "title": "Sleeping Dockworker: \"\"Everyone. It's a local rumour.\" He...\"",
+                                                                                      "actor": "Sleeping Dockworker",
+                                                                                      "to": "You",
                                                                                       "articyId": "0x01000006000181BE",
-                                                                                      "text": "\"Everyone. It's a local rumour.\" He yawns suddenly.",
+                                                                                      "english": "\"Everyone. It's a local rumour.\" He yawns suddenly.",
+                                                                                      "polish": "„Wszyscy. To miejscowa plota” – mówi i nagle ziewa.",
+                                                                                      "belarusian": "«Усе. Гэта мясцовая плётка», — кажа ён і раптам пазяхае.",
                                                                                       "links": [
                                                                                         {
                                                                                           "id": 2,
+                                                                                          "redacted": false,
                                                                                           "title": "Rhetoric: \"Meaning: you're not gonna get more...\"",
+                                                                                          "actor": "Rhetoric",
+                                                                                          "to": "You",
                                                                                           "articyId": "0x01000006000181C6",
-                                                                                          "text": "Meaning: you're not gonna get more out of me.",
+                                                                                          "english": "Meaning: you're not gonna get more out of me.",
+                                                                                          "polish": "Innymi słowy: więcej ze mnie nie wyciągniesz.",
+                                                                                          "belarusian": "Іншымі словамі: больш ад мяне не атрымаеш.",
                                                                                           "links": [
                                                                                             {
                                                                                               "id": 28,
+                                                                                              "redacted": false,
                                                                                               "title": "Logic: \"It was probably his colleagues from...\"",
+                                                                                              "actor": "Logic",
+                                                                                              "to": "You",
                                                                                               "articyId": "0x01000006000181CD",
-                                                                                              "text": "It was probably his colleagues from the Union.",
+                                                                                              "english": "It was probably his colleagues from the Union.",
+                                                                                              "polish": "Ci *wszyscy* to zapewne jego koledzy ze Związku.",
+                                                                                              "belarusian": "Напэўна, *усе* яны яго таварышы са Саюза.",
                                                                                               "links": []
                                                                                             }
                                                                                           ]
@@ -527,9 +887,14 @@
                                                                                 },
                                                                                 {
                                                                                   "id": 36,
+                                                                                  "redacted": false,
                                                                                   "title": "You: \"\"You're saying things might get vio...\"",
+                                                                                  "actor": "You",
+                                                                                  "to": "Sleeping Dockworker",
                                                                                   "articyId": "0x0100001800001FCF",
-                                                                                  "text": "\"You're saying things might get violent around here?\"",
+                                                                                  "english": "\"You're saying things might get violent around here?\"",
+                                                                                  "polish": "„Twierdzisz, że może dojść tutaj do przemocy?”",
+                                                                                  "belarusian": "«Вы сцвярджаеце, што тут можа дайсці да гвалту?»",
                                                                                   "links": []
                                                                                 }
                                                                               ]
@@ -538,27 +903,47 @@
                                                                         },
                                                                         {
                                                                           "id": 109,
+                                                                          "redacted": false,
                                                                           "title": "You: \"\"What trouble?\"\"",
+                                                                          "actor": "You",
+                                                                          "to": "Sleeping Dockworker",
                                                                           "articyId": "0x010000040000AC78",
-                                                                          "text": "\"What trouble?\"",
+                                                                          "english": "\"What trouble?\"",
+                                                                          "polish": "„Jakie kłopoty?”",
+                                                                          "belarusian": "„Якія непрыемнасці?”",
                                                                           "links": [
                                                                             {
                                                                               "id": 197,
+                                                                              "redacted": false,
                                                                               "title": "Sleeping Dockworker: \"\"You heard what I said. Draw your o...\"",
+                                                                              "actor": "Sleeping Dockworker",
+                                                                              "to": "You",
                                                                               "articyId": "0x0100001800001FD6",
-                                                                              "text": "\"You heard what I said. Draw your own conclusions. That's all I know, and I prefer to keep it this way.\"",
+                                                                              "english": "\"You heard what I said. Draw your own conclusions. That's all I know, and I prefer to keep it this way.\"",
+                                                                              "polish": "„Powiedziałem jasno. Wnioski wyciągnij sam. Nic więcej nie wiem i wolałbym, żeby tak zostało”.",
+                                                                              "belarusian": "«Я сказаў выразна. Вынікі зрабі сам. Я больш нічога не ведаю і хацеў бы, каб так і засталося».",
                                                                               "links": [
                                                                                 {
                                                                                   "id": 136,
+                                                                                  "redacted": false,
                                                                                   "title": "Kim Kitsuragi: \"The lieutenant gives you a little n...\"",
+                                                                                  "actor": "Kim Kitsuragi",
+                                                                                  "to": "You",
                                                                                   "articyId": "0x0100000600010A1D",
-                                                                                  "text": "The lieutenant gives you a little nod -- then makes a note in his blue notebook.",
+                                                                                  "english": "The lieutenant gives you a little nod -- then makes a note in his blue notebook.",
+                                                                                  "polish": "Porucznik kiwa do ciebie nieznacznie głową, a potem zapisuje coś w swoim niebieskim notatniku.",
+                                                                                  "belarusian": "Лейтэнант нязначна ківае табе галавой, а потым запісвае нешта ў сваім сінім нататніку.",
                                                                                   "links": [
                                                                                     {
                                                                                       "id": 79,
+                                                                                      "redacted": false,
                                                                                       "title": "Esprit de Corps: \"So Union people think he was a kill...\"",
+                                                                                      "actor": "Esprit de Corps",
+                                                                                      "to": "You",
                                                                                       "articyId": "0x0100000600010A26",
-                                                                                      "text": "So Union people think he was a killer, he thinks -- even Sleepy here? This doesn't help a *lot*, but it's something. Good work, detective.",
+                                                                                      "english": "So Union people think he was a killer, he thinks -- even Sleepy here? This doesn't help a *lot*, but it's something. Good work, detective.",
+                                                                                      "polish": "A więc ludzie ze Związku uważają, że był mordercą – myśli. Nawet ten śpioch. Nie pomaga to jakoś *szczególnie*, ale zawsze to coś. Dobra robota, detektywie.",
+                                                                                      "belarusian": "Дык людзі з Саюза лічаць, што ён быў забойцам – думае. Нават гэты дрымак. Гэта не дапамагае неяк *асабліва*, але заўсёды нешта. Добрая праца, дэтэктыў.",
                                                                                       "links": []
                                                                                     }
                                                                                   ]
@@ -575,15 +960,25 @@
                                                             },
                                                             {
                                                               "id": 76,
+                                                              "redacted": false,
                                                               "title": "You: \"\"Well... little point asking you ab...\"",
+                                                              "actor": "You",
+                                                              "to": "Sleeping Dockworker",
                                                               "articyId": "0x0100006B0000106D",
-                                                              "text": "\"Well... little point asking you about the body, then. I got other questions.\"",
+                                                              "english": "\"Well... little point asking you about the body, then. I got other questions.\"",
+                                                              "polish": "„No, w takim razie nie ma sensu pytać cię o ciało. Mam inne pytania”.",
+                                                              "belarusian": "«Ну, тады няма сэнсу пытацца ў цябе пра цела. У мяне ёсць іншыя пытанні».",
                                                               "links": [
                                                                 {
                                                                   "id": 47,
+                                                                  "redacted": false,
                                                                   "title": "Sleeping Dockworker: \"\"If you get lucky, I might even hav...\"",
+                                                                  "actor": "Sleeping Dockworker",
+                                                                  "to": "You",
                                                                   "articyId": "0x0100006B00001074",
-                                                                  "text": "\"If you get lucky, I might even have answers for them.\"",
+                                                                  "english": "\"If you get lucky, I might even have answers for them.\"",
+                                                                  "polish": "„Jak ci się poszczęści, to mogę nawet mieć na nie odpowiedzi”.",
+                                                                  "belarusian": "«Калі табе пашанцуе, я нават магу мець адказы на іх».",
                                                                   "links": []
                                                                 }
                                                               ]
@@ -596,9 +991,14 @@
                                                 },
                                                 {
                                                   "id": 74,
+                                                  "redacted": false,
                                                   "title": "You: \"\"I'm just trying to find out what y...\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x01000057000221CB",
-                                                  "text": "\"I'm just trying to find out what you know about it.\"",
+                                                  "english": "\"I'm just trying to find out what you know about it.\"",
+                                                  "polish": "„Chcę się tylko dowiedzieć, co o nim wiesz”.",
+                                                  "belarusian": "«Хачу толькі даведацца, што ты пра яго ведаеш».",
                                                   "links": []
                                                 }
                                               ]
@@ -607,42 +1007,72 @@
                                         },
                                         {
                                           "id": 129,
+                                          "redacted": false,
                                           "title": "You: \"\"Yours?\" (Point at the bottle and t...\"",
+                                          "actor": "You",
+                                          "to": "Sleeping Dockworker",
                                           "articyId": "0x0100001800001CE2",
-                                          "text": "\"Yours?\" (Point at the bottle and the spilt rum.)",
+                                          "english": "\"Yours?\" (Point at the bottle and the spilt rum.)",
+                                          "polish": "„To twoje?” (Wskaż na butelkę i rozlany rum).",
+                                          "belarusian": "«Гэта тваё?» (Паказаць на бутэльку і разліты ром).",
                                           "links": [
                                             {
                                               "id": 94,
+                                              "redacted": false,
                                               "title": "Sleeping Dockworker: \"\"Indeed. Help yourself to some.\" He...\"",
+                                              "actor": "Sleeping Dockworker",
+                                              "to": "You",
                                               "articyId": "0x0100001800001CF5",
-                                              "text": "\"Indeed. Help yourself to some.\" He blinks. \"Wait, no, it's empty. Sorry about that, pal.\"",
+                                              "english": "\"Indeed. Help yourself to some.\" He blinks. \"Wait, no, it's empty. Sorry about that, pal.\"",
+                                              "polish": "„Jo. Chętnie się podzielę” – mówi, mrugając. „A, czekaj, nie. Jest pusta. Przykro mi, kolego”.",
+                                              "belarusian": "«Йо. З задавальненнем падзялюся», — кажа, міргаючы. «А, пачакай, не. Яна пустая. Ведаеш, прабач, дружа».",
                                               "links": [
                                                 {
                                                   "id": 5,
+                                                  "redacted": false,
                                                   "title": "You: \"\"I already had some. It's a fine ru...\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x0100001800001D8B",
-                                                  "text": "\"I already had some. It's a fine rum.\"",
+                                                  "english": "\"I already had some. It's a fine rum.\"",
+                                                  "polish": "„Trochę się już napiłem. To dobry rum”.",
+                                                  "belarusian": "«Троху ўжо выпіў. Гэта добры ром».",
                                                   "links": [
                                                     {
                                                       "id": 148,
+                                                      "redacted": false,
                                                       "title": "Sleeping Dockworker: \"\"Knocks you right out when you drow...\"",
+                                                      "actor": "Sleeping Dockworker",
+                                                      "to": "You",
                                                       "articyId": "0x0100001800001D94",
-                                                      "text": "\"Knocks you right out when you drown a bottle or two.\" He rubs his face, then buries it in his hands. You can hear a faint snore.",
+                                                      "english": "\"Knocks you right out when you drown a bottle or two.\" He rubs his face, then buries it in his hands. You can hear a faint snore.",
+                                                      "polish": "„Nieźle nokautuje, jak wydoisz z butlę czy dwie” – pociera twarz, po czym ukrywa ją w dłoniach. Słyszysz ciche pochrapywanie.",
+                                                      "belarusian": "«Нядрэнна накрывае, калі вып'еш бутэльку ці дзве» — церэ твар, а затым хавае яго ў далонях. Ты чуеш ціхое хропение.",
                                                       "links": []
                                                     }
                                                   ]
                                                 },
                                                 {
                                                   "id": 88,
+                                                  "redacted": false,
                                                   "title": "You: \"Say nothing.\"",
+                                                  "actor": "You",
+                                                  "to": "Sleeping Dockworker",
                                                   "articyId": "0x01000057000221E7",
-                                                  "text": "Say nothing.",
+                                                  "english": "Say nothing.",
+                                                  "polish": "Nic nie mów.",
+                                                  "belarusian": "Нічога не кажы.",
                                                   "links": [
                                                     {
                                                       "id": 161,
+                                                      "redacted": false,
                                                       "title": "Sleeping Dockworker: \"He rubs his face, before burying it...\"",
+                                                      "actor": "Sleeping Dockworker",
+                                                      "to": "You",
                                                       "articyId": "0x01000057000221EE",
-                                                      "text": "He rubs his face, before burying it in his hands. You can hear a faint snore.",
+                                                      "english": "He rubs his face, before burying it in his hands. You can hear a faint snore.",
+                                                      "polish": "Pociera twarz, po czym ukrywa ją w dłoniach. Słyszysz ciche pochrapywanie.",
+                                                      "belarusian": "Трэ шчака, пасля хавае яе ў далонях. Ты чуеш ціхія пахрапванні.",
                                                       "links": []
                                                     }
                                                   ]
@@ -653,15 +1083,25 @@
                                         },
                                         {
                                           "id": 52,
+                                          "redacted": false,
                                           "title": "You: \"\"Alright, I'll let you sleep.\" [Lea...\"",
+                                          "actor": "You",
+                                          "to": "Sleeping Dockworker",
                                           "articyId": "0x0100002F0000283C",
-                                          "text": "\"Alright, I'll let you sleep.\" [Leave.]",
+                                          "english": "\"Alright, I'll let you sleep.\" [Leave.]",
+                                          "polish": "„Dobra, pozwolę ci spać”. [Odejdź].",
+                                          "belarusian": "«Добра, дазволю табе спаць». [Адыходзь].",
                                           "links": [
                                             {
                                               "id": 6,
+                                              "redacted": false,
                                               "title": "Sleeping Dockworker: \"The dockworker doesn't answer, his...\"",
+                                              "actor": "Sleeping Dockworker",
+                                              "to": "You",
                                               "articyId": "0x0100002F00002843",
-                                              "text": "The dockworker doesn't answer, his head is already back down on the table. In sweet sleep.",
+                                              "english": "The dockworker doesn't answer, his head is already back down on the table. In sweet sleep.",
+                                              "polish": "Pracownik portowy nie odpowiada. Jego głowa spoczywa znów na stole. Pogrążona w głębokim śnie.",
+                                              "belarusian": "Працоўны порта не адказвае. Яго галава зноў ляжыць на стале. Пагружаны ў глыбокі сон.",
                                               "links": []
                                             }
                                           ]
@@ -674,30 +1114,50 @@
                             },
                             {
                               "id": 13,
+                              "redacted": false,
                               "title": "You: \"\"I just wanted to see what would ha...\"",
+                              "actor": "You",
+                              "to": "Sleeping Dockworker",
                               "articyId": "0x0100001800001D22",
-                              "text": "\"I just wanted to see what would happen if I yelled.\"",
+                              "english": "\"I just wanted to see what would happen if I yelled.\"",
+                              "polish": "„Chciałem tylko sprawdzić, co się stanie, jak krzyknę”.",
+                              "belarusian": "„Я проста хацеў праверыць, што здарыцца, калі закрычу”.",
                               "links": [
                                 {
                                   "id": 95,
+                                  "redacted": false,
                                   "title": "Sleeping Dockworker: \"\"Congratulations, you have seen the...\"",
+                                  "actor": "Sleeping Dockworker",
+                                  "to": "You",
                                   "articyId": "0x0100001800001E2B",
-                                  "text": "\"Congratulations, you have seen the future. Now if you excuse me again, officer...\" The worker sinks back onto the table, ready to continue his nap.",
+                                  "english": "\"Congratulations, you have seen the future. Now if you excuse me again, officer...\" The worker sinks back onto the table, ready to continue his nap.",
+                                  "polish": "„Gratulacje, zobaczyłeś przyszłość. A teraz przepraszam, panie władzo...” – robotnik kładzie się z powrotem na stole, gotów powrócić do przerwanej drzemki.",
+                                  "belarusian": "«Віншую, вы ўбачылі будучыню. А цяпер прабачце, спадар начальнік...» — рабочы кладзецца назад на стол, гатовы працягнуць свой перапынены сон.",
                                   "links": []
                                 }
                               ]
                             },
                             {
                               "id": 34,
+                              "redacted": false,
                               "title": "You: \"\"I need you to answer some question...\"",
+                              "actor": "You",
+                              "to": "Sleeping Dockworker",
                               "articyId": "0x0100006B00000EB2",
-                              "text": "\"I need you to answer some questions right now.\"",
+                              "english": "\"I need you to answer some questions right now.\"",
+                              "polish": "„Musisz mi odpowiedzieć natychmiast na kilka pytań”.",
+                              "belarusian": "„Ты мусіш мне адказаць адразу на некалькі пытанняў”.",
                               "links": [
                                 {
                                   "id": 162,
+                                  "redacted": false,
                                   "title": "Sleeping Dockworker: \"\"Really? You woke me up for that?\"...\"",
+                                  "actor": "Sleeping Dockworker",
+                                  "to": "You",
                                   "articyId": "0x0100006B00000EB9",
-                                  "text": "\"Really? You woke me up for that?\" The worker gives you a vacant stare, then groans. \"Fine, what is it, officer?\"",
+                                  "english": "\"Really? You woke me up for that?\" The worker gives you a vacant stare, then groans. \"Fine, what is it, officer?\"",
+                                  "polish": "„Serio? I po to mnie było budzić?” – robotnik spogląda na ciebie pustym wzrokiem, po czym wydaje z siebie stęknięcie. „No dobra. O co chodzi, panie władzo?”",
+                                  "belarusian": "«Сур'ёзна? І для гэтага трэба было мяне будзіць?» – рабочы глядзіць на цябе пустым позіркам, пасля чаго вымаўляе стогн. «Ну добра. У чым справа, пане ўлады?»",
                                   "links": []
                                 }
                               ]
@@ -710,91 +1170,156 @@
                 },
                 {
                   "id": 97,
+                  "redacted": false,
                   "title": "You: \"(No words, just a primordial scream...\"",
+                  "actor": "You",
+                  "to": "Sleeping Dockworker",
                   "articyId": "0x0100005700022104",
-                  "text": "(No words, just a primordial scream.)",
+                  "english": "(No words, just a primordial scream.)",
+                  "polish": "(Żadnych słów, tylko pierwotny wrzask).",
+                  "belarusian": "(Ніякіх слоў, толькі першасны крык).",
                   "links": []
                 }
               ]
             },
             {
               "id": 171,
+              "redacted": false,
               "title": "Physical Instrument: \"The worker continues to nap, undist...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100002D00000084",
-              "text": "The worker continues to nap, undisturbed despite you shaking him. This guy's a real juggernaut of sleep.",
+              "english": "The worker continues to nap, undisturbed despite you shaking him. This guy's a real juggernaut of sleep.",
+              "polish": "Robotnik kontynuuje drzemkę niewzruszony twoimi staraniami. Jest prawdziwym demonem snu.",
+              "belarusian": "Работнік працягвае спаць, не звяртаючы ўвагі на твае намаганні. Ён сапраўдны дэмон сну.",
               "links": []
             },
             {
               "id": 147,
+              "redacted": false,
               "title": "Physical Instrument: \"You gently shake his shoulder, but...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100001600001ED0",
-              "text": "You gently shake his shoulder, but nothing happens. This man could probably sleep soundly in a ship's engine room.",
+              "english": "You gently shake his shoulder, but nothing happens. This man could probably sleep soundly in a ship's engine room.",
+              "polish": "Delikatnie potrząsasz go za ramię, ale nic się nie dzieje. Facet pewnie spałby jak dziecko nawet w maszynowni statku.",
+              "belarusian": "Акуратна трэсеш яго за плячо, але нічога не адбываецца. Напэўна, гэты мужчына спаў бы як дзіця нават у машынным аддзяленні карабля.",
               "links": []
             }
           ]
         },
         {
           "id": 17,
+          "redacted": false,
           "title": "You: \"Steal the dockworker's ID.\"",
+          "actor": "You",
+          "to": "Sleeping Dockworker",
           "articyId": "0x0100006B00000E7B",
-          "text": "Steal the dockworker's ID.",
+          "english": "Steal the dockworker's ID.",
+          "polish": "Ukradnij identyfikator portowca.",
+          "belarusian": "Украдзі ідэнтыфікатар портавога судна.",
           "links": [
             {
               "id": 10,
+              "redacted": false,
               "title": "Interfacing: \"Your fingers find their way into th...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100006B00000F49",
-              "text": "Your fingers find their way into the shackle, flicking open its spring-loaded gate. The metal loop holds the plastic ID, and a leather-bound pocketbook...",
+              "english": "Your fingers find their way into the shackle, flicking open its spring-loaded gate. The metal loop holds the plastic ID, and a leather-bound pocketbook...",
+              "polish": "Twoje palce znajdują karabińczyk i otwierają zamykaną sprężyną blokadę. Na metalowym kółku wisi plastikowy identyfikator i oprawiony w skórę portfel...",
+              "belarusian": "Твае пальцы знаходзяць карабін і адкрываюць з замкам на спружыне. На металічным колцы вісіць пластыкавы ідэнтыфікатар і скураны кашалёк...",
               "links": [
                 {
                   "id": 35,
+                  "redacted": false,
                   "title": "You: \"And the man?\"",
+                  "actor": "You",
+                  "to": "Sleeping Dockworker",
                   "articyId": "0x0100000600010A75",
-                  "text": "And the man?",
+                  "english": "And the man?",
+                  "polish": "A mężczyzna?",
+                  "belarusian": "А мужчына?",
                   "links": [
                     {
                       "id": 15,
+                      "redacted": false,
                       "title": "Sleeping Dockworker: \"The man emits a loud snore. Is he a...\"",
+                      "actor": "Sleeping Dockworker",
+                      "to": "You",
                       "articyId": "0x01000018000022C1",
-                      "text": "The man emits a loud snore. Is he about to wake up? Doesn't look like it, but you never know. Better be quick!",
+                      "english": "The man emits a loud snore. Is he about to wake up? Doesn't look like it, but you never know. Better be quick!",
+                      "polish": "Mężczyzna chrapie głośno. Czy się zaraz obudzi? Nie wygląda na to, ale nigdy nie wiadomo. Lepiej się spiesz!",
+                      "belarusian": "Мужчына гучна храпе. Ці хутка ён прачнецца? Не выглядае так, але ніколі не ведаеш. Лепей пахутчэй!",
                       "links": [
                         {
                           "id": 130,
+                          "redacted": false,
                           "title": "Volition: \"Are you positive that what you're d...\"",
+                          "actor": "Volition",
+                          "to": "You",
                           "articyId": "0x01000018000022C8",
-                          "text": "Are you positive that what you're doing here is proper police conduct? You can still leave and do *nothing*.",
+                          "english": "Are you positive that what you're doing here is proper police conduct? You can still leave and do *nothing*.",
+                          "polish": "Jesteś pewien, że to, co robisz, to godne policjanta zachowanie? Możesz jeszcze odejść i nie zrobić *nic*.",
+                          "belarusian": "Вы ўпэўнены, што тое, што вы робіце, гэта годныя паводзіны паліцэйскага? Можаце яшчэ адысці і не зрабіць *нічога*.",
                           "links": [
                             {
                               "id": 93,
+                              "redacted": false,
                               "title": "You: \"Does the lieutenant see me?\"",
+                              "actor": "You",
+                              "to": "Sleeping Dockworker",
                               "articyId": "0x0100000600010A7E",
-                              "text": "Does the lieutenant see me?",
+                              "english": "Does the lieutenant see me?",
+                              "polish": "Czy porucznik mnie widzi?",
+                              "belarusian": "Ці бачыць мяне лейтэнант?",
                               "links": [
                                 {
                                   "id": 48,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"No. He's looking the other way -- p...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x0100000600010A85",
-                                  "text": "No. He's looking the other way -- perhaps purposefully.",
+                                  "english": "No. He's looking the other way -- perhaps purposefully.",
+                                  "polish": "Nie. Patrzy w inną stronę – być może specjalnie.",
+                                  "belarusian": "Не. Глядзіць у іншы бок – магчыма, наўмысна.",
                                   "links": []
                                 }
                               ]
                             },
                             {
                               "id": 184,
+                              "redacted": false,
                               "title": "You: \"Steal the document.\"",
+                              "actor": "You",
+                              "to": "Sleeping Dockworker",
                               "articyId": "0x0100002F00002B15",
-                              "text": "Steal the document.",
+                              "english": "Steal the document.",
+                              "polish": "Ukradnij dokument.",
+                              "belarusian": "Украдзі дакумент.",
                               "links": [
                                 {
                                   "id": 116,
+                                  "redacted": false,
                                   "title": "Interfacing: \"You slip the plastic ID card out of...\"",
+                                  "actor": "Interfacing",
+                                  "to": "You",
                                   "articyId": "0x0100002F00002B5C",
-                                  "text": "You slip the plastic ID card out of the loop and pocket it. The man continues to snore.",
+                                  "english": "You slip the plastic ID card out of the loop and pocket it. The man continues to snore.",
+                                  "polish": "Zdejmujesz plastikowy identyfikator z kółka i chowasz do kieszeni. Mężczyzna chrapie dalej.",
+                                  "belarusian": "Здымаеш пластыкавы ідэнтыфікатар з кольца і хаваеш у кішэню. Мужчына храпе далей.",
                                   "links": [
                                     {
                                       "id": 107,
+                                      "redacted": false,
                                       "title": "Visual Calculus: \"Just for the record, you look nothi...\"",
+                                      "actor": "Visual Calculus",
+                                      "to": "You",
                                       "articyId": "0x010000570002225F",
-                                      "text": "Just for the record, you look nothing like the man on the document.",
+                                      "english": "Just for the record, you look nothing like the man on the document.",
+                                      "polish": "Żeby było jasne – ani trochę nie przypominasz mężczyzny na dokumencie.",
+                                      "belarusian": "Каб было зразумела - вы ані трохі не падобны на мужчыну ў дакуменце.",
                                       "links": []
                                     }
                                   ]
@@ -803,28 +1328,48 @@
                             },
                             {
                               "id": 29,
+                              "redacted": false,
                               "title": "You: \"Swipe through the pocketbook and ta...\"",
+                              "actor": "You",
+                              "to": "Sleeping Dockworker",
                               "articyId": "0x0100002F00002B1B",
-                              "text": "Swipe through the pocketbook and take what's inside.",
+                              "english": "Swipe through the pocketbook and take what's inside.",
+                              "polish": "Sięgnij do portfela i weź, co jest w środku.",
+                              "belarusian": "Зазірні ў партманет і вазьмі тое, што ўнутры.",
                               "links": [
                                 {
                                   "id": 141,
+                                  "redacted": false,
                                   "title": "Interfacing: \"You find a black paper note with a...\"",
+                                  "actor": "Interfacing",
+                                  "to": "You",
                                   "articyId": "0x0100002F00002B54",
-                                  "text": "You find a black paper note with a woman's profile on it. Seems like this woman lived centuries ago. The note says *five* reál. It feels nice and greasy.",
+                                  "english": "You find a black paper note with a woman's profile on it. Seems like this woman lived centuries ago. The note says *five* reál. It feels nice and greasy.",
+                                  "polish": "Znajdujesz czarny papierowy dokument z widocznym na nim profilem kobiety. Zdaje się, że żyła całe stulecia temu. Na dokumencie napisano „*pięć* reáli”. Jest miły, tłustawy w dotyku.",
+                                  "belarusian": "Вы знаходзіце чорны папяровы дакумент з бачным на ім профілем жанчыны. Здаецца, што яна жыла цэлыя стагоддзі таму. На дакуменце напісана „*пяць* рэалі”. Ён прыемны, тлусты навобмацак.",
                                   "links": [
                                     {
                                       "id": 143,
+                                      "redacted": false,
                                       "title": "Electrochemistry: \"Yum, yum. Money. Think of all the t...\"",
+                                      "actor": "Electrochemistry",
+                                      "to": "You",
                                       "articyId": "0x01000057000220D3",
-                                      "text": "Yum, yum. Money. Think of all the things you can buy with this. The synapses in your brain fire with glee.",
+                                      "english": "Yum, yum. Money. Think of all the things you can buy with this. The synapses in your brain fire with glee.",
+                                      "polish": "Mniam, mniam. Forsa. Pomyśl o tym wszystkim, co możesz za nią kupić. Synapsy w twoim mózgu aktywują się radośnie.",
+                                      "belarusian": "Ням-ням. Грошы. Падумай пра ўсё, што ты можаш за іх купіць. Сінапсы ў тваім мозгу актывуюцца з радасцю.",
                                       "links": []
                                     },
                                     {
                                       "id": 115,
+                                      "redacted": false,
                                       "title": "Inland Empire: \"You don't really know what it's for...\"",
+                                      "actor": "Inland Empire",
+                                      "to": "You",
                                       "articyId": "0x0100002F00002B32",
-                                      "text": "You don't really know what it's for, but you get the feeling notes like these are *super* important -- you should keep it.",
+                                      "english": "You don't really know what it's for, but you get the feeling notes like these are *super* important -- you should keep it.",
+                                      "polish": "Nie wiesz, co to w ogóle za notatki, ale czujesz, że są *bardzo* ważne. Powinieneś je zatrzymać.",
+                                      "belarusian": "Вы не ведаеце, што гэта наогул за нататкі, але адчуваеце, што яны *вельмі* важныя. Вам варта іх захаваць.",
                                       "links": []
                                     }
                                   ]
@@ -833,21 +1378,36 @@
                             },
                             {
                               "id": 132,
+                              "redacted": false,
                               "title": "You: \"Close the carabiner.\"",
+                              "actor": "You",
+                              "to": "Sleeping Dockworker",
                               "articyId": "0x01000057000220DC",
-                              "text": "Close the carabiner.",
+                              "english": "Close the carabiner.",
+                              "polish": "Zamknij karabińczyk.",
+                              "belarusian": "Зафіксуй карабін.",
                               "links": [
                                 {
                                   "id": 172,
+                                  "redacted": false,
                                   "title": "Sleeping Dockworker: \"The sleeping dockworker has little...\"",
+                                  "actor": "Sleeping Dockworker",
+                                  "to": "You",
                                   "articyId": "0x01000057000220E9",
-                                  "text": "The sleeping dockworker has little to say about your actions. He remains silent.",
+                                  "english": "The sleeping dockworker has little to say about your actions. He remains silent.",
+                                  "polish": "Śpiący portowiec nie ma wiele do powiedzenia na temat twoich działań. Pozostaje milczący.",
+                                  "belarusian": "Сонны портовік не мае шмат сказаць пра твае дзеянні. Застаюцца маўчуць.",
                                   "links": [
                                     {
                                       "id": 189,
+                                      "redacted": false,
                                       "title": "Volition: \"You're not 100% clear what you did...\"",
+                                      "actor": "Volition",
+                                      "to": "You",
                                       "articyId": "0x01000057000220E3",
-                                      "text": "You're not 100% clear what you did here was *right*, but to hell with it...",
+                                      "english": "You're not 100% clear what you did here was *right*, but to hell with it...",
+                                      "polish": "Nie jesteś na 100% pewien, że to, co zrobiłeś, było *słuszne*, ale do diabła z tym.",
+                                      "belarusian": "Вы не на 100% упэўнены, што тое, што вы зрабілі, было *правільным*, але чорт з гэтым.",
                                       "links": []
                                     }
                                   ]
@@ -864,45 +1424,80 @@
             },
             {
               "id": 89,
+              "redacted": false,
               "title": "Interfacing: \"You fumble with the spring-loaded g...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100006B00000F58",
-              "text": "You fumble with the spring-loaded gate of the carabiner, but to no avail... the dangling items refuse to come loose, they just jingle in an ever louder manner.",
+              "english": "You fumble with the spring-loaded gate of the carabiner, but to no avail... the dangling items refuse to come loose, they just jingle in an ever louder manner.",
+              "polish": "Gmerasz przy zamykanym na sprężynę karabińczyku, lecz bez skutku... Wiszące na nim przedmioty nie chcą się oswobodzić, podzwaniają tylko jeszcze głośniej.",
+              "belarusian": "Корпаешся са спальваным на спружыну карабінчыкам, але безвынікова... Розныя рэчы, якія звісаюць на ім, не жадаюць вызваліцца, толькі яшчэ гучней падзвякаюць.",
               "links": [
                 {
                   "id": 27,
+                  "redacted": false,
                   "title": "Half Light: \"Like fucking sleigh bells! What are...\"",
+                  "actor": "Half Light",
+                  "to": "You",
                   "articyId": "0x0100000600010A8D",
-                  "text": "Like fucking sleigh bells! What are you doing, you're gonna get caught!",
+                  "english": "Like fucking sleigh bells! What are you doing, you're gonna get caught!",
+                  "polish": "Jak jebane dzwonki sań! Co ty wyprawiasz? Ktoś cię przyłapie!",
+                  "belarusian": "Як шалёныя званочкі саней! Што ты робіш? Хтосьці цябе зловіць!",
                   "links": [
                     {
                       "id": 193,
+                      "redacted": false,
                       "title": "Garte, the Cafeteria Manager: \"\"Stop *finger-fucking* him, officer...\"",
+                      "actor": "Garte, the Cafeteria Manager",
+                      "to": "You",
                       "articyId": "0x0100006B00000F5F",
-                      "text": "\"Stop *finger-fucking* him, officer!\" The cafeteria manager shouts from behind the counter. \"I'm responsible for these oafs and their *stuff*. Even Sleepy there...\"",
+                      "english": "\"Stop *finger-fucking* him, officer!\" The cafeteria manager shouts from behind the counter. \"I'm responsible for these oafs and their *stuff*. Even Sleepy there...\"",
+                      "polish": "„Starczy już tej palcówki, funkcjonariuszu!” – krzyczy kierownik zza baru. „Osobiście odpowiadam za takie niedołęgi i ich *rzeczy*. Nawet tę śpiącą królewnę...”",
+                      "belarusian": "«Хопіць ужо гэтых жартаў, афіцэр!» – крычыць кіраўнік з-за бара. «Я асабіста адказваю за такіх няздарнасць і іх *рэчы*. Нават гэтую спячую прыгажуню...»",
                       "links": [
                         {
                           "id": 90,
+                          "redacted": false,
                           "title": "You: \"\"What, no, I wasn't.... I'm just ch...\"",
+                          "actor": "You",
+                          "to": "Sleeping Dockworker",
                           "articyId": "0x0100006B00000F66",
-                          "text": "\"What, no, I wasn't.... I'm just checking if the man is feeling okay.\"",
+                          "english": "\"What, no, I wasn't.... I'm just checking if the man is feeling okay.\"",
+                          "polish": "„Co? Nie, ja nie... Sprawdzam tylko, czy wszystko z nim w porządku”.",
+                          "belarusian": "«Што? Не, я не... Я толькі правяраю, ці ўсё з ім у парадку».",
                           "links": [
                             {
                               "id": 135,
+                              "redacted": false,
                               "title": "Garte, the Cafeteria Manager: \"\"Yeah, sure! I don't care. Just don...\"",
+                              "actor": "Garte, the Cafeteria Manager",
+                              "to": "You",
                               "articyId": "0x0100006B00000F89",
-                              "text": "\"Yeah, sure! I don't care. Just don't finger-bang his stuff, okay!\" He snorts angrily, then turns back to his activities.",
+                              "english": "\"Yeah, sure! I don't care. Just don't finger-bang his stuff, okay!\" He snorts angrily, then turns back to his activities.",
+                              "polish": "„Mhm, pewnie! Ale w sumie co mnie to. Tylko trzymaj paluchy z dala od jego rzeczy, co?” – prycha ze złością i wraca do swoich zająć.",
+                              "belarusian": "«Мгм, напэўна! Але ўрэшце рэшт, што мне да гэтага. Толькі трымай пальцы далей ад яго рэчаў, добра?» — фыркае са злосцю і вяртаецца да сваіх заняткаў.",
                               "links": [
                                 {
                                   "id": 46,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"To be honest, he is correct. Polic...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x0100006B00000FD6",
-                                  "text": "\"To be honest, he is correct. Police officers generally don't go around *appropriating* possessions from people. Let's go.\"",
+                                  "english": "\"To be honest, he is correct. Police officers generally don't go around *appropriating* possessions from people. Let's go.\"",
+                                  "polish": "„Szczerze mówiąc, ma rację. Funkcjonariusze policji raczej nie mają w zwyczaju *przywłaszczać sobie* własności innych. Chodźmy stąd”.",
+                                  "belarusian": "«Шчыра кажучы, ён мае рацыю. Супрацоўнікі паліцыі звычайна не маюць звычкі *прысвойваць* маёмасць іншых. Пайшлі адсюль».",
                                   "links": [
                                     {
                                       "id": 123,
+                                      "redacted": false,
                                       "title": "Interfacing: \"It was just an *idea*, c'mon. Relax...\"",
+                                      "actor": "Interfacing",
+                                      "to": "You",
                                       "articyId": "0x0100000600010A95",
-                                      "text": "It was just an *idea*, c'mon. Relax, everyone. It didn't turn out well -- doesn't mean it was a bad idea. Or that you shouldn't *appropriate* stuff...",
+                                      "english": "It was just an *idea*, c'mon. Relax, everyone. It didn't turn out well -- doesn't mean it was a bad idea. Or that you shouldn't *appropriate* stuff...",
+                                      "polish": "To był tylko *pomysł*, ej. Wyluzujcie wszyscy. Nie udało się, ale to nie znaczy, że był zły. I że *nie powinieneś* przywłaszczać sobie rzeczy...",
+                                      "belarusian": "Гэта была проста *задумка*, ей. Супакойцеся ўсе. Не атрымалася, але гэта не значыць, што яна была дрэннай. І што *не павінен* прысвойваць сабе рэчы...",
                                       "links": []
                                     }
                                   ]
@@ -913,30 +1508,50 @@
                         },
                         {
                           "id": 91,
+                          "redacted": false,
                           "title": "You: \"\"You stay out of this, bartender!\"\"",
+                          "actor": "You",
+                          "to": "Sleeping Dockworker",
                           "articyId": "0x0100006B00000F6B",
-                          "text": "\"You stay out of this, bartender!\"",
+                          "english": "\"You stay out of this, bartender!\"",
+                          "polish": "„Nie wtrącaj się, barmanie!”",
+                          "belarusian": "\"Не ўмешвайся, бармэн!\"",
                           "links": [
                             {
                               "id": 99,
+                              "redacted": false,
                               "title": "Garte, the Cafeteria Manager: \"\"Fine -- fine! Finger-bang him then...\"",
+                              "actor": "Garte, the Cafeteria Manager",
+                              "to": "You",
                               "articyId": "0x0100006B00000F82",
-                              "text": "\"Fine -- fine! Finger-bang him then, I don't care.\" He snorts angrily, then turns back to his activities.",
+                              "english": "\"Fine -- fine! Finger-bang him then, I don't care.\" He snorts angrily, then turns back to his activities.",
+                              "polish": "„Dobra, dobra! Wkładaj paluchy, gdzie chcesz, w sumie co mnie to” – prycha ze złością i wraca do swoich zająć.",
+                              "belarusian": "«Добра, добра! Кладзі пальцы, куды хочаш, у суме, што мне да гэтага» — фыркае са злосцю і вяртаецца да сваіх заняткаў.",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 122,
+                          "redacted": false,
                           "title": "You: \"\"We might be dealing with a *crimin...\"",
+                          "actor": "You",
+                          "to": "Sleeping Dockworker",
                           "articyId": "0x0100006B00000F74",
-                          "text": "\"We might be dealing with a *criminal* here. Let me work.\"",
+                          "english": "\"We might be dealing with a *criminal* here. Let me work.\"",
+                          "polish": "„Możemy mieć tu do czynienia z *przestępcą*. Daj mi pracować”.",
+                          "belarusian": "«Мы можам мець справу з *злачынцам*. Дай мне працаваць».",
                           "links": [
                             {
                               "id": 166,
+                              "redacted": false,
                               "title": "Garte, the Cafeteria Manager: \"\"Yes. Sure. A *criminal*.\" He rolls...\"",
+                              "actor": "Garte, the Cafeteria Manager",
+                              "to": "You",
                               "articyId": "0x0100006B00000F7B",
-                              "text": "\"Yes. Sure. A *criminal*.\" He rolls his eyes, then turns back to his activities.",
+                              "english": "\"Yes. Sure. A *criminal*.\" He rolls his eyes, then turns back to his activities.",
+                              "polish": "„Taa. Pewnie. *Przestępcą*” – przewraca oczami i wraca do swoich zajęć.",
+                              "belarusian": "«Таа. Пэўна. *Злачынцам*» — перакочвае вачыма і вяртаецца да сваіх спраў.",
                               "links": []
                             }
                           ]
@@ -951,43 +1566,73 @@
         },
         {
           "id": 169,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Sleeping Dockworker",
           "articyId": "0x0100001600001D4F",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Сыходзь].",
           "links": []
         },
         {
           "id": 183,
+          "redacted": false,
           "title": "Inland Empire: \"Perhaps he's on his way to where yo...\"",
+          "actor": "Inland Empire",
+          "to": "You",
           "articyId": "0x0100001600001F29",
-          "text": "Perhaps he's on his way to where you just came from -- into the primordial darkness?",
+          "english": "Perhaps he's on his way to where you just came from -- into the primordial darkness?",
+          "polish": "Może podróżuje tam, skąd ty właśnie wróciłeś – ku pierwotnemu mrokowi?",
+          "belarusian": "Можа, падарожнічае туды, адкуль ты толькі што вярнуўся — да першаснай цемры?",
           "links": []
         }
       ]
     },
     {
       "id": 12,
+      "redacted": false,
       "title": "Sleeping Dockworker: \"A man is sleeping at the table, wea...\"",
+      "actor": "Sleeping Dockworker",
+      "to": "You",
       "articyId": "0x0100001600001D0B",
-      "text": "A man is sleeping at the table, wearing mud-caked boots and rolled down overalls. The back of his shirt reads \"WILD PINES\", encircled by a logo with a tree.",
+      "english": "A man is sleeping at the table, wearing mud-caked boots and rolled down overalls. The back of his shirt reads \"WILD PINES\", encircled by a logo with a tree.",
+      "polish": "Przy stole śpi mężczyzna w ściągniętym do połowy kombinezonie i oblepionych błotem butach. Na plecach jego koszulki widnieje napis „WILD PINES” zamknięty w logo z motywem drzewa.",
+      "belarusian": "За сталом спіць мужчына ў камбінезоне, які ссунуты да паловы, і ў ботах, запэцканых граззю. На спіне яго кашулі надпіс \"WILD PINES\", заключаны ў лагатып з дрэвападобным матывам.",
       "links": [
         {
           "id": 53,
+          "redacted": false,
           "title": "Physical Instrument: \"He looks one with the table. It wou...\"",
+          "actor": "Physical Instrument",
+          "to": "You",
           "articyId": "0x0100001600001D23",
-          "text": "He looks one with the table. It would take quite some effort to wake him up.",
+          "english": "He looks one with the table. It would take quite some effort to wake him up.",
+          "polish": "Wygląda na zespolonego z blatem. Obudzenie go wymagałoby sporo zachodu.",
+          "belarusian": "Выглядае, быццам зліўся з паверхняй. Каб разбудзіць яго, спатрэбілася б шмат намаганняў.",
           "links": [
             {
               "id": 66,
+              "redacted": false,
               "title": "Interfacing: \"A colourful piece of plastic is dan...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100000600011CEC",
-              "text": "A colourful piece of plastic is dangling from his carabiner... hmm. Makes your fingers itch.",
+              "english": "A colourful piece of plastic is dangling from his carabiner... hmm. Makes your fingers itch.",
+              "polish": "Z karabińczyka zwisa kolorowy kawałek plastiku... Hm. Aż cię palce świerzbią.",
+              "belarusian": "З карабiна звiсае каляровы кавалак пластыку... Гм. Аж пальцы свербяць.",
               "links": [
                 {
                   "id": 78,
+                  "redacted": false,
                   "title": "Sleeping Dockworker: \"On the counter -- rolled out of his...\"",
+                  "actor": "Sleeping Dockworker",
+                  "to": "You",
                   "articyId": "0x010000060000FFF2",
-                  "text": "On the counter -- rolled out of his open hand -- you see a blister pack of headache medicine.",
+                  "english": "On the counter -- rolled out of his open hand -- you see a blister pack of headache medicine.",
+                  "polish": "Na stole widzisz blister leku na ból głowy, który wypadł mu z ręki.",
+                  "belarusian": "На стале бачыш блістар леку ад галаўнога болю, які выпаў яму з рук.",
                   "links": []
                 }
               ]

@@ -5,86 +5,146 @@
   "dialogueTree": [
     {
       "id": 32,
+      "redacted": false,
       "title": "Padlocked Door: \"This door has been closed with a pa...\"",
+      "actor": "Padlocked Door",
+      "to": "You",
       "articyId": "0x0100002F0000FE64",
-      "text": "This door has been closed with a padlock. A chalk-drawn number on the board says #11.",
+      "english": "This door has been closed with a padlock. A chalk-drawn number on the board says #11.",
+      "polish": "Drzwi zostały zamknięte na kłódkę. Na tabliczce napisano kredą numer 11.",
+      "belarusian": "Дзверы былі замкнутыя на клямку. На таблічцы крэйдай напісаны нумар 11.",
       "links": [
         {
           "id": 57,
+          "redacted": false,
           "title": "You: \"Knock.\"",
+          "actor": "You",
+          "to": "Padlocked Door",
           "articyId": "0x0100002F0000FE6B",
-          "text": "Knock.",
+          "english": "Knock.",
+          "polish": "Zapukaj.",
+          "belarusian": "Пастукай.",
           "links": [
             {
               "id": 36,
+              "redacted": false,
               "title": "Padlocked Door: \"No reply.\"",
+              "actor": "Padlocked Door",
+              "to": "You",
               "articyId": "0x0100002F0000FE7A",
-              "text": "No reply.",
+              "english": "No reply.",
+              "polish": "Żadnej odpowiedzi.",
+              "belarusian": "Ніякага адказу.",
               "links": []
             }
           ]
         },
         {
           "id": 54,
+          "redacted": false,
           "title": "You: \"Examine the padlock.\"",
+          "actor": "You",
+          "to": "Padlocked Door",
           "articyId": "0x010000570001DCE6",
-          "text": "Examine the padlock.",
+          "english": "Examine the padlock.",
+          "polish": "Przyjrzyj się kłódce.",
+          "belarusian": "Паглядзі на замок.",
           "links": [
             {
               "id": 59,
+              "redacted": false,
               "title": "Padlocked Door: \"It's a solid lump of metal, but the...\"",
+              "actor": "Padlocked Door",
+              "to": "You",
               "articyId": "0x010000570001DCED",
-              "text": "It's a solid lump of metal, but the shackle is deeply corroded -- a solid pair of chaincutters would make short work of it.",
+              "english": "It's a solid lump of metal, but the shackle is deeply corroded -- a solid pair of chaincutters would make short work of it.",
+              "polish": "Mocny kawałek metalu, lecz pałąk jest bardzo skorodowany. Porządne nożyce do metalu łatwo by sobie z nim poradziły.",
+              "belarusian": "Моцны кавалак металу, але дыяганаль вельмі іржавая. Добрыя нажніцы па метале лёгка справіліся б з ім.",
               "links": [
                 {
                   "id": 16,
+                  "redacted": false,
                   "title": "You: \"\"Time for a little snip-snip!\" (Do...\"",
+                  "actor": "You",
+                  "to": "Padlocked Door",
                   "articyId": "0x010000570001E12B",
-                  "text": "\"Time for a little snip-snip!\" (Do hand-scissors.)",
+                  "english": "\"Time for a little snip-snip!\" (Do hand-scissors.)",
+                  "polish": "„Czas na małe ciach-ciach!” (Zrób nożyczki z palców).",
+                  "belarusian": "\"Час на маленькае чах-чах!\" (Зрабіце нажніцы з пальцаў).",
                   "links": [
                     {
                       "id": 22,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"You seem committed to it, so go on.\"\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x010000570001E133",
-                      "text": "\"You seem committed to it, so go on.\"",
+                      "english": "\"You seem committed to it, so go on.\"",
+                      "polish": "„Skoro tak ci na tym zależy, to działaj”.",
+                      "belarusian": "«Калі табе гэта так важна, дык дзейнічай».",
                       "links": []
                     }
                   ]
                 },
                 {
                   "id": 67,
+                  "redacted": false,
                   "title": "You: \"Refrain from commenting.\"",
+                  "actor": "You",
+                  "to": "Padlocked Door",
                   "articyId": "0x010000570001E13F",
-                  "text": "Refrain from commenting.",
+                  "english": "Refrain from commenting.",
+                  "polish": "Powstrzymaj się od komentarza.",
+                  "belarusian": "Устрымацца ад каментару.",
                   "links": [
                     {
                       "id": 72,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"The lieutenant is concentrated on t...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x010000570001E14D",
-                      "text": "The lieutenant is concentrated on the hallway, scanning both ways for any approachers.",
+                      "english": "The lieutenant is concentrated on the hallway, scanning both ways for any approachers.",
+                      "polish": "Porucznik skupia się na korytarzu, obserwując oba kierunki, by nie przeoczyć pojawienia się żadnej osoby.",
+                      "belarusian": "Лейтэнант засяроджваецца на калідоры, назіраючы за абодвума напрамкамі, каб не ўпусціць з'яўленне нікога.",
                       "links": []
                     }
                   ]
                 },
                 {
                   "id": 74,
+                  "redacted": false,
                   "title": "Interfacing: \"Better whip out those cutters... yo...\"",
+                  "actor": "Interfacing",
+                  "to": "You",
                   "articyId": "0x0100008900004552",
-                  "text": "Better whip out those cutters... you won't get very far otherwise.",
+                  "english": "Better whip out those cutters... you won't get very far otherwise.",
+                  "polish": "Lepiej wyciągaj te nożyce... Inaczej zbyt wiele nie zdziałasz.",
+                  "belarusian": "Лепш выцягвай гэтыя нажніцы... Інакш занадта шмат не зробіш.",
                   "links": []
                 },
                 {
                   "id": 58,
+                  "redacted": false,
                   "title": "Interfacing: \"Yes! Get those cutters in there and...\"",
+                  "actor": "Interfacing",
+                  "to": "You",
                   "articyId": "0x0100008900004572",
-                  "text": "Yes! Get those cutters in there and *snip* away. This weak chain is no match for your might.",
+                  "english": "Yes! Get those cutters in there and *snip* away. This weak chain is no match for your might.",
+                  "polish": "Tak! Bierz te nożyce i *ciachaj*. Ten słaby łańcuch nie ma szans z twoją siłą.",
+                  "belarusian": "Так! Бяры гэтыя нажніцы і *рэж*. Гэты слабы ланцуг не мае шанцаў з тваёй сілай.",
                   "links": []
                 },
                 {
                   "id": 17,
+                  "redacted": false,
                   "title": "Interfacing: \"A lock blocks your path! You might...\"",
+                  "actor": "Interfacing",
+                  "to": "You",
                   "articyId": "0x0100008900004564",
-                  "text": "A lock blocks your path! You might have use for one of those standard police devices for cutting chains. Something that may be found in an RCM motor carriage...",
+                  "english": "A lock blocks your path! You might have use for one of those standard police devices for cutting chains. Something that may be found in an RCM motor carriage...",
+                  "polish": "Na drodze stanął ci zamek! Może przydać się jedno z tych standardowych policyjnych urządzeń do cięcia łańcuchów. Coś, co można znaleźć w powozie motorowym MOR-u...",
+                  "belarusian": "На дарозе стаяў перад табой замак! Можа, спатрэбіцца адно з гэтых стандартных паліцэйскіх прылад для рэзкі ланцугоў. Нешта, што можна знайсці ў аўтамабілі РГМ...",
                   "links": []
                 }
               ]
@@ -93,39 +153,69 @@
         },
         {
           "id": 27,
+          "redacted": false,
           "title": "You: \"\"We could use some chaincutters her...\"",
+          "actor": "You",
+          "to": "Padlocked Door",
           "articyId": "0x01000008000012A9",
-          "text": "\"We could use some chaincutters here to cut the shackle.\"",
+          "english": "\"We could use some chaincutters here to cut the shackle.\"",
+          "polish": "„Przydałyby nam się nożyce do metalu, żeby przeciąć pałąk”.",
+          "belarusian": "„Нам спатрэбяцца нажніцы для металу, каб перарэзаць дужку”.",
           "links": [
             {
               "id": 3,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Why would we want to break into so...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x01000008000012B0",
-              "text": "\"Why would we want to break into some random citizen's apartment?\"",
+              "english": "\"Why would we want to break into some random citizen's apartment?\"",
+              "polish": "„Dlaczego mielibyśmy włamywać się do mieszkania jakiegoś przypadkowego obywatela?”",
+              "belarusian": "«Чаму мы мусілі б узломваць кватэру нейкага выпадковага грамадзяніна?»",
               "links": [
                 {
                   "id": 45,
+                  "redacted": false,
                   "title": "You: \"\"Snip-snip, my friend!\" (Do hand-sc...\"",
+                  "actor": "You",
+                  "to": "Padlocked Door",
                   "articyId": "0x01000008000012BE",
-                  "text": "\"Snip-snip, my friend!\" (Do hand-scissors.)",
+                  "english": "\"Snip-snip, my friend!\" (Do hand-scissors.)",
+                  "polish": "„Ciach-ciach, przyjacielu!” (Zrób nożyczki z palców).",
+                  "belarusian": "«Чах-чах, сябра!» (Зрабі нажніцы з пальцаў).",
                   "links": [
                     {
                       "id": 28,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"The lieutenant doesn't say a word,...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x01000008000012DC",
-                      "text": "The lieutenant doesn't say a word, his face wiped clear of any emotion.",
+                      "english": "The lieutenant doesn't say a word, his face wiped clear of any emotion.",
+                      "polish": "Porucznik milczy, a z jego twarzy zniknęły oznaki jakichkolwiek emocji.",
+                      "belarusian": "Лейтэнант маўчыць, і з яго твару зніклі прыкметы якіх-кольвек эмоцый.",
                       "links": [
                         {
                           "id": 4,
+                          "redacted": false,
                           "title": "Rhetoric: \"There's so much he could say right...\"",
+                          "actor": "Rhetoric",
+                          "to": "You",
                           "articyId": "0x01000008000012D3",
-                          "text": "There's so much he could say right now, but he knows it wouldn't make much of a difference.",
+                          "english": "There's so much he could say right now, but he knows it wouldn't make much of a difference.",
+                          "polish": "Jest tak wiele rzeczy, które mógłby teraz powiedzieć, ale wie, że nie zrobi to zbyt wielkiej różnicy.",
+                          "belarusian": "Ёсць так шмат рэчаў, якія ён мог бы зараз сказаць, але ведае, што гэта не зробіць занадта вялікай розніцы.",
                           "links": [
                             {
                               "id": 46,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"He takes a closer look at the lock....\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x01000008000012E4",
-                              "text": "He takes a closer look at the lock. \"I supposed if one were *committed* to it, there's a pair of chaincutters in the Kineema.\"",
+                              "english": "He takes a closer look at the lock. \"I supposed if one were *committed* to it, there's a pair of chaincutters in the Kineema.\"",
+                              "polish": "Przygląda się uważniej zamkowi. „Gdyby komuś bardzo na tym *zależało*, to w kineemie znajdują się nożyce do cięcia metalu”.",
+                              "belarusian": "Уважліва глядзіць на замак. «Калі б каму-небудзь вельмі гэта *сапраўды трэба было*, то ў кінематаграфе знаходзяцца нажніцы для рэзкі металу».",
                               "links": []
                             }
                           ]
@@ -136,24 +226,39 @@
                 },
                 {
                   "id": 6,
+                  "redacted": false,
                   "title": "You: \"\"Why *wouldn't* we want to?\"\"",
+                  "actor": "You",
+                  "to": "Padlocked Door",
                   "articyId": "0x01000008000012B8",
-                  "text": "\"Why *wouldn't* we want to?\"",
+                  "english": "\"Why *wouldn't* we want to?\"",
+                  "polish": "„A czemu mielibyśmy tego *nie robić*?”",
+                  "belarusian": "«А чаму б нам гэтага *не рабіць*?»",
                   "links": [
                     {
                       "id": 41,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"The lieutenant looks at you for a l...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x01000008000012CD",
-                      "text": "The lieutenant looks at you for a long moment, then blinks once...",
+                      "english": "The lieutenant looks at you for a long moment, then blinks once...",
+                      "polish": "Porucznik wpatruje się w ciebie przez dłuższą chwilę, po czym mruga...",
+                      "belarusian": "Лейтэнант узіраецца ў цябе на працягу доўгага моманту, пасля чаго міргае...",
                       "links": []
                     }
                   ]
                 },
                 {
                   "id": 18,
+                  "redacted": false,
                   "title": "You: \"\"I don't know, just seems like some...\"",
+                  "actor": "You",
+                  "to": "Padlocked Door",
                   "articyId": "0x01000008000012C4",
-                  "text": "\"I don't know, just seems like something we could do.\"",
+                  "english": "\"I don't know, just seems like something we could do.\"",
+                  "polish": "„No nie wiem, po prostu wygląda mi to na coś, co moglibyśmy zrobić”.",
+                  "belarusian": "«Ну, я не ведаю, гэта выглядае мне на тое, што мы маглі б зрабіць».",
                   "links": []
                 }
               ]
@@ -162,70 +267,120 @@
         },
         {
           "id": 12,
+          "redacted": false,
           "title": "You: \"Use the chaincutters to cut through...\"",
+          "actor": "You",
+          "to": "Padlocked Door",
           "articyId": "0x010000570001DCC9",
-          "text": "Use the chaincutters to cut through the padlock.",
+          "english": "Use the chaincutters to cut through the padlock.",
+          "polish": "Użyj nożyc do metalu, żeby pozbyć się kłódki.",
+          "belarusian": "Выкарыстайце нажніцы па метале, каб пазбавіцца ад замка.",
           "links": [
             {
               "id": 29,
+              "redacted": false,
               "title": "Interfacing: \"The shackle snaps like a twig and t...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x010000570001DCDA",
-              "text": "The shackle snaps like a twig and the lock falls to the floor with a little thud. It should be possible to enter now...",
+              "english": "The shackle snaps like a twig and the lock falls to the floor with a little thud. It should be possible to enter now...",
+              "polish": "Pałąk pęka niczym gałązka – kłódka opada z cichym stukiem na podłogę. Powinno już się dać tam wejść...",
+              "belarusian": "Дужка лопаецца, як галінка — замок ціха падае на падлогу. Цяпер туды павінна быць магчыма зайсці...",
               "links": [
                 {
                   "id": 44,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"After you, detective.\"\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x010000570001E163",
-                  "text": "\"After you, detective.\"",
+                  "english": "\"After you, detective.\"",
+                  "polish": "„Prowadź, detektywie”.",
+                  "belarusian": "«Вядзі, дэтэктыў».",
                   "links": []
                 }
               ]
             },
             {
               "id": 56,
+              "redacted": false,
               "title": "Interfacing: \"What are you doing? You need to get...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x01000002000011A0",
-              "text": "What are you doing? You need to get your tools out, man.",
+              "english": "What are you doing? You need to get your tools out, man.",
+              "polish": "Co ty robisz? Musisz wyciągnąć narzędzia, chłopie.",
+              "belarusian": "Што ты робіш? Ты павінен дастаць інструменты, хлопец.",
               "links": []
             },
             {
               "id": 66,
+              "redacted": false,
               "title": "Interfacing: \"What are you doing? You're trying t...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x010000570001DCDF",
-              "text": "What are you doing? You're trying to cut the body of the lock with the chaincutters and it's really not working.",
+              "english": "What are you doing? You're trying to cut the body of the lock with the chaincutters and it's really not working.",
+              "polish": "Co ty robisz? Próbujesz ciąć obudowę kłódki nożycami. I to się zupełnie nie sprawdza.",
+              "belarusian": "Што ты робіш? Спрабуеш рэзаць корпус замка нажніцамі. І гэта зусім не працуе.",
               "links": [
                 {
                   "id": 10,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"I believe it's the *shackle* you m...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x0100007000005BFF",
-                  "text": "\"I believe it's the *shackle* you mean to cut, detective.\" The lieutenant points to the corroded loop with a gloved finger.",
+                  "english": "\"I believe it's the *shackle* you mean to cut, detective.\" The lieutenant points to the corroded loop with a gloved finger.",
+                  "polish": "„Zdaje się, że chciałeś przeciąć *pałąk*, detektywie” – stwierdza porucznik, wskazując palcem dłoni okrytej rękawiczką.",
+                  "belarusian": "«Здаецца, вы хацелі перарэзаць *лючку*, дэтэктыў», — заўважае лейтэнант, паказваючы пальцам рукі ў пальчатцы.",
                   "links": [
                     {
                       "id": 11,
+                      "redacted": false,
                       "title": "Empathy: \"He's just trying to help, don't tak...\"",
+                      "actor": "Empathy",
+                      "to": "You",
                       "articyId": "0x010000060001B954",
-                      "text": "He's just trying to help, don't take it... bad. Relax.",
+                      "english": "He's just trying to help, don't take it... bad. Relax.",
+                      "polish": "Próbuje tylko pomóc, nie odbieraj tego... źle. Spokojnie.",
+                      "belarusian": "Спрабую толькі дапамагчы, не ўспрымай гэта... няправільна. Сцішайся.",
                       "links": [
                         {
                           "id": 55,
+                          "redacted": false,
                           "title": "You: \"\"Don't you think that's what I'm *t...\"",
+                          "actor": "You",
+                          "to": "Padlocked Door",
                           "articyId": "0x0100007000005C08",
-                          "text": "\"Don't you think that's what I'm *trying* to do?\"",
+                          "english": "\"Don't you think that's what I'm *trying* to do?\"",
+                          "polish": "„A myślisz, że co *próbuję* zrobić?”",
+                          "belarusian": "«А ты думаеш, што я *спрабую* зрабіць?»",
                           "links": [
                             {
                               "id": 31,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Perhaps you should give it another...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100007000005C16",
-                              "text": "\"Perhaps you should give it another go?\"",
+                              "english": "\"Perhaps you should give it another go?\"",
+                              "polish": "„Może powinieneś spróbować jeszcze raz?”",
+                              "belarusian": "«Можа, табе варта паспрабаваць яшчэ раз?»",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 73,
+                          "redacted": false,
                           "title": "You: \"\"These chaincutters are broken, Kim.\"\"",
+                          "actor": "You",
+                          "to": "Padlocked Door",
                           "articyId": "0x0100007000005C0E",
-                          "text": "\"These chaincutters are broken, Kim.\"",
+                          "english": "\"These chaincutters are broken, Kim.\"",
+                          "polish": "„Te nożyce są zepsute, Kim”.",
+                          "belarusian": "„Гэтыя нажніцы сапсаваныя, Кім”.",
                           "links": []
                         }
                       ]
@@ -238,9 +393,14 @@
         },
         {
           "id": 42,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Padlocked Door",
           "articyId": "0x0100002F0000FE71",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Адыдзі].",
           "links": []
         }
       ]

@@ -5,34 +5,59 @@
   "dialogueTree": [
     {
       "id": 2,
+      "redacted": false,
       "title": "Elevator: \"The elevator stands open, inviting...\"",
+      "actor": "Elevator",
+      "to": null,
       "articyId": "0x0100005800007120",
-      "text": "The elevator stands open, inviting you to step inside.",
+      "english": "The elevator stands open, inviting you to step inside.",
+      "polish": "Winda stoi otwarta, jakby zapraszała, żebyś do niej wszedł.",
+      "belarusian": "Ліфт стаіць адкрыты, быццам запрашае цябе ўвайсці.",
       "links": [
         {
           "id": 19,
+          "redacted": false,
           "title": "Logic: \"This elevator must have been used t...\"",
+          "actor": "Logic",
+          "to": null,
           "articyId": "0x0100005800009F0B",
-          "text": "This elevator must have been used to transport pinball machines to and from the upstairs workshop.",
+          "english": "This elevator must have been used to transport pinball machines to and from the upstairs workshop.",
+          "polish": "Windy używano zapewne, by transportować maszyny do pinballa z i do warsztatu na górze.",
+          "belarusian": "Верагодна, ліфт выкарыстоўваўся для транспарціроўкі гульнявых аўтаматаў у майстэрню наверсе і з яе.",
           "links": []
         },
         {
           "id": 21,
+          "redacted": false,
           "title": "You: \"Look at the elevator controls.\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000580000725E",
-          "text": "Look at the elevator controls.",
+          "english": "Look at the elevator controls.",
+          "polish": "Spójrz na panel windy.",
+          "belarusian": "Паглядзі на панэль ліфта.",
           "links": [
             {
               "id": 34,
+              "redacted": false,
               "title": "Elevator: \"There are large rectangular buttons...\"",
+              "actor": "Elevator",
+              "to": null,
               "articyId": "0x010000580000727F",
-              "text": "There are large rectangular buttons: 'Monter', 'Descendre', and an international: 'Call for Emergency Assistance'. That third one appears to be broken.",
+              "english": "There are large rectangular buttons: 'Monter', 'Descendre', and an international: 'Call for Emergency Assistance'. That third one appears to be broken.",
+              "polish": "Widzisz duże, kwadratowe przyciski: „Monter”, „Descendre” i międzynarodowe „Wezwanie pomocy”. Ostatni przycisk jest chyba zepsuty.",
+              "belarusian": "Бачыш вялікія, квадратныя кнопкі: «Monter», «Descendre» і міжнароднае «Выкліканне дапамогі». Здаецца, апошняя кнопка зламана.",
               "links": [
                 {
                   "id": 46,
+                  "redacted": false,
                   "title": "Encyclopedia: \"A small steel plaque reads 'Halter...\"",
+                  "actor": "Encyclopedia",
+                  "to": null,
                   "articyId": "0x0100007800010AA4",
-                  "text": "A small steel plaque reads 'Halter 800'. Halter is a Königsteiner lift company who went out of business a long, long time ago.",
+                  "english": "A small steel plaque reads 'Halter 800'. Halter is a Königsteiner lift company who went out of business a long, long time ago.",
+                  "polish": "Na małej stalowej tabliczce widzisz napis „Halter 800”. Halter to produkująca windy firma z Königsteineru, która zbankrutowała dawno, dawno temu.",
+                  "belarusian": "На маленькай сталёвай таблічцы бачыце надпіс „Halter 800”. Halter — гэта кампанія па вытворчасці ліфтаў з Кёнігштайнера, якая абанкруцілася даўным-даўно.",
                   "links": []
                 }
               ]
@@ -41,69 +66,119 @@
         },
         {
           "id": 47,
+          "redacted": false,
           "title": "You: \"\"It says the last maintenance was i...\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x01000058000072BD",
-          "text": "\"It says the last maintenance was in '88.\"",
+          "english": "\"It says the last maintenance was in '88.\"",
+          "polish": "„Tu jest napisane, że ostatnia konserwacja była w 88”.",
+          "belarusian": "«Тут напісана, што апошняе тэхнічнае абслугоўванне было ў 88».",
           "links": [
             {
               "id": 43,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"That it does.\" The lieutenant peek...\"",
+              "actor": "Kim Kitsuragi",
+              "to": null,
               "articyId": "0x01000058000072CB",
-              "text": "\"That it does.\" The lieutenant peeks in. \"I say -- let's brave it.\"",
+              "english": "\"That it does.\" The lieutenant peeks in. \"I say -- let's brave it.\"",
+              "polish": "„Rzeczywiście” – potwierdza porucznik, zerkając na plakietkę. „Moim zdaniem powinniśmy zaryzykować”.",
+              "belarusian": "«Сапраўды», — пацвярджае лейтэнант, зірнуўшы на таблічку. «На маю думку, мы павінны рызыкнуць».",
               "links": [
                 {
                   "id": 22,
+                  "redacted": false,
                   "title": "You: \"\"This elevator was last maintained...\"",
+                  "actor": "You",
+                  "to": null,
                   "articyId": "0x01000058000072D2",
-                  "text": "\"This elevator was last maintained in the *future*?\"",
+                  "english": "\"This elevator was last maintained in the *future*?\"",
+                  "polish": "„Ostatnio kontrolowali tę windę *w przyszłości*”?",
+                  "belarusian": "«Апошнім часам кантралявалі гэты ліфт *у будучыні*»?",
                   "links": [
                     {
                       "id": 35,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"No, it was maintained in '88 of th...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": null,
                       "articyId": "0x01000058000072E4",
-                      "text": "\"No, it was maintained in '88 of the *previous* century.\"",
+                      "english": "\"No, it was maintained in '88 of the *previous* century.\"",
+                      "polish": "„Nie, ostatni przegląd był w roku 88 *poprzedniego* stulecia”.",
+                      "belarusian": "«Не, апошні агляд быў у 88 годзе *папярэдняга* стагоддзя».",
                       "links": [
                         {
                           "id": 14,
+                          "redacted": false,
                           "title": "You: \"\"So it's *not* a message from the f...\"",
+                          "actor": "You",
+                          "to": null,
                           "articyId": "0x01000058000072EA",
-                          "text": "\"So it's *not* a message from the future?\"",
+                          "english": "\"So it's *not* a message from the future?\"",
+                          "polish": "„Czyli to *nie jest* wiadomość z przyszłości?”",
+                          "belarusian": "«Дык гэта *не* з'яўляецца паведамленнем з будучыні?»",
                           "links": [
                             {
                               "id": 18,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"No, I think the bureaucrats just f...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": null,
                               "articyId": "0x01000058000072FC",
-                              "text": "\"No, I think the bureaucrats just forgot about this back-room elevator after the Revolution.\"",
+                              "english": "\"No, I think the bureaucrats just forgot about this back-room elevator after the Revolution.\"",
+                              "polish": "„Nie, pewnie po rewolucji biurokraci po prostu zapomnieli o tej windzie na zapleczu”.",
+                              "belarusian": "«Не, напэўна пасля рэвалюцыі бюракраты проста забыліся пра гэты ліфт на заднім двары».",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 28,
+                          "redacted": false,
                           "title": "You: \"\"That's disappointing.\"\"",
+                          "actor": "You",
+                          "to": null,
                           "articyId": "0x01000058000072F0",
-                          "text": "\"That's disappointing.\"",
+                          "english": "\"That's disappointing.\"",
+                          "polish": "„Co za rozczarowanie”.",
+                          "belarusian": "«Якое расчараванне».",
                           "links": [
                             {
                               "id": 15,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"If some form of time travel become...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": null,
                               "articyId": "0x0100005800007302",
-                              "text": "\"If some form of time travel becomes possible in the future, I doubt its inventors will use it to repair elevators in Martinaise,” the lieutenant responds with a grave voice.",
+                              "english": "\"If some form of time travel becomes possible in the future, I doubt its inventors will use it to repair elevators in Martinaise,” the lieutenant responds with a grave voice.",
+                              "polish": "„Jeśli w przyszłości podróże w czasie staną się możliwe, to wątpię, aby ich wynalazcy wykorzystywali je do naprawiania wind w Martinaise” – odpowiada z powagą porucznik.",
+                              "belarusian": "«Калі ў будучыні падарожжы ў часе стануць магчымымі, то я сумняюся, што іх вынаходнікі будуць выкарыстоўваць іх для рамонту ліфтаў у Мартынайзе», – адказвае з сур'ёзнасцю лейтэнант.",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 24,
+                          "redacted": false,
                           "title": "You: \"\"That means it's not really that sa...\"",
+                          "actor": "You",
+                          "to": null,
                           "articyId": "0x01000058000072D8",
-                          "text": "\"That means it's not really that safe, is it.\"",
+                          "english": "\"That means it's not really that safe, is it.\"",
+                          "polish": "„To by znaczyło, że nie jest aż taka znowu bezpieczna, co?”",
+                          "belarusian": "«Гэта азначала б, што яна не такая ўжо і бяспечная, так?»",
                           "links": [
                             {
                               "id": 5,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Look on the bright side: if it fai...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": null,
                               "articyId": "0x01000058000072DE",
-                              "text": "\"Look on the bright side: if it fails, we will only sustain minor injuries. I'm talking three, maybe four months in the hospital. Maximum five.\"",
+                              "english": "\"Look on the bright side: if it fails, we will only sustain minor injuries. I'm talking three, maybe four months in the hospital. Maximum five.\"",
+                              "polish": "„Nie jest tak źle – nawet jeśli winda się urwie, to odniesiemy niewielkie obrażenia. Jakieś trzy, może cztery miesiące w szpitalu. Maksymalnie pięć”.",
+                              "belarusian": "«Не так ужо і дрэнна — нават калі ліфт сарвецца, мы атрымаем невялікія траўмы. Прыкладна тры, можа, чатыры месяцы ў бальніцы. Максімум пяць».",
                               "links": []
                             }
                           ]
@@ -114,21 +189,36 @@
                 },
                 {
                   "id": 44,
+                  "redacted": false,
                   "title": "You: \"\"Eighty-eight... This elevator was...\"",
+                  "actor": "You",
+                  "to": null,
                   "articyId": "0x0100007800010AAD",
-                  "text": "\"Eighty-eight... This elevator was maintained a long time ago.\"",
+                  "english": "\"Eighty-eight... This elevator was maintained a long time ago.\"",
+                  "polish": "„Osiemdziesiąty ósmy... Ostatni raz ktoś robił przegląd tej windy bardzo dawno temu”.",
+                  "belarusian": "«Васьмідзесяты восьмы... Апошні раз хтосьці праводзіў агляд гэтага ліфта вельмі даўно».",
                   "links": [
                     {
                       "id": 42,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"At the end of the last century.\" H...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": null,
                       "articyId": "0x0100007800010AB6",
-                      "text": "\"At the end of the last century.\" He nods. \"Look on the bright side. If it fails, we will only sustain minor injuries -- I'm talking three, maybe four months in the hospital. maximum five.\"",
+                      "english": "\"At the end of the last century.\" He nods. \"Look on the bright side. If it fails, we will only sustain minor injuries -- I'm talking three, maybe four months in the hospital. maximum five.\"",
+                      "polish": "„Pod koniec zeszłego stulecia” – kiwa głową. „Ale nie jest tak źle – nawet jeśli winda się urwie, to odniesiemy niewielkie obrażenia. Jakieś trzy, może cztery miesiące w szpitalu. Maksymalnie pięć”.",
+                      "belarusian": "«У канцы мінулага стагоддзя», — ківае галавой. «Але не так ужо дрэнна — нават калі ліфт сарвецца, мы атрымаем нязначныя траўмы. Каля трох, можа, чатырох месяцаў у бальніцы. Максімум пяць».",
                       "links": [
                         {
                           "id": 48,
+                          "redacted": false,
                           "title": "Rhetoric: \"It appears his whole enthusiasm is...\"",
+                          "actor": "Rhetoric",
+                          "to": null,
                           "articyId": "0x0100007800010ABD",
-                          "text": "It appears his whole enthusiasm is sarcastic.",
+                          "english": "It appears his whole enthusiasm is sarcastic.",
+                          "polish": "Zdaje się, że ten jego entuzjazm jest podszyty sarkazmem.",
+                          "belarusian": "Здаецца, што яго энтузіязм прасякнуты сарказмам.",
                           "links": []
                         }
                       ]
@@ -141,126 +231,211 @@
         },
         {
           "id": 10,
+          "redacted": false,
           "title": "You: \"\"This elevator must have been neede...\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x0100005800009F2D",
-          "text": "\"This elevator must have been needed to transport the pinball machines up and down.\"",
+          "english": "\"This elevator must have been needed to transport the pinball machines up and down.\"",
+          "polish": "„Pewnie potrzebowali tej windy do przewożenia w górę i w dół maszyn do pinballa”.",
+          "belarusian": "«Напэўна, ім быў патрэбен гэты ліфт, каб перавозіць угору і ўніз машыны для пінбола».",
           "links": [
             {
               "id": 26,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Seems so, although it's pretty......\"",
+              "actor": "Kim Kitsuragi",
+              "to": null,
               "articyId": "0x0100005800009EF9",
-              "text": "\"Seems so, although it's pretty... quaint for a freight elevator.\" He taps on the guttering light bulb -- it's golden in the dark.",
+              "english": "\"Seems so, although it's pretty... quaint for a freight elevator.\" He taps on the guttering light bulb -- it's golden in the dark.",
+              "polish": "„Tak mi się wydaje, choć jest dość... urokliwa jak na towarową windę” – odpowiada, stukając żarówkę lśniącą w ciemności złotem.",
+              "belarusian": "«Так мне здаецца, хоць яна даволі... чароўная, як для грузавога ліфта», — адказвае ён, пастукваючы па лямпе, якая ззяе ў цемры золатам.",
               "links": []
             }
           ]
         },
         {
           "id": 29,
+          "redacted": false,
           "title": "You: \"\"I wonder what this elevator was us...\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x0100005800009F27",
-          "text": "\"I wonder what this elevator was used for.\"",
+          "english": "\"I wonder what this elevator was used for.\"",
+          "polish": "„Ciekawe, do czego używano tej windy”.",
+          "belarusian": "„Цікава, для чаго выкарыстоўвалі гэты ліфт”.",
           "links": [
             {
               "id": 9,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Seems like a small freight elevato...\"",
+              "actor": "Kim Kitsuragi",
+              "to": null,
               "articyId": "0x0100005800009EFF",
-              "text": "\"Seems like a small freight elevator for transporting machinery. For that -- it's pretty quaint.\" He taps the on the guttering light bulb -- it's golden in the dark.",
+              "english": "\"Seems like a small freight elevator for transporting machinery. For that -- it's pretty quaint.\" He taps the on the guttering light bulb -- it's golden in the dark.",
+              "polish": "„Zdaje się, że to mała winda towarowa do transportu maszynerii. Ale jak na to jest dość urokliwa” – odpowiada, stukając żarówkę lśniącą w ciemności złotem.",
+              "belarusian": "„Здаецца, што гэта малы грузавы ліфт для транспарціроўкі машынерыі. Але як на тое, даволі зачаравальны” – адказвае, стукаўшы лямпачку, якая ззяе ў цемры золатам.",
               "links": []
             }
           ]
         },
         {
           "id": 27,
+          "redacted": false,
           "title": "You: \"Could this have been for moving pin...\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x0100005800009F39",
-          "text": "Could this have been for moving pinball machines up and down?",
+          "english": "Could this have been for moving pinball machines up and down?",
+          "polish": "Czyżby służyła do przewożenia w górę i w dół maszyn do pinballa?",
+          "belarusian": "Ці не выкарыстоўваецца яна для перамяшчэння ўверх і ўніз машын для пінбола?",
           "links": [
             {
               "id": 32,
+              "redacted": false,
               "title": "Elevator: \"Looks like one would fit in there,...\"",
+              "actor": "Elevator",
+              "to": null,
               "articyId": "0x0100005800009F6F",
-              "text": "Looks like one would fit in there, yes. Although it's also surprisingly human -- in the golden light of that ancient bulb.",
+              "english": "Looks like one would fit in there, yes. Although it's also surprisingly human -- in the golden light of that ancient bulb.",
+              "polish": "Zdaje się, że owszem – jedna by się zmieściła. Choć jest tu zaskakująco zapraszająco dla ludzi. To dzięki złotemu światłu tej starej żarówki.",
+              "belarusian": "Здаецца, што так – адна магла б змясціцца. Хоць тут здавальняльна прывабна для людзей. Гэта дзякуючы залатому святлу гэтай старой лямпы.",
               "links": []
             }
           ]
         },
         {
           "id": 41,
+          "redacted": false,
           "title": "You: \"What were you used for, elevator?\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x0100005800009EE6",
-          "text": "What were you used for, elevator?",
+          "english": "What were you used for, elevator?",
+          "polish": "Do czego cię używali, windo?",
+          "belarusian": "Для чаго цябе выкарыстоўвалі, акно?",
           "links": [
             {
               "id": 25,
+              "redacted": false,
               "title": "Elevator: \"The deep scratches on the floor sug...\"",
+              "actor": "Elevator",
+              "to": null,
               "articyId": "0x0100005800009EF3",
-              "text": "The deep scratches on the floor suggest it was used as a freight elevator -- for transporting heavy machinery. And one man.",
+              "english": "The deep scratches on the floor suggest it was used as a freight elevator -- for transporting heavy machinery. And one man.",
+              "polish": "Głębokie zadrapania na podłodze wskazywałyby, że była to winda towarowa. Do przewozu ciężkich maszyn. I jednego człowieka.",
+              "belarusian": "Глыбокія драпіны на падлозе паказвалі, што гэта быў грузавы ліфт. Для перавозкі цяжкіх машын. І аднаго чалавека.",
               "links": []
             }
           ]
         },
         {
           "id": 12,
+          "redacted": false,
           "title": "You: \"(Close the doors and go up.)\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x01000058000071CF",
-          "text": "(Close the doors and go up.)",
+          "english": "(Close the doors and go up.)",
+          "polish": "(Zamknij drzwi i pojedź na górę).",
+          "belarusian": "(Закрый дзверы і паднімся ўгару).",
           "links": [
             {
               "id": 16,
+              "redacted": false,
               "title": "Elevator: \"The elevator screeches and rattles,...\"",
+              "actor": "Elevator",
+              "to": null,
               "articyId": "0x01000058000071E7",
-              "text": "The elevator screeches and rattles, like the belly of some ancient beast, as it carries you upward...",
+              "english": "The elevator screeches and rattles, like the belly of some ancient beast, as it carries you upward...",
+              "polish": "Ruszając ku górze, winda piszczy i drży niczym brzuch jakiejś pradawnej bestii...",
+              "belarusian": "Скіроўваючыся ўгару, ліфт пішчыць і дрыжыць, як жывот нейкай старадаўняй пачвары...",
               "links": []
             }
           ]
         },
         {
           "id": 11,
+          "redacted": false,
           "title": "You: \"Go down.\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x01000058000071D5",
-          "text": "Go down.",
+          "english": "Go down.",
+          "polish": "Zjedź na dół.",
+          "belarusian": "Пракруціце ўніз.",
           "links": [
             {
               "id": 3,
+              "redacted": false,
               "title": "Elevator: \"The elevator lurches and squeaks, l...\"",
+              "actor": "Elevator",
+              "to": null,
               "articyId": "0x01000058000071ED",
-              "text": "The elevator lurches and squeaks, like the belly of some ancient beast, as you descend....",
+              "english": "The elevator lurches and squeaks, like the belly of some ancient beast, as you descend....",
+              "polish": "Zjeżdżając w dół, winda szarpie i trzeszczy niczym brzuch jakiejś pradawnej bestii...",
+              "belarusian": "Спускаючыся ўніз, ліфт трасе і рыпіць, як жывот нейкай старадаўняй пачвары...",
               "links": []
             }
           ]
         },
         {
           "id": 13,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x01000058000071DD",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Адыдзі].",
           "links": []
         }
       ]
     },
     {
       "id": 23,
+      "redacted": false,
       "title": "Elevator: \"This small elevator is dimly lit by...\"",
+      "actor": "Elevator",
+      "to": null,
       "articyId": "0x01000058000071BD",
-      "text": "This small elevator is dimly lit by a bulb that's been glowing for ages. The latticed cage is open, inviting you to step inside.",
+      "english": "This small elevator is dimly lit by a bulb that's been glowing for ages. The latticed cage is open, inviting you to step inside.",
+      "polish": "Niewielką windę rozświetla słaba żarówka, którą zapalono chyba wieki temu. Klatka z kratownicy jest otwarta, jakby zapraszała cię do środka.",
+      "belarusian": "Невялікі ліфт асвятляе слабая лямпачка, якая, здаецца, была ўключана яшчэ стагоддзі таму. Клетка з кратаў адчыненая, як быццам запрашае цябе ўнутр.",
       "links": [
         {
           "id": 4,
+          "redacted": false,
           "title": "You: \"Look in.\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x01000058000071FB",
-          "text": "Look in.",
+          "english": "Look in.",
+          "polish": "Zajrzyj do środka.",
+          "belarusian": "Загляні ўнутр.",
           "links": [
             {
               "id": 33,
+              "redacted": false,
               "title": "Elevator: \"Smells of nougat and sweat. Your he...\"",
+              "actor": "Elevator",
+              "to": null,
               "articyId": "0x010000580000720D",
-              "text": "Smells of nougat and sweat. Your head brushes up against the ceiling. There is a control panel to your right -- and just enough room for two people to fit in.",
+              "english": "Smells of nougat and sweat. Your head brushes up against the ceiling. There is a control panel to your right -- and just enough room for two people to fit in.",
+              "polish": "Czuć tu nugatem i potem. Twoja głowa ociera się o sufit. Po prawej stronie widzisz panel sterowania. Miejsca jest akurat dosyć dla dwóch osób.",
+              "belarusian": "Чуецца нуга і пот. Твая галава датыкаецца да столі. Справа ты бачыш панель кіравання. Месца як раз хапае для двух чалавек.",
               "links": [
                 {
                   "id": 40,
+                  "redacted": false,
                   "title": "Perception (Sight): \"The maintenance card under the cont...\"",
+                  "actor": "Perception (Sight)",
+                  "to": null,
                   "articyId": "0x0100005800007233",
-                  "text": "The maintenance card under the control panel reads: 'Last Maintenance: 10 July '88'.",
+                  "english": "The maintenance card under the control panel reads: 'Last Maintenance: 10 July '88'.",
+                  "polish": "Na karcie konserwacyjnej pod panelem widnieje napis: „Ostatnia konserwacja: 10 lipca 88”.",
+                  "belarusian": "На картцы абслугоўвання пад панеллю ёсць надпіс: „Апошняе абслугоўванне: 10 ліпеня 88”.",
                   "links": []
                 }
               ]
@@ -269,9 +444,14 @@
         },
         {
           "id": 45,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x0100005800007201",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Сыходзь].",
           "links": []
         }
       ]

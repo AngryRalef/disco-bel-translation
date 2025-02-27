@@ -5,51 +5,91 @@
   "dialogueTree": [
     {
       "id": 25,
+      "redacted": false,
       "title": "Drainage Pipe: \"Behind the pipe -- the maintenance...\"",
+      "actor": "Drainage Pipe",
+      "to": "You",
       "articyId": "0x0100000600014ECB",
-      "text": "Behind the pipe -- the maintenance door, rusted shut and half-sunken in sand.",
+      "english": "Behind the pipe -- the maintenance door, rusted shut and half-sunken in sand.",
+      "polish": "Za rurą – drzwi techniczne. Zardzewiałe i na poły zasypane piachem.",
+      "belarusian": "За трубой – тэхнічныя дзверы. Заржавелыя і напалову засыпаныя пяском.",
       "links": [
         {
           "id": 18,
+          "redacted": false,
           "title": "You: \"What's in there?\"",
+          "actor": "You",
+          "to": "Drainage Pipe",
           "articyId": "0x0100009700004D26",
-          "text": "What's in there?",
+          "english": "What's in there?",
+          "polish": "Co tam jest?",
+          "belarusian": "Што там ёсць?",
           "links": [
             {
               "id": 58,
+              "redacted": false,
               "title": "Drainage Pipe: \"An ordinary drainage pipe. Darkness...\"",
+              "actor": "Drainage Pipe",
+              "to": "You",
               "articyId": "0x0100009700004D8F",
-              "text": "An ordinary drainage pipe. Darkness.",
+              "english": "An ordinary drainage pipe. Darkness.",
+              "polish": "Zwykła rura odpływowa. Mrok.",
+              "belarusian": "Звычайная зліўная труба. Цемра.",
               "links": [
                 {
                   "id": 7,
+                  "redacted": false,
                   "title": "You: \"Okay. What *else*?\"",
+                  "actor": "You",
+                  "to": "Drainage Pipe",
                   "articyId": "0x0100001600009A7E",
-                  "text": "Okay. What *else*?",
+                  "english": "Okay. What *else*?",
+                  "polish": "Dobrze. Co *jeszcze*?",
+                  "belarusian": "Добра. Што *яшчэ*?",
                   "links": [
                     {
                       "id": 62,
+                      "redacted": false,
                       "title": "Drainage Pipe: \"As your eyes adjust, you see some t...\"",
+                      "actor": "Drainage Pipe",
+                      "to": "You",
                       "articyId": "0x0100009700004DF8",
-                      "text": "As your eyes adjust, you see some trash -- crumpled up newspapers, cigarette butts. Someone has half-heartedly spray-painted 'SKULLS' on the right side.",
+                      "english": "As your eyes adjust, you see some trash -- crumpled up newspapers, cigarette butts. Someone has half-heartedly spray-painted 'SKULLS' on the right side.",
+                      "polish": "Kiedy wzrok przyzwyczaja ci się do mroku, dostrzegasz śmieci: stare gazety, niedopałki. Ktoś niedbale napisał sprayem po prawej stronie słowo CZACHY.",
+                      "belarusian": "Калі вочы прывыкаюць да змроку, ты заўважаеш смецце: старыя газеты, недакуркі. Нехта неахайна напісаў спрэйам з правага боку слова ЧАХІ.",
                       "links": [
                         {
                           "id": 29,
+                          "redacted": false,
                           "title": "You: \"And?\"",
+                          "actor": "You",
+                          "to": "Drainage Pipe",
                           "articyId": "0x0100009700004E48",
-                          "text": "And?",
+                          "english": "And?",
+                          "polish": "I?",
+                          "belarusian": "Я?",
                           "links": [
                             {
                               "id": 19,
+                              "redacted": false,
                               "title": "Drainage Pipe: \"And? And nothing. Broken glass from...\"",
+                              "actor": "Drainage Pipe",
+                              "to": "You",
                               "articyId": "0x0100009700004E42",
-                              "text": "And? And nothing. Broken glass from bottles thrown against the walls of the pipe. A syringe...",
+                              "english": "And? And nothing. Broken glass from bottles thrown against the walls of the pipe. A syringe...",
+                              "polish": "I? I nic. Potłuczone butelki rzucone o ścianę rury. Strzykawka...",
+                              "belarusian": "Я? І нічога. Пабітыя бутэлькі, кінутыя аб сцяну трубы. Шприц...",
                               "links": [
                                 {
                                   "id": 20,
+                                  "redacted": false,
                                   "title": "Perception (Smell): \"A very, very faint smell of stale l...\"",
+                                  "actor": "Perception (Smell)",
+                                  "to": "You",
                                   "articyId": "0x0100009700004E4F",
-                                  "text": "A very, very faint smell of stale liquor still lingers -- or is it just your imagination?",
+                                  "english": "A very, very faint smell of stale liquor still lingers -- or is it just your imagination?",
+                                  "polish": "Wciąż daje się wychwycić bardzo, bardzo delikatny zapach starego alkoholu. A może ci się tylko wydaje?",
+                                  "belarusian": "Да гэтага часу можна ўлавіць вельмі, вельмі далікатны водар старога алкаголю. А можа табе гэта толькі здаецца?",
                                   "links": []
                                 }
                               ]
@@ -66,72 +106,127 @@
         },
         {
           "id": 59,
+          "redacted": false,
           "title": "You: \"\"This looks like a great place to s...\"",
+          "actor": "You",
+          "to": "Drainage Pipe",
           "articyId": "0x0100009700004DE1",
-          "text": "\"This looks like a great place to stash narcotics. I want to make sure there's nothing hidden in there that children might pick up.\"",
+          "english": "\"This looks like a great place to stash narcotics. I want to make sure there's nothing hidden in there that children might pick up.\"",
+          "polish": "„To wygląda na świetne miejsce do chowania narkotyków. Chcę się upewnić, że nie ma tam nic, co mogłyby znaleźć dzieci”.",
+          "belarusian": "«Гэта выглядае як выдатнае месца для хавання наркотыкаў. Я хачу пераканацца, што там няма нічога, што могуць знайсці дзеці».",
           "links": [
             {
               "id": 30,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"I see. Another stop on your crusad...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100001600009A74",
-              "text": "\"I see. Another stop on your crusade against narcomania. I *was* hoping we were in pursuit of a murder suspect...\"",
+              "english": "\"I see. Another stop on your crusade against narcomania. I *was* hoping we were in pursuit of a murder suspect...\"",
+              "polish": "„Rozumiem. Kolejny przystanek w ramach twojej krucjaty przeciwko narkomanii. *Miałem* nadzieję, że ścigamy osobę podejrzaną o morderstwo...”",
+              "belarusian": "«Я разумею. Наступны прыпынак у рамках тваёй крыжовай паходні супраць наркаманіі. *Я спадзяваўся*, што мы пераследуем асобу, падазраваную ў забойстве...»",
               "links": []
             }
           ]
         },
         {
           "id": 40,
+          "redacted": false,
           "title": "You: \"Could I get into the Feld building...\"",
+          "actor": "You",
+          "to": "Drainage Pipe",
           "articyId": "0x0100009700004D4B",
-          "text": "Could I get into the Feld building through this pipe?",
+          "english": "Could I get into the Feld building through this pipe?",
+          "polish": "Czy mógłbym dostać się przez tę rurę do budynku Felda?",
+          "belarusian": "Ці мог бы я трапіць праз гэтую трубу ў будынак Фельда?",
           "links": [
             {
               "id": 50,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Given that this isn't a martial ar...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100009700004D57",
-              "text": "\"Given that this isn't a martial arts thriller,\" a grin flickers across his face, \"it's highly unlikely -- and not without risk to our health either.\"",
+              "english": "\"Given that this isn't a martial arts thriller,\" a grin flickers across his face, \"it's highly unlikely -- and not without risk to our health either.\"",
+              "polish": "„Biorąc pod uwagę to, że nie występujemy w dreszczowcu okraszonym sztukami walki” – na jego ustach pojawia się przez chwilę drwiący uśmieszek – „to jest to mało prawdopodobne. I pewnie byłoby groźne dla naszego zdrowia”.",
+              "belarusian": "„Улічваючы тое, што мы не ўдзельнічаем у трылеры з баявымі мастацтвамі” — на яго вуснах на момант з'яўляецца кплівая ўсмешка — „гэта малаімаверна. І, напэўна, гэта было б небяспечна для нашага здароўя”.",
               "links": [
                 {
                   "id": 61,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"However, the pipe suggests there m...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x0100009700004DA0",
-                  "text": "\"However, the pipe suggests there may be an entrance to the basement around...\" The lieutenant pushes aside the reeds and looks around.",
+                  "english": "\"However, the pipe suggests there may be an entrance to the basement around...\" The lieutenant pushes aside the reeds and looks around.",
+                  "polish": "„Jednak ta rura może wskazywać na istnienie w pobliżu wejścia do piwnicy...” – stwierdza porucznik, rozgarniając trzcinę, by się rozejrzeć.",
+                  "belarusian": "«Аднак гэта труба можа сведчыць аб існаванні недалёка ўваходу ў падвал...» — зазначае лейтэнант, разварушваючы чарот, каб азірнуцца.",
                   "links": [
                     {
                       "id": 8,
+                      "redacted": false,
                       "title": "Visual Calculus: \"He means: the pipe must be coming f...\"",
+                      "actor": "Visual Calculus",
+                      "to": "You",
                       "articyId": "0x0100009700004E65",
-                      "text": "He means: the pipe must be coming from *somewhere* in the building.",
+                      "english": "He means: the pipe must be coming from *somewhere* in the building.",
+                      "polish": "Ma na myśli, że rura musi wychodzić z *jakiegoś miejsca* w budynku.",
+                      "belarusian": "Ён мае на ўвазе, што труба павінна выходзіць з *пэўнага месца* ў будынку.",
                       "links": [
                         {
                           "id": 33,
+                          "redacted": false,
                           "title": "Logic: \"Oh, duh, why didn't you think of th...\"",
+                          "actor": "Logic",
+                          "to": "You",
                           "articyId": "0x0100009700004E6C",
-                          "text": "Oh, duh, why didn't you think of that?",
+                          "english": "Oh, duh, why didn't you think of that?",
+                          "polish": "Och, no tak. Czemu o tym nie pomyślałeś?",
+                          "belarusian": "Ох, ну так. Чаму ты пра гэта не падумаў?",
                           "links": [
                             {
                               "id": 45,
+                              "redacted": false,
                               "title": "Suggestion: \"The lieutenant's face lights up. He...\"",
+                              "actor": "Suggestion",
+                              "to": "You",
                               "articyId": "0x0100009700004DAB",
-                              "text": "The lieutenant's face lights up. He doesn't usually notice these little things.",
+                              "english": "The lieutenant's face lights up. He doesn't usually notice these little things.",
+                              "polish": "Twarz porucznika rozjaśnia się. Zwykle nie dostrzega takich drobiazgów.",
+                              "belarusian": "Твар лейтэнанта асвятляецца. Звычайна ён не заўважае такіх дэталяў.",
                               "links": [
                                 {
                                   "id": 63,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"...and it's right here! A maintena...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x0100009700004E76",
-                                  "text": "\"...and it's right here! A maintenance door.\" He points to a rusted metal double door to the right of the pipe, obscured by the reeds.",
+                                  "english": "\"...and it's right here! A maintenance door.\" He points to a rusted metal double door to the right of the pipe, obscured by the reeds.",
+                                  "polish": "„I proszę bardzo! Wejście techniczne” – oznajmia, wskazując zardzewiałe podwójne drzwi znajdujące się po prawej stronie rury, które przesłaniała trzcina.",
+                                  "belarusian": "«Калi ласка! Тэхнічны ўваход», – абвясцiў ён, паказваючы на ржавыя падвойныя дзверы, размешчаныя справа ад трубы, якія закрывала трыснёг.",
                                   "links": [
                                     {
                                       "id": 35,
+                                      "redacted": false,
                                       "title": "Interfacing: \"It's jammed shut. The subtle approa...\"",
+                                      "actor": "Interfacing",
+                                      "to": "You",
                                       "articyId": "0x0100000600014EEF",
-                                      "text": "It's jammed shut. The subtle approach isn't going to work on this one.",
+                                      "english": "It's jammed shut. The subtle approach isn't going to work on this one.",
+                                      "polish": "Zamknięte na głucho. Subtelne metody tym razem się nie sprawdzą.",
+                                      "belarusian": "Закрыта наглуха. Далікатныя метады гэтым разам не спрацуюць.",
                                       "links": [
                                         {
                                           "id": 64,
+                                          "redacted": false,
                                           "title": "Endurance: \"Oh yeah... *big boy time*. This nee...\"",
+                                          "actor": "Endurance",
+                                          "to": "You",
                                           "articyId": "0x0100000600014EF5",
-                                          "text": "Oh yeah... *big boy time*. This needs you to put your BACK into it.",
+                                          "english": "Oh yeah... *big boy time*. This needs you to put your BACK into it.",
+                                          "polish": "O tak... Czas na *pokaz siły*. Musisz tu pociągnąć *z krzyża*.",
+                                          "belarusian": "О так... Час на *паказ сілы*. Ты павінен тут пацягнуць *з крыжа*.",
                                           "links": []
                                         }
                                       ]
@@ -152,27 +247,47 @@
         },
         {
           "id": 2,
+          "redacted": false,
           "title": "You: \"Try to pull the door apart.\"",
+          "actor": "You",
+          "to": "Drainage Pipe",
           "articyId": "0x0100009700004D45",
-          "text": "Try to pull the door apart.",
+          "english": "Try to pull the door apart.",
+          "polish": "Spróbuj rozsunąć drzwi.",
+          "belarusian": "Паспрабуй рассунуць дзверы.",
           "links": [
             {
               "id": 34,
+              "redacted": false,
               "title": "Physical Instrument: \"The metal doors are heavy, and very...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100009700004E99",
-              "text": "The metal doors are heavy, and very awkward to open on your own, but you just manage to slide them open wide enough for you to slide yourself between them...",
+              "english": "The metal doors are heavy, and very awkward to open on your own, but you just manage to slide them open wide enough for you to slide yourself between them...",
+              "polish": "Metalowe drzwi są ciężkie i bardzo niewygodnie otwierać je samemu, ale udaje ci się je uchylić na tyle, żeby się prześliznąć...",
+              "belarusian": "Металічныя дзверы цяжкія і вельмі нязручна адкрываць іх самастойна, але табе ўдаецца іх прыадчыніць настолькі, каб праслізнуць...",
               "links": [
                 {
                   "id": 67,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"Good work.\" The lieutenant nods to...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x0100009700004E31",
-                  "text": "\"Good work.\" The lieutenant nods toward the impenetrable darkness inside. \"Shall we?\"",
+                  "english": "\"Good work.\" The lieutenant nods toward the impenetrable darkness inside. \"Shall we?\"",
+                  "polish": "„Dobra robota” – chwali porucznik i wskazuje skinieniem głowy nieprzeniknioną ciemność kryjącą się za otwartymi drzwiami. „Wchodzimy?”",
+                  "belarusian": "«Добрая праца», — пахваліў лейтэнант і кіўком галавы паказаў на непранікальную цемру, якая хавалася за адчыненымі дзвярыма. «Уваходзім?»",
                   "links": [
                     {
                       "id": 55,
+                      "redacted": false,
                       "title": "You: \"[Go in.]\"",
+                      "actor": "You",
+                      "to": "Drainage Pipe",
                       "articyId": "0x0100009700004E37",
-                      "text": "[Go in.]",
+                      "english": "[Go in.]",
+                      "polish": "[Wejdź].",
+                      "belarusian": "[Увайсці].",
                       "links": []
                     }
                   ]
@@ -181,87 +296,147 @@
             },
             {
               "id": 21,
+              "redacted": false,
               "title": "Physical Instrument: \"It looks too exhausting to even try...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100000600014F06",
-              "text": "It looks too exhausting to even try. You'd only bloody your fingers on the rust.",
+              "english": "It looks too exhausting to even try. You'd only bloody your fingers on the rust.",
+              "polish": "To wygląda zbyt trudno, żeby choćby próbować. Tylko rozkrwawiłbyś sobie palce na rdzy.",
+              "belarusian": "Гэта выглядае занадта складана, каб нават спрабаваць. Толькі раскровіш сабе пальцы на іржы.",
               "links": []
             },
             {
               "id": 36,
+              "redacted": false,
               "title": "Physical Instrument: \"You and the lieutenant lean all you...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100009700004E0C",
-              "text": "You and the lieutenant lean all your weight into pushing the doors apart, but you're not quite synchronized in your efforts. They slam shut again before you can enter.",
+              "english": "You and the lieutenant lean all your weight into pushing the doors apart, but you're not quite synchronized in your efforts. They slam shut again before you can enter.",
+              "polish": "Razem z porucznikiem wykorzystujecie ciężar swoich ciał, żeby otworzyć drzwi, ale brakuje wam synchronizacji. Zamykają się zbyt szybko, żeby dało się wejść.",
+              "belarusian": "Разам з лейтэнантам вы выкарыстоўваеце вагу вашых цел, каб адчыніць дзверы, але вам не хапае сінхранізацыі. Яны зачыняюцца занадта хутка, каб можна было ўвайсці.",
               "links": [
                 {
                   "id": 32,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"The lieutenant leans back against t...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x0100009700004E12",
-                  "text": "The lieutenant leans back against the door, panting. \"Let's take a breather and try this again later? It's... very tough.\"",
+                  "english": "The lieutenant leans back against the door, panting. \"Let's take a breather and try this again later? It's... very tough.\"",
+                  "polish": "Dyszący porucznik opiera się plecami o drzwi. „Może odetchnijmy trochę i wróćmy do tych drzwi później? To... ciężka robota”.",
+                  "belarusian": "Задыханы лейтэнант абапіраецца спіной на дзверы. «Можа, аддыхайма крыху і вернемся да гэтых дзвярэй пазней? Гэта... цяжкая праца».",
                   "links": []
                 }
               ]
             },
             {
               "id": 10,
+              "redacted": false,
               "title": "Physical Instrument: \"You can't seem to pry the doors apa...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100009700004DFF",
-              "text": "You can't seem to pry the doors apart for long enough to slip through. A second pair of hands would be really useful here.",
+              "english": "You can't seem to pry the doors apart for long enough to slip through. A second pair of hands would be really useful here.",
+              "polish": "Nie uda ci się chyba otworzyć drzwi na czas wystarczający, żeby się przez nie prześliznąć. Bardzo przydałaby się tutaj druga para rąk.",
+              "belarusian": "Напэўна, табе не ўдасца адчыніць дзверы дастаткова хутка, каб праслізнуць праз іх. Тут вельмі спатрэбіліся б другія рукі.",
               "links": []
             }
           ]
         },
         {
           "id": 37,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Drainage Pipe",
           "articyId": "0x0100009700004D38",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Адыдзі].",
           "links": []
         },
         {
           "id": 65,
+          "redacted": false,
           "title": "Inland Empire: \"This isn't gonna work without the l...\"",
+          "actor": "Inland Empire",
+          "to": "You",
           "articyId": "0x0100000600014EDA",
-          "text": "This isn't gonna work without the lieutenant here. What if you *do* find a way in and it's a *trap*? Kitsuragi needs to be here, covering you.",
+          "english": "This isn't gonna work without the lieutenant here. What if you *do* find a way in and it's a *trap*? Kitsuragi needs to be here, covering you.",
+          "polish": "To się nie uda, jeśli nie będziesz mieć ze sobą porucznika. Co jeśli *znajdziesz* wejście i okaże się, że to *pułapka*? Kitsuragi musi tu być i cię wspierać.",
+          "belarusian": "Гэта не атрымаецца, калі ты не будзеш мець з сабой поручніка. Што калі *знойдзеш* уваход, і аказваецца, што гэта *пастка*? Кіцурагі павінен быць тут і падтрымліваць цябе.",
           "links": []
         }
       ]
     },
     {
       "id": 31,
+      "redacted": false,
       "title": "Drainage Pipe: \"An old pipe peeks out from beneath...\"",
+      "actor": "Drainage Pipe",
+      "to": "You",
       "articyId": "0x0100009700004CFD",
-      "text": "An old pipe peeks out from beneath the rotting boards of the boardwalk. Could this be an alternative path into the Feld building?",
+      "english": "An old pipe peeks out from beneath the rotting boards of the boardwalk. Could this be an alternative path into the Feld building?",
+      "polish": "Spod gnijących desek promenady wystaje stara rura. Czyżby było tam inne wejście do budynku Felda?",
+      "belarusian": "З-пад гнілых дошак праменаду тырчыць старая труба. Няўжо там ёсць іншы ўваход у будынак Фельда?",
       "links": [
         {
           "id": 49,
+          "redacted": false,
           "title": "Visual Calculus: \"A building like this must have mult...\"",
+          "actor": "Visual Calculus",
+          "to": "You",
           "articyId": "0x0100009700004D07",
-          "text": "A building like this must have multiple doors serving various functions. Perhaps a basement access?",
+          "english": "A building like this must have multiple doors serving various functions. Perhaps a basement access?",
+          "polish": "Budynek taki jak ten musi mieć rozmaite drzwi pełniące rozmaite funkcje. Czyżby to było wejście piwniczne?",
+          "belarusian": "Будынак такі, як гэты, павінен мець разнастайныя дзверы, якія выконваюць розныя функцыі. Няўжо гэта ўваход у склеп?",
           "links": [
             {
               "id": 38,
+              "redacted": false,
               "title": "You: \"Come closer and look in.\"",
+              "actor": "You",
+              "to": "Drainage Pipe",
               "articyId": "0x0100009700004D65",
-              "text": "Come closer and look in.",
+              "english": "Come closer and look in.",
+              "polish": "Podejdź bliżej i zajrzyj do środka.",
+              "belarusian": "Падыдзі бліжэй і зазірні ўнутр.",
               "links": [
                 {
                   "id": 57,
+                  "redacted": false,
                   "title": "Drainage Pipe: \"Your eyes slowly begin to adjust to...\"",
+                  "actor": "Drainage Pipe",
+                  "to": "You",
                   "articyId": "0x0100009700004D6C",
-                  "text": "Your eyes slowly begin to adjust to the darkness inside the drainage pipe.",
+                  "english": "Your eyes slowly begin to adjust to the darkness inside the drainage pipe.",
+                  "polish": "Wzrok powoli przyzwyczaja ci się do panującego w rurze odpływowej mroku.",
+                  "belarusian": "Зрок паступова прывыкае да цемры, якая пануе ў зліўной трубе.",
                   "links": [
                     {
                       "id": 27,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"The lieutenant looks over your shou...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100009700004D13",
-                      "text": "The lieutenant looks over your shoulder.",
+                      "english": "The lieutenant looks over your shoulder.",
+                      "polish": "Porucznik zagląda przez twoje ramię.",
+                      "belarusian": "Лейтэнант зазірае праз тваё плячо.",
                       "links": []
                     },
                     {
                       "id": 6,
+                      "redacted": false,
                       "title": "Inland Empire: \"This isn't gonna work without the l...\"",
+                      "actor": "Inland Empire",
+                      "to": "You",
                       "articyId": "0x0100000600014ED2",
-                      "text": "This isn't gonna work without the lieutenant here. What if you *do* find a way in and it's a *trap*? Kitsuragi needs to be here, covering you.",
+                      "english": "This isn't gonna work without the lieutenant here. What if you *do* find a way in and it's a *trap*? Kitsuragi needs to be here, covering you.",
+                      "polish": "To się nie uda, jeśli nie będziesz mieć ze sobą porucznika. Co jeśli *znajdziesz* wejście i okaże się, że to *pułapka*? Kitsuragi musi tu być i cię wspierać.",
+                      "belarusian": "Гэта не атрымаецца, калі з табой не будзе лейтэнанта. Што, калі *знойдзеш* уваход і гэта акажацца *пасткай*? Кіцурагі павінен быць тут і падтрымаць цябе.",
                       "links": []
                     }
                   ]
@@ -270,9 +445,14 @@
             },
             {
               "id": 44,
+              "redacted": false,
               "title": "You: \"[Leave.]\"",
+              "actor": "You",
+              "to": "Drainage Pipe",
               "articyId": "0x0100009700004D87",
-              "text": "[Leave.]",
+              "english": "[Leave.]",
+              "polish": "[Odejdź].",
+              "belarusian": "[Сыходзь].",
               "links": []
             }
           ]

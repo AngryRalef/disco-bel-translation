@@ -5,27 +5,47 @@
   "dialogueTree": [
     {
       "id": 10,
+      "redacted": false,
       "title": "Pile of Eternite: \"An inconspicuous pile of the roofin...\"",
+      "actor": "Pile of Eternite",
+      "to": "You",
       "articyId": "0x0100008F00000E20",
-      "text": "An inconspicuous pile of the roofing material, eternite.",
+      "english": "An inconspicuous pile of the roofing material, eternite.",
+      "polish": "Niepozorny zapas materiału do budowy dachów – eternitu.",
+      "belarusian": "Непрыкметны запас матэрыялу для будаўніцтва дахаў – шыферу.",
       "links": [
         {
           "id": 31,
+          "redacted": false,
           "title": "You: \"What is this?\"",
+          "actor": "You",
+          "to": "Pile of Eternite",
           "articyId": "0x010000820000862A",
-          "text": "What is this?",
+          "english": "What is this?",
+          "polish": "Co to jest?",
+          "belarusian": "Што гэта?",
           "links": [
             {
               "id": 19,
+              "redacted": false,
               "title": "Pile of Eternite: \"It's nothing. Someone just left som...\"",
+              "actor": "Pile of Eternite",
+              "to": "You",
               "articyId": "0x0100008200008638",
-              "text": "It's nothing. Someone just left some roofing material slanted against an old shack.",
+              "english": "It's nothing. Someone just left some roofing material slanted against an old shack.",
+              "polish": "To nic niezwykłego. Ktoś oparł o ścianę starej szopy i zostawił trochę materiału na dach.",
+              "belarusian": "Гэта нічога незвычайнага. Хтосьці абаперся аб сцяну старой хлява і пакінуў крыху матэрыялу для даху.",
               "links": [
                 {
                   "id": 20,
+                  "redacted": false,
                   "title": "Encyclopedia: \"Glad you asked. When junior researc...\"",
+                  "actor": "Encyclopedia",
+                  "to": "You",
                   "articyId": "0x010000820000863F",
-                  "text": "Glad you asked. When junior researcher Õlari Taal invented eternite in the Värtna Polytechnic Institute, some thirty odd years ago, he thought it would last forever -- hence the name eternite. Sadly the only lasting thing turned out to be the material's highly carcinogenic effect.",
+                  "english": "Glad you asked. When junior researcher Õlari Taal invented eternite in the Värtna Polytechnic Institute, some thirty odd years ago, he thought it would last forever -- hence the name eternite. Sadly the only lasting thing turned out to be the material's highly carcinogenic effect.",
+                  "polish": "Cieszę się, że pytasz. Kiedy około trzydziestu lat temu młodszy laborant Õlari Taal odkrył na Politechnice Värtneńskiej eternit, myślał, że będzie on nie do zniszczenia – stąd jego nazwa. Niestety, jedyne, co w przypadku eternitu jest trwałe, to jego wysoka rakotwórczość.",
+                  "belarusian": "Рад, што пытаешся. Калi каля трыццаці гадоў таму малодшы лабарант Олары Таал выявiў на Політэхнічным універсітэце Вяртненьскай этерніт, ён думаў, што ён будзе не знішчальным — адсюль і яго назва. На жаль, адзінае, што ў выпадку з этернітам, з'яўляецца трывалым, гэта яго высокая канцэрагеннасць.",
                   "links": []
                 }
               ]
@@ -34,33 +54,58 @@
         },
         {
           "id": 13,
+          "redacted": false,
           "title": "You: \"Why am I looking at this pile of th...\"",
+          "actor": "You",
+          "to": "Pile of Eternite",
           "articyId": "0x0100008200008630",
-          "text": "Why am I looking at this pile of the roofing material?",
+          "english": "Why am I looking at this pile of the roofing material?",
+          "polish": "Czemu przyglądam się temu budulcowi do dachów?",
+          "belarusian": "Чаму я гляджу на гэты будаўнічы матэрыял для дахаў?",
           "links": [
             {
               "id": 26,
+              "redacted": false,
               "title": "Perception (Sight): \"Because there's a secret door hidde...\"",
+              "actor": "Perception (Sight)",
+              "to": "You",
               "articyId": "0x01000082000086B6",
-              "text": "Because there's a secret door hidden behind the panels of eternite. That's why they're *too* orderly.",
+              "english": "Because there's a secret door hidden behind the panels of eternite. That's why they're *too* orderly.",
+              "polish": "Bo za panelami eternitu ukryte są drzwi. Stąd ten aż *nadmierny* porządek.",
+              "belarusian": "Бо за панэлямі з этытэрніту схаваныя дзверы. Адсюль і такое *звыш* парадку.",
               "links": [
                 {
                   "id": 43,
+                  "redacted": false,
                   "title": "You: \"Pull the panels aside.\"",
+                  "actor": "You",
+                  "to": "Pile of Eternite",
                   "articyId": "0x01000082000086C9",
-                  "text": "Pull the panels aside.",
+                  "english": "Pull the panels aside.",
+                  "polish": "Odsuń panele na bok.",
+                  "belarusian": "Адсунь панэлі ўбок.",
                   "links": [
                     {
                       "id": 11,
+                      "redacted": false,
                       "title": "Perception (Sight): \"There it is! You see a shabby littl...\"",
+                      "actor": "Perception (Sight)",
+                      "to": "You",
                       "articyId": "0x01000082000086A5",
-                      "text": "There it is! You see a shabby little door.",
+                      "english": "There it is! You see a shabby little door.",
+                      "polish": "O, proszę! Są tam małe, niepozorne drzwi.",
+                      "belarusian": "О, калі ласка! Там маленькія, непрыкметныя дзверы.",
                       "links": [
                         {
                           "id": 32,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"What is this, then? A tool shed?\"...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x01000082000086D7",
-                          "text": "\"What is this, then? A tool shed?\" He peeks inside. \"Let's investigate.\"",
+                          "english": "\"What is this, then? A tool shed?\" He peeks inside. \"Let's investigate.\"",
+                          "polish": "„A to co? Szopa na narzędzia?” – zagląda do środka. „Sprawdźmy to”.",
+                          "belarusian": "«А гэта што? Хлеў для інструментаў?» – зазірае ўнутр. «Паглядзім».",
                           "links": []
                         }
                       ]
@@ -71,49 +116,84 @@
             },
             {
               "id": 42,
+              "redacted": false,
               "title": "Perception (Sight): \"Because it's nice and orderly. Well...\"",
+              "actor": "Perception (Sight)",
+              "to": "You",
               "articyId": "0x0100008200008658",
-              "text": "Because it's nice and orderly. Well laid pallet. Easy on the eyes.",
+              "english": "Because it's nice and orderly. Well laid pallet. Easy on the eyes.",
+              "polish": "Bo wygląda bardzo porządnie. Ładnie załadowana paleta. Cieszy oko.",
+              "belarusian": "Бо выглядае вельмі акуратна. Прыгожа загружаная палета. Радуе вока.",
               "links": [
                 {
                   "id": 12,
+                  "redacted": false,
                   "title": "Perception (Sight): \"It reveals no secrets at this time.\"",
+                  "actor": "Perception (Sight)",
+                  "to": "You",
                   "articyId": "0x0100002F000133BF",
-                  "text": "It reveals no secrets at this time.",
+                  "english": "It reveals no secrets at this time.",
+                  "polish": "Na razie nie ujawnia ci żadnych tajemnic.",
+                  "belarusian": "Пакуль што ён не раскрывае табе ніякіх сакрэтаў.",
                   "links": []
                 },
                 {
                   "id": 21,
+                  "redacted": false,
                   "title": "Conceptualization: \"Rhythmic pattern -- calms your mind...\"",
+                  "actor": "Conceptualization",
+                  "to": "You",
                   "articyId": "0x0100008200008665",
-                  "text": "Rhythmic pattern -- calms your mind. Mammals like this stuff.",
+                  "english": "Rhythmic pattern -- calms your mind. Mammals like this stuff.",
+                  "polish": "Regularny wzór, w jakim ułożono materiał, uspokaja twój umysł. Ssaki lubią takie rzeczy.",
+                  "belarusian": "Регулярны ўзор, у якім выкладзены матэрыял, супакойвае твой розум. Млекакормячыя любяць такія рэчы.",
                   "links": [
                     {
                       "id": 33,
+                      "redacted": false,
                       "title": "Inland Empire: \"No, there's more to this. You get t...\"",
+                      "actor": "Inland Empire",
+                      "to": "You",
                       "articyId": "0x010000820000867C",
-                      "text": "No, there's more to this. You get this strange *feeling*.",
+                      "english": "No, there's more to this. You get this strange *feeling*.",
+                      "polish": "Nie, tu chodzi o coś więcej. Masz jakieś dziwne *przeczucie*.",
+                      "belarusian": "Не, тут ідзе гаворка пра нешта большае. У цябе ёсць нейкае дзіўное *прадчуванне*.",
                       "links": [
                         {
                           "id": 5,
+                          "redacted": false,
                           "title": "You: \"What feeling?\"",
+                          "actor": "You",
+                          "to": "Pile of Eternite",
                           "articyId": "0x010000820000860A",
-                          "text": "What feeling?",
+                          "english": "What feeling?",
+                          "polish": "Jakie przeczucie?",
+                          "belarusian": "Якое адчуванне?",
                           "links": [
                             {
                               "id": 18,
+                              "redacted": false,
                               "title": "Inland Empire: \"Hard to say, it's gone now. Feeling...\"",
+                              "actor": "Inland Empire",
+                              "to": "You",
                               "articyId": "0x010000820000861A",
-                              "text": "Hard to say, it's gone now. Feelings pass, you see. Especially the small ones.",
+                              "english": "Hard to say, it's gone now. Feelings pass, you see. Especially the small ones.",
+                              "polish": "Trudno powiedzieć, już minęło. Widzisz, przeczucia przemijają. Zwłaszcza takie niejasne.",
+                              "belarusian": "Цяжка сказаць, ужо мінула. Бачыш, прадчуванні праходзяць. Асабліва такія невыразныя.",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 41,
+                          "redacted": false,
                           "title": "You: \"Discard the feeling.\"",
+                          "actor": "You",
+                          "to": "Pile of Eternite",
                           "articyId": "0x0100008200008604",
-                          "text": "Discard the feeling.",
+                          "english": "Discard the feeling.",
+                          "polish": "Odrzuć przeczucie.",
+                          "belarusian": "Адхілі інтуіцыю.",
                           "links": []
                         }
                       ]
@@ -126,9 +206,14 @@
         },
         {
           "id": 9,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Pile of Eternite",
           "articyId": "0x0100008F00000E18",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Сыходзь].",
           "links": []
         }
       ]

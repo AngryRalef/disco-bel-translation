@@ -5,42 +5,72 @@
   "dialogueTree": [
     {
       "id": 23,
+      "redacted": false,
       "title": "Kim Kitsuragi: \"\"I'm afraid we don't have time for...\"",
+      "actor": "Kim Kitsuragi",
+      "to": "You",
       "articyId": "0x0100001600009CFD",
-      "text": "\"I'm afraid we don't have time for rest stops right now, officer. We should really get back to the Whirling.\"",
+      "english": "\"I'm afraid we don't have time for rest stops right now, officer. We should really get back to the Whirling.\"",
+      "polish": "„Obawiam się, że nie mamy czasu na odpoczynek, oficerze. Naprawdę powinniśmy wracać do Whirling”.",
+      "belarusian": "«Баюся, што ў нас няма часу на адпачынак, афіцэры. Мы сапраўды павінны вяртацца ў Whirling».",
       "links": [
         {
           "id": 27,
+          "redacted": false,
           "title": "You: \"\"Right.\" [Leave.]\"",
+          "actor": "You",
+          "to": "Shack Door",
           "articyId": "0x0100001600009D03",
-          "text": "\"Right.\" [Leave.]",
+          "english": "\"Right.\" [Leave.]",
+          "polish": "„Dobra”. [Odejdź].",
+          "belarusian": "«Добра». [Адыдзі].",
           "links": []
         }
       ]
     },
     {
       "id": 5,
+      "redacted": false,
       "title": "Shack Door: \"It's getting cold this late in the...\"",
+      "actor": "Shack Door",
+      "to": "You",
       "articyId": "0x01000021000022FF",
-      "text": "It's getting cold this late in the night. Time to call it a day.",
+      "english": "It's getting cold this late in the night. Time to call it a day.",
+      "polish": "O tej godzinie noc robi się już zimna. Czas iść do łóżka.",
+      "belarusian": "У гэты час ноч становіцца ўжо халоднай. Час ісці ў ложак.",
       "links": [
         {
           "id": 16,
+          "redacted": false,
           "title": "You: \"\"Good night, Kim.\" (Send him away f...\"",
+          "actor": "You",
+          "to": "Shack Door",
           "articyId": "0x0100002100002305",
-          "text": "\"Good night, Kim.\" (Send him away for the night.)",
+          "english": "\"Good night, Kim.\" (Send him away for the night.)",
+          "polish": "„Dobranoc, Kim”. (Odeślij go na dziś do domu).",
+          "belarusian": "«Добранач, Кім». (Адпраў яго дадому на сёння).",
           "links": [
             {
               "id": 21,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Good night, officer. We'll meet in...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x010000210000231D",
-              "text": "\"Good night, officer. We'll meet in front of the shack in the morning.\"",
+              "english": "\"Good night, officer. We'll meet in front of the shack in the morning.\"",
+              "polish": "„Dobranoc, oficerze. Spotkamy się rano przed chatą”.",
+              "belarusian": "«Дабранач, афіцэр. Спаткаемся раніцай перад хатай».",
               "links": [
                 {
                   "id": 28,
+                  "redacted": false,
                   "title": "You: \"Enter the shack.\"",
+                  "actor": "You",
+                  "to": "Shack Door",
                   "articyId": "0x0100002100002371",
-                  "text": "Enter the shack.",
+                  "english": "Enter the shack.",
+                  "polish": "Wejdź do chaty.",
+                  "belarusian": "Увайдзі ў хаціну.",
                   "links": []
                 }
               ]
@@ -49,57 +79,97 @@
         },
         {
           "id": 36,
+          "redacted": false,
           "title": "You: \"Enter the shack.\"",
+          "actor": "You",
+          "to": "Shack Door",
           "articyId": "0x010000210000233B",
-          "text": "Enter the shack.",
+          "english": "Enter the shack.",
+          "polish": "Wejdź do chaty.",
+          "belarusian": "Уваходзь у хату.",
           "links": [
             {
               "id": 24,
+              "redacted": true,
               "title": "Shack Door: \"...\"",
+              "actor": "Shack Door",
+              "to": "You",
               "articyId": "0x0100002100002343",
-              "text": "...",
+              "english": "...",
+              "polish": "...",
+              "belarusian": "...",
               "links": []
             }
           ]
         },
         {
           "id": 20,
+          "redacted": false,
           "title": "You: \"Not yet. [Leave.]\"",
+          "actor": "You",
+          "to": "Shack Door",
           "articyId": "0x010000210000230B",
-          "text": "Not yet. [Leave.]",
+          "english": "Not yet. [Leave.]",
+          "polish": "Jeszcze nie. [Odejdź]",
+          "belarusian": "Яшчэ не. [Сыдзі]",
           "links": []
         }
       ]
     },
     {
       "id": 38,
+      "redacted": false,
       "title": "Shack Door: \"The door has seen better days -- th...\"",
+      "actor": "Shack Door",
+      "to": "You",
       "articyId": "0x0100002F0000DE65",
-      "text": "The door has seen better days -- the layer of paint has started to peel off due to the salt and wind from the sea. Even the lock looks slightly rusted.",
+      "english": "The door has seen better days -- the layer of paint has started to peel off due to the salt and wind from the sea. Even the lock looks slightly rusted.",
+      "polish": "Drzwi pamiętają lepsze czasy – warstwa farby zaczęła schodzić pod wpływem działania wiatru i morskiej soli. Nawet zamek wygląda na lekko zardzewiały.",
+      "belarusian": "Дзверы памятаюць лепшыя часы — пласт фарбы пачаў адыходзіць пад уплывам ветру і марской солі. Нават замок выглядае злёгку падаржавелым.",
       "links": [
         {
           "id": 22,
+          "redacted": false,
           "title": "You: \"Unlock the shack door with the key.\"",
+          "actor": "You",
+          "to": "Shack Door",
           "articyId": "0x0100002F0000DE6B",
-          "text": "Unlock the shack door with the key.",
+          "english": "Unlock the shack door with the key.",
+          "polish": "Otwórz drzwi chaty kluczem.",
+          "belarusian": "Адкрый дзверы хаты ключом.",
           "links": [
             {
               "id": 11,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"I'll be sleeping in my room in the...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100002F0000DE8D",
-              "text": "\"I'll be sleeping in my room in the Whirling. We'll meet in front of the shack in the morning.\"",
+              "english": "\"I'll be sleeping in my room in the Whirling. We'll meet in front of the shack in the morning.\"",
+              "polish": "„Przenocuję w swoim pokoju w Whirling. Spotkamy się rano przed chatą”.",
+              "belarusian": "«Пераначую ў сваім пакоі ў Whirling. Сустрэнемся раніцай перад хаткай».",
               "links": [
                 {
                   "id": 32,
+                  "redacted": false,
                   "title": "You: \"\"I'll sleep here then. See you in t...\"",
+                  "actor": "You",
+                  "to": "Shack Door",
                   "articyId": "0x0100000600014C15",
-                  "text": "\"I'll sleep here then. See you in the morning.\" (Keep turning the key.)",
+                  "english": "\"I'll sleep here then. See you in the morning.\" (Keep turning the key.)",
+                  "polish": "„Ja w takim razie prześpię się tutaj. Do zobaczenia rano”. (Przekręcaj klucz dalej).",
+                  "belarusian": "«Тады я тут пераначую. Да сустрэчы раніцай». (Працягвай паварочваць ключ).",
                   "links": [
                     {
                       "id": 25,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"Good night.\" He smiles: \"And try n...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100000600014C1C",
-                      "text": "\"Good night.\" He smiles: \"And try not to break the case without me.\"",
+                      "english": "\"Good night.\" He smiles: \"And try not to break the case without me.\"",
+                      "polish": "„Dobranoc” – uśmiecha się. „I postaraj się nie rozwiązać tej sprawy beze mnie”.",
+                      "belarusian": "\"Добранач,\" — усміхаецца. \"І паспрабуй не разгадаць гэтую справу без мяне.\"",
                       "links": []
                     }
                   ]
@@ -108,33 +178,53 @@
             },
             {
               "id": 9,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"I'll wait outside to give you some...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100002100000AB8",
-              "text": "\"I'll wait outside to give you some time and privacy to check out your new living arrangement. But just so you know...\"",
+              "english": "\"I'll wait outside to give you some time and privacy to check out your new living arrangement. But just so you know...\"",
+              "polish": "„Zaczekam na zewnątrz, abyś miał trochę czasu i prywatności podczas sprawdzania swojego nowego lokum. Ale dla twojej informacji...”",
+              "belarusian": "«Пачакаў на вуліцы, каб у цябе было крыху часу і прыватнасці падчас праверкі свайго новага жытла. Але для тваёй інфармацыі...»",
               "links": [
                 {
                   "id": 10,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"After we're done with the day, I'l...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x0100002100001273",
-                  "text": "\"After we're done with the day, I'll still be staying in the Whirling-in-Rags for the night. We'll meet in front of the shack in the morning.\"",
+                  "english": "\"After we're done with the day, I'll still be staying in the Whirling-in-Rags for the night. We'll meet in front of the shack in the morning.\"",
+                  "polish": "„Gdy zakończymy na dziś pracę, wrócę do swojego pokoju w Whirling-in-Rags. Spotkamy się rano przed chatą”.",
+                  "belarusian": "«Калі мы скончым працу на сёння, я вярнуся ў свой пакой у Whirling-in-Rags. Сустрэнемся раніцай перад хатай».",
                   "links": []
                 }
               ]
             },
             {
               "id": 37,
+              "redacted": false,
               "title": "Shack Door: \"The key turns with a satisfying cli...\"",
+              "actor": "Shack Door",
+              "to": "You",
               "articyId": "0x0100002F0000DE81",
-              "text": "The key turns with a satisfying click. You can enter the shack now.",
+              "english": "The key turns with a satisfying click. You can enter the shack now.",
+              "polish": "Klucz przekręca się z przyjemnym kliknięciem. Możesz teraz wejść do chaty.",
+              "belarusian": "Ключ паварочваецца з прыемным клiкам. Цяпер вы можаце ўвайсці ў хату.",
               "links": []
             }
           ]
         },
         {
           "id": 26,
+          "redacted": false,
           "title": "You: \"Never mind. [Leave.]\"",
+          "actor": "You",
+          "to": "Shack Door",
           "articyId": "0x0100002F0000DE71",
-          "text": "Never mind. [Leave.]",
+          "english": "Never mind. [Leave.]",
+          "polish": "Nieważne. [Odejdź].",
+          "belarusian": "Неважна. [Сыдзі].",
           "links": []
         }
       ]

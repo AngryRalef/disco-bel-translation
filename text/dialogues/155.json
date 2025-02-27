@@ -5,27 +5,47 @@
   "dialogueTree": [
     {
       "id": 25,
+      "redacted": false,
       "title": "Primer Book: \"You see a colourful primer. The tit...\"",
+      "actor": "Primer Book",
+      "to": "You",
       "articyId": "0x0100002F0000D3DA",
-      "text": "You see a colourful primer. The title reads: \"A Primer for Small Kids.\"",
+      "english": "You see a colourful primer. The title reads: \"A Primer for Small Kids.\"",
+      "polish": "Widzisz kolorowy elementarz. Jego tytuł to „Elementarz dla małych dzieci”.",
+      "belarusian": "Вы бачыш каляровую азбуку. Яе назва — «Азбука для маленькіх дзяцей».",
       "links": [
         {
           "id": 31,
+          "redacted": false,
           "title": "You: \"Flip through the pages.\"",
+          "actor": "You",
+          "to": "Primer Book",
           "articyId": "0x0100002F0000D352",
-          "text": "Flip through the pages.",
+          "english": "Flip through the pages.",
+          "polish": "Przekartkuj książkę.",
+          "belarusian": "Перагарні кнігу.",
           "links": [
             {
               "id": 7,
+              "redacted": false,
               "title": "Primer Book: \"It's exactly like a primer -- a wor...\"",
+              "actor": "Primer Book",
+              "to": "You",
               "articyId": "0x0100002F0000D36F",
-              "text": "It's exactly like a primer -- a word on every page relating to a letter of the alphabet.",
+              "english": "It's exactly like a primer -- a word on every page relating to a letter of the alphabet.",
+              "polish": "Wygląda jak elementarz – na każdej stronie jest jakieś słowo związane z konkretną literą alfabetu.",
+              "belarusian": "Выглядае як буквар – на кожнай старонцы ёсць нейкае слова, звязанае з канкрэтнай літарай алфавіту.",
               "links": [
                 {
                   "id": 14,
+                  "redacted": false,
                   "title": "Primer Book: \"I'm not sure what you're planning t...\"",
+                  "actor": "Primer Book",
+                  "to": "You",
                   "articyId": "0x0100005A00011C8A",
-                  "text": "I'm not sure what you're planning to get from this. It's meant for babies. Literal babies.",
+                  "english": "I'm not sure what you're planning to get from this. It's meant for babies. Literal babies.",
+                  "polish": "Nie jestem pewien, co chcesz w ten sposób osiągnąć. To książka dla dzieci. Dosłownie.",
+                  "belarusian": "Я не ўпэўнены, чаго ты хочаш дасягнуць такім чынам. Гэта кніга для дзяцей. Буквальна.",
                   "links": []
                 }
               ]
@@ -34,36 +54,61 @@
         },
         {
           "id": 2,
+          "redacted": false,
           "title": "You: \"\"Madam, what's this book?\"\"",
+          "actor": "You",
+          "to": "Primer Book",
           "articyId": "0x0100002F0000D358",
-          "text": "\"Madam, what's this book?\"",
+          "english": "\"Madam, what's this book?\"",
+          "polish": "„Proszę pani, co to za książka?”",
+          "belarusian": "«Калі ласка, спадарыня, якая гэта кніга?»",
           "links": [
             {
               "id": 4,
+              "redacted": false,
               "title": "Plaisance: \"\"A highly educational primer. It's...\"",
+              "actor": "Plaisance",
+              "to": "You",
               "articyId": "0x0100002F0000D369",
-              "text": "\"A highly educational primer. It's exceptional for the young mind... and obviously, very popular.\"",
+              "english": "\"A highly educational primer. It's exceptional for the young mind... and obviously, very popular.\"",
+              "polish": "„Bardzo edukacyjny elementarz. Świetny dla młodych umysłów... i oczywiście bardzo popularny”.",
+              "belarusian": "«Вельмі адукацыйны буквар. Выдатны для маладых розумаў... і, вядома, вельмі папулярны».",
               "links": [
                 {
                   "id": 8,
+                  "redacted": false,
                   "title": "You: \"\"Oh wow, that's cool. I want to bec...\"",
+                  "actor": "You",
+                  "to": "Primer Book",
                   "articyId": "0x0100002F0000D37A",
-                  "text": "\"Oh wow, that's cool. I want to become smarter.\"",
+                  "english": "\"Oh wow, that's cool. I want to become smarter.\"",
+                  "polish": "„O rany, ale czadowo. Chciałbym się stać mądrzejszy”.",
+                  "belarusian": "«О Божа, як крута. Я хацеў бы стаць разумнейшым».",
                   "links": [
                     {
                       "id": 5,
+                      "redacted": false,
                       "title": "Plaisance: \"\"You're a grown man, though. It's a...\"",
+                      "actor": "Plaisance",
+                      "to": "You",
                       "articyId": "0x0100002F0000D386",
-                      "text": "\"You're a grown man, though. It's a bit too late for that... this is a book for small children.\"",
+                      "english": "\"You're a grown man, though. It's a bit too late for that... this is a book for small children.\"",
+                      "polish": "„Jest pan dorosłym mężczyzną. Na elementarz jest już chyba odrobinę za późno... To książka dla małych dzieci”.",
+                      "belarusian": "«Вы дарослы чалавек. Для элементарнай кнігі, напэўна, ужо крыху позна... Гэта кніга для маленькіх дзяцей».",
                       "links": []
                     }
                   ]
                 },
                 {
                   "id": 12,
+                  "redacted": false,
                   "title": "You: \"\"Okay. Cool.\"\"",
+                  "actor": "You",
+                  "to": "Primer Book",
                   "articyId": "0x0100006B00002206",
-                  "text": "\"Okay. Cool.\"",
+                  "english": "\"Okay. Cool.\"",
+                  "polish": "„Dobra. W porządku”.",
+                  "belarusian": "«Добра. У парадку».",
                   "links": []
                 }
               ]
@@ -72,58 +117,98 @@
         },
         {
           "id": 32,
+          "redacted": false,
           "title": "You: \"I want to buy this Primer.\"",
+          "actor": "You",
+          "to": "Primer Book",
           "articyId": "0x0100002F0000D392",
-          "text": "I want to buy this Primer.",
+          "english": "I want to buy this Primer.",
+          "polish": "Chcę kupić ten elementarz.",
+          "belarusian": "Я хачу купіць гэты элементар.",
           "links": [
             {
               "id": 13,
+              "redacted": false,
               "title": "Plaisance: \"\"Uh... you have kids?\" She shudders...\"",
+              "actor": "Plaisance",
+              "to": "You",
               "articyId": "0x0100002F0000D38C",
-              "text": "\"Uh... you have kids?\" She shudders uncomfortably. \"Okay, I guess. Enjoy it.\"",
+              "english": "\"Uh... you have kids?\" She shudders uncomfortably. \"Okay, I guess. Enjoy it.\"",
+              "polish": "„Ee... Ma pan dzieci?” – pyta, lekko drżąc na tę myśl. „W porządku. Dobrej zabawy”.",
+              "belarusian": "«Ээ... У вас ёсць дзеці?» – пытаецца, трохі дрыжучы ад гэтай думкі. «Добра. Добрага настрою».",
               "links": []
             }
           ]
         },
         {
           "id": 26,
+          "redacted": false,
           "title": "You: \"Steal the Primer.\"",
+          "actor": "You",
+          "to": "Primer Book",
           "articyId": "0x0100006B00001B43",
-          "text": "Steal the Primer.",
+          "english": "Steal the Primer.",
+          "polish": "Ukradnij elementarz.",
+          "belarusian": "Украдзі элементар.",
           "links": [
             {
               "id": 24,
+              "redacted": false,
               "title": "Savoir Faire: \"You peek at the storekeep, waiting...\"",
+              "actor": "Savoir Faire",
+              "to": "You",
               "articyId": "0x0100006B00001B57",
-              "text": "You peek at the storekeep, waiting for her to be distracted. When she's not looking, you deftly swipe the small booklet off the shelf and stuff it in your pocket.",
+              "english": "You peek at the storekeep, waiting for her to be distracted. When she's not looking, you deftly swipe the small booklet off the shelf and stuff it in your pocket.",
+              "polish": "Zerkasz na księgarkę, czekając, aż się czymś zajmie. Kiedy nie patrzy, zręcznie zgarniasz książeczkę z półki i wsuwasz ją sobie do kieszeni.",
+              "belarusian": "Глядзіш на кніжніка, чакаючы, пакуль ён чымсьці зоймецца. Калі ён не глядзіць, дужа здымаеш кніжачку з паліцы і кладзеш яе сабе ў кішэню.",
               "links": [
                 {
                   "id": 6,
+                  "redacted": false,
                   "title": "Savoir Faire: \"You now proudly own a primer book f...\"",
+                  "actor": "Savoir Faire",
+                  "to": "You",
                   "articyId": "0x0100006B00001B67",
-                  "text": "You now proudly own a primer book for small children which, to be honest, barely cost anything.",
+                  "english": "You now proudly own a primer book for small children which, to be honest, barely cost anything.",
+                  "polish": "Jesteś teraz dumnym posiadaczem elementarza dla małych dzieci, który, szczerze mówiąc, był i tak prawie darmowy.",
+                  "belarusian": "Цяпер вы ганарысты ўладальнік буквара для маленькіх дзяцей, які, шчыра кажучы, і так быў амаль бясплатным.",
                   "links": []
                 }
               ]
             },
             {
               "id": 16,
+              "redacted": false,
               "title": "Savoir Faire: \"Slowly, you move your hand towards...\"",
+              "actor": "Savoir Faire",
+              "to": "You",
               "articyId": "0x0100006B00001B61",
-              "text": "Slowly, you move your hand towards the small book. Before you even can reach it, you're interrupted:",
+              "english": "Slowly, you move your hand towards the small book. Before you even can reach it, you're interrupted:",
+              "polish": "Powoli przesuwasz dłoń ku książeczce. Zanim jednak jej dosięgasz, słyszysz głos:",
+              "belarusian": "Паўольна перасоўваеш далонь да кніжачкі. Але перш чым ты яе дасягаеш, чуеш голас:",
               "links": [
                 {
                   "id": 30,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"The lieutenant coughs sharply, then...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x0100006B00001B77",
-                  "text": "The lieutenant coughs sharply, then whispers: \"Let's not. Defrauding small business owners is not our *thing*.\"",
+                  "english": "The lieutenant coughs sharply, then whispers: \"Let's not. Defrauding small business owners is not our *thing*.\"",
+                  "polish": "Porucznik kasła głośno, po czym szepcze: „Lepiej nie. Okradanie właścicieli małych firm to nie jest nasza *specjalność*”.",
+                  "belarusian": "Лейтэнант гучна кашляе, потым шэпча: «Лепш не. Абкраданне ўладальнікаў малых фірмаў — гэта не наша *спецыяльнасць*».",
                   "links": []
                 },
                 {
                   "id": 21,
+                  "redacted": false,
                   "title": "Plaisance: \"\"Sir, please, no touching the merch...\"",
+                  "actor": "Plaisance",
+                  "to": "You",
                   "articyId": "0x0100006B00001B6D",
-                  "text": "\"Sir, please, no touching the merchandise.\"",
+                  "english": "\"Sir, please, no touching the merchandise.\"",
+                  "polish": "„Proszę nie dotykać towaru”.",
+                  "belarusian": "\"Калі ласка, не чапайце тавар\".",
                   "links": []
                 }
               ]
@@ -132,9 +217,14 @@
         },
         {
           "id": 22,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Primer Book",
           "articyId": "0x0100002F0000D39E",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Адыдзі].",
           "links": []
         }
       ]

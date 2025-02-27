@@ -5,27 +5,47 @@
   "dialogueTree": [
     {
       "id": 2,
+      "redacted": false,
       "title": "Central Furnace: \"A thick layer of coal dust covers t...\"",
+      "actor": "Central Furnace",
+      "to": "You",
       "articyId": "0x010000210000176E",
-      "text": "A thick layer of coal dust covers the furnace, colouring it pitch-black.",
+      "english": "A thick layer of coal dust covers the furnace, colouring it pitch-black.",
+      "polish": "Piec zabarwiony jest na czarno pokrywającą go grubą warstwą pyłu węglowego.",
+      "belarusian": "Печ фарбаваны ў чорны колер пакрываюць таўстым слоем вугальнага пылу.",
       "links": [
         {
           "id": 142,
+          "redacted": false,
           "title": "You: \"\"Kim, what is this thing? Is it a f...\"",
+          "actor": "You",
+          "to": "Central Furnace",
           "articyId": "0x0100002B00081E6D",
-          "text": "\"Kim, what is this thing? Is it a furnace?!\"",
+          "english": "\"Kim, what is this thing? Is it a furnace?!\"",
+          "polish": "„Kim, co to jest? Jakiś piec?!”",
+          "belarusian": "«Кім, што гэта? Якое-небудзь пячное?!»",
           "links": [
             {
               "id": 71,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Looks like it. Looks like an old c...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100002B00081EE7",
-              "text": "\"Looks like it. Looks like an old central furnace used to heat the building. It's connected to the chimney...\" He opens the door and gingerly peeks inside.",
+              "english": "\"Looks like it. Looks like an old central furnace used to heat the building. It's connected to the chimney...\" He opens the door and gingerly peeks inside.",
+              "polish": "„Na to wygląda. Zdaje się, że to stary piec centralny, który ogrzewał dawniej budynek. Jest podłączony do komina...” – otwiera drzwiczki i ostrożnie zagląda do środka.",
+              "belarusian": "«Напэўна, так. Здаецца, што гэта стары цэнтральны кацёл, які раней ацяпляў будынак. Ён падключаны да коміна...» – адкрывае дзверцы і асцярожна зазірае ўнутр.",
               "links": [
                 {
                   "id": 113,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"No one has used it in ages... No s...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x0100009200000C3E",
-                  "text": "\"No one has used it in ages... No signs of any recent fire, only dead rats.\"",
+                  "english": "\"No one has used it in ages... No signs of any recent fire, only dead rats.\"",
+                  "polish": "„Od wieków nikt go nie używał... Żadnych śladów rozpalanego niedawno ognia. Tylko zdechłe szczury”.",
+                  "belarusian": "«Стагоддзямі ніхто яго не выкарыстоўваў... Ніякіх слядоў нядаўна распаленага агню. Толькі здохлыя пацукi».",
                   "links": []
                 }
               ]
@@ -34,51 +54,91 @@
         },
         {
           "id": 104,
+          "redacted": false,
           "title": "You: \"Look inside the furnace.\"",
+          "actor": "You",
+          "to": "Central Furnace",
           "articyId": "0x0100002B00081E73",
-          "text": "Look inside the furnace.",
+          "english": "Look inside the furnace.",
+          "polish": "Zajrzyj do pieca.",
+          "belarusian": "Зірні ў печ.",
           "links": [
             {
               "id": 82,
+              "redacted": false,
               "title": "Central Furnace: \"It's dark and grimy here. In the da...\"",
+              "actor": "Central Furnace",
+              "to": "You",
               "articyId": "0x0100009200000DC8",
-              "text": "It's dark and grimy here. In the darkness, you can hear *chatter*. It's coming from above. A voice -- or several voices -- talking to each other, near the smoke chamber upstairs.",
+              "english": "It's dark and grimy here. In the darkness, you can hear *chatter*. It's coming from above. A voice -- or several voices -- talking to each other, near the smoke chamber upstairs.",
+              "polish": "Jest tu mrocznie i brudno. W mroku słyszysz *rozmowę*. Dobiega z góry. Głos – lub kilka głosów. Rozmawiają ze sobą gdzieś przy kominie piętro wyżej.",
+              "belarusian": "Тут цёмна і брудна. У цемры чуеш *размову*. Даносіцца зверху. Голас – або некалькі галасоў. Размаўляюць паміж сабой недзе каля коміна на паверсе вышэй.",
               "links": [
                 {
                   "id": 102,
+                  "redacted": false,
                   "title": "Perception (Hearing): \"The echo is so prominent, it's impo...\"",
+                  "actor": "Perception (Hearing)",
+                  "to": "You",
                   "articyId": "0x010000060001A447",
-                  "text": "The echo is so prominent, it's impossible to discern what the voices are saying. Or what's producing them.",
+                  "english": "The echo is so prominent, it's impossible to discern what the voices are saying. Or what's producing them.",
+                  "polish": "Echo jest tak silne, że nie sposób stwierdzić, co mówią głosy. Ani skąd pochodzą.",
+                  "belarusian": "Эха настолькі моцнае, што немагчыма вызначыць, што кажуць галасы. І адкуль яны паходзяць.",
                   "links": [
                     {
                       "id": 21,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"What are you doing?\" the lieutenan...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100009200000DD5",
-                      "text": "\"What are you doing?\" the lieutenant asks when he sees you climb half-way inside the furnace.",
+                      "english": "\"What are you doing?\" the lieutenant asks when he sees you climb half-way inside the furnace.",
+                      "polish": "„Co ty robisz?” – pyta porucznik, obserwując, jak wchodzisz do wnętrza pieca.",
+                      "belarusian": "«Што ты робіш?» — пытаецца лейтэнант, назіраючы, як ты заходзіш унутр печы.",
                       "links": [
                         {
                           "id": 126,
+                          "redacted": false,
                           "title": "You: \"\"I'm hallucinating.\"\"",
+                          "actor": "You",
+                          "to": "Central Furnace",
                           "articyId": "0x0100009200000DE2",
-                          "text": "\"I'm hallucinating.\"",
+                          "english": "\"I'm hallucinating.\"",
+                          "polish": "„Doznaję halucynacji”.",
+                          "belarusian": "«Я адчуваю галюцынацыі».",
                           "links": [
                             {
                               "id": 68,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Wait, really?\" The lieutenant soun...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100009200000E0D",
-                              "text": "\"Wait, really?\" The lieutenant sounds concerned. \"Take your head out of the chimney, please. It's not safe.\"",
+                              "english": "\"Wait, really?\" The lieutenant sounds concerned. \"Take your head out of the chimney, please. It's not safe.\"",
+                              "polish": "„Chwila, poważnie?” – porucznik sprawia wrażenie zaniepokojonego. „Wyjmij głowę z komina, proszę. To nie jest bezpieczne”.",
+                              "belarusian": "«Хвіліначку, сур’ёзна?» – лейтэнант выглядае занепакоеным. «Дастань галаву з коміна, калі ласка. Гэта небяспечна».",
                               "links": [
                                 {
                                   "id": 99,
+                                  "redacted": false,
                                   "title": "Esprit de Corps: \"It feels safe to know that the lieu...\"",
+                                  "actor": "Esprit de Corps",
+                                  "to": "You",
                                   "articyId": "0x0100009200000E30",
-                                  "text": "It feels safe to know that the lieutenant's got your back, now and always.",
+                                  "english": "It feels safe to know that the lieutenant's got your back, now and always.",
+                                  "polish": "Czujesz się bezpiecznie, wiedząc, że możesz liczyć na porucznika, teraz i zawsze.",
+                                  "belarusian": "Ты адчуваеш сябе ў бяспецы, ведаючы, што можаш разлічваць на лейтэнанта, зараз і заўсёды.",
                                   "links": [
                                     {
                                       "id": 69,
+                                      "redacted": false,
                                       "title": "Volition: \"This sounded real, not imagined.\"",
+                                      "actor": "Volition",
+                                      "to": "You",
                                       "articyId": "0x010000060001A43F",
-                                      "text": "This sounded real, not imagined.",
+                                      "english": "This sounded real, not imagined.",
+                                      "polish": "To wydawało się prawdziwe, nie wyobrażone.",
+                                      "belarusian": "Гэта здавалася сапраўдным, а не ўяўным.",
                                       "links": []
                                     }
                                   ]
@@ -89,72 +149,122 @@
                         },
                         {
                           "id": 132,
+                          "redacted": false,
                           "title": "You: \"\"I hear the murderer of the hanged...\"",
+                          "actor": "You",
+                          "to": "Central Furnace",
                           "articyId": "0x0100009200000DE8",
-                          "text": "\"I hear the murderer of the hanged man talking.\"",
+                          "english": "\"I hear the murderer of the hanged man talking.\"",
+                          "polish": "„Słyszę, jak morderca powieszonego coś gada”.",
+                          "belarusian": "«Чую, як забойца павешанага нешта кажа».",
                           "links": [
                             {
                               "id": 52,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Wait, really?\" He looks up at the...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100009200000DFE",
-                              "text": "\"Wait, really?\" He looks up at the ceiling. \"Maybe it's coming from behind those safety curtains we saw upstairs?\"",
+                              "english": "\"Wait, really?\" He looks up at the ceiling. \"Maybe it's coming from behind those safety curtains we saw upstairs?\"",
+                              "polish": "„Chwila, poważnie?” – porucznik spogląda na sufit. „Może głos dochodzi zza tych zasłon bezpieczeństwa, które widzieliśmy na piętrze?”",
+                              "belarusian": "«Хвіліна, сур'ёзна?» — лейтэнант глядзіць на столь. «Можа, голас ідзе з-за тых ахоўных заслонаў, якія мы бачылі на паверсе?»",
                               "links": [
                                 {
                                   "id": 34,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"We should ask the lady in the book...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x010000210000269F",
-                                  "text": "\"We should ask the lady in the bookstore what's going on with these curtains.\"",
+                                  "english": "\"We should ask the lady in the bookstore what's going on with these curtains.\"",
+                                  "polish": "„Powinniśmy zapytać kobietę z księgarni o to, co chodzi z tymi zasłonami”.",
+                                  "belarusian": "«Мы павінны спытаць жанчыну з кніжнай крамы, што адбываецца з гэтымі шторамі».",
                                   "links": []
                                 }
                               ]
                             },
                             {
                               "id": 53,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Wait, really?\" He looks up at the...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100009200000E3A",
-                              "text": "\"Wait, really?\" He looks up at the ceiling. \"We should investigate, see if someone's upstairs.\"",
+                              "english": "\"Wait, really?\" He looks up at the ceiling. \"We should investigate, see if someone's upstairs.\"",
+                              "polish": "„Chwila, poważnie?” – porucznik spogląda na sufit. „Może powinniśmy sprawdzić, czy ktoś jest na piętrze”.",
+                              "belarusian": "«Хвіліначку, сур'ёзна?» — лейтэнант глядзіць на столь. «Можа, варта праверыць, ці ёсць хто на паверсе».",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 13,
+                          "redacted": false,
                           "title": "You: \"\"I'm not sure, Kim... but I think I...\"",
+                          "actor": "You",
+                          "to": "Central Furnace",
                           "articyId": "0x0100009200000DF7",
-                          "text": "\"I'm not sure, Kim... but I think I can hear someone talking upstairs.\"",
+                          "english": "\"I'm not sure, Kim... but I think I can hear someone talking upstairs.\"",
+                          "polish": "„Nie wiem za bardzo, Kim... ale chyba słyszę, jak na górze ktoś coś mówi”.",
+                          "belarusian": "«Не вельмі ведаю, кім... але, здаецца, чую, як наверсе нехта нешта гаворыць».",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 61,
+                      "redacted": false,
                       "title": "You: \"What's happening?!\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100009200000EE2",
-                      "text": "What's happening?!",
+                      "english": "What's happening?!",
+                      "polish": "Co się dzieje?!",
+                      "belarusian": "Што адбываецца?!",
                       "links": [
                         {
                           "id": 78,
+                          "redacted": false,
                           "title": "Central Furnace: \"Maybe it's coming from behind those...\"",
+                          "actor": "Central Furnace",
+                          "to": "You",
                           "articyId": "0x0100009200000F03",
-                          "text": "Maybe it's coming from behind those safety curtains you saw upstairs? You should investigate...",
+                          "english": "Maybe it's coming from behind those safety curtains you saw upstairs? You should investigate...",
+                          "polish": "Może głos dochodzi zza tych rolet antywłamaniowych, które widziałeś na górze? Lepiej to sprawdź...",
+                          "belarusian": "Можа голас ідзе з-за гэтых антыўзломных ролетаў, якія ты бачыў наверсе? Лепш правер гэта...",
                           "links": [
                             {
                               "id": 14,
+                              "redacted": false,
                               "title": "Electrochemistry: \"Or maybe you're just hungover again...\"",
+                              "actor": "Electrochemistry",
+                              "to": "You",
                               "articyId": "0x0100009200000F24",
-                              "text": "Or maybe you're just hungover again.",
+                              "english": "Or maybe you're just hungover again.",
+                              "polish": "A może po prostu znów masz kaca.",
+                              "belarusian": "А можа ты проста зноў з пахмелля.",
                               "links": [
                                 {
                                   "id": 22,
+                                  "redacted": false,
                                   "title": "Endurance: \"Could it be psychological? Because...\"",
+                                  "actor": "Endurance",
+                                  "to": "You",
                                   "articyId": "0x0100009200000F18",
-                                  "text": "Could it be psychological? Because your physical health is fine.",
+                                  "english": "Could it be psychological? Because your physical health is fine.",
+                                  "polish": "Czy to może być jakaś kwestia psychologiczna? Bo fizycznie wszystko z tobą w porządku.",
+                                  "belarusian": "Ці можа гэта быць нейкай псіхалагічнай праблемай? Бо фізічна з табой усё ў парадку.",
                                   "links": [
                                     {
                                       "id": 133,
+                                      "redacted": false,
                                       "title": "Volition: \"This sounded real, not imagined.\"",
+                                      "actor": "Volition",
+                                      "to": "You",
                                       "articyId": "0x0100009200000F1E",
-                                      "text": "This sounded real, not imagined.",
+                                      "english": "This sounded real, not imagined.",
+                                      "polish": "To wydawało się prawdziwe, nie wyobrażone.",
+                                      "belarusian": "Гэта здавалася сапраўдным, а не ўяўным.",
                                       "links": []
                                     }
                                   ]
@@ -165,32 +275,52 @@
                         },
                         {
                           "id": 101,
+                          "redacted": false,
                           "title": "Central Furnace: \"Maybe it's coming from somewhere up...\"",
+                          "actor": "Central Furnace",
+                          "to": "You",
                           "articyId": "0x0100009200000F0D",
-                          "text": "Maybe it's coming from somewhere upstairs? You should investigate...",
+                          "english": "Maybe it's coming from somewhere upstairs? You should investigate...",
+                          "polish": "Może głos dochodzi gdzieś z góry? Lepiej to sprawdź...",
+                          "belarusian": "Можа, голас даносіцца аднекуль зверху? Лепш правер гэта...",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 62,
+                      "redacted": false,
                       "title": "You: \"I'm hallucinating...\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100009200000EE8",
-                      "text": "I'm hallucinating...",
+                      "english": "I'm hallucinating...",
+                      "polish": "Mam halucynacje...",
+                      "belarusian": "У мяне галюцынацыі...",
                       "links": []
                     },
                     {
                       "id": 138,
+                      "redacted": false,
                       "title": "You: \"I hear the murderer of the hanged m...\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100009200000EEE",
-                      "text": "I hear the murderer of the hanged man talking.",
+                      "english": "I hear the murderer of the hanged man talking.",
+                      "polish": "Słyszę, jak morderca powieszonego coś gada.",
+                      "belarusian": "Я чую, як забойца павешанага нешта кажа.",
                       "links": []
                     },
                     {
                       "id": 43,
+                      "redacted": false,
                       "title": "You: \"I'm getting carbon monoxide poisoni...\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100009200000EF7",
-                      "text": "I'm getting carbon monoxide poisoning.",
+                      "english": "I'm getting carbon monoxide poisoning.",
+                      "polish": "Doznaję zatrucia tlenkiem węgla.",
+                      "belarusian": "Я атручваюся чадным газам.",
                       "links": []
                     }
                   ]
@@ -201,99 +331,179 @@
         },
         {
           "id": 15,
+          "redacted": false,
           "title": "You: \"Smear your hands with coal.\"",
+          "actor": "You",
+          "to": "Central Furnace",
           "articyId": "0x0100002B00081E99",
-          "text": "Smear your hands with coal.",
+          "english": "Smear your hands with coal.",
+          "polish": "Ubrudź sobie dłonie węglem.",
+          "belarusian": "Запэцкай рукі вугалем.",
           "links": [
             {
               "id": 152,
+              "redacted": false,
               "title": "Central Furnace: \"A lush layer of coal now covers you...\"",
+              "actor": "Central Furnace",
+              "to": "You",
               "articyId": "0x0100002B00081EA0",
-              "text": "A lush layer of coal now covers your skin, sinking into the wrinkles. Your hands look ancient.",
+              "english": "A lush layer of coal now covers your skin, sinking into the wrinkles. Your hands look ancient.",
+              "polish": "Twoja skóra pokryta jest teraz grubą warstwą węgla. Wżera się on w jej zmarszczki. Twoje dłonie wydają się niezwykle stare.",
+              "belarusian": "Твая скура цяпер пакрыта тоўстым слоем вугалю. Ён угрызаецца ў яе зморшчыны. Твае рукі здаюцца надзвычай старамоднымі.",
               "links": [
                 {
                   "id": 130,
+                  "redacted": false,
                   "title": "Inland Empire: \"You feel the spirit of Ramout Karza...\"",
+                  "actor": "Inland Empire",
+                  "to": "You",
                   "articyId": "0x0100002B00081EAC",
-                  "text": "You feel the spirit of Ramout Karzai, ancient hero of Graad, pulsing through you. All that's left is to cover your face in war-paint.",
+                  "english": "You feel the spirit of Ramout Karzai, ancient hero of Graad, pulsing through you. All that's left is to cover your face in war-paint.",
+                  "polish": "Czujesz pulsującego w tobie ducha Ramouta Karzaia, pradawnego bohatera Graadu. Pozostało ci tylko pomalować twarz w barwy wojenne.",
+                  "belarusian": "Вы адчуваеце ў сабе пульсуючы дух Рамаута Карзая, старажытнага героя Грааду. Вам засталося толькі памаляваць твар у ваенныя фарбы.",
                   "links": [
                     {
                       "id": 70,
+                      "redacted": false,
                       "title": "You: \"Hadramut Karzai! Smear your cheeks...\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100002B00081EC5",
-                      "text": "Hadramut Karzai! Smear your cheeks black with coal.",
+                      "english": "Hadramut Karzai! Smear your cheeks black with coal.",
+                      "polish": "Hadramut Karzai! Posmaruj sobie policzki węglem.",
+                      "belarusian": "Хадрамут Карзай! Намаж сябе шчокі вугалем.",
                       "links": [
                         {
                           "id": 3,
+                          "redacted": false,
                           "title": "Inland Empire: \"Three dangerous stripes appear onto...\"",
+                          "actor": "Inland Empire",
+                          "to": "You",
                           "articyId": "0x0100002B00081ED3",
-                          "text": "Three dangerous stripes appear onto your cheeks, telling stories of your wild soul.",
+                          "english": "Three dangerous stripes appear onto your cheeks, telling stories of your wild soul.",
+                          "polish": "Na twoich policzkach pojawiają się trzy złowrogie pasy. Zdradzają one dzikość twojej duszy.",
+                          "belarusian": "На тварах з'яўляюцца тры злавесныя паласы. Яны выдаюць дзікасць тваёй душы.",
                           "links": [
                             {
                               "id": 112,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"What... what are you doing?\"\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100002B00081F5A",
-                              "text": "\"What... what are you doing?\"",
+                              "english": "\"What... what are you doing?\"",
+                              "polish": "„Co... Co ty robisz?”",
+                              "belarusian": "«Што... Што ты робіш?»",
                               "links": [
                                 {
                                   "id": 97,
+                                  "redacted": false,
                                   "title": "You: \"\"I am the reincarnation of an ancie...\"",
+                                  "actor": "You",
+                                  "to": "Central Furnace",
                                   "articyId": "0x0100002B00081FA4",
-                                  "text": "\"I am the reincarnation of an ancient Iilmaraan warrior.\"",
+                                  "english": "\"I am the reincarnation of an ancient Iilmaraan warrior.\"",
+                                  "polish": "„Jestem ponownym wcieleniem pradawnego iilmaraańskiego wojownika”.",
+                                  "belarusian": "«Я з'яўляюся перараджэннем старадаўняга ільмаранскага воіна».",
                                   "links": [
                                     {
                                       "id": 17,
+                                      "redacted": false,
                                       "title": "Kim Kitsuragi: \"\"Please wipe your face clean, offic...\"",
+                                      "actor": "Kim Kitsuragi",
+                                      "to": "You",
                                       "articyId": "0x0100002B00081FC3",
-                                      "text": "\"Please wipe your face clean, officer.\"",
+                                      "english": "\"Please wipe your face clean, officer.\"",
+                                      "polish": "„Wytrzyj swoją twarz, oficerze”.",
+                                      "belarusian": "«Вытры цвары, афіцэр».",
                                       "links": [
                                         {
                                           "id": 117,
+                                          "redacted": false,
                                           "title": "Conceptualization: \"No, you're a proud warrior, keep it...\"",
+                                          "actor": "Conceptualization",
+                                          "to": "You",
                                           "articyId": "0x0100002B00081FCA",
-                                          "text": "No, you're a proud warrior, keep it.",
+                                          "english": "No, you're a proud warrior, keep it.",
+                                          "polish": "Nie, jesteś dumnym wojownikiem. I niech tak zostanie.",
+                                          "belarusian": "Не, вы ганарлівы воін. І няхай так застанецца.",
                                           "links": [
                                             {
                                               "id": 154,
+                                              "redacted": false,
                                               "title": "You: \"Don't wipe it.\"",
+                                              "actor": "You",
+                                              "to": "Central Furnace",
                                               "articyId": "0x0100005700000234",
-                                              "text": "Don't wipe it.",
+                                              "english": "Don't wipe it.",
+                                              "polish": "Nie wycieraj.",
+                                              "belarusian": "Не выцірай.",
                                               "links": [
                                                 {
                                                   "id": 73,
+                                                  "redacted": false,
                                                   "title": "Authority: \"These three stripes give you streng...\"",
+                                                  "actor": "Authority",
+                                                  "to": "You",
                                                   "articyId": "0x0100005700003D09",
-                                                  "text": "These three stripes give you strength in this dangerous realm. It would be foolish to remove them.",
+                                                  "english": "These three stripes give you strength in this dangerous realm. It would be foolish to remove them.",
+                                                  "polish": "Trzy pasy dają ci siłę w tej niebezpiecznej krainie. Głupotą byłoby się ich pozbywać.",
+                                                  "belarusian": "Тры паласы даюць табе сілу ў гэтай небяспечнай краіне. Дуроства было б іх пазбаўляцца.",
                                                   "links": [
                                                     {
                                                       "id": 90,
+                                                      "redacted": false,
                                                       "title": "You: \"\"We're exploring this dark place an...\"",
+                                                      "actor": "You",
+                                                      "to": "Central Furnace",
                                                       "articyId": "0x0100005700003D19",
-                                                      "text": "\"We're exploring this dark place and I need the protection my war-paint affords.\"",
+                                                      "english": "\"We're exploring this dark place and I need the protection my war-paint affords.\"",
+                                                      "polish": "„Badamy mroczne miejsce. Potrzebuję ochrony, jaką daje mi malowanie wojenne”.",
+                                                      "belarusian": "«Мы даследуем змрочнае месца. Мне патрэбна абарона, якую дае ваенны размалёўка».",
                                                       "links": [
                                                         {
                                                           "id": 9,
+                                                          "redacted": false,
                                                           "title": "Kim Kitsuragi: \"\"And *this* protects you?\"\"",
+                                                          "actor": "Kim Kitsuragi",
+                                                          "to": "You",
                                                           "articyId": "0x0100005700003D23",
-                                                          "text": "\"And *this* protects you?\"",
+                                                          "english": "\"And *this* protects you?\"",
+                                                          "polish": "„I *to* zapewnia ci ochronę?”",
+                                                          "belarusian": "«І *гэта* забяспечвае табе абарону?»",
                                                           "links": [
                                                             {
                                                               "id": 91,
+                                                              "redacted": false,
                                                               "title": "You: \"\"*This* is traditional war-paint. I...\"",
+                                                              "actor": "You",
+                                                              "to": "Central Furnace",
                                                               "articyId": "0x0100005700003D4C",
-                                                              "text": "\"*This* is traditional war-paint. It will grant me safe passage with the spirits that guard this place.\"",
+                                                              "english": "\"*This* is traditional war-paint. It will grant me safe passage with the spirits that guard this place.\"",
+                                                              "polish": "„*To* tradycyjne malowanie wojenne. Pozwala mi bezpiecznie kroczyć wśród strzegących tego miejsca duchów”.",
+                                                              "belarusian": "«Гэта традыцыйная ваенная размалёўка. Яна дазваляе мне бяспечна ісці сярод духаў, якія ахоўваюць гэтае месца».",
                                                               "links": [
                                                                 {
                                                                   "id": 147,
+                                                                  "redacted": false,
                                                                   "title": "Kim Kitsuragi: \"\"Okay, sure. Go ahead.\" He stubborn...\"",
+                                                                  "actor": "Kim Kitsuragi",
+                                                                  "to": "You",
                                                                   "articyId": "0x0100005700003D38",
-                                                                  "text": "\"Okay, sure. Go ahead.\" He stubbornly looks away from you and the furnace.",
+                                                                  "english": "\"Okay, sure. Go ahead.\" He stubbornly looks away from you and the furnace.",
+                                                                  "polish": "„W porządku, jasne. Jak uważasz” – z uporem odwraca wzrok od ciebie i pieca.",
+                                                                  "belarusian": "«У парадку, зразумела. Як лічыш» – упарта адвяртае погляд ад цябе і печы.",
                                                                   "links": [
                                                                     {
                                                                       "id": 80,
+                                                                      "redacted": false,
                                                                       "title": "Encyclopedia: \"Just pointing out -- this is *not*...\"",
+                                                                      "actor": "Encyclopedia",
+                                                                      "to": "You",
                                                                       "articyId": "0x0100005700003D54",
-                                                                      "text": "Just pointing out -- this is *not* traditional Semenese war-paint. No idea where you got it.",
+                                                                      "english": "Just pointing out -- this is *not* traditional Semenese war-paint. No idea where you got it.",
+                                                                      "polish": "Zaznaczę tylko – to *nie jest* tradycyjne semeńskie malowanie wojenne. Nie mam pojęcia, skąd to wziąłeś.",
+                                                                      "belarusian": "Адзначу толькі – гэта *не з'яўляецца* традыцыйным семеньскім баявым маляваннем. Не маю ўяўлення, адкуль ты гэта ўзяў.",
                                                                       "links": []
                                                                     }
                                                                   ]
@@ -302,9 +512,14 @@
                                                             },
                                                             {
                                                               "id": 38,
+                                                              "redacted": false,
                                                               "title": "You: \"\"It gives me confidence and that's...\"",
+                                                              "actor": "You",
+                                                              "to": "Central Furnace",
                                                               "articyId": "0x0100005700003D30",
-                                                              "text": "\"It gives me confidence and that's all that matters, Kim.\"",
+                                                              "english": "\"It gives me confidence and that's all that matters, Kim.\"",
+                                                              "polish": "„Daje mi pewność siebie, a to jest najważniejsze, Kim”.",
+                                                              "belarusian": "«Дае мне ўпэўненасць, а гэта самае галоўнае, Кім».",
                                                               "links": []
                                                             }
                                                           ]
@@ -315,24 +530,39 @@
                                                 },
                                                 {
                                                   "id": 26,
+                                                  "redacted": false,
                                                   "title": "Authority: \"You can feel your cheeks turn red u...\"",
+                                                  "actor": "Authority",
+                                                  "to": "You",
                                                   "articyId": "0x0100005700003D0F",
-                                                  "text": "You can feel your cheeks turn red under the lieutenant's gaze -- you look like a kid, not a police officer. Even the war-paint can't conceal the embarrassment.",
+                                                  "english": "You can feel your cheeks turn red under the lieutenant's gaze -- you look like a kid, not a police officer. Even the war-paint can't conceal the embarrassment.",
+                                                  "polish": "Czujesz, jak spojrzenie porucznika przyprawia cię o rumieńce. Wyglądasz jak dzieciak, a nie funkcjonariusz policji. Nawet wojenne malunki nie przykryją twojego wstydu.",
+                                                  "belarusian": "Ты адчуваеш, як позірк лейтэнанта выклікае ў цябе румянец. Ты выглядаеш як дзіця, а не як афіцэр паліцыі. Нават ваенная размалёўка не схуе тваёй сораму.",
                                                   "links": []
                                                 }
                                               ]
                                             },
                                             {
                                               "id": 10,
+                                              "redacted": false,
                                               "title": "You: \"Wipe it clean.\"",
+                                              "actor": "You",
+                                              "to": "Central Furnace",
                                               "articyId": "0x0100002B00081FD0",
-                                              "text": "Wipe it clean.",
+                                              "english": "Wipe it clean.",
+                                              "polish": "Wytrzyj twarz do czysta.",
+                                              "belarusian": "Вытры твар да чыстаты.",
                                               "links": [
                                                 {
                                                   "id": 23,
+                                                  "redacted": false,
                                                   "title": "Kim Kitsuragi: \"\"Thank you,\" the lieutenant nods. \"...\"",
+                                                  "actor": "Kim Kitsuragi",
+                                                  "to": "You",
                                                   "articyId": "0x0100002B00081FD7",
-                                                  "text": "\"Thank you,\" the lieutenant nods. \"So, where were we?\" He turns back to the furnace.",
+                                                  "english": "\"Thank you,\" the lieutenant nods. \"So, where were we?\" He turns back to the furnace.",
+                                                  "polish": "„Dziękuję” – stwierdza porucznik, kiwając głową. „Na czym skończyliśmy?” – pyta, odwracając się z powrotem w kierunku pieca.",
+                                                  "belarusian": "«Дзякуй», — зазначае лейтэнант, ківаючы галавой. «На чым мы спыніліся?» — пытаецца, зноў павярнуўшыся ў бок печы.",
                                                   "links": []
                                                 }
                                               ]
@@ -345,15 +575,25 @@
                                 },
                                 {
                                   "id": 153,
+                                  "redacted": false,
                                   "title": "You: \"\"Nothing!\" (Wipe your face clean.)...\"",
+                                  "actor": "You",
+                                  "to": "Central Furnace",
                                   "articyId": "0x0100002B00081FAB",
-                                  "text": "\"Nothing!\" (Wipe your face clean.) \"Sorry, that was stupid.\"",
+                                  "english": "\"Nothing!\" (Wipe your face clean.) \"Sorry, that was stupid.\"",
+                                  "polish": "„Nic takiego!” (Wytrzyj sobie twarz). „Przepraszam, to było głupie”.",
+                                  "belarusian": "«Нічога такога!» (Вытры твар). «Прабач, гэта было глупа».",
                                   "links": [
                                     {
                                       "id": 86,
+                                      "redacted": false,
                                       "title": "Kim Kitsuragi: \"\"Yes. Yes, it was,\" the lieutenant...\"",
+                                      "actor": "Kim Kitsuragi",
+                                      "to": "You",
                                       "articyId": "0x0100002B00081FB2",
-                                      "text": "\"Yes. Yes, it was,\" the lieutenant nods, before turning back to the furnace.",
+                                      "english": "\"Yes. Yes, it was,\" the lieutenant nods, before turning back to the furnace.",
+                                      "polish": "„Tak. Było” – kiwa głową porucznik, po czym odwraca się z powrotem w kierunku pieca.",
+                                      "belarusian": "«Так. Было», — ківае галавой лейтэнант, пасля чаго зноў паварочваецца ў бок печы.",
                                       "links": []
                                     }
                                   ]
@@ -362,9 +602,14 @@
                             },
                             {
                               "id": 135,
+                              "redacted": false,
                               "title": "Authority: \"What a proud warrior! This is how t...\"",
+                              "actor": "Authority",
+                              "to": "You",
                               "articyId": "0x0100005700003D5C",
-                              "text": "What a proud warrior! This is how the hunted becomes the hunter in this dark dangerous place.",
+                              "english": "What a proud warrior! This is how the hunted becomes the hunter in this dark dangerous place.",
+                              "polish": "Cóż za dumny wojownik! Tak właśnie zwierzyna staje się w tym niebezpiecznym, mrocznym miejscu myśliwym.",
+                              "belarusian": "Вось які ганарлівы воін! Так менавіта здабыча становіцца ў гэтым небяспечным, цёмным месцы паляўнічым.",
                               "links": []
                             }
                           ]
@@ -373,21 +618,36 @@
                     },
                     {
                       "id": 16,
+                      "redacted": false,
                       "title": "You: \"No, let's not express ourselves. Le...\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100002B00081ECB",
-                      "text": "No, let's not express ourselves. Let's just wipe our hands clean on our pants.",
+                      "english": "No, let's not express ourselves. Let's just wipe our hands clean on our pants.",
+                      "polish": "Nie, nie wyrażajmy sami siebie. Po prostu wytrzyjmy dłonie w spodnie.",
+                      "belarusian": "Не, не выказвайце самі сябе. Проста выцерце рукі аб штаны.",
                       "links": [
                         {
                           "id": 85,
+                          "redacted": false,
                           "title": "Inland Empire: \"Yes, how grown-up. The furnace agre...\"",
+                          "actor": "Inland Empire",
+                          "to": "You",
                           "articyId": "0x0100002B00081ED9",
-                          "text": "Yes, how grown-up. The furnace agrees.",
+                          "english": "Yes, how grown-up. The furnace agrees.",
+                          "polish": "Tak, jakże dorośle. Piec też się ze mną zgadza.",
+                          "belarusian": "Так, як жа даросла. Печ таксама са мной згодная.",
                           "links": [
                             {
                               "id": 79,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"The lieutenant seems relieved as we...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100002B00086EBF",
-                              "text": "The lieutenant seems relieved as well.",
+                              "english": "The lieutenant seems relieved as well.",
+                              "polish": "Porucznik też zdaje się odczuwać ulgę.",
+                              "belarusian": "Лейтэнант таксама, здаецца, адчувае палёгку.",
                               "links": []
                             }
                           ]
@@ -396,15 +656,25 @@
                     },
                     {
                       "id": 128,
+                      "redacted": false,
                       "title": "Conceptualization: \"Maybe you could *paint* something w...\"",
+                      "actor": "Conceptualization",
+                      "to": "You",
                       "articyId": "0x010000060001A417",
-                      "text": "Maybe you could *paint* something with this coal? Leave a cave painting for future archaeologists... no, that would be stupid.",
+                      "english": "Maybe you could *paint* something with this coal? Leave a cave painting for future archaeologists... no, that would be stupid.",
+                      "polish": "Może mógłbyś coś *narysować* tym węglem? Zostawić malowidło naskalne dla archeologów przyszłości... Nie, to byłoby głupie.",
+                      "belarusian": "Можа б ты нешта *намаляваў* гэтым вуглём? Пакінуць наскальны роспіс для археолагаў будучыні... Не, гэта было б глупства.",
                       "links": [
                         {
                           "id": 146,
+                          "redacted": false,
                           "title": "Physical Instrument: \"Still, it's good you have this dirt...\"",
+                          "actor": "Physical Instrument",
+                          "to": "You",
                           "articyId": "0x010000060001A41F",
-                          "text": "Still, it's good you have this dirt on you. Real men wear *coal* for make-up.",
+                          "english": "Still, it's good you have this dirt on you. Real men wear *coal* for make-up.",
+                          "polish": "Tak czy inaczej, dobrze jest mieć na sobie ten brud. Prawdziwi mężczyźni noszą makijaż z *węgla*.",
+                          "belarusian": "Так ці інакш, добра мець на сабе гэты бруд. Сапраўдныя мужчыны носяць макіяж з *вуглю*.",
                           "links": []
                         }
                       ]
@@ -417,27 +687,47 @@
         },
         {
           "id": 77,
+          "redacted": false,
           "title": "You: \"\"Those voices I heard... Maybe it's...\"",
+          "actor": "You",
+          "to": "Central Furnace",
           "articyId": "0x0100009200000EAB",
-          "text": "\"Those voices I heard... Maybe it's the malignant Entity? Plaisance said it lives in a chimney.\"",
+          "english": "\"Those voices I heard... Maybe it's the malignant Entity? Plaisance said it lives in a chimney.\"",
+          "polish": "„Te głosy, które słyszałem... Może to ta złowroga istota? Plaisance mówiła, że mieszka w kominie”.",
+          "belarusian": "„Ты галасы, якія я чуў... Можа, гэта тая злавесная істота? Плезанс казала, што яна жыве ў коміне”.",
           "links": [
             {
               "id": 150,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"You're right, the rooms do look li...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100009200000EC1",
-              "text": "\"You're right, the rooms do look like they're connected. But *malignant Entities* don't exist -- at least not the *supra-natural* kind.\"",
+              "english": "\"You're right, the rooms do look like they're connected. But *malignant Entities* don't exist -- at least not the *supra-natural* kind.\"",
+              "polish": "„Masz rację, pomieszczenia wyglądają na połączone. Ale *złowrogie byty* nie istnieją – przynajmniej jeśli chodzi o te *nadprzyrodzone*”.",
+              "belarusian": "«Ты маеш рацыю, памяшканні выглядаюць злучанымі. Але *злавесныя істоты* не існуюць — па меншай меры, калі гаворка ідзе пра гэтыя *звышнатуральныя*».",
               "links": [
                 {
                   "id": 109,
+                  "redacted": false,
                   "title": "Rhetoric: \"Always has to be the sceptic, this...\"",
+                  "actor": "Rhetoric",
+                  "to": "You",
                   "articyId": "0x010000060001A42E",
-                  "text": "Always has to be the sceptic, this man...",
+                  "english": "Always has to be the sceptic, this man...",
+                  "polish": "Że też on zawsze musi być sceptykiem...",
+                  "belarusian": "Што ён заўсёды павінен быць скептыкам...",
                   "links": [
                     {
                       "id": 84,
+                      "redacted": false,
                       "title": "Half Light: \"Then what was the chatter you heard...\"",
+                      "actor": "Half Light",
+                      "to": "You",
                       "articyId": "0x010000060001A435",
-                      "text": "Then what was the chatter you heard?",
+                      "english": "Then what was the chatter you heard?",
+                      "polish": "W takim razie czym była ta rozmowa, którą słyszałeś?",
+                      "belarusian": "Тады што гэта была за размова, якую ты чуў?",
                       "links": []
                     }
                   ]
@@ -448,59 +738,104 @@
         },
         {
           "id": 5,
+          "redacted": false,
           "title": "You: \"Yell \"Hello!\" into the furnace.\"",
+          "actor": "You",
+          "to": "Central Furnace",
           "articyId": "0x0100002B00081F7F",
-          "text": "Yell \"Hello!\" into the furnace.",
+          "english": "Yell \"Hello!\" into the furnace.",
+          "polish": "Krzyknij do pieca „Halo!”",
+          "belarusian": "Пакліч да печы «Гало!»",
           "links": [
             {
               "id": 51,
+              "redacted": false,
               "title": "Physical Instrument: \"Something *breaks loose* in you. A...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100005700026C5E",
-              "text": "Something *breaks loose* in you. A mighty bellow echoes throughout the chimney's depths. The chatter of tiny voices above suddenly cease. Then...",
+              "english": "Something *breaks loose* in you. A mighty bellow echoes throughout the chimney's depths. The chatter of tiny voices above suddenly cease. Then...",
+              "polish": "Coś się w tobie *uwalnia*. W głębi komina odbija się echem twój potężny ryk. Świergotanie cichych głosików nad tobą milknie. A potem...",
+              "belarusian": "Нешта ў табе *вызваляецца*. У глыбіні коміна разносіцца рэхам твой магутны рык. Цвіканне ціхіх галаскоў над табой сціхае. А потым...",
               "links": [
                 {
                   "id": 24,
+                  "redacted": false,
                   "title": "Central Furnace: \"\"Hello?\" you hear a woman's voice a...\"",
+                  "actor": "Central Furnace",
+                  "to": "You",
                   "articyId": "0x0100002B00083364",
-                  "text": "\"Hello?\" you hear a woman's voice answer.",
+                  "english": "\"Hello?\" you hear a woman's voice answer.",
+                  "polish": "„Halo?” – słyszysz odpowiedź kobiecego głosu.",
+                  "belarusian": "«Прывітанне?» — чуеш адказ жаночага голасу.",
                   "links": [
                     {
                       "id": 93,
+                      "redacted": false,
                       "title": "Inland Empire: \"You've awakened the entity!\"",
+                      "actor": "Inland Empire",
+                      "to": "You",
                       "articyId": "0x0100005700026C6A",
-                      "text": "You've awakened the entity!",
+                      "english": "You've awakened the entity!",
+                      "polish": "Przebudziłeś istotę!",
+                      "belarusian": "Ты разбудзіў істоту!",
                       "links": []
                     },
                     {
                       "id": 54,
+                      "redacted": false,
                       "title": "Half Light: \"And it's a woman! Of course! The ma...\"",
+                      "actor": "Half Light",
+                      "to": "You",
                       "articyId": "0x0100005700005763",
-                      "text": "And it's a woman! Of course! The malicious entities are *always* women.",
+                      "english": "And it's a woman! Of course! The malicious entities are *always* women.",
+                      "polish": "Kobieta! No tak! Wszystkie te podłe istoty *zawsze* okazują się kobietami.",
+                      "belarusian": "Жанчына! Ну так! Усе гэтыя нікчэмныя істоты *заўсёды* аказваюцца жанчынамі.",
                       "links": []
                     },
                     {
                       "id": 72,
+                      "redacted": false,
                       "title": "You: \"\"This is the police! Who's there?\"\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100002B00083371",
-                      "text": "\"This is the police! Who's there?\"",
+                      "english": "\"This is the police! Who's there?\"",
+                      "polish": "„Tu policja! Kto tam jest?”",
+                      "belarusian": "«Тут міліцыя! Хто там?»",
                       "links": [
                         {
                           "id": 92,
+                          "redacted": false,
                           "title": "Central Furnace: \"\"Hello! Did you say anything?\" Ther...\"",
+                          "actor": "Central Furnace",
+                          "to": "You",
                           "articyId": "0x010000570000A952",
-                          "text": "\"Hello! Did you say anything?\" There's a pause. \"I can't hear you, please come upstairs! There's a safety curtain on the second floor, I'll open it!\"",
+                          "english": "\"Hello! Did you say anything?\" There's a pause. \"I can't hear you, please come upstairs! There's a safety curtain on the second floor, I'll open it!\"",
+                          "polish": "„Halo? Mówił pan coś?” – pyta głos, po czym przerywa. „Nic nie słyszę, proszę wejść na górę. Na piętrze są rolety antywłamaniowe, otworzę je!”",
+                          "belarusian": "«Гало? Пан нешта казаў?» – пытае голас, пасля чаго абрываецца. «Нічога не чую, калі ласка, падніміцеся наверх. На паверсе ёсць ахоўныя ралеты, я іх адкрыю!»",
                           "links": [
                             {
                               "id": 136,
+                              "redacted": false,
                               "title": "Perception (Hearing): \"You hear a low rumble upstairs -- t...\"",
+                              "actor": "Perception (Hearing)",
+                              "to": "You",
                               "articyId": "0x010000570000A95B",
-                              "text": "You hear a low rumble upstairs -- the sound of a curtain being pulled aside.",
+                              "english": "You hear a low rumble upstairs -- the sound of a curtain being pulled aside.",
+                              "polish": "Z góry dobiega cię niski hurgot. To odgłos otwieranej rolety.",
+                              "belarusian": "Зверху да цябе даносіцца нізкі гуркот. Гэта гука адкрытай ралеты.",
                               "links": [
                                 {
                                   "id": 158,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"The lieutenant nods, then points up...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x0100007000003EC3",
-                                  "text": "The lieutenant nods, then points upstairs. \"After you, officer.\"",
+                                  "english": "The lieutenant nods, then points upstairs. \"After you, officer.\"",
+                                  "polish": "Porucznik kiwa głową i wskazuje piętro. „Prowadź, oficerze”.",
+                                  "belarusian": "Лейтэнант ківае галавой і паказвае на паверх. «Вядзі, афіцэр».",
                                   "links": []
                                 }
                               ]
@@ -511,23 +846,38 @@
                     },
                     {
                       "id": 149,
+                      "redacted": false,
                       "title": "You: \"\"I summon the ghost of this Doomed...\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100005700005780",
-                      "text": "\"I summon the ghost of this Doomed Commercial Area. Answer me, spirit!\"",
+                      "english": "\"I summon the ghost of this Doomed Commercial Area. Answer me, spirit!\"",
+                      "polish": "„Przyzywam ducha Zgubionej Strefy Handlowej. Odpowiedz mi, zjawo!”",
+                      "belarusian": "«Заклікаю дух Загубленай Гандлёвай Зоны. Адкажы мне, зданнешча!»",
                       "links": []
                     },
                     {
                       "id": 98,
+                      "redacted": false,
                       "title": "You: \"\"I summon the ghost of this Doomed...\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100005700026C74",
-                      "text": "\"I summon the ghost of this Doomed Commercial Area. Now begone, vile succubus!\"",
+                      "english": "\"I summon the ghost of this Doomed Commercial Area. Now begone, vile succubus!\"",
+                      "polish": "„Przyzywam ducha Zgubionej Strefy Handlowej. Precz, podły sukubie!”",
+                      "belarusian": "«Заклікаю дух Загубленай Гандлёвай Зоны. Прэч, падлы дзіўны!»",
                       "links": []
                     },
                     {
                       "id": 87,
+                      "redacted": false,
                       "title": "You: \"\"Hello! Are you there? Speak to me!\"\"",
+                      "actor": "You",
+                      "to": "Central Furnace",
                       "articyId": "0x0100002B0008336B",
-                      "text": "\"Hello! Are you there? Speak to me!\"",
+                      "english": "\"Hello! Are you there? Speak to me!\"",
+                      "polish": "„Halo? Jest tam kto? Proszę mówić!”",
+                      "belarusian": "«Прывітанне? Хто-небудзь ёсць? Калі ласка, гаварыце!»",
                       "links": []
                     }
                   ]
@@ -536,52 +886,92 @@
             },
             {
               "id": 44,
+              "redacted": false,
               "title": "Physical Instrument: \"Another pathetic yelp sounds off in...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x010000060001A457",
-              "text": "Another pathetic yelp sounds off into the vast darkness of the chimney. You're a little embarrassed you produced it.",
+              "english": "Another pathetic yelp sounds off into the vast darkness of the chimney. You're a little embarrassed you produced it.",
+              "polish": "Kolejne żałosne jęknięcie ginie w nieprzeniknionym mroku komina. Trochę ci wstyd, że je z siebie wydałeś.",
+              "belarusian": "Яшчэ адзін жаласны енк знікае ў непранікальнай цемры коміна. Табе трохі сорамна, што ты яго вымавіў.",
               "links": []
             },
             {
               "id": 88,
+              "redacted": false,
               "title": "Physical Instrument: \"You muster all your strength and ye...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100002B0008597E",
-              "text": "You muster all your strength and yell...",
+              "english": "You muster all your strength and yell...",
+              "polish": "Zbierasz wszystkie siły i krzyczysz...",
+              "belarusian": "Збіраеш усе сілы і крычыш...",
               "links": [
                 {
                   "id": 110,
+                  "redacted": false,
                   "title": "You: \"\"He... he... hekkhhhh...\"\"",
+                  "actor": "You",
+                  "to": "Central Furnace",
                   "articyId": "0x010000060001A464",
-                  "text": "\"He... he... hekkhhhh...\"",
+                  "english": "\"He... he... hekkhhhh...\"",
+                  "polish": "„He... He... Heeeek...”",
+                  "belarusian": "«Гы... Гы... Гыык...»",
                   "links": [
                     {
                       "id": 151,
+                      "redacted": false,
                       "title": "Physical Instrument: \"Your dehydrated, hungover throat ca...\"",
+                      "actor": "Physical Instrument",
+                      "to": "You",
                       "articyId": "0x010000060001A45E",
-                      "text": "Your dehydrated, hungover throat can produce little more than a dry croak.",
+                      "english": "Your dehydrated, hungover throat can produce little more than a dry croak.",
+                      "polish": "Twoje wysuszone, skacowane gardło jest w stanie wydobyć z siebie tylko suchy skrzek.",
+                      "belarusian": "Тваё сухое, знясіленае горла здольна выдаць толькі сухі скрыгот.",
                       "links": [
                         {
                           "id": 137,
+                          "redacted": false,
                           "title": "Volition: \"A lifetime of smoking and drinking...\"",
+                          "actor": "Volition",
+                          "to": "You",
                           "articyId": "0x0100007000003EB4",
-                          "text": "A lifetime of smoking and drinking will do that to you.",
+                          "english": "A lifetime of smoking and drinking will do that to you.",
+                          "polish": "Tak się kończą długie lata nieprzerwanego palenia i picia.",
+                          "belarusian": "Вось як заканчваюцца доўгія гады бесперапыннага курэння і пітва.",
                           "links": [
                             {
                               "id": 12,
+                              "redacted": false,
                               "title": "Central Furnace: \"The chatter from the chimney contin...\"",
+                              "actor": "Central Furnace",
+                              "to": "You",
                               "articyId": "0x0100007000003EBC",
-                              "text": "The chatter from the chimney continue on as before. You seem to have made no impression on whatever's *up there*.",
+                              "english": "The chatter from the chimney continue on as before. You seem to have made no impression on whatever's *up there*.",
+                              "polish": "Rozmowy w kominie trwają w najlepsze. Cokolwiek *tam* jest, nie zrobiłeś na tym żadnego wrażenia.",
+                              "belarusian": "Розмовы ў коміне працягваюцца найлепшым чынам. Што б там ні было, ты не зрабіў на гэтым ніякага ўражання.",
                               "links": [
                                 {
                                   "id": 134,
+                                  "redacted": false,
                                   "title": "Central Furnace: \"Then again -- maybe it's worth actu...\"",
+                                  "actor": "Central Furnace",
+                                  "to": "You",
                                   "articyId": "0x0100002F00013505",
-                                  "text": "Then again -- maybe it's worth actually trying something *up there*?",
+                                  "english": "Then again -- maybe it's worth actually trying something *up there*?",
+                                  "polish": "Ale może warto się *tam* wybrać i spróbować coś zrobić?",
+                                  "belarusian": "Але можа варта туды паехаць і паспрабаваць нешта зрабіць?",
                                   "links": [
                                     {
                                       "id": 11,
+                                      "redacted": false,
                                       "title": "Kim Kitsuragi: \"\"Hmm, maybe you should let your voi...\"",
+                                      "actor": "Kim Kitsuragi",
+                                      "to": "You",
                                       "articyId": "0x0100007000003E93",
-                                      "text": "\"Hmm, maybe you should let your voice rest, officer. Try again later.\"",
+                                      "english": "\"Hmm, maybe you should let your voice rest, officer. Try again later.\"",
+                                      "polish": "„Hmm... Może powinieneś dać swojemu głosowi odpocząć, oficerze. Spróbuj jeszcze raz później”.",
+                                      "belarusian": "«Гм... Магчыма, табе варта даць свайму голасу адпачыць, афіцэру. Паспрабуй зноў пазней».",
                                       "links": []
                                     }
                                   ]
@@ -600,39 +990,64 @@
         },
         {
           "id": 105,
+          "redacted": false,
           "title": "You: \"Kick it with your foot.\"",
+          "actor": "You",
+          "to": "Central Furnace",
           "articyId": "0x0100002B00081E79",
-          "text": "Kick it with your foot.",
+          "english": "Kick it with your foot.",
+          "polish": "Kopnij go.",
+          "belarusian": "Піхні яго.",
           "links": [
             {
               "id": 4,
+              "redacted": false,
               "title": "Central Furnace: \"A hollow ring echoes through the fu...\"",
+              "actor": "Central Furnace",
+              "to": "You",
               "articyId": "0x0100002B00081EDF",
-              "text": "A hollow ring echoes through the furnace. Your toe hurts.",
+              "english": "A hollow ring echoes through the furnace. Your toe hurts.",
+              "polish": "Piec rozbrzmiewa głuchym brzęknięciem. Boli cię duży palec u nogi.",
+              "belarusian": "Печ разносіцца глухім звонам. Баліць вялікі палец на назе.",
               "links": []
             }
           ]
         },
         {
           "id": 64,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Central Furnace",
           "articyId": "0x0100002B00081E7F",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Адыдзі].",
           "links": []
         }
       ]
     },
     {
       "id": 129,
+      "redacted": false,
       "title": "Central Furnace: \"A thick layer of coal dust covers t...\"",
+      "actor": "Central Furnace",
+      "to": "You",
       "articyId": "0x0100002B00081E59",
-      "text": "A thick layer of coal dust covers the furnace, colouring it pitch-black.",
+      "english": "A thick layer of coal dust covers the furnace, colouring it pitch-black.",
+      "polish": "Piec zabarwiony jest na czarno pokrywającą go grubą warstwą pyłu węglowego.",
+      "belarusian": "Печ афарбавана ў чорны колер з-за тоўстага пласта вугальнага пылу, які пакрывае яе.",
       "links": [
         {
           "id": 25,
+          "redacted": false,
           "title": "Inland Empire: \"Looks like this furnace has a face...\"",
+          "actor": "Inland Empire",
+          "to": "You",
           "articyId": "0x0100005700003CEE",
-          "text": "Looks like this furnace has a face and it's a face of agony.",
+          "english": "Looks like this furnace has a face and it's a face of agony.",
+          "polish": "Wygląda to, jakby piec miał twarz. Wykrzywioną w koszmarnym cierpieniu.",
+          "belarusian": "Выглядае так, быццам печ мае твар. Скурчаная ў жудасным пакуце.",
           "links": []
         }
       ]

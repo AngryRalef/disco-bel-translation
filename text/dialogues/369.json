@@ -5,51 +5,91 @@
   "dialogueTree": [
     {
       "id": 68,
+      "redacted": false,
       "title": "Fractured Bullet: \"The bullet is still safely sealed a...\"",
+      "actor": "Fractured Bullet",
+      "to": "You",
       "articyId": "0x01000072000080D5",
-      "text": "The bullet is still safely sealed away in a plastic bag bearing the RCM stamp.",
+      "english": "The bullet is still safely sealed away in a plastic bag bearing the RCM stamp.",
+      "polish": "Kula jest wciąż bezpiecznie zamknięta w plastikowej torebce z pieczęcią MOR-u.",
+      "belarusian": "Шар усё яшчэ надзейна зачынены ў пластыкавым пакеце з пячаткай РГМ.",
       "links": [
         {
           "id": 96,
+          "redacted": false,
           "title": "You: \"\"What do I do with you, bullet?\"\"",
+          "actor": "You",
+          "to": "Fractured Bullet",
           "articyId": "0x01000072000080DD",
-          "text": "\"What do I do with you, bullet?\"",
+          "english": "\"What do I do with you, bullet?\"",
+          "polish": "„Co ja mam z tobą zrobić, kulo?”",
+          "belarusian": "«Што мне з табой рабіць, куля?»",
           "links": [
             {
               "id": 139,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"What?\" The lieutenant steps closer...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x01000072000080F0",
-              "text": "\"What?\" The lieutenant steps closer.",
+              "english": "\"What?\" The lieutenant steps closer.",
+              "polish": "„Co?” – porucznik robi krok w twoją stronę",
+              "belarusian": "«Што?» — лейтэнант робіць крок у твой бок.",
               "links": [
                 {
                   "id": 39,
+                  "redacted": false,
                   "title": "You: \"\"I said: What do I do with you, bul...\"",
+                  "actor": "You",
+                  "to": "Fractured Bullet",
                   "articyId": "0x01000072000080F8",
-                  "text": "\"I said: What do I do with you, bullet?\"",
+                  "english": "\"I said: What do I do with you, bullet?\"",
+                  "polish": "„Powiedziałem »Co ja mam z tobą zrobić, kulo?«”.",
+                  "belarusian": "«Я сказаў: „Што мне з табой зрабіць, куля?”».",
                   "links": [
                     {
                       "id": 146,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"Well, if I was the bullet -- which...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x01000072000080FE",
-                      "text": "\"Well, if I was the bullet -- which I'm not -- I would say: find the weapon that shot me.\"",
+                      "english": "\"Well, if I was the bullet -- which I'm not -- I would say: find the weapon that shot me.\"",
+                      "polish": "„No, gdybym ja był tą kulą – a nie jestem – odpowiedziałbym: »znajdź broń, z której mnie wystrzelono«”.",
+                      "belarusian": "«Не, калі б я быў гэтай куляй — а я не ёю — адказаў бы: «знайдзі зброю, з якой мяне выпусцілі»».",
                       "links": [
                         {
                           "id": 147,
+                          "redacted": false,
                           "title": "You: \"\"Good idea.\"\"",
+                          "actor": "You",
+                          "to": "Fractured Bullet",
                           "articyId": "0x0100007200008112",
-                          "text": "\"Good idea.\"",
+                          "english": "\"Good idea.\"",
+                          "polish": "„Dobra myśl”.",
+                          "belarusian": "«Добрая думка».",
                           "links": [
                             {
                               "id": 97,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"If we find who owns it, we will ha...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100007200008120",
-                              "text": "\"If we find who owns it, we will have likely found who *used* it -- possibly to kill our victim.\"",
+                              "english": "\"If we find who owns it, we will have likely found who *used* it -- possibly to kill our victim.\"",
+                              "polish": "„Jeśli znajdziemy jej posiadacza, znajdziemy zapewne jednocześnie osobę, która jej *użyła*. Prawdopodobnie w celu zabicia naszej ofiary”.",
+                              "belarusian": "«Калі мы знойдзем яе ўладальніка, мы напэўна адначасова знойдзем асобу, якая ёй *скарысталася*. Верагодна, з мэтай забіць нашу ахвяру».",
                               "links": [
                                 {
                                   "id": 114,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"In conclusion: the more we know ab...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x010000720000812F",
-                                  "text": "\"In conclusion: the more we know about this bullet of yours, the better.\"",
+                                  "english": "\"In conclusion: the more we know about this bullet of yours, the better.\"",
+                                  "polish": "„Podsumowując: im więcej się dowiemy o tej twojej kuli, tym lepiej”.",
+                                  "belarusian": "„Падводзячы вынікі: чым больш мы даведаемся пра твой шар, тым лепш”.",
                                   "links": []
                                 }
                               ]
@@ -58,9 +98,14 @@
                         },
                         {
                           "id": 59,
+                          "redacted": false,
                           "title": "You: \"\"I don't know...\"\"",
+                          "actor": "You",
+                          "to": "Fractured Bullet",
                           "articyId": "0x0100007200008118",
-                          "text": "\"I don't know...\"",
+                          "english": "\"I don't know...\"",
+                          "polish": "„No nie wiem...”",
+                          "belarusian": "«Ну, я не ведаю...»",
                           "links": []
                         }
                       ]
@@ -71,48 +116,83 @@
             },
             {
               "id": 6,
+              "redacted": false,
               "title": "Fractured Bullet: \"The squished little thing has no id...\"",
+              "actor": "Fractured Bullet",
+              "to": "You",
               "articyId": "0x01000072000080EA",
-              "text": "The squished little thing has no idea.",
+              "english": "The squished little thing has no idea.",
+              "polish": "Zgnieciony kawałek metalu nie ma pojęcia.",
+              "belarusian": "Скамечаны кавалак металу не мае паняцця.",
               "links": [
                 {
                   "id": 89,
+                  "redacted": false,
                   "title": "Visual Calculus: \"I know! You should find the gun tha...\"",
+                  "actor": "Visual Calculus",
+                  "to": "You",
                   "articyId": "0x010000720000813E",
-                  "text": "I know! You should find the gun that shot this bullet.",
+                  "english": "I know! You should find the gun that shot this bullet.",
+                  "polish": "Wiem! Powinieneś znaleźć broń, z której wystrzelono tę kulę.",
+                  "belarusian": "Ведаю! Ты павінен знайсці зброю, з якой была выпушчана гэтая куля.",
                   "links": [
                     {
                       "id": 23,
+                      "redacted": false,
                       "title": "You: \"Eat it!\"",
+                      "actor": "You",
+                      "to": "Fractured Bullet",
                       "articyId": "0x010000720000814B",
-                      "text": "Eat it!",
+                      "english": "Eat it!",
+                      "polish": "Zjeść ją!",
+                      "belarusian": "З'ясці яе!",
                       "links": [
                         {
                           "id": 40,
+                          "redacted": false,
                           "title": "Fractured Bullet: \"But the bullet is not edible, sadly...\"",
+                          "actor": "Fractured Bullet",
+                          "to": "You",
                           "articyId": "0x0100007200008167",
-                          "text": "But the bullet is not edible, sadly.",
+                          "english": "But the bullet is not edible, sadly.",
+                          "polish": "Ale ta kula jest, niestety, niejadalna.",
+                          "belarusian": "Але гэтая шарык, на жаль, неядомая.",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 115,
+                      "redacted": false,
                       "title": "You: \"Find the gun that shot it!\"",
+                      "actor": "You",
+                      "to": "Fractured Bullet",
                       "articyId": "0x0100007200008151",
-                      "text": "Find the gun that shot it!",
+                      "english": "Find the gun that shot it!",
+                      "polish": "Znaleźć broń, z której ją wystrzelono!",
+                      "belarusian": "Знайсці зброю, з якой яе выстралілі!",
                       "links": [
                         {
                           "id": 78,
+                          "redacted": false,
                           "title": "Fractured Bullet: \"That sounds like something a police...\"",
+                          "actor": "Fractured Bullet",
+                          "to": "You",
                           "articyId": "0x01000072000081A6",
-                          "text": "That sounds like something a police detective would do. First you should to learn all you can about this little guy!",
+                          "english": "That sounds like something a police detective would do. First you should to learn all you can about this little guy!",
+                          "polish": "To brzmi jak coś, co mógłby zrobić policyjny detektyw. Najpierw powinieneś dowiedzieć się o tym kawałku ołowiu tak dużo, jak się da!",
+                          "belarusian": "Гэта гучыць, як тое, што мог бы зрабіць паліцэйскі дэтэктыў. Спачатку ты павінен даведацца пра гэты кавалак свінцу як мага больш!",
                           "links": [
                             {
                               "id": 41,
+                              "redacted": false,
                               "title": "Visual Calculus: \"Then find the gun that shot it, and...\"",
+                              "actor": "Visual Calculus",
+                              "to": "You",
                               "articyId": "0x01000072000081B7",
-                              "text": "Then find the gun that shot it, and the person who that gun belongs to -- he used it to kill your victim. Neato!",
+                              "english": "Then find the gun that shot it, and the person who that gun belongs to -- he used it to kill your victim. Neato!",
+                              "polish": "W takim razie znajdź broń, z której ją wystrzelono, i osobę, do której ta broń należy – bo to ona oddała strzał, od którego zginęła ofiara. Idealnie!",
+                              "belarusian": "У такім разе знайдзі зброю, з якой яе выстралілі, і асобу, якой гэтая зброя належыць – бо менавіта яна зрабіла стрэл, ад якога загінула ахвяра. Ідэальна!",
                               "links": []
                             }
                           ]
@@ -121,36 +201,61 @@
                     },
                     {
                       "id": 90,
+                      "redacted": false,
                       "title": "You: \"Sell it for profit!\"",
+                      "actor": "You",
+                      "to": "Fractured Bullet",
                       "articyId": "0x0100007200008157",
-                      "text": "Sell it for profit!",
+                      "english": "Sell it for profit!",
+                      "polish": "Sprzedać ją z zyskiem!",
+                      "belarusian": "Прадаць яе з прыбыткам!",
                       "links": [
                         {
                           "id": 129,
+                          "redacted": false,
                           "title": "Fractured Bullet: \"Who would want this *used* bullet?\"",
+                          "actor": "Fractured Bullet",
+                          "to": "You",
                           "articyId": "0x010000720000816D",
-                          "text": "Who would want this *used* bullet?",
+                          "english": "Who would want this *used* bullet?",
+                          "polish": "Kto miałby chcieć taką *używaną* kulę?",
+                          "belarusian": "Хто б хацеў такую *ўжытую* кулю?",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 29,
+                      "redacted": false,
                       "title": "You: \"It's my friend, I'm gonna start tal...\"",
+                      "actor": "You",
+                      "to": "Fractured Bullet",
                       "articyId": "0x0100007200008174",
-                      "text": "It's my friend, I'm gonna start talking to it. It will keep me company.",
+                      "english": "It's my friend, I'm gonna start talking to it. It will keep me company.",
+                      "polish": "To moja przyjaciółka, zacznę z nią rozmawiać. Będzie mi dotrzymywała towarzystwa.",
+                      "belarusian": "Гэта мая сяброўка, я пачну з ёй размаўляць. Яна будзе мне складаць кампанію.",
                       "links": [
                         {
                           "id": 7,
+                          "redacted": false,
                           "title": "Fractured Bullet: \"But bullets don't talk.\"",
+                          "actor": "Fractured Bullet",
+                          "to": "You",
                           "articyId": "0x010000720000817B",
-                          "text": "But bullets don't talk.",
+                          "english": "But bullets don't talk.",
+                          "polish": "Ale kule nie mówią.",
+                          "belarusian": "Але кулі не кажуць.",
                           "links": [
                             {
                               "id": 8,
+                              "redacted": false,
                               "title": "Horrific Necktie: \"Yeah, what are you, *crazy*? Bullet...\"",
+                              "actor": "Horrific Necktie",
+                              "to": "You",
                               "articyId": "0x0100007200008196",
-                              "text": "Yeah, what are you, *crazy*? Bullets can't talk. They don't have emotions. A bullet can't keep you company.",
+                              "english": "Yeah, what are you, *crazy*? Bullets can't talk. They don't have emotions. A bullet can't keep you company.",
+                              "polish": "Właśnie, co ty, *nienormalny* jesteś? Kule nie gadają. Nie mają uczuć. Kula nie może ci dotrzymywać towarzystwa.",
+                              "belarusian": "Восьма, што ты, *ненармальны*? Шары не размаўляюць. Яны не маюць пачуццяў. Шар не можа табе скласці кампанію.",
                               "links": []
                             }
                           ]
@@ -165,21 +270,36 @@
         },
         {
           "id": 32,
+          "redacted": false,
           "title": "You: \"Feel the bullet through the bag.\"",
+          "actor": "You",
+          "to": "Fractured Bullet",
           "articyId": "0x010000580000258F",
-          "text": "Feel the bullet through the bag.",
+          "english": "Feel the bullet through the bag.",
+          "polish": "Dotknij kuli przez torebkę.",
+          "belarusian": "Дакраніся да шарыка праз пакет.",
           "links": [
             {
               "id": 72,
+              "redacted": false,
               "title": "Fractured Bullet: \"The squashed bullet has some sharp...\"",
+              "actor": "Fractured Bullet",
+              "to": "You",
               "articyId": "0x01000058000025DC",
-              "text": "The squashed bullet has some sharp edges where the jacket has split open. It feels cold, even through the bag.",
+              "english": "The squashed bullet has some sharp edges where the jacket has split open. It feels cold, even through the bag.",
+              "polish": "Zmiażdżona kula ma ostre krawędzie w miejscach, w których doszło do rozdarcia jej płaszcza. Nawet przez torebkę czujesz, że jest zimna.",
+              "belarusian": "Стрыманая куля мае вострыя краі ў месцах, дзе здарыўся разрыў яе абалонкі. Нават праз мяшочак адчуваеш, што яна халодная.",
               "links": [
                 {
                   "id": 117,
+                  "redacted": false,
                   "title": "Encyclopedia: \"You wouldn't ordinarily have cause...\"",
+                  "actor": "Encyclopedia",
+                  "to": "You",
                   "articyId": "0x01000058000026D1",
-                  "text": "You wouldn't ordinarily have cause to handle jacketed bullets. The Citizens Militia uses cast bullets only -- little pebbles of metal loaded from the muzzle, usually in a cartridge.",
+                  "english": "You wouldn't ordinarily have cause to handle jacketed bullets. The Citizens Militia uses cast bullets only -- little pebbles of metal loaded from the muzzle, usually in a cartridge.",
+                  "polish": "Zwykle nie miałbyś powodów do badania płaszczowych pocisków. Milicja Obywatelska używa tylko odlewanych – małych śrucin ładowanych odprzodowo, zwykle zamkniętych w naboju.",
+                  "belarusian": "Звычайна ў вас не было б прычын для вывучэння абалонкавых снарадаў. Народная міліцыя выкарыстоўвае толькі літыя – маленькія шротынкі, зараджаныя з дула, звычайна закрытыя ў набое.",
                   "links": []
                 }
               ]
@@ -188,39 +308,69 @@
         },
         {
           "id": 16,
+          "redacted": false,
           "title": "You: \"\"Kim, take a look at this. It's a j...\"",
+          "actor": "You",
+          "to": "Fractured Bullet",
           "articyId": "0x0100006B0000A426",
-          "text": "\"Kim, take a look at this. It's a jacketed bullet close to 5 mm in diameter.\"",
+          "english": "\"Kim, take a look at this. It's a jacketed bullet close to 5 mm in diameter.\"",
+          "polish": "„Kim, popatrz na to. Nabój płaszczowy, około 5 milimetrów średnicy”.",
+          "belarusian": "«Кім, паглядзі на гэта. Бранявы набой, каля 5 міліметраў у дыяметры».",
           "links": [
             {
               "id": 55,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"A jacketed bullet. Okay... It woul...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100005800007409",
-              "text": "\"A jacketed bullet. Okay... It would have been shot from a military-grade breech-loading rifle, not from a muzzleloader like those typically found on the streets of Martinaise.\"",
+              "english": "\"A jacketed bullet. Okay... It would have been shot from a military-grade breech-loading rifle, not from a muzzleloader like those typically found on the streets of Martinaise.\"",
+              "polish": "„Nabój płaszczowy. No dobrze... A więc strzał oddano z wojskowego karabinu odtylcowego, nie z broni odprzodowej, jaką najczęściej można spotkać na ulicach Martinaise”.",
+              "belarusian": "«Абалонная куля. Ну добра... Значыць, стрэл быў зроблены з вайсковай казназараднай вінтоўкі, а не з дульназараднай зброі, якую часцей можна сустрэць на вуліцах Мартыназа».",
               "links": [
                 {
                   "id": 18,
+                  "redacted": false,
                   "title": "Endurance: \"We were right. This came from a ser...\"",
+                  "actor": "Endurance",
+                  "to": "You",
                   "articyId": "0x010000060001A172",
-                  "text": "We were right. This came from a serious weapon.",
+                  "english": "We were right. This came from a serious weapon.",
+                  "polish": "Mieliśmy rację. Strzał padł z poważnej broni.",
+                  "belarusian": "Мы мелі рацыю. Выстрал быў зроблены з сур'ёзнай зброі.",
                   "links": [
                     {
                       "id": 130,
+                      "redacted": false,
                       "title": "Encyclopedia: \"Highly unusual. The people of Revac...\"",
+                      "actor": "Encyclopedia",
+                      "to": "You",
                       "articyId": "0x010000060001A179",
-                      "text": "Highly unusual. The people of Revachol haven't carried breech-loading weapons like this for nearly half a century.",
+                      "english": "Highly unusual. The people of Revachol haven't carried breech-loading weapons like this for nearly half a century.",
+                      "polish": "Bardzo to nietypowe. Mieszkańcy Revacholu nie mieli do dyspozycji tego typu broni odtylcowej przez niemal pół stulecia.",
+                      "belarusian": "Вельмі гэта нетыпова. Жыхары Рэвачола не мелі ў распараджэнні такога тыпу задназараднай зброі амаль паўстагоддзя.",
                       "links": [
                         {
                           "id": 113,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"Even the RCM uses ordinary unjacke...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x01000058000073BC",
-                          "text": "\"Even the RCM uses ordinary unjacketed conical bullets. This is... strange. Very strange. I like this, officer. Strange means unique. Unique means incriminating. We need to find the gun that shot it.\"",
+                          "english": "\"Even the RCM uses ordinary unjacketed conical bullets. This is... strange. Very strange. I like this, officer. Strange means unique. Unique means incriminating. We need to find the gun that shot it.\"",
+                          "polish": "„Nawet MOR korzysta ze zwykłych, bezpłaszczowych stożkowych pocisków. To... dziwne. Bardzo dziwne. Podoba mi się to, muszę powiedzieć. Dziwne znaczy wyjątkowe. Wyjątkowe znaczy obciążające. Musimy znaleźć broń, z której oddano strzał”.",
+                          "belarusian": "«Нават РГМ карыстаецца звычайнымі, безабалонкавымі конусападобнымі кулямі. Гэта... дзіўна. Вельмі дзіўна. Мне гэта падабаецца, мушу сказаць. Дзіўнае значыць унікальнае. Унікальнае значыць абцяжарваючае. Мы павінны знайсці зброю, з якой быў зроблены стрэл».",
                           "links": [
                             {
                               "id": 30,
+                              "redacted": false,
                               "title": "Inland Empire: \"Something tells you that won't be a...\"",
+                              "actor": "Inland Empire",
+                              "to": "You",
                               "articyId": "0x0100000600009388",
-                              "text": "Something tells you that won't be any time soon. This'll have to be one of those epic tasks that's open for a while...",
+                              "english": "Something tells you that won't be any time soon. This'll have to be one of those epic tasks that's open for a while...",
+                              "polish": "Coś ci mówi, że nie nastąpi to za szybko. To będzie jedno z tych wielkich zadań, które pozostają otwarte przez dłuższy czas...",
+                              "belarusian": "Нешта табе кажа, што гэта не адбудзецца хутка. Гэта будзе адно з тых вялікіх заданняў, якія застаюцца адкрытымі на працяглы час...",
                               "links": []
                             }
                           ]
@@ -235,64 +385,114 @@
         },
         {
           "id": 79,
+          "redacted": false,
           "title": "You: \"Inspect the bullet closer.\"",
+          "actor": "You",
+          "to": "Fractured Bullet",
           "articyId": "0x0100005800002595",
-          "text": "Inspect the bullet closer.",
+          "english": "Inspect the bullet closer.",
+          "polish": "Przyjrzyj się kuli uważniej.",
+          "belarusian": "Уважней азірніся на шар.",
           "links": [
             {
               "id": 73,
+              "redacted": false,
               "title": "Fractured Bullet: \"The jacket of the bullet is made of...\"",
+              "actor": "Fractured Bullet",
+              "to": "You",
               "articyId": "0x0100005800002602",
-              "text": "The jacket of the bullet is made of yellowish metal. It has blossomed out to reveal a dark grey core. The base of the bullet is close to 5 mm in diameter.",
+              "english": "The jacket of the bullet is made of yellowish metal. It has blossomed out to reveal a dark grey core. The base of the bullet is close to 5 mm in diameter.",
+              "polish": "Płaszcz kuli zrobiono z żółtawego metalu. Jest rozerwany – widać jego ciemnoszary rdzeń. Podstawa pocisku ma około 5 milimetrów średnicy.",
+              "belarusian": "Абалонка кулі зроблена з жаўтлявага металу. Яна парваная — бачны яе цёмна-шэры стрыжань. Аснова снараду мае дыяметр каля 5 міліметраў.",
               "links": [
                 {
                   "id": 17,
+                  "redacted": false,
                   "title": "Endurance: \"This is a real killer. Not some gar...\"",
+                  "actor": "Endurance",
+                  "to": "You",
                   "articyId": "0x010000060001A14A",
-                  "text": "This is a real killer. Not some garbage street ammo. You can *feel* it.",
+                  "english": "This is a real killer. Not some garbage street ammo. You can *feel* it.",
+                  "polish": "To prawdziwie mordercze narzędzie. Nie jakaś gówniana uliczna amunicja. *Czujesz* to.",
+                  "belarusian": "Гэта сапраўды смяротная зброя. Не нейкія натоўпныя патроны. *Адчуваеш* гэта.",
                   "links": [
                     {
                       "id": 25,
+                      "redacted": false,
                       "title": "Perception (Sight): \"The core is lead. The brass jacket...\"",
+                      "actor": "Perception (Sight)",
+                      "to": "You",
                       "articyId": "0x01000058000026E6",
-                      "text": "The core is lead. The brass jacket probably didn't cover the entire bullet, otherwise the softer metal wouldn't have expanded quite like that.",
+                      "english": "The core is lead. The brass jacket probably didn't cover the entire bullet, otherwise the softer metal wouldn't have expanded quite like that.",
+                      "polish": "Rdzeń jest ołowiany. Mosiężny płaszcz nie osłaniał pewnie całego pocisku, inaczej miękki metal nie rozszedłby się aż tak mocno.",
+                      "belarusian": "Сярошка свінцовы. Латунная абалонка, напэўна, не накрывала ўсю кулю, інакш мяккі метал не разышоўся б так моцна.",
                       "links": [
                         {
                           "id": 131,
+                          "redacted": false,
                           "title": "You: \"Look at the jacket.\"",
+                          "actor": "You",
+                          "to": "Fractured Bullet",
                           "articyId": "0x010000580000271C",
-                          "text": "Look at the jacket.",
+                          "english": "Look at the jacket.",
+                          "polish": "Spójrz na płaszcz.",
+                          "belarusian": "Паглядзі на паліто.",
                           "links": [
                             {
                               "id": 43,
+                              "redacted": false,
                               "title": "Fractured Bullet: \"You can just about make out a few s...\"",
+                              "actor": "Fractured Bullet",
+                              "to": "You",
                               "articyId": "0x010000580000272A",
-                              "text": "You can just about make out a few striations near the base of the bullet. Little hairlines, linear. It feels standard.",
+                              "english": "You can just about make out a few striations near the base of the bullet. Little hairlines, linear. It feels standard.",
+                              "polish": "U podstawy kuli widzisz kilka niewyraźnych żłobkowań. Cienkich jak włos kresek. Wydają się raczej typowe.",
+                              "belarusian": "У аснове сферы бачыш некалькі расплывістых жолабак. Тонкіх як валасок рысак. Яны здаюцца даволі тыповымі.",
                               "links": [
                                 {
                                   "id": 22,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"What can you say about the bullet...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x0100005800007398",
-                                  "text": "\"What can you say about the bullet so far?\"",
+                                  "english": "\"What can you say about the bullet so far?\"",
+                                  "polish": "„Co możesz mi powiedzieć jak dotąd o tej kuli?”",
+                                  "belarusian": "«Што вы можаце сказаць мне да гэтага часу пра гэтую кулю?»",
                                   "links": [
                                     {
                                       "id": 15,
+                                      "redacted": false,
                                       "title": "You: \"\"It's a jacketed bullet, close to 5...\"",
+                                      "actor": "You",
+                                      "to": "Fractured Bullet",
                                       "articyId": "0x0100005800007400",
-                                      "text": "\"It's a jacketed bullet, close to 5 mm in diameter.\"",
+                                      "english": "\"It's a jacketed bullet, close to 5 mm in diameter.\"",
+                                      "polish": "„Pochodzi z naboju płaszczowego, około 5 milimetrów średnicy”.",
+                                      "belarusian": "«Паходзіць з плащовага патрона, каля 5 міліметраў у дыяметры».",
                                       "links": []
                                     },
                                     {
                                       "id": 2,
+                                      "redacted": false,
                                       "title": "You: \"Wow, I actually *know* this...\"",
+                                      "actor": "You",
+                                      "to": "Fractured Bullet",
                                       "articyId": "0x010000060001A152",
-                                      "text": "Wow, I actually *know* this...",
+                                      "english": "Wow, I actually *know* this...",
+                                      "polish": "O rany, ja to naprawdę *wiem*...",
+                                      "belarusian": "О Божа, я гэта сапраўды *ведаю*...",
                                       "links": [
                                         {
                                           "id": 116,
+                                          "redacted": false,
                                           "title": "Fractured Bullet: \"Yes. It's as if you've seen bullets...\"",
+                                          "actor": "Fractured Bullet",
+                                          "to": "You",
                                           "articyId": "0x010000060001A15A",
-                                          "text": "Yes. It's as if you've seen bullets before, officer.",
+                                          "english": "Yes. It's as if you've seen bullets before, officer.",
+                                          "polish": "Tak. To zupełnie, jakbyś już kiedyś wcześniej widywał kule, panie funkcjonariuszu.",
+                                          "belarusian": "Так. Гэта нібыта вы ўжо некалі раней бачылі тыя кулі, спадар афіцэр.",
                                           "links": []
                                         }
                                       ]
@@ -301,27 +501,47 @@
                                 },
                                 {
                                   "id": 135,
+                                  "redacted": false,
                                   "title": "Interfacing: \"What's interesting about the bullet...\"",
+                                  "actor": "Interfacing",
+                                  "to": "You",
                                   "articyId": "0x0100006B0000A3F2",
-                                  "text": "What's interesting about the bullet thus far?",
+                                  "english": "What's interesting about the bullet thus far?",
+                                  "polish": "Co jak dotąd cię zainteresowało w tej kuli?",
+                                  "belarusian": "Што пакуль цябе зацікавіла ў гэтай сферы?",
                                   "links": [
                                     {
                                       "id": 145,
+                                      "redacted": false,
                                       "title": "You: \"It's a jacketed bullet close to 5 m...\"",
+                                      "actor": "You",
+                                      "to": "Fractured Bullet",
                                       "articyId": "0x0100006B0000A400",
-                                      "text": "It's a jacketed bullet close to 5 mm in diameter.",
+                                      "english": "It's a jacketed bullet close to 5 mm in diameter.",
+                                      "polish": "Pochodzi z naboju płaszczowego, około 5 milimetrów średnicy.",
+                                      "belarusian": "Паходзіць з абалонкавага патрона, каля 5 міліметраў у дыяметры.",
                                       "links": [
                                         {
                                           "id": 5,
+                                          "redacted": false,
                                           "title": "Interfacing: \"A jacketed bullet... which would ha...\"",
+                                          "actor": "Interfacing",
+                                          "to": "You",
                                           "articyId": "0x0100006B0000A41A",
-                                          "text": "A jacketed bullet... which would have been shot from a military-grade breech-loading rifle, not from a muzzleloader like those typically found on the streets of Martinaise.",
+                                          "english": "A jacketed bullet... which would have been shot from a military-grade breech-loading rifle, not from a muzzleloader like those typically found on the streets of Martinaise.",
+                                          "polish": "Nabój płaszczowy. A więc strzał oddano z wojskowego karabinu odtylcowego, nie z broni odprzodowej, jaką najczęściej można spotkać na ulicach Martinaise.",
+                                          "belarusian": "Патрон з абалонкай. Значыць, стрэл быў зроблены з военнага карабіна-затыльніка, а не з наканечной зброі, якую найбольш часта можна сустрэць на вуліцах Марцінайзе.",
                                           "links": [
                                             {
                                               "id": 45,
+                                              "redacted": false,
                                               "title": "Fractured Bullet: \"Very interesting. You have an unusu...\"",
+                                              "actor": "Fractured Bullet",
+                                              "to": "You",
                                               "articyId": "0x01000006000093D3",
-                                              "text": "Very interesting. You have an unusual, military-grade bullet in your hand. Now all you need is to find a gun that could fire it.",
+                                              "english": "Very interesting. You have an unusual, military-grade bullet in your hand. Now all you need is to find a gun that could fire it.",
+                                              "polish": "Bardzo ciekawe. Masz w posiadaniu nietypową kulę typu wojskowego. Teraz musisz znaleźć tylko broń, która mogła ją wystrzelić.",
+                                              "belarusian": "Вельмі цікава. У цябе ёсць незвычайная куля тыпу ваеннай. Цяпер трэба знайсці толькі зброю, якая магла яе выпусціць.",
                                               "links": []
                                             }
                                           ]
@@ -330,24 +550,39 @@
                                     },
                                     {
                                       "id": 101,
+                                      "redacted": false,
                                       "title": "You: \"Wow, I actually *know* this...\"",
+                                      "actor": "You",
+                                      "to": "Fractured Bullet",
                                       "articyId": "0x010000060001A169",
-                                      "text": "Wow, I actually *know* this...",
+                                      "english": "Wow, I actually *know* this...",
+                                      "polish": "O rany, ja to naprawdę *wiem*...",
+                                      "belarusian": "Ого, я сапраўды гэта *ведаю*...",
                                       "links": [
                                         {
                                           "id": 46,
+                                          "redacted": false,
                                           "title": "Fractured Bullet: \"Yes. It's as if you've seen bullets...\"",
+                                          "actor": "Fractured Bullet",
+                                          "to": "You",
                                           "articyId": "0x010000060001A163",
-                                          "text": "Yes. It's as if you've seen bullets before, officer.",
+                                          "english": "Yes. It's as if you've seen bullets before, officer.",
+                                          "polish": "Tak. To zupełnie, jakbyś już kiedyś wcześniej widywał kule, panie funkcjonariuszu.",
+                                          "belarusian": "Так. Гэта цалкам як быццам вы ўжо раней бачылі шары, пане афіцэр.",
                                           "links": []
                                         }
                                       ]
                                     },
                                     {
                                       "id": 4,
+                                      "redacted": false,
                                       "title": "Esprit de Corps: \"Far away, Lieutenant Kitsuragi is f...\"",
+                                      "actor": "Esprit de Corps",
+                                      "to": "You",
                                       "articyId": "0x0100006B0000A3E1",
-                                      "text": "Far away, Lieutenant Kitsuragi is flipping through stations in his Kineema. He is not here examining the bullet with you. He should be... he would find this very intriguing. Mention it to him, later when he's here.",
+                                      "english": "Far away, Lieutenant Kitsuragi is flipping through stations in his Kineema. He is not here examining the bullet with you. He should be... he would find this very intriguing. Mention it to him, later when he's here.",
+                                      "polish": "Daleko stąd porucznik Kitsuragi przełącza w swojej kineemie radiostacje. Nie przygląda się razem z tobą kuli. A powinien – bardzo by go zaintrygowała. Wspomnij mu o niej później, kiedy już tu będzie.",
+                                      "belarusian": "Далёка адсюль лейтэнант Кіцурагі пераключае ў сваёй кінеме радыёстанцыі. Ён не глядзіць разам з табой на кулю. А павінен — яна б вельмі заінтрыгавала яго. Успомні пра яе пазней, калі ён ужо будзе тут.",
                                       "links": []
                                     }
                                   ]
@@ -358,15 +593,25 @@
                         },
                         {
                           "id": 76,
+                          "redacted": false,
                           "title": "You: \"And the core?\"",
+                          "actor": "You",
+                          "to": "Fractured Bullet",
                           "articyId": "0x0100005800002723",
-                          "text": "And the core?",
+                          "english": "And the core?",
+                          "polish": "A rdzeń?",
+                          "belarusian": "А што з ядром?",
                           "links": [
                             {
                               "id": 60,
+                              "redacted": false,
                               "title": "Fractured Bullet: \"It's quite destroyed. Some of the f...\"",
+                              "actor": "Fractured Bullet",
+                              "to": "You",
                               "articyId": "0x010000580000274B",
-                              "text": "It's quite destroyed. Some of the fragments are still lodged in the wound.",
+                              "english": "It's quite destroyed. Some of the fragments are still lodged in the wound.",
+                              "polish": "Jest mocno zniszczony. Niektóre jego części nadal tkwią w ranie.",
+                              "belarusian": "Ён моцна пашкоджаны. Некаторыя яго часткі ўсё яшчэ застаюцца ў ране.",
                               "links": []
                             }
                           ]
@@ -381,77 +626,137 @@
         },
         {
           "id": 80,
+          "redacted": false,
           "title": "You: \"Try to determine what type of weapo...\"",
+          "actor": "You",
+          "to": "Fractured Bullet",
           "articyId": "0x01000058000025B3",
-          "text": "Try to determine what type of weapon shot this.",
+          "english": "Try to determine what type of weapon shot this.",
+          "polish": "Spróbuj określić, z jakiego typu broni ją wystrzelono.",
+          "belarusian": "Паспрабуй вызначыць, з якога тыпу зброі яе выпусцілі.",
           "links": [
             {
               "id": 9,
+              "redacted": false,
               "title": "Hand/Eye Coordination: \"A rifle. Revolutionary-period. Your...\"",
+              "actor": "Hand/Eye Coordination",
+              "to": "You",
               "articyId": "0x0100005800002647",
-              "text": "A rifle. Revolutionary-period. Your bullet looks to be an old 4.46 mm -- from the surplus left over from the turn of the century. Probably an antique or a retrofitted antique.",
+              "english": "A rifle. Revolutionary-period. Your bullet looks to be an old 4.46 mm -- from the surplus left over from the turn of the century. Probably an antique or a retrofitted antique.",
+              "polish": "Karabin. Z okresu rewolucji. Kula wydaje się mieć stary kaliber 4,46 mm i pochodzić z nadmiarowej produkcji przełomu wieków. Broń była prawdopodobnie antykiem lub przerobionym antykiem.",
+              "belarusian": "Карабін. З перыяду рэвалюцыі. Куля, здаецца, мае стары калібр 4,46 мм і паходзіць з лішняй вытворчасці мяжы вякоў. Зброя, верагодна, была антыкварыятам або пераробленым антыкварыятам.",
               "links": [
                 {
                   "id": 70,
+                  "redacted": false,
                   "title": "You: \"Make?\"",
+                  "actor": "You",
+                  "to": "Fractured Bullet",
                   "articyId": "0x0100000600009394",
-                  "text": "Make?",
+                  "english": "Make?",
+                  "polish": "Producent?",
+                  "belarusian": "Вытворца?",
                   "links": [
                     {
                       "id": 33,
+                      "redacted": false,
                       "title": "Hand/Eye Coordination: \"The 4.46 calibre was widely used wi...\"",
+                      "actor": "Hand/Eye Coordination",
+                      "to": "You",
                       "articyId": "0x010000580000265F",
-                      "text": "The 4.46 calibre was widely used with the *Belle-Magrave* rifle, a Revacholian manufacturer. The B-M dominated the battlefields of the Insulindian theatre of the Antecentennial Revolution, 50 years ago.",
+                      "english": "The 4.46 calibre was widely used with the *Belle-Magrave* rifle, a Revacholian manufacturer. The B-M dominated the battlefields of the Insulindian theatre of the Antecentennial Revolution, 50 years ago.",
+                      "polish": "Kaliber 4,46 mm był powszechnie wykorzystywany w karabinach firmy revacholskiego producenta *Belle-Magrave*. Zdominowały one pola bitwy insulindiańskiego teatru działań Rewolucji Świtu Stulecia sprzed 50 lat.",
+                      "belarusian": "Калібр 4,46 мм быў шырока выкарыстаны ў вінтоўках кампаніі ревехольскага вытворцы *Belle-Magrave*. Яны дамінавалі на палях бітваў інсуліндыйскага тэатра дзеянняў Рэвалюцыі Светані Сталецця ад 50 гадоў таму.",
                       "links": [
                         {
                           "id": 51,
+                          "redacted": false,
                           "title": "Hand/Eye Coordination: \"Incidentally, you have just such a...\"",
+                          "actor": "Hand/Eye Coordination",
+                          "to": "You",
                           "articyId": "0x01000058000071A7",
-                          "text": "Incidentally, you have just such a rifle with you. The dusty old thing you found hidden in the basement below the commercial area. It's unusable, sadly. If it were, the bullet would *probably* fit the chamber.",
+                          "english": "Incidentally, you have just such a rifle with you. The dusty old thing you found hidden in the basement below the commercial area. It's unusable, sadly. If it were, the bullet would *probably* fit the chamber.",
+                          "polish": "Tak się składa, że masz dokładnie taką broń przy sobie. Ten zakurzony karabin, który znalazłeś w piwnicy pod strefą handlową. Niestety, nie nadaje się do użytku. W przeciwnym wypadku kula *prawdopodobnie* pasowałaby do komory.",
+                          "belarusian": "Аказваецца, у цябе ёсць менавіта такая зброя пры сабе. Гэты падпылены карабін, які ты знайшоў у склепе пад гандлёвай зонай. На жаль, ён не прыдатны для выкарыстання. У адваротным выпадку куля *магчыма* падышла б да калоны.",
                           "links": []
                         },
                         {
                           "id": 142,
+                          "redacted": false,
                           "title": "You: \"Is anyone still making these rifles...\"",
+                          "actor": "You",
+                          "to": "Fractured Bullet",
                           "articyId": "0x0100005800002665",
-                          "text": "Is anyone still making these rifles?",
+                          "english": "Is anyone still making these rifles?",
+                          "polish": "Czy ktoś jeszcze produkuje te karabiny?",
+                          "belarusian": "Ці хтосьці яшчэ вырабляе гэтыя вінтоўкі?",
                           "links": [
                             {
                               "id": 143,
+                              "redacted": false,
                               "title": "Hand/Eye Coordination: \"No, but Zieleger, a major firearm m...\"",
+                              "actor": "Hand/Eye Coordination",
+                              "to": "You",
                               "articyId": "0x010000580000267D",
-                              "text": "No, but Zieleger, a major firearm manufacturer, ended up with a surplus after the war, so there are still a lot of these old military rifles floating around, usually broken. The quality was appalling.",
+                              "english": "No, but Zieleger, a major firearm manufacturer, ended up with a surplus after the war, so there are still a lot of these old military rifles floating around, usually broken. The quality was appalling.",
+                              "polish": "Nie, ale Zieleger, duży producent broni, przejął po wojnie niewykorzystane egzemplarze, więc krążą one w wielu miejscach do dziś, choć zwykle zepsute. Jakość wykonania była koszmarna.",
+                              "belarusian": "Не, але Zieleger, буйны вытворца зброі, захапіў пасля вайны нявыкарыстаныя ўзоры, таму яны да гэтага часу распаўсюджаны ў многіх месцах, хоць звычайна і сапсаваныя. Якасць выканання была страшэнная.",
                               "links": [
                                 {
                                   "id": 109,
+                                  "redacted": false,
                                   "title": "You: \"Who uses Belle-Magrave rifles these...\"",
+                                  "actor": "You",
+                                  "to": "Fractured Bullet",
                                   "articyId": "0x010000580000266B",
-                                  "text": "Who uses Belle-Magrave rifles these days?",
+                                  "english": "Who uses Belle-Magrave rifles these days?",
+                                  "polish": "Kto dziś używa karabinów Belle-Magrave?",
+                                  "belarusian": "Хто сёння выкарыстоўвае вінтоўкі Belle-Magrave?",
                                   "links": [
                                     {
                                       "id": 19,
+                                      "redacted": false,
                                       "title": "Hand/Eye Coordination: \"Antiques enthusiasts, guerrilla fig...\"",
+                                      "actor": "Hand/Eye Coordination",
+                                      "to": "You",
                                       "articyId": "0x0100005800002677",
-                                      "text": "Antiques enthusiasts, guerrilla fighters in distant countries, a few lucky Jamrock bangers. You're looking for the same thing you found in that hidden weapons cache -- only in working order.",
+                                      "english": "Antiques enthusiasts, guerrilla fighters in distant countries, a few lucky Jamrock bangers. You're looking for the same thing you found in that hidden weapons cache -- only in working order.",
+                                      "polish": "Entuzjaści antyków, partyzanci w odległych krajach, kilku mających szczęście gangsterów z Jamrock. Szukasz tego samego, co znalazłeś w tej tajnej skrytce z bronią, tyle że działającego.",
+                                      "belarusian": "Антыкварныя энтузіясты, партызаны ў аддаленых краінах, некалькі шчаслівых бандытаў з Джамроку. Шукаеш тое самае, што знайшоў у гэтай тайнай схованцы са зброяй, толькі каб працавала.",
                                       "links": [
                                         {
                                           "id": 66,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"Hmm...\" The lieutenant jots someth...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x0100005800002812",
-                                          "text": "\"Hmm...\" The lieutenant jots something down in his notebook. \"What are you thinking? Bullet?\"",
+                                          "english": "\"Hmm...\" The lieutenant jots something down in his notebook. \"What are you thinking? Bullet?\"",
+                                          "polish": "„Hmm...” – porucznik zaznacza coś w notatniku. „Nad czym myślisz? Nad kulą?”",
+                                          "belarusian": "«Гм...» — адзначае лейтэнант нешта ў запісной кніжцы. «Пра што думаеш? Пра кулю?»",
                                           "links": []
                                         },
                                         {
                                           "id": 65,
+                                          "redacted": false,
                                           "title": "Esprit de Corps: \"Back at the station, the lieutenant...\"",
+                                          "actor": "Esprit de Corps",
+                                          "to": "You",
                                           "articyId": "0x0100005800002690",
-                                          "text": "Back at the station, the lieutenant is standing at a counter, diligently filling out paperwork to hand over to a tired records clerk.",
+                                          "english": "Back at the station, the lieutenant is standing at a counter, diligently filling out paperwork to hand over to a tired records clerk.",
+                                          "polish": "Porucznik jest na komisariacie – stoi przy okienku i pieczołowicie wypełnia dokumenty, żeby przekazać je zmęczonemu pracownikowi kartoteki.",
+                                          "belarusian": "Лейтэнант знаходзіцца на пастарунку — стаіць каля акенца і старанна запаўняе дакументы, каб перадаць іх зморанаму супрацоўніку картатэкі.",
                                           "links": [
                                             {
                                               "id": 75,
+                                              "redacted": false,
                                               "title": "Esprit de Corps: \"You should share your findings with...\"",
+                                              "actor": "Esprit de Corps",
+                                              "to": "You",
                                               "articyId": "0x010000580000269C",
-                                              "text": "You should share your findings with him as soon as possible.",
+                                              "english": "You should share your findings with him as soon as possible.",
+                                              "polish": "Powinieneś możliwie najszybciej podzielić się z nim swoimi wnioskami.",
+                                              "belarusian": "Ты павінен як мага хутчэй падзяліцца з ім сваімі высновамі.",
                                               "links": []
                                             }
                                           ]
@@ -460,9 +765,14 @@
                                     },
                                     {
                                       "id": 141,
+                                      "redacted": false,
                                       "title": "Hand/Eye Coordination: \"Antiques enthusiasts, guerrilla fig...\"",
+                                      "actor": "Hand/Eye Coordination",
+                                      "to": "You",
                                       "articyId": "0x01000006000093A5",
-                                      "text": "Antiques enthusiasts, guerrilla fighters in distant countries, a few lucky Jamrock bangers. You're looking for a well-preserved antique, most likely.",
+                                      "english": "Antiques enthusiasts, guerrilla fighters in distant countries, a few lucky Jamrock bangers. You're looking for a well-preserved antique, most likely.",
+                                      "polish": "Entuzjaści antyków, partyzanci w odległych krajach, kilku mających szczęście gangsterów z Jamrock. Szukasz prawdopodobnie dobrze zachowanego antyku.",
+                                      "belarusian": "Аматары антыкварыяту, партызаны ў аддаленых краінах, некалькі шчаслівых бандытаў з Джамрока. Вы, верагодна, шукаеце добра захаваны антыкварыят.",
                                       "links": []
                                     }
                                   ]
@@ -479,127 +789,222 @@
             },
             {
               "id": 74,
+              "redacted": false,
               "title": "Hand/Eye Coordination: \"You can't remember what happened la...\"",
+              "actor": "Hand/Eye Coordination",
+              "to": "You",
               "articyId": "0x010000580000263C",
-              "text": "You can't remember what happened last week -- what makes you think you're going to remember arcane firearm models?",
+              "english": "You can't remember what happened last week -- what makes you think you're going to remember arcane firearm models?",
+              "polish": "Nie pamiętasz nawet, co się działo w zeszłym tygodniu. Skąd pomysł, że przypomnisz sobie coś o nietypowych modelach broni palnej?",
+              "belarusian": "Вы нават не памятаеце, што адбывалася на мінулым тыдні. Адкуль думка, што вы зможаце ўспомніць нешта пра нетыповыя мадэлі агнястрэльнай зброі?",
               "links": []
             }
           ]
         },
         {
           "id": 31,
+          "redacted": false,
           "title": "You: \"\"I think I know where this came fro...\"",
+          "actor": "You",
+          "to": "Fractured Bullet",
           "articyId": "0x01000006000093B0",
-          "text": "\"I think I know where this came from.\" (Dangle the bag thoughtfully.)",
+          "english": "\"I think I know where this came from.\" (Dangle the bag thoughtfully.)",
+          "polish": "„Chyba wiem, z czego ją wystrzelono”. (Pobujaj w zamyśleniu torebką).",
+          "belarusian": "«Мабыць, ведаю, з чаго яе выстралілі». (Пакруці ў задуменні сумачку).",
           "links": [
             {
               "id": 108,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Okay. And?\"\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x01000006000093BE",
-              "text": "\"Okay. And?\"",
+              "english": "\"Okay. And?\"",
+              "polish": "„No dobra. I co?”",
+              "belarusian": "«Ну ладна. І што?»",
               "links": [
                 {
                   "id": 84,
+                  "redacted": false,
                   "title": "You: \"\"The shot probably came from a Bell...\"",
+                  "actor": "You",
+                  "to": "Fractured Bullet",
                   "articyId": "0x01000058000027D7",
-                  "text": "\"The shot probably came from a Belle-Magrave rifle.\"",
+                  "english": "\"The shot probably came from a Belle-Magrave rifle.\"",
+                  "polish": "„Strzał oddano prawdopodobnie z karabinu Belle-Magrave”.",
+                  "belarusian": "«Выстрал быў, верагодна, зроблены з вінтоўкі Белле-Маграве».",
                   "links": [
                     {
                       "id": 144,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"An antique. That makes sense. Ther...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100005800002878",
-                      "text": "\"An antique. That makes sense. There can't be many breech-loading rifles floating around in Martinaise, or anywhere in Revachol, really...\"",
+                      "english": "\"An antique. That makes sense. There can't be many breech-loading rifles floating around in Martinaise, or anywhere in Revachol, really...\"",
+                      "polish": "„Zabytek. To by miało sens. Niewiele może być w Martinaise, a nawet w całym Revacholu, ładowanych odtylcowo karabinów...”",
+                      "belarusian": "«Помнік. Гэта мела б сэнс. Нямнога можа быць у Мартынайзе, а нават і ўвесь Рэвехоль, загрузных з заду вінтовак...»",
                       "links": [
                         {
                           "id": 67,
+                          "redacted": false,
                           "title": "You: \"\"Why not?\"\"",
+                          "actor": "You",
+                          "to": "Fractured Bullet",
                           "articyId": "0x010000580000287F",
-                          "text": "\"Why not?\"",
+                          "english": "\"Why not?\"",
+                          "polish": "„Dlaczego nie?”",
+                          "belarusian": "«Чаму не?»",
                           "links": [
                             {
                               "id": 104,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Sure, there's some arms traffickin...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100005800002893",
-                              "text": "\"Sure, there's some arms trafficking. But the laws prohibiting the use of breechloaders we inherited from the monarchy have been effective, from what I've seen.\"",
+                              "english": "\"Sure, there's some arms trafficking. But the laws prohibiting the use of breechloaders we inherited from the monarchy have been effective, from what I've seen.\"",
+                              "polish": "„Niby istnieje proceder przemytu broni. Ale odziedziczone po monarchii prawa zabraniające korzystania z odtylcówek okazały się, z tego co widziałem, skuteczne”.",
+                              "belarusian": "\"Нібыта існуе працэс кантрабанды зброі. Але перанятыя ад манархіі законы, якія забараняюць карыстацца заднімі зарадзіцелямі, апынуліся, з таго, што я бачыў, эфектыўнымі.\"",
                               "links": [
                                 {
                                   "id": 37,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"Some new RCM recruits get impatien...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x010000580000289A",
-                                  "text": "\"Some new RCM recruits get impatient with their muzzleloaders once they've trained with military-grade weapons, but they realize it's worth it, in the end.\"",
+                                  "english": "\"Some new RCM recruits get impatient with their muzzleloaders once they've trained with military-grade weapons, but they realize it's worth it, in the end.\"",
+                                  "polish": "„Niektórzy nowi rekruci w MOR-ze irytują się nieporęcznością swoich odprzodówek po przejściu szkolenia z bronią wojskową, ale prędzej czy później zdają sobie sprawę, że to jest warte zachodu”.",
+                                  "belarusian": "«Некаторыя новыя рэкруты ў РГМ засмучаюцца нязручнасцю сваіх кноткароў пасля праходжання навучання з ваеннай зброяй, але рана ці позна разумеюць, што гэта таго варта».",
                                   "links": [
                                     {
                                       "id": 24,
+                                      "redacted": false,
                                       "title": "Encyclopedia: \"Prohibiting peacetime law-enforceme...\"",
+                                      "actor": "Encyclopedia",
+                                      "to": "You",
                                       "articyId": "0x01000006000093C8",
-                                      "text": "Prohibiting peacetime law-enforcement to front loaded rifles is a policy enforced by the Moralist International in all the nations of the Reál Belt.",
+                                      "english": "Prohibiting peacetime law-enforcement to front loaded rifles is a policy enforced by the Moralist International in all the nations of the Reál Belt.",
+                                      "polish": "Nakaz korzystania przez służby porządkowe czasu pokoju wyłącznie z broni odprzodowej to prawo narzucone przez Międzynarodówkę Moralistyczną wszystkim krajom strefy reála.",
+                                      "belarusian": "Заказ выкарыстоўваць службе парадку ў мірны час выключна дульнозарадную зброю — гэта права, навязанае Міжнароднай маралістычнай міжнародай усім краінам зоны рэала.",
                                       "links": [
                                         {
                                           "id": 3,
+                                          "redacted": false,
                                           "title": "You: \"\"Worth what? Getting shot?\"\"",
+                                          "actor": "You",
+                                          "to": "Fractured Bullet",
                                           "articyId": "0x01000058000028AA",
-                                          "text": "\"Worth what? Getting shot?\"",
+                                          "english": "\"Worth what? Getting shot?\"",
+                                          "polish": "„Jakiego zachodu? Oberwania kulki?”",
+                                          "belarusian": "«Якой карысці? Атрымаць кулю?»",
                                           "links": [
                                             {
                                               "id": 134,
+                                              "redacted": false,
                                               "title": "Kim Kitsuragi: \"\"Imagine if everyone -- cops, citiz...\"",
+                                              "actor": "Kim Kitsuragi",
+                                              "to": "You",
                                               "articyId": "0x01000058000028A3",
-                                              "text": "\"Imagine if everyone -- cops, citizens -- had access to firearms that could shoot multiple rounds without pausing to reload. After the first shot, the second, third, and so on -- come much easier.\"",
+                                              "english": "\"Imagine if everyone -- cops, citizens -- had access to firearms that could shoot multiple rounds without pausing to reload. After the first shot, the second, third, and so on -- come much easier.\"",
+                                              "polish": "„Wyobraź sobie, co by się działo, gdyby wszyscy – policja, obywatele – mieli dostęp do broni, która może oddać wiele strzałów bez przeładowania. Po pierwszym wciśnięciu spustu drugi, trzeci i każdy kolejny przychodzą o wiele łatwiej”.",
+                                              "belarusian": "«Уявіце сабе, што б адбылося, калі б усе – паліцыя, грамадзяне – мелі доступ да зброі, якая можа рабіць шмат стрэлаў без перазарадкі. Пасля першага націскання на спускавы курок другое, трэцяе і кожнае наступнае націсканне адбываецца значна лягчэй».",
                                               "links": [
                                                 {
                                                   "id": 26,
+                                                  "redacted": false,
                                                   "title": "Kim Kitsuragi: \"\"But back to the investigation.\"\"",
+                                                  "actor": "Kim Kitsuragi",
+                                                  "to": "You",
                                                   "articyId": "0x01000058000028D7",
-                                                  "text": "\"But back to the investigation.\"",
+                                                  "english": "\"But back to the investigation.\"",
+                                                  "polish": "„Ale wróćmy już do śledztwa”.",
+                                                  "belarusian": "«Але вернемся ўжо да расследавання».",
                                                   "links": [
                                                     {
                                                       "id": 94,
+                                                      "redacted": false,
                                                       "title": "You: \"\"Seems we're looking for an antique...\"",
+                                                      "actor": "You",
+                                                      "to": "Fractured Bullet",
                                                       "articyId": "0x01000058000028DF",
-                                                      "text": "\"Seems we're looking for an antiques enthusiast.\"",
+                                                      "english": "\"Seems we're looking for an antiques enthusiast.\"",
+                                                      "polish": "„Zdaje się, że szukamy entuzjasty antyków”.",
+                                                      "belarusian": "«Здаецца, мы шукаем энтузіяста антыкварыяту».",
                                                       "links": [
                                                         {
                                                           "id": 50,
+                                                          "redacted": false,
                                                           "title": "Kim Kitsuragi: \"\"Doesn't seem *that* likely, but we...\"",
+                                                          "actor": "Kim Kitsuragi",
+                                                          "to": "You",
                                                           "articyId": "0x01000058000028FB",
-                                                          "text": "\"Doesn't seem *that* likely, but we'll check out all possible leads. Next step -- finding the gun itself.\"",
+                                                          "english": "\"Doesn't seem *that* likely, but we'll check out all possible leads. Next step -- finding the gun itself.\"",
+                                                          "polish": "„Nie wydaje się to *zbyt* prawdopodobne, ale sprawdzimy wszelkie możliwe tropy. Kolejny krok – znaleźć tę broń”.",
+                                                          "belarusian": "«Здаецца, гэта не *вельмі* верагодна, але мы праверым усе магчымыя зачэпкі. Наступны крок — знайсці гэтую зброю».",
                                                           "links": []
                                                         }
                                                       ]
                                                     },
                                                     {
                                                       "id": 21,
+                                                      "redacted": false,
                                                       "title": "You: \"\"Could the victim have been mixed u...\"",
+                                                      "actor": "You",
+                                                      "to": "Fractured Bullet",
                                                       "articyId": "0x01000058000028E5",
-                                                      "text": "\"Could the victim have been mixed up with some foreign guerrilla fighters?\"",
+                                                      "english": "\"Could the victim have been mixed up with some foreign guerrilla fighters?\"",
+                                                      "polish": "„Czy ofiara mogła mieć jakieś powiązania z zagraniczną partyzantką?”",
+                                                      "belarusian": "«Ці магла ахвяра мець якія-небудзь сувязі з замежнай партызанкай?»",
                                                       "links": [
                                                         {
                                                           "id": 112,
+                                                          "redacted": false,
                                                           "title": "Kim Kitsuragi: \"\"Let's find out. Next step -- findi...\"",
+                                                          "actor": "Kim Kitsuragi",
+                                                          "to": "You",
                                                           "articyId": "0x0100005800002902",
-                                                          "text": "\"Let's find out. Next step -- finding the gun itself.\"",
+                                                          "english": "\"Let's find out. Next step -- finding the gun itself.\"",
+                                                          "polish": "„Dowiedzmy się. Kolejny krok – znaleźć tę broń”.",
+                                                          "belarusian": "«Даведаймася. Наступны крок – знайсці гэтае зброю».",
                                                           "links": []
                                                         }
                                                       ]
                                                     },
                                                     {
                                                       "id": 95,
+                                                      "redacted": false,
                                                       "title": "You: \"\"Have well-armed Jamrock bangers st...\"",
+                                                      "actor": "You",
+                                                      "to": "Fractured Bullet",
                                                       "articyId": "0x01000058000028EB",
-                                                      "text": "\"Have well-armed Jamrock bangers started crossing over into Martinaise?\"",
+                                                      "english": "\"Have well-armed Jamrock bangers started crossing over into Martinaise?\"",
+                                                      "polish": "„Czyżby dobrze uzbrojeni gangsterzy z Jamrock zaczęli zapuszczać się do Martinaise?”",
+                                                      "belarusian": "«Ці не пачалі добра ўзброеныя бандыты з Джамрока залазіць у Мартынаіз?»",
                                                       "links": []
                                                     },
                                                     {
                                                       "id": 44,
+                                                      "redacted": false,
                                                       "title": "You: \"\"Yes. Something *mysterious* is afo...\"",
+                                                      "actor": "You",
+                                                      "to": "Fractured Bullet",
                                                       "articyId": "0x010000780000F4C7",
-                                                      "text": "\"Yes. Something *mysterious* is afoot with this antique bullet type.\"",
+                                                      "english": "\"Yes. Something *mysterious* is afoot with this antique bullet type.\"",
+                                                      "polish": "„Tak, to dość *tajemnicze*, że użyto tak staroświeckiego naboju”.",
+                                                      "belarusian": "«Так, гэта даволі *таямніча*, што выкарыстаны такі старадаўні патрон».",
                                                       "links": [
                                                         {
                                                           "id": 140,
+                                                          "redacted": false,
                                                           "title": "Kim Kitsuragi: \"\"Mysterious?\" He shrugs. \"Okay. Eit...\"",
+                                                          "actor": "Kim Kitsuragi",
+                                                          "to": "You",
                                                           "articyId": "0x010000780000F4CE",
-                                                          "text": "\"Mysterious?\" He shrugs. \"Okay. Either way, we'll know when we find the gun.\"",
+                                                          "english": "\"Mysterious?\" He shrugs. \"Okay. Either way, we'll know when we find the gun.\"",
+                                                          "polish": "„Tajemnicze?” – wzrusza ramionami. „No dobrze. Tak czy inaczej, dowiemy się więcej, jak znajdziemy broń”.",
+                                                          "belarusian": "«Таямнічае?» — паціскае плячыма. «Ну добра. У любым выпадку даведаемся больш, калі знойдзем зброю».",
                                                           "links": []
                                                         }
                                                       ]
@@ -612,16 +1017,26 @@
                                         },
                                         {
                                           "id": 111,
+                                          "redacted": false,
                                           "title": "You: \"\"I think we should have more *power...\"",
+                                          "actor": "You",
+                                          "to": "Fractured Bullet",
                                           "articyId": "0x01000058000028B0",
-                                          "text": "\"I think we should have more *powerful* guns. We're the law!\"",
+                                          "english": "\"I think we should have more *powerful* guns. We're the law!\"",
+                                          "polish": "„A ja myślę, że powinniśmy mieć *potężniejszą* broń. Jesteśmy prawem!”",
+                                          "belarusian": "«А я думаю, што мы павінны мець *мацнейшую* зброю. Мы закон!»",
                                           "links": []
                                         },
                                         {
                                           "id": 14,
+                                          "redacted": false,
                                           "title": "You: \"\"Makes you consider every shot. I l...\"",
+                                          "actor": "You",
+                                          "to": "Fractured Bullet",
                                           "articyId": "0x01000058000028B6",
-                                          "text": "\"Makes you consider every shot. I like it.\"",
+                                          "english": "\"Makes you consider every shot. I like it.\"",
+                                          "polish": "„Musisz przez to przemyśleć każdy strzał. Podoba mi się”.",
+                                          "belarusian": "«Трэба абдумаць кожны стрэл. Мне гэта падабаецца».",
                                           "links": []
                                         }
                                       ]
@@ -634,15 +1049,25 @@
                         },
                         {
                           "id": 119,
+                          "redacted": false,
                           "title": "You: \"\"That's probably a good thing.\"\"",
+                          "actor": "You",
+                          "to": "Fractured Bullet",
                           "articyId": "0x0100005800002885",
-                          "text": "\"That's probably a good thing.\"",
+                          "english": "\"That's probably a good thing.\"",
+                          "polish": "„To chyba dobrze”.",
+                          "belarusian": "«Мабыць, гэта добра».",
                           "links": [
                             {
                               "id": 61,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"He nods. \"I have to hand it to the...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x010000580000288D",
-                              "text": "He nods. \"I have to hand it to the monarchs -- it's quite admirable that they took the advice of criminologists last century and banned the use of breechloaders in peacetime.\"",
+                              "english": "He nods. \"I have to hand it to the monarchs -- it's quite admirable that they took the advice of criminologists last century and banned the use of breechloaders in peacetime.\"",
+                              "polish": "Kiwa głową. „Muszę to przyznać monarchom – godne podziwu, że wysłuchali rad kryminologów ostatniego stulecia i zabronili używania odtylcówek w czasach pokoju”.",
+                              "belarusian": "Ківае галавой. «Павінен прызнаць манархам - годна захаплення, што яны прыслухаліся да парад крымінолагаў апошняга стагоддзя і забаранілі выкарыстанне агнястрэльнай зброі з засаўкай у мірны час».",
                               "links": []
                             }
                           ]
@@ -653,21 +1078,36 @@
                 },
                 {
                   "id": 92,
+                  "redacted": false,
                   "title": "You: \"\"I mean... have some ideas, but I c...\"",
+                  "actor": "You",
+                  "to": "Fractured Bullet",
                   "articyId": "0x010000580000281B",
-                  "text": "\"I mean... have some ideas, but I can't be sure...\"",
+                  "english": "\"I mean... have some ideas, but I can't be sure...\"",
+                  "polish": "„Znaczy, no... Mam parę pomysłów, ale nie jestem pewien...”",
+                  "belarusian": "«Ну, то бок... У мяне ёсць пара ідэй, але я не ўпэўнены...»",
                   "links": [
                     {
                       "id": 127,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"What's your best guess?\"\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100005800002866",
-                      "text": "\"What's your best guess?\"",
+                      "english": "\"What's your best guess?\"",
+                      "polish": "„A jaki jest najbardziej prawdopodobny?”",
+                      "belarusian": "«А які найбольш верагодны?»",
                       "links": [
                         {
                           "id": 133,
+                          "redacted": false,
                           "title": "You: \"\"Belle-Magrave rifle. The ammo poin...\"",
+                          "actor": "You",
+                          "to": "Fractured Bullet",
                           "articyId": "0x010000580000285C",
-                          "text": "\"Belle-Magrave rifle. The ammo points to it.\"",
+                          "english": "\"Belle-Magrave rifle. The ammo points to it.\"",
+                          "polish": "„Karabin Belle-Magrave. Wskazuje na to typ amunicji”.",
+                          "belarusian": "«Карабін Белл-Магрэйв. На гэта паказвае тып боепрыпасаў».",
                           "links": []
                         }
                       ]
@@ -676,15 +1116,25 @@
                 },
                 {
                   "id": 110,
+                  "redacted": false,
                   "title": "You: \"\"Our stiff was killed by a jungle g...\"",
+                  "actor": "You",
+                  "to": "Fractured Bullet",
                   "articyId": "0x0100005800002855",
-                  "text": "\"Our stiff was killed by a jungle gun.\"",
+                  "english": "\"Our stiff was killed by a jungle gun.\"",
+                  "polish": "„Naszego sztywniaka zabiła broń partyzancka”.",
+                  "belarusian": "„Нашага нябожчыка забіла партызанская зброя”.",
                   "links": [
                     {
                       "id": 93,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"You mean some turn-of-the-century...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x010000580000286F",
-                      "text": "\"You mean some turn-of-the-century surplus firearm?\"",
+                      "english": "\"You mean some turn-of-the-century surplus firearm?\"",
+                      "polish": "„Masz na myśli jakąś niskiej jakości broń z przełomu wieków?”",
+                      "belarusian": "«Маеў на ўвазе нейкую нізкагасортную зброю з мяжы стагоддзяў?»",
                       "links": []
                     }
                   ]
@@ -695,24 +1145,39 @@
         },
         {
           "id": 42,
+          "redacted": false,
           "title": "You: \"The bullet has nothing more to say....\"",
+          "actor": "You",
+          "to": "Fractured Bullet",
           "articyId": "0x01000058000025A7",
-          "text": "The bullet has nothing more to say. [Put it away.]",
+          "english": "The bullet has nothing more to say. [Put it away.]",
+          "polish": "Kula nie ma nic więcej do powiedzenia. [Schowaj ją].",
+          "belarusian": "Кула больш нічога не мае сказаць. [Схавай яе].",
           "links": []
         }
       ]
     },
     {
       "id": 71,
+      "redacted": false,
       "title": "Fractured Bullet: \"The bullet is safely sealed away in...\"",
+      "actor": "Fractured Bullet",
+      "to": "You",
       "articyId": "0x010000580000257E",
-      "text": "The bullet is safely sealed away in a plastic bag bearing the RCM stamp. Kim has filled out the label on the bag with the item number, case number, and date and location the bullet was found.",
+      "english": "The bullet is safely sealed away in a plastic bag bearing the RCM stamp. Kim has filled out the label on the bag with the item number, case number, and date and location the bullet was found.",
+      "polish": "Kula jest bezpiecznie zamknięta w plastikowej torebce z pieczęcią MOR-u. Kim uzupełnił etykietę o numer przedmiotu, numer sprawy oraz datę i miejsce znalezienia pocisku.",
+      "belarusian": "Куля надзейна зачынена ў пластыкавай торбе з пячаткай РГМ. Кім дадаў на этыкетку нумар прадмета, нумар справы, а таксама дату і месца знаходжання снарада.",
       "links": [
         {
           "id": 27,
+          "redacted": false,
           "title": "Inland Empire: \"Beside his orderly handwriting, the...\"",
+          "actor": "Inland Empire",
+          "to": "You",
           "articyId": "0x01000072000080BD",
-          "text": "Beside his orderly handwriting, the bullet looks especially sad. Like a tiny, shrivelled head of cauliflower.",
+          "english": "Beside his orderly handwriting, the bullet looks especially sad. Like a tiny, shrivelled head of cauliflower.",
+          "polish": "Na tle jego równego charakteru pisma kula wygląda wyjątkowo żałośnie. Jak maleńka, skurczona główka kalafiora.",
+          "belarusian": "На фоне яго роўнага почырку куля выглядае выключна шкадаванне. Як маленькая, скарчаная галовачка каляфіёру.",
           "links": []
         }
       ]

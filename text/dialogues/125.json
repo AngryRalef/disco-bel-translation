@@ -5,39 +5,69 @@
   "dialogueTree": [
     {
       "id": 9,
+      "redacted": false,
       "title": "Stone: \"A stone like any other, lying in a...\"",
+      "actor": "Stone",
+      "to": null,
       "articyId": "0x0100004000002900",
-      "text": "A stone like any other, lying in a whorl of sleet and mud. Maybe there's something under it?",
+      "english": "A stone like any other, lying in a whorl of sleet and mud. Maybe there's something under it?",
+      "polish": "Kamień jak każdy inny. Leży na kupie śniegu i błota. Może coś pod nim jest?",
+      "belarusian": "Камень, як любы іншы. Ляжыць на кучы снегу і гразі. Ці можа што-небудзь пад ім ёсць?",
       "links": [
         {
           "id": 18,
+          "redacted": false,
           "title": "You: \"Turn it over.\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000400000290C",
-          "text": "Turn it over.",
+          "english": "Turn it over.",
+          "polish": "Przewróć go.",
+          "belarusian": "Перавярні яго.",
           "links": [
             {
               "id": 3,
+              "redacted": false,
               "title": "Stone: \"There's a key beneath it, rusty fro...\"",
+              "actor": "Stone",
+              "to": null,
               "articyId": "0x010000400000291C",
-              "text": "There's a key beneath it, rusty from the dirt.",
+              "english": "There's a key beneath it, rusty from the dirt.",
+              "polish": "Pod spodem leży zardzewiały od błota klucz.",
+              "belarusian": "Пад сподам ляжыць іржавы ад бруду ключ.",
               "links": [
                 {
                   "id": 8,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"This must be for the front door. P...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": null,
                   "articyId": "0x010000570000F148",
-                  "text": "\"This must be for the front door. Pity it doesn't have the apartment number on it. This building has many apartments and the man can be in any of them...\"",
+                  "english": "\"This must be for the front door. Pity it doesn't have the apartment number on it. This building has many apartments and the man can be in any of them...\"",
+                  "polish": "„To musi być klucz do drzwi wejściowych. Szkoda, że nie ma na nim numeru mieszkania. W tym budynku jest wiele apartamentów, a ten mężczyzna może mieszkać w każdym z nich...”",
+                  "belarusian": "«Гэта павінны быць ключы ад уваходных дзвярэй. Шкада, што на ім няма нумара кватэры. У гэтым будынку шмат кватэр, і гэты мужчына можа жыць у любой з іх...»",
                   "links": [
                     {
                       "id": 14,
+                      "redacted": false,
                       "title": "You: \"\"How are we going to find the right...\"",
+                      "actor": "You",
+                      "to": null,
                       "articyId": "0x010000570001638C",
-                      "text": "\"How are we going to find the right one?\"",
+                      "english": "\"How are we going to find the right one?\"",
+                      "polish": "„Jak znajdziemy właściwy?”",
+                      "belarusian": "„Як мы знойдзем правільны?”",
                       "links": [
                         {
                           "id": 4,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"We'll just have to go in and see.\"\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": null,
                           "articyId": "0x010000570001677B",
-                          "text": "\"We'll just have to go in and see.\"",
+                          "english": "\"We'll just have to go in and see.\"",
+                          "polish": "„Będziemy musieli wejść do środka i się przekonać”.",
+                          "belarusian": "«Мы павінны будзем увайсці ўнутр і пераканацца».",
                           "links": []
                         }
                       ]
@@ -46,22 +76,37 @@
                 },
                 {
                   "id": 15,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"This must be for the front door. L...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": null,
                   "articyId": "0x0100005700016771",
-                  "text": "\"This must be for the front door. Let's see if it works.\"",
+                  "english": "\"This must be for the front door. Let's see if it works.\"",
+                  "polish": "„To musi być klucz do drzwi wejściowych. Sprawdźmy, czy zadziała”.",
+                  "belarusian": "«Гэта павінен быць ключ ад ўваходных дзвярэй. Праверым, ці спрацуе».",
                   "links": []
                 },
                 {
                   "id": 17,
+                  "redacted": false,
                   "title": "Logic: \"Looks like it could belong to the b...\"",
+                  "actor": "Logic",
+                  "to": null,
                   "articyId": "0x010000570000F14D",
-                  "text": "Looks like it could belong to the building's front door.",
+                  "english": "Looks like it could belong to the building's front door.",
+                  "polish": "Zdaje się, że może otwierać drzwi wejściowe budynku.",
+                  "belarusian": "Здаецца, што ён можа адкрываць уваходныя дзверы будынка.",
                   "links": [
                     {
                       "id": 13,
+                      "redacted": false,
                       "title": "You: \"Put the stone back. [Leave.]\"",
+                      "actor": "You",
+                      "to": null,
                       "articyId": "0x0100004000002953",
-                      "text": "Put the stone back. [Leave.]",
+                      "english": "Put the stone back. [Leave.]",
+                      "polish": "Odłóż kamień na miejsce. [Odejdź].",
+                      "belarusian": "Адкладзі камень на месца. [Адыдзі].",
                       "links": []
                     }
                   ]
@@ -72,9 +117,14 @@
         },
         {
           "id": 2,
+          "redacted": false,
           "title": "You: \"Ignore it. [Leave.]\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x0100004000002912",
-          "text": "Ignore it. [Leave.]",
+          "english": "Ignore it. [Leave.]",
+          "polish": "Zignoruj go. [Odejdź].",
+          "belarusian": "Ігнаруй яго. [Адыдзі].",
           "links": []
         }
       ]

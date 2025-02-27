@@ -5,34 +5,59 @@
   "dialogueTree": [
     {
       "id": 100,
+      "redacted": false,
       "title": "Cargo Container Door: \"The door seems to be locked. Conclu...\"",
+      "actor": "Cargo Container Door",
+      "to": "You",
       "articyId": "0x0100006A00003697",
-      "text": "The door seems to be locked. Conclusively.",
+      "english": "The door seems to be locked. Conclusively.",
+      "polish": "Drzwi wyglądają na zamknięte. Bez dwóch zdań.",
+      "belarusian": "Дзверы выглядаюць зачыненымі. Без двух меркаванняў.",
       "links": []
     },
     {
       "id": 115,
+      "redacted": false,
       "title": "Cargo Container Door: \"You're back before the cargo contai...\"",
+      "actor": "Cargo Container Door",
+      "to": "You",
       "articyId": "0x0100007B00001E81",
-      "text": "You're back before the cargo container. Its draw has not lessened since you were last here. If anything, it seems to have grown slightly.",
+      "english": "You're back before the cargo container. Its draw has not lessened since you were last here. If anything, it seems to have grown slightly.",
+      "polish": "Wróciłeś przed kontener transportowy. Jego powab nie zmniejszył się ani o jotę, od kiedy byłeś tu ostatni raz. Co więcej, chyba nawet nieco się zwiększył.",
+      "belarusian": "Вы вярнуліся перад транспартным кантэйнерам. Яго прывабнасць не паменшылася ані на кроплю з таго часу, як вы былі тут апошні раз. Больш за тое, здаецца, яна нават крыху павялічылася.",
       "links": [
         {
           "id": 30,
+          "redacted": false,
           "title": "You: \"Knock on the door.\"",
+          "actor": "You",
+          "to": "Cargo Container Door",
           "articyId": "0x0100006A0000362A",
-          "text": "Knock on the door.",
+          "english": "Knock on the door.",
+          "polish": "Zapukaj do drzwi.",
+          "belarusian": "Пастукай у дзверы.",
           "links": [
             {
               "id": 33,
+              "redacted": false,
               "title": "Cargo Container Door: \"No reply.\"",
+              "actor": "Cargo Container Door",
+              "to": "You",
               "articyId": "0x0100006A00003631",
-              "text": "No reply.",
+              "english": "No reply.",
+              "polish": "Żadnej odpowiedzi.",
+              "belarusian": "Ніякага адказу.",
               "links": [
                 {
                   "id": 34,
+                  "redacted": false,
                   "title": "Perception (Hearing): \"The knock produces a hollow ring of...\"",
+                  "actor": "Perception (Hearing)",
+                  "to": "You",
                   "articyId": "0x0100006A00003638",
-                  "text": "The knock produces a hollow ring of metal. Doesn't sound like there's anything inside the container.",
+                  "english": "The knock produces a hollow ring of metal. Doesn't sound like there's anything inside the container.",
+                  "polish": "Kiedy pukasz, metal brzęczy głucho. Nie wydaje się, żeby w kontenerze coś było.",
+                  "belarusian": "Калі стукаеш, метал глуха звініць. Не здаецца, каб у кантэйнеры нешта было.",
                   "links": []
                 }
               ]
@@ -41,21 +66,36 @@
         },
         {
           "id": 25,
+          "redacted": false,
           "title": "You: \"Open the door.\"",
+          "actor": "You",
+          "to": "Cargo Container Door",
           "articyId": "0x0100005900009782",
-          "text": "Open the door.",
+          "english": "Open the door.",
+          "polish": "Otwórz drzwi.",
+          "belarusian": "Адкрый дзверы.",
           "links": [
             {
               "id": 138,
+              "redacted": false,
               "title": "Cargo Container Door: \"You attempt to turn the handle, to...\"",
+              "actor": "Cargo Container Door",
+              "to": "You",
               "articyId": "0x0100005900009791",
-              "text": "You attempt to turn the handle, to no avail. The doors seem to be mechanically locked.",
+              "english": "You attempt to turn the handle, to no avail. The doors seem to be mechanically locked.",
+              "polish": "Bezskutecznie próbujesz obrócić klamkę. Drzwi wydają się być mechanicznie zamknięte.",
+              "belarusian": "Бязвынікова спрабуеш павярнуць ручку. Дзверы здаюцца механічна зачыненымі.",
               "links": [
                 {
                   "id": 45,
+                  "redacted": false,
                   "title": "Esprit de Corps: \"To your left, the lieutenant consid...\"",
+                  "actor": "Esprit de Corps",
+                  "to": "You",
                   "articyId": "0x0100000600018631",
-                  "text": "To your left, the lieutenant considers your actions -- with some puzzlement.",
+                  "english": "To your left, the lieutenant considers your actions -- with some puzzlement.",
+                  "polish": "Stojący po twojej lewej porucznik przygląda się twoim wyczynom z niejakim zdumieniem.",
+                  "belarusian": "Лейтэнант, які стаіць злева ад цябе, з некаторым здзіўленнем назірае за тваімі подзвігамі.",
                   "links": []
                 }
               ]
@@ -64,63 +104,113 @@
         },
         {
           "id": 71,
+          "redacted": false,
           "title": "You: \"Persuade the door to open.\"",
+          "actor": "You",
+          "to": "Cargo Container Door",
           "articyId": "0x01000059000097C7",
-          "text": "Persuade the door to open.",
+          "english": "Persuade the door to open.",
+          "polish": "Przekonaj drzwi, żeby się otworzyły.",
+          "belarusian": "Убядзі дзверы, каб яны адчыніліся.",
           "links": [
             {
               "id": 39,
+              "redacted": false,
               "title": "Savoir Faire: \"Step aside, rank and file, Savvy's...\"",
+              "actor": "Savoir Faire",
+              "to": "You",
               "articyId": "0x0100000F00012139",
-              "text": "Step aside, rank and file, Savvy's at the top of the VIP list here. That's right -- out of the way!",
+              "english": "Step aside, rank and file, Savvy's at the top of the VIP list here. That's right -- out of the way!",
+              "polish": "Z drogi, tłuszczo, Szmaloir jest na samym szczycie listy VIP-ów. Właśnie tak. Won z drogi!",
+              "belarusian": "З дарогі, тлушчу, Шмалоір знаходзіцца на самым версе спісу VIP. Вось так. Прэч з дарогі!",
               "links": [
                 {
                   "id": 11,
+                  "redacted": false,
                   "title": "Rhetoric: \"Whoa! Watch it!\"",
+                  "actor": "Rhetoric",
+                  "to": "You",
                   "articyId": "0x0100000F00016858",
-                  "text": "Whoa! Watch it!",
+                  "english": "Whoa! Watch it!",
+                  "polish": "Ejże! Uważaj!",
+                  "belarusian": "Гэй! Асцярожна!",
                   "links": [
                     {
                       "id": 60,
+                      "redacted": false,
                       "title": "Physical Instrument: \"How'd he get in front? Little slime...\"",
+                      "actor": "Physical Instrument",
+                      "to": "You",
                       "articyId": "0x0100000F0001685E",
-                      "text": "How'd he get in front? Little slimeball...",
+                      "english": "How'd he get in front? Little slimeball...",
+                      "polish": "A ten jak się przepchnął na przód? Mały, oślizgły...",
+                      "belarusian": "А гэты як прасунуўся наперад? Маленькі, слізкі...",
                       "links": [
                         {
                           "id": 129,
+                          "redacted": false,
                           "title": "Savoir Faire: \"Thank you, thank you. Now, are you...\"",
+                          "actor": "Savoir Faire",
+                          "to": "You",
                           "articyId": "0x0100000F00016788",
-                          "text": "Thank you, thank you. Now, are you ready? It's time to *make our entrance*.",
+                          "english": "Thank you, thank you. Now, are you ready? It's time to *make our entrance*.",
+                          "polish": "Dziękuję, dziękuję. To co, gotowy? Czas *wkroczyć do środka*.",
+                          "belarusian": "Дзякуй, дзякуй. Ну што ж, гатовы? Час *уступіць унутр*.",
                           "links": [
                             {
                               "id": 31,
+                              "redacted": false,
                               "title": "You: \"\"Khm-khm...\" (Clear your throat, kn...\"",
+                              "actor": "You",
+                              "to": "Cargo Container Door",
                               "articyId": "0x0100000F0001213F",
-                              "text": "\"Khm-khm...\" (Clear your throat, knock on the door.) \"Hi, it's Savvy here, Savvy with two v's, I'm on the list. The guest list.\"",
+                              "english": "\"Khm-khm...\" (Clear your throat, knock on the door.) \"Hi, it's Savvy here, Savvy with two v's, I'm on the list. The guest list.\"",
+                              "polish": "„Khm, khm...” (Odchrząknij i zapukaj w kontener). „Dzień dobry, tu Szmaloir, czytane »szmalła«. Jestem na liście. Liście gości”.",
+                              "belarusian": "«Кхм, кхм...» (Адкашляйцеся і пастукайце па кантэйнеры). «Добры дзень, тут Шмалоір, чытаецца \"шмальла\". Я ў спісе. Спісе гасцей».",
                               "links": [
                                 {
                                   "id": 81,
+                                  "redacted": false,
                                   "title": "Cargo Container Door: \"At first your knock rings hollow on...\"",
+                                  "actor": "Cargo Container Door",
+                                  "to": "You",
                                   "articyId": "0x010000580001FB38",
-                                  "text": "At first your knock rings hollow on the door -- and then...",
+                                  "english": "At first your knock rings hollow on the door -- and then...",
+                                  "polish": "Z początku twoje postukiwanie w drzwi rozbrzmiewa tylko głucho. A potem...",
+                                  "belarusian": "Спачатку тваё стуканне ў дзверы гучыць толькі глуха. А потым...",
                                   "links": [
                                     {
                                       "id": 57,
+                                      "redacted": false,
                                       "title": "Cargo Container Door: \"Just like that, you hear a click. T...\"",
+                                      "actor": "Cargo Container Door",
+                                      "to": "You",
                                       "articyId": "0x0100006A0000367C",
-                                      "text": "Just like that, you hear a click. Then a rattle. Some mechanism unlocks itself inside the door.",
+                                      "english": "Just like that, you hear a click. Then a rattle. Some mechanism unlocks itself inside the door.",
+                                      "polish": "Ot tak – słyszysz kliknięcie, a później grzechot. Jakiś mechanizm odblokowuje się w drzwiach.",
+                                      "belarusian": "Вось так – чуваць клёканне, а потым грукат. Нейкі механізм разблакуецца ў дзвярах.",
                                       "links": [
                                         {
                                           "id": 61,
+                                          "redacted": false,
                                           "title": "Mega Rich Light-Bending Guy: \"From deep within the container, a v...\"",
+                                          "actor": "Mega Rich Light-Bending Guy",
+                                          "to": "You",
                                           "articyId": "0x010000590000999E",
-                                          "text": "From deep within the container, a voice: \"Ahoy! Come on in!\"",
+                                          "english": "From deep within the container, a voice: \"Ahoy! Come on in!\"",
+                                          "polish": "Z głębi kontenera dobiega głos: „Ahoj! Zapraszam!”",
+                                          "belarusian": "\"З глыбіні кантэйнера чуецца голас: «Ахой! Запрашаю!»\"",
                                           "links": [
                                             {
                                               "id": 43,
+                                              "redacted": false,
                                               "title": "Kim Kitsuragi: \"The smile disappears. \"You can't be...\"",
+                                              "actor": "Kim Kitsuragi",
+                                              "to": "You",
                                               "articyId": "0x010000700000393A",
-                                              "text": "The smile disappears. \"You can't be serious.\"",
+                                              "english": "The smile disappears. \"You can't be serious.\"",
+                                              "polish": "Uśmiech znika. „To chyba jakiś żart”.",
+                                              "belarusian": "Усмешка знікае. «Гэта, напэўна, нейкі жарт».",
                                               "links": []
                                             }
                                           ]
@@ -141,40 +231,70 @@
             },
             {
               "id": 40,
+              "redacted": false,
               "title": "Rhetoric: \"Despite the dirt that surrounds and...\"",
+              "actor": "Rhetoric",
+              "to": "You",
               "articyId": "0x0100005900009976",
-              "text": "Despite the dirt that surrounds and trails you, a beacon of light emerges from deep within you.",
+              "english": "Despite the dirt that surrounds and trails you, a beacon of light emerges from deep within you.",
+              "polish": "Mimo brudu, jaki cię otacza i za tobą podąża, z twojego wnętrza wytryska struga światła.",
+              "belarusian": "Нягледзячы на бруд, які цябе акружае і за табой ішоў, з твайго нутра вырываецца струмень святла.",
               "links": [
                 {
                   "id": 118,
+                  "redacted": false,
                   "title": "You: \"\"Hello, is there anybody in there?\"\"",
+                  "actor": "You",
+                  "to": "Cargo Container Door",
                   "articyId": "0x010000590000997D",
-                  "text": "\"Hello, is there anybody in there?\"",
+                  "english": "\"Hello, is there anybody in there?\"",
+                  "polish": "„Halo? Jest ktoś w środku?”",
+                  "belarusian": "«Прывітанне? Хтосьці ёсць унутры?»",
                   "links": [
                     {
                       "id": 84,
+                      "redacted": false,
                       "title": "Cargo Container Door: \"The door stands silent.\"",
+                      "actor": "Cargo Container Door",
+                      "to": "You",
                       "articyId": "0x0100006A00003613",
-                      "text": "The door stands silent.",
+                      "english": "The door stands silent.",
+                      "polish": "Drzwi milczą.",
+                      "belarusian": "Дзверы маўчаць.",
                       "links": [
                         {
                           "id": 134,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"Satisfied, detective?\" A wry smile...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x010000700000392B",
-                          "text": "\"Satisfied, detective?\" A wry smile crosses the lieutenant's face.",
+                          "english": "\"Satisfied, detective?\" A wry smile crosses the lieutenant's face.",
+                          "polish": "„Zadowolony, detektywie?” – na twarzy porucznika pojawia się krzywy uśmiech.",
+                          "belarusian": "«Задаволены, дэтэктыве?» — на твары лейтэнанта з'яўляецца крывая ўсмешка.",
                           "links": []
                         },
                         {
                           "id": 17,
+                          "redacted": false,
                           "title": "Rhetoric: \"Try again.\"",
+                          "actor": "Rhetoric",
+                          "to": "You",
                           "articyId": "0x010000700000391F",
-                          "text": "Try again.",
+                          "english": "Try again.",
+                          "polish": "Spróbuj jeszcze raz.",
+                          "belarusian": "Паспрабуй яшчэ раз.",
                           "links": [
                             {
                               "id": 110,
+                              "redacted": false,
                               "title": "You: \"\"If there's someone in there, I'd l...\"",
+                              "actor": "You",
+                              "to": "Cargo Container Door",
                               "articyId": "0x0100005900009996",
-                              "text": "\"If there's someone in there, I'd like to talk to you.\"",
+                              "english": "\"If there's someone in there, I'd like to talk to you.\"",
+                              "polish": "„Jeśli ktoś jest w środku, to chciałbym porozmawiać”.",
+                              "belarusian": "«Калі хто-небудзь у сярэдзіне, я хацеў бы пагаварыць».",
                               "links": []
                             }
                           ]
@@ -187,70 +307,120 @@
             },
             {
               "id": 143,
+              "redacted": false,
               "title": "Rhetoric: \"Aaaaand as it's always been -- it's...\"",
+              "actor": "Rhetoric",
+              "to": "You",
               "articyId": "0x010000820001FA8A",
-              "text": "Aaaaand as it's always been -- it's impossible to open a container with rhetoric. Maybe you're losing your mind?",
+              "english": "Aaaaand as it's always been -- it's impossible to open a container with rhetoric. Maybe you're losing your mind?",
+              "polish": "Iiiii jak to zawsze bywało, nie da się otworzyć kontenera retoryką. Czyżbyś tracił rozum?",
+              "belarusian": "І як заўсёды бывала, нельга адкрыць кантэйнер рыторыкай. Няўжо ты губляеш розум?",
               "links": [
                 {
                   "id": 117,
+                  "redacted": false,
                   "title": "Savoir Faire: \"Seems like it. You're still hanging...\"",
+                  "actor": "Savoir Faire",
+                  "to": "You",
                   "articyId": "0x0100000F00016897",
-                  "text": "Seems like it. You're still hanging with this fool? Something isn't right...",
+                  "english": "Seems like it. You're still hanging with this fool? Something isn't right...",
+                  "polish": "Na to wygląda. Wciąż się zadajesz z tym wcieleniem głupoty? Coś jest nie tak...",
+                  "belarusian": "Так выглядае. Ты ўсё яшчэ маеш справы з гэтым увасабленнем дурноты? Нешта не так...",
                   "links": []
                 }
               ]
             },
             {
               "id": 4,
+              "redacted": false,
               "title": "Rhetoric: \"Why are you even trying to open a d...\"",
+              "actor": "Rhetoric",
+              "to": "You",
               "articyId": "0x0100005900009945",
-              "text": "Why are you even trying to open a door with rhetoric?",
+              "english": "Why are you even trying to open a door with rhetoric?",
+              "polish": "Dlaczego w ogóle próbujesz otworzyć drzwi za pomocą retoryki?",
+              "belarusian": "Чаму ўвогуле спрабуеш адчыніць дзверы з дапамогай рыторыкі?",
               "links": [
                 {
                   "id": 56,
+                  "redacted": false,
                   "title": "Savoir Faire: \"That's a very good question conside...\"",
+                  "actor": "Savoir Faire",
+                  "to": "You",
                   "articyId": "0x0100000F0001688D",
-                  "text": "That's a very good question considering you have Savvy around -- the ultimate VIP.",
+                  "english": "That's a very good question considering you have Savvy around -- the ultimate VIP.",
+                  "polish": "To bardzo dobre pytanie, biorąc pod uwagę, że jest z tobą Szmaloir. VIP nad VIP-y.",
+                  "belarusian": "Гэта вельмі добрае пытанне, улічваючы, што з табой Шмалойр. VIP над VIP-амі.",
                   "links": []
                 },
                 {
                   "id": 94,
+                  "redacted": false,
                   "title": "You: \"\"Because getting physical wasn't an...\"",
+                  "actor": "You",
+                  "to": "Cargo Container Door",
                   "articyId": "0x01000070000038DA",
-                  "text": "\"Because getting physical wasn't an option!\"",
+                  "english": "\"Because getting physical wasn't an option!\"",
+                  "polish": "„Bo użycie siły fizycznej nie było opcją!”",
+                  "belarusian": "«Бо выкарыстанне фізічнай сілы не было варыянтам!»",
                   "links": [
                     {
                       "id": 125,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"Because what wasn't an option?\" Th...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x01000070000038F5",
-                      "text": "\"Because what wasn't an option?\" The lieutenant looks startled.",
+                      "english": "\"Because what wasn't an option?\" The lieutenant looks startled.",
+                      "polish": "„Bo co nie było opcją?” – porucznik sprawia wrażenie zaalarmowanego.",
+                      "belarusian": "«Бо што не было варыянтам?» — лейтэнант выглядае занепакоеным.",
                       "links": [
                         {
                           "id": 5,
+                          "redacted": false,
                           "title": "You: \"\"Using my body over my wits.\"\"",
+                          "actor": "You",
+                          "to": "Cargo Container Door",
                           "articyId": "0x0100007000003911",
-                          "text": "\"Using my body over my wits.\"",
+                          "english": "\"Using my body over my wits.\"",
+                          "polish": "„Użycie mojego ciała zamiast uroku”.",
+                          "belarusian": "„Выкарыстанне майго цела замест абаяння”.",
                           "links": [
                             {
                               "id": 29,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Now is not the time to get philoso...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x01000070000038D2",
-                              "text": "\"Now is not the time to get philosophical, detective. You can do that after hours.\"",
+                              "english": "\"Now is not the time to get philosophical, detective. You can do that after hours.\"",
+                              "polish": "„To nie jest pora na filozofowanie, detektywie. Możesz zajmować się tym po godzinach”.",
+                              "belarusian": "«Гэта не час займацца філасофіяй, дэтэктыў. Можаш гэтым займацца пасля працы».",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 41,
+                          "redacted": false,
                           "title": "You: \"\"Never mind.\"\"",
+                          "actor": "You",
+                          "to": "Cargo Container Door",
                           "articyId": "0x0100006A0000360C",
-                          "text": "\"Never mind.\"",
+                          "english": "\"Never mind.\"",
+                          "polish": "„Nieważne”.",
+                          "belarusian": "«Неважна».",
                           "links": [
                             {
                               "id": 63,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"The lieutenant nods. \"Are you satis...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x01000070000038CA",
-                              "text": "The lieutenant nods. \"Are you satisfied, detective?\"",
+                              "english": "The lieutenant nods. \"Are you satisfied, detective?\"",
+                              "polish": "Porucznik kiwa głową. „Zadowolony, detektywie?”",
+                              "belarusian": "Лейтэнант ківае галавой. „Задаволены, дэтэктыве?”",
                               "links": []
                             }
                           ]
@@ -259,22 +429,37 @@
                     },
                     {
                       "id": 121,
+                      "redacted": false,
                       "title": "Physical Instrument: \"Have I been summoned?\"",
+                      "actor": "Physical Instrument",
+                      "to": "You",
                       "articyId": "0x01000070000038E1",
-                      "text": "Have I been summoned?",
+                      "english": "Have I been summoned?",
+                      "polish": "Ktoś mnie wzywał?",
+                      "belarusian": "Хтось мяне клікаў?",
                       "links": [
                         {
                           "id": 16,
+                          "redacted": false,
                           "title": "Rhetoric: \"No one needs you. Go away.\"",
+                          "actor": "Rhetoric",
+                          "to": "You",
                           "articyId": "0x01000070000038E8",
-                          "text": "No one needs you. Go away.",
+                          "english": "No one needs you. Go away.",
+                          "polish": "Nikt cię nie potrzebuje. Idź stąd.",
+                          "belarusian": "Ніхто цябе не патрабуе. Ідзі адсюль.",
                           "links": []
                         },
                         {
                           "id": 126,
+                          "redacted": false,
                           "title": "Rhetoric: \"You've got to dance with the one th...\"",
+                          "actor": "Rhetoric",
+                          "to": "You",
                           "articyId": "0x0100007000003909",
-                          "text": "You've got to dance with the one that brought you, detective.",
+                          "english": "You've got to dance with the one that brought you, detective.",
+                          "polish": "Musisz puścić się w tan z tym, co cię tu sprowadziło, detektywie.",
+                          "belarusian": "Ты павінен аддацца танцу з тым, што цябе сюды прывяло, дэтэктыў.",
                           "links": []
                         }
                       ]
@@ -283,30 +468,50 @@
                 },
                 {
                   "id": 32,
+                  "redacted": false,
                   "title": "You: \"\"Yeah, why *am* I?\"\"",
+                  "actor": "You",
+                  "to": "Cargo Container Door",
                   "articyId": "0x010000590000994C",
-                  "text": "\"Yeah, why *am* I?\"",
+                  "english": "\"Yeah, why *am* I?\"",
+                  "polish": "„No właśnie, *dlaczego*?”",
+                  "belarusian": "«Вось менавіта, *чаму*?»",
                   "links": [
                     {
                       "id": 75,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"Why are you what?\" The lieutenant...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100005900009963",
-                      "text": "\"Why are you what?\" The lieutenant looks startled.",
+                      "english": "\"Why are you what?\" The lieutenant looks startled.",
+                      "polish": "„Co dlaczego?” – porucznik sprawia wrażenie zaalarmowanego.",
+                      "belarusian": "«Чаму чаму?» — лейтэнант выглядае ўсхваляваным.",
                       "links": [
                         {
                           "id": 90,
+                          "redacted": false,
                           "title": "You: \"\"Anything at all.\"\"",
+                          "actor": "You",
+                          "to": "Cargo Container Door",
                           "articyId": "0x010000590000996A",
-                          "text": "\"Anything at all.\"",
+                          "english": "\"Anything at all.\"",
+                          "polish": "„Cokolwiek”.",
+                          "belarusian": "\"Што заўгодна\".",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 42,
+                      "redacted": false,
                       "title": "Rhetoric: \"Who understands anything you do?\"",
+                      "actor": "Rhetoric",
+                      "to": "You",
                       "articyId": "0x0100006B0000A43E",
-                      "text": "Who understands anything you do?",
+                      "english": "Who understands anything you do?",
+                      "polish": "Kto rozumie cokolwiek z tego, co robisz?",
+                      "belarusian": "Хто разумее што-небудзь з таго, што ты робіш?",
                       "links": []
                     }
                   ]
@@ -317,46 +522,81 @@
         },
         {
           "id": 13,
+          "redacted": false,
           "title": "You: \"Nothing more to do here for now. [L...\"",
+          "actor": "You",
+          "to": "Cargo Container Door",
           "articyId": "0x0100005900009789",
-          "text": "Nothing more to do here for now. [Leave.]",
+          "english": "Nothing more to do here for now. [Leave.]",
+          "polish": "Na razie nie ma tu nic więcej do roboty. [Odejdź].",
+          "belarusian": "Зараз тут няма нічога больш рабіць. [Адыдзі].",
           "links": []
         },
         {
           "id": 91,
+          "redacted": false,
           "title": "You: \"\"Hey there, sugar.\"\"",
+          "actor": "You",
+          "to": "Cargo Container Door",
           "articyId": "0x01000059000097E6",
-          "text": "\"Hey there, sugar.\"",
+          "english": "\"Hey there, sugar.\"",
+          "polish": "„Cześć, słoneczko”.",
+          "belarusian": "\"Прывітанне, сонейка\".",
           "links": [
             {
               "id": 92,
+              "redacted": false,
               "title": "Cargo Container Door: \"The container door appears unmoved...\"",
+              "actor": "Cargo Container Door",
+              "to": "You",
               "articyId": "0x0100005900009898",
-              "text": "The container door appears unmoved by your attempt at flattery.",
+              "english": "The container door appears unmoved by your attempt at flattery.",
+              "polish": "Drzwi kontenera wydają się niewzruszone twoimi przymilnymi słówkami.",
+              "belarusian": "Дзверы кантэйнера, здаецца, не зважаюць на твае лёсныя словы.",
               "links": [
                 {
                   "id": 120,
+                  "redacted": false,
                   "title": "Suggestion: \"A tough nut to crack, for sure. But...\"",
+                  "actor": "Suggestion",
+                  "to": "You",
                   "articyId": "0x0100007000003878",
-                  "text": "A tough nut to crack, for sure. But the strongest containers often have the softest hearts.",
+                  "english": "A tough nut to crack, for sure. But the strongest containers often have the softest hearts.",
+                  "polish": "Ewidentnie twardy orzech do zgryzienia. Ale najtwardsze kontenery często mają najmiększe serca.",
+                  "belarusian": "Відавочна цяжкі арэх для разгрызання. Але самыя цвёрдыя кантэйнеры часта маюць самыя мяккія сэрцы.",
                   "links": [
                     {
                       "id": 99,
+                      "redacted": false,
                       "title": "You: \"\"You're a fine piece of engineering...\"",
+                      "actor": "You",
+                      "to": "Cargo Container Door",
                       "articyId": "0x010000590000989F",
-                      "text": "\"You're a fine piece of engineering, do you know that?\"",
+                      "english": "\"You're a fine piece of engineering, do you know that?\"",
+                      "polish": "„Wspaniały z ciebie okaz sztuki inżynierskiej, wiesz?”",
+                      "belarusian": "«Выдатны ўзор інжынернага мастацтва, ведаеш?»",
                       "links": [
                         {
                           "id": 147,
+                          "redacted": false,
                           "title": "Cargo Container Door: \"The door does not respond to your a...\"",
+                          "actor": "Cargo Container Door",
+                          "to": "You",
                           "articyId": "0x0100007000003887",
-                          "text": "The door does not respond to your advances. Is it possible that it seems somehow *more* closed than before?",
+                          "english": "The door does not respond to your advances. Is it possible that it seems somehow *more* closed than before?",
+                          "polish": "Drzwi nie reagują na twoje słowa. Czy to możliwe, żeby wydawały się jeszcze bardziej *zamknięte* niż wcześniej?",
+                          "belarusian": "Дзверы не рэагуюць на твае словы. Ці магчыма, каб яны здаваліся яшчэ больш *зачыненымі*, чым раней?",
                           "links": [
                             {
                               "id": 111,
+                              "redacted": false,
                               "title": "Inland Empire: \"Why does this situation feel so fam...\"",
+                              "actor": "Inland Empire",
+                              "to": "You",
                               "articyId": "0x0100007000003890",
-                              "text": "Why does this situation feel so familiar? Do you have a history of propositioning inanimate objects?",
+                              "english": "Why does this situation feel so familiar? Do you have a history of propositioning inanimate objects?",
+                              "polish": "Czemu ta sytuacja wydaje Ci się taka znajoma? Masz jakiś nawyk komplementowania przedmiotów nieożywionych?",
+                              "belarusian": "Чаму гэтая сітуацыя здаецца табе такой знаёмай? У цябе ёсць звычка кампліментаваць нежывыя прадметы?",
                               "links": []
                             }
                           ]
@@ -365,30 +605,50 @@
                     },
                     {
                       "id": 85,
+                      "redacted": false,
                       "title": "You: \"\"C'mon, don't shut me out. Let me i...\"",
+                      "actor": "You",
+                      "to": "Cargo Container Door",
                       "articyId": "0x010000700000387F",
-                      "text": "\"C'mon, don't shut me out. Let me in.\"",
+                      "english": "\"C'mon, don't shut me out. Let me in.\"",
+                      "polish": "„No już, nie zamykaj się przede mną. Wpuść mnie”.",
+                      "belarusian": "«Ну ўжо, не зачыняйся перада мной. Пусці мяне».",
                       "links": [
                         {
                           "id": 55,
+                          "redacted": false,
                           "title": "Cargo Container Door: \"The door does not respond to your a...\"",
+                          "actor": "Cargo Container Door",
+                          "to": "You",
                           "articyId": "0x010000820001FAA5",
-                          "text": "The door does not respond to your advances. Is it possible that it seems somehow *more* closed than before?",
+                          "english": "The door does not respond to your advances. Is it possible that it seems somehow *more* closed than before?",
+                          "polish": "Drzwi nie reagują na twoje słowa. Czy to możliwe, żeby wydawały się jeszcze bardziej *zamknięte* niż wcześniej?",
+                          "belarusian": "Дзверы не рэагуюць на твае словы. Ці магчыма, што яны здаюцца яшчэ больш *зачыненымі*, чым раней?",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 127,
+                      "redacted": false,
                       "title": "You: \"\"It's just another day, another cop...\"",
+                      "actor": "You",
+                      "to": "Cargo Container Door",
                       "articyId": "0x010000820001F9BB",
-                      "text": "\"It's just another day, another cop and another container.\"",
+                      "english": "\"It's just another day, another cop and another container.\"",
+                      "polish": "„Kolejny dzień, kolejny gliniarz, kolejny kontener”.",
+                      "belarusian": "«Яшчэ адзін дзень, яшчэ адзін паліцэйскі, яшчэ адзін кантэйнер».",
                       "links": [
                         {
                           "id": 86,
+                          "redacted": false,
                           "title": "Cargo Container Door: \"The mundaneness of the situation do...\"",
+                          "actor": "Cargo Container Door",
+                          "to": "You",
                           "articyId": "0x010000820001FA97",
-                          "text": "The mundaneness of the situation does not seem to affect the container in the slightest.",
+                          "english": "The mundaneness of the situation does not seem to affect the container in the slightest.",
+                          "polish": "Prozaiczność sytuacji nie wydaje się jakkolwiek wpływać na kontener.",
+                          "belarusian": "Празычнасць сітуацыі, здаецца, ніяк не ўплывае на кантэйнер.",
                           "links": []
                         }
                       ]
@@ -401,60 +661,105 @@
         },
         {
           "id": 6,
+          "redacted": false,
           "title": "You: \"[Leave the container alone.]\"",
+          "actor": "You",
+          "to": "Cargo Container Door",
           "articyId": "0x010000820001F9B3",
-          "text": "[Leave the container alone.]",
+          "english": "[Leave the container alone.]",
+          "polish": "[Zostaw kontener w spokoju].",
+          "belarusian": "[Пакінь кантэйнер у спакоі].",
           "links": []
         }
       ]
     },
     {
       "id": 2,
+      "redacted": false,
       "title": "Cargo Container Door: \"Before you stands a cargo container...\"",
+      "actor": "Cargo Container Door",
+      "to": "You",
       "articyId": "0x0100005900009770",
-      "text": "Before you stands a cargo container. Just one of many in the yard.",
+      "english": "Before you stands a cargo container. Just one of many in the yard.",
+      "polish": "Przed tobą stoi kontener transportowy. Jeden z wielu na tym placu.",
+      "belarusian": "Перад табой стаіць транспартны кантэйнер. Адзін з многіх на гэтай пляцоўцы.",
       "links": [
         {
           "id": 46,
+          "redacted": false,
           "title": "You: \"\"Lieutenant, I think there's someth...\"",
+          "actor": "You",
+          "to": "Cargo Container Door",
           "articyId": "0x0100005900009775",
-          "text": "\"Lieutenant, I think there's something *special* about this container...\"",
+          "english": "\"Lieutenant, I think there's something *special* about this container...\"",
+          "polish": "„Poruczniku, ten kontener wydaje się być dziwnie *wyjątkowy*...”",
+          "belarusian": "«Лейтэнант, гэты кантэйнер здаецца дзіўна *ўнікальным*...»",
           "links": [
             {
               "id": 133,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"The lieutenant sighs. \"Is this like...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100007000003859",
-              "text": "The lieutenant sighs. \"Is this like your thing with that wall again?\"",
+              "english": "The lieutenant sighs. \"Is this like your thing with that wall again?\"",
+              "polish": "Porucznik wzdycha. „To tak jak wtedy z tą ścianą?”",
+              "belarusian": "Лейтэнант уздыхае. «Гэта як тады з той сцяной?»",
               "links": [
                 {
                   "id": 15,
+                  "redacted": false,
                   "title": "You: \"\"No, it's totally different. I don'...\"",
+                  "actor": "You",
+                  "to": "Cargo Container Door",
                   "articyId": "0x0100007000003867",
-                  "text": "\"No, it's totally different. I don't want to paint it. I'm just *drawn* to it.\"",
+                  "english": "\"No, it's totally different. I don't want to paint it. I'm just *drawn* to it.\"",
+                  "polish": "„Nie, to zupełnie inna sprawa. Nie chcę go malować. Po prostu mnie *przyciąga*”.",
+                  "belarusian": "«Не, гэта зусім іншая справа. Я не хачу яго маляваць. Ён мяне проста *прыцягвае*».",
                   "links": [
                     {
                       "id": 83,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"There are a million containers her...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x01000059000097B2",
-                      "text": "\"There are a million containers here. Why are you fixating on this one?\"",
+                      "english": "\"There are a million containers here. Why are you fixating on this one?\"",
+                      "polish": "„Stoi tu z milion kontenerów. Dlaczego uparłeś się tak na ten jeden?”",
+                      "belarusian": "«Тут стаіць мільён кантэйнераў. Чаму ты так зацяўся на гэты адзін?»",
                       "links": [
                         {
                           "id": 10,
+                          "redacted": false,
                           "title": "You: \"\"Mark my words -- there's someone r...\"",
+                          "actor": "You",
+                          "to": "Cargo Container Door",
                           "articyId": "0x0100000F00012104",
-                          "text": "\"Mark my words -- there's someone rich buzzing away inside!\"",
+                          "english": "\"Mark my words -- there's someone rich buzzing away inside!\"",
+                          "polish": "„Mówię ci – w środku jest ktoś bogaty. Pobzykuje sobie!”",
+                          "belarusian": "«Я кажу табе — унутры нехта багаты. Пабуджае сабе!»",
                           "links": [
                             {
                               "id": 80,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"I don't hear anything.\" The lieute...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100000F0001210B",
-                              "text": "\"I don't hear anything.\" The lieutenant cups one of his ears.",
+                              "english": "\"I don't hear anything.\" The lieutenant cups one of his ears.",
+                              "polish": "„Niczego nie słyszę” – stwierdza porucznik, przykładając dłonie do uszu.",
+                              "belarusian": "«Нічога не чую», — адзначае лейтэнант, прыкладаючы рукі да вушэй.",
                               "links": [
                                 {
                                   "id": 128,
+                                  "redacted": false,
                                   "title": "You: \"\"That's because you're not *tuned i...\"",
+                                  "actor": "You",
+                                  "to": "Cargo Container Door",
                                   "articyId": "0x0100000F00012112",
-                                  "text": "\"That's because you're not *tuned in*. Perks of being a hustler. You'll see -- I'll be rolling in money soon.\"",
+                                  "english": "\"That's because you're not *tuned in*. Perks of being a hustler. You'll see -- I'll be rolling in money soon.\"",
+                                  "polish": "„Bo nie jesteś *dostrojony*. Takie są korzyści z bycia cwaniakiem. Zobaczysz – niedługo będę tarzał się w forsie”.",
+                                  "belarusian": "«Бо ты не *наладажаны*. Вось якія перавагі ад таго, што ты хітрык. Убачыш – хутка буду купацца ў грошах».",
                                   "links": []
                                 }
                               ]
@@ -463,35 +768,60 @@
                         },
                         {
                           "id": 18,
+                          "redacted": false,
                           "title": "You: \"\"It was hanging from the crane.\"\"",
+                          "actor": "You",
+                          "to": "Cargo Container Door",
                           "articyId": "0x010000820001FA3A",
-                          "text": "\"It was hanging from the crane.\"",
+                          "english": "\"It was hanging from the crane.\"",
+                          "polish": "„Bo zwisał z żurawia”.",
+                          "belarusian": "«Бо звісаў з жураўля».",
                           "links": [
                             {
                               "id": 116,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"You just picked one out, because y...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x010000820001FA42",
-                              "text": "\"You just picked one out, because you wanted to interact with a cargo container.\"",
+                              "english": "\"You just picked one out, because you wanted to interact with a cargo container.\"",
+                              "polish": "„Wybrałeś sobie jeden, bo chciałeś wejść w interakcję z kontenerem”.",
+                              "belarusian": "«Вы выбралі адзін, бо хацелі ўзаемадзейнічаць з кантэйнерам».",
                               "links": [
                                 {
                                   "id": 79,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"We're not here to interact with co...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x0100000600018607",
-                                  "text": "\"We're not here to interact with containers -- we're here to get the body down from the tree.\"",
+                                  "english": "\"We're not here to interact with containers -- we're here to get the body down from the tree.\"",
+                                  "polish": "„Nie przyszliśmy tutaj, aby wchodzić w interakcję z kontenerami – jesteśmy tu, aby zdjąć zwłoki z drzewa”.",
+                                  "belarusian": "«Мы не прыйшлі сюды, каб узаемадзейнічаць з кантэйнерамі — мы тут, каб зняць труп з дрэва».",
                                   "links": []
                                 },
                                 {
                                   "id": 59,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"We're not here to interact with co...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x0100000600018614",
-                                  "text": "\"We're not here to interact with containers -- we're here to interview the Union boss.\"",
+                                  "english": "\"We're not here to interact with containers -- we're here to interview the Union boss.\"",
+                                  "polish": "„Nie przyszliśmy tutaj, aby wchodzić w interakcję z kontenerami – jesteśmy tu, aby porozmawiać z szefem Związku”.",
+                                  "belarusian": "«Мы не прыйшлі сюды, каб узаемадзейнічаць з кантэйнерамі – мы тут, каб пагаварыць з начальнікам Саюза».",
                                   "links": []
                                 },
                                 {
                                   "id": 88,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"We're not here to interact with co...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x0100000600018620",
-                                  "text": "\"We're not here to interact with containers -- we're here to talk to the Union, right?\"",
+                                  "english": "\"We're not here to interact with containers -- we're here to talk to the Union, right?\"",
+                                  "polish": "„Nie przyszliśmy tutaj, aby wchodzić w interakcję z kontenerami – jesteśmy tu, aby porozmawiać ze Związkiem, tak?”",
+                                  "belarusian": "«Мы сюды прыйшлі не для таго, каб узаемадзейнічаць з кантэйнерамі — мы тут, каб пагаварыць са Саюзам, так?»",
                                   "links": []
                                 }
                               ]
@@ -500,45 +830,75 @@
                         },
                         {
                           "id": 89,
+                          "redacted": false,
                           "title": "You: \"\"I don't know, Kim, it just *feels*...\"",
+                          "actor": "You",
+                          "to": "Cargo Container Door",
                           "articyId": "0x01000059000097C0",
-                          "text": "\"I don't know, Kim, it just *feels* special.\"",
+                          "english": "\"I don't know, Kim, it just *feels* special.\"",
+                          "polish": "„No nie wiem, Kim. *Wydaje się* wyjątkowy”.",
+                          "belarusian": "«Ну, не ведаю, Кім. *Здаецца* выключным».",
                           "links": [
                             {
                               "id": 106,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"It's a cargo container, detective....\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x01000059000097EC",
-                              "text": "\"It's a cargo container, detective. Just like all the others.\" He doesn't even look at it.",
+                              "english": "\"It's a cargo container, detective. Just like all the others.\" He doesn't even look at it.",
+                              "polish": "„To kontener towarowy, detektywie. Taki sam jak pozostałe” – porucznik nawet nie patrzy w jego stronę.",
+                              "belarusian": "«Гэта грузавы кантэйнер, дэтэктыў. Такі ж, як і астатнія», — прапаршчык нават не глядзіць у яго бок.",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 14,
+                          "redacted": false,
                           "title": "You: \"(Inspect the container.) \"Maybe the...\"",
+                          "actor": "You",
+                          "to": "Cargo Container Door",
                           "articyId": "0x01000059000097D1",
-                          "text": "(Inspect the container.) \"Maybe there's contraband in there?\"",
+                          "english": "(Inspect the container.) \"Maybe there's contraband in there?\"",
+                          "polish": "(Przyjrzyj się kontenerowi). „Może w środku jest kontrabanda?”",
+                          "belarusian": "(Паглядзі на кантэйнер). «Можа, унутры кантрабанда?»",
                           "links": [
                             {
                               "id": 47,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"The lieutenant considers this for a...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x01000059000097DF",
-                              "text": "The lieutenant considers this for a moment. \"There may very well be, but we're not here to look for that.\"",
+                              "english": "The lieutenant considers this for a moment. \"There may very well be, but we're not here to look for that.\"",
+                              "polish": "Porucznik rozważa przez chwilę twoje słowa. „Nie wykluczone, ale nie po to tutaj jesteśmy”.",
+                              "belarusian": "Лейтэнант разважае на імгненне над тваімі словамі. „Магчыма, але не дзеля гэтага мы тут”.",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 87,
+                          "redacted": false,
                           "title": "You: \"\"You're right, it's probably nothin...\"",
+                          "actor": "You",
+                          "to": "Cargo Container Door",
                           "articyId": "0x01000006000185EE",
-                          "text": "\"You're right, it's probably nothing.\"",
+                          "english": "\"You're right, it's probably nothing.\"",
+                          "polish": "„Masz rację, to pewnie nic takiego”.",
+                          "belarusian": "«Ты маеш рацыю, гэта, напэўна, нічога асаблівага».",
                           "links": [
                             {
                               "id": 44,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Damn it, now you've got *me* curio...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x01000006000185F5",
-                              "text": "\"Damn it, now you've got *me* curious... this is *not* what we came to the harbour for.\"",
+                              "english": "\"Damn it, now you've got *me* curious... this is *not* what we came to the harbour for.\"",
+                              "polish": "„A niech to, teraz *mnie* zżera ciekawość... *Nie* po to przyszliśmy do portu”.",
+                              "belarusian": "«А хай яно, цяпер *мяне* грызе цікавасць... *Не* дзеля гэтага мы прыйшлі ў порт».",
                               "links": []
                             }
                           ]
@@ -549,24 +909,39 @@
                 },
                 {
                   "id": 35,
+                  "redacted": false,
                   "title": "You: \"\"Maybe? I can't tell. I think we sh...\"",
+                  "actor": "You",
+                  "to": "Cargo Container Door",
                   "articyId": "0x010000700000386E",
-                  "text": "\"Maybe? I can't tell. I think we should investigate further.\"",
+                  "english": "\"Maybe? I can't tell. I think we should investigate further.\"",
+                  "polish": "„Może tak? Nie wiem. Chyba powinniśmy to dokładniej sprawdzić”.",
+                  "belarusian": "«Можа так? Не ведаю. Мабыць, мы павінны гэта больш дакладна праверыць».",
                   "links": []
                 }
               ]
             },
             {
               "id": 3,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"You do? Because I don't.\"\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x01000059000097A4",
-              "text": "\"You do? Because I don't.\"",
+              "english": "\"You do? Because I don't.\"",
+              "polish": "„Poważnie? Bo ja nie”.",
+              "belarusian": "«Сур'ёзна? Бо я не».",
               "links": [
                 {
                   "id": 105,
+                  "redacted": false,
                   "title": "You: \"\"What, why not?\"\"",
+                  "actor": "You",
+                  "to": "Cargo Container Door",
                   "articyId": "0x01000059000097B9",
-                  "text": "\"What, why not?\"",
+                  "english": "\"What, why not?\"",
+                  "polish": "„Co? Czemu nie?”",
+                  "belarusian": "«Што? Чаму не?»",
                   "links": []
                 }
               ]

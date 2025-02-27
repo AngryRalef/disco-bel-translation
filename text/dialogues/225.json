@@ -5,63 +5,108 @@
   "dialogueTree": [
     {
       "id": 19,
+      "redacted": false,
       "title": "Locked Door: \"The door number #10 is closed again...\"",
+      "actor": "Locked Door",
+      "to": null,
       "articyId": "0x0100007500001408",
-      "text": "The door number #10 is closed again.",
+      "english": "The door number #10 is closed again.",
+      "polish": "Drzwi z numerem 10 są znów zamknięte.",
+      "belarusian": "Дзверы з нумарам 10 зноў зачыненыя.",
       "links": [
         {
           "id": 12,
+          "redacted": false,
           "title": "You: \"Knock.\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x0100007500001415",
-          "text": "Knock.",
+          "english": "Knock.",
+          "polish": "Zapukaj.",
+          "belarusian": "Пастукай.",
           "links": [
             {
               "id": 43,
+              "redacted": false,
               "title": "Locked Door: \"Nothing happens. The real estate ag...\"",
+              "actor": "Locked Door",
+              "to": null,
               "articyId": "0x0100007500001426",
-              "text": "Nothing happens. The real estate agent must have left.",
+              "english": "Nothing happens. The real estate agent must have left.",
+              "polish": "Nic się nie dzieje. Agentka nieruchomości musiała sobie pójść.",
+              "belarusian": "Нічога не адбываецца. Агентка па нерухомасці мусіла пайсці.",
               "links": []
             }
           ]
         },
         {
           "id": 8,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000750000141C",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Сыходзь].",
           "links": []
         }
       ]
     },
     {
       "id": 13,
+      "redacted": false,
       "title": "Locked Door: \"You hear someone walking around ins...\"",
+      "actor": "Locked Door",
+      "to": null,
       "articyId": "0x010000570001DD94",
-      "text": "You hear someone walking around inside, rearranging the furniture. The number on the panel says #10.",
+      "english": "You hear someone walking around inside, rearranging the furniture. The number on the panel says #10.",
+      "polish": "Słyszysz, jak ktoś chodzi w środku i przestawia meble. Na panelu widnieje numer 10.",
+      "belarusian": "Ты чуеш, як нехта ходзіць унутры і перасоўвае мэблю. На панэлі паказаны нумар 10.",
       "links": [
         {
           "id": 25,
+          "redacted": false,
           "title": "You: \"Knock.\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000570001DDA4",
-          "text": "Knock.",
+          "english": "Knock.",
+          "polish": "Zapukaj.",
+          "belarusian": "Пастукай.",
           "links": [
             {
               "id": 5,
+              "redacted": false,
               "title": "Locked Door: \"The walking stops abruptly, but no...\"",
+              "actor": "Locked Door",
+              "to": null,
               "articyId": "0x010000570001DF32",
-              "text": "The walking stops abruptly, but no one comes to the door.",
+              "english": "The walking stops abruptly, but no one comes to the door.",
+              "polish": "Kroki gwałtownie się urywają, lecz nikt nie podchodzi do drzwi.",
+              "belarusian": "Крокі рэзка спыняюцца, але ніхто не падыходзіць да дзвярэй.",
               "links": [
                 {
                   "id": 6,
+                  "redacted": false,
                   "title": "Inland Empire: \"You can feel tension on the other s...\"",
+                  "actor": "Inland Empire",
+                  "to": null,
                   "articyId": "0x010000570001DF3B",
-                  "text": "You can feel tension on the other side.",
+                  "english": "You can feel tension on the other side.",
+                  "polish": "Wyczuwasz po drugiej stronie drzwi napięcie.",
+                  "belarusian": "Вы адчуваеце напружанне па той бок дзвярэй.",
                   "links": [
                     {
                       "id": 20,
+                      "redacted": false,
                       "title": "Perception (Hearing): \"Sounded like a woman. A woman's sho...\"",
+                      "actor": "Perception (Hearing)",
+                      "to": null,
                       "articyId": "0x010000060001B95D",
-                      "text": "Sounded like a woman. A woman's shoes.",
+                      "english": "Sounded like a woman. A woman's shoes.",
+                      "polish": "To była chyba kobieta. Damskie obuwie.",
+                      "belarusian": "Гэта, напэўна, была жанчына. Жаночыя абуткі.",
                       "links": []
                     }
                   ]
@@ -72,52 +117,92 @@
         },
         {
           "id": 14,
+          "redacted": false,
           "title": "You: \"Knock again.\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000570001DDAA",
-          "text": "Knock again.",
+          "english": "Knock again.",
+          "polish": "Zapukaj ponownie.",
+          "belarusian": "Пастукай зноў.",
           "links": [
             {
               "id": 30,
+              "redacted": false,
               "title": "Locked Door: \"This time the steps come closer. \"W...\"",
+              "actor": "Locked Door",
+              "to": null,
               "articyId": "0x010000570001DDBF",
-              "text": "This time the steps come closer. \"Who is this?\" demands a female voice, wary and tense.",
+              "english": "This time the steps come closer. \"Who is this?\" demands a female voice, wary and tense.",
+              "polish": "Tym razem kroki podchodzą bliżej. „Kto tam?” – pyta damski głos, niespokojny i pełen napięcia.",
+              "belarusian": "На гэты раз крокі падыходзяць бліжэй. «Хто там?» – пытае жаночы голас, неспакойны і поўны напружання.",
               "links": [
                 {
                   "id": 38,
+                  "redacted": false,
                   "title": "You: \"\"This is the police. Open up.\"\"",
+                  "actor": "You",
+                  "to": null,
                   "articyId": "0x010000570001DF4F",
-                  "text": "\"This is the police. Open up.\"",
+                  "english": "\"This is the police. Open up.\"",
+                  "polish": "„Policja. Proszę otworzyć”.",
+                  "belarusian": "«Міліцыя. Калі ласка, адчыніце».",
                   "links": [
                     {
                       "id": 26,
+                      "redacted": false,
                       "title": "Locked Door: \"\"Do I *have to* open the door?\" You...\"",
+                      "actor": "Locked Door",
+                      "to": null,
                       "articyId": "0x010000570001DF5B",
-                      "text": "\"Do I *have to* open the door?\" You hear the clacking of heels again, as the other side walks right up to the door. Her tone is now getting a defensive edge...",
+                      "english": "\"Do I *have to* open the door?\" You hear the clacking of heels again, as the other side walks right up to the door. Her tone is now getting a defensive edge...",
+                      "polish": "„*Muszę* otwierać?” – znów słyszysz stuk obcasów – twoja rozmówczyni podchodzi blisko drzwi. Jej głos staje się nieco konfrontacyjny.",
+                      "belarusian": "«*Мае* адкрываць?» — зноў чуеш стук абцасаў — твой суразмоўца падыходзіць блізка да дзвярэй. Яе голас становіцца крыху канфрантацыйным.",
                       "links": [
                         {
                           "id": 27,
+                          "redacted": false,
                           "title": "Locked Door: \"\"Do you have a warrant? I'm not obl...\"",
+                          "actor": "Locked Door",
+                          "to": null,
                           "articyId": "0x010000570001DF82",
-                          "text": "\"Do you have a warrant? I'm not obligated to open the door if you don't have a warrant.\"",
+                          "english": "\"Do you have a warrant? I'm not obligated to open the door if you don't have a warrant.\"",
+                          "polish": "„Macie nakaz? Nie mam obowiązku otwierania drzwi, jeśli nie macie nakazu”.",
+                          "belarusian": "\"У вас ёсць ордэр? Я не абавязаны адкрываць дзверы, калі ў вас няма ордэра\".",
                           "links": [
                             {
                               "id": 9,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Let's go,\" the lieutenant says, \"w...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": null,
                               "articyId": "0x010000570001DF72",
-                              "text": "\"Let's go,\" the lieutenant says, \"we don't have a reason to get inside that apartment.\"",
+                              "english": "\"Let's go,\" the lieutenant says, \"we don't have a reason to get inside that apartment.\"",
+                              "polish": "„Chodźmy stąd” – stwierdza porucznik. „Nie ma żadnego powodu, abyśmy wchodzili do tego mieszkania”.",
+                              "belarusian": "«Пайшлі адсюль», — кажа лейтэнант. «Няма ніякай прычыны, каб мы заходзілі ў гэтую кватэру».",
                               "links": []
                             },
                             {
                               "id": 48,
+                              "redacted": false,
                               "title": "Physical Instrument: \"Later then. Entering this door seem...\"",
+                              "actor": "Physical Instrument",
+                              "to": null,
                               "articyId": "0x010000060001B966",
-                              "text": "Later then. Entering this door seems a physical *challenge*.",
+                              "english": "Later then. Entering this door seems a physical *challenge*.",
+                              "polish": "Wrócimy tu później. Przejście przez te drzwi wydaje się być fizycznym *wyzwaniem*.",
+                              "belarusian": "Вярнемся сюды пазней. Прайсці праз гэтыя дзверы здаецца фізічным *выпрабаваннем*.",
                               "links": [
                                 {
                                   "id": 44,
+                                  "redacted": false,
                                   "title": "Logic: \"It's generally easier to do things...\"",
+                                  "actor": "Logic",
+                                  "to": null,
                                   "articyId": "0x010000060001B96E",
-                                  "text": "It's generally easier to do things if you have literally *any* reason.",
+                                  "english": "It's generally easier to do things if you have literally *any* reason.",
+                                  "polish": "Ogólnie rzecz biorąc, łatwiej jest robić różne rzeczy, jeśli masz ku temu *jakikolwiek* powód.",
+                                  "belarusian": "Увогуле, лягчэй рабіць розныя рэчы, калі ў вас ёсць для гэтага *хоць нейкая* прычына.",
                                   "links": []
                                 }
                               ]
@@ -134,57 +219,102 @@
         },
         {
           "id": 47,
+          "redacted": false,
           "title": "You: \"\"This apartment is supposed to be e...\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000570001E1AD",
-          "text": "\"This apartment is supposed to be empty. Did you break in here?\"",
+          "english": "\"This apartment is supposed to be empty. Did you break in here?\"",
+          "polish": "„To mieszkanie powinno być puste. Włamała się tam pani?”",
+          "belarusian": "«Гэтая кватэра павінна быць пустая. Вы праламаліся туды, пані?»",
           "links": [
             {
               "id": 18,
+              "redacted": false,
               "title": "Locked Door: \"\"Excuse me? Of course not!\"\"",
+              "actor": "Locked Door",
+              "to": null,
               "articyId": "0x010000570001E1B4",
-              "text": "\"Excuse me? Of course not!\"",
+              "english": "\"Excuse me? Of course not!\"",
+              "polish": "„Słucham? Oczywiście, że nie!”",
+              "belarusian": "«Слухаю? Вядома, што не!»",
               "links": [
                 {
                   "id": 4,
+                  "redacted": false,
                   "title": "Half Light: \"Scare them. Suspected of some *big...\"",
+                  "actor": "Half Light",
+                  "to": null,
                   "articyId": "0x010000060001B9F9",
-                  "text": "Scare them. Suspected of some *big crime*!",
+                  "english": "Scare them. Suspected of some *big crime*!",
+                  "polish": "Przestrasz ją. Jest podejrzana o jakieś *poważne przestępstwo*!",
+                  "belarusian": "Напалохай яе. Яна падазраецца ў нейкім *сур'ёзным злачынстве*!",
                   "links": [
                     {
                       "id": 2,
+                      "redacted": false,
                       "title": "Suggestion: \"There's no sweet-talking your way i...\"",
+                      "actor": "Suggestion",
+                      "to": null,
                       "articyId": "0x010000060001B9FF",
-                      "text": "There's no sweet-talking your way in there. Be official.",
+                      "english": "There's no sweet-talking your way in there. Be official.",
+                      "polish": "Słodkimi słówkami nie zdołasz jej przekonać. Zachowuj się urzędowo.",
+                      "belarusian": "Салодкімі словамі ты не зможаш яе пераканаць. Паводзь сябе афіцыйна.",
                       "links": [
                         {
                           "id": 21,
+                          "redacted": false,
                           "title": "Logic: \"You have *plenty* of reason to ente...\"",
+                          "actor": "Logic",
+                          "to": null,
                           "articyId": "0x010000060001BA04",
-                          "text": "You have *plenty* of reason to enter.",
+                          "english": "You have *plenty* of reason to enter.",
+                          "polish": "Masz *mnóstwo* powodów, żeby tam wejść.",
+                          "belarusian": "У цябе ёсць *мноства* прычын, каб зайсці туды.",
                           "links": [
                             {
                               "id": 10,
+                              "redacted": false,
                               "title": "You: \"\"I don't need a warrant if I suspec...\"",
+                              "actor": "You",
+                              "to": null,
                               "articyId": "0x010000570001E1BB",
-                              "text": "\"I don't need a warrant if I suspect there's been a *break-in*.\"",
+                              "english": "\"I don't need a warrant if I suspect there's been a *break-in*.\"",
+                              "polish": "„Nie potrzebuję nakazu, jeśli podejrzewam, że doszło do *włamania*”.",
+                              "belarusian": "«Мне не патрэбен ордэр, калі я падазраю, што адбылося *ўзлом*».",
                               "links": [
                                 {
                                   "id": 7,
+                                  "redacted": false,
                                   "title": "Locked Door: \"\"Oh, come on!\" There's a pause, bef...\"",
+                                  "actor": "Locked Door",
+                                  "to": null,
                                   "articyId": "0x010000570001E1C3",
-                                  "text": "\"Oh, come on!\" There's a pause, before you hear the door being unlocked.",
+                                  "english": "\"Oh, come on!\" There's a pause, before you hear the door being unlocked.",
+                                  "polish": "„Och, bez żartów!” – przez chwilę panuje cisza, po czym słyszysz, jak drzwi się otwierają.",
+                                  "belarusian": "«Ах, без жартаў!» – на імгненне наступае цішыня, потым вы чуеце, як дзверы адчыняюцца.",
                                   "links": [
                                     {
                                       "id": 23,
+                                      "redacted": false,
                                       "title": "Rhetoric: \"Well, that was easy.\"",
+                                      "actor": "Rhetoric",
+                                      "to": null,
                                       "articyId": "0x010000570001E340",
-                                      "text": "Well, that was easy.",
+                                      "english": "Well, that was easy.",
+                                      "polish": "No proszę, łatwo poszło.",
+                                      "belarusian": "Ну калі ласка, лёгка пайшло.",
                                       "links": [
                                         {
                                           "id": 39,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"That was smart,\" the lieutenant sa...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": null,
                                           "articyId": "0x010000570001E1CB",
-                                          "text": "\"That was smart,\" the lieutenant says, nodding toward the unlocked door.",
+                                          "english": "\"That was smart,\" the lieutenant says, nodding toward the unlocked door.",
+                                          "polish": "„To było sprytne” – stwierdza porucznik, wskazując skinieniem głowy otwarte drzwi.",
+                                          "belarusian": "«Гэта было хітра», — адзначае лейтэнант, ківаючы галавой на адчыненыя дзверы.",
                                           "links": []
                                         }
                                       ]
@@ -195,16 +325,26 @@
                             },
                             {
                               "id": 28,
+                              "redacted": false,
                               "title": "You: \"\"Then open the door, so I can *veri...\"",
+                              "actor": "You",
+                              "to": null,
                               "articyId": "0x0100007000005B2B",
-                              "text": "\"Then open the door, so I can *verify* your identity.\"",
+                              "english": "\"Then open the door, so I can *verify* your identity.\"",
+                              "polish": "„Więc proszę otworzyć drzwi, żebym mógł *zweryfikować* pani tożsamość”.",
+                              "belarusian": "«Таму, калі ласка, адкрыйце дзверы, каб я мог *праверыць* вашу асобу».",
                               "links": []
                             },
                             {
                               "id": 24,
+                              "redacted": false,
                               "title": "You: \"\"Are you cooking *morphine* in ther...\"",
+                              "actor": "You",
+                              "to": null,
                               "articyId": "0x010000060001BA0F",
-                              "text": "\"Are you cooking *morphine* in there?!\"",
+                              "english": "\"Are you cooking *morphine* in there?!\"",
+                              "polish": "„Czy pani tam produkuje *morfinę*?!”",
+                              "belarusian": "«Ці вы там вырабляеце *марфін*?!»",
                               "links": []
                             }
                           ]
@@ -219,9 +359,14 @@
         },
         {
           "id": 22,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000570001DDB6",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Адыдзі].",
           "links": []
         }
       ]

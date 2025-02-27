@@ -5,162 +5,272 @@
   "dialogueTree": [
     {
       "id": 45,
+      "redacted": false,
       "title": "Bed: \"The bed is comforting, if a bit run...\"",
+      "actor": "Bed",
+      "to": "You",
       "articyId": "0x0100005A0001258A",
-      "text": "The bed is comforting, if a bit run down. Still, you've earned a rest.",
+      "english": "The bed is comforting, if a bit run down. Still, you've earned a rest.",
+      "polish": "Łóżko koi nerwy, choć jest trochę zniszczone. Zasłużyłeś na odpoczynek.",
+      "belarusian": "Ложак супакойвае нервы, хаця трохі пашкоджаны. Ты заслужыў адпачынак.",
       "links": [
         {
           "id": 30,
+          "redacted": false,
           "title": "You: \"Crawl in.\"",
+          "actor": "You",
+          "to": "Bed",
           "articyId": "0x0100005A0001243B",
-          "text": "Crawl in.",
+          "english": "Crawl in.",
+          "polish": "Wpełznij pod pościel.",
+          "belarusian": "Паўзі пад коўдру.",
           "links": [
             {
               "id": 3,
+              "redacted": false,
               "title": "Bed: \"The sheets feel at once coarse and...\"",
+              "actor": "Bed",
+              "to": "You",
               "articyId": "0x010000710000163A",
-              "text": "The sheets feel at once coarse and clammy against your skin. The bed sags beneath your weight as you stretch out and finally close your eyes...",
+              "english": "The sheets feel at once coarse and clammy against your skin. The bed sags beneath your weight as you stretch out and finally close your eyes...",
+              "polish": "Pościel wydaje się jednocześnie szorstka i lepka. Łóżko ugina się pod twoim ciężarem, kiedy wyciągasz się i w końcu zamykasz oczy...",
+              "belarusian": "Пастель адначасова здаецца шурпатай і ліпкай. Ложак прагінаецца пад тваёй вагой, калі ты выцягваешся і, нарэшце, закрываеш вочы...",
               "links": [
                 {
                   "id": 13,
+                  "redacted": false,
                   "title": "Bed: \"And then sleep doesn't come.\"",
+                  "actor": "Bed",
+                  "to": "You",
                   "articyId": "0x010000030000028A",
-                  "text": "And then sleep doesn't come.",
+                  "english": "And then sleep doesn't come.",
+                  "polish": "Później zaś – sen nie nadchodzi.",
+                  "belarusian": "Пазней – сон не прыходзіць.",
                   "links": []
                 }
               ]
             },
             {
               "id": 29,
+              "redacted": false,
               "title": "Bed: \"The sheets feel at once coarse and...\"",
+              "actor": "Bed",
+              "to": "You",
               "articyId": "0x0100005A0001244E",
-              "text": "The sheets feel at once coarse and clammy against your skin. The bed sags beneath your weight as you stretch out and finally close your eyes...",
+              "english": "The sheets feel at once coarse and clammy against your skin. The bed sags beneath your weight as you stretch out and finally close your eyes...",
+              "polish": "Pościel wydaje się jednocześnie szorstka i lepka. Łóżko ugina się pod twoim ciężarem, kiedy wyciągasz się i w końcu zamykasz oczy...",
+              "belarusian": "Постэль здаецца адначасова шурпатай і ліпучай. Ложак прагнецца пад вашай вагой, калі вы расцягваецеся і нарэшце зачыняеце вочы...",
               "links": []
             }
           ]
         },
         {
           "id": 7,
+          "redacted": false,
           "title": "You: \"Go to sleep.\"",
+          "actor": "You",
+          "to": "Bed",
           "articyId": "0x0100005A0001256B",
-          "text": "Go to sleep.",
+          "english": "Go to sleep.",
+          "polish": "Idź spać.",
+          "belarusian": "Ідзі спаць.",
           "links": [
             {
               "id": 11,
+              "redacted": false,
               "title": "Bed: \"Across the room, the heating system...\"",
+              "actor": "Bed",
+              "to": "You",
               "articyId": "0x0100005A00012595",
-              "text": "Across the room, the heating system hums its soft lullaby. The mattress feels soft and sheets warm. It only takes you moments for the world to fall away...",
+              "english": "Across the room, the heating system hums its soft lullaby. The mattress feels soft and sheets warm. It only takes you moments for the world to fall away...",
+              "polish": "Ogrzewanie po drugiej stronie pokoju mruczy, jakby śpiewało kołysankę. Materac jest miękki, a pościel ciepła. Po ledwie kilku chwilach świat wokół ciebie znika...",
+              "belarusian": "Ацяпленне на другім баку пакоя гудзіць, быццам спявае калыханку. Матрац мяккі, а пасцельная бялізна цёплая. Праз некалькі імгненняў свет вакол цябе знікае...",
               "links": [
                 {
                   "id": 54,
+                  "redacted": true,
                   "title": "Bed: \"...\"",
+                  "actor": "Bed",
+                  "to": "You",
                   "articyId": "0x0100002100001245",
-                  "text": "...",
+                  "english": "...",
+                  "polish": "...",
+                  "belarusian": "...",
                   "links": []
                 }
               ]
             },
             {
               "id": 14,
+              "redacted": false,
               "title": "Bed: \"The window is fixed, the sheets are...\"",
+              "actor": "Bed",
+              "to": "You",
               "articyId": "0x01000021000023B7",
-              "text": "The window is fixed, the sheets are new, it's easier to fall asleep than ever before...",
+              "english": "The window is fixed, the sheets are new, it's easier to fall asleep than ever before...",
+              "polish": "Okno zostało naprawione, pościel jest świeża. Łatwiej tu zasnąć niż kiedykolwiek wcześniej...",
+              "belarusian": "Акно было адрамантавана, пасцельная бялізна свежая. Заснуць тут прасцей, чым калі-небудзь раней...",
               "links": [
                 {
                   "id": 25,
+                  "redacted": true,
                   "title": "Bed: \"...\"",
+                  "actor": "Bed",
+                  "to": "You",
                   "articyId": "0x010000210000124C",
-                  "text": "...",
+                  "english": "...",
+                  "polish": "...",
+                  "belarusian": "...",
                   "links": []
                 }
               ]
             },
             {
               "id": 38,
+              "redacted": false,
               "title": "Bed: \"The passage of time has not made th...\"",
+              "actor": "Bed",
+              "to": "You",
               "articyId": "0x0100005A00012579",
-              "text": "The passage of time has not made the sheets any less coarse. The bed sags beneath your weight as you close your eyes and drift off into an uneasy sleep...",
+              "english": "The passage of time has not made the sheets any less coarse. The bed sags beneath your weight as you close your eyes and drift off into an uneasy sleep...",
+              "polish": "Upływ czasu nie sprawił, że pościel stała się jakkolwiek mniej szorstka. Łóżko ugina się pod twoim ciężarem, kiedy zamykasz oczy i zapadasz w niespokojny sen...",
+              "belarusian": "Плынь часу не зрабіла пасцель менш шурпатай. Ложак прагінаецца пад тваёй цяжарам, калі ты закрываеш вочы і апускаешся ў неспакойны сон...",
               "links": []
             }
           ]
         },
         {
           "id": 48,
+          "redacted": false,
           "title": "You: \"Go to sleep.\"",
+          "actor": "You",
+          "to": "Bed",
           "articyId": "0x01000005000033E5",
-          "text": "Go to sleep.",
+          "english": "Go to sleep.",
+          "polish": "Idź spać.",
+          "belarusian": "Ідзі спаць.",
           "links": []
         },
         {
           "id": 49,
+          "redacted": false,
           "title": "You: \"Go to sleep.\"",
+          "actor": "You",
+          "to": "Bed",
           "articyId": "0x01000005000033EB",
-          "text": "Go to sleep.",
+          "english": "Go to sleep.",
+          "polish": "Idź spać.",
+          "belarusian": "Ідзі спаць.",
           "links": []
         },
         {
           "id": 2,
+          "redacted": false,
           "title": "You: \"Go to sleep.\"",
+          "actor": "You",
+          "to": "Bed",
           "articyId": "0x01000005000033F1",
-          "text": "Go to sleep.",
+          "english": "Go to sleep.",
+          "polish": "Idź spać.",
+          "belarusian": "Ідзі спаць.",
           "links": []
         },
         {
           "id": 10,
+          "redacted": false,
           "title": "You: \"Go to sleep.\"",
+          "actor": "You",
+          "to": "Bed",
           "articyId": "0x01000005000033F7",
-          "text": "Go to sleep.",
+          "english": "Go to sleep.",
+          "polish": "Idź spać.",
+          "belarusian": "Ідзі спаць.",
           "links": []
         },
         {
           "id": 43,
+          "redacted": false,
           "title": "You: \"Go to sleep.\"",
+          "actor": "You",
+          "to": "Bed",
           "articyId": "0x01000005000033FD",
-          "text": "Go to sleep.",
+          "english": "Go to sleep.",
+          "polish": "Idź spać.",
+          "belarusian": "Ідзі спаць.",
           "links": []
         },
         {
           "id": 8,
+          "redacted": false,
           "title": "You: \"Go to sleep.\"",
+          "actor": "You",
+          "to": "Bed",
           "articyId": "0x0100000500003408",
-          "text": "Go to sleep.",
+          "english": "Go to sleep.",
+          "polish": "Idź spać.",
+          "belarusian": "Ідзі спаць.",
           "links": []
         },
         {
           "id": 37,
+          "redacted": false,
           "title": "You: \"No time to rest yet. [Leave.]\"",
+          "actor": "You",
+          "to": "Bed",
           "articyId": "0x0100005A00012447",
-          "text": "No time to rest yet. [Leave.]",
+          "english": "No time to rest yet. [Leave.]",
+          "polish": "To jeszcze nie czas na odpoczynek. [Odejdź].",
+          "belarusian": "Гэта яшчэ не час для адпачынку. [Адыдзі].",
           "links": []
         },
         {
           "id": 44,
+          "redacted": false,
           "title": "Tutorial Agent: \"The option to go to sleep becomes a...\"",
+          "actor": "Tutorial Agent",
+          "to": "You",
           "articyId": "0x010000210000187C",
-          "text": "The option to go to sleep becomes available every night after 21.00.",
+          "english": "The option to go to sleep becomes available every night after 21.00.",
+          "polish": "Opcja pójścia spać staje się dostępna każdego wieczora po 21:00.",
+          "belarusian": "Варыянт пайсці спаць становіцца даступным кожны вечар пасля 21:00.",
           "links": []
         }
       ]
     },
     {
       "id": 50,
+      "redacted": false,
       "title": "Bed: \"The bed's a little nicer now. You c...\"",
+      "actor": "Bed",
+      "to": "You",
       "articyId": "0x01000021000023A0",
-      "text": "The bed's a little nicer now. You could get a good night's sleep here.",
+      "english": "The bed's a little nicer now. You could get a good night's sleep here.",
+      "polish": "Łóżko jest teraz nieco przyjemniejsze. Mógłbyś się tu nieźle wyspać.",
+      "belarusian": "Ложак цяпер крыху прыемнейшы. Ты мог бы тут добра выспацца.",
       "links": []
     },
     {
       "id": 47,
+      "redacted": false,
       "title": "Bed: \"The bed is still cold from the brok...\"",
+      "actor": "Bed",
+      "to": "You",
       "articyId": "0x0100005A000124C1",
-      "text": "The bed is still cold from the broken window, and not too inviting. But it's yours. You've earned it.",
+      "english": "The bed is still cold from the broken window, and not too inviting. But it's yours. You've earned it.",
+      "polish": "Łóżko wciąż jest zimne przez tę rozbitą szybę i nie wygląda zbyt zapraszająco. Ale jest twoje. Zapracowałeś na nie.",
+      "belarusian": "Ложак усё яшчэ халодны праз гэтую разбітую шыбу і не выглядае занадта запрашальна. Але ён твой. Ты яго заслужыў.",
       "links": []
     },
     {
       "id": 9,
+      "redacted": false,
       "title": "Bed: \"The bed is cold and not particularl...\"",
+      "actor": "Bed",
+      "to": "You",
       "articyId": "0x0100005A00012483",
-      "text": "The bed is cold and not particularly inviting, but it's yours. The sheets look awful...",
+      "english": "The bed is cold and not particularly inviting, but it's yours. The sheets look awful...",
+      "polish": "Łóżko jest zimne i nie wygląda szczególnie zapraszająco, ale za to jest twoje. Pościel wygląda okropnie...",
+      "belarusian": "Ложак халодны і не выглядае асабліва прывабна, але затое ён твой. Пасцельная бялізна выглядае жудасна...",
       "links": []
     }
   ]

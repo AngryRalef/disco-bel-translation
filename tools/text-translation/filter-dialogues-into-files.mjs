@@ -1,6 +1,7 @@
 import fs from 'fs';
 
 const dialoguesTreePath = './../../text/dialogues-tree.json';
+const translations = JSON.parse(fs.readFileSync('./../../text/translated/dialogues-translated.json', 'utf8'));
 
 async function findRootDialogueEntry(dialogueEntries) {
   if (!dialogueEntries) {
@@ -24,36 +25,6 @@ async function createDialogueFile(filename, data) {
   fs.writeFileSync(`./../../text/dialogues/${filename}.json`, JSON.stringify(data, null, 2));
 }
 
-async function findDialogueEntryById(dialogueEntries, id) {
-  return dialogueEntries.find(dialogueEntry => dialogueEntry.id === id);
-}
-
-async function getDialogueEntriesRecursive(allEntries, dialogueEntry, visitedEntries = []) {
-  const dialogueEntries = [];
-
-  if (!dialogueEntry) {
-    return null;
-  }
-  if (visitedEntries.includes(dialogueEntry.id)) {
-    return null;
-  }
-
-  completedEntries.push(dialogueEntry.id);
-
-  for (const outgoingLink of dialogueEntry.outgoingLinks.Array) {
-    const nextDialogueEntry = await findDialogueEntryById(allEntries, outgoingLink.destinationDialogueID);
-    dialogueEntries.push(await getDialogueEntriesRecursive(allEntries, nextDialogueEntry, completedEntries));
-  }
-
-  return {
-    id: dialogueEntry.id,
-    title: dialogueEntry.fields.Array.find(field => field.title === 'Title')?.value,
-    articyId: dialogueEntry.fields.Array.find(field => field.title === 'Articy Id')?.value,
-    text: dialogueEntry.fields.Array.find(field => field.title === 'Dialogue Text')?.value,
-    dialogueEntries,
-  }
-}
-
 async function buildFullTree(dialogues) {
   const dialogueMap = new Map();
 
@@ -74,13 +45,13 @@ async function buildFullTree(dialogues) {
 
     visited.add(node.id);
 
-    const treeNode = {
+    const treeNode = await getTranslationForDialogue({
       id: node.id,
       title: node.fields.Array.find(field => field.title === 'Title')?.value,
       articyId: node.fields.Array.find(field => field.title === 'Articy Id')?.value,
       text: node.fields.Array.find(field => field.title === 'Dialogue Text')?.value,
       links: []
-    };
+    });
     resultMap.set(node.id, treeNode);
 
     if (parent) {
@@ -125,6 +96,27 @@ async function buildDialogueTree(dialogues) {
 
   const hiddenSet = new Set(dialogues.filter(d => !d.fields.Array.find(field => field.title === 'Dialogue Text')).map(d => d.id));
   return removeHiddenNodes(fullTree, hiddenSet);
+}
+
+async function getTranslationForDialogue(dialogue) {
+  const translation = translations[`Dialogue Text/${dialogue.articyId}`];
+
+  if (!translation) {
+    return dialogue;
+  }
+
+  return {
+    id: dialogue.id,
+    redacted: translation.redacted,
+    title: dialogue.title,
+    actor: translation.actor,
+    to: translation.to,
+    articyId: dialogue.articyId,
+    english: dialogue.text,
+    polish: translation.polish,
+    belarusian: translation.belarusian,
+    links: dialogue.links,
+  }
 }
 
 async function filterDialoguesIntoFiles() {

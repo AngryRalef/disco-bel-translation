@@ -5,69 +5,119 @@
   "dialogueTree": [
     {
       "id": 15,
+      "redacted": false,
       "title": "Door, Apartment #12: \"A shabby door hangs oddly on its hi...\"",
+      "actor": "Door, Apartment #12",
+      "to": "You",
       "articyId": "0x0100008F000001D2",
-      "text": "A shabby door hangs oddly on its hinges, secured to the doorframe with a safety chain. An unpaid energy bill is attached, threatening to cut off the electricity. It's addressed to Mr. Uuno de Ruyter.",
+      "english": "A shabby door hangs oddly on its hinges, secured to the doorframe with a safety chain. An unpaid energy bill is attached, threatening to cut off the electricity. It's addressed to Mr. Uuno de Ruyter.",
+      "polish": "Odrapane drzwi zwisają dziwacznie na zawiasach, przytwierdzone do futryny łańcuchem. Ktoś przyczepił do nich nieopłacony rachunek za prąd z groźbą jego odcięcia. Adresatem jest pan Uuno de Ruyter.",
+      "belarusian": "Адзёртыя дзверы дзіўна звісаюць на завесах, прымацаваныя да рамы ланцугом. Хтосьці прымацаваў да іх неаплачаны рахунак за электраэнергію з пагрозай яе адключэння. Адрасат — пан Ууна дэ Руйтер.",
       "links": [
         {
           "id": 83,
+          "redacted": false,
           "title": "You: \"\"Looks like we found where Cuno's d...\"",
+          "actor": "You",
+          "to": "Door, Apartment #12",
           "articyId": "0x0100008F000001F3",
-          "text": "\"Looks like we found where Cuno's dad lives.\" (Point to the bill on the door.)",
+          "english": "\"Looks like we found where Cuno's dad lives.\" (Point to the bill on the door.)",
+          "polish": "„Chyba znaleźliśmy mieszkanie ojca Cuna”. (Wskaż na rachunek).",
+          "belarusian": "«Здаецца, мы знайшлі кватэру бацькі Куна». (Пакажыце на рахунак).",
           "links": [
             {
               "id": 67,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"And the place comes with three mon...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100008F0000021A",
-              "text": "\"And the place comes with three months' worth of utility bills.\"",
+              "english": "\"And the place comes with three months' worth of utility bills.\"",
+              "polish": "„Znaleźliśmy też nieopłacone rachunki za ostatnie trzy miesiące”.",
+              "belarusian": "„Мы таксама знайшлі неаплачаныя рахункі за апошнія тры месяцы”.",
               "links": []
             }
           ]
         },
         {
           "id": 48,
+          "redacted": false,
           "title": "You: \"Knock lightly.\"",
+          "actor": "You",
+          "to": "Door, Apartment #12",
           "articyId": "0x0100008F000001ED",
-          "text": "Knock lightly.",
+          "english": "Knock lightly.",
+          "polish": "Zapukaj cicho.",
+          "belarusian": "Пастукай ціха.",
           "links": [
             {
               "id": 51,
+              "redacted": false,
               "title": "Door, Apartment #12: \"No response.\"",
+              "actor": "Door, Apartment #12",
+              "to": "You",
               "articyId": "0x0100008F00000250",
-              "text": "No response.",
+              "english": "No response.",
+              "polish": "Żadnej odpowiedzi.",
+              "belarusian": "Ніякага адказу.",
               "links": [
                 {
                   "id": 41,
+                  "redacted": false,
                   "title": "Perception (Sight): \"The apartment numbers have fallen o...\"",
+                  "actor": "Perception (Sight)",
+                  "to": "You",
                   "articyId": "0x0100008F000001D8",
-                  "text": "The apartment numbers have fallen off the door, leaving the panel with a sticky '1'-shaped shadow and a marker-drawn '2'.",
+                  "english": "The apartment numbers have fallen off the door, leaving the panel with a sticky '1'-shaped shadow and a marker-drawn '2'.",
+                  "polish": "Numer mieszkania odpadł od drzwi, pozostawiając po sobie lepki cień cyfry 1 i dopisaną markerem cyfrę 2.",
+                  "belarusian": "Нумар кватэры адарваўся ад дзвярэй, пакінуўшы пасля сябе ліпкі след лічбы 1 і дапісаную маркерам лічбу 2.",
                   "links": [
                     {
                       "id": 80,
+                      "redacted": false,
                       "title": "Half Light: \"Nothing happens?! It must be an amb...\"",
+                      "actor": "Half Light",
+                      "to": "You",
                       "articyId": "0x0100008F00000214",
-                      "text": "Nothing happens?! It must be an ambush... Let's get your adrenaline pumping, just in case.",
+                      "english": "Nothing happens?! It must be an ambush... Let's get your adrenaline pumping, just in case.",
+                      "polish": "Nic się nie dzieje?! To musi być pułapka. Na wszelki wypadek podnieśmy ci poziom adrenaliny.",
+                      "belarusian": "Нічога не адбываецца?! Гэта павінна быць пастка. На ўсялякі выпадак павысім табе ўзровень адрэналіну.",
                       "links": []
                     },
                     {
                       "id": 25,
+                      "redacted": false,
                       "title": "Interfacing: \"Good thing you already have the cha...\"",
+                      "actor": "Interfacing",
+                      "to": "You",
                       "articyId": "0x0100008200008DD0",
-                      "text": "Good thing you already have the chaincutters in your hand! Nothing left to do now but *snip-snip*!",
+                      "english": "Good thing you already have the chaincutters in your hand! Nothing left to do now but *snip-snip*!",
+                      "polish": "Dobrze, że masz już te nożyce w dłoni! Pozostało ci tylko zrobić *ciach-ciach*!",
+                      "belarusian": "Добра, што ў цябе ўжо гэтыя нажніцы ў руках! Засталося толькі зрабіць *чах-чах*!",
                       "links": []
                     },
                     {
                       "id": 21,
+                      "redacted": false,
                       "title": "Interfacing: \"You'll need to equip the chaincutte...\"",
+                      "actor": "Interfacing",
+                      "to": "You",
                       "articyId": "0x0100008200008DC1",
-                      "text": "You'll need to equip the chaincutters to enter. Snip right through the metal!",
+                      "english": "You'll need to equip the chaincutters to enter. Snip right through the metal!",
+                      "polish": "Musisz wyposażyć się w nożyce do metalu, żeby tam wejść. Rozciachać ten metal!",
+                      "belarusian": "Вы павінны аснасціць сябе нажніцамі для металу, каб туды ўвайсці. Рассячы гэты метал!",
                       "links": []
                     },
                     {
                       "id": 92,
+                      "redacted": false,
                       "title": "Interfacing: \"The door is locked by a chain. If o...\"",
+                      "actor": "Interfacing",
+                      "to": "You",
                       "articyId": "0x0100008200008DBB",
-                      "text": "The door is locked by a chain. If only you had some kind of standard police device for the cutting of chains. Something, perhaps, that could be found in an RCM motor carriage...",
+                      "english": "The door is locked by a chain. If only you had some kind of standard police device for the cutting of chains. Something, perhaps, that could be found in an RCM motor carriage...",
+                      "polish": "Drzwi są zamknięte na łańcuch. Gdybyś tylko miał jakieś typowe policyjne urządzenie do ich rozcinania. Na przykład takie, które znajduje się na wyposażeniu powozów motorowych MOR-u...",
+                      "belarusian": "Дзверы зачынены на ланцуг. Калі б у цябе было нейкае тыповае паліцэйскае абсталяванне для іх разразання. Напрыклад, такое, якое ёсць у камплекце маторных павозак РГМ...",
                       "links": []
                     }
                   ]
@@ -78,34 +128,59 @@
         },
         {
           "id": 17,
+          "redacted": false,
           "title": "You: \"Use the cutters on the chain.\"",
+          "actor": "You",
+          "to": "Door, Apartment #12",
           "articyId": "0x0100008F00002D7C",
-          "text": "Use the cutters on the chain.",
+          "english": "Use the cutters on the chain.",
+          "polish": "Użyj nożyc na łańcuchu.",
+          "belarusian": "Выкарыстайце нажніцы на ланцугу.",
           "links": [
             {
               "id": 89,
+              "redacted": false,
               "title": "Interfacing: \"Snip! So much for that goddamn chai...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100008F00002E7E",
-              "text": "Snip! So much for that goddamn chain. The links fall to the ground on the other side of the door. You have bested the titanium menace.",
+              "english": "Snip! So much for that goddamn chain. The links fall to the ground on the other side of the door. You have bested the titanium menace.",
+              "polish": "Ciach! I tyle z tego cholernego łańcucha. Ogniwa spadają na ziemię po drugiej stronie drzwi. Pokonałeś tytanowego wroga.",
+              "belarusian": "Чах! І ўсё з гэтага праклятага ланцуга. Звёны падаюць на зямлю на другім баку дзвярэй. Ты перамог тытанавага ворага.",
               "links": [
                 {
                   "id": 52,
+                  "redacted": false,
                   "title": "Half Light: \"Don't let the quiet fool you -- the...\"",
+                  "actor": "Half Light",
+                  "to": "You",
                   "articyId": "0x0100008F00000396",
-                  "text": "Don't let the quiet fool you -- the beast is in there somewhere, ready to rip you to shreds with a broken bottle...",
+                  "english": "Don't let the quiet fool you -- the beast is in there somewhere, ready to rip you to shreds with a broken bottle...",
+                  "polish": "Nie daj się uśpić tej ciszy – bestia się gdzieś tam czai, gotowa rozerwać cię na strzępy stłuczoną butelką...",
+                  "belarusian": "Не дай сябе ўкалаваць гэтай цішынёй — дзесьці там хаваецца звер, гатовы разарваць цябе на кавалкі разбітай бутэлькай...",
                   "links": [
                     {
                       "id": 16,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"The lieutenant looks worried. \"I kn...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100008F0000020E",
-                      "text": "The lieutenant looks worried. \"I know there's no stopping you -- but let's at least make this quick.\"",
+                      "english": "The lieutenant looks worried. \"I know there's no stopping you -- but let's at least make this quick.\"",
+                      "polish": "Porucznik wygląda na zaniepokojonego. „Wiem, że nie wybiję ci tego z głowy, ale czy możemy przynajmniej załatwić to szybko?”",
+                      "belarusian": "Лейтэнант выглядае занепакоеным. «Ведаю, што не выб'ю гэтага ў цябе з галавы, але ці можам мы прынамсі зрабіць гэта хутка?»",
                       "links": []
                     },
                     {
                       "id": 93,
+                      "redacted": false,
                       "title": "Interfacing: \"You can just go in now...\"",
+                      "actor": "Interfacing",
+                      "to": "You",
                       "articyId": "0x010000060001E64E",
-                      "text": "You can just go in now...",
+                      "english": "You can just go in now...",
+                      "polish": "Możesz już po prostu wejść...",
+                      "belarusian": "Вы ўжо можаце проста ўвайсці...",
                       "links": []
                     }
                   ]
@@ -114,74 +189,129 @@
             },
             {
               "id": 32,
+              "redacted": false,
               "title": "Interfacing: \"Snip! The cutter goes through them...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100008F00000256",
-              "text": "Snip! The cutter goes through them like dead leaves. The links fall to the ground on the other side of the door.",
+              "english": "Snip! The cutter goes through them like dead leaves. The links fall to the ground on the other side of the door.",
+              "polish": "Ciach! Nożyce rozcinają łańcuch jak papier. Ogniwa spadają na ziemię po drugiej stronie drzwi.",
+              "belarusian": "Чах! Ножыцы разразаюць ланцуг, як паперу. Звенні падаюць на зямлю па другі бок дзвярэй.",
               "links": []
             },
             {
               "id": 47,
+              "redacted": false,
               "title": "Interfacing: \"Like a goddamn maniac, you rip the...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100002F00012C9B",
-              "text": "Like a goddamn maniac, you rip the chain off the door. The links lie on the floor, scattered.",
+              "english": "Like a goddamn maniac, you rip the chain off the door. The links lie on the floor, scattered.",
+              "polish": "Jak jakiś pieprzony maniak odrywasz łańcuch od drzwi. Jego ogniwa rozsypują się na podłodze.",
+              "belarusian": "Як нейкі чортаў маньяк адрываеш ланцуг ад дзвярэй. Яго звёны рассыпаюцца па падлозе.",
               "links": []
             },
             {
               "id": 31,
+              "redacted": false,
               "title": "Interfacing: \"Like a goddamn maniac, you rip the...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100002F00012C85",
-              "text": "Like a goddamn maniac, you rip the chain off the door. The links lie on the floor, scattered.",
+              "english": "Like a goddamn maniac, you rip the chain off the door. The links lie on the floor, scattered.",
+              "polish": "Jak jakiś pieprzony maniak odrywasz łańcuch od drzwi. Jego ogniwa rozsypują się na podłodze.",
+              "belarusian": "Як нейкі халодны маньяк ты адрываеш ланцуг ад дзвярэй. Яго звенні рассейваюцца па падлозе.",
               "links": []
             },
             {
               "id": 2,
+              "redacted": false,
               "title": "Interfacing: \"This is not something you should be...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100000200001198",
-              "text": "This is not something you should be attempting to do with your bare hands. You're just going to get hurt.",
+              "english": "This is not something you should be attempting to do with your bare hands. You're just going to get hurt.",
+              "polish": "Nie jest to coś, co powinieneś próbować zrobić gołymi rękami. Zrobisz sobie tylko krzywdę.",
+              "belarusian": "Гэта не тое, што ты павінен спрабаваць рабіць голымі рукамі. Ты толькі нашкодзіш сабе.",
               "links": []
             },
             {
               "id": 53,
+              "redacted": false,
               "title": "Interfacing: \"How... how can this be?! How can su...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100008F00002E5B",
-              "text": "How... how can this be?! How can such a simple chain defy our best efforts? Are you *that* bad with your hands? I do not understand...",
+              "english": "How... how can this be?! How can such a simple chain defy our best efforts? Are you *that* bad with your hands? I do not understand...",
+              "polish": "Jak... Jak to możliwe?! Jak taki prosty łańcuch może naśmiewać się wręcz z twoich starań! Jesteś *aż tak* niezdarny? Nie rozumiem...",
+              "belarusian": "Як... Як гэта магчыма?! Як такі просты ланцужок можа наракаць над тваімі намаганнямі! Ты *да такой ступені* няўклюдны? Не разумею...",
               "links": []
             },
             {
               "id": 40,
+              "redacted": false,
               "title": "Interfacing: \"It should be easy, but... it's just...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x0100008F00002D8D",
-              "text": "It should be easy, but... it's just an awkward angle, okay? The door doesn't *really* open wide enough to really get the cutters through. You can't get the leverage you need. And the cutters are blunt. AND the chain is... just super strong, okay? It's not your fault you can't cut it!",
+              "english": "It should be easy, but... it's just an awkward angle, okay? The door doesn't *really* open wide enough to really get the cutters through. You can't get the leverage you need. And the cutters are blunt. AND the chain is... just super strong, okay? It's not your fault you can't cut it!",
+              "polish": "Powinno pójść łatwo, ale... to niewygodny kąt, okej? Drzwi nie otwierają się w zasadzie na tyle łatwo, żeby przecisnąć przez nie nożyce. Nie możesz użyć dźwigni, której potrzebujesz. W dodatku nożyce są tępe. NO I łańcuch jest... po prostu bardzo mocny, dobra? To nie twoja wina, że nie możesz go przeciąć!",
+              "belarusian": "Мусіць пайсці лёгка, але... гэта няўтульны вугал, добра? Дзверы на самай справе не адчыняюцца настолькі лёгка, каб праз іх можна было праціснуць нажніцы. Ты не можаш выкарыстаць рычаг, які табе патрэбны. Далей, нажніцы тупыя. І ЛАНЦУГ... проста вельмі моцны, добра? Гэта не твая віна, што ты не можаш яго перарэзаць!",
               "links": [
                 {
                   "id": 63,
+                  "redacted": false,
                   "title": "Perception (Hearing): \"Fabric rustles. The lieutenant's ch...\"",
+                  "actor": "Perception (Hearing)",
+                  "to": "You",
                   "articyId": "0x0100008F00002E1E",
-                  "text": "Fabric rustles. The lieutenant's chin catches against his collar. He is looking on, shaking his head in disappointment.",
+                  "english": "Fabric rustles. The lieutenant's chin catches against his collar. He is looking on, shaking his head in disappointment.",
+                  "polish": "Słyszysz szmer materiału – to broda porucznika ociera o kołnierzyk. Patrzy na ciebie i kręci z rozczarowaniem głową.",
+                  "belarusian": "Чуеш шолах тканіны — гэта барада лейтэнанта траціцца аб каўнер. Ён глядзіць на цябе і расчаравана трасе галавой.",
                   "links": [
                     {
                       "id": 30,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"The lieutenant smiles. \"Trouble wit...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100008F00002DDF",
-                      "text": "The lieutenant smiles. \"Trouble with the chain, officer?\"",
+                      "english": "The lieutenant smiles. \"Trouble with the chain, officer?\"",
+                      "polish": "Porucznik uśmiecha się. „Problemy z łańcuchem, oficerze?”",
+                      "belarusian": "Лейтэнант усміхаецца. „Праблемы з ланцугом, афіцэр?”",
                       "links": [
                         {
                           "id": 87,
+                          "redacted": false,
                           "title": "You: \"\"These are no ordinary chains... th...\"",
+                          "actor": "You",
+                          "to": "Door, Apartment #12",
                           "articyId": "0x0100008F00002DEC",
-                          "text": "\"These are no ordinary chains... they are *titanium* chains. *Supreme-titanium*, Kim.\"",
+                          "english": "\"These are no ordinary chains... they are *titanium* chains. *Supreme-titanium*, Kim.\"",
+                          "polish": "„To nie jest zwykły łańcuch... tylko *tytanowy*. Z *najwyższej jakości tytanu*, Kim”.",
+                          "belarusian": "«Гэта не звычайны ланцужок... а *тытанавы*. З *найвышэйшай якасці тытану*, Кім».",
                           "links": [
                             {
                               "id": 33,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"*Supreme-titanium*?\" The lieutenan...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100008F00002E11",
-                              "text": "\"*Supreme-titanium*?\" The lieutenant blinks. \"Sure. A door inside this complex has super-hard, super-expensive chains.\"",
+                              "english": "\"*Supreme-titanium*?\" The lieutenant blinks. \"Sure. A door inside this complex has super-hard, super-expensive chains.\"",
+                              "polish": "„*Najwyższej jakości tytan*?” – porucznik mruga. „Oczywiście. Drzwi w tym przybytku są wyposażone w wyjątkowo twarde i wyjątkowo drogie łańcuchy”.",
+                              "belarusian": "«*Найвышэйшай якасці тытан*?» – лейтэнант міргае. «Канешне. Дзверы ў гэтым установе абсталяваны выключна цвёрдымі і выключна дарагімі ланцугамі».",
                               "links": [
                                 {
                                   "id": 88,
+                                  "redacted": false,
                                   "title": "Interfacing: \"You can't stand for that! Come on,...\"",
+                                  "actor": "Interfacing",
+                                  "to": "You",
                                   "articyId": "0x0100008F00002E51",
-                                  "text": "You can't stand for that! Come on, show him what you can REALLY do!",
+                                  "english": "You can't stand for that! Come on, show him what you can REALLY do!",
+                                  "polish": "Nie możesz na to pozwolić! Dalej, pokaż mu, na co cię NAPRAWDĘ stać!",
+                                  "belarusian": "Вы не можаце гэтага дазволіць! Далей, пакажыце яму, на што вы НАСАМРЭЧ здольныя!",
                                   "links": []
                                 }
                               ]
@@ -190,30 +320,50 @@
                         },
                         {
                           "id": 69,
+                          "redacted": false,
                           "title": "You: \"\"Hey, don't look at me! You're the...\"",
+                          "actor": "You",
+                          "to": "Door, Apartment #12",
                           "articyId": "0x0100008F00002DF2",
-                          "text": "\"Hey, don't look at me! You're the one packing shitty chaincutters.\"",
+                          "english": "\"Hey, don't look at me! You're the one packing shitty chaincutters.\"",
+                          "polish": "„Hej, to nie moja wina! To ty masz gówniane nożyce”.",
+                          "belarusian": "«Гэй, гэта не мая віна! Гэта ў цябе дрэнныя нажніцы».",
                           "links": [
                             {
                               "id": 82,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Of course, officer.\" The lieutenan...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100008F00002E0B",
-                              "text": "\"Of course, officer.\" The lieutenant smiles obligingly. \"My RCM regulation, recently distributed cutters are the problem.\"",
+                              "english": "\"Of course, officer.\" The lieutenant smiles obligingly. \"My RCM regulation, recently distributed cutters are the problem.\"",
+                              "polish": "„Oczywiście, oficerze” – porucznik uśmiecha się uprzejmie. „To przyznane mi niedawno i zgodne z regulacjami MOR-u nożyce są problemem”.",
+                              "belarusian": "„Вядома, афіцэр” — лейтэнант ветліва ўсміхаецца. „Гэта нядаўна выдзеленыя і адпаведныя рэгуляцыям РГМ нажніцы з'яўляюцца праблемай”.",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 81,
+                          "redacted": false,
                           "title": "You: \"\"I'll be honest: I'm just not that...\"",
+                          "actor": "You",
+                          "to": "Door, Apartment #12",
                           "articyId": "0x0100008F00002DF8",
-                          "text": "\"I'll be honest: I'm just not that good with my hands.\"",
+                          "english": "\"I'll be honest: I'm just not that good with my hands.\"",
+                          "polish": "„Powiem szczerze: nieszczególnie zręczne mam te swoje ręce”.",
+                          "belarusian": "„Скажу шчыра: мае рукі не асабліва ўмелыя”.",
                           "links": [
                             {
                               "id": 45,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"The lieutenant arches his eyebrows,...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100008F00002E05",
-                              "text": "The lieutenant arches his eyebrows, surprised. \"Well... no. I guess not.\"",
+                              "english": "The lieutenant arches his eyebrows, surprised. \"Well... no. I guess not.\"",
+                              "polish": "Porucznik unosi z zaskoczeniem brew. „No cóż... Na to wygląda”.",
+                              "belarusian": "Лейтэнант з здзіўленнем падымае брыво. «Ну што ж... Выглядае на тое».",
                               "links": []
                             }
                           ]
@@ -224,9 +374,14 @@
                 },
                 {
                   "id": 46,
+                  "redacted": false,
                   "title": "Interfacing: \"Stupid chain... Come on, try it aga...\"",
+                  "actor": "Interfacing",
+                  "to": "You",
                   "articyId": "0x0100008F00002E44",
-                  "text": "Stupid chain... Come on, try it again. We won't be defeated so easily!",
+                  "english": "Stupid chain... Come on, try it again. We won't be defeated so easily!",
+                  "polish": "Głupi łańcuch... No, spróbuj jeszcze raz. Nie damy się tak łatwo pokonać!",
+                  "belarusian": "Дурны ланцуг... Ну, паспрабуй яшчэ раз. Мы не дазволім сябе так лёгка перамагчы!",
                   "links": []
                 }
               ]
@@ -235,29 +390,49 @@
         },
         {
           "id": 90,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Door, Apartment #12",
           "articyId": "0x0100002F0000FEA5",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Сыходзь].",
           "links": []
         },
         {
           "id": 3,
+          "redacted": false,
           "title": "Electrochemistry: \"Your heartbeat quickens, palms go s...\"",
+          "actor": "Electrochemistry",
+          "to": "You",
           "articyId": "0x0100008F000001FF",
-          "text": "Your heartbeat quickens, palms go sweaty... The siren of amphetamine is singing you her song.",
+          "english": "Your heartbeat quickens, palms go sweaty... The siren of amphetamine is singing you her song.",
+          "polish": "Twój puls wzrasta, dłonie się pocą... Syrena amfetaminy wabi cię swoją pieśnią.",
+          "belarusian": "Твой пульс узрастае, далоні пацяюць... Сірэна амфетаміну вабіць цябе сваёй песняй.",
           "links": []
         },
         {
           "id": 49,
+          "redacted": false,
           "title": "Door, Apartment #12: \"The handle is loose from violent, f...\"",
+          "actor": "Door, Apartment #12",
+          "to": "You",
           "articyId": "0x0100008F00002DC7",
-          "text": "The handle is loose from violent, fruitless yanking. Paint at the door's bottom is chipped from kicking. People have tried often, and apparently without success, to enter.",
+          "english": "The handle is loose from violent, fruitless yanking. Paint at the door's bottom is chipped from kicking. People have tried often, and apparently without success, to enter.",
+          "polish": "Klamka poluzowała się od gwałtownego, bezskutecznego szarpania. Farba na drzwiach odłazi od kopniaków. Wielu ludzi próbowało tu wejść. Nieraz i, jak się zdaje, bez powodzenia.",
+          "belarusian": "Ручка разхісталася ад рэзкага, няўдалага дрыжання. Фарба на дзвярах аблупліваецца ад удараў нагой. Шмат людзей спрабавалі сюды ўвайсці. Часта і, як падаецца, безвынікова.",
           "links": [
             {
               "id": 5,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"The lieutenant shakes his head. \"We...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100008F00002DD3",
-              "text": "The lieutenant shakes his head. \"We've no business here. Let's get back to the investigation.\"",
+              "english": "The lieutenant shakes his head. \"We've no business here. Let's get back to the investigation.\"",
+              "polish": "Porucznik kręci głową. „Nie powinniśmy byli tu przychodzić. Wracajmy do naszego śledztwa”.",
+              "belarusian": "Лейтэнант закручвае галавой. „Мы не павінны былі сюды прыходзіць. Вяртаймася да нашага расследавання”.",
               "links": []
             }
           ]

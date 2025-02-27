@@ -5,210 +5,365 @@
   "dialogueTree": [
     {
       "id": 163,
+      "redacted": false,
       "title": "Medicine Cabinet: \"The cabinet is cleaned out, emptied...\"",
+      "actor": "Medicine Cabinet",
+      "to": "You",
       "articyId": "0x010000060000DA33",
-      "text": "The cabinet is cleaned out, emptied.",
+      "english": "The cabinet is cleaned out, emptied.",
+      "polish": "Szafka jest wyczyszczona, pusta.",
+      "belarusian": "Шафа вычышчана, пустая.",
       "links": [
         {
           "id": 88,
+          "redacted": false,
           "title": "Logic: \"Probably Garte's work. After she wa...\"",
+          "actor": "Logic",
+          "to": "You",
           "articyId": "0x010000060000DA3B",
-          "text": "Probably Garte's work. After she was arrested.",
+          "english": "Probably Garte's work. After she was arrested.",
+          "polish": "To pewnie dzieło Garte'a. Po tym, jak ją aresztowano.",
+          "belarusian": "Гэта, напэўна, справа Гарта. Пасля таго, як яе арыштавалі.",
           "links": []
         }
       ]
     },
     {
       "id": 56,
+      "redacted": false,
       "title": "Medicine Cabinet: \"The medicine cabinet has been clean...\"",
+      "actor": "Medicine Cabinet",
+      "to": "You",
       "articyId": "0x010000450001AD9A",
-      "text": "The medicine cabinet has been cleaned out. Nothing remains, not one pill or bottle.",
+      "english": "The medicine cabinet has been cleaned out. Nothing remains, not one pill or bottle.",
+      "polish": "Szafka na leki została opróżniona. Nie ma w niej nic, ani jednego blistra czy butelki.",
+      "belarusian": "Аптэчка была апаражнена. У ёй няма нічога, ні адной таблеці, ні бутэлькі.",
       "links": [
         {
           "id": 21,
+          "redacted": false,
           "title": "Electrochemistry: \"Pity.\"",
+          "actor": "Electrochemistry",
+          "to": "You",
           "articyId": "0x010000450001ADAF",
-          "text": "Pity.",
+          "english": "Pity.",
+          "polish": "Szkoda.",
+          "belarusian": "Шкада.",
           "links": [
             {
               "id": 147,
+              "redacted": false,
               "title": "You: \"\"I was kinda hoping the *gift* woul...\"",
+              "actor": "You",
+              "to": "Medicine Cabinet",
               "articyId": "0x010000450001ADB9",
-              "text": "\"I was kinda hoping the *gift* would be in here.\"",
+              "english": "\"I was kinda hoping the *gift* would be in here.\"",
+              "polish": "„Miałem nadzieję, że będzie tu ten *prezent*”.",
+              "belarusian": "„Я спадзяваўся, што гэты *падарунак* будзе тут”.",
               "links": [
                 {
                   "id": 82,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"Of course you were.\" He nods. \"How...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x010000450001AE15",
-                  "text": "\"Of course you were.\" He nods. \"How does that work anyway?\"",
+                  "english": "\"Of course you were.\" He nods. \"How does that work anyway?\"",
+                  "polish": "„Oczywiście” – kiwa głową. „Jak to właściwie działa?”",
+                  "belarusian": "«Вядома», — ківае ён галавой. «Як гэта насамрэч працуе?»",
                   "links": [
                     {
                       "id": 148,
+                      "redacted": false,
                       "title": "You: \"\"How does what work?\"\"",
+                      "actor": "You",
+                      "to": "Medicine Cabinet",
                       "articyId": "0x010000450001AE1C",
-                      "text": "\"How does what work?\"",
+                      "english": "\"How does what work?\"",
+                      "polish": "„Jak to działa?”",
+                      "belarusian": "„Як гэта працуе?”",
                       "links": [
                         {
                           "id": 150,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"Amphetamine -- does it make you a...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x010000450001AE32",
-                          "text": "\"Amphetamine -- does it make you a better detective?\"",
+                          "english": "\"Amphetamine -- does it make you a better detective?\"",
+                          "polish": "„Amfetamina – czy dzięki niej stajesz się lepszym detektywem?”",
+                          "belarusian": "«Амфетамін – ці становіцеся вы лепшым дэтэктывам дзякуючы яму?»",
                           "links": [
                             {
                               "id": 84,
+                              "redacted": false,
                               "title": "Rhetoric: \"There is little condescension in hi...\"",
+                              "actor": "Rhetoric",
+                              "to": "You",
                               "articyId": "0x010000450001AE6E",
-                              "text": "There is little condescension in his phrasing, more measured curiosity.",
+                              "english": "There is little condescension in his phrasing, more measured curiosity.",
+                              "polish": "W jego doborze słów nie daje się wyczuć politowania, raczej ciekawość.",
+                              "belarusian": "У яго падборы слоў няма адчування шкадавання, хутчэй цікавасць.",
                               "links": [
                                 {
                                   "id": 2,
+                                  "redacted": false,
                                   "title": "Suggestion: \"Be honest. He's not grilling you, h...\"",
+                                  "actor": "Suggestion",
+                                  "to": "You",
                                   "articyId": "0x010000060001EC12",
-                                  "text": "Be honest. He's not grilling you, he just wants to know. Ask if he's ever wanted to take it too.",
+                                  "english": "Be honest. He's not grilling you, he just wants to know. Ask if he's ever wanted to take it too.",
+                                  "polish": "Bądź szczery. On cię nie przesłuchuje, po prostu chce wiedzieć. Spytaj, czy sam kiedyś chciał spróbować.",
+                                  "belarusian": "Будзь шчырым. Ён цябе не дапытвае, проста хоча ведаць. Спытай, ці сам калісьці хацеў паспрабаваць.",
                                   "links": [
                                     {
                                       "id": 83,
+                                      "redacted": false,
                                       "title": "You: \"\"Narcomania is a disease, lieutenan...\"",
+                                      "actor": "You",
+                                      "to": "Medicine Cabinet",
                                       "articyId": "0x010000450001AE5B",
-                                      "text": "\"Narcomania is a disease, lieutenant.\"",
+                                      "english": "\"Narcomania is a disease, lieutenant.\"",
+                                      "polish": "„Narkomania to choroba, poruczniku”.",
+                                      "belarusian": "«Наркаманія — гэта хвароба, лейтэнант».",
                                       "links": [
                                         {
                                           "id": 166,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"It may be -- but I asked if it mak...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x010000450001AE62",
-                                          "text": "\"It may be -- but I asked if it makes you better at your work?\"",
+                                          "english": "\"It may be -- but I asked if it makes you better at your work?\"",
+                                          "polish": "„Możliwe, ale ja pytałem, czy dzięki temu lepiej pracujesz”.",
+                                          "belarusian": "«Магчыма, але я спытаў, ці працуеш ты лепей дзякуючы гэтаму».",
                                           "links": []
                                         }
                                       ]
                                     },
                                     {
                                       "id": 99,
+                                      "redacted": false,
                                       "title": "You: \"\"What are you talking about? I don'...\"",
+                                      "actor": "You",
+                                      "to": "Medicine Cabinet",
                                       "articyId": "0x010000450001AE39",
-                                      "text": "\"What are you talking about? I don't take amphetamine, don't be *ludicrous*!\"",
+                                      "english": "\"What are you talking about? I don't take amphetamine, don't be *ludicrous*!\"",
+                                      "polish": "„O czym ty mówisz? Nie biorę amfetaminy, nie bądź *niedorzeczny*!”",
+                                      "belarusian": "«Пра што ты кажаш? Я не прымаю амфетамін, не будзь *недарэчным*!»",
                                       "links": [
                                         {
                                           "id": 45,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"I was just curious. Anyway let's g...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x010000450001AE7D",
-                                          "text": "\"I was just curious. Anyway let's go.\"",
+                                          "english": "\"I was just curious. Anyway let's go.\"",
+                                          "polish": "„Byłem po prostu ciekawy. Chodźmy już stąd”.",
+                                          "belarusian": "«Я быў проста цікавы. Хадзем адгэтуль».",
                                           "links": []
                                         }
                                       ]
                                     },
                                     {
                                       "id": 36,
+                                      "redacted": false,
                                       "title": "You: \"\"It keeps me going -- in the short...\"",
+                                      "actor": "You",
+                                      "to": "Medicine Cabinet",
                                       "articyId": "0x010000450001AE3F",
-                                      "text": "\"It keeps me going -- in the short run.\"",
+                                      "english": "\"It keeps me going -- in the short run.\"",
+                                      "polish": "„Daje mi kopa. Na krótką metę”.",
+                                      "belarusian": "«Дае мне імпульс. На кароткі тэрмін».",
                                       "links": [
                                         {
                                           "id": 37,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"Hmh.\" He lets out a little pensive...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x010000450001AE9A",
-                                          "text": "\"Hmh.\" He lets out a little pensive hum... \"That's what I thought. Let's go?\"",
+                                          "english": "\"Hmh.\" He lets out a little pensive hum... \"That's what I thought. Let's go?\"",
+                                          "polish": "„Hmm” – wydaje z siebie pomruk w zamyśleniu. „Tak właśnie myślałem. Idziemy?”",
+                                          "belarusian": "«Гм,» — выдае з сябе гукавы знак у задуменні. «Так, я так і думаў. Ідзем?»",
                                           "links": []
                                         }
                                       ]
                                     },
                                     {
                                       "id": 18,
+                                      "redacted": false,
                                       "title": "You: \"\"Honesty, it makes me the detective...\"",
+                                      "actor": "You",
+                                      "to": "Medicine Cabinet",
                                       "articyId": "0x010000450001AE84",
-                                      "text": "\"Honesty, it makes me the detective I am. Have you thought of taking it too?\"",
+                                      "english": "\"Honesty, it makes me the detective I am. Have you thought of taking it too?\"",
+                                      "polish": "„Szczerze mówiąc, to dzięki niej jestem takim detektywem, jakiego widzisz. Myślałeś, żeby też spróbować?”",
+                                      "belarusian": "«Шчыра кажучы, гэта дзякуючы ёй я такі дэтэктыў, якога ты бачыш. Думалі, каб таксама паспрабаваць?»",
                                       "links": [
                                         {
                                           "id": 126,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"Maybe I should?\" He lets out a lit...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x010000450001AEA2",
-                                          "text": "\"Maybe I should?\" He lets out a little pensive hum, rubbing his shoulder...",
+                                          "english": "\"Maybe I should?\" He lets out a little pensive hum, rubbing his shoulder...",
+                                          "polish": "„Może powinienem?” – wydaje z siebie pomruk w zamyśleniu, pocierając ramię...",
+                                          "belarusian": "«Можа, мне варта?» — вымавіў ён задуменна, паціраючы плячо...",
                                           "links": [
                                             {
                                               "id": 127,
+                                              "redacted": false,
                                               "title": "Drama: \"It's not insincere. He's actually g...\"",
+                                              "actor": "Drama",
+                                              "to": "You",
                                               "articyId": "0x010000450001AEAA",
-                                              "text": "It's not insincere. He's actually giving it thought.",
+                                              "english": "It's not insincere. He's actually giving it thought.",
+                                              "polish": "Nie jest w tym nieszczery. Faktycznie to rozważa.",
+                                              "belarusian": "Ён не з'яўляецца ў гэтым нечым шчырым. Фактычна, ён гэта разглядае.",
                                               "links": [
                                                 {
                                                   "id": 108,
+                                                  "redacted": false,
                                                   "title": "Pain Threshold: \"The beating he took must be more se...\"",
+                                                  "actor": "Pain Threshold",
+                                                  "to": "You",
                                                   "articyId": "0x010000450001AEB1",
-                                                  "text": "The beating he took must be more serious than he lets on.",
+                                                  "english": "The beating he took must be more serious than he lets on.",
+                                                  "polish": "Musiał oberwać sporo mocniej, niż się przyznaje.",
+                                                  "belarusian": "Ён павінен быў атрымаць значна мацней, чым прызнаецца.",
                                                   "links": [
                                                     {
                                                       "id": 167,
+                                                      "redacted": false,
                                                       "title": "Kim Kitsuragi: \"\"Doesn't the... pupils and the gurn...\"",
+                                                      "actor": "Kim Kitsuragi",
+                                                      "to": "You",
                                                       "articyId": "0x010000450001AED7",
-                                                      "text": "\"Doesn't the... pupils and the gurning jaw, the sweating... doesn't it become tiring after a while?\"",
+                                                      "english": "\"Doesn't the... pupils and the gurning jaw, the sweating... doesn't it become tiring after a while?\"",
+                                                      "polish": "„Czy... rozszerzone źrenice, szczękościsk i nadmierna potliwość... Czy po jakimś czasie nie staje się to wszystko dokuczliwe?”",
+                                                      "belarusian": "«Ці... пашыраныя зрэнкі, скігленне і залішняя потлівасць... Ці не становіцца гэта ўсё, праз пэўны час, дакучлівым?»",
                                                       "links": [
                                                         {
                                                           "id": 139,
+                                                          "redacted": false,
                                                           "title": "You: \"\"Nah, man, the jaw grinding and the...\"",
+                                                          "actor": "You",
+                                                          "to": "Medicine Cabinet",
                                                           "articyId": "0x010000450001AEDE",
-                                                          "text": "\"Nah, man, the jaw grinding and the sweating -- that's the best part. Shows the medicine is working.\"",
+                                                          "english": "\"Nah, man, the jaw grinding and the sweating -- that's the best part. Shows the medicine is working.\"",
+                                                          "polish": "„Nie no, zgrzytanie i pocenie się są najlepsze. To znak, że lek działa”.",
+                                                          "belarusian": "«Не, скрып і пот з'яўляюцца лепшымі. Гэта азначае, што лек дзейнічае».",
                                                           "links": [
                                                             {
                                                               "id": 11,
+                                                              "redacted": false,
                                                               "title": "Kim Kitsuragi: \"\"Right. Thank you for this informat...\"",
+                                                              "actor": "Kim Kitsuragi",
+                                                              "to": "You",
                                                               "articyId": "0x010000450001AF30",
-                                                              "text": "\"Right. Thank you for this information.\" He seems satisfied. \"Should we go?\"",
+                                                              "english": "\"Right. Thank you for this information.\" He seems satisfied. \"Should we go?\"",
+                                                              "polish": "„Racja. Dziękuję za tę informację” – odpowiada, sprawiając wrażenie zadowolonego. „Idziemy?”",
+                                                              "belarusian": "«Слушна. Дзякую за гэтую інфармацыю» — адказвае, ствараючы ўражанне задаволенага. «Ідзем?»",
                                                               "links": []
                                                             }
                                                           ]
                                                         },
                                                         {
                                                           "id": 74,
+                                                          "redacted": false,
                                                           "title": "You: \"\"I understand it's unbecoming but i...\"",
+                                                          "actor": "You",
+                                                          "to": "Medicine Cabinet",
                                                           "articyId": "0x010000450001AEE4",
-                                                          "text": "\"I understand it's unbecoming but if I don't perform this job well I am nothing. It's the price I pay.\"",
+                                                          "english": "\"I understand it's unbecoming but if I don't perform this job well I am nothing. It's the price I pay.\"",
+                                                          "polish": "„Wiem, że to nie przystoi, ale jeśli nie będę dobrze wykonywał tej pracy, stanę się nikim. To cena, jaką płacę”.",
+                                                          "belarusian": "«Ведаю, што гэта недарэчна, але калі не буду добра выконваць гэтую працу, стану нікім. Гэта цана, якую я плачу».",
                                                           "links": [
                                                             {
                                                               "id": 169,
+                                                              "redacted": false,
                                                               "title": "Kim Kitsuragi: \"\"Right. I'll give it some thought.\"...\"",
+                                                              "actor": "Kim Kitsuragi",
+                                                              "to": "You",
                                                               "articyId": "0x010000450001AF23",
-                                                              "text": "\"Right. I'll give it some thought.\" He seems satisfied with your answer. \"Should we go?\"",
+                                                              "english": "\"Right. I'll give it some thought.\" He seems satisfied with your answer. \"Should we go?\"",
+                                                              "polish": "„Racja. Przemyślę to” – stwierdza, sprawiając wrażenie zadowolonego twoją odpowiedzią. „Idziemy?”",
+                                                              "belarusian": "«Мае рацыю. Падумаю над гэтым», – зазначае, ствараючы ўражанне задаволенага тваім адказам. «Ідзем?»",
                                                               "links": []
                                                             }
                                                           ]
                                                         },
                                                         {
                                                           "id": 161,
+                                                          "redacted": false,
                                                           "title": "You: \"\"I'm too high on pyrholidon to noti...\"",
+                                                          "actor": "You",
+                                                          "to": "Medicine Cabinet",
                                                           "articyId": "0x010000450001AEF2",
-                                                          "text": "\"I'm too high on pyrholidon to notice. Before you ask -- pyrholidon is used for radiation sickness.\"",
+                                                          "english": "\"I'm too high on pyrholidon to notice. Before you ask -- pyrholidon is used for radiation sickness.\"",
+                                                          "polish": "„Jestem zbyt naćpany pyrholidonem, żeby zauważyć. Zanim spytasz – używa się go do leczenia choroby popromiennej”.",
+                                                          "belarusian": "«Я занадта пад кайфам ад пірралідону, каб заўважыць. Пакуль не спытаеш – яго выкарыстоўваюць для лячэння прамянёвай хваробы».",
                                                           "links": [
                                                             {
                                                               "id": 109,
+                                                              "redacted": false,
                                                               "title": "Kim Kitsuragi: \"\"Yes, but... did you know you don't...\"",
+                                                              "actor": "Kim Kitsuragi",
+                                                              "to": "You",
                                                               "articyId": "0x010000450001AEF8",
-                                                              "text": "\"Yes, but... did you know you don't *have* radiation sickness?\"",
+                                                              "english": "\"Yes, but... did you know you don't *have* radiation sickness?\"",
+                                                              "polish": "„Tak, ale... Czy wiesz, że *nie masz* choroby popromiennej?”",
+                                                              "belarusian": "«Так, але... Ці ведаеш ты, што *не маеш* прамянёвай хваробы?»",
                                                               "links": [
                                                                 {
                                                                   "id": 168,
+                                                                  "redacted": false,
                                                                   "title": "You: \"\"It gives me fiery visions. A windo...\"",
+                                                                  "actor": "You",
+                                                                  "to": "Medicine Cabinet",
                                                                   "articyId": "0x010000450001AF05",
-                                                                  "text": "\"It gives me fiery visions. A window into the heart of things.\"",
+                                                                  "english": "\"It gives me fiery visions. A window into the heart of things.\"",
+                                                                  "polish": "„Daje mi wielkie wizje. Otwiera okno do sedna rzeczy”.",
+                                                                  "belarusian": "«Дае мне вялікія бачанні. Адкрывае акно да сутнасці рэчаў».",
                                                                   "links": [
                                                                     {
                                                                       "id": 30,
+                                                                      "redacted": false,
                                                                       "title": "Kim Kitsuragi: \"\"Right.\" He seems satisfied with yo...\"",
+                                                                      "actor": "Kim Kitsuragi",
+                                                                      "to": "You",
                                                                       "articyId": "0x010000450001AF5E",
-                                                                      "text": "\"Right.\" He seems satisfied with your answer. \"I can see how that can be useful.\"",
+                                                                      "english": "\"Right.\" He seems satisfied with your answer. \"I can see how that can be useful.\"",
+                                                                      "polish": "„Jasne” – stwierdza, sprawiając wrażenie zadowolonego twoją odpowiedzią. „To rzeczywiście może być przydatne”.",
+                                                                      "belarusian": "«Вядома», — адзначае ён, выказваючы задаволенасць вашым адказам. «Гэта сапраўды можа быць карысным».",
                                                                       "links": []
                                                                     }
                                                                   ]
                                                                 },
                                                                 {
                                                                   "id": 140,
+                                                                  "redacted": false,
                                                                   "title": "You: \"\"Yes, that does sound dangerous now...\"",
+                                                                  "actor": "You",
+                                                                  "to": "Medicine Cabinet",
                                                                   "articyId": "0x010000450001AF0B",
-                                                                  "text": "\"Yes, that does sound dangerous now that I think about it.\"",
+                                                                  "english": "\"Yes, that does sound dangerous now that I think about it.\"",
+                                                                  "polish": "„Tak, jak tak teraz myślę, to brzmi to niebezpiecznie”.",
+                                                                  "belarusian": "«Так, як я зараз думаю, гэта гучыць небяспечна».",
                                                                   "links": [
                                                                     {
                                                                       "id": 23,
+                                                                      "redacted": false,
                                                                       "title": "Kim Kitsuragi: \"\"There's always a price...\" He look...\"",
+                                                                      "actor": "Kim Kitsuragi",
+                                                                      "to": "You",
                                                                       "articyId": "0x010000450001AF67",
-                                                                      "text": "\"There's always a price...\" He looks out the window.",
+                                                                      "english": "\"There's always a price...\" He looks out the window.",
+                                                                      "polish": "„Wszystko ma swoją cenę...” – odpowiada, wyglądając przez okno.",
+                                                                      "belarusian": "«Усё мае сваю цану...» — адказвае, гледзячы ў акно.",
                                                                       "links": []
                                                                     }
                                                                   ]
@@ -219,15 +374,25 @@
                                                         },
                                                         {
                                                           "id": 101,
+                                                          "redacted": false,
                                                           "title": "You: \"\"Looking like a beast in heat is a...\"",
+                                                          "actor": "You",
+                                                          "to": "Medicine Cabinet",
                                                           "articyId": "0x010000450001AF44",
-                                                          "text": "\"Looking like a beast in heat is a serious downside, yes.\"",
+                                                          "english": "\"Looking like a beast in heat is a serious downside, yes.\"",
+                                                          "polish": "„Wyglądanie jak zwierzę w okresie godowym to poważna wada, tak”.",
+                                                          "belarusian": "«Выглядаць як жывёла ў перыяд гнятка - гэта сур'ёзны недахоп, так».",
                                                           "links": [
                                                             {
                                                               "id": 102,
+                                                              "redacted": false,
                                                               "title": "Kim Kitsuragi: \"\"I thought so.\" He seems satisfied...\"",
+                                                              "actor": "Kim Kitsuragi",
+                                                              "to": "You",
                                                               "articyId": "0x010000450001AF4D",
-                                                              "text": "\"I thought so.\" He seems satisfied with the answer. \"Should we go?\"",
+                                                              "english": "\"I thought so.\" He seems satisfied with the answer. \"Should we go?\"",
+                                                              "polish": "„Tak myślałem” – stwierdza, sprawiając wrażenie zadowolonego odpowiedzią. „Idziemy?”",
+                                                              "belarusian": "«Так я і думаў», — сцвярджае ён, выказваючы задавальненне адказам. «Ідзем?»",
                                                               "links": []
                                                             }
                                                           ]
@@ -244,21 +409,36 @@
                                     },
                                     {
                                       "id": 19,
+                                      "redacted": false,
                                       "title": "You: \"\"It has no effect on my performance...\"",
+                                      "actor": "You",
+                                      "to": "Medicine Cabinet",
                                       "articyId": "0x010000450001AE8C",
-                                      "text": "\"It has no effect on my performance, I just take it to feel good.\"",
+                                      "english": "\"It has no effect on my performance, I just take it to feel good.\"",
+                                      "polish": "„Nie ma wpływu na moją skuteczność. Biorę ją po prostu, żeby się lepiej poczuć”.",
+                                      "belarusian": "«Гэта не ўплывае на маю эфектыўнасць. Я прымаю яе проста, каб адчуваць сябе лепей».",
                                       "links": [
                                         {
                                           "id": 100,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"Hmh.\" He lets out a little pensive...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x010000450001AEB9",
-                                          "text": "\"Hmh.\" He lets out a little pensive hum. \"Thought so. Let's go?\"",
+                                          "english": "\"Hmh.\" He lets out a little pensive hum. \"Thought so. Let's go?\"",
+                                          "polish": "„Hmm” – wydaje z siebie pomruk w zamyśleniu. „Tak myślałem. Idziemy?”",
+                                          "belarusian": "«Хмм», — мяўкае ён у задуменні. «Так я і думаў. Пойдзем?»",
                                           "links": [
                                             {
                                               "id": 46,
+                                              "redacted": false,
                                               "title": "Reaction Speed: \"So... the good lieutenant was looki...\"",
+                                              "actor": "Reaction Speed",
+                                              "to": "You",
                                               "articyId": "0x010000450001AEC7",
-                                              "text": "So... the good lieutenant was looking for an edge, was he?",
+                                              "english": "So... the good lieutenant was looking for an edge, was he?",
+                                              "polish": "A więc... pan porucznik szukał czegoś, co da mu kopa, hm?",
+                                              "belarusian": "Дык... пан лейтэнант шукаў нешта, што дасць яму імпэт, га?",
                                               "links": []
                                             }
                                           ]
@@ -267,15 +447,25 @@
                                     },
                                     {
                                       "id": 178,
+                                      "redacted": false,
                                       "title": "You: \"\"Better? No. It makes me worse.\"\"",
+                                      "actor": "You",
+                                      "to": "Medicine Cabinet",
                                       "articyId": "0x010000450001AE93",
-                                      "text": "\"Better? No. It makes me worse.\"",
+                                      "english": "\"Better? No. It makes me worse.\"",
+                                      "polish": "„Lepszym? Nie. Staję się gorszy”.",
+                                      "belarusian": "«Лепшым? Не. Я становімся горшым».",
                                       "links": [
                                         {
                                           "id": 179,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"Hmh.\" He lets out a little pensive...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x010000450001AECF",
-                                          "text": "\"Hmh.\" He lets out a little pensive hum. \"Thought so. Let's go?\"",
+                                          "english": "\"Hmh.\" He lets out a little pensive hum. \"Thought so. Let's go?\"",
+                                          "polish": "„Hmm” – wydaje z siebie pomruk w zamyśleniu. „Tak myślałem. Idziemy?”",
+                                          "belarusian": "«Гм», — выдае ён мурмант у задуменнасці. «Так і думаў. Ідзем?»",
                                           "links": []
                                         }
                                       ]
@@ -290,15 +480,25 @@
                     },
                     {
                       "id": 149,
+                      "redacted": false,
                       "title": "You: \"Say nothing.\"",
+                      "actor": "You",
+                      "to": "Medicine Cabinet",
                       "articyId": "0x010000450001AE22",
-                      "text": "Say nothing.",
+                      "english": "Say nothing.",
+                      "polish": "Nic nie mów.",
+                      "belarusian": "Нічога не кажы.",
                       "links": [
                         {
                           "id": 10,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"The lieutenant does not pursue the...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x010000450001AE28",
-                          "text": "The lieutenant does not pursue the subject further, looking out the bathroom window instead.",
+                          "english": "The lieutenant does not pursue the subject further, looking out the bathroom window instead.",
+                          "polish": "Porucznik nie drąży tematu. Zamiast tego wygląda przez okno łazienki.",
+                          "belarusian": "Лейтэнант не паглыбляецца ў гэтую тэму. Замест гэтага ён глядзіць у акно ваннай пакоя.",
                           "links": []
                         }
                       ]
@@ -307,54 +507,89 @@
                 },
                 {
                   "id": 116,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"I always took you for more of a dr...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x010000450001AE53",
-                  "text": "\"I always took you for more of a drunk than a chemical abuser,\" he says as though it's self-evident. \"Anyway.\"",
+                  "english": "\"I always took you for more of a drunk than a chemical abuser,\" he says as though it's self-evident. \"Anyway.\"",
+                  "polish": "„Zawsze miałem cię bardziej za pijaka niż kogoś nadużywającego narkotyków” – oznajmia, jakby to było coś oczywistego. „Nieważne”.",
+                  "belarusian": "«Я заўсёды лічыў цябе больш за п'яніцу, чым за таго, хто злоўжывае наркотыкамі», — заўважае, як быццам гэта нешта відавочнае. «Не важна».",
                   "links": []
                 },
                 {
                   "id": 24,
+                  "redacted": false,
                   "title": "Cuno: \"\"Nah, pig...\" the kid says looking...\"",
+                  "actor": "Cuno",
+                  "to": "You",
                   "articyId": "0x0100006B0000185F",
-                  "text": "\"Nah, pig...\" the kid says looking around like a young wolf. \"That'd been too easy. Let's keep looking.\"",
+                  "english": "\"Nah, pig...\" the kid says looking around like a young wolf. \"That'd been too easy. Let's keep looking.\"",
+                  "polish": "„Nie, świnio...” – chłopak rozgląda się jak młody wilk. „To by było za łatwe. Szukamy dalej”.",
+                  "belarusian": "«Не, свіння...» – хлопец азіраецца, як малады воўк. «Гэта было б занадта проста. Шукаем далей».",
                   "links": []
                 },
                 {
                   "id": 75,
+                  "redacted": false,
                   "title": "Medicine Cabinet: \"You're just talking to your reflect...\"",
+                  "actor": "Medicine Cabinet",
+                  "to": "You",
                   "articyId": "0x010000450001AF7F",
-                  "text": "You're just talking to your reflection in the cabinet doors now... Things are not good with you.",
+                  "english": "You're just talking to your reflection in the cabinet doors now... Things are not good with you.",
+                  "polish": "Gadasz teraz do własnego odbicia w drzwiach szafki... Nie jest z tobą dobrze.",
+                  "belarusian": "Ты зараз размаўляеш са сваім адбіткам у дзвярах шафкі... З табой не ўсё ў парадку.",
                   "links": []
                 }
               ]
             },
             {
               "id": 57,
+              "redacted": false,
               "title": "You: \"\"She's really cleaned this out.\"\"",
+              "actor": "You",
+              "to": "Medicine Cabinet",
               "articyId": "0x010000450001ADBF",
-              "text": "\"She's really cleaned this out.\"",
+              "english": "\"She's really cleaned this out.\"",
+              "polish": "„Naprawdę dokładnie tu wysprzątała”.",
+              "belarusian": "«Сапраўды вельмі добра прыбралася тут».",
               "links": [
                 {
                   "id": 35,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"Mhm,\" the lieutenant nods. \"She ce...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x010000450001ADFE",
-                  "text": "\"Mhm,\" the lieutenant nods. \"She certainly had her priorities straight when she was packing.\"",
+                  "english": "\"Mhm,\" the lieutenant nods. \"She certainly had her priorities straight when she was packing.\"",
+                  "polish": "„Mhm” – porucznik kiwa głową. „Zdecydowanie pamiętała o priorytetach, gdy się pakowała”.",
+                  "belarusian": "«Мгм» — лейтэнант ківае галавой. «Безумоўна, яна памятала пра прыярытэты, калі збірала рэчы».",
                   "links": []
                 },
                 {
                   "id": 86,
+                  "redacted": false,
                   "title": "Cuno: \"\"Smart chick.\" The kid nods. \"Cuno...\"",
+                  "actor": "Cuno",
+                  "to": "You",
                   "articyId": "0x0100006B00001865",
-                  "text": "\"Smart chick.\" The kid nods. \"Cuno never leaves shit behind either. Cuno's a pro.\"",
+                  "english": "\"Smart chick.\" The kid nods. \"Cuno never leaves shit behind either. Cuno's a pro.\"",
+                  "polish": "„Bystra laska” – chłopak kiwa głową. „Cuno też nigdy nic nie zostawia. Cuno jest zawodowiec”.",
+                  "belarusian": "«Хуткая дзяўчына,» — хлопец ківае галавой. «Куна таксама ніколі нічога не пакідае. Куна прафесіянал.»",
                   "links": []
                 }
               ]
             },
             {
               "id": 58,
+              "redacted": false,
               "title": "You: \"[Close the cabinet.]\"",
+              "actor": "You",
+              "to": "Medicine Cabinet",
               "articyId": "0x010000450001ADC5",
-              "text": "[Close the cabinet.]",
+              "english": "[Close the cabinet.]",
+              "polish": "[Zamknij szafkę].",
+              "belarusian": "[Закрый шафку].",
               "links": []
             }
           ]
@@ -363,39 +598,69 @@
     },
     {
       "id": 132,
+      "redacted": false,
       "title": "Medicine Cabinet: \"This medicine cabinet is stocked wi...\"",
+      "actor": "Medicine Cabinet",
+      "to": "You",
       "articyId": "0x010000450000EADA",
-      "text": "This medicine cabinet is stocked with drugs, plus an old toothbrush, and...",
+      "english": "This medicine cabinet is stocked with drugs, plus an old toothbrush, and...",
+      "polish": "Szafka na leki pełna jest farmaceutyków. Jest w niej też stara szczoteczka do zębów i...",
+      "belarusian": "Шафка для лекаў поўная фармацэўтыкаў. У ёй таксама старая зубная шчотка і...",
       "links": [
         {
           "id": 134,
+          "redacted": false,
           "title": "You: \"Look at the toothbrush.\"",
+          "actor": "You",
+          "to": "Medicine Cabinet",
           "articyId": "0x010000450000E85F",
-          "text": "Look at the toothbrush.",
+          "english": "Look at the toothbrush.",
+          "polish": "Spójrz na szczoteczkę do zębów.",
+          "belarusian": "Паглядзі на зубную шчотку.",
           "links": [
             {
               "id": 112,
+              "redacted": false,
               "title": "Medicine Cabinet: \"It's been used. Quite a lot.\"",
+              "actor": "Medicine Cabinet",
+              "to": "You",
               "articyId": "0x010000450000E88A",
-              "text": "It's been used. Quite a lot.",
+              "english": "It's been used. Quite a lot.",
+              "polish": "Jest zużyta. Mocno.",
+              "belarusian": "Яна моцна зношаная.",
               "links": [
                 {
                   "id": 89,
+                  "redacted": false,
                   "title": "Perception (Sight): \"But not for scrubbing blood off til...\"",
+                  "actor": "Perception (Sight)",
+                  "to": "You",
                   "articyId": "0x010000450000E892",
-                  "text": "But not for scrubbing blood off tiles -- or anything else interesting, it seems.",
+                  "english": "But not for scrubbing blood off tiles -- or anything else interesting, it seems.",
+                  "polish": "Ale nie od zeskrobywania krwi z płytek. Ani, zdaje się, żadnej innej ciekawej czynności.",
+                  "belarusian": "Але не ад саскробвання крыві з плітак. Ні, здаецца, ні ад якой іншай цікавай дзейнасці.",
                   "links": [
                     {
                       "id": 65,
+                      "redacted": false,
                       "title": "Perception (Smell): \"It's clean of chemical odours too....\"",
+                      "actor": "Perception (Smell)",
+                      "to": "You",
                       "articyId": "0x010000450000E8AE",
-                      "text": "It's clean of chemical odours too. Just some dried toothpaste on the handle.",
+                      "english": "It's clean of chemical odours too. Just some dried toothpaste on the handle.",
+                      "polish": "Nie czuć też od niej żadnymi chemikaliami. Tylko pastą do zębów, której odrobina zaschła na rączce.",
+                      "belarusian": "Таксама не адчуваецца ніякімі хімікатамі. Толькі зубной пастай, крыху якой высахла на ручцы.",
                       "links": [
                         {
                           "id": 118,
+                          "redacted": false,
                           "title": "Empathy: \"This toothbrush belongs to someone...\"",
+                          "actor": "Empathy",
+                          "to": "You",
                           "articyId": "0x010000060001ABC3",
-                          "text": "This toothbrush belongs to someone who doesn't give a damn about her teeth.",
+                          "english": "This toothbrush belongs to someone who doesn't give a damn about her teeth.",
+                          "polish": "Szczoteczka należy do kogoś, kogo w najmniejszym stopniu nie obchodzi dobro zębów.",
+                          "belarusian": "Шчотка належыць камусьці, каго ў найменшай ступені не цікавіць здароўе зубоў.",
                           "links": []
                         }
                       ]
@@ -408,69 +673,119 @@
         },
         {
           "id": 3,
+          "redacted": false,
           "title": "You: \"Look at the medications.\"",
+          "actor": "You",
+          "to": "Medicine Cabinet",
           "articyId": "0x010000450000E883",
-          "text": "Look at the medications.",
+          "english": "Look at the medications.",
+          "polish": "Spójrz na leki.",
+          "belarusian": "Паглядзі на лекі.",
           "links": [
             {
               "id": 164,
+              "redacted": false,
               "title": "Medicine Cabinet: \"Pharmaceuticals line the shelves. S...\"",
+              "actor": "Medicine Cabinet",
+              "to": "You",
               "articyId": "0x010000450000E8B7",
-              "text": "Pharmaceuticals line the shelves. Sheet upon sheet and pill bottle next to pill bottle: acetylic acid, APAP, eye drops, blood thinners...",
+              "english": "Pharmaceuticals line the shelves. Sheet upon sheet and pill bottle next to pill bottle: acetylic acid, APAP, eye drops, blood thinners...",
+              "polish": "Półki pokryte są farmaceutykami. Blistr na blistrze, buteleczka przy buteleczce: kwas acetylosalicylowy, APAP, krople do oczu, środki przeciwzakrzepowe...",
+              "belarusian": "Паліцы пакрытыя фармацэўтычнымі прэпаратамі. Блістар на блістары, бутэлька да бутэлькі: ацэтыльсаліцылавая кіслата, APAP, кроплі для вачэй, сродкі супраць трамбозу...",
               "links": []
             }
           ]
         },
         {
           "id": 104,
+          "redacted": false,
           "title": "You: \"\"There's quite the collection in he...\"",
+          "actor": "You",
+          "to": "Medicine Cabinet",
           "articyId": "0x010000450000E865",
-          "text": "\"There's quite the collection in here.\"",
+          "english": "\"There's quite the collection in here.\"",
+          "polish": "„Widzę tu nie lada zbiorek”.",
+          "belarusian": "«Бачу тут няблагая збірка».",
           "links": [
             {
               "id": 151,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Anything of note?\" he asks in a lo...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x010000450000E8DD",
-              "text": "\"Anything of note?\" he asks in a lowered voice.",
+              "english": "\"Anything of note?\" he asks in a lowered voice.",
+              "polish": "„Widzisz coś godnego uwagi?” – pyta szeptem.",
+              "belarusian": "«Бачыш нешта вартае ўвагі?» — пытаецца шэптам.",
               "links": []
             }
           ]
         },
         {
           "id": 5,
+          "redacted": false,
           "title": "You: \"Search the bottles.\"",
+          "actor": "You",
+          "to": "Medicine Cabinet",
           "articyId": "0x010000450000E8EF",
-          "text": "Search the bottles.",
+          "english": "Search the bottles.",
+          "polish": "Przeszukaj buteleczki.",
+          "belarusian": "Перагледзьце бутэлечкі.",
           "links": [
             {
               "id": 76,
+              "redacted": false,
               "title": "Medicine Cabinet: \"Pill bottles rattle like bones as y...\"",
+              "actor": "Medicine Cabinet",
+              "to": "You",
               "articyId": "0x010000450000E8F6",
-              "text": "Pill bottles rattle like bones as you search the cabinet: paracetamol, histaperidol, something in a foreign language you can't read... Behind them: an unusually shaped nasal spray. Its label reads 'NACRA'.",
+              "english": "Pill bottles rattle like bones as you search the cabinet: paracetamol, histaperidol, something in a foreign language you can't read... Behind them: an unusually shaped nasal spray. Its label reads 'NACRA'.",
+              "polish": "Kiedy przeszukujesz szafkę, buteleczki grzechoczą niczym kości: paracetamol, histaperidol, coś w obcym języku, którego nie umiesz odczytać... Za nimi stoi spray do nosa o dziwacznym kształcie. Na etykiecie widnieje napis „NACRA”.",
+              "belarusian": "Калі ты ператрэшчваеш шафку, бутэлькі грукочуць, як косткі: парацэтамол, гістаперідол, нешта на чужой мове, якую ты не можаш прачытаць... За імі стаіць спрэй для носа дзіўнай формы. На этыкетцы напісана «NACRA».",
               "links": [
                 {
                   "id": 44,
+                  "redacted": false,
                   "title": "Encyclopedia: \"NACRA? This is used to treat opioid...\"",
+                  "actor": "Encyclopedia",
+                  "to": "You",
                   "articyId": "0x010000450000E90A",
-                  "text": "NACRA? This is used to treat opioid overdoses. Always handy to have around.",
+                  "english": "NACRA? This is used to treat opioid overdoses. Always handy to have around.",
+                  "polish": "NACRA? Służy do leczenia po przedawkowaniu opiatów. Zawsze warto mieć ją przy sobie.",
+                  "belarusian": "НАКРА? Служыць для лячэння пасля перадазіроўкі апіатаў. Заўсёды варта мець яе пры сабе.",
                   "links": [
                     {
                       "id": 67,
+                      "redacted": false,
                       "title": "You: \"(Whisper.) \"What's NACRA?\"\"",
+                      "actor": "You",
+                      "to": "Medicine Cabinet",
                       "articyId": "0x010000450000E922",
-                      "text": "(Whisper.) \"What's NACRA?\"",
+                      "english": "(Whisper.) \"What's NACRA?\"",
+                      "polish": "(Szepnij). „Co to jest NACRA?”",
+                      "belarusian": "(Шэптам). «Што такое NACRA?»",
                       "links": [
                         {
                           "id": 105,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"An opioid receptor antagonist. It'...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x010000450000E935",
-                          "text": "\"An opioid receptor antagonist. It's used for diamorphine overdoses.\"",
+                          "english": "\"An opioid receptor antagonist. It's used for diamorphine overdoses.\"",
+                          "polish": "„Antagonista receptorów opioidowych. Podawany w przypadku przedawkowania diamorfiny”.",
+                          "belarusian": "«Антаганіст апіоідных рэцэптараў. Ужываецца ў выпадку перадазіроўкі дыамарфіну».",
                           "links": [
                             {
                               "id": 38,
+                              "redacted": false,
                               "title": "Reaction Speed: \"You could say he's on the *lookout*...\"",
+                              "actor": "Reaction Speed",
+                              "to": "You",
                               "articyId": "0x010000780000A925",
-                              "text": "You could say he's on the *lookout*.",
+                              "english": "You could say he's on the *lookout*.",
+                              "polish": "Można powiedzieć, że stoi na *straży*.",
+                              "belarusian": "Можна сказаць, што стаіць на *варце*.",
                               "links": []
                             }
                           ]
@@ -479,30 +794,50 @@
                     },
                     {
                       "id": 49,
+                      "redacted": false,
                       "title": "You: \"(Whisper.) \"NACRA, opioid antagonis...\"",
+                      "actor": "You",
+                      "to": "Medicine Cabinet",
                       "articyId": "0x010000450000E928",
-                      "text": "(Whisper.) \"NACRA, opioid antagonist.\"",
+                      "english": "(Whisper.) \"NACRA, opioid antagonist.\"",
+                      "polish": "(Szepnij). „NACRA, antagonista opioidowy”.",
+                      "belarusian": "(Шаптама). «NACRA, антаганіст апіоідаў».",
                       "links": [
                         {
                           "id": 15,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"Interesting. That's used for diamo...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x010000450000E945",
-                          "text": "\"Interesting. That's used for diamorphine overdoses...\" The lieutenant nods -- then looks at the door.",
+                          "english": "\"Interesting. That's used for diamorphine overdoses...\" The lieutenant nods -- then looks at the door.",
+                          "polish": "„Interesujące. Tego używa się w przypadku przedawkowania diamorfiny...” – porucznik kiwa głową, a później spogląda na drzwi.",
+                          "belarusian": "«Цікава. Гэта выкарыстоўваюць у выпадку перадазіроўкі дыямарфінам...» – лейтэнант ківае галавой, а потым глядзіць на дзверы.",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 26,
+                      "redacted": false,
                       "title": "You: \"Keep it to yourself.\"",
+                      "actor": "You",
+                      "to": "Medicine Cabinet",
                       "articyId": "0x010000450000EA55",
-                      "text": "Keep it to yourself.",
+                      "english": "Keep it to yourself.",
+                      "polish": "Zachowaj to dla siebie.",
+                      "belarusian": "Пакінь гэта пры сабе.",
                       "links": [
                         {
                           "id": 68,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"The lieutenant glances at the rows...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x010000450000EA5C",
-                          "text": "The lieutenant glances at the rows of pills -- then at the door.",
+                          "english": "The lieutenant glances at the rows of pills -- then at the door.",
+                          "polish": "Porucznik zerka na rzędy buteleczek z tabletkami, a później na drzwi.",
+                          "belarusian": "Лейтэнант зірнуў на шэрагі пляшачак з таблеткамі, а потым на дзверы.",
                           "links": []
                         }
                       ]
@@ -515,85 +850,145 @@
         },
         {
           "id": 34,
+          "redacted": false,
           "title": "You: \"Search the pill sheets.\"",
+          "actor": "You",
+          "to": "Medicine Cabinet",
           "articyId": "0x010000450000E92E",
-          "text": "Search the pill sheets.",
+          "english": "Search the pill sheets.",
+          "polish": "Przeszukaj blistry.",
+          "belarusian": "Праглядзіце блістары.",
           "links": [
             {
               "id": 66,
+              "redacted": false,
               "title": "Medicine Cabinet: \"Among some foreign -- probably Mess...\"",
+              "actor": "Medicine Cabinet",
+              "to": "You",
               "articyId": "0x010000450000E91C",
-              "text": "Among some foreign -- probably Messinian, or Gottwaldian -- marked red blister packs you find... what *do* you find? This is going to take a little know-how.",
+              "english": "Among some foreign -- probably Messinian, or Gottwaldian -- marked red blister packs you find... what *do* you find? This is going to take a little know-how.",
+              "polish": "Wśród wielu zagranicznych – zapewne messyńskich lub gottwaldzkich – oznaczonych na czerwono blistrów znajdujesz... No właśnie, *co* znajdujesz? Będzie tu potrzebna odrobina wiedzy.",
+              "belarusian": "Сярод многіх замежных – напэўна месінаскіх або готвальдскіх – пазначаных чырвоным блістараў знаходзіш... Ну вось, *што* знаходзіш? Тут спатрэбіцца крыху ведаў.",
               "links": []
             }
           ]
         },
         {
           "id": 69,
+          "redacted": false,
           "title": "You: \"Is there something more interesting...\"",
+          "actor": "You",
+          "to": "Medicine Cabinet",
           "articyId": "0x01000045000104B4",
-          "text": "Is there something more interesting here?",
+          "english": "Is there something more interesting here?",
+          "polish": "Jest tu coś ciekawszego?",
+          "belarusian": "Ці ёсць тут нешта больш цікавае?",
           "links": [
             {
               "id": 48,
+              "redacted": false,
               "title": "Electrochemistry: \"A bright orange bottle with PREPTID...\"",
+              "actor": "Electrochemistry",
+              "to": "You",
               "articyId": "0x0100000200000366",
-              "text": "A bright orange bottle with PREPTIDE stamped on it. In sunny, happy letters! Jackpot, baby! That's the stuff you're looking for! Your palms begin to sweat just holding that little plastic container.",
+              "english": "A bright orange bottle with PREPTIDE stamped on it. In sunny, happy letters! Jackpot, baby! That's the stuff you're looking for! Your palms begin to sweat just holding that little plastic container.",
+              "polish": "Jasnopomarańczowa butelka z napisem PREPTIDE. Słonecznymi, wesołymi literami! Rozbiłeś bank, chłopaku! Tego właśnie szukałeś! Ręce ci się pocą od samego trzymania tego małego, plastikowego pojemniczka.",
+              "belarusian": "Ясна-аранжавая бутэлька з надпісам PREPTIDE. Сонечныя, вясёлыя літары! Ты разбіў банк, хлопча! Вось што ты шукаў! Рукі ў цябе пацее ад самога тримання гэтага маленькага, пластыкавага кантэйнера.",
               "links": [
                 {
                   "id": 142,
+                  "redacted": false,
                   "title": "Authority: \"Filthy narco! And look -- it's made...\"",
+                  "actor": "Authority",
+                  "to": "You",
                   "articyId": "0x0100006B00009819",
-                  "text": "Filthy narco! And look -- it's made right here in Revachol, by Saint-Batiste. A disgraceful pharmaceutical company attempting to lure people into the gutter. You should destroy it!",
+                  "english": "Filthy narco! And look -- it's made right here in Revachol, by Saint-Batiste. A disgraceful pharmaceutical company attempting to lure people into the gutter. You should destroy it!",
+                  "polish": "Brudny narkusie! I patrz – producent jest z Revacholu, to Saint-Batiste. Niechlubna firma farmaceutyczna starająca się zwabiać ludzi do rynsztoka. Powinieneś to zniszczyć!",
+                  "belarusian": "Брудны наркамана! І глядзі – вытворца з Рэвашоля, гэта Saint-Batiste. Нечэсная фармацэўтычная кампанія, якая імкнецца завабіць людзей у канаву. Ты павінен гэта знішчыць!",
                   "links": []
                 },
                 {
                   "id": 135,
+                  "redacted": false,
                   "title": "Inland Empire: \"And your chest swells with pride --...\"",
+                  "actor": "Inland Empire",
+                  "to": "You",
                   "articyId": "0x010000450000E97E",
-                  "text": "And your chest swells with pride -- look! It's made right here in Revachol, by Saint-Batiste, a proud Revacholian pharmaceutical company with great *traditions*!",
+                  "english": "And your chest swells with pride -- look! It's made right here in Revachol, by Saint-Batiste, a proud Revacholian pharmaceutical company with great *traditions*!",
+                  "polish": "Wypinasz dumnie pierś – proszę bardzo! Lek powstał tu, w Revacholu, w Saint-Batiste, wspaniałej firmie farmaceutycznej o wielkich *tradycjach*!",
+                  "belarusian": "Ты горда выпінаеш грудзі – калі ласка! Лек быў створаны тут, у Рэвачоле, у Сэн-Батысце, цудоўнай фармацэўтычнай кампаніі з вялікімі *традыцыямі*!",
                   "links": []
                 }
               ]
             },
             {
               "id": 107,
+              "redacted": false,
               "title": "Electrochemistry: \"...nothing of note. The further you...\"",
+              "actor": "Electrochemistry",
+              "to": "You",
               "articyId": "0x01000045000104AC",
-              "text": "...nothing of note. The further you look the more arcane it gets. You don't know what the rest of this stuff does.",
+              "english": "...nothing of note. The further you look the more arcane it gets. You don't know what the rest of this stuff does.",
+              "polish": "...nic ciekawego. Im dłużej patrzysz, tym bardziej tajemniczo to wygląda. Nie masz pojęcia, co robi reszta tych rzeczy.",
+              "belarusian": "...нічога цікавага. Чым даўжэй глядзіш, тым больш таямніча гэта выглядае. Ты не маеш уяўлення, што робіць рэшта гэтых рэчаў.",
               "links": []
             }
           ]
         },
         {
           "id": 13,
+          "redacted": false,
           "title": "You: \"Search for the Preptide again.\"",
+          "actor": "You",
+          "to": "Medicine Cabinet",
           "articyId": "0x010000780000A935",
-          "text": "Search for the Preptide again.",
+          "english": "Search for the Preptide again.",
+          "polish": "Poszukaj jeszcze raz Preptide'u.",
+          "belarusian": "Шукай зноў Peptide.",
           "links": [
             {
               "id": 87,
+              "redacted": false,
               "title": "Electrochemistry: \"There it is, the orange sun wearing...\"",
+              "actor": "Electrochemistry",
+              "to": "You",
               "articyId": "0x010000780000A93D",
-              "text": "There it is, the orange sun wearing blister pack. You feel almost *nostalgic* for it.",
+              "english": "There it is, the orange sun wearing blister pack. You feel almost *nostalgic* for it.",
+              "polish": "Oto i jest, blistr w kolorze słonecznego pomarańczu. Na jego widok ogarnia cię niemal *nostalgia*.",
+              "belarusian": "Вось і ён, блістэр у колеры сонечнага апельсіна. Пры яго выглядзе цябе ахоплівае амаль *настальгія*.",
               "links": [
                 {
                   "id": 94,
+                  "redacted": false,
                   "title": "You: \"What's so exciting about this orang...\"",
+                  "actor": "You",
+                  "to": "Medicine Cabinet",
                   "articyId": "0x010000450000E9AB",
-                  "text": "What's so exciting about this orange bottle?",
+                  "english": "What's so exciting about this orange bottle?",
+                  "polish": "Co jest takiego ekscytującego w tej pomarańczowej buteleczce?",
+                  "belarusian": "Што такога захапляльнага ў гэтай аранжавай бутэлечцы?",
                   "links": [
                     {
                       "id": 131,
+                      "redacted": false,
                       "title": "Electrochemistry: \"It's speed, man! Just what you were...\"",
+                      "actor": "Electrochemistry",
+                      "to": "You",
                       "articyId": "0x010000450000E9B8",
-                      "text": "It's speed, man! Just what you were looking for. They call it *dextroamphetamine* and talk about psychological disorders, but what we're seeing here is some scientifically advanced trucker speed!",
+                      "english": "It's speed, man! Just what you were looking for. They call it *dextroamphetamine* and talk about psychological disorders, but what we're seeing here is some scientifically advanced trucker speed!",
+                      "polish": "To speed, chłopie! Tego właśnie szukałeś. Nazywają to *dekstroamfetaminą* i gadają coś o zaburzeniach psychologicznych, ale to, co tu widzisz, to po prostu naukowo zaawansowany speed dla kierowców!",
+                      "belarusian": "Што хуткасць, хлопча! Гэта менавіта тое, што ты шукаў. Яны называюць гэта *дэкстраамфетамінам* і кажуць нешта пра псіхалагічныя засмучэнні, але тое, што ты бачыш тут, – гэта проста навукова прасунутая хуткасць для кіроўцаў!",
                       "links": [
                         {
                           "id": 43,
+                          "redacted": false,
                           "title": "Authority: \"Yes, take it... and then dispose of...\"",
+                          "actor": "Authority",
+                          "to": "You",
                           "articyId": "0x0100006B00009832",
-                          "text": "Yes, take it... and then dispose of it! This den of narcomania cannot be allowed stand!",
+                          "english": "Yes, take it... and then dispose of it! This den of narcomania cannot be allowed stand!",
+                          "polish": "Tak, weź tę butelkę... i się jej pozbądź! To narkomańskie leże nie może się ostać!",
+                          "belarusian": "Так, вазьмі гэтую бутэльку... і пазбаўся яе! Гэта наркаманскае логава не можа застацца!",
                           "links": []
                         }
                       ]
@@ -602,21 +997,36 @@
                 },
                 {
                   "id": 119,
+                  "redacted": false,
                   "title": "You: \"\"Lieutenant, I also see a brand cal...\"",
+                  "actor": "You",
+                  "to": "Medicine Cabinet",
                   "articyId": "0x010000450000E9B1",
-                  "text": "\"Lieutenant, I also see a brand called 'Preptide.'\"",
+                  "english": "\"Lieutenant, I also see a brand called 'Preptide.'\"",
+                  "polish": "„Poruczniku, widzę tu też markę »Preptide«”.",
+                  "belarusian": "«Лейтэнант, я бачу тут таксама марку „Preptide“».",
                   "links": [
                     {
                       "id": 113,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"Preptide -- a euphemism for pharma...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x010000450000E9C0",
-                      "text": "\"Preptide -- a euphemism for pharmaceutical amphetamine. Prescription speed.\"",
+                      "english": "\"Preptide -- a euphemism for pharmaceutical amphetamine. Prescription speed.\"",
+                      "polish": "„Preptide – eufemistyczna nazwa farmaceutycznej amfetaminy. Speed na receptę”.",
+                      "belarusian": "«Прэптыд – эўфемічная назва фармацэўтычнай амфетаміну. Спід па рэцэпце».",
                       "links": [
                         {
                           "id": 152,
+                          "redacted": false,
                           "title": "Electrochemistry: \"The fuck are you waiting for, let's...\"",
+                          "actor": "Electrochemistry",
+                          "to": "You",
                           "articyId": "0x010000450000E9D7",
-                          "text": "The fuck are you waiting for, let's get super fucking PREPPIE!!!",
+                          "english": "The fuck are you waiting for, let's get super fucking PREPPIE!!!",
+                          "polish": "Na co, kurwa, czekasz? Czas się NAPREPOWAĆ!",
+                          "belarusian": "На што, халера, чакаеш? Час ПРАЦЯГАВАЦЦА!",
                           "links": []
                         }
                       ]
@@ -625,54 +1035,94 @@
                 },
                 {
                   "id": 50,
+                  "redacted": false,
                   "title": "You: \"Take it -- in secret.\"",
+                  "actor": "You",
+                  "to": "Medicine Cabinet",
                   "articyId": "0x010000450000E9EE",
-                  "text": "Take it -- in secret.",
+                  "english": "Take it -- in secret.",
+                  "polish": "Zabierz go. Ukradkiem.",
+                  "belarusian": "Забяры яго. Тайком.",
                   "links": [
                     {
                       "id": 173,
+                      "redacted": false,
                       "title": "Interfacing: \"Silently the bottle slides into you...\"",
+                      "actor": "Interfacing",
+                      "to": "You",
                       "articyId": "0x010000450000EA35",
-                      "text": "Silently the bottle slides into your palm, then -- as you turn -- into your pocket.",
+                      "english": "Silently the bottle slides into your palm, then -- as you turn -- into your pocket.",
+                      "polish": "Buteleczka cicho trafia do twojej dłoni, a kiedy się obracasz – do kieszeni.",
+                      "belarusian": "Бутэлечка ціха трапляе да тваёй далоні, а калі ты абарочваешся – у кішэню.",
                       "links": [
                         {
                           "id": 141,
+                          "redacted": false,
                           "title": "Electrochemistry: \"Feels so sleek and beautiful -- you...\"",
+                          "actor": "Electrochemistry",
+                          "to": "You",
                           "articyId": "0x0100004C0000C723",
-                          "text": "Feels so sleek and beautiful -- you got it! Here comes the afterburner! Time to become a super-detective again, Harry! Just put it in your sweaty little hand now...",
+                          "english": "Feels so sleek and beautiful -- you got it! Here comes the afterburner! Time to become a super-detective again, Harry! Just put it in your sweaty little hand now...",
+                          "polish": "Jest taka smukła i piękna. Masz to! Oto dopalacz doskonały! Czas znów zmienić się w superdetektywa, Harry! Włóż tam tylko swoją zapoconą rączkę...",
+                          "belarusian": "Яна такая стройная і прыгожая. Ты гэта можаш! Вось ідэальны стымулятар! Час зноў ператварыцца ў супердэтэктыва, Гары! Проста ўсунь туды сваю спацелую руку...",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 133,
+                      "redacted": false,
                       "title": "Interfacing: \"You dropped it. Smack dab in the mi...\"",
+                      "actor": "Interfacing",
+                      "to": "You",
                       "articyId": "c9wuzvlesgp8l677",
-                      "text": "You dropped it. Smack dab in the middle of the floor! There it is -- orange as the midsummer evening's sun.",
+                      "english": "You dropped it. Smack dab in the middle of the floor! There it is -- orange as the midsummer evening's sun.",
+                      "polish": "Upuściłeś go. Na sam środek podłogi! Oto jest – pomarańczowy niczym letni zachód słońca.",
+                      "belarusian": "Ты ўроніў яго. Прамо на сярэдзіну падлогі! Вось ён – аранжавы, як летні заход сонца.",
                       "links": [
                         {
                           "id": 55,
+                          "redacted": false,
                           "title": "Perception (Sight): \"Wow. That's unbelievably orange. *A...\"",
+                          "actor": "Perception (Sight)",
+                          "to": "You",
                           "articyId": "0x010000450000EA98",
-                          "text": "Wow. That's unbelievably orange. *Anyone* can see that. It's practically *effervescent*!",
+                          "english": "Wow. That's unbelievably orange. *Anyone* can see that. It's practically *effervescent*!",
+                          "polish": "O rany. Ale pomarańczowy. *Od razu* rzuca się w oczy. Niemalże *skacze do oczu*!",
+                          "belarusian": "Ой-вей. Але памаранчавы. *Адразу* кідаецца ў вочы. Амаль *скача ў вочы*!",
                           "links": [
                             {
                               "id": 174,
+                              "redacted": false,
                               "title": "You: \"Pick it up.\"",
+                              "actor": "You",
+                              "to": "Medicine Cabinet",
                               "articyId": "0x010000450000EA9F",
-                              "text": "Pick it up.",
+                              "english": "Pick it up.",
+                              "polish": "Podnieś go.",
+                              "belarusian": "Падымі яго.",
                               "links": [
                                 {
                                   "id": 165,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"The lieutenant *tries* to keep his...\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x010000450000EAB3",
-                                  "text": "The lieutenant *tries* to keep his eyes on the door, but the Preptide bottle sounds like a rattlesnake -- it's basically a percussion instrument that you're stuffing into your pocket.",
+                                  "english": "The lieutenant *tries* to keep his eyes on the door, but the Preptide bottle sounds like a rattlesnake -- it's basically a percussion instrument that you're stuffing into your pocket.",
+                                  "polish": "Porucznik *próbuje* utrzymać wzrok na drzwiach, ale buteleczka z Preptide'em wydaje odgłosy przypominające grzechotnika – praktycznie jak instrument perkusyjny, który wpychasz sobie do kieszeni.",
+                                  "belarusian": "Лейтэнант *спрабуе* ўтрымаць погляд на дзвярах, але бутэлечка з Прэптыдам выдае гукі, якія нагадваюць грымучую змею – практычна як перкусійны інструмент, які заштурхоўваеш сабе ў кішэню.",
                                   "links": [
                                     {
                                       "id": 47,
+                                      "redacted": false,
                                       "title": "Electrochemistry: \"Who cares, man? Who cares what the...\"",
+                                      "actor": "Electrochemistry",
+                                      "to": "You",
                                       "articyId": "0x0100004C0000C733",
-                                      "text": "Who cares, man? Who cares what the stiff thinks? You got it. Here comes the afterburner! Just put it in your sweaty little hand now...",
+                                      "english": "Who cares, man? Who cares what the stiff thinks? You got it. Here comes the afterburner! Just put it in your sweaty little hand now...",
+                                      "polish": "A co cię to, stary? Kogo obchodzi opinia jakiegoś sztywniaka? Masz to w garści. Oto dopalacz doskonały! Włóż tam tylko swoją zapoconą rączkę...",
+                                      "belarusian": "А што табе да гэтага, стары? Каго хвалюе меркаванне якога-небудзь стрыманніка? У цябе гэта ў руках. Вось выдатны паскаральнік! Ўсунь туды толькі сваю ўспацелую ручку...",
                                       "links": []
                                     }
                                   ]
@@ -681,9 +1131,14 @@
                             },
                             {
                               "id": 115,
+                              "redacted": false,
                               "title": "You: \"Pick it up -- but secretly.\"",
+                              "actor": "You",
+                              "to": "Medicine Cabinet",
                               "articyId": "0x010000450000EAA6",
-                              "text": "Pick it up -- but secretly.",
+                              "english": "Pick it up -- but secretly.",
+                              "polish": "Podnieś go. Ukradkiem.",
+                              "belarusian": "Паднімі яго. Хітрасцю.",
                               "links": []
                             }
                           ]
@@ -692,36 +1147,61 @@
                     },
                     {
                       "id": 106,
+                      "redacted": false,
                       "title": "Interfacing: \"You dropped it. Smack dab in the mi...\"",
+                      "actor": "Interfacing",
+                      "to": "You",
                       "articyId": "0x010000450000EA3B",
-                      "text": "You dropped it. Smack dab in the middle of the floor! There it is -- orange as the midsummer evening's sun, or the lieutenant's bomber jacket.",
+                      "english": "You dropped it. Smack dab in the middle of the floor! There it is -- orange as the midsummer evening's sun, or the lieutenant's bomber jacket.",
+                      "polish": "Upuściłeś go. Na sam środek podłogi! Oto jest – pomarańczowy niczym letni zachód słońca albo kurtka bomberka porucznika.",
+                      "belarusian": "Ты яго ўпусціў. На самы сярэдзіну падлогі! Вось ён – аранжавы, як летні заход сонца або куртка-бомбэрка прапаршчыка.",
                       "links": []
                     }
                   ]
                 },
                 {
                   "id": 25,
+                  "redacted": false,
                   "title": "You: \"Just take it in plain sight.\"",
+                  "actor": "You",
+                  "to": "Medicine Cabinet",
                   "articyId": "0x010000450000EA08",
-                  "text": "Just take it in plain sight.",
+                  "english": "Just take it in plain sight.",
+                  "polish": "Po prostu go zabierz.",
+                  "belarusian": "Проста забяры яго.",
                   "links": [
                     {
                       "id": 78,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"The lieutenant looks toward the doo...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x010000450000EA7C",
-                      "text": "The lieutenant looks toward the door as if he didn't see you pilfer that sweet Preptide.",
+                      "english": "The lieutenant looks toward the door as if he didn't see you pilfer that sweet Preptide.",
+                      "polish": "Porucznik odwraca wzrok na drzwi, jakby nie zauważył, że zwinąłeś ten czadowy Preptide.",
+                      "belarusian": "Лейтэнант адвяртае позірк на дзверы, быццам не заўважыў, што ты ўзяў гэты класны Прэптыд.",
                       "links": [
                         {
                           "id": 136,
+                          "redacted": false,
                           "title": "Interfacing: \"He did, though. He totally did and...\"",
+                          "actor": "Interfacing",
+                          "to": "You",
                           "articyId": "0x010000450000EA83",
-                          "text": "He did, though. He totally did and now he thinks less of you. Should have kept it *sub rosa*.",
+                          "english": "He did, though. He totally did and now he thinks less of you. Should have kept it *sub rosa*.",
+                          "polish": "Ale widział. Widział jak nic i teraz ma o tobie gorszą opinię. Trzeba było zrobić to *sub rosa*.",
+                          "belarusian": "Але бачыў. Бачыў як нічога і зараз мае пра цябе горшую думку. Трэба было зрабіць гэта *sub rosa*.",
                           "links": [
                             {
                               "id": 171,
+                              "redacted": false,
                               "title": "Electrochemistry: \"Who cares, man? Who cares what the...\"",
+                              "actor": "Electrochemistry",
+                              "to": "You",
                               "articyId": "0x010000060001ABCB",
-                              "text": "Who cares, man? Who cares what the stiff thinks? Here comes the afterburner! Just put it in your sweaty little hand now...",
+                              "english": "Who cares, man? Who cares what the stiff thinks? Here comes the afterburner! Just put it in your sweaty little hand now...",
+                              "polish": "A co cię to, stary? Kogo obchodzi opinia jakiegoś sztywniaka? Oto dopalacz doskonały! Włóż tam tylko swoją zapoconą rączkę...",
+                              "belarusian": "А што табе, стары? Каго хвалюе меркаванне нейкага штырны? Вось цябе ідэальны дапінг! Толькі сунь туды сваю спацелую ручку...",
                               "links": []
                             }
                           ]
@@ -730,18 +1210,28 @@
                     },
                     {
                       "id": 54,
+                      "redacted": false,
                       "title": "Medicine Cabinet: \"Feels like gold in your hands. Ligh...\"",
+                      "actor": "Medicine Cabinet",
+                      "to": "You",
                       "articyId": "0x010000450000EA75",
-                      "text": "Feels like gold in your hands. Light and precious.",
+                      "english": "Feels like gold in your hands. Light and precious.",
+                      "polish": "Jest w twojej ręce jak złoto. Lekki i drogocenny.",
+                      "belarusian": "Яно ў тваёй руцэ як золата. Лёгкае і каштоўнае.",
                       "links": []
                     }
                   ]
                 },
                 {
                   "id": 154,
+                  "redacted": false,
                   "title": "You: \"[Close the cabinet.]\"",
+                  "actor": "You",
+                  "to": "Medicine Cabinet",
                   "articyId": "0x010000450000EA12",
-                  "text": "[Close the cabinet.]",
+                  "english": "[Close the cabinet.]",
+                  "polish": "[Zamknij szafkę].",
+                  "belarusian": "[Закрый шафу].",
                   "links": []
                 }
               ]
@@ -750,18 +1240,28 @@
         },
         {
           "id": 146,
+          "redacted": false,
           "title": "You: \"[Close the cabinet.]\"",
+          "actor": "You",
+          "to": "Medicine Cabinet",
           "articyId": "0x010000450000E86B",
-          "text": "[Close the cabinet.]",
+          "english": "[Close the cabinet.]",
+          "polish": "[Zamknij szafkę].",
+          "belarusian": "[Закрый шафу].",
           "links": []
         }
       ]
     },
     {
       "id": 111,
+      "redacted": false,
       "title": "Medicine Cabinet: \"This medicine cabinet is full of wa...\"",
+      "actor": "Medicine Cabinet",
+      "to": "You",
       "articyId": "0x0100002F0000F8E7",
-      "text": "This medicine cabinet is full of wares -- sheets of pills haphazardly stacked one on top of the other. There's also a toothbrush somewhere in there.",
+      "english": "This medicine cabinet is full of wares -- sheets of pills haphazardly stacked one on top of the other. There's also a toothbrush somewhere in there.",
+      "polish": "Wypełniona szafka na leki – blistry lekarstw położone niedbale jeden na drugim. Gdzieś wśród nich jest też szczoteczka do zębów.",
+      "belarusian": "Запоўненая аптэчка – блістары з лекамі, няўважліва складзеныя адзін на адзін. Недзе сярод іх таксама ёсць зубная шчотка.",
       "links": []
     }
   ]

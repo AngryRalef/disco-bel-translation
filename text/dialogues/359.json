@@ -5,42 +5,72 @@
   "dialogueTree": [
     {
       "id": 2,
+      "redacted": false,
       "title": "Logic: \"What happened here?\"",
+      "actor": "Logic",
+      "to": null,
       "articyId": "0x010000570001E0B2",
-      "text": "What happened here?",
+      "english": "What happened here?",
+      "polish": "Co się tutaj stało?",
+      "belarusian": "Што тут адбылося?",
       "links": [
         {
           "id": 3,
+          "redacted": false,
           "title": "You: \"You can't foreclose on an apartment...\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000570001E16F",
-          "text": "You can't foreclose on an apartment with a hole in the wall.",
+          "english": "You can't foreclose on an apartment with a hole in the wall.",
+          "polish": "Nie można przejąć mieszkania z dziurą w ścianie.",
+          "belarusian": "Немагчыма засяліцца ў кватэру з дзіркай у сцяне.",
           "links": [
             {
               "id": 11,
+              "redacted": false,
               "title": "Logic: \"It will still be accessible through...\"",
+              "actor": "Logic",
+              "to": null,
               "articyId": "0x010000570001E17E",
-              "text": "It will still be accessible through the apartment next to it. That one didn't have a door... Sadly, nothing of great value remains here.",
+              "english": "It will still be accessible through the apartment next to it. That one didn't have a door... Sadly, nothing of great value remains here.",
+              "polish": "Wciąż będzie dostępne przez mieszkanie obok. To, które nie miało drzwi... Niestety, nie zostało tu nic o jakiejkolwiek sensownej wartości.",
+              "belarusian": "Усё яшчэ будзе даступна праз кватэру побач. Тую, у якой не было дзвярэй... На жаль, тут не засталося нічога якой-небудзь сэнсоўнай вартасці.",
               "links": [
                 {
                   "id": 8,
+                  "redacted": false,
                   "title": "You: \"Except the stuff in the fridge.\"",
+                  "actor": "You",
+                  "to": null,
                   "articyId": "0x010000570001E2DC",
-                  "text": "Except the stuff in the fridge.",
+                  "english": "Except the stuff in the fridge.",
+                  "polish": "Poza tym, co w lodówce.",
+                  "belarusian": "Апроч таго, што ў халадзільніку.",
                   "links": [
                     {
                       "id": 9,
+                      "redacted": false,
                       "title": "Logic: \"Indeed!\"",
+                      "actor": "Logic",
+                      "to": null,
                       "articyId": "0x010000570001E307",
-                      "text": "Indeed!",
+                      "english": "Indeed!",
+                      "polish": "Zgadza się!",
+                      "belarusian": "Сапраўды!",
                       "links": []
                     }
                   ]
                 },
                 {
                   "id": 5,
+                  "redacted": false,
                   "title": "You: \"There's always a little something i...\"",
+                  "actor": "You",
+                  "to": null,
                   "articyId": "0x010000570001E2E2",
-                  "text": "There's always a little something in the fridge.",
+                  "english": "There's always a little something in the fridge.",
+                  "polish": "W lodówce zawsze jest jakiś drobiazg.",
+                  "belarusian": "У халадзільніку заўсёды ёсць нейкая дробязь.",
                   "links": []
                 }
               ]
@@ -49,21 +79,36 @@
         },
         {
           "id": 4,
+          "redacted": false,
           "title": "You: \"This looks so sad...\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000570001E2EA",
-          "text": "This looks so sad...",
+          "english": "This looks so sad...",
+          "polish": "Wygląda to tak smutno...",
+          "belarusian": "Гэта выглядае так сумна...",
           "links": [
             {
               "id": 6,
+              "redacted": false,
               "title": "Logic: \"Put your emotions aside. Try to foc...\"",
+              "actor": "Logic",
+              "to": null,
               "articyId": "0x010000570001E2F2",
-              "text": "Put your emotions aside. Try to focus on abstract, impersonal things.",
+              "english": "Put your emotions aside. Try to focus on abstract, impersonal things.",
+              "polish": "Odłóż emocje na bok. Spróbuj skupić się na rzeczach abstrakcyjnych, niezwiązanych z ludźmi.",
+              "belarusian": "Адкладзі эмоцыі ўбок. Паспрабуй засяродзіцца на абстрактных рэчах, не звязаных з людзьмі.",
               "links": [
                 {
                   "id": 7,
+                  "redacted": false,
                   "title": "Inland Empire: \"But this reeks of sadness!\"",
+                  "actor": "Inland Empire",
+                  "to": null,
                   "articyId": "0x010000570001E2F8",
-                  "text": "But this reeks of sadness!",
+                  "english": "But this reeks of sadness!",
+                  "polish": "Ale tu aż cuchnie od smutku!",
+                  "belarusian": "Але тут аж смярдзіць смуткам!",
                   "links": []
                 }
               ]
@@ -72,9 +117,14 @@
         },
         {
           "id": 10,
+          "redacted": false,
           "title": "You: \"[Discard thought.]\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x010000570001E175",
-          "text": "[Discard thought.]",
+          "english": "[Discard thought.]",
+          "polish": "[Odrzuć myśl].",
+          "belarusian": "[Адкінь думку].",
           "links": []
         }
       ]

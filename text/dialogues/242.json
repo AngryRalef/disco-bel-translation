@@ -5,33 +5,58 @@
   "dialogueTree": [
     {
       "id": 5,
+      "redacted": false,
       "title": "Barred Door: \"This is the door to the pinball wor...\"",
+      "actor": "Barred Door",
+      "to": "You",
       "articyId": "0x0100005800009EBA",
-      "text": "This is the door to the pinball workshop that you left barred on the inside.",
+      "english": "This is the door to the pinball workshop that you left barred on the inside.",
+      "polish": "To drzwi do warsztatu pinballowego, które zostawiłeś zablokowane belką od wewnątrz.",
+      "belarusian": "Гэта дзверы да пінабольнай майстэрні, якія ты пакінуў заблакаванымі штангай знутры.",
       "links": [
         {
           "id": 56,
+          "redacted": false,
           "title": "You: \"Push.\"",
+          "actor": "You",
+          "to": "Barred Door",
           "articyId": "0x010000450000EE05",
-          "text": "Push.",
+          "english": "Push.",
+          "polish": "Popchnij.",
+          "belarusian": "Штурхні.",
           "links": [
             {
               "id": 3,
+              "redacted": false,
               "title": "Barred Door: \"It's barred from the inside. You he...\"",
+              "actor": "Barred Door",
+              "to": "You",
               "articyId": "0x010000450000EE19",
-              "text": "It's barred from the inside. You hear the bar rattle in the brackets.",
+              "english": "It's barred from the inside. You hear the bar rattle in the brackets.",
+              "polish": "Są zablokowane od środka belką. Słyszysz, jak obija się ona o metalowe obejmy.",
+              "belarusian": "Яны заблакіраваныя знутры бэлькай. Ты чуеш, як яна б’ецца аб металічныя заціскі.",
               "links": [
                 {
                   "id": 91,
+                  "redacted": false,
                   "title": "Perception (Hearing): \"Sounds like it's heavy too. Very st...\"",
+                  "actor": "Perception (Hearing)",
+                  "to": "You",
                   "articyId": "0x010000450000EE25",
-                  "text": "Sounds like it's heavy too. Very sturdy.",
+                  "english": "Sounds like it's heavy too. Very sturdy.",
+                  "polish": "Zdaje się też, że jest ciężka. I bardzo mocna.",
+                  "belarusian": "Здаецца, яна таксама цяжкая. I вельмі моцная.",
                   "links": [
                     {
                       "id": 55,
+                      "redacted": false,
                       "title": "Logic: \"Must be something valuable inside t...\"",
+                      "actor": "Logic",
+                      "to": "You",
                       "articyId": "0x0100000400013E25",
-                      "text": "Must be something valuable inside to go through the trouble of protecting it -- the door is very sturdy indeed.",
+                      "english": "Must be something valuable inside to go through the trouble of protecting it -- the door is very sturdy indeed.",
+                      "polish": "W środku musi być coś cennego, skoro ktoś aż tak chciał to chronić. Drzwi są naprawdę bardzo mocne.",
+                      "belarusian": "Усярэдзіне павінна быць нешта каштоўнае, калі хтосьці так хацеў гэта абараніць. Дзверы сапраўды вельмі моцныя.",
                       "links": []
                     }
                   ]
@@ -42,129 +67,224 @@
         },
         {
           "id": 16,
+          "redacted": false,
           "title": "You: \"\"Where does this lead to?\"\"",
+          "actor": "You",
+          "to": "Barred Door",
           "articyId": "0x010000450000EE4B",
-          "text": "\"Where does this lead to?\"",
+          "english": "\"Where does this lead to?\"",
+          "polish": "„Dokąd te drzwi prowadzą?”",
+          "belarusian": "„Куды гэтыя дзверы вядуць?”",
           "links": [
             {
               "id": 9,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"To the workshop behind the wall.\"...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x010000450000EE43",
-              "text": "\"To the workshop behind the wall.\" He points somewhere within. \"This must be the barred door we saw -- we *could* return and open it from the inside.\" He looks at the door with suspicion.",
+              "english": "\"To the workshop behind the wall.\" He points somewhere within. \"This must be the barred door we saw -- we *could* return and open it from the inside.\" He looks at the door with suspicion.",
+              "polish": "„Do warsztatu za ścianą” – odpowiada, wskazując budynek. „To muszą być zablokowane drzwi, które tam widzieliśmy – *moglibyśmy* wrócić tam i otworzyć je od środka” – stwierdza, spoglądając podejrzliwie na drzwi.",
+              "belarusian": "«Да майстэрні за сцяной», — адказвае, паказваючы на будынак. «Гэта, напэўна, павінны быць заблакаваная дзверы, якія мы там бачылі — *маглі б* вярнуцца туды і адчыніць іх знутры», — кажа ён, падазрона зірнуўшы на дзверы.",
               "links": []
             },
             {
               "id": 156,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"It must be connected to the room w...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x010000450000EF3D",
-              "text": "\"It must be connected to the room we found behind the kitchen door. Maybe we should go back and take that elevator up...\" He looks at the door with suspicion.",
+              "english": "\"It must be connected to the room we found behind the kitchen door. Maybe we should go back and take that elevator up...\" He looks at the door with suspicion.",
+              "polish": "„Muszą być połączone z pomieszczeniem, które znaleźliśmy za drzwiami w kuchni. Może powinniśmy tam wrócić i sprawdzić, dokąd prowadzi ta winda...” – stwierdza, spoglądając podejrzliwie na drzwi.",
+              "belarusian": "«Яны павінны быць злучаныя з памяшканнем, якое мы знайшлі за дзвярыма на кухні. Можа, нам варта вярнуцца туды і праверыць, куды вядзе гэты ліфт...» — зазначае ён, падазрона паглядаючы на дзверы.",
               "links": []
             },
             {
               "id": 95,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"I don't know.\" He makes a note in...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x010000450000EE3C",
-              "text": "\"I don't know.\" He makes a note in his notebook.",
+              "english": "\"I don't know.\" He makes a note in his notebook.",
+              "polish": "„Nie wiem” – stwierdza i zapisuje coś w swoim notatniku.",
+              "belarusian": "«Не ведаю,» – адзначае ён і запісвае нешта ў сваім нататніку.",
               "links": [
                 {
                   "id": 17,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"It is not the first closed door we...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x010000450000EE67",
-                  "text": "\"It is not the first closed door we've found in this building -- there is also your mysterious blue kitchen door.\"",
+                  "english": "\"It is not the first closed door we've found in this building -- there is also your mysterious blue kitchen door.\"",
+                  "polish": "„To nie są pierwsze zamknięte drzwi, na jakie natknęliśmy się w tym budynku – są też przecież twoje tajemnicze niebieskie drzwi w kuchni”.",
+                  "belarusian": "«Гэта не першыя зачыненыя дзверы, на якія мы наткнуліся ў гэтым будынку — ёсць жа, акрамя таго, твае таямнічыя сінія дзверы на кухні».",
                   "links": [
                     {
                       "id": 107,
+                      "redacted": false,
                       "title": "You: \"\"Do you think it's important?\"\"",
+                      "actor": "You",
+                      "to": "Barred Door",
                       "articyId": "0x010000450000EE74",
-                      "text": "\"Do you think it's important?\"",
+                      "english": "\"Do you think it's important?\"",
+                      "polish": "„Myślisz, że to ważne?”",
+                      "belarusian": "«Ты думаеш, гэта важна?»",
                       "links": [
                         {
                           "id": 20,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"I don't know. The further we get,...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x0100007800010A26",
-                          "text": "\"I don't know. The further we get, the more this building seems to be tied to the case...\"",
+                          "english": "\"I don't know. The further we get, the more this building seems to be tied to the case...\"",
+                          "polish": "„Nie wiem. Im więcej się dowiadujemy, tym bardziej ten budynek zdaje się powiązany z naszym śledztwem...”",
+                          "belarusian": "«Не ведаю. Чым больш мы даведваемся, тым больш гэтае будынак здаецца звязаным з нашым расследаваннем...».",
                           "links": [
                             {
                               "id": 22,
+                              "redacted": false,
                               "title": "Shivers: \"Below, the hostel-cafeteria creaks...\"",
+                              "actor": "Shivers",
+                              "to": "You",
                               "articyId": "0x010000450000EE80",
-                              "text": "Below, the hostel-cafeteria creaks and groans under your added weight -- a skeleton of composite support beams and cantilevers.",
+                              "english": "Below, the hostel-cafeteria creaks and groans under your added weight -- a skeleton of composite support beams and cantilevers.",
+                              "polish": "Hostelo-bar pod twoimi stopami – szkielet z kompozytowych belek i wsporników – skrzypi i trzeszczy, dźwigając twój ciężar.",
+                              "belarusian": "Хостэл-бар пад тваімі нагамі – шкілет з кампазітных бэлек і падпорак – рыпіць і трэшчыць, паднімаючы тваю вагу.",
                               "links": [
                                 {
                                   "id": 68,
+                                  "redacted": false,
                                   "title": "You: \"Tap on the roof with your foot.\"",
+                                  "actor": "You",
+                                  "to": "Barred Door",
                                   "articyId": "0x010000450000EE87",
-                                  "text": "Tap on the roof with your foot.",
+                                  "english": "Tap on the roof with your foot.",
+                                  "polish": "Stuknij w dach stopą.",
+                                  "belarusian": "Пастукай па даху нагой.",
                                   "links": [
                                     {
                                       "id": 82,
+                                      "redacted": false,
                                       "title": "Shivers: \"A dull thump. Somewhere inside a wi...\"",
+                                      "actor": "Shivers",
+                                      "to": "You",
                                       "articyId": "0x010000450000EE93",
-                                      "text": "A dull thump. Somewhere inside a wind brace rattles from the imperceptible motion of the building.",
+                                      "english": "A dull thump. Somewhere inside a wind brace rattles from the imperceptible motion of the building.",
+                                      "polish": "Głuche łupnięcie. Gdzieś w środku element stężenia wiatrowego brzęczy wskutek nieodczuwalnego ruchu budynku.",
+                                      "belarusian": "Глухі ўдар. Недзе ўнутры элемент ветравай нагрузкі звініць у выніку неадчувальнага руху будынка.",
                                       "links": []
                                     }
                                   ]
                                 },
                                 {
                                   "id": 143,
+                                  "redacted": false,
                                   "title": "You: \"Shake it off.\"",
+                                  "actor": "You",
+                                  "to": "Barred Door",
                                   "articyId": "0x010000450000EE8D",
-                                  "text": "Shake it off.",
+                                  "english": "Shake it off.",
+                                  "polish": "Otrząśnij się.",
+                                  "belarusian": "Ачуняйся.",
                                   "links": []
                                 },
                                 {
                                   "id": 131,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"The vigilantes, the cadaver, and.....\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x0100008F00003FD8",
-                                  "text": "\"The vigilantes, the cadaver, and...\" He nods to where they young woman once stood. \"A number of people connected to the case are *in* or around this building. This door is part of it. It's not *unimportant*.\"",
+                                  "english": "\"The vigilantes, the cadaver, and...\" He nods to where they young woman once stood. \"A number of people connected to the case are *in* or around this building. This door is part of it. It's not *unimportant*.\"",
+                                  "polish": "„Samozwańczy mściciele, zwłoki i...” – wskazuje skinieniem głowy miejsce, w którym wcześniej stała młoda kobieta. „Wiele osób powiązanych z tą sprawą znajduje się *w* lub w pobliżu tego budynku. A te drzwi są jego częścią. To nie jest *nieważne*”.",
+                                  "belarusian": "«Самазваныя мсціўцы, трупы і…» – ківае ён на месца, дзе раней стаяла маладая жанчына. «Шмат людзей, звязаных з гэтай справай, знаходзіцца *ў* або паблізу гэтай будыніны. А гэтыя дзверы з'яўляюцца яго часткай. Гэта не *незначна*».",
                                   "links": [
                                     {
                                       "id": 166,
+                                      "redacted": false,
                                       "title": "You: \"\"So maybe the door below *is* a *me...\"",
+                                      "actor": "You",
+                                      "to": "Barred Door",
                                       "articyId": "0x0100007800010950",
-                                      "text": "\"So maybe the door below *is* a *mega*-investigation.\"",
+                                      "english": "\"So maybe the door below *is* a *mega*-investigation.\"",
+                                      "polish": "„Więc może te drzwi na dole *są* jednak *megadochodzeniem*”.",
+                                      "belarusian": "«Дык, можа, гэтыя дзверы ўнізе *усё ж такі* з’яўляюцца *мегарасследаваннем*».",
                                       "links": [
                                         {
                                           "id": 53,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"No -- still a mini-investigation.\"...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x0100007800010966",
-                                          "text": "\"No -- still a mini-investigation.\" He pretends to make a note in his notebook.",
+                                          "english": "\"No -- still a mini-investigation.\" He pretends to make a note in his notebook.",
+                                          "polish": "„Nie – to wciąż miniśledztwo” – stwierdza i udaje, że zapisuje coś w swoim notatniku.",
+                                          "belarusian": "«Не — гэта ўсё яшчэ міні-расследаванне», — заявіў ён і зрабіў выгляд, што запісвае нешта ў сваім нататніку.",
                                           "links": []
                                         }
                                       ]
                                     },
                                     {
                                       "id": 138,
+                                      "redacted": false,
                                       "title": "You: \"\"See? The main investigation and th...\"",
+                                      "actor": "You",
+                                      "to": "Barred Door",
                                       "articyId": "0x0100007800010956",
-                                      "text": "\"See? The main investigation and the door below are merging into a *stereo*-investigation.\"",
+                                      "english": "\"See? The main investigation and the door below are merging into a *stereo*-investigation.\"",
+                                      "polish": "„Widzisz? Główne dochodzenie i drzwi na dole zespalają się w jedno *stereodochodzenie*”.",
+                                      "belarusian": "«Бачыш? Асноўнае расследаванне і дзверы ўнізе зліваюцца ў адно *стэрэарасследаванне*».",
                                       "links": [
                                         {
                                           "id": 76,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"\"I hate it when that happens.\"\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x010000780001095C",
-                                          "text": "\"I hate it when that happens.\"",
+                                          "english": "\"I hate it when that happens.\"",
+                                          "polish": "„Nie znoszę, gdy tak się dzieje”.",
+                                          "belarusian": "«Не цярплю, калі так адбываецца».",
                                           "links": []
                                         }
                                       ]
                                     },
                                     {
                                       "id": 139,
+                                      "redacted": false,
                                       "title": "You: \"\"I could say something, but I'm not...\"",
+                                      "actor": "You",
+                                      "to": "Barred Door",
                                       "articyId": "0x010000780001097D",
-                                      "text": "\"I could say something, but I'm not going to, because I don't gloat.\"",
+                                      "english": "\"I could say something, but I'm not going to, because I don't gloat.\"",
+                                      "polish": "„Mógłbym coś powiedzieć, ale nie powiem, bo nie mam w zwyczaju się pysznić”.",
+                                      "belarusian": "«Я мог бы нешта сказаць, але не скажу, бо не маю звычкі хваліцца».",
                                       "links": [
                                         {
                                           "id": 151,
+                                          "redacted": false,
                                           "title": "Kim Kitsuragi: \"He doesn't say anything.\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
                                           "articyId": "0x0100007800010983",
-                                          "text": "He doesn't say anything.",
+                                          "english": "He doesn't say anything.",
+                                          "polish": "Milczy.",
+                                          "belarusian": "Маўчыць.",
                                           "links": [
                                             {
                                               "id": 167,
+                                              "redacted": false,
                                               "title": "Rhetoric: \"You should have gloated.\"",
+                                              "actor": "Rhetoric",
+                                              "to": "You",
                                               "articyId": "0x0100007800010994",
-                                              "text": "You should have gloated.",
+                                              "english": "You should have gloated.",
+                                              "polish": "Trzeba było się pysznić.",
+                                              "belarusian": "Трэба было ганарыцца.",
                                               "links": []
                                             }
                                           ]
@@ -175,9 +295,14 @@
                                 },
                                 {
                                   "id": 18,
+                                  "redacted": false,
                                   "title": "Kim Kitsuragi: \"\"The vigilantes, the cadaver, and.....\"",
+                                  "actor": "Kim Kitsuragi",
+                                  "to": "You",
                                   "articyId": "0x010000450000EEAA",
-                                  "text": "\"The vigilantes, the cadaver, and...\" He nods toward the young woman. \"A number of people connected to the case are *in* or around this building. This door is part of it. It's not *unimportant*.\"",
+                                  "english": "\"The vigilantes, the cadaver, and...\" He nods toward the young woman. \"A number of people connected to the case are *in* or around this building. This door is part of it. It's not *unimportant*.\"",
+                                  "polish": "„Samozwańczy mściciele, zwłoki i...” – wskazuje skinieniem głowy młodą kobietę. „Wiele osób powiązanych z tą sprawą znajduje się *w* lub w pobliżu tego budynku. A te drzwi są jego częścią. To nie jest *nieważne*”.",
+                                  "belarusian": "«Самазваныя мсціўцы, трупы і...» – ківае галавой на маладую жанчыну. «Шмат людзей, звязаных з гэтай справай, знаходзіцца *ў* або каля гэтай будынка. А гэтыя дзверы з'яўляюцца яго часткай. Гэта не *няважна*».",
                                   "links": []
                                 }
                               ]
@@ -186,9 +311,14 @@
                         },
                         {
                           "id": 155,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"The further we get, the more this...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x010000450000EE79",
-                          "text": "\"The further we get, the more this building seems to be tied to the case...\"",
+                          "english": "\"The further we get, the more this building seems to be tied to the case...\"",
+                          "polish": "„Im więcej się dowiadujemy, tym bardziej ten budynek zdaje się powiązany z naszym śledztwem...”",
+                          "belarusian": "«Чым больш мы даведваемся, тым больш гэты будынак здаецца звязаным з нашым расследаваннем...»",
                           "links": []
                         }
                       ]
@@ -197,9 +327,14 @@
                 },
                 {
                   "id": 77,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"We should search downstairs, in th...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x01000078000109A4",
-                  "text": "\"We should search downstairs, in the kitchen -- just in case. Maybe there's a door that leads up, that we don't know of.\"",
+                  "english": "\"We should search downstairs, in the kitchen -- just in case. Maybe there's a door that leads up, that we don't know of.\"",
+                  "polish": "„Powinniśmy rozejrzeć się na parterze, w kuchni – tak na wszelki wypadek. Może są tam drzwi, które prowadzą na górę, a my nie mamy o nich pojęcia”.",
+                  "belarusian": "«Мы павінны агледзецца на першым паверсе, у кухні — так на ўсялякі выпадак. Магчыма, там ёсць дзверы, якія вядуць наверх, а мы пра іх не ведаем».",
                   "links": []
                 }
               ]
@@ -208,45 +343,80 @@
         },
         {
           "id": 133,
+          "redacted": false,
           "title": "You: \"Kick the door in.\"",
+          "actor": "You",
+          "to": "Barred Door",
           "articyId": "0x010000450000EE0B",
-          "text": "Kick the door in.",
+          "english": "Kick the door in.",
+          "polish": "Wyważ drzwi kopnięciem.",
+          "belarusian": "Выбі Выбіць дзверы ўдарам нагой.",
           "links": [
             {
               "id": 78,
+              "redacted": false,
               "title": "Physical Instrument: \"Something cracks inside. It is an u...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100008F00003E7A",
-              "text": "Something cracks inside. It is an unbelievably satisfying sound.",
+              "english": "Something cracks inside. It is an unbelievably satisfying sound.",
+              "polish": "Coś trzaska w środku. Niesamowicie satysfakcjonujący odgłos.",
+              "belarusian": "Нешта трэскаецца ўнутры. Незвычайна задавальняючы гук.",
               "links": [
                 {
                   "id": 142,
+                  "redacted": false,
                   "title": "Electrochemistry: \"Filling you with a *belief* in your...\"",
+                  "actor": "Electrochemistry",
+                  "to": "You",
                   "articyId": "0x0100000400013D7F",
-                  "text": "Filling you with a *belief* in your own body.",
+                  "english": "Filling you with a *belief* in your own body.",
+                  "polish": "Co napełniło cię *wiarą* w twoje własne ciało.",
+                  "belarusian": "Што напоўніла цябе *верай* у тваё ўласнае цела.",
                   "links": [
                     {
                       "id": 132,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"Sounds like the property damage wa...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100000400013D8C",
-                      "text": "\"Sounds like the property damage wasn't in vain, at least. Would it hurt to look in?\"",
+                      "english": "\"Sounds like the property damage wasn't in vain, at least. Would it hurt to look in?\"",
+                      "polish": "„Wygląda na to, że zniszczenie cudzej własności nie poszło na marne. Zajrzymy do środka?”",
+                      "belarusian": "«Выглядае на тое, што знішчэнне чужой маёмасці не пайшло дарма. Зірнем унутр?»",
                       "links": [
                         {
                           "id": 2,
+                          "redacted": false,
                           "title": "You: \"\"I thought it was an Ace's High mom...\"",
+                          "actor": "You",
+                          "to": "Barred Door",
                           "articyId": "0x0100000400013DB4",
-                          "text": "\"I thought it was an Ace's High moment, Kim.\"",
+                          "english": "\"I thought it was an Ace's High moment, Kim.\"",
+                          "polish": "„Myślałem, że to okazja do wysokiej piątki, Kim”.",
+                          "belarusian": "«Я думаў, што гэта нагода для высокай пяцёркі, Кім».",
                           "links": [
                             {
                               "id": 79,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"I don't know about that...\" The li...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x0100000400013DD3",
-                              "text": "\"I don't know about that...\" The lieutenant smiles an uncomfortable smile.",
+                              "english": "\"I don't know about that...\" The lieutenant smiles an uncomfortable smile.",
+                              "polish": "„No nie wiem...” – odpowiada porucznik z niezręcznym uśmiechem.",
+                              "belarusian": "«Ну, не ведаю...» — адказвае лейтэнант з няўклюднай усмешкай.",
                               "links": [
                                 {
                                   "id": 54,
+                                  "redacted": false,
                                   "title": "Empathy: \"It totally was.\"",
+                                  "actor": "Empathy",
+                                  "to": "You",
                                   "articyId": "0x0100000400013DD9",
-                                  "text": "It totally was.",
+                                  "english": "It totally was.",
+                                  "polish": "Oczywiście, że tak.",
+                                  "belarusian": "Вядома, што так.",
                                   "links": []
                                 }
                               ]
@@ -255,46 +425,76 @@
                         },
                         {
                           "id": 43,
+                          "redacted": false,
                           "title": "You: \"\"I thought it was an Ace's Low mome...\"",
+                          "actor": "You",
+                          "to": "Barred Door",
                           "articyId": "0x0100000400013DBA",
-                          "text": "\"I thought it was an Ace's Low moment, Kim.\"",
+                          "english": "\"I thought it was an Ace's Low moment, Kim.\"",
+                          "polish": "„Myślałem, że to okazja do niskiej piątki, Kim”.",
+                          "belarusian": "«Я думаў, што гэта магчымасць для нізкай пяцёркі, Кім».",
                           "links": []
                         },
                         {
                           "id": 64,
+                          "redacted": false,
                           "title": "You: \"\"Let's see.\" [Leave.]\"",
+                          "actor": "You",
+                          "to": "Barred Door",
                           "articyId": "0x0100000400013DC0",
-                          "text": "\"Let's see.\" [Leave.]",
+                          "english": "\"Let's see.\" [Leave.]",
+                          "polish": "„Zobaczmy”. [Odejdź].",
+                          "belarusian": "«Давай паглядзім». [Адыдзі].",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 185,
+                      "redacted": false,
                       "title": "Visual Calculus: \"It seems like the brackets broke in...\"",
+                      "actor": "Visual Calculus",
+                      "to": "You",
                       "articyId": "0x0100006B0000A8FD",
-                      "text": "It seems like the brackets broke inside.",
+                      "english": "It seems like the brackets broke inside.",
+                      "polish": "Zdaje się, że obejmy w środku puściły.",
+                      "belarusian": "Здаецца, што ўнутраныя хамуты аслабіліся.",
                       "links": [
                         {
                           "id": 26,
+                          "redacted": false,
                           "title": "You: \"Let's get in there. [Leave.]\"",
+                          "actor": "You",
+                          "to": "Barred Door",
                           "articyId": "0x0100006B0000A905",
-                          "text": "Let's get in there. [Leave.]",
+                          "english": "Let's get in there. [Leave.]",
+                          "polish": "Wejdźmy do środka. [Odejdź].",
+                          "belarusian": "Зайдзем унутр. [Адыдзі].",
                           "links": []
                         }
                       ]
                     },
                     {
                       "id": 15,
+                      "redacted": false,
                       "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I think the brackets broke inside....\"",
+                      "actor": "Klaasje (Miss Oranje Disco Dancer)",
+                      "to": "You",
                       "articyId": "0x0100000400013D91",
-                      "text": "\"I think the brackets broke inside. I've always wanted to know what's in there...\"",
+                      "english": "\"I think the brackets broke inside. I've always wanted to know what's in there...\"",
+                      "polish": "„Chyba złamałeś rygiel. Zawsze chciałam wiedzieć, co tam jest...”",
+                      "belarusian": "«Напэўна, ты зламаў зашчапку. Заўсёды хацела ведаць, што там ёсць...»",
                       "links": [
                         {
                           "id": 121,
+                          "redacted": false,
                           "title": "Empathy: \"She sounds genuinely curious.\"",
+                          "actor": "Empathy",
+                          "to": "You",
                           "articyId": "0x0100000400013D98",
-                          "text": "She sounds genuinely curious.",
+                          "english": "She sounds genuinely curious.",
+                          "polish": "Wydaje się autentycznie zaciekawiona.",
+                          "belarusian": "Яна выглядае сапраўды зацікаўленай.",
                           "links": []
                         }
                       ]
@@ -305,98 +505,168 @@
             },
             {
               "id": 127,
+              "redacted": false,
               "title": "Physical Instrument: \"Something cracks inside. It is an u...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100008F00003E6D",
-              "text": "Something cracks inside. It is an unbelievably satisfying sound.",
+              "english": "Something cracks inside. It is an unbelievably satisfying sound.",
+              "polish": "Coś trzaska w środku. Niesamowicie satysfakcjonujący odgłos.",
+              "belarusian": "Нешта трэскаецца ўнутры. Незвычайна задавальняючы гук.",
               "links": [
                 {
                   "id": 122,
+                  "redacted": false,
                   "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Nice.\" The young woman nods.\"",
+                  "actor": "Klaasje (Miss Oranje Disco Dancer)",
+                  "to": "You",
                   "articyId": "0x0100000400013DEB",
-                  "text": "\"Nice.\" The young woman nods.",
+                  "english": "\"Nice.\" The young woman nods.",
+                  "polish": "„Nieźle” – młoda kobieta kiwa z uznaniem głową.",
+                  "belarusian": "«Не дрэнна» — маладая жанчына паважліва ківае галавой.",
                   "links": []
                 }
               ]
             },
             {
               "id": 149,
+              "redacted": false,
               "title": "Physical Instrument: \"Something cracks inside.\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100006B0000A8DE",
-              "text": "Something cracks inside.",
+              "english": "Something cracks inside.",
+              "polish": "Coś trzaska w środku.",
+              "belarusian": "Нешта трашчыць унутры.",
               "links": [
                 {
                   "id": 21,
+                  "redacted": false,
                   "title": "Physical Instrument: \"It is an unbelievably satisfying so...\"",
+                  "actor": "Physical Instrument",
+                  "to": "You",
                   "articyId": "0x0100000400015A90",
-                  "text": "It is an unbelievably satisfying sound.",
+                  "english": "It is an unbelievably satisfying sound.",
+                  "polish": "Niesamowicie satysfakcjonujący odgłos.",
+                  "belarusian": "Неверагодна задавальняючы гук.",
                   "links": []
                 }
               ]
             },
             {
               "id": 19,
+              "redacted": false,
               "title": "Physical Instrument: \"Something cracks inside.\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x010000450000EF68",
-              "text": "Something cracks inside.",
+              "english": "Something cracks inside.",
+              "polish": "Coś trzaska w środku.",
+              "belarusian": "Нешта трэскае ўнутры.",
               "links": [
                 {
                   "id": 116,
+                  "redacted": false,
                   "title": "Physical Instrument: \"It is an unbelievably satisfying so...\"",
+                  "actor": "Physical Instrument",
+                  "to": "You",
                   "articyId": "0x0100000400015A95",
-                  "text": "It is an unbelievably satisfying sound.",
+                  "english": "It is an unbelievably satisfying sound.",
+                  "polish": "Niesamowicie satysfakcjonujący odgłos.",
+                  "belarusian": "Неверагодна задавальняючы гук.",
                   "links": []
                 }
               ]
             },
             {
               "id": 10,
+              "redacted": false,
               "title": "Physical Instrument: \"You kick it -- gung ho style, *ente...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x0100006B0000A914",
-              "text": "You kick it -- gung ho style, *entering the premises* style -- but the door fails to respect the force. All you hear is the bar rattling inside, laughing at you.",
+              "english": "You kick it -- gung ho style, *entering the premises* style -- but the door fails to respect the force. All you hear is the bar rattling inside, laughing at you.",
+              "polish": "Kopiesz je niczym *kowboj desperado* wchodzący do saloonu, one jednak nie ustępują. Słyszysz tylko przypominające śmiech grzechotanie deski.",
+              "belarusian": "Ты капаеш іх, нібы *каўбой-дэсперада*, які ўваходзіць у салун, але яны не адступаюць. Ты чуеш толькі гучнае рагочучае паспейванне дошкі.",
               "links": [
                 {
                   "id": 27,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"I don't see how this is going to g...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x0100008F00003FE9",
-                  "text": "\"I don't see how this is going to give new results.\" He measures the door, stoically. \"There must be another way in there.\"",
+                  "english": "\"I don't see how this is going to give new results.\" He measures the door, stoically. \"There must be another way in there.\"",
+                  "polish": "„Nie wiem, jak miałoby to nam tutaj pomóc” – stwierdza, przyglądając się spokojnie drzwiom. „Musi być jakiś inny sposób na dostanie się do środka”.",
+                  "belarusian": "«Я не ведаю, як гэта можа нам тут дапамагчы», — адзначае ён, спакойна прыглядаючыся да дзвярэй. «Мусіць быць нейкі іншы спосаб трапіць унутр».",
                   "links": [
                     {
                       "id": 75,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"It's the barred door we saw.\" He l...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x0100006B0000A991",
-                      "text": "\"It's the barred door we saw.\" He looks at the door with suspicion. \"I don't know why we didn't open it from the inside -- we *should*.\"",
+                      "english": "\"It's the barred door we saw.\" He looks at the door with suspicion. \"I don't know why we didn't open it from the inside -- we *should*.\"",
+                      "polish": "„To zablokowane drzwi, które widzieliśmy w środku” – stwierdza, spoglądając podejrzliwie na drzwi. „Nie wiem, dlaczego nie otworzyliśmy ich od środka – *powinniśmy* byli to zrobić”.",
+                      "belarusian": "«Гэта заблакаваныя дзверы, якія мы бачылі ўнутры», — сцвярджае ён, падазрона гледзячы на дзверы. «Я не ведаю, чаму мы не адкрылі іх знутры — *мы павінны* былі гэта зрабіць».",
                       "links": []
                     },
                     {
                       "id": 187,
+                      "redacted": false,
                       "title": "Logic: \"The key... to the kitchen door. Fro...\"",
+                      "actor": "Logic",
+                      "to": "You",
                       "articyId": "0x0100006B0000A982",
-                      "text": "The key... to the kitchen door. From behind the window. Use it on the door.",
+                      "english": "The key... to the kitchen door. From behind the window. Use it on the door.",
+                      "polish": "Klucz... Ten od drzwi kuchennych. Zza okna. Użyj go w zamku.",
+                      "belarusian": "Ключ... Той ад дзвярэй кухні. За акном. Выкарыстай яго ў замку.",
                       "links": []
                     },
                     {
                       "id": 112,
+                      "redacted": false,
                       "title": "Inland Empire: \"Below... in the Union box... was th...\"",
+                      "actor": "Inland Empire",
+                      "to": "You",
                       "articyId": "0x010000450000EFDD",
-                      "text": "Below... in the Union box... was there something behind the window? In the hawthorn branches, brushing against the glass.",
+                      "english": "Below... in the Union box... was there something behind the window? In the hawthorn branches, brushing against the glass.",
+                      "polish": "Pod spodem... W sali Związku... Czy tam nie było czegoś za oknem? Wśród gałęzi głogu szurających o szybę.",
+                      "belarusian": "Падніжжа... У зале Саюза... Ці не было там чагосьці за акном? Сярод галінаў глогу, якія шорхаліся аб шкло.",
                       "links": [
                         {
                           "id": 73,
+                          "redacted": false,
                           "title": "You: \"What?\"",
+                          "actor": "You",
+                          "to": "Barred Door",
                           "articyId": "0x010000450000EFED",
-                          "text": "What?",
+                          "english": "What?",
+                          "polish": "Co?",
+                          "belarusian": "Што?",
                           "links": [
                             {
                               "id": 29,
+                              "redacted": false,
                               "title": "Inland Empire: \"No one knows. It is a fleeting feel...\"",
+                              "actor": "Inland Empire",
+                              "to": "You",
                               "articyId": "0x010000450000F001",
-                              "text": "No one knows. It is a fleeting feeling.",
+                              "english": "No one knows. It is a fleeting feeling.",
+                              "polish": "Nikt nie wie. To przelotne uczucie.",
+                              "belarusian": "Ніхто не ведае. Гэта мінае пачуццё.",
                               "links": [
                                 {
                                   "id": 86,
+                                  "redacted": false,
                                   "title": "Perception (Sight): \"It could be that your eyesight is s...\"",
+                                  "actor": "Perception (Sight)",
+                                  "to": "You",
                                   "articyId": "0x010000450000F00E",
-                                  "text": "It could be that your eyesight is still too poor to notice it... behind that window.",
+                                  "english": "It could be that your eyesight is still too poor to notice it... behind that window.",
+                                  "polish": "Możliwe, że twój wzrok wciąż jest za słaby, żeby zobaczyć to coś... za oknem.",
+                                  "belarusian": "Магчыма, што тваё зрок яшчэ занадта слабы, каб убачыць гэта... за акном.",
                                   "links": []
                                 }
                               ]
@@ -405,45 +675,75 @@
                         },
                         {
                           "id": 144,
+                          "redacted": false,
                           "title": "You: \"Ignore the feeling.\"",
+                          "actor": "You",
+                          "to": "Barred Door",
                           "articyId": "0x010000450000EFF3",
-                          "text": "Ignore the feeling.",
+                          "english": "Ignore the feeling.",
+                          "polish": "Zignoruj przeczucie.",
+                          "belarusian": "Ігнаруйце прадчуванне.",
                           "links": [
                             {
                               "id": 74,
+                              "redacted": false,
                               "title": "Inland Empire: \"You are a numb, imprecise instrumen...\"",
+                              "actor": "Inland Empire",
+                              "to": "You",
                               "articyId": "0x010000450000EFFA",
-                              "text": "You are a numb, imprecise instrument to ignore this feeling...",
+                              "english": "You are a numb, imprecise instrument to ignore this feeling...",
+                              "polish": "Odrzucając to przeczucie, zachowujesz się jak bezmyślne, nieprecyzyjne narzędzie...",
+                              "belarusian": "Адхіляючы гэта інтуітыўнае адчуванне, ты паводзіш сябе як бяздумны, недакладны інструмент...",
                               "links": []
                             }
                           ]
                         },
                         {
                           "id": 158,
+                          "redacted": false,
                           "title": "You: \"\"How?\"\"",
+                          "actor": "You",
+                          "to": "Barred Door",
                           "articyId": "0x010000450000F029",
-                          "text": "\"How?\"",
+                          "english": "\"How?\"",
+                          "polish": "„Jaki?”",
+                          "belarusian": "«Які?»",
                           "links": [
                             {
                               "id": 39,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"Through the kitchen door, perhaps?...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x010000450000F03A",
-                              "text": "\"Through the kitchen door, perhaps? Let's explore, rather than destroy.\"",
+                              "english": "\"Through the kitchen door, perhaps? Let's explore, rather than destroy.\"",
+                              "polish": "„Może przez drzwi w kuchni? Lepiej rozejrzyjmy się, zamiast siać zniszczenie”.",
+                              "belarusian": "«Можа, праз дзверы на кухні? Лепш агледзімся, замест таго каб сеяць разбурэнне».",
                               "links": [
                                 {
                                   "id": 28,
+                                  "redacted": false,
                                   "title": "Perception (Sight): \"It could be that your eyesight is s...\"",
+                                  "actor": "Perception (Sight)",
+                                  "to": "You",
                                   "articyId": "0x0100000400013CFE",
-                                  "text": "It could be that your eyesight is still too poor to notice it... behind that window.",
+                                  "english": "It could be that your eyesight is still too poor to notice it... behind that window.",
+                                  "polish": "Możliwe, że twój wzrok wciąż jest za słaby, żeby zobaczyć to coś... za oknem.",
+                                  "belarusian": "Магчыма, што твой зрок усё яшчэ за слабы, каб убачыць тое... за акном.",
                                   "links": []
                                 }
                               ]
                             },
                             {
                               "id": 148,
+                              "redacted": false,
                               "title": "Kim Kitsuragi: \"\"We should search downstairs. There...\"",
+                              "actor": "Kim Kitsuragi",
+                              "to": "You",
                               "articyId": "0x010000450000F041",
-                              "text": "\"We should search downstairs. There are things about this building we don't know yet.\"",
+                              "english": "\"We should search downstairs. There are things about this building we don't know yet.\"",
+                              "polish": "„Powinniśmy rozejrzeć się na parterze. Ten budynek wciąż kryje wiele tajemnic”.",
+                              "belarusian": "«Мы павінны агледзецца на першым паверсе. Гэты будынак усё яшчэ хавае шмат таямніц».",
                               "links": []
                             }
                           ]
@@ -454,52 +754,92 @@
                 },
                 {
                   "id": 49,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"The door has withstood your *demol...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x0100006B0000A928",
-                  "text": "\"The door has withstood your *demolishing* attempts.\" He measures the door, stoically. \"There must be another way in.\"",
+                  "english": "\"The door has withstood your *demolishing* attempts.\" He measures the door, stoically. \"There must be another way in.\"",
+                  "polish": "„Drzwi oparły się twoim *niszczycielskim* atakom” – stwierdza, przyglądając się im ze spokojem. „Musi być jakiś inny sposób na dostanie się do środka”.",
+                  "belarusian": "«Дзверы выстаялі перад тваімі *разбуральнымі* атакамі», — адзначае ён, спакойна назіраючы за імі. «Павінен быць іншы спосаб патрапіць унутр».",
                   "links": []
                 },
                 {
                   "id": 186,
+                  "redacted": false,
                   "title": "You: \"\"Fucking piece of shit!\"\"",
+                  "actor": "You",
+                  "to": "Barred Door",
                   "articyId": "0x0100006B0000A91E",
-                  "text": "\"Fucking piece of shit!\"",
+                  "english": "\"Fucking piece of shit!\"",
+                  "polish": "„Jebana kupa gówna!”",
+                  "belarusian": "„Паршивая куча гаўна!”",
                   "links": [
                     {
                       "id": 165,
+                      "redacted": false,
                       "title": "Physical Instrument: \"The door is oblivious to your distr...\"",
+                      "actor": "Physical Instrument",
+                      "to": "You",
                       "articyId": "0x0100006B0000A95B",
-                      "text": "The door is oblivious to your distress.",
+                      "english": "The door is oblivious to your distress.",
+                      "polish": "Drzwi pozostają nieświadome twoich kłopotów.",
+                      "belarusian": "Дзверы не ведаюць пра твае праблемы.",
                       "links": [
                         {
                           "id": 60,
+                          "redacted": false,
                           "title": "Half Light: \"Your foot is ready to explode and p...\"",
+                          "actor": "Half Light",
+                          "to": "You",
                           "articyId": "0x0100000400013CF3",
-                          "text": "Your foot is ready to explode and punish this *object*!",
+                          "english": "Your foot is ready to explode and punish this *object*!",
+                          "polish": "Twoja stopa jest gotowa, aby eksplodować i ukarać ten *obiekt*!",
+                          "belarusian": "Твая нага гатовая, каб выбухнуць і пакараць гэты *аб'ект*!",
                           "links": [
                             {
                               "id": 6,
+                              "redacted": false,
                               "title": "You: \"\"*Disrespecting* the force?!?!\" (Ki...\"",
+                              "actor": "You",
+                              "to": "Barred Door",
                               "articyId": "0x0100000400013D1A",
-                              "text": "\"*Disrespecting* the force?!?!\" (Kick the door.)",
+                              "english": "\"*Disrespecting* the force?!?!\" (Kick the door.)",
+                              "polish": "„*Lekceważysz* tę siłę?!” (Kopnij drzwi).",
+                              "belarusian": "«*Гнявішся* на гэтую сілу?!» (Удары па дзвярах).",
                               "links": [
                                 {
                                   "id": 36,
+                                  "redacted": false,
                                   "title": "Barred Door: \"The door receives a thorough discip...\"",
+                                  "actor": "Barred Door",
+                                  "to": "You",
                                   "articyId": "0x0100000400013D2A",
-                                  "text": "The door receives a thorough disciplining.",
+                                  "english": "The door receives a thorough disciplining.",
+                                  "polish": "Drzwi zostają przykładnie ukarane.",
+                                  "belarusian": "Дзверы атрымліваюць належнае пакаранне.",
                                   "links": [
                                     {
                                       "id": 120,
+                                      "redacted": false,
                                       "title": "Electrochemistry: \"Its pain and grovelling is much to...\"",
+                                      "actor": "Electrochemistry",
+                                      "to": "You",
                                       "articyId": "0x0100000400013D4D",
-                                      "text": "Its pain and grovelling is much to your liking.",
+                                      "english": "Its pain and grovelling is much to your liking.",
+                                      "polish": "Ich ból i uległość bardzo ci się podobają.",
+                                      "belarusian": "Іх боль і пакорлівасць вельмі табе падабаюцца.",
                                       "links": [
                                         {
                                           "id": 8,
+                                          "redacted": false,
                                           "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Suck on that, door.\"\"",
+                                          "actor": "Klaasje (Miss Oranje Disco Dancer)",
+                                          "to": "You",
                                           "articyId": "0x0100000400013D6E",
-                                          "text": "\"Suck on that, door.\"",
+                                          "english": "\"Suck on that, door.\"",
+                                          "polish": "„Dobrze wam tak, drzwi”.",
+                                          "belarusian": "«Ну і правільна вам, дзверы».",
                                           "links": []
                                         }
                                       ]
@@ -508,22 +848,37 @@
                                 },
                                 {
                                   "id": 7,
+                                  "redacted": false,
                                   "title": "Pain Threshold: \"This kind of stuff would hurt -- if...\"",
+                                  "actor": "Pain Threshold",
+                                  "to": "You",
                                   "articyId": "0x0100000400013D56",
-                                  "text": "This kind of stuff would hurt -- if not for you not caring about little things like that.",
+                                  "english": "This kind of stuff would hurt -- if not for you not caring about little things like that.",
+                                  "polish": "Zwykle takie rzeczy powodują ból, gdyby nie to, że nie dbasz o takie drobiazgi.",
+                                  "belarusian": "Звычайна такія рэчы выклікаюць боль, калі б не тое, што вы не звяртаеце ўвагі на такія дробязі.",
                                   "links": [
                                     {
                                       "id": 178,
+                                      "redacted": false,
                                       "title": "Barred Door: \"The door receives a thorough discip...\"",
+                                      "actor": "Barred Door",
+                                      "to": "You",
                                       "articyId": "0x0100000400013D63",
-                                      "text": "The door receives a thorough disciplining -- and it doesn't even hurt!",
+                                      "english": "The door receives a thorough disciplining -- and it doesn't even hurt!",
+                                      "polish": "Drzwi zostają przykładnie ukarane. I nawet cię to nie boli!",
+                                      "belarusian": "Дзверы становяцца прыкладна пакараны. І гэта нават не баліць цябе!",
                                       "links": []
                                     },
                                     {
                                       "id": 97,
+                                      "redacted": false,
                                       "title": "Barred Door: \"The door receives a thorough discip...\"",
+                                      "actor": "Barred Door",
+                                      "to": "You",
                                       "articyId": "0x0100000400013D37",
-                                      "text": "The door receives a thorough disciplining -- at the cost of your foot. Your foot hurts. A lot.",
+                                      "english": "The door receives a thorough disciplining -- at the cost of your foot. Your foot hurts. A lot.",
+                                      "polish": "Drzwi zostają przykładnie ukarane. Tak jak i twoja stopa. Zaczęła cię boleć. Bardzo.",
+                                      "belarusian": "Дзверы застаюцца ўзорам пакарання. Як і ваша ступня. Яна пачала балець. Вельмі.",
                                       "links": []
                                     }
                                   ]
@@ -532,15 +887,25 @@
                             },
                             {
                               "id": 14,
+                              "redacted": false,
                               "title": "You: \"Swallow the rage.\"",
+                              "actor": "You",
+                              "to": "Barred Door",
                               "articyId": "0x0100000400013D20",
-                              "text": "Swallow the rage.",
+                              "english": "Swallow the rage.",
+                              "polish": "Powściągnij wściekłość.",
+                              "belarusian": "Стаймі гнеў.",
                               "links": [
                                 {
                                   "id": 90,
+                                  "redacted": false,
                                   "title": "Barred Door: \"The sturdy wood door has lost *all*...\"",
+                                  "actor": "Barred Door",
+                                  "to": "You",
                                   "articyId": "0x0100000400013D3D",
-                                  "text": "The sturdy wood door has lost *all* respect for you.",
+                                  "english": "The sturdy wood door has lost *all* respect for you.",
+                                  "polish": "Mocne drewniane drzwi straciły do ciebie *cały* szacunek.",
+                                  "belarusian": "Моцныя драўляныя дзверы страцілі да цябе *ўсю* павагу.",
                                   "links": []
                                 }
                               ]
@@ -553,45 +918,75 @@
                 },
                 {
                   "id": 150,
+                  "redacted": false,
                   "title": "You: \"\"Ow.\"\"",
+                  "actor": "You",
+                  "to": "Barred Door",
                   "articyId": "0x0100006B0000A953",
-                  "text": "\"Ow.\"",
+                  "english": "\"Ow.\"",
+                  "polish": "„Au”.",
+                  "belarusian": "«Ой».",
                   "links": []
                 }
               ]
             },
             {
               "id": 174,
+              "redacted": false,
               "title": "Physical Instrument: \"You kick it -- gung ho-style, *ente...\"",
+              "actor": "Physical Instrument",
+              "to": "You",
               "articyId": "0x010000450000EF6D",
-              "text": "You kick it -- gung ho-style, *entering the premises*-style -- but the door fails to respect the force. All you hear is the bar rattling inside, laughing at you.",
+              "english": "You kick it -- gung ho-style, *entering the premises*-style -- but the door fails to respect the force. All you hear is the bar rattling inside, laughing at you.",
+              "polish": "Kopiesz je niczym *kowboj desperado* wchodzący do saloonu, one jednak nie ustępują. Słyszysz tylko przypominające śmiech grzechotanie deski.",
+              "belarusian": "Капаеш іх, як *каўбой-дэсперада*, які ўваходзіць у салун, але яны не адступаюць. Ты чуеш толькі хісткае скрыгатанне дошкі, якое нагадвае смех.",
               "links": [
                 {
                   "id": 72,
+                  "redacted": false,
                   "title": "Klaasje (Miss Oranje Disco Dancer): \"The woman takes a drag of her ziggi...\"",
+                  "actor": "Klaasje (Miss Oranje Disco Dancer)",
+                  "to": "You",
                   "articyId": "0x010000450000EF84",
-                  "text": "The woman takes a drag of her ziggie and nods: \"Demolish the place.\"",
+                  "english": "The woman takes a drag of her ziggie and nods: \"Demolish the place.\"",
+                  "polish": "Kobieta przykłada papieros do warg i kiwa głową. „Niech pan to wszystko zdemoluje”.",
+                  "belarusian": "Жанчына падносіць цыгарэту да вуснаў і ківае галавой. «Няхай вы ўсё гэта знішчыце».",
                   "links": [
                     {
                       "id": 38,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"I don't see how this is going to g...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x010000450000EFCB",
-                      "text": "\"I don't see how this is going to give new results.\" He measures the door, stoically. \"There must be another way in there.\"",
+                      "english": "\"I don't see how this is going to give new results.\" He measures the door, stoically. \"There must be another way in there.\"",
+                      "polish": "„Nie wiem, jak miałoby to nam tutaj pomóc” – stwierdza, przyglądając się spokojnie drzwiom. „Musi być jakiś inny sposób na dostanie się do środka”.",
+                      "belarusian": "«Я не ведаю, як бы гэта магло нам тут дапамагчы», — зазначае ён, спакойна назіраючы за дзвярыма. «Павінен быць нейкі іншы спосаб трапіць унутр».",
                       "links": []
                     }
                   ]
                 },
                 {
                   "id": 45,
+                  "redacted": false,
                   "title": "Klaasje (Miss Oranje Disco Dancer): \"\"All right,\" the woman nods approvi...\"",
+                  "actor": "Klaasje (Miss Oranje Disco Dancer)",
+                  "to": "You",
                   "articyId": "0x010000450000EF7E",
-                  "text": "\"All right,\" the woman nods approvingly: \"Let's trash the place.\"",
+                  "english": "\"All right,\" the woman nods approvingly: \"Let's trash the place.\"",
+                  "polish": "„Tak jest” – kiwa głową dopingująco. „Zdemolujmy to wszystko”.",
+                  "belarusian": "«Так», — ківае галавой з падтрымкай. «Давайте ўсё гэта зруйнуем».",
                   "links": [
                     {
                       "id": 96,
+                      "redacted": false,
                       "title": "Kim Kitsuragi: \"\"Let's not.\"\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
                       "articyId": "0x010000450000EFAA",
-                      "text": "\"Let's not.\"",
+                      "english": "\"Let's not.\"",
+                      "polish": "„Lepiej nie”.",
+                      "belarusian": "«Лепш не».",
                       "links": []
                     }
                   ]
@@ -602,18 +997,28 @@
         },
         {
           "id": 81,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Barred Door",
           "articyId": "0x010000450000EE11",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Сыходзь].",
           "links": []
         }
       ]
     },
     {
       "id": 37,
+      "redacted": false,
       "title": "Barred Door: \"This is a small, heavy door. There...\"",
+      "actor": "Barred Door",
+      "to": "You",
       "articyId": "0x010000450000E72A",
-      "text": "This is a small, heavy door. There is no lock in sight.",
+      "english": "This is a small, heavy door. There is no lock in sight.",
+      "polish": "Małe, ciężkie drzwi. Nie widać nigdzie zamka.",
+      "belarusian": "Малыя, цяжкія дзверы. Нідзе не відаць замка.",
       "links": []
     }
   ]

@@ -5,206 +5,361 @@
   "dialogueTree": [
     {
       "id": 24,
+      "redacted": false,
       "title": "Punch Clock/Payphone: \"The payphone hangs mutely on the wa...\"",
+      "actor": "Punch Clock/Payphone",
+      "to": "You",
       "articyId": "0x010000820001F155",
-      "text": "The payphone hangs mutely on the wall. There isn't much more to do here.",
+      "english": "The payphone hangs mutely on the wall. There isn't much more to do here.",
+      "polish": "Telefon wisi milcząco na ścianie. Niewiele więcej zostało tu do zrobienia.",
+      "belarusian": "Тэлефон маўкліва вісіць на сцяне. Вельмі мала засталося тут зрабіць.",
       "links": []
     },
     {
       "id": 20,
+      "redacted": false,
       "title": "Punch Clock/Payphone: \"The already familiar cold touch of...\"",
+      "actor": "Punch Clock/Payphone",
+      "to": "You",
       "articyId": "0x010000820001EFB1",
-      "text": "The already familiar cold touch of plastic welcomes you as you pick up the handset.",
+      "english": "The already familiar cold touch of plastic welcomes you as you pick up the handset.",
+      "polish": "Sięgasz po słuchawkę; wita cię znajomy już chłodny dotyk plastiku.",
+      "belarusian": "Ты цягнешся да слухаўкі; цябе вітае ўжо знаёмы халодны дотык пластыку.",
       "links": []
     },
     {
       "id": 55,
+      "redacted": false,
       "title": "Punch Clock/Payphone: \"An imposing combination of a punch-...\"",
+      "actor": "Punch Clock/Payphone",
+      "to": "You",
       "articyId": "0x010000820001EFAC",
-      "text": "An imposing combination of a punch-clock and a payphone is looking down at you from the wall. A note on the side says: \"Tokens unavailable due to strike. Use change.\"",
+      "english": "An imposing combination of a punch-clock and a payphone is looking down at you from the wall. A note on the side says: \"Tokens unavailable due to strike. Use change.\"",
+      "polish": "Ze ściany spogląda na ciebie imponujące połączenie zegara roboczego i telefonu na monety. Na jego boku widnieje notatka o treści: „Żetony niedostępne z powodu strajku. Używać drobnych”.",
+      "belarusian": "З сцяны глядзіць на цябе ўражлівае спалучэнне працоўнага гадзінніка і тэлефона для манет. На яго баку ёсць нататка з тэкстам: «Жэтоны недаступныя з-за страйку. Выкарыстоўваць дробныя».",
       "links": [
         {
           "id": 9,
+          "redacted": false,
           "title": "You: \"Insert 10 cents.\"",
+          "actor": "You",
+          "to": "Punch Clock/Payphone",
           "articyId": "0x010000820001EFBD",
-          "text": "Insert 10 cents.",
+          "english": "Insert 10 cents.",
+          "polish": "Wrzuć 10 centów.",
+          "belarusian": "Укінь 10 цэнтаў.",
           "links": [
             {
               "id": 60,
+              "redacted": false,
               "title": "Punch Clock/Payphone: \"The machine swallows your coin and...\"",
+              "actor": "Punch Clock/Payphone",
+              "to": "You",
               "articyId": "0x010000820001EDD3",
-              "text": "The machine swallows your coin and seems to be waiting for your next move.",
+              "english": "The machine swallows your coin and seems to be waiting for your next move.",
+              "polish": "Maszyna połyka monety i wydaje się czekać na twój kolejny ruch.",
+              "belarusian": "Машына праглынае манеты і, здаецца, чакае вашага наступнага кроку.",
               "links": []
             }
           ]
         },
         {
           "id": 40,
+          "redacted": false,
           "title": "You: \"Let your muscle memory dial a rando...\"",
+          "actor": "You",
+          "to": "Punch Clock/Payphone",
           "articyId": "0x010000820001EDE8",
-          "text": "Let your muscle memory dial a random number.",
+          "english": "Let your muscle memory dial a random number.",
+          "polish": "Pozwól swojej pamięci mięśniowej wybrać losowy numer.",
+          "belarusian": "Дазвольце сваёй мышачнай памяці выбраць выпадковы нумар.",
           "links": [
             {
               "id": 63,
+              "redacted": false,
               "title": "Interfacing: \"Your fingers run over the dial pad....\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x010000820001EFD6",
-              "text": "Your fingers run over the dial pad. 005... that's the dialling code for Revachol -- 49-52... and a moment of hesitation before entering the final numbers: 993.",
+              "english": "Your fingers run over the dial pad. 005... that's the dialling code for Revachol -- 49-52... and a moment of hesitation before entering the final numbers: 993.",
+              "polish": "Twoje palce przesuwają się po tarczy telefonu. 005... to kod Revacholu. 49-52... i po chwili wahania ostatnie liczby: 993.",
+              "belarusian": "Твае пальцы слізгаюць па кругавой панэлі тэлефона. 005 ... гэта код Рэваколю. 49-52 ... і пасля моманту вагання апошнія лічбы: 993.",
               "links": [
                 {
                   "id": 66,
+                  "redacted": false,
                   "title": "Punch Clock/Payphone: \"Calling...\"",
+                  "actor": "Punch Clock/Payphone",
+                  "to": "You",
                   "articyId": "0x010000820001FA13",
-                  "text": "Calling...",
+                  "english": "Calling...",
+                  "polish": "Dzwoni...",
+                  "belarusian": "Тэлефануе...",
                   "links": [
                     {
                       "id": 7,
+                      "redacted": false,
                       "title": "Punch Clock/Payphone: \"Calling...\"",
+                      "actor": "Punch Clock/Payphone",
+                      "to": "You",
                       "articyId": "0x010000820001FA0B",
-                      "text": "Calling...",
+                      "english": "Calling...",
+                      "polish": "Dzwoni...",
+                      "belarusian": "Тэлефануе...",
                       "links": [
                         {
                           "id": 86,
+                          "redacted": false,
                           "title": "Punch Clock/Payphone: \"Still calling... then...\"",
+                          "actor": "Punch Clock/Payphone",
+                          "to": "You",
                           "articyId": "0x010000060001858B",
-                          "text": "Still calling... then...",
+                          "english": "Still calling... then...",
+                          "polish": "Wciąż dzwoni... A potem...",
+                          "belarusian": "Усё яшчэ звоніць... А потым...",
                           "links": [
                             {
                               "id": 49,
+                              "redacted": false,
                               "title": "Video Revachol, 24h: \"...a crackle, someone picks up! The...\"",
+                              "actor": "Video Revachol, 24h",
+                              "to": "You",
                               "articyId": "0x010000820001EE5B",
-                              "text": "...a crackle, someone picks up! They say: \"Video Revachol, 24 hour video rental. We rent eight- and ten-millimetre film for home use. This is Lemmy, how may I help you?\"",
+                              "english": "...a crackle, someone picks up! They say: \"Video Revachol, 24 hour video rental. We rent eight- and ten-millimetre film for home use. This is Lemmy, how may I help you?\"",
+                              "polish": "...słyszysz trzask, ktoś odbiera słuchawkę! Mówi: „Tu Wideo Revachol, czynna całą dobę wypożyczalnia filmów na taśmach osiem i dziesięć milimetrów. Mówi Lemmy, w czym mogę pomóc?”",
+                              "belarusian": "...чуеш трэск, нехта здымае слухаўку! Кажа: «Тут Відэа Рэваколь, кругласутачная пракат фільмаў на стужках восем і дзесяць міліметраў. Кажа Лемі, чым магу дапамагчы?»",
                               "links": [
                                 {
                                   "id": 25,
+                                  "redacted": false,
                                   "title": "Perception (Hearing): \"The voice of a youngster on the oth...\"",
+                                  "actor": "Perception (Hearing)",
+                                  "to": "You",
                                   "articyId": "0x010000820001F028",
-                                  "text": "The voice of a youngster on the other end sounds as enthusiastic as that of a man walking towards the gallows.",
+                                  "english": "The voice of a youngster on the other end sounds as enthusiastic as that of a man walking towards the gallows.",
+                                  "polish": "Głos młodego człowieka po drugiej stronie brzmi entuzjastycznie niczym głos skazańca kroczącego na szubienicę.",
+                                  "belarusian": "Голас маладога чалавека з другога боку гучыць з энтузіязмам, як голас асуджанага, які крочыць да шыбеніцы.",
                                   "links": [
                                     {
                                       "id": 73,
+                                      "redacted": false,
                                       "title": "You: \"\"What is this place?\"\"",
+                                      "actor": "You",
+                                      "to": "Punch Clock/Payphone",
                                       "articyId": "0x010000820001EE37",
-                                      "text": "\"What is this place?\"",
+                                      "english": "\"What is this place?\"",
+                                      "polish": "„Gdzie się dodzwoniłem?”",
+                                      "belarusian": "\"Куды я датэлефанаваўся?\"",
                                       "links": [
                                         {
                                           "id": 45,
+                                          "redacted": false,
                                           "title": "Video Revachol, 24h: \"\"Video Revachol is a 24 hour video...\"",
+                                          "actor": "Video Revachol, 24h",
+                                          "to": "You",
                                           "articyId": "0x010000820001EE3D",
-                                          "text": "\"Video Revachol is a 24 hour video rental. We rent eight and ten millimetre film for home use. This is Lemmy.\"",
+                                          "english": "\"Video Revachol is a 24 hour video rental. We rent eight and ten millimetre film for home use. This is Lemmy.\"",
+                                          "polish": "„Wideo Revachol to czynna całą dobę wypożyczalnia filmów na taśmach osiem i dziesięć milimetrów. Mówi Lemmy”.",
+                                          "belarusian": "«Відэа Рэвашол — гэта відэапракат, які працуе кругласутачна, на стужках восем і дзесяць міліметраў. Гаворыць Лемі».",
                                           "links": [
                                             {
                                               "id": 78,
+                                              "redacted": false,
                                               "title": "You: \"\"No, I meant what is this place to...\"",
+                                              "actor": "You",
+                                              "to": "Punch Clock/Payphone",
                                               "articyId": "0x010000820001EE8F",
-                                              "text": "\"No, I meant what is this place to *me*?\"",
+                                              "english": "\"No, I meant what is this place to *me*?\"",
+                                              "polish": "„Nie, mam na myśli – czym jest to miejsce *dla mnie*?”",
+                                              "belarusian": "«Не, я маю на ўвазе – чым з'яўляецца гэтае месца *для мяне*?»",
                                               "links": [
                                                 {
                                                   "id": 29,
+                                                  "redacted": false,
                                                   "title": "Video Revachol, 24h: \"\"Sir, I don't know. It's a video re...\"",
+                                                  "actor": "Video Revachol, 24h",
+                                                  "to": "You",
                                                   "articyId": "0x010000820001EE95",
-                                                  "text": "\"Sir, I don't know. It's a video rental. Maybe you rent videos here?\"",
+                                                  "english": "\"Sir, I don't know. It's a video rental. Maybe you rent videos here?\"",
+                                                  "polish": "„Proszę pana, nie wiem. To wypożyczalnia. Może wypożycza pan u nas filmy?”",
+                                                  "belarusian": "«Спадар, я не ведаю. Гэта пракат. Можа, вы бераце ў нас фільмы напракат?»",
                                                   "links": []
                                                 }
                                               ]
                                             },
                                             {
                                               "id": 46,
+                                              "redacted": false,
                                               "title": "You: \"\"Do you know me?\"\"",
+                                              "actor": "You",
+                                              "to": "Punch Clock/Payphone",
                                               "articyId": "0x010000820001EE43",
-                                              "text": "\"Do you know me?\"",
+                                              "english": "\"Do you know me?\"",
+                                              "polish": "„Zna mnie pan?”",
+                                              "belarusian": "«Вы мяне ведаеце?»",
                                               "links": [
                                                 {
                                                   "id": 19,
+                                                  "redacted": false,
                                                   "title": "Video Revachol, 24h: \"\"No.\"\"",
+                                                  "actor": "Video Revachol, 24h",
+                                                  "to": "You",
                                                   "articyId": "0x010000820001EDF6",
-                                                  "text": "\"No.\"",
+                                                  "english": "\"No.\"",
+                                                  "polish": "„Nie”.",
+                                                  "belarusian": "«Не».",
                                                   "links": []
                                                 }
                                               ]
                                             },
                                             {
                                               "id": 56,
+                                              "redacted": false,
                                               "title": "You: \"\"Why did I call you?\" (Continue.)\"",
+                                              "actor": "You",
+                                              "to": "Punch Clock/Payphone",
                                               "articyId": "0x010000820001EE49",
-                                              "text": "\"Why did I call you?\" (Continue.)",
+                                              "english": "\"Why did I call you?\" (Continue.)",
+                                              "polish": "„Po co ja zadzwoniłem?” (Kontynuuj).",
+                                              "belarusian": "«Навошта я патэлефанаваў?» (Працягвайце).",
                                               "links": [
                                                 {
                                                   "id": 44,
+                                                  "redacted": false,
                                                   "title": "Video Revachol, 24h: \"\"Maybe you called to extend your re...\"",
+                                                  "actor": "Video Revachol, 24h",
+                                                  "to": "You",
                                                   "articyId": "0x010000820001EDFC",
-                                                  "text": "\"Maybe you called to extend your rental period? Do you need to extend your rental period?\"",
+                                                  "english": "\"Maybe you called to extend your rental period? Do you need to extend your rental period?\"",
+                                                  "polish": "„Może dzwoni pan przedłużyć okres wypożyczenia? Potrzebuje pan przedłużenia?”",
+                                                  "belarusian": "«Можа, патэлефануеце, каб працягнуць перыяд арэнды? Вам патрэбна падаўжэнне?»",
                                                   "links": [
                                                     {
                                                       "id": 77,
+                                                      "redacted": false,
                                                       "title": "You: \"\"Maybe, but I don't even know my *n...\"",
+                                                      "actor": "You",
+                                                      "to": "Punch Clock/Payphone",
                                                       "articyId": "0x010000820001EE02",
-                                                      "text": "\"Maybe, but I don't even know my *name*.\"",
+                                                      "english": "\"Maybe, but I don't even know my *name*.\"",
+                                                      "polish": "„Może, ale nie znam nawet swojego *imienia*”.",
+                                                      "belarusian": "«Можа быць, але я нават свайго *імя* не ведаю».",
                                                       "links": [
                                                         {
                                                           "id": 62,
+                                                          "redacted": false,
                                                           "title": "Video Revachol, 24h: \"\"If you need any further assistance...\"",
+                                                          "actor": "Video Revachol, 24h",
+                                                          "to": "You",
                                                           "articyId": "0x010000820001EE9B",
-                                                          "text": "\"If you need any further assistance you can visit us on the corner of Voyager and Main.\" He sounds annoyed now. \"I can't help you over the phone -- are we done?\"",
+                                                          "english": "\"If you need any further assistance you can visit us on the corner of Voyager and Main.\" He sounds annoyed now. \"I can't help you over the phone -- are we done?\"",
+                                                          "polish": "„Jeśli potrzebuje pan jakiejś pomocy, może odwiedzić nas pan na rogu Voyager i Main” – w jego głosie słychać teraz irytację. „Nie mam jak pomóc panu przez telefon. Czy to już wszystko?”",
+                                                          "belarusian": "«Калі вам патрэбна дапамога, вы можаце наведаць нас на рагу Voyager і Main», — у яго галасе ўжо чутна раздражненне. «Я не магу дапамагчы вам па тэлефоне. Гэта ўжо ўсё?»",
                                                           "links": [
                                                             {
                                                               "id": 34,
+                                                              "redacted": false,
                                                               "title": "Empathy: \"He thinks you're pulling a prank on...\"",
+                                                              "actor": "Empathy",
+                                                              "to": "You",
                                                               "articyId": "0x010000820001F087",
-                                                              "text": "He thinks you're pulling a prank on him.",
+                                                              "english": "He thinks you're pulling a prank on him.",
+                                                              "polish": "Myśli, że robisz mu kawał.",
+                                                              "belarusian": "Думае, што ты яму жарт робіш.",
                                                               "links": [
                                                                 {
                                                                   "id": 82,
+                                                                  "redacted": false,
                                                                   "title": "Shivers: \"On the corner of Voyager and Main a...\"",
+                                                                  "actor": "Shivers",
+                                                                  "to": "You",
                                                                   "articyId": "0x010000820001F0AD",
-                                                                  "text": "On the corner of Voyager and Main a large neon sign hangs on the side of a building: \"Video Revachol, 24h.\" It's raining and there is almost no traffic on the street. A woman's footprints in the mud lead away from the front door.",
+                                                                  "english": "On the corner of Voyager and Main a large neon sign hangs on the side of a building: \"Video Revachol, 24h.\" It's raining and there is almost no traffic on the street. A woman's footprints in the mud lead away from the front door.",
+                                                                  "polish": "Ze smaganego deszczem budynku na rogu Voyager i Main zwisa duży, neonowy znak: „Wideo Revachol, 24h”. Na ulicy prawie nie ma ruchu. W błocie widać odciśnięte kobiece ślady wiodące od drzwi wejściowych w dal.",
+                                                                  "belarusian": "З будынка, знясільванага дажджом, на рагу Вояджэр і Мэйн звісае вялікая, неонавая шыльда: «Відэа Рэвавакхоль, 24 гадзіны». На вуліцы амаль няма руху. На гразі бачны жаночыя сляды, якія вядуць ад уваходных дзвярэй далей.",
                                                                   "links": [
                                                                     {
                                                                       "id": 27,
+                                                                      "redacted": false,
                                                                       "title": "Shivers: \"Tiny heels, tip-toeing down the roa...\"",
+                                                                      "actor": "Shivers",
+                                                                      "to": "You",
                                                                       "articyId": "0x01000006000185A4",
-                                                                      "text": "Tiny heels, tip-toeing down the road. Beautiful steps, light-footed, with a lifetime ahead of them. You look up and the air seems to grow darker.",
+                                                                      "english": "Tiny heels, tip-toeing down the road. Beautiful steps, light-footed, with a lifetime ahead of them. You look up and the air seems to grow darker.",
+                                                                      "polish": "Małe obcasy sunące po drodze. Piękne, lekkie kroki pełne życia, jakie stoi otworem przed tą, która je zostawiła. Spoglądasz w górę – powietrze wydaje się ciemnieć.",
+                                                                      "belarusian": "Маленькія абцасы, якія коўзаюць па дарозе. Прыгожыя, лёгкія крокі, поўныя жыцця, якое стаіць адкрыта перад той, хто іх пакінула. Глядзіш угору — паветра, здаецца, цямнее.",
                                                                       "links": [
                                                                         {
                                                                           "id": 71,
+                                                                          "redacted": false,
                                                                           "title": "Inland Empire: \"Suddenly you feel like you don't wa...\"",
+                                                                          "actor": "Inland Empire",
+                                                                          "to": "You",
                                                                           "articyId": "0x010000820001F0DF",
-                                                                          "text": "Suddenly you feel like you don't want to hear about video rentals anymore. You don't want to hear about *any of it*. It was all shit. It's over.",
+                                                                          "english": "Suddenly you feel like you don't want to hear about video rentals anymore. You don't want to hear about *any of it*. It was all shit. It's over.",
+                                                                          "polish": "Nagle czujesz, że nie masz już ochoty słuchać o wypożyczalniach wideo. *Ani słowa więcej*. To było jedno wielkie gówno. Dosyć.",
+                                                                          "belarusian": "Раптам адчуваеш, што больш няма жадання слухаць пра відэапракат. *Ні слова больш*. Гэта была адна вялікая непатрэбшчына. Хопіць.",
                                                                           "links": [
                                                                             {
                                                                               "id": 15,
+                                                                              "redacted": false,
                                                                               "title": "You: \"What was all shit?\"",
+                                                                              "actor": "You",
+                                                                              "to": "Punch Clock/Payphone",
                                                                               "articyId": "0x010000820001F101",
-                                                                              "text": "What was all shit?",
+                                                                              "english": "What was all shit?",
+                                                                              "polish": "Czym było to całe gówno?",
+                                                                              "belarusian": "Што гэта было за ўсё дрань?",
                                                                               "links": [
                                                                                 {
                                                                                   "id": 81,
+                                                                                  "redacted": false,
                                                                                   "title": "Inland Empire: \"*It*.\"",
+                                                                                  "actor": "Inland Empire",
+                                                                                  "to": "You",
                                                                                   "articyId": "0x010000820001EECD",
-                                                                                  "text": "*It*.",
+                                                                                  "english": "*It*.",
+                                                                                  "polish": "*Istotą*.",
+                                                                                  "belarusian": "*Сутнасць*.",
                                                                                   "links": []
                                                                                 }
                                                                               ]
                                                                             },
                                                                             {
                                                                               "id": 80,
+                                                                              "redacted": false,
                                                                               "title": "You: \"\"Kim, I feel sad about Video Revach...\"",
+                                                                              "actor": "You",
+                                                                              "to": "Punch Clock/Payphone",
                                                                               "articyId": "0x010000820001F110",
-                                                                              "text": "\"Kim, I feel sad about Video Revachol 24h.\"",
+                                                                              "english": "\"Kim, I feel sad about Video Revachol 24h.\"",
+                                                                              "polish": "„Kim, smutno mi przez Wideo Revachol, 24h”.",
+                                                                              "belarusian": "«Кім, мне сумна праз Wideo Revachol, 24h».",
                                                                               "links": [
                                                                                 {
                                                                                   "id": 26,
+                                                                                  "redacted": false,
                                                                                   "title": "Kim Kitsuragi: \"\"That's enough for you today,\" the...\"",
+                                                                                  "actor": "Kim Kitsuragi",
+                                                                                  "to": "You",
                                                                                   "articyId": "0x010000820001F124",
-                                                                                  "text": "\"That's enough for you today,\" the lieutenant says quietly. \"Let's conclude this call.\"",
+                                                                                  "english": "\"That's enough for you today,\" the lieutenant says quietly. \"Let's conclude this call.\"",
+                                                                                  "polish": "„Wystarczy tego na dzisiaj” – stwierdza cicho porucznik. „Kończmy to połączenie”.",
+                                                                                  "belarusian": "«Дастаткова на сёння», — ціха заявіў лейтэнант. «Заканчвайце гэта злучэнне».",
                                                                                   "links": []
                                                                                 }
                                                                               ]
                                                                             },
                                                                             {
                                                                               "id": 65,
+                                                                              "redacted": false,
                                                                               "title": "You: \"\"We're done.\" Hang up the phone. [L...\"",
+                                                                              "actor": "You",
+                                                                              "to": "Punch Clock/Payphone",
                                                                               "articyId": "0x010000820001F11D",
-                                                                              "text": "\"We're done.\" Hang up the phone. [Leave.]",
+                                                                              "english": "\"We're done.\" Hang up the phone. [Leave.]",
+                                                                              "polish": "„To już wszystko” – odłóż słuchawkę. [Odejdź].",
+                                                                              "belarusian": "«Гэта ўсё» — пакладзі слухаўку. [Адыдзі].",
                                                                               "links": []
                                                                             }
                                                                           ]
@@ -213,9 +368,14 @@
                                                                     },
                                                                     {
                                                                       "id": 79,
+                                                                      "redacted": false,
                                                                       "title": "Video Revachol, 24h: \"The call is terminated by the other...\"",
+                                                                      "actor": "Video Revachol, 24h",
+                                                                      "to": "You",
                                                                       "articyId": "0x010000820001F0F9",
-                                                                      "text": "The call is terminated by the other party. You're left with the discomforting sound of the disconnect tone.",
+                                                                      "english": "The call is terminated by the other party. You're left with the discomforting sound of the disconnect tone.",
+                                                                      "polish": "Połączenie zostało zakończone przez osobę po drugiej stronie. Słyszysz tylko nieprzyjemny sygnał zakończenia rozmowy.",
+                                                                      "belarusian": "Злучэнне было скончана асобай на другім баку. Ты чуеш толькі непрыемны сігнал заканчэння размовы.",
                                                                       "links": []
                                                                     }
                                                                   ]
@@ -228,57 +388,97 @@
                                                     },
                                                     {
                                                       "id": 3,
+                                                      "redacted": false,
                                                       "title": "You: \"\"My name is Raphaël Ambrosius Coste...\"",
+                                                      "actor": "You",
+                                                      "to": "Punch Clock/Payphone",
                                                       "articyId": "0x01000021000010D6",
-                                                      "text": "\"My name is Raphaël Ambrosius Costeau. Do you have anything on my name?\"",
+                                                      "english": "\"My name is Raphaël Ambrosius Costeau. Do you have anything on my name?\"",
+                                                      "polish": "„Nazywam się Raphaël Ambrosius Costeau. Czy ma pan jakieś informacje przy moim nazwisku?”",
+                                                      "belarusian": "\"Мяне завуць Рафаэль Амброзіус Касто. Ці ёсць у вас нейкая інфармацыя пад маім імем?\"",
                                                       "links": [
                                                         {
                                                           "id": 59,
+                                                          "redacted": false,
                                                           "title": "Video Revachol, 24h: \"\"Raphaël *what*? Listen, I can't he...\"",
+                                                          "actor": "Video Revachol, 24h",
+                                                          "to": "You",
                                                           "articyId": "0x01000021000010DD",
-                                                          "text": "\"Raphaël *what*? Listen, I can't help you over the phone.\" He sounds annoyed now. \"If you need further assistance you can visit us on the corner of Voyager and Main. Are we done?\"",
+                                                          "english": "\"Raphaël *what*? Listen, I can't help you over the phone.\" He sounds annoyed now. \"If you need further assistance you can visit us on the corner of Voyager and Main. Are we done?\"",
+                                                          "polish": "„Raphaël *jaki*? Niestety, nie mogę pomóc przez telefon” – w jego głosie słychać teraz irytację. „Jeśli potrzebuje pan pomocy, proszę odwiedzić nas na rogu Voyager i Main. Czy to już wszystko?”",
+                                                          "belarusian": "«Рафэль *які*? Нажаль, я не магу дапамагчы па тэлефоне» — у яго голасе чуецца цяпер раздражненне. «Калі вам патрэбна дапамога, калі ласка, наведайце нас на рагу Вояджэр і Мэйн. Ці ўсё гэта?»",
                                                           "links": []
                                                         }
                                                       ]
                                                     },
                                                     {
                                                       "id": 48,
+                                                      "redacted": false,
                                                       "title": "You: \"\"My name is Harry Something. Do you...\"",
+                                                      "actor": "You",
+                                                      "to": "Punch Clock/Payphone",
                                                       "articyId": "0x01000021000010AA",
-                                                      "text": "\"My name is Harry Something. Do you have anything on my name?\"",
+                                                      "english": "\"My name is Harry Something. Do you have anything on my name?\"",
+                                                      "polish": "„Nazywam się Harry coś. Czy ma pan jakieś informacje przy moim nazwisku?”",
+                                                      "belarusian": "«Мяне клічуць Гары нешта. Ці ёсць у вас якія-небудзь звесткі па маім прозвішчы?»",
                                                       "links": [
                                                         {
                                                           "id": 67,
+                                                          "redacted": false,
                                                           "title": "Video Revachol, 24h: \"\"What did you say your last name wa...\"",
+                                                          "actor": "Video Revachol, 24h",
+                                                          "to": "You",
                                                           "articyId": "0x01000021000010B0",
-                                                          "text": "\"What did you say your last name was?\"",
+                                                          "english": "\"What did you say your last name was?\"",
+                                                          "polish": "„Może pan powtórzyć nazwisko?”",
+                                                          "belarusian": "«Ці зможаце вы паўтарыць прозвішча?»",
                                                           "links": [
                                                             {
                                                               "id": 87,
+                                                              "redacted": false,
                                                               "title": "You: \"\"Something.\"\"",
+                                                              "actor": "You",
+                                                              "to": "Punch Clock/Payphone",
                                                               "articyId": "0x01000021000010B8",
-                                                              "text": "\"Something.\"",
+                                                              "english": "\"Something.\"",
+                                                              "polish": "„Coś”.",
+                                                              "belarusian": "«Нешта».",
                                                               "links": [
                                                                 {
                                                                   "id": 2,
+                                                                  "redacted": false,
                                                                   "title": "Video Revachol, 24h: \"\"*Something?* Listen, I can't help...\"",
+                                                                  "actor": "Video Revachol, 24h",
+                                                                  "to": "You",
                                                                   "articyId": "0x01000021000010CC",
-                                                                  "text": "\"*Something?* Listen, I can't help you.\" He sounds annoyed now. \"If you need further assistance you can visit us on the corner of Voyager and Main. Are we done?\"",
+                                                                  "english": "\"*Something?* Listen, I can't help you.\" He sounds annoyed now. \"If you need further assistance you can visit us on the corner of Voyager and Main. Are we done?\"",
+                                                                  "polish": "„*Coś*? Niestety, nie mogę pomóc” – w jego głosie słychać teraz irytację. „Jeśli potrzebuje pan pomocy, proszę odwiedzić nas na rogu Voyager i Main. Czy to już wszystko?”",
+                                                                  "belarusian": "«*Нешта*? На жаль, не магу дапамагчы,» – у ягоным голасе цяпер чуваць раздражненне. «Калі вам патрэбна дапамога, калі ласка, наведайце нас на рагу Вояджэр і Мэйн. Гэта ўсё?»",
                                                                   "links": []
                                                                 }
                                                               ]
                                                             },
                                                             {
                                                               "id": 35,
+                                                              "redacted": false,
                                                               "title": "You: \"\"Can't we do it without my last nam...\"",
+                                                              "actor": "You",
+                                                              "to": "Punch Clock/Payphone",
                                                               "articyId": "0x01000021000010BF",
-                                                              "text": "\"Can't we do it without my last name? I can't really remember it.\"",
+                                                              "english": "\"Can't we do it without my last name? I can't really remember it.\"",
+                                                              "polish": "„Nie damy rady nic zrobić bez nazwiska? Prawdę mówiąc, nie pamiętam go”.",
+                                                              "belarusian": "«Мы нічога не зможам зрабіць без прозвішча? Па праўдзе кажучы, я яго не памятаю».",
                                                               "links": [
                                                                 {
                                                                   "id": 75,
+                                                                  "redacted": false,
                                                                   "title": "Video Revachol, 24h: \"\"Listen, man, I can't help you with...\"",
+                                                                  "actor": "Video Revachol, 24h",
+                                                                  "to": "You",
                                                                   "articyId": "0x01000021000010C5",
-                                                                  "text": "\"Listen, man, I can't help you without your surname.\" He sounds annoyed now. \"If you need further assistance you can visit us on the corner of Voyager and Main. Are we done?\"",
+                                                                  "english": "\"Listen, man, I can't help you without your surname.\" He sounds annoyed now. \"If you need further assistance you can visit us on the corner of Voyager and Main. Are we done?\"",
+                                                                  "polish": "„Słuchaj, kolego, nie mam jak pomóc, jeśli nie znam nazwiska” – w jego głosie słychać teraz irytację. „Jeśli potrzebuje pan pomocy, proszę odwiedzić nas na rogu Voyager i Main. Czy to już wszystko?”",
+                                                                  "belarusian": "„Слухай, калега, я не магу дапамагчы, калі не ведаю прозвішча” — у ягоным голасе цяпер чутна раздражненне. „Калі вам патрэбна дапамога, калі ласка, наведайце нас на рагу Вояджэр і Мэйн. Ці гэта ўсё?”",
                                                                   "links": []
                                                                 }
                                                               ]
@@ -289,39 +489,69 @@
                                                     },
                                                     {
                                                       "id": 53,
+                                                      "redacted": false,
                                                       "title": "You: \"\"My name is Harry Du Bois. Do you h...\"",
+                                                      "actor": "You",
+                                                      "to": "Punch Clock/Payphone",
                                                       "articyId": "0x01000021000010A2",
-                                                      "text": "\"My name is Harry Du Bois. Do you have anything on my name?\"",
+                                                      "english": "\"My name is Harry Du Bois. Do you have anything on my name?\"",
+                                                      "polish": "„Nazywam się Harry Du Bois. Czy ma pan jakieś informacje przy moim nazwisku?”",
+                                                      "belarusian": "«Мяне клічуць Гары Дзю Буа. Ці ёсць у вас якая-небудзь інфармацыя пра маё прозвішча?»",
                                                       "links": [
                                                         {
                                                           "id": 64,
+                                                          "redacted": false,
                                                           "title": "Video Revachol, 24h: \"\"Let me fire up the machine...\" Key...\"",
+                                                          "actor": "Video Revachol, 24h",
+                                                          "to": "You",
                                                           "articyId": "0x010000820001F058",
-                                                          "text": "\"Let me fire up the machine...\" Keys are being pressed in the background. \"Du Bois... Du Bois...\"",
+                                                          "english": "\"Let me fire up the machine...\" Keys are being pressed in the background. \"Du Bois... Du Bois...\"",
+                                                          "polish": "„Niech no odpalę maszynę...” – słyszysz gdzieś w tle wciskanie klawiszy. „Du Bois, Du Bois...”",
+                                                          "belarusian": "«Давай запусцім машыну...» – чуеш недзе ў фоне націсканне клавіш. «Ду Буа, Ду Буа...»",
                                                           "links": [
                                                             {
                                                               "id": 22,
+                                                              "redacted": false,
                                                               "title": "Video Revachol, 24h: \"\"Here we are! You haven't rented an...\"",
+                                                              "actor": "Video Revachol, 24h",
+                                                              "to": "You",
                                                               "articyId": "0x010000820001FA1B",
-                                                              "text": "\"Here we are! You haven't rented anything in five years, but you still have a copy of *Blue Ocean Hell* from November '46. Wooh, not a fun film, that one.\"",
+                                                              "english": "\"Here we are! You haven't rented anything in five years, but you still have a copy of *Blue Ocean Hell* from November '46. Wooh, not a fun film, that one.\"",
+                                                              "polish": "„I mam! Nie wypożyczył pan nic od pięciu lat, ale wciąż ma pan egzemplarz »Piekła błękitu oceanu« z listopada 46 roku. Uch, nie jest to wesoły film”.",
+                                                              "belarusian": "«І я маю! Вы нічога не пазычалі цягам пяці гадоў, але ўсё яшчэ маеце асобнік «Пекла блакітнага акіяна» за лістапад 46 года. О, гэта не вясёлы фільм».",
                                                               "links": [
                                                                 {
                                                                   "id": 70,
+                                                                  "redacted": false,
                                                                   "title": "You: \"\"What kind of a film is that?\"\"",
+                                                                  "actor": "You",
+                                                                  "to": "Punch Clock/Payphone",
                                                                   "articyId": "0x010000820001F05F",
-                                                                  "text": "\"What kind of a film is that?\"",
+                                                                  "english": "\"What kind of a film is that?\"",
+                                                                  "polish": "„Co to za film?”",
+                                                                  "belarusian": "«Што гэта за фільм?»",
                                                                   "links": [
                                                                     {
                                                                       "id": 68,
+                                                                      "redacted": false,
                                                                       "title": "Video Revachol, 24h: \"\"Uh... it's not an easy watch.\" He...\"",
+                                                                      "actor": "Video Revachol, 24h",
+                                                                      "to": "You",
                                                                       "articyId": "0x010000820001EEA1",
-                                                                      "text": "\"Uh... it's not an easy watch.\" He reads: \"'After the death of his daughter and subsequent divorce, Zsiemsk immigrant Igidius Wójcik tries to come to terms with the onset of dementia...'\"",
+                                                                      "english": "\"Uh... it's not an easy watch.\" He reads: \"'After the death of his daughter and subsequent divorce, Zsiemsk immigrant Igidius Wójcik tries to come to terms with the onset of dementia...'\"",
+                                                                      "polish": "„No... niełatwy w odbiorze”. Odczytuje opis: „Po śmierci córki i rozwodzie zsiemski imigrant Igidius Wójcik próbuje ułożyć sobie życie mimo rozpoczynającej się demencji...”",
+                                                                      "belarusian": "«Не... няпросты для ўспрымання». Чытае апісанне: «Пасля смерці дачкі і разводу зямны імігрант Ігідыюс Войчык спрабуе наладзіць сваё жыццё нягледзячы на ​​пачынаючуюся дэменцыю...»",
                                                                       "links": [
                                                                         {
                                                                           "id": 54,
+                                                                          "redacted": false,
                                                                           "title": "Video Revachol, 24h: \"He concludes: \"No wonder no one's b...\"",
+                                                                          "actor": "Video Revachol, 24h",
+                                                                          "to": "You",
                                                                           "articyId": "0x010000820001EEAE",
-                                                                          "text": "He concludes: \"No wonder no one's been missing it. Still, it would be great if you could return it to us. We're on the corner of Voyager and Main.\"",
+                                                                          "english": "He concludes: \"No wonder no one's been missing it. Still, it would be great if you could return it to us. We're on the corner of Voyager and Main.\"",
+                                                                          "polish": "„Nie dziwne, że nikt za nim nie tęsknił” – kończy. „Mimo wszystko wspaniale by było, gdyby go pan oddał. Znajdzie nas pan na rogu Voyager i Main”.",
+                                                                          "belarusian": "«Не дзіўна, што ніхто па ім не сумаваў», — заканчвае. «Усё ж цудоўна было б, калі б вы яго вярнулі. Знойдзеце нас на рагу Вояджэр і Мэйн».",
                                                                           "links": []
                                                                         }
                                                                       ]
@@ -330,15 +560,25 @@
                                                                 },
                                                                 {
                                                                   "id": 10,
+                                                                  "redacted": false,
                                                                   "title": "You: \"\"Oh, okay. Thanks.\"\"",
+                                                                  "actor": "You",
+                                                                  "to": "Punch Clock/Payphone",
                                                                   "articyId": "0x010000820001F065",
-                                                                  "text": "\"Oh, okay. Thanks.\"",
+                                                                  "english": "\"Oh, okay. Thanks.\"",
+                                                                  "polish": "„Ach, rozumiem. Dziękuję”.",
+                                                                  "belarusian": "«Ах, разумею. Дзякуй».",
                                                                   "links": [
                                                                     {
                                                                       "id": 11,
+                                                                      "redacted": false,
                                                                       "title": "Video Revachol, 24h: \"\"If you can, return it to us on the...\"",
+                                                                      "actor": "Video Revachol, 24h",
+                                                                      "to": "You",
                                                                       "articyId": "0x010000820001F07E",
-                                                                      "text": "\"If you can, return it to us on the corner of Voyager and Main.\"",
+                                                                      "english": "\"If you can, return it to us on the corner of Voyager and Main.\"",
+                                                                      "polish": "„Gdyby pan mógł, proszę go nam zwrócić na rogu Voyager i Main”.",
+                                                                      "belarusian": "«Калі б вы маглі, вярніце яго нам на рагу Voyager і Main».",
                                                                       "links": []
                                                                     }
                                                                   ]
@@ -351,16 +591,26 @@
                                                     },
                                                     {
                                                       "id": 74,
+                                                      "redacted": false,
                                                       "title": "You: \"\"My name is Harrier Du Bois. Do you...\"",
+                                                      "actor": "You",
+                                                      "to": "Punch Clock/Payphone",
                                                       "articyId": "0x010000820001EE89",
-                                                      "text": "\"My name is Harrier Du Bois. Do you have anything on my name?\"",
+                                                      "english": "\"My name is Harrier Du Bois. Do you have anything on my name?\"",
+                                                      "polish": "„Nazywam się Harrier Du Bois. Czy ma pan jakieś informacje przy moim nazwisku?”",
+                                                      "belarusian": "«Маё імя Хар'ер Дзю Буа. Ці ёсць у вас нейкая інфармацыя пра мяне?»",
                                                       "links": []
                                                     },
                                                     {
                                                       "id": 39,
+                                                      "redacted": false,
                                                       "title": "You: \"Quietly hang up the phone. [Leave.]\"",
+                                                      "actor": "You",
+                                                      "to": "Punch Clock/Payphone",
                                                       "articyId": "0x010000820001FAF5",
-                                                      "text": "Quietly hang up the phone. [Leave.]",
+                                                      "english": "Quietly hang up the phone. [Leave.]",
+                                                      "polish": "Odłóż w milczeniu słuchawkę. [Odejdź].",
+                                                      "belarusian": "Пакладзі трубку моўчкі. [Адыдзі].",
                                                       "links": []
                                                     }
                                                   ]
@@ -385,42 +635,72 @@
             },
             {
               "id": 57,
+              "redacted": false,
               "title": "Interfacing: \"It's unclear whether you actually h...\"",
+              "actor": "Interfacing",
+              "to": "You",
               "articyId": "0x010000820001EFDB",
-              "text": "It's unclear whether you actually have muscle memory. Right now your finger is just drawing vaguely occult patterns in the air.",
+              "english": "It's unclear whether you actually have muscle memory. Right now your finger is just drawing vaguely occult patterns in the air.",
+              "polish": "Nie jesteś pewien, czy masz jakąś pamięć mięśniową. Twój palec rysuje chwilowo w powietrzu jakieś okultystyczne niemal znaki.",
+              "belarusian": "Вы не ўпэўнены, ці ёсць у вас нейкая мышачная памяць. Ваш палец часова малюе ў паветры нейкія амаль акультныя знакі.",
               "links": [
                 {
                   "id": 61,
+                  "redacted": false,
                   "title": "You: \"Useful patterns?\"",
+                  "actor": "You",
+                  "to": "Punch Clock/Payphone",
                   "articyId": "0x010000820001EFEC",
-                  "text": "Useful patterns?",
+                  "english": "Useful patterns?",
+                  "polish": "Przydatne?",
+                  "belarusian": "Карысна?",
                   "links": [
                     {
                       "id": 23,
+                      "redacted": false,
                       "title": "Interfacing: \"Undoubtedly, no.\"",
+                      "actor": "Interfacing",
+                      "to": "You",
                       "articyId": "0x010000820001EFFA",
-                      "text": "Undoubtedly, no.",
+                      "english": "Undoubtedly, no.",
+                      "polish": "Bez wątpienia nie.",
+                      "belarusian": "Без сумнення, не.",
                       "links": []
                     }
                   ]
                 },
                 {
                   "id": 5,
+                  "redacted": false,
                   "title": "You: \"I might try this again later.\"",
+                  "actor": "You",
+                  "to": "Punch Clock/Payphone",
                   "articyId": "0x010000820001EFF3",
-                  "text": "I might try this again later.",
+                  "english": "I might try this again later.",
+                  "polish": "Może spróbuję jeszcze raz później.",
+                  "belarusian": "Можа, паспрабую яшчэ раз пазней.",
                   "links": [
                     {
                       "id": 69,
+                      "redacted": false,
                       "title": "Interfacing: \"Sure, why not. Muscle memory is a t...\"",
+                      "actor": "Interfacing",
+                      "to": "You",
                       "articyId": "0x010000820001F001",
-                      "text": "Sure, why not. Muscle memory is a tricky thing.",
+                      "english": "Sure, why not. Muscle memory is a tricky thing.",
+                      "polish": "Jasne, czemu nie. Pamięć mięśniowa czasem zaskakuje.",
+                      "belarusian": "Вядома, чаму не. Мышачная памяць часам здзіўляе.",
                       "links": [
                         {
                           "id": 6,
+                          "redacted": false,
                           "title": "Physical Instrument: \"Nothing tricky about that. You just...\"",
+                          "actor": "Physical Instrument",
+                          "to": "You",
                           "articyId": "0x010000820001F014",
-                          "text": "Nothing tricky about that. You just *do*, *fail*, *repeat* until it works. All it takes is motivation and practice.",
+                          "english": "Nothing tricky about that. You just *do*, *fail*, *repeat* until it works. All it takes is motivation and practice.",
+                          "polish": "Nie ma w tym nic zaskakującego. Po prostu *robisz* coś, *nie udaje ci się*, więc *powtarzasz*, aż w końcu się udaje. Potrzeba tylko motywacji i treningu.",
+                          "belarusian": "У гэтым няма нічога дзіўнага. Проста *рабіш* нешта, *не атрымліваецца*, таму *паўтараеш*, пакуль нарэшце не атрымаецца. Патрэбна толькі матывацыя і трэніроўка.",
                           "links": []
                         }
                       ]
@@ -433,9 +713,14 @@
         },
         {
           "id": 72,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Punch Clock/Payphone",
           "articyId": "0x010000820001EDD8",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Адыдзі].",
           "links": []
         }
       ]

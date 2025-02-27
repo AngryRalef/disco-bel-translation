@@ -5,143 +5,248 @@
   "dialogueTree": [
     {
       "id": 42,
+      "redacted": false,
       "title": "Door, Room #1: \"This is the door to your room.\"",
+      "actor": "Door, Room #1",
+      "to": "You",
       "articyId": "0x0100005800008E3D",
-      "text": "This is the door to your room.",
+      "english": "This is the door to your room.",
+      "polish": "To drzwi do twojego pokoju.",
+      "belarusian": "Гэта дзверы ў твой пакой.",
       "links": [
         {
           "id": 65,
+          "redacted": false,
           "title": "You: \"\"Good night, lieutenant.\"\"",
+          "actor": "You",
+          "to": "Door, Room #1",
           "articyId": "0x010000580000BB98",
-          "text": "\"Good night, lieutenant.\"",
+          "english": "\"Good night, lieutenant.\"",
+          "polish": "„Dobranoc, poruczniku”.",
+          "belarusian": "«Дабранач, лейтэнант».",
           "links": [
             {
               "id": 69,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Just a moment. You had some questi...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x0100002100001833",
-              "text": "\"Just a moment. You had some questions earlier, I believe, and, besides, we should discuss our progress on the investigation. Let's go out to the balcony.\"",
+              "english": "\"Just a moment. You had some questions earlier, I believe, and, besides, we should discuss our progress on the investigation. Let's go out to the balcony.\"",
+              "polish": "„Chwila. Zdaje się, że miałeś do mnie jakieś pytania, a poza tym powinniśmy omówić postępy naszego śledztwa. Wyjdźmy na balkon”.",
+              "belarusian": "«Хвіліна. Здаецца, у цябе былі да мяне нейкія пытанні, а акрамя таго, мы мусім абмеркаваць поспехі нашага расследавання. Пойдзем на балкон».",
               "links": [
                 {
                   "id": 57,
+                  "redacted": false,
                   "title": "You: \"\"Alright, let's go.\"\"",
+                  "actor": "You",
+                  "to": "Door, Room #1",
                   "articyId": "0x0100006B00004B1E",
-                  "text": "\"Alright, let's go.\"",
+                  "english": "\"Alright, let's go.\"",
+                  "polish": "„Dobrze, chodźmy”.",
+                  "belarusian": "«Добра, пайшлі».",
                   "links": []
                 }
               ]
             },
             {
               "id": 18,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Just a moment. We should talk abou...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
               "articyId": "0x010000210000183B",
-              "text": "\"Just a moment. We should talk about our progress on the investigation. Let's go out to the balcony.\"",
+              "english": "\"Just a moment. We should talk about our progress on the investigation. Let's go out to the balcony.\"",
+              "polish": "„Chwila. Powinniśmy porozmawiać o postępach naszego śledztwa. Wyjdźmy na balkon”.",
+              "belarusian": "«Момант. Мы павінны абмеркаваць прагрэс нашага расследавання. Выйдзем на балкон».",
               "links": []
             }
           ]
         },
         {
           "id": 91,
+          "redacted": false,
           "title": "Door, Room #1: \"Something about it has changed.\"",
+          "actor": "Door, Room #1",
+          "to": "You",
           "articyId": "0x0100002F0000E3DD",
-          "text": "Something about it has changed.",
+          "english": "Something about it has changed.",
+          "polish": "Coś się w nich zmieniło.",
+          "belarusian": "Нешта ў іх змянілася.",
           "links": [
             {
               "id": 31,
+              "redacted": false,
               "title": "You: \"Try to unlock the door.\"",
+              "actor": "You",
+              "to": "Door, Room #1",
               "articyId": "0x01000058000060A0",
-              "text": "Try to unlock the door.",
+              "english": "Try to unlock the door.",
+              "polish": "Spróbuj otworzyć drzwi.",
+              "belarusian": "Паспрабуй адчыніць дзверы.",
               "links": [
                 {
                   "id": 58,
+                  "redacted": false,
                   "title": "Door, Room #1: \"Your key no longer turns in the loc...\"",
+                  "actor": "Door, Room #1",
+                  "to": "You",
                   "articyId": "0x01000058000060A7",
-                  "text": "Your key no longer turns in the lock.",
+                  "english": "Your key no longer turns in the lock.",
+                  "polish": "Twój klucz nie przekręca się już w zamku.",
+                  "belarusian": "Твой ключ больш не паварочваецца ў замку.",
                   "links": [
                     {
                       "id": 53,
+                      "redacted": false,
                       "title": "Volition: \"You feel uncertain, like a child wh...\"",
+                      "actor": "Volition",
+                      "to": "You",
                       "articyId": "0x01000058000060C5",
-                      "text": "You feel uncertain, like a child who's lost his mother in the crowd.",
+                      "english": "You feel uncertain, like a child who's lost his mother in the crowd.",
+                      "polish": "Czujesz się niepewnie niczym dziecko, które zgubiło w tłumie matkę.",
+                      "belarusian": "Адчуваеш сябе няўпэўнена, як дзіця, якое згубіла ў натоўпе маці.",
                       "links": [
                         {
                           "id": 10,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"\"It must be an electronic lock. You...\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x01000058000060B4",
-                          "text": "\"It must be an electronic lock. You will have to get Garte, the cafeteria manager, to open it first -- after you've paid for the night.\"",
+                          "english": "\"It must be an electronic lock. You will have to get Garte, the cafeteria manager, to open it first -- after you've paid for the night.\"",
+                          "polish": "„To jest pewnie zamek elektroniczny. Kierownik baru, Garte, musi go najpierw odblokować. Zrobi to, gdy zapłacisz za nocleg”.",
+                          "belarusian": "«Гэта, напэўна, электронны замок. Кіраўнік бара, Гартэ, павінен яго спачатку разблакаваць. Ён гэта зробіць, калі ты заплаціш за начлег».",
                           "links": [
                             {
                               "id": 72,
+                              "redacted": false,
                               "title": "Half Light: \"Just punch the damned door. No *loc...\"",
+                              "actor": "Half Light",
+                              "to": "You",
                               "articyId": "0x010000580000610A",
-                              "text": "Just punch the damned door. No *locks* are going to keep you out.",
+                              "english": "Just punch the damned door. No *locks* are going to keep you out.",
+                              "polish": "Rąbnij po prostu te cholerne drzwi. Żaden *zamek* nie będzie blokował ci wejścia.",
+                              "belarusian": "Проста стукні па гэтым чортавым дзвярам. Ніякі *замок* не будзе блакаваць табе ўваход.",
                               "links": [
                                 {
                                   "id": 85,
+                                  "redacted": false,
                                   "title": "You: \"\"Right, I should go pay my debts be...\"",
+                                  "actor": "You",
+                                  "to": "Door, Room #1",
                                   "articyId": "0x010000580000612C",
-                                  "text": "\"Right, I should go pay my debts before I can go to sleep.\"",
+                                  "english": "\"Right, I should go pay my debts before I can go to sleep.\"",
+                                  "polish": "„Racja. Muszę pójść spłacić długi, zanim się położę”.",
+                                  "belarusian": "«Праўда. Трэба пайсці пагасіць даўгі, перш чым легчы».",
                                   "links": [
                                     {
                                       "id": 67,
+                                      "redacted": false,
                                       "title": "Kim Kitsuragi: \"He nods. \"Yes, we both need to get...\"",
+                                      "actor": "Kim Kitsuragi",
+                                      "to": "You",
                                       "articyId": "0x010000580000619E",
-                                      "text": "He nods. \"Yes, we both need to get proper rest tonight.\"",
+                                      "english": "He nods. \"Yes, we both need to get proper rest tonight.\"",
+                                      "polish": "Kiwa głową. „Tak, obaj potrzebujemy porządnego nocnego wypoczynku”.",
+                                      "belarusian": "Ківае галавой. «Так, абодвум патрэбен добры начны адпачынак».",
                                       "links": []
                                     }
                                   ]
                                 },
                                 {
                                   "id": 41,
+                                  "redacted": false,
                                   "title": "You: \"\"Nah, I'll get by somehow. Didn't l...\"",
+                                  "actor": "You",
+                                  "to": "Door, Room #1",
                                   "articyId": "0x0100005800006120",
-                                  "text": "\"Nah, I'll get by somehow. Didn't like that room very much anyway.\"",
+                                  "english": "\"Nah, I'll get by somehow. Didn't like that room very much anyway.\"",
+                                  "polish": "„Nie, jakoś sobie poradzę. I tak nie przepadałem za tym pokojem”.",
+                                  "belarusian": "«Не, неяк сам справлюся. І ўсё роўна гэты пакой мне не вельмі падабаўся».",
                                   "links": [
                                     {
                                       "id": 32,
+                                      "redacted": false,
                                       "title": "Kim Kitsuragi: \"\"I would advise against that. It's...\"",
+                                      "actor": "Kim Kitsuragi",
+                                      "to": "You",
                                       "articyId": "0x0100005800006198",
-                                      "text": "\"I would advise against that. It's already late, and you won't find cheaper accommodation in the vicinity.\"",
+                                      "english": "\"I would advise against that. It's already late, and you won't find cheaper accommodation in the vicinity.\"",
+                                      "polish": "„Nie radziłbym tego. Jest już późno, a poza tym nie znajdziesz w tej okolicy tańszego noclegu”.",
+                                      "belarusian": "«Я б гэтага не раіў. Ужо позна, а акрамя таго, у гэтым раёне ты не знойдзеш больш таннага начлегу».",
                                       "links": []
                                     }
                                   ]
                                 },
                                 {
                                   "id": 59,
+                                  "redacted": false,
                                   "title": "You: \"\"Actually, I don't need to pay -- I...\"",
+                                  "actor": "You",
+                                  "to": "Door, Room #1",
                                   "articyId": "0x0100005800006126",
-                                  "text": "\"Actually, I don't need to pay -- I will brave the streets. Go undercover as a hobocop.\"",
+                                  "english": "\"Actually, I don't need to pay -- I will brave the streets. Go undercover as a hobocop.\"",
+                                  "polish": "„Właściwie to nie muszę płacić. Poradzę sobie na ulicy. Będę działał pod przykrywką żulicjanta”.",
+                                  "belarusian": "«Вось толькі я не мушу плаціць. Справімся на вуліцы. Буду працаваць пад прыкрыццём бамжыцянта».",
                                   "links": [
                                     {
                                       "id": 73,
+                                      "redacted": false,
                                       "title": "Kim Kitsuragi: \"\"Our investigation does not at pres...\"",
+                                      "actor": "Kim Kitsuragi",
+                                      "to": "You",
                                       "articyId": "0x0100005800006192",
-                                      "text": "\"Our investigation does not at present require for anyone to go undercover. Let's drop this discussion and go settle your debt with the manager.\"",
+                                      "english": "\"Our investigation does not at present require for anyone to go undercover. Let's drop this discussion and go settle your debt with the manager.\"",
+                                      "polish": "„Obecnie nasze śledztwo nie wymaga pracy pod przykrywką. Skończmy ten temat i udajmy się do kierownika, aby spłacić twój dług”.",
+                                      "belarusian": "«Цяпер наша расследаванне не патрабуе працы пад прыкрыццём. Закончым гэтую тэму і накіруемся да кіраўніка, каб пагасіць твой доўг».",
                                       "links": [
                                         {
                                           "id": 33,
+                                          "redacted": false,
                                           "title": "Authority: \"He's asserting his leadership talen...\"",
+                                          "actor": "Authority",
+                                          "to": "You",
                                           "articyId": "0x01000058000061A6",
-                                          "text": "He's asserting his leadership talents because he is concerned about you.",
+                                          "english": "He's asserting his leadership talents because he is concerned about you.",
+                                          "polish": "Wykorzystuje swój przywódczy talent, bo się o ciebie martwi.",
+                                          "belarusian": "Ён выкарыстоўвае свой лідарскі талент, таму што турбуецца пра цябе.",
                                           "links": [
                                             {
                                               "id": 70,
+                                              "redacted": false,
                                               "title": "Savoir Faire: \"Hey, remember that trash bin idea.....\"",
+                                              "actor": "Savoir Faire",
+                                              "to": "You",
                                               "articyId": "0x01000021000034DB",
-                                              "text": "Hey, remember that trash bin idea...? Time to get climbing!",
+                                              "english": "Hey, remember that trash bin idea...? Time to get climbing!",
+                                              "polish": "Hej, pamiętasz ten pomysł z pojemnikiem na śmieci? Czas się tam zapakować!",
+                                              "belarusian": "Прывітанне, памятаеш тую ідэю з кантэйнерам для смецця? Час там запакавана!",
                                               "links": []
                                             },
                                             {
                                               "id": 52,
+                                              "redacted": false,
                                               "title": "Savoir Faire: \"You could try climbing into that tr...\"",
+                                              "actor": "Savoir Faire",
+                                              "to": "You",
                                               "articyId": "0x01000021000034B7",
-                                              "text": "You could try climbing into that trash bin in the yard, hobocop style...",
+                                              "english": "You could try climbing into that trash bin in the yard, hobocop style...",
+                                              "polish": "Mógłbyś spróbować wejść do tego pojemnika na śmieci na podwórzu, niczym żulicjant...",
+                                              "belarusian": "Магчыма, ты мог бы паспрабаваць увайсці ў гэты смеццевы кантэйнер на двары, як нейкі жабрак...",
                                               "links": []
                                             },
                                             {
                                               "id": 27,
+                                              "redacted": false,
                                               "title": "Savoir Faire: \"You could try climbing into that tr...\"",
+                                              "actor": "Savoir Faire",
+                                              "to": "You",
                                               "articyId": "0x01000021000034C2",
-                                              "text": "You could try climbing into that trash bin in the yard, hobocop style... after you've gotten open the lid.",
+                                              "english": "You could try climbing into that trash bin in the yard, hobocop style... after you've gotten open the lid.",
+                                              "polish": "Mógłbyś spróbować wejść do tego pojemnika na śmieci na podwórzu, niczym żulicjant... Pod warunkiem, że otworzyłbyś pokrywę.",
+                                              "belarusian": "Мог бы паспрабаваць увайсці ў гэты кантэйнер для смецця на двары, як сапраўдны бомж-паліцэйскі... Пры ўмове, што адчыніў бы вечка.",
                                               "links": []
                                             }
                                           ]
@@ -152,58 +257,103 @@
                                 },
                                 {
                                   "id": 87,
+                                  "redacted": false,
                                   "title": "You: \"Punch the door.\"",
+                                  "actor": "You",
+                                  "to": "Door, Room #1",
                                   "articyId": "0x0100005800008E53",
-                                  "text": "Punch the door.",
+                                  "english": "Punch the door.",
+                                  "polish": "Uderz w drzwi.",
+                                  "belarusian": "Стукай у дзверы.",
                                   "links": [
                                     {
                                       "id": 40,
+                                      "redacted": false,
                                       "title": "Door, Room #1: \"The door rings from the impact, but...\"",
+                                      "actor": "Door, Room #1",
+                                      "to": "You",
                                       "articyId": "0x0100005800008E63",
-                                      "text": "The door rings from the impact, but does not budge.",
+                                      "english": "The door rings from the impact, but does not budge.",
+                                      "polish": "Drzwi trzeszczą przy uderzeniu, lecz ani drgną.",
+                                      "belarusian": "Дзверы рыпаюць пры ўдары, але нават не зварухнуцца.",
                                       "links": [
                                         {
                                           "id": 79,
+                                          "redacted": false,
                                           "title": "Garte, the Cafeteria Manager: \"(His voice echoes from downstairs.)...\"",
+                                          "actor": "Garte, the Cafeteria Manager",
+                                          "to": "You",
                                           "articyId": "0x0100002100001231",
-                                          "text": "(His voice echoes from downstairs.) \"What the hell is going on up there?\"",
+                                          "english": "(His voice echoes from downstairs.) \"What the hell is going on up there?\"",
+                                          "polish": "(Jego głos dobiega z dołu). „Co się tam dzieje, do cholery?”",
+                                          "belarusian": "(Яго голас даносіцца знізу). «Што там адбываецца, халера на яго?»",
                                           "links": [
                                             {
                                               "id": 80,
+                                              "redacted": false,
                                               "title": "Kim Kitsuragi: \"The lieutenant looks at you with a...\"",
+                                              "actor": "Kim Kitsuragi",
+                                              "to": "You",
                                               "articyId": "0x010000210000123C",
-                                              "text": "The lieutenant looks at you with a mixture of pity and weariness. \"Come on, let's go down.\"",
+                                              "english": "The lieutenant looks at you with a mixture of pity and weariness. \"Come on, let's go down.\"",
+                                              "polish": "Porucznik przygląda się ci z politowaniem i zmęczeniem. „Wystarczy. Chodźmy na dół”.",
+                                              "belarusian": "Лейтэнант з пагардай і стомленасцю глядзіць на цябе. «Досыць. Пайдзём уніз».",
                                               "links": []
                                             },
                                             {
                                               "id": 106,
+                                              "redacted": false,
                                               "title": "Pain Threshold: \"Your fist bounces off the door and...\"",
+                                              "actor": "Pain Threshold",
+                                              "to": "You",
                                               "articyId": "0x0100005800008E73",
-                                              "text": "Your fist bounces off the door and comes back to you on a wave of agony that surges up your arm.",
+                                              "english": "Your fist bounces off the door and comes back to you on a wave of agony that surges up your arm.",
+                                              "polish": "Twoja pięść odbija się od drzwi i wraca ku tobie na fali przebiegającego ci po całym ramieniu bólu.",
+                                              "belarusian": "Твой кулак адбіваецца ад дзвярэй і вяртаецца да цябе на хвалі болю, які прабягае па ўсёй руцэ.",
                                               "links": [
                                                 {
                                                   "id": 3,
+                                                  "redacted": false,
                                                   "title": "You: \"\"Aaaaa! It huuurts!\"\"",
+                                                  "actor": "You",
+                                                  "to": "Door, Room #1",
                                                   "articyId": "0x0100005800006249",
-                                                  "text": "\"Aaaaa! It huuurts!\"",
+                                                  "english": "\"Aaaaa! It huuurts!\"",
+                                                  "polish": "„Aaaa! Boli!”",
+                                                  "belarusian": "«Аааа! Баліць!»",
                                                   "links": [
                                                     {
                                                       "id": 34,
+                                                      "redacted": false,
                                                       "title": "Pain Threshold: \"Your angry voice carries through th...\"",
+                                                      "actor": "Pain Threshold",
+                                                      "to": "You",
                                                       "articyId": "0x0100005800006273",
-                                                      "text": "Your angry voice carries through the Whirling, but you still can't stop the tears from welling up in your eyes...",
+                                                      "english": "Your angry voice carries through the Whirling, but you still can't stop the tears from welling up in your eyes...",
+                                                      "polish": "Twój gniewny głos niesie się po Whirling, nie jesteś jednak w stanie powstrzymać nabiegających ci do oczu łez...",
+                                                      "belarusian": "Твой гнеўны голас разносіцца па Whirling, але ты не ў стане стрымаць слёзы, якія набягаюць табе на вочы...",
                                                       "links": [
                                                         {
                                                           "id": 20,
+                                                          "redacted": false,
                                                           "title": "Garte, the Cafeteria Manager: \"(His voice echoes from downstairs.)...\"",
+                                                          "actor": "Garte, the Cafeteria Manager",
+                                                          "to": "You",
                                                           "articyId": "0x010000580000623B",
-                                                          "text": "(His voice echoes from downstairs.) \"What the hell is going on up there?\"",
+                                                          "english": "(His voice echoes from downstairs.) \"What the hell is going on up there?\"",
+                                                          "polish": "(Jego głos dobiega z dołu). „Co się tam dzieje, do cholery?”",
+                                                          "belarusian": "(Яго голас даносіцца знізу). «Што там адбываецца, халера?»",
                                                           "links": [
                                                             {
                                                               "id": 100,
+                                                              "redacted": false,
                                                               "title": "Kim Kitsuragi: \"The lieutenant looks at you with a...\"",
+                                                              "actor": "Kim Kitsuragi",
+                                                              "to": "You",
                                                               "articyId": "0x0100005800006241",
-                                                              "text": "The lieutenant looks at you with a mixture of pity and weariness. \"Come on, let's go down.\"",
+                                                              "english": "The lieutenant looks at you with a mixture of pity and weariness. \"Come on, let's go down.\"",
+                                                              "polish": "Porucznik przygląda się ci z politowaniem i zmęczeniem. „Wystarczy. Chodźmy na dół”.",
+                                                              "belarusian": "Лейтэнант глядзіць на цябе з жалем і стомленасцю. «Досыць. Пойдзем уніз».",
                                                               "links": []
                                                             }
                                                           ]
@@ -214,48 +364,83 @@
                                                 },
                                                 {
                                                   "id": 101,
+                                                  "redacted": false,
                                                   "title": "You: \"Keep it in. Cradle your arm.\"",
+                                                  "actor": "You",
+                                                  "to": "Door, Room #1",
                                                   "articyId": "0x010000580000624F",
-                                                  "text": "Keep it in. Cradle your arm.",
+                                                  "english": "Keep it in. Cradle your arm.",
+                                                  "polish": "Zduś to w sobie. Złap się za rękę.",
+                                                  "belarusian": "Задушы гэта ў сабе. Схапіся за руку.",
                                                   "links": [
                                                     {
                                                       "id": 5,
+                                                      "redacted": false,
                                                       "title": "Pain Threshold: \"The tears bring some relief, but no...\"",
+                                                      "actor": "Pain Threshold",
+                                                      "to": "You",
                                                       "articyId": "0x010000580000626C",
-                                                      "text": "The tears bring some relief, but not much.",
+                                                      "english": "The tears bring some relief, but not much.",
+                                                      "polish": "Łzy przynoszą ulgę, choć nie jest jej wiele.",
+                                                      "belarusian": "Слёзы прыносяць палёгку, хоць яе і няшмат.",
                                                       "links": []
                                                     }
                                                   ]
                                                 },
                                                 {
                                                   "id": 74,
+                                                  "redacted": false,
                                                   "title": "You: \"Try to stay cool.\"",
+                                                  "actor": "You",
+                                                  "to": "Door, Room #1",
                                                   "articyId": "0x0100005800006255",
-                                                  "text": "Try to stay cool.",
+                                                  "english": "Try to stay cool.",
+                                                  "polish": "Spróbuj zachować spokój.",
+                                                  "belarusian": "Паспрабуй захаваць спакой.",
                                                   "links": [
                                                     {
                                                       "id": 56,
+                                                      "redacted": false,
                                                       "title": "Composure: \"You've got this. Men like you don't...\"",
+                                                      "actor": "Composure",
+                                                      "to": "You",
                                                       "articyId": "0x0100005800008EE4",
-                                                      "text": "You've got this. Men like you don't cry unless it serves their purposes.",
+                                                      "english": "You've got this. Men like you don't cry unless it serves their purposes.",
+                                                      "polish": "Dasz radę. Faceci tacy jak ty nie płaczą, o ile nie służy to ich celom.",
+                                                      "belarusian": "Ты справішся. Такія хлопцы, як ты, не плачуць, калі гэта не служыць іх мэтам.",
                                                       "links": [
                                                         {
                                                           "id": 107,
+                                                          "redacted": false,
                                                           "title": "You: \"Confront the door with a stoical ex...\"",
+                                                          "actor": "You",
+                                                          "to": "Door, Room #1",
                                                           "articyId": "0x0100005800008EEA",
-                                                          "text": "Confront the door with a stoical expression. You are still The Law.",
+                                                          "english": "Confront the door with a stoical expression. You are still The Law.",
+                                                          "polish": "Stań przeciw drzwiom ze stoickim wyrazem twarzy. Wciąż jesteś prawem.",
+                                                          "belarusian": "Стань супраць дзвярэй з стаічным выразам твару. Ты ўсё яшчэ з’яўляешся законам.",
                                                           "links": [
                                                             {
                                                               "id": 43,
+                                                              "redacted": false,
                                                               "title": "Garte, the Cafeteria Manager: \"(His voice echoes from downstairs.)...\"",
+                                                              "actor": "Garte, the Cafeteria Manager",
+                                                              "to": "You",
                                                               "articyId": "0x0100005800008EAC",
-                                                              "text": "(His voice echoes from downstairs.) \"What's going on up there?\"",
+                                                              "english": "(His voice echoes from downstairs.) \"What's going on up there?\"",
+                                                              "polish": "(Jego głos dobiega z dołu). „Co się tam dzieje?”",
+                                                              "belarusian": "(Яго голас даносіцца знізу). «Што там адбываецца?»",
                                                               "links": [
                                                                 {
                                                                   "id": 9,
+                                                                  "redacted": false,
                                                                   "title": "Kim Kitsuragi: \"He nods toward the staircase. \"Come...\"",
+                                                                  "actor": "Kim Kitsuragi",
+                                                                  "to": "You",
                                                                   "articyId": "0x0100005800008EF7",
-                                                                  "text": "He nods toward the staircase. \"Come on, let's go down.\"",
+                                                                  "english": "He nods toward the staircase. \"Come on, let's go down.\"",
+                                                                  "polish": "Kiwa głową w kierunku schodów. „No już, chodźmy na dół”.",
+                                                                  "belarusian": "Ківае галавой у бок лесвіцы. «Ну ўжо, хадзем унiз».",
                                                                   "links": []
                                                                 }
                                                               ]
@@ -264,15 +449,25 @@
                                                         },
                                                         {
                                                           "id": 4,
+                                                          "redacted": false,
                                                           "title": "Pain Threshold: \"Nice try. The tears come streaming...\"",
+                                                          "actor": "Pain Threshold",
+                                                          "to": "You",
                                                           "articyId": "0x010000580000625E",
-                                                          "text": "Nice try. The tears come streaming down your face as you crumble to the ground.",
+                                                          "english": "Nice try. The tears come streaming down your face as you crumble to the ground.",
+                                                          "polish": "Nie wyszło. Padasz na ziemię z twarzą zalaną łzami.",
+                                                          "belarusian": "Не атрымалася. Ты падаеш на зямлю з тварам, залітым слязьмі.",
                                                           "links": [
                                                             {
                                                               "id": 11,
+                                                              "redacted": false,
                                                               "title": "You: \"Blubber. And keep blubbering.\"",
+                                                              "actor": "You",
+                                                              "to": "Door, Room #1",
                                                               "articyId": "0x0100005800006265",
-                                                              "text": "Blubber. And keep blubbering.",
+                                                              "english": "Blubber. And keep blubbering.",
+                                                              "polish": "Bełkocz. Nie przestawaj bełkotać.",
+                                                              "belarusian": "Бурмочы. Не спыняй бурчаць.",
                                                               "links": []
                                                             }
                                                           ]
@@ -283,39 +478,69 @@
                                                 },
                                                 {
                                                   "id": 75,
+                                                  "redacted": false,
                                                   "title": "Pain Threshold: \"It hurts, but keep your cool. You'v...\"",
+                                                  "actor": "Pain Threshold",
+                                                  "to": "You",
                                                   "articyId": "0x0100005800008E98",
-                                                  "text": "It hurts, but keep your cool. You've got this.",
+                                                  "english": "It hurts, but keep your cool. You've got this.",
+                                                  "polish": "Boli, ale ty zachowujesz spokój. Dasz radę.",
+                                                  "belarusian": "Баліць, але ты захоўваеш спакой. Ты справішся.",
                                                   "links": [
                                                     {
                                                       "id": 99,
+                                                      "redacted": false,
                                                       "title": "You: \"Try one more time. This time with b...\"",
+                                                      "actor": "You",
+                                                      "to": "Door, Room #1",
                                                       "articyId": "0x010000580000620E",
-                                                      "text": "Try one more time. This time with both fists, one after the other.",
+                                                      "english": "Try one more time. This time with both fists, one after the other.",
+                                                      "polish": "Spróbuj jeszcze raz. Tym razem obiema pięściami, jedną po drugiej.",
+                                                      "belarusian": "Паспрабуй яшчэ раз. Гэтым разам абедзьвюма кулакамі, адзін за адным.",
                                                       "links": [
                                                         {
                                                           "id": 45,
+                                                          "redacted": false,
                                                           "title": "Door, Room #1: \"The door shudders, but appears unda...\"",
+                                                          "actor": "Door, Room #1",
+                                                          "to": "You",
                                                           "articyId": "0x0100005800008ECB",
-                                                          "text": "The door shudders, but appears undamaged.",
+                                                          "english": "The door shudders, but appears undamaged.",
+                                                          "polish": "Drzwi drżą, lecz wydają się nienaruszone.",
+                                                          "belarusian": "Дзверы трасуцца, але здаюцца некранутымі.",
                                                           "links": [
                                                             {
                                                               "id": 44,
+                                                              "redacted": false,
                                                               "title": "Physical Instrument: \"Pow-pow! That was impressive.\"",
+                                                              "actor": "Physical Instrument",
+                                                              "to": "You",
                                                               "articyId": "0x0100005800008EB5",
-                                                              "text": "Pow-pow! That was impressive.",
+                                                              "english": "Pow-pow! That was impressive.",
+                                                              "polish": "Bang, bang! Imponujące.",
+                                                              "belarusian": "Бэнг, бэнг! Уражваюча.",
                                                               "links": [
                                                                 {
                                                                   "id": 62,
+                                                                  "redacted": false,
                                                                   "title": "Garte, the Cafeteria Manager: \"(His voice echoes from downstairs.)...\"",
+                                                                  "actor": "Garte, the Cafeteria Manager",
+                                                                  "to": "You",
                                                                   "articyId": "0x010000580000621C",
-                                                                  "text": "(His voice echoes from downstairs.) \"What's going on up there?\"",
+                                                                  "english": "(His voice echoes from downstairs.) \"What's going on up there?\"",
+                                                                  "polish": "(Jego głos dobiega z dołu). „Co się tam dzieje?”",
+                                                                  "belarusian": "(Яго голас долятае знізу). „Што там адбываецца?”",
                                                                   "links": [
                                                                     {
                                                                       "id": 36,
+                                                                      "redacted": false,
                                                                       "title": "Kim Kitsuragi: \"The lieutenant purses his lips. \"Ad...\"",
+                                                                      "actor": "Kim Kitsuragi",
+                                                                      "to": "You",
                                                                       "articyId": "0x0100005800006222",
-                                                                      "text": "The lieutenant purses his lips. \"Admirable form. Now come on, let's go down.\"",
+                                                                      "english": "The lieutenant purses his lips. \"Admirable form. Now come on, let's go down.\"",
+                                                                      "polish": "Porucznik zaciska usta. „Forma godna podziwu. Ale lepiej chodźmy na dół”.",
+                                                                      "belarusian": "Лейтэнант з сціснутымі вуснамі. «Форма годная захаплення. Але лепш пайшлі ўніз».",
                                                                       "links": []
                                                                     }
                                                                   ]
@@ -328,34 +553,59 @@
                                                     },
                                                     {
                                                       "id": 61,
+                                                      "redacted": false,
                                                       "title": "Kim Kitsuragi: \"The lieutenant looks on impassively...\"",
+                                                      "actor": "Kim Kitsuragi",
+                                                      "to": "You",
                                                       "articyId": "0x01000058000061F2",
-                                                      "text": "The lieutenant looks on impassively. \"Even if you could break down the door, all you would get is another bill.\"",
+                                                      "english": "The lieutenant looks on impassively. \"Even if you could break down the door, all you would get is another bill.\"",
+                                                      "polish": "Porucznik przygląda się ci beznamiętnie. „Nawet jeśli udałoby ci się wyłamać te drzwi, to zyskałbyś dzięki temu jedynie dodatkowy rachunek”.",
+                                                      "belarusian": "Лейтэнант глядзіць на цябе безэмоцыйна. „Нават калі б табе ўдалося выбіць гэтыя дзверы, ты б атрымаў толькі дадатковы рахунак”.",
                                                       "links": [
                                                         {
                                                           "id": 63,
+                                                          "redacted": false,
                                                           "title": "Door, Room #1: \"The door appears undamaged, and eve...\"",
+                                                          "actor": "Door, Room #1",
+                                                          "to": "You",
                                                           "articyId": "0x0100005800008ED2",
-                                                          "text": "The door appears undamaged, and even more impassive than the lieutenant.",
+                                                          "english": "The door appears undamaged, and even more impassive than the lieutenant.",
+                                                          "polish": "Drzwi wydają się nienaruszone i jeszcze bardziej beznamiętne niż porucznik.",
+                                                          "belarusian": "Дзверы здаюцца некранутымі і яшчэ больш абыякавымі, чым лейтэнант.",
                                                           "links": [
                                                             {
                                                               "id": 98,
+                                                              "redacted": false,
                                                               "title": "Physical Instrument: \"*Even if you could*? Don't let him...\"",
+                                                              "actor": "Physical Instrument",
+                                                              "to": "You",
                                                               "articyId": "0x01000058000061FF",
-                                                              "text": "*Even if you could*? Don't let him talk you down, son!",
+                                                              "english": "*Even if you could*? Don't let him talk you down, son!",
+                                                              "polish": "*Nawet jeśliby ci się udało*? Nie pozwól się traktować z góry, synku!",
+                                                              "belarusian": "*Нават калі б табе ўдалося*? Не дазваляй, каб з табой абыходзіліся звысоку, сынку!",
                                                               "links": [
                                                                 {
                                                                   "id": 35,
+                                                                  "redacted": false,
                                                                   "title": "You: \"\"This door will fall prostrate befo...\"",
+                                                                  "actor": "You",
+                                                                  "to": "Door, Room #1",
                                                                   "articyId": "0x0100005800008EBD",
-                                                                  "text": "\"This door will fall prostrate before The Law!\" (Punch the door again.)",
+                                                                  "english": "\"This door will fall prostrate before The Law!\" (Punch the door again.)",
+                                                                  "polish": "„Te drzwi padną plackiem przed obliczem prawa!” (Uderz w drzwi raz jeszcze).",
+                                                                  "belarusian": "«Гэтыя дзверы ўпаўдуць перад абліччам закона!» (Удары па дзвярах яшчэ раз).",
                                                                   "links": []
                                                                 },
                                                                 {
                                                                   "id": 68,
+                                                                  "redacted": false,
                                                                   "title": "You: \"Observe the damage to your knuckles...\"",
+                                                                  "actor": "You",
+                                                                  "to": "Door, Room #1",
                                                                   "articyId": "0x01000058000061E1",
-                                                                  "text": "Observe the damage to your knuckles. Is this really worth it?",
+                                                                  "english": "Observe the damage to your knuckles. Is this really worth it?",
+                                                                  "polish": "Przyjrzyj się swoim poobijanym knykciom. To naprawdę tego warte?",
+                                                                  "belarusian": "Паглядзі на свае пабітыя суставы. Ці сапраўды гэта таго варта?",
                                                                   "links": []
                                                                 }
                                                               ]
@@ -380,9 +630,14 @@
                         },
                         {
                           "id": 66,
+                          "redacted": false,
                           "title": "Tutorial Agent: \"The door to your room locks every n...\"",
+                          "actor": "Tutorial Agent",
+                          "to": "You",
                           "articyId": "0x010000210000186C",
-                          "text": "The door to your room locks every night at 21.00 if you haven't paid for the room. You can pay downstairs when speaking to Garte, the cafeteria manager.",
+                          "english": "The door to your room locks every night at 21.00 if you haven't paid for the room. You can pay downstairs when speaking to Garte, the cafeteria manager.",
+                          "polish": "Drzwi do twojego pokoju zamykają się co wieczór o 21:00, o ile za niego nie zapłacisz. Możesz to zrobić na dole, rozmawiając z Garte'em, kierownikiem baru.",
+                          "belarusian": "Дзверы ў ваш пакой зачыняюцца кожны вечар а 21:00, калі толькі вы не заплаціце за яго. Вы можаце зрабіць гэта ўнізе, пагутарыўшы з Гартэ, мэнэджарам бара.",
                           "links": []
                         }
                       ]
@@ -393,9 +648,14 @@
             },
             {
               "id": 60,
+              "redacted": false,
               "title": "You: \"[Leave.]\"",
+              "actor": "You",
+              "to": "Door, Room #1",
               "articyId": "0x010000580000618B",
-              "text": "[Leave.]",
+              "english": "[Leave.]",
+              "polish": "[Odejdź].",
+              "belarusian": "[Сыходзь].",
               "links": []
             }
           ]

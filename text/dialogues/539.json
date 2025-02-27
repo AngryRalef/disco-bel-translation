@@ -5,33 +5,58 @@
   "dialogueTree": [
     {
       "id": 12,
+      "redacted": false,
       "title": "Tourist map of Martinaise: \"The worn map features the patchwork...\"",
+      "actor": "Tourist map of Martinaise",
+      "to": null,
       "articyId": "0x0100008900002A28",
-      "text": "The worn map features the patchwork grid of the streets of Martinaise, with directions to appropriately *tourist-y* locations. Year '48 resides on the upper-right corner.",
+      "english": "The worn map features the patchwork grid of the streets of Martinaise, with directions to appropriately *tourist-y* locations. Year '48 resides on the upper-right corner.",
+      "polish": "Na mocno zużytej mapie widnieje siatka martyneskich ulic oraz wskazówki dotarcia do odpowiednio *atrakcyjnych turystycznie* miejsc. W prawym górnym rogu widnieje data – rok 48.",
+      "belarusian": "На моцна зношанай мапе адлюстравана сетка марцыянскіх вуліц і ўказанні для дасягнення адпаведных *турыстычна прывабных* месцаў. У правым верхнім куце знаходзіцца дата – год 48.",
       "links": [
         {
           "id": 13,
+          "redacted": false,
           "title": "You: \"Trace a path through the grid.\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x0100008900002A49",
-          "text": "Trace a path through the grid.",
+          "english": "Trace a path through the grid.",
+          "polish": "Stwórz palcem ścieżkę po siatce.",
+          "belarusian": "Ствары пальцам шлях па сетцы.",
           "links": [
             {
               "id": 5,
+              "redacted": false,
               "title": "Tourist map of Martinaise: \"Your finger moves through the vario...\"",
+              "actor": "Tourist map of Martinaise",
+              "to": null,
               "articyId": "0x0100008900002A50",
-              "text": "Your finger moves through the various streets, across Rue de Saint-Ghislaine and Rue Saint-Cispare, over Saint-Brune and Martinaise North...",
+              "english": "Your finger moves through the various streets, across Rue de Saint-Ghislaine and Rue Saint-Cispare, over Saint-Brune and Martinaise North...",
+              "polish": "Twój palec przesuwa się po rozmaitych ulicach – przez Rue de Saint-Ghislaine i Rue Saint-Cispare na Saint-Brune, ku Północnemu Martinaise...",
+              "belarusian": "Твой палец слізгае па розных вуліцах – праз Rue de Saint-Ghislaine і Rue Saint-Cispare на Saint-Brune, да Паўночнага Мартынэза...",
               "links": [
                 {
                   "id": 6,
+                  "redacted": false,
                   "title": "Tourist map of Martinaise: \"...finally coming to a halt on the...\"",
+                  "actor": "Tourist map of Martinaise",
+                  "to": null,
                   "articyId": "0x0100008900002A5C",
-                  "text": "...finally coming to a halt on the spot where you are currently standing, although the map gives no such indication itself.",
+                  "english": "...finally coming to a halt on the spot where you are currently standing, although the map gives no such indication itself.",
+                  "polish": "...aby wreszcie zatrzymać się w miejscu, w którym obecnie stoisz. Choć na mapie nie jest to oznaczone.",
+                  "belarusian": "...каб нарэшце спыніцца ў месцы, дзе ты зараз стаіш. Хоць на карце гэта не пазначана.",
                   "links": [
                     {
                       "id": 3,
+                      "redacted": false,
                       "title": "Tutorial Agent: \"For a more detailed view of the Map...\"",
+                      "actor": "Tutorial Agent",
+                      "to": null,
                       "articyId": "0x0100002100001884",
-                      "text": "For a more detailed view of the Map, go to your JOURNAL and select the MAP tab.",
+                      "english": "For a more detailed view of the Map, go to your JOURNAL and select the MAP tab.",
+                      "polish": "Aby zobaczyć mapę bardziej szczegółowo, przejdź do DZIENNIKA i wybierz zakładkę MAPY.",
+                      "belarusian": "Каб убачыць карту больш падрабязна, перайдзіце да ДЗЁННІКА і выберыце ўкладку КАРТЫ.",
                       "links": []
                     }
                   ]
@@ -42,9 +67,14 @@
         },
         {
           "id": 4,
+          "redacted": false,
           "title": "You: \"[Put the map away.]\"",
+          "actor": "You",
+          "to": null,
           "articyId": "0x0100008900002A3D",
-          "text": "[Put the map away.]",
+          "english": "[Put the map away.]",
+          "polish": "[Odłóż mapę].",
+          "belarusian": "[Адкладзі карту].",
           "links": []
         }
       ]

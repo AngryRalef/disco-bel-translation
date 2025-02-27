@@ -5,57 +5,97 @@
   "dialogueTree": [
     {
       "id": 14,
+      "redacted": false,
       "title": "Coin-Operated Viewer: \"This coin-operated viewer is facing...\"",
+      "actor": "Coin-Operated Viewer",
+      "to": null,
       "articyId": "0x0100002B0000524D",
-      "text": "This coin-operated viewer is facing southwest. Its coin-slot is full of fossilized bubblegum, rendering the machine permanently inaccessible.",
+      "english": "This coin-operated viewer is facing southwest. Its coin-slot is full of fossilized bubblegum, rendering the machine permanently inaccessible.",
+      "polish": "Lornetka na monety skierowana jest na południowy zachód. Szczelinę na monety zatkano wyschniętą gumą do żucia – sprzęt jest nie do użytku.",
+      "belarusian": "Манетны бінокль накіраваны на паўднёвы захад. Шчыліну для манет забілі высахлай жавальнай гумкай — абсталяванне не прыдатнае для выкарыстання.",
       "links": [
         {
           "id": 8,
+          "redacted": false,
           "title": "You: \"\"Poor little viewer...\" (Pat it.)\"",
+          "actor": "You",
+          "to": "Coin-Operated Viewer",
           "articyId": "0x0100002B00050B42",
-          "text": "\"Poor little viewer...\" (Pat it.)",
+          "english": "\"Poor little viewer...\" (Pat it.)",
+          "polish": "„Biedna lorneteczko...” (Poklep ją).",
+          "belarusian": "«Бедная бінокльчка...» (Пахлопай яе).",
           "links": [
             {
               "id": 17,
+              "redacted": false,
               "title": "Coin-Operated Viewer: \"The metal feels cold and wet under...\"",
+              "actor": "Coin-Operated Viewer",
+              "to": null,
               "articyId": "0x0100002B00050B48",
-              "text": "The metal feels cold and wet under your palm. It looks unhygienic.",
+              "english": "The metal feels cold and wet under your palm. It looks unhygienic.",
+              "polish": "Czujesz na dłoni dotyk zimnego, mokrego metalu. To chyba niehigieniczne.",
+              "belarusian": "Вы адчуваеце на далоні дотык халоднага, мокрага металу. Гэта, мабыць, негігіенічна.",
               "links": []
             }
           ]
         },
         {
           "id": 3,
+          "redacted": false,
           "title": "You: \"\"Vandalism.\" (Shake your head.)\"",
+          "actor": "You",
+          "to": "Coin-Operated Viewer",
           "articyId": "0x01000004000120A3",
-          "text": "\"Vandalism.\" (Shake your head.)",
+          "english": "\"Vandalism.\" (Shake your head.)",
+          "polish": "„Wandalizm”. (Pokręć głową).",
+          "belarusian": "«Вандалізм». (Патрасі галавой).",
           "links": [
             {
               "id": 10,
+              "redacted": false,
               "title": "Kim Kitsuragi: \"\"Probably some kids...\" The lieuten...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "Coin-Operated Viewer",
               "articyId": "0x01000004000120A9",
-              "text": "\"Probably some kids...\" The lieutenant inspects the rigged slot.",
+              "english": "\"Probably some kids...\" The lieutenant inspects the rigged slot.",
+              "polish": "„Pewnie jakieś dzieciaki...” – stwierdza porucznik, przyglądając się wlotowi na monety.",
+              "belarusian": "«Напэўна, нейкія дзеткі...», — кажа лейтэнант, разглядаючы адтуліну для манет.",
               "links": [
                 {
                   "id": 25,
+                  "redacted": false,
                   "title": "Interfacing: \"A simple but clever solution to rui...\"",
+                  "actor": "Interfacing",
+                  "to": "Coin-Operated Viewer",
                   "articyId": "0x010000450001B061",
-                  "text": "A simple but clever solution to ruining a coin-operated viewer. It took ingenuity.",
+                  "english": "A simple but clever solution to ruining a coin-operated viewer. It took ingenuity.",
+                  "polish": "Prosty, a sprytny sposób na zniszczenie lornetki na monety. Wymagał przebłysku geniuszu.",
+                  "belarusian": "Просты, але хітры спосаб знішчыць бінокль для манет. Патрабаваў бліскавіцы геніяльнасці.",
                   "links": []
                 }
               ]
             },
             {
               "id": 24,
+              "redacted": false,
               "title": "Coin-Operated Viewer: \"The mute machine is unable to confi...\"",
+              "actor": "Coin-Operated Viewer",
+              "to": null,
               "articyId": "0x01000007000097C6",
-              "text": "The mute machine is unable to confirm or deny your theory.",
+              "english": "The mute machine is unable to confirm or deny your theory.",
+              "polish": "Niema maszyna nie jest w stanie potwierdzić ani zaprzeczyć twojej hipotezie.",
+              "belarusian": "Ні адна машына не здольная пацвердзіць або абвергнуць вашу гіпотэзу.",
               "links": [
                 {
                   "id": 13,
+                  "redacted": false,
                   "title": "Interfacing: \"But yes -- it was vandalism.\"",
+                  "actor": "Interfacing",
+                  "to": "Coin-Operated Viewer",
                   "articyId": "0x01000007000097CD",
-                  "text": "But yes -- it was vandalism.",
+                  "english": "But yes -- it was vandalism.",
+                  "polish": "Niemniej tak. To wandalizm.",
+                  "belarusian": "Тым не менш, так. Гэта вандалізм.",
                   "links": []
                 }
               ]
@@ -64,51 +104,91 @@
         },
         {
           "id": 23,
+          "redacted": false,
           "title": "You: \"Look inside.\"",
+          "actor": "You",
+          "to": "Coin-Operated Viewer",
           "articyId": "0x0100002B0000529F",
-          "text": "Look inside.",
+          "english": "Look inside.",
+          "polish": "Spójrz przez lornetkę.",
+          "belarusian": "Паглядзі праз бінокль.",
           "links": [
             {
               "id": 7,
+              "redacted": false,
               "title": "Coin-Operated Viewer: \"A thick layer of graffito covers th...\"",
+              "actor": "Coin-Operated Viewer",
+              "to": null,
               "articyId": "0x0100002B000052A7",
-              "text": "A thick layer of graffito covers the lenses -- you spell out the word \"ONUC\" written on the other side -- with N and C scribbled backwards.",
+              "english": "A thick layer of graffito covers the lenses -- you spell out the word \"ONUC\" written on the other side -- with N and C scribbled backwards.",
+              "polish": "Soczewki pokryte są grubą warstwą graffito. Widzisz po ich drugiej stronie słowo „ONUC”, przy czym N i C zapisane są odwrotnie.",
+              "belarusian": "Лінзы пакрыты тоўстым пластом графіці. З іншага боку ты бачыш слова «ОНУЦ», пры гэтым Н і Ц запісаны наадварот.",
               "links": [
                 {
                   "id": 15,
+                  "redacted": false,
                   "title": "Logic: \"That's CUNO on the lens.\"",
+                  "actor": "Logic",
+                  "to": "Coin-Operated Viewer",
                   "articyId": "0x010000060001B53B",
-                  "text": "That's CUNO on the lens.",
+                  "english": "That's CUNO on the lens.",
+                  "polish": "Na soczewkach napisano „CUNO”.",
+                  "belarusian": "На лінзах напісана «CUNO».",
                   "links": [
                     {
                       "id": 5,
+                      "redacted": false,
                       "title": "You: \"Shift your focus to the background.\"",
+                      "actor": "You",
+                      "to": "Coin-Operated Viewer",
                       "articyId": "0x010000450001B06E",
-                      "text": "Shift your focus to the background.",
+                      "english": "Shift your focus to the background.",
+                      "polish": "Skieruj swoją uwagę na tło.",
+                      "belarusian": "Скіруй сваю ўвагу на фон.",
                       "links": [
                         {
                           "id": 22,
+                          "redacted": false,
                           "title": "Coin-Operated Viewer: \"Under the graffito a sea of blues a...\"",
+                          "actor": "Coin-Operated Viewer",
+                          "to": null,
                           "articyId": "0x010000330000112E",
-                          "text": "Under the graffito a sea of blues and greys appears -- behind the water lies a coast studded with concrete and reeds. On it -- a church on stilts, lanky weather-worn wooden planks, an x-shaped cross topping its tower.",
+                          "english": "Under the graffito a sea of blues and greys appears -- behind the water lies a coast studded with concrete and reeds. On it -- a church on stilts, lanky weather-worn wooden planks, an x-shaped cross topping its tower.",
+                          "polish": "Pod graffito ukazuje się morze błękitów i szarości – na odległym brzegu widać beton i trzciny, a także stojący jak na szczudłach kościół ze zniszczonych, osmaganych wiatrem desek. Na wieży widnieje krzyż w kształcie litery x.",
+                          "belarusian": "Пад графіта ўяўляе сабой мора блакітных і шэрых адценняў - на аддаленым беразе відаць бетон і трыснёг, а таксама стаіць, нібы на хадулях, з цёмных, вятрамі абдзіраных дошак, касцёл. На вежы відаць крыж у форме літары \"х\".",
                           "links": [
                             {
                               "id": 18,
+                              "redacted": false,
                               "title": "Encyclopedia: \"You know this to be the Star of Per...\"",
+                              "actor": "Encyclopedia",
+                              "to": "Coin-Operated Viewer",
                               "articyId": "0x01000038000014C9",
-                              "text": "You know this to be the Star of Perikarnassis, or the Chi-Rho. The central symbol of the Perikarnassian church -- a star, a great moral height to be strived towards.",
+                              "english": "You know this to be the Star of Perikarnassis, or the Chi-Rho. The central symbol of the Perikarnassian church -- a star, a great moral height to be strived towards.",
+                              "polish": "Wiesz, że to Gwiazda Perykarnasu, Chi-Rho. Główny symbol Kościoła Perykarnaskiego oznaczający moralną doskonałość, do której należy dążyć.",
+                              "belarusian": "Ведаеш, што гэта Зорка Перыкарнасу, Хі-Ро. Галоўны сімвал Перыкарнаскай Царквы, які азначае маральную дасканаласць, да якой трэба імкнуцца.",
                               "links": [
                                 {
                                   "id": 12,
+                                  "redacted": false,
                                   "title": "Inland Empire: \"The church looks old and weather-wo...\"",
+                                  "actor": "Inland Empire",
+                                  "to": "Coin-Operated Viewer",
                                   "articyId": "0x010000060001B543",
-                                  "text": "The church looks old and weather-worn. There are no lights in the windows.",
+                                  "english": "The church looks old and weather-worn. There are no lights in the windows.",
+                                  "polish": "Kościół wydaje się stary i zniszczony przez siły natury. W oknach nie świecą się światła.",
+                                  "belarusian": "Касцёл здаецца старым і знішчаным сіламі прыроды. У вокнах не гараць агні.",
                                   "links": [
                                     {
                                       "id": 4,
+                                      "redacted": false,
                                       "title": "Perception (Sight): \"Around the large wooden building yo...\"",
+                                      "actor": "Perception (Sight)",
+                                      "to": "Coin-Operated Viewer",
                                       "articyId": "0x010000060001B54B",
-                                      "text": "Around the large wooden building you see chunks of sea ice, gathered on the beach. And a small tent set up on the ice.",
+                                      "english": "Around the large wooden building you see chunks of sea ice, gathered on the beach. And a small tent set up on the ice.",
+                                      "polish": "Wokół dużego, drewnianego budynku dostrzegasz wyrzucone na plażę kawałki morskiego lodu. Oraz mały, rozbity na jednym z nich namiot.",
+                                      "belarusian": "Вакол вялікага, драўлянага будынка ты заўважаеш выкінутыя на пляж кавалкі марскога лёду. І маленькую палатку, разбітую на адным з іх.",
                                       "links": []
                                     }
                                   ]
@@ -127,9 +207,14 @@
         },
         {
           "id": 2,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Coin-Operated Viewer",
           "articyId": "0x0100002B00005265",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Сыдзі].",
           "links": []
         }
       ]

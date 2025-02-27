@@ -5,62 +5,107 @@
   "dialogueTree": [
     {
       "id": 65,
+      "redacted": false,
       "title": "Kim Kitsuragi: \"\"I see the processing guys have bee...\"",
+      "actor": "Kim Kitsuragi",
+      "to": "You",
       "articyId": "0x0100006B00005F1C",
-      "text": "\"I see the processing guys have been faster than usual. It's good we stopped by to check regardless.\" He nods at the lack of Ruby in the tent, then looks around. \"Now -- island time.\"",
+      "english": "\"I see the processing guys have been faster than usual. It's good we stopped by to check regardless.\" He nods at the lack of Ruby in the tent, then looks around. \"Now -- island time.\"",
+      "polish": "„Widzę, że chłopaki z kostnicy uwinęli się szybciej niż zwykle. Ale i tak dobrze, że tu zajrzeliśmy” – stwierdza, kiwając głową na widok braku Ruby w namiocie, po czym rozgląda się wokół. „A teraz wyspa”.",
+      "belarusian": "«Бачу, што хлопцы з морга справіліся хутчэй, чым звычайна. Але ўсё роўна добра, што мы сюды зайшлі», — зазначае ён, ківаючы галавой на адсутнасць Рубі ў намёце, пасля чаго аглядаецца вакол. «А цяпер — выспа».",
       "links": [
         {
           "id": 36,
+          "redacted": false,
           "title": "You: \"[Leave.]\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
           "articyId": "0x010000580000F66B",
-          "text": "[Leave.]",
+          "english": "[Leave.]",
+          "polish": "[Odejdź].",
+          "belarusian": "[Адыдзі].",
           "links": []
         }
       ]
     },
     {
       "id": 37,
+      "redacted": false,
       "title": "Instigator's Tent: \"The instigator's body has been remo...\"",
+      "actor": "Instigator's Tent",
+      "to": "You",
       "articyId": "0x010000580000F673",
-      "text": "The instigator's body has been removed by Processing. The tent seems orphaned now.",
+      "english": "The instigator's body has been removed by Processing. The tent seems orphaned now.",
+      "polish": "Zwłoki podżegaczki zostały usunięte przez ludzi z kostnicy. Namiot sprawia wrażenie osieroconego.",
+      "belarusian": "Цела падбухторшчыцы былі вынесены людзьмі з морга. Намёт выглядае осірацелым.",
       "links": []
     },
     {
       "id": 62,
+      "redacted": false,
       "title": "Instigator's Tent: \"The plain red tent rests stoically...\"",
+      "actor": "Instigator's Tent",
+      "to": "You",
       "articyId": "0x010000160000AA3C",
-      "text": "The plain red tent rests stoically in the corner. Ruby's dead body is wrapped in her sleeping bag.",
+      "english": "The plain red tent rests stoically in the corner. Ruby's dead body is wrapped in her sleeping bag.",
+      "polish": "Zwykły czerwony namiot spoczywa stoicko w kącie. Zwłoki Ruby są owinięte jej śpiworem.",
+      "belarusian": "Звычайная чырвоная палатка стаічна ляжыць у куце. Цела Рубі загорнута ў яе спальнік.",
       "links": [
         {
           "id": 55,
+          "redacted": false,
           "title": "You: \"Look inside.\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
           "articyId": "0x010000580000BD7B",
-          "text": "Look inside.",
+          "english": "Look inside.",
+          "polish": "Zajrzyj do środka.",
+          "belarusian": "Зірні ўнутр.",
           "links": [
             {
               "id": 68,
+              "redacted": false,
               "title": "Instigator's Tent: \"In the darkness of the tent: Ruby's...\"",
+              "actor": "Instigator's Tent",
+              "to": "You",
               "articyId": "0x010000580000F664",
-              "text": "In the darkness of the tent: Ruby's body, zipped up in her sleeping bag. Next to the body -- some books and a kerosene lamp.",
+              "english": "In the darkness of the tent: Ruby's body, zipped up in her sleeping bag. Next to the body -- some books and a kerosene lamp.",
+              "polish": "W mroku zalegającym namiot widzisz zwłoki Ruby zapakowane w jej śpiwór, a obok nich książki i lampę naftową.",
+              "belarusian": "У змроку, што ахутаў намёт, бачыш цела Рубі, запакаваную ў яе спальнік, а побач кнігі і газавую лямпу.",
               "links": [
                 {
                   "id": 20,
+                  "redacted": false,
                   "title": "You: \"Look at the books.\"",
+                  "actor": "You",
+                  "to": "Kim Kitsuragi",
                   "articyId": "0x010000160000A6B3",
-                  "text": "Look at the books.",
+                  "english": "Look at the books.",
+                  "polish": "Spójrz na książki.",
+                  "belarusian": "Паглядзі на кнігі.",
                   "links": []
                 },
                 {
                   "id": 39,
+                  "redacted": false,
                   "title": "You: \"Back out of the tent.\"",
+                  "actor": "You",
+                  "to": "Kim Kitsuragi",
                   "articyId": "0x010000160000A6C5",
-                  "text": "Back out of the tent.",
+                  "english": "Back out of the tent.",
+                  "polish": "Wycofaj się z namiotu.",
+                  "belarusian": "Адыдзі з палаткі.",
                   "links": [
                     {
                       "id": 19,
+                      "redacted": false,
                       "title": "Instigator's Tent: \"The plain red tent rests stoically...\"",
+                      "actor": "Instigator's Tent",
+                      "to": "You",
                       "articyId": "0x0100006B00005ED1",
-                      "text": "The plain red tent rests stoically in the corner.",
+                      "english": "The plain red tent rests stoically in the corner.",
+                      "polish": "Zwykły czerwony namiot spoczywa stoicko w kącie.",
+                      "belarusian": "Звычайная чырвоная палатка спакойна стаіць у куце.",
                       "links": []
                     }
                   ]
@@ -69,15 +114,25 @@
             },
             {
               "id": 14,
+              "redacted": false,
               "title": "Instigator's Tent: \"The tent looks old but well-maintai...\"",
+              "actor": "Instigator's Tent",
+              "to": "You",
               "articyId": "0x010000580000BDDA",
-              "text": "The tent looks old but well-maintained. In the darkness of the tent -- a rolled-up sleeping bag, cooking utensils, some books and a kerosene lamp.",
+              "english": "The tent looks old but well-maintained. In the darkness of the tent -- a rolled-up sleeping bag, cooking utensils, some books and a kerosene lamp.",
+              "polish": "Namiot wygląda na stary, ale zadbany. W mroku zalegającym jego wnętrze widzisz zwinięty śpiwór, kuchenne utensylia, książki i lampę naftową.",
+              "belarusian": "Намёт выглядае старым, але дагледжаным. У цемры, якая ахутвае яго ўнутранасць, ты бачыш звініты спальнік, кухонныя прылады, кнігі і газавую лямпу.",
               "links": [
                 {
                   "id": 12,
+                  "redacted": false,
                   "title": "Perception (Smell): \"It reeks of cigarettes.\"",
+                  "actor": "Perception (Smell)",
+                  "to": "You",
                   "articyId": "0x010000160000AA4A",
-                  "text": "It reeks of cigarettes.",
+                  "english": "It reeks of cigarettes.",
+                  "polish": "Cuchnie papierosami.",
+                  "belarusian": "Пахне цыгарэтамі.",
                   "links": []
                 }
               ]
@@ -86,67 +141,117 @@
         },
         {
           "id": 60,
+          "redacted": false,
           "title": "You: \"Sift through the books and magazine...\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
           "articyId": "0x010000160000A711",
-          "text": "Sift through the books and magazines.",
+          "english": "Sift through the books and magazines.",
+          "polish": "Przejrzyj książki i magazyny.",
+          "belarusian": "Праглядзі кнігі і часопісы.",
           "links": [
             {
               "id": 5,
+              "redacted": false,
               "title": "Instigator's Tent: \"Assorted softcovers, mostly pulp ho...\"",
+              "actor": "Instigator's Tent",
+              "to": "You",
               "articyId": "0x010000160000A6D0",
-              "text": "Assorted softcovers, mostly pulp horror. A motor carriage lies buried in the snow on one cover, on another -- a ghost airship. You also see a collection of radio enthusiast magazines.",
+              "english": "Assorted softcovers, mostly pulp horror. A motor carriage lies buried in the snow on one cover, on another -- a ghost airship. You also see a collection of radio enthusiast magazines.",
+              "polish": "Różne książki w miękkich oprawach, głównie tanie horrory. Na jednej okładce widać powóz motorowy pogrzebany pod śniegiem, na innej statek powietrzny widmo. Widzisz też kolekcję magazynów dla miłośników radiotechniki.",
+              "belarusian": "Розныя кнігі ў мяккіх вокладках, галоўным чынам танныя жахі. На адной вокладцы бачны маторны экіпаж, засыпаны снегам, на іншай — паветраны карабель-прынеж. Ты таксама бачыш калекцыю часопісаў для аматараў радыётэхнікі.",
               "links": [
                 {
                   "id": 59,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"See anything?\" The lieutenant peek...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x010000160000A6EC",
-                  "text": "\"See anything?\" The lieutenant peeks in over your shoulder.",
+                  "english": "\"See anything?\" The lieutenant peeks in over your shoulder.",
+                  "polish": "„Widzisz coś interesującego?” – pyta porucznik i zagląda ci przez ramię.",
+                  "belarusian": "«Бачыш нешта цікавае?» – пытаецца лейтэнант і зазірае табе цераз плячо.",
                   "links": []
                 },
                 {
                   "id": 35,
+                  "redacted": false,
                   "title": "You: \"Sift through the magazines.\"",
+                  "actor": "You",
+                  "to": "Kim Kitsuragi",
                   "articyId": "0x010000160000A6D7",
-                  "text": "Sift through the magazines.",
+                  "english": "Sift through the magazines.",
+                  "polish": "Przejrzyj magazyny.",
+                  "belarusian": "Прагледзь часопісы.",
                   "links": [
                     {
                       "id": 54,
+                      "redacted": false,
                       "title": "Instigator's Tent: \"'Rega Monthly', 'Journal of Materia...\"",
+                      "actor": "Instigator's Tent",
+                      "to": "You",
                       "articyId": "0x010000160000A6DE",
-                      "text": "'Rega Monthly', 'Journal of Material Science'. More technological digest. One of the magazines doesn't have images on the cover -- it's not a magazine, it's a leather notebook!",
+                      "english": "'Rega Monthly', 'Journal of Material Science'. More technological digest. One of the magazines doesn't have images on the cover -- it's not a magazine, it's a leather notebook!",
+                      "polish": "„Miesięcznik Rega”, „Nauka o materiałach”, kompendia technologiczne. Na okładce jednego magazynu nie ma żadnej grafiki – to nie jest magazyn... To oprawiony w skórę dziennik!",
+                      "belarusian": "«Рэгіянальны штомесячнік», «Навука пра матэрыялы», тэхналагічныя кампедыі. На вокладцы аднаго часопіса няма ніякай графікі — гэта не часопіс... Гэта ў скураную вокладку апраўлены дзённік!",
                       "links": [
                         {
                           "id": 8,
+                          "redacted": false,
                           "title": "You: \"\"A notebook.\" (Take it.)\"",
+                          "actor": "You",
+                          "to": "Kim Kitsuragi",
                           "articyId": "0x010000160000A6FB",
-                          "text": "\"A notebook.\" (Take it.)",
+                          "english": "\"A notebook.\" (Take it.)",
+                          "polish": "„Dziennik”. (Weź go).",
+                          "belarusian": "«Дзённік». (Бяры яго).",
                           "links": [
                             {
                               "id": 50,
+                              "redacted": false,
                               "title": "Instigator's Tent: \"You pocket the worn brown leather j...\"",
+                              "actor": "Instigator's Tent",
+                              "to": "You",
                               "articyId": "0x0100006B00005EDE",
-                              "text": "You pocket the worn brown leather journal.",
+                              "english": "You pocket the worn brown leather journal.",
+                              "polish": "Chowasz do kieszeni dziennik oprawiony w wytartą brązową skórę.",
+                              "belarusian": "Вы хаваеце ў кішэню дзённік, абгорнуты ў зношаную карычневую скуру.",
                               "links": [
                                 {
                                   "id": 11,
+                                  "redacted": false,
                                   "title": "Inland Empire: \"She watches by, motionless.\"",
+                                  "actor": "Inland Empire",
+                                  "to": "You",
                                   "articyId": "0x0100006B00005F03",
-                                  "text": "She watches by, motionless.",
+                                  "english": "She watches by, motionless.",
+                                  "polish": "Obserwuje, nieruchoma.",
+                                  "belarusian": "Назірае, нерухомая.",
                                   "links": [
                                     {
                                       "id": 23,
+                                      "redacted": false,
                                       "title": "Kim Kitsuragi: \"\"We should read this *immediately*....\"",
+                                      "actor": "Kim Kitsuragi",
+                                      "to": "You",
                                       "articyId": "0x010000060001E7E6",
-                                      "text": "\"We should read this *immediately*. Like -- right now.\"",
+                                      "english": "\"We should read this *immediately*. Like -- right now.\"",
+                                      "polish": "„Powinniśmy przeczytać to *natychmiast*. Czyli w tej chwili”.",
+                                      "belarusian": "\"Мы павінны прачытаць гэта *неадкладна*. Гэта значыць зараз\".",
                                       "links": []
                                     }
                                   ]
                                 },
                                 {
                                   "id": 64,
+                                  "redacted": false,
                                   "title": "Inland Empire: \"A trusted friend left behind...\"",
+                                  "actor": "Inland Empire",
+                                  "to": "You",
                                   "articyId": "0x0100006B00005EE6",
-                                  "text": "A trusted friend left behind...",
+                                  "english": "A trusted friend left behind...",
+                                  "polish": "Zaufany przyjaciel – porzucony...",
+                                  "belarusian": "Надзейны сябра – кінуты...",
                                   "links": []
                                 }
                               ]
@@ -155,9 +260,14 @@
                         },
                         {
                           "id": 32,
+                          "redacted": false,
                           "title": "You: \"Take the notebook.\"",
+                          "actor": "You",
+                          "to": "Kim Kitsuragi",
                           "articyId": "0x010000580000BDE6",
-                          "text": "Take the notebook.",
+                          "english": "Take the notebook.",
+                          "polish": "Weź dziennik.",
+                          "belarusian": "Вазьмі дзённік.",
                           "links": []
                         }
                       ]
@@ -170,45 +280,80 @@
         },
         {
           "id": 24,
+          "redacted": false,
           "title": "You: \"Look inside.\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
           "articyId": "0x010000160000A709",
-          "text": "Look inside.",
+          "english": "Look inside.",
+          "polish": "Zajrzyj do środka.",
+          "belarusian": "Загляні ў сярэдзіну.",
           "links": [
             {
               "id": 61,
+              "redacted": false,
               "title": "Instigator's Tent: \"You see a rolled-up sleeping bag an...\"",
+              "actor": "Instigator's Tent",
+              "to": "You",
               "articyId": "0x010000160000A71F",
-              "text": "You see a rolled-up sleeping bag and personal belongings.",
+              "english": "You see a rolled-up sleeping bag and personal belongings.",
+              "polish": "Widzisz zwinięty śpiwór i rzeczy osobiste.",
+              "belarusian": "Вы бачыце згорнуты спальнік і асабістыя рэчы.",
               "links": [
                 {
                   "id": 21,
+                  "redacted": false,
                   "title": "Kim Kitsuragi: \"\"We should put her in the sleeping...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
                   "articyId": "0x010000160000A72C",
-                  "text": "\"We should put her in the sleeping bag so the rats don't get to her.\"",
+                  "english": "\"We should put her in the sleeping bag so the rats don't get to her.\"",
+                  "polish": "„Powinniśmy włożyć ją do śpiwora, aby nie dobrały się do niej szczury”.",
+                  "belarusian": "«Мы павінны пакласці яе ў спальнік, каб да яе не дабраліся пацукі».",
                   "links": [
                     {
                       "id": 63,
+                      "redacted": false,
                       "title": "You: \"\"Okay, let's carry her over here.\"\"",
+                      "actor": "You",
+                      "to": "Kim Kitsuragi",
                       "articyId": "0x010000580000BD87",
-                      "text": "\"Okay, let's carry her over here.\"",
+                      "english": "\"Okay, let's carry her over here.\"",
+                      "polish": "„No dobrze, przenieśmy ją tutaj”.",
+                      "belarusian": "«Ну добра, перанясём яе сюды».",
                       "links": [
                         {
                           "id": 25,
+                          "redacted": false,
                           "title": "Kim Kitsuragi: \"The lieutenant nods.\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
                           "articyId": "0x010000580000BDAD",
-                          "text": "The lieutenant nods.",
+                          "english": "The lieutenant nods.",
+                          "polish": "Porucznik kiwa głową.",
+                          "belarusian": "Лейтэнант ківае галавой.",
                           "links": [
                             {
                               "id": 9,
+                              "redacted": false,
                               "title": "Instigator's Tent: \"There she lies, cocooned in the sle...\"",
+                              "actor": "Instigator's Tent",
+                              "to": "You",
                               "articyId": "0x010000160000A719",
-                              "text": "There she lies, cocooned in the sleeping bag, surrounded by empty cigarette packs, books, and half-read magazines.",
+                              "english": "There she lies, cocooned in the sleeping bag, surrounded by empty cigarette packs, books, and half-read magazines.",
+                              "polish": "Oto leży w kokonie ze śpiwora otoczona pustymi paczkami po papierosach, książkami i w połowie przeczytanymi magazynami.",
+                              "belarusian": "Вось яна ляжыць у кокане са спальніка, атачаная пустымі пачкамі ад цыгарэт, кнігамі і напалавіну прачытанымі часопісамі.",
                               "links": [
                                 {
                                   "id": 38,
+                                  "redacted": false,
                                   "title": "Logic: \"Magazines? You should look through...\"",
+                                  "actor": "Logic",
+                                  "to": "You",
                                   "articyId": "0x010000060001570D",
-                                  "text": "Magazines? You should look through them.",
+                                  "english": "Magazines? You should look through them.",
+                                  "polish": "Magazyny? Powinieneś je przejrzeć.",
+                                  "belarusian": "Часопісы? Ты павінен іх прагледзець.",
                                   "links": []
                                 }
                               ]
@@ -221,9 +366,14 @@
                 },
                 {
                   "id": 69,
+                  "redacted": false,
                   "title": "Esprit de Corps: \"You'll need the lieutenant's help t...\"",
+                  "actor": "Esprit de Corps",
+                  "to": "You",
                   "articyId": "0x010000160000A737",
-                  "text": "You'll need the lieutenant's help to carry her over.",
+                  "english": "You'll need the lieutenant's help to carry her over.",
+                  "polish": "Będziesz potrzebował pomocy porucznika, żeby ją przenieść.",
+                  "belarusian": "Вам спатрэбіцца дапамога лейтэнанта, каб яе перанесці.",
                   "links": []
                 }
               ]
@@ -234,29 +384,49 @@
     },
     {
       "id": 74,
+      "redacted": false,
       "title": "Instigator's Tent: \"The plain red tent rests stoically...\"",
+      "actor": "Instigator's Tent",
+      "to": "You",
       "articyId": "0x010000160000AA42",
-      "text": "The plain red tent rests stoically in the corner.",
+      "english": "The plain red tent rests stoically in the corner.",
+      "polish": "Zwykły czerwony namiot spoczywa stoicko w kącie.",
+      "belarusian": "Звычайная чырвоная палатка стоіць стоічна ў куце.",
       "links": []
     },
     {
       "id": 75,
+      "redacted": false,
       "title": "Instigator's Tent: \"The plain red tent stands by dispas...\"",
+      "actor": "Instigator's Tent",
+      "to": "You",
       "articyId": "0x010000580000BD68",
-      "text": "The plain red tent stands by dispassionately.",
+      "english": "The plain red tent stands by dispassionately.",
+      "polish": "Zwykły czerwony namiot stoi w pobliżu obojętnie.",
+      "belarusian": "Звычайная чырвоная палатка стаіць паблізу абыякава.",
       "links": [
         {
           "id": 34,
+          "redacted": false,
           "title": "Savoir Faire: \"It was pitched by practised hands -...\"",
+          "actor": "Savoir Faire",
+          "to": "You",
           "articyId": "0x010000580000BD74",
-          "text": "It was pitched by practised hands -- she was used to camping out.",
+          "english": "It was pitched by practised hands -- she was used to camping out.",
+          "polish": "Postawiły go wyćwiczone ręce. Była przyzwyczajona do obozowania.",
+          "belarusian": "Паставілі яго натрэніраваныя рукі. Яна была прывыкла да лагеры.",
           "links": []
         },
         {
           "id": 6,
+          "redacted": false,
           "title": "Savoir Faire: \"It was pitched by practised hands -...\"",
+          "actor": "Savoir Faire",
+          "to": "You",
           "articyId": "0x010000580000F647",
-          "text": "It was pitched by practised hands -- she's used to camping out.",
+          "english": "It was pitched by practised hands -- she's used to camping out.",
+          "polish": "Postawiły go wyćwiczone ręce. Jest przyzwyczajona do obozowania.",
+          "belarusian": "Яго паставілі натрэніраваныя рукі. Яна прывыкла да лагеравання.",
           "links": []
         }
       ]
