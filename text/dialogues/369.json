@@ -1,0 +1,721 @@
+{
+  "id": "0x0100005800002570",
+  "title": "INVENTORY / FRACTURED BULLET",
+  "description": "By inspecting the bullet, you can find out that:\n1. The bullet came from a breech-loaded rifle.\n2. The bullet was shot from some distance, so this was probably not a mercy kill (white check.)\n3. The rifle used was a model mass-produced during the revolutionary war, and the surplus rifles/ammo are still a favourite with third-world guerrillas and Jamrock bangers.",
+  "dialogueTree": [
+    {
+      "id": 68,
+      "title": "Fractured Bullet: \"The bullet is still safely sealed a...\"",
+      "articyId": "0x01000072000080D5",
+      "text": "The bullet is still safely sealed away in a plastic bag bearing the RCM stamp.",
+      "links": [
+        {
+          "id": 96,
+          "title": "You: \"\"What do I do with you, bullet?\"\"",
+          "articyId": "0x01000072000080DD",
+          "text": "\"What do I do with you, bullet?\"",
+          "links": [
+            {
+              "id": 139,
+              "title": "Kim Kitsuragi: \"\"What?\" The lieutenant steps closer...\"",
+              "articyId": "0x01000072000080F0",
+              "text": "\"What?\" The lieutenant steps closer.",
+              "links": [
+                {
+                  "id": 39,
+                  "title": "You: \"\"I said: What do I do with you, bul...\"",
+                  "articyId": "0x01000072000080F8",
+                  "text": "\"I said: What do I do with you, bullet?\"",
+                  "links": [
+                    {
+                      "id": 146,
+                      "title": "Kim Kitsuragi: \"\"Well, if I was the bullet -- which...\"",
+                      "articyId": "0x01000072000080FE",
+                      "text": "\"Well, if I was the bullet -- which I'm not -- I would say: find the weapon that shot me.\"",
+                      "links": [
+                        {
+                          "id": 147,
+                          "title": "You: \"\"Good idea.\"\"",
+                          "articyId": "0x0100007200008112",
+                          "text": "\"Good idea.\"",
+                          "links": [
+                            {
+                              "id": 97,
+                              "title": "Kim Kitsuragi: \"\"If we find who owns it, we will ha...\"",
+                              "articyId": "0x0100007200008120",
+                              "text": "\"If we find who owns it, we will have likely found who *used* it -- possibly to kill our victim.\"",
+                              "links": [
+                                {
+                                  "id": 114,
+                                  "title": "Kim Kitsuragi: \"\"In conclusion: the more we know ab...\"",
+                                  "articyId": "0x010000720000812F",
+                                  "text": "\"In conclusion: the more we know about this bullet of yours, the better.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 59,
+                          "title": "You: \"\"I don't know...\"\"",
+                          "articyId": "0x0100007200008118",
+                          "text": "\"I don't know...\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "title": "Fractured Bullet: \"The squished little thing has no id...\"",
+              "articyId": "0x01000072000080EA",
+              "text": "The squished little thing has no idea.",
+              "links": [
+                {
+                  "id": 89,
+                  "title": "Visual Calculus: \"I know! You should find the gun tha...\"",
+                  "articyId": "0x010000720000813E",
+                  "text": "I know! You should find the gun that shot this bullet.",
+                  "links": [
+                    {
+                      "id": 23,
+                      "title": "You: \"Eat it!\"",
+                      "articyId": "0x010000720000814B",
+                      "text": "Eat it!",
+                      "links": [
+                        {
+                          "id": 40,
+                          "title": "Fractured Bullet: \"But the bullet is not edible, sadly...\"",
+                          "articyId": "0x0100007200008167",
+                          "text": "But the bullet is not edible, sadly.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 115,
+                      "title": "You: \"Find the gun that shot it!\"",
+                      "articyId": "0x0100007200008151",
+                      "text": "Find the gun that shot it!",
+                      "links": [
+                        {
+                          "id": 78,
+                          "title": "Fractured Bullet: \"That sounds like something a police...\"",
+                          "articyId": "0x01000072000081A6",
+                          "text": "That sounds like something a police detective would do. First you should to learn all you can about this little guy!",
+                          "links": [
+                            {
+                              "id": 41,
+                              "title": "Visual Calculus: \"Then find the gun that shot it, and...\"",
+                              "articyId": "0x01000072000081B7",
+                              "text": "Then find the gun that shot it, and the person who that gun belongs to -- he used it to kill your victim. Neato!",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 90,
+                      "title": "You: \"Sell it for profit!\"",
+                      "articyId": "0x0100007200008157",
+                      "text": "Sell it for profit!",
+                      "links": [
+                        {
+                          "id": 129,
+                          "title": "Fractured Bullet: \"Who would want this *used* bullet?\"",
+                          "articyId": "0x010000720000816D",
+                          "text": "Who would want this *used* bullet?",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 29,
+                      "title": "You: \"It's my friend, I'm gonna start tal...\"",
+                      "articyId": "0x0100007200008174",
+                      "text": "It's my friend, I'm gonna start talking to it. It will keep me company.",
+                      "links": [
+                        {
+                          "id": 7,
+                          "title": "Fractured Bullet: \"But bullets don't talk.\"",
+                          "articyId": "0x010000720000817B",
+                          "text": "But bullets don't talk.",
+                          "links": [
+                            {
+                              "id": 8,
+                              "title": "Horrific Necktie: \"Yeah, what are you, *crazy*? Bullet...\"",
+                              "articyId": "0x0100007200008196",
+                              "text": "Yeah, what are you, *crazy*? Bullets can't talk. They don't have emotions. A bullet can't keep you company.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "You: \"Feel the bullet through the bag.\"",
+          "articyId": "0x010000580000258F",
+          "text": "Feel the bullet through the bag.",
+          "links": [
+            {
+              "id": 72,
+              "title": "Fractured Bullet: \"The squashed bullet has some sharp...\"",
+              "articyId": "0x01000058000025DC",
+              "text": "The squashed bullet has some sharp edges where the jacket has split open. It feels cold, even through the bag.",
+              "links": [
+                {
+                  "id": 117,
+                  "title": "Encyclopedia: \"You wouldn't ordinarily have cause...\"",
+                  "articyId": "0x01000058000026D1",
+                  "text": "You wouldn't ordinarily have cause to handle jacketed bullets. The Citizens Militia uses cast bullets only -- little pebbles of metal loaded from the muzzle, usually in a cartridge.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "You: \"\"Kim, take a look at this. It's a j...\"",
+          "articyId": "0x0100006B0000A426",
+          "text": "\"Kim, take a look at this. It's a jacketed bullet close to 5 mm in diameter.\"",
+          "links": [
+            {
+              "id": 55,
+              "title": "Kim Kitsuragi: \"\"A jacketed bullet. Okay... It woul...\"",
+              "articyId": "0x0100005800007409",
+              "text": "\"A jacketed bullet. Okay... It would have been shot from a military-grade breech-loading rifle, not from a muzzleloader like those typically found on the streets of Martinaise.\"",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "Endurance: \"We were right. This came from a ser...\"",
+                  "articyId": "0x010000060001A172",
+                  "text": "We were right. This came from a serious weapon.",
+                  "links": [
+                    {
+                      "id": 130,
+                      "title": "Encyclopedia: \"Highly unusual. The people of Revac...\"",
+                      "articyId": "0x010000060001A179",
+                      "text": "Highly unusual. The people of Revachol haven't carried breech-loading weapons like this for nearly half a century.",
+                      "links": [
+                        {
+                          "id": 113,
+                          "title": "Kim Kitsuragi: \"\"Even the RCM uses ordinary unjacke...\"",
+                          "articyId": "0x01000058000073BC",
+                          "text": "\"Even the RCM uses ordinary unjacketed conical bullets. This is... strange. Very strange. I like this, officer. Strange means unique. Unique means incriminating. We need to find the gun that shot it.\"",
+                          "links": [
+                            {
+                              "id": 30,
+                              "title": "Inland Empire: \"Something tells you that won't be a...\"",
+                              "articyId": "0x0100000600009388",
+                              "text": "Something tells you that won't be any time soon. This'll have to be one of those epic tasks that's open for a while...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "title": "You: \"Inspect the bullet closer.\"",
+          "articyId": "0x0100005800002595",
+          "text": "Inspect the bullet closer.",
+          "links": [
+            {
+              "id": 73,
+              "title": "Fractured Bullet: \"The jacket of the bullet is made of...\"",
+              "articyId": "0x0100005800002602",
+              "text": "The jacket of the bullet is made of yellowish metal. It has blossomed out to reveal a dark grey core. The base of the bullet is close to 5 mm in diameter.",
+              "links": [
+                {
+                  "id": 17,
+                  "title": "Endurance: \"This is a real killer. Not some gar...\"",
+                  "articyId": "0x010000060001A14A",
+                  "text": "This is a real killer. Not some garbage street ammo. You can *feel* it.",
+                  "links": [
+                    {
+                      "id": 25,
+                      "title": "Perception (Sight): \"The core is lead. The brass jacket...\"",
+                      "articyId": "0x01000058000026E6",
+                      "text": "The core is lead. The brass jacket probably didn't cover the entire bullet, otherwise the softer metal wouldn't have expanded quite like that.",
+                      "links": [
+                        {
+                          "id": 131,
+                          "title": "You: \"Look at the jacket.\"",
+                          "articyId": "0x010000580000271C",
+                          "text": "Look at the jacket.",
+                          "links": [
+                            {
+                              "id": 43,
+                              "title": "Fractured Bullet: \"You can just about make out a few s...\"",
+                              "articyId": "0x010000580000272A",
+                              "text": "You can just about make out a few striations near the base of the bullet. Little hairlines, linear. It feels standard.",
+                              "links": [
+                                {
+                                  "id": 22,
+                                  "title": "Kim Kitsuragi: \"\"What can you say about the bullet...\"",
+                                  "articyId": "0x0100005800007398",
+                                  "text": "\"What can you say about the bullet so far?\"",
+                                  "links": [
+                                    {
+                                      "id": 15,
+                                      "title": "You: \"\"It's a jacketed bullet, close to 5...\"",
+                                      "articyId": "0x0100005800007400",
+                                      "text": "\"It's a jacketed bullet, close to 5 mm in diameter.\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 2,
+                                      "title": "You: \"Wow, I actually *know* this...\"",
+                                      "articyId": "0x010000060001A152",
+                                      "text": "Wow, I actually *know* this...",
+                                      "links": [
+                                        {
+                                          "id": 116,
+                                          "title": "Fractured Bullet: \"Yes. It's as if you've seen bullets...\"",
+                                          "articyId": "0x010000060001A15A",
+                                          "text": "Yes. It's as if you've seen bullets before, officer.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 135,
+                                  "title": "Interfacing: \"What's interesting about the bullet...\"",
+                                  "articyId": "0x0100006B0000A3F2",
+                                  "text": "What's interesting about the bullet thus far?",
+                                  "links": [
+                                    {
+                                      "id": 145,
+                                      "title": "You: \"It's a jacketed bullet close to 5 m...\"",
+                                      "articyId": "0x0100006B0000A400",
+                                      "text": "It's a jacketed bullet close to 5 mm in diameter.",
+                                      "links": [
+                                        {
+                                          "id": 5,
+                                          "title": "Interfacing: \"A jacketed bullet... which would ha...\"",
+                                          "articyId": "0x0100006B0000A41A",
+                                          "text": "A jacketed bullet... which would have been shot from a military-grade breech-loading rifle, not from a muzzleloader like those typically found on the streets of Martinaise.",
+                                          "links": [
+                                            {
+                                              "id": 45,
+                                              "title": "Fractured Bullet: \"Very interesting. You have an unusu...\"",
+                                              "articyId": "0x01000006000093D3",
+                                              "text": "Very interesting. You have an unusual, military-grade bullet in your hand. Now all you need is to find a gun that could fire it.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 101,
+                                      "title": "You: \"Wow, I actually *know* this...\"",
+                                      "articyId": "0x010000060001A169",
+                                      "text": "Wow, I actually *know* this...",
+                                      "links": [
+                                        {
+                                          "id": 46,
+                                          "title": "Fractured Bullet: \"Yes. It's as if you've seen bullets...\"",
+                                          "articyId": "0x010000060001A163",
+                                          "text": "Yes. It's as if you've seen bullets before, officer.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "title": "Esprit de Corps: \"Far away, Lieutenant Kitsuragi is f...\"",
+                                      "articyId": "0x0100006B0000A3E1",
+                                      "text": "Far away, Lieutenant Kitsuragi is flipping through stations in his Kineema. He is not here examining the bullet with you. He should be... he would find this very intriguing. Mention it to him, later when he's here.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 76,
+                          "title": "You: \"And the core?\"",
+                          "articyId": "0x0100005800002723",
+                          "text": "And the core?",
+                          "links": [
+                            {
+                              "id": 60,
+                              "title": "Fractured Bullet: \"It's quite destroyed. Some of the f...\"",
+                              "articyId": "0x010000580000274B",
+                              "text": "It's quite destroyed. Some of the fragments are still lodged in the wound.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "title": "You: \"Try to determine what type of weapo...\"",
+          "articyId": "0x01000058000025B3",
+          "text": "Try to determine what type of weapon shot this.",
+          "links": [
+            {
+              "id": 9,
+              "title": "Hand/Eye Coordination: \"A rifle. Revolutionary-period. Your...\"",
+              "articyId": "0x0100005800002647",
+              "text": "A rifle. Revolutionary-period. Your bullet looks to be an old 4.46 mm -- from the surplus left over from the turn of the century. Probably an antique or a retrofitted antique.",
+              "links": [
+                {
+                  "id": 70,
+                  "title": "You: \"Make?\"",
+                  "articyId": "0x0100000600009394",
+                  "text": "Make?",
+                  "links": [
+                    {
+                      "id": 33,
+                      "title": "Hand/Eye Coordination: \"The 4.46 calibre was widely used wi...\"",
+                      "articyId": "0x010000580000265F",
+                      "text": "The 4.46 calibre was widely used with the *Belle-Magrave* rifle, a Revacholian manufacturer. The B-M dominated the battlefields of the Insulindian theatre of the Antecentennial Revolution, 50 years ago.",
+                      "links": [
+                        {
+                          "id": 51,
+                          "title": "Hand/Eye Coordination: \"Incidentally, you have just such a...\"",
+                          "articyId": "0x01000058000071A7",
+                          "text": "Incidentally, you have just such a rifle with you. The dusty old thing you found hidden in the basement below the commercial area. It's unusable, sadly. If it were, the bullet would *probably* fit the chamber.",
+                          "links": []
+                        },
+                        {
+                          "id": 142,
+                          "title": "You: \"Is anyone still making these rifles...\"",
+                          "articyId": "0x0100005800002665",
+                          "text": "Is anyone still making these rifles?",
+                          "links": [
+                            {
+                              "id": 143,
+                              "title": "Hand/Eye Coordination: \"No, but Zieleger, a major firearm m...\"",
+                              "articyId": "0x010000580000267D",
+                              "text": "No, but Zieleger, a major firearm manufacturer, ended up with a surplus after the war, so there are still a lot of these old military rifles floating around, usually broken. The quality was appalling.",
+                              "links": [
+                                {
+                                  "id": 109,
+                                  "title": "You: \"Who uses Belle-Magrave rifles these...\"",
+                                  "articyId": "0x010000580000266B",
+                                  "text": "Who uses Belle-Magrave rifles these days?",
+                                  "links": [
+                                    {
+                                      "id": 19,
+                                      "title": "Hand/Eye Coordination: \"Antiques enthusiasts, guerrilla fig...\"",
+                                      "articyId": "0x0100005800002677",
+                                      "text": "Antiques enthusiasts, guerrilla fighters in distant countries, a few lucky Jamrock bangers. You're looking for the same thing you found in that hidden weapons cache -- only in working order.",
+                                      "links": [
+                                        {
+                                          "id": 66,
+                                          "title": "Kim Kitsuragi: \"\"Hmm...\" The lieutenant jots someth...\"",
+                                          "articyId": "0x0100005800002812",
+                                          "text": "\"Hmm...\" The lieutenant jots something down in his notebook. \"What are you thinking? Bullet?\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 65,
+                                          "title": "Esprit de Corps: \"Back at the station, the lieutenant...\"",
+                                          "articyId": "0x0100005800002690",
+                                          "text": "Back at the station, the lieutenant is standing at a counter, diligently filling out paperwork to hand over to a tired records clerk.",
+                                          "links": [
+                                            {
+                                              "id": 75,
+                                              "title": "Esprit de Corps: \"You should share your findings with...\"",
+                                              "articyId": "0x010000580000269C",
+                                              "text": "You should share your findings with him as soon as possible.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 141,
+                                      "title": "Hand/Eye Coordination: \"Antiques enthusiasts, guerrilla fig...\"",
+                                      "articyId": "0x01000006000093A5",
+                                      "text": "Antiques enthusiasts, guerrilla fighters in distant countries, a few lucky Jamrock bangers. You're looking for a well-preserved antique, most likely.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 74,
+              "title": "Hand/Eye Coordination: \"You can't remember what happened la...\"",
+              "articyId": "0x010000580000263C",
+              "text": "You can't remember what happened last week -- what makes you think you're going to remember arcane firearm models?",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "title": "You: \"\"I think I know where this came fro...\"",
+          "articyId": "0x01000006000093B0",
+          "text": "\"I think I know where this came from.\" (Dangle the bag thoughtfully.)",
+          "links": [
+            {
+              "id": 108,
+              "title": "Kim Kitsuragi: \"\"Okay. And?\"\"",
+              "articyId": "0x01000006000093BE",
+              "text": "\"Okay. And?\"",
+              "links": [
+                {
+                  "id": 84,
+                  "title": "You: \"\"The shot probably came from a Bell...\"",
+                  "articyId": "0x01000058000027D7",
+                  "text": "\"The shot probably came from a Belle-Magrave rifle.\"",
+                  "links": [
+                    {
+                      "id": 144,
+                      "title": "Kim Kitsuragi: \"\"An antique. That makes sense. Ther...\"",
+                      "articyId": "0x0100005800002878",
+                      "text": "\"An antique. That makes sense. There can't be many breech-loading rifles floating around in Martinaise, or anywhere in Revachol, really...\"",
+                      "links": [
+                        {
+                          "id": 67,
+                          "title": "You: \"\"Why not?\"\"",
+                          "articyId": "0x010000580000287F",
+                          "text": "\"Why not?\"",
+                          "links": [
+                            {
+                              "id": 104,
+                              "title": "Kim Kitsuragi: \"\"Sure, there's some arms traffickin...\"",
+                              "articyId": "0x0100005800002893",
+                              "text": "\"Sure, there's some arms trafficking. But the laws prohibiting the use of breechloaders we inherited from the monarchy have been effective, from what I've seen.\"",
+                              "links": [
+                                {
+                                  "id": 37,
+                                  "title": "Kim Kitsuragi: \"\"Some new RCM recruits get impatien...\"",
+                                  "articyId": "0x010000580000289A",
+                                  "text": "\"Some new RCM recruits get impatient with their muzzleloaders once they've trained with military-grade weapons, but they realize it's worth it, in the end.\"",
+                                  "links": [
+                                    {
+                                      "id": 24,
+                                      "title": "Encyclopedia: \"Prohibiting peacetime law-enforceme...\"",
+                                      "articyId": "0x01000006000093C8",
+                                      "text": "Prohibiting peacetime law-enforcement to front loaded rifles is a policy enforced by the Moralist International in all the nations of the Reál Belt.",
+                                      "links": [
+                                        {
+                                          "id": 3,
+                                          "title": "You: \"\"Worth what? Getting shot?\"\"",
+                                          "articyId": "0x01000058000028AA",
+                                          "text": "\"Worth what? Getting shot?\"",
+                                          "links": [
+                                            {
+                                              "id": 134,
+                                              "title": "Kim Kitsuragi: \"\"Imagine if everyone -- cops, citiz...\"",
+                                              "articyId": "0x01000058000028A3",
+                                              "text": "\"Imagine if everyone -- cops, citizens -- had access to firearms that could shoot multiple rounds without pausing to reload. After the first shot, the second, third, and so on -- come much easier.\"",
+                                              "links": [
+                                                {
+                                                  "id": 26,
+                                                  "title": "Kim Kitsuragi: \"\"But back to the investigation.\"\"",
+                                                  "articyId": "0x01000058000028D7",
+                                                  "text": "\"But back to the investigation.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 94,
+                                                      "title": "You: \"\"Seems we're looking for an antique...\"",
+                                                      "articyId": "0x01000058000028DF",
+                                                      "text": "\"Seems we're looking for an antiques enthusiast.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 50,
+                                                          "title": "Kim Kitsuragi: \"\"Doesn't seem *that* likely, but we...\"",
+                                                          "articyId": "0x01000058000028FB",
+                                                          "text": "\"Doesn't seem *that* likely, but we'll check out all possible leads. Next step -- finding the gun itself.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 21,
+                                                      "title": "You: \"\"Could the victim have been mixed u...\"",
+                                                      "articyId": "0x01000058000028E5",
+                                                      "text": "\"Could the victim have been mixed up with some foreign guerrilla fighters?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 112,
+                                                          "title": "Kim Kitsuragi: \"\"Let's find out. Next step -- findi...\"",
+                                                          "articyId": "0x0100005800002902",
+                                                          "text": "\"Let's find out. Next step -- finding the gun itself.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 95,
+                                                      "title": "You: \"\"Have well-armed Jamrock bangers st...\"",
+                                                      "articyId": "0x01000058000028EB",
+                                                      "text": "\"Have well-armed Jamrock bangers started crossing over into Martinaise?\"",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 44,
+                                                      "title": "You: \"\"Yes. Something *mysterious* is afo...\"",
+                                                      "articyId": "0x010000780000F4C7",
+                                                      "text": "\"Yes. Something *mysterious* is afoot with this antique bullet type.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 140,
+                                                          "title": "Kim Kitsuragi: \"\"Mysterious?\" He shrugs. \"Okay. Eit...\"",
+                                                          "articyId": "0x010000780000F4CE",
+                                                          "text": "\"Mysterious?\" He shrugs. \"Okay. Either way, we'll know when we find the gun.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 111,
+                                          "title": "You: \"\"I think we should have more *power...\"",
+                                          "articyId": "0x01000058000028B0",
+                                          "text": "\"I think we should have more *powerful* guns. We're the law!\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 14,
+                                          "title": "You: \"\"Makes you consider every shot. I l...\"",
+                                          "articyId": "0x01000058000028B6",
+                                          "text": "\"Makes you consider every shot. I like it.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 119,
+                          "title": "You: \"\"That's probably a good thing.\"\"",
+                          "articyId": "0x0100005800002885",
+                          "text": "\"That's probably a good thing.\"",
+                          "links": [
+                            {
+                              "id": 61,
+                              "title": "Kim Kitsuragi: \"He nods. \"I have to hand it to the...\"",
+                              "articyId": "0x010000580000288D",
+                              "text": "He nods. \"I have to hand it to the monarchs -- it's quite admirable that they took the advice of criminologists last century and banned the use of breechloaders in peacetime.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 92,
+                  "title": "You: \"\"I mean... have some ideas, but I c...\"",
+                  "articyId": "0x010000580000281B",
+                  "text": "\"I mean... have some ideas, but I can't be sure...\"",
+                  "links": [
+                    {
+                      "id": 127,
+                      "title": "Kim Kitsuragi: \"\"What's your best guess?\"\"",
+                      "articyId": "0x0100005800002866",
+                      "text": "\"What's your best guess?\"",
+                      "links": [
+                        {
+                          "id": 133,
+                          "title": "You: \"\"Belle-Magrave rifle. The ammo poin...\"",
+                          "articyId": "0x010000580000285C",
+                          "text": "\"Belle-Magrave rifle. The ammo points to it.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 110,
+                  "title": "You: \"\"Our stiff was killed by a jungle g...\"",
+                  "articyId": "0x0100005800002855",
+                  "text": "\"Our stiff was killed by a jungle gun.\"",
+                  "links": [
+                    {
+                      "id": 93,
+                      "title": "Kim Kitsuragi: \"\"You mean some turn-of-the-century...\"",
+                      "articyId": "0x010000580000286F",
+                      "text": "\"You mean some turn-of-the-century surplus firearm?\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "title": "You: \"The bullet has nothing more to say....\"",
+          "articyId": "0x01000058000025A7",
+          "text": "The bullet has nothing more to say. [Put it away.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Fractured Bullet: \"The bullet is safely sealed away in...\"",
+      "articyId": "0x010000580000257E",
+      "text": "The bullet is safely sealed away in a plastic bag bearing the RCM stamp. Kim has filled out the label on the bag with the item number, case number, and date and location the bullet was found.",
+      "links": [
+        {
+          "id": 27,
+          "title": "Inland Empire: \"Beside his orderly handwriting, the...\"",
+          "articyId": "0x01000072000080BD",
+          "text": "Beside his orderly handwriting, the bullet looks especially sad. Like a tiny, shrivelled head of cauliflower.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

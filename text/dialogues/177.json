@@ -1,0 +1,672 @@
+{
+  "id": "0x0100002F0000F22C",
+  "title": "COAST ORB / reeds near sunken car",
+  "description": "These reeds are near your sunken car. The interactable reeds you can search when Morell tells you to check the phasmid traps. There are traps in these reeds.",
+  "dialogueTree": [
+    {
+      "id": 155,
+      "title": "Trap: Canal: \"The trap is full of locusts, but th...\"",
+      "articyId": "0x0100002900000FFF",
+      "text": "The trap is full of locusts, but they seem weak and unhealthy. A few lie on their backs with their legs twitching. Still no phasmid.",
+      "links": [
+        {
+          "id": 86,
+          "title": "Kim Kitsuragi: \"\"I'm beginning to feel... somewhat...\"",
+          "articyId": "0x0100002900001011",
+          "text": "\"I'm beginning to feel... somewhat sorry for them.\"",
+          "links": []
+        },
+        {
+          "id": 5,
+          "title": "You: \"\"Maybe they will still attract some...\"",
+          "articyId": "0x0100002900001075",
+          "text": "\"Maybe they will still attract something?\"",
+          "links": [
+            {
+              "id": 98,
+              "title": "Kim Kitsuragi: \"\"Yes. Like a cat, or another teenag...\"",
+              "articyId": "0x010000290000108B",
+              "text": "\"Yes. Like a cat, or another teenage psychopath...\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "You: \"Pause and just stand there.\"",
+          "articyId": "0x010000290000101F",
+          "text": "Pause and just stand there.",
+          "links": [
+            {
+              "id": 31,
+              "title": "Trap: Canal: \"The reeds whisper around the sepulc...\"",
+              "articyId": "0x010000290000103A",
+              "text": "The reeds whisper around the sepulchral trap, as though suddenly filled with fear.",
+              "links": [
+                {
+                  "id": 3,
+                  "title": "Kim Kitsuragi: \"The lieutenant's gaze follows yours...\"",
+                  "articyId": "0x010000290000102D",
+                  "text": "The lieutenant's gaze follows yours and lingers on the reeds, the sand, the water beyond. Then he turns back to you expectantly.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 125,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002900001025",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 124,
+          "title": "Empathy: \"Poor things...\"",
+          "articyId": "0x0100002900001017",
+          "text": "Poor things...",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Trap: Canal: \"All the traps are stocked now -- an...\"",
+      "articyId": "0x0100002900001111",
+      "text": "All the traps are stocked now -- and still no sight of the phasmid. Return to Morell and let him know.",
+      "links": [
+        {
+          "id": 39,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x01000029000011B9",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Trap: Canal: \"The trap stands empty amongst the r...\"",
+      "articyId": "0x01000029000012E8",
+      "text": "The trap stands empty amongst the reeds. No insect sounds or movement around -- only the reeds' melancholy rustling.",
+      "links": [
+        {
+          "id": 7,
+          "title": "You: \"\"This was the one.\"\"",
+          "articyId": "0x0100002900001843",
+          "text": "\"This was the one.\"",
+          "links": [
+            {
+              "id": 180,
+              "title": "Kim Kitsuragi: \"\"Fantastic.\" The lieutenant looks a...\"",
+              "articyId": "0x010000290000184F",
+              "text": "\"Fantastic.\" The lieutenant looks at the familiar contraption and shrugs.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"Release the locusts into the empty...\"",
+          "articyId": "0x01000029000010CB",
+          "text": "Release the locusts into the empty trap.",
+          "links": [
+            {
+              "id": 35,
+              "title": "Trap: Canal: \"The locusts, dazed from being trans...\"",
+              "articyId": "0x01000029000010BB",
+              "text": "The locusts, dazed from being transported, slowly begin to acclimate to their new surroundings.",
+              "links": [
+                {
+                  "id": 156,
+                  "title": "Composure: \"They're not really going to get the...\"",
+                  "articyId": "0x01000029000010E1",
+                  "text": "They're not really going to get the chance to get comfortable here.",
+                  "links": [
+                    {
+                      "id": 185,
+                      "title": "Kim Kitsuragi: \"\"Good. Now that's done. When do you...\"",
+                      "articyId": "0x01000029000010DB",
+                      "text": "\"Good. Now that's done. When do you think we will return to our impending apocalypse of a murder investigation?\"",
+                      "links": [
+                        {
+                          "id": 16,
+                          "title": "Kim Kitsuragi: \"He stops you. \"Don't answer that. I...\"",
+                          "articyId": "0x0100002900001137",
+                          "text": "He stops you. \"Don't answer that. It was a rhetorical question.\"",
+                          "links": [
+                            {
+                              "id": 135,
+                              "title": "Authority: \"He doesn't want to, but if there is...\"",
+                              "articyId": "0x0100002900001145",
+                              "text": "He doesn't want to, but if there is one more cryptozoological run-around, he *must* force the investigation back on track. This better be it...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x01000029000010C1",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Trap: Canal: \"The locusts aren't doing all too we...\"",
+      "articyId": "0x01000029000010AB",
+      "text": "The locusts aren't doing all too well, but they're still in there. This isn't the empty trap. That must have been another one.",
+      "links": [
+        {
+          "id": 195,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000290000119D",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Trap: Canal: \"There's nothing else to do with the...\"",
+      "articyId": "0x0100002900001169",
+      "text": "There's nothing else to do with the traps at this time. They're all just lying around, gathering dust and rainwater.",
+      "links": []
+    },
+    {
+      "id": 147,
+      "title": "Trap: Canal: \"You've checked all the traps now. T...\"",
+      "articyId": "0x0100002900001175",
+      "text": "You've checked all the traps now. There's nothing else to do with them. The cryptozoologists await your report.",
+      "links": []
+    },
+    {
+      "id": 20,
+      "title": "Trap: Canal: \"Nothing has changed about this trap...\"",
+      "articyId": "0x0100002900000F25",
+      "text": "Nothing has changed about this trap. You need to check the others.",
+      "links": []
+    },
+    {
+      "id": 69,
+      "title": "Trap: Canal: \"It takes you a moment, but finally...\"",
+      "articyId": "0x0100002900000F0E",
+      "text": "It takes you a moment, but finally you spot the last of Morell's traps. This one's partially obscured by the reeds...",
+      "links": [
+        {
+          "id": 64,
+          "title": "You: \"Look around.\"",
+          "articyId": "0x0100002900001302",
+          "text": "Look around.",
+          "links": [
+            {
+              "id": 118,
+              "title": "Trap: Canal: \"The reeds bend forlornly toward the...\"",
+              "articyId": "0x0100002900001308",
+              "text": "The reeds bend forlornly toward the sand. You see slabs of concrete, north. In the east, the city centre hums to you.",
+              "links": [
+                {
+                  "id": 150,
+                  "title": "Shivers: \"The constant, distant song. Louder...\"",
+                  "articyId": "0x01000029000012FC",
+                  "text": "The constant, distant song. Louder on this part of the coast. Nearer somehow. And there's that cold again, always the cold...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 90,
+          "title": "You: \"Reach for the trap.\"",
+          "articyId": "0x010000290000120B",
+          "text": "Reach for the trap.",
+          "links": [
+            {
+              "id": 182,
+              "title": "Trap: Canal: \"The trap feels light -- and silent...\"",
+              "articyId": "0x0100002900000F2F",
+              "text": "The trap feels light -- and silent -- as you pick it up. Something is different here...",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "You: \"Look closer.\"",
+                  "articyId": "0x0100002900000F41",
+                  "text": "Look closer.",
+                  "links": [
+                    {
+                      "id": 70,
+                      "title": "Trap: Canal: \"No locusts!\"",
+                      "articyId": "0x0100002900000F3B",
+                      "text": "No locusts!",
+                      "links": [
+                        {
+                          "id": 44,
+                          "title": "Logic: \"No phasmid either -- but still...\"",
+                          "articyId": "0x0100002900000F74",
+                          "text": "No phasmid either -- but still...",
+                          "links": [
+                            {
+                              "id": 123,
+                              "title": "You: \"(Immediately yell.) \"It's empty!\"\"",
+                              "articyId": "0x0100002900000F53",
+                              "text": "(Immediately yell.) \"It's empty!\"",
+                              "links": [
+                                {
+                                  "id": 41,
+                                  "title": "Trap: Canal: \"Your voice echoes on the coast, car...\"",
+                                  "articyId": "0x0100002900000F7A",
+                                  "text": "Your voice echoes on the coast, carried by a gust of cold wind.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "title": "You: \"Look closer still.\"",
+                              "articyId": "0x0100002900000F69",
+                              "text": "Look closer still.",
+                              "links": [
+                                {
+                                  "id": 9,
+                                  "title": "Kim Kitsuragi: \"The lieutenant studies the trap wit...\"",
+                                  "articyId": "0x0100002900000F5E",
+                                  "text": "The lieutenant studies the trap with you. \"Well, the bait worked on *something*. This doesn't mean it was a reed-monster, though. Unless you see one in there? I just see an empty trap...\"",
+                                  "links": [
+                                    {
+                                      "id": 23,
+                                      "title": "Perception (Sight): \"The netting is a little untidy, mes...\"",
+                                      "articyId": "0x0100002900000F80",
+                                      "text": "The netting is a little untidy, messier than the others. Like someone or something picked up the trap and shook it before dropping it back down on the ground.",
+                                      "links": [
+                                        {
+                                          "id": 45,
+                                          "title": "You: \"\"I do get the feeling that someone...\"",
+                                          "articyId": "0x0100002900000F86",
+                                          "text": "\"I do get the feeling that someone or something may have messed with the trap...\"",
+                                          "links": [
+                                            {
+                                              "id": 184,
+                                              "title": "Kim Kitsuragi: \"He purses his lips. \"Perhaps our cr...\"",
+                                              "articyId": "0x010000290000100B",
+                                              "text": "He purses his lips. \"Perhaps our cryptozoologists have competition in the form of an actual entomologist? Or someone else is sabotaging them? I could present more theories, but then I would be taking this on as a case -- which I'm *not*.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 24,
+                                          "title": "You: \"\"But what if it *was* the phasmid?...\"",
+                                          "articyId": "0x0100002900000FA0",
+                                          "text": "\"But what if it *was* the phasmid? What if it ate them and got out?\"",
+                                          "links": [
+                                            {
+                                              "id": 134,
+                                              "title": "Kim Kitsuragi: \"\"Right.\" It does not look like he t...\"",
+                                              "articyId": "0x01000029000010E7",
+                                              "text": "\"Right.\" It does not look like he thinks you're right. \"Anyway, that's for the cryptozoologists to figure out now.\" He adds, for clarity: \"*We're* not cryptozoologists -- we're cops.\"",
+                                              "links": [
+                                                {
+                                                  "id": 38,
+                                                  "title": "Shivers: \"A cold gust of air dries your sweat...\"",
+                                                  "articyId": "0x010000290000112B",
+                                                  "text": "A cold gust of air dries your sweaty face and you look to the dark shadow the Feld building in the distance, drawing you to it. What a strange sensation... Once this is done, should you ask the wind again?",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 170,
+                                          "title": "You: \"\"Yeah, it probably *wasn't* the pha...\"",
+                                          "articyId": "0x0100002900000F94",
+                                          "text": "\"Yeah, it probably *wasn't* the phasmid, but still. Morell needs to know.\"",
+                                          "links": [
+                                            {
+                                              "id": 145,
+                                              "title": "Kim Kitsuragi: \"\"We did *sort of* promise to tell t...\"",
+                                              "articyId": "0x0100002900001107",
+                                              "text": "\"We did *sort of* promise to tell them, didn't we...\" He seems to regret the fact.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 122,
+                                          "title": "You: \"\"You're right. But I still need to...\"",
+                                          "articyId": "0x0100002900000F4D",
+                                          "text": "\"You're right. But I still need to tell the cryptozoologists about this.\"",
+                                          "links": [
+                                            {
+                                              "id": 160,
+                                              "title": "Kim Kitsuragi: \"\"Okay. But after that we get back t...\"",
+                                              "articyId": "0x0100002900001057",
+                                              "text": "\"Okay. But after that we get back to our own assignments. We've done a thorough survey of the coast now -- just running around is no longer useful.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 12,
+                                          "title": "You: \"\"You're right. This crypto-research...\"",
+                                          "articyId": "0x0100002900000FA6",
+                                          "text": "\"You're right. This crypto-research has been stupid.\"",
+                                          "links": [
+                                            {
+                                              "id": 74,
+                                              "title": "Kim Kitsuragi: \"\"Good, good. We should be courteous...\"",
+                                              "articyId": "0x010000290000104F",
+                                              "text": "\"Good, good. We should be courteous and tell the cryptozoologists that one of their traps was empty, but then we can get back to *our* assignment here.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 121,
+                                          "title": "Trap: Canal: \"The reeds continue to hiss around y...\"",
+                                          "articyId": "0x0100002900000F35",
+                                          "text": "The reeds continue to hiss around you as you put the empty trap back on the ground. Time to consult the professionals -- Morell and Lena.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 100,
+                                  "title": "Trap: Canal: \"Nothing. No traces of the locusts *...\"",
+                                  "articyId": "0x01000029000011E5",
+                                  "text": "Nothing. No traces of the locusts *or* the Insulindian phasmid. What happened?",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 15,
+              "title": "Trap: Canal: \"Nothing but locusts in this trap as...\"",
+              "articyId": "0x0100002900001220",
+              "text": "Nothing but locusts in this trap as well. Definitely no cryptozoological monstrosity.",
+              "links": [
+                {
+                  "id": 137,
+                  "title": "Kim Kitsuragi: \"\"Empty as all of them...\" he pants....\"",
+                  "articyId": "0x01000029000011C4",
+                  "text": "\"Empty as all of them...\" he pants. \"*One* more of these and we're done...\" His face is red from the cold sea air. He crouches to catch his breath.",
+                  "links": [
+                    {
+                      "id": 40,
+                      "title": "You: \"\"Bummer it wasn't in here...\"\"",
+                      "articyId": "0x0100002900001237",
+                      "text": "\"Bummer it wasn't in here...\"",
+                      "links": [
+                        {
+                          "id": 19,
+                          "title": "Kim Kitsuragi: \"\"I'm just...\" he breathes out. \"Gla...\"",
+                          "articyId": "0x010000290000123D",
+                          "text": "\"I'm just...\" he breathes out. \"Glad we haven't found some poor cat trapped in one of these.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 163,
+                      "title": "You: \"\"You getting tired?\"\"",
+                      "articyId": "0x0100002900001125",
+                      "text": "\"You getting tired?\"",
+                      "links": [
+                        {
+                          "id": 37,
+                          "title": "Kim Kitsuragi: \"\"No-no. I'm fine. I didn't mean to...\"",
+                          "articyId": "0x010000290000111F",
+                          "text": "\"No-no. I'm fine. I didn't mean to complain, it's just...\" He's short-winded. The sentence ends there.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 114,
+                      "title": "You: \"\"I *must* stress that I did not exp...\"",
+                      "articyId": "0x010000290000113D",
+                      "text": "\"I *must* stress that I did not expect a cryptozoological monstrosity to be in this trap.\"",
+                      "links": [
+                        {
+                          "id": 76,
+                          "title": "Kim Kitsuragi: \"\"Of course. Noted.\" He looks at you...\"",
+                          "articyId": "0x0100002900001131",
+                          "text": "\"Of course. Noted.\" He looks at you, incredulously, as you place the trap back in the reeds.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 133,
+                      "title": "You: \"Say nothing, just put the trap down...\"",
+                      "articyId": "0x0100002900001069",
+                      "text": "Say nothing, just put the trap down.",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "Kim Kitsuragi: \"The lieutenant stretches his back.\"",
+                          "articyId": "0x010000290000105D",
+                          "text": "The lieutenant stretches his back.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 189,
+              "title": "Trap: Canal: \"This trap is also full of panicked...\"",
+              "articyId": "0x0100002900001215",
+              "text": "This trap is also full of panicked locusts. No sign of any cryptozoological beast inside.",
+              "links": [
+                {
+                  "id": 99,
+                  "title": "Kim Kitsuragi: \"\"Another empty trap,\" the lieutenan...\"",
+                  "articyId": "0x01000029000011DF",
+                  "text": "\"Another empty trap,\" the lieutenant takes a note -- more out of habit than duty.",
+                  "links": [
+                    {
+                      "id": 138,
+                      "title": "You: \"\"Let's keep going. The next one is...\"",
+                      "articyId": "0x0100002900000FB6",
+                      "text": "\"Let's keep going. The next one is the *lucky* one.\"",
+                      "links": [
+                        {
+                          "id": 13,
+                          "title": "Kim Kitsuragi: \"\"Yup. The next one has a *crab* tra...\"",
+                          "articyId": "0x0100002900000FAC",
+                          "text": "\"Yup. The next one has a *crab* trapped in it.\" He raises his collar -- it's windy. \"These are just crab traps, you do realize?\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 26,
+                      "title": "You: \"\"How are you enjoying the cardio, l...\"",
+                      "articyId": "0x0100002900001200",
+                      "text": "\"How are you enjoying the cardio, lieutenant? I'm quite enjoying it myself.\"",
+                      "links": [
+                        {
+                          "id": 148,
+                          "title": "Kim Kitsuragi: \"\"Always up for a good jog -- otherw...\"",
+                          "articyId": "0x01000029000011D9",
+                          "text": "\"Always up for a good jog -- otherwise, would I still be *on* this case with *you*?\" He smiles and raises his collar. It's windy.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 54,
+                      "title": "You: \"\"I want to make it clear that I don...\"",
+                      "articyId": "0x01000029000011F8",
+                      "text": "\"I want to make it clear that I don't *actually* believe the phasmid exists, okay?\"",
+                      "links": [
+                        {
+                          "id": 25,
+                          "title": "Kim Kitsuragi: \"\"Of course. Noted.\" He looks at you...\"",
+                          "articyId": "0x01000029000011D1",
+                          "text": "\"Of course. Noted.\" He looks at you, incredulously, as you place the trap back in the reeds.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 119,
+                      "title": "You: \"Say nothing, just put the trap down...\"",
+                      "articyId": "0x0100002900000ED7",
+                      "text": "Say nothing, just put the trap down.",
+                      "links": [
+                        {
+                          "id": 162,
+                          "title": "Kim Kitsuragi: \"Neither does the lieutenant. He jus...\"",
+                          "articyId": "0x0100002900001119",
+                          "text": "Neither does the lieutenant. He just raises his collar -- it's cold out, as always.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 146,
+                  "title": "Inland Empire: \"Man, it's lonely doing this alone....\"",
+                  "articyId": "0x010000290000114B",
+                  "text": "Man, it's lonely doing this alone. The wind seems to howl in a strange manner...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 190,
+              "title": "Trap: Canal: \"Locusts are crawling around in the...\"",
+              "articyId": "0x0100002900000F9A",
+              "text": "Locusts are crawling around in the trap, confused but uneaten. You see no carnivorous *reed-phasmid* gorging on them.",
+              "links": [
+                {
+                  "id": 46,
+                  "title": "Kim Kitsuragi: \"\"Big surprise.\" The lieutenant grin...\"",
+                  "articyId": "0x0100002900001005",
+                  "text": "\"Big surprise.\" The lieutenant grins mirthlessly. \"Anyway -- one down, three to go.\"",
+                  "links": [
+                    {
+                      "id": 161,
+                      "title": "You: \"\"Damn, I was hoping it would be in...\"",
+                      "articyId": "0x010000290000106F",
+                      "text": "\"Damn, I was hoping it would be in the *first* one.\"",
+                      "links": [
+                        {
+                          "id": 33,
+                          "title": "Kim Kitsuragi: \"\"No you weren't.\" He looks at the s...\"",
+                          "articyId": "0x0100002900001063",
+                          "text": "\"No you weren't.\" He looks at the sea, then you -- laying the trap back down on the ground.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 42,
+                      "title": "You: \"\"No need to grin. I'm not *expectin...\"",
+                      "articyId": "0x0100002900000FC7",
+                      "text": "\"No need to grin. I'm not *expecting* to find anything. I'm helping some citizens and getting some fresh air.\"",
+                      "links": [
+                        {
+                          "id": 171,
+                          "title": "Kim Kitsuragi: \"\"I meant no offence, just...\" The l...\"",
+                          "articyId": "0x0100002900000FBC",
+                          "text": "\"I meant no offence, just...\" The lieutenant doesn't know how to finish the sentence. He looks at you, putting the trap back on the ground.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "title": "You: \"\"It'll be in the next one. *Surely*.\"\"",
+                      "articyId": "0x0100002900000F8C",
+                      "text": "\"It'll be in the next one. *Surely*.\"",
+                      "links": [
+                        {
+                          "id": 85,
+                          "title": "Kim Kitsuragi: \"\"Surely,\" he repeats and looks at t...\"",
+                          "articyId": "0x0100002900000F47",
+                          "text": "\"Surely,\" he repeats and looks at the sea, then at you putting the trap back on the ground. \"Anyway, the air is nice and fresh here...\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 120,
+                      "title": "You: \"Say nothing, just put the trap down...\"",
+                      "articyId": "0x0100002900000EF9",
+                      "text": "Say nothing, just put the trap down.",
+                      "links": [
+                        {
+                          "id": 91,
+                          "title": "Trap: Canal: \"You set the apparatus back on the g...\"",
+                          "articyId": "0x0100002900000EE9",
+                          "text": "You set the apparatus back on the ground, among the reeds.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 187,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x01000029000011B1",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Trap: Canal: \"This trap's not too hard to spot --...\"",
+      "articyId": "0x01000029000011ED",
+      "text": "This trap's not too hard to spot -- once you know what to look for. Keeping it hidden has not been a priority for the cryptozoologist.",
+      "links": []
+    },
+    {
+      "id": 107,
+      "title": "Trap: Canal: \"A familiar apparatus lies among the...\"",
+      "articyId": "0x0100002900000EC9",
+      "text": "A familiar apparatus lies among the reeds -- another one of Morell's traps, weighed down by stones to keep it in place.",
+      "links": []
+    },
+    {
+      "id": 18,
+      "title": "Trap: Canal: \"There's a trap in the reeds at your...\"",
+      "articyId": "0x0100002900001231",
+      "text": "There's a trap in the reeds at your feet. Looks like the same one you saw Morell set before -- same mesh, same wiring.",
+      "links": []
+    }
+  ]
+}

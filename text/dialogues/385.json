@@ -1,0 +1,1355 @@
+{
+  "id": "0x010000580000BEF0",
+  "title": "BOARDWALK / FELD MURAL",
+  "description": "1. Observe the mural.\n2. Shivers White Check to see stairs, which then allows you to use the ladder to get to the roof.",
+  "dialogueTree": [
+    {
+      "id": 20,
+      "title": "Feld Mural: \"The once-bright mural towers above...\"",
+      "articyId": "0x0100000600014B65",
+      "text": "The once-bright mural towers above you, saying \"FELD ELECTRICAL R&D.\"",
+      "links": [
+        {
+          "id": 347,
+          "title": "Esprit de Corps: \"Somewhere in Martinaise, Lieutenant...\"",
+          "articyId": "0x0100002100001F2D",
+          "text": "Somewhere in Martinaise, Lieutenant Kitsuragi is consulting his notebook... A sudden draught turns a page between his hands. You're going to need him if you want to listen to the wind.",
+          "links": []
+        },
+        {
+          "id": 71,
+          "title": "You: \"Pull on your knowledge to understan...\"",
+          "articyId": "0x0100004B0000139B",
+          "text": "Pull on your knowledge to understand what caused the twins to hear radio in their heads.",
+          "links": [
+            {
+              "id": 152,
+              "title": "Encyclopedia: \"You know a lot about radio. Enough...\"",
+              "articyId": "0x0100004B000013A5",
+              "text": "You know a lot about radio. Enough to know: You have no idea how or why those boys heard Speedfreaks FM in their heads.",
+              "links": [
+                {
+                  "id": 164,
+                  "title": "Encyclopedia: \"Knowledge like that isn't just obsc...\"",
+                  "articyId": "0x0100004B00001425",
+                  "text": "Knowledge like that isn't just obscure; it's unknowable. Dangerous theoretical facts like that are probably protected under the Coalition Government's Articles of Dominion, Title XIV, Article 7c. While an expert might be able to suss it out on their own, a layman like you has no hope.",
+                  "links": [
+                    {
+                      "id": 310,
+                      "title": "Encyclopedia: \"You don't know how it happened. But...\"",
+                      "articyId": "0x0100004B0000142A",
+                      "text": "You don't know how it happened. But the stores of your knowledge are vast and there *is* something crucial in them.",
+                      "links": [
+                        {
+                          "id": 135,
+                          "title": "You: \"What's that?\"",
+                          "articyId": "0x0100004B0000142F",
+                          "text": "What's that?",
+                          "links": [
+                            {
+                              "id": 114,
+                              "title": "Encyclopedia: \"You know where Ruby *isn't.*\"",
+                              "articyId": "0x0100004B00001434",
+                              "text": "You know where Ruby *isn't.*",
+                              "links": [
+                                {
+                                  "id": 291,
+                                  "title": "Encyclopedia: \"She isn't in the fishing village. S...\"",
+                                  "articyId": "0x0100004B00001439",
+                                  "text": "She isn't in the fishing village. She's not with her bullet under the floorboards in the shack. So where could she be?",
+                                  "links": [
+                                    {
+                                      "id": 44,
+                                      "title": "Encyclopedia: \"Land's End? You took in the sights...\"",
+                                      "articyId": "0x0100004B00001443",
+                                      "text": "Land's End? You took in the sights there with Lilienne. Ruby wasn't up the disused radio tower, among the reeds, or beneath the boardwalk.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 327,
+                                      "title": "Encyclopedia: \"The alcoholics never mentioned seei...\"",
+                                      "articyId": "0x0100004B00001452",
+                                      "text": "The alcoholics never mentioned seeing Ruby either. Idiot Doom Spiral gave an exhaustive account of recent events, but never mentioned seeing Ruby.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 356,
+                                      "title": "Encyclopedia: \"You've searched the whole coast for...\"",
+                                      "articyId": "0x0100004B00001461",
+                                      "text": "You've searched the whole coast for Morell's traps. Just as you didn't find the Insulindian phasmid, you did not find her.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 311,
+                                      "title": "Encyclopedia: \"Nor is Ruby in the Church. Some cri...\"",
+                                      "articyId": "0x0100004B0000146B",
+                                      "text": "Nor is Ruby in the Church. Some criminals still seek sanctuary from sacred buildings, even though sanctuary laws were abolished decades ago. But Ruby wasn't such a one.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 235,
+                                      "title": "Encyclopedia: \"And, while you might not have seen...\"",
+                                      "articyId": "0x0100004B00002A15",
+                                      "text": "And, while you might not have seen much of the coast, you were probably right: The ULAN frequency is likely connected to all this. Ruby dabbles in advanced radio theories. The Speedfreaks FM case is a radio mystery. That may not be coincidence.",
+                                      "links": [
+                                        {
+                                          "id": 153,
+                                          "title": "You: \"So I was right! ULAN -- she *is* he...\"",
+                                          "articyId": "0x0100004B00002A23",
+                                          "text": "So I was right! ULAN -- she *is* here!",
+                                          "links": [
+                                            {
+                                              "id": 205,
+                                              "title": "Encyclopedia: \"That isn't a fact *yet*. But it's a...\"",
+                                              "articyId": "0x0100004B00002A1D",
+                                              "text": "That isn't a fact *yet*. But it's a compelling suspicion.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 293,
+                                      "title": "Encyclopedia: \"... Well, in fairness, you haven't...\"",
+                                      "articyId": "0x0100004B000029FD",
+                                      "text": "... Well, in fairness, you haven't seen much more of the coast. But you do know one last thing: ULAN. Ruby dabbles in advanced radio theories. ULAN, the Speedfreaks mystery -- it might just be related.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 14,
+                                      "title": "You: \"Does that mean she's *here*?\"",
+                                      "articyId": "0x0100004B00001470",
+                                      "text": "Does that mean she's *here*?",
+                                      "links": [
+                                        {
+                                          "id": 142,
+                                          "title": "Encyclopedia: \"If she's here on the coast, she'll...\"",
+                                          "articyId": "0x0100004B00001475",
+                                          "text": "If she's here on the coast, she'll be *here.* And besides, something weird happened to the twins around here. It'd be nice to know what caused that. Another fact for your collection!",
+                                          "links": [
+                                            {
+                                              "id": 55,
+                                              "title": "Shivers: \"Suddenly there's a sigh, carried on...\"",
+                                              "articyId": "0x0100004B0000147A",
+                                              "text": "Suddenly there's a sigh, carried on the molecules around you, moving, flowing from high pressure to low pressure. Like that of a woman emptying her lungs. She wraps the collapsing stone box in front of you in her breath, flowing through it...",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 53,
+              "title": "Encyclopedia: \"Still nothing. Your head is full of...\"",
+              "articyId": "0x0100004B000013B4",
+              "text": "Still nothing. Your head is full of obscure facts, none of which are helpful here. Move on before you make another scene.",
+              "links": []
+            },
+            {
+              "id": 13,
+              "title": "Encyclopedia: \"Let's see, let's see... Just flicki...\"",
+              "articyId": "0x0100004B000013AF",
+              "text": "Let's see, let's see... Just flicking through the index of your knowledge...",
+              "links": [
+                {
+                  "id": 25,
+                  "title": "You: \"Cool. No rush.\"",
+                  "articyId": "0x0100004B000013BD",
+                  "text": "Cool. No rush.",
+                  "links": [
+                    {
+                      "id": 42,
+                      "title": "Encyclopedia: \"We have, uh... Radio brands, radio...\"",
+                      "articyId": "0x0100004B000013CC",
+                      "text": "We have, uh... Radio brands, radio crimes, radio comedies, radio dramas, radio physics, radio psychics, radio scandals, radio shows, and way more in-between, but, uh....",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "You: \"But?\"",
+                          "articyId": "0x0100004B000013D1",
+                          "text": "But?",
+                          "links": [
+                            {
+                              "id": 54,
+                              "title": "Encyclopedia: \"Nothing that would be useful here....\"",
+                              "articyId": "0x0100004B000013D6",
+                              "text": "Nothing that would be useful here. Sorry.",
+                              "links": [
+                                {
+                                  "id": 228,
+                                  "title": "You: \"I know about ULAN frequencies. Does...\"",
+                                  "articyId": "0x0100004B000013E0",
+                                  "text": "I know about ULAN frequencies. Does that help?",
+                                  "links": [
+                                    {
+                                      "id": 113,
+                                      "title": "Encyclopedia: \"You know little about ULAN frequenc...\"",
+                                      "articyId": "0x0100004B000013E5",
+                                      "text": "You know little about ULAN frequencies other than that they exist. Maybe? It's impossible to say.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 261,
+                                  "title": "You: \"\"Radio is killing the fucking cop s...\"",
+                                  "articyId": "0x0100004B000013EF",
+                                  "text": "\"Radio is killing the fucking cop star. Come on!\"",
+                                  "links": [
+                                    {
+                                      "id": 163,
+                                      "title": "Mikael Heidelstam: \"\"What is he talking about?\" The you...\"",
+                                      "articyId": "0x0100004B00001403",
+                                      "text": "\"What is he talking about?\" The young boy looks to his father, frowning.",
+                                      "links": [
+                                        {
+                                          "id": 326,
+                                          "title": "Trant Heidelstam: \"\"I'm not sure, Mikael.\" He looks at...\"",
+                                          "articyId": "0x0100004B00001408",
+                                          "text": "\"I'm not sure, Mikael.\" He looks at you, as if making an appraisal.",
+                                          "links": [
+                                            {
+                                              "id": 251,
+                                              "title": "Half Light: \"Judging eyes, like he's a fucking b...\"",
+                                              "articyId": "0x0100004B00001556",
+                                              "text": "Judging eyes, like he's a fucking brain doctor. What the hell does he know?",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 93,
+                                      "title": "Kim Kitsuragi: \"The lieutenant clears his throat. \"...\"",
+                                      "articyId": "0x0100004B00001417",
+                                      "text": "The lieutenant clears his throat. \"Let's move on. I don't think we need to stand around anymore.\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 355,
+                                      "title": "Encyclopedia: \"Apologies! You just need time to re...\"",
+                                      "articyId": "0x0100004B0000141C",
+                                      "text": "Apologies! You just need time to remember. There has to be something there. Go do other things around the coast. That might help.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 43,
+                                  "title": "You: \"\"Is this all I am? A fount of usele...\"",
+                                  "articyId": "0x0100004B000013F4",
+                                  "text": "\"Is this all I am? A fount of useless radio trivia?\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 162,
+                                  "title": "You: \"\"Then I've got nothing. I'm a shit...\"",
+                                  "articyId": "0x0100004B000013F9",
+                                  "text": "\"Then I've got nothing. I'm a shit detective. I should be in the sewer.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 309,
+                  "title": "You: \"Come on, hurry up, we're on a sched...\"",
+                  "articyId": "0x0100004B000013C2",
+                  "text": "Come on, hurry up, we're on a schedule here!",
+                  "links": [
+                    {
+                      "id": 224,
+                      "title": "Encyclopedia: \"Searching with all possible speed!\"",
+                      "articyId": "0x0100004B000013C7",
+                      "text": "Searching with all possible speed!",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "title": "You: \"Why do I feel like I know this plac...\"",
+          "articyId": "0x010000160000995C",
+          "text": "Why do I feel like I know this place?",
+          "links": [
+            {
+              "id": 287,
+              "title": "Feld Mural: \"Indeed. Somehow you knew it was her...\"",
+              "articyId": "0x0100001600009946",
+              "text": "Indeed. Somehow you knew it was here. An urban ruin gutted by looters that once used to consume money and dispense warmth and light.",
+              "links": [
+                {
+                  "id": 210,
+                  "title": "Shivers: \"You felt it, before, when it rained...\"",
+                  "articyId": "0x010000060001D642",
+                  "text": "You felt it, before, when it rained in Martinaise and you *felt* the cold of the rain. The feeling persists. It has been in you ever since.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 343,
+          "title": "You: \"\"What is this building?\"\"",
+          "articyId": "0x010000160000994C",
+          "text": "\"What is this building?\"",
+          "links": [
+            {
+              "id": 146,
+              "title": "Kim Kitsuragi: \"\"Maybe we could, you know...\" He po...\"",
+              "articyId": "0x0100001600009952",
+              "text": "\"Maybe we could, you know...\" He points to the man who points at the building, telling his son something. \"Ask the man who's pointing at the building?\"",
+              "links": [
+                {
+                  "id": 50,
+                  "title": "Logic: \"Great idea!\"",
+                  "articyId": "0x010000160000992D",
+                  "text": "Great idea!",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 179,
+              "title": "Feld Mural: \"The long abandoned industrial build...\"",
+              "articyId": "0x010000400000324B",
+              "text": "The long abandoned industrial building towers above you in silence.",
+              "links": []
+            },
+            {
+              "id": 2,
+              "title": "Kim Kitsuragi: \"\"Some sort of industrial ruin? I do...\"",
+              "articyId": "0x01000006000148CB",
+              "text": "\"Some sort of industrial ruin? I don't recognize the name of the company. R&D used to mean Research and Development... It looks long-abandoned.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 194,
+          "title": "You: \"\"Could she be in there?\"\"",
+          "articyId": "0x010000160000993C",
+          "text": "\"Could she be in there?\"",
+          "links": [
+            {
+              "id": 274,
+              "title": "Kim Kitsuragi: \"\"In there? She could. Or...\" The li...\"",
+              "articyId": "0x0100001600009927",
+              "text": "\"In there? She could. Or...\" The lieutenant points behind you. \"She could be in the *identical* ruin over there, or in that boat shack. In that church tower, maybe...\"",
+              "links": [
+                {
+                  "id": 157,
+                  "title": "Logic: \"Why single out this one building?\"",
+                  "articyId": "0x010000060001D64A",
+                  "text": "Why single out this one building?",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 206,
+              "title": "Trant Heidelstam: \"\"She?\" The man hears you. \"I don't...\"",
+              "articyId": "0x01000006000148E5",
+              "text": "\"She?\" The man hears you. \"I don't know who you mean, but... the building seems long-abandoned to me.\"",
+              "links": []
+            },
+            {
+              "id": 17,
+              "title": "Feld Mural: \"You try to peer in but there are no...\"",
+              "articyId": "0x01000006000148EB",
+              "text": "You try to peer in but there are no windows on this side. Only the disinterested whistle of the wind.",
+              "links": [
+                {
+                  "id": 154,
+                  "title": "Esprit de Corps: \"Lieutenant Kitsuragi stands in fron...\"",
+                  "articyId": "ja06i5ni7kduezwb",
+                  "text": "Lieutenant Kitsuragi stands in front of a mirror, fixing his black bomber jacket. You should be asking him that question.",
+                  "links": []
+                },
+                {
+                  "id": 109,
+                  "title": "Esprit de Corps: \"Lieutenant Kitsuragi stands in fron...\"",
+                  "articyId": "0x0100002100001F3C",
+                  "text": "Lieutenant Kitsuragi stands in front of a mirror, fixing his orange bomber jacket. You should be asking him that question.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 302,
+          "title": "You: \"Listen to the wind.\"",
+          "articyId": "0x0100001600009749",
+          "text": "Listen to the wind.",
+          "links": [
+            {
+              "id": 3,
+              "title": "Shivers: \"Even though you're *sure* you succe...\"",
+              "articyId": "0x0100000600014B2C",
+              "text": "Even though you're *sure* you succeeded, all is quiet. There is no cold hand brushing against your forehead, no rustle in the reeds -- the wind has died down. The ruin in front of you is silent as a tomb.",
+              "links": [
+                {
+                  "id": 272,
+                  "title": "You: \"What was I even attempting to do he...\"",
+                  "articyId": "0x0100001600009480",
+                  "text": "What was I even attempting to do here?",
+                  "links": [
+                    {
+                      "id": 258,
+                      "title": "Shivers: \"Trying to talk to the wind, or the...\"",
+                      "articyId": "0x01000016000096C9",
+                      "text": "Trying to talk to the wind, or the city? Whatever you thought would happen did not, and now you're just standing there with your hands fallen to your side.",
+                      "links": [
+                        {
+                          "id": 279,
+                          "title": "Logic: \"Is *trying to talk to the city* som...\"",
+                          "articyId": "0x0100000600014947",
+                          "text": "Is *trying to talk to the city* something you've done before? Is it in your secret repertoire -- a trick for when you're out of ideas?",
+                          "links": [
+                            {
+                              "id": 313,
+                              "title": "Inland Empire: \"A prayer of sorts? To Revachol.\"",
+                              "articyId": "0x010000060001494E",
+                              "text": "A prayer of sorts? To Revachol.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 144,
+                  "title": "You: \"(Turn to the lieutenant.) \"She coul...\"",
+                  "articyId": "0x0100001600009470",
+                  "text": "(Turn to the lieutenant.) \"She could be *anywhere*, how do we find her?\"",
+                  "links": [
+                    {
+                      "id": 88,
+                      "title": "Kim Kitsuragi: \"\"How *do* we? I was really hoping s...\"",
+                      "articyId": "0x0100001600009499",
+                      "text": "\"How *do* we? I was really hoping she'd be in the village...\" The lieutenant sighs, then gets a hold of himself: \"Okay.\"",
+                      "links": [
+                        {
+                          "id": 105,
+                          "title": "Kim Kitsuragi: \"\"She's *probably* north of the vill...\"",
+                          "articyId": "0x01000016000094A1",
+                          "text": "\"She's *probably* north of the village and this place is a peninsula. I think there's people west of here, we could ask them...\" He looks to his right and cups his ear.",
+                          "links": [
+                            {
+                              "id": 177,
+                              "title": "Kim Kitsuragi: \"\"And then there's the church.\" He l...\"",
+                              "articyId": "0x01000016000096B5",
+                              "text": "\"And then there's the church.\" He looks at the bell tower. \"If I were a murder suspect I would not hide in the most prominent building here, but who knows? Maybe she's reckless...\"",
+                              "links": [
+                                {
+                                  "id": 87,
+                                  "title": "Kim Kitsuragi: \"\"Anyway -- we do it the old fashion...\"",
+                                  "articyId": "0x010000160000944B",
+                                  "text": "\"Anyway -- we do it the old fashioned way: sector by sector. Go over the whole peninsula, ask the locals, enter the places where we *can* enter first. Like we did in the village.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 89,
+                                  "title": "Conceptualization: \"Or spiritual? She could be looking...\"",
+                                  "articyId": "0x01000016000094C1",
+                                  "text": "Or spiritual? She could be looking for refuge...",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 159,
+                              "title": "Perception (Hearing): \"Indeed. You hear what sounds like t...\"",
+                              "articyId": "0x010000160000971D",
+                              "text": "Indeed. You hear what sounds like two men arguing where the lieutenant is pointing.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 18,
+                  "title": "You: \"She could be *anywhere*, how do I f...\"",
+                  "articyId": "0x0100000600014963",
+                  "text": "She could be *anywhere*, how do I find her?",
+                  "links": [
+                    {
+                      "id": 78,
+                      "title": "Shivers: \"How hard can it be? You were told s...\"",
+                      "articyId": "0x01000006000149C0",
+                      "text": "How hard can it be? You were told she's north of the village and this place is a peninsula. Look around. West of here there are people, talking. Who could it be, you cup your ear and think?",
+                      "links": [
+                        {
+                          "id": 167,
+                          "title": "Shivers: \"And then there's the church. You lo...\"",
+                          "articyId": "0x01000006000149B2",
+                          "text": "And then there's the church. You look at the bell tower rising into the clouds -- a prominent place to hide, but maybe she's reckless?",
+                          "links": [
+                            {
+                              "id": 314,
+                              "title": "Shivers: \"Anyway -- you do it sector by secto...\"",
+                              "articyId": "0x01000006000149A6",
+                              "text": "Anyway -- you do it sector by sector. Go over the whole peninsula, ask the locals, enter the places which you *can* enter first.",
+                              "links": []
+                            },
+                            {
+                              "id": 77,
+                              "title": "Conceptualization: \"Or spiritual? She could be looking...\"",
+                              "articyId": "0x01000006000149AC",
+                              "text": "Or spiritual? She could be looking for refuge...",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 264,
+                          "title": "Perception (Hearing): \"Indeed. About 70 metres west from h...\"",
+                          "articyId": "0x01000006000149BA",
+                          "text": "Indeed. About 70 metres west from here.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 236,
+                  "title": "You: \"And if that fails? If I don't find...\"",
+                  "articyId": "0x01000006000149ED",
+                  "text": "And if that fails? If I don't find her? (Conclude.)",
+                  "links": [
+                    {
+                      "id": 208,
+                      "title": "Shivers: \"First you need to tune in to the co...\"",
+                      "articyId": "0x01000006000149F4",
+                      "text": "First you need to tune in to the coast, get to know its residents. Then you can search where you can't enter: bunkers, storm drainage, this building here. You can always come back and talk to the wind again -- look where it already got you.",
+                      "links": [
+                        {
+                          "id": 100,
+                          "title": "Savoir Faire: \"An adventure awaits! An adventure o...\"",
+                          "articyId": "0x010000060001498D",
+                          "text": "An adventure awaits! An adventure on the windswept urban coast.",
+                          "links": [
+                            {
+                              "id": 101,
+                              "title": "Endurance: \"Buckle up and raise your collar --...\"",
+                              "articyId": "0x0100000600014995",
+                              "text": "Buckle up and raise your collar -- this search is going to be wet and cold.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 340,
+                  "title": "You: \"\"And if that fails? If we don't fin...\"",
+                  "articyId": "0x010000160000947A",
+                  "text": "\"And if that fails? If we don't find her?\" (Conclude.)",
+                  "links": [
+                    {
+                      "id": 239,
+                      "title": "Kim Kitsuragi: \"\"Then -- if we're desperate -- we c...\"",
+                      "articyId": "0x01000016000094C9",
+                      "text": "\"Then -- if we're desperate -- we can look where we *can't* enter. Bunkers, storm drainage, this place. I'm sure it won't come to that.\" He looks behind him, at the dark red box crumbling across the chasm.",
+                      "links": [
+                        {
+                          "id": 90,
+                          "title": "Shivers: \"Walk the coast, the old boardwalk,...\"",
+                          "articyId": "0x0100002100000BE1",
+                          "text": "Walk the coast, the old boardwalk, the reeds... You can always come back here and talk to the wind again. Look where it already got you.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 23,
+              "title": "Shivers: \"For what? God? God is very, very si...\"",
+              "articyId": "0x0100001600009823",
+              "text": "For what? God? God is very, very silent. Too silent. Even the wind seems tired...",
+              "links": []
+            },
+            {
+              "id": 21,
+              "title": "Shivers: \"For what? A song carried on the bre...\"",
+              "articyId": "0x010000160000952E",
+              "text": "For what? A song carried on the breeze? Or children laughing, far away? You walk and walk these city streets and deserted coast, and all it ever tells you -- is cold.",
+              "links": [
+                {
+                  "id": 341,
+                  "title": "You: \"No. There is something else. In the...\"",
+                  "articyId": "0x0100001600009771",
+                  "text": "No. There is something else. In the wind.",
+                  "links": [
+                    {
+                      "id": 257,
+                      "title": "Shivers: \"*THERE IS NOTHING ELSE.* The though...\"",
+                      "articyId": "0x0100001600009534",
+                      "text": "*THERE IS NOTHING ELSE.* The thought makes your bones rattle, like the skeleton of some deserted building ready to collapse.",
+                      "links": [
+                        {
+                          "id": 48,
+                          "title": "You: \"\"Who said that?\"\"",
+                          "articyId": "0x01000016000097B0",
+                          "text": "\"Who said that?\"",
+                          "links": [
+                            {
+                              "id": 160,
+                              "title": "Kim Kitsuragi: \"\"What? I didn't say anything.\" He l...\"",
+                              "articyId": "0x01000016000097B6",
+                              "text": "\"What? I didn't say anything.\" He looks at you. \"What are we doing here? We keep returning and you act strange.\"",
+                              "links": [
+                                {
+                                  "id": 255,
+                                  "title": "You: \"\"I am trying to ask the wind.\"\"",
+                                  "articyId": "0x010000160000946A",
+                                  "text": "\"I am trying to ask the wind.\"",
+                                  "links": [
+                                    {
+                                      "id": 37,
+                                      "title": "Kim Kitsuragi: \"He stops to consider your words. \"*...\"",
+                                      "articyId": "0x0100001600009598",
+                                      "text": "He stops to consider your words. \"*Ask the wind* sounds like an expression. For when you have no idea. We should continue our search. Perhaps even get a little desperate...\"",
+                                      "links": [
+                                        {
+                                          "id": 108,
+                                          "title": "Kim Kitsuragi: \"He looks around. \"Like -- maybe we...\"",
+                                          "articyId": "0x010000160000980E",
+                                          "text": "He looks around. \"Like -- maybe we can get shovels and dig?\" A quiver of a smile. \"Don't mind that -- a bad attempt at humour.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 241,
+                                  "title": "You: \"\"I am trying to ask Revachol.\"\"",
+                                  "articyId": "0x0100001600009802",
+                                  "text": "\"I am trying to ask Revachol.\"",
+                                  "links": [
+                                    {
+                                      "id": 85,
+                                      "title": "Kim Kitsuragi: \"He stops to consider your words. \"*...\"",
+                                      "articyId": "0x0100000600014A94",
+                                      "text": "He stops to consider your words. \"*Ask Revachol* sounds like an expression. For when you have no idea. We should continue our search. Perhaps even get a little desperate...\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 49,
+                                  "title": "You: \"\"I am performing *black magic*.\"\"",
+                                  "articyId": "0x01000016000097C2",
+                                  "text": "\"I am performing *black magic*.\"",
+                                  "links": [
+                                    {
+                                      "id": 22,
+                                      "title": "Kim Kitsuragi: \"\"Of course. Black magic. The most p...\"",
+                                      "articyId": "0x01000016000097CE",
+                                      "text": "\"Of course. Black magic. The most potent type of magic. If we're that desperate -- may I suggest getting shovels and digging?\" A quiver of a smile.",
+                                      "links": [
+                                        {
+                                          "id": 185,
+                                          "title": "Kim Kitsuragi: \"\"In case she's underground? Don't m...\"",
+                                          "articyId": "0x0100000600014A8D",
+                                          "text": "\"In case she's underground? Don't mind that -- a bad attempt at humour.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 107,
+                                  "title": "You: \"\"I'm just thinking. This is me thin...\"",
+                                  "articyId": "0x01000016000097C8",
+                                  "text": "\"I'm just thinking. This is me thinking. Nothing strange here.\"",
+                                  "links": [
+                                    {
+                                      "id": 169,
+                                      "title": "Kim Kitsuragi: \"\"Of course. We should continue our...\"",
+                                      "articyId": "0x0100000600014A9C",
+                                      "text": "\"Of course. We should continue our search.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 266,
+                              "title": "Trant Heidelstam: \"\"Well...\" The man behind you hesita...\"",
+                              "articyId": "0x0100000600014A5F",
+                              "text": "\"Well...\" The man behind you hesitates for a moment. \"I was *trying* to explain to Mikael what it is the officer keeps returning here for -- then I realized I don't know.\"",
+                              "links": [
+                                {
+                                  "id": 237,
+                                  "title": "You: \"\"I am trying to ask the wind.\"\"",
+                                  "articyId": "0x0100000600014ACE",
+                                  "text": "\"I am trying to ask the wind.\"",
+                                  "links": [
+                                    {
+                                      "id": 33,
+                                      "title": "Trant Heidelstam: \"\"Ask the wind or 'Aska i Vinden' is...\"",
+                                      "articyId": "0x0100000600014AB6",
+                                      "text": "\"Ask the wind or 'Aska i Vinden' is the name of a Vaasan lullaby,\" he remarks. \"Maybe that helps?\"",
+                                      "links": [
+                                        {
+                                          "id": 103,
+                                          "title": "Feld Mural: \"It doesn't.\"",
+                                          "articyId": "0x0100000600014AFB",
+                                          "text": "It doesn't.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 186,
+                                  "title": "You: \"\"I am trying to ask Revachol.\"\"",
+                                  "articyId": "0x0100000600014AAA",
+                                  "text": "\"I am trying to ask Revachol.\"",
+                                  "links": [
+                                    {
+                                      "id": 316,
+                                      "title": "Trant Heidelstam: \"\"'Ask Revachol' is the name of a wa...\"",
+                                      "articyId": "0x0100000600014ADE",
+                                      "text": "\"'Ask Revachol' is the name of a war time radio show the communists used to address civil issues,\" he remarks. \"Maybe that helps?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 253,
+                                  "title": "You: \"\"I am performing *black magic*.\"\"",
+                                  "articyId": "0x0100000600014AC8",
+                                  "text": "\"I am performing *black magic*.\"",
+                                  "links": [
+                                    {
+                                      "id": 86,
+                                      "title": "Trant Heidelstam: \"\"Blood spatter reading, rooster sac...\"",
+                                      "articyId": "0x0100000600014ABC",
+                                      "text": "\"Blood spatter reading, rooster sacrifice -- still quite common in Revachol,\" he remarks. \"Hope it helps.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 119,
+                                  "title": "You: \"\"I'm just thinking. This is me thin...\"",
+                                  "articyId": "0x0100000600014AB0",
+                                  "text": "\"I'm just thinking. This is me thinking. Nothing strange here.\"",
+                                  "links": [
+                                    {
+                                      "id": 317,
+                                      "title": "Trant Heidelstam: \"\"Of course. Didn't mean to imply ot...\"",
+                                      "articyId": "0x0100000600014AE4",
+                                      "text": "\"Of course. Didn't mean to imply otherwise.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 315,
+                              "title": "Feld Mural: \"No one. You're just talking to your...\"",
+                              "articyId": "0x0100000600014A65",
+                              "text": "No one. You're just talking to yourself again -- the letters slowly peeling off the mural seem to form a malevolent smile.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 128,
+                  "title": "You: \"Just blow on your hands for warmth.\"",
+                  "articyId": "0x01000016000097AA",
+                  "text": "Just blow on your hands for warmth.",
+                  "links": [
+                    {
+                      "id": 335,
+                      "title": "Feld Mural: \"Probably a good idea. Blowing on yo...\"",
+                      "articyId": "0x0100000600014A47",
+                      "text": "Probably a good idea. Blowing on your fingers doesn't make them much warmer though...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 69,
+              "title": "Shivers: \"A breeze, like a quiet sigh, moves...\"",
+              "articyId": "0x0100004B00000E3F",
+              "text": "A breeze, like a quiet sigh, moves over you. The cool air breaks across your body. It brings the salt of the sea into your lungs.",
+              "links": [
+                {
+                  "id": 260,
+                  "title": "Shivers: \"GO TO THE CHILDREN OF THE BIG SEA.\"",
+                  "articyId": "0x0100004B00000E44",
+                  "text": "GO TO THE CHILDREN OF THE BIG SEA.",
+                  "links": [
+                    {
+                      "id": 220,
+                      "title": "Rhetoric: \"The big sea... The Big C? That can...\"",
+                      "articyId": "0x0100004B00000E5D",
+                      "text": "The big sea... The Big C? That can only mean one thing: Communism.",
+                      "links": [
+                        {
+                          "id": 24,
+                          "title": "You: \"Yes, Comrade Zephyr. I shall find t...\"",
+                          "articyId": "0x0100004B00000E58",
+                          "text": "Yes, Comrade Zephyr. I shall find them. Girl Child Revolution and Girl Child Communism!",
+                          "links": [
+                            {
+                              "id": 196,
+                              "title": "Shivers: \"BOY CHILD FREEDOM. BOY CHILD JUSTIC...\"",
+                              "articyId": "0x0100004B00000E67",
+                              "text": "BOY CHILD FREEDOM. BOY CHILD JUSTICE.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 219,
+                      "title": "You: \"What the hell was that?\"",
+                      "articyId": "0x0100004B00000E4E",
+                      "text": "What the hell was that?",
+                      "links": [
+                        {
+                          "id": 91,
+                          "title": "Shivers: \"The wind rushes away, leaving you w...\"",
+                          "articyId": "0x0100004B00000E62",
+                          "text": "The wind rushes away, leaving you where you were -- on the rotting boards of the Feld Building.",
+                          "links": [
+                            {
+                              "id": 70,
+                              "title": "Kim Kitsuragi: \"\"Officer?\" The lieutenant watches y...\"",
+                              "articyId": "0x0100004B00000E71",
+                              "text": "\"Officer?\" The lieutenant watches you attentively. \"Are you okay? It looked like we lost you for a second.\"",
+                              "links": [
+                                {
+                                  "id": 246,
+                                  "title": "You: \"\"Did I have a seizure, Kim?\"\"",
+                                  "articyId": "0x0100004B00000E7B",
+                                  "text": "\"Did I have a seizure, Kim?\"",
+                                  "links": [
+                                    {
+                                      "id": 52,
+                                      "title": "Kim Kitsuragi: \"\"Doesn't look like it to me.\" He pa...\"",
+                                      "articyId": "0x0100004B00000E8F",
+                                      "text": "\"Doesn't look like it to me.\" He pauses to study you for a moment. \"Probably not, anyway.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 147,
+                                  "title": "You: \"\"I think I need to talk to some kid...\"",
+                                  "articyId": "0x0100004B00000E80",
+                                  "text": "\"I think I need to talk to some kids in the village.\"",
+                                  "links": [
+                                    {
+                                      "id": 247,
+                                      "title": "Kim Kitsuragi: \"\"When you're ready.\" The lieutenant...\"",
+                                      "articyId": "0x0100004B00000E94",
+                                      "text": "\"When you're ready.\" The lieutenant nods.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 197,
+                                  "title": "You: \"\"The wind told me to talk to childr...\"",
+                                  "articyId": "0x0100004B00000E85",
+                                  "text": "\"The wind told me to talk to children. Let's roll.\"",
+                                  "links": [
+                                    {
+                                      "id": 12,
+                                      "title": "Kim Kitsuragi: \"\"Okay...\" The lieutenant looks down...\"",
+                                      "articyId": "0x0100004B00000EA3",
+                                      "text": "\"Okay...\" The lieutenant looks down the coast, toward the shacks. \"When you're ready, officer.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 275,
+                                  "title": "You: \"\"I need to go to the children, Kim....\"",
+                                  "articyId": "0x0100004B00000E8A",
+                                  "text": "\"I need to go to the children, Kim. Girl Child Communism. Boy Child Freedom.\"",
+                                  "links": [
+                                    {
+                                      "id": 180,
+                                      "title": "Kim Kitsuragi: \"\"Right. Well, I'm sure that after.....\"",
+                                      "articyId": "0x0100004B00000E99",
+                                      "text": "\"Right. Well, I'm sure that after...\" The lieutenant's words come to a slow halt. He pinches the bridge of his nose.",
+                                      "links": [
+                                        {
+                                          "id": 292,
+                                          "title": "Kim Kitsuragi: \"\"You mean we should do that *right...\"",
+                                          "articyId": "0x0100004B00001CE8",
+                                          "text": "\"You mean we should do that *right now*, don't you?\" the lieutenant asks, his usually even tone wavering slightly. \"Can that be done *after* the murder investigation?\"",
+                                          "links": [
+                                            {
+                                              "id": 47,
+                                              "title": "You: \"\"The wind didn't tell me to wait.\"\"",
+                                              "articyId": "0x0100004B00001CF1",
+                                              "text": "\"The wind didn't tell me to wait.\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 148,
+                                              "title": "You: \"\"This is part of the investigation...\"",
+                                              "articyId": "0x0100004B00000E9E",
+                                              "text": "\"This is part of the investigation now.\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 351,
+                                              "title": "You: \"\"Communism is a murder investigatio...\"",
+                                              "articyId": "0x0100004B00000EA8",
+                                              "text": "\"Communism is a murder investigation, Kim. It's about understanding whose bootheel killed the human spirit.\"",
+                                              "links": [
+                                                {
+                                                  "id": 357,
+                                                  "title": "Kim Kitsuragi: \"\"I see. Political theory as detecti...\"",
+                                                  "articyId": "0x0100004B000014FD",
+                                                  "text": "\"I see. Political theory as detective work. Right.\" The lieutenant looks down the coast, toward the shacks. \"After you, officer.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 289,
+                      "title": "You: \"Yes. I understand.\"",
+                      "articyId": "0x0100004B00000E53",
+                      "text": "Yes. I understand.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 240,
+              "title": "Shivers: \"Suddenly, all is quiet. There is no...\"",
+              "articyId": "0x01000016000096C1",
+              "text": "Suddenly, all is quiet. There is no cold hand brushing against your forehead, no rustle in the reeds. The wind has died down, or gone behind a corner? You only hear distant waves washing the coast.",
+              "links": [
+                {
+                  "id": 173,
+                  "title": "Perception (Hearing): \"The ruin in front of you is silent...\"",
+                  "articyId": "0x010000060001D652",
+                  "text": "The ruin in front of you is silent as a tomb.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 336,
+          "title": "You: \"Listen to the wind again.\"",
+          "articyId": "0x0100000600014B34",
+          "text": "Listen to the wind again.",
+          "links": [
+            {
+              "id": 307,
+              "title": "Shivers: \"Suddenly there's a sigh, carried on...\"",
+              "articyId": "0x01000016000098B6",
+              "text": "Suddenly there's a sigh, carried on the molecules around you, moving, flowing from high pressure to low pressure. Like that of a woman emptying her lungs. She wraps the collapsing stone box in front of you in her breath, flowing through it...",
+              "links": [
+                {
+                  "id": 175,
+                  "title": "You: \"Where does it go?\"",
+                  "articyId": "0x010000160000964C",
+                  "text": "Where does it go?",
+                  "links": [
+                    {
+                      "id": 67,
+                      "title": "Shivers: \"In through the collapsed roof, flow...\"",
+                      "articyId": "0x0100001600009863",
+                      "text": "In through the collapsed roof, flowing down a concrete staircase -- to the basement, sweeping away footprints in the dust on the stairs. And then the beach below the boardwalk, its winding tunnels... a whisper away.",
+                      "links": [
+                        {
+                          "id": 51,
+                          "title": "You: \"What is happening...\"",
+                          "articyId": "0x0100001600009975",
+                          "text": "What is happening...",
+                          "links": [
+                            {
+                              "id": 324,
+                              "title": "Shivers: \"SHE'S DOWN THERE.\"",
+                              "articyId": "0x010000160000997C",
+                              "text": "SHE'S DOWN THERE.",
+                              "links": [
+                                {
+                                  "id": 8,
+                                  "title": "You: \"Say: \"I think she's down *there*. B...\"",
+                                  "articyId": "0x010000160000985D",
+                                  "text": "Say: \"I think she's down *there*. Below this building.\"",
+                                  "links": [
+                                    {
+                                      "id": 306,
+                                      "title": "Kim Kitsuragi: \"\"Okay -- why?\"\"",
+                                      "articyId": "0x0100001600009869",
+                                      "text": "\"Okay -- why?\"",
+                                      "links": [
+                                        {
+                                          "id": 56,
+                                          "title": "You: \"\"The twins did hear the radio from...\"",
+                                          "articyId": "0x0100004B00002688",
+                                          "text": "\"The twins did hear the radio from here, so *something* is happening...\"",
+                                          "links": [
+                                            {
+                                              "id": 201,
+                                              "title": "Kim Kitsuragi: \"\"True...  But how do we even get in...\"",
+                                              "articyId": "0x0100004B0000267C",
+                                              "text": "\"True...  But how do we even get in there? The doors were on the collapsed side of this building... they're gone, basically.\"",
+                                              "links": [
+                                                {
+                                                  "id": 259,
+                                                  "title": "Savoir Faire: \"Finally, my time to shine!\"",
+                                                  "articyId": "0x01000016000098A3",
+                                                  "text": "Finally, my time to shine!",
+                                                  "links": [
+                                                    {
+                                                      "id": 145,
+                                                      "title": "You: \"\"There's a ladder next to the sign....\"",
+                                                      "articyId": "0x010000160000957A",
+                                                      "text": "\"There's a ladder next to the sign.\" (Point to it.) \"Perhaps we can climb it? Enter through the roof?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 212,
+                                                          "title": "Kim Kitsuragi: \"\"Perhaps *you* can climb them. *We'...\"",
+                                                          "articyId": "0x01000016000095FF",
+                                                          "text": "\"Perhaps *you* can climb them. *We're* not climbing anything. I'm 43 years old -- and I plan to live to see 70.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 318,
+                                                              "title": "Physical Instrument: \"There has to be a way to use brute...\"",
+                                                              "articyId": "0x01000016000095C5",
+                                                              "text": "There has to be a way to use brute force. Climbing sounds unsafe. Brute force is safe. Look around and find something to break if the ladder fails.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 294,
+                                                                  "title": "Kim Kitsuragi: \"The lieutenant glances down the coa...\"",
+                                                                  "articyId": "0x0100004B00002A52",
+                                                                  "text": "The lieutenant glances down the coast, toward the fishing village. \"There's also still the question of how the twins tuned into Speedfreaks FM...\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 181,
+                                                                      "title": "You: \"\"You just want to dial your favouri...\"",
+                                                                      "articyId": "0x0100004B00002A70",
+                                                                      "text": "\"You just want to dial your favourite radio station, don't you?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 262,
+                                                                          "title": "Kim Kitsuragi: \"A shuffle of nylon as the lieutenan...\"",
+                                                                          "articyId": "0x0100004B00002A7C",
+                                                                          "text": "A shuffle of nylon as the lieutenant shrugs. \"I'm only observing that there's another lead you wanted to follow. And that if you drop the radio lead now, just be prepared to live without having done it.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 75,
+                                                                      "title": "You: \"\"Can we look into that later?\"\"",
+                                                                      "articyId": "0x0100004B00002A5A",
+                                                                      "text": "\"Can we look into that later?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 166,
+                                                                          "title": "Kim Kitsuragi: \"A shuffle of nylon as the lieutenan...\"",
+                                                                          "articyId": "0x0100004B00002A61",
+                                                                          "text": "A shuffle of nylon as the lieutenant shrugs. \"I don't know... It's your call, detective. If you drop the radio lead now, just be prepared to live without having done it.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 312,
+                                                                      "title": "You: \"\"We should look into that before we...\"",
+                                                                      "articyId": "0x0100004B00002A4D",
+                                                                      "text": "\"We should look into that before we move on.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 334,
+                                                                          "title": "Kim Kitsuragi: \"A shuffle of nylon as the lieutenan...\"",
+                                                                          "articyId": "0x0100004B00002A6A",
+                                                                          "text": "A shuffle of nylon as the lieutenant shrugs. \"It's your call, detective. If you drop the radio lead now, just be prepared to live without having done it.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 319,
+                                                      "title": "You: \"\"Yeah, I don't know...\"\"",
+                                                      "articyId": "0x01000016000097F0",
+                                                      "text": "\"Yeah, I don't know...\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 123,
+                                                          "title": "Kim Kitsuragi: \"\"Because I *hope* you didn't mean t...\"",
+                                                          "articyId": "0x01000016000094A7",
+                                                          "text": "\"Because I *hope* you didn't mean to climb that ladder...\" He points to the ladder next to the sign and says: \"It's *not* safe.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 176,
+                                          "title": "You: \"\"The wind told me.\"\"",
+                                          "articyId": "0x0100001600009658",
+                                          "text": "\"The wind told me.\"",
+                                          "links": [
+                                            {
+                                              "id": 106,
+                                              "title": "Kim Kitsuragi: \"He shrugs. \"So how do we get in the...\"",
+                                              "articyId": "0x0100001600009652",
+                                              "text": "He shrugs. \"So how do we get in there? The doors were on the collapsed side of this building... they're gone, basically.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 273,
+                                          "title": "You: \"\"We've looked everywhere else.\"\"",
+                                          "articyId": "0x0100001600009617",
+                                          "text": "\"We've looked everywhere else.\"",
+                                          "links": [
+                                            {
+                                              "id": 39,
+                                              "title": "Kim Kitsuragi: \"\"Right,\" he shrugs. \"How do we get...\"",
+                                              "articyId": "0x0100001600009667",
+                                              "text": "\"Right,\" he shrugs. \"How do we get in there? The doors were on the collapsed side of this building... they're gone, basically.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 320,
+                                          "title": "You: \"\"Ever since I woke up -- maybe even...\"",
+                                          "articyId": "0x010000160000983D",
+                                          "text": "\"Ever since I woke up -- maybe even before -- I've been getting these strange *cold spells*.\"",
+                                          "links": [
+                                            {
+                                              "id": 40,
+                                              "title": "Kim Kitsuragi: \"\"Good, good, yes. Cold spells...\" H...\"",
+                                              "articyId": "0x0100001600009843",
+                                              "text": "\"Good, good, yes. Cold spells...\" He seems incredulous. \"So basically your *hangover* is telling you she's down there?\"",
+                                              "links": [
+                                                {
+                                                  "id": 161,
+                                                  "title": "You: \"\"Yes. I can literally *talk* to my...\"",
+                                                  "articyId": "0x0100001600009849",
+                                                  "text": "\"Yes. I can literally *talk* to my hangover. That's how bad it has gotten.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 325,
+                                                      "title": "Kim Kitsuragi: \"\"Right. How do we get in, though? T...\"",
+                                                      "articyId": "0x0100001600009984",
+                                                      "text": "\"Right. How do we get in, though? The doors were on the collapsed side of this building... they're gone, basically.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 129,
+                                                  "title": "You: \"\"Call it a gut feeling.\"\"",
+                                                  "articyId": "0x01000016000098DF",
+                                                  "text": "\"Call it a gut feeling.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 342,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x01000016000097D6",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Feld Mural: \"You see a once-bright mural towerin...\"",
+      "articyId": "0x010000580000BF05",
+      "text": "You see a once-bright mural towering above you. The signage has peeled off over the years, but you can still make out: 'FELD ELECTRICAL R&D'.",
+      "links": [
+        {
+          "id": 158,
+          "title": "Perception (Sight): \"A slogan used to intertwine with th...\"",
+          "articyId": "0x01000016000093EF",
+          "text": "A slogan used to intertwine with the loops a long time ago. Now only a shadow of peeled letters remains. It says: 'Tomorrow is just a whisper away'.",
+          "links": [
+            {
+              "id": 104,
+              "title": "You: \"\"Tomorrow is just a whisper away...\"\"",
+              "articyId": "0x0100001600009406",
+              "text": "\"Tomorrow is just a whisper away...\"",
+              "links": [
+                {
+                  "id": 58,
+                  "title": "",
+                  "articyId": "t66nlqs16rg5w220",
+                  "text": "\"Looks like tomorrow never came.\" The lieutenant raises the collar of his bomber jacket.",
+                  "links": []
+                },
+                {
+                  "id": 238,
+                  "title": "Trant Heidelstam: \"\"Ah, yes, their famous motto!\" You...\"",
+                  "articyId": "0x0100001600009424",
+                  "text": "\"Ah, yes, their famous motto!\" You hear the man exclaim behind you. \"A fine example of technological optimism, from...\" He says something, but the wind blows and you can't hear him.",
+                  "links": []
+                },
+                {
+                  "id": 188,
+                  "title": "Feld Mural: \"The wind whispers and whispers.\"",
+                  "articyId": "0x010000160000942B",
+                  "text": "The wind whispers and whispers.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 281,
+              "title": "You: \"Step closer.\"",
+              "articyId": "0x0100001600009400",
+              "text": "Step closer.",
+              "links": [
+                {
+                  "id": 252,
+                  "title": "Feld Mural: \"Above the mural -- a collapsed roof...\"",
+                  "articyId": "0x010000580000BF0B",
+                  "text": "Above the mural -- a collapsed roof, broken windows set in walls that are cracking and will soon also fall, and the coastal breeze rustling and sighing in the remains of the edifice.",
+                  "links": [
+                    {
+                      "id": 263,
+                      "title": "Conceptualization: \"Feld *Electrical*. How ironic -- al...\"",
+                      "articyId": "0x010000580000BF11",
+                      "text": "Feld *Electrical*. How ironic -- all these dark rooms...",
+                      "links": [
+                        {
+                          "id": 295,
+                          "title": "Encyclopedia: \"Feld Electrical -- you only know th...\"",
+                          "articyId": "0x010000580000BF17",
+                          "text": "Feld Electrical -- you only know them as a small company that makes ink cartridges. Looks like they used to be... big.",
+                          "links": []
+                        },
+                        {
+                          "id": 130,
+                          "title": "Inland Empire: \"There's something in the wind. Some...\"",
+                          "articyId": "0x0100002100000BCE",
+                          "text": "There's something in the wind. Sometimes the only way to go forward is to fail first.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 211,
+              "title": "You: \"[Turn away.]\"",
+              "articyId": "0x01000016000093E8",
+              "text": "[Turn away.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

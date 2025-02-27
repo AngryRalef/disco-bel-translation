@@ -1,0 +1,489 @@
+{
+  "id": "0x0100004D000023F4",
+  "title": "PAWNSHOP / TABLE OF KNICKKNACKS",
+  "description": "You look at and ask Roy about the figurines on the accessory stand.",
+  "dialogueTree": [
+    {
+      "id": 55,
+      "title": "Knick-knacks Stand: \"You see rows of toy soldiers guardi...\"",
+      "articyId": "0x0100004D0000365E",
+      "text": "You see rows of toy soldiers guarding the rest of the trinkets displayed on the table: some on horseback, others in rags, others yet in bright blue uniforms. All are stern and unyielding in their duty.",
+      "links": [
+        {
+          "id": 42,
+          "title": "You: \"Win 'her' back?\"",
+          "articyId": "0x010000060001F332",
+          "text": "Win 'her' back?",
+          "links": [
+            {
+              "id": 43,
+              "title": "Inland Empire: \"Yes! Buy something nice! A figurine...\"",
+              "articyId": "0x010000060001F338",
+              "text": "Yes! Buy something nice! A figurine.",
+              "links": [
+                {
+                  "id": 68,
+                  "title": "Volition: \"This sounds... off. You shouldn't t...\"",
+                  "articyId": "0x010000060001F347",
+                  "text": "This sounds... off. You shouldn't trust this guy.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "You: \"Inspect the knights on horseback.\"",
+          "articyId": "0x0100004D0000366B",
+          "text": "Inspect the knights on horseback.",
+          "links": [
+            {
+              "id": 45,
+              "title": "Knick-knacks Stand: \"Big men on big horses clad in lamel...\"",
+              "articyId": "0x0100004D0000431A",
+              "text": "Big men on big horses clad in lamellar armour and carrying flintlocks. The kind that would mow down a line of enemy soldiers in the blink of an eye.",
+              "links": [
+                {
+                  "id": 79,
+                  "title": "You: \"(Point at the knights on horseback....\"",
+                  "articyId": "0x0100000600016248",
+                  "text": "(Point at the knights on horseback.) \"These are Franconigerian cavalry, right?\"",
+                  "links": [
+                    {
+                      "id": 67,
+                      "title": "Kim Kitsuragi: \"\"Mhm. I used to be very serious abo...\"",
+                      "articyId": "0x010000060001625A",
+                      "text": "\"Mhm. I used to be very serious about my Franconigerian knights...\" He looks at the dusty figurines in the dim light.",
+                      "links": [
+                        {
+                          "id": 54,
+                          "title": "Esprit de Corps: \"...a long, long time ago.\"",
+                          "articyId": "0x010000060001626B",
+                          "text": "...a long, long time ago.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 53,
+                  "title": "You: \"(Point at the knights on horseback....\"",
+                  "articyId": "0x010000060001624E",
+                  "text": "(Point at the knights on horseback.) \"Who are they?\"",
+                  "links": [
+                    {
+                      "id": 35,
+                      "title": "Kim Kitsuragi: \"\"Franconigerian knights.\" He looks...\"",
+                      "articyId": "0x0100000600016254",
+                      "text": "\"Franconigerian knights.\" He looks at the dusty figurines in the dim light. \"I used to be very serious about these guys.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 98,
+                  "title": "You: \"\"These are Franconigerian cavalry,...\"",
+                  "articyId": "0x0100004D000043BD",
+                  "text": "\"These are Franconigerian cavalry, right?\"",
+                  "links": [
+                    {
+                      "id": 102,
+                      "title": "Bird's Nest Roy: \"\"Yes!\" The man behind the glass tak...\"",
+                      "articyId": "0x0100004D000043D0",
+                      "text": "\"Yes!\" The man behind the glass takes says. \"A little worn around the edges, but I'm pretty sure it's fully intact.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 89,
+                  "title": "You: \"\"Shopkeep, what are these?\"\"",
+                  "articyId": "0x0100004D000044F8",
+                  "text": "\"Shopkeep, what are these?\"",
+                  "links": [
+                    {
+                      "id": 90,
+                      "title": "Bird's Nest Roy: \"\"A classic set. The figurines repre...\"",
+                      "articyId": "0x0100004D0000486C",
+                      "text": "\"A classic set. The figurines represent the Fifth-century Franconigerian Cavalry.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "title": "You: \"Inspect the blue uniforms.\"",
+          "articyId": "0x0100004D000042AE",
+          "text": "Inspect the blue uniforms.",
+          "links": [
+            {
+              "id": 91,
+              "title": "Knick-knacks Stand: \"They're not all blue. These figurin...\"",
+              "articyId": "0x01000054000007ED",
+              "text": "They're not all blue. These figurines also wear gold coats and caps, complimented by orange trousers. They are variously posed, wielding swords and rifles with bayonets.",
+              "links": [
+                {
+                  "id": 49,
+                  "title": "You: \"\"Wait, this looks like René, the ol...\"",
+                  "articyId": "0x010000060001623D",
+                  "text": "\"Wait, this looks like René, the old guy who was playing petanque.\"",
+                  "links": [
+                    {
+                      "id": 60,
+                      "title": "Kim Kitsuragi: \"\"This is what the loyalists looked...\"",
+                      "articyId": "0x010000060001627E",
+                      "text": "\"This is what the loyalists looked like, yes.\" He inspects the figurine. \"At first. Then they wised up and got camouflage.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 80,
+                      "title": "Knick-knacks Stand: \"That they do -- the uniforms are pr...\"",
+                      "articyId": "0x0100000600016285",
+                      "text": "That they do -- the uniforms are precisely the same. Some even have the same shape medals pinned to their chests.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 9,
+                  "title": "You: \"(Point at the blue figurines.) \"Wha...\"",
+                  "articyId": "0x01000054000007FA",
+                  "text": "(Point at the blue figurines.) \"What exactly are these?\"",
+                  "links": [
+                    {
+                      "id": 46,
+                      "title": "Bird's Nest Roy: \"\"Which ones?\" The man peers from hi...\"",
+                      "articyId": "0x0100005400000808",
+                      "text": "\"Which ones?\" The man peers from his glass box. \"Ah! Royalist soldiers from the time of the Revolution. The uniforms are painted a bit too brightly, I suppose.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 11,
+                  "title": "You: \"(Point at the blue figurines.) \"Are...\"",
+                  "articyId": "0x0100005400000800",
+                  "text": "(Point at the blue figurines.) \"Are these royalist soldiers?\"",
+                  "links": [
+                    {
+                      "id": 56,
+                      "title": "Bird's Nest Roy: \"\"Which ones?\" The man peers from hi...\"",
+                      "articyId": "0x010000540000080F",
+                      "text": "\"Which ones?\" The man peers from his glass box. \"Ah, those! Yes, they are. I find the paint job a bit gaudy, but children like bright colours indiscriminately.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "title": "You: \"Inspect the figurines in rags.\"",
+          "articyId": "0x0100004D000042B5",
+          "text": "Inspect the figurines in rags.",
+          "links": [
+            {
+              "id": 73,
+              "title": "Knick-knacks Stand: \"This set of soldiers isn't meant to...\"",
+              "articyId": "0x01000054000007F3",
+              "text": "This set of soldiers isn't meant to look impressive. A few have rifles, but most of them carry pistols -- some even shovels and tall sticks.",
+              "links": [
+                {
+                  "id": 83,
+                  "title": "You: \"(Point at the figurines in rags.) \"...\"",
+                  "articyId": "0x010000540000081D",
+                  "text": "(Point at the figurines in rags.) \"Are these even soldiers?\"",
+                  "links": [
+                    {
+                      "id": 65,
+                      "title": "Bird's Nest Roy: \"\"You're probably talking about the...\"",
+                      "articyId": "0x0100005400000831",
+                      "text": "\"You're probably talking about the revolutionaries, yes?\" the man behind the glass answers. \"Yes -- they are soldiers. Revolutionary soldiers.\"",
+                      "links": [
+                        {
+                          "id": 92,
+                          "title": "Bird's Nest Roy: \"\"I think their poverty has been exa...\"",
+                          "articyId": "0x010000540000083F",
+                          "text": "\"I think their poverty has been exaggerated for effect. When you place them next to the royalists, it doesn't seem like they could possibly win.\"",
+                          "links": [
+                            {
+                              "id": 47,
+                              "title": "You: \"\"It's meant to give people hope --...\"",
+                              "articyId": "0x0100005400000847",
+                              "text": "\"It's meant to give people hope -- even *we* can do it.\"",
+                              "links": [
+                                {
+                                  "id": 20,
+                                  "title": "Bird's Nest Roy: \"\"Maybe.\"\"",
+                                  "articyId": "0x0100005400000855",
+                                  "text": "\"Maybe.\"",
+                                  "links": [
+                                    {
+                                      "id": 66,
+                                      "title": "Inland Empire: \"He seems to have his own take on th...\"",
+                                      "articyId": "0x0100005400000863",
+                                      "text": "He seems to have his own take on the conflict played out in perpetuity by these toys. Might be interesting to find out what it is...",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 104,
+                              "title": "You: \"\"The contrast is meant to be dishea...\"",
+                              "articyId": "0x010000540000084D",
+                              "text": "\"The contrast is meant to be disheartening. As it ought to be.\"",
+                              "links": [
+                                {
+                                  "id": 39,
+                                  "title": "Bird's Nest Roy: \"\"I don't like either set very much,...\"",
+                                  "articyId": "0x010000540000085C",
+                                  "text": "\"I don't like either set very much, to be honest, but there are many parents among my customers.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 40,
+                              "title": "You: \"\"It is impossible to win against th...\"",
+                              "articyId": "0x0100000600016292",
+                              "text": "\"It is impossible to win against the cohorts of capital. Ask my friend Garte, whose bitch it made me.\"",
+                              "links": [
+                                {
+                                  "id": 5,
+                                  "title": "Bird's Nest Roy: \"\"Okay.\" He doesn't bat an eye. \"I d...\"",
+                                  "articyId": "0x010000060001629F",
+                                  "text": "\"Okay.\" He doesn't bat an eye. \"I don't like either set too much, to be honest.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 74,
+                              "title": "You: \"\"I wish it was more *nuanced*. As i...\"",
+                              "articyId": "0x0100000600016299",
+                              "text": "\"I wish it was more *nuanced*. As it stands, I cannot comment.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "title": "You: \"Dig up a truly *cool* figurine in t...\"",
+          "articyId": "0x0100004D000036B3",
+          "text": "Dig up a truly *cool* figurine in the box under the table.",
+          "links": [
+            {
+              "id": 82,
+              "title": "Interfacing: \"Why, what's this? A headless man ri...\"",
+              "articyId": "0x0100004D000046A8",
+              "text": "Why, what's this? A headless man riding a horse? A headless man wearing futuristic track suit trousers that say FALN!",
+              "links": [
+                {
+                  "id": 85,
+                  "title": "You: \"\"The Headless FALN Rider!\"\"",
+                  "articyId": "0x0100000200000CBC",
+                  "text": "\"The Headless FALN Rider!\"",
+                  "links": [
+                    {
+                      "id": 52,
+                      "title": "Bird's Nest Roy: \"\"Indeed.\" He immediately knows what...\"",
+                      "articyId": "0x0100000200000CC3",
+                      "text": "\"Indeed.\" He immediately knows what you're talking about. \"I think I even have his cap somewhere down here...\" He looks for it. \"A tiny miniature FALN cap to go with it. Yours for 50 cents.\"",
+                      "links": [
+                        {
+                          "id": 50,
+                          "title": "Rhetoric: \"He doesn't elaborate on what that m...\"",
+                          "articyId": "0x0100000600016394",
+                          "text": "He doesn't elaborate on what that means -- it's unlikely that he will.",
+                          "links": [
+                            {
+                              "id": 93,
+                              "title": "Kim Kitsuragi: \"The lieutenant studies the figurine...\"",
+                              "articyId": "0x0100000200000CD0",
+                              "text": "The lieutenant studies the figurine with amusement.",
+                              "links": []
+                            },
+                            {
+                              "id": 48,
+                              "title": "Interfacing: \"Cool rider, right? I knew we'd find...\"",
+                              "articyId": "0x0100000200000CDD",
+                              "text": "Cool rider, right? I knew we'd find something worthwhile here! Buy it!",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 51,
+                  "title": "You: \"\"What is this?\" (Show it to the sho...\"",
+                  "articyId": "0x0100004D000046AF",
+                  "text": "\"What is this?\" (Show it to the shopkeep.)",
+                  "links": [
+                    {
+                      "id": 36,
+                      "title": "Bird's Nest Roy: \"\"Oh, that's the Headless FALN Rider.\"\"",
+                      "articyId": "0x0100004D000046BD",
+                      "text": "\"Oh, that's the Headless FALN Rider.\"",
+                      "links": [
+                        {
+                          "id": 27,
+                          "title": "You: \"\"*Who*?\"\"",
+                          "articyId": "0x0100004D000046CB",
+                          "text": "\"*Who*?\"",
+                          "links": [
+                            {
+                              "id": 32,
+                              "title": "Bird's Nest Roy: \"\"The Headless FALN Rider. It's an u...\"",
+                              "articyId": "0x0100004D000046DA",
+                              "text": "\"The Headless FALN Rider. It's an urban legend -- about a man who rides the streets of Revachol sporting a FALN tracksuit. As you can see, he's missing his head.\" He points at the decapitated figurine.",
+                              "links": [
+                                {
+                                  "id": 41,
+                                  "title": "Bird's Nest Roy: \"\"Fifty cents. Bargain-priced! I'll...\"",
+                                  "articyId": "0x01000006000163A4",
+                                  "text": "\"Fifty cents. Bargain-priced! I'll throw in the tiny cap too -- I think he's looking for it, or something. That part of the story has many interpretations.\"",
+                                  "links": [
+                                    {
+                                      "id": 86,
+                                      "title": "Logic: \"He lost his cap when he lost his he...\"",
+                                      "articyId": "0x01000006000163B1",
+                                      "text": "He lost his cap when he lost his head. Perhaps he's looking for the *head*?",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "title": "You: \"\"Of course.\" (Nod knowingly.)\"",
+                          "articyId": "0x0100004D000046C5",
+                          "text": "\"Of course.\" (Nod knowingly.)",
+                          "links": [
+                            {
+                              "id": 28,
+                              "title": "Bird's Nest Roy: \"\"There's been a lot of *interest* i...\"",
+                              "articyId": "0x0100004D000046D3",
+                              "text": "\"There's been a lot of *interest* in that particular figurine. I had to hide it so it wouldn't fall into the wrong hands.\"",
+                              "links": [
+                                {
+                                  "id": 6,
+                                  "title": "Rhetoric: \"He doesn't elaborate on these 'wron...\"",
+                                  "articyId": "0x010000060001639C",
+                                  "text": "He doesn't elaborate on these 'wrong hands' -- it's unlikely that he ever will.",
+                                  "links": [
+                                    {
+                                      "id": 38,
+                                      "title": "Kim Kitsuragi: \"The lieutenant studies the tiny fig...\"",
+                                      "articyId": "0x0100004D00004878",
+                                      "text": "The lieutenant studies the tiny figurine in your hand. \"I've heard about it,\" he says with amusement, \"I've heard the Headless FALN Rider rides a headless bull.\"",
+                                      "links": [
+                                        {
+                                          "id": 103,
+                                          "title": "Bird's Nest Roy: \"\"Yes, there are several competing v...\"",
+                                          "articyId": "0x0100004D00004886",
+                                          "text": "\"Yes, there are several competing versions of the story, but I believe this figurine is a more canonical representation.\"",
+                                          "links": [
+                                            {
+                                              "id": 69,
+                                              "title": "You: \"(Look at Kim, then back at Roy.) \"S...\"",
+                                              "articyId": "0x0100002F0000FF0A",
+                                              "text": "(Look at Kim, then back at Roy.) \"Sorry, what are we talking about again?\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 88,
+                                      "title": "You: \"\"What do you mean?\"\"",
+                                      "articyId": "0x0100002F0000FF01",
+                                      "text": "\"What do you mean?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 101,
+              "title": "Interfacing: \"Everything you pick out seems faded...\"",
+              "articyId": "0x0100004D000036FE",
+              "text": "Everything you pick out seems faded, chipped, and sad somehow. Most of them are  just broken toys.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "title": "You: \"Purchase the Headless FALN Rider an...\"",
+          "articyId": "0x0100004D000042F4",
+          "text": "Purchase the Headless FALN Rider and his cap.",
+          "links": [
+            {
+              "id": 99,
+              "title": "Bird's Nest Roy: \"\"Did I mention that this figurine i...\"",
+              "articyId": "0x01000054000007AD",
+              "text": "\"Did I mention that this figurine is supposed to be lucky? Always carry it with you.\" He grins.",
+              "links": [
+                {
+                  "id": 34,
+                  "title": "Suggestion: \"That was a very smooth salesman's g...\"",
+                  "articyId": "0x0100007100004686",
+                  "text": "That was a very smooth salesman's grin that almost comes off as earnest. You should learn from him.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "You: \"Step away from the table. [Leave.]\"",
+          "articyId": "0x01000054000007BE",
+          "text": "Step away from the table. [Leave.]",
+          "links": []
+        },
+        {
+          "id": 23,
+          "title": "Inland Empire: \"Try to find something pretty and co...\"",
+          "articyId": "0x010000060001F32A",
+          "text": "Try to find something pretty and cool here. Then use it to win her back!",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "id": "0x0100002F0000E5B2",
+  "title": "WHIRLING F2 / MEDICINE CABINET",
+  "description": "Klaasje's medicine cabinet.\n1) Find speed (Saint-Batiste goodstuff)\n2) Find barbiturates, benzos, SOS and narcan\n3) check to steal speed if kim there",
+  "dialogueTree": [
+    {
+      "id": 163,
+      "title": "Medicine Cabinet: \"The cabinet is cleaned out, emptied...\"",
+      "articyId": "0x010000060000DA33",
+      "text": "The cabinet is cleaned out, emptied.",
+      "links": [
+        {
+          "id": 88,
+          "title": "Logic: \"Probably Garte's work. After she wa...\"",
+          "articyId": "0x010000060000DA3B",
+          "text": "Probably Garte's work. After she was arrested.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Medicine Cabinet: \"The medicine cabinet has been clean...\"",
+      "articyId": "0x010000450001AD9A",
+      "text": "The medicine cabinet has been cleaned out. Nothing remains, not one pill or bottle.",
+      "links": [
+        {
+          "id": 21,
+          "title": "Electrochemistry: \"Pity.\"",
+          "articyId": "0x010000450001ADAF",
+          "text": "Pity.",
+          "links": [
+            {
+              "id": 147,
+              "title": "You: \"\"I was kinda hoping the *gift* woul...\"",
+              "articyId": "0x010000450001ADB9",
+              "text": "\"I was kinda hoping the *gift* would be in here.\"",
+              "links": [
+                {
+                  "id": 82,
+                  "title": "Kim Kitsuragi: \"\"Of course you were.\" He nods. \"How...\"",
+                  "articyId": "0x010000450001AE15",
+                  "text": "\"Of course you were.\" He nods. \"How does that work anyway?\"",
+                  "links": [
+                    {
+                      "id": 148,
+                      "title": "You: \"\"How does what work?\"\"",
+                      "articyId": "0x010000450001AE1C",
+                      "text": "\"How does what work?\"",
+                      "links": [
+                        {
+                          "id": 150,
+                          "title": "Kim Kitsuragi: \"\"Amphetamine -- does it make you a...\"",
+                          "articyId": "0x010000450001AE32",
+                          "text": "\"Amphetamine -- does it make you a better detective?\"",
+                          "links": [
+                            {
+                              "id": 84,
+                              "title": "Rhetoric: \"There is little condescension in hi...\"",
+                              "articyId": "0x010000450001AE6E",
+                              "text": "There is little condescension in his phrasing, more measured curiosity.",
+                              "links": [
+                                {
+                                  "id": 2,
+                                  "title": "Suggestion: \"Be honest. He's not grilling you, h...\"",
+                                  "articyId": "0x010000060001EC12",
+                                  "text": "Be honest. He's not grilling you, he just wants to know. Ask if he's ever wanted to take it too.",
+                                  "links": [
+                                    {
+                                      "id": 83,
+                                      "title": "You: \"\"Narcomania is a disease, lieutenan...\"",
+                                      "articyId": "0x010000450001AE5B",
+                                      "text": "\"Narcomania is a disease, lieutenant.\"",
+                                      "links": [
+                                        {
+                                          "id": 166,
+                                          "title": "Kim Kitsuragi: \"\"It may be -- but I asked if it mak...\"",
+                                          "articyId": "0x010000450001AE62",
+                                          "text": "\"It may be -- but I asked if it makes you better at your work?\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 99,
+                                      "title": "You: \"\"What are you talking about? I don'...\"",
+                                      "articyId": "0x010000450001AE39",
+                                      "text": "\"What are you talking about? I don't take amphetamine, don't be *ludicrous*!\"",
+                                      "links": [
+                                        {
+                                          "id": 45,
+                                          "title": "Kim Kitsuragi: \"\"I was just curious. Anyway let's g...\"",
+                                          "articyId": "0x010000450001AE7D",
+                                          "text": "\"I was just curious. Anyway let's go.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 36,
+                                      "title": "You: \"\"It keeps me going -- in the short...\"",
+                                      "articyId": "0x010000450001AE3F",
+                                      "text": "\"It keeps me going -- in the short run.\"",
+                                      "links": [
+                                        {
+                                          "id": 37,
+                                          "title": "Kim Kitsuragi: \"\"Hmh.\" He lets out a little pensive...\"",
+                                          "articyId": "0x010000450001AE9A",
+                                          "text": "\"Hmh.\" He lets out a little pensive hum... \"That's what I thought. Let's go?\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "title": "You: \"\"Honesty, it makes me the detective...\"",
+                                      "articyId": "0x010000450001AE84",
+                                      "text": "\"Honesty, it makes me the detective I am. Have you thought of taking it too?\"",
+                                      "links": [
+                                        {
+                                          "id": 126,
+                                          "title": "Kim Kitsuragi: \"\"Maybe I should?\" He lets out a lit...\"",
+                                          "articyId": "0x010000450001AEA2",
+                                          "text": "\"Maybe I should?\" He lets out a little pensive hum, rubbing his shoulder...",
+                                          "links": [
+                                            {
+                                              "id": 127,
+                                              "title": "Drama: \"It's not insincere. He's actually g...\"",
+                                              "articyId": "0x010000450001AEAA",
+                                              "text": "It's not insincere. He's actually giving it thought.",
+                                              "links": [
+                                                {
+                                                  "id": 108,
+                                                  "title": "Pain Threshold: \"The beating he took must be more se...\"",
+                                                  "articyId": "0x010000450001AEB1",
+                                                  "text": "The beating he took must be more serious than he lets on.",
+                                                  "links": [
+                                                    {
+                                                      "id": 167,
+                                                      "title": "Kim Kitsuragi: \"\"Doesn't the... pupils and the gurn...\"",
+                                                      "articyId": "0x010000450001AED7",
+                                                      "text": "\"Doesn't the... pupils and the gurning jaw, the sweating... doesn't it become tiring after a while?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 139,
+                                                          "title": "You: \"\"Nah, man, the jaw grinding and the...\"",
+                                                          "articyId": "0x010000450001AEDE",
+                                                          "text": "\"Nah, man, the jaw grinding and the sweating -- that's the best part. Shows the medicine is working.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 11,
+                                                              "title": "Kim Kitsuragi: \"\"Right. Thank you for this informat...\"",
+                                                              "articyId": "0x010000450001AF30",
+                                                              "text": "\"Right. Thank you for this information.\" He seems satisfied. \"Should we go?\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 74,
+                                                          "title": "You: \"\"I understand it's unbecoming but i...\"",
+                                                          "articyId": "0x010000450001AEE4",
+                                                          "text": "\"I understand it's unbecoming but if I don't perform this job well I am nothing. It's the price I pay.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 169,
+                                                              "title": "Kim Kitsuragi: \"\"Right. I'll give it some thought.\"...\"",
+                                                              "articyId": "0x010000450001AF23",
+                                                              "text": "\"Right. I'll give it some thought.\" He seems satisfied with your answer. \"Should we go?\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 161,
+                                                          "title": "You: \"\"I'm too high on pyrholidon to noti...\"",
+                                                          "articyId": "0x010000450001AEF2",
+                                                          "text": "\"I'm too high on pyrholidon to notice. Before you ask -- pyrholidon is used for radiation sickness.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 109,
+                                                              "title": "Kim Kitsuragi: \"\"Yes, but... did you know you don't...\"",
+                                                              "articyId": "0x010000450001AEF8",
+                                                              "text": "\"Yes, but... did you know you don't *have* radiation sickness?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 168,
+                                                                  "title": "You: \"\"It gives me fiery visions. A windo...\"",
+                                                                  "articyId": "0x010000450001AF05",
+                                                                  "text": "\"It gives me fiery visions. A window into the heart of things.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 30,
+                                                                      "title": "Kim Kitsuragi: \"\"Right.\" He seems satisfied with yo...\"",
+                                                                      "articyId": "0x010000450001AF5E",
+                                                                      "text": "\"Right.\" He seems satisfied with your answer. \"I can see how that can be useful.\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 140,
+                                                                  "title": "You: \"\"Yes, that does sound dangerous now...\"",
+                                                                  "articyId": "0x010000450001AF0B",
+                                                                  "text": "\"Yes, that does sound dangerous now that I think about it.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 23,
+                                                                      "title": "Kim Kitsuragi: \"\"There's always a price...\" He look...\"",
+                                                                      "articyId": "0x010000450001AF67",
+                                                                      "text": "\"There's always a price...\" He looks out the window.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 101,
+                                                          "title": "You: \"\"Looking like a beast in heat is a...\"",
+                                                          "articyId": "0x010000450001AF44",
+                                                          "text": "\"Looking like a beast in heat is a serious downside, yes.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 102,
+                                                              "title": "Kim Kitsuragi: \"\"I thought so.\" He seems satisfied...\"",
+                                                              "articyId": "0x010000450001AF4D",
+                                                              "text": "\"I thought so.\" He seems satisfied with the answer. \"Should we go?\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "title": "You: \"\"It has no effect on my performance...\"",
+                                      "articyId": "0x010000450001AE8C",
+                                      "text": "\"It has no effect on my performance, I just take it to feel good.\"",
+                                      "links": [
+                                        {
+                                          "id": 100,
+                                          "title": "Kim Kitsuragi: \"\"Hmh.\" He lets out a little pensive...\"",
+                                          "articyId": "0x010000450001AEB9",
+                                          "text": "\"Hmh.\" He lets out a little pensive hum. \"Thought so. Let's go?\"",
+                                          "links": [
+                                            {
+                                              "id": 46,
+                                              "title": "Reaction Speed: \"So... the good lieutenant was looki...\"",
+                                              "articyId": "0x010000450001AEC7",
+                                              "text": "So... the good lieutenant was looking for an edge, was he?",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 178,
+                                      "title": "You: \"\"Better? No. It makes me worse.\"\"",
+                                      "articyId": "0x010000450001AE93",
+                                      "text": "\"Better? No. It makes me worse.\"",
+                                      "links": [
+                                        {
+                                          "id": 179,
+                                          "title": "Kim Kitsuragi: \"\"Hmh.\" He lets out a little pensive...\"",
+                                          "articyId": "0x010000450001AECF",
+                                          "text": "\"Hmh.\" He lets out a little pensive hum. \"Thought so. Let's go?\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 149,
+                      "title": "You: \"Say nothing.\"",
+                      "articyId": "0x010000450001AE22",
+                      "text": "Say nothing.",
+                      "links": [
+                        {
+                          "id": 10,
+                          "title": "Kim Kitsuragi: \"The lieutenant does not pursue the...\"",
+                          "articyId": "0x010000450001AE28",
+                          "text": "The lieutenant does not pursue the subject further, looking out the bathroom window instead.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 116,
+                  "title": "Kim Kitsuragi: \"\"I always took you for more of a dr...\"",
+                  "articyId": "0x010000450001AE53",
+                  "text": "\"I always took you for more of a drunk than a chemical abuser,\" he says as though it's self-evident. \"Anyway.\"",
+                  "links": []
+                },
+                {
+                  "id": 24,
+                  "title": "Cuno: \"\"Nah, pig...\" the kid says looking...\"",
+                  "articyId": "0x0100006B0000185F",
+                  "text": "\"Nah, pig...\" the kid says looking around like a young wolf. \"That'd been too easy. Let's keep looking.\"",
+                  "links": []
+                },
+                {
+                  "id": 75,
+                  "title": "Medicine Cabinet: \"You're just talking to your reflect...\"",
+                  "articyId": "0x010000450001AF7F",
+                  "text": "You're just talking to your reflection in the cabinet doors now... Things are not good with you.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 57,
+              "title": "You: \"\"She's really cleaned this out.\"\"",
+              "articyId": "0x010000450001ADBF",
+              "text": "\"She's really cleaned this out.\"",
+              "links": [
+                {
+                  "id": 35,
+                  "title": "Kim Kitsuragi: \"\"Mhm,\" the lieutenant nods. \"She ce...\"",
+                  "articyId": "0x010000450001ADFE",
+                  "text": "\"Mhm,\" the lieutenant nods. \"She certainly had her priorities straight when she was packing.\"",
+                  "links": []
+                },
+                {
+                  "id": 86,
+                  "title": "Cuno: \"\"Smart chick.\" The kid nods. \"Cuno...\"",
+                  "articyId": "0x0100006B00001865",
+                  "text": "\"Smart chick.\" The kid nods. \"Cuno never leaves shit behind either. Cuno's a pro.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 58,
+              "title": "You: \"[Close the cabinet.]\"",
+              "articyId": "0x010000450001ADC5",
+              "text": "[Close the cabinet.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "title": "Medicine Cabinet: \"This medicine cabinet is stocked wi...\"",
+      "articyId": "0x010000450000EADA",
+      "text": "This medicine cabinet is stocked with drugs, plus an old toothbrush, and...",
+      "links": [
+        {
+          "id": 134,
+          "title": "You: \"Look at the toothbrush.\"",
+          "articyId": "0x010000450000E85F",
+          "text": "Look at the toothbrush.",
+          "links": [
+            {
+              "id": 112,
+              "title": "Medicine Cabinet: \"It's been used. Quite a lot.\"",
+              "articyId": "0x010000450000E88A",
+              "text": "It's been used. Quite a lot.",
+              "links": [
+                {
+                  "id": 89,
+                  "title": "Perception (Sight): \"But not for scrubbing blood off til...\"",
+                  "articyId": "0x010000450000E892",
+                  "text": "But not for scrubbing blood off tiles -- or anything else interesting, it seems.",
+                  "links": [
+                    {
+                      "id": 65,
+                      "title": "Perception (Smell): \"It's clean of chemical odours too....\"",
+                      "articyId": "0x010000450000E8AE",
+                      "text": "It's clean of chemical odours too. Just some dried toothpaste on the handle.",
+                      "links": [
+                        {
+                          "id": 118,
+                          "title": "Empathy: \"This toothbrush belongs to someone...\"",
+                          "articyId": "0x010000060001ABC3",
+                          "text": "This toothbrush belongs to someone who doesn't give a damn about her teeth.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"Look at the medications.\"",
+          "articyId": "0x010000450000E883",
+          "text": "Look at the medications.",
+          "links": [
+            {
+              "id": 164,
+              "title": "Medicine Cabinet: \"Pharmaceuticals line the shelves. S...\"",
+              "articyId": "0x010000450000E8B7",
+              "text": "Pharmaceuticals line the shelves. Sheet upon sheet and pill bottle next to pill bottle: acetylic acid, APAP, eye drops, blood thinners...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "title": "You: \"\"There's quite the collection in he...\"",
+          "articyId": "0x010000450000E865",
+          "text": "\"There's quite the collection in here.\"",
+          "links": [
+            {
+              "id": 151,
+              "title": "Kim Kitsuragi: \"\"Anything of note?\" he asks in a lo...\"",
+              "articyId": "0x010000450000E8DD",
+              "text": "\"Anything of note?\" he asks in a lowered voice.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "You: \"Search the bottles.\"",
+          "articyId": "0x010000450000E8EF",
+          "text": "Search the bottles.",
+          "links": [
+            {
+              "id": 76,
+              "title": "Medicine Cabinet: \"Pill bottles rattle like bones as y...\"",
+              "articyId": "0x010000450000E8F6",
+              "text": "Pill bottles rattle like bones as you search the cabinet: paracetamol, histaperidol, something in a foreign language you can't read... Behind them: an unusually shaped nasal spray. Its label reads 'NACRA'.",
+              "links": [
+                {
+                  "id": 44,
+                  "title": "Encyclopedia: \"NACRA? This is used to treat opioid...\"",
+                  "articyId": "0x010000450000E90A",
+                  "text": "NACRA? This is used to treat opioid overdoses. Always handy to have around.",
+                  "links": [
+                    {
+                      "id": 67,
+                      "title": "You: \"(Whisper.) \"What's NACRA?\"\"",
+                      "articyId": "0x010000450000E922",
+                      "text": "(Whisper.) \"What's NACRA?\"",
+                      "links": [
+                        {
+                          "id": 105,
+                          "title": "Kim Kitsuragi: \"\"An opioid receptor antagonist. It'...\"",
+                          "articyId": "0x010000450000E935",
+                          "text": "\"An opioid receptor antagonist. It's used for diamorphine overdoses.\"",
+                          "links": [
+                            {
+                              "id": 38,
+                              "title": "Reaction Speed: \"You could say he's on the *lookout*...\"",
+                              "articyId": "0x010000780000A925",
+                              "text": "You could say he's on the *lookout*.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 49,
+                      "title": "You: \"(Whisper.) \"NACRA, opioid antagonis...\"",
+                      "articyId": "0x010000450000E928",
+                      "text": "(Whisper.) \"NACRA, opioid antagonist.\"",
+                      "links": [
+                        {
+                          "id": 15,
+                          "title": "Kim Kitsuragi: \"\"Interesting. That's used for diamo...\"",
+                          "articyId": "0x010000450000E945",
+                          "text": "\"Interesting. That's used for diamorphine overdoses...\" The lieutenant nods -- then looks at the door.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 26,
+                      "title": "You: \"Keep it to yourself.\"",
+                      "articyId": "0x010000450000EA55",
+                      "text": "Keep it to yourself.",
+                      "links": [
+                        {
+                          "id": 68,
+                          "title": "Kim Kitsuragi: \"The lieutenant glances at the rows...\"",
+                          "articyId": "0x010000450000EA5C",
+                          "text": "The lieutenant glances at the rows of pills -- then at the door.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "title": "You: \"Search the pill sheets.\"",
+          "articyId": "0x010000450000E92E",
+          "text": "Search the pill sheets.",
+          "links": [
+            {
+              "id": 66,
+              "title": "Medicine Cabinet: \"Among some foreign -- probably Mess...\"",
+              "articyId": "0x010000450000E91C",
+              "text": "Among some foreign -- probably Messinian, or Gottwaldian -- marked red blister packs you find... what *do* you find? This is going to take a little know-how.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "title": "You: \"Is there something more interesting...\"",
+          "articyId": "0x01000045000104B4",
+          "text": "Is there something more interesting here?",
+          "links": [
+            {
+              "id": 48,
+              "title": "Electrochemistry: \"A bright orange bottle with PREPTID...\"",
+              "articyId": "0x0100000200000366",
+              "text": "A bright orange bottle with PREPTIDE stamped on it. In sunny, happy letters! Jackpot, baby! That's the stuff you're looking for! Your palms begin to sweat just holding that little plastic container.",
+              "links": [
+                {
+                  "id": 142,
+                  "title": "Authority: \"Filthy narco! And look -- it's made...\"",
+                  "articyId": "0x0100006B00009819",
+                  "text": "Filthy narco! And look -- it's made right here in Revachol, by Saint-Batiste. A disgraceful pharmaceutical company attempting to lure people into the gutter. You should destroy it!",
+                  "links": []
+                },
+                {
+                  "id": 135,
+                  "title": "Inland Empire: \"And your chest swells with pride --...\"",
+                  "articyId": "0x010000450000E97E",
+                  "text": "And your chest swells with pride -- look! It's made right here in Revachol, by Saint-Batiste, a proud Revacholian pharmaceutical company with great *traditions*!",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 107,
+              "title": "Electrochemistry: \"...nothing of note. The further you...\"",
+              "articyId": "0x01000045000104AC",
+              "text": "...nothing of note. The further you look the more arcane it gets. You don't know what the rest of this stuff does.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "You: \"Search for the Preptide again.\"",
+          "articyId": "0x010000780000A935",
+          "text": "Search for the Preptide again.",
+          "links": [
+            {
+              "id": 87,
+              "title": "Electrochemistry: \"There it is, the orange sun wearing...\"",
+              "articyId": "0x010000780000A93D",
+              "text": "There it is, the orange sun wearing blister pack. You feel almost *nostalgic* for it.",
+              "links": [
+                {
+                  "id": 94,
+                  "title": "You: \"What's so exciting about this orang...\"",
+                  "articyId": "0x010000450000E9AB",
+                  "text": "What's so exciting about this orange bottle?",
+                  "links": [
+                    {
+                      "id": 131,
+                      "title": "Electrochemistry: \"It's speed, man! Just what you were...\"",
+                      "articyId": "0x010000450000E9B8",
+                      "text": "It's speed, man! Just what you were looking for. They call it *dextroamphetamine* and talk about psychological disorders, but what we're seeing here is some scientifically advanced trucker speed!",
+                      "links": [
+                        {
+                          "id": 43,
+                          "title": "Authority: \"Yes, take it... and then dispose of...\"",
+                          "articyId": "0x0100006B00009832",
+                          "text": "Yes, take it... and then dispose of it! This den of narcomania cannot be allowed stand!",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 119,
+                  "title": "You: \"\"Lieutenant, I also see a brand cal...\"",
+                  "articyId": "0x010000450000E9B1",
+                  "text": "\"Lieutenant, I also see a brand called 'Preptide.'\"",
+                  "links": [
+                    {
+                      "id": 113,
+                      "title": "Kim Kitsuragi: \"\"Preptide -- a euphemism for pharma...\"",
+                      "articyId": "0x010000450000E9C0",
+                      "text": "\"Preptide -- a euphemism for pharmaceutical amphetamine. Prescription speed.\"",
+                      "links": [
+                        {
+                          "id": 152,
+                          "title": "Electrochemistry: \"The fuck are you waiting for, let's...\"",
+                          "articyId": "0x010000450000E9D7",
+                          "text": "The fuck are you waiting for, let's get super fucking PREPPIE!!!",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 50,
+                  "title": "You: \"Take it -- in secret.\"",
+                  "articyId": "0x010000450000E9EE",
+                  "text": "Take it -- in secret.",
+                  "links": [
+                    {
+                      "id": 173,
+                      "title": "Interfacing: \"Silently the bottle slides into you...\"",
+                      "articyId": "0x010000450000EA35",
+                      "text": "Silently the bottle slides into your palm, then -- as you turn -- into your pocket.",
+                      "links": [
+                        {
+                          "id": 141,
+                          "title": "Electrochemistry: \"Feels so sleek and beautiful -- you...\"",
+                          "articyId": "0x0100004C0000C723",
+                          "text": "Feels so sleek and beautiful -- you got it! Here comes the afterburner! Time to become a super-detective again, Harry! Just put it in your sweaty little hand now...",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 133,
+                      "title": "Interfacing: \"You dropped it. Smack dab in the mi...\"",
+                      "articyId": "c9wuzvlesgp8l677",
+                      "text": "You dropped it. Smack dab in the middle of the floor! There it is -- orange as the midsummer evening's sun.",
+                      "links": [
+                        {
+                          "id": 55,
+                          "title": "Perception (Sight): \"Wow. That's unbelievably orange. *A...\"",
+                          "articyId": "0x010000450000EA98",
+                          "text": "Wow. That's unbelievably orange. *Anyone* can see that. It's practically *effervescent*!",
+                          "links": [
+                            {
+                              "id": 174,
+                              "title": "You: \"Pick it up.\"",
+                              "articyId": "0x010000450000EA9F",
+                              "text": "Pick it up.",
+                              "links": [
+                                {
+                                  "id": 165,
+                                  "title": "Kim Kitsuragi: \"The lieutenant *tries* to keep his...\"",
+                                  "articyId": "0x010000450000EAB3",
+                                  "text": "The lieutenant *tries* to keep his eyes on the door, but the Preptide bottle sounds like a rattlesnake -- it's basically a percussion instrument that you're stuffing into your pocket.",
+                                  "links": [
+                                    {
+                                      "id": 47,
+                                      "title": "Electrochemistry: \"Who cares, man? Who cares what the...\"",
+                                      "articyId": "0x0100004C0000C733",
+                                      "text": "Who cares, man? Who cares what the stiff thinks? You got it. Here comes the afterburner! Just put it in your sweaty little hand now...",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 115,
+                              "title": "You: \"Pick it up -- but secretly.\"",
+                              "articyId": "0x010000450000EAA6",
+                              "text": "Pick it up -- but secretly.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 106,
+                      "title": "Interfacing: \"You dropped it. Smack dab in the mi...\"",
+                      "articyId": "0x010000450000EA3B",
+                      "text": "You dropped it. Smack dab in the middle of the floor! There it is -- orange as the midsummer evening's sun, or the lieutenant's bomber jacket.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 25,
+                  "title": "You: \"Just take it in plain sight.\"",
+                  "articyId": "0x010000450000EA08",
+                  "text": "Just take it in plain sight.",
+                  "links": [
+                    {
+                      "id": 78,
+                      "title": "Kim Kitsuragi: \"The lieutenant looks toward the doo...\"",
+                      "articyId": "0x010000450000EA7C",
+                      "text": "The lieutenant looks toward the door as if he didn't see you pilfer that sweet Preptide.",
+                      "links": [
+                        {
+                          "id": 136,
+                          "title": "Interfacing: \"He did, though. He totally did and...\"",
+                          "articyId": "0x010000450000EA83",
+                          "text": "He did, though. He totally did and now he thinks less of you. Should have kept it *sub rosa*.",
+                          "links": [
+                            {
+                              "id": 171,
+                              "title": "Electrochemistry: \"Who cares, man? Who cares what the...\"",
+                              "articyId": "0x010000060001ABCB",
+                              "text": "Who cares, man? Who cares what the stiff thinks? Here comes the afterburner! Just put it in your sweaty little hand now...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 54,
+                      "title": "Medicine Cabinet: \"Feels like gold in your hands. Ligh...\"",
+                      "articyId": "0x010000450000EA75",
+                      "text": "Feels like gold in your hands. Light and precious.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 154,
+                  "title": "You: \"[Close the cabinet.]\"",
+                  "articyId": "0x010000450000EA12",
+                  "text": "[Close the cabinet.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 146,
+          "title": "You: \"[Close the cabinet.]\"",
+          "articyId": "0x010000450000E86B",
+          "text": "[Close the cabinet.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Medicine Cabinet: \"This medicine cabinet is full of wa...\"",
+      "articyId": "0x0100002F0000F8E7",
+      "text": "This medicine cabinet is full of wares -- sheets of pills haphazardly stacked one on top of the other. There's also a toothbrush somewhere in there.",
+      "links": []
+    }
+  ]
+}

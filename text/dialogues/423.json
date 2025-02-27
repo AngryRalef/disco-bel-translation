@@ -1,0 +1,98 @@
+{
+  "id": "0x0100005A0001065A",
+  "title": "THOUGHT / COACH PHYSICAL INSTRUMENT",
+  "description": "Physical Instrument is really adamant about yelling at you. something-something triggers the thought",
+  "dialogueTree": [
+    {
+      "id": 7,
+      "title": "Physical Instrument: \"Son, you've really let yourself go...\"",
+      "articyId": "0x0100005A00013AB5",
+      "text": "Son, you've really let yourself go -- it's a disgrace. But Coach Physical Instrument is going to get you back in prime condition. Even if it takes a million push-ups!",
+      "links": [
+        {
+          "id": 4,
+          "title": "You: \"Coach Physical Instrument? Does tha...\"",
+          "articyId": "0x0100005A00013B0C",
+          "text": "Coach Physical Instrument? Does that mean you'll call me a maggot and a nancy-boy to motivate me?",
+          "links": [
+            {
+              "id": 8,
+              "title": "Physical Instrument: \"Does a master swordsman insult his...\"",
+              "articyId": "0x0100005A00013ABF",
+              "text": "Does a master swordsman insult his own blade? No! I'm going to turn you into an athletic bench-mark, you big pussy!",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"Yes sir! Forge me into organic stee...\"",
+          "articyId": "0x0100005A00013ABA",
+          "text": "Yes sir! Forge me into organic steel, coach!",
+          "links": [
+            {
+              "id": 15,
+              "title": "Physical Instrument: \"It's going to take blood, sweat, pi...\"",
+              "articyId": "0x0100005A00013B14",
+              "text": "It's going to take blood, sweat, piss, and tears, but when I'm done with you, boy, you will be a Master Athlete!",
+              "links": [
+                {
+                  "id": 5,
+                  "title": "You: \"Wait, why piss?\"",
+                  "articyId": "0x0100005A00013ACA",
+                  "text": "Wait, why piss?",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Physical Instrument: \"When a man sets his mind and body o...\"",
+                      "articyId": "0x0100005A00013AD9",
+                      "text": "When a man sets his mind and body on something and gives his hundred and ten percent, he is sometimes going to piss himself. It just happens. No shame in that.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 6,
+                  "title": "You: \"Let's do this, coach, I'm with you!...\"",
+                  "articyId": "0x0100005A00013ACF",
+                  "text": "Let's do this, coach, I'm with you! (Opt in.)",
+                  "links": [
+                    {
+                      "id": 12,
+                      "title": "Physical Instrument: \"Behold, world -- here walks a sport...\"",
+                      "articyId": "0x0100005A00013AE8",
+                      "text": "Behold, world -- here walks a sportsman, hands chalked and hair kept back with a bandana. The *homo athleticus!*.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 13,
+                  "title": "You: \"Too much abuse for my taste. I'm mo...\"",
+                  "articyId": "0x0100005A00013AD4",
+                  "text": "Too much abuse for my taste. I'm more of an intellectual. (Opt out.)",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Physical Instrument: \"Attention, attention! An old has-be...\"",
+                      "articyId": "0x0100005A00013AE3",
+                      "text": "Attention, attention! An old has-been giving up! Come see the has-been quitting again, everyone!",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"I'm really, *really* not interested...\"",
+          "articyId": "0x0100005A00013AFB",
+          "text": "I'm really, *really* not interested. [Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

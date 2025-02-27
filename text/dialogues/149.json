@@ -1,0 +1,560 @@
+{
+  "id": "0x0100002F0000397C",
+  "title": "INVENTORY / WIRRAL MODULE",
+  "description": "Super-popular binoclard fantasy board game (module), feat. faeries and welkin and pygmies and such fantasy folk. The non-grimdark pastoral-bucolic version with maps & miniatures. Basic Wirral info.",
+  "dialogueTree": [
+    {
+      "id": 81,
+      "title": "Wirrâl: \"Large letters on the front form a t...\"",
+      "articyId": "0x0100002F0000D050",
+      "text": "Large letters on the front form a title: \"Wirrâl.\" The colourful box is illustrated with bucolic vistas. The cover art also features odd-looking humanoids, some short, some taller, some with pointy ears, others with ephemeral wings.",
+      "links": [
+        {
+          "id": 96,
+          "title": "You: \"Examine the box.\"",
+          "articyId": "0x0100002F0000D104",
+          "text": "Examine the box.",
+          "links": [
+            {
+              "id": 102,
+              "title": "Wirrâl: \"Text underneath the title, in small...\"",
+              "articyId": "0x0100002F0000D055",
+              "text": "Text underneath the title, in smaller typeface, reads: \"Third Edition, Mega-Setting Supplements Module.\" The side panel adds: \"A sword and sorcery adventure board game. With new maps and miniatures.\"",
+              "links": [
+                {
+                  "id": 33,
+                  "title": "You: \"Shake the box.\"",
+                  "articyId": "0x0100002F0000D2DC",
+                  "text": "Shake the box.",
+                  "links": [
+                    {
+                      "id": 3,
+                      "title": "Wirrâl: \"With fewer items inside, the box no...\"",
+                      "articyId": "0x0100006B000084D7",
+                      "text": "With fewer items inside, the box now rattles with less enthusiasm. Only the map and booklet shuffle around, hitting the sides of the box.",
+                      "links": []
+                    },
+                    {
+                      "id": 8,
+                      "title": "Wirrâl: \"You hear the die rattling inside th...\"",
+                      "articyId": "0x0100006B00008533",
+                      "text": "You hear the die rattling inside the box, bumping against the sides.",
+                      "links": []
+                    },
+                    {
+                      "id": 30,
+                      "title": "Wirrâl: \"You hear the figurine rattling insi...\"",
+                      "articyId": "0x0100006B00008545",
+                      "text": "You hear the figurine rattling inside the box, bumping against the sides.",
+                      "links": []
+                    },
+                    {
+                      "id": 103,
+                      "title": "Wirrâl: \"Mysterious things rattle inside. Wh...\"",
+                      "articyId": "0x0100002F0000D2C3",
+                      "text": "Mysterious things rattle inside. What could they be? Dice? Plastic miniatures? A fantastical alternate world full of magic and wonder?",
+                      "links": [
+                        {
+                          "id": 98,
+                          "title": "Wirrâl: \"None of that witless Man from Hjelm...\"",
+                          "articyId": "0x0100005700023200",
+                          "text": "None of that witless Man from Hjelmdall fascist dross hidden behind faux-realistic allegory. Wirrâl is no cliché-ridden apologia for colonial violence. Wirrâl is pure *imagination*.",
+                          "links": [
+                            {
+                              "id": 29,
+                              "title": "Rhetoric: \"It's not. It's for pansies. Man fro...\"",
+                              "articyId": "0x0100002F0000DB51",
+                              "text": "It's not. It's for pansies. Man from Hjelmdall is way more awesome.",
+                              "links": []
+                            },
+                            {
+                              "id": 89,
+                              "title": "Rhetoric: \"Yes, the Wirrâl setting is known fo...\"",
+                              "articyId": "0x0100002F0000DB59",
+                              "text": "Yes, the Wirrâl setting is known for its complicated system of political alignments. But if you're not into that you can just hack your way through dungeons in search of loot. That's what most people do.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 63,
+                  "title": "You: \"Look at the back.\"",
+                  "articyId": "0x0100002F0000D40F",
+                  "text": "Look at the back.",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Wirrâl: \"A blurb on the back reads: \"Tired o...\"",
+                      "articyId": "0x0100002F0000D300",
+                      "text": "A blurb on the back reads: \"Tired of the tedium and toil of modern life? Escape to Wirrâl! Leave behind isolas and nations with their petty squabbles. Discard electricity, magnets, and boring technological widgets...\"",
+                      "links": [
+                        {
+                          "id": 34,
+                          "title": "Wirrâl: \"\"Succumb to a world of high-Pastern...\"",
+                          "articyId": "0x0100002F0000D407",
+                          "text": "\"Succumb to a world of high-Pasternal fantastique, unleash your imagination and create an adventure of endless possibilities. Discover the terrible secret threatening Wirrâl -- can your band of adventurers save the world?\"",
+                          "links": [
+                            {
+                              "id": 88,
+                              "title": "You: \"Yes, we're ready to take on this ch...\"",
+                              "articyId": "0x0100002F0000D439",
+                              "text": "Yes, we're ready to take on this challenge.",
+                              "links": [
+                                {
+                                  "id": 97,
+                                  "title": "Wirrâl: \"Exactly, that's the spirit! All you...\"",
+                                  "articyId": "0x0100002F0000D447",
+                                  "text": "Exactly, that's the spirit! All you have to do is read an intricate rulebook, study an assortment of maps, unfold the illustrated gameboard, and start rolling dice.",
+                                  "links": [
+                                    {
+                                      "id": 83,
+                                      "title": "Wirrâl: \"In no time you could be romping thr...\"",
+                                      "articyId": "0x0100002F0000D46F",
+                                      "text": "In no time you could be romping through grasslands with low-level characters, hunted by iyskel riders... or battling unspeakable monsters in endless dungeons fraught with danger and despair, conjuring up forceful maegics to aid your quest.",
+                                      "links": [
+                                        {
+                                          "id": 105,
+                                          "title": "Drama: \"Don't forget heated arguments escal...\"",
+                                          "articyId": "0x0100002F0000DB18",
+                                          "text": "Don't forget heated arguments escalating to physical confrontation with your friends.",
+                                          "links": [
+                                            {
+                                              "id": 64,
+                                              "title": "Electrochemistry: \"And beer. Lots of beer.\"",
+                                              "articyId": "0x0100002F0000DB20",
+                                              "text": "And beer. Lots of beer.",
+                                              "links": [
+                                                {
+                                                  "id": 28,
+                                                  "title": "Drama: \"And most importantly, never forget...\"",
+                                                  "articyId": "0x0100002F0000DB33",
+                                                  "text": "And most importantly, never forget to rage-quit if the dice don't go your way!",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 35,
+                              "title": "You: \"I'm not sure I can handle all this...\"",
+                              "articyId": "0x0100002F0000D43F",
+                              "text": "I'm not sure I can handle all this responsibility.",
+                              "links": [
+                                {
+                                  "id": 104,
+                                  "title": "Wirrâl: \"Man up, this is about having struct...\"",
+                                  "articyId": "0x0100002F0000D453",
+                                  "text": "Man up, this is about having structured fun! All you have to do is read an intricate rulebook, study an assortment of maps, unfold the illustrated gameboard, and start rolling dice.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 71,
+                              "title": "You: \"Definitely not, it sounds too dange...\"",
+                              "articyId": "0x0100002F0000D44C",
+                              "text": "Definitely not, it sounds too dangerous.",
+                              "links": [
+                                {
+                                  "id": 72,
+                                  "title": "Wirrâl: \"It's not dangerous, it's fun, struc...\"",
+                                  "articyId": "0x0100002F0000D458",
+                                  "text": "It's not dangerous, it's fun, structured fun! All you have to do is read an intricate rulebook, study an assortment of maps, unfold the illustrated gameboard, and start rolling dice.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 23,
+                  "title": "You: \"Enough inspecting.\"",
+                  "articyId": "0x0100002F0000D415",
+                  "text": "Enough inspecting.",
+                  "links": [
+                    {
+                      "id": 45,
+                      "title": "Wirrâl: \"A colourful box with the title \"Wir...\"",
+                      "articyId": "0x0100002F0000D41F",
+                      "text": "A colourful box with the title \"Wirrâl\" in bold letters. It's a board game.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 99,
+          "title": "You: \"Open the box.\"",
+          "articyId": "0x0100006B00008447",
+          "text": "Open the box.",
+          "links": [
+            {
+              "id": 39,
+              "title": "Wirrâl: \"You pry open the box. Inside you fi...\"",
+              "articyId": "0x0100006B0000845D",
+              "text": "You pry open the box. Inside you find a folded-up map, a small booklet, a 24-sided die, and a little plastic figurine.",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "You: \"Look at the map.\"",
+                  "articyId": "0x0100006B00008507",
+                  "text": "Look at the map.",
+                  "links": [
+                    {
+                      "id": 100,
+                      "title": "Wirrâl: \"A reprint of a crude hand-drawn map...\"",
+                      "articyId": "0x0100006B0000850E",
+                      "text": "A reprint of a crude hand-drawn map. The top left corner reads: 'Lands of Wirrâl.' The map features both small villages and mid-sized towns (with odd names), in addition to meadows, forests, hills, lakes and seas (also with odd names).",
+                      "links": [
+                        {
+                          "id": 84,
+                          "title": "Wirrâl: \"It doesn't seem to correspond with...\"",
+                          "articyId": "0x0100006B00008524",
+                          "text": "It doesn't seem to correspond with anything you've seen thus far. It's not a very helpful map.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 85,
+                  "title": "You: \"Look at the booklet.\"",
+                  "articyId": "0x0100006B000085C9",
+                  "text": "Look at the booklet.",
+                  "links": [
+                    {
+                      "id": 111,
+                      "title": "Wirrâl: \"A quick guide to the maegical races...\"",
+                      "articyId": "0x0100006B00008453",
+                      "text": "A quick guide to the maegical races of Wirrâl. Create your own hero choosing from any of these completely unique and fantastical backgrounds.",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "Wirrâl: \"The options are, in order of import...\"",
+                          "articyId": "0x0100006B00008458",
+                          "text": "The options are, in order of importance: the welkin, the dweorgr, the humans, the faerie folk, and the pygmies.",
+                          "links": [
+                            {
+                              "id": 40,
+                              "title": "You: \"Read about the welkin.\"",
+                              "articyId": "0x0100006B0000846C",
+                              "text": "Read about the welkin.",
+                              "links": [
+                                {
+                                  "id": 112,
+                                  "title": "Wirrâl: \"The welkin -- tall, lithe and grace...\"",
+                                  "articyId": "0x0100006B00008467",
+                                  "text": "The welkin -- tall, lithe and graceful, with long flowing hair and pointy ears. They're known for being powerful maegic users, but can also hold their own in a brawn-driven fight.",
+                                  "links": [
+                                    {
+                                      "id": 69,
+                                      "title": "Wirrâl: \"The welkin come with a variety of e...\"",
+                                      "articyId": "0x0100006B000085E4",
+                                      "text": "The welkin come with a variety of exciting sub-races: high welkin, forest welkin, lake welkin, and snow welkin. But if you're not feeling experimental -- a basic welkin will always do.",
+                                      "links": [
+                                        {
+                                          "id": 12,
+                                          "title": "You: \"Read about the dweorgr.\"",
+                                          "articyId": "0x0100006B00008477",
+                                          "text": "Read about the dweorgr.",
+                                          "links": [
+                                            {
+                                              "id": 18,
+                                              "title": "Wirrâl: \"A grand race of industrious mountai...\"",
+                                              "articyId": "0x0100006B0000847C",
+                                              "text": "A grand race of industrious mountain people. They're short, stout and muscular, and enjoy digging for gold and other precious minerals. They're also well-versed in the art of combat, where they prefer to use axes and hammers.",
+                                              "links": [
+                                                {
+                                                  "id": 10,
+                                                  "title": "Wirrâl: \"The dweorgr also come in a few diff...\"",
+                                                  "articyId": "0x0100006B00008481",
+                                                  "text": "The dweorgr also come in a few different sub-races: hill dweorgr, shield dweorgr, and dark dweorgr.",
+                                                  "links": [
+                                                    {
+                                                      "id": 86,
+                                                      "title": "You: \"Read about the humans.\"",
+                                                      "articyId": "0x0100006B00008613",
+                                                      "text": "Read about the humans.",
+                                                      "links": [
+                                                        {
+                                                          "id": 26,
+                                                          "title": "Wirrâl: \"They're just humans... what else is...\"",
+                                                          "articyId": "0x0100006B0000861A",
+                                                          "text": "They're just humans... what else is there to tell? They're average in all stats and jacks-of-all-trades.",
+                                                          "links": [
+                                                            {
+                                                              "id": 20,
+                                                              "title": "You: \"Read about the faerie folk.\"",
+                                                              "articyId": "0x0100006B000085EC",
+                                                              "text": "Read about the faerie folk.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 70,
+                                                                  "title": "Wirrâl: \"A very small race of flying people,...\"",
+                                                                  "articyId": "0x0100006B000085F2",
+                                                                  "text": "A very small race of flying people, known for being mischievous, full of trickery. They often lure people into their maegical traps. There are no sub-races for the faeries.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 54,
+                                                                      "title": "You: \"Read about the pygmies.\"",
+                                                                      "articyId": "0x0100006B000085FA",
+                                                                      "text": "Read about the pygmies.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 101,
+                                                                          "title": "Wirrâl: \"The least popular of the Wirrâl rac...\"",
+                                                                          "articyId": "0x0100006B00008600",
+                                                                          "text": "The least popular of the Wirrâl races, the pygmies are short, rotund and dim-witted. Pygmies live in small villages made of shoddy wooden dwellings. They spend most their days tilling the earth and smoking their pipes. There are no sub-races for the pygmies.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 73,
+                              "title": "You: \"Put the booklet away.\"",
+                              "articyId": "0x0100006B00008471",
+                              "text": "Put the booklet away.",
+                              "links": [
+                                {
+                                  "id": 19,
+                                  "title": "Wirrâl: \"You stuff it back inside the box.\"",
+                                  "articyId": "0x0100006B000085BB",
+                                  "text": "You stuff it back inside the box.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 24,
+                  "title": "You: \"Look at the die.\"",
+                  "articyId": "0x0100006B0000848D",
+                  "text": "Look at the die.",
+                  "links": [
+                    {
+                      "id": 46,
+                      "title": "Wirrâl: \"It's made from some sort of wood an...\"",
+                      "articyId": "0x0100006B000084AB",
+                      "text": "It's made from some sort of wood and has been decorated with peculiar plant motifs.",
+                      "links": [
+                        {
+                          "id": 16,
+                          "title": "Encyclopedia: \"You don't know much about dice, but...\"",
+                          "articyId": "0x0100006B00008518",
+                          "text": "You don't know much about dice, but this one looks pretty damn fancy.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "title": "You: \"Take the die.\"",
+                  "articyId": "0x0100006B00008492",
+                  "text": "Take the die.",
+                  "links": [
+                    {
+                      "id": 90,
+                      "title": "Wirrâl: \"You place the die into your pocket....\"",
+                      "articyId": "0x0100006B000084B0",
+                      "text": "You place the die into your pocket. It's always good to have luck on your side.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 74,
+                  "title": "You: \"Look at the figurine.\"",
+                  "articyId": "0x0100006B00008497",
+                  "text": "Look at the figurine.",
+                  "links": [
+                    {
+                      "id": 93,
+                      "title": "Wirrâl: \"You see a man in ragged clothes wea...\"",
+                      "articyId": "0x0100006B000084B5",
+                      "text": "You see a man in ragged clothes wearing a lopsided hat and wielding some sort of a firearm.",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Kim Kitsuragi: \"\"Huh, interesting. A communard.\"\"",
+                          "articyId": "0x0100006B000084F3",
+                          "text": "\"Huh, interesting. A communard.\"",
+                          "links": [
+                            {
+                              "id": 62,
+                              "title": "You: \"\"A what?\"\"",
+                              "articyId": "0x0100007B00001FE8",
+                              "text": "\"A what?\"",
+                              "links": [
+                                {
+                                  "id": 27,
+                                  "title": "Kim Kitsuragi: \"\"A communard. One of the leftist re...\"",
+                                  "articyId": "0x0100007B00001FEF",
+                                  "text": "\"A communard. One of the leftist revolutionaries in the Antecentennial Revolution.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 36,
+                              "title": "You: \"\"What's so interesting about that?\"\"",
+                              "articyId": "0x0100006B0000856F",
+                              "text": "\"What's so interesting about that?\"",
+                              "links": [
+                                {
+                                  "id": 79,
+                                  "title": "Kim Kitsuragi: \"\"The figurine is not a part of the...\"",
+                                  "articyId": "0x0100006B00008591",
+                                  "text": "\"The figurine is not a part of the Wirrâl game setting... I guess someone misplaced it during the packaging process.\"",
+                                  "links": [
+                                    {
+                                      "id": 55,
+                                      "title": "You: \"\"Does this mean we can't play?\"\"",
+                                      "articyId": "0x0100007B00001FF8",
+                                      "text": "\"Does this mean we can't play?\"",
+                                      "links": [
+                                        {
+                                          "id": 80,
+                                          "title": "Kim Kitsuragi: \"The lieutenant shrugs. \"I have a fe...\"",
+                                          "articyId": "0x0100007B00001FFE",
+                                          "text": "The lieutenant shrugs. \"I have a feeling the figurines are more there to set the scene than anything else.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 91,
+                                      "title": "You: \"\"Maybe someone should make a role-p...\"",
+                                      "articyId": "0x0100007B00002006",
+                                      "text": "\"Maybe someone should make a role-playing game set during the Revolution.\"",
+                                      "links": [
+                                        {
+                                          "id": 44,
+                                          "title": "Kim Kitsuragi: \"\"Hmm. Good luck finding people who'...\"",
+                                          "articyId": "0x0100007B0000200C",
+                                          "text": "\"Hmm. Good luck finding people who'd want to play as communards.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 31,
+                              "title": "You: \"\"That doesn't sound very Wirrâl-lik...\"",
+                              "articyId": "0x0100006B00008574",
+                              "text": "\"That doesn't sound very Wirrâl-like.\"",
+                              "links": [
+                                {
+                                  "id": 61,
+                                  "title": "Kim Kitsuragi: \"\"It is not. The communards are not...\"",
+                                  "articyId": "0x0100006B0000859C",
+                                  "text": "\"It is not. The communards are not a part of the game setting... I guess someone misplaced it during the packaging process.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 107,
+                          "title": "Logic: \"A leftist revolutionary... a commun...\"",
+                          "articyId": "0x0100006B000084F8",
+                          "text": "A leftist revolutionary... a communard. He looks lost, a stranger in a strange land. Most likely, he was just stuck in the wrong box on accident.",
+                          "links": []
+                        },
+                        {
+                          "id": 32,
+                          "title": "Logic: \"An odd-looking fellow... he doesn't...\"",
+                          "articyId": "0x0100006B00008580",
+                          "text": "An odd-looking fellow... he doesn't seem to fit the rest of the setting. He has more of a... *revolutionary* tinge.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 92,
+                  "title": "You: \"Take the figurine.\"",
+                  "articyId": "0x0100006B0000849C",
+                  "text": "Take the figurine.",
+                  "links": [
+                    {
+                      "id": 47,
+                      "title": "Wirrâl: \"You pick the figurine up by the bas...\"",
+                      "articyId": "0x0100006B000084BA",
+                      "text": "You pick the figurine up by the base to meet your gaze. The little plastic man stares back at you, his face contorted into a disturbing shout. Then you pocket it.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 106,
+                  "title": "You: \"Close the box.\"",
+                  "articyId": "0x0100006B000084A1",
+                  "text": "Close the box.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "title": "You: \"Put the box away.\"",
+          "articyId": "0x0100002F0000D0F9",
+          "text": "Put the box away.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

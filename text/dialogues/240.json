@@ -1,0 +1,677 @@
+{
+  "id": "0x010000450000E6DA",
+  "title": "WHIRLING F1 / SPARE WORKSHOP KEYS",
+  "description": "Somewhere in the room are the previous owner's spare keys to the pinball workshop (door in kitchen). This is the (perc check hidden) dialogue where you find them. (One path to hidden access to roof)1) Mis-connect to instigator because of room",
+  "dialogueTree": [
+    {
+      "id": 107,
+      "title": "Cafeteria Window: \"Again you find yourself looking at...\"",
+      "articyId": "0x010000820001C488",
+      "text": "Again you find yourself looking at that big old window...",
+      "links": [
+        {
+          "id": 136,
+          "title": "You: \"Squint.\"",
+          "articyId": "0x010000820001C465",
+          "text": "Squint.",
+          "links": [
+            {
+              "id": 27,
+              "title": "Cafeteria Window: \"There's a little slide panel up the...\"",
+              "articyId": "0x010000820001C45F",
+              "text": "There's a little slide panel up there, to let some air in. No need to open it in spring. It's still too cold outside.",
+              "links": [
+                {
+                  "id": 147,
+                  "title": "Inland Empire: \"You're not so sure about that. Some...\"",
+                  "articyId": "0x010000820001C4B5",
+                  "text": "You're not so sure about that. Somehow you just *know* -- there's something out there, behind the glass.",
+                  "links": []
+                },
+                {
+                  "id": 143,
+                  "title": "Visual Calculus: \"One can't see into the Union box fr...\"",
+                  "articyId": "0x010000820001C54C",
+                  "text": "One can't see into the Union box from the yard *outside* -- that hawthorn is too thick.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"\"There's something out there.\"\"",
+          "articyId": "0x010000820001C4E1",
+          "text": "\"There's something out there.\"",
+          "links": [
+            {
+              "id": 11,
+              "title": "Shanky: \"\"Yeah -- your mother.\"\"",
+              "articyId": "0x010000820001C4EF",
+              "text": "\"Yeah -- your mother.\"",
+              "links": [
+                {
+                  "id": 15,
+                  "title": "Conceptualization: \"It's not a very good mother-joke, b...\"",
+                  "articyId": "0x010000820001C4FB",
+                  "text": "It's not a very good mother-joke, but the room still laughs. Something about those mother-jokes just *works*.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 119,
+          "title": "You: \"Look out the window.\"",
+          "articyId": "0x010000820001C444",
+          "text": "Look out the window.",
+          "links": [
+            {
+              "id": 118,
+              "title": "Perception (Sight): \"Nothing. Even though you *know* you...\"",
+              "articyId": "0x0100000600016F38",
+              "text": "Nothing. Even though you *know* you should see it -- you don't. Just branches like black tangles of hair. Motionless. The wind in the yard doesn't reach the hawthorn. Maybe come back later and you can try again?",
+              "links": [
+                {
+                  "id": 89,
+                  "title": "Inland Empire: \"It wasn't time yet. You have to kno...\"",
+                  "articyId": "0x0100000600016F41",
+                  "text": "It wasn't time yet. You have to know of the girl... Return when you know more.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 92,
+              "title": "Perception (Sight): \"Nothing, as always. By now you're a...\"",
+              "articyId": "0x010000820001C56E",
+              "text": "Nothing, as always. By now you're almost certain there may be a sparrow's nest on one of the branches.",
+              "links": [
+                {
+                  "id": 109,
+                  "title": "Visual Calculus: \"Yes. The nest of a common house spa...\"",
+                  "articyId": "0x010000820001C5AF",
+                  "text": "Yes. The nest of a common house sparrow. Passer domesticus.",
+                  "links": [
+                    {
+                      "id": 137,
+                      "title": "Inland Empire: \"Keep at it. There must be a reason...\"",
+                      "articyId": "0x010000820001C471",
+                      "text": "Keep at it. There must be a reason you've looked out this window so many times.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 13,
+              "title": "Perception (Sight): \"Nothing, as before. Just black bran...\"",
+              "articyId": "0x010000820001C453",
+              "text": "Nothing, as before. Just black branches.",
+              "links": [
+                {
+                  "id": 102,
+                  "title": "Shanky: \"\"What's this weirdo cop doing now,...\"",
+                  "articyId": "0x010000820001C560",
+                  "text": "\"What's this weirdo cop doing now, huh? Window-shopping?\"",
+                  "links": [
+                    {
+                      "id": 53,
+                      "title": "Alain: \"\"I think he's trying to find dirt o...\"",
+                      "articyId": "0x010000820001C568",
+                      "text": "\"I think he's trying to find dirt on us, in our box. It's what they do, Shanks. Did you know policemen are sometimes called *pigs*?\"",
+                      "links": [
+                        {
+                          "id": 41,
+                          "title": "Shanky: \"\"Wow, no. I hadn't heard that.\"\"",
+                          "articyId": "0x010000820001C57F",
+                          "text": "\"Wow, no. I hadn't heard that.\"",
+                          "links": [
+                            {
+                              "id": 68,
+                              "title": "Alain: \"\"Yeah -- because they like to sniff...\"",
+                              "articyId": "0x010000820001C585",
+                              "text": "\"Yeah -- because they like to sniff around in *dirt*.\" The tattooed man gives you a look.",
+                              "links": [
+                                {
+                                  "id": 70,
+                                  "title": "Logic: \"He's just trying to sound clever. H...\"",
+                                  "articyId": "0x010000820001C5BD",
+                                  "text": "He's just trying to sound clever. He has no idea what you're looking for -- nor do you, yourself.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 81,
+              "title": "Perception (Sight): \"Nothing. Just black tangles like th...\"",
+              "articyId": "0x010000820001C529",
+              "text": "Nothing. Just black tangles like the hair of an old woman. Motionless. The wind in the yard doesn't reach the hawthorn, nor does the light come in from this window.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "title": "You: \"Look out the window.\"",
+          "articyId": "0x0100000600016F7A",
+          "text": "Look out the window.",
+          "links": [
+            {
+              "id": 33,
+              "title": "Perception (Sight): \"There's a yellow ribbon tied to one...\"",
+              "articyId": "0x010000820001C5CE",
+              "text": "There's a yellow ribbon tied to one of the branches -- light yellow, faded with time. A tiny splash of colour in the blackness of the thicket. Hanging from it -- a bronze key.",
+              "links": [
+                {
+                  "id": 114,
+                  "title": "Logic: \"Someone hid the key in the bush and...\"",
+                  "articyId": "0x010000820001C439",
+                  "text": "Someone hid the key in the bush and attached a yellow ribbon to make it easier to find.",
+                  "links": [
+                    {
+                      "id": 3,
+                      "title": "Visual Calculus: \"It's close enough to the latch up t...\"",
+                      "articyId": "0x010000820001C59F",
+                      "text": "It's close enough to the latch up there -- one can slide it open and just take it. Surely not a coincidence.",
+                      "links": [
+                        {
+                          "id": 106,
+                          "title": "You: \"\"Someone's hid a key in the bush.\"...\"",
+                          "articyId": "0x010000820001C433",
+                          "text": "\"Someone's hid a key in the bush.\" (Point at the window.)",
+                          "links": [
+                            {
+                              "id": 86,
+                              "title": "Titus Hardie: \"\"Huh?\" The big guy looks behind him...\"",
+                              "articyId": "0x010000820001C5F0",
+                              "text": "\"Huh?\" The big guy looks behind him.",
+                              "links": [
+                                {
+                                  "id": 17,
+                                  "title": "You: \"\"I need your guys to hand the key t...\"",
+                                  "articyId": "0x010000820001C5FC",
+                                  "text": "\"I need your guys to hand the key to me.\"",
+                                  "links": [
+                                    {
+                                      "id": 151,
+                                      "title": "Shanky: \"\"And *I* need the fatty to get his...\"",
+                                      "articyId": "0x010000820001C606",
+                                      "text": "\"And *I* need the fatty to get his feet amputated 'cause the smell is killing me -- we can't always get what we want.\"",
+                                      "links": [
+                                        {
+                                          "id": 126,
+                                          "title": "Fat Angus: \"\"Goddamnit, Dennis. You know I can'...\"",
+                                          "articyId": "0x010000820001C46B",
+                                          "text": "\"Goddamnit, Dennis. You know I can't help it!\" His whiny voice is in deep contrast with his stature.",
+                                          "links": [
+                                            {
+                                              "id": 58,
+                                              "title": "Glen: \"\"Sorry, Fucko! These *guys* won't h...\"",
+                                              "articyId": "0x010000820001C6A0",
+                                              "text": "\"Sorry, Fucko! These *guys* won't help you. Looks like you're gonna have to go bush-diving. The hawthorn's got a bitch of a bite!\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 111,
+                                  "title": "You: \"\"Can you let me slide by so I can g...\"",
+                                  "articyId": "0x010000820001C635",
+                                  "text": "\"Can you let me slide by so I can grab the thing?\"",
+                                  "links": [
+                                    {
+                                      "id": 124,
+                                      "title": "Alain: \"\"I don't know about that...\" The ta...\"",
+                                      "articyId": "0x010000820001C62F",
+                                      "text": "\"I don't know about that...\" The tattooed man yawns and settles more comfortably on the bench. \"I'm comfortable here... don't think any sliding would really help right now.\"",
+                                      "links": [
+                                        {
+                                          "id": 153,
+                                          "title": "Glen: \"\"Sorry, Fucko! Looks like you're go...\"",
+                                          "articyId": "0x010000820001C623",
+                                          "text": "\"Sorry, Fucko! Looks like you're gonna have to go bush-diving. Good fucking luck with that -- the hawthorn's got a bitch of a bite!\"",
+                                          "links": [
+                                            {
+                                              "id": 94,
+                                              "title": "Shanky: \"\"I'm gonna enjoy the sight of you i...\"",
+                                              "articyId": "0x010000820001C629",
+                                              "text": "\"I'm gonna enjoy the sight of you in the bushes out there...\"",
+                                              "links": [
+                                                {
+                                                  "id": 36,
+                                                  "title": "Theo: \"With a loud thud the old man stands...\"",
+                                                  "articyId": "0x010000820001C680",
+                                                  "text": "With a loud thud the old man stands up -- pushes the window open -- grabs the key from the hawthorn branch and slides it across the table to you.",
+                                                  "links": [
+                                                    {
+                                                      "id": 18,
+                                                      "title": "You: \"Take the key.\"",
+                                                      "articyId": "0x010000820001C6B4",
+                                                      "text": "Take the key.",
+                                                      "links": [
+                                                        {
+                                                          "id": 112,
+                                                          "title": "Theo: \"The key is brass. 'Workshop, Spare'...\"",
+                                                          "articyId": "0x010000820001C686",
+                                                          "text": "The key is brass. 'Workshop, Spare' is etched into its bow. The old man closes the window and sits back down in silence.",
+                                                          "links": [
+                                                            {
+                                                              "id": 146,
+                                                              "title": "Glen: \"\"C'mon, man. We were just having so...\"",
+                                                              "articyId": "0x010000820001C68C",
+                                                              "text": "\"C'mon, man. We were just having some fun! Where's the harm in...?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 37,
+                                                                  "title": "Theo: \"\"I'm tired of listening to your shi...\"",
+                                                                  "articyId": "0x010000820001C692",
+                                                                  "text": "\"I'm tired of listening to your shit.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 46,
+                                                                      "title": "You: \"\"Thank you.\" (Nod to the old man.)\"",
+                                                                      "articyId": "0x010000820001C6D0",
+                                                                      "text": "\"Thank you.\" (Nod to the old man.)",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 16,
+                                                                          "title": "Theo: \"\"Off yourself -- make it up to me,...\"",
+                                                                          "articyId": "0x010000820001C5A9",
+                                                                          "text": "\"Off yourself -- make it up to me, cop. I still got my money on that.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 162,
+                                                                              "title": "Authority: \"There is a silence around this man'...\"",
+                                                                              "articyId": "0x010000820001C672",
+                                                                              "text": "There is a silence around this man's words -- unlike Titus, they're *afraid* of him. That's the type of respect he commands.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 59,
+                                                                          "title": "Theo: \"\"Don't thank me.\" The old man takes...\"",
+                                                                          "articyId": "0x010000820001C6BA",
+                                                                          "text": "\"Don't thank me.\" The old man takes out his pack of chewing tobacco. \"I don't give two shits about your key.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 135,
+                                                                      "title": "You: \"\"Does anyone know why this key was...\"",
+                                                                      "articyId": "0x010000820001C660",
+                                                                      "text": "\"Does anyone know why this key was hanging right outside the Union box window?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 54,
+                                                                          "title": "Titus Hardie: \"\"Didn't even know it was there...\"...\"",
+                                                                          "articyId": "0x010000820001C61D",
+                                                                          "text": "\"Didn't even know it was there...\" The man looks at the key in your hand -- then around the room. \"Boys?\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 139,
+                                                                              "title": "Alain: \"\"No idea.\"\"",
+                                                                              "articyId": "0x010000820001C44B",
+                                                                              "text": "\"No idea.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 152,
+                                                                                  "title": "Eugene: \"\"Never even seen it. Someone must h...\"",
+                                                                                  "articyId": "0x010000820001C60C",
+                                                                                  "text": "\"Never even seen it. Someone must have hidden it there before this room became our place.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 34,
+                                                                      "title": "You: \"(Look at the key in your hand.) \"I...\"",
+                                                                      "articyId": "0x010000820001C5EA",
+                                                                      "text": "(Look at the key in your hand.) \"I wonder what doors does it open?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 67,
+                                                                          "title": "Kim Kitsuragi: \"\"It's for the blue door in the kitc...\"",
+                                                                          "articyId": "0x010000820001C531",
+                                                                          "text": "\"It's for the blue door in the kitchen -- the note inside said the workshop key is behind the window. This is that key.\" He makes a note in his blue notebook.",
+                                                                          "links": []
+                                                                        },
+                                                                        {
+                                                                          "id": 100,
+                                                                          "title": "Kim Kitsuragi: \"\"It's for the blue door in the kitc...\"",
+                                                                          "articyId": "0x010000820001C49A",
+                                                                          "text": "\"It's for the blue door in the kitchen. There was a note there that you missed. It said the workshop key is behind the window. It's this key.\" He makes a note in his blue notebook.",
+                                                                          "links": []
+                                                                        },
+                                                                        {
+                                                                          "id": 108,
+                                                                          "title": "Kim Kitsuragi: \"\"It *could* open the door in the ki...\"",
+                                                                          "articyId": "0x010000820001C546",
+                                                                          "text": "\"It *could* open the door in the kitchen -- the blue door.\" He looks at the key in your hand. \"It says 'Workshop, Spare' -- maybe there's a workshop there?\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 44,
+                                                                              "title": "Logic: \"It's worth a try.\"",
+                                                                              "articyId": "0x010000820001C5F6",
+                                                                              "text": "It's worth a try.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 52,
+                                                                          "title": "Kim Kitsuragi: \"\"There was a barred door on the roo...\"",
+                                                                          "articyId": "0x010000820001C501",
+                                                                          "text": "\"There was a barred door on the roof that did *not* have a lock -- perhaps there is one *downstairs* that does?\" He looks around. \"We should search the *kitchen*.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 2,
+                                                                              "title": "Alain: \"\"What the fuck does the kitchen hav...\"",
+                                                                              "articyId": "0x0100007800010A31",
+                                                                              "text": "\"What the fuck does the kitchen have to do with this?\" The tattooed man does not understand.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 90,
+                                                                                  "title": "Shanky: \"\"While you're in there -- make fatt...\"",
+                                                                                  "articyId": "0x0100007800010A37",
+                                                                                  "text": "\"While you're in there -- make fatty a snack.\" He grins. \"Can't you hear how his stomach is growling?!\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 99,
+                                                                                      "title": "Perception (Hearing): \"You can and it's pretty terrifying.\"",
+                                                                                      "articyId": "0x0100000800001320",
+                                                                                      "text": "You can and it's pretty terrifying.",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 113,
+                                                                                          "title": "Fat Angus: \"\"That's not even funny, Dennis.\"\"",
+                                                                                          "articyId": "0x0100007800010A3D",
+                                                                                          "text": "\"That's not even funny, Dennis.\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 154,
+                                                                                              "title": "Visual Calculus: \"The kitchen -- the only part of the...\"",
+                                                                                              "articyId": "0x010000820001C63D",
+                                                                                              "text": "The kitchen -- the only part of the building you haven't thoroughly searched yet. It's worth a try!",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 158,
+                                                                          "title": "Kim Kitsuragi: \"\"It says... 'Workshop, Spare'.\" He...\"",
+                                                                          "articyId": "0x010000820001C4E9",
+                                                                          "text": "\"It says... 'Workshop, Spare'.\" He looks at the key in your hand. \"There's a door in the *kitchen* that caught my eye yesterday -- it's very *blue*. Maybe there's a workshop behind it?\"",
+                                                                          "links": []
+                                                                        },
+                                                                        {
+                                                                          "id": 45,
+                                                                          "title": "Titus Hardie: \"\"It's an older building -- who know...\"",
+                                                                          "articyId": "0x010000820001C651",
+                                                                          "text": "\"It's an older building -- who knows?\" He shrugs.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 20,
+                                                                              "title": "Empathy: \"The shrug is disingenuous. He's int...\"",
+                                                                              "articyId": "0x010000820001C4A0",
+                                                                              "text": "The shrug is disingenuous. He's intrigued -- if only for a moment.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 4,
+                                                                          "title": "Titus Hardie: \"\"It's an older building -- who know...\"",
+                                                                          "articyId": "0x010000820001C6A6",
+                                                                          "text": "\"It's an older building -- who knows?\" He shrugs.",
+                                                                          "links": []
+                                                                        },
+                                                                        {
+                                                                          "id": 105,
+                                                                          "title": "Titus Hardie: \"\"It's an older building -- who know...\"",
+                                                                          "articyId": "0x010000820001C698",
+                                                                          "text": "\"It's an older building -- who knows?\" He shrugs.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 61,
+                                                                              "title": "Empathy: \"The shrug is disingenuous. He's int...\"",
+                                                                              "articyId": "0x010000820001C47D",
+                                                                              "text": "The shrug is disingenuous. He's intrigued -- if only for a moment.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 35,
+                                                                                  "title": "Visual Calculus: \"The kitchen -- the only part of the...\"",
+                                                                                  "articyId": "0x010000820001C66C",
+                                                                                  "text": "The kitchen -- the only part of the building you haven't thoroughly searched yet.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 95,
+                                                                          "title": "Titus Hardie: \"\"It's an older building -- who know...\"",
+                                                                          "articyId": "0x010000820001C678",
+                                                                          "text": "\"It's an older building -- who knows?\" He shrugs.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 144,
+                                                                      "title": "You: \"\"Maybe this is how Ruby got to the...\"",
+                                                                      "articyId": "0x010000820001C5C8",
+                                                                      "text": "\"Maybe this is how Ruby got to the roof that night? Using this key.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 69,
+                                                                          "title": "Titus Hardie: \"\"Wild theory, cop-man. The worst th...\"",
+                                                                          "articyId": "0x010000820001C5B5",
+                                                                          "text": "\"Wild theory, cop-man. The worst thing is -- I like it. She's been in this box plenty of times. This would give her access to the workshop route.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 32,
+                                                                              "title": "Glen: \"\"Boss, I don't want to make excuses...\"",
+                                                                              "articyId": "0x010000820001C58F",
+                                                                              "text": "\"Boss, I don't want to make excuses for her, but...\" He stops.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 160,
+                                                                                  "title": "Titus Hardie: \"\"Go ahead, Glen.\"\"",
+                                                                                  "articyId": "0x010000820001C579",
+                                                                                  "text": "\"Go ahead, Glen.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 31,
+                                                                                      "title": "Glen: \"\"Why did she put it *back*? After s...\"",
+                                                                                      "articyId": "0x010000820001C55A",
+                                                                                      "text": "\"Why did she put it *back*? After she took it?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 159,
+                                                                                          "title": "Shanky: \"\"Look at Glenny and his girlfriend!\"\"",
+                                                                                          "articyId": "0x010000820001C552",
+                                                                                          "text": "\"Look at Glenny and his girlfriend!\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 91,
+                                                                                              "title": "Titus Hardie: \"\"It's a solid point, Shanks. There'...\"",
+                                                                                              "articyId": "0x010000820001C537",
+                                                                                              "text": "\"It's a solid point, Shanks. There's a lot of things off about pinning this on Ruby. Be careful when you find her, cop -- be *fair*. Give her a chance to defend herself.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 123,
+                                                                                                  "title": "Empathy: \"It's said without aggression. In go...\"",
+                                                                                                  "articyId": "0x010000820001C4F5",
+                                                                                                  "text": "It's said without aggression. In good trust.",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 66,
+                                                                      "title": "You: \"\"Maybe this is somehow connected to...\"",
+                                                                      "articyId": "0x010000820001C523",
+                                                                      "text": "\"Maybe this is somehow connected to Ruby getting to the roof?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 101,
+                                                                          "title": "Titus Hardie: \"\"Your secret route theory?\" He shak...\"",
+                                                                          "articyId": "0x010000820001C50F",
+                                                                          "text": "\"Your secret route theory?\" He shakes his head. \"You're grasping for straws, cop-man. Why'd she put it back if it's hers?\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 62,
+                                                                              "title": "Titus Hardie: \"\"A little wisdom from old Titus --...\"",
+                                                                              "articyId": "0x010000820001C4CF",
+                                                                              "text": "\"A little wisdom from old Titus -- not everything is connected to one thing. Keys just lie around. It's a messy world.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 9,
+                                                                                  "title": "Empathy: \"It's said without aggression -- as...\"",
+                                                                                  "articyId": "0x010000820001C4BB",
+                                                                                  "text": "It's said without aggression -- as genuine advice.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 43,
+                                                                      "title": "You: \"[Leave.]\"",
+                                                                      "articyId": "0x010000820001C5E4",
+                                                                      "text": "[Leave.]",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 125,
+                                  "title": "You: \"\"Titus, can you hand the key to me...\"",
+                                  "articyId": "0x010000820001C643",
+                                  "text": "\"Titus, can you hand the key to me please?\"",
+                                  "links": [
+                                    {
+                                      "id": 104,
+                                      "title": "Titus Hardie: \"\"I'm not your janitor, cop.\" He gla...\"",
+                                      "articyId": "0x010000820001C64B",
+                                      "text": "\"I'm not your janitor, cop.\" He glances at the window. \"I don't even know what you're talking about. There's nothing there.\"",
+                                      "links": [
+                                        {
+                                          "id": 110,
+                                          "title": "Kim Kitsuragi: \"\"If he says it's there, it's there....\"",
+                                          "articyId": "0x010000820001C5DE",
+                                          "text": "\"If he says it's there, it's there.\" The lieutenant takes his glasses off to clean them -- then puts them back on.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "title": "You: \"[Revert your gaze.]\"",
+          "articyId": "0x010000820001C477",
+          "text": "[Revert your gaze.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Cafeteria Window: \"Behind the dockworkers: a ceiling h...\"",
+      "articyId": "0x010000820001C459",
+      "text": "Behind the dockworkers: a ceiling height window. The hawthorn branches scrape the glass like bony fingers.",
+      "links": [
+        {
+          "id": 77,
+          "title": "Inland Empire: \"The men are talking, but you swear...\"",
+          "articyId": "0x010000820001C4A6",
+          "text": "The men are talking, but you swear you hear those black limbs tap on the window as the wind blows outside.",
+          "links": [
+            {
+              "id": 14,
+              "title": "Visual Calculus: \"You see two, maybe three bushes, gr...\"",
+              "articyId": "0x010000820001C4C5",
+              "text": "You see two, maybe three bushes, grown into a single thicket -- over a period of circa 50 years. It takes time for a hedge like that to form.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

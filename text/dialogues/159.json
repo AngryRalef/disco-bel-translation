@@ -1,0 +1,376 @@
+{
+  "id": "0x0100002F0000DEC9",
+  "title": "VILLAGE / BOAT",
+  "description": "This is the boat you can get from the Net picker. This boat takes you to the Sea Fortress island.VILLAGE ORB / ask boat from netpicker",
+  "dialogueTree": [
+    {
+      "id": 43,
+      "title": "ROO A72 Motor Skiff: \"The skiff bobs in the calm waters....\"",
+      "articyId": "0x0100002F00013B12",
+      "text": "The skiff bobs in the calm waters. It has nothing more to do.",
+      "links": []
+    },
+    {
+      "id": 71,
+      "title": "ROO A72 Motor Skiff: \"The skiff floats on the calm mirror...\"",
+      "articyId": "0x0100008900001AA4",
+      "text": "The skiff floats on the calm mirror of the sea -- its two seats are empty.",
+      "links": [
+        {
+          "id": 45,
+          "title": "Inland Empire: \"Once you get in, that's it -- one p...\"",
+          "articyId": "0x010000450001C166",
+          "text": "Once you get in, that's it -- one pull of the starter handle and you're off into the bay. A strange trepidation comes over you: are you sure you want to go *now*?",
+          "links": [
+            {
+              "id": 62,
+              "title": "Savoir Faire: \"Have you made all the necessary pre...\"",
+              "articyId": "0x0100001600003105",
+              "text": "Have you made all the necessary preparations? Closed all your accounts?",
+              "links": [
+                {
+                  "id": 37,
+                  "title": "Logic: \"Remember what the Net Picker said:...\"",
+                  "articyId": "0x01000016000030E8",
+                  "text": "Remember what the Net Picker said: It's a small tank. You won't be going back and forth on this.",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "Esprit de Corps: \"Nothing to do here without the lieu...\"",
+                      "articyId": "0x01000021000032C2",
+                      "text": "Nothing to do here without the lieutenant... You must return here with him.",
+                      "links": []
+                    },
+                    {
+                      "id": 64,
+                      "title": "You: \"\"This banged up old thing... it's a...\"",
+                      "articyId": "0x010000450001C01B",
+                      "text": "\"This banged up old thing... it's a ROO A72.\"",
+                      "links": [
+                        {
+                          "id": 55,
+                          "title": "Kim Kitsuragi: \"\"It'll float.\"\"",
+                          "articyId": "0x010000450001C03A",
+                          "text": "\"It'll float.\"",
+                          "links": [
+                            {
+                              "id": 73,
+                              "title": "Endurance: \"He's too banged up himself -- to ta...\"",
+                              "articyId": "0x010000060000E4C2",
+                              "text": "He's too banged up himself -- to talk torque with you.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 52,
+                      "title": "You: \"\"You take the engine, Kim. I'll hol...\"",
+                      "articyId": "0x010000450001C027",
+                      "text": "\"You take the engine, Kim. I'll hold the boombox.\"",
+                      "links": [
+                        {
+                          "id": 20,
+                          "title": "Kim Kitsuragi: \"\"What?\"\"",
+                          "articyId": "0x010000450001C06D",
+                          "text": "\"What?\"",
+                          "links": [
+                            {
+                              "id": 47,
+                              "title": "You: \"\"What 'what'? How else do we blast...\"",
+                              "articyId": "0x010000450001C074",
+                              "text": "\"What 'what'? How else do we blast *Sad FM* on our way to the island?\"",
+                              "links": [
+                                {
+                                  "id": 65,
+                                  "title": "Kim Kitsuragi: \"\"Fine.\" He gives you resigned shrug...\"",
+                                  "articyId": "0x010000060000E4D8",
+                                  "text": "\"Fine.\" He gives you resigned shrug. \"Let's *blast* Sad FM then.\"",
+                                  "links": [
+                                    {
+                                      "id": 51,
+                                      "title": "Encyclopedia: \"Sad FM is a radio station specializ...\"",
+                                      "articyId": "0x010000060000E4E1",
+                                      "text": "Sad FM is a radio station specializing in sad, slow rock songs. You seem to know its frequency by heart.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 30,
+                              "title": "You: \"\"You heard me. Don't make me repeat...\"",
+                              "articyId": "0x010000450001C07A",
+                              "text": "\"You heard me. Don't make me repeat myself.\"",
+                              "links": [
+                                {
+                                  "id": 76,
+                                  "title": "Kim Kitsuragi: \"\"Fine. Why not?\" He shrugs.\"",
+                                  "articyId": "0x010000450001C08F",
+                                  "text": "\"Fine. Why not?\" He shrugs.",
+                                  "links": [
+                                    {
+                                      "id": 41,
+                                      "title": "Inland Empire: \"Very cool. Now tune it to Sad FM. Y...\"",
+                                      "articyId": "0x010000060000E4D0",
+                                      "text": "Very cool. Now tune it to Sad FM. You know you want to.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 31,
+                              "title": "You: \"Say nothing.\"",
+                              "articyId": "0x010000450001C082",
+                              "text": "Say nothing.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 69,
+                      "title": "You: \"First -- tie your porta-reel boombo...\"",
+                      "articyId": "0x010000450001C0AE",
+                      "text": "First -- tie your porta-reel boombox to the breasthook to keep you company.",
+                      "links": [
+                        {
+                          "id": 9,
+                          "title": "ROO A72 Motor Skiff: \"There. This is now a *Rock and roll...\"",
+                          "articyId": "0x010000450001C0B5",
+                          "text": "There. This is now a *Rock and roll* skiff.",
+                          "links": [
+                            {
+                              "id": 7,
+                              "title": "You: \"Cool.\"",
+                              "articyId": "0x010000450001C0BC",
+                              "text": "Cool.",
+                              "links": [
+                                {
+                                  "id": 3,
+                                  "title": "ROO A72 Motor Skiff: \"It'll keep you company on this lone...\"",
+                                  "articyId": "0x010000450001C0D1",
+                                  "text": "It'll keep you company on this lonely voyage.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 22,
+                              "title": "You: \"What did I just do? Why did I do th...\"",
+                              "articyId": "0x010000450001C0C2",
+                              "text": "What did I just do? Why did I do that?",
+                              "links": [
+                                {
+                                  "id": 44,
+                                  "title": "ROO A72 Motor Skiff: \"Why? Because *Rock and Roll*.\"",
+                                  "articyId": "0x010000450001C0D8",
+                                  "text": "Why? Because *Rock and Roll*.",
+                                  "links": [
+                                    {
+                                      "id": 25,
+                                      "title": "Inland Empire: \"Yeah. *Sad* rock and roll. Tune it...\"",
+                                      "articyId": "0x010000060000E4CA",
+                                      "text": "Yeah. *Sad* rock and roll. Tune it to Sad FM.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 32,
+                      "title": "You: \"Get in and ride to the island.\"",
+                      "articyId": "0x010000450001C132",
+                      "text": "Get in and ride to the island.",
+                      "links": [
+                        {
+                          "id": 23,
+                          "title": "ROO A72 Motor Skiff: \"The boat comes to a slow stop. You...\"",
+                          "articyId": "0x010000450001C10F",
+                          "text": "The boat comes to a slow stop. You turn the engine off -- then there's silence.",
+                          "links": [
+                            {
+                              "id": 24,
+                              "title": "Perception (Hearing): \"In the silence -- a sputter of wing...\"",
+                              "articyId": "0x010000450001C48D",
+                              "text": "In the silence -- a sputter of wings. A flock of quails takes off in the distance...",
+                              "links": [
+                                {
+                                  "id": 57,
+                                  "title": "Shivers: \"There is very little wind here toda...\"",
+                                  "articyId": "0x010000450001C52B",
+                                  "text": "There is very little wind here today. The ghost is standing still. You look at your arms, then the cliffs above you...",
+                                  "links": [
+                                    {
+                                      "id": 58,
+                                      "title": "Kim Kitsuragi: \"\"Let's go.\" He whispers.\"",
+                                      "articyId": "0x010000450001C147",
+                                      "text": "\"Let's go.\" He whispers.",
+                                      "links": [
+                                        {
+                                          "id": 70,
+                                          "title": "You: \"[Climb out.]\"",
+                                          "articyId": "0x010000450001C14F",
+                                          "text": "[Climb out.]",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 2,
+                                      "title": "Cuno: \"\"Good. You made it.\" Cuno stands wi...\"",
+                                      "articyId": "0x0100000700008B96",
+                                      "text": "\"Good. You made it.\" Cuno stands with his arms akimbo, looking at the shadow of the ruined flak tower looming overhead.",
+                                      "links": [
+                                        {
+                                          "id": 46,
+                                          "title": "You: \"[Climb out.]\"",
+                                          "articyId": "0x0100008900001ABE",
+                                          "text": "[Climb out.]",
+                                          "links": [
+                                            {
+                                              "id": 26,
+                                              "title": "Cuno: \"\"I mapped the place out and uh... i...\"",
+                                              "articyId": "0x0100000700008B52",
+                                              "text": "\"I mapped the place out and uh... it looks like both of us aren't gonna make it. This is death island. The hell maw.\" He wipes snot from his nose.",
+                                              "links": [
+                                                {
+                                                  "id": 21,
+                                                  "title": "You: \"\"What the hell are you talking abou...\"",
+                                                  "articyId": "0x0100000700008B6D",
+                                                  "text": "\"What the hell are you talking about?",
+                                                  "links": [
+                                                    {
+                                                      "id": 74,
+                                                      "title": "Cuno: \"\"I don't know.\" He throws his hands...\"",
+                                                      "articyId": "0x0100000700008B60",
+                                                      "text": "\"I don't know.\" He throws his hands in the air.",
+                                                      "links": [
+                                                        {
+                                                          "id": 66,
+                                                          "title": "Cuno: \"\"Maybe Cuno's just pessimistic beca...\"",
+                                                          "articyId": "0x0100000700008B81",
+                                                          "text": "\"Maybe Cuno's just pessimistic because of the massive speed hangover. I did scout the place out. I can fill you in.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 67,
+                                                              "title": "Cuno: \"The kid turns away from you, cautio...\"",
+                                                              "articyId": "0x0100000700008BA0",
+                                                              "text": "The kid turns away from you, cautiously looking to his left and right. He's on the edge.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 68,
+                                                                  "title": "Logic: \"He hasn't been here before either.\"",
+                                                                  "articyId": "0x0100000700008BA8",
+                                                                  "text": "He hasn't been here before either.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 8,
+                                                  "title": "You: \"\"This isn't death island. Is it?\"\"",
+                                                  "articyId": "0x0100000700008B79",
+                                                  "text": "\"This isn't death island. Is it?\"",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 36,
+                                                  "title": "You: \"\"Hell island? Finally.\"\"",
+                                                  "articyId": "0x0100000700008B58",
+                                                  "text": "\"Hell island? Finally.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 42,
+                                                      "title": "Cuno: \"\"Yes... finally.\" He says with some...\"",
+                                                      "articyId": "0x0100000700008B73",
+                                                      "text": "\"Yes... finally.\" He says with some reservations.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 75,
+                                      "title": "ROO A72 Motor Skiff: \"The time has come.\"",
+                                      "articyId": "0x0100002F00012604",
+                                      "text": "The time has come.",
+                                      "links": [
+                                        {
+                                          "id": 72,
+                                          "title": "You: \"[Climb out.]\"",
+                                          "articyId": "0x0100008900001ACA",
+                                          "text": "[Climb out.]",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "title": "You: \"(I'm not ready yet.) [Leave.]\"",
+                      "articyId": "0x010000450001C02D",
+                      "text": "(I'm not ready yet.) [Leave.]",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "ROO A72 Motor Skiff: \"A skiff with a small steering engin...\"",
+      "articyId": "0x010000450001BFF0",
+      "text": "A skiff with a small steering engine in the back floats on the calm mirror of the sea. Its two seats are empty.",
+      "links": [
+        {
+          "id": 39,
+          "title": "Perception (Sight): \"The boat's belly is a shiny yellow...\"",
+          "articyId": "0x010000450001C063",
+          "text": "The boat's belly is a shiny yellow colour, industrial paint over fresh tar. You see it reflect off the water, along with the factory number: A72.",
+          "links": [
+            {
+              "id": 18,
+              "title": "Encyclopedia: \"SRV-made, this machine represents h...\"",
+              "articyId": "0x010000450001BFF7",
+              "text": "SRV-made, this machine represents humanitarian aid from a workers' state on the Samaran isola. The *ROO* logo on the engine gives it away -- that and the white five-pointed star.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

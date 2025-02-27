@@ -1,0 +1,167 @@
+{
+  "id": "0x0100005A0001243A",
+  "title": "DAYCHANGE / TEQUILA BED",
+  "description": "The dialogue between You and your bed. You can sleep, not sleep, read your ledger.",
+  "dialogueTree": [
+    {
+      "id": 45,
+      "title": "Bed: \"The bed is comforting, if a bit run...\"",
+      "articyId": "0x0100005A0001258A",
+      "text": "The bed is comforting, if a bit run down. Still, you've earned a rest.",
+      "links": [
+        {
+          "id": 30,
+          "title": "You: \"Crawl in.\"",
+          "articyId": "0x0100005A0001243B",
+          "text": "Crawl in.",
+          "links": [
+            {
+              "id": 3,
+              "title": "Bed: \"The sheets feel at once coarse and...\"",
+              "articyId": "0x010000710000163A",
+              "text": "The sheets feel at once coarse and clammy against your skin. The bed sags beneath your weight as you stretch out and finally close your eyes...",
+              "links": [
+                {
+                  "id": 13,
+                  "title": "Bed: \"And then sleep doesn't come.\"",
+                  "articyId": "0x010000030000028A",
+                  "text": "And then sleep doesn't come.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "title": "Bed: \"The sheets feel at once coarse and...\"",
+              "articyId": "0x0100005A0001244E",
+              "text": "The sheets feel at once coarse and clammy against your skin. The bed sags beneath your weight as you stretch out and finally close your eyes...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"Go to sleep.\"",
+          "articyId": "0x0100005A0001256B",
+          "text": "Go to sleep.",
+          "links": [
+            {
+              "id": 11,
+              "title": "Bed: \"Across the room, the heating system...\"",
+              "articyId": "0x0100005A00012595",
+              "text": "Across the room, the heating system hums its soft lullaby. The mattress feels soft and sheets warm. It only takes you moments for the world to fall away...",
+              "links": [
+                {
+                  "id": 54,
+                  "title": "Bed: \"...\"",
+                  "articyId": "0x0100002100001245",
+                  "text": "...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "title": "Bed: \"The window is fixed, the sheets are...\"",
+              "articyId": "0x01000021000023B7",
+              "text": "The window is fixed, the sheets are new, it's easier to fall asleep than ever before...",
+              "links": [
+                {
+                  "id": 25,
+                  "title": "Bed: \"...\"",
+                  "articyId": "0x010000210000124C",
+                  "text": "...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 38,
+              "title": "Bed: \"The passage of time has not made th...\"",
+              "articyId": "0x0100005A00012579",
+              "text": "The passage of time has not made the sheets any less coarse. The bed sags beneath your weight as you close your eyes and drift off into an uneasy sleep...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "title": "You: \"Go to sleep.\"",
+          "articyId": "0x01000005000033E5",
+          "text": "Go to sleep.",
+          "links": []
+        },
+        {
+          "id": 49,
+          "title": "You: \"Go to sleep.\"",
+          "articyId": "0x01000005000033EB",
+          "text": "Go to sleep.",
+          "links": []
+        },
+        {
+          "id": 2,
+          "title": "You: \"Go to sleep.\"",
+          "articyId": "0x01000005000033F1",
+          "text": "Go to sleep.",
+          "links": []
+        },
+        {
+          "id": 10,
+          "title": "You: \"Go to sleep.\"",
+          "articyId": "0x01000005000033F7",
+          "text": "Go to sleep.",
+          "links": []
+        },
+        {
+          "id": 43,
+          "title": "You: \"Go to sleep.\"",
+          "articyId": "0x01000005000033FD",
+          "text": "Go to sleep.",
+          "links": []
+        },
+        {
+          "id": 8,
+          "title": "You: \"Go to sleep.\"",
+          "articyId": "0x0100000500003408",
+          "text": "Go to sleep.",
+          "links": []
+        },
+        {
+          "id": 37,
+          "title": "You: \"No time to rest yet. [Leave.]\"",
+          "articyId": "0x0100005A00012447",
+          "text": "No time to rest yet. [Leave.]",
+          "links": []
+        },
+        {
+          "id": 44,
+          "title": "Tutorial Agent: \"The option to go to sleep becomes a...\"",
+          "articyId": "0x010000210000187C",
+          "text": "The option to go to sleep becomes available every night after 21.00.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Bed: \"The bed's a little nicer now. You c...\"",
+      "articyId": "0x01000021000023A0",
+      "text": "The bed's a little nicer now. You could get a good night's sleep here.",
+      "links": []
+    },
+    {
+      "id": 47,
+      "title": "Bed: \"The bed is still cold from the brok...\"",
+      "articyId": "0x0100005A000124C1",
+      "text": "The bed is still cold from the broken window, and not too inviting. But it's yours. You've earned it.",
+      "links": []
+    },
+    {
+      "id": 9,
+      "title": "Bed: \"The bed is cold and not particularl...\"",
+      "articyId": "0x0100005A00012483",
+      "text": "The bed is cold and not particularly inviting, but it's yours. The sheets look awful...",
+      "links": []
+    }
+  ]
+}

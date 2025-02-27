@@ -1,0 +1,678 @@
+{
+  "id": "0x0100005A00011B5D",
+  "title": "INVENTORY / HJELMDALLERMANN",
+  "description": "Hjelmdallermann: the Man from Hjelmdall. A latter introductory book for beginners.",
+  "dialogueTree": [
+    {
+      "id": 18,
+      "title": "Hjelmdallermann: the Man from Hjelmdall: \"The Man from Hjelmdall stares out a...\"",
+      "articyId": "0x010000700000473C",
+      "text": "The Man from Hjelmdall stares out at you from the cover, his face fixed in grim resolve.",
+      "links": [
+        {
+          "id": 9,
+          "title": "You: \"Look at the back cover.\"",
+          "articyId": "0x0100005A00011BEB",
+          "text": "Look at the back cover.",
+          "links": [
+            {
+              "id": 127,
+              "title": "Hjelmdallermann: the Man from Hjelmdall: \"The back blurb reads: \"His latest a...\"",
+              "articyId": "0x0100005A00011BF2",
+              "text": "The back blurb reads: \"His latest adventure serves as the perfect introduction to the savage *Hjelmdall Saga*! Meet Man from Hjelmdall, his faithful blood-brother Tyrbald, the noble Lord Wrôthgär, and some of their most fearsome foes yet. For the Northlands! For HJELMDALL!\"",
+              "links": [
+                {
+                  "id": 67,
+                  "title": "Perception (Sight): \"Below, in smaller font, you see the...\"",
+                  "articyId": "0x0100007000004A73",
+                  "text": "Below, in smaller font, you see the parenthetical: \"(Adapted from: 'Man from Hjelmdall and the Necromancer's Treasure,' 'Man from Hjelmdall: Lord of Wrôthgär,' and 'Man from Hjelmdall: The Curse of Nachtherrer.')\"",
+                  "links": [
+                    {
+                      "id": 51,
+                      "title": "Logic: \"A brazen attempt to bilk fans for m...\"",
+                      "articyId": "0x0100007000004A80",
+                      "text": "A brazen attempt to bilk fans for more money by splicing together old stories under a new title.",
+                      "links": [
+                        {
+                          "id": 47,
+                          "title": "You: \"The publishers must have a dim view...\"",
+                          "articyId": "0x0100006B00006947",
+                          "text": "The publishers must have a dim view of their readership.",
+                          "links": [
+                            {
+                              "id": 105,
+                              "title": "Logic: \"Their main concern is the continuat...\"",
+                              "articyId": "0x0100006B00006955",
+                              "text": "Their main concern is the continuation of the franchise, not making literary history.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 119,
+                          "title": "You: \"Where there's a demand, there's alw...\"",
+                          "articyId": "0x0100006B0000694C",
+                          "text": "Where there's a demand, there's always the supply. Nothing wrong with that.",
+                          "links": [
+                            {
+                              "id": 113,
+                              "title": "Logic: \"People find comfort in familiarity,...\"",
+                              "articyId": "0x0100006B0000695B",
+                              "text": "People find comfort in familiarity, remembering old experiences, looking at old photos, reading old stories.",
+                              "links": [
+                                {
+                                  "id": 46,
+                                  "title": "Conceptualization: \"What better place to escape than pa...\"",
+                                  "articyId": "0x010000070001B2E1",
+                                  "text": "What better place to escape than past?",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "title": "You: \"Read the first couple of pages.\"",
+          "articyId": "0x0100005A00011B7A",
+          "text": "Read the first couple of pages.",
+          "links": [
+            {
+              "id": 42,
+              "title": "Hjelmdallermann: the Man from Hjelmdall: \"You know the story by heart at this...\"",
+              "articyId": "0x010000070001B517",
+              "text": "You know the story by heart at this point. Nothing new or remarkable catches your eye.",
+              "links": []
+            },
+            {
+              "id": 112,
+              "title": "Hjelmdallermann: the Man from Hjelmdall: \"The story opens *in media res*. The...\"",
+              "articyId": "0x0100005A00011B8C",
+              "text": "The story opens *in media res*. The Man from Hjelmdall and his band of northern *reavers* are in the bowels of an ancient temple, surrounded by an army of gibbering *wights* led by the deathless *necromancer*. One by one the brave northmen fall to the relentless crush of undead, only to join their number as reanimated corpses...",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "Hjelmdallermann: the Man from Hjelmdall: \"By nightfall only the Man from Hjel...\"",
+                  "articyId": "0x01000070000043AC",
+                  "text": "By nightfall only the Man from Hjelmdall and his blood-brother, noble Tyrbald are left standing against the dead horde. \"It is an honour to die by your side, brother!\" Tyrbald cries as his battle-axe beheads one of their reanimated comrades.",
+                  "links": [
+                    {
+                      "id": 17,
+                      "title": "You: \"Wow... they're in trouble now.\"",
+                      "articyId": "0x01000070000045D0",
+                      "text": "Wow... they're in trouble now.",
+                      "links": [
+                        {
+                          "id": 110,
+                          "title": "Hjelmdallermann: the Man from Hjelmdall: \"\"*Nein*, Tyrbald!\" the Man from Hje...\"",
+                          "articyId": "0x01000070000043B3",
+                          "text": "\"*Nein*, Tyrbald!\" the Man from Hjelmdall bellows over the army of flesh and bone. \"Have courage! For the Northlands... for HJELMDALL!!!\" He leaps to the mezzanine to face the black-eyed figure and like a mad ice bear whirling twin *zweihänders* -- *Sturm* and *Drang* -- he ploughs through the ranks of the deathless, surrounding the necromancer...",
+                          "links": [
+                            {
+                              "id": 24,
+                              "title": "Hand/Eye Coordination: \"The writer has *never* held a sword...\"",
+                              "articyId": "0x01000070000046E6",
+                              "text": "The writer has *never* held a sword in their life, let alone two two-handed swords at the same time.",
+                              "links": [
+                                {
+                                  "id": 93,
+                                  "title": "Logic: \"It is physically impossible for a h...\"",
+                                  "articyId": "0x010000070001B2F5",
+                                  "text": "It is physically impossible for a human being to effectively dual-wield *zweihänder* swords in any kind of real-life combat situation.",
+                                  "links": [
+                                    {
+                                      "id": 95,
+                                      "title": "Hjelmdallermann: the Man from Hjelmdall: \"... and with deadly finesse his twi...\"",
+                                      "articyId": "0x01000070000043BA",
+                                      "text": "... and with deadly finesse his twin blades scissor the necromancer's head from its body. The undead legions collapse like rag dolls as the dark magic leaves them and the two northmen stand alone in the accursed temple, where the bodies of their lost brothers litter the floors.",
+                                      "links": [
+                                        {
+                                          "id": 27,
+                                          "title": "You: \"Skip ahead.\"",
+                                          "articyId": "0x01000070000043C1",
+                                          "text": "Skip ahead.",
+                                          "links": [
+                                            {
+                                              "id": 13,
+                                              "title": "Hjelmdallermann: the Man from Hjelmdall: \"A few chapters later the Man from H...\"",
+                                              "articyId": "0x01000070000043DB",
+                                              "text": "A few chapters later the Man from Hjelmdall and Tyrbald are in a completely different setting, high above an arid desert, riding a pair of gryffins that always seem to appear at narratively convenient moments...",
+                                              "links": [
+                                                {
+                                                  "id": 131,
+                                                  "title": "Conceptualization: \"This book makes a mockery of the ve...\"",
+                                                  "articyId": "0x01000070000046ED",
+                                                  "text": "This book makes a mockery of the very idea of good plotting, though something tells you coherence was never the point.",
+                                                  "links": [
+                                                    {
+                                                      "id": 107,
+                                                      "title": "Hjelmdallermann: the Man from Hjelmdall: \"The northmen find themselves in the...\"",
+                                                      "articyId": "0x01000070000043E2",
+                                                      "text": "The northmen find themselves in the court of a powerful southern king -- *Lord Wrôthgär*. The old king beseeches the Man from Hjelmdall to rid his kingdom of the *Nachtherrer*, a subterranean clan of blind wizards who traded their souls for demonic powers.",
+                                                      "links": [
+                                                        {
+                                                          "id": 99,
+                                                          "title": "Hjelmdallermann: the Man from Hjelmdall: \"The Man from Hjelmdall extracts a h...\"",
+                                                          "articyId": "0x01000070000043E9",
+                                                          "text": "The Man from Hjelmdall extracts a high price from the desperate king. He asks land for the homeless desert-pygmies living exiled in the kingdom's borderlands. Wrôthgär offers the hand of his eldest daughter instead, but the son of winter does not budge...",
+                                                          "links": [
+                                                            {
+                                                              "id": 28,
+                                                              "title": "You: \"Hold on, why is the Man from Hjelmd...\"",
+                                                              "articyId": "0x01000070000043F0",
+                                                              "text": "Hold on, why is the Man from Hjelmdall doing any of this?",
+                                                              "links": [
+                                                                {
+                                                                  "id": 74,
+                                                                  "title": "Hjelmdallermann: the Man from Hjelmdall: \"What do you mean?\"",
+                                                                  "articyId": "0x01000070000043F7",
+                                                                  "text": "What do you mean?",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 120,
+                                                                      "title": "You: \"Why is he doing all of this?\"",
+                                                                      "articyId": "0x01000070000043FE",
+                                                                      "text": "Why is he doing all of this?",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 43,
+                                                                          "title": "Hjelmdallermann: the Man from Hjelmdall: \"Because the flame of justice burns...\"",
+                                                                          "articyId": "0x010000700000440C",
+                                                                          "text": "Because the flame of justice burns bright within his chest. Because above all he's driven to bring honour to the name of his beloved Hjelmdall. Because his noble Katlan blood lusts for glory and conquest. It cannot be denied.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 121,
+                                                                              "title": "You: \"Is that all?\"",
+                                                                              "articyId": "0x0100007000004413",
+                                                                              "text": "Is that all?",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 122,
+                                                                                  "title": "Hjelmdallermann: the Man from Hjelmdall: \"What do you mean 'is that all'?\"",
+                                                                                  "articyId": "0x0100007000004421",
+                                                                                  "text": "What do you mean 'is that all'?",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 96,
+                                                                                      "title": "You: \"Is there anything else to his chara...\"",
+                                                                                      "articyId": "0x0100007000004428",
+                                                                                      "text": "Is there anything else to his character?",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 14,
+                                                                                          "title": "Hjelmdallermann: the Man from Hjelmdall: \"He is the Man from Hjelmdall! Forge...\"",
+                                                                                          "articyId": "0x0100007000004436",
+                                                                                          "text": "He is the Man from Hjelmdall! Forged in the fury of battle, death was his sire and blood his dam. He had but fourteen winters when he left his frigid homelands in Katla to seek glory and honour. *That* is his character.",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 101,
+                                                                                              "title": "Conceptualization: \"He doesn't even have a real name. W...\"",
+                                                                                              "articyId": "0x010000700000466B",
+                                                                                              "text": "He doesn't even have a real name. What is inside this Man? Or is muscle and bone all he is?",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 88,
+                                                                                                  "title": "Physical Instrument: \"Hey! Nothing wrong with muscle and...\"",
+                                                                                                  "articyId": "0x010000700000467D",
+                                                                                                  "text": "Hey! Nothing wrong with muscle and bone.",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 89,
+                                                                                                      "title": "Conceptualization: \"The point is: Why should you *care*...\"",
+                                                                                                      "articyId": "0x0100007000004685",
+                                                                                                      "text": "The point is: Why should you *care* about this character? Does he have any inner conflicts? Unspoken motivations? A tragic flaw, perhaps?",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 15,
+                                                                                                  "title": "You: \"Okay, but does he have any *interna...\"",
+                                                                                                  "articyId": "0x010000700000443F",
+                                                                                                  "text": "Okay, but does he have any *internal* tension?",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 29,
+                                                                                                      "title": "Hjelmdallermann: the Man from Hjelmdall: \"He is the wildest man alive, the on...\"",
+                                                                                                      "articyId": "0x010000700000444D",
+                                                                                                      "text": "He is the wildest man alive, the only mortal strong enough to wield the twin-*zweihänders*, *Sturm* and *Drang*, whose names mean 'Storm' and --",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 44,
+                                                                                                          "title": "You: \"Yes, I get that. He's strong and ha...\"",
+                                                                                                          "articyId": "0x0100007000004454",
+                                                                                                          "text": "Yes, I get that. He's strong and has big swords. But why should I *care* about his character?",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 108,
+                                                                                                              "title": "Hjelmdallermann: the Man from Hjelmdall: \"What are you? A book critic?\"",
+                                                                                                              "articyId": "0x010000700000445B",
+                                                                                                              "text": "What are you? A book critic?",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 109,
+                                                                                                                  "title": "You: \"Actually yes, I'm a *goddamn* art c...\"",
+                                                                                                                  "articyId": "0x010000700000460F",
+                                                                                                                  "text": "Actually yes, I'm a *goddamn* art cop.",
+                                                                                                                  "links": [
+                                                                                                                    {
+                                                                                                                      "id": 40,
+                                                                                                                      "title": "Hjelmdallermann: the Man from Hjelmdall: \"Enough! You're ruining the pacing o...\"",
+                                                                                                                      "articyId": "0x010000070001B309",
+                                                                                                                      "text": "Enough! You're ruining the pacing of the story. Now where did you leave off? Ah, yes...",
+                                                                                                                      "links": [
+                                                                                                                        {
+                                                                                                                          "id": 84,
+                                                                                                                          "title": "Conceptualization: \"What pacing?!\"",
+                                                                                                                          "articyId": "0x010000700000469A",
+                                                                                                                          "text": "What pacing?!",
+                                                                                                                          "links": []
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "id": 123,
+                                                                                                                  "title": "You: \"I might be.\"",
+                                                                                                                  "articyId": "0x0100007000004616",
+                                                                                                                  "text": "I might be.",
+                                                                                                                  "links": []
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "id": 36,
+                                                                                                                  "title": "You: \"No, you're right, let's give this a...\"",
+                                                                                                                  "articyId": "0x0100007000004468",
+                                                                                                                  "text": "No, you're right, let's give this a chance. (Keep reading.)",
+                                                                                                                  "links": []
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "id": 30,
+                                                                                                                  "title": "You: \"I don't need sass from a discount p...\"",
+                                                                                                                  "articyId": "0x010000700000447A",
+                                                                                                                  "text": "I don't need sass from a discount paperback. (Close the book.)",
+                                                                                                                  "links": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 111,
+                                                                                                  "title": "You: \"Nevermind, just get to the good par...\"",
+                                                                                                  "articyId": "0x0100007000004445",
+                                                                                                  "text": "Nevermind, just get to the good part.",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 83,
+                                                                              "title": "You: \"Fair enough. Let's get back in ther...\"",
+                                                                              "articyId": "0x0100007000004419",
+                                                                              "text": "Fair enough. Let's get back in there.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 75,
+                                                                      "title": "You: \"Nevermind. (Keep reading.)\"",
+                                                                      "articyId": "0x0100007000004404",
+                                                                      "text": "Nevermind. (Keep reading.)",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 23,
+                                                              "title": "You: \"All aboard for slaughter and glory....\"",
+                                                              "articyId": "0x010000700000461F",
+                                                              "text": "All aboard for slaughter and glory. (Keep reading.)",
+                                                              "links": [
+                                                                {
+                                                                  "id": 16,
+                                                                  "title": "Hjelmdallermann: the Man from Hjelmdall: \"You skip past a section detailing a...\"",
+                                                                  "articyId": "0x0100007000004486",
+                                                                  "text": "You skip past a section detailing an elaborate banquet with *many* toasts, as well as the long and perilous journey from Wrôthgär's keep to the ancient forest of *Yezzdor*, where our heroes infiltrate the Nachtherrer's dire-hall...",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 76,
+                                                                      "title": "Hjelmdallermann: the Man from Hjelmdall: \"In the centre of the great hall sta...\"",
+                                                                      "articyId": "0x0100007000004494",
+                                                                      "text": "In the centre of the great hall stands a blood altar on which a pair of Nachtherrer are disembowelling a shrieking peasant -- an unholy rite that empowers the Nachtherrer forbidden magic...",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 106,
+                                                                          "title": "Hjelmdallermann: the Man from Hjelmdall: \"As the vile ceremony ends, the soun...\"",
+                                                                          "articyId": "0x0100006B00006985",
+                                                                          "text": "As the vile ceremony ends, the sound of steel unsheathing draws the Nachtherrers' attention to a pair of cloaked figures standing in the doorway...",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 12,
+                                                                              "title": "Half Light: \"That is what you came for, isn't it...\"",
+                                                                              "articyId": "0x0100007000004652",
+                                                                              "text": "That is what you came for, isn't it? A climactic bloodletting, where men are reduced to muscle and fury?",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 94,
+                                                                                  "title": "Half Light: \"No, beautiful naked people fucking...\"",
+                                                                                  "articyId": "0x010000070001B4C4",
+                                                                                  "text": "No, beautiful naked people fucking in the bushes is what you came for. Sweat, cocks and and titties please!",
+                                                                                  "links": []
+                                                                                },
+                                                                                {
+                                                                                  "id": 132,
+                                                                                  "title": "Hjelmdallermann: the Man from Hjelmdall: \"Swiftly the visitors toss off their...\"",
+                                                                                  "articyId": "0x010000700000449F",
+                                                                                  "text": "Swiftly the visitors toss off their cloaks and unsheathe glimmering northern steel -- it's the Man from Hjelmdall and his valiant blood-brother Tyrbald!",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 37,
+                                                                                      "title": "You: \"Well, yeah, who else would it be?\"",
+                                                                                      "articyId": "0x01000070000044A6",
+                                                                                      "text": "Well, yeah, who else would it be?",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 38,
+                                                                                          "title": "Hjelmdallermann: the Man from Hjelmdall: \"In an instant the Nachtherrer summo...\"",
+                                                                                          "articyId": "0x01000070000044B4",
+                                                                                          "text": "In an instant the Nachtherrer summon a horde of gibbering orkenoids who rush our heroes. The hall fills with the clang of blades and the screams of the dying as the floor goes slick with steaming orkenoid viscera...",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 135,
+                                                                                              "title": "Conceptualization: \"Oh, for fuck's sake...\"",
+                                                                                              "articyId": "0x01000070000046BE",
+                                                                                              "text": "Oh, for fuck's sake...",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 31,
+                                                                                                  "title": "Hjelmdallermann: the Man from Hjelmdall: \"When the din of battle settles, onl...\"",
+                                                                                                  "articyId": "0x01000070000044BC",
+                                                                                                  "text": "When the din of battle settles, only the Man from Hjelmdall and Tyrbald remain standing. Exhausted and dripping with the entrails of their foes, the two northmen confront the foul Nachtherrer. The Man from Hjelmdall's sodalite-blue eyes fill with indescribable fury. \"For the Northlands!\" he cries, rushing headlong into a desperate *mêlée*...",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 100,
+                                                                                                      "title": "You: \"You gotta be kidding me...\"",
+                                                                                                      "articyId": "0x01000070000044C3",
+                                                                                                      "text": "You gotta be kidding me...",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 87,
+                                                                                                          "title": "Hjelmdallermann: the Man from Hjelmdall: \"What?\"",
+                                                                                                          "articyId": "0x01000070000044D1",
+                                                                                                          "text": "What?",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 133,
+                                                                                                              "title": "You: \"This is almost exactly the same as...\"",
+                                                                                                              "articyId": "0x01000070000044D8",
+                                                                                                              "text": "This is almost exactly the same as the first scene! Even the word *gibbering* is used twice.",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 4,
+                                                                                                                  "title": "Hjelmdallermann: the Man from Hjelmdall: \"In the first scene the Man from Hje...\"",
+                                                                                                                  "articyId": "0x01000070000044DF",
+                                                                                                                  "text": "In the first scene the Man from Hjelmdall fought a powerful necromancer and his army of the dead. Now he's confronting a pair of Nachtherrer and their horde of orkenoid thralls. The two couldn't be further apart.",
+                                                                                                                  "links": [
+                                                                                                                    {
+                                                                                                                      "id": 130,
+                                                                                                                      "title": "You: \"Okay, fine. What happens next?\"",
+                                                                                                                      "articyId": "0x01000070000044EC",
+                                                                                                                      "text": "Okay, fine. What happens next?",
+                                                                                                                      "links": [
+                                                                                                                        {
+                                                                                                                          "id": 35,
+                                                                                                                          "title": "Hjelmdallermann: the Man from Hjelmdall: \"An excellent question. One easily a...\"",
+                                                                                                                          "articyId": "0x010000070001B4F7",
+                                                                                                                          "text": "An excellent question. One easily answered by purchasing the next thrilling chapter in the Hjelmdallerman saga: 'Hjelmdallermann at the Gates of Tomorrow.' The last page of this one merely reads: 'To be continued...'",
+                                                                                                                          "links": [
+                                                                                                                            {
+                                                                                                                              "id": 3,
+                                                                                                                              "title": "Logic: \"Considering the sheer amount of dif...\"",
+                                                                                                                              "articyId": "0x010000070001B528",
+                                                                                                                              "text": "Considering the sheer amount of different Hjelmdallermann books out there it's very unlikely you're ever gonna find the sequel.",
+                                                                                                                              "links": []
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                              "id": 2,
+                                                                                                                              "title": "Logic: \"Considering the sheer amount of dif...\"",
+                                                                                                                              "articyId": "0x010000070001B502",
+                                                                                                                              "text": "Considering the sheer amount of different Hjelmdallermann books out there it's very unlikely you're ever gonna find the sequel.",
+                                                                                                                              "links": []
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "id": 97,
+                                                                                                                      "title": "You: \"Nah, that's just too silly for my t...\"",
+                                                                                                                      "articyId": "0x010000070001B4D0",
+                                                                                                                      "text": "Nah, that's just too silly for my taste. (Close the book.)",
+                                                                                                                      "links": []
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "id": 129,
+                                                                                                      "title": "You: \"Cut 'em up, Hjelmdallermann!\"",
+                                                                                                      "articyId": "0x01000070000044C9",
+                                                                                                      "text": "Cut 'em up, Hjelmdallermann!",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 68,
+                                                                                                          "title": "Hjelmdallermann: the Man from Hjelmdall: \"He probably is, but you can't be su...\"",
+                                                                                                          "articyId": "0x010000070001B4E5",
+                                                                                                          "text": "He probably is, but you can't be sure, cause this one ends in a cliffhanger and a footnote, saying: To be continued in 'Hjelmdallermann at the Gates of Tomorrow'. Coming soon to your local bookstore.",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 56,
+                                                                                                              "title": "Logic: \"Considering the sheer amount of dif...\"",
+                                                                                                              "articyId": "0x010000070001B541",
+                                                                                                              "text": "Considering the sheer amount of different Hjelmdallermann books out there it's very unlikely you're ever gonna find the sequel.",
+                                                                                                              "links": []
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "id": 25,
+                                                                                                              "title": "Logic: \"Considering the sheer amount of dif...\"",
+                                                                                                              "articyId": "0x010000070001B53B",
+                                                                                                              "text": "Considering the sheer amount of different Hjelmdallermann books out there it's very unlikely you're ever gonna find the sequel.",
+                                                                                                              "links": []
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 60,
+                                                                                      "title": "You: \"Whoa. I did *not* see that coming!\"",
+                                                                                      "articyId": "0x01000070000044AC",
+                                                                                      "text": "Whoa. I did *not* see that coming!",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 52,
+                                                              "title": "You: \"That's enough of Man from Hjelmdall...\"",
+                                                              "articyId": "0x010000070001B4B2",
+                                                              "text": "That's enough of Man from Hjelmdall for me. (Close the book.)",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 114,
+                                          "title": "You: \"I've read enough. (Close the book.)\"",
+                                          "articyId": "0x01000070000043C7",
+                                          "text": "I've read enough. (Close the book.)",
+                                          "links": [
+                                            {
+                                              "id": 86,
+                                              "title": "Hjelmdallermann: the Man from Hjelmdall: \"The Man from Hjelmdall stares at yo...\"",
+                                              "articyId": "0x01000070000043CF",
+                                              "text": "The Man from Hjelmdall stares at you on the cover, his face fixed in grim resolve.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 22,
+                      "title": "You: \"I'm too old for this...\"",
+                      "articyId": "0x01000070000045D6",
+                      "text": "I'm too old for this...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "title": "You: \"[Put the book away.]\"",
+          "articyId": "0x0100005A00011BCF",
+          "text": "[Put the book away.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Hjelmdallermann: the Man from Hjelmdall: \"The cover of this tattered paperbac...\"",
+      "articyId": "0x0100005A00011B66",
+      "text": "The cover of this tattered paperback features the Man from Hjelmdall standing atop a pile of bloody corpses. His two zweihänders are crossed over his massive chest in a dramatic 'x', their blades dripping with gore...",
+      "links": [
+        {
+          "id": 58,
+          "title": "You: \"Hell yeah.\"",
+          "articyId": "0x0100007000004385",
+          "text": "Hell yeah.",
+          "links": [
+            {
+              "id": 128,
+              "title": "Hjelmdallermann: the Man from Hjelmdall: \"Behind him rise the harsh snowcappe...\"",
+              "articyId": "0x0100007000004377",
+              "text": "Behind him rise the harsh snowcapped peaks of his native Northlands. In bold, red letters, the title \"Hjelmdallermann: The Man from Hjelmdall\" unfurls like a banner. In the foreground, a nearly nude woman lies spread in supplication, her privates strategically covered by her flowing black hair.",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "Half Light: \"These images speak to something bur...\"",
+                  "articyId": "0x010000700000463E",
+                  "text": "These images speak to something burbling deep within you: The primal struggle of a bunch of violent apes just dukin' it out.",
+                  "links": []
+                },
+                {
+                  "id": 134,
+                  "title": "Half Light: \"These images speak to something bur...\"",
+                  "articyId": "0x0100007000004629",
+                  "text": "These images speak to something burbling deep within you: Quick! Find someone or something that needs to be gutted, beheaded, impaled on a spike!",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "title": "You: \"Seems... over the top?\"",
+          "articyId": "0x010000700000438B",
+          "text": "Seems... over the top?",
+          "links": [
+            {
+              "id": 118,
+              "title": "Hjelmdallermann: the Man from Hjelmdall: \"Behind him rise the harsh snowcappe...\"",
+              "articyId": "0x0100007000004AAA",
+              "text": "Behind him rise the harsh snowcapped peaks of his native Northlands. In bold, red letters, the title \"Hjelmdallermann: The Man from Hjelmdall\" unfurls like a banner. In the foreground, a nearly nude woman lies spread in supplication, her privates strategically covered by her flowing black hair.",
+              "links": [
+                {
+                  "id": 102,
+                  "title": "Electrochemistry: \"Oh! This seems interesting...\"",
+                  "articyId": "0x010000070001B2CF",
+                  "text": "Oh! This seems interesting...",
+                  "links": [
+                    {
+                      "id": 39,
+                      "title": "Conceptualization: \"Naked women and giant swords -- is...\"",
+                      "articyId": "0x010000700000462F",
+                      "text": "Naked women and giant swords -- is that really the best they could come up with? Feels formulaic and... derivative.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

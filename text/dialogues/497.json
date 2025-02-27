@@ -1,0 +1,184 @@
+{
+  "id": "0x010000750000114C",
+  "title": "BOARDWALK / REPORTING TO KIM",
+  "description": "If Kim wasn't with you when you first discovered the body then you're going to have to tell him about it. (Jumps here from Kim's main; then jumps back).",
+  "dialogueTree": [
+    {
+      "id": 6,
+      "title": "Kim Kitsuragi: \"\"Are you serious?\" The lieutenant's...\"",
+      "articyId": "0x0100007500001159",
+      "text": "\"Are you serious?\" The lieutenant's face changes immediately, taking on a more sombre expression.",
+      "links": [
+        {
+          "id": 15,
+          "title": "Kim Kitsuragi: \"\"How long has he been dead? Did you...\"",
+          "articyId": "0x01000075000011D7",
+          "text": "\"How long has he been dead? Did you *identify* him, search through his pockets? Is he still there?\"",
+          "links": [
+            {
+              "id": 31,
+              "title": "You: \"\"I found a library card from his po...\"",
+              "articyId": "0x01000075000011E3",
+              "text": "\"I found a library card from his pockets, but I haven't examined it yet. The body is still there.\"",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "Kim Kitsuragi: \"\"Great, we should call the library...\"",
+                  "articyId": "0x01000075000011F8",
+                  "text": "\"Great, we should call the library -- maybe it can provide us with a lead. That is, if we decide to take the case.\"",
+                  "links": [
+                    {
+                      "id": 21,
+                      "title": "Kim Kitsuragi: \"\"Taking the case would mean that we...\"",
+                      "articyId": "0x0100007500001203",
+                      "text": "\"Taking the case would mean that we need to identify the man and take care of the corpse. I can take the body to the morgue on my own or we could ask for the help of the Hardie boys.\"",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Kim Kitsuragi: \"\"But if all of this seems too much...\"",
+                          "articyId": "0x010000750000120A",
+                          "text": "\"But if all of this seems too much of a hassle, then there's also the option of reporting back to the station and leaving the case for our colleagues to solve.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "title": "You: \"\"I found a library card from his po...\"",
+              "articyId": "0x01000075000011EA",
+              "text": "\"I found a library card from his pockets, issued to someone named Billie Méjean by the Jamrock Public Library. The body is still there.\"",
+              "links": []
+            },
+            {
+              "id": 25,
+              "title": "You: \"\"Whoah, easy now... I haven't done...\"",
+              "articyId": "0x01000075000011DE",
+              "text": "\"Whoah, easy now... I haven't done anything yet, I wanted to tell you first.\"",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Kim Kitsuragi: \"The lieutenant nods to himself, thi...\"",
+                  "articyId": "0x01000075000011F3",
+                  "text": "The lieutenant nods to himself, thinking. \"From where I stand I can see two options. We either take the case or report back to the station and leave it for our colleagues to handle.\"",
+                  "links": [
+                    {
+                      "id": 4,
+                      "title": "Kim Kitsuragi: \"\"If we take the case then we have t...\"",
+                      "articyId": "0x010000750000117A",
+                      "text": "\"If we take the case then we have to identify the man and take care of the corpse. I can take the body to the morgue on my own or we can ask for the help of the Hardie boys.\"",
+                      "links": [
+                        {
+                          "id": 9,
+                          "title": "You: \"\"Hold on -- what about field autops...\"",
+                          "articyId": "0x0100008900000866",
+                          "text": "\"Hold on -- what about field autopsy?\"",
+                          "links": [
+                            {
+                              "id": 26,
+                              "title": "Kim Kitsuragi: \"\"Field autopsy isn't necessary if t...\"",
+                              "articyId": "0x0100008900000860",
+                              "text": "\"Field autopsy isn't necessary if the cause of death doesn't appear to be criminal -- and this looks like a simple accident to me.\"",
+                              "links": [
+                                {
+                                  "id": 27,
+                                  "title": "Kim Kitsuragi: \"\"I'd say we should just write down...\"",
+                                  "articyId": "0x010000890000086C",
+                                  "text": "\"I'd say we should just write down 'head trauma' in the autopsy report and leave it at that. It would save us at least two hours of unnecessary work.\"",
+                                  "links": [
+                                    {
+                                      "id": 32,
+                                      "title": "You: \"\"Yes, but... isn't that kind of slo...\"",
+                                      "articyId": "0x0100008900000872",
+                                      "text": "\"Yes, but... isn't that kind of sloppy?\"",
+                                      "links": [
+                                        {
+                                          "id": 8,
+                                          "title": "Kim Kitsuragi: \"\"Maybe, but we don't really have th...\"",
+                                          "articyId": "0x010000890000087E",
+                                          "text": "\"Maybe, but we don't really have that much time or resources to spare. Still, if you want to go ahead -- be my guest.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 16,
+                                      "title": "You: \"\"You're right, I don't see anything...\"",
+                                      "articyId": "0x0100008900000878",
+                                      "text": "\"You're right, I don't see anything criminal here. Let's leave it at that.\"",
+                                      "links": [
+                                        {
+                                          "id": 10,
+                                          "title": "Kim Kitsuragi: \"\"Good call.\"\"",
+                                          "articyId": "0x010000890000088C",
+                                          "text": "\"Good call.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "title": "You: \"\"Let's leave this case for the stat...\"",
+                          "articyId": "0x010000750000118F",
+                          "text": "\"Let's leave this case for the station, I don't want to spend any time on it.\"",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Kim Kitsuragi: \"\"Alright. The station is going to w...\"",
+                              "articyId": "0x01000075000011A9",
+                              "text": "\"Alright. The station is going to want details, however. Let's make sure we didn't miss anything before we head back to my Kineema to make the call.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "title": "You: \"\"I want us to solve the case comple...\"",
+                          "articyId": "0x01000097000001C3",
+                          "text": "\"I want us to solve the case completely on our own.\"",
+                          "links": [
+                            {
+                              "id": 30,
+                              "title": "Kim Kitsuragi: \"\"Alright. We're still going to have...\"",
+                              "articyId": "0x01000097000001C9",
+                              "text": "\"Alright. We're still going to have to call the station to let them know we're taking on an additional case, and so they can take away the body.\"",
+                              "links": [
+                                {
+                                  "id": 28,
+                                  "title": "Kim Kitsuragi: \"\"We should also give the Jamrock Li...\"",
+                                  "articyId": "0x01000021000006C1",
+                                  "text": "\"We should also give the Jamrock Library a call, see if we can learn anything about this Billie Méjean.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 22,
+                                  "title": "Kim Kitsuragi: \"\"Let's make sure we didn't miss any...\"",
+                                  "articyId": "0x01000092000012F4",
+                                  "text": "\"Let's make sure we didn't miss anything -- especially any identifying information -- before we go.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

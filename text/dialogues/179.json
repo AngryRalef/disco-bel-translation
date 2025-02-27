@@ -1,0 +1,128 @@
+{
+  "id": "0x0100002F0000F638",
+  "title": "SEAFORT / BOAT",
+  "description": "You're gonna need to boat yourself back somehow after everything is done.",
+  "dialogueTree": [
+    {
+      "id": 10,
+      "title": "ROO A72 Motor Skiff: \"The skiff is swaying on the waves b...\"",
+      "articyId": "0x0100002F0000F69D",
+      "text": "The skiff is swaying on the waves by the dock.",
+      "links": [
+        {
+          "id": 13,
+          "title": "You: \"Return to the mainland.\"",
+          "articyId": "0x010000450001E190",
+          "text": "Return to the mainland.",
+          "links": [
+            {
+              "id": 15,
+              "title": "Kim Kitsuragi: \"\"Let's. We're done here,\" he says,...\"",
+              "articyId": "0x010000450001E1F9",
+              "text": "\"Let's. We're done here,\" he says, adjusting his glasses as he looks out over the water.",
+              "links": [
+                {
+                  "id": 14,
+                  "title": "ROO A72 Motor Skiff: \"The skiff rocks gently under your w...\"",
+                  "articyId": "0x01000041000001FE",
+                  "text": "The skiff rocks gently under your weight as you get in. The ride back is uneventful and quiet.",
+                  "links": [
+                    {
+                      "id": 27,
+                      "title": "Perception (Hearing): \"But for the sound of conversation o...\"",
+                      "articyId": "0x0100004100000240",
+                      "text": "But for the sound of conversation on the water. There is someone inland, waiting for you.",
+                      "links": [
+                        {
+                          "id": 23,
+                          "title": "Esprit de Corps: \"Two men and a woman stand on the co...\"",
+                          "articyId": "0x0100004100000256",
+                          "text": "Two men and a woman stand on the concrete square of a nameless village, looking at a small yellow boat as it draws closer. The sea is calm.",
+                          "links": [
+                            {
+                              "id": 22,
+                              "title": "ROO A72 Motor Skiff: \"You reach the jetty and climb out o...\"",
+                              "articyId": "0x0100001D000002B5",
+                              "text": "You reach the jetty and climb out of the skiff.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "title": "Cuno: \"\"Oh yeah.\" He crosses his arms and...\"",
+              "articyId": "0x010000450001E1FF",
+              "text": "\"Oh yeah.\" He crosses his arms and nods to you with a self-satisfied smirk. \"We did good shit here, detective.\"",
+              "links": []
+            },
+            {
+              "id": 4,
+              "title": "ROO A72 Motor Skiff: \"You climb into the boat and start t...\"",
+              "articyId": "0x010000450001E19D",
+              "text": "You climb into the boat and start the engine.",
+              "links": []
+            },
+            {
+              "id": 11,
+              "title": "Kim Kitsuragi: \"\"Are you sure? There are things we...\"",
+              "articyId": "0x010000450001E1AA",
+              "text": "\"Are you sure? There are things we still need to do here...\" He looks at the ruined flak tower on the cliffside.",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "You: \"\"You're right. Let's get to it.\" [L...\"",
+                  "articyId": "0x010000450001E1DA",
+                  "text": "\"You're right. Let's get to it.\" [Leave.]",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title": "Cuno: \"\"Are you sure? There's shit we need...\"",
+              "articyId": "0x010000450001E1BD",
+              "text": "\"Are you sure? There's shit we need to do, sheriff...\" He looks at the ruined flak tower on the cliffside.",
+              "links": [
+                {
+                  "id": 3,
+                  "title": "You: \"\"You're right. Let's get to it.\" [L...\"",
+                  "articyId": "0x0100007E00001A76",
+                  "text": "\"You're right. Let's get to it.\" [Leave.]",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 20,
+              "title": "Esprit de Corps: \"Lieutenant Kitsuragi lies in the ho...\"",
+              "articyId": "0x0100001600003116",
+              "text": "Lieutenant Kitsuragi lies in the hospital, recovering. Barely. Are you really done here, he would ask you? Are you done with the investigation?",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "You: \"Yeah... I'm not. [Leave.]\"",
+                  "articyId": "0x010000160000311C",
+                  "text": "Yeah... I'm not. [Leave.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000450001E196",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

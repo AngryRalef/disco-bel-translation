@@ -1,0 +1,268 @@
+{
+  "id": "0x0100002F0000FDF1",
+  "title": "APT / CUNO DAD DOOR",
+  "description": "DOOR, APARTMENT #12",
+  "dialogueTree": [
+    {
+      "id": 15,
+      "title": "Door, Apartment #12: \"A shabby door hangs oddly on its hi...\"",
+      "articyId": "0x0100008F000001D2",
+      "text": "A shabby door hangs oddly on its hinges, secured to the doorframe with a safety chain. An unpaid energy bill is attached, threatening to cut off the electricity. It's addressed to Mr. Uuno de Ruyter.",
+      "links": [
+        {
+          "id": 83,
+          "title": "You: \"\"Looks like we found where Cuno's d...\"",
+          "articyId": "0x0100008F000001F3",
+          "text": "\"Looks like we found where Cuno's dad lives.\" (Point to the bill on the door.)",
+          "links": [
+            {
+              "id": 67,
+              "title": "Kim Kitsuragi: \"\"And the place comes with three mon...\"",
+              "articyId": "0x0100008F0000021A",
+              "text": "\"And the place comes with three months' worth of utility bills.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "title": "You: \"Knock lightly.\"",
+          "articyId": "0x0100008F000001ED",
+          "text": "Knock lightly.",
+          "links": [
+            {
+              "id": 51,
+              "title": "Door, Apartment #12: \"No response.\"",
+              "articyId": "0x0100008F00000250",
+              "text": "No response.",
+              "links": [
+                {
+                  "id": 41,
+                  "title": "Perception (Sight): \"The apartment numbers have fallen o...\"",
+                  "articyId": "0x0100008F000001D8",
+                  "text": "The apartment numbers have fallen off the door, leaving the panel with a sticky '1'-shaped shadow and a marker-drawn '2'.",
+                  "links": [
+                    {
+                      "id": 80,
+                      "title": "Half Light: \"Nothing happens?! It must be an amb...\"",
+                      "articyId": "0x0100008F00000214",
+                      "text": "Nothing happens?! It must be an ambush... Let's get your adrenaline pumping, just in case.",
+                      "links": []
+                    },
+                    {
+                      "id": 25,
+                      "title": "Interfacing: \"Good thing you already have the cha...\"",
+                      "articyId": "0x0100008200008DD0",
+                      "text": "Good thing you already have the chaincutters in your hand! Nothing left to do now but *snip-snip*!",
+                      "links": []
+                    },
+                    {
+                      "id": 21,
+                      "title": "Interfacing: \"You'll need to equip the chaincutte...\"",
+                      "articyId": "0x0100008200008DC1",
+                      "text": "You'll need to equip the chaincutters to enter. Snip right through the metal!",
+                      "links": []
+                    },
+                    {
+                      "id": 92,
+                      "title": "Interfacing: \"The door is locked by a chain. If o...\"",
+                      "articyId": "0x0100008200008DBB",
+                      "text": "The door is locked by a chain. If only you had some kind of standard police device for the cutting of chains. Something, perhaps, that could be found in an RCM motor carriage...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "You: \"Use the cutters on the chain.\"",
+          "articyId": "0x0100008F00002D7C",
+          "text": "Use the cutters on the chain.",
+          "links": [
+            {
+              "id": 89,
+              "title": "Interfacing: \"Snip! So much for that goddamn chai...\"",
+              "articyId": "0x0100008F00002E7E",
+              "text": "Snip! So much for that goddamn chain. The links fall to the ground on the other side of the door. You have bested the titanium menace.",
+              "links": [
+                {
+                  "id": 52,
+                  "title": "Half Light: \"Don't let the quiet fool you -- the...\"",
+                  "articyId": "0x0100008F00000396",
+                  "text": "Don't let the quiet fool you -- the beast is in there somewhere, ready to rip you to shreds with a broken bottle...",
+                  "links": [
+                    {
+                      "id": 16,
+                      "title": "Kim Kitsuragi: \"The lieutenant looks worried. \"I kn...\"",
+                      "articyId": "0x0100008F0000020E",
+                      "text": "The lieutenant looks worried. \"I know there's no stopping you -- but let's at least make this quick.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 93,
+                      "title": "Interfacing: \"You can just go in now...\"",
+                      "articyId": "0x010000060001E64E",
+                      "text": "You can just go in now...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 32,
+              "title": "Interfacing: \"Snip! The cutter goes through them...\"",
+              "articyId": "0x0100008F00000256",
+              "text": "Snip! The cutter goes through them like dead leaves. The links fall to the ground on the other side of the door.",
+              "links": []
+            },
+            {
+              "id": 47,
+              "title": "Interfacing: \"Like a goddamn maniac, you rip the...\"",
+              "articyId": "0x0100002F00012C9B",
+              "text": "Like a goddamn maniac, you rip the chain off the door. The links lie on the floor, scattered.",
+              "links": []
+            },
+            {
+              "id": 31,
+              "title": "Interfacing: \"Like a goddamn maniac, you rip the...\"",
+              "articyId": "0x0100002F00012C85",
+              "text": "Like a goddamn maniac, you rip the chain off the door. The links lie on the floor, scattered.",
+              "links": []
+            },
+            {
+              "id": 2,
+              "title": "Interfacing: \"This is not something you should be...\"",
+              "articyId": "0x0100000200001198",
+              "text": "This is not something you should be attempting to do with your bare hands. You're just going to get hurt.",
+              "links": []
+            },
+            {
+              "id": 53,
+              "title": "Interfacing: \"How... how can this be?! How can su...\"",
+              "articyId": "0x0100008F00002E5B",
+              "text": "How... how can this be?! How can such a simple chain defy our best efforts? Are you *that* bad with your hands? I do not understand...",
+              "links": []
+            },
+            {
+              "id": 40,
+              "title": "Interfacing: \"It should be easy, but... it's just...\"",
+              "articyId": "0x0100008F00002D8D",
+              "text": "It should be easy, but... it's just an awkward angle, okay? The door doesn't *really* open wide enough to really get the cutters through. You can't get the leverage you need. And the cutters are blunt. AND the chain is... just super strong, okay? It's not your fault you can't cut it!",
+              "links": [
+                {
+                  "id": 63,
+                  "title": "Perception (Hearing): \"Fabric rustles. The lieutenant's ch...\"",
+                  "articyId": "0x0100008F00002E1E",
+                  "text": "Fabric rustles. The lieutenant's chin catches against his collar. He is looking on, shaking his head in disappointment.",
+                  "links": [
+                    {
+                      "id": 30,
+                      "title": "Kim Kitsuragi: \"The lieutenant smiles. \"Trouble wit...\"",
+                      "articyId": "0x0100008F00002DDF",
+                      "text": "The lieutenant smiles. \"Trouble with the chain, officer?\"",
+                      "links": [
+                        {
+                          "id": 87,
+                          "title": "You: \"\"These are no ordinary chains... th...\"",
+                          "articyId": "0x0100008F00002DEC",
+                          "text": "\"These are no ordinary chains... they are *titanium* chains. *Supreme-titanium*, Kim.\"",
+                          "links": [
+                            {
+                              "id": 33,
+                              "title": "Kim Kitsuragi: \"\"*Supreme-titanium*?\" The lieutenan...\"",
+                              "articyId": "0x0100008F00002E11",
+                              "text": "\"*Supreme-titanium*?\" The lieutenant blinks. \"Sure. A door inside this complex has super-hard, super-expensive chains.\"",
+                              "links": [
+                                {
+                                  "id": 88,
+                                  "title": "Interfacing: \"You can't stand for that! Come on,...\"",
+                                  "articyId": "0x0100008F00002E51",
+                                  "text": "You can't stand for that! Come on, show him what you can REALLY do!",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 69,
+                          "title": "You: \"\"Hey, don't look at me! You're the...\"",
+                          "articyId": "0x0100008F00002DF2",
+                          "text": "\"Hey, don't look at me! You're the one packing shitty chaincutters.\"",
+                          "links": [
+                            {
+                              "id": 82,
+                              "title": "Kim Kitsuragi: \"\"Of course, officer.\" The lieutenan...\"",
+                              "articyId": "0x0100008F00002E0B",
+                              "text": "\"Of course, officer.\" The lieutenant smiles obligingly. \"My RCM regulation, recently distributed cutters are the problem.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 81,
+                          "title": "You: \"\"I'll be honest: I'm just not that...\"",
+                          "articyId": "0x0100008F00002DF8",
+                          "text": "\"I'll be honest: I'm just not that good with my hands.\"",
+                          "links": [
+                            {
+                              "id": 45,
+                              "title": "Kim Kitsuragi: \"The lieutenant arches his eyebrows,...\"",
+                              "articyId": "0x0100008F00002E05",
+                              "text": "The lieutenant arches his eyebrows, surprised. \"Well... no. I guess not.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 46,
+                  "title": "Interfacing: \"Stupid chain... Come on, try it aga...\"",
+                  "articyId": "0x0100008F00002E44",
+                  "text": "Stupid chain... Come on, try it again. We won't be defeated so easily!",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 90,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002F0000FEA5",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 3,
+          "title": "Electrochemistry: \"Your heartbeat quickens, palms go s...\"",
+          "articyId": "0x0100008F000001FF",
+          "text": "Your heartbeat quickens, palms go sweaty... The siren of amphetamine is singing you her song.",
+          "links": []
+        },
+        {
+          "id": 49,
+          "title": "Door, Apartment #12: \"The handle is loose from violent, f...\"",
+          "articyId": "0x0100008F00002DC7",
+          "text": "The handle is loose from violent, fruitless yanking. Paint at the door's bottom is chipped from kicking. People have tried often, and apparently without success, to enter.",
+          "links": [
+            {
+              "id": 5,
+              "title": "Kim Kitsuragi: \"The lieutenant shakes his head. \"We...\"",
+              "articyId": "0x0100008F00002DD3",
+              "text": "The lieutenant shakes his head. \"We've no business here. Let's get back to the investigation.\"",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

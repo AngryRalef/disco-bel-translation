@@ -1,0 +1,38 @@
+{
+  "id": "0x010000270000070A",
+  "title": "WHIRLING F2 ORB / dialogue pants",
+  "description": "These are your sleek pants. Put them on and find THE KEY to get out of your room.",
+  "dialogueTree": [
+    {
+      "id": 4,
+      "title": "Perception (Hearing): \"You hear a jingle! Keys are clinkin...\"",
+      "articyId": "0x0100002700000719",
+      "text": "You hear a jingle! Keys are clinking in the pocket of your flare-cut pants.",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"Fish them out.\"",
+          "articyId": "0x0100002700000720",
+          "text": "Fish them out.",
+          "links": [
+            {
+              "id": 6,
+              "title": "Perception (Sight): \"It says \"Whirling-in-Rags\" on the a...\"",
+              "articyId": "0x0100002600000485",
+              "text": "It says \"Whirling-in-Rags\" on the aluminium keyring. There is a single key on the ring, the number #1 is etched on it. It should open the door.",
+              "links": [
+                {
+                  "id": 5,
+                  "title": "Encyclopedia: \"The \"Whirling-in-Rags\" is a hostel-...\"",
+                  "articyId": "0x010000270000073D",
+                  "text": "The \"Whirling-in-Rags\" is a hostel-cafeteria on the urban coast, frequented by dockworkers.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

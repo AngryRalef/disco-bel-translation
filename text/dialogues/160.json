@@ -1,0 +1,625 @@
+{
+  "id": "0x0100002F0000DF8B",
+  "title": "WHIRLING F1 / GORACY KUBEK",
+  "description": "A dialogue with a kojko cook Gorący Kubek. He doesn't speak a word from your language, but for some reason understands all your questions about disposing the corpse??",
+  "dialogueTree": [
+    {
+      "id": 57,
+      "title": "Gorący Kubek: \"The man nods at you, checks his wat...\"",
+      "articyId": "0x010000060000937B",
+      "text": "The man nods at you, checks his watch and sighs, \"Ai-ai-ai...\"",
+      "links": [
+        {
+          "id": 58,
+          "title": "Logic: \"It's late. He's working.\"",
+          "articyId": "0x0100002F0000E036",
+          "text": "It's late. He's working.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Gorący Kubek: \"The man ponders his cooking utensil...\"",
+      "articyId": "0x010000060000936C",
+      "text": "The man ponders his cooking utensils and gives you a little nod, acknowledging your presence.",
+      "links": [
+        {
+          "id": 2,
+          "title": "You: \"\"I need a fridge to store a corpse.\"\"",
+          "articyId": "0x0100002F0000DFB3",
+          "text": "\"I need a fridge to store a corpse.\"",
+          "links": [
+            {
+              "id": 48,
+              "title": "Gorący Kubek: \"The man keeps shaking his head. His...\"",
+              "articyId": "0x0100002F0000DFD5",
+              "text": "The man keeps shaking his head. His eyes seem sad. Then he starts swiping crumbs off the counter top.",
+              "links": [
+                {
+                  "id": 28,
+                  "title": "Kim Kitsuragi: \"\"I don't think he understands, offi...\"",
+                  "articyId": "0x0100002F0000DFE9",
+                  "text": "\"I don't think he understands, officer... We need to find some other way to make ourselves clear.\"",
+                  "links": []
+                },
+                {
+                  "id": 84,
+                  "title": "You: \"\"Wait, what language is he speaking?\"\"",
+                  "articyId": "0x0100002F0000E077",
+                  "text": "\"Wait, what language is he speaking?\"",
+                  "links": [
+                    {
+                      "id": 4,
+                      "title": "Kim Kitsuragi: \"\"He's from Graad -- a Kojko,\" the l...\"",
+                      "articyId": "0x0100002F0000E0A1",
+                      "text": "\"He's from Graad -- a Kojko,\" the lieutenant informs you.",
+                      "links": [
+                        {
+                          "id": 36,
+                          "title": "Gorący Kubek: \"With the mention of the word *Kojko...\"",
+                          "articyId": "0x010000060001972B",
+                          "text": "With the mention of the word *Kojko* the cook starts talking excessively, his hands up in the air again.",
+                          "links": [
+                            {
+                              "id": 90,
+                              "title": "Empathy: \"He's happy for some reason.\"",
+                              "articyId": "0x0100000600019722",
+                              "text": "He's happy for some reason.",
+                              "links": [
+                                {
+                                  "id": 122,
+                                  "title": "Encyclopedia: \"He's from Graad. People from Graad...\"",
+                                  "articyId": "0x01000006000092FE",
+                                  "text": "He's from Graad. People from Graad don't mind if they're called by their national derogatives. It's okay to call him a *Kojko*.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 49,
+                  "title": "You: \"\"I know, Kim... I know.\" (Make stab...\"",
+                  "articyId": "0x0100002F0000E062",
+                  "text": "\"I know, Kim... I know.\" (Make stabbing motions at the meat on the cutting board.)",
+                  "links": [
+                    {
+                      "id": 108,
+                      "title": "Kim Kitsuragi: \"\"What are you doing?!\"\"",
+                      "articyId": "0x0100002F0000E07F",
+                      "text": "\"What are you doing?!\"",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Gorący Kubek: \"The cook looks at you doing the cha...\"",
+                          "articyId": "0x0100002F0000E0AF",
+                          "text": "The cook looks at you doing the charade and smiles.",
+                          "links": [
+                            {
+                              "id": 118,
+                              "title": "You: \"Point towards the fridge.\"",
+                              "articyId": "0x0100002F0000E0B6",
+                              "text": "Point towards the fridge.",
+                              "links": [
+                                {
+                                  "id": 113,
+                                  "title": "Gorący Kubek: \"The cook says something. It's quite...\"",
+                                  "articyId": "0x0100002F0000E0CB",
+                                  "text": "The cook says something. It's quite animated, but you still don't understand.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 107,
+                  "title": "You: \"\"I need to get the corpse...\" (Poin...\"",
+                  "articyId": "0x0100002F0000E070",
+                  "text": "\"I need to get the corpse...\" (Point to Kim) \"... into the fridge!\" (Point to the fridge.)",
+                  "links": [
+                    {
+                      "id": 99,
+                      "title": "Kim Kitsuragi: \"\"Why am *I* the corpse?!\" He turns...\"",
+                      "articyId": "0x0100002F0000E08D",
+                      "text": "\"Why am *I* the corpse?!\" He turns his eyes to the cook, who gives you both a big bright smile.",
+                      "links": [
+                        {
+                          "id": 85,
+                          "title": "Kim Kitsuragi: \"\"Doesn't matter... I don't think he...\"",
+                          "articyId": "0x0100002F0000E094",
+                          "text": "\"Doesn't matter... I don't think he understood us anyway. He wouldn't be smiling if he did.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 86,
+                  "title": "You: \"\"I need to put a dead body in this...\"",
+                  "articyId": "0x010000580000A41C",
+                  "text": "\"I need to put a dead body in this fridge.\" (Point to the fridge.)",
+                  "links": [
+                    {
+                      "id": 6,
+                      "title": "Gorący Kubek: \"\"Ooh!\" His eyes light up with under...\"",
+                      "articyId": "0x010000580000A423",
+                      "text": "\"Ooh!\" His eyes light up with understanding, then instantly grow dark again. \"No, no,\" he shakes his head, \"Body no fit fridge. Fridge small.\"",
+                      "links": [
+                        {
+                          "id": 39,
+                          "title": "You: \"\"How do you know? Maybe it's a smal...\"",
+                          "articyId": "0x010000060000930D",
+                          "text": "\"How do you know? Maybe it's a small body.\"",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "Gorący Kubek: \"\"No, no.\" He nods confidently. \"I k...\"",
+                              "articyId": "0x0100000600009313",
+                              "text": "\"No, no.\" He nods confidently. \"I know.\"",
+                              "links": [
+                                {
+                                  "id": 123,
+                                  "title": "Visual Calculus: \"He *knows* correctly. It is too sma...\"",
+                                  "articyId": "0x0100000600019734",
+                                  "text": "He *knows* correctly. It is too small.",
+                                  "links": [
+                                    {
+                                      "id": 94,
+                                      "title": "Authority: \"Listen to him. This is a man who cl...\"",
+                                      "articyId": "0x0100000600009319",
+                                      "text": "Listen to him. This is a man who clearly knows about bodies and fridges -- and bodies fitting into fridges.",
+                                      "links": [
+                                        {
+                                          "id": 111,
+                                          "title": "Kim Kitsuragi: \"\"Okay, we have our answer. It won't...\"",
+                                          "articyId": "0x010000060000933E",
+                                          "text": "\"Okay, we have our answer. It won't fit. We need a bigger fridge.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 117,
+                          "title": "You: \"\"Okay then.\"\"",
+                          "articyId": "0x0100000600009323",
+                          "text": "\"Okay then.\"",
+                          "links": [
+                            {
+                              "id": 35,
+                              "title": "Gorący Kubek: \"\"Mhm.\" He nods confidently. \"I know.\"\"",
+                              "articyId": "0x010000060000932A",
+                              "text": "\"Mhm.\" He nods confidently. \"I know.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "You: \"\"By the way, we speak Revacholian i...\"",
+          "articyId": "0x0100002F0000E047",
+          "text": "\"By the way, we speak Revacholian in Revachol.\" (Get your Revacholian Nationhood on.)",
+          "links": [
+            {
+              "id": 59,
+              "title": "Kim Kitsuragi: \"\"Speak Revacholian?\" The lieutenant...\"",
+              "articyId": "0x0100002F0000E04E",
+              "text": "\"Speak Revacholian?\" The lieutenant raises his eyebrows.",
+              "links": [
+                {
+                  "id": 119,
+                  "title": "You: \"\"This man is a foreigner!\"\"",
+                  "articyId": "0x0100002F0000E0EB",
+                  "text": "\"This man is a foreigner!\"",
+                  "links": [
+                    {
+                      "id": 14,
+                      "title": "Kim Kitsuragi: \"\"We speak *Suresne*. There is no su...\"",
+                      "articyId": "0x0100002F0000E0F9",
+                      "text": "\"We speak *Suresne*. There is no such thing as the *Revacholian language*,\" he sighs. \"But don't worry, your message remained clear.\"",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "Gorący Kubek: \"The cook is still smoking, ash fall...\"",
+                          "articyId": "0x0100002F0000E101",
+                          "text": "The cook is still smoking, ash falling from between his fingers. His hands are large and clean.",
+                          "links": [
+                            {
+                              "id": 101,
+                              "title": "Kim Kitsuragi: \"\"Good thing he didn't understand a...\"",
+                              "articyId": "0x0100002F0000E108",
+                              "text": "\"Good thing he didn't understand a word of your stupidity,\" he concludes.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 100,
+                  "title": "You: \"\"Speak Revacholian, yes. Not this f...\"",
+                  "articyId": "0x0100002F0000E0F2",
+                  "text": "\"Speak Revacholian, yes. Not this funky thing he's spurting out here.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "title": "Gorący Kubek: \"The cook shakes his head and rattle...\"",
+              "articyId": "0x0100006B000067CE",
+              "text": "The cook shakes his head and rattles off a sequence of undecipherable words. He then returns to his smoking, ash falling from between his fingers.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "title": "You: \"\"Do you know what's behind that doo...\"",
+          "articyId": "0x0100005800008955",
+          "text": "\"Do you know what's behind that door?\" (Point to the blue door.)",
+          "links": [
+            {
+              "id": 103,
+              "title": "Gorący Kubek: \"He looks up at you, then looks away...\"",
+              "articyId": "0x010000580000895E",
+              "text": "He looks up at you, then looks away quickly, shrugging and muttering something to himself.",
+              "links": [
+                {
+                  "id": 76,
+                  "title": "Composure: \"Shrugging is an international sign...\"",
+                  "articyId": "0x0100000600017141",
+                  "text": "Shrugging is an international sign for: 'No, I don't know what's behind that door'.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "You: \"\"Leo said you're friends with Mañan...\"",
+          "articyId": "0x0100002F000113E5",
+          "text": "\"Leo said you're friends with Mañana. Is that true?\"",
+          "links": [
+            {
+              "id": 33,
+              "title": "Gorący Kubek: \"The mention of 'Mañana' gets his at...\"",
+              "articyId": "0x0100002F0001141B",
+              "text": "The mention of 'Mañana' gets his attention. He smiles and delivers a whole slew of unfamiliar words and lively gestures. Then he falls silent again.",
+              "links": [
+                {
+                  "id": 89,
+                  "title": "Empathy: \"They're friends.\"",
+                  "articyId": "0x0100000600018DA8",
+                  "text": "They're friends.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"\"What is in that borscht you're mak...\"",
+          "articyId": "0x010000580001B3B7",
+          "text": "\"What is in that borscht you're making there?\" (Point to the large pot.)",
+          "links": [
+            {
+              "id": 24,
+              "title": "Gorący Kubek: \"The man says a couple of sentences...\"",
+              "articyId": "0x010000580001B40A",
+              "text": "The man says a couple of sentences in that strange language of his and then seems to wait for you to speak.",
+              "links": [
+                {
+                  "id": 67,
+                  "title": "Rhetoric: \"I'm pretty sure he asked you a ques...\"",
+                  "articyId": "0x010000820001FD27",
+                  "text": "I'm pretty sure he asked you a question.",
+                  "links": [
+                    {
+                      "id": 44,
+                      "title": "Conceptualization: \"He doesn't know your language, you...\"",
+                      "articyId": "0x010000820001FD56",
+                      "text": "He doesn't know your language, you can just say something cool in return.",
+                      "links": []
+                    },
+                    {
+                      "id": 68,
+                      "title": "You: \"\"Yes.\" (Nod.)\"",
+                      "articyId": "0x010000820001FD33",
+                      "text": "\"Yes.\" (Nod.)",
+                      "links": [
+                        {
+                          "id": 17,
+                          "title": "Gorący Kubek: \"\"*Barszcz* need…\" He looks at the s...\"",
+                          "articyId": "0x010000820001FD6F",
+                          "text": "\"*Barszcz* need…\" He looks at the soup, then at you. \"More *wódka*?\" He picks up a bottle from the shelf.",
+                          "links": [
+                            {
+                              "id": 93,
+                              "title": "Kim Kitsuragi: \"\"Okay, so it's vodka that keeps the...\"",
+                              "articyId": "0x010000820001FDAC",
+                              "text": "\"Okay, so it's vodka that keeps the men happy and in good spirits.\" He nods. \"Clever move by the Union.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 88,
+                              "title": "Horrific Necktie: \"Vodka-borscht! I love it, *bratan*!...\"",
+                              "articyId": "0x010000820001FDA3",
+                              "text": "Vodka-borscht! I love it, *bratan*! Turn it the fuck up and then ask for some yourself.",
+                              "links": [
+                                {
+                                  "id": 112,
+                                  "title": "Logic: \"Turning it up seems like a dangerou...\"",
+                                  "articyId": "0x0100000600018DBB",
+                                  "text": "Turning it up seems like a dangerous idea, honestly. The place is a powder keg.",
+                                  "links": [
+                                    {
+                                      "id": 110,
+                                      "title": "You: \"\"Yes.\" (Nod and turn your fingers c...\"",
+                                      "articyId": "0x010000820001FD7F",
+                                      "text": "\"Yes.\" (Nod and turn your fingers clockwise.) \"Turn the *wódka* up.\"",
+                                      "links": [
+                                        {
+                                          "id": 96,
+                                          "title": "Gorący Kubek: \"He smiles, nodding vigorously, then...\"",
+                                          "articyId": "0x010000580001B4AE",
+                                          "text": "He smiles, nodding vigorously, then pours half a bottle of vodka into the pot. With a whistle he stirs the brew.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 120,
+                                      "title": "You: \"\"No! No *wódka*!\" (Turn your finger...\"",
+                                      "articyId": "0x010000820001FD85",
+                                      "text": "\"No! No *wódka*!\" (Turn your fingers counter-clockwise.) \"Cut it.\"",
+                                      "links": [
+                                        {
+                                          "id": 98,
+                                          "title": "Gorący Kubek: \"The cook gives you a long disappoin...\"",
+                                          "articyId": "0x010000820001FDC9",
+                                          "text": "The cook gives you a long disappointed look, then turns the stove off and seems to wait for you to speak.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 116,
+                                      "title": "You: \"\"I'll leave the cooking to you.\" (S...\"",
+                                      "articyId": "0x010000820001FD8B",
+                                      "text": "\"I'll leave the cooking to you.\" (Shrug.) \"I have business.\"",
+                                      "links": [
+                                        {
+                                          "id": 27,
+                                          "title": "Gorący Kubek: \"The cook gives you a long inspectin...\"",
+                                          "articyId": "0x010000820001FDD0",
+                                          "text": "The cook gives you a long inspecting look, then shrugs too and seems to wait for you to speak.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 121,
+                              "title": "Electrochemistry: \"Of course! Vodka! Now that makes it...\"",
+                              "articyId": "0x010000820001FD97",
+                              "text": "Of course! Vodka! Now that makes it a very very special borscht indeed! Turn it up and then ask for some yourself!",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 25,
+                      "title": "You: \"\"No.\" (Shake your head.)\"",
+                      "articyId": "0x010000820001FD39",
+                      "text": "\"No.\" (Shake your head.)",
+                      "links": []
+                    },
+                    {
+                      "id": 82,
+                      "title": "You: \"\"Mercury rising.\" (Run your fingers...\"",
+                      "articyId": "0x010000820001FD3F",
+                      "text": "\"Mercury rising.\" (Run your fingers through your hair.)",
+                      "links": []
+                    },
+                    {
+                      "id": 9,
+                      "title": "You: \"\"Sorry, I don't understand you.\"\"",
+                      "articyId": "0x010000820001FD45",
+                      "text": "\"Sorry, I don't understand you.\"",
+                      "links": [
+                        {
+                          "id": 12,
+                          "title": "Gorący Kubek: \"Just one word. Sounds quizzical. Th...\"",
+                          "articyId": "0x0100000600018DB0",
+                          "text": "Just one word. Sounds quizzical. Then he awaits your answer with his brow arched.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 92,
+          "title": "You: \"\"Gorący, could I have some of that...\"",
+          "articyId": "0x010000580001B4DC",
+          "text": "\"Gorący, could I have some of that brew?\"",
+          "links": [
+            {
+              "id": 50,
+              "title": "Gorący Kubek: \"He smiles and nods enthusiastically...\"",
+              "articyId": "0x010000580001B4EA",
+              "text": "He smiles and nods enthusiastically, and, chattering away in his language, ladles some brew into a small thermal cup. Then hands it to you.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 95,
+          "title": "You: \"\"You wouldn't mind if I were to boi...\"",
+          "articyId": "0x0100002D00000402",
+          "text": "\"You wouldn't mind if I were to boil some boots here, would you?\"",
+          "links": [
+            {
+              "id": 18,
+              "title": "Gorący Kubek: \"The man takes another drag of his c...\"",
+              "articyId": "0x0100002D00000409",
+              "text": "The man takes another drag of his cigarette and shakes his head, smiling widely. It's not clear whether he understood your question.",
+              "links": [
+                {
+                  "id": 40,
+                  "title": "Authority: \"It doesn't matter -- you're a polic...\"",
+                  "articyId": "0x0100002D00000415",
+                  "text": "It doesn't matter -- you're a police officer, you can do anything you want.",
+                  "links": [
+                    {
+                      "id": 77,
+                      "title": "Suggestion: \"You can always talk your way out if...\"",
+                      "articyId": "0x0100002D0000041C",
+                      "text": "You can always talk your way out if things go sour.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 114,
+          "title": "You: \"\"You've got some impressive pots th...\"",
+          "articyId": "0x010000580000894F",
+          "text": "\"You've got some impressive pots there.\"",
+          "links": [
+            {
+              "id": 109,
+              "title": "Gorący Kubek: \"He smiles and bangs his ladle again...\"",
+              "articyId": "0x010000580000897C",
+              "text": "He smiles and bangs his ladle against each of his pots in turn.",
+              "links": [
+                {
+                  "id": 115,
+                  "title": "Conceptualization: \"It's almost like music, especially...\"",
+                  "articyId": "0x0100005800008983",
+                  "text": "It's almost like music, especially with the sounds of assorted dishes boiling and simmering on the stove.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "title": "You: \"\"I don't think I need anything else...\"",
+          "articyId": "0x0100002F0000DFBF",
+          "text": "\"I don't think I need anything else. Stay masculine!\" [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Gorący Kubek: \"A thin man is smoking below an exha...\"",
+      "articyId": "0x0100002F0000E00D",
+      "text": "A thin man is smoking below an exhaust hood, occasionally sipping from his mug. This must be the Whirling's cook.",
+      "links": [
+        {
+          "id": 91,
+          "title": "Gorący Kubek: \"As you step in, he nods towards the...\"",
+          "articyId": "0x0100002F0000DF8C",
+          "text": "As you step in, he nods towards the table and says something in a completely foreign language. The only words you can make out are 'gorący' and 'kubek'.",
+          "links": [
+            {
+              "id": 78,
+              "title": "Logic: \"It must be his name. Gorący, Gorący...\"",
+              "articyId": "0x0100002F0000E007",
+              "text": "It must be his name. Gorący, Gorący Kubek... Sounds representative.",
+              "links": [
+                {
+                  "id": 37,
+                  "title": "You: \"\"Ah, Gorący! I have some questions...\"",
+                  "articyId": "0x0100002F0000DF92",
+                  "text": "\"Ah, Gorący! I have some questions to ask!\"",
+                  "links": [
+                    {
+                      "id": 13,
+                      "title": "Gorący Kubek: \"The man puts his cup down and repli...\"",
+                      "articyId": "0x0100002F0000DFA5",
+                      "text": "The man puts his cup down and replies something, his left hand drawing arcs in the air.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 105,
+                  "title": "You: \"\"Mr. Kubek? I'm here on official po...\"",
+                  "articyId": "0x0100002F0000DF98",
+                  "text": "\"Mr. Kubek? I'm here on official police business.\"",
+                  "links": []
+                },
+                {
+                  "id": 41,
+                  "title": "You: \"\"Hello, sir. Got time for a few que...\"",
+                  "articyId": "0x0100002F0001310D",
+                  "text": "\"Hello, sir. Got time for a few questions?\"",
+                  "links": []
+                },
+                {
+                  "id": 63,
+                  "title": "You: \"Ignore him. [Leave.]\"",
+                  "articyId": "0x0100002F0000DF9E",
+                  "text": "Ignore him. [Leave.]",
+                  "links": []
+                },
+                {
+                  "id": 80,
+                  "title": "Logic: \"Okay, it's definitely not his name....\"",
+                  "articyId": "0x0100002F0000E022",
+                  "text": "Okay, it's definitely not his name. Whatever you do, please don't call him Gorący Kubek! Please. It's not funny.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "0x010000450000E73F",
+  "title": "WHIRLING ROOF ORB / handeye catch",
+  "description": "hand eye coordination bubble to catch the wildflowers",
+  "dialogueTree": [
+    {
+      "id": 27,
+      "title": "Hand/Eye Coordination: \"Just as you look at the flowers, a...\"",
+      "articyId": "0x010000450000EC06",
+      "text": "Just as you look at the flowers, a gust of wind raises them from the roof, picking them up in the air...",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"Move your hand, fast!\"",
+          "articyId": "0x010000040001574D",
+          "text": "Move your hand, fast!",
+          "links": [
+            {
+              "id": 8,
+              "title": "Hand/Eye Coordination: \"You catch a single white flower bet...\"",
+              "articyId": "0x010000450000EC1B",
+              "text": "You catch a single white flower between your fingers. The rest fly off into the wind. It's a may bell!",
+              "links": [
+                {
+                  "id": 2,
+                  "title": "Kim Kitsuragi: \"The lieutenant gives you an acknowl...\"",
+                  "articyId": "0x010000450000EC50",
+                  "text": "The lieutenant gives you an acknowledging little nod.",
+                  "links": [
+                    {
+                      "id": 29,
+                      "title": "You: \"Snap your finger pistols at him.\"",
+                      "articyId": "0x010000450000ECC0",
+                      "text": "Snap your finger pistols at him.",
+                      "links": [
+                        {
+                          "id": 9,
+                          "title": "Hand/Eye Coordination: \"Your 9mm semiautomatic finger pisto...\"",
+                          "articyId": "0x010000450000ECE2",
+                          "text": "Your 9mm semiautomatic finger pistols produce a satisfying snap. (Strange for such a low calibre finger-gun to sound so chunky.) The flower in your hand is impressed. So is Kim.",
+                          "links": [
+                            {
+                              "id": 23,
+                              "title": "Kim Kitsuragi: \"That's not entirely true, the lieut...\"",
+                              "articyId": "0x010000450000ECF3",
+                              "text": "That's not entirely true, the lieutenant is looking at the door to the east and mostly misses them.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 26,
+                      "title": "You: \"Snap your finger pistols at the you...\"",
+                      "articyId": "0x010000450000ECC6",
+                      "text": "Snap your finger pistols at the young woman.",
+                      "links": [
+                        {
+                          "id": 20,
+                          "title": "Hand/Eye Coordination: \"Your 9mm semiautomatic finger pisto...\"",
+                          "articyId": "0x010000450000ECDC",
+                          "text": "Your 9mm semiautomatic finger pistols make two satisfying snaps. (Strange for such a small calibre of finger pistol to sound so chunky.) The flower in your hand is impressed. So is she.",
+                          "links": [
+                            {
+                              "id": 22,
+                              "title": "Klaasje (Miss Oranje Disco Dancer): \"That's not actually true -- she's l...\"",
+                              "articyId": "0x010000450000ECED",
+                              "text": "That's not actually true -- she's looking toward the yard and doesn't notice them. Which is probably for the best, because didn't someone mention she's a rape victim?",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 21,
+                      "title": "You: \"Don't snap finger pistols at all.\"",
+                      "articyId": "0x010000450000ECCE",
+                      "text": "Don't snap finger pistols at all.",
+                      "links": [
+                        {
+                          "id": 19,
+                          "title": "Hand/Eye Coordination: \"Probably for the best -- your 9mm s...\"",
+                          "articyId": "0x010000450000ECD5",
+                          "text": "Probably for the best -- your 9mm semiautomatic finger pistols are not a toy to be waved around.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 28,
+                  "title": "Klaasje (Miss Oranje Disco Dancer): \"The young woman looks at the may be...\"",
+                  "articyId": "0x010000450000EC41",
+                  "text": "The young woman looks at the may bell in your hand -- just a glance -- then takes a drag of her cigarette.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 24,
+              "title": "Hand/Eye Coordination: \"...the wind brushes them off the ro...\"",
+              "articyId": "0x0100000400015747",
+              "text": "...the wind brushes them off the roof. They're gone.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"[Discard chance.]\"",
+          "articyId": "0x010000450000EC13",
+          "text": "[Discard chance.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

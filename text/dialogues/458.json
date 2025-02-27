@@ -1,0 +1,157 @@
+{
+  "id": "0x0100006B00001C53",
+  "title": "WHIRLING F2 / TAPE PLAYER",
+  "description": "You can click on tape player -- it has broken down while you were gone. Can't listen to any tapes now, best you find a new one from Roy.",
+  "dialogueTree": [
+    {
+      "id": 30,
+      "title": "Stereo 8 Player: \"The compact tape player is still an...\"",
+      "articyId": "0x0100006B00001F6D",
+      "text": "The compact tape player is still and silent. Seems it has completely broken down now.",
+      "links": [
+        {
+          "id": 39,
+          "title": "Encyclopedia: \"The machine was made in Revachol by...\"",
+          "articyId": "0x0100006B00002008",
+          "text": "The machine was made in Revachol by a company called Lemercier -- their logo depicts the triple-towered Delta skyline. It was supposedly built to last.",
+          "links": [
+            {
+              "id": 11,
+              "title": "Interfacing: \"There is no fixing this one.\"",
+              "articyId": "0x0100006B00001F74",
+              "text": "There is no fixing this one.",
+              "links": [
+                {
+                  "id": 2,
+                  "title": "Kim Kitsuragi: \"\"This would have been *very* helpfu...\"",
+                  "articyId": "0x0100006B00001F81",
+                  "text": "\"This would have been *very* helpful with the 'Megamix'.\" He stares at the tape player. \"But it isn't anymore.\"",
+                  "links": [
+                    {
+                      "id": 10,
+                      "title": "Half Light: \"Fuck is that going to achieve? Bein...\"",
+                      "articyId": "0x0100003700000125",
+                      "text": "Fuck is that going to achieve? Being a smart-ass... making your nostrils flare.",
+                      "links": [
+                        {
+                          "id": 28,
+                          "title": "You: \"\"Fuck off, Kim.\"\"",
+                          "articyId": "0x0100006B00001F92",
+                          "text": "\"Fuck off, Kim.\"",
+                          "links": [
+                            {
+                              "id": 6,
+                              "title": "Kim Kitsuragi: \"The lieutenant doesn't even flinch....\"",
+                              "articyId": "0x0100006B00001FFD",
+                              "text": "The lieutenant doesn't even flinch. \"Anyway, let's try to find a new tape player. Perhaps we should talk to Roy at the pawnshop.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 25,
+                              "title": "Kim Kitsuragi: \"The lieutenant doesn't even flinch....\"",
+                              "articyId": "0x0100006B00001FF7",
+                              "text": "The lieutenant doesn't even flinch. \"Anyway, let's try to find a new tape player. There's a pawnshop near the water lock, maybe they have a spare.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 31,
+                          "title": "You: \"\"Yeah... any ideas?\"\"",
+                          "articyId": "0x0100006B00001F88",
+                          "text": "\"Yeah... any ideas?\"",
+                          "links": [
+                            {
+                              "id": 29,
+                              "title": "Kim Kitsuragi: \"\"My Kineema only comes with a radio...\"",
+                              "articyId": "0x0100006B00001FAA",
+                              "text": "\"My Kineema only comes with a radio,\" he ponders. \"Let's try to find a new tape player. Perhaps we should talk to Roy at the pawnshop -- he has stuff.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 32,
+                              "title": "Kim Kitsuragi: \"\"My Kineema only comes with a radio...\"",
+                              "articyId": "0x0100006B00001F9C",
+                              "text": "\"My Kineema only comes with a radio,\" he ponders. \"We should try to find a new tape player. There's a pawnshop near the water lock, south of here. Maybe they have a spare.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 27,
+                          "title": "You: \"\"It's not *my* fault.\"\"",
+                          "articyId": "0x0100006B00001F8D",
+                          "text": "\"It's not *my* fault.\"",
+                          "links": [
+                            {
+                              "id": 38,
+                              "title": "Kim Kitsuragi: \"\"Of course,\" he notes. \"We should t...\"",
+                              "articyId": "0x0100006B00001FE4",
+                              "text": "\"Of course,\" he notes. \"We should try to find a new tape player. Perhaps we can talk to Roy at the pawnshop south of here -- he had stuff.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 24,
+                              "title": "Kim Kitsuragi: \"\"Of course,\" he notes. \"Anyway, we...\"",
+                              "articyId": "0x0100006B00001FEA",
+                              "text": "\"Of course,\" he notes. \"Anyway, we should try to find a new tape player. There's a pawnshop near the water lock, south of here. Maybe they have a spare.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 19,
+                  "title": "You: \"Great. What now?\"",
+                  "articyId": "0x0100006B00001FC5",
+                  "text": "Great. What now?",
+                  "links": [
+                    {
+                      "id": 34,
+                      "title": "Interfacing: \"Best find a new player. A boombox,...\"",
+                      "articyId": "0x0100006B00001FD3",
+                      "text": "Best find a new player. A boombox, funky style? Maybe the guy at the pawnshop can help out?",
+                      "links": []
+                    },
+                    {
+                      "id": 40,
+                      "title": "Interfacing: \"I guess the only thing to do is to...\"",
+                      "articyId": "0x0100006B0000201D",
+                      "text": "I guess the only thing to do is to find a new player. Might be one waiting for you out there somewhere.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 23,
+                  "title": "You: \"Well shit.\"",
+                  "articyId": "0x0100006B00001FCA",
+                  "text": "Well shit.",
+                  "links": []
+                },
+                {
+                  "id": 26,
+                  "title": "You: \"What should I do now, Stereo 8 Play...\"",
+                  "articyId": "0x0100006B00001FB7",
+                  "text": "What should I do now, Stereo 8 Player?",
+                  "links": [
+                    {
+                      "id": 33,
+                      "title": "Stereo 8 Player: \"The broken tape player doesn't have...\"",
+                      "articyId": "0x0100006B00001FBD",
+                      "text": "The broken tape player doesn't have the ability to respond. But Kim would.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

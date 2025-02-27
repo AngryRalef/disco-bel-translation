@@ -1,0 +1,53 @@
+{
+  "id": "0x0100008900002A17",
+  "title": "INVENTORY / MAP OF MARTINAISE",
+  "description": "because the map is possibly a readable items, it might need some sort of an interaction dialogue?",
+  "dialogueTree": [
+    {
+      "id": 12,
+      "title": "Tourist map of Martinaise: \"The worn map features the patchwork...\"",
+      "articyId": "0x0100008900002A28",
+      "text": "The worn map features the patchwork grid of the streets of Martinaise, with directions to appropriately *tourist-y* locations. Year '48 resides on the upper-right corner.",
+      "links": [
+        {
+          "id": 13,
+          "title": "You: \"Trace a path through the grid.\"",
+          "articyId": "0x0100008900002A49",
+          "text": "Trace a path through the grid.",
+          "links": [
+            {
+              "id": 5,
+              "title": "Tourist map of Martinaise: \"Your finger moves through the vario...\"",
+              "articyId": "0x0100008900002A50",
+              "text": "Your finger moves through the various streets, across Rue de Saint-Ghislaine and Rue Saint-Cispare, over Saint-Brune and Martinaise North...",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Tourist map of Martinaise: \"...finally coming to a halt on the...\"",
+                  "articyId": "0x0100008900002A5C",
+                  "text": "...finally coming to a halt on the spot where you are currently standing, although the map gives no such indication itself.",
+                  "links": [
+                    {
+                      "id": 3,
+                      "title": "Tutorial Agent: \"For a more detailed view of the Map...\"",
+                      "articyId": "0x0100002100001884",
+                      "text": "For a more detailed view of the Map, go to your JOURNAL and select the MAP tab.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"[Put the map away.]\"",
+          "articyId": "0x0100008900002A3D",
+          "text": "[Put the map away.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

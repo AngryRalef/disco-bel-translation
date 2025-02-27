@@ -1,0 +1,620 @@
+{
+  "id": "0x010000450000E729",
+  "title": "WHIRLING F3 / BARRED DOOR",
+  "description": "This is the door on the roof. \nPhys Inst white get in",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Barred Door: \"This is the door to the pinball wor...\"",
+      "articyId": "0x0100005800009EBA",
+      "text": "This is the door to the pinball workshop that you left barred on the inside.",
+      "links": [
+        {
+          "id": 56,
+          "title": "You: \"Push.\"",
+          "articyId": "0x010000450000EE05",
+          "text": "Push.",
+          "links": [
+            {
+              "id": 3,
+              "title": "Barred Door: \"It's barred from the inside. You he...\"",
+              "articyId": "0x010000450000EE19",
+              "text": "It's barred from the inside. You hear the bar rattle in the brackets.",
+              "links": [
+                {
+                  "id": 91,
+                  "title": "Perception (Hearing): \"Sounds like it's heavy too. Very st...\"",
+                  "articyId": "0x010000450000EE25",
+                  "text": "Sounds like it's heavy too. Very sturdy.",
+                  "links": [
+                    {
+                      "id": 55,
+                      "title": "Logic: \"Must be something valuable inside t...\"",
+                      "articyId": "0x0100000400013E25",
+                      "text": "Must be something valuable inside to go through the trouble of protecting it -- the door is very sturdy indeed.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "You: \"\"Where does this lead to?\"\"",
+          "articyId": "0x010000450000EE4B",
+          "text": "\"Where does this lead to?\"",
+          "links": [
+            {
+              "id": 9,
+              "title": "Kim Kitsuragi: \"\"To the workshop behind the wall.\"...\"",
+              "articyId": "0x010000450000EE43",
+              "text": "\"To the workshop behind the wall.\" He points somewhere within. \"This must be the barred door we saw -- we *could* return and open it from the inside.\" He looks at the door with suspicion.",
+              "links": []
+            },
+            {
+              "id": 156,
+              "title": "Kim Kitsuragi: \"\"It must be connected to the room w...\"",
+              "articyId": "0x010000450000EF3D",
+              "text": "\"It must be connected to the room we found behind the kitchen door. Maybe we should go back and take that elevator up...\" He looks at the door with suspicion.",
+              "links": []
+            },
+            {
+              "id": 95,
+              "title": "Kim Kitsuragi: \"\"I don't know.\" He makes a note in...\"",
+              "articyId": "0x010000450000EE3C",
+              "text": "\"I don't know.\" He makes a note in his notebook.",
+              "links": [
+                {
+                  "id": 17,
+                  "title": "Kim Kitsuragi: \"\"It is not the first closed door we...\"",
+                  "articyId": "0x010000450000EE67",
+                  "text": "\"It is not the first closed door we've found in this building -- there is also your mysterious blue kitchen door.\"",
+                  "links": [
+                    {
+                      "id": 107,
+                      "title": "You: \"\"Do you think it's important?\"\"",
+                      "articyId": "0x010000450000EE74",
+                      "text": "\"Do you think it's important?\"",
+                      "links": [
+                        {
+                          "id": 20,
+                          "title": "Kim Kitsuragi: \"\"I don't know. The further we get,...\"",
+                          "articyId": "0x0100007800010A26",
+                          "text": "\"I don't know. The further we get, the more this building seems to be tied to the case...\"",
+                          "links": [
+                            {
+                              "id": 22,
+                              "title": "Shivers: \"Below, the hostel-cafeteria creaks...\"",
+                              "articyId": "0x010000450000EE80",
+                              "text": "Below, the hostel-cafeteria creaks and groans under your added weight -- a skeleton of composite support beams and cantilevers.",
+                              "links": [
+                                {
+                                  "id": 68,
+                                  "title": "You: \"Tap on the roof with your foot.\"",
+                                  "articyId": "0x010000450000EE87",
+                                  "text": "Tap on the roof with your foot.",
+                                  "links": [
+                                    {
+                                      "id": 82,
+                                      "title": "Shivers: \"A dull thump. Somewhere inside a wi...\"",
+                                      "articyId": "0x010000450000EE93",
+                                      "text": "A dull thump. Somewhere inside a wind brace rattles from the imperceptible motion of the building.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 143,
+                                  "title": "You: \"Shake it off.\"",
+                                  "articyId": "0x010000450000EE8D",
+                                  "text": "Shake it off.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 131,
+                                  "title": "Kim Kitsuragi: \"\"The vigilantes, the cadaver, and.....\"",
+                                  "articyId": "0x0100008F00003FD8",
+                                  "text": "\"The vigilantes, the cadaver, and...\" He nods to where they young woman once stood. \"A number of people connected to the case are *in* or around this building. This door is part of it. It's not *unimportant*.\"",
+                                  "links": [
+                                    {
+                                      "id": 166,
+                                      "title": "You: \"\"So maybe the door below *is* a *me...\"",
+                                      "articyId": "0x0100007800010950",
+                                      "text": "\"So maybe the door below *is* a *mega*-investigation.\"",
+                                      "links": [
+                                        {
+                                          "id": 53,
+                                          "title": "Kim Kitsuragi: \"\"No -- still a mini-investigation.\"...\"",
+                                          "articyId": "0x0100007800010966",
+                                          "text": "\"No -- still a mini-investigation.\" He pretends to make a note in his notebook.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 138,
+                                      "title": "You: \"\"See? The main investigation and th...\"",
+                                      "articyId": "0x0100007800010956",
+                                      "text": "\"See? The main investigation and the door below are merging into a *stereo*-investigation.\"",
+                                      "links": [
+                                        {
+                                          "id": 76,
+                                          "title": "Kim Kitsuragi: \"\"I hate it when that happens.\"\"",
+                                          "articyId": "0x010000780001095C",
+                                          "text": "\"I hate it when that happens.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 139,
+                                      "title": "You: \"\"I could say something, but I'm not...\"",
+                                      "articyId": "0x010000780001097D",
+                                      "text": "\"I could say something, but I'm not going to, because I don't gloat.\"",
+                                      "links": [
+                                        {
+                                          "id": 151,
+                                          "title": "Kim Kitsuragi: \"He doesn't say anything.\"",
+                                          "articyId": "0x0100007800010983",
+                                          "text": "He doesn't say anything.",
+                                          "links": [
+                                            {
+                                              "id": 167,
+                                              "title": "Rhetoric: \"You should have gloated.\"",
+                                              "articyId": "0x0100007800010994",
+                                              "text": "You should have gloated.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "title": "Kim Kitsuragi: \"\"The vigilantes, the cadaver, and.....\"",
+                                  "articyId": "0x010000450000EEAA",
+                                  "text": "\"The vigilantes, the cadaver, and...\" He nods toward the young woman. \"A number of people connected to the case are *in* or around this building. This door is part of it. It's not *unimportant*.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 155,
+                          "title": "Kim Kitsuragi: \"\"The further we get, the more this...\"",
+                          "articyId": "0x010000450000EE79",
+                          "text": "\"The further we get, the more this building seems to be tied to the case...\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 77,
+                  "title": "Kim Kitsuragi: \"\"We should search downstairs, in th...\"",
+                  "articyId": "0x01000078000109A4",
+                  "text": "\"We should search downstairs, in the kitchen -- just in case. Maybe there's a door that leads up, that we don't know of.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 133,
+          "title": "You: \"Kick the door in.\"",
+          "articyId": "0x010000450000EE0B",
+          "text": "Kick the door in.",
+          "links": [
+            {
+              "id": 78,
+              "title": "Physical Instrument: \"Something cracks inside. It is an u...\"",
+              "articyId": "0x0100008F00003E7A",
+              "text": "Something cracks inside. It is an unbelievably satisfying sound.",
+              "links": [
+                {
+                  "id": 142,
+                  "title": "Electrochemistry: \"Filling you with a *belief* in your...\"",
+                  "articyId": "0x0100000400013D7F",
+                  "text": "Filling you with a *belief* in your own body.",
+                  "links": [
+                    {
+                      "id": 132,
+                      "title": "Kim Kitsuragi: \"\"Sounds like the property damage wa...\"",
+                      "articyId": "0x0100000400013D8C",
+                      "text": "\"Sounds like the property damage wasn't in vain, at least. Would it hurt to look in?\"",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "You: \"\"I thought it was an Ace's High mom...\"",
+                          "articyId": "0x0100000400013DB4",
+                          "text": "\"I thought it was an Ace's High moment, Kim.\"",
+                          "links": [
+                            {
+                              "id": 79,
+                              "title": "Kim Kitsuragi: \"\"I don't know about that...\" The li...\"",
+                              "articyId": "0x0100000400013DD3",
+                              "text": "\"I don't know about that...\" The lieutenant smiles an uncomfortable smile.",
+                              "links": [
+                                {
+                                  "id": 54,
+                                  "title": "Empathy: \"It totally was.\"",
+                                  "articyId": "0x0100000400013DD9",
+                                  "text": "It totally was.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 43,
+                          "title": "You: \"\"I thought it was an Ace's Low mome...\"",
+                          "articyId": "0x0100000400013DBA",
+                          "text": "\"I thought it was an Ace's Low moment, Kim.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 64,
+                          "title": "You: \"\"Let's see.\" [Leave.]\"",
+                          "articyId": "0x0100000400013DC0",
+                          "text": "\"Let's see.\" [Leave.]",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 185,
+                      "title": "Visual Calculus: \"It seems like the brackets broke in...\"",
+                      "articyId": "0x0100006B0000A8FD",
+                      "text": "It seems like the brackets broke inside.",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "You: \"Let's get in there. [Leave.]\"",
+                          "articyId": "0x0100006B0000A905",
+                          "text": "Let's get in there. [Leave.]",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I think the brackets broke inside....\"",
+                      "articyId": "0x0100000400013D91",
+                      "text": "\"I think the brackets broke inside. I've always wanted to know what's in there...\"",
+                      "links": [
+                        {
+                          "id": 121,
+                          "title": "Empathy: \"She sounds genuinely curious.\"",
+                          "articyId": "0x0100000400013D98",
+                          "text": "She sounds genuinely curious.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 127,
+              "title": "Physical Instrument: \"Something cracks inside. It is an u...\"",
+              "articyId": "0x0100008F00003E6D",
+              "text": "Something cracks inside. It is an unbelievably satisfying sound.",
+              "links": [
+                {
+                  "id": 122,
+                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Nice.\" The young woman nods.\"",
+                  "articyId": "0x0100000400013DEB",
+                  "text": "\"Nice.\" The young woman nods.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 149,
+              "title": "Physical Instrument: \"Something cracks inside.\"",
+              "articyId": "0x0100006B0000A8DE",
+              "text": "Something cracks inside.",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "Physical Instrument: \"It is an unbelievably satisfying so...\"",
+                  "articyId": "0x0100000400015A90",
+                  "text": "It is an unbelievably satisfying sound.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "title": "Physical Instrument: \"Something cracks inside.\"",
+              "articyId": "0x010000450000EF68",
+              "text": "Something cracks inside.",
+              "links": [
+                {
+                  "id": 116,
+                  "title": "Physical Instrument: \"It is an unbelievably satisfying so...\"",
+                  "articyId": "0x0100000400015A95",
+                  "text": "It is an unbelievably satisfying sound.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "title": "Physical Instrument: \"You kick it -- gung ho style, *ente...\"",
+              "articyId": "0x0100006B0000A914",
+              "text": "You kick it -- gung ho style, *entering the premises* style -- but the door fails to respect the force. All you hear is the bar rattling inside, laughing at you.",
+              "links": [
+                {
+                  "id": 27,
+                  "title": "Kim Kitsuragi: \"\"I don't see how this is going to g...\"",
+                  "articyId": "0x0100008F00003FE9",
+                  "text": "\"I don't see how this is going to give new results.\" He measures the door, stoically. \"There must be another way in there.\"",
+                  "links": [
+                    {
+                      "id": 75,
+                      "title": "Kim Kitsuragi: \"\"It's the barred door we saw.\" He l...\"",
+                      "articyId": "0x0100006B0000A991",
+                      "text": "\"It's the barred door we saw.\" He looks at the door with suspicion. \"I don't know why we didn't open it from the inside -- we *should*.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 187,
+                      "title": "Logic: \"The key... to the kitchen door. Fro...\"",
+                      "articyId": "0x0100006B0000A982",
+                      "text": "The key... to the kitchen door. From behind the window. Use it on the door.",
+                      "links": []
+                    },
+                    {
+                      "id": 112,
+                      "title": "Inland Empire: \"Below... in the Union box... was th...\"",
+                      "articyId": "0x010000450000EFDD",
+                      "text": "Below... in the Union box... was there something behind the window? In the hawthorn branches, brushing against the glass.",
+                      "links": [
+                        {
+                          "id": 73,
+                          "title": "You: \"What?\"",
+                          "articyId": "0x010000450000EFED",
+                          "text": "What?",
+                          "links": [
+                            {
+                              "id": 29,
+                              "title": "Inland Empire: \"No one knows. It is a fleeting feel...\"",
+                              "articyId": "0x010000450000F001",
+                              "text": "No one knows. It is a fleeting feeling.",
+                              "links": [
+                                {
+                                  "id": 86,
+                                  "title": "Perception (Sight): \"It could be that your eyesight is s...\"",
+                                  "articyId": "0x010000450000F00E",
+                                  "text": "It could be that your eyesight is still too poor to notice it... behind that window.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 144,
+                          "title": "You: \"Ignore the feeling.\"",
+                          "articyId": "0x010000450000EFF3",
+                          "text": "Ignore the feeling.",
+                          "links": [
+                            {
+                              "id": 74,
+                              "title": "Inland Empire: \"You are a numb, imprecise instrumen...\"",
+                              "articyId": "0x010000450000EFFA",
+                              "text": "You are a numb, imprecise instrument to ignore this feeling...",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 158,
+                          "title": "You: \"\"How?\"\"",
+                          "articyId": "0x010000450000F029",
+                          "text": "\"How?\"",
+                          "links": [
+                            {
+                              "id": 39,
+                              "title": "Kim Kitsuragi: \"\"Through the kitchen door, perhaps?...\"",
+                              "articyId": "0x010000450000F03A",
+                              "text": "\"Through the kitchen door, perhaps? Let's explore, rather than destroy.\"",
+                              "links": [
+                                {
+                                  "id": 28,
+                                  "title": "Perception (Sight): \"It could be that your eyesight is s...\"",
+                                  "articyId": "0x0100000400013CFE",
+                                  "text": "It could be that your eyesight is still too poor to notice it... behind that window.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 148,
+                              "title": "Kim Kitsuragi: \"\"We should search downstairs. There...\"",
+                              "articyId": "0x010000450000F041",
+                              "text": "\"We should search downstairs. There are things about this building we don't know yet.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 49,
+                  "title": "Kim Kitsuragi: \"\"The door has withstood your *demol...\"",
+                  "articyId": "0x0100006B0000A928",
+                  "text": "\"The door has withstood your *demolishing* attempts.\" He measures the door, stoically. \"There must be another way in.\"",
+                  "links": []
+                },
+                {
+                  "id": 186,
+                  "title": "You: \"\"Fucking piece of shit!\"\"",
+                  "articyId": "0x0100006B0000A91E",
+                  "text": "\"Fucking piece of shit!\"",
+                  "links": [
+                    {
+                      "id": 165,
+                      "title": "Physical Instrument: \"The door is oblivious to your distr...\"",
+                      "articyId": "0x0100006B0000A95B",
+                      "text": "The door is oblivious to your distress.",
+                      "links": [
+                        {
+                          "id": 60,
+                          "title": "Half Light: \"Your foot is ready to explode and p...\"",
+                          "articyId": "0x0100000400013CF3",
+                          "text": "Your foot is ready to explode and punish this *object*!",
+                          "links": [
+                            {
+                              "id": 6,
+                              "title": "You: \"\"*Disrespecting* the force?!?!\" (Ki...\"",
+                              "articyId": "0x0100000400013D1A",
+                              "text": "\"*Disrespecting* the force?!?!\" (Kick the door.)",
+                              "links": [
+                                {
+                                  "id": 36,
+                                  "title": "Barred Door: \"The door receives a thorough discip...\"",
+                                  "articyId": "0x0100000400013D2A",
+                                  "text": "The door receives a thorough disciplining.",
+                                  "links": [
+                                    {
+                                      "id": 120,
+                                      "title": "Electrochemistry: \"Its pain and grovelling is much to...\"",
+                                      "articyId": "0x0100000400013D4D",
+                                      "text": "Its pain and grovelling is much to your liking.",
+                                      "links": [
+                                        {
+                                          "id": 8,
+                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Suck on that, door.\"\"",
+                                          "articyId": "0x0100000400013D6E",
+                                          "text": "\"Suck on that, door.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 7,
+                                  "title": "Pain Threshold: \"This kind of stuff would hurt -- if...\"",
+                                  "articyId": "0x0100000400013D56",
+                                  "text": "This kind of stuff would hurt -- if not for you not caring about little things like that.",
+                                  "links": [
+                                    {
+                                      "id": 178,
+                                      "title": "Barred Door: \"The door receives a thorough discip...\"",
+                                      "articyId": "0x0100000400013D63",
+                                      "text": "The door receives a thorough disciplining -- and it doesn't even hurt!",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 97,
+                                      "title": "Barred Door: \"The door receives a thorough discip...\"",
+                                      "articyId": "0x0100000400013D37",
+                                      "text": "The door receives a thorough disciplining -- at the cost of your foot. Your foot hurts. A lot.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "title": "You: \"Swallow the rage.\"",
+                              "articyId": "0x0100000400013D20",
+                              "text": "Swallow the rage.",
+                              "links": [
+                                {
+                                  "id": 90,
+                                  "title": "Barred Door: \"The sturdy wood door has lost *all*...\"",
+                                  "articyId": "0x0100000400013D3D",
+                                  "text": "The sturdy wood door has lost *all* respect for you.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 150,
+                  "title": "You: \"\"Ow.\"\"",
+                  "articyId": "0x0100006B0000A953",
+                  "text": "\"Ow.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 174,
+              "title": "Physical Instrument: \"You kick it -- gung ho-style, *ente...\"",
+              "articyId": "0x010000450000EF6D",
+              "text": "You kick it -- gung ho-style, *entering the premises*-style -- but the door fails to respect the force. All you hear is the bar rattling inside, laughing at you.",
+              "links": [
+                {
+                  "id": 72,
+                  "title": "Klaasje (Miss Oranje Disco Dancer): \"The woman takes a drag of her ziggi...\"",
+                  "articyId": "0x010000450000EF84",
+                  "text": "The woman takes a drag of her ziggie and nods: \"Demolish the place.\"",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "Kim Kitsuragi: \"\"I don't see how this is going to g...\"",
+                      "articyId": "0x010000450000EFCB",
+                      "text": "\"I don't see how this is going to give new results.\" He measures the door, stoically. \"There must be another way in there.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 45,
+                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"All right,\" the woman nods approvi...\"",
+                  "articyId": "0x010000450000EF7E",
+                  "text": "\"All right,\" the woman nods approvingly: \"Let's trash the place.\"",
+                  "links": [
+                    {
+                      "id": 96,
+                      "title": "Kim Kitsuragi: \"\"Let's not.\"\"",
+                      "articyId": "0x010000450000EFAA",
+                      "text": "\"Let's not.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000450000EE11",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Barred Door: \"This is a small, heavy door. There...\"",
+      "articyId": "0x010000450000E72A",
+      "text": "This is a small, heavy door. There is no lock in sight.",
+      "links": []
+    }
+  ]
+}

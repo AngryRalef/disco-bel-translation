@@ -1,0 +1,98 @@
+{
+  "id": "0x010000570001D9E1",
+  "title": "APT ORB / abandoned apt shivers",
+  "description": "This is a shivers orb showing the former tenant.",
+  "dialogueTree": [
+    {
+      "id": 9,
+      "title": "Shivers: \"A shift in temperature. The air chi...\"",
+      "articyId": "0x010000040001505A",
+      "text": "A shift in temperature. The air chills around you. Dust settles on the stony floor.",
+      "links": [
+        {
+          "id": 11,
+          "title": "You: \"Rub your sides for warmth.\"",
+          "articyId": "0x0100000400015067",
+          "text": "Rub your sides for warmth.",
+          "links": [
+            {
+              "id": 4,
+              "title": "Shivers: \"A former architect stands before a...\"",
+              "articyId": "0x010000570001E06D",
+              "text": "A former architect stands before a slice of window, a room plan in her hand. A cold wave has made the air in the building stand still and frozen, with temperatures falling down to -20°C.",
+              "links": [
+                {
+                  "id": 14,
+                  "title": "You: \"Her face...\"",
+                  "articyId": "0x010000570001E07A",
+                  "text": "Her face...",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Shivers: \"...is red from the cold. She's brea...\"",
+                      "articyId": "0x010000570001E090",
+                      "text": "...is red from the cold. She's breathing on her fingers clasping the plan. Traces of sadness are visible in her expression.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 10,
+                  "title": "You: \"The plan...\"",
+                  "articyId": "0x010000570001E080",
+                  "text": "The plan...",
+                  "links": [
+                    {
+                      "id": 12,
+                      "title": "Shivers: \"... faint pencil lines on paper dep...\"",
+                      "articyId": "0x010000570001E096",
+                      "text": "... faint pencil lines on paper depict the same place, but a missing eastern wall connects the room with the neighbouring apartment. Ideas for arranging the furniture have been jotted down.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "You: \"Look around yourself...\"",
+                  "articyId": "0x010000570001E0A6",
+                  "text": "Look around yourself...",
+                  "links": [
+                    {
+                      "id": 15,
+                      "title": "Shivers: \"It's clean and empty, with new tape...\"",
+                      "articyId": "0x010000570001E09E",
+                      "text": "It's clean and empty, with new tapestry embellishing the walls. A standard HB graphite pencil has fallen off a three-legged stool in the middle of the room.",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Conceptualization: \"She had an eye for beauty.\"",
+                          "articyId": "0x010000570001E2C0",
+                          "text": "She had an eye for beauty.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 6,
+                  "title": "You: \"Shiver. [Finish thought.]\"",
+                  "articyId": "0x010000570001E086",
+                  "text": "Shiver. [Finish thought.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "You: \"[Discard thought.]\"",
+          "articyId": "0x010000040001505F",
+          "text": "[Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

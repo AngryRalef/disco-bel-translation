@@ -1,0 +1,176 @@
+{
+  "id": "0x0100006B00006044",
+  "title": "LAIR / EXIT DOOR",
+  "description": "Door interactable, open the door, let Kim in. Kim possibly hidden behind fog of war.",
+  "dialogueTree": [
+    {
+      "id": 29,
+      "title": "Door: \"Two rusty metal plates that slide a...\"",
+      "articyId": "0x0100006B0000604B",
+      "text": "Two rusty metal plates that slide apart form a crude door. It's been here under the boardwalk for a while.",
+      "links": [
+        {
+          "id": 13,
+          "title": "You: \"\"Who's there?\"\"",
+          "articyId": "0x0100006B0000605A",
+          "text": "\"Who's there?\"",
+          "links": [
+            {
+              "id": 4,
+              "title": "Kim Kitsuragi: \"\"What do you mean 'who's there'? It...\"",
+              "articyId": "0x0100006B00006083",
+              "text": "\"What do you mean 'who's there'? It's me, Kim. Stop playing around and help me get this door open.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "You: \"Push the doors open.\"",
+          "articyId": "0x0100006B00006060",
+          "text": "Push the doors open.",
+          "links": [
+            {
+              "id": 12,
+              "title": "Door: \"It's *much* easier from this side -...\"",
+              "articyId": "0x0100000600014F50",
+              "text": "It's *much* easier from this side -- the panels on the rails slide once you dust the sand off. With the help of your partner from the other side the doors open with a *creak*.",
+              "links": [
+                {
+                  "id": 24,
+                  "title": "Kim Kitsuragi: \"\"Huh, I hope no one *dangerous* hea...\"",
+                  "articyId": "0x0100006B000060A4",
+                  "text": "\"Huh, I hope no one *dangerous* heard that.\"",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "You: \"\"You ready?\"\"",
+                      "articyId": "0x0100006B00006072",
+                      "text": "\"You ready?\"",
+                      "links": [
+                        {
+                          "id": 15,
+                          "title": "Kim Kitsuragi: \"\"Yes. Time to investigate these pas...\"",
+                          "articyId": "0x0100000600014F71",
+                          "text": "\"Yes. Time to investigate these passages. Let's move quietly and not make more sound.\"",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Savoir Faire: \"Not *running* is a great way to do...\"",
+                              "articyId": "0x010000060001E69E",
+                              "text": "Not *running* is a great way to do that.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 36,
+                      "title": "You: \"\"How did you even get there?\"\"",
+                      "articyId": "0x0100006B00006066",
+                      "text": "\"How did you even get there?\"",
+                      "links": [
+                        {
+                          "id": 6,
+                          "title": "Kim Kitsuragi: \"\"After you *climbed* up to the roof...\"",
+                          "articyId": "0x0100006B0000606C",
+                          "text": "\"After you *climbed* up to the roof, you mean? There's a maintenance entrance under the boardwalk. It's next to a drain pipe, possibly a storm drain -- it was easy to miss before.\"",
+                          "links": [
+                            {
+                              "id": 32,
+                              "title": "Empathy: \"He's quite proud of himself.\"",
+                              "articyId": "0x0100000600014F61",
+                              "text": "He's quite proud of himself.",
+                              "links": [
+                                {
+                                  "id": 10,
+                                  "title": "You: \"\"Could have saved me the effort.\"\"",
+                                  "articyId": "0x0100006B000060AF",
+                                  "text": "\"Could have saved me the effort.\"",
+                                  "links": [
+                                    {
+                                      "id": 35,
+                                      "title": "Kim Kitsuragi: \"He shrugs. \"At least now we have an...\"",
+                                      "articyId": "0x0100006B000060BB",
+                                      "text": "He shrugs. \"At least now we have an exit. So, let's get going. It's time to investigate these passages...\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 23,
+                                  "title": "You: \"\"Maintenance entrance? So pedestria...\"",
+                                  "articyId": "0x0100001600009B14",
+                                  "text": "\"Maintenance entrance? So pedestrian.\"",
+                                  "links": [
+                                    {
+                                      "id": 22,
+                                      "title": "Kim Kitsuragi: \"\"Yes, yes, it's *cool* to risk your...\"",
+                                      "articyId": "0x0100001600009B1B",
+                                      "text": "\"Yes, yes, it's *cool* to risk your life climbing rickety ladders. Anyway, let's investigate these passages...\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 34,
+                                  "title": "You: \"\"At least now we know a quick way i...\"",
+                                  "articyId": "0x0100006B000060B5",
+                                  "text": "\"At least now we know a quick way in and out.\"",
+                                  "links": [
+                                    {
+                                      "id": 11,
+                                      "title": "Kim Kitsuragi: \"\"Yes, we have an exit. So, let's ge...\"",
+                                      "articyId": "0x0100006B000060C0",
+                                      "text": "\"Yes, we have an exit. So, let's get going. Time to investigate these passages...\" He peers into the darkness.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 30,
+              "title": "Door: \"The doors seem to be on rails, but...\"",
+              "articyId": "0x0100006B00006089",
+              "text": "The doors seem to be on rails, but they've gotten jammed. You grab a side and put some strength into prying it open. With the help of your partner the two metal panels slide open with a *creak*.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "You: \"Ignore the door. [Leave.]\"",
+          "articyId": "0x0100006B00006078",
+          "text": "Ignore the door. [Leave.]",
+          "links": [
+            {
+              "id": 3,
+              "title": "Kim Kitsuragi: \"\"Officer? Are you okay in there?\"\"",
+              "articyId": "0x0100006B0000607E",
+              "text": "\"Officer? Are you okay in there?\"",
+              "links": [
+                {
+                  "id": 31,
+                  "title": "Esprit de Corps: \"You really ought to open this door....\"",
+                  "articyId": "0x0100006B00006092",
+                  "text": "You really ought to open this door. It's dangerous to go ahead alone.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

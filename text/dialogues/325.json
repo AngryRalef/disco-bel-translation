@@ -1,0 +1,516 @@
+{
+  "id": "0x0100004D00002EF4",
+  "title": "PAWNSHOP / SHELF OF BOOMBOXES",
+  "description": "You look at and ask Roy about the boombox.",
+  "dialogueTree": [
+    {
+      "id": 47,
+      "title": "Shelf of Boomboxes: \"All the old boomboxes are there, bl...\"",
+      "articyId": "0x010000370000042D",
+      "text": "All the old boomboxes are there, blinking and waiting to whirl. All but one: yours.",
+      "links": []
+    },
+    {
+      "id": 31,
+      "title": "Shelf of Boomboxes: \"The boomboxes wait on the shelves....\"",
+      "articyId": "0x01000037000002C8",
+      "text": "The boomboxes wait on the shelves. And your boombox -- that gold and amber Harmon Wowshi -- stares at you longingly with its tape reel eyes.",
+      "links": [
+        {
+          "id": 86,
+          "title": "You: \"\"Shopkeep, this Stereo 8 approved m...\"",
+          "articyId": "0x0100004D00003EAA",
+          "text": "\"Shopkeep, this Stereo 8 approved machine here...\"",
+          "links": [
+            {
+              "id": 24,
+              "title": "Bird's Nest Roy: \"\"...is the Harmon Wowshi W02 -- mad...\"",
+              "articyId": "0x0100005400000209",
+              "text": "\"...is the Harmon Wowshi W02 -- made in Vesper, designed in Seol,\" he says. \"Plays all reel-to-reel formats: 2mm, 8mm, 12mm. It's even got a little radio in there. It'll set you back 12 reál.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "title": "You: \"\"What I really want to know is... c...\"",
+          "articyId": "0x0100003700000143",
+          "text": "\"What I really want to know is... could this device come handy in my police work?\"",
+          "links": [
+            {
+              "id": 55,
+              "title": "Bird's Nest Roy: \"\"If police work means playing tapes...\"",
+              "articyId": "0x0100003700000149",
+              "text": "\"If police work means playing tapes, sure. You can use it for that. Or any other time you'd need to play a tape.\"",
+              "links": [
+                {
+                  "id": 27,
+                  "title": "Inland Empire: \"Like at a beach party. With sand an...\"",
+                  "articyId": "0x010000370000014F",
+                  "text": "Like at a beach party. With sand and sun and seagulls dancing on the breeze.",
+                  "links": [
+                    {
+                      "id": 94,
+                      "title": "You: \"(Turn to Kim.) \"Theoretically: coul...\"",
+                      "articyId": "0x010000370000033C",
+                      "text": "(Turn to Kim.) \"Theoretically: could I bring it to a beach party?\"",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Kim Kitsuragi: \"\"I don't think the 'Doorgunner Mega...\"",
+                          "articyId": "0x01000037000004C4",
+                          "text": "\"I don't think the 'Doorgunner Megamix' will be good party material. Something about the name...\"",
+                          "links": [
+                            {
+                              "id": 53,
+                              "title": "You: \"\"Okay Kim. I'll just rock out with...\"",
+                              "articyId": "0x0100008F00002A58",
+                              "text": "\"Okay Kim. I'll just rock out with Roy then.\"",
+                              "links": [
+                                {
+                                  "id": 43,
+                                  "title": "Bird's Nest Roy: \"\"I don't like beaches. They accumul...\"",
+                                  "articyId": "0x010000370000035D",
+                                  "text": "\"I don't like beaches. They accumulate too many photons, it's always chaos out there. But live your life, man. You can use it at a beach party if you want.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 84,
+                              "title": "You: \"\"Actually, it doesn't have to be a...\"",
+                              "articyId": "0x01000037000002F4",
+                              "text": "\"Actually, it doesn't have to be a beach. With a boombox like that, I'll bring the party into the streets!\"",
+                              "links": [
+                                {
+                                  "id": 2,
+                                  "title": "Bird's Nest Roy: \"\"You can play it anywhere you like....\"",
+                                  "articyId": "0x0100003700000363",
+                                  "text": "\"You can play it anywhere you like. And I guess since you're are a police officer, no one can arrest you for it.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 103,
+                              "title": "You: \"\"You're right. It's really The End...\"",
+                              "articyId": "0x01000037000002DC",
+                              "text": "\"You're right. It's really The End that I need it for: a Requiem For All Lifeforms.\"",
+                              "links": [
+                                {
+                                  "id": 69,
+                                  "title": "Bird's Nest Roy: \"\"It'll play that,\" the man nods. \"A...\"",
+                                  "articyId": "0x0100003700000368",
+                                  "text": "\"It'll play that,\" the man nods. \"Any Requiem really. Also dirges. Madrigals. Chants. As long as it's on tape.\"",
+                                  "links": [
+                                    {
+                                      "id": 22,
+                                      "title": "Conceptualization: \"Sounds like he's already heard the...\"",
+                                      "articyId": "0x01000037000004DF",
+                                      "text": "Sounds like he's already heard the Requiem For All Lifeforms and wasn't that impressed.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 28,
+                              "title": "You: \"\"You're right, Kitsuragi. Work firs...\"",
+                              "articyId": "0x01000037000004D8",
+                              "text": "\"You're right, Kitsuragi. Work first. Party later.\"",
+                              "links": [
+                                {
+                                  "id": 52,
+                                  "title": "Kim Kitsuragi: \"\"That is the unofficial RCM motto,...\"",
+                                  "articyId": "0x01000037000004EF",
+                                  "text": "\"That is the unofficial RCM motto, yes.\"",
+                                  "links": [
+                                    {
+                                      "id": 23,
+                                      "title": "Encyclopedia: \"It's not, sadly.\"",
+                                      "articyId": "0x01000037000004F7",
+                                      "text": "It's not, sadly.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 93,
+                          "title": "Kim Kitsuragi: \"\"Theoretically, yes. But we don't h...\"",
+                          "articyId": "0x01000037000002EE",
+                          "text": "\"Theoretically, yes. But we don't have time right now. It's generally: murder investigation first, *then* beach party.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 57,
+                      "title": "You: \"\"Thanks for clearing that up, Roy.\"\"",
+                      "articyId": "0x0100003700000342",
+                      "text": "\"Thanks for clearing that up, Roy.\"",
+                      "links": [
+                        {
+                          "id": 89,
+                          "title": "Bird's Nest Roy: \"\"For sure. It's a consumer device w...\"",
+                          "articyId": "0x0100003700000355",
+                          "text": "\"For sure. It's a consumer device with professional applications.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "You: \"\"Are you sure this is all in workin...\"",
+          "articyId": "0x0100004D00003ED7",
+          "text": "\"Are you sure this is all in working order?\"",
+          "links": [
+            {
+              "id": 30,
+              "title": "Bird's Nest Roy: \"\"Absolutely. I've tested each one m...\"",
+              "articyId": "0x010000540000021C",
+              "text": "\"Absolutely. I've tested each one myself with recordings of speech, found sounds, and music from a variety of genres. Even though,\" he grimaces, \"I don't really like music.\"",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "Conceptualization: \"That's odd. Why doesn't he like mus...\"",
+                  "articyId": "0x0100002100003163",
+                  "text": "That's odd. Why doesn't he like music?",
+                  "links": [
+                    {
+                      "id": 25,
+                      "title": "You: \"\"Don't like music? What do you like...\"",
+                      "articyId": "0x0100008900000C31",
+                      "text": "\"Don't like music? What do you like then?\"",
+                      "links": [
+                        {
+                          "id": 102,
+                          "title": "Bird's Nest Roy: \"\"The stuff I record myself -- silve...\"",
+                          "articyId": "0x0100008900000C37",
+                          "text": "\"The stuff I record myself -- silverware shaking in drawers as motorcars race by, nocturnal animals climbing on the roof, airship rotors, that kind of thing.\"",
+                          "links": [
+                            {
+                              "id": 14,
+                              "title": "Conceptualization: \"Hmm... maybe you should ditch music...\"",
+                              "articyId": "0x010000210000317D",
+                              "text": "Hmm... maybe you should ditch music as well, get into these more *experimental* sounds he's describing?",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 56,
+                      "title": "You: \"\"Got it. Back to this guy...\" (Tap...\"",
+                      "articyId": "0x0100003700000155",
+                      "text": "\"Got it. Back to this guy...\" (Tap the boombox on its speaker.)",
+                      "links": [
+                        {
+                          "id": 33,
+                          "title": "Bird's Nest Roy: \"\"He is a good one, that. Weather re...\"",
+                          "articyId": "0x010000370000015D",
+                          "text": "\"He is a good one, that. Weather resistant.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "title": "You: \"\"Can I just play a tape on one of t...\"",
+          "articyId": "0x0100008F00002732",
+          "text": "\"Can I just play a tape on one of the boomboxes real quick?\"",
+          "links": [
+            {
+              "id": 41,
+              "title": "Bird's Nest Roy: \"\"Sorry, man. I can't be giving out...\"",
+              "articyId": "0x0100008F00002738",
+              "text": "\"Sorry, man. I can't be giving out freebies. Never have, won't now.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "title": "You: \"\"Thanks for the discount, man. Here...\"",
+          "articyId": "0x0100008F00002A40",
+          "text": "\"Thanks for the discount, man. Here's the money for the boombox.\"",
+          "links": [
+            {
+              "id": 82,
+              "title": "Bird's Nest Roy: \"\"And here you are. Quality sound re...\"",
+              "articyId": "0x0100005400000298",
+              "text": "\"And here you are. Quality sound reproduction on the go. It'll play anything. Wherever. Turn *any* tape into a conversation of sounds and shapes.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "title": "You: \"\"Thanks for the discount, man. Here...\"",
+          "articyId": "0x0100008F00002A3A",
+          "text": "\"Thanks for the discount, man. Here's the money for the boombox.\"",
+          "links": []
+        },
+        {
+          "id": 83,
+          "title": "You: \"\"Thanks for the discount, man. Here...\"",
+          "articyId": "0x0100008F00002A34",
+          "text": "\"Thanks for the discount, man. Here's the money for the boombox.\"",
+          "links": []
+        },
+        {
+          "id": 111,
+          "title": "You: \"\"I need to buy that boombox.\"\"",
+          "articyId": "0x0100008F00002A4D",
+          "text": "\"I need to buy that boombox.\"",
+          "links": []
+        },
+        {
+          "id": 100,
+          "title": "You: \"\"I want to buy that boombox.\"\"",
+          "articyId": "0x01000054000001FC",
+          "text": "\"I want to buy that boombox.\"",
+          "links": []
+        },
+        {
+          "id": 107,
+          "title": "You: \"\"Can I get a discount on this boomb...\"",
+          "articyId": "0x0100008F0000272B",
+          "text": "\"Can I get a discount on this boombox? A *police* discount.\"",
+          "links": [
+            {
+              "id": 5,
+              "title": "Bird's Nest Roy: \"\"A discount? I do have to keep the...\"",
+              "articyId": "0x0100008F000027A9",
+              "text": "\"A discount? I do have to keep the lights on, man. It's twelve reál.\"",
+              "links": [
+                {
+                  "id": 15,
+                  "title": "Half Light: \"A man like that in a neighbourhood...\"",
+                  "articyId": "0x0100003700000375",
+                  "text": "A man like that in a neighbourhood like this? In a rickety house falling into the sea? There's fear in him. Use it to your advantage.",
+                  "links": [
+                    {
+                      "id": 29,
+                      "title": "Reaction Speed: \"Careful. You can only do this once.\"",
+                      "articyId": "0x010000370000050A",
+                      "text": "Careful. You can only do this once.",
+                      "links": [
+                        {
+                          "id": 92,
+                          "title": "You: \"\"Fair enough, business man. Twelve...\"",
+                          "articyId": "0x0100008F00002757",
+                          "text": "\"Fair enough, business man. Twelve it is.\"",
+                          "links": [
+                            {
+                              "id": 108,
+                              "title": "Bird's Nest Roy: \"\"Twelve is a good number. Good inte...\"",
+                              "articyId": "0x0100008F00002766",
+                              "text": "\"Twelve is a good number. Good internal balance.\" He studies the light on the wall. \"Twelve has integrity.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 95,
+                          "title": "You: \"\"How does ten reál sound?\"\"",
+                          "articyId": "0x01000037000003A8",
+                          "text": "\"How does ten reál sound?\"",
+                          "links": [
+                            {
+                              "id": 58,
+                              "title": "Bird's Nest Roy: \"\"Sounds like a ripoff, but okay. I...\"",
+                              "articyId": "0x01000037000003B6",
+                              "text": "\"Sounds like a ripoff, but okay. I can make it ten -- but no lower.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 75,
+                          "title": "You: \"\"Let's make it eight reál.\"\"",
+                          "articyId": "0x01000037000003C4",
+                          "text": "\"Let's make it eight reál.\"",
+                          "links": [
+                            {
+                              "id": 104,
+                              "title": "Bird's Nest Roy: \"\"Actually, yes. Let's. Eight is an...\"",
+                              "articyId": "0x01000037000003AE",
+                              "text": "\"Actually, yes. Let's. Eight is an even better number than twelve. Even more internal balance.\" He observes the light on the wall and adds: \"Better integrity too.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "title": "You: \"\"Aren't you afraid of *masked gunme...\"",
+                          "articyId": "0x01000037000003D7",
+                          "text": "\"Aren't you afraid of *masked gunmen*? The roof falling in? Killer waves? Aircraft accidents? Botched surgeries? I'll buy it for four reál.\"",
+                          "links": [
+                            {
+                              "id": 70,
+                              "title": "Bird's Nest Roy: \"\"No, not really. I expect momentous...\"",
+                              "articyId": "0x01000037000003F5",
+                              "text": "\"No, not really. I expect momentous change at any moment... But it seems that *you* are.\" He almost sounds concerned and seems to weigh your offer.",
+                              "links": [
+                                {
+                                  "id": 110,
+                                  "title": "Bird's Nest Roy: \"\"Fine.\" He nods decisively. \"Four r...\"",
+                                  "articyId": "0x0100000200000D50",
+                                  "text": "\"Fine.\" He nods decisively. \"Four reál it is.\"",
+                                  "links": [
+                                    {
+                                      "id": 99,
+                                      "title": "Half Light: \"Succcess!!! Sort of. Whatever gets...\"",
+                                      "articyId": "0x0100003700000514",
+                                      "text": "Succcess!!! Sort of. Whatever gets the job done, right?",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 37,
+                          "title": "You: \"\"I'm not just doing *any* police wo...\"",
+                          "articyId": "0x01000037000003DC",
+                          "text": "\"I'm not just doing *any* police work -- I've got *THE DOORGUNNER MEGAMIX* here! An era-defining work. Let's do four reál.\"",
+                          "links": [
+                            {
+                              "id": 85,
+                              "title": "Bird's Nest Roy: \"He purses his lips. \"Four reál is o...\"",
+                              "articyId": "0x01000037000003FB",
+                              "text": "He purses his lips. \"Four reál is offensively low... but just this once. For the *musique concrète* cop.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 38,
+                          "title": "You: \"\"Let me hit you with this: four reá...\"",
+                          "articyId": "0x01000037000003E6",
+                          "text": "\"Let me hit you with this: four reál. Huh? Whaddya say?\"",
+                          "links": [
+                            {
+                              "id": 90,
+                              "title": "Bird's Nest Roy: \"\"I say: it's twelve reál. Four is a...\"",
+                              "articyId": "0x0100003700000407",
+                              "text": "\"I say: it's twelve reál. Four is a total ripoff. It's not even a number.\"",
+                              "links": [
+                                {
+                                  "id": 48,
+                                  "title": "Suggestion: \"What did I say? And what did you do...\"",
+                                  "articyId": "0x0100003700000458",
+                                  "text": "What did I say? And what did you do? Damn it, man. You're buying it for twelve now, I guess.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 21,
+                      "title": "Conceptualization: \"Remember -- he doesn't like music....\"",
+                      "articyId": "0x010000370000037F",
+                      "text": "Remember -- he doesn't like music. He likes *sounds*. The *Doorgunner Megamix* is his type of tape! Certainly he'd give you a discount if he knew you'd play something so *experimental*.",
+                      "links": [
+                        {
+                          "id": 18,
+                          "title": "Suggestion: \"Just don't ask him for the smallest...\"",
+                          "articyId": "0x0100003700000384",
+                          "text": "Just don't ask him for the smallest amount. You'll insult him. The others will work.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 78,
+                      "title": "Rhetoric: \"He seems like an *experimental* man...\"",
+                      "articyId": "0x010000370000037A",
+                      "text": "He seems like an *experimental* man. And what sonic experience is more experimental than the *Doorgunner Megamix*? Certainly he'd give you a discount if he knew you'd play that.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "title": "You: \"That's all. [Leave.]\"",
+          "articyId": "0x0100005400000202",
+          "text": "That's all. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Shelf of Boomboxes: \"The boomboxes on the shelf look wel...\"",
+      "articyId": "0x0100004D00003E84",
+      "text": "The boomboxes on the shelf look well-loved and well-travelled. Chipped, dented, they stare at you with the unblinking eyes of their tape reels.",
+      "links": [
+        {
+          "id": 54,
+          "title": "You: \"Stand on the tips of your toes to s...\"",
+          "articyId": "0x0100000600016431",
+          "text": "Stand on the tips of your toes to see more...",
+          "links": [
+            {
+              "id": 26,
+              "title": "Shelf of Boomboxes: \"One especially catches your eye. De...\"",
+              "articyId": "0x0100003700000139",
+              "text": "One especially catches your eye. Deep gold and amber plastic with a big old handle on top. A classic boombox that says: \"STEREO 8 approved.\"",
+              "links": [
+                {
+                  "id": 39,
+                  "title": "Inland Empire: \"This is you. Gold and orange. A sun...\"",
+                  "articyId": "0x0100003700000480",
+                  "text": "This is you. Gold and orange. A sunset suite.",
+                  "links": [
+                    {
+                      "id": 105,
+                      "title": "Interfacing: \"Just make sure it works before you...\"",
+                      "articyId": "0x010000370000048A",
+                      "text": "Just make sure it works before you buy it.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100000600016437",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

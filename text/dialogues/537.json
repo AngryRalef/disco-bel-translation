@@ -1,0 +1,630 @@
+{
+  "id": "0x0100008900001D18",
+  "title": "WORLD / WAITING BENCH",
+  "description": "a bench where you (and Kim) can sit and wait for an X amount of time so the player won't get softlocked-stuck in the game for lacking content until daychange!",
+  "dialogueTree": [
+    {
+      "id": 25,
+      "title": "Bench: \"The cold stone slab of the bench lo...\"",
+      "articyId": "0x010000060001C560",
+      "text": "The cold stone slab of the bench looks rather uncomfortable. There are cigarette stubs all around.",
+      "links": [
+        {
+          "id": 125,
+          "title": "Kim Kitsuragi: \"\"A rather uninviting bench,\" the li...\"",
+          "articyId": "0x0100002100001391",
+          "text": "\"A rather uninviting bench,\" the lieutenant notes. \"I'm not one for sitting on benches anyway -- before the murder investigation is solved.\"",
+          "links": [
+            {
+              "id": 196,
+              "title": "Tutorial Agent: \"You can revisit the bench if you ev...\"",
+              "articyId": "0x0100002100001387",
+              "text": "You can revisit the bench if you ever need to pass the time when Lieutenant Kitsuragi is gone.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "title": "Bench: \"The worn and beaten wooden planks o...\"",
+      "articyId": "0x010000060001C56B",
+      "text": "The worn and beaten wooden planks of the bench do not look overly comforting.",
+      "links": [
+        {
+          "id": 195,
+          "title": "Kim Kitsuragi: \"\"Hmh...\" The lieutenant looks down...\"",
+          "articyId": "0x010000060001C576",
+          "text": "\"Hmh...\" The lieutenant looks down the street. \"We can sit on benches after we've solved the murder. Let's go.\"",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Bench: \"It is the dead of night. Now is not...\"",
+      "articyId": "0x0100002F00012B7E",
+      "text": "It is the dead of night. Now is not the time for sitting, but for sleeping. It is time to find a bed.",
+      "links": []
+    },
+    {
+      "id": 94,
+      "title": "Bench: \"The cold stone slab of the bench do...\"",
+      "articyId": "0x0100008900002486",
+      "text": "The cold stone slab of the bench does not look welcoming at all at all. Your shoulder aches.",
+      "links": [
+        {
+          "id": 61,
+          "title": "You: \"Sit and rest.\"",
+          "articyId": "0x01000089000024A5",
+          "text": "Sit and rest.",
+          "links": [
+            {
+              "id": 149,
+              "title": "Bench: \"As you gaze upon the rough stone of...\"",
+              "articyId": "0x01000089000024AC",
+              "text": "As you gaze upon the rough stone of the bench, the plaza around you still covered with the bloodstains from the battle... you wish you could sit and alleviate the pain of your flesh.",
+              "links": [
+                {
+                  "id": 80,
+                  "title": "Bench: \"But you know you do not have the lu...\"",
+                  "articyId": "0x01000089000024D3",
+                  "text": "But you know you do not have the luxury to wait... the clock ticks towards the final hour.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 253,
+              "title": "Bench: \"As you gaze upon the wooden planks,...\"",
+              "articyId": "0x01000089000024BF",
+              "text": "As you gaze upon the wooden planks, the sea breeze blowing through your hair, you wish you could sit and alleviate the pain in your body...",
+              "links": [
+                {
+                  "id": 170,
+                  "title": "Bench: \"But realize now you do not have tim...\"",
+                  "articyId": "0x01000089000024CB",
+                  "text": "But realize now you do not have time to wait... the clock is ticking towards the final hour.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 209,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000890000249E",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "title": "Bench: \"The worn and beaten wooden planks o...\"",
+      "articyId": "0x010000890000248C",
+      "text": "The worn and beaten wooden planks of the bench do not look comforting. Your shoulder aches.",
+      "links": []
+    },
+    {
+      "id": 109,
+      "title": "Bench: \"You sit on the cold stone slab of t...\"",
+      "articyId": "0x0100008900001D1F",
+      "text": "You sit on the cold stone slab of the bench. It feels rough, yet comforting.",
+      "links": [
+        {
+          "id": 239,
+          "title": "You: \"Twiddle your thumbs. [Wait 15 minut...\"",
+          "articyId": "0x0100008900001D3B",
+          "text": "Twiddle your thumbs. [Wait 15 minutes.]",
+          "links": [
+            {
+              "id": 171,
+              "title": "Bench: \"You try to twiddle your thumbs, but...\"",
+              "articyId": "0x0100008900002525",
+              "text": "You try to twiddle your thumbs, but ever since you've become a grandmaster the old passion just isn't there. Instead, you put your hands in your lap and wait...",
+              "links": [
+                {
+                  "id": 122,
+                  "title": "Kim Kitsuragi: \"\"Getting late. We should call it a...\"",
+                  "articyId": "0x01000089000020FE",
+                  "text": "\"Getting late. We should call it a day... no point in lingering here on the plaza.\"",
+                  "links": []
+                },
+                {
+                  "id": 127,
+                  "title": "Kim Kitsuragi: \"\"Getting late. We should call it a...\"",
+                  "articyId": "0x01000089000020F8",
+                  "text": "\"Getting late. We should call it a day... best not sleep outside on the wind-stricken coast.\"",
+                  "links": []
+                },
+                {
+                  "id": 51,
+                  "title": "Bench: \"It's getting late... time to head o...\"",
+                  "articyId": "0x01000089000020C3",
+                  "text": "It's getting late... time to head off. The plaza is not for sleeping bums.",
+                  "links": []
+                },
+                {
+                  "id": 187,
+                  "title": "Bench: \"It's getting late... time to head t...\"",
+                  "articyId": "0x01000089000020D1",
+                  "text": "It's getting late... time to head to sleep. Best not stay outside on the wind-stricken coast.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 81,
+              "title": "Bench: \"Your fingers feel stuck. Your mind,...\"",
+              "articyId": "0x010000890000254B",
+              "text": "Your fingers feel stuck. Your mind, uninspired. This place... this bench, it just lacks the right... atmosphere...",
+              "links": []
+            },
+            {
+              "id": 124,
+              "title": "Bench: \"It's getting there, but it's just n...\"",
+              "articyId": "0x0100008900002533",
+              "text": "It's getting there, but it's just not enough. Maybe you just need a change of venue.",
+              "links": [
+                {
+                  "id": 265,
+                  "title": "Hand/Eye Coordination: \"You're so close! Almost there. Ulti...\"",
+                  "articyId": "0x010000890000253C",
+                  "text": "You're so close! Almost there. Ultimate dexterity is within reach...",
+                  "links": []
+                },
+                {
+                  "id": 57,
+                  "title": "Hand/Eye Coordination: \"You're so close! Almost there. Ulti...\"",
+                  "articyId": "0x010000890000255B",
+                  "text": "You're so close! Almost there. Ultimate dexterity is within reach...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 182,
+              "title": "Bench: \"Your thumbs have started to hurt fr...\"",
+              "articyId": "0x0100008900001F57",
+              "text": "Your thumbs have started to hurt from the twiddling... after a while, you stop.",
+              "links": []
+            },
+            {
+              "id": 257,
+              "title": "Bench: \"Your hands are getting more dextero...\"",
+              "articyId": "0x0100008900001F7B",
+              "text": "Your hands are getting more dexterous with every attempt. Still, after a while, you give up.",
+              "links": []
+            },
+            {
+              "id": 85,
+              "title": "Bench: \"Twiddling is surprisingly difficult...\"",
+              "articyId": "0x0100008900001F82",
+              "text": "Twiddling is surprisingly difficult... your thumbs keep getting tangled. After a while, you give up.",
+              "links": []
+            },
+            {
+              "id": 41,
+              "title": "Bench: \"You try to twiddle your thumbs, but...\"",
+              "articyId": "0x0100008900002243",
+              "text": "You try to twiddle your thumbs, but ever since you've become a grandmaster the old passion just isn't there. Instead, you put your hands in your lap and wait...",
+              "links": []
+            },
+            {
+              "id": 116,
+              "title": "Bench: \"You've mastered the art of thumb-tw...\"",
+              "articyId": "0x0100008900001F67",
+              "text": "You've mastered the art of thumb-twiddling. If there were such a thing as competitive thumb-twiddling, you'd be the undeniable champion.",
+              "links": [
+                {
+                  "id": 287,
+                  "title": "Physical Instrument: \"Perseverance and success... feels s...\"",
+                  "articyId": "0x01000089000021F7",
+                  "text": "Perseverance and success... feels so good. Feels *inspiring*.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 198,
+              "title": "Bench: \"Could you twiddle your thumbs so ha...\"",
+              "articyId": "0x0100008900001F87",
+              "text": "Could you twiddle your thumbs so hard that they come off your hands? You try... but nothing happens. You give up.",
+              "links": []
+            },
+            {
+              "id": 102,
+              "title": "Bench: \"The twiddling barely keeps your han...\"",
+              "articyId": "0x0100008900001F8E",
+              "text": "The twiddling barely keeps your hands warm against the frigid wind blowing from the coast... After a while you've had enough.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 288,
+          "title": "You: \"Stare into the sky. [Wait 30 minute...\"",
+          "articyId": "0x0100008900001D40",
+          "text": "Stare into the sky. [Wait 30 minutes.]",
+          "links": [
+            {
+              "id": 252,
+              "title": "Bench: \"Time passes...\"",
+              "articyId": "0x01000089000020B2",
+              "text": "Time passes...",
+              "links": [
+                {
+                  "id": 165,
+                  "title": "Bench: \"You try to make out some shapes in...\"",
+                  "articyId": "0x0100008900001FAC",
+                  "text": "You try to make out some shapes in the clouds above. Through the rain, one looks a bit like a potato...",
+                  "links": []
+                },
+                {
+                  "id": 183,
+                  "title": "Bench: \"Slowly and lazily, snow drifts down...\"",
+                  "articyId": "0x0100008900001FB1",
+                  "text": "Slowly and lazily, snow drifts down through the morning haze...",
+                  "links": []
+                },
+                {
+                  "id": 292,
+                  "title": "Bench: \"The sun slowly rises ever higher......\"",
+                  "articyId": "0x0100008900001F9D",
+                  "text": "The sun slowly rises ever higher... the morning light makes the air feel glittery...",
+                  "links": []
+                },
+                {
+                  "id": 103,
+                  "title": "Bench: \"You more hear than see the large dr...\"",
+                  "articyId": "0x0100008900001FA2",
+                  "text": "You more hear than see the large drops of rain fall upon the slowly darkening mosaic...",
+                  "links": []
+                },
+                {
+                  "id": 29,
+                  "title": "Bench: \"It's both dark and cold... ultimate...\"",
+                  "articyId": "0x0100008900001FA7",
+                  "text": "It's both dark and cold... ultimately not the best time for sitting on a stone bench.",
+                  "links": []
+                },
+                {
+                  "id": 271,
+                  "title": "Bench: \"You gaze at the shadows deepening a...\"",
+                  "articyId": "0x0100008900001FED",
+                  "text": "You gaze at the shadows deepening all around you... it's almost unnerving.",
+                  "links": []
+                },
+                {
+                  "id": 9,
+                  "title": "Bench: \"Every so often you catch a glimpse...\"",
+                  "articyId": "0x0100008900001FC5",
+                  "text": "Every so often you catch a glimpse of the sun still shining, somewhere behind the clouds of rain...",
+                  "links": []
+                },
+                {
+                  "id": 258,
+                  "title": "Bench: \"Slowly, snowflakes fall on your mut...\"",
+                  "articyId": "0x0100008900001FCA",
+                  "text": "Slowly, snowflakes fall on your mutton-chops... you try to catch a few on your tongue. They are cold.",
+                  "links": []
+                },
+                {
+                  "id": 104,
+                  "title": "Bench: \"You can barely look up into the sky...\"",
+                  "articyId": "0x0100008900001FF3",
+                  "text": "You can barely look up into the sky, the sun is bright and powerful... it blinds...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 154,
+              "title": "Bench: \"You try to concentrate on the sky a...\"",
+              "articyId": "0x0100008900001DD0",
+              "text": "You try to concentrate on the sky above, but this time around, the stone underneath you feels uncomfortable...",
+              "links": [
+                {
+                  "id": 194,
+                  "title": "Physical Instrument: \"Why are you sitting around on your...\"",
+                  "articyId": "0x0100008900002239",
+                  "text": "Why are you sitting around on your fat ass?! Do some push-ups, for gods' sake!!",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 153,
+              "title": "Bench: \"A flock of seagulls flies overhead,...\"",
+              "articyId": "0x0100008900001D5A",
+              "text": "A flock of seagulls flies overhead, heading towards... who knows where. Soon enough they are out of sight...",
+              "links": []
+            },
+            {
+              "id": 95,
+              "title": "Bench: \"You squint your eyes, attempting to...\"",
+              "articyId": "0x0100008900001D65",
+              "text": "You squint your eyes, attempting to find something of interest... No, there is nothing up there except the sky.",
+              "links": []
+            },
+            {
+              "id": 167,
+              "title": "Bench: \"Time passes...\"",
+              "articyId": "0x01000089000020AB",
+              "text": "Time passes...",
+              "links": [
+                {
+                  "id": 296,
+                  "title": "Bench: \"The sky is overcast, rain pours ont...\"",
+                  "articyId": "0x0100008900002021",
+                  "text": "The sky is overcast, rain pours onto the sand and the reeds...",
+                  "links": []
+                },
+                {
+                  "id": 117,
+                  "title": "Bench: \"The snow tells of a winter that has...\"",
+                  "articyId": "0x0100008900002026",
+                  "text": "The snow tells of a winter that has not yet fully passed... was this your final winter?",
+                  "links": []
+                },
+                {
+                  "id": 166,
+                  "title": "Bench: \"The sun slowly rises above the wave...\"",
+                  "articyId": "0x0100008900002012",
+                  "text": "The sun slowly rises above the waves... each beam of light reflecting off the water into a million directions.",
+                  "links": []
+                },
+                {
+                  "id": 10,
+                  "title": "Bench: \"Darkness ahead. You don't even know...\"",
+                  "articyId": "0x0100008900002017",
+                  "text": "Darkness ahead. You don't even know what you are waiting for anymore...",
+                  "links": []
+                },
+                {
+                  "id": 199,
+                  "title": "Bench: \"It's getting so dark you can barely...\"",
+                  "articyId": "0x010000890000201C",
+                  "text": "It's getting so dark you can barely make out the snowflakes drifting down from the sky...",
+                  "links": []
+                },
+                {
+                  "id": 126,
+                  "title": "Bench: \"The sun draws ever closer to the ho...\"",
+                  "articyId": "0x0100008900002044",
+                  "text": "The sun draws ever closer to the horizon; the sky is a panorama of intense colours...",
+                  "links": []
+                },
+                {
+                  "id": 33,
+                  "title": "Bench: \"What events led you to sitting on a...\"",
+                  "articyId": "0x010000890000203F",
+                  "text": "What events led you to sitting on a bench, completely drenched? The coast is bleak, the rain is bleak, your soul is bleak.",
+                  "links": []
+                },
+                {
+                  "id": 118,
+                  "title": "Bench: \"The glacial gusts from the sea do n...\"",
+                  "articyId": "0x0100008900002035",
+                  "text": "The glacial gusts from the sea do not a pleasant rest make... you should probably move before you freeze.",
+                  "links": []
+                },
+                {
+                  "id": 235,
+                  "title": "Bench: \"The sun does its best to ward off t...\"",
+                  "articyId": "0x0100008900001FFE",
+                  "text": "The sun does its best to ward off the chill of the coast... it barely helps. As if the world itself has turned against you...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 290,
+              "title": "Bench: \"Your eyes are caught on the towers...\"",
+              "articyId": "0x0100008900001E27",
+              "text": "Your eyes are caught on the towers of La Delta across the bay... it sure makes a pretty skyline...",
+              "links": [
+                {
+                  "id": 60,
+                  "title": "Inland Empire: \"It's because of all the money. Even...\"",
+                  "articyId": "0x0100008900002271",
+                  "text": "It's because of all the money. Even the sky gets an aura of glistening lucre.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 175,
+              "title": "Bench: \"What is that nigh-unnoticeable dot...\"",
+              "articyId": "0x0100008900001E2E",
+              "text": "What is that nigh-unnoticeable dot in the sky? Huh... odd.",
+              "links": [
+                {
+                  "id": 207,
+                  "title": "Perception (Sight): \"It looks like an aerostatic, very h...\"",
+                  "articyId": "0x0100008900002202",
+                  "text": "It looks like an aerostatic, very high above...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 158,
+              "title": "Bench: \"You're hoping the sky on the coast...\"",
+              "articyId": "0x0100008900001E33",
+              "text": "You're hoping the sky on the coast looks different, more interesting... but in truth, it doesn't...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "title": "You: \"Think deep thoughts. [Wait 1 hour.]\"",
+          "articyId": "0x0100008900001D45",
+          "text": "Think deep thoughts. [Wait 1 hour.]",
+          "links": [
+            {
+              "id": 59,
+              "title": "Bench: \"Is Time flat and linear in nature.....\"",
+              "articyId": "0x0100008900001ED4",
+              "text": "Is Time flat and linear in nature... or is it cyclical? It feels as if you're *so close* to figuring out the answer.",
+              "links": []
+            },
+            {
+              "id": 53,
+              "title": "Bench: \"After a while of staring ahead into...\"",
+              "articyId": "0x01000089000021BC",
+              "text": "After a while of staring ahead into nothingness, you decide it's better to just move on.",
+              "links": []
+            },
+            {
+              "id": 270,
+              "title": "Bench: \"Time passes....\"",
+              "articyId": "0x0100008900001EFE",
+              "text": "Time passes....",
+              "links": [
+                {
+                  "id": 206,
+                  "title": "Bench: \"You try to come up with a few deep...\"",
+                  "articyId": "0x0100008900002168",
+                  "text": "You try to come up with a few deep thoughts, but the rain beating against your face is extremely distracting.",
+                  "links": []
+                },
+                {
+                  "id": 108,
+                  "title": "Bench: \"You gaze at the snowflakes falling...\"",
+                  "articyId": "0x010000890000214F",
+                  "text": "You gaze at the snowflakes falling from the sky, wondering about the intricate patterns their structures take.",
+                  "links": []
+                },
+                {
+                  "id": 148,
+                  "title": "Bench: \"You wonder what would happen if you...\"",
+                  "articyId": "0x0100008900002140",
+                  "text": "You wonder what would happen if you tried to set foot on the sun... it would likely not be pleasant.",
+                  "links": []
+                },
+                {
+                  "id": 37,
+                  "title": "Bench: \"The sun slowly setting behind the h...\"",
+                  "articyId": "0x0100008900002145",
+                  "text": "The sun slowly setting behind the horizon only brings to mind the sadness of loss.",
+                  "links": []
+                },
+                {
+                  "id": 78,
+                  "title": "Bench: \"The midday sun showers you with the...\"",
+                  "articyId": "0x010000890000214A",
+                  "text": "The midday sun showers you with the warm rays of the spring. It does not give you many thoughts, but it feels peaceful...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 79,
+              "title": "Bench: \"You try to think of something subst...\"",
+              "articyId": "0x01000089000021C8",
+              "text": "You try to think of something substantial, but your mind keeps getting caught on all the paperwork you have to do... later... eventually...",
+              "links": []
+            },
+            {
+              "id": 90,
+              "title": "Bench: \"You churn through thoughts for a wh...\"",
+              "articyId": "0x01000089000021D4",
+              "text": "You churn through thoughts for a while, but nothing comes up...",
+              "links": []
+            },
+            {
+              "id": 18,
+              "title": "Bench: \"You try to come up with something f...\"",
+              "articyId": "0x0100008900001EB9",
+              "text": "You try to come up with something fresh and exciting, but the endeavour only gives you a slight headache.",
+              "links": []
+            },
+            {
+              "id": 285,
+              "title": "Bench: \"Couldn't everyone just get along? I...\"",
+              "articyId": "0x0100008900002186",
+              "text": "Couldn't everyone just get along? If they really put their minds to it...?",
+              "links": []
+            },
+            {
+              "id": 8,
+              "title": "Bench: \"Time passes...\"",
+              "articyId": "0x0100008900001F22",
+              "text": "Time passes...",
+              "links": [
+                {
+                  "id": 291,
+                  "title": "Bench: \"You wonder if it could rain so much...\"",
+                  "articyId": "0x0100008900001F1B",
+                  "text": "You wonder if it could rain so much that it drowns all of Martinaise... then everyone would have to go on about their day in diving suits.",
+                  "links": []
+                },
+                {
+                  "id": 89,
+                  "title": "Bench: \"You ponder upon an endless winter t...\"",
+                  "articyId": "0x0100008900002113",
+                  "text": "You ponder upon an endless winter that covers everything in ice and snow. What a struggle it would be...",
+                  "links": []
+                },
+                {
+                  "id": 281,
+                  "title": "Bench: \"What if the sun just one day turned...\"",
+                  "articyId": "0x010000890000212D",
+                  "text": "What if the sun just one day turned off... the world thrown into an eternal darkness. A grim future indeed.",
+                  "links": []
+                },
+                {
+                  "id": 168,
+                  "title": "Bench: \"The evening shade on the sand makes...\"",
+                  "articyId": "0x0100008900002132",
+                  "text": "The evening shade on the sand makes you think of a place which is all sand... nothing but the sand, as far as the eye can see.",
+                  "links": []
+                },
+                {
+                  "id": 52,
+                  "title": "Bench: \"The bright sun blazing overhead is...\"",
+                  "articyId": "0x0100008900002137",
+                  "text": "The bright sun blazing overhead is making it difficult to concentrate on deep thoughts.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 269,
+              "title": "Bench: \"What if... Dick Mullen and Man from...\"",
+              "articyId": "0x0100008900001EF0",
+              "text": "What if... Dick Mullen and Man from Hjelmdall existed in the same world... in like... a... crossover?",
+              "links": []
+            },
+            {
+              "id": 286,
+              "title": "Bench: \"You finally stop picking your nose....\"",
+              "articyId": "0x01000089000021DD",
+              "text": "You finally stop picking your nose...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 289,
+          "title": "You: \"[Get up.]\"",
+          "articyId": "0x0100008900001D4A",
+          "text": "[Get up.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "title": "Bench: \"You sit on the wind-worn wooden pla...\"",
+      "articyId": "0x0100008900001D2E",
+      "text": "You sit on the wind-worn wooden planks of the bench. Your feet ache.",
+      "links": []
+    }
+  ]
+}

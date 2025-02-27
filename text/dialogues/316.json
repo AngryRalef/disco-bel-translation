@@ -1,0 +1,2437 @@
+{
+  "id": "0x0100004D00000A08",
+  "title": "WHIRLING / LENA INTRO",
+  "description": "There's a broken pinball machine in the corner. A woman in a wheelchair is attempting to revive it. Talking to her will give you a short introduction to the world you're in.",
+  "dialogueTree": [
+    {
+      "id": 395,
+      "title": "Lena, the Cryptozoologist's wife: \"\"Hello again, sweetie.\" Her grey ey...\"",
+      "articyId": "0x0100004D00001A4C",
+      "text": "\"Hello again, sweetie.\" Her grey eyes shine above the rims of her glasses.",
+      "links": [
+        {
+          "id": 155,
+          "title": "You: \"\"You seem to be in a chair.\"\"",
+          "articyId": "0x0100004D00000A7D",
+          "text": "\"You seem to be in a chair.\"",
+          "links": [
+            {
+              "id": 387,
+              "title": "Lena, the Cryptozoologist's wife: \"\"Yes, dear, I am a paraplegic.\"\"",
+              "articyId": "0x0100004D00000ABD",
+              "text": "\"Yes, dear, I am a paraplegic.\"",
+              "links": [
+                {
+                  "id": 415,
+                  "title": "Encyclopedia: \"A paraplegic is someone with limite...\"",
+                  "articyId": "0x0100004D00000AC9",
+                  "text": "A paraplegic is someone with limited or no ability to use the lower half of their body. Paraplegia is caused by spinal cord injuries -- like falling from a great height, or a grenade explosion!",
+                  "links": [
+                    {
+                      "id": 189,
+                      "title": "You: \"\"What is a paraplegic?\"\"",
+                      "articyId": "0x0100004D00000AD6",
+                      "text": "\"What is a paraplegic?\"",
+                      "links": [
+                        {
+                          "id": 416,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"It means I can't use my legs. I wa...\"",
+                          "articyId": "0x0100004D00000B18",
+                          "text": "\"It means I can't use my legs. I was in an accident some years back, injured *in the line of duty* as they say.\"",
+                          "links": [
+                            {
+                              "id": 164,
+                              "title": "You: \"\"Were you a... rugby player?\"\"",
+                              "articyId": "0x0100004D00001646",
+                              "text": "\"Were you a... rugby player?\"",
+                              "links": [
+                                {
+                                  "id": 464,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"Oh, no, far from it. Although...\"...\"",
+                                  "articyId": "0x0100004D0000182C",
+                                  "text": "\"Oh, no, far from it. Although...\" Her eyes glimmer mischievously. \"I did come out to watch the boys play when I was in school. All those tan calves...\"",
+                                  "links": [
+                                    {
+                                      "id": 317,
+                                      "title": "Composure: \"She blushes, surprised by her own b...\"",
+                                      "articyId": "0x0100004D0000183C",
+                                      "text": "She blushes, surprised by her own boldness.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 438,
+                              "title": "You: \"\"Were you a... mountaineer?\"\"",
+                              "articyId": "0x0100004D00000B47",
+                              "text": "\"Were you a... mountaineer?\"",
+                              "links": [
+                                {
+                                  "id": 158,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"Nothing so glamorous, dear, though...\"",
+                                  "articyId": "0x0100004D00000B53",
+                                  "text": "\"Nothing so glamorous, dear, though when I was young, I dreamt of planting the Revacholian flag on some figurative peak.\"",
+                                  "links": [
+                                    {
+                                      "id": 388,
+                                      "title": "You: \"\"What did you do, then?\"\"",
+                                      "articyId": "0x0100004D00000AC3",
+                                      "text": "\"What did you do, then?\"",
+                                      "links": [
+                                        {
+                                          "id": 194,
+                                          "title": "Lena, the Cryptozoologist's wife: \"\"I was a training and development m...\"",
+                                          "articyId": "0x0100004D00000DE6",
+                                          "text": "\"I was a training and development manager at a rapidly expanding mail-order shoe company.\"",
+                                          "links": [
+                                            {
+                                              "id": 195,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"You'd think it would be a safe job...\"",
+                                              "articyId": "0x0100004D00000E06",
+                                              "text": "\"You'd think it would be a safe job. But I had to be everywhere -- and, well, once I happened to be under some faulty scaffolding.\"",
+                                              "links": [
+                                                {
+                                                  "id": 6,
+                                                  "title": "Lena, the Cryptozoologist's wife: \"\"I was lucky. This was almost twent...\"",
+                                                  "articyId": "0x0100004D00000E0D",
+                                                  "text": "\"I was lucky. This was almost twenty years ago, and I was compensated exceptionally well. One can only dream of such pay-offs nowadays.\" She runs her hands over the chrome wheels of her chair.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 258,
+                              "title": "You: \"\"Were you a... tightrope walker?\"\"",
+                              "articyId": "0x0100004D00000B39",
+                              "text": "\"Were you a... tightrope walker?\"",
+                              "links": [
+                                {
+                                  "id": 61,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"Nothing so extravagant, dear, thou...\"",
+                                  "articyId": "0x0100004D00000DDE",
+                                  "text": "\"Nothing so extravagant, dear, though what young girl doesn't dream of soaring over a crowd?\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 323,
+                      "title": "You: \"\"Hmm, a grenade? Did you fight in a...\"",
+                      "articyId": "0x0100004D00002081",
+                      "text": "\"Hmm, a grenade? Did you fight in a war?\"",
+                      "links": [
+                        {
+                          "id": 368,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"No, dear, I'm not quite *that* old...\"",
+                          "articyId": "0x0100004D00000B12",
+                          "text": "\"No, dear, I'm not quite *that* old, although I was injured in the line of duty.\"",
+                          "links": [
+                            {
+                              "id": 393,
+                              "title": "You: \"\"I feel like *I* was in a war...\"\"",
+                              "articyId": "0x0100004D00001621",
+                              "text": "\"I feel like *I* was in a war...\"",
+                              "links": [
+                                {
+                                  "id": 107,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"Oh my! What happened?\"\"",
+                                  "articyId": "0x0100004D00001628",
+                                  "text": "\"Oh my! What happened?\"",
+                                  "links": [
+                                    {
+                                      "id": 91,
+                                      "title": "You: \"\"I think I lost.\"\"",
+                                      "articyId": "0x0100004D0000162F",
+                                      "text": "\"I think I lost.\"",
+                                      "links": [
+                                        {
+                                          "id": 68,
+                                          "title": "Lena, the Cryptozoologist's wife: \"\"That's how I feel about the accide...\"",
+                                          "articyId": "0x0100004D0000163D",
+                                          "text": "\"That's how I feel about the accident...\" She looks down and then up at you again. \"I was a training and development manager at a rapidly expanding mail-order shoe company.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 504,
+                                      "title": "You: \"\"I think I won.\"\"",
+                                      "articyId": "0x0100004D00001636",
+                                      "text": "\"I think I won.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 193,
+                      "title": "You: \"\"Could I become a paraplegic?\"\"",
+                      "articyId": "0x0100004D00000DD4",
+                      "text": "\"Could I become a paraplegic?\"",
+                      "links": [
+                        {
+                          "id": 370,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"I hope not, although the work you...\"",
+                          "articyId": "0x0100004D00000E16",
+                          "text": "\"I hope not, although the work you are doing for all of us *is* quite dangerous.\" Her eyes glimmer with admiration as she looks up at you.",
+                          "links": [
+                            {
+                              "id": 500,
+                              "title": "Authority: \"Towering over her in your insignia,...\"",
+                              "articyId": "0x0100004D00000E2B",
+                              "text": "Towering over her in your insignia, you make her feel safe.",
+                              "links": [
+                                {
+                                  "id": 196,
+                                  "title": "You: \"(Nod grimly.) \"Someone *has* to do...\"",
+                                  "articyId": "0x0100004D00000E35",
+                                  "text": "(Nod grimly.) \"Someone *has* to do it.\"",
+                                  "links": [
+                                    {
+                                      "id": 159,
+                                      "title": "Lena, the Cryptozoologist's wife: \"\"But not you. You're volunteering....\"",
+                                      "articyId": "0x0100004D00000E42",
+                                      "text": "\"But not you. You're volunteering. So thank you, sweetie.\"",
+                                      "links": [
+                                        {
+                                          "id": 281,
+                                          "title": "Pain Threshold: \"So you volunteered, sometime in the...\"",
+                                          "articyId": "0x0100000600018135",
+                                          "text": "So you volunteered, sometime in the past? For the beatdown and the hail of bullets? So very you...",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 62,
+                                  "title": "You: \"\"Maybe it wouldn't be so bad, hangi...\"",
+                                  "articyId": "0x0100004D00000E4A",
+                                  "text": "\"Maybe it wouldn't be so bad, hanging out in a chair, playing pinball...\"",
+                                  "links": [
+                                    {
+                                      "id": 35,
+                                      "title": "Lena, the Cryptozoologist's wife: \"\"Actually, this machine is broken.\"...\"",
+                                      "articyId": "0x0100004D00000E57",
+                                      "text": "\"Actually, this machine is broken.\" She taps on the greasy glass of the pinball machine.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 358,
+                                  "title": "You: \"\"I'm not sure I should be in this l...\"",
+                                  "articyId": "0x0100004D00000E9E",
+                                  "text": "\"I'm not sure I should be in this line of work.\"",
+                                  "links": [
+                                    {
+                                      "id": 391,
+                                      "title": "Lena, the Cryptozoologist's wife: \"\"You're a man at the peak of your p...\"",
+                                      "articyId": "0x0100004D00000EA5",
+                                      "text": "\"You're a man at the peak of your physical and intellectual powers. You will find another calling yet, I'm certain of it!\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 157,
+                      "title": "You: \"\"I'm sorry, it was rude of me to me...\"",
+                      "articyId": "0x0100004D00000AE8",
+                      "text": "\"I'm sorry, it was rude of me to mention the wheelchair. Let's move on.\" (Proceed.)",
+                      "links": [
+                        {
+                          "id": 190,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"That's quite alright. I'm used to...\"",
+                          "articyId": "0x0100004D00000AFC",
+                          "text": "\"That's quite alright. I'm used to people asking questions. I know they're thinking about it anyway.\"",
+                          "links": [
+                            {
+                              "id": 437,
+                              "title": "Empathy: \"There is no bitterness in her voice...\"",
+                              "articyId": "0x0100004D00000B02",
+                              "text": "There is no bitterness in her voice. She accepted the curiosity her condition inspires a long time ago.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 455,
+                      "title": "You: \"\"Thanks for clearing that up for me...\"",
+                      "articyId": "0x0100004D00000ED3",
+                      "text": "\"Thanks for clearing that up for me. Let's move on.\" (Proceed.)",
+                      "links": [
+                        {
+                          "id": 142,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"No problem.\" She nods, smiling up...\"",
+                          "articyId": "0x0100004D00001C14",
+                          "text": "\"No problem.\" She nods, smiling up at you from behind her glasses.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 334,
+          "title": "You: \"\"How'd you like to roll with me?\"\"",
+          "articyId": "0x0100004D00000A89",
+          "text": "\"How'd you like to roll with me?\"",
+          "links": [
+            {
+              "id": 389,
+              "title": "Lena, the Cryptozoologist's wife: \"Her eyes light up. \"Whatever do you...\"",
+              "articyId": "0x0100004D00000BA0",
+              "text": "Her eyes light up. \"Whatever do you mean?\"",
+              "links": [
+                {
+                  "id": 131,
+                  "title": "You: \"\"I want you to be my wheel-chaired...\"",
+                  "articyId": "0x0100004D00000EFA",
+                  "text": "\"I want you to be my wheel-chaired partner in fighting crime, helping people, catching *sequence killers*.\"",
+                  "links": [
+                    {
+                      "id": 338,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Sequence killers, oh my...\" She so...\"",
+                      "articyId": "0x0100004D00000EE7",
+                      "text": "\"Sequence killers, oh my...\" She sounds impressed. \"But I think you already have a partner, sweetie.\"",
+                      "links": [
+                        {
+                          "id": 7,
+                          "title": "Kim Kitsuragi: \"\"A partner who needs you to get bac...\"",
+                          "articyId": "0x0100004D00000F03",
+                          "text": "\"A partner who needs you to get back to helping the people of Martinaise.\"",
+                          "links": [
+                            {
+                              "id": 298,
+                              "title": "You: \"\"Kim -- of course! I forgot I had *...\"",
+                              "articyId": "0x0100004D00001676",
+                              "text": "\"Kim -- of course! I forgot I had *you*!\"",
+                              "links": [
+                                {
+                                  "id": 360,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"Yes, and it seems to me that you'd...\"",
+                                  "articyId": "0x0100004D0000167D",
+                                  "text": "\"Yes, and it seems to me that you'd do well to stick close to him. He has the look of an upstanding officer of the law, someone you can lean on -- and, sweetie, you *are* looking unsteady.\"",
+                                  "links": [
+                                    {
+                                      "id": 324,
+                                      "title": "Lena, the Cryptozoologist's wife: \"\"And even if he weren't there, I do...\"",
+                                      "articyId": "0x0100004D0000208E",
+                                      "text": "\"And even if he weren't there, I don't think you'd have much use for *me*.\" She looks down.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 65,
+                              "title": "You: \"\"I know, I know. But there are also...\"",
+                              "articyId": "0x0100004D00000F4A",
+                              "text": "\"I know, I know. But there are also *side mysteries*. Sequence killers and forays into the para-natural.\"",
+                              "links": [
+                                {
+                                  "id": 12,
+                                  "title": "Kim Kitsuragi: \"\"I can assure you, with absolute ce...\"",
+                                  "articyId": "0x0100004D000012C6",
+                                  "text": "\"I can assure you, with absolute certainty: there are no sequence killings taking place in Martinaise.\"",
+                                  "links": [
+                                    {
+                                      "id": 160,
+                                      "title": "Lena, the Cryptozoologist's wife: \"\"Now, gentlemen, no need to squabbl...\"",
+                                      "articyId": "0x0100004D00000F56",
+                                      "text": "\"Now, gentlemen, no need to squabble.\" She turns to you. \"I wouldn't be of much use to you anyway, sweetie.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 461,
+                              "title": "You: \"\"You're probably right, Kim.\"\"",
+                              "articyId": "0x0100004D0000166F",
+                              "text": "\"You're probably right, Kim.\"",
+                              "links": [
+                                {
+                                  "id": 203,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"It seems to me that you lucked out...\"",
+                                  "articyId": "0x0100004D00001852",
+                                  "text": "\"It seems to me that you lucked out with your partner. He has the look of an upstanding officer of the law, someone you can lean on -- and, sweetie, you *are* looking unsteady.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 200,
+                      "title": "Lena, the Cryptozoologist's wife: \"Her face flushes with excitement, b...\"",
+                      "articyId": "0x0100004D00000F09",
+                      "text": "Her face flushes with excitement, but she instantly recomposes herself. \"I wouldn't be of much use to you, sweetie.\"",
+                      "links": [
+                        {
+                          "id": 63,
+                          "title": "You: \"\"Why? Three heads are better than t...\"",
+                          "articyId": "0x0100004D00000F17",
+                          "text": "\"Why? Three heads are better than two.\"",
+                          "links": [
+                            {
+                              "id": 371,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Thank you, but...\" She looks out t...\"",
+                              "articyId": "0x0100004D00000F10",
+                              "text": "\"Thank you, but...\" She looks out the window wistfully. \"Martinaise isn't the most wheelchair-accessible place, you see. I'd slow you down.\"",
+                              "links": [
+                                {
+                                  "id": 382,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"Perhaps another time?\" She turns b...\"",
+                                  "articyId": "0x0100000600012E43",
+                                  "text": "\"Perhaps another time?\" She turns back to you with a hopeful glint in her eyes.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 456,
+                          "title": "You: \"\"You're probably right.\"\"",
+                          "articyId": "0x0100004D00000F1D",
+                          "text": "\"You're probably right.\"",
+                          "links": [
+                            {
+                              "id": 64,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"I really would like to help out, b...\"",
+                              "articyId": "0x0100004D00000F25",
+                              "text": "\"I really would like to help out, but I don't want to slow you down. If it weren't for all the stairs and potholes in Martinaise, I'd join you for sure!\" She looks out the window wistfully.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 87,
+                  "title": "You: \"\"Roll us some cigarettes. I'm jones...\"",
+                  "articyId": "0x0100004D00000BB4",
+                  "text": "\"Roll us some cigarettes. I'm jonesing for a smoke.\"",
+                  "links": [
+                    {
+                      "id": 392,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Oh, no-no-no, I haven't smoked in...\"",
+                      "articyId": "0x0100004D00000F7C",
+                      "text": "\"Oh, no-no-no, I haven't smoked in years...\"",
+                      "links": [
+                        {
+                          "id": 501,
+                          "title": "You: \"\"Does that mean you don't have toba...\"",
+                          "articyId": "0x0100004D00000F83",
+                          "text": "\"Does that mean you don't have tobacco? Or rolling paper? Or any cigarettes at all?\"",
+                          "links": [
+                            {
+                              "id": 8,
+                              "title": "Lena, the Cryptozoologist's wife: \"She shakes her head slowly.\"",
+                              "articyId": "0x0100004D00000F98",
+                              "text": "She shakes her head slowly.",
+                              "links": [
+                                {
+                                  "id": 340,
+                                  "title": "Electrochemistry: \"Wait! Maybe she knows where you can...\"",
+                                  "articyId": "0x0100004D00000FAC",
+                                  "text": "Wait! Maybe she knows where you can get cigarettes. Delicious toasty cigarettes stuffed to the tip with *love*. You should find out.",
+                                  "links": [
+                                    {
+                                      "id": 441,
+                                      "title": "Volition: \"You would do well to follow her exa...\"",
+                                      "articyId": "0x0100004D00000FE6",
+                                      "text": "You would do well to follow her example. Smoking is the reason you feel like a rag. It's painful for you to even ask these questions.",
+                                      "links": [
+                                        {
+                                          "id": 292,
+                                          "title": "You: \"\"Can you tell me where to get cigar...\"",
+                                          "articyId": "0x0100004D00000FC7",
+                                          "text": "\"Can you tell me where to get cigarettes?\"",
+                                          "links": [
+                                            {
+                                              "id": 341,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"You should really ask someone youn...\"",
+                                              "articyId": "0x0100004D00001024",
+                                              "text": "\"You should really ask someone younger and more mobile, sweetie.\"",
+                                              "links": [
+                                                {
+                                                  "id": 426,
+                                                  "title": "You: \"\"But you're the most mobile person...\"",
+                                                  "articyId": "0x0100004D000020A0",
+                                                  "text": "\"But you're the most mobile person of them all!\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 467,
+                                                      "title": "Lena, the Cryptozoologist's wife: \"She chuckles. \"I'm glad you think s...\"",
+                                                      "articyId": "0x0100004D000020A7",
+                                                      "text": "She chuckles. \"I'm glad you think so, but I still don't know where you can get cigarettes.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 440,
+                                          "title": "You: \"\"I thought you were cool, with your...\"",
+                                          "articyId": "0x0100004D00000FCD",
+                                          "text": "\"I thought you were cool, with your wheels and all.\"",
+                                          "links": [
+                                            {
+                                              "id": 88,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"An old woman in a wheelchair just...\"",
+                                              "articyId": "0x0100004D00000FF6",
+                                              "text": "\"An old woman in a wheelchair just doesn't look good holding a cigarette. Though I'm sure it lends *you* a roguish charm, sweetie.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 457,
+                                          "title": "You: \"\"It's probably for the best. I don'...\"",
+                                          "articyId": "0x0100004D00000FDF",
+                                          "text": "\"It's probably for the best. I don't really need a cigarette right this minute.\"",
+                                          "links": [
+                                            {
+                                              "id": 458,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"I'm glad to hear you say it! Smoki...\"",
+                                              "articyId": "0x0100004D00001004",
+                                              "text": "\"I'm glad to hear you say it! Smoking can do some real damage to your respiratory system. But I think you already knew that.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 339,
+                          "title": "You: \"\"Why don't you smoke? It's great!\"\"",
+                          "articyId": "0x0100004D00000F89",
+                          "text": "\"Why don't you smoke? It's great!\"",
+                          "links": [
+                            {
+                              "id": 132,
+                              "title": "Lena, the Cryptozoologist's wife: \"She looks embarrassed. \"Cigarettes...\"",
+                              "articyId": "0x0100004D00000FB3",
+                              "text": "She looks embarrassed. \"Cigarettes are a luxury, sweetie. Besides, I have to mind my health.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 359,
+                          "title": "You: \"\"Good for you. Smoking is a stupid...\"",
+                          "articyId": "0x0100004D00000F8F",
+                          "text": "\"Good for you. Smoking is a stupid habit. Maybe I should quit too.\"",
+                          "links": [
+                            {
+                              "id": 204,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Quitting smoking is one of the bes...\"",
+                              "articyId": "0x0100004D0000186C",
+                              "text": "\"Quitting smoking is one of the best things you can do for your health, officer.\"",
+                              "links": [
+                                {
+                                  "id": 37,
+                                  "title": "Electrochemistry: \"What are you talking about? Smoking...\"",
+                                  "articyId": "0x0100004D00000FC0",
+                                  "text": "What are you talking about? Smoking is one of the last remaining pleasures in this world. Trust me, there's not much out there for you.",
+                                  "links": [
+                                    {
+                                      "id": 227,
+                                      "title": "Volition: \"You would do well to follow her exa...\"",
+                                      "articyId": "0x0100004D00001884",
+                                      "text": "You would do well to follow her example. Smoking is the reason you feel like a rag. It's painful for you to even ask these questions.",
+                                      "links": [
+                                        {
+                                          "id": 375,
+                                          "title": "You: \"\"But I'm not going to quit *today*.\"\"",
+                                          "articyId": "0x0100004D0000188B",
+                                          "text": "\"But I'm not going to quit *today*.\"",
+                                          "links": [
+                                            {
+                                              "id": 92,
+                                              "title": "Lena, the Cryptozoologist's wife: \"She sighs. \"I know it's not easy, s...\"",
+                                              "articyId": "0x0100004D0000189E",
+                                              "text": "She sighs. \"I know it's not easy, sweetie. But keep thinking about it.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 139,
+                                          "title": "You: \"\"But I have to smoke. It's part of...\"",
+                                          "articyId": "0x0100004D00001891",
+                                          "text": "\"But I have to smoke. It's part of my cool guy persona.\"",
+                                          "links": [
+                                            {
+                                              "id": 15,
+                                              "title": "Lena, the Cryptozoologist's wife: \"She sighs. \"I'm sure it lends you a...\"",
+                                              "articyId": "0x0100004D000018A6",
+                                              "text": "She sighs. \"I'm sure it lends you a roguish charm, sweetie.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 228,
+                                          "title": "You: \"\"You are my witness: I pledge to ne...\"",
+                                          "articyId": "0x0100004D00001897",
+                                          "text": "\"You are my witness: I pledge to never pick up another cigarette as long as I live!\" (Try to stop smoking.)",
+                                          "links": [
+                                            {
+                                              "id": 318,
+                                              "title": "Lena, the Cryptozoologist's wife: \"She smiles, obviously pleased. \"I s...\"",
+                                              "articyId": "0x0100004D000018AE",
+                                              "text": "She smiles, obviously pleased. \"I support your decision, officer.\"",
+                                              "links": [
+                                                {
+                                                  "id": 126,
+                                                  "title": "Electrochemistry: \"Don't worry. This is not permanent....\"",
+                                                  "articyId": "0x01000006000104B8",
+                                                  "text": "Don't worry. This is not permanent. You can always just pick up a pack *later*.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 101,
+                  "title": "You: \"\"Nothing, I was thinking of the lyr...\"",
+                  "articyId": "0x01000006000104A1",
+                  "text": "\"Nothing, I was thinking of the lyrics to a song: *Wanna roll with me?*\"",
+                  "links": [
+                    {
+                      "id": 151,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Ah, yes -- probably 'Roll With Me'...\"",
+                      "articyId": "0x01000006000104A8",
+                      "text": "\"Ah, yes -- probably 'Roll With Me' by The Fletchers. People often quote the Fletchers at me.\" She settles down. \"Morell says it's my theme song.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 463,
+          "title": "You: \"\"On second thought, things *are* ba...\"",
+          "articyId": "0x0100004D00001822",
+          "text": "\"On second thought, things *are* bad. I don't even know enough to know what I *don't* know about this world.\"",
+          "links": [
+            {
+              "id": 316,
+              "title": "Lena, the Cryptozoologist's wife: \"\"You know where we *are*, right?\"\"",
+              "articyId": "0x0100004D0000180E",
+              "text": "\"You know where we *are*, right?\"",
+              "links": [
+                {
+                  "id": 33,
+                  "title": "You: \"\"The 'Whirling-in-Rags' cafeteria?...\"",
+                  "articyId": "0x0100004D00000CAD",
+                  "text": "\"The 'Whirling-in-Rags' cafeteria? It was on my keys.\"",
+                  "links": [
+                    {
+                      "id": 287,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"That's right, and where is the Whi...\"",
+                      "articyId": "0x0100004D00000CD1",
+                      "text": "\"That's right, and where is the Whirling-in-Rags cafeteria itself located?\"",
+                      "links": [
+                        {
+                          "id": 421,
+                          "title": "You: \"\"In... Revachol?\"\"",
+                          "articyId": "0x0100004D00001215",
+                          "text": "\"In... Revachol?\"",
+                          "links": [
+                            {
+                              "id": 11,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Yes, indeed. We are in the fine ci...\"",
+                              "articyId": "0x0100004D00001267",
+                              "text": "\"Yes, indeed. We are in the fine city of Revachol.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "title": "You: \"\"On something called *the urban coa...\"",
+                          "articyId": "0x0100004D0000120E",
+                          "text": "\"On something called *the urban coast*.\"",
+                          "links": [
+                            {
+                              "id": 261,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Yes, we're in Martinaise, on the c...\"",
+                              "articyId": "0x0100004D0000125F",
+                              "text": "\"Yes, we're in Martinaise, on the coast of Revachol.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 295,
+                          "title": "You: \"\"The edge of civilization.\"\"",
+                          "articyId": "0x0100004D000011FF",
+                          "text": "\"The edge of civilization.\"",
+                          "links": [
+                            {
+                              "id": 418,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"We're in the city of *Revachol*, d...\"",
+                              "articyId": "0x0100004D00000CD7",
+                              "text": "\"We're in the city of *Revachol*, dear.\" She flashes you a worried look.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 422,
+                          "title": "You: \"\"In hell. We're all in hell.\"\"",
+                          "articyId": "0x0100004D0000121C",
+                          "text": "\"In hell. We're all in hell.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 27,
+                          "title": "You: \"\"See -- I have no idea.\"\"",
+                          "articyId": "0x01000006000104DA",
+                          "text": "\"See -- I have no idea.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 451,
+                  "title": "You: \"\"We're in Martinaise.\"\"",
+                  "articyId": "0x0100008100005F85",
+                  "text": "\"We're in Martinaise.\"",
+                  "links": [
+                    {
+                      "id": 149,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"That's right! We're on the coast o...\"",
+                      "articyId": "0x0100008100005F8C",
+                      "text": "\"That's right! We're on the coast of the city of Revachol, in the district of Martinaise.\"",
+                      "links": [
+                        {
+                          "id": 60,
+                          "title": "You: \"\"Mhm, okay.\"\"",
+                          "articyId": "0x0100000600012E51",
+                          "text": "\"Mhm, okay.\"",
+                          "links": [
+                            {
+                              "id": 453,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Yes -- and Revachol...?\" She exami...\"",
+                              "articyId": "0x0100000600012E57",
+                              "text": "\"Yes -- and Revachol...?\" She examines you.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 260,
+                          "title": "You: \"\"All I know is that Revachol used t...\"",
+                          "articyId": "0x0100004D00001242",
+                          "text": "\"All I know is that Revachol used to be really cool in the Thirties.\"",
+                          "links": [
+                            {
+                              "id": 42,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"The New! Disco dancing! It seems l...\"",
+                              "articyId": "0x0100004D000012DA",
+                              "text": "\"The New! Disco dancing! It seems like a lifetime ago...\" Her eyes are filled with light reflected off those gilded years, when the city seemed full of possibility.",
+                              "links": [
+                                {
+                                  "id": 67,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"Much has changed, but it is still...\"",
+                                  "articyId": "0x0100004D00001313",
+                                  "text": "\"Much has changed, but it is still the most beautiful city in the world, a rare jewel set in the sand between the pines. Everyone says so, even foreigners.\" There's a pause as she studies your expression. You must look quite lost.",
+                                  "links": [
+                                    {
+                                      "id": 369,
+                                      "title": "Lena, the Cryptozoologist's wife: \"\"Speaking of history -- you know wh...\"",
+                                      "articyId": "0x0100004D00000D07",
+                                      "text": "\"Speaking of history -- you know what *year* it is, yes?\"",
+                                      "links": [
+                                        {
+                                          "id": 289,
+                                          "title": "You: \"\"It's the spring of '51.\"\"",
+                                          "articyId": "0x0100004D00000D31",
+                                          "text": "\"It's the spring of '51.\"",
+                                          "links": [
+                                            {
+                                              "id": 20,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"That's right, dear! How splendid!\"\"",
+                                              "articyId": "0x0100006B00005F47",
+                                              "text": "\"That's right, dear! How splendid!\"",
+                                              "links": [
+                                                {
+                                                  "id": 44,
+                                                  "title": "Composure: \"Her relief is palpable. She was get...\"",
+                                                  "articyId": "0x0100004D00001760",
+                                                  "text": "Her relief is palpable. She was getting pretty worried about you there, but now she relaxes her shoulders...",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 213,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"That's right, dear! How splendid!...\"",
+                                              "articyId": "0x0100005A000007FF",
+                                              "text": "\"That's right, dear! How splendid! Here, take this pen. Knowledge should always be rewarded.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 224,
+                                          "title": "You: \"\"I know it's the '50s, but I'm not...\"",
+                                          "articyId": "0x0100004D00001270",
+                                          "text": "\"I know it's the '50s, but I'm not sure about the year.\"",
+                                          "links": [
+                                            {
+                                              "id": 106,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"Good, dear, you got the decade rig...\"",
+                                              "articyId": "0x0100004D0000127F",
+                                              "text": "\"Good, dear, you got the decade right! It's the spring of '51.\"",
+                                              "links": [
+                                                {
+                                                  "id": 69,
+                                                  "title": "Drama: \"Though she praises you, it is clear...\"",
+                                                  "articyId": "0x0100004D00001754",
+                                                  "text": "Though she praises you, it is clear that she was taken aback by your response.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 307,
+                                          "title": "You: \"\"It's totally '43.\"\"",
+                                          "articyId": "0x0100004D00000D2B",
+                                          "text": "\"It's totally '43.\"",
+                                          "links": [
+                                            {
+                                              "id": 90,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"Oh no, dear! It's the early spring...\"",
+                                              "articyId": "0x0100004D0000117F",
+                                              "text": "\"Oh no, dear! It's the early spring of '51.\"",
+                                              "links": [
+                                                {
+                                                  "id": 344,
+                                                  "title": "Composure: \"She leans back in her chair, alarme...\"",
+                                                  "articyId": "0x0100004D0000172A",
+                                                  "text": "She leans back in her chair, alarmed by your answer.",
+                                                  "links": [
+                                                    {
+                                                      "id": 423,
+                                                      "title": "Kim Kitsuragi: \"The lieutenant tries to pretend he'...\"",
+                                                      "articyId": "0x0100004D00001770",
+                                                      "text": "The lieutenant tries to pretend he's not hearing it and is out of the conversation.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 328,
+                                          "title": "You: \"\"Sure. It's the year 973.\"\"",
+                                          "articyId": "0x0100000600010506",
+                                          "text": "\"Sure. It's the year 973.\"",
+                                          "links": [
+                                            {
+                                              "id": 152,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"You're joking. Try again, one more...\"",
+                                              "articyId": "0x010000060001050D",
+                                              "text": "\"You're joking. Try again, one more time. What year is it?\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 337,
+                                          "title": "You: \"\"All I know is: we are approaching...\"",
+                                          "articyId": "0x0100004D00000D37",
+                                          "text": "\"All I know is: we are approaching the *end times*.\"",
+                                          "links": [
+                                            {
+                                              "id": 40,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"Perhaps, dear, perhaps. But for no...\"",
+                                              "articyId": "0x0100004D0000118D",
+                                              "text": "\"Perhaps, dear, perhaps. But for now it's just the spring of '51.\"",
+                                              "links": [
+                                                {
+                                                  "id": 310,
+                                                  "title": "Inland Empire: \"She is perturbed by your not knowin...\"",
+                                                  "articyId": "0x0100004D0000173C",
+                                                  "text": "She is perturbed by your not knowing what year it is -- but not by your mention of the apocalypse. It *must* be the end times.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 460,
+                                          "title": "You: \"\"It's a bad year in my late forties...\"",
+                                          "articyId": "0x0100004D00001178",
+                                          "text": "\"It's a bad year in my late forties, or fifties? I don't even know how *old* I am.\"",
+                                          "links": [
+                                            {
+                                              "id": 41,
+                                              "title": "Lena, the Cryptozoologist's wife: \"\"There, there. The year is '51, and...\"",
+                                              "articyId": "0x0100004D00001194",
+                                              "text": "\"There, there. The year is '51, and spring has only just started. I'm sure there are better days ahead.\"",
+                                              "links": [
+                                                {
+                                                  "id": 14,
+                                                  "title": "Composure: \"She looks flustered, her hands smoo...\"",
+                                                  "articyId": "0x0100004D0000174A",
+                                                  "text": "She looks flustered, her hands smoothing out the creases in her blanket even as she attempts to reassure you.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 308,
+                                          "title": "Logic: \"The New was in the Thirties, and tw...\"",
+                                          "articyId": "0x0100004D00001277",
+                                          "text": "The New was in the Thirties, and two decades have elapsed since The New, so it must be the Fifties now.",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 306,
+                                          "title": "Conceptualization: \"That tape you picked up said '43. Y...\"",
+                                          "articyId": "0x0100004D00000D25",
+                                          "text": "That tape you picked up said '43. You seem to be a hip modern man who listens to hip modern records, so it must be '43.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "title": "You: \"\"Revachol is the disgraced capital...\"",
+                          "articyId": "0x01000006000104E6",
+                          "text": "\"Revachol is the disgraced capital of the world. Something like that?\"",
+                          "links": [
+                            {
+                              "id": 53,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Yes, great, see -- we're getting s...\"",
+                              "articyId": "0x01000006000104EE",
+                              "text": "\"Yes, great, see -- we're getting somewhere. What else do you know about our city of splendour? Tattered as she may be...\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 296,
+                          "title": "You: \"\"Honestly, I don't know diddly-squa...\"",
+                          "articyId": "0x0100004D0000123C",
+                          "text": "\"Honestly, I don't know diddly-squat about Revachol. What kind of place is this?\"",
+                          "links": [
+                            {
+                              "id": 135,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"How would I even begin to tell you...\"",
+                              "articyId": "0x0100004D000012F9",
+                              "text": "\"How would I even begin to tell you?\" Her grey eyes widen. \"Revachol is the most beautiful city in the world. We're fortunate to be here, you and I.\"",
+                              "links": [
+                                {
+                                  "id": 343,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"I haven't seen very many other cit...\"",
+                                  "articyId": "0x0100004D00001300",
+                                  "text": "\"I haven't seen very many other cities personally, but everyone says so. Revachol is a rare jewel. This city used to rule the world... Though it has seen better days.\" There's a pause as she studies your expression. You must look quite lost.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 335,
+                  "title": "You: \"\"We're in Revachol.\"\"",
+                  "articyId": "0x0100004D00000CB3",
+                  "text": "\"We're in Revachol.\"",
+                  "links": [
+                    {
+                      "id": 288,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"That's right! In a hostel called t...\"",
+                      "articyId": "0x0100004D00000CDD",
+                      "text": "\"That's right! In a hostel called the Whirling-in-Rags, to be precise.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 83,
+                  "title": "You: \"\"On Insulinde?\"\"",
+                  "articyId": "0x01000097000004C3",
+                  "text": "\"On Insulinde?\"",
+                  "links": [
+                    {
+                      "id": 125,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Yes, but, more specifically -- on...\"",
+                      "articyId": "0x01000097000004CA",
+                      "text": "\"Yes, but, more specifically -- on the coast of the city of Revachol, in the district of Martinaise.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 439,
+                  "title": "You: \"\"I don't really know... some seedy...\"",
+                  "articyId": "0x0100004D00000CBF",
+                  "text": "\"I don't really know... some seedy hotel?\"",
+                  "links": [
+                    {
+                      "id": 357,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"A seaside hostel called the Whirli...\"",
+                      "articyId": "0x0100004D00000CF5",
+                      "text": "\"A seaside hostel called the Whirling-in-Rags, to be precise. And the Whirling itself is in Revachol.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 336,
+                  "title": "You: \"\"A war zone. At the edge of the wor...\"",
+                  "articyId": "0x0100004D00000CB9",
+                  "text": "\"A war zone. At the edge of the world.\"",
+                  "links": [
+                    {
+                      "id": 223,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"It does still look like that in so...\"",
+                      "articyId": "0x0100004D00000CE9",
+                      "text": "\"It does still look like that in some parts of the city, doesn't it...\"",
+                      "links": [
+                        {
+                          "id": 192,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"We are in a hostel called the Whir...\"",
+                          "articyId": "0x0100004D00000CEF",
+                          "text": "\"We are in a hostel called the Whirling-in-Rags, dear. And the Whirling itself is in the city of Revachol.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 445,
+                  "title": "You: \"\"We're dead. Haunting each other. W...\"",
+                  "articyId": "0x0100004D000011EB",
+                  "text": "\"We're dead. Haunting each other. We're ghosts.\"",
+                  "links": [
+                    {
+                      "id": 342,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Now, now.\" She tilts her head as s...\"",
+                      "articyId": "0x0100004D000011F3",
+                      "text": "\"Now, now.\" She tilts her head as she looks up at you with maternal solicitude.",
+                      "links": [
+                        {
+                          "id": 502,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"We are alive -- in a hostel called...\"",
+                          "articyId": "0x0100004D0000122D",
+                          "text": "\"We are alive -- in a hostel called the Whirling-in-Rags. And the Whirling itself is in the city of Revachol.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 156,
+          "title": "You: \"\"I don't know if you've noticed, bu...\"",
+          "articyId": "0x0100004D00000A95",
+          "text": "\"I don't know if you've noticed, but I don't know where I am, or what I'm doing. Or *anything*.\"",
+          "links": [
+            {
+              "id": 293,
+              "title": "Lena, the Cryptozoologist's wife: \"\"Yes, officer, you look rather daze...\"",
+              "articyId": "0x0100004D0000104F",
+              "text": "\"Yes, officer, you look rather dazed... like a stunned fox. But surely things can't be *that* bad?\" Her eyes follow your movements with some concern.",
+              "links": [
+                {
+                  "id": 448,
+                  "title": "Suggestion: \"She won't judge you, no matter what...\"",
+                  "articyId": "0x0100004D00001964",
+                  "text": "She won't judge you, no matter what you say.",
+                  "links": [
+                    {
+                      "id": 361,
+                      "title": "You: \"\"I drank so hard I forgot *literall...\"",
+                      "articyId": "0x0100004D000016C6",
+                      "text": "\"I drank so hard I forgot *literally* everything.\"",
+                      "links": [
+                        {
+                          "id": 367,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"Oh my...\" It takes a moment to pro...\"",
+                          "articyId": "0x0100000600017492",
+                          "text": "\"Oh my...\" It takes a moment to process. \"You know where we *are*, right?\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 362,
+                      "title": "You: \"\"I hope you're right. I hope it's n...\"",
+                      "articyId": "0x0100004D000017E6",
+                      "text": "\"I hope you're right. I hope it's not too bad...\"",
+                      "links": []
+                    },
+                    {
+                      "id": 462,
+                      "title": "You: \"\"Yeah, I'm blowing this whole thing...\"",
+                      "articyId": "0x0100004D000017F4",
+                      "text": "\"Yeah, I'm blowing this whole thing out of proportion. Forget I said anything.\"",
+                      "links": [
+                        {
+                          "id": 138,
+                          "title": "Lena, the Cryptozoologist's wife: \"She nods, but still looks worried.\"",
+                          "articyId": "0x0100004D00001806",
+                          "text": "She nods, but still looks worried.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 285,
+          "title": "You: \"\"Are you okay? I am very sorry I cr...\"",
+          "articyId": "0x0100004D00000A83",
+          "text": "\"Are you okay? I am very sorry I crashed into you earlier. I don't know what got into me.\"",
+          "links": [
+            {
+              "id": 191,
+              "title": "Lena, the Cryptozoologist's wife: \"\"Oh, I'm perfectly alright! I'm mor...\"",
+              "articyId": "0x0100004D00000BF5",
+              "text": "\"Oh, I'm perfectly alright! I'm more worried about you. What was that?\"",
+              "links": [
+                {
+                  "id": 309,
+                  "title": "You: \"\"Yeah, what *was* that?\"\"",
+                  "articyId": "0x0100004D000016A1",
+                  "text": "\"Yeah, what *was* that?\"",
+                  "links": [
+                    {
+                      "id": 166,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"From where I was standing, it look...\"",
+                      "articyId": "0x0100004D00001A7E",
+                      "text": "\"From where I was standing, it looked like you were about to pull out two guns, but drew two... akhem... birdies instead. Well, I'm glad you're weren't injured.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 136,
+                  "title": "You: \"\"That cafeteria manager is a bad ma...\"",
+                  "articyId": "0x0100004D000016A7",
+                  "text": "\"That cafeteria manager is a bad man, a man without honour or compassion.\"",
+                  "links": [
+                    {
+                      "id": 18,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"What do you mean?\"\"",
+                      "articyId": "0x0100005A00000819",
+                      "text": "\"What do you mean?\"",
+                      "links": [
+                        {
+                          "id": 79,
+                          "title": "You: \"\"He was tormenting me with outrageo...\"",
+                          "articyId": "0x0100005A0000081F",
+                          "text": "\"He was tormenting me with outrageous demands for *money*.\"",
+                          "links": [
+                            {
+                              "id": 76,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"He's just on edge because of the l...\"",
+                              "articyId": "0x0100004D00001A84",
+                              "text": "\"He's just on edge because of the lynching. Don't judge him too harshly. Anyway, I'm glad you weren't injured.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 229,
+                  "title": "You: \"\"It was like my body had a will of...\"",
+                  "articyId": "0x0100004D00001A8D",
+                  "text": "\"It was like my body had a will of its own. I was running, my torso turned, my hands made this lewd gesture... I'm sorry you had to witness it.\"",
+                  "links": [
+                    {
+                      "id": 77,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Don't beat yourself up over it too...\"",
+                      "articyId": "0x0100004D00001A93",
+                      "text": "\"Don't beat yourself up over it too much, dear. People do strange things when the old fight-or-flight kicks in. I'm just glad you weren't injured.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 498,
+          "title": "You: \"\"Sweetie needs money. Do sweeties g...\"",
+          "articyId": "0x0100004D00000A8F",
+          "text": "\"Sweetie needs money. Do sweeties get money?\"",
+          "links": [
+            {
+              "id": 454,
+              "title": "Lena, the Cryptozoologist's wife: \"\"Oh sweetie.\" Her expression become...\"",
+              "articyId": "0x0100004D00000AA6",
+              "text": "\"Oh sweetie.\" Her expression becomes very serious. \"I heard your conversation with the manager about your... financial troubles. When do you get your next paycheck?\"",
+              "links": [
+                {
+                  "id": 259,
+                  "title": "Empathy: \"If she could, this woman would feed...\"",
+                  "articyId": "0x0100004D00001122",
+                  "text": "If she could, this woman would feed and clothe you and every other sad, lost person on this earth.",
+                  "links": [
+                    {
+                      "id": 188,
+                      "title": "Physical Instrument: \"You've got guns of steel and a chis...\"",
+                      "articyId": "0x0100004D00000AB4",
+                      "text": "You've got guns of steel and a chiselled jaw (somewhere under the bloated alcohol layer). Maybe she'd like to sponsor you?",
+                      "links": [
+                        {
+                          "id": 133,
+                          "title": "You: \"\"I was hoping you could be my *spon...\"",
+                          "articyId": "0x0100004D00001058",
+                          "text": "\"I was hoping you could be my *sponsor*.\"",
+                          "links": [
+                            {
+                              "id": 278,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Oh, I'm sure you would make a wond...\"",
+                              "articyId": "0x010000060001066D",
+                              "text": "\"Oh, I'm sure you would make a wonderful *gigolo* dear -- with those strong arms of yours. But welfare checks aren't all they're cracked up to be. My husband and I are barely scraping by.\"",
+                              "links": [
+                                {
+                                  "id": 183,
+                                  "title": "Electrochemistry: \"She's not really lusting after thos...\"",
+                                  "articyId": "0x010000060001067B",
+                                  "text": "She's not really lusting after those biceps, man. It's more like an appraisal you give to a healthy *specimen*.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 373,
+                          "title": "You: \"\"What is a pay check? I haven't see...\"",
+                          "articyId": "0x0100004D0000105E",
+                          "text": "\"What is a pay check? I haven't seen any pay checks...\"",
+                          "links": [
+                            {
+                              "id": 294,
+                              "title": "Kim Kitsuragi: \"\"You must be joking.\" He pauses, re...\"",
+                              "articyId": "0x0100004D0000107B",
+                              "text": "\"You must be joking.\" He pauses, reflecting. \"Although our pay does sometimes feel like a joke.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 230,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"It's not easy to assert your right...\"",
+                              "articyId": "0x0100004D00001AAD",
+                              "text": "\"It's not easy to assert your right to a decent living wage when you don't have a strong union behind you... Maybe you should talk to Evrart, the Union leader?\"",
+                              "links": [
+                                {
+                                  "id": 105,
+                                  "title": "Logic: \"Already did that. Evrart's money wa...\"",
+                                  "articyId": "0x0100000600010787",
+                                  "text": "Already did that. Evrart's money wasn't gonna last forever. You need more. Every day is a new expense!",
+                                  "links": []
+                                },
+                                {
+                                  "id": 332,
+                                  "title": "Authority: \"Already did that. You were too *pro...\"",
+                                  "articyId": "0x0100000600010780",
+                                  "text": "Already did that. You were too *proud* to take the check.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 435,
+                                  "title": "Reaction Speed: \"Good idea. Maybe you were too quick...\"",
+                                  "articyId": "0x0100000600010795",
+                                  "text": "Good idea. Maybe you were too quick to leave -- he would have given you some if you sat there longer?",
+                                  "links": []
+                                },
+                                {
+                                  "id": 434,
+                                  "title": "Interfacing: \"Interesting idea. This *Evrart* sou...\"",
+                                  "articyId": "0x010000060001078E",
+                                  "text": "Interesting idea. This *Evrart* sounds powerful. Maybe you can wrangle some coins out of his pocket?",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 206,
+                          "title": "You: \"Tug on her heartstrings.\"",
+                          "articyId": "0x0100004D00001D86",
+                          "text": "Tug on her heartstrings.",
+                          "links": [
+                            {
+                              "id": 348,
+                              "title": "Suggestion: \"Your deportment remains dignified -...\"",
+                              "articyId": "0x0100004D00001D95",
+                              "text": "Your deportment remains dignified -- as you shed a single, manly tear.",
+                              "links": [
+                                {
+                                  "id": 39,
+                                  "title": "You: \"\"It isn't easy for me to ask this o...\"",
+                                  "articyId": "0x0100004D00001064",
+                                  "text": "\"It isn't easy for me to ask this of anyone, but I am at the end of my rope. Any money you have could help me.\"",
+                                  "links": [
+                                    {
+                                      "id": 89,
+                                      "title": "Lena, the Cryptozoologist's wife: \"\"Sweetie, I only have a few cents o...\"",
+                                      "articyId": "0x0100004D0000111A",
+                                      "text": "\"Sweetie, I only have a few cents on me. But... I could give you this to pawn, just to tide you over.\" She unfastens a gold commemorative pin from her left jacket pocket and drops it into your palm.",
+                                      "links": [
+                                        {
+                                          "id": 255,
+                                          "title": "Kim Kitsuragi: \"\"Wonderful.\" The lieutenant marks d...\"",
+                                          "articyId": "0x0100000600010850",
+                                          "text": "\"Wonderful.\" The lieutenant marks drolly. \"He has a pin.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 505,
+                                          "title": "Perception (Sight): \"The pin is round and slightly tarni...\"",
+                                          "articyId": "0x0100004D00001B44",
+                                          "text": "The pin is round and slightly tarnished. Three sailboats in bas-relief with the sun hovering over the water behind them. A chipped green banner at the bottom reads \"Saint-Batiste Summer '31 -- Dinghy Races.\"",
+                                          "links": [
+                                            {
+                                              "id": 466,
+                                              "title": "Encyclopedia: \"The Saint-Batiste Dinghy Races were...\"",
+                                              "articyId": "0x0100004D00001B4B",
+                                              "text": "The Saint-Batiste Dinghy Races were conceived as a biennial civic pride celebration (and cash cow), but only took place twice, in '31 and '33. The '31 races are the subject of fond reminiscence: Those who were there will tell you of sun-drenched bleachers, pink bubbly, and bronze-legged studs in white shorts.",
+                                              "links": [
+                                                {
+                                                  "id": 220,
+                                                  "title": "Encyclopedia: \"The '33 races, on the other hand, w...\"",
+                                                  "articyId": "0x01000006000107F8",
+                                                  "text": "The '33 races, on the other hand, were plagued by controversy over performance enhancers and very cold rain. After two local champions were stripped of their titles, the city decided not to hold the event again.",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 475,
+                                                  "title": "Savoir Faire: \"You could totally sell this pin for...\"",
+                                                  "articyId": "0x0100000200001122",
+                                                  "text": "You could totally sell this pin for cash.",
+                                                  "links": [
+                                                    {
+                                                      "id": 141,
+                                                      "title": "You: \"\"What is 'to pawn'?\"\"",
+                                                      "articyId": "0x0100004D00001AF4",
+                                                      "text": "\"What is 'to pawn'?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 17,
+                                                          "title": "Lena, the Cryptozoologist's wife: \"\"It's easy. You bring a valuable it...\"",
+                                                          "articyId": "0x0100004D00001B03",
+                                                          "text": "\"It's easy. You bring a valuable item to a 'pawnbroker' who then gives you money for it. You can get it back later for a slightly larger sum if it hasn't been sold, but you never end up doing that anyway...\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 263,
+                                                      "title": "You: \"\"Where can I pawn the pin?\"\"",
+                                                      "articyId": "0x0100004D00001AE6",
+                                                      "text": "\"Where can I pawn the pin?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 449,
+                                                          "title": "Lena, the Cryptozoologist's wife: \"\"Cross the plaza and follow the roa...\"",
+                                                          "articyId": "0x0100004D00001B24",
+                                                          "text": "\"Cross the plaza and follow the road along the coast. Down by the water, there will be a shack nestled against an old stone façade. That's the pawnshop. An old friend of my husband's goes there often. He says the owner is quite helpful.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 86,
+                                                              "title": "Kim Kitsuragi: \"\"Yes, we've been there,\" the lieute...\"",
+                                                              "articyId": "0x0100002100002601",
+                                                              "text": "\"Yes, we've been there,\" the lieutenant nods.",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 386,
+                                                              "title": "Reaction Speed: \"You've been there, remember? The li...\"",
+                                                              "articyId": "0x0100002100002608",
+                                                              "text": "You've been there, remember? The little shack right by the canal.",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 184,
+                                                              "title": "Tutorial Agent: \"Items that can be pawned at Bird's...\"",
+                                                              "articyId": "0x010000060001086A",
+                                                              "text": "Items that can be pawned at Bird's Nest Roy's appear in your INVENTORY, under the ITEMS tab. You can pawn these items when talking to Roy.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 425,
+                                                      "title": "You: \"\"This will help me out, Lena. Thank...\"",
+                                                      "articyId": "0x0100004D00001B37",
+                                                      "text": "\"This will help me out, Lena. Thanks.\" (Conclude.)",
+                                                      "links": [
+                                                        {
+                                                          "id": 379,
+                                                          "title": "Lena, the Cryptozoologist's wife: \"\"You're quite welcome, dear.\" She s...\"",
+                                                          "articyId": "0x010000710000004A",
+                                                          "text": "\"You're quite welcome, dear.\" She smiles up at you.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 321,
+                                                      "title": "You: \"\"I promise I'll buy it back for you...\"",
+                                                      "articyId": "0x0100004D00001AED",
+                                                      "text": "\"I promise I'll buy it back for you once I have more money.\" (Conclude.)",
+                                                      "links": [
+                                                        {
+                                                          "id": 365,
+                                                          "title": "Lena, the Cryptozoologist's wife: \"\"Oh, it's not an ancient family hei...\"",
+                                                          "articyId": "0x0100004D00001B0D",
+                                                          "text": "\"Oh, it's not an ancient family heirloom or anything, but... I suppose it *would* be nice to get it back.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 267,
+                              "title": "Suggestion: \"Try to force a tear out of your duc...\"",
+                              "articyId": "0x0100004D00001D9B",
+                              "text": "Try to force a tear out of your duct. Really *rip* into the whole emotional aggression thing.",
+                              "links": [
+                                {
+                                  "id": 322,
+                                  "title": "You: \"\"Oh god, I'm going to die on the st...\"",
+                                  "articyId": "0x0100004D00001DB9",
+                                  "text": "\"Oh god, I'm going to die on the street aren't I?\"",
+                                  "links": [
+                                    {
+                                      "id": 201,
+                                      "title": "Kim Kitsuragi: \"\"Officer.\" He leans in so that only...\"",
+                                      "articyId": "0x0100004D00001114",
+                                      "text": "\"Officer.\" He leans in so that only you can hear, but his tone is forceful. \"Get a hold of yourself, please.\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 167,
+                                      "title": "Lena, the Cryptozoologist's wife: \"\"Sweetie, I'm sorry, but I think yo...\"",
+                                      "articyId": "0x0100004D00001DC2",
+                                      "text": "\"Sweetie, I'm sorry, but I think you need more help than I can give you.\" She looks distressed and even a little frightened.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 5,
+                                  "title": "You: \"\"Fucking shit. It's all over for me.\"\"",
+                                  "articyId": "0x010000060001085A",
+                                  "text": "\"Fucking shit. It's all over for me.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 154,
+                                  "title": "You: \"\"Of course. I shouldn't have asked...\"",
+                                  "articyId": "0x0100000600010862",
+                                  "text": "\"Of course. I shouldn't have asked you. STUPID me.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 9,
+                          "title": "You: \"\"Right. Let's change the subject.\"\"",
+                          "articyId": "0x0100004D0000115C",
+                          "text": "\"Right. Let's change the subject.\"",
+                          "links": [
+                            {
+                              "id": 31,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Oh no... I'm so sorry I don't have...\"",
+                              "articyId": "0x0100000600010774",
+                              "text": "\"Oh no... I'm so sorry I don't have money for you. If there's *anything* else I can do for you, just ask.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "title": "You: \"\"About your pin...\"\"",
+          "articyId": "0x0100007100000081",
+          "text": "\"About your pin...\"",
+          "links": [
+            {
+              "id": 397,
+              "title": "Lena, the Cryptozoologist's wife: \"\"I hope you were able to pawn that...\"",
+              "articyId": "0x0100007100000069",
+              "text": "\"I hope you were able to pawn that old trinket!\" She smiles up at you earnestly.",
+              "links": [
+                {
+                  "id": 85,
+                  "title": "You: \"\"I decided not to pawn it. You shou...\"",
+                  "articyId": "0x01000021000024FE",
+                  "text": "\"I decided not to pawn it. You should have it back.\" (Give her the pin.)",
+                  "links": [
+                    {
+                      "id": 333,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Aw, thank you, dear. I confess --...\"",
+                      "articyId": "0x0100002100002504",
+                      "text": "\"Aw, thank you, dear. I confess -- I am glad to see it again.\"",
+                      "links": [
+                        {
+                          "id": 385,
+                          "title": "Kim Kitsuragi: \"Even the lieutenant seems happy wit...\"",
+                          "articyId": "0x01000021000024C9",
+                          "text": "Even the lieutenant seems happy with this turn of events.",
+                          "links": [
+                            {
+                              "id": 186,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Now, what else, sweetie?\"\"",
+                              "articyId": "0x01000021000024F1",
+                              "text": "\"Now, what else, sweetie?\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 384,
+                  "title": "You: \"\"I bought it back. I know it means...\"",
+                  "articyId": "0x01000021000024A8",
+                  "text": "\"I bought it back. I know it means a lot to you. You should have it.\" (Give her the pin.)",
+                  "links": [
+                    {
+                      "id": 304,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Aw, thank you, dear. I confess --...\"",
+                      "articyId": "0x01000021000024AE",
+                      "text": "\"Aw, thank you, dear. I confess -- I am glad to see it again. Very honourable of you, officer.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 256,
+                  "title": "You: \"\"I got 3.20 for it. You should have...\"",
+                  "articyId": "0x01000021000024A1",
+                  "text": "\"I got 3.20 for it. You should have it.\" (Give her the money.)",
+                  "links": [
+                    {
+                      "id": 305,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Oh, that's very thoughtful of you....\"",
+                      "articyId": "0x01000021000024BC",
+                      "text": "\"Oh, that's very thoughtful of you. Are you sure you don't need the money? Okay, then. Thank you.\"",
+                      "links": [
+                        {
+                          "id": 282,
+                          "title": "Empathy: \"She really would have rather had th...\"",
+                          "articyId": "0x01000021000024B6",
+                          "text": "She really would have rather had the pin back, but she doesn't want to make you feel bad.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 185,
+                  "title": "You: \"\"I just wanted to thank you again.\"\"",
+                  "articyId": "0x01000021000024D5",
+                  "text": "\"I just wanted to thank you again.\"",
+                  "links": [
+                    {
+                      "id": 488,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"Of course, dear! I just wish I cou...\"",
+                      "articyId": "0x01000021000024CF",
+                      "text": "\"Of course, dear! I just wish I could have done more.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 284,
+          "title": "You: \"\"I've gotta get going now.\" [Leave....\"",
+          "articyId": "0x0100004D00000A77",
+          "text": "\"I've gotta get going now.\" [Leave.]",
+          "links": [
+            {
+              "id": 96,
+              "title": "Lena, the Cryptozoologist's wife: \"\"Of course, dear. Good luck with yo...\"",
+              "articyId": "0x0100008100005E03",
+              "text": "\"Of course, dear. Good luck with your case!\" She gives you a small wave.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "title": "Lena, the Cryptozoologist's wife: \"\"Hello again, sweetie. I see you've...\"",
+      "articyId": "0x010000580000350A",
+      "text": "\"Hello again, sweetie. I see you've met up with your colleague.\" She looks at the lieutenant.",
+      "links": [
+        {
+          "id": 271,
+          "title": "Kim Kitsuragi: \"The lieutenant nods politely.\"",
+          "articyId": "0x0100008100001C87",
+          "text": "The lieutenant nods politely.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "title": "Lena, the Cryptozoologist's wife: \"\"Hello, sweetie.\" The elderly woman...\"",
+      "articyId": "0x010000580000473B",
+      "text": "\"Hello, sweetie.\" The elderly woman turns to you with a smile.",
+      "links": [
+        {
+          "id": 13,
+          "title": "You: \"\"Who's *sweetie*?\"\"",
+          "articyId": "0x0100004D0000160B",
+          "text": "\"Who's *sweetie*?\"",
+          "links": [
+            {
+              "id": 364,
+              "title": "Lena, the Cryptozoologist's wife: \"\"Why, *you* are, officer!\"\"",
+              "articyId": "0x0100004D000018BC",
+              "text": "\"Why, *you* are, officer!\"",
+              "links": [
+                {
+                  "id": 262,
+                  "title": "You: \"\"I'm no sweetie. Look at me.\"\"",
+                  "articyId": "0x0100004D000018C3",
+                  "text": "\"I'm no sweetie. Look at me.\"",
+                  "links": [
+                    {
+                      "id": 319,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"You're a handsome man, officer, wi...\"",
+                      "articyId": "0x0100004D000018D1",
+                      "text": "\"You're a handsome man, officer, with your moustache and your chiselled jaw. And that silly dimple on your chin.\"",
+                      "links": [
+                        {
+                          "id": 47,
+                          "title": "You: \"\"Thanks. I appreciate it.\"\"",
+                          "articyId": "0x010000640000C41F",
+                          "text": "\"Thanks. I appreciate it.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 470,
+                          "title": "You: \"\"Dimple or not, I am a bitter man -...\"",
+                          "articyId": "0x010000640000C439",
+                          "text": "\"Dimple or not, I am a bitter man -- the years have taken their toll.\"",
+                          "links": [
+                            {
+                              "id": 236,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Take heart, officer. You're still...\"",
+                              "articyId": "0x010000640000C433",
+                              "text": "\"Take heart, officer. You're still a man in your prime.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 19,
+                          "title": "You: \"\"That stupid dimple has only brough...\"",
+                          "articyId": "0x010000640000C42B",
+                          "text": "\"That stupid dimple has only brought me *suffering*.\"",
+                          "links": [
+                            {
+                              "id": 48,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Love can be cruel, sweetie.\" Her e...\"",
+                              "articyId": "0x010000640000C45D",
+                              "text": "\"Love can be cruel, sweetie.\" Her expression turns serious. \"Love can be cruel.\"",
+                              "links": [
+                                {
+                                  "id": 429,
+                                  "title": "Conceptualization: \"That dimple is a flower attracting...\"",
+                                  "articyId": "0x0100008100001C6B",
+                                  "text": "That dimple is a flower attracting lust, vice, and sin.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 80,
+                          "title": "You: \"\"I don't wanna talk about the dimpl...\"",
+                          "articyId": "0x010000640000C44C",
+                          "text": "\"I don't wanna talk about the dimple anymore.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 205,
+                  "title": "You: \"\"Hmm... maybe I am?\"\"",
+                  "articyId": "0x0100004D000018C9",
+                  "text": "\"Hmm... maybe I am?\"",
+                  "links": [
+                    {
+                      "id": 270,
+                      "title": "Lena, the Cryptozoologist's wife: \"\"And have you found anyone to be sw...\"",
+                      "articyId": "0x01000071000019B8",
+                      "text": "\"And have you found anyone to be sweet *to*?\" She smiles conspiratorially.",
+                      "links": [
+                        {
+                          "id": 326,
+                          "title": "You: \"\"No. I'm done with *mating rituals*...\"",
+                          "articyId": "0x01000071000019BF",
+                          "text": "\"No. I'm done with *mating rituals* this time around.\"",
+                          "links": [
+                            {
+                              "id": 346,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"The 'mating rituals' aren't the go...\"",
+                              "articyId": "0x0100004D00001916",
+                              "text": "\"The 'mating rituals' aren't the good part, sweetie.\" Her eyes shine with gentle compassion. \"I know it's none of my business, but you look like you need someone to take care of you.\"",
+                              "links": [
+                                {
+                                  "id": 72,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"I suppose all of us do at one time...\"",
+                                  "articyId": "0x0100004D00001987",
+                                  "text": "\"I suppose all of us do at one time or another. I don't know what I'd do without Morell...\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 398,
+                          "title": "You: \"\"I don't know.\" (Wink.) \"Maybe I ha...\"",
+                          "articyId": "0x01000071000019C5",
+                          "text": "\"I don't know.\" (Wink.) \"Maybe I have?\"",
+                          "links": [
+                            {
+                              "id": 165,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"You rascal!\" She grins up at you....\"",
+                              "articyId": "0x0100004D0000192F",
+                              "text": "\"You rascal!\" She grins up at you. \"I'm too old for you, and too married besides.\"",
+                              "links": [
+                                {
+                                  "id": 16,
+                                  "title": "Empathy: \"Your advances haven't thrown her of...\"",
+                                  "articyId": "0x0100004D000019C0",
+                                  "text": "Your advances haven't thrown her off one bit. In another place and time, she would have probably welcomed your attention.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 50,
+                          "title": "You: \"\"I had once...\" (Wink twice.) \"But...\"",
+                          "articyId": "0x01000071000019CB",
+                          "text": "\"I had once...\" (Wink twice.) \"But then I *lost* her...\"",
+                          "links": [
+                            {
+                              "id": 469,
+                              "title": "Reaction Speed: \"What was with that fucking wink?\"",
+                              "articyId": "0x010000640000C3EB",
+                              "text": "What was with that fucking wink?",
+                              "links": [
+                                {
+                                  "id": 235,
+                                  "title": "Endurance: \"Seemed neurological... central nerv...\"",
+                                  "articyId": "0x010000640000C3F1",
+                                  "text": "Seemed neurological... central nervous system's really banged up.",
+                                  "links": [
+                                    {
+                                      "id": 71,
+                                      "title": "You: \"\"Stop winking.\" (Tap yourself on th...\"",
+                                      "articyId": "0x0100004D0000195E",
+                                      "text": "\"Stop winking.\" (Tap yourself on the side of your head to correct the malfunction.)",
+                                      "links": [
+                                        {
+                                          "id": 45,
+                                          "title": "Lena, the Cryptozoologist's wife: \"\"I see you are still grieving. Well...\"",
+                                          "articyId": "0x0100004D00001935",
+                                          "text": "\"I see you are still grieving. Well, I won't pry.\" She smiles gently -- paying no heed to the inexplicable winking.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 400,
+                                      "title": "You: \"Do nothing. The neurological damage...\"",
+                                      "articyId": "0x0100008100001CA3",
+                                      "text": "Do nothing. The neurological damage is probably permanent.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 378,
+                                      "title": "Savoir Faire: \"Seemed neurological... central nerv...\"",
+                                      "articyId": "0x010000640000C404",
+                                      "text": "Seemed neurological... central nervous system's really banged up.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 217,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"You must forgive me!\" she says, sl...\"",
+                                  "articyId": "0x0100008100001CC6",
+                                  "text": "\"You must forgive me!\" she says, slapping herself on the forehead. \"I'm getting so scatterbrained! I completely forgot to introduce myself.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 468,
+                          "title": "You: \"\"I don't really wanna talk about th...\"",
+                          "articyId": "0x010000640000C3C2",
+                          "text": "\"I don't really wanna talk about that right now.\"",
+                          "links": [
+                            {
+                              "id": 70,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"I'm sorry if I was being overly fa...\"",
+                              "articyId": "0x0100004D00001901",
+                              "text": "\"I'm sorry if I was being overly familiar! I know we've only just met.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 446,
+          "title": "You: \"\"Does that mean you *like* me?\"\"",
+          "articyId": "0x0100004D00001612",
+          "text": "\"Does that mean you *like* me?\"",
+          "links": [
+            {
+              "id": 243,
+              "title": "Lena, the Cryptozoologist's wife: \"\"You're a handsome man, officer, wi...\"",
+              "articyId": "0x01000071000019E3",
+              "text": "\"You're a handsome man, officer, with your moustache and your chiselled jaw. And that silly dimple on your chin.\"",
+              "links": [
+                {
+                  "id": 394,
+                  "title": "Lena, the Cryptozoologist's wife: \"\"But, dear, you're not for me.\" She...\"",
+                  "articyId": "0x0100004D000019C8",
+                  "text": "\"But, dear, you're not for me.\" She looks off into the distance. \"I'm too old, and too married besides.\"",
+                  "links": [
+                    {
+                      "id": 140,
+                      "title": "Suggestion: \"In another time and place, she migh...\"",
+                      "articyId": "0x0100004D000019FA",
+                      "text": "In another time and place, she might have flirted back. But that ship sailed long ago.",
+                      "links": [
+                        {
+                          "id": 376,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"You must forgive me! I'm getting s...\"",
+                          "articyId": "0x0100004D0000199B",
+                          "text": "\"You must forgive me! I'm getting so scatterbrained! I completely forgot to introduce myself.\" She slaps herself on the forehead.",
+                          "links": [
+                            {
+                              "id": 269,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"I'm Lena. My husband Morell and I...\"",
+                              "articyId": "0x01000071000019A9",
+                              "text": "\"I'm Lena. My husband Morell and I are staying with our friend Gary just down the street, but I come here for tea when they're away.\" Her eyes glitter over the rims of her glasses as she looks up, smiling.",
+                              "links": [
+                                {
+                                  "id": 374,
+                                  "title": "Esprit de Corps: \"This Lena is wacky enough for the m...\"",
+                                  "articyId": "0x0100004D000016BA",
+                                  "text": "This Lena is wacky enough for the motley crew. Hire her on the spot!",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 242,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000710000198B",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 46,
+          "title": "Reaction Speed: \"Wait, who's *sweetie*?\"",
+          "articyId": "0x0100004D000019E2",
+          "text": "Wait, who's *sweetie*?",
+          "links": [
+            {
+              "id": 130,
+              "title": "Suggestion: \"She is appraising you scientificall...\"",
+              "articyId": "0x0100004D00000A66",
+              "text": "She is appraising you scientifically, the way she would an exceptional zoological specimen. It's not *like that*.",
+              "links": [
+                {
+                  "id": 424,
+                  "title": "Visual Calculus: \"Her eyes move up and down your pers...\"",
+                  "articyId": "0x0100004D00001A20",
+                  "text": "Her eyes move up and down your person as though taking your measurements. Her attention is *scientific*.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 347,
+      "title": "Lena, the Cryptozoologist's wife: \"\"Hello, sweetie.\"\"",
+      "articyId": "0x0100004D00001A34",
+      "text": "\"Hello, sweetie.\"",
+      "links": [
+        {
+          "id": 150,
+          "title": "",
+          "articyId": "bd2k5wlrm50pcq60",
+          "text": "\"You shouldn't keep your colleague waiting.\" She nods toward the man in the orange bomber jacket.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "title": "Kim Kitsuragi: \"The lieutenant studies you, rubbing...\"",
+      "articyId": "0x0100004D00001780",
+      "text": "The lieutenant studies you, rubbing his chin.",
+      "links": [
+        {
+          "id": 345,
+          "title": "Esprit de Corps: \"I'm beginning to suspect that you m...\"",
+          "articyId": "0x0100004D0000178E",
+          "text": "I'm beginning to suspect that you might indeed be completely adrift in this reality, thinks the lieutenant. How can it be *that* bad? Never mind -- we're in this now.",
+          "links": [
+            {
+              "id": 202,
+              "title": "Shivers: \"Outside, the melting snow seeps int...\"",
+              "articyId": "0x0100004D000011AD",
+              "text": "Outside, the melting snow seeps into the cracks in the walls and the cobblestone streets. All the way down into the sewers... Above ground, the first May bells blossom. You can feel it. A great cold. Then the shiver passes.",
+              "links": [
+                {
+                  "id": 419,
+                  "title": "Lena, the Cryptozoologist's wife: \"\"I can tell that this is taxing for...\"",
+                  "articyId": "0x0100004D00000D68",
+                  "text": "\"I can tell that this is taxing for you, so I'll just ask *one* more question. What regime are we living under? What mode of government?\"",
+                  "links": [
+                    {
+                      "id": 225,
+                      "title": "You: \"\"I believe Revachol is being manage...\"",
+                      "articyId": "0x0100004D000015D1",
+                      "text": "\"I believe Revachol is being managed by something called... the Coalition?\"",
+                      "links": [
+                        {
+                          "id": 503,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"Precisely, sweetie! Revachol is wh...\"",
+                          "articyId": "0x0100004D000015DF",
+                          "text": "\"Precisely, sweetie! Revachol is what's called a Zone of Control, led by an alliance of foreign powers. We have almost no government of our own, sadly...\"",
+                          "links": [
+                            {
+                              "id": 406,
+                              "title": "You: \"\"If there's no government, how come...\"",
+                              "articyId": "0x0100000600010523",
+                              "text": "\"If there's no government, how come there are cops?\"",
+                              "links": [
+                                {
+                                  "id": 127,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"Oh dear...\" She shakes her head, s...\"",
+                                  "articyId": "0x01000006000105A6",
+                                  "text": "\"Oh dear...\" She shakes her head, suddenly very worried. \"And you were doing so well. There aren't any cops in Revachol, not in the traditional sense. The status of law enforcement has been a complicated matter since the Revolution...\"",
+                                  "links": [
+                                    {
+                                      "id": 128,
+                                      "title": "Lena, the Cryptozoologist's wife: \"\"But we should stop for today, swee...\"",
+                                      "articyId": "0x01000006000105AF",
+                                      "text": "\"But we should stop for today, sweetie. You look like you need a break. Besides, I'm not the best person to explain the *big* things to anyone...\"",
+                                      "links": [
+                                        {
+                                          "id": 253,
+                                          "title": "Half Light: \"She's scared now. She's realized yo...\"",
+                                          "articyId": "0x01000006000105FE",
+                                          "text": "She's scared now. She's realized you really are brain damaged.",
+                                          "links": [
+                                            {
+                                              "id": 4,
+                                              "title": "You: \"\"So -- how did I do?\"\"",
+                                              "articyId": "0x01000006000105BC",
+                                              "text": "\"So -- how did I do?\"",
+                                              "links": [
+                                                {
+                                                  "id": 478,
+                                                  "title": "Lena, the Cryptozoologist's wife: \"\"You were doing quite well up until...\"",
+                                                  "articyId": "0x01000006000105D5",
+                                                  "text": "\"You were doing quite well up until the end there. It *does* look like you're having trouble remembering things. History and places. Remembering *Reality*, in a word. It's very odd...\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 252,
+                                                      "title": "Kim Kitsuragi: \"A sigh. The lieutenant buries his n...\"",
+                                                      "articyId": "0x01000006000105E7",
+                                                      "text": "A sigh. The lieutenant buries his nose in his notebook.",
+                                                      "links": [
+                                                        {
+                                                          "id": 479,
+                                                          "title": "Lena, the Cryptozoologist's wife: \"\"But -- maybe a *fresh set of eyes*...\"",
+                                                          "articyId": "0x01000006000105ED",
+                                                          "text": "\"But -- maybe a *fresh set of eyes* is what the world needs? And -- while I'm no doctor -- such bouts of amnesia are often temporary. So I wouldn't worry *too* much.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 29,
+                                                              "title": "Volition: \"She means this sincerely. Worrying...\"",
+                                                              "articyId": "0x010000060001060A",
+                                                              "text": "She means this sincerely. Worrying won't do you any good.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 28,
+                                                  "title": "Lena, the Cryptozoologist's wife: \"\"You didn't do too well, dear. It d...\"",
+                                                  "articyId": "0x01000006000105DB",
+                                                  "text": "\"You didn't do too well, dear. It does look like you're having trouble remembering things. History and places. Remembering *Reality*, in a word. It's very odd...\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 329,
+                                              "title": "You: \"\"What is the *Revolution* you menti...\"",
+                                              "articyId": "0x01000006000105C2",
+                                              "text": "\"What is the *Revolution* you mentioned?\"",
+                                              "links": [
+                                                {
+                                                  "id": 330,
+                                                  "title": "Lena, the Cryptozoologist's wife: \"\"A defeat, I'm afraid. The people o...\"",
+                                                  "articyId": "0x0100000600010616",
+                                                  "text": "\"A defeat, I'm afraid. The people of this archipelago tried to build something new, something *different*. The rest of the world didn't like it, so they came and ended it. This was forty two years ago.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 254,
+                                                      "title": "You: \"\"What does that have to do with the...\"",
+                                                      "articyId": "0x010000060001061D",
+                                                      "text": "\"What does that have to do with there not being any cops?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 276,
+                                                          "title": "Lena, the Cryptozoologist's wife: \"\"It has something to do with everyt...\"",
+                                                          "articyId": "0x0100000600010623",
+                                                          "text": "\"It has something to do with everything. I really don't know how to explain it better...\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 280,
+                                                              "title": "Empathy: \"I'm just a poor woman, she thinks....\"",
+                                                              "articyId": "0x0100000600012E63",
+                                                              "text": "I'm just a poor woman, she thinks. What do I know of these things -- and how can I help you?",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 32,
+                                                      "title": "You: \"\"But *I'm* a cop. Whatever it was h...\"",
+                                                      "articyId": "0x0100000600018126",
+                                                      "text": "\"But *I'm* a cop. Whatever it was hasn't stopped me!\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 484,
+                                                          "title": "Lena, the Cryptozoologist's wife: \"\"Of course, sweetie, I... I really...\"",
+                                                          "articyId": "0x010000060001812D",
+                                                          "text": "\"Of course, sweetie, I... I really don't know how to explain it better.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 55,
+                                              "title": "You: \"\"Who could tell me more?\" (Conclude...\"",
+                                              "articyId": "0x01000006000105C8",
+                                              "text": "\"Who could tell me more?\" (Conclude.)",
+                                              "links": [
+                                                {
+                                                  "id": 30,
+                                                  "title": "Lena, the Cryptozoologist's wife: \"\"Someone more educated in *sweeping...\"",
+                                                  "articyId": "0x0100000600010630",
+                                                  "text": "\"Someone more educated in *sweeping* matters? Maybe you should ask...\" She turns to the lieutenant.",
+                                                  "links": [
+                                                    {
+                                                      "id": 303,
+                                                      "title": "Kim Kitsuragi: \"\"No.\" He looks away. \"I'm not an en...\"",
+                                                      "articyId": "0x0100000600010637",
+                                                      "text": "\"No.\" He looks away. \"I'm not an encyclopedia. I won't be a guide either. I'm a detective.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 277,
+                                                          "title": "Lena, the Cryptozoologist's wife: \"\"Of course.\" She turns to you. \"The...\"",
+                                                          "articyId": "0x010000060001064C",
+                                                          "text": "\"Of course.\" She turns to you. \"Then I don't know. Someone rich maybe? Wealthy people are educated. Though I don't know where you would find a wealthy person in Martinaise...\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 480,
+                                                  "title": "Lena, the Cryptozoologist's wife: \"\"Someone more educated in these thi...\"",
+                                                  "articyId": "0x0100000600010653",
+                                                  "text": "\"Someone more educated in these things than me? Someone rich, maybe? Wealthy people are educated. Though I don't know where you would find a wealthy person in Martinaise...\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 383,
+                                                      "title": "Reaction Speed: \"That's a good point. This doesn't l...\"",
+                                                      "articyId": "0x01000006000174A7",
+                                                      "text": "That's a good point. This doesn't look like Rich Central.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 187,
+                                                  "title": "Lena, the Cryptozoologist's wife: \"\"Well... I'm not sure, detective. I...\"",
+                                                  "articyId": "0x0100002F00012C57",
+                                                  "text": "\"Well... I'm not sure, detective. I'm sorry. Wealthy people tend to be educated, but you're not likely to find one of those in Martinaise...\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 251,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"Oh dear, this *is* troubling. You...\"",
+                                  "articyId": "0x01000006000105A0",
+                                  "text": "\"Oh dear, this *is* troubling. You really ought to know that -- being one yourself. There aren't any cops in Revachol, not in the traditional sense. The status of law enforcement has been a complicated matter since the Revolution...\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 476,
+                              "title": "You: \"\"I don't even know what to say. I'm...\"",
+                              "articyId": "0x0100000600010529",
+                              "text": "\"I don't even know what to say. I'm so disappointed.\"",
+                              "links": [
+                                {
+                                  "id": 355,
+                                  "title": "Lena, the Cryptozoologist's wife: \"\"It is quite disappointing, yes. A...\"",
+                                  "articyId": "0x0100000600010593",
+                                  "text": "\"It is quite disappointing, yes. A lot of people would like some form of representation. There's *talk*, but... for now, the RCM is all we've got.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 407,
+                      "title": "You: \"\"Some kind of democracy maybe?\"\"",
+                      "articyId": "0x0100000600010530",
+                      "text": "\"Some kind of democracy maybe?\"",
+                      "links": [
+                        {
+                          "id": 299,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"Nope. Sadly not. Revachol is what'...\"",
+                          "articyId": "0x0100000600010544",
+                          "text": "\"Nope. Sadly not. Revachol is what's called a Zone of Control. Under an alliance of foreign powers called the Coalition. We have no government of our own and what democracy we have is...\" She thinks. \"Market driven.\"",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "Rhetoric: \"Meaning: buying is voting.\"",
+                              "articyId": "0x0100000600010553",
+                              "text": "Meaning: buying is voting.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 390,
+                      "title": "You: \"\"I'd *like* to think it's the dicta...\"",
+                      "articyId": "0x0100004D00000D78",
+                      "text": "\"I'd *like* to think it's the dictatorship of the proletariat, but something tells me it's not.\"",
+                      "links": [
+                        {
+                          "id": 43,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"Oh sweetie...\" she smiles a sad sm...\"",
+                          "articyId": "0x0100004D000015EC",
+                          "text": "\"Oh sweetie...\" she smiles a sad smile. \"It's really not. There used to be people who thought that way -- other people, who wanted those things -- but... they all went extinct.\"",
+                          "links": [
+                            {
+                              "id": 54,
+                              "title": "Lena, the Cryptozoologist's wife: \"\"Revachol is a Zone of Control, led...\"",
+                              "articyId": "0x010000060001055B",
+                              "text": "\"Revachol is a Zone of Control, led by an alliance of foreign powers called the Coalition. We have almost no government of our own. And *certainly* no dictatorship of the proletariat.\"",
+                              "links": [
+                                {
+                                  "id": 354,
+                                  "title": "Rhetoric: \"But they still have cops...\"",
+                                  "articyId": "0x010000060001058A",
+                                  "text": "But they still have cops...",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 315,
+                      "title": "You: \"\"Our leaders are fierce warriors wh...\"",
+                      "articyId": "0x0100004D000017B5",
+                      "text": "\"Our leaders are fierce warriors who traverse the plains on steeds. Civilization cowers before us.\"",
+                      "links": [
+                        {
+                          "id": 314,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"Oh... no, nothing like that, dear....\"",
+                          "articyId": "0x0100004D000017AE",
+                          "text": "\"Oh... no, nothing like that, dear. Revachol is a Zone of Control, led by an alliance of foreign powers called the Coalition. We have almost no government of our own. And certainly not one who's horseback.\"",
+                          "links": [
+                            {
+                              "id": 103,
+                              "title": "Physical Instrument: \"Of course. You've arrived at a *wea...\"",
+                              "articyId": "0x010000060001056A",
+                              "text": "Of course. You've arrived at a *weak* world, where no one appreciates animal husbandry.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 447,
+                      "title": "You: \"\"We are governed by intelligent mac...\"",
+                      "articyId": "0x0100004D000017A1",
+                      "text": "\"We are governed by intelligent machines that perform calculations to determine the *freest* market. Everyone hustles and grinds like a bad ass visionary.\"",
+                      "links": [
+                        {
+                          "id": 430,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"Oh... no, nothing like that, dear....\"",
+                          "articyId": "0x0100000600010572",
+                          "text": "\"Oh... no, nothing like that, dear. Revachol is a Zone of Control, led by an alliance of foreign powers called the Coalition. We have almost no government of our own -- certainly no machines.\"",
+                          "links": [
+                            {
+                              "id": 219,
+                              "title": "Rhetoric: \"I don't know... still looks like th...\"",
+                              "articyId": "0x0100000600010579",
+                              "text": "I don't know... still looks like there's a lot of hustling going on. Maybe she's wrong. Also...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 320,
+                      "title": "You: \"\"Radios are being used to control p...\"",
+                      "articyId": "0x0100004D00001A6A",
+                      "text": "\"Radios are being used to control people's minds and distort our perception of reality, concealing our true masters: foreigners and *women*.\"",
+                      "links": [
+                        {
+                          "id": 275,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"Oh... no, nothing like that, dear....\"",
+                          "articyId": "0x0100000600010564",
+                          "text": "\"Oh... no, nothing like that, dear. Revachol is a Zone of Control, led by an alliance of foreign powers called the Coalition. We have almost no government of our own. And certainly no matriarchy...\"",
+                          "links": [
+                            {
+                              "id": 104,
+                              "title": "Endurance: \"She's trying to avoid the foreigner...\"",
+                              "articyId": "0x0100000600010582",
+                              "text": "She's trying to avoid the foreigners part. This is because she's a woman. She may be *lying* to you...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 405,
+                      "title": "You: \"\"Cop. We are living under the cop-r...\"",
+                      "articyId": "0x0100000600010500",
+                      "text": "\"Cop. We are living under the cop-regime.\"",
+                      "links": [
+                        {
+                          "id": 366,
+                          "title": "Lena, the Cryptozoologist's wife: \"\"Actually...\" She raises her finger...\"",
+                          "articyId": "0x0100000600010537",
+                          "text": "\"Actually...\" She raises her finger. \"We are *not*. You could say that about almost any other nation, but not Revachol. Try *one* more time, officer -- what mode of government?\"",
+                          "links": [
+                            {
+                              "id": 477,
+                              "title": "Authority: \"Damn it, I was really hoping it wou...\"",
+                              "articyId": "0x010000060001054A",
+                              "text": "Damn it, I was really hoping it would be a Cop World. Okay, well, let's see...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

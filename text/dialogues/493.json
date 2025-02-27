@@ -1,0 +1,134 @@
+{
+  "id": "0x0100007500000ACD",
+  "title": "INVENTORY / LIBRARY CARD",
+  "description": "dead working class husband library card",
+  "dialogueTree": [
+    {
+      "id": 2,
+      "title": "A Folded Library Card: \"The library card is folded into two...\"",
+      "articyId": "0x0100007500000AD3",
+      "text": "The library card is folded into two and still slightly wet to the touch. The front side reads: \"Central Jamrock Public Library Card. Issued to Billie Méjean, expires July '53.\"",
+      "links": [
+        {
+          "id": 19,
+          "title": "Logic: \"Billie is a unisex name. Could be t...\"",
+          "articyId": "0x010000060001DAA0",
+          "text": "Billie is a unisex name. Could be the deceased *or* his family member?",
+          "links": [
+            {
+              "id": 46,
+              "title": "You: \"Look inside.\"",
+              "articyId": "0x0100007500000AE3",
+              "text": "Look inside.",
+              "links": [
+                {
+                  "id": 24,
+                  "title": "A Folded Library Card: \"Whoever owns this card is an avid r...\"",
+                  "articyId": "0x0100007500000B00",
+                  "text": "Whoever owns this card is an avid reader: you find a list of books written in blue pencil: 'Radiothriller', 'Stand a Little Less Between Me and the Sun'. The last one in the list is 'The Glinting Curve', by M. Thibault. A library stamp indicates that the book has been returned.",
+                  "links": [
+                    {
+                      "id": 37,
+                      "title": "Conceptualization: \"Most of these titles seem to be in...\"",
+                      "articyId": "0x0100007500000B08",
+                      "text": "Most of these titles seem to be in the sci-fi genre. Some thrillers too.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 23,
+              "title": "You: \"Look at the backside.\"",
+              "articyId": "0x0100007500000AE9",
+              "text": "Look at the backside.",
+              "links": [
+                {
+                  "id": 31,
+                  "title": "A Folded Library Card: \"\"If lost, please return the card to...\"",
+                  "articyId": "0x0100007500000AF9",
+                  "text": "\"If lost, please return the card to the library. Dial 005-02-55-211 or visit us at Meroe Street 78, Jamrock. Business hours: 09.00 to 18.00.\"",
+                  "links": [
+                    {
+                      "id": 36,
+                      "title": "Kim Kitsuragi: \"\"Good.\" He takes a note. \"We should...\"",
+                      "articyId": "0x0100007500000B1F",
+                      "text": "\"Good.\" He takes a note. \"We should give them a call from my Kineema, see if we can learn anything about Billie Méjean.\"",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "Reaction Speed: \"Good idea. There was plenty of info...\"",
+                          "articyId": "0x010000060001DA98",
+                          "text": "Good idea. There was plenty of information here to go by.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "title": "A Folded Library Card: \"Something tells you you should give...\"",
+                      "articyId": "0x0100002100000D8C",
+                      "text": "Something tells you you should give them a call.",
+                      "links": []
+                    },
+                    {
+                      "id": 38,
+                      "title": "Kim Kitsuragi: \"\"We already decided to let the stat...\"",
+                      "articyId": "0x01000021000006D6",
+                      "text": "\"We already decided to let the station handle this case, so there's no need for us to call the library.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 39,
+                      "title": "Logic: \"You already decided to let the stat...\"",
+                      "articyId": "0x01000021000006DC",
+                      "text": "You already decided to let the station handle the case, so there's no need to call the library.",
+                      "links": []
+                    },
+                    {
+                      "id": 16,
+                      "title": "Kim Kitsuragi: \"\"We should first decide what to do...\"",
+                      "articyId": "0x01000021000006EA",
+                      "text": "\"We should first decide what to do with the body, before taking any other actions. Let's take another look at the body and talk things through.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 29,
+                      "title": "Logic: \"You should first decide what to do...\"",
+                      "articyId": "0x01000021000006F0",
+                      "text": "You should first decide what to do with the corpse, before taking any further actions. Talk to the lieutenant about it.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 17,
+              "title": "You: \"[Put it away.]\"",
+              "articyId": "0x0100007500000AF1",
+              "text": "[Put it away.]",
+              "links": [
+                {
+                  "id": 30,
+                  "title": "Kim Kitsuragi: \"\"Good, we've examined the library c...\"",
+                  "articyId": "0x0100002100000C99",
+                  "text": "\"Good, we've examined the library card -- that should be enough for our colleagues. Now we can call the station from my Kineema and hand over the case.\"",
+                  "links": []
+                },
+                {
+                  "id": 12,
+                  "title": "A Folded Library Card: \"You put the library card away.\"",
+                  "articyId": "0x0100002100000CA3",
+                  "text": "You put the library card away.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

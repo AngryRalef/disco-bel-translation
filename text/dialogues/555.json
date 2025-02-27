@@ -1,0 +1,60 @@
+{
+  "id": "0x0100008F00002858",
+  "title": "PLAZA ORB / plazatilecoat",
+  "description": "This Shivers initiates the coat quest. It is an Easy check.",
+  "dialogueTree": [
+    {
+      "id": 4,
+      "title": "Shivers: \"I am here... Please, listen... It w...\"",
+      "articyId": "0x0100008F0000285F",
+      "text": "I am here... Please, listen... It will be hard to hear me…",
+      "links": [
+        {
+          "id": 5,
+          "title": "You: \"I hear you! Please, talk to me! Wha...\"",
+          "articyId": "0x0100008F00002865",
+          "text": "I hear you! Please, talk to me! What do you want?",
+          "links": [
+            {
+              "id": 2,
+              "title": "Shivers: \"I am so glad… I have no time... The...\"",
+              "articyId": "0x0100008F00002877",
+              "text": "I am so glad… I have no time... The place of many words, before the one so much like yourself... Try to hear me there...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"Who are you?\"",
+          "articyId": "0x0100008F0000286B",
+          "text": "Who are you?",
+          "links": [
+            {
+              "id": 3,
+              "title": "Shivers: \"I am what has always been here for...\"",
+              "articyId": "0x0100008F0000287D",
+              "text": "I am what has always been here for you… Please... The place of many words, before the one so much like yourself... Try to hear me there...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"Oh, no. No, no. Whatever you are, I...\"",
+          "articyId": "0x0100008F00002871",
+          "text": "Oh, no. No, no. Whatever you are, I don't want you in my head.",
+          "links": [
+            {
+              "id": 9,
+              "title": "Shivers: \"Forgive me... I have no other way t...\"",
+              "articyId": "0x0100008F00002883",
+              "text": "Forgive me... I have no other way to reach you... Please -- the place of many words, before the one so much like yourself... Try to hear me there...",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

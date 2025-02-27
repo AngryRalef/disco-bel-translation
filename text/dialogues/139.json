@@ -1,0 +1,394 @@
+{
+  "id": "0x0100002B000833A1",
+  "title": "DOOMED / ICE CREAM MAKER",
+  "description": "Doomed cellar, a pistachio green ice cream maker next to the breaker box with a radio computer's filament memory inside. Difficulty: heroic, turns into easy if you've read the note from the Ice Bear Fridge.",
+  "dialogueTree": [
+    {
+      "id": 67,
+      "title": "Ice Cream Maker: \"This orange machine is dead-still....\"",
+      "articyId": "0x01000005000011B0",
+      "text": "This orange machine is dead-still. It has a hand-cranked ice cream churner and an electric freezer, the ice around it slowly melting.",
+      "links": [
+        {
+          "id": 28,
+          "title": "You: \"Turn the ice cream crank.\"",
+          "articyId": "0x0100002B00086224",
+          "text": "Turn the ice cream crank.",
+          "links": [
+            {
+              "id": 75,
+              "title": "Ice Cream Maker: \"Turning the crank feels oddly satis...\"",
+              "articyId": "0x0100002B00086273",
+              "text": "Turning the crank feels oddly satisfying, like stirring your childhood dreams... In the distance you hear water dripping.",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Inland Empire: \"It's all gone now. You never became...\"",
+                  "articyId": "0x0100002B00086279",
+                  "text": "It's all gone now. You never became a poet or an entroponaut.",
+                  "links": [
+                    {
+                      "id": 97,
+                      "title": "Electrochemistry: \"What better to assuage the creeping...\"",
+                      "articyId": "0x0100002B00086282",
+                      "text": "What better to assuage the creeping sense of failure than some frozen fat and sugar?",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "title": "You: \"Try to crack open the lid.\"",
+          "articyId": "0x0100009200001182",
+          "text": "Try to crack open the lid.",
+          "links": [
+            {
+              "id": 27,
+              "title": "Ice Cream Maker: \"You slip your fingers under the fro...\"",
+              "articyId": "0x0100002100001766",
+              "text": "You slip your fingers under the frozen lid, but the ice is too cold for you to get a good grip. A prybar would come handy here... or something stronger, like the Kvalsund KR+2 Multi-Tool.",
+              "links": [
+                {
+                  "id": 19,
+                  "title": "Kim Kitsuragi: \"\"Didn't Soona give you a perfect to...\"",
+                  "articyId": "0x010000210000174B",
+                  "text": "\"Didn't Soona give you a perfect tool for this kind of job -- the Kvalsund? You should take it out.\"",
+                  "links": [
+                    {
+                      "id": 26,
+                      "title": "Tutorial Agent: \"Equip the MULTI-TOOL by going to th...\"",
+                      "articyId": "0x0100002100001752",
+                      "text": "Equip the MULTI-TOOL by going to the TOOLS tab in your INVENTORY. From there, you can equip it to a HELD slot.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 124,
+                  "title": "Hand/Eye Coordination: \"You need to have the Kvalsund KR+2...\"",
+                  "articyId": "0x0100002100001758",
+                  "text": "You need to have the Kvalsund KR+2 Multi-Tool in your *hand*, detective.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 45,
+              "title": "Ice Cream Maker: \"You slip your fingers under the fro...\"",
+              "articyId": "0x0100009200001189",
+              "text": "You slip your fingers under the frozen lid, but the ice is too cold for you to get a good grip. A prybar would come handy here.",
+              "links": [
+                {
+                  "id": 38,
+                  "title": "Interfacing: \"No -- this is going to need somethi...\"",
+                  "articyId": "0x0100002100003123",
+                  "text": "No -- this is going to need something else, some kind of *super* prybar. Don't even try to open it with a regular prybar, you're just wasting your time.",
+                  "links": [
+                    {
+                      "id": 69,
+                      "title": "Hand/Eye Coordination: \"If you want to try again, then you...\"",
+                      "articyId": "0x010000060001A1BA",
+                      "text": "If you want to try again, then you need to have the prybar in your *hand*, detective.",
+                      "links": [
+                        {
+                          "id": 125,
+                          "title": "Tutorial Agent: \"Equip the PRYBAR by going to the TO...\"",
+                          "articyId": "0x010000060001A1C2",
+                          "text": "Equip the PRYBAR by going to the TOOLS tab in your INVENTORY. From there, you can equip it to a HELD slot.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 90,
+                      "title": "Kim Kitsuragi: \"\"I have a prybar in my Kineema, in...\"",
+                      "articyId": "0x0100001F00000524",
+                      "text": "\"I have a prybar in my Kineema, in case you want to try again. Though it might be that my prybar isn't strong enough for that lid...\" He eyes the ice cream maker suspiciously.",
+                      "links": []
+                    },
+                    {
+                      "id": 25,
+                      "title": "Esprit de Corps: \"Lieutenant Kitsuragi would have a p...\"",
+                      "articyId": "0x010000060001A1D1",
+                      "text": "Lieutenant Kitsuragi would have a prybar in his Kineema, but he's not here right now.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "title": "You: \"Crack open the lid.\"",
+          "articyId": "0x0100002B00086210",
+          "text": "Crack open the lid.",
+          "links": [
+            {
+              "id": 12,
+              "title": "Physical Instrument: \"The ice squeaks beneath the prybar...\"",
+              "articyId": "0x010000060001A1F0",
+              "text": "The ice squeaks beneath the prybar -- you could *swear* you succeeded! -- but the lid simply won't budge.",
+              "links": [
+                {
+                  "id": 60,
+                  "title": "You: \"What is this...\"",
+                  "articyId": "0x0100009200001190",
+                  "text": "What is this...",
+                  "links": [
+                    {
+                      "id": 66,
+                      "title": "Ice Cream Maker: \"You see the prybar's metal handle b...\"",
+                      "articyId": "0x0100009200001197",
+                      "text": "You see the prybar's metal handle bending, right before your very eyes.",
+                      "links": [
+                        {
+                          "id": 53,
+                          "title": "Interfacing: \"You're still holding the wrong tool...\"",
+                          "articyId": "0x01000092000011C3",
+                          "text": "You're still holding the wrong tool! Do it with the Kvalsund multitool, you even have one...",
+                          "links": []
+                        },
+                        {
+                          "id": 84,
+                          "title": "Kim Kitsuragi: \"\"Yeah, well, that's a good prybar -...\"",
+                          "articyId": "0x010000060001A208",
+                          "text": "\"Yeah, well, that's a good prybar -- I'm not criticising it -- but this ice cream maker is frozen *shut*. It takes an *advanced* tool to get it open.\"",
+                          "links": [
+                            {
+                              "id": 37,
+                              "title": "You: \"\"Advanced? Where do we get one?\"\"",
+                              "articyId": "0x010000060001A223",
+                              "text": "\"Advanced? Where do we get one?\"",
+                              "links": [
+                                {
+                                  "id": 44,
+                                  "title": "Kim Kitsuragi: \"\"I have no idea, officer. This ice...\"",
+                                  "articyId": "0x010000060001A22A",
+                                  "text": "\"I have no idea, officer. This ice cream maker isn't important enough to requisition a special tool.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 61,
+                          "title": "Interfacing: \"That's a good prybar, but this ice...\"",
+                          "articyId": "0x010000060001A215",
+                          "text": "That's a good prybar, but this ice cream maker is frozen *shut*. It takes an *advanced* tool to get it open. Some kind of... superprybar? You have no idea where to get one.",
+                          "links": [
+                            {
+                              "id": 62,
+                              "title": "Inland Empire: \"Sooner or later you will stumble up...\"",
+                              "articyId": "0x010000060001A21C",
+                              "text": "Sooner or later you will stumble upon a tool mighty enough. Then we will know what's in this mysterious ice cream maker.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 123,
+              "title": "Physical Instrument: \"The ice squeaks beneath the prybar....\"",
+              "articyId": "0x010000060001A1E2",
+              "text": "The ice squeaks beneath the prybar. You think you've got the bar jammed in there pretty well, but the lid simply won't budge.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "title": "You: \"Crack open the lid.\"",
+          "articyId": "0x010000060001A237",
+          "text": "Crack open the lid.",
+          "links": [
+            {
+              "id": 68,
+              "title": "Physical Instrument: \"Ice groans and howls under the stra...\"",
+              "articyId": "0x010000050000121F",
+              "text": "Ice groans and howls under the strain of your giant Kvalsund multitool -- until the lid cracks open.",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Ice Cream Maker: \"Darkness lies inside, but you can f...\"",
+                  "articyId": "0x01000005000016B3",
+                  "text": "Darkness lies inside, but you can faintly make out an object, intricate and foreign, left there for a sub-zero beauty sleep -- a filament memory with the words \"OFF-SITE COPY\" written on its side.",
+                  "links": [
+                    {
+                      "id": 10,
+                      "title": "Electrochemistry: \"Disappointment washes over you as y...\"",
+                      "articyId": "0x0100000500001228",
+                      "text": "Disappointment washes over you as you stare into the almost-empty ice cream maker.",
+                      "links": [
+                        {
+                          "id": 93,
+                          "title": "You: \"\"What? No ice cream...\"\"",
+                          "articyId": "0x010000050000122E",
+                          "text": "\"What? No ice cream...\"",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "Kim Kitsuragi: \"\"A scoop of ice cream would have be...\"",
+                              "articyId": "0x0100000500001243",
+                              "text": "\"A scoop of ice cream would have been nice, yes,\" the lieutenant agrees. Someone's stomach grumbles. The room feels very cold.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 54,
+                          "title": "You: \"What? No ice cream...\"",
+                          "articyId": "0x0100000500001259",
+                          "text": "What? No ice cream...",
+                          "links": [
+                            {
+                              "id": 101,
+                              "title": "Ice Cream Maker: \"Your stomach grumbles. The fridge i...\"",
+                              "articyId": "0x010000050000123D",
+                              "text": "Your stomach grumbles. The fridge is cold, the cellar dark and humid.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 109,
+                          "title": "You: \"Take the filament memory.\"",
+                          "articyId": "0x010000050000120D",
+                          "text": "Take the filament memory.",
+                          "links": [
+                            {
+                              "id": 11,
+                              "title": "Ice Cream Maker: \"You gently lift the cube from its f...\"",
+                              "articyId": "0x010000050000126A",
+                              "text": "You gently lift the cube from its frosty bedding, careful to not damage it.",
+                              "links": [
+                                {
+                                  "id": 24,
+                                  "title": "Kim Kitsuragi: \"\"We should take it back to Miss Luu...\"",
+                                  "articyId": "0x0100000500001282",
+                                  "text": "\"We should take it back to Miss Luukanen-Kilde as soon as possible. I'm not sure how well unused filaments tolerate room temperatures.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 55,
+                                  "title": "Interfacing: \"Yes, but aren't you curious to know...\"",
+                                  "articyId": "0x0100000500001291",
+                                  "text": "Yes, but aren't you curious to know what's on the precious filament? There's a radiocomputer upstairs...",
+                                  "links": [
+                                    {
+                                      "id": 30,
+                                      "title": "You: \"[Close the lid.]\"",
+                                      "articyId": "0x0100000500001272",
+                                      "text": "[Close the lid.]",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 81,
+              "title": "Physical Instrument: \"Ice groans and howls under the stra...\"",
+              "articyId": "0x0100000500001219",
+              "text": "Ice groans and howls under the strain of your giant Kvalsund multitool -- until the lid cracks open. Blue electric lights come to life...",
+              "links": [
+                {
+                  "id": 83,
+                  "title": "Ice Cream Maker: \"Inside on a frosty platform lies an...\"",
+                  "articyId": "0x01000005000016BF",
+                  "text": "Inside on a frosty platform lies an object, intricate and foreign, left there for a sub-zero beauty sleep -- a filament memory with the words \"OFF-SITE COPY\" written on its side.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 20,
+              "title": "Physical Instrument: \"Ice squeaks beneath your Kvalsund m...\"",
+              "articyId": "0x0100002B00086240",
+              "text": "Ice squeaks beneath your Kvalsund multitool, but your fingers slip away from the tool, the lid shut as tightly as before.",
+              "links": [
+                {
+                  "id": 2,
+                  "title": "Logic: \"And it's already unplugged. There's...\"",
+                  "articyId": "0x0100006B0000A4BC",
+                  "text": "And it's already unplugged. There's not much else to do other than wait for it to defrost or *bulk up* and get stronger.",
+                  "links": []
+                },
+                {
+                  "id": 52,
+                  "title": "Perception (Sight): \"Look, a black cable is running into...\"",
+                  "articyId": "0x01000057000001A2",
+                  "text": "Look, a black cable is running into the breaker box...",
+                  "links": [
+                    {
+                      "id": 92,
+                      "title": "Logic: \"Unplugging the ice cream maker will...\"",
+                      "articyId": "0x010000570000019C",
+                      "text": "Unplugging the ice cream maker will allow it to defrost.",
+                      "links": [
+                        {
+                          "id": 122,
+                          "title": "Interfacing: \"Maybe you could get better grip wit...\"",
+                          "articyId": "0x01000092000011D7",
+                          "text": "Maybe you could get better grip with some gloves...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 126,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002B00086216",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Ice Cream Maker: \"This orange machine is dead-still....\"",
+      "articyId": "0x0100002B0008632B",
+      "text": "This orange machine is dead-still. It has a hand-cranked ice cream churner and an electric freezer, the ice around it slowly melting.",
+      "links": []
+    },
+    {
+      "id": 82,
+      "title": "Ice Cream Maker: \"This orange machine is buzzing like...\"",
+      "articyId": "0x0100002B000833C8",
+      "text": "This orange machine is buzzing like an old submarine. It has a hand-cranked ice cream churner on top and an electric freezer that appears to be frozen shut.",
+      "links": []
+    },
+    {
+      "id": 80,
+      "title": "Ice Cream Maker: \"This orange machine is buzzing like...\"",
+      "articyId": "0x01000005000011B8",
+      "text": "This orange machine is buzzing like an old submarine. It has a hand-cranked ice cream churner on top and an electric freezer that appears to be frozen shut.",
+      "links": []
+    }
+  ]
+}

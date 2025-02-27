@@ -1,0 +1,61 @@
+{
+  "id": "0x0100001600002BA6",
+  "title": "PLAZA ORB / gaston cheating",
+  "description": "Cheating!",
+  "dialogueTree": [
+    {
+      "id": 7,
+      "title": "Composure: \"*Something* isn't right about this...\"",
+      "articyId": "0x010000310000090B",
+      "text": "*Something* isn't right about this game.",
+      "links": [
+        {
+          "id": 2,
+          "title": "You: \"Take a closer look.\"",
+          "articyId": "0x010000040000AB65",
+          "text": "Take a closer look.",
+          "links": [
+            {
+              "id": 3,
+              "title": "René Arnoux: \"Despite his limp, the man in the un...\"",
+              "articyId": "0x0100003100000912",
+              "text": "Despite his limp, the man in the uniform moves with efficient grace. His motions are measured and precise.",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Gaston Martin: \"The jolly-looking man in the checke...\"",
+                  "articyId": "0x0100003100000919",
+                  "text": "The jolly-looking man in the checkered jacket moves lazily. Like a giant tomcat stretched out in the sun...",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "Gaston Martin: \"...then suddenly he leans forward a...\"",
+                      "articyId": "0x0100002F00009F57",
+                      "text": "...then suddenly he leans forward and uses the 0-end of the measuring tape to nudge his opponent's balls further from the small brown sphere in the pit. As he does this, he complains about his back.",
+                      "links": [
+                        {
+                          "id": 9,
+                          "title": "René Arnoux: \"Apparently oblivious to his partner...\"",
+                          "articyId": "0x0100006400000619",
+                          "text": "Apparently oblivious to his partner's treachery, the uniformed man grabs a ball and takes aim again.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "You: \"That's none of my concern. [Discard...\"",
+          "articyId": "0x010000040000AB6B",
+          "text": "That's none of my concern. [Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

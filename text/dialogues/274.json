@@ -1,0 +1,422 @@
+{
+  "id": "0x010000450001C805",
+  "title": "SEAFORT INT / SPRING MATTRESS",
+  "description": "(mattress interactable) (this is where you sleep)",
+  "dialogueTree": [
+    {
+      "id": 114,
+      "title": "Spring Mattress: \"The greasy old spring mattress lies...\"",
+      "articyId": "0x010000450001CB76",
+      "text": "The greasy old spring mattress lies in the corner.",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"Maybe a little shut-eye, just for a...\"",
+          "articyId": "0x010000450001CA32",
+          "text": "Maybe a little shut-eye, just for an hour... [Go to sleep.]",
+          "links": [
+            {
+              "id": 56,
+              "title": "Kim Kitsuragi: \"\"Maybe it's better to get back to t...\"",
+              "articyId": "0x010000450001CB90",
+              "text": "\"Maybe it's better to get back to the mainland? Rest there -- you've earned it.\"",
+              "links": []
+            },
+            {
+              "id": 115,
+              "title": "Cuno: \"\"What, you wanna like... live on th...\"",
+              "articyId": "0x0100006B0000179C",
+              "text": "\"What, you wanna like... live on this fucking island now?\" He crosses his arms. \"Go sleep in your own bed.\"",
+              "links": []
+            },
+            {
+              "id": 76,
+              "title": "Spring Mattress: \"Maybe it's actually better on the m...\"",
+              "articyId": "0x01000089000027CC",
+              "text": "Maybe it's actually better on the mainland... in your own bed. This place is getting less welcoming.",
+              "links": [
+                {
+                  "id": 34,
+                  "title": "Inland Empire: \"Also -- what if the bad thing happe...\"",
+                  "articyId": "0x010000060000E533",
+                  "text": "Also -- what if the bad thing happens again?",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 75,
+              "title": "Spring Mattress: \"You face the concrete wall. There's...\"",
+              "articyId": "0x010000450001DF70",
+              "text": "You face the concrete wall. There's less light there, in the dark corner. Like a dog you lie there...",
+              "links": [
+                {
+                  "id": 82,
+                  "title": "Endurance: \"You didn't realize how tired you we...\"",
+                  "articyId": "0x010000720000796D",
+                  "text": "You didn't realize how tired you were. Your body is still nowhere near healed...",
+                  "links": [
+                    {
+                      "id": 71,
+                      "title": "You: \"Curl up with your knees close to yo...\"",
+                      "articyId": "0x01000089000040B3",
+                      "text": "Curl up with your knees close to your chest.",
+                      "links": [
+                        {
+                          "id": 42,
+                          "title": "Spring Mattress: \"The blanket feels cold. The entire...\"",
+                          "articyId": "0x0100007200007959",
+                          "text": "The blanket feels cold. The entire room does -- concrete and cold. Minutes pass. Half an hour maybe? The sounds of the sea beyond grow distant. Your eyelids close. Until...",
+                          "links": [
+                            {
+                              "id": 43,
+                              "title": "You: \"Until?\"",
+                              "articyId": "0x010000720000797D",
+                              "text": "Until?",
+                              "links": [
+                                {
+                                  "id": 44,
+                                  "title": "Spring Mattress: \"You feel yourself standing up in th...\"",
+                                  "articyId": "0x0100007200007984",
+                                  "text": "You feel yourself standing up in the darkness. Right next to the mattress. Slowly, the world begins to hatch from the blackness. It's evening...",
+                                  "links": [
+                                    {
+                                      "id": 106,
+                                      "title": "Spring Mattress: \"Sleep.\"",
+                                      "articyId": "0x01000003000002D5",
+                                      "text": "Sleep.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "title": "You: \"Curl up with your knees close to yo...\"",
+                      "articyId": "0x0100007200007960",
+                      "text": "Curl up with your knees close to your chest.",
+                      "links": []
+                    },
+                    {
+                      "id": 100,
+                      "title": "You: \"Curl up with your knees close to yo...\"",
+                      "articyId": "0x01000089000040BA",
+                      "text": "Curl up with your knees close to your chest.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 116,
+              "title": "Spring Mattress: \"You face the concrete wall. There's...\"",
+              "articyId": "0x01000072000079B0",
+              "text": "You face the concrete wall. There's less light there, in the dark corner. Like a dog you lie there...",
+              "links": [
+                {
+                  "id": 33,
+                  "title": "Endurance: \"You didn't realize how tired you we...\"",
+                  "articyId": "0x01000072000079B6",
+                  "text": "You didn't realize how tired you were. Your body is still nowhere near healed...",
+                  "links": [
+                    {
+                      "id": 98,
+                      "title": "You: \"Pull your legs under your chin.\"",
+                      "articyId": "0x01000072000079C8",
+                      "text": "Pull your legs under your chin.",
+                      "links": [
+                        {
+                          "id": 62,
+                          "title": "Spring Mattress: \"The blanket feels cold. It's someon...\"",
+                          "articyId": "0x01000072000079C2",
+                          "text": "The blanket feels cold. It's someone else's blanket, and the room is all concrete and cold. Sounds of the sea beyond grow distant, slowly. Your eyelids close.",
+                          "links": [
+                            {
+                              "id": 57,
+                              "title": "Spring Mattress: \"Sleep.\"",
+                              "articyId": "0x01000003000002E2",
+                              "text": "Sleep.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 84,
+          "title": "You: \"No time to rest now. [Leave.]\"",
+          "articyId": "0x010000450001C9C8",
+          "text": "No time to rest now. [Leave.]",
+          "links": [
+            {
+              "id": 15,
+              "title": "Kim Kitsuragi: \"\"Yes. Any time. If you need a rest...\"",
+              "articyId": "0x010000450001CA86",
+              "text": "\"Yes. Any time. If you need a rest *later*, it's okay by me.\"",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Esprit de Corps: \"You don't have to be a hero.\"",
+                  "articyId": "0x010000450001CB36",
+                  "text": "You don't have to be a hero.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title": "Cuno: \"\"Cool, whatever. Cuno doesn't reall...\"",
+              "articyId": "0x01000089000027BA",
+              "text": "\"Cool, whatever. Cuno doesn't really give a shit.\"",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Spring Mattress: \"The greasy old spring mattress lies...\"",
+      "articyId": "0x010000450001CA8C",
+      "text": "The greasy old spring mattress lies in the corner, fresh linen under the heavy karakul cover.",
+      "links": [
+        {
+          "id": 108,
+          "title": "Kim Kitsuragi: \"\"The offer still stands,\" he says,...\"",
+          "articyId": "0x010000450001CB48",
+          "text": "\"The offer still stands,\" he says, looking out the pillbox window. \"Take it -- you don't look so good.\"",
+          "links": [
+            {
+              "id": 69,
+              "title": "Endurance: \"The bed is quite inviting, all thin...\"",
+              "articyId": "0x010000060001EF81",
+              "text": "The bed is quite inviting, all things considered. It's much warmer inside than out there...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "title": "Cuno: \"\"I'm gonna say it again -- Cuno doe...\"",
+          "articyId": "0x0100006B000017A3",
+          "text": "\"I'm gonna say it again -- Cuno doesn't feel like carrying your corpse off this island, so maybe you should fucking crash?\"",
+          "links": []
+        },
+        {
+          "id": 17,
+          "title": "Endurance: \"Still rather inviting, all things c...\"",
+          "articyId": "0x010000450001CB58",
+          "text": "Still rather inviting, all things considered. It's much warmer inside than out there...",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Spring Mattress: \"There's a greasy old spring mattres...\"",
+      "articyId": "0x010000450001C9B1",
+      "text": "There's a greasy old spring mattress in the corner, resting on piles of softcover books. White linen and a pillow are visible under a worn-out karakul blanket.",
+      "links": [
+        {
+          "id": 107,
+          "title": "Kim Kitsuragi: \"\"Someone has been squatting here.\"...\"",
+          "articyId": "0x010000450001CA3F",
+          "text": "\"Someone has been squatting here.\" The lieutenant inspects the bed. \"The linen is fresh. Recently washed.\"",
+          "links": [
+            {
+              "id": 9,
+              "title": "You: \"\"How recently...\"\"",
+              "articyId": "0x010000450001CA6C",
+              "text": "\"How recently...\"",
+              "links": [
+                {
+                  "id": 22,
+                  "title": "Pain Threshold: \"A flash of pain interrupts you, mak...\"",
+                  "articyId": "0x010000450001CAA4",
+                  "text": "A flash of pain interrupts you, making you wince instead of letting the words out.",
+                  "links": [
+                    {
+                      "id": 14,
+                      "title": "Kim Kitsuragi: \"\"You know, officer...\" He looks at...\"",
+                      "articyId": "0x010000450001CA80",
+                      "text": "\"You know, officer...\" He looks at you with a touch of concern. \"You *can* rest here if you're feeling tired. I will keep watch. You could use some rest for what's ahead.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 113,
+                      "title": "Pain Threshold: \"You force the rest of the sentence...\"",
+                      "articyId": "0x010000450001CAAF",
+                      "text": "You force the rest of the sentence out through pain, thick as molasses, no longer able to hear yourself speak.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 52,
+              "title": "You: \"\"Do you think whoever slept here is...\"",
+              "articyId": "0x010000450001CA72",
+              "text": "\"Do you think whoever slept here is...\"",
+              "links": []
+            },
+            {
+              "id": 13,
+              "title": "You: \"\"There are signs that someone... li...\"",
+              "articyId": "0x010000450001CA78",
+              "text": "\"There are signs that someone... lives...\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 117,
+          "title": "Cuno: \"\"Check this shit. Someone's been sq...\"",
+          "articyId": "0x0100006B000017B0",
+          "text": "\"Check this shit. Someone's been squatting here.\" The kid waves his hand at the bed. \"Cuno knows because this shit looks like Cuno's place.\"",
+          "links": [
+            {
+              "id": 90,
+              "title": "You: \"\"How recently...\"\"",
+              "articyId": "0x0100008900002775",
+              "text": "\"How recently...\"",
+              "links": [
+                {
+                  "id": 83,
+                  "title": "Pain Threshold: \"A flash of pain interrupts you, mak...\"",
+                  "articyId": "0x010000890000278A",
+                  "text": "A flash of pain interrupts you, making you grimace instead of spewing out the words.",
+                  "links": [
+                    {
+                      "id": 61,
+                      "title": "Cuno: \"\"Hey... Cuno doesn't wanna *hurt yo...\"",
+                      "articyId": "0x0100006B000017AA",
+                      "text": "\"Hey... Cuno doesn't wanna *hurt your feelings*, but you look like shit. Maybe you should lie down in the bed -- like recover. Before you die.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 70,
+                      "title": "Pain Threshold: \"You force the rest of the sentence...\"",
+                      "articyId": "0x0100008900002795",
+                      "text": "You force the rest of the sentence out through pain, thick as molasses, without really hearing it.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 99,
+              "title": "You: \"\"Do you think whoever slept here is...\"",
+              "articyId": "0x010000890000277B",
+              "text": "\"Do you think whoever slept here is...\"",
+              "links": []
+            },
+            {
+              "id": 102,
+              "title": "You: \"\"There are signs that someone... li...\"",
+              "articyId": "0x0100008900002781",
+              "text": "\"There are signs that someone... lives...\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "You: \"Inspect the linen.\"",
+          "articyId": "0x010000450001CA55",
+          "text": "Inspect the linen.",
+          "links": [
+            {
+              "id": 86,
+              "title": "Spring Mattress: \"It stands out because it's freshly...\"",
+              "articyId": "0x010000450001CA5C",
+              "text": "It stands out because it's freshly washed.",
+              "links": [
+                {
+                  "id": 48,
+                  "title": "Logic: \"Someone has been squatting here. Ve...\"",
+                  "articyId": "0x010000060000E5A1",
+                  "text": "Someone has been squatting here. Very recently -- the fire guy the twins mentioned?",
+                  "links": [
+                    {
+                      "id": 23,
+                      "title": "You: \"How recently...\"",
+                      "articyId": "0x010000450001CAFC",
+                      "text": "How recently...",
+                      "links": [
+                        {
+                          "id": 94,
+                          "title": "Pain Threshold: \"A flash of pain interrupts your tho...\"",
+                          "articyId": "0x010000450001CB0A",
+                          "text": "A flash of pain interrupts your thought, making you grimace.",
+                          "links": [
+                            {
+                              "id": 16,
+                              "title": "Endurance: \"Technically speaking, you *could* r...\"",
+                              "articyId": "0x010000450001CB19",
+                              "text": "Technically speaking, you *could* rest here if you're hurting... someone else has. It should be possible.",
+                              "links": [
+                                {
+                                  "id": 112,
+                                  "title": "Inland Empire: \"The mattress is soggy, but that lin...\"",
+                                  "articyId": "0x010000450001CB20",
+                                  "text": "The mattress is soggy, but that linen feels more inviting than the pain and exhaustion. It's not too cold here...",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 78,
+                              "title": "Pain Threshold: \"You push the rest of the thought th...\"",
+                              "articyId": "0x010000450001CB04",
+                              "text": "You push the rest of the thought through pain thick as molasses, without really concentrating on it.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 77,
+                      "title": "You: \"Could they still be...\"",
+                      "articyId": "0x010000450001CAF6",
+                      "text": "Could they still be...",
+                      "links": []
+                    },
+                    {
+                      "id": 20,
+                      "title": "You: \"Huh, I wonder if...\"",
+                      "articyId": "0x01000089000027A9",
+                      "text": "Huh, I wonder if...",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 85,
+                  "title": "Logic: \"Someone has been squatting here. Ve...\"",
+                  "articyId": "0x010000450001CA46",
+                  "text": "Someone has been squatting here. Very recently.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

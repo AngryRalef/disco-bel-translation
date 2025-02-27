@@ -1,0 +1,208 @@
+{
+  "id": "0x010000580000852D",
+  "title": "WHIRLING / BATHTUB",
+  "description": "You can take a bath and wash that corpse stench off.",
+  "dialogueTree": [
+    {
+      "id": 2,
+      "title": "Bathtub: \"This is not the cleanest bathtub in...\"",
+      "articyId": "0x0100005800008535",
+      "text": "This is not the cleanest bathtub in the world, but it's cleaner than you are right now.",
+      "links": [
+        {
+          "id": 16,
+          "title": "Perception (Smell): \"Ah, that soap scum smell. It smells...\"",
+          "articyId": "0x0100005800008542",
+          "text": "Ah, that soap scum smell. It smells like life. At least compared to you.",
+          "links": [
+            {
+              "id": 7,
+              "title": "You: \"Run yourself a bath.\"",
+              "articyId": "0x010000580000854A",
+              "text": "Run yourself a bath.",
+              "links": [
+                {
+                  "id": 31,
+                  "title": "Bathtub: \"The bathtub slowly fills with water...\"",
+                  "articyId": "0x0100005800008558",
+                  "text": "The bathtub slowly fills with water. The water beckons.",
+                  "links": [
+                    {
+                      "id": 29,
+                      "title": "You: \"Undress, close your eyes, and subme...\"",
+                      "articyId": "0x0100005800008606",
+                      "text": "Undress, close your eyes, and submerge.",
+                      "links": [
+                        {
+                          "id": 24,
+                          "title": "Bathtub: \"The water doesn't feel particularly...\"",
+                          "articyId": "0x01000095000001D0",
+                          "text": "The water doesn't feel particularly clean. A few beer cans are bobbing up and down along your flanks like sad duckies. You pause to think before letting your head go under.",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "Savoir Faire: \"Hold it right there! Keep your head...\"",
+                              "articyId": "0x0100008100002333",
+                              "text": "Hold it right there! Keep your head above water, or you'll lose all those pheromones Morell sprayed on you.",
+                              "links": [
+                                {
+                                  "id": 19,
+                                  "title": "You: \"I don't care. I just want to be eng...\"",
+                                  "articyId": "0x0100008100002347",
+                                  "text": "I don't care. I just want to be engulfed.",
+                                  "links": [
+                                    {
+                                      "id": 25,
+                                      "title": "Bathtub: \"The lukewarm water is comforting, l...\"",
+                                      "articyId": "0x01000095000001D9",
+                                      "text": "The lukewarm water is comforting, like amniotic fluid.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 34,
+                                  "title": "You: \"Keep your head above water, just in...\"",
+                                  "articyId": "0x010000810000234D",
+                                  "text": "Keep your head above water, just in case.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 30,
+                          "title": "Bathtub: \"The water is only lukewarm, but sti...\"",
+                          "articyId": "0x010000580000860F",
+                          "text": "The water is only lukewarm, but still comforting, like amniotic fluid. A few beer cans are bobbing up and down along your flanks like sad duckies.",
+                          "links": [
+                            {
+                              "id": 27,
+                              "title": "Inland Empire: \"You feel nice and lonely. And so, s...\"",
+                              "articyId": "0x01000058000086B3",
+                              "text": "You feel nice and lonely. And so, so tired.",
+                              "links": [
+                                {
+                                  "id": 9,
+                                  "title": "You: \"Take the beer cans out.\"",
+                                  "articyId": "0x0100005800008651",
+                                  "text": "Take the beer cans out.",
+                                  "links": [
+                                    {
+                                      "id": 22,
+                                      "title": "Bathtub: \"Now you are alone with your thought...\"",
+                                      "articyId": "0x010000580000865F",
+                                      "text": "Now you are alone with your thoughts in the tub. But it's easier than being alone with your thoughts outside the tub.",
+                                      "links": [
+                                        {
+                                          "id": 32,
+                                          "title": "Electrochemistry: \"They're not even really thoughts. J...\"",
+                                          "articyId": "0x01000058000086C6",
+                                          "text": "They're not even really thoughts. Just assorted sensations, none of them acute enough to focus on.",
+                                          "links": [
+                                            {
+                                              "id": 23,
+                                              "title": "You: \"Linger in the tub a little.\"",
+                                              "articyId": "0x0100005800008678",
+                                              "text": "Linger in the tub a little.",
+                                              "links": [
+                                                {
+                                                  "id": 15,
+                                                  "title": "Bathtub: \"Your fingers grow pale and are cove...\"",
+                                                  "articyId": "0x0100005800008699",
+                                                  "text": "Your fingers grow pale and are covered with tiny whorls as the water cools.",
+                                                  "links": [
+                                                    {
+                                                      "id": 10,
+                                                      "title": "Physical Instrument: \"What are you doing? You're not some...\"",
+                                                      "articyId": "0x010000580000869F",
+                                                      "text": "What are you doing? You're not some fat fish in a fucking aquarium. Time to get moving.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 28,
+                                              "title": "You: \"Imagine something.\"",
+                                              "articyId": "0x01000058000091C5",
+                                              "text": "Imagine something.",
+                                              "links": [
+                                                {
+                                                  "id": 33,
+                                                  "title": "Bathtub: \"You see the corpse. You can still s...\"",
+                                                  "articyId": "0x01000058000091CC",
+                                                  "text": "You see the corpse. You can still smell the cadaver on you. It's going to take more than one bath to get rid of that stench.",
+                                                  "links": [
+                                                    {
+                                                      "id": 20,
+                                                      "title": "Conceptualization: \"Then -- houses along a narrow stree...\"",
+                                                      "articyId": "0x010000060001A8BE",
+                                                      "text": "Then -- houses along a narrow street. A video rental. Darkness on the planet's curvature.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 11,
+                                              "title": "You: \"Get out. (Conclude.)\"",
+                                              "articyId": "0x010000580000867E",
+                                              "text": "Get out. (Conclude.)",
+                                              "links": [
+                                                {
+                                                  "id": 13,
+                                                  "title": "Bathtub: \"The water line recedes as you stand...\"",
+                                                  "articyId": "0x0100005800008692",
+                                                  "text": "The water line recedes as you stand. You are cold now. Your clothes stick to your still moist skin.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "title": "You: \"Leave the beer cans in.\"",
+                                  "articyId": "0x0100005800008657",
+                                  "text": "Leave the beer cans in.",
+                                  "links": [
+                                    {
+                                      "id": 26,
+                                      "title": "Bathtub: \"The cans continue to bob, as do you...\"",
+                                      "articyId": "0x0100005800008665",
+                                      "text": "The cans continue to bob, as do your thoughts, aimlessly splashing up against the sides of the tub.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "title": "You: \"I want to live forever with the cor...\"",
+              "articyId": "0x0100005800008550",
+              "text": "I want to live forever with the corpse smell. Memento mori and stuff. [Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

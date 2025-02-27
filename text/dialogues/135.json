@@ -1,0 +1,1551 @@
+{
+  "id": "0x0100002B0005B5C2",
+  "title": "DOOMED / ELECTRONIC DOORBELL",
+  "description": "This is a doorbell intercom that lets you call up all the failed businesses in the Doomed Commercial Area.",
+  "dialogueTree": [
+    {
+      "id": 249,
+      "title": "Electronic Doorbell: \"An old call box with a matrix of pu...\"",
+      "articyId": "0x0100002B0005B5C9",
+      "text": "An old call box with a matrix of push buttons lists all the companies in the East Delta Commerce Centre.",
+      "links": [
+        {
+          "id": 69,
+          "title": "Logic: \"East Delta Commerce Centre? This mu...\"",
+          "articyId": "0x0100009200002093",
+          "text": "East Delta Commerce Centre? This must be the name of the Doomed Commercial Area!",
+          "links": []
+        },
+        {
+          "id": 3,
+          "title": "You: \"\"Main Hall, Building A.\"\"",
+          "articyId": "0x0100002B0007CCA1",
+          "text": "\"Main Hall, Building A.\"",
+          "links": [
+            {
+              "id": 25,
+              "title": "Electronic Doorbell: \"You hear the same waiting room musi...\"",
+              "articyId": "0x010000920000012D",
+              "text": "You hear the same waiting room music, but no one picks up the receiver anymore...",
+              "links": []
+            },
+            {
+              "id": 15,
+              "title": "Electronic Doorbell: \"An off-key melody starts playing af...\"",
+              "articyId": "0x0100002B0007DEA7",
+              "text": "An off-key melody starts playing after you ring the doorbell... Then a woman picks up the receiver...",
+              "links": [
+                {
+                  "id": 75,
+                  "title": "Plaisance: \"\"Cuno! Please stop calling here! Gr...\"",
+                  "articyId": "0x0100002B0007DEBA",
+                  "text": "\"Cuno! Please stop calling here! Grown-ups don't have time for your stupid games.\"",
+                  "links": [
+                    {
+                      "id": 282,
+                      "title": "Drama: \"She thinks you're the gremlin child...\"",
+                      "articyId": "0x0100002B0007E08E",
+                      "text": "She thinks you're the gremlin child! What would he say to this?",
+                      "links": []
+                    },
+                    {
+                      "id": 110,
+                      "title": "You: \"(Try to impersonate Cuno.) \"Fuck of...\"",
+                      "articyId": "0x0100002B00085B82",
+                      "text": "(Try to impersonate Cuno.) \"Fuck off, pig, I'm Cuno! I don't give a shit, let me in.\"",
+                      "links": [
+                        {
+                          "id": 46,
+                          "title": "Plaisance: \"\"Pardon? This is not Cuno. Who *is*...\"",
+                          "articyId": "0x0100002B0007E076",
+                          "text": "\"Pardon? This is not Cuno. Who *is* this?\"",
+                          "links": [
+                            {
+                              "id": 103,
+                              "title": "Plaisance: \"\"Please just stop calling here, I d...\"",
+                              "articyId": "0x01000057000233C9",
+                              "text": "\"Please just stop calling here, I don't have time to deal with this. Thank you.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 308,
+                      "title": "You: \"\"Plaisance, it's me! I'm investigat...\"",
+                      "articyId": "0x0100009200000DBF",
+                      "text": "\"Plaisance, it's me! I'm investigating the Doomed Commercial Area, just like we discussed!\"",
+                      "links": [
+                        {
+                          "id": 291,
+                          "title": "Plaisance: \"\"Oh, I'm sorry, officer, I thought...\"",
+                          "articyId": "0x0100002B0007E1DD",
+                          "text": "\"Oh, I'm sorry, officer, I thought you were...\" There's a spot of static that overrides her words.",
+                          "links": [
+                            {
+                              "id": 6,
+                              "title": "Plaisance: \"\"...but the doorbell is broken and...\"",
+                              "articyId": "0x0100002B0007E1F1",
+                              "text": "\"...but the doorbell is broken and the bookstore shouldn't even be on the list anymore, so I can't help you. Please don't call here again. Thanks.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 49,
+                      "title": "You: \"\"Plaisance, it's me! Please open th...\"",
+                      "articyId": "0x0100002B00086E96",
+                      "text": "\"Plaisance, it's me! Please open the door, I'm trying to get in.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 134,
+                      "title": "You: \"\"Who's Cuno? This is the police, pl...\"",
+                      "articyId": "0x0100002B0007E1B4",
+                      "text": "\"Who's Cuno? This is the police, please open the door.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 147,
+                      "title": "You: \"\"This is the police, please open th...\"",
+                      "articyId": "0x0100002B0007E1C6",
+                      "text": "\"This is the police, please open the door.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 275,
+                      "title": "You: \"\"Sorry, I was just trying random do...\"",
+                      "articyId": "0x01000057000233BD",
+                      "text": "\"Sorry, I was just trying random doorbells, I didn't have anything important.\"",
+                      "links": [
+                        {
+                          "id": 169,
+                          "title": "Plaisance: \"\"Please don't do that! Doorbells ar...\"",
+                          "articyId": "0x0100002B0007E1F9",
+                          "text": "\"Please don't do that! Doorbells are not toys, and this one isn't even working properly. Please don't call us again, thank you.\"",
+                          "links": [
+                            {
+                              "id": 191,
+                              "title": "Electronic Doorbell: \"A single beep indicates that the li...\"",
+                              "articyId": "0x0100002B0007E20F",
+                              "text": "A single beep indicates that the line has gone dead.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 227,
+          "title": "You: \"\"Andro-Orlando Hair SCA.\"\"",
+          "articyId": "0x0100002B0007DEFE",
+          "text": "\"Andro-Orlando Hair SCA.\"",
+          "links": [
+            {
+              "id": 252,
+              "title": "Electronic Doorbell: \"You ring the doorbell, but no one a...\"",
+              "articyId": "0x0100002B0007E06C",
+              "text": "You ring the doorbell, but no one answers.",
+              "links": [
+                {
+                  "id": 254,
+                  "title": "Conceptualization: \"What an ominous name for a hair sal...\"",
+                  "articyId": "0x0100002B00085B8C",
+                  "text": "What an ominous name for a hair salon... Doesn't bode well for anyone's hair.",
+                  "links": [
+                    {
+                      "id": 213,
+                      "title": "Half Light: \"Just seeing the words \"Andro-Orland...\"",
+                      "articyId": "0x0100002B00085B97",
+                      "text": "Just seeing the words \"Andro-Orlando\" gets your hackles up. It's very existence is a *threat* to your masculinity, to say nothing of your hair.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "title": "You: \"\"ARTEMITEP's Boxing for Young Athle...\"",
+          "articyId": "0x0100002B0007CCD9",
+          "text": "\"ARTEMITEP's Boxing for Young Athletes & Gym.\"",
+          "links": [
+            {
+              "id": 190,
+              "title": "Electronic Doorbell: \"Congratulations, you've destroyed A...\"",
+              "articyId": "0x0100002B0007E192",
+              "text": "Congratulations, you've destroyed Artemitep's Boxing Club's doorbell. It's not working anymore.",
+              "links": []
+            },
+            {
+              "id": 102,
+              "title": "Electronic Doorbell: \"All you hear is static, but no one...\"",
+              "articyId": "0x0100002B0007DE95",
+              "text": "All you hear is static, but no one answers the call.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 250,
+          "title": "You: \"\"24h Window.\"\"",
+          "articyId": "0x0100002B0007CCA7",
+          "text": "\"24h Window.\"",
+          "links": [
+            {
+              "id": 226,
+              "title": "Electronic Doorbell: \"You ring the doorbell, but nothing...\"",
+              "articyId": "0x0100002B0007DECD",
+              "text": "You ring the doorbell, but nothing happens.",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "Interfacing: \"Try again, you didn't press it hard...\"",
+                  "articyId": "0x0100002B00085B9F",
+                  "text": "Try again, you didn't press it hard enough.",
+                  "links": [
+                    {
+                      "id": 77,
+                      "title": "You: \"Press again.\"",
+                      "articyId": "0x0100002B00085BB6",
+                      "text": "Press again.",
+                      "links": [
+                        {
+                          "id": 193,
+                          "title": "Electronic Doorbell: \"This time a pleasant female voice a...\"",
+                          "articyId": "0x0100002B00081D49",
+                          "text": "This time a pleasant female voice answers: \"Thank you for calling 24h Window Company. This is an automated message. Are you experiencing a window-related emergency? During non-business-hours, please call 0-0-7-2-5-4-7-7-6-5-1. The streets are mean, but we're *always* there for you.\"",
+                          "links": [
+                            {
+                              "id": 294,
+                              "title": "Logic: \"That's only half-true. The streets...\"",
+                              "articyId": "0x0100002B00085BCA",
+                              "text": "That's only half-true. The streets *are* mean, but they're not there for you.",
+                              "links": [
+                                {
+                                  "id": 92,
+                                  "title": "You: \"\"Actually, I *do have* a window-rel...\"",
+                                  "articyId": "0x0100002B00085ECE",
+                                  "text": "\"Actually, I *do have* a window-related emergency.\" (Look at Whirling's second floor.)",
+                                  "links": [
+                                    {
+                                      "id": 303,
+                                      "title": "Kim Kitsuragi: \"\"Yes, I've been meaning to ask abou...\"",
+                                      "articyId": "0x0100002B00085ED4",
+                                      "text": "\"Yes, I've been meaning to ask about that... What happened?\"",
+                                      "links": [
+                                        {
+                                          "id": 64,
+                                          "title": "Rhetoric: \"This was no mere act of vandalism -...\"",
+                                          "articyId": "0x0100002B00086036",
+                                          "text": "This was no mere act of vandalism -- this was a defenestration!",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 215,
+                                          "title": "You: \"\"A SHOE WAS DEFENESTRATED!\"\"",
+                                          "articyId": "0x0100002B00086030",
+                                          "text": "\"A SHOE WAS DEFENESTRATED!\"",
+                                          "links": [
+                                            {
+                                              "id": 42,
+                                              "title": "Kim Kitsuragi: \"\"I see.\" There is an impenetrable e...\"",
+                                              "articyId": "0x0100007000003E57",
+                                              "text": "\"I see.\" There is an impenetrable expression on the lieutenant's face.",
+                                              "links": [
+                                                {
+                                                  "id": 255,
+                                                  "title": "Kim Kitsuragi: \"\"In any case, I'm afraid you won't...\"",
+                                                  "articyId": "0x0100002B00085EF0",
+                                                  "text": "\"In any case, I'm afraid you won't get any help here.\" He looks up to the towering ghost house. \"This place is deserted.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 271,
+                                          "title": "You: \"\"I threw my shoe out the window.\"\"",
+                                          "articyId": "0x0100002B00085EE1",
+                                          "text": "\"I threw my shoe out the window.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 9,
+                                          "title": "You: \"\"Some crook threw a shoe into my wi...\"",
+                                          "articyId": "0x0100002B00085EDB",
+                                          "text": "\"Some crook threw a shoe into my window.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 93,
+                                          "title": "You: \"\"Some crook threw a shoe into my wi...\"",
+                                          "articyId": "0x0100002B00085EE7",
+                                          "text": "\"Some crook threw a shoe into my window -- and forced a bottle of Commodore Red on me.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 90,
+                                          "title": "You: \"\"I have no idea. I just know that m...\"",
+                                          "articyId": "0x0100001F00000546",
+                                          "text": "\"I have no idea. I just know that my room's window is broken and needs to be dealt with.\"",
+                                          "links": [
+                                            {
+                                              "id": 71,
+                                              "title": "Kim Kitsuragi: \"\"I see.\" The lieutenant doesn't ask...\"",
+                                              "articyId": "0x0100001F0000054C",
+                                              "text": "\"I see.\" The lieutenant doesn't ask more.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 41,
+                                      "title": "Electronic Doorbell: \"There's no one there to answer your...\"",
+                                      "articyId": "0x01000057000233E1",
+                                      "text": "There's no one there to answer your call. You are beyond help.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "title": "You: \"\"Kim, do we have an emergency?\"\"",
+                                  "articyId": "0x0100002B00081D5D",
+                                  "text": "\"Kim, do we have an emergency?\"",
+                                  "links": [
+                                    {
+                                      "id": 122,
+                                      "title": "Kim Kitsuragi: \"\"No, not a window-related one.\"\"",
+                                      "articyId": "0x0100002B00081D6B",
+                                      "text": "\"No, not a window-related one.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 171,
+                                  "title": "You: \"\"No emergencies, thank you.\" (Look...\"",
+                                  "articyId": "0x0100002B00081D63",
+                                  "text": "\"No emergencies, thank you.\" (Look at other buttons again.)",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 111,
+                      "title": "You: \"Ignore it.\"",
+                      "articyId": "0x0100002B00085BBC",
+                      "text": "Ignore it.",
+                      "links": [
+                        {
+                          "id": 292,
+                          "title": "Electronic Doorbell: \"Twelve name cards on the call box r...\"",
+                          "articyId": "0x0100002B00081D78",
+                          "text": "Twelve name cards on the call box read:",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "title": "You: \"\"Emma's Fashion Atelier.\"\"",
+          "articyId": "0x0100002B0007CCAD",
+          "text": "\"Emma's Fashion Atelier.\"",
+          "links": [
+            {
+              "id": 74,
+              "title": "Electronic Doorbell: \"You wait for a minute or two, but a...\"",
+              "articyId": "0x0100002B0007DEA1",
+              "text": "You wait for a minute or two, but all you get from the call box is silence -- no one answers the call.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 131,
+          "title": "You: \"\"Fabron's Taxi...\" (The rest has be...\"",
+          "articyId": "0x0100002B0007CCE0",
+          "text": "\"Fabron's Taxi...\" (The rest has been burned off.)",
+          "links": [
+            {
+              "id": 35,
+              "title": "Electronic Doorbell: \"Looks like someone has melted half...\"",
+              "articyId": "0x0100002B0007DEE2",
+              "text": "Looks like someone has melted half the plastic off with a lighter -- the doorbell doesn't work anymore.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 91,
+          "title": "You: \"\"Slipstream SCA.\"\"",
+          "articyId": "0x0100002B0007CCE7",
+          "text": "\"Slipstream SCA.\"",
+          "links": [
+            {
+              "id": 258,
+              "title": "Electronic Doorbell: \"You hear static from the intercom s...\"",
+              "articyId": "0x01000057000235D9",
+              "text": "You hear static from the intercom speaker. It sounds as if someone has picked up the receiver, but isn't saying anything.",
+              "links": [
+                {
+                  "id": 138,
+                  "title": "Perception (Hearing): \"You can almost hear them breathe.\"",
+                  "articyId": "0x01000057000235FC",
+                  "text": "You can almost hear them breathe.",
+                  "links": [
+                    {
+                      "id": 95,
+                      "title": "You: \"\"Hello? Is anyone there?\"\"",
+                      "articyId": "0x01000057000235EE",
+                      "text": "\"Hello? Is anyone there?\"",
+                      "links": [
+                        {
+                          "id": 44,
+                          "title": "Tricentennial Electrics: \"\"Yes, hello, this is Tricentennial...\"",
+                          "articyId": "0x0100009200000C50",
+                          "text": "\"Yes, hello, this is Tricentennial Electrics.\" This is a woman's voice, crackling and fragile through the static.",
+                          "links": [
+                            {
+                              "id": 26,
+                              "title": "Tricentennial Electrics: \"\"Have you come to place an order?\"\"",
+                              "articyId": "0x0100009200000C64",
+                              "text": "\"Have you come to place an order?\"",
+                              "links": [
+                                {
+                                  "id": 150,
+                                  "title": "Conceptualization: \"She sounds almost antique, as if he...\"",
+                                  "articyId": "0x0100002B00085BD6",
+                                  "text": "She sounds almost antique, as if her voice was being played off an old wax cylinder. Her receiver must not be working properly.",
+                                  "links": [
+                                    {
+                                      "id": 214,
+                                      "title": "Reaction Speed: \"Wait! But what happened to Slipstre...\"",
+                                      "articyId": "0x0100002B00085C2B",
+                                      "text": "Wait! But what happened to Slipstream SCA? There's no Tricentennial Electrics on the list.",
+                                      "links": [
+                                        {
+                                          "id": 233,
+                                          "title": "You: \"\"Hold on, Tricentennial Electrics?...\"",
+                                          "articyId": "0x0100002B00085C52",
+                                          "text": "\"Hold on, Tricentennial Electrics? I thought I was calling Slipstream SCA.\"",
+                                          "links": [
+                                            {
+                                              "id": 305,
+                                              "title": "Tricentennial Electrics: \"\"My god...\"\"",
+                                              "articyId": "0x0100005700023606",
+                                              "text": "\"My god...\"",
+                                              "links": [
+                                                {
+                                                  "id": 98,
+                                                  "title": "Kim Kitsuragi: \"The lieutenant exchanges a look wit...\"",
+                                                  "articyId": "0x0100009200000D71",
+                                                  "text": "The lieutenant exchanges a look with you.",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 306,
+                                                  "title": "You: \"\"Sorry?\"\"",
+                                                  "articyId": "0x0100009200000C85",
+                                                  "text": "\"Sorry?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 172,
+                                                      "title": "Tricentennial Electrics: \"\"It's you. My god, I didn't think I...\"",
+                                                      "articyId": "0x0100009200000C8C",
+                                                      "text": "\"It's you. My god, I didn't think I would hear your voice again...\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 128,
+                                                          "title": "Electrochemistry: \"It's a woman and she knows you! You...\"",
+                                                          "articyId": "0x0100009200000C93",
+                                                          "text": "It's a woman and she knows you! Your heart beats faster.",
+                                                          "links": [
+                                                            {
+                                                              "id": 139,
+                                                              "title": "Reaction Speed: \"She must be mistaking you for someo...\"",
+                                                              "articyId": "0x0100009200000C9A",
+                                                              "text": "She must be mistaking you for someone else.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 173,
+                                                                  "title": "Drama: \"Who cares that you don't remember h...\"",
+                                                                  "articyId": "0x0100009200000CA1",
+                                                                  "text": "Who cares that you don't remember her? Just go along with it.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 81,
+                                                                      "title": "Inland Empire: \"No, something's wrong here... are y...\"",
+                                                                      "articyId": "0x0100009200000CA8",
+                                                                      "text": "No, something's wrong here... are you sure she's talking to *you*?",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 114,
+                                                                          "title": "You: \"\"Do we know each other?\"\"",
+                                                                          "articyId": "0x0100009200000CAF",
+                                                                          "text": "\"Do we know each other?\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 260,
+                                                                              "title": "Tricentennial Electrics: \"\"Michel, just please...\" She stops...\"",
+                                                                              "articyId": "0x0100009200000CC8",
+                                                                              "text": "\"Michel, just please...\" She stops and you can hear her breathe heavily. Her breath distorted by ancient static.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 238,
+                                                                                  "title": "Shivers: \"Sounds like a ghost. Wind blows thr...\"",
+                                                                                  "articyId": "0x0100009200000CD1",
+                                                                                  "text": "Sounds like a ghost. Wind blows through your clothes and you feel detached from your surroundings. Inside the building -- a cold memory hangs.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 82,
+                                                                                      "title": "Tricentennial Electrics: \"\"Why did you even call? I don't und...\"",
+                                                                                      "articyId": "0x0100009200000CD8",
+                                                                                      "text": "\"Why did you even call? I don't understand... You've been gone for months.\" She sounds like she's shaking. \"I thought you didn't care.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 157,
+                                                                                          "title": "You: \"\"Michel? My name's not Michel. I'm...\"",
+                                                                                          "articyId": "0x0100009200000D1A",
+                                                                                          "text": "\"Michel? My name's not Michel. I'm Harry.\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 297,
+                                                                                              "title": "Tricentennial Electrics: \"\"Ever since I came to work here it'...\"",
+                                                                                              "articyId": "0x0100009200000CFD",
+                                                                                              "text": "\"Ever since I came to work here it's been different... as if my mind's been wiped clean...\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 99,
+                                                                                                  "title": "Tricentennial Electrics: \"A spot of static overrides her word...\"",
+                                                                                                  "articyId": "0x0100009200000F3E",
+                                                                                                  "text": "A spot of static overrides her words; when she speaks again it sounds like she's submerged:",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 196,
+                                                                                                      "title": "Tricentennial Electrics: \"\"...It's so nice.\"\"",
+                                                                                                      "articyId": "0x0100009200000F45",
+                                                                                                      "text": "\"...It's so nice.\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 165,
+                                                                                                          "title": "Tricentennial Electrics: \"\"It's so nice to be able to finally...\"",
+                                                                                                          "articyId": "0x0100009200002036",
+                                                                                                          "text": "\"It's so nice to be able to finally forget.\"",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 27,
+                                                                                                              "title": "You: \"\"Forget about what?\"\"",
+                                                                                                              "articyId": "0x0100009200000D0D",
+                                                                                                              "text": "\"Forget about what?\"",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 239,
+                                                                                                                  "title": "Tricentennial Electrics: \"She sounds like she's about to cry.\"",
+                                                                                                                  "articyId": "0x0100009200000CF2",
+                                                                                                                  "text": "She sounds like she's about to cry.",
+                                                                                                                  "links": [
+                                                                                                                    {
+                                                                                                                      "id": 115,
+                                                                                                                      "title": "Shivers: \"The cold is deep under your skin, a...\"",
+                                                                                                                      "articyId": "0x0100009200000D3C",
+                                                                                                                      "text": "The cold is deep under your skin, as if you were talking to someone who's a hundred years away. Somewhere inside the building water is flooding the cellar floor.",
+                                                                                                                      "links": []
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "id": 96,
+                                                                                                                      "title": "You: \"\"Hello?\"\"",
+                                                                                                                      "articyId": "0x0100009200000D26",
+                                                                                                                      "text": "\"Hello?\"",
+                                                                                                                      "links": [
+                                                                                                                        {
+                                                                                                                          "id": 28,
+                                                                                                                          "title": "Tricentennial Electrics: \"She doesn't answer.\"",
+                                                                                                                          "articyId": "0x0100009200000D34",
+                                                                                                                          "text": "She doesn't answer.",
+                                                                                                                          "links": [
+                                                                                                                            {
+                                                                                                                              "id": 307,
+                                                                                                                              "title": "You: \"\"Hey, are you still there?\"\"",
+                                                                                                                              "articyId": "0x0100009200000D8D",
+                                                                                                                              "text": "\"Hey, are you still there?\"",
+                                                                                                                              "links": [
+                                                                                                                                {
+                                                                                                                                  "id": 116,
+                                                                                                                                  "title": "Tricentennial Electrics: \"Silence. The only thing you can hea...\"",
+                                                                                                                                  "articyId": "0x0100009200000D9B",
+                                                                                                                                  "text": "Silence. The only thing you can hear now is static and waves, washing ashore on the bay.",
+                                                                                                                                  "links": [
+                                                                                                                                    {
+                                                                                                                                      "id": 100,
+                                                                                                                                      "title": "You: \"\"What just happened?\"\"",
+                                                                                                                                      "articyId": "0x0100009200000F4F",
+                                                                                                                                      "text": "\"What just happened?\"",
+                                                                                                                                      "links": [
+                                                                                                                                        {
+                                                                                                                                          "id": 101,
+                                                                                                                                          "title": "Tricentennial Electrics: \"Another seagull passes by... It's g...\"",
+                                                                                                                                          "articyId": "0x0100009200000F64",
+                                                                                                                                          "text": "Another seagull passes by... It's getting cold standing here, staring at the silent call box.",
+                                                                                                                                          "links": [
+                                                                                                                                            {
+                                                                                                                                              "id": 10,
+                                                                                                                                              "title": "Kim Kitsuragi: \"\"I don't know what happened either....\"",
+                                                                                                                                              "articyId": "0x0100009200000F74",
+                                                                                                                                              "text": "\"I don't know what happened either.\" The lieutenant inspects the doorbell. \"We should probably stop playing with this thing.\"",
+                                                                                                                                              "links": []
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "id": 30,
+                                                                                                                                      "title": "You: \"\"I get it, you don't want to talk t...\"",
+                                                                                                                                      "articyId": "0x0100009200000F5C",
+                                                                                                                                      "text": "\"I get it, you don't want to talk to me. No one *ever* wants to talk to me.\"",
+                                                                                                                                      "links": [
+                                                                                                                                        {
+                                                                                                                                          "id": 245,
+                                                                                                                                          "title": "Tricentennial Electrics: \"Another seagull passes by... It's g...\"",
+                                                                                                                                          "articyId": "0x0100000600018DEB",
+                                                                                                                                          "text": "Another seagull passes by... It's getting cold standing here, staring at the silent call box.",
+                                                                                                                                          "links": [
+                                                                                                                                            {
+                                                                                                                                              "id": 105,
+                                                                                                                                              "title": "Kim Kitsuragi: \"\"It must have been some kind of......\"",
+                                                                                                                                              "articyId": "0x0100000600018DF6",
+                                                                                                                                              "text": "\"It must have been some kind of... faulty wiring. We should maybe stop playing with this doorbell, it looks ancient.\"",
+                                                                                                                                              "links": []
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "id": 262,
+                                                                                                                                      "title": "You: \"\"Fuck!\" (Hang up the call.)\"",
+                                                                                                                                      "articyId": "0x0100009200000F56",
+                                                                                                                                      "text": "\"Fuck!\" (Hang up the call.)",
+                                                                                                                                      "links": []
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                      "id": 240,
+                                                                                                                                      "title": "You: \"\"Alright, it's a good-bye then.\" (H...\"",
+                                                                                                                                      "articyId": "0x0100009200000DA1",
+                                                                                                                                      "text": "\"Alright, it's a good-bye then.\" (Hang up the call.)",
+                                                                                                                                      "links": []
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                              "id": 261,
+                                                                                                                              "title": "You: \"\"You said it was nice. What's so ni...\"",
+                                                                                                                              "articyId": "0x0100009200000D93",
+                                                                                                                              "text": "\"You said it was nice. What's so nice about forgetting?\"",
+                                                                                                                              "links": []
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "id": 97,
+                                                                                                                      "title": "You: \"\"Oh god, please don't cry.\"\"",
+                                                                                                                      "articyId": "0x0100009200000D4C",
+                                                                                                                      "text": "\"Oh god, please don't cry.\"",
+                                                                                                                      "links": []
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                      "id": 53,
+                                                                                                                      "title": "You: \"Hang up the call.\"",
+                                                                                                                      "articyId": "0x0100009200000D2C",
+                                                                                                                      "text": "Hang up the call.",
+                                                                                                                      "links": []
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "id": 216,
+                                                                                                              "title": "You: \"\"Listen, I'm going to hang up now.\"\"",
+                                                                                                              "articyId": "0x0100009200000D13",
+                                                                                                              "text": "\"Listen, I'm going to hang up now.\"",
+                                                                                                              "links": []
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": 129,
+                                                                                          "title": "You: \"\"Hold on, tell me what's going on....\"",
+                                                                                          "articyId": "0x0100009200000CEC",
+                                                                                          "text": "\"Hold on, tell me what's going on. What did I do?\"",
+                                                                                          "links": []
+                                                                                        },
+                                                                                        {
+                                                                                          "id": 140,
+                                                                                          "title": "You: \"\"Of course I care. It's just that I...\"",
+                                                                                          "articyId": "0x0100009200000F36",
+                                                                                          "text": "\"Of course I care. It's just that I've been going through some tough time.\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 155,
+                                                                          "title": "You: \"\"Who are you? *Where* are you?\"\"",
+                                                                          "articyId": "0x0100009200000CB5",
+                                                                          "text": "\"Who are you? *Where* are you?\"",
+                                                                          "links": []
+                                                                        },
+                                                                        {
+                                                                          "id": 156,
+                                                                          "title": "You: \"\"Khm-khm...\" (Stand up straighter.)...\"",
+                                                                          "articyId": "0x0100009200000CBD",
+                                                                          "text": "\"Khm-khm...\" (Stand up straighter.) \"Yeah, it's *me*. Here I am again, crawling back into your life.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 195,
+                                          "title": "You: \"\"This is the police, I need you to...\"",
+                                          "articyId": "0x0100009200000120",
+                                          "text": "\"This is the police, I need you to let me in because I heard there's a fridge in the cellar.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 112,
+                                          "title": "You: \"\"Yes, hello, can you let me inside...\"",
+                                          "articyId": "0x0100002B00085C58",
+                                          "text": "\"Yes, hello, can you let me inside the building please?\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 259,
+                                          "title": "You: \"\"Who is this? I've been inside this...\"",
+                                          "articyId": "0x0100009200000C6E",
+                                          "text": "\"Who is this? I've been inside this building, but I didn't see anyone from Tricentennial Electrics. This place is deserted.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 296,
+                                          "title": "You: \"(Lie.) \"Yes, I've come to place an...\"",
+                                          "articyId": "0x0100009200000C74",
+                                          "text": "(Lie.) \"Yes, I've come to place an order.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 113,
+                                          "title": "You: \"\"Sorry, I don't actually have any b...\"",
+                                          "articyId": "0x0100002B00085C5E",
+                                          "text": "\"Sorry, I don't actually have any business here.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 304,
+                      "title": "You: \"Hang up the call.\"",
+                      "articyId": "0x01000057000235F4",
+                      "text": "Hang up the call.",
+                      "links": [
+                        {
+                          "id": 29,
+                          "title": "Electronic Doorbell: \"You press the number sign on the ke...\"",
+                          "articyId": "0x0100009200000D66",
+                          "text": "You press the number sign on the keypad that terminates the call. Twelve name cards on the call box read:",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 234,
+          "title": "You: \"\"Slipstream SCA.\"\"",
+          "articyId": "0x0100002B00085D2A",
+          "text": "\"Slipstream SCA.\"",
+          "links": [
+            {
+              "id": 312,
+              "title": "Volition: \"Whatever she says, it can't hurt yo...\"",
+              "articyId": "0x0100009200000F84",
+              "text": "Whatever she says, it can't hurt you. You're a different person now. Stronger, healthier and...",
+              "links": [
+                {
+                  "id": 174,
+                  "title": "Volition: \"Alright, maybe not *healthier*, but...\"",
+                  "articyId": "0x0100009200000F8B",
+                  "text": "Alright, maybe not *healthier*, but it's a *bonus* that you've drunk so hard you can't remember any of your past relationships. Oblivion's the ace in your corner.",
+                  "links": [
+                    {
+                      "id": 55,
+                      "title": "You: \"Call her again. (Press the doorbell...\"",
+                      "articyId": "0x0100009200000F99",
+                      "text": "Call her again. (Press the doorbell to Slipstream SCA.)",
+                      "links": [
+                        {
+                          "id": 45,
+                          "title": "Electronic Doorbell: \"There's a light buzz as you press t...\"",
+                          "articyId": "0x0100009200000FAC",
+                          "text": "There's a light buzz as you press the doorbell, waiting for her to answer the call. It's cold outside, and you can hear the wind blowing into the speaker.",
+                          "links": [
+                            {
+                              "id": 221,
+                              "title": "Physical Instrument: \"A strange, metallic taste fills you...\"",
+                              "articyId": "0x0100009200000FC6",
+                              "text": "A strange, metallic taste fills your mouth, as you stare at the intercom.",
+                              "links": [
+                                {
+                                  "id": 65,
+                                  "title": "Perception (Hearing): \"There's the static again, whisperin...\"",
+                                  "articyId": "0x0100009200000FCC",
+                                  "text": "There's the static again, whispering like a seashell pressed against the ear.",
+                                  "links": [
+                                    {
+                                      "id": 220,
+                                      "title": "Tricentennial Electrics: \"\"Yes, hello, this is Tricentennial...\"",
+                                      "articyId": "0x0100009200000FBA",
+                                      "text": "\"Yes, hello, this is Tricentennial Electrics.\" It's the same voice you heard before. \"Have you come to place an order?\"",
+                                      "links": [
+                                        {
+                                          "id": 56,
+                                          "title": "You: \"\"Hi, it's me again. I wanted to tal...\"",
+                                          "articyId": "0x0100009200000FD6",
+                                          "text": "\"Hi, it's me again. I wanted to talk to you.\"",
+                                          "links": [
+                                            {
+                                              "id": 66,
+                                              "title": "Tricentennial Electrics: \"\"My god...\"\"",
+                                              "articyId": "0x0100009200000FEF",
+                                              "text": "\"My god...\"",
+                                              "links": [
+                                                {
+                                                  "id": 60,
+                                                  "title": "Volition: \"Here come the bad vibes again. Rela...\"",
+                                                  "articyId": "0x0100000600018E0C",
+                                                  "text": "Here come the bad vibes again. Relax. Distance yourself from it.",
+                                                  "links": [
+                                                    {
+                                                      "id": 197,
+                                                      "title": "You: \"\"What?\"\"",
+                                                      "articyId": "0x0100009200000FFD",
+                                                      "text": "\"What?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 161,
+                                                          "title": "Tricentennial Electrics: \"Before you can finish your sentence...\"",
+                                                          "articyId": "0x0100009200001004",
+                                                          "text": "Before you can finish your sentence the voice continues speaking: \"It's you...\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 141,
+                                                              "title": "Tricentennial Electrics: \"\"My god, I didn't think I would hea...\"",
+                                                              "articyId": "0x010000920000205F",
+                                                              "text": "\"My god, I didn't think I would hear your voice again.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 201,
+                                                                  "title": "Reaction Speed: \"Wait, is she...?\"",
+                                                                  "articyId": "0x010000210000059D",
+                                                                  "text": "Wait, is she...?",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 299,
+                                                                      "title": "You: \"\"Wait, are you repeating your words?\"\"",
+                                                                      "articyId": "0x0100009200001022",
+                                                                      "text": "\"Wait, are you repeating your words?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 314,
+                                                                          "title": "Tricentennial Electrics: \"\"Michel, just please...\" Even her b...\"",
+                                                                          "articyId": "0x0100009200001030",
+                                                                          "text": "\"Michel, just please...\" Even her breathing, the way her voice drops when she finishes the sentence sounds exactly the same.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 162,
+                                                                              "title": "Tricentennial Electrics: \"\"Why did you even call? I don't und...\"",
+                                                                              "articyId": "0x0100009200001036",
+                                                                              "text": "\"Why did you even call? I don't understand... You've been gone for months,\" she continues. \"I thought you didn't care.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 34,
+                                                                                  "title": "Drama: \"Is this some kind of joke?\"",
+                                                                                  "articyId": "0x010000920000100B",
+                                                                                  "text": "Is this some kind of joke?",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 300,
+                                                                                      "title": "You: \"\"Do you think it's *funny*, deceivi...\"",
+                                                                                      "articyId": "0x0100009200001049",
+                                                                                      "text": "\"Do you think it's *funny*, deceiving a police officer?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 11,
+                                                                                          "title": "Tricentennial Electrics: \"The voice from the intercom doesn't...\"",
+                                                                                          "articyId": "0x010000920000106E",
+                                                                                          "text": "The voice from the intercom doesn't answer, but you can hear her breathing. Wind blows into your microphone again, crackling and echoing in the box.",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 57,
+                                                                                              "title": "Physical Instrument: \"Your hands are getting cold and you...\"",
+                                                                                              "articyId": "0x0100009200001086",
+                                                                                              "text": "Your hands are getting cold and your breathing becomes visible, forming small silvery puffs in the air.",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 164,
+                                                                                                  "title": "You: \"\"Is it over? Can we talk now?\"\"",
+                                                                                                  "articyId": "0x0100009200001078",
+                                                                                                  "text": "\"Is it over? Can we talk now?\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 130,
+                                                                                                      "title": "Tricentennial Electrics: \"\"Ever since I came to work here it'...\"",
+                                                                                                      "articyId": "0x0100009200001056",
+                                                                                                      "text": "\"Ever since I came to work here it's been different...\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 59,
+                                                                                                          "title": "Tricentennial Electrics: \"\"As if my mind's been wiped clean...\"\"",
+                                                                                                          "articyId": "0x0100009200002068",
+                                                                                                          "text": "\"As if my mind's been wiped clean...\"",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 119,
+                                                                                                              "title": "You: \"Say nothing.\"",
+                                                                                                              "articyId": "0x010000920000206F",
+                                                                                                              "text": "Say nothing.",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 244,
+                                                                                                                  "title": "Tricentennial Electrics: \"\"It's so nice.\"\"",
+                                                                                                                  "articyId": "0x010000920000207D",
+                                                                                                                  "text": "\"It's so nice.\"",
+                                                                                                                  "links": [
+                                                                                                                    {
+                                                                                                                      "id": 13,
+                                                                                                                      "title": "Tricentennial Electrics: \"\"It's so nice to be able to finally...\"",
+                                                                                                                      "articyId": "0x0100009200002084",
+                                                                                                                      "text": "\"It's so nice to be able to finally forget about you.\"",
+                                                                                                                      "links": [
+                                                                                                                        {
+                                                                                                                          "id": 248,
+                                                                                                                          "title": "Volition: \"And then it hits you.\"",
+                                                                                                                          "articyId": "0x0100002700003B6D",
+                                                                                                                          "text": "And then it hits you.",
+                                                                                                                          "links": [
+                                                                                                                            {
+                                                                                                                              "id": 104,
+                                                                                                                              "title": "You: \"\"You're a recording.\"\"",
+                                                                                                                              "articyId": "0x0100009200001091",
+                                                                                                                              "text": "\"You're a recording.\"",
+                                                                                                                              "links": [
+                                                                                                                                {
+                                                                                                                                  "id": 12,
+                                                                                                                                  "title": "Tricentennial Electrics: \"She tries again not to cry. And *st...\"",
+                                                                                                                                  "articyId": "0x01000092000010AB",
+                                                                                                                                  "text": "She tries again not to cry. And *still* doesn't succeed completely. Her quiet sobs sound old and distant, as if her voice is being played off a wax cylinder.",
+                                                                                                                                  "links": [
+                                                                                                                                    {
+                                                                                                                                      "id": 263,
+                                                                                                                                      "title": "Empathy: \"Real or not, your mirror neurons re...\"",
+                                                                                                                                      "articyId": "0x01000092000010BE",
+                                                                                                                                      "text": "Real or not, your mirror neurons react: it feels painful to be listening to this.",
+                                                                                                                                      "links": [
+                                                                                                                                        {
+                                                                                                                                          "id": 175,
+                                                                                                                                          "title": "Half Light: \"Anger boils up in your chest...\"",
+                                                                                                                                          "articyId": "0x01000092000010C9",
+                                                                                                                                          "text": "Anger boils up in your chest...",
+                                                                                                                                          "links": [
+                                                                                                                                            {
+                                                                                                                                              "id": 188,
+                                                                                                                                              "title": "You: \"\"Just a recording... and here I tho...\"",
+                                                                                                                                              "articyId": "0x0100002700003B75",
+                                                                                                                                              "text": "\"Just a recording... and here I thought...\"",
+                                                                                                                                              "links": [
+                                                                                                                                                {
+                                                                                                                                                  "id": 243,
+                                                                                                                                                  "title": "Tricentennial Electrics: \"Her sound melts into the static fro...\"",
+                                                                                                                                                  "articyId": "0x01000092000010DA",
+                                                                                                                                                  "text": "Her sound melts into the static from a long-distance phone call. From time to time you can hear people talking in the distance, but can't make out any words.",
+                                                                                                                                                  "links": [
+                                                                                                                                                    {
+                                                                                                                                                      "id": 223,
+                                                                                                                                                      "title": "Volition: \"This is where you hung up the call...\"",
+                                                                                                                                                      "articyId": "0x01000092000010E3",
+                                                                                                                                                      "text": "This is where you hung up the call the last time, but the recording is still going.",
+                                                                                                                                                      "links": [
+                                                                                                                                                        {
+                                                                                                                                                          "id": 176,
+                                                                                                                                                          "title": "You: \"Keep listening.\"",
+                                                                                                                                                          "articyId": "0x01000092000010EA",
+                                                                                                                                                          "text": "Keep listening.",
+                                                                                                                                                          "links": [
+                                                                                                                                                            {
+                                                                                                                                                              "id": 68,
+                                                                                                                                                              "title": "Tricentennial Electrics: \"A phone rings in the office with an...\"",
+                                                                                                                                                              "articyId": "0x01000092000010F2",
+                                                                                                                                                              "text": "A phone rings in the office with an old-fashioned chime and someone walks by in a pair of heels. The static is like a warm blanket wrapped around the sounds.",
+                                                                                                                                                              "links": [
+                                                                                                                                                                {
+                                                                                                                                                                  "id": 177,
+                                                                                                                                                                  "title": "You: \"\"Is anyone there?\"\"",
+                                                                                                                                                                  "articyId": "0x0100009200001100",
+                                                                                                                                                                  "text": "\"Is anyone there?\"",
+                                                                                                                                                                  "links": [
+                                                                                                                                                                    {
+                                                                                                                                                                      "id": 224,
+                                                                                                                                                                      "title": "Tricentennial Electrics: \"No one replies, but the static grow...\"",
+                                                                                                                                                                      "articyId": "0x0100009200001108",
+                                                                                                                                                                      "text": "No one replies, but the static grows stronger like rainfall. Then a female voice speaks out, completely different from the one before. Glorious and *total* somehow. Crawling inside your head.",
+                                                                                                                                                                      "links": [
+                                                                                                                                                                        {
+                                                                                                                                                                          "id": 184,
+                                                                                                                                                                          "title": "Shivers: \"FOR THREE HUNDRED YEARS I HAVE BEEN...\"",
+                                                                                                                                                                          "articyId": "0x0100000600018E21",
+                                                                                                                                                                          "text": "FOR THREE HUNDRED YEARS I HAVE BEEN HERE. VOLATILE AND LUMINOUS. MADE OF SODIUM AND RAIN.",
+                                                                                                                                                                          "links": [
+                                                                                                                                                                            {
+                                                                                                                                                                              "id": 106,
+                                                                                                                                                                              "title": "Shivers: \"IF YOU WANT ME YOU CAN FIND ME ON T...\"",
+                                                                                                                                                                              "articyId": "0x0100000600018E2A",
+                                                                                                                                                                              "text": "IF YOU WANT ME YOU CAN FIND ME ON THE BEACH, DANS LE DERNIER BAL.",
+                                                                                                                                                                              "links": [
+                                                                                                                                                                                {
+                                                                                                                                                                                  "id": 166,
+                                                                                                                                                                                  "title": "Kim Kitsuragi: \"\"So...\" The strange, alien thought...\"",
+                                                                                                                                                                                  "articyId": "0x0100000600018E4F",
+                                                                                                                                                                                  "text": "\"So...\" The strange, alien thought pattern ends. The lieutenant cuts in, inspecting the intercom.",
+                                                                                                                                                                                  "links": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                      "id": 264,
+                                                                                                                                                                                      "title": "Kim Kitsuragi: \"\"It was a recording trapped in the...\"",
+                                                                                                                                                                                      "articyId": "0x0100000600018E56",
+                                                                                                                                                                                      "text": "\"It was a recording trapped in the circuitry. From some ancient tenant. This sometimes happens. Shall we conclude here? We have other mysteries to solve.\"",
+                                                                                                                                                                                      "links": []
+                                                                                                                                                                                    }
+                                                                                                                                                                                  ]
+                                                                                                                                                                                },
+                                                                                                                                                                                {
+                                                                                                                                                                                  "id": 265,
+                                                                                                                                                                                  "title": "You: \"\"Wait, a recording trapped in the c...\"",
+                                                                                                                                                                                  "articyId": "0x01000021000025A4",
+                                                                                                                                                                                  "text": "\"Wait, a recording trapped in the circuitry?\"",
+                                                                                                                                                                                  "links": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                      "id": 2,
+                                                                                                                                                                                      "title": "Kim Kitsuragi: \"\"Mhmh. I don't have time to explain...\"",
+                                                                                                                                                                                      "articyId": "0x01000021000025AA",
+                                                                                                                                                                                      "text": "\"Mhmh. I don't have time to explain it to you right now. Maybe some time later...\" He looks at the sea, almost wistful.",
+                                                                                                                                                                                      "links": []
+                                                                                                                                                                                    }
+                                                                                                                                                                                  ]
+                                                                                                                                                                                },
+                                                                                                                                                                                {
+                                                                                                                                                                                  "id": 143,
+                                                                                                                                                                                  "title": "You: \"\"Something *weird* just happened to...\"",
+                                                                                                                                                                                  "articyId": "0x0100000600018E64",
+                                                                                                                                                                                  "text": "\"Something *weird* just happened to me.\"",
+                                                                                                                                                                                  "links": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                      "id": 186,
+                                                                                                                                                                                      "title": "Kim Kitsuragi: \"\"Don't take this the wrong way, but...\"",
+                                                                                                                                                                                      "articyId": "0x0100000600018E77",
+                                                                                                                                                                                      "text": "\"Don't take this the wrong way, but -- during our short stint working together -- *something weird* is almost always happening to you.\"",
+                                                                                                                                                                                      "links": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                          "id": 187,
+                                                                                                                                                                                          "title": "Logic: \"That *is* true.\"",
+                                                                                                                                                                                          "articyId": "0x0100000600018E7E",
+                                                                                                                                                                                          "text": "That *is* true.",
+                                                                                                                                                                                          "links": []
+                                                                                                                                                                                        }
+                                                                                                                                                                                      ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                  ]
+                                                                                                                                                                                },
+                                                                                                                                                                                {
+                                                                                                                                                                                  "id": 14,
+                                                                                                                                                                                  "title": "You: \"\"What is happening to me?\"\"",
+                                                                                                                                                                                  "articyId": "0x0100000600018E6A",
+                                                                                                                                                                                  "text": "\"What is happening to me?\"",
+                                                                                                                                                                                  "links": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                      "id": 276,
+                                                                                                                                                                                      "title": "Electronic Doorbell: \"The strange and alien thought patte...\"",
+                                                                                                                                                                                      "articyId": "0x0100000600018E87",
+                                                                                                                                                                                      "text": "The strange and alien thought pattern ends. You're left staring at the electronic doorbell.",
+                                                                                                                                                                                      "links": []
+                                                                                                                                                                                    }
+                                                                                                                                                                                  ]
+                                                                                                                                                                                },
+                                                                                                                                                                                {
+                                                                                                                                                                                  "id": 246,
+                                                                                                                                                                                  "title": "You: \"(Just hang up the call.)\"",
+                                                                                                                                                                                  "articyId": "0x0100000600018E70",
+                                                                                                                                                                                  "text": "(Just hang up the call.)",
+                                                                                                                                                                                  "links": []
+                                                                                                                                                                                }
+                                                                                                                                                                              ]
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                              "id": 185,
+                                                                                                                                                                              "title": "Shivers: \"Her words are too cold to comprehen...\"",
+                                                                                                                                                                              "articyId": "0x0100000600018E37",
+                                                                                                                                                                              "text": "Her words are too cold to comprehend. She smells of sodium lights and rain streaks on car windows. Eyes like pilot lights watch your shape in dark hallways, guttering.",
+                                                                                                                                                                              "links": []
+                                                                                                                                                                            }
+                                                                                                                                                                          ]
+                                                                                                                                                                        }
+                                                                                                                                                                      ]
+                                                                                                                                                                    }
+                                                                                                                                                                  ]
+                                                                                                                                                                }
+                                                                                                                                                              ]
+                                                                                                                                                            }
+                                                                                                                                                          ]
+                                                                                                                                                        }
+                                                                                                                                                      ]
+                                                                                                                                                    }
+                                                                                                                                                  ]
+                                                                                                                                                }
+                                                                                                                                              ]
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                              "id": 301,
+                                                                                                                                              "title": "You: \"\"Why does it still feel like it's *...\"",
+                                                                                                                                              "articyId": "0x01000092000010B8",
+                                                                                                                                              "text": "\"Why does it still feel like it's *my* fault?\"",
+                                                                                                                                              "links": []
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                              "id": 58,
+                                                                                                                                              "title": "You: \"\"Go ahead, ancient recording. Cry t...\"",
+                                                                                                                                              "articyId": "0x01000092000010B2",
+                                                                                                                                              "text": "\"Go ahead, ancient recording. Cry then.\"",
+                                                                                                                                              "links": []
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "id": 222,
+                                                                                                              "title": "You: \"(Hang up the call.)\"",
+                                                                                                              "articyId": "0x0100009200001097",
+                                                                                                              "text": "(Hang up the call.)",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 315,
+                                                                                                                  "title": "Electronic Doorbell: \"You press the number sign on the ke...\"",
+                                                                                                                  "articyId": "0x01000092000010A3",
+                                                                                                                  "text": "You press the number sign on the keypad that terminates the call. Twelve name cards on the call box read:",
+                                                                                                                  "links": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 242,
+                                                                                                  "title": "You: \"\"Thank you. Now tell me, who's resp...\"",
+                                                                                                  "articyId": "0x010000920000107E",
+                                                                                                  "text": "\"Thank you. Now tell me, who's responsible for this *joke*?\"",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 163,
+                                                                                      "title": "You: \"\"Just stop it already! Stop repeati...\"",
+                                                                                      "articyId": "0x010000920000104F",
+                                                                                      "text": "\"Just stop it already! Stop repeating your words!\"",
+                                                                                      "links": []
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 67,
+                                                                                      "title": "You: \"\"It doesn't matter what I say, you'...\"",
+                                                                                      "articyId": "0x0100009200001043",
+                                                                                      "text": "\"It doesn't matter what I say, you're just going to continue, right?\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 83,
+                                                                      "title": "You: \"\"Didn't you already say that the la...\"",
+                                                                      "articyId": "0x0100009200001029",
+                                                                      "text": "\"Didn't you already say that the last time we talked?\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 33,
+                                                      "title": "You: \"\"Please don't hang up. I just want...\"",
+                                                      "articyId": "0x0100009200000FF7",
+                                                      "text": "\"Please don't hang up. I just want to explain myself.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 32,
+                                          "title": "You: \"\"Last time we talked there was some...\"",
+                                          "articyId": "0x0100009200000FDC",
+                                          "text": "\"Last time we talked there was some confusion. You got me mixed up with someone else.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 313,
+                                          "title": "You: \"\"Can you let me in please? I need t...\"",
+                                          "articyId": "0x0100009200000FE2",
+                                          "text": "\"Can you let me in please? I need to get inside this building.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 295,
+              "title": "Volition: \"No, hold on. The last thing you nee...\"",
+              "articyId": "0x0100002B00085D36",
+              "text": "No, hold on. The last thing you need in your life is more hysteric emotions. Forget it. Find something else to do.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 280,
+          "title": "You: \"\"Fortress Accident SCA.\"\"",
+          "articyId": "0x0100002B0007CCEE",
+          "text": "\"Fortress Accident SCA.\"",
+          "links": [
+            {
+              "id": 281,
+              "title": "Electronic Doorbell: \"Silence. No one's home at Fortress...\"",
+              "articyId": "0x0100002B0007DE9B",
+              "text": "Silence. No one's home at Fortress Accident.",
+              "links": [
+                {
+                  "id": 231,
+                  "title": "Shivers: \"They have failed.\"",
+                  "articyId": "0x0100002B00085BDE",
+                  "text": "They have failed.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"\"REVACHOL ICE CITY.\"\"",
+          "articyId": "0x0100002B0007CCBD",
+          "text": "\"REVACHOL ICE CITY.\"",
+          "links": [
+            {
+              "id": 133,
+              "title": "Electronic Doorbell: \"Silence. No one answers the doorbel...\"",
+              "articyId": "0x0100002B0007DF9B",
+              "text": "Silence. No one answers the doorbell.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 144,
+          "title": "You: \"\"Main hall, building B: WHIRLING-IN...\"",
+          "articyId": "0x0100002B0007CCC3",
+          "text": "\"Main hall, building B: WHIRLING-IN-RAGS.\"",
+          "links": [
+            {
+              "id": 16,
+              "title": "Electronic Doorbell: \"Nothing happens after you ring the...\"",
+              "articyId": "0x0100002B0007DFB2",
+              "text": "Nothing happens after you ring the doorbell... They don't want to talk to you.",
+              "links": [
+                {
+                  "id": 302,
+                  "title": "Half Light: \"You're going to just stand there an...\"",
+                  "articyId": "0x0100002B0007E0F1",
+                  "text": "You're going to just stand there and *take it* from a doorbell?",
+                  "links": [
+                    {
+                      "id": 283,
+                      "title": "You: \"No way. I should beat the spark int...\"",
+                      "articyId": "0x0100002B0007E108",
+                      "text": "No way. I should beat the spark into it. (Punch the doorbell.)",
+                      "links": [
+                        {
+                          "id": 228,
+                          "title": "Electronic Doorbell: \"Your fist crashes into the metal, p...\"",
+                          "articyId": "0x0100002B0007E13E",
+                          "text": "Your fist crashes into the metal, pure physical vengeance. It feels good, at first, and then it starts to hurt.",
+                          "links": [
+                            {
+                              "id": 229,
+                              "title": "Kim Kitsuragi: \"\"You just keep on beating those thi...\"",
+                              "articyId": "0x0100002B0007E163",
+                              "text": "\"You just keep on beating those things, don't you?\"",
+                              "links": [
+                                {
+                                  "id": 232,
+                                  "title": "You: \"\"Yes, I am the destroyer.\"\"",
+                                  "articyId": "0x0100002B00085BF7",
+                                  "text": "\"Yes, I am the destroyer.\"",
+                                  "links": [
+                                    {
+                                      "id": 269,
+                                      "title": "Kim Kitsuragi: \"The lieutenant sighs but says nothi...\"",
+                                      "articyId": "0x0100002B00085C0A",
+                                      "text": "The lieutenant sighs but says nothing. He looks up at the building.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "title": "You: \"\"No, I have explicitly stated that...\"",
+                                  "articyId": "0x0100002B00085C14",
+                                  "text": "\"No, I have explicitly stated that I am not the destroyer.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 40,
+                                  "title": "You: \"Say nothing. You've already taught...\"",
+                                  "articyId": "0x0100002B00085BFD",
+                                  "text": "Say nothing. You've already taught the doorbell a lesson.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 267,
+                      "title": "You: \"No, I'll show you how a gentleman t...\"",
+                      "articyId": "0x0100002B0007E114",
+                      "text": "No, I'll show you how a gentleman treats a doorbell! (Kiss the doorbell.)",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Electronic Doorbell: \"Like a cat's whiskers, your moustac...\"",
+                          "articyId": "0x0100002B0007E132",
+                          "text": "Like a cat's whiskers, your moustache feels it first, followed by your lips: the corroded metal of the intercom, cold, unattainable. Now you're kissing the doorbell. The doorbell remains silent.",
+                          "links": [
+                            {
+                              "id": 63,
+                              "title": "Inland Empire: \"When was the last time you kissed?\"",
+                              "articyId": "0x0100002B0007E16C",
+                              "text": "When was the last time you kissed?",
+                              "links": [
+                                {
+                                  "id": 268,
+                                  "title": "Kim Kitsuragi: \"\"Khm...\" says the lieutenant. \"That...\"",
+                                  "articyId": "0x0100002B0007E14A",
+                                  "text": "\"Khm...\" says the lieutenant. \"That's unsanitary.\" (It probably is.)",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 284,
+                      "title": "You: \"I should just leave the doorbell al...\"",
+                      "articyId": "0x0100002B0007E11D",
+                      "text": "I should just leave the doorbell alone.",
+                      "links": [
+                        {
+                          "id": 146,
+                          "title": "Electronic Doorbell: \"The doorbell agrees. The entire cal...\"",
+                          "articyId": "0x0100002B0007E126",
+                          "text": "The doorbell agrees. The entire call box looks relieved.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "title": "You: \"\"East Delta Pinball (Entrance from...\"",
+          "articyId": "0x0100002B0007CCC9",
+          "text": "\"East Delta Pinball (Entrance from building B).\"",
+          "links": [
+            {
+              "id": 167,
+              "title": "Electronic Doorbell: \"Silence. No one answers your call.\"",
+              "articyId": "0x0100002B0007DFAC",
+              "text": "Silence. No one answers your call.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 145,
+          "title": "You: \"(Empty card.)\"",
+          "articyId": "0x0100002B0007E053",
+          "text": "(Empty card.)",
+          "links": [
+            {
+              "id": 251,
+              "title": "Electronic Doorbell: \"This button looks new, but someone...\"",
+              "articyId": "0x0100002B0007E058",
+              "text": "This button looks new, but someone has removed the name card. Nothing happens when you try to ring it.",
+              "links": [
+                {
+                  "id": 247,
+                  "title": "Kim Kitsuragi: \"\"Hmm... this button looks new. I wo...\"",
+                  "articyId": "0x0100001F00000561",
+                  "text": "\"Hmm... this button looks new. I wouldn't be surprised if it hasn't been connected yet. Is it the dicemaker's?\" He takes a step back, inspecting the other names on the list.",
+                  "links": []
+                },
+                {
+                  "id": 192,
+                  "title": "Kim Kitsuragi: \"\"Hmm... this button looks new. It's...\"",
+                  "articyId": "0x0100002B00081D3A",
+                  "text": "\"Hmm... this button looks new. It's probably not connected yet.\" He takes a step back, inspecting the other names on the list.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 225,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002B0007DE8D",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

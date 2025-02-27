@@ -1,0 +1,193 @@
+{
+  "id": "0x0100006B000027D2",
+  "title": "INVENTORY / PRIMER",
+  "description": "Primerbook interaction!",
+  "dialogueTree": [
+    {
+      "id": 22,
+      "title": "Primer Book: \"You hold in your hand the colourful...\"",
+      "articyId": "0x0100006B000027D9",
+      "text": "You hold in your hand the colourful primer. The title reads: \"A Primer for Small Kids.\" There's a bear involved.",
+      "links": [
+        {
+          "id": 27,
+          "title": "You: \"Exactly what I need!\"",
+          "articyId": "0x010000410000026B",
+          "text": "Exactly what I need!",
+          "links": [
+            {
+              "id": 23,
+              "title": "Primer Book: \"Mhm. This book will show you the sc...\"",
+              "articyId": "0x0100004100000272",
+              "text": "Mhm. This book will show you the score; get you oriented with those basic concepts you appear to be hazy on. The anthropomorphic bear will give you the *low-down* of your life...",
+              "links": [
+                {
+                  "id": 3,
+                  "title": "You: \"On what?\"",
+                  "articyId": "0x0100004100000279",
+                  "text": "On what?",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Primer Book: \"The alphabet.\"",
+                      "articyId": "0x0100004100000280",
+                      "text": "The alphabet.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"Flip through the pages.\"",
+          "articyId": "0x0100006B000027E4",
+          "text": "Flip through the pages.",
+          "links": [
+            {
+              "id": 17,
+              "title": "Primer Book: \"Every page has one word designating...\"",
+              "articyId": "0x0100006B000027EA",
+              "text": "Every page has one word designating one letter of the alphabet, with a faded illustration -- most of them are scientific and cultural principles. It goes as follows...",
+              "links": [
+                {
+                  "id": 10,
+                  "title": "You: \"Let's do this.\"",
+                  "articyId": "0x010000410000028C",
+                  "text": "Let's do this.",
+                  "links": [
+                    {
+                      "id": 24,
+                      "title": "Primer Book: \"A is for Azimuth, B is for Boreas,...\"",
+                      "articyId": "0x010000410000029F",
+                      "text": "A is for Azimuth, B is for Boreas, C is for Cosign, D is for Diamat, E is for Ellips, F is for Flogiston, G is for Gamut.",
+                      "links": [
+                        {
+                          "id": 29,
+                          "title": "You: \"Mmhm.\"",
+                          "articyId": "0x01000041000002B4",
+                          "text": "Mmhm.",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Primer Book: \"H is for Homeboy, I is for Iikon, J...\"",
+                              "articyId": "0x0100006B000027FA",
+                              "text": "H is for Homeboy, I is for Iikon, J is for Jura, K is for Kollaps, L is for Laudanum, M is for Myriad, N is for Nadir, O is for Oreole, P is for Perihelion.",
+                              "links": [
+                                {
+                                  "id": 4,
+                                  "title": "You: \"Yeah!\"",
+                                  "articyId": "0x01000041000002BC",
+                                  "text": "Yeah!",
+                                  "links": [
+                                    {
+                                      "id": 30,
+                                      "title": "Primer Book: \"Q is for Quasar, R is for Rhododend...\"",
+                                      "articyId": "0x0100006B00002800",
+                                      "text": "Q is for Quasar, R is for Rhododendron, S is for Sinus, T is for Tricoleur, U is for Ultra, V is for Vector, W is for Warheit, X is for Xylophone, Y is for Ystävä, Z is for Zenith.",
+                                      "links": [
+                                        {
+                                          "id": 13,
+                                          "title": "You: \"That's it?\"",
+                                          "articyId": "0x01000041000002CC",
+                                          "text": "That's it?",
+                                          "links": [
+                                            {
+                                              "id": 16,
+                                              "title": "Primer Book: \"That's it. You know the alphabet no...\"",
+                                              "articyId": "0x01000041000002D3",
+                                              "text": "That's it. You know the alphabet now.",
+                                              "links": [
+                                                {
+                                                  "id": 2,
+                                                  "title": "Conceptualization: \"In what is called the IL -- the Int...\"",
+                                                  "articyId": "0x0100008900000B99",
+                                                  "text": "In what is called the IL -- the International Language, developed by scientists from Graad in the Twenties! Sinus means 'Sign', for example.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 9,
+                                  "title": "You: \"Nod stoically.\"",
+                                  "articyId": "0x01000041000002C4",
+                                  "text": "Nod stoically.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 25,
+                  "title": "You: \"No time.\"",
+                  "articyId": "0x0100004100000292",
+                  "text": "No time.",
+                  "links": [
+                    {
+                      "id": 20,
+                      "title": "Primer Book: \"Of course. Obviously you already *k...\"",
+                      "articyId": "0x0100004100000298",
+                      "text": "Of course. Obviously you already *know* all this. It's the alphabet. Who doesn't know the alphabet?",
+                      "links": [
+                        {
+                          "id": 11,
+                          "title": "Encyclopedia: \"You. You don't know the alphabet. B...\"",
+                          "articyId": "0x01000041000002A7",
+                          "text": "You. You don't know the alphabet. But never mind.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "You: \"\"Kim, I know the alphabet now.\"\"",
+          "articyId": "0x01000041000002DE",
+          "text": "\"Kim, I know the alphabet now.\"",
+          "links": [
+            {
+              "id": 21,
+              "title": "Kim Kitsuragi: \"\"Good. I also know the alphabet.\"\"",
+              "articyId": "0x01000041000002E5",
+              "text": "\"Good. I also know the alphabet.\"",
+              "links": [
+                {
+                  "id": 14,
+                  "title": "Esprit de Corps: \"It is a very useful skill to have,...\"",
+                  "articyId": "0x01000041000002F7",
+                  "text": "It is a very useful skill to have, he thinks. For all sorts of life-activities. Like reading, and...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"[Put the book away.]\"",
+          "articyId": "0x0100006B000027F4",
+          "text": "[Put the book away.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

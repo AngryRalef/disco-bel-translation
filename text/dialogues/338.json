@@ -1,0 +1,135 @@
+{
+  "id": "0x0100005300002AA4",
+  "title": "EVRART ORB / communistquest",
+  "description": "You get to attempt to smell Evrart and ask him about underground communism",
+  "dialogueTree": [
+    {
+      "id": 2,
+      "title": "Rhetoric: \"Yes, *of course*. Now we're on the...\"",
+      "articyId": "0x0100005300002B53",
+      "text": "Yes, *of course*. Now we're on the right track...",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"Inhale.\"",
+          "articyId": "0x0100005300002ABA",
+          "text": "Inhale.",
+          "links": [
+            {
+              "id": 27,
+              "title": "Rhetoric: \"It smells like...\"",
+              "articyId": "0x0100005300002B5B",
+              "text": "It smells like...",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Perception (Smell): \"We're getting crates and pallets ca...\"",
+                  "articyId": "0x0100005300002ADE",
+                  "text": "We're getting crates and pallets calling to mind vast stands of winter pines, a swirl of ancient odours absorbed by heavy carpet fibres, but also a pervasive, treacly *sweetness* that somehow reminds you of kola nuts...",
+                  "links": [
+                    {
+                      "id": 35,
+                      "title": "Perception (Smell): \"The whole place could probably use...\"",
+                      "articyId": "0x0100005300002D28",
+                      "text": "The whole place could probably use a good deep cleaning, you think.",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "Kim Kitsuragi: \"\"Well? Smelling much *communism* ar...\"",
+                          "articyId": "0x0100005300002B7C",
+                          "text": "\"Well? Smelling much *communism* around the Union boss's office?\"",
+                          "links": [
+                            {
+                              "id": 23,
+                              "title": "You: \"\"Hush, Kim, I'm detecting.\"\"",
+                              "articyId": "0x0100005300002B90",
+                              "text": "\"Hush, Kim, I'm detecting.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 10,
+                              "title": "You: \"\"Hmmm.\"\"",
+                              "articyId": "0x0100005300002B96",
+                              "text": "\"Hmmm.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "title": "Kim Kitsuragi: \"The lieutenant gives you a sharp si...\"",
+                          "articyId": "0x0100005300002B77",
+                          "text": "The lieutenant gives you a sharp sideways look.",
+                          "links": []
+                        },
+                        {
+                          "id": 19,
+                          "title": "Evrart Claire: \"Meanwhile, Evrart Claire clatters a...\"",
+                          "articyId": "0x0100005300002AEF",
+                          "text": "Meanwhile, Evrart Claire clatters away on his typewriter, wilfully indifferent to your presence.",
+                          "links": []
+                        },
+                        {
+                          "id": 31,
+                          "title": "Evrart Claire: \"Meanwhile, the man behind the desk...\"",
+                          "articyId": "0x0100005300002D0F",
+                          "text": "Meanwhile, the man behind the desk clatters away on his typewriter, wilfully indifferent to your presence.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "title": "Perception (Smell): \"... an office? Something officious?...\"",
+                      "articyId": "0x0100005300002AE9",
+                      "text": "... an office? Something officious? Is that a word? There's a bit of dust in the air that may be triggering your allergies.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"Where am I?\"",
+          "articyId": "0x0100005300002AB4",
+          "text": "Where am I?",
+          "links": [
+            {
+              "id": 17,
+              "title": "Rhetoric: \"An important place. One of the last...\"",
+              "articyId": "0x0100005300002AC9",
+              "text": "An important place. One of the last bastions of the left in Martinaise. Perhaps here you'll find the man who'll help you get organised?",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Rhetoric: \"But you can't just come out and *as...\"",
+                  "articyId": "0x0100005300002AF5",
+                  "text": "But you can't just come out and *ask* him. You should make your introduction first. Pay homage. This is a man of *stature*.",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "Evrart Claire: \"Meanwhile, the man of stature clatt...\"",
+                      "articyId": "0x0100005300002B03",
+                      "text": "Meanwhile, the man of stature clatters away on his typewriter, wilfully indifferent to your presence.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Rhetoric: \"Now *this* place seems promising fr...\"",
+      "articyId": "0x0100005300002AAD",
+      "text": "Now *this* place seems promising from an ideological angle...",
+      "links": []
+    }
+  ]
+}

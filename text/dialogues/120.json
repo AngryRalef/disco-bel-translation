@@ -1,0 +1,91 @@
+{
+  "id": "0x0100002B00004C37",
+  "title": "PLAZA ORB / get a drink",
+  "description": "Start drinking (Electrochem).",
+  "dialogueTree": [
+    {
+      "id": 4,
+      "title": "Electrochemistry: \"Look at that lucky boozer there, th...\"",
+      "articyId": "0x0100002B00004C58",
+      "text": "Look at that lucky boozer there, the heaviest drinker on the planet! Look at his liquor-abusing excuse of a face -- those swollen bug-eyes, that muttering mouth.",
+      "links": [
+        {
+          "id": 14,
+          "title": "Electrochemistry: \"I wonder how many litres of sheer a...\"",
+          "articyId": "0x0100002B00005144",
+          "text": "I wonder how many litres of sheer alcohol has he consumed today? I bet you'd like a sip of that. Give it a real taste of your manly mouth.",
+          "links": [
+            {
+              "id": 3,
+              "title": "You: \"Wait... what is happening?\"",
+              "articyId": "0x0100002B00037BA5",
+              "text": "Wait... what is happening?",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Electrochemistry: \"That old rummy here brings back som...\"",
+                  "articyId": "0x0100002B00037BAC",
+                  "text": "That old rummy here brings back some good memories. Remember how great that piss in your pants used to feel? Warm and cosy, just the way you like it. Time to get yourself another drink and soak those pants for *good*!",
+                  "links": [
+                    {
+                      "id": 7,
+                      "title": "You: \"You betcha! I was born to drink. A...\"",
+                      "articyId": "0x0100002B0000510C",
+                      "text": "You betcha! I was born to drink. A new day, a new bottle!",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "Electrochemistry: \"Yeah, wildo, time to get a drinking...\"",
+                          "articyId": "0x0100002B00005119",
+                          "text": "Yeah, wildo, time to get a drinking problem so massive that even stars collapse around it. Become an alcoholic!",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "title": "You: \"Fuck, I don't know... maybe I shoul...\"",
+                      "articyId": "0x0100002B00005112",
+                      "text": "Fuck, I don't know... maybe I shouldn't rush head-first into bad habits? I'll leave that alcohol be for now.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 13,
+              "title": "You: \"I'd like more than a sip. I'd abuse...\"",
+              "articyId": "0x0100002B000050C7",
+              "text": "I'd like more than a sip. I'd abuse *the devil itself* out of that liquor.",
+              "links": [
+                {
+                  "id": 10,
+                  "title": "Electrochemistry: \"Then you should run for it, rascal....\"",
+                  "articyId": "0x0100002B00005105",
+                  "text": "Then you should run for it, rascal. Become a modern hunter, tame that nasty urge inside of your guts. Reward your electrochemistry!",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title": "You: \"No, I don't want a *sip* of that. [...\"",
+              "articyId": "0x0100002B00004C5E",
+              "text": "No, I don't want a *sip* of that. [Discard thought.]",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "Electrochemistry: \"And while you're there, maybe you s...\"",
+                  "articyId": "0x0100002B00005120",
+                  "text": "And while you're there, maybe you should hop by the Anonymous Alcoholics as well. You *lamo*.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

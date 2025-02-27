@@ -1,0 +1,107 @@
+{
+  "id": "0x0100008F00001CD4",
+  "title": "COAST ORB / feldwindows",
+  "description": "A conversation with SF about the inside of the building and hiding.",
+  "dialogueTree": [
+    {
+      "id": 16,
+      "title": "Perception (Hearing): \"The remaining windows rattle from a...\"",
+      "articyId": "0x0100008900001A37",
+      "text": "The remaining windows rattle from a strong gust of wind. They're covered in a thick layer of grime. They must have been like this for forty years.",
+      "links": [
+        {
+          "id": 13,
+          "title": "You: \"Try to see inside.\"",
+          "articyId": "0x0100008F0000244C",
+          "text": "Try to see inside.",
+          "links": [
+            {
+              "id": 10,
+              "title": "Perception (Hearing): \"Dripping water falls from a high pl...\"",
+              "articyId": "0x0100008F0000249F",
+              "text": "Dripping water falls from a high place. All you can see is the shadow of a collapsing staircase.",
+              "links": [
+                {
+                  "id": 3,
+                  "title": "Visual Calculus: \"There's rust and corrosion on the b...\"",
+                  "articyId": "0x010000060001D612",
+                  "text": "There's rust and corrosion on the bars, they're foaming with it. And a small layer of white salt from the sea.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "You: \"\"Lieutenant, can you make out what'...\"",
+          "articyId": "0x0100001600009AFB",
+          "text": "\"Lieutenant, can you make out what's inside?\" (Point at the windows.)",
+          "links": [
+            {
+              "id": 15,
+              "title": "Kim Kitsuragi: \"\"No.\" He shakes his head. The windo...\"",
+              "articyId": "0x0100001600009B05",
+              "text": "\"No.\" He shakes his head. The windows rattle in their frames. \"I won't even try. You know...\" He takes his glasses off.",
+              "links": [
+                {
+                  "id": 17,
+                  "title": "Kim Kitsuragi: \"\"I had a partner once. They called...\"",
+                  "articyId": "0x010000060001D60B",
+                  "text": "\"I had a partner once. They called him Eyes, because he had to show me things. It's that bad.\"",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Empathy: \"This partner of his, Eyes -- things...\"",
+                      "articyId": "0x010000060001D629",
+                      "text": "This partner of his, Eyes -- things didn't end well. It saddens him to say his name. Don't even ask. He wouldn't answer. Maybe some other small talk?",
+                      "links": [
+                        {
+                          "id": 7,
+                          "title": "You: \"\"Can you still shoot, though?\"\"",
+                          "articyId": "0x010000060001D61B",
+                          "text": "\"Can you still shoot, though?\"",
+                          "links": [
+                            {
+                              "id": 2,
+                              "title": "Kim Kitsuragi: \"\"Well enough, actually. It's odd ho...\"",
+                              "articyId": "0x010000060001D633",
+                              "text": "\"Well enough, actually. It's odd how that works. I'm no sharpshooter, but I pass my shooting courses 7 out of 10.\"",
+                              "links": [
+                                {
+                                  "id": 4,
+                                  "title": "Hand/Eye Coordination: \"His hands lead the way when it come...\"",
+                                  "articyId": "0x010000060001D63A",
+                                  "text": "His hands lead the way when it comes to that. And his shoulders. It's reflex.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "title": "You: \"Just nod. [Finish thought.]\"",
+                          "articyId": "0x010000060001D622",
+                          "text": "Just nod. [Finish thought.]",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "You: \"[Finish thought.]\"",
+          "articyId": "0x0100000400015089",
+          "text": "[Finish thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

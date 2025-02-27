@@ -1,0 +1,182 @@
+{
+  "id": "0x0100008900003FFB",
+  "title": "CONTAINERYARD / PANEL",
+  "description": "very likely we need this panel to make mega-rich-light-bendy-guy container move.",
+  "dialogueTree": [
+    {
+      "id": 49,
+      "title": "Crane Control Panel: \"A rusting control panel with severa...\"",
+      "articyId": "0x0100008F00002EBC",
+      "text": "A rusting control panel with several knobs. The words *Marche* and *Arrêt* are -- very, very slightly -- even more faded with use.",
+      "links": [
+        {
+          "id": 33,
+          "title": "You: \"Press *Marche*.\"",
+          "articyId": "0x0100008900004021",
+          "text": "Press *Marche*.",
+          "links": [
+            {
+              "id": 7,
+              "title": "Crane Control Panel: \"No screech of metal when you push t...\"",
+              "articyId": "0x0100008900004058",
+              "text": "No screech of metal when you push the button this time. Only silence, as the crane remains in its state of dormancy.",
+              "links": []
+            },
+            {
+              "id": 9,
+              "title": "Crane Control Panel: \"With a loud grind the crane shifts...\"",
+              "articyId": "0x0100008900004002",
+              "text": "With a loud grind the crane shifts overhead, moving a massive metal container through the air...",
+              "links": [
+                {
+                  "id": 38,
+                  "title": "Crane Control Panel: \"... and with a surprisingly quiet t...\"",
+                  "articyId": "0x01000089000044DF",
+                  "text": "... and with a surprisingly quiet thunk, the crane places the container down.",
+                  "links": [
+                    {
+                      "id": 16,
+                      "title": "Inland Empire: \"This crane was built with a purpose...\"",
+                      "articyId": "0x0100008F00002F9C",
+                      "text": "This crane was built with a purpose which has now been fulfilled -- to move *this* container.",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "You: \"What's inside the container?\"",
+                          "articyId": "0x0100008F00002ED8",
+                          "text": "What's inside the container?",
+                          "links": [
+                            {
+                              "id": 34,
+                              "title": "Inland Empire: \"Who can say? All you know is -- it'...\"",
+                              "articyId": "0x0100008F00002EE4",
+                              "text": "Who can say? All you know is -- it's special.",
+                              "links": [
+                                {
+                                  "id": 23,
+                                  "title": "Kim Kitsuragi: \"\"I can't see how that was worth the...\"",
+                                  "articyId": "0x01000006000185E5",
+                                  "text": "\"I can't see how that was worth the ruckus...\" He looks at the crate. \"Except for seeing the crane in action. Which, I admit, was satisfying.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 22,
+                          "title": "You: \"Understood. Let's get back to the p...\"",
+                          "articyId": "0x0100008F00002EDD",
+                          "text": "Understood. Let's get back to the panel.",
+                          "links": [
+                            {
+                              "id": 31,
+                              "title": "Inland Empire: \"If only you knew...\"",
+                              "articyId": "0x0100008F00002EEE",
+                              "text": "If only you knew...",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 27,
+                          "title": "Interfacing: \"The harbour sleeps as the strike ra...\"",
+                          "articyId": "0x0100008900004580",
+                          "text": "The harbour sleeps as the strike rages in the distance. The crane can rest again, now that its purpose has been fulfilled.",
+                          "links": [
+                            {
+                              "id": 26,
+                              "title": "You: \"Its purpose? What do you mean?\"",
+                              "articyId": "0x0100008900004595",
+                              "text": "Its purpose? What do you mean?",
+                              "links": [
+                                {
+                                  "id": 41,
+                                  "title": "Interfacing: \"Moving *this* container, of course....\"",
+                                  "articyId": "0x0100008900004590",
+                                  "text": "Moving *this* container, of course. For this purpose it was built; for this purpose it has acted. And now it will rest.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 10,
+                              "title": "You: \"Understood. Let's get back to the p...\"",
+                              "articyId": "0x010000890000459A",
+                              "text": "Understood. Let's get back to the panel.",
+                              "links": [
+                                {
+                                  "id": 39,
+                                  "title": "Interfacing: \"The rusty control panel grows warm...\"",
+                                  "articyId": "0x01000089000045A1",
+                                  "text": "The rusty control panel grows warm to the touch. Then grows cold. It is finished.",
+                                  "links": [
+                                    {
+                                      "id": 12,
+                                      "title": "Perception (Smell): \"A faint smell of burning rubber rea...\"",
+                                      "articyId": "0x01000089000045B0",
+                                      "text": "A faint smell of burning rubber reaches your nostrils. A short-circuit.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "You: \"Press *Arrêt*.\"",
+          "articyId": "0x010000890000401C",
+          "text": "Press *Arrêt*.",
+          "links": [
+            {
+              "id": 8,
+              "title": "Crane Control Panel: \"The crane does not return to its or...\"",
+              "articyId": "0x0100008900004070",
+              "text": "The crane does not return to its original position. It does not move at all.",
+              "links": []
+            },
+            {
+              "id": 48,
+              "title": "Crane Control Panel: \"The crane stands tall: proud, erect...\"",
+              "articyId": "0x0100008900004032",
+              "text": "The crane stands tall: proud, erect and *still*.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100008900004028",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Crane Control Panel: \"A rusting control panel with severa...\"",
+      "articyId": "0x010000890000400A",
+      "text": "A rusting control panel with several knobs. Two buttons, marked *Marche* and *Arrêt*, are faded with use. It seems to control the large crane above -- a container is attached to its hook block.",
+      "links": [
+        {
+          "id": 3,
+          "title": "Encyclopedia: \"*Marche* -- On. *Arrêt* -- Off.\"",
+          "articyId": "0x0100008F00002EC3",
+          "text": "*Marche* -- On. *Arrêt* -- Off.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "0x0100006B000025F1",
+  "title": "LAIR ORB / wearing revolutionary hat",
+  "description": "Putting the hat on gives a one time +1 to Mazovian Socio-Economics, you communist failure.",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Rhetoric: \"This hat is so soft, so warm. It wr...\"",
+      "articyId": "0x0100006B00002602",
+      "text": "This hat is so soft, so warm. It wraps around your head... and your mind tingles with all manner of socio-economic theory.",
+      "links": [
+        {
+          "id": 2,
+          "title": "You: \"This is an *ushanka*, right? (Pat t...\"",
+          "articyId": "0x0100001600009B3F",
+          "text": "This is an *ushanka*, right? (Pat the hat.)",
+          "links": [
+            {
+              "id": 3,
+              "title": "Rhetoric: \"Kras Mazov would have worn this ush...\"",
+              "articyId": "0x0100006B00002608",
+              "text": "Kras Mazov would have worn this ushanka. Mazov knew where to cook those thoughts, that's why it bears a Mazovian logo.",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Rhetoric: \"Glory to the Revolution, comrade! W...\"",
+                  "articyId": "0x0100006B0000260D",
+                  "text": "Glory to the Revolution, comrade! Whether you like it or not, wearing this hat has made you more communist.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"Oops, it's a fashion faux pas! [Dis...\"",
+          "articyId": "0x0100001600009B45",
+          "text": "Oops, it's a fashion faux pas! [Discard the thought -- and the hat.]",
+          "links": [
+            {
+              "id": 8,
+              "title": "Rhetoric: \"Let's hope no one saw you wearing t...\"",
+              "articyId": "0x01000021000009F1",
+              "text": "Let's hope no one saw you wearing that outrageously communist hat.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

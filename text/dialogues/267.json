@@ -1,0 +1,1758 @@
+{
+  "id": "0x010000450001BC03",
+  "title": "VILLAGE / LILIENNES TWINS",
+  "description": "You can talk to them before and get nothing, but when you hear the twins have been to the island they tell you details about it.",
+  "dialogueTree": [
+    {
+      "id": 62,
+      "title": "Lilienne's Twin: \"The scruffy-haired little boy kicks...\"",
+      "articyId": "0x010000450001BDCE",
+      "text": "The scruffy-haired little boy kicks a stone while the other watches him do it.",
+      "links": [
+        {
+          "id": 290,
+          "title": "You: \"\"Real quick, boys -- where were you...\"",
+          "articyId": "0x0100004B00001122",
+          "text": "\"Real quick, boys -- where were you when you heard the voices?\"",
+          "links": [
+            {
+              "id": 191,
+              "title": "Lilienne's Twin: \"\"There.\" The boy points toward one...\"",
+              "articyId": "0x0100004B00001127",
+              "text": "\"There.\" The boy points toward one of the ruined monoliths nearby.",
+              "links": [
+                {
+                  "id": 131,
+                  "title": "Lilienne's Other Twin: \"\"We were there.\" The other child no...\"",
+                  "articyId": "0x0100004B0000112C",
+                  "text": "\"We were there.\" The other child nods. The Feld building looms overhead.",
+                  "links": [
+                    {
+                      "id": 113,
+                      "title": "You: \"\"Hah! I knew it!\"\"",
+                      "articyId": "0x0100004B00001680",
+                      "text": "\"Hah! I knew it!\"",
+                      "links": [
+                        {
+                          "id": 108,
+                          "title": "Lilienne's Twin: \"\"Uh-huh!\" one says, throwing a rock...\"",
+                          "articyId": "0x0100004B0000113B",
+                          "text": "\"Uh-huh!\" one says, throwing a rock into the sand.",
+                          "links": [
+                            {
+                              "id": 14,
+                              "title": "Kim Kitsuragi: \"\"Full circle.\" The lieutenant smile...\"",
+                              "articyId": "0x0100004B00001145",
+                              "text": "\"Full circle.\" The lieutenant smiles to himself. \"Back to Feld, then. When you're ready.\"",
+                              "links": [
+                                {
+                                  "id": 132,
+                                  "title": "Lilienne's Other Twin: \"The boy turns the rock over in his...\"",
+                                  "articyId": "0x0100004B00002626",
+                                  "text": "The boy turns the rock over in his hands. He looks to you, then his brother, then back to you.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 152,
+                      "title": "You: \"\"Thanks, kids.\"\"",
+                      "articyId": "0x0100004B00001136",
+                      "text": "\"Thanks, kids.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 151,
+                      "title": "You: \"\"And so I return to thee, Feld.\"\"",
+                      "articyId": "0x0100004B00001131",
+                      "text": "\"And so I return to thee, Feld.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "title": "You: \"\"Okay kids, tell Kim here what happ...\"",
+          "articyId": "0x0100004B00001100",
+          "text": "\"Okay kids, tell Kim here what happened with the voices.\"",
+          "links": [
+            {
+              "id": 38,
+              "title": "Lilienne's Other Twin: \"\"The one we heard say a bad word?\"...\"",
+              "articyId": "0x0100004B00001105",
+              "text": "\"The one we heard say a bad word?\" The boy shrugs. \"Okay. The voices were like...\" He scratches his head -- then seems to remember.",
+              "links": [
+                {
+                  "id": 39,
+                  "title": "Lilienne's Twin: \"\"'It is time at last, my nasty spee...\"",
+                  "articyId": "0x0100004B0000110A",
+                  "text": "\"'It is time at last, my nasty speedfreaks! Our brotherman is about to grow up!'\"",
+                  "links": [
+                    {
+                      "id": 230,
+                      "title": "Lilienne's Other Twin: \"\"'DJ Flacio's big boy debut single...\"",
+                      "articyId": "0x0100004B0000110F",
+                      "text": "\"'DJ Flacio's big boy debut single is here! Buckle up, because this is the fastest trash that you're ever gonna hear.'\"",
+                      "links": [
+                        {
+                          "id": 130,
+                          "title": "Lilienne's Twin: \"\"'Turn up the volume, blow those sp...\"",
+                          "articyId": "0x0100004B00001114",
+                          "text": "\"'Turn up the volume, blow those speakers out. Now here's---'\"",
+                          "links": [
+                            {
+                              "id": 274,
+                              "title": "Kim Kitsuragi: \"\"I understand.\" The lieutenant's ey...\"",
+                              "articyId": "0x0100004B00001119",
+                              "text": "\"I understand.\" The lieutenant's eyes are wide in surprise, despite his calm voice. \"Thank you. Let's have a word when you're finished, detective.\"",
+                              "links": [
+                                {
+                                  "id": 102,
+                                  "title": "Lilienne's Other Twin: \"The boy picks up a rock. Then anoth...\"",
+                                  "articyId": "0x0100004B00002621",
+                                  "text": "The boy picks up a rock. Then another. He looks at you and blinks.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "title": "You: \"\"Hey, boys. Your sister told me you...\"",
+          "articyId": "0x0100004B00000FE5",
+          "text": "\"Hey, boys. Your sister told me you got in trouble for saying bad words.\"",
+          "links": [
+            {
+              "id": 166,
+              "title": "Lilienne's Twin: \"\"Yeah.\" The boy turns a rock over i...\"",
+              "articyId": "0x0100004B00000FEF",
+              "text": "\"Yeah.\" The boy turns a rock over in his hand. \"We heard *bad* words and said them, and got in trouble...\"",
+              "links": [
+                {
+                  "id": 16,
+                  "title": "Lilienne's Other Twin: \"\"Bad words,\" the other says, noddin...\"",
+                  "articyId": "0x0100004B0000270E",
+                  "text": "\"Bad words,\" the other says, nodding absent-mindedly. \"Bad, bad words...\"",
+                  "links": [
+                    {
+                      "id": 211,
+                      "title": "Electrochemistry: \"Say *fuck.* It'd be HILARIOUS.\"",
+                      "articyId": "0x0100004B00000FF9",
+                      "text": "Say *fuck.* It'd be HILARIOUS.",
+                      "links": [
+                        {
+                          "id": 167,
+                          "title": "Horrific Necktie: \"It would be hilarious, my man! Live...\"",
+                          "articyId": "0x0100004B00001003",
+                          "text": "It would be hilarious, my man! Live it up! Say *FUCK!*",
+                          "links": []
+                        },
+                        {
+                          "id": 133,
+                          "title": "Composure: \"Conduct yourself with some dignity....\"",
+                          "articyId": "0x0100004B00002704",
+                          "text": "Conduct yourself with some dignity. You don't need to swear in front of the children.",
+                          "links": [
+                            {
+                              "id": 153,
+                              "title": "Logic: \"Wait! Stop everything. Back this up...\"",
+                              "articyId": "0x0100004B00002709",
+                              "text": "Wait! Stop everything. Back this up. What are *bad words*?",
+                              "links": [
+                                {
+                                  "id": 322,
+                                  "title": "Authority: \"Pipe down Puzzle Face, this is a Co...\"",
+                                  "articyId": "0x0100004B00002757",
+                                  "text": "Pipe down Puzzle Face, this is a Code Red situation! If we review all the *bad words*, that's only going to add more temptation to saying them -- in front of the *children*. And we *do not* want that.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 272,
+                          "title": "You: \"\"Fuck.\"\"",
+                          "articyId": "0x0100004B0000100D",
+                          "text": "\"Fuck.\"",
+                          "links": [
+                            {
+                              "id": 145,
+                              "title": "Volition: \"This is a shame and a disappointmen...\"",
+                              "articyId": "0x0100004B00001017",
+                              "text": "This is a shame and a disappointment.",
+                              "links": []
+                            },
+                            {
+                              "id": 76,
+                              "title": "Lilienne's Other Twin: \"The boy blinks. \"Fffff....\" Despite...\"",
+                              "articyId": "0x0100004B0000101C",
+                              "text": "The boy blinks. \"Fffff....\" Despite his efforts, the unfamiliar word catches in his mouth.",
+                              "links": [
+                                {
+                                  "id": 56,
+                                  "title": "Electrochemistry: \"COME ON BOYS, YOU CAN DO IT!\"",
+                                  "articyId": "0x0100004B00002770",
+                                  "text": "COME ON BOYS, YOU CAN DO IT!",
+                                  "links": [
+                                    {
+                                      "id": 154,
+                                      "title": "Lilienne's Other Twin: \"\"Ff...\" The other boy tries. He loo...\"",
+                                      "articyId": "0x0100004B0000272F",
+                                      "text": "\"Ff...\" The other boy tries. He looks at his brother for understanding, then at you. \"What does that mean?\"",
+                                      "links": [
+                                        {
+                                          "id": 189,
+                                          "title": "Kim Kitsuragi: \"\"Nothing. What happened? Where'd yo...\"",
+                                          "articyId": "0x0100004B00001026",
+                                          "text": "\"Nothing. What happened? Where'd you hear bad words? Was it from someone on the coast? The radio?\"",
+                                          "links": [
+                                            {
+                                              "id": 34,
+                                              "title": "Empathy: \"The lieutenant is deeply unimpresse...\"",
+                                              "articyId": "0x0100004B00001035",
+                                              "text": "The lieutenant is deeply unimpressed.",
+                                              "links": [
+                                                {
+                                                  "id": 84,
+                                                  "title": "Electrochemistry: \"Why does he have to be such a binoc...\"",
+                                                  "articyId": "0x0100004B00002B55",
+                                                  "text": "Why does he have to be such a binoclard? It's just a funny word!",
+                                                  "links": [
+                                                    {
+                                                      "id": 309,
+                                                      "title": "Empathy: \"The boys seem less happy now.\"",
+                                                      "articyId": "0x0100004B0000104E",
+                                                      "text": "The boys seem less happy now.",
+                                                      "links": [
+                                                        {
+                                                          "id": 126,
+                                                          "title": "Lilienne's Other Twin: \"\"We didn't hear that word. We heard...\"",
+                                                          "articyId": "0x0100004B00001053",
+                                                          "text": "\"We didn't hear that word. We heard other bad words...\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 320,
+                                          "title": "You: \"\"It's a bad word. The worst word.\"\"",
+                                          "articyId": "0x0100004B0000102B",
+                                          "text": "\"It's a bad word. The worst word.\"",
+                                          "links": [
+                                            {
+                                              "id": 229,
+                                              "title": "Lilienne's Twin: \"\"Oh...\" The boy looks uncomfortable...\"",
+                                              "articyId": "0x0100004B00001030",
+                                              "text": "\"Oh...\" The boy looks uncomfortable, at the jetty toward his mother.",
+                                              "links": [
+                                                {
+                                                  "id": 323,
+                                                  "title": "Electrochemistry: \"Preach it, brother! Spread the good...\"",
+                                                  "articyId": "0x0100004B00002B5A",
+                                                  "text": "Preach it, brother! Spread the good word *fuck* all over town!",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 275,
+                                          "title": "You: \"\"It's a mystery. You'll have to fin...\"",
+                                          "articyId": "0x0100004B00002717",
+                                          "text": "\"It's a mystery. You'll have to find out yourselves.\"",
+                                          "links": [
+                                            {
+                                              "id": 114,
+                                              "title": "Lilienne's Twin: \"\"Oh...\" The boy looks uncomfortable...\"",
+                                              "articyId": "0x0100004B00002720",
+                                              "text": "\"Oh...\" The boy looks uncomfortable, at the jetty toward his mother.",
+                                              "links": [
+                                                {
+                                                  "id": 115,
+                                                  "title": "Lilienne's Other Twin: \"\"We didn't hear that word. We heard...\"",
+                                                  "articyId": "0x0100004B00002727",
+                                                  "text": "\"We didn't hear that word. We heard other bad words...\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 310,
+                          "title": "You: \"\"Bad words? What bourgeois mentalit...\"",
+                          "articyId": "0x0100004B0000107A",
+                          "text": "\"Bad words? What bourgeois mentality, to deem certain *working class words* bad.\"",
+                          "links": [
+                            {
+                              "id": 190,
+                              "title": "Lilienne's Other Twin: \"\"Bou... what?\" The boy gently tosse...\"",
+                              "articyId": "0x0100004B0000107F",
+                              "text": "\"Bou... what?\" The boy gently tosses his rock at the rock tower, and misses. \"Was that a bad word?\"",
+                              "links": [
+                                {
+                                  "id": 273,
+                                  "title": "You: \"\"Bourgeois? Yes. One of the worst,...\"",
+                                  "articyId": "0x0100004B00001084",
+                                  "text": "\"Bourgeois? Yes. One of the worst, child.\"",
+                                  "links": [
+                                    {
+                                      "id": 334,
+                                      "title": "Lilienne's Twin: \"\"Don't say more bad words!\" The boy...\"",
+                                      "articyId": "0x0100004B0000108E",
+                                      "text": "\"Don't say more bad words!\" The boy frowns.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 36,
+                                  "title": "You: \"\"Nah. I just thought it was funny t...\"",
+                                  "articyId": "0x0100004B00001089",
+                                  "text": "\"Nah. I just thought it was funny to say.\"",
+                                  "links": [
+                                    {
+                                      "id": 100,
+                                      "title": "Lilienne's Other Twin: \"don't know why it's funny...\" The b...\"",
+                                      "articyId": "0x0100004B00001093",
+                                      "text": "don't know why it's funny...\" The boy frowns.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 77,
+                          "title": "You: \"\"Bad words are bad. Don't say them,...\"",
+                          "articyId": "0x0100004B00001058",
+                          "text": "\"Bad words are bad. Don't say them, kids. It's a first step to a life of crime.\"",
+                          "links": [
+                            {
+                              "id": 53,
+                              "title": "Lilienne's Other Twin: \"\"We won't,\" the little boy says. He...\"",
+                              "articyId": "0x0100004B0000105D",
+                              "text": "\"We won't,\" the little boy says. He adjusts his cap in the cool air.",
+                              "links": [
+                                {
+                                  "id": 54,
+                                  "title": "Lilienne's Twin: \"\"We learned,\" the other replies.\"",
+                                  "articyId": "0x0100004B00001062",
+                                  "text": "\"We learned,\" the other replies.",
+                                  "links": [
+                                    {
+                                      "id": 245,
+                                      "title": "Volition: \"Good on you. I know you were tempte...\"",
+                                      "articyId": "0x0100004B0000106C",
+                                      "text": "Good on you. I know you were tempted to shout *fuck*, but you controlled your impulse. Well done.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 35,
+                                      "title": "You: \"\"Let's move on. Where did you hear...\"",
+                                      "articyId": "0x0100004B00001071",
+                                      "text": "\"Let's move on. Where did you hear the bad words -- was it from someone on the coast? The radio?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 321,
+                          "title": "You: \"\"Okay. What happened?\"\"",
+                          "articyId": "0x0100004B00001098",
+                          "text": "\"Okay. What happened?\"",
+                          "links": [
+                            {
+                              "id": 65,
+                              "title": "Lilienne's Other Twin: \"\"We just heard funny voices.\" The b...\"",
+                              "articyId": "0x0100004B0000109D",
+                              "text": "\"We just heard funny voices.\" The boy shrugs. His jacket whispers as his shoulders move.",
+                              "links": [
+                                {
+                                  "id": 246,
+                                  "title": "Lilienne's Twin: \"\"We thought the voices were funny.\"...\"",
+                                  "articyId": "0x0100004B000010A2",
+                                  "text": "\"We thought the voices were funny.\" The brother nods. \"We said what they said and then we got in trouble...\"",
+                                  "links": [
+                                    {
+                                      "id": 127,
+                                      "title": "You: \"\"Where did you hear them? Did you o...\"",
+                                      "articyId": "0x0100004B000010A7",
+                                      "text": "\"Where did you hear them? Did you overhear someone say them? Was it on the radio?\"",
+                                      "links": [
+                                        {
+                                          "id": 262,
+                                          "title": "Lilienne's Twin: \"\"Radio? What's that?\" The boy sniff...\"",
+                                          "articyId": "0x0100004B000010AC",
+                                          "text": "\"Radio? What's that?\" The boy sniffs up a drip of snot. \"We just heard them. In our head.\"",
+                                          "links": [
+                                            {
+                                              "id": 247,
+                                              "title": "Conceptualization: \"Could it be? Do their minds work in...\"",
+                                              "articyId": "0x0100004B000010B1",
+                                              "text": "Could it be? Do their minds work in the same way?",
+                                              "links": [
+                                                {
+                                                  "id": 264,
+                                                  "title": "Inland Empire: \"Voices from another self? Voices fr...\"",
+                                                  "articyId": "0x0100004B00002692",
+                                                  "text": "Voices from another self? Voices from *a deeper self*?  Voices from... *early schizophrenia*?",
+                                                  "links": [
+                                                    {
+                                                      "id": 171,
+                                                      "title": "You: \"\"Voices in your head? Like little b...\"",
+                                                      "articyId": "0x0100004B000010B6",
+                                                      "text": "\"Voices in your head? Like little bleeps and bloops of information?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 128,
+                                                          "title": "Lilienne's Other Twin: \"\"No.\" The boy shakes his head. \"Jus...\"",
+                                                          "articyId": "0x0100004B000010C0",
+                                                          "text": "\"No.\" The boy shakes his head. \"Just people talking real fast.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 146,
+                                                              "title": "You: \"\"Okay. What did you hear?\"\"",
+                                                              "articyId": "0x0100004B000010CA",
+                                                              "text": "\"Okay. What did you hear?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 248,
+                                                                  "title": "Lilienne's Twin: \"\"Uh...\" He scratches his head. He l...\"",
+                                                                  "articyId": "0x0100004B000010CF",
+                                                                  "text": "\"Uh...\" He scratches his head. He looks at his twin, who nods -- and then he begins. \"It was like... 'It is time at last, my nasty speedfreaks! Our brotherman is about to grow up!'\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 263,
+                                                                      "title": "Reaction Speed: \"A memory stirs. You've heard this q...\"",
+                                                                      "articyId": "0x0100004B000010D9",
+                                                                      "text": "A memory stirs. You've heard this quickfire patter before.",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 55,
+                                                                      "title": "Lilienne's Other Twin: \"\"'DJ Flacio's big boy debut single...\"",
+                                                                      "articyId": "0x0100004B000010DE",
+                                                                      "text": "\"'DJ Flacio's big boy debut single is here! Buckle up, because this is the fastest trash that you're ever gonna hear.'\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 335,
+                                                                          "title": "Lilienne's Twin: \"\"'Turn up the volume, blow those sp...\"",
+                                                                          "articyId": "0x0100004B000010E3",
+                                                                          "text": "\"'Turn up the volume, blow those speakers out. Now here's---'\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 150,
+                                                                              "title": "Lilienne's Other Twin: \"\"No!\" The brother cuts in, suddenly...\"",
+                                                                              "articyId": "0x0100004B000010E8",
+                                                                              "text": "\"No!\" The brother cuts in, suddenly and sharply. \"Don't say bad words, stupid!\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 173,
+                                                                                  "title": "Drama: \"Why, what a splendid rendition thes...\"",
+                                                                                  "articyId": "0x0100004B00002631",
+                                                                                  "text": "Why, what a splendid rendition these two rapsssssssssscallions have offered us here today! Faultless memorization! Perchance they'll enjoy greatness as a double-act in the Performing Artsss.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 101,
+                                                                                      "title": "Kim Kitsuragi: \"\"A word when you're done.\" The lieu...\"",
+                                                                                      "articyId": "0x0100004B000010F7",
+                                                                                      "text": "\"A word when you're done.\" The lieutenant clears his throat. His eyes are wider than usual.",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 82,
+                                                                                          "title": "Lilienne's Twin: \"The boy draws a jagged rock across...\"",
+                                                                                          "articyId": "0x0100004B00002616",
+                                                                                          "text": "The boy draws a jagged rock across the ground. It leaves a white scratch.",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 172,
+                                                                                      "title": "Esprit de Corps: \"Elsewhere in Revachol, the Lieutena...\"",
+                                                                                      "articyId": "0x0100004B000010F2",
+                                                                                      "text": "Elsewhere in Revachol, the Lieutenant switches on the radio. His head rocks subtly to a violent track. He needs to hear this story.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 174,
+                                                      "title": "You: \"\"Any family history of schizophreni...\"",
+                                                      "articyId": "0x0100004B0000269A",
+                                                      "text": "\"Any family history of schizophrenia?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 215,
+                                                          "title": "Lilienne's Other Twin: \"\"Is that a bad word?\" The boy blink...\"",
+                                                          "articyId": "0x0100004B0000269F",
+                                                          "text": "\"Is that a bad word?\" The boy blinks at you.",
+                                                          "links": [
+                                                            {
+                                                              "id": 192,
+                                                              "title": "You: \"\"No. Just tell me what you heard.\"\"",
+                                                              "articyId": "0x0100004B000026AD",
+                                                              "text": "\"No. Just tell me what you heard.\"",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 83,
+                                                              "title": "You: \"\"Sure. But what words did you hear?\"\"",
+                                                              "articyId": "0x0100004B000026B3",
+                                                              "text": "\"Sure. But what words did you hear?\"",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 231,
+                                                              "title": "You: \"\"'Fuck' is the bad word, remember?...\"",
+                                                              "articyId": "0x0100004B000026B8",
+                                                              "text": "\"'Fuck' is the bad word, remember? But tell me what you heard.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 289,
+                                                      "title": "You: \"\"What do you mean you 'heard them i...\"",
+                                                      "articyId": "0x0100004B000010BB",
+                                                      "text": "\"What do you mean you 'heard them in your head'?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 129,
+                                                          "title": "Lilienne's Other Twin: \"\"You know.\" He points at his head....\"",
+                                                          "articyId": "0x0100004B000010C5",
+                                                          "text": "\"You know.\" He points at his head. His fingers are red from the cold. \"I heard people talking. Except just in my head!\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 165,
+          "title": "You: \"\"Kids, has anything *strange* happe...\"",
+          "articyId": "0x0100004B00000FEA",
+          "text": "\"Kids, has anything *strange* happened lately?\"",
+          "links": [
+            {
+              "id": 75,
+              "title": "Lilienne's Twin: \"\"Uhm...\" The boy turns a rock over...\"",
+              "articyId": "0x0100004B00000FF4",
+              "text": "\"Uhm...\" The boy turns a rock over in his hand. \"We heard *bad* words and said them, and got in trouble...\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"\"Okay kids. You've been to that isl...\"",
+          "articyId": "0x010000450001BD50",
+          "text": "\"Okay kids. You've been to that island, right?\"",
+          "links": [
+            {
+              "id": 44,
+              "title": "Lilienne's Twin: \"\"On that island?\" The one who's bus...\"",
+              "articyId": "0x010000450001BD57",
+              "text": "\"On that island?\" The one who's busy kicking his stone points to the bay.",
+              "links": [
+                {
+                  "id": 234,
+                  "title": "You: \"\"Yes, that one. I need to know what...\"",
+                  "articyId": "0x010000450001BD5E",
+                  "text": "\"Yes, that one. I need to know what's there.\"",
+                  "links": [
+                    {
+                      "id": 207,
+                      "title": "Lilienne's Twin: \"\"That's... uhm... nothing?\" The boy...\"",
+                      "articyId": "0x010000450001BD80",
+                      "text": "\"That's... uhm... nothing?\" The boy pauses to think with his finger in his mouth. \"It's just a seafort and some plants. You can take a raft there. It's great.\"",
+                      "links": [
+                        {
+                          "id": 73,
+                          "title": "Lilienne's Other Twin: \"\"And! And!\" the other one butts in....\"",
+                          "articyId": "0x010000450001BD86",
+                          "text": "\"And! And!\" the other one butts in. \"We make a fire. We make a... we make a fire.\"",
+                          "links": [
+                            {
+                              "id": 224,
+                              "title": "Lilienne's Twin: \"\"Mhm,\" his brother nods. \"Gather th...\"",
+                              "articyId": "0x010000450001BD8C",
+                              "text": "\"Mhm,\" his brother nods. \"Gather the sticks for the fire -- and bullets. Or not real bullets, empty bullets.\"",
+                              "links": [
+                                {
+                                  "id": 175,
+                                  "title": "Logic: \"Bullet shells? There are a lot of t...\"",
+                                  "articyId": "0x0100007800000462",
+                                  "text": "Bullet shells? There are a lot of them left over from the war -- but this could be important.",
+                                  "links": [
+                                    {
+                                      "id": 103,
+                                      "title": "You: \"\"Wait, you mean *shells*?\"\"",
+                                      "articyId": "0x0100007800000471",
+                                      "text": "\"Wait, you mean *shells*?\"",
+                                      "links": [
+                                        {
+                                          "id": 157,
+                                          "title": "Lilienne's Twin: \"\"I don't know what those are...\"\"",
+                                          "articyId": "0x0100007800000478",
+                                          "text": "\"I don't know what those are...\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 303,
+                                      "title": "You: \"\"What then?\"\"",
+                                      "articyId": "0x010000450001BE0A",
+                                      "text": "\"What then?\"",
+                                      "links": [
+                                        {
+                                          "id": 238,
+                                          "title": "Lilienne's Twin: \"\"There are lights. The fire guy com...\"",
+                                          "articyId": "0x010000450001BE17",
+                                          "text": "\"There are lights. The fire guy comes and asks us to put the fire out.\"",
+                                          "links": [
+                                            {
+                                              "id": 255,
+                                              "title": "Reaction Speed: \"Your nerve endings *sting* from the...\"",
+                                              "articyId": "0x010000450001BE20",
+                                              "text": "Your nerve endings *sting* from the mention of a *guy*.",
+                                              "links": [
+                                                {
+                                                  "id": 239,
+                                                  "title": "Rhetoric: \"They must mean a human being. On th...\"",
+                                                  "articyId": "0x010000450001BE27",
+                                                  "text": "They must mean a human being. On that island? But it's cut off...",
+                                                  "links": [
+                                                    {
+                                                      "id": 332,
+                                                      "title": "You: \"\"Someone lives on the island?\"\"",
+                                                      "articyId": "0x010000450001BD6D",
+                                                      "text": "\"Someone lives on the island?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 299,
+                                                          "title": "Lilienne's Twin: \"\"No,\" the boy answers, shaking his...\"",
+                                                          "articyId": "0x010000450001BD73",
+                                                          "text": "\"No,\" the boy answers, shaking his head vehemently.",
+                                                          "links": [
+                                                            {
+                                                              "id": 72,
+                                                              "title": "Lilienne's Other Twin: \"\"Yes.\" His brother looks at him, th...\"",
+                                                              "articyId": "0x010000450001BD7A",
+                                                              "text": "\"Yes.\" His brother looks at him, then at you.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 29,
+                                                                  "title": "Kim Kitsuragi: \"\"Let's go with *yes*.\" The lieutena...\"",
+                                                                  "articyId": "0x010000450001BE4A",
+                                                                  "text": "\"Let's go with *yes*.\" The lieutenant raises his eyebrows and whips out his notebook.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 98,
+                                                      "title": "You: \"\"Why is he the *fire* guy?\"\"",
+                                                      "articyId": "0x010000450001BD94",
+                                                      "text": "\"Why is he the *fire* guy?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 141,
+                                                          "title": "Lilienne's Twin: \"\"Because.... because...\" The boy pa...\"",
+                                                          "articyId": "0x010000450001BD9A",
+                                                          "text": "\"Because.... because...\" The boy pauses to think.",
+                                                          "links": [
+                                                            {
+                                                              "id": 61,
+                                                              "title": "Lilienne's Other Twin: \"\"Because he asks to put the fire ou...\"",
+                                                              "articyId": "0x010000450001BDA0",
+                                                              "text": "\"Because he asks to put the fire out!\" the other explains.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 45,
+                                                      "title": "You: \"\"Why does he ask you to put the fir...\"",
+                                                      "articyId": "0x010000450001BDA6",
+                                                      "text": "\"Why does he ask you to put the fire out?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 253,
+                                                          "title": "Lilienne's Twin: \"\"Uhm... I don't know. He doesn't li...\"",
+                                                          "articyId": "0x010000450001BDAC",
+                                                          "text": "\"Uhm... I don't know. He doesn't like it. He doesn't like people to be there. You shouldn't go.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 300,
+                                                              "title": "Lilienne's Other Twin: \"\"Yes,\" the other one adds laconical...\"",
+                                                              "articyId": "0x010000450001BDB2",
+                                                              "text": "\"Yes,\" the other one adds laconically, standing with his hands glued to his sides like a little tin soldier.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 286,
+                                                                  "title": "Savoir Faire: \"Because he doesn't want to be found...\"",
+                                                                  "articyId": "0x010000450001BE55",
+                                                                  "text": "Because he doesn't want to be found. Smoke traces...",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 137,
+                                                                      "title": "Half Light: \"A suspicious request. Made out of f...\"",
+                                                                      "articyId": "0x010000060001EE07",
+                                                                      "text": "A suspicious request. Made out of fear?",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 208,
+                                                      "title": "You: \"\"You mentioned something about *lig...\"",
+                                                      "articyId": "0x010000450001BDE4",
+                                                      "text": "\"You mentioned something about *lights*?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 6,
+                                                          "title": "Lilienne's Twin: \"\"I...\" starts one of them -- it's h...\"",
+                                                          "articyId": "0x010000450001BDEA",
+                                                          "text": "\"I...\" starts one of them -- it's hard to tell which one now. \"I don't know.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 254,
+                                                              "title": "Kim Kitsuragi: \"\"Did you mean there are *electrical...\"",
+                                                              "articyId": "0x010000450001BDF6",
+                                                              "text": "\"Did you mean there are *electrical* lights?\" He points to the streetlight.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 302,
+                                                                  "title": "Lilienne's Twin: \"\"Uhm... yes.\" The boy looks at his...\"",
+                                                                  "articyId": "0x010000450001BDFD",
+                                                                  "text": "\"Uhm... yes.\" The boy looks at his toes.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 228,
+                                                      "title": "You: \"\"Is there anything else you can tel...\"",
+                                                      "articyId": "0x010000450001BF4E",
+                                                      "text": "\"Is there anything else you can tell me about this *guy*? Age? Does he live there?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 107,
+                                                          "title": "Lilienne's Twin: \"\"No, he doesn't live there. I don't...\"",
+                                                          "articyId": "0x010000450001BF70",
+                                                          "text": "\"No, he doesn't live there. I don't think.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 142,
+                                                              "title": "Lilienne's Other Twin: \"\"No, he lives there.\" The other nod...\"",
+                                                              "articyId": "0x010000450001BF77",
+                                                              "text": "\"No, he lives there.\" The other nods. \"He's been there twice, two times.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 143,
+                                                                  "title": "Lilienne's Twin: \"\"Huh...\" The first one pauses to th...\"",
+                                                                  "articyId": "0x010000450001BF7E",
+                                                                  "text": "\"Huh...\" The first one pauses to think, then comes to some kind of conclusion. \"He doesn't live there. He isn't there sometimes.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 122,
+                                                                      "title": "Kim Kitsuragi: \"\"Anything else? What does this guy...\"",
+                                                                      "articyId": "0x010000450001BF8B",
+                                                                      "text": "\"Anything else? What does this guy look like?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 51,
+                                                                          "title": "Lilienne's Twin: \"\"I don't know,\" they say almost in...\"",
+                                                                          "articyId": "0x010000450001BF99",
+                                                                          "text": "\"I don't know,\" they say almost in unison.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 319,
+                                                                              "title": "You: \"\"How come?\"\"",
+                                                                              "articyId": "0x010000450001BFA1",
+                                                                              "text": "\"How come?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 288,
+                                                                                  "title": "Lilienne's Other Twin: \"\"We... we ran. He just yelled we sh...\"",
+                                                                                  "articyId": "0x010000450001BFA8",
+                                                                                  "text": "\"We... we ran. He just yelled we shouldn't be there.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 99,
+                                                                      "title": "You: \"\"Anything else? What does this guy...\"",
+                                                                      "articyId": "0x010000450001BF92",
+                                                                      "text": "\"Anything else? What does this guy look like?\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 316,
+                                                      "title": "You: \"\"Your father used to go to that isl...\"",
+                                                      "articyId": "0x010000450001BEA3",
+                                                      "text": "\"Your father used to go to that island too, didn't he?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 287,
+                                                          "title": "Lilienne's Twin: \"\"Our father killed himself.\"\"",
+                                                          "articyId": "0x010000450001BEAA",
+                                                          "text": "\"Our father killed himself.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 30,
+                                                              "title": "Lilienne's Other Twin: \"\"Don't say that. He didn't.\" His br...\"",
+                                                              "articyId": "0x010000450001BEB1",
+                                                              "text": "\"Don't say that. He didn't.\" His brother punches him. The boy's eyes well up like he's about to start crying.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 41,
+                                                                  "title": "Pain Threshold: \"A dull pain flashes through your mi...\"",
+                                                                  "articyId": "0x010000060001EE14",
+                                                                  "text": "A dull pain flashes through your mind.",
+                                                                  "links": []
+                                                                },
+                                                                {
+                                                                  "id": 305,
+                                                                  "title": "You: \"\"It's okay to kill yourself, you kn...\"",
+                                                                  "articyId": "0x010000450001BED0",
+                                                                  "text": "\"It's okay to kill yourself, you know. I'm gonna blow my brains out. Gonna close this one final case and then *blam* -- I'm outta here.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 304,
+                                                                      "title": "Kim Kitsuragi: \"\"Shut up.\" The lieutenant jabs you...\"",
+                                                                      "articyId": "0x010000450001BEBE",
+                                                                      "text": "\"Shut up.\" The lieutenant jabs you in the ribs with his elbow, then turns to the boy...",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 318,
+                                                                          "title": "Kim Kitsuragi: \"\"Don't punch your brother.... pleas...\"",
+                                                                          "articyId": "0x010000450001BF13",
+                                                                          "text": "\"Don't punch your brother.... please. Don't start crying. We still need to ask more questions.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 271,
+                                                                              "title": "Lilienne's Twin: \"\"I'm not gonna start *crying*,\" the...\"",
+                                                                              "articyId": "0x010000450001BF19",
+                                                                              "text": "\"I'm not gonna start *crying*,\" the one who almost started crying snaps, regaining control of his quivering chin.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 209,
+                                                                      "title": "Lilienne's Twin: \"\"Please don't...\" The boy's eyes we...\"",
+                                                                      "articyId": "0x010000450001BF33",
+                                                                      "text": "\"Please don't...\" The boy's eyes well up as he looks at you. They're dark and round. The wind tussles his hair.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 241,
+                                                                          "title": "Lilienne's Other Twin: \"\"Don't start *crying*,\" his brother...\"",
+                                                                          "articyId": "0x010000450001BF3A",
+                                                                          "text": "\"Don't start *crying*,\" his brother says, then, in a whisper, adds: \"I'm sorry.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 306,
+                                                                              "title": "Lilienne's Twin: \"The other boy straightens his back....\"",
+                                                                              "articyId": "0x010000450001BF40",
+                                                                              "text": "The other boy straightens his back. \"I'm not gonna start *crying*, stupid,\" he snaps, regaining control of his quivering chin.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 317,
+                                                                  "title": "You: \"\"Your father did not kill himself.\"\"",
+                                                                  "articyId": "0x010000450001BED6",
+                                                                  "text": "\"Your father did not kill himself.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 31,
+                                                                      "title": "Lilienne's Twin: \"\"I don't know...\" The boy who made...\"",
+                                                                      "articyId": "0x010000450001BF03",
+                                                                      "text": "\"I don't know...\" The boy who made the claim finds himself unsure of it. He looks around.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 307,
+                                                                          "title": "Lilienne's Other Twin: \"The other watches him, brows knitte...\"",
+                                                                          "articyId": "0x010000450001BF54",
+                                                                          "text": "The other watches him, brows knitted. \"It doesn't even have anything to do with this, you. Father isn't the fire guy.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 210,
+                                                                              "title": "Logic: \"The two things are *unconnected*. Y...\"",
+                                                                              "articyId": "0x010000450001BF5B",
+                                                                              "text": "The two things are *unconnected*. Your question didn't make sense.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 227,
+                                                                  "title": "You: \"\"He killed himself all right.\"\"",
+                                                                  "articyId": "0x010000450001BEDC",
+                                                                  "text": "\"He killed himself all right.\"",
+                                                                  "links": []
+                                                                },
+                                                                {
+                                                                  "id": 183,
+                                                                  "title": "You: \"Say nothing.\"",
+                                                                  "articyId": "0x010000450001BEF5",
+                                                                  "text": "Say nothing.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 50,
+                                                                      "title": "Lilienne's Twin: \"\"I'm sorry.\" The one says to the ot...\"",
+                                                                      "articyId": "0x010000450001BEFC",
+                                                                      "text": "\"I'm sorry.\" The one says to the other, rubbing his brother's shoulder affectionately.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 182,
+                                                      "title": "You: \"\"Is that all you know? Is there any...\"",
+                                                      "articyId": "0x010000450001BEE7",
+                                                      "text": "\"Is that all you know? Is there anything more you can tell me about the island?\" (Conclude.)",
+                                                      "links": [
+                                                        {
+                                                          "id": 63,
+                                                          "title": "Lilienne's Twin: \"\"There's a...\" the boy says, rubbin...\"",
+                                                          "articyId": "0x010000450001BEEE",
+                                                          "text": "\"There's a...\" the boy says, rubbing his eyes. It's clear that he has no intention of finishing the sentence.",
+                                                          "links": [
+                                                            {
+                                                              "id": 25,
+                                                              "title": "Kim Kitsuragi: \"\"Lights? Fire guy?\" The lieutenant...\"",
+                                                              "articyId": "0x010000060001EE24",
+                                                              "text": "\"Lights? Fire guy?\" The lieutenant looks at you. \"We should check up on that island and you...\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 328,
+                                                                  "title": "Kim Kitsuragi: \"He whispers: \"You need to keep your...\"",
+                                                                  "articyId": "0x010000060001EE2E",
+                                                                  "text": "He whispers: \"You need to keep your *dark humour* in check in front of children, okay?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 67,
+                                                                      "title": "Esprit de Corps: \"I'm not telling you twice.\"",
+                                                                      "articyId": "0x010000060001EE3D",
+                                                                      "text": "I'm not telling you twice.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 32,
+                                                              "title": "Kim Kitsuragi: \"\"Lights? Fire guy?\" The lieutenant...\"",
+                                                              "articyId": "0x010000450001BFDA",
+                                                              "text": "\"Lights? Fire guy?\" The lieutenant looks at you. \"We should check up on that island.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 268,
+                                      "title": "You: \"\"Mhm.\" (Nod in agreement.)\"",
+                                      "articyId": "0x010000450001BE11",
+                                      "text": "\"Mhm.\" (Nod in agreement.)",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 252,
+                  "title": "You: \"\"No, some other island. *Of course*...\"",
+                  "articyId": "0x010000450001BD64",
+                  "text": "\"No, some other island. *Of course* that one.\"",
+                  "links": [
+                    {
+                      "id": 301,
+                      "title": "Lilienne's Other Twin: \"\"Okay.\" His brother answers for him...\"",
+                      "articyId": "0x010000450001BDB8",
+                      "text": "\"Okay.\" His brother answers for him.",
+                      "links": [
+                        {
+                          "id": 159,
+                          "title": "You: \"\"I need you to tell me what you kno...\"",
+                          "articyId": "0x010000450001BDDC",
+                          "text": "\"I need you to tell me what you know about it -- what's *on* the island?\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 85,
+          "title": "You: \"\"I heard you kids sometimes play in...\"",
+          "articyId": "0x0100005A00010125",
+          "text": "\"I heard you kids sometimes play in the abandoned Feld building?\"",
+          "links": [
+            {
+              "id": 156,
+              "title": "Lilienne's Twin: \"\"What's a Feld building?\" one of th...\"",
+              "articyId": "0x0100005A0001013B",
+              "text": "\"What's a Feld building?\" one of the twins asks with a shrug.",
+              "links": [
+                {
+                  "id": 324,
+                  "title": "Lilienne's Other Twin: \"\"Nah, we don't go anywhere, nah,\" t...\"",
+                  "articyId": "0x0100005A0001014C",
+                  "text": "\"Nah, we don't go anywhere, nah,\" the other mumbles.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 291,
+              "title": "Lilienne's Twin: \"\"I dunno what you're talking about....\"",
+              "articyId": "0x0100005A00010135",
+              "text": "\"I dunno what you're talking about.\" The boy stuffs his hands deep into his pockets and kicks another rock.",
+              "links": [
+                {
+                  "id": 232,
+                  "title": "Lilienne's Other Twin: \"\"He dunno what you're talking about...\"",
+                  "articyId": "0x0100005A00010141",
+                  "text": "\"He dunno what you're talking about.\" The other nods.",
+                  "links": [
+                    {
+                      "id": 86,
+                      "title": "You: \"\"Do *you* know what I'm talking abo...\"",
+                      "articyId": "0x0100005A00010154",
+                      "text": "\"Do *you* know what I'm talking about?\"",
+                      "links": [
+                        {
+                          "id": 66,
+                          "title": "Lilienne's Twin: \"\"He dunno what you're talking about...\"",
+                          "articyId": "0x0100005A00010162",
+                          "text": "\"He dunno what you're talking about,\" the first kid says loudly. Or you think it's the first kid -- it could be the second.",
+                          "links": [
+                            {
+                              "id": 20,
+                              "title": "Lilienne's Other Twin: \"\"I dunno what you're talking about,...\"",
+                              "articyId": "0x0100005A0001016A",
+                              "text": "\"I dunno what you're talking about,\" the other kid nods along.",
+                              "links": [
+                                {
+                                  "id": 116,
+                                  "title": "You: \"\"You're not helping me..\"\"",
+                                  "articyId": "0x0100005A00010177",
+                                  "text": "\"You're not helping me..\"",
+                                  "links": [
+                                    {
+                                      "id": 193,
+                                      "title": "Lilienne's Twin: \"\"Ha ha, I dunno what you're talking...\"",
+                                      "articyId": "0x0100005A000101DA",
+                                      "text": "\"Ha ha, I dunno what you're talking about.\" One of the boys shrugs his shoulders and starts laughing.",
+                                      "links": [
+                                        {
+                                          "id": 57,
+                                          "title": "Perception (Hearing): \"It's a purposefully shrill laugh. L...\"",
+                                          "articyId": "0x010000810000661E",
+                                          "text": "It's a purposefully shrill laugh. Like he's practised it for the express purpose of annoying people.",
+                                          "links": [
+                                            {
+                                              "id": 87,
+                                              "title": "Conceptualization: \"Are there actually two of them? Are...\"",
+                                              "articyId": "0x0100008100006626",
+                                              "text": "Are there actually two of them? Are you sure you're not just hallucinating or seeing double?",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 249,
+                                  "title": "You: \"\"Bye.\" [Leave.]\"",
+                                  "articyId": "0x0100005A000101D0",
+                                  "text": "\"Bye.\" [Leave.]",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 311,
+                      "title": "You: \"\"Bye.\" [Leave.]\"",
+                      "articyId": "0x0100005A00010159",
+                      "text": "\"Bye.\" [Leave.]",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"\"Kids, have you seen any bad people...\"",
+          "articyId": "0x0100002100000B21",
+          "text": "\"Kids, have you seen any bad people around?\"",
+          "links": [
+            {
+              "id": 233,
+              "title": "Lilienne's Twin: \"\"What bad people?\" One of the twins...\"",
+              "articyId": "0x0100002100000B28",
+              "text": "\"What bad people?\" One of the twins looks up, his mouth slightly open.",
+              "links": [
+                {
+                  "id": 216,
+                  "title": "Kim Kitsuragi: \"\"I don't think questioning four-yea...\"",
+                  "articyId": "0x0100002100000B35",
+                  "text": "\"I don't think questioning four-year-olds without their parents present is gonna crack the case,\" says the lieutenant.",
+                  "links": [
+                    {
+                      "id": 104,
+                      "title": "Authority: \"Then we're *definitely* doing it.\"",
+                      "articyId": "0x010000060001C8F0",
+                      "text": "Then we're *definitely* doing it.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 329,
+                  "title": "You: \"\"Bad people. Criminals. Dangerous w...\"",
+                  "articyId": "0x0100002100000B3C",
+                  "text": "\"Bad people. Criminals. Dangerous women.\"",
+                  "links": [
+                    {
+                      "id": 200,
+                      "title": "Lilienne's Other Twin: \"\"No, we're not really supposed to t...\"",
+                      "articyId": "0x0100002100000B42",
+                      "text": "\"No, we're not really supposed to talk to strangers, you know.\" The other twin shakes his head.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"\"Hey, where is your mom?\"\"",
+          "articyId": "0x0100002100000B0E",
+          "text": "\"Hey, where is your mom?\"",
+          "links": [
+            {
+              "id": 176,
+              "title": "Lilienne's Twin: \"The kids don't reply, absorbed in t...\"",
+              "articyId": "0x0100002100000B14",
+              "text": "The kids don't reply, absorbed in their little game.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "title": "You: \"\"You must be Lilienne's twins.\"\"",
+          "articyId": "0x010000450001BC20",
+          "text": "\"You must be Lilienne's twins.\"",
+          "links": [
+            {
+              "id": 106,
+              "title": "Lilienne's Twin: \"\"Mhm. Lily's our mom,\" says one of...\"",
+              "articyId": "0x010000450001BE68",
+              "text": "\"Mhm. Lily's our mom,\" says one of the twins.",
+              "links": []
+            },
+            {
+              "id": 282,
+              "title": "Lilienne's Twin: \"This one doesn't say anything, kick...\"",
+              "articyId": "0x010000450001BC39",
+              "text": "This one doesn't say anything, kicking the concrete with his worn-out sneaker.",
+              "links": [
+                {
+                  "id": 217,
+                  "title": "Lilienne's Other Twin: \"\"Lily's our mom,\" explains the othe...\"",
+                  "articyId": "0x010000450001BC3F",
+                  "text": "\"Lily's our mom,\" explains the other one, tongue still lolling out of his mouth.",
+                  "links": [
+                    {
+                      "id": 265,
+                      "title": "You: \"\"I already said that.\"\"",
+                      "articyId": "0x010000450001BC46",
+                      "text": "\"I already said that.\"",
+                      "links": [
+                        {
+                          "id": 139,
+                          "title": "Lilienne's Twin: \"The stone-kicker laughs suddenly. H...\"",
+                          "articyId": "0x010000450001BC5A",
+                          "text": "The stone-kicker laughs suddenly. His head is too large for his shoulders.",
+                          "links": [
+                            {
+                              "id": 314,
+                              "title": "Lilienne's Other Twin: \"The other one laughs as well.\"",
+                              "articyId": "0x010000450001BC61",
+                              "text": "The other one laughs as well.",
+                              "links": [
+                                {
+                                  "id": 218,
+                                  "title": "Inland Empire: \"Maybe there's some kind of reason w...\"",
+                                  "articyId": "0x010000450001BC69",
+                                  "text": "Maybe there's some kind of reason why they're laughing? An interesting reason somehow tied to the case!",
+                                  "links": [
+                                    {
+                                      "id": 250,
+                                      "title": "You: \"\"What are you laughing about?\"\"",
+                                      "articyId": "0x010000450001BC76",
+                                      "text": "\"What are you laughing about?\"",
+                                      "links": [
+                                        {
+                                          "id": 117,
+                                          "title": "Lilienne's Twin: \"The boy stops laughing and looks at...\"",
+                                          "articyId": "0x010000450001BD38",
+                                          "text": "The boy stops laughing and looks at his toes.",
+                                          "links": [
+                                            {
+                                              "id": 292,
+                                              "title": "Half Light: \"Oh, okay. So now he's *shy*. Now he...\"",
+                                              "articyId": "0x0100008100006668",
+                                              "text": "Oh, okay. So now he's *shy*. Now he's not talking, just wobbling around like he's afraid of something.",
+                                              "links": [
+                                                {
+                                                  "id": 194,
+                                                  "title": "Logic: \"You will never get an answer. That'...\"",
+                                                  "articyId": "0x010000780000044D",
+                                                  "text": "You will never get an answer. That's how it is with these little idiots.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 26,
+                                      "title": "You: \"I don't care.\"",
+                                      "articyId": "0x010000450001BC7C",
+                                      "text": "I don't care.",
+                                      "links": [
+                                        {
+                                          "id": 140,
+                                          "title": "Lilienne's Twin: \"The boy keeps laughing. Then he bow...\"",
+                                          "articyId": "0x010000450001BD40",
+                                          "text": "The boy keeps laughing. Then he bows down to inspect the rock as though there's something noteworthy about it.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 90,
+                                      "title": "Logic: \"Wow, so intellectually stimulating.\"",
+                                      "articyId": "0x010000060001C8F8",
+                                      "text": "Wow, so intellectually stimulating.",
+                                      "links": [
+                                        {
+                                          "id": 327,
+                                          "title": "Physical Instrument: \"The stone-kicking isn't even of ver...\"",
+                                          "articyId": "0x010000060001C901",
+                                          "text": "The stone-kicking isn't even of very high calibre. Anyone can do that.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 202,
+                      "title": "You: \"\"Bye.\" [Leave.]\"",
+                      "articyId": "0x010000450001BC4C",
+                      "text": "\"Bye.\" [Leave.]",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 325,
+          "title": "You: \"\"Is little Lily your sister?\" (Poin...\"",
+          "articyId": "0x010000060000E5BC",
+          "text": "\"Is little Lily your sister?\" (Point to the house.)",
+          "links": [
+            {
+              "id": 40,
+              "title": "Lilienne's Twin: \"\"Yes.\"\"",
+              "articyId": "0x010000060000E5C3",
+              "text": "\"Yes.\"",
+              "links": [
+                {
+                  "id": 89,
+                  "title": "You: \"\"Yes?\"\"",
+                  "articyId": "0x010000060000E5CA",
+                  "text": "\"Yes?\"",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Lilienne's Twin: \"\"Yes.\"\"",
+                      "articyId": "0x010000060000E5D0",
+                      "text": "\"Yes.\"",
+                      "links": [
+                        {
+                          "id": 326,
+                          "title": "You: \"\"That's it? You're being laconic ab...\"",
+                          "articyId": "0x010000060000E5D6",
+                          "text": "\"That's it? You're being laconic about it?\"",
+                          "links": [
+                            {
+                              "id": 58,
+                              "title": "Lilienne's Twin: \"It doesn't look like he knows what...\"",
+                              "articyId": "0x010000060000E5DC",
+                              "text": "It doesn't look like he knows what that means.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 59,
+                  "title": "You: \"\"Okay.\"\"",
+                  "articyId": "0x010000060000E5EB",
+                  "text": "\"Okay.\"",
+                  "links": [
+                    {
+                      "id": 293,
+                      "title": "Lilienne's Twin: \"\"Yes.\"\"",
+                      "articyId": "0x010000060000E5F2",
+                      "text": "\"Yes.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "title": "You: \"\"You guys look identical.\"\"",
+          "articyId": "0x010000450001BC26",
+          "text": "\"You guys look identical.\"",
+          "links": [
+            {
+              "id": 160,
+              "title": "Lilienne's Twin: \"One of the boys nods, the other one...\"",
+              "articyId": "0x010000450001BE81",
+              "text": "One of the boys nods, the other one looks at his brother and shrugs.",
+              "links": []
+            },
+            {
+              "id": 315,
+              "title": "Lilienne's Twin: \"The stone-kicking one becomes frant...\"",
+              "articyId": "0x010000450001BC98",
+              "text": "The stone-kicking one becomes frantic all of a sudden, as if that's something to be scared of -- the obvious fact that you just stated.",
+              "links": [
+                {
+                  "id": 219,
+                  "title": "Lilienne's Other Twin: \"\"He looks just like me,\" the other...\"",
+                  "articyId": "0x010000450001BC9F",
+                  "text": "\"He looks just like me,\" the other one says.",
+                  "links": [
+                    {
+                      "id": 220,
+                      "title": "You: \"\"Yeah, I said that.\"\"",
+                      "articyId": "0x010000450001BCA6",
+                      "text": "\"Yeah, I said that.\"",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Lilienne's Other Twin: \"The boy doesn't answer. His brother...\"",
+                          "articyId": "0x010000450001BCBA",
+                          "text": "The boy doesn't answer. His brother throws another rock. Both of their hair is covered in some kind of dirt.",
+                          "links": [
+                            {
+                              "id": 158,
+                              "title": "Composure: \"The rock-kicker was just being *shy...\"",
+                              "articyId": "0x010000810000662E",
+                              "text": "The rock-kicker was just being *shy*, but now he's enthusiastic again.",
+                              "links": [
+                                {
+                                  "id": 296,
+                                  "title": "Kim Kitsuragi: \"\"You're bad with kids,\" the lieuten...\"",
+                                  "articyId": "0x010000450001BCC7",
+                                  "text": "\"You're bad with kids,\" the lieutenant remarks with evident glee.",
+                                  "links": [
+                                    {
+                                      "id": 297,
+                                      "title": "You: \"\"I am, yes.\"\"",
+                                      "articyId": "0x010000450001BCD5",
+                                      "text": "\"I am, yes.\"",
+                                      "links": [
+                                        {
+                                          "id": 221,
+                                          "title": "Kim Kitsuragi: \"\"Don't worry, everyone is.\" He look...\"",
+                                          "articyId": "0x010000450001BCEB",
+                                          "text": "\"Don't worry, everyone is.\" He looks at the little scruffian, then at you. \"How about we do some police work now? We're not getting anything here.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 331,
+                                      "title": "You: \"\"And what are you, Kid Master Gener...\"",
+                                      "articyId": "0x010000450001BCDD",
+                                      "text": "\"And what are you, Kid Master General?\"",
+                                      "links": [
+                                        {
+                                          "id": 251,
+                                          "title": "Kim Kitsuragi: \"\"Maybe I am?\" He grins. \"Now, how a...\"",
+                                          "articyId": "0x010000450001BCE3",
+                                          "text": "\"Maybe I am?\" He grins. \"Now, how about some actual police work? We're not getting anything here.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 330,
+                                      "title": "You: \"\"It's impossible to be *good* with...\"",
+                                      "articyId": "0x010000450001BCCF",
+                                      "text": "\"It's impossible to be *good* with kids, they're too stupid.\"",
+                                      "links": [
+                                        {
+                                          "id": 222,
+                                          "title": "Kim Kitsuragi: \"\"You're right there.\" He looks at t...\"",
+                                          "articyId": "0x010000450001BCF1",
+                                          "text": "\"You're right there.\" He looks at the little scruffian, then at you. \"Let's see if we can find some police work, shall we? We're not getting anything here.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 69,
+                      "title": "You: \"\"Bye.\" [Leave.]\"",
+                      "articyId": "0x010000450001BCB3",
+                      "text": "\"Bye.\" [Leave.]",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "title": "You: \"\"Children are stupid.\"\"",
+          "articyId": "0x010000450001BC2C",
+          "text": "\"Children are stupid.\"",
+          "links": [
+            {
+              "id": 259,
+              "title": "Lilienne's Twin: \"\"Maybe *you're* stupid!\"\"",
+              "articyId": "0x010000450001BFC0",
+              "text": "\"Maybe *you're* stupid!\"",
+              "links": [
+                {
+                  "id": 52,
+                  "title": "Lilienne's Other Twin: \"\"Don't say that, he's a *po-leees o...\"",
+                  "articyId": "0x010000450001BFC7",
+                  "text": "\"Don't say that, he's a *po-leees oooffi-ser*,\" his brother whispers.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 295,
+              "title": "Lilienne's Twin: \"\"Ha-ha,\" the scruffy-haired little...\"",
+              "articyId": "0x010000450001BC84",
+              "text": "\"Ha-ha,\" the scruffy-haired little kid laughs, as though in agreement.",
+              "links": [
+                {
+                  "id": 266,
+                  "title": "Lilienne's Other Twin: \"\"You're stupid,\" the other one tell...\"",
+                  "articyId": "0x010000450001BC8B",
+                  "text": "\"You're stupid,\" the other one tells him, suddenly very serious.",
+                  "links": [
+                    {
+                      "id": 74,
+                      "title": "You: \"\"Okay, how about the policeman asks...\"",
+                      "articyId": "0x010000450001BE8D",
+                      "text": "\"Okay, how about the policeman asks you something else now?\"",
+                      "links": [
+                        {
+                          "id": 226,
+                          "title": "Lilienne's Twin: \"\"Okay.\" The scruffy-haired boy squi...\"",
+                          "articyId": "0x010000450001BE93",
+                          "text": "\"Okay.\" The scruffy-haired boy squints up at you.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 70,
+                      "title": "You: \"\"I'm just gonna leave now. I'm gonn...\"",
+                      "articyId": "0x010000450001BCFD",
+                      "text": "\"I'm just gonna leave now. I'm gonna leave and not talk to you anymore.\" [Leave.]",
+                      "links": [
+                        {
+                          "id": 71,
+                          "title": "Lilienne's Twin: \"Just a second ago, the first one wa...\"",
+                          "articyId": "0x010000450001BD0C",
+                          "text": "Just a second ago, the first one was laughing. Now he's doing something with his lip and his gap tooth.",
+                          "links": [
+                            {
+                              "id": 88,
+                              "title": "Empathy: \"It looks like he's *sad*. Because y...\"",
+                              "articyId": "0x0100008100006660",
+                              "text": "It looks like he's *sad*. Because you're going or... who knows, really?",
+                              "links": [
+                                {
+                                  "id": 203,
+                                  "title": "Logic: \"There's no *system* to this.\"",
+                                  "articyId": "0x010000450001BD13",
+                                  "text": "There's no *system* to this.",
+                                  "links": [
+                                    {
+                                      "id": 298,
+                                      "title": "You: \"\"You're being *random*!\"\"",
+                                      "articyId": "0x010000450001BD20",
+                                      "text": "\"You're being *random*!\"",
+                                      "links": [
+                                        {
+                                          "id": 27,
+                                          "title": "Lilienne's Twin: \"\"You're stupid,\" the other one repe...\"",
+                                          "articyId": "0x010000450001BD2E",
+                                          "text": "\"You're stupid,\" the other one repeats, still deathly serious.",
+                                          "links": [
+                                            {
+                                              "id": 281,
+                                              "title": "Rhetoric: \"The secrets of understanding the to...\"",
+                                              "articyId": "0x0100000700011F27",
+                                              "text": "The secrets of understanding the tongues of children have been lost to you a long time ago.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 267,
+                                      "title": "You: \"\"Bye.\" [Leave.]\"",
+                                      "articyId": "0x010000450001BD26",
+                                      "text": "\"Bye.\" [Leave.]",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 223,
+                      "title": "You: \"\"Bye.\" [Leave.]\"",
+                      "articyId": "0x010000450001BD03",
+                      "text": "\"Bye.\" [Leave.]",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 294,
+          "title": "You: \"\"Bye kids, take care.\" [Leave.]\"",
+          "articyId": "0x010000450001BC32",
+          "text": "\"Bye kids, take care.\" [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "title": "Lilienne's Twin: \"The scruffy-haired little boy kicks...\"",
+      "articyId": "0x010000450001BC0C",
+      "text": "The scruffy-haired little boy kicks a stone. He can't be more than five years old.",
+      "links": [
+        {
+          "id": 312,
+          "title": "Lilienne's Other Twin: \"The other one looks indistinguishab...\"",
+          "articyId": "0x010000450001BC13",
+          "text": "The other one looks indistinguishable from him. He watches his brother kick the stone with his tongue lolling out of his mouth.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

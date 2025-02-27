@@ -1,0 +1,152 @@
+{
+  "id": "0x010000580001A4B2",
+  "title": "LIFELINE / HEART ATTACK",
+  "description": "When you lose enough Health (Endurance), you have a heart attack. This is the freebie/tutorial.",
+  "dialogueTree": [
+    {
+      "id": 15,
+      "title": "Endurance: \"You feel something in your chest. A...\"",
+      "articyId": "0x010000580001A632",
+      "text": "You feel something in your chest. An unnatural pressure. It's spreading to your left arm, your jaw...",
+      "links": [
+        {
+          "id": 34,
+          "title": "Savoir Faire: \"Well, this feels familiar.\"",
+          "articyId": "0x010000580001A50A",
+          "text": "Well, this feels familiar.",
+          "links": []
+        },
+        {
+          "id": 24,
+          "title": "Pain Threshold: \"We've been here before. You've got...\"",
+          "articyId": "0x010000580001A536",
+          "text": "We've been here before. You've got this.",
+          "links": [
+            {
+              "id": 9,
+              "title": "Endurance: \"Nope, sorry, you don't. Not this ti...\"",
+              "articyId": "0x010000580001A542",
+              "text": "Nope, sorry, you don't. Not this time.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "title": "Half Light: \"Fucking shit, I'm scared. What do I...\"",
+          "articyId": "0x010000580001A53C",
+          "text": "Fucking shit, I'm scared. What do I do? Who do I call?",
+          "links": [
+            {
+              "id": 20,
+              "title": "Composure: \"Don't go grabbing at your chest and...\"",
+              "articyId": "0x010000580001A530",
+              "text": "Don't go grabbing at your chest and screaming bloody murder. Keep your cool. Remember -- looking good always makes you feel better.",
+              "links": [
+                {
+                  "id": 22,
+                  "title": "You: \"So I'm guessing this is bad.\"",
+                  "articyId": "0x010000580001A504",
+                  "text": "So I'm guessing this is bad.",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Endurance: \"Very. *Very* bad. *This is the end*...\"",
+                      "articyId": "0x010000580001A510",
+                      "text": "Very. *Very* bad. *This is the end* bad.",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Physical Instrument: \"Get it together, boy. You've gotta...\"",
+                          "articyId": "0x010000580001A57A",
+                          "text": "Get it together, boy. You've gotta hold on, no matter how bad...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 23,
+                  "title": "You: \"I'm sure it's just heartburn. Oh go...\"",
+                  "articyId": "0x010000580001A51C",
+                  "text": "I'm sure it's just heartburn. Oh god...",
+                  "links": [
+                    {
+                      "id": 19,
+                      "title": "Endurance: \"No. It's many years of combined sel...\"",
+                      "articyId": "0x010000580001A524",
+                      "text": "No. It's many years of combined self-neglect and self-abuse.",
+                      "links": [
+                        {
+                          "id": 11,
+                          "title": "You: \"Try to remain conscious.\"",
+                          "articyId": "0x010000580001A5C4",
+                          "text": "Try to remain conscious.",
+                          "links": [
+                            {
+                              "id": 21,
+                              "title": "Endurance: \"All you feel is pain and weakness....\"",
+                              "articyId": "0x010000580001A5A2",
+                              "text": "All you feel is pain and weakness. You have to surrender now. We all do, it gets *so* dark. You don't even see her face, like you always thought you would. You only see pain and fear.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "title": "You: \"Let it all go.\"",
+                          "articyId": "0x010000580001A655",
+                          "text": "Let it all go.",
+                          "links": [
+                            {
+                              "id": 4,
+                              "title": "Endurance: \"There's no shame in surrendering no...\"",
+                              "articyId": "0x010000580001A65B",
+                              "text": "There's no shame in surrendering now. We all do, it gets *so* dark. You don't even see her face, like you always thought you would. You only see pain and fear.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 32,
+                  "title": "You: \"\"Help.. someone...\"\"",
+                  "articyId": "0x010000060001E7D8",
+                  "text": "\"Help.. someone...\"",
+                  "links": [
+                    {
+                      "id": 6,
+                      "title": "Endurance: \"Yeah, screaming isn't happening on...\"",
+                      "articyId": "0x010000580001A574",
+                      "text": "Yeah, screaming isn't happening on account of extreme shortness of breath. You're just making it worse. Oh god, it's painful...",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "You: \"The end of the world is here.\"",
+                  "articyId": "0x010000580001A553",
+                  "text": "The end of the world is here.",
+                  "links": [
+                    {
+                      "id": 35,
+                      "title": "Endurance: \"Don't think this is a sign of anyth...\"",
+                      "articyId": "0x010000580001A54D",
+                      "text": "Don't think this is a sign of anything other than your heart failing.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

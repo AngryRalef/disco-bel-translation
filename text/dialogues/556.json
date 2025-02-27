@@ -1,0 +1,60 @@
+{
+  "id": "0x0100008F00002897",
+  "title": "BOOKSTORE ORB / bookstorerug",
+  "description": "Second Shivers in the coat quest. Points you to the Harbour. Normal diff.",
+  "dialogueTree": [
+    {
+      "id": 6,
+      "title": "Shivers: \"Please, hear me… Please...\"",
+      "articyId": "0x0100008F0000289E",
+      "text": "Please, hear me… Please...",
+      "links": [
+        {
+          "id": 7,
+          "title": "You: \"Yes, I am here! What must I do?\"",
+          "articyId": "0x0100008F000028AB",
+          "text": "Yes, I am here! What must I do?",
+          "links": [
+            {
+              "id": 9,
+              "title": "Shivers: \"Listen within the place of industry...\"",
+              "articyId": "0x0100008F000028B7",
+              "text": "Listen within the place of industry, where power and structure join perfectly… My power here is too weak...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"I'm here, just like you asked. What...\"",
+          "articyId": "0x0100008F000028A3",
+          "text": "I'm here, just like you asked. What do you want?",
+          "links": [
+            {
+              "id": 8,
+              "title": "Shivers: \"I want to be found... But I need to...\"",
+              "articyId": "0x0100008F000028BD",
+              "text": "I want to be found... But I need to be heard... Listen within the place of industry, where power and structure join perfectly…",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"You again?! Come on, what's this al...\"",
+          "articyId": "0x0100008F000028B1",
+          "text": "You again?! Come on, what's this all about?",
+          "links": [
+            {
+              "id": 5,
+              "title": "Shivers: \"It's about union and reunion... But...\"",
+              "articyId": "0x0100008F000028C3",
+              "text": "It's about union and reunion... But I am weak... Listen within the place of industry, where power and structure join perfectly…",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

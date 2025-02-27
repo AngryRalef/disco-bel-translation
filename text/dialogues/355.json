@@ -1,0 +1,336 @@
+{
+  "id": "0x010000570001D993",
+  "title": "FRITTE / SHIMMERING WALL OF VICES",
+  "description": "Alcohol + cigarettes behind the counter.",
+  "dialogueTree": [
+    {
+      "id": 12,
+      "title": "Shimmering Wall of Vices: \"A colourful display of cigarettes a...\"",
+      "articyId": "0x010000570001D99C",
+      "text": "A colourful display of cigarettes and alcohol bottles lines the shop wall, inviting you closer.",
+      "links": [
+        {
+          "id": 6,
+          "title": "Frittte clerk: \"\"Again, I'm obliged to inform you t...\"",
+          "articyId": "0x0100005700022E1B",
+          "text": "\"Again, I'm obliged to inform you that both alcohol and cigarettes damage your health.\"",
+          "links": [
+            {
+              "id": 61,
+              "title": "You: \"\"Please, tell me more about these p...\"",
+              "articyId": "0x0100005700022F75",
+              "text": "\"Please, tell me more about these products.\"",
+              "links": [
+                {
+                  "id": 13,
+                  "title": "Frittte clerk: \"\"Um, the pale-aged vodka is special...\"",
+                  "articyId": "0x0100005700022F7B",
+                  "text": "\"Um, the pale-aged vodka is special, I guess. It's stored in pale for a couple of years, which makes it super expensive and super strong.\"",
+                  "links": [
+                    {
+                      "id": 9,
+                      "title": "You: \"\"What is pale?\"\"",
+                      "articyId": "0x0100000600018434",
+                      "text": "\"What is pale?\"",
+                      "links": [
+                        {
+                          "id": 29,
+                          "title": "Frittte clerk: \"\"You know...\" She shrugs, uninteres...\"",
+                          "articyId": "0x010000060001843A",
+                          "text": "\"You know...\" She shrugs, uninterested in explaining it further.",
+                          "links": [
+                            {
+                              "id": 2,
+                              "title": "Electrochemistry: \"Don't worry your pretty little head...\"",
+                              "articyId": "0x010000060001F69A",
+                              "text": "Don't worry your pretty little head about it. Let's concentrate on what's IMPORTANT here.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 38,
+                      "title": "You: \"\"Okay. What will consuming this stu...\"",
+                      "articyId": "0x0100008F000031C0",
+                      "text": "\"Okay. What will consuming this stuff do to my *body*?\"",
+                      "links": [
+                        {
+                          "id": 50,
+                          "title": "Frittte clerk: \"\"I mean, I already said it'd hurt y...\"",
+                          "articyId": "0x0100008F000031F1",
+                          "text": "\"I mean, I already said it'd hurt you? I don't know what else they do.\" She stares at  you, unsure.",
+                          "links": [
+                            {
+                              "id": 56,
+                              "title": "Tutorial Agent: \"Substances give powerful bonuses to...\"",
+                              "articyId": "0x0100000800001155",
+                              "text": "Substances give powerful bonuses to your main stats, at the cost of damage to your Health or Morale. CIGARETTES raise your INTELLECT while damaging your Health, ALCOHOL raises PHYSIQUE while damaging your Morale.",
+                              "links": [
+                                {
+                                  "id": 18,
+                                  "title": "Tutorial Agent: \"Use medication (like NOSAPHED and M...\"",
+                                  "articyId": "0x010000080000115C",
+                                  "text": "Use medication (like NOSAPHED and MAGNESIUM) to counteract the negative effects of substances. NOTE! Consuming substances can have unforeseen consequences for you.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 36,
+                      "title": "You: \"\"Thanks for your answer.\"\"",
+                      "articyId": "0x0100008F000031C6",
+                      "text": "\"Thanks for your answer.\"",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Frittte clerk: \"\"Sure.\" She tilts her head back at...\"",
+                          "articyId": "0x0100008F000031E9",
+                          "text": "\"Sure.\" She tilts her head back at the shelf. \"So... are you going to buy anything, or...?\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 62,
+              "title": "You: \"\"Do you sell any... under the count...\"",
+              "articyId": "0x0100008F000031AE",
+              "text": "\"Do you sell any... under the counter vices?\"",
+              "links": [
+                {
+                  "id": 59,
+                  "title": "Frittte clerk: \"\"No.\" She fixes her hair underneath...\"",
+                  "articyId": "0x0100008F000031B4",
+                  "text": "\"No.\" She fixes her hair underneath her cap. \"Frittte only sells legal drugs, like the law says.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 37,
+              "title": "You: \"\"Do you sell speed at this establis...\"",
+              "articyId": "0x0100008F00003075",
+              "text": "\"Do you sell speed at this establishment?\"",
+              "links": [
+                {
+                  "id": 60,
+                  "title": "Frittte clerk: \"\"... Huh? Speed, like... *speed* sp...\"",
+                  "articyId": "0x0100008F00003300",
+                  "text": "\"... Huh? Speed, like... *speed* speed? No, Frittte doesn't do that...\" She blinks at you, bewildered.",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "Kim Kitsuragi: \"\"Of course not,\" the lieutenant say...\"",
+                      "articyId": "0x0100008F00003318",
+                      "text": "\"Of course not,\" the lieutenant says, glaring at you. \"Frittte is an establishment that acts within the law. Is that all, detective?\"",
+                      "links": []
+                    },
+                    {
+                      "id": 20,
+                      "title": "Electrochemistry: \"Bah! What's the point if they don't...\"",
+                      "articyId": "0x0100008F00003306",
+                      "text": "Bah! What's the point if they don't even sell the *good* drugs?",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 48,
+              "title": "You: \"\"Give me Commodore Red wine.\"\"",
+              "articyId": "0x0100005700022C62",
+              "text": "\"Give me Commodore Red wine.\"",
+              "links": [
+                {
+                  "id": 35,
+                  "title": "Frittte clerk: \"\"Here you go, mister.\"\"",
+                  "articyId": "0x0100000500002989",
+                  "text": "\"Here you go, mister.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 30,
+              "title": "You: \"\"Give me pale-aged vodka.\"\"",
+              "articyId": "0x0100005700022C68",
+              "text": "\"Give me pale-aged vodka.\"",
+              "links": [
+                {
+                  "id": 16,
+                  "title": "Frittte clerk: \"\"Here you go, mister.\"\"",
+                  "articyId": "0x010000050000298F",
+                  "text": "\"Here you go, mister.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 21,
+              "title": "You: \"\"Give me Potent Pilsner beer.\"\"",
+              "articyId": "0x0100005700022C6E",
+              "text": "\"Give me Potent Pilsner beer.\"",
+              "links": [
+                {
+                  "id": 31,
+                  "title": "Frittte clerk: \"\"Here you go, mister.\"\"",
+                  "articyId": "0x0100005700022CA6",
+                  "text": "\"Here you go, mister.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 22,
+              "title": "You: \"\"Give me Astra cigarettes.\"\"",
+              "articyId": "0x0100005700022C74",
+              "text": "\"Give me Astra cigarettes.\"",
+              "links": [
+                {
+                  "id": 58,
+                  "title": "Frittte clerk: \"\"Here you go, mister.\"\"",
+                  "articyId": "0x0100000500002995",
+                  "text": "\"Here you go, mister.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 26,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x0100005700022C80",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "title": "Perception (Sight): \"The bottles wink at you in the ligh...\"",
+          "articyId": "0x010000060001F67E",
+          "text": "The bottles wink at you in the light. The smokes too glitter in their wrapping. It's like looking into a kind of heaven. Your knees are weak...",
+          "links": [
+            {
+              "id": 55,
+              "title": "Electrochemistry: \"There, in that dark green glass, a...\"",
+              "articyId": "0x010000060001F685",
+              "text": "There, in that dark green glass, a world of ruby, all in vain! The great flowing river of warmth: Wine-alcohol. Beer-alcohol. Love-alcohol.",
+              "links": [
+                {
+                  "id": 51,
+                  "title": "You: \"\"I am in Heaven. I need it all so b...\"",
+                  "articyId": "0x0100008F000032B4",
+                  "text": "\"I am in Heaven. I need it all so bad.\"",
+                  "links": [
+                    {
+                      "id": 64,
+                      "title": "Frittte clerk: \"\"Um... Sure. If you want something,...\"",
+                      "articyId": "0x0100008F000032D0",
+                      "text": "\"Um... Sure. If you want something, I can get it for you. Just let me know and pay and stuff...\" She adjusts her hat.",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "Frittte clerk: \"\"But I'm obliged to inform you that...\"",
+                          "articyId": "0x0100008F000032D6",
+                          "text": "\"But I'm obliged to inform you that both alcohol and cigarettes damage your health. But I guess you already know that.\"",
+                          "links": [
+                            {
+                              "id": 45,
+                              "title": "Volition: \"Don't ask, don't look, don't do *an...\"",
+                              "articyId": "0x010000060001F6A3",
+                              "text": "Don't ask, don't look, don't do *anything* here. Just go away. Get back to work.",
+                              "links": [
+                                {
+                                  "id": 17,
+                                  "title": "Electrochemistry: \"Know this -- you will never finish...\"",
+                                  "articyId": "0x010000060001F6AD",
+                                  "text": "Know this -- you will never finish your alcohol *quest* if you don't buy beautiful alcohol.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 14,
+                  "title": "You: \"(Say nothing. Just take it in.)\"",
+                  "articyId": "0x0100008F000032C2",
+                  "text": "(Say nothing. Just take it in.)",
+                  "links": [
+                    {
+                      "id": 10,
+                      "title": "Conceptualization: \"The beauty, the truth, the poetry o...\"",
+                      "articyId": "0x010000060001F692",
+                      "text": "The beauty, the truth, the poetry of it all...",
+                      "links": [
+                        {
+                          "id": 44,
+                          "title": "Frittte clerk: \"\"I'm obliged to inform you that bot...\"",
+                          "articyId": "0x0100008F000032C9",
+                          "text": "\"I'm obliged to inform you that both alcohol and cigarettes damage your health,\" she comments as you eye the goods behind her, \"but I guess you already know that.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 63,
+                  "title": "You: \"\"This is *not* a good place for a r...\"",
+                  "articyId": "0x0100008F000032BB",
+                  "text": "\"This is *not* a good place for a recovering addict.\"",
+                  "links": [
+                    {
+                      "id": 57,
+                      "title": "Frittte clerk: \"\"Um... Guess not, no.\" She looks at...\"",
+                      "articyId": "0x0100008F000032E3",
+                      "text": "\"Um... Guess not, no.\" She looks at the wall of goods behind her, then adjusts her hat.",
+                      "links": [
+                        {
+                          "id": 28,
+                          "title": "Electrochemistry: \"Good thing you're an *unrecovering*...\"",
+                          "articyId": "0x010000040001502F",
+                          "text": "Good thing you're an *unrecovering* alcoholic then!",
+                          "links": [
+                            {
+                              "id": 19,
+                              "title": "Frittte clerk: \"\"I'm obliged to inform you that bot...\"",
+                              "articyId": "0x0100008F000032E9",
+                              "text": "\"I'm obliged to inform you that both alcohol and cigarettes damage your health. But I guess you already know that.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 8,
+                  "title": "You: \"Not right now. [Leave.]\"",
+                  "articyId": "0x010000040001504D",
+                  "text": "Not right now. [Leave.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

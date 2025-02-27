@@ -1,0 +1,2224 @@
+{
+  "id": "0x0100002F0000FC5B",
+  "title": "BOARDWALK / TRANT HEIDELSTAM INTRO",
+  "description": "Trant Heidelstam is chilling near the FELD building, with kid, piggy-bank. You can:\n1. Learn about the FELD building.\n2. Get useless advice.",
+  "dialogueTree": [
+    {
+      "id": 314,
+      "title": "Trant Heidelstam: \"\"Hello! Isn't this a fine morning?\"...\"",
+      "articyId": "0x0100007100003E7B",
+      "text": "\"Hello! Isn't this a fine morning?\" He nods to you, smiling.",
+      "links": [
+        {
+          "id": 152,
+          "title": "You: \"\"Have you been talking to other pol...\"",
+          "articyId": "0x010000580000C464",
+          "text": "\"Have you been talking to other police officers?\"",
+          "links": [
+            {
+              "id": 248,
+              "title": "Trant Heidelstam: \"\"Me? Yes, at some point, I'm sure I...\"",
+              "articyId": "0x010000580000C7A2",
+              "text": "\"Me? Yes, at some point, I'm sure I have. There was this one rather, uh,\" he stops, smiling at the reminiscence, \"*memorable instance* when I had a chance to meet the head of Dominion Police of Königstein.\"",
+              "links": [
+                {
+                  "id": 389,
+                  "title": "Trant Heidelstam: \"\"And, as you know, they have this v...\"",
+                  "articyId": "0x010000570001D69C",
+                  "text": "\"And, as you know, they have this very distinctive dress uniform with scarlet breeches and little cylindrical fur caps, I think these are called...\" You daze off, as Trant tells you about the peculiarities of mounted police forces in central Occident.",
+                  "links": [
+                    {
+                      "id": 303,
+                      "title": "Reaction Speed: \"Wait, what was it that you wanted t...\"",
+                      "articyId": "0x01000011000013AF",
+                      "text": "Wait, what was it that you wanted to ask...?",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 247,
+          "title": "You: \"\"Do you have any advice on how to c...\"",
+          "articyId": "0x010000580000C46A",
+          "text": "\"Do you have any advice on how to climb that ladder?\" (Point to the one next to the mural.)",
+          "links": [
+            {
+              "id": 391,
+              "title": "Trant Heidelstam: \"\"How to climb that ladder, you say?...\"",
+              "articyId": "0x010000580000C7AA",
+              "text": "\"How to climb that ladder, you say?\" He turns around, eyeing the bleak metal bars next to the giant mural. \"I do know that the Lomanthangs used *sticks* to climb battlements, there's even a special technique for that.\"",
+              "links": [
+                {
+                  "id": 181,
+                  "title": "You: \"\"Can you teach me? Do you have the...\"",
+                  "articyId": "0x010000570001D6F3",
+                  "text": "\"Can you teach me? Do you have the sticks with you?\"",
+                  "links": [
+                    {
+                      "id": 128,
+                      "title": "Trant Heidelstam: \"\"No-no,\" he says, immediately backi...\"",
+                      "articyId": "0x010000570001D700",
+                      "text": "\"No-no,\" he says, immediately backing off, \"I'm just speculating *theoretically* here... Of course, there's also the method ancient Iilmaraans used to get into the huts of their enemies.\"",
+                      "links": [
+                        {
+                          "id": 280,
+                          "title": "You: \"\"Wicked cool, can you tell me about...\"",
+                          "articyId": "0x010000570001D70F",
+                          "text": "\"Wicked cool, can you tell me about this method?\"",
+                          "links": [
+                            {
+                              "id": 418,
+                              "title": "Trant Heidelstam: \"\"If I'm not mistaken then it involv...\"",
+                              "articyId": "0x010000570001D71A",
+                              "text": "\"If I'm not mistaken then it involved months of following a very rigid exercise regimen. No, *years*...\"",
+                              "links": [
+                                {
+                                  "id": 328,
+                                  "title": "You: \"\"But I don't have years to spare.\"\"",
+                                  "articyId": "0x010000570001D721",
+                                  "text": "\"But I don't have years to spare.\"",
+                                  "links": [
+                                    {
+                                      "id": 44,
+                                      "title": "Trant Heidelstam: \"\"In this case I suggest looking int...\"",
+                                      "articyId": "0x010000570001D736",
+                                      "text": "\"In this case I suggest looking into the Seolite *invisibles* class. The word refers to their remarkable ability to traverse any environment in the most efficient way possible. There's this excellent investigative piece of journalism by...\"",
+                                      "links": [
+                                        {
+                                          "id": 63,
+                                          "title": "You: \"\"I don't have time to read any pape...\"",
+                                          "articyId": "0x010000570001D743",
+                                          "text": "\"I don't have time to read any papers. Don't you have any *practical* advice?\"",
+                                          "links": [
+                                            {
+                                              "id": 45,
+                                              "title": "Trant Heidelstam: \"\"Yes, I have!\" His face lights up w...\"",
+                                              "articyId": "0x010000570001D757",
+                                              "text": "\"Yes, I have!\" His face lights up with excitement, bringing out the subtle laugh lines in the corner of his eyes. \"There was this one time where I...\"",
+                                              "links": [
+                                                {
+                                                  "id": 98,
+                                                  "title": "Inland Empire: \"Oh no. You've made *el bigo mistako...\"",
+                                                  "articyId": "0x010000570001D77C",
+                                                  "text": "Oh no. You've made *el bigo mistako*. He's going to go on forever!",
+                                                  "links": [
+                                                    {
+                                                      "id": 198,
+                                                      "title": "Rhetoric: \"Mark my words, all of this somehow...\"",
+                                                      "articyId": "0x010000570001D783",
+                                                      "text": "Mark my words, all of this somehow ties to the history of Occidential financial markets.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 307,
+                                          "title": "You: \"\"You know what, forget about it.\"\"",
+                                          "articyId": "0x010000570001D73D",
+                                          "text": "\"You know what, forget about it.\"",
+                                          "links": [
+                                            {
+                                              "id": 308,
+                                              "title": "Trant Heidelstam: \"\"Actually no, I should not forget i...\"",
+                                              "articyId": "0x010000570001D748",
+                                              "text": "\"Actually no, I should not forget it, I should look into it myself, there are some really interesting techniques...\" He stops, as Trant Heidelstam junior jerks his coat hem with an excited, almost silly look on his face.",
+                                              "links": [
+                                                {
+                                                  "id": 110,
+                                                  "title": "Mikael Heidelstam: \"\"Dad, can I go climb that ladder?\"...\"",
+                                                  "articyId": "0x010000080000111C",
+                                                  "text": "\"Dad, can I go climb that ladder?\" Mikael asks. \"I want to go climb that ladder!\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 129,
+                                                      "title": "Trant Heidelstam: \"\"No, that doesn't sound like a very...\"",
+                                                      "articyId": "0x010000570001D771",
+                                                      "text": "\"No, that doesn't sound like a very reasonable idea,\" replies Trant, narrowing his eyes, \"physics, remember? But anyway...\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 304,
+                                          "title": "You: \"\"Okay, I'll look into that then.\"\"",
+                                          "articyId": "0x01000016000093CC",
+                                          "text": "\"Okay, I'll look into that then.\"",
+                                          "links": [
+                                            {
+                                              "id": 361,
+                                              "title": "Trant Heidelstam: \"\"Okay. I have some materials at hom...\"",
+                                              "articyId": "0x01000016000093D3",
+                                              "text": "\"Okay. I have some materials at home I could share with you...\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 315,
+                                          "title": "You: \"\"The Lo Manthang thing was enough f...\"",
+                                          "articyId": "0x0100000600014883",
+                                          "text": "\"The Lo Manthang thing was enough for me. I'm inspired.\"",
+                                          "links": [
+                                            {
+                                              "id": 330,
+                                              "title": "Trant Heidelstam: \"\"Great. Great to hear that.\"\"",
+                                              "articyId": "0x010000060001488A",
+                                              "text": "\"Great. Great to hear that.\"",
+                                              "links": [
+                                                {
+                                                  "id": 66,
+                                                  "title": "Volition: \"Inspiration can go a long way in ph...\"",
+                                                  "articyId": "0x0100000600014892",
+                                                  "text": "Inspiration can go a long way in physical endeavours. You should try it again now.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 327,
+                          "title": "You: \"\"Yes, but we're not really dealing...\"",
+                          "articyId": "0x010000570001D715",
+                          "text": "\"Yes, but we're not really dealing with *huts* here, are we?\" (Look at the building.)",
+                          "links": [
+                            {
+                              "id": 14,
+                              "title": "Trant Heidelstam: \"\"From an evolutionary point of view...\"",
+                              "articyId": "0x010000570001D728",
+                              "text": "\"From an evolutionary point of view you could see this building as a logical conclusion to the more traditional *hut*.\"",
+                              "links": [
+                                {
+                                  "id": 97,
+                                  "title": "You: \"\"No, not really.\"\"",
+                                  "articyId": "0x010000570001D72F",
+                                  "text": "\"No, not really.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 99,
+                                  "title": "You: \"\"You know this is not what I meant.\"\"",
+                                  "articyId": "0x0100005700023DFF",
+                                  "text": "\"You know this is not what I meant.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 182,
+                  "title": "You: \"\"Something tells me I'm not going t...\"",
+                  "articyId": "0x010000570001D6F9",
+                  "text": "\"Something tells me I'm not going to climb the ladder with Lo Manthang sticks.\"",
+                  "links": [
+                    {
+                      "id": 62,
+                      "title": "Trant Heidelstam: \"\"Then there's also the method of cl...\"",
+                      "articyId": "0x010000570001D708",
+                      "text": "\"Then there's also the method of climbing that the ancient Iilmaraans used to get into the huts of their enemies.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 250,
+          "title": "You: \"\"Do you know of an *alternative* wa...\"",
+          "articyId": "0x0100000600014C32",
+          "text": "\"Do you know of an *alternative* way into the building?\"",
+          "links": [
+            {
+              "id": 270,
+              "title": "Trant Heidelstam: \"\"Alternative? I don't even have a *...\"",
+              "articyId": "0x0100000600014C39",
+              "text": "\"Alternative? I don't even have a *mainstream* way in, I'm afraid, although...\" He points over the guardrail, to the sewage run-off there.",
+              "links": [
+                {
+                  "id": 85,
+                  "title": "Trant Heidelstam: \"\"There's a sewage pipe there, maybe...\"",
+                  "articyId": "0x0100000600014C40",
+                  "text": "\"There's a sewage pipe there, maybe that does something? Sorry I can't help more.\"",
+                  "links": [
+                    {
+                      "id": 108,
+                      "title": "Physical Instrument: \"Pipes *can* be broken. With force.\"",
+                      "articyId": "0x0100000600014C4C",
+                      "text": "Pipes *can* be broken. With force.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 305,
+          "title": "You: \"\"I'm looking for a suspect. Have yo...\"",
+          "articyId": "0x0100002100000BA5",
+          "text": "\"I'm looking for a suspect. Have you seen anyone suspicious around?\"",
+          "links": [
+            {
+              "id": 219,
+              "title": "Trant Heidelstam: \"\"No, I'm afraid I can't help you wi...\"",
+              "articyId": "0x0100002100000BAB",
+              "text": "\"No, I'm afraid I can't help you with this one, officer. It's just a regular day off for me and Mikael here.\" He pats his son's head.",
+              "links": [
+                {
+                  "id": 48,
+                  "title": "Kim Kitsuragi: \"\"So you haven't seen anyone around?\"\"",
+                  "articyId": "0x010000060001D6D3",
+                  "text": "\"So you haven't seen anyone around?\"",
+                  "links": [
+                    {
+                      "id": 402,
+                      "title": "Trant Heidelstam: \"\"No, I'm sorry. As I said -- this i...\"",
+                      "articyId": "0x010000060001D6D9",
+                      "text": "\"No, I'm sorry. As I said -- this is just a day off. We just arrived anyway.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 251,
+                  "title": "Empathy: \"There's something friendly and fami...\"",
+                  "articyId": "0x010000060001D6E0",
+                  "text": "There's something friendly and familiar in how he says that. A day off.",
+                  "links": [
+                    {
+                      "id": 348,
+                      "title": "Drama: \"He's telling the truth. He hasn't s...\"",
+                      "articyId": "0x010000060001D6E6",
+                      "text": "He's telling the truth. He hasn't seen anyone.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 390,
+          "title": "You: \"\"I want to hear about the Feld buil...\"",
+          "articyId": "0x010000570001D904",
+          "text": "\"I want to hear about the Feld building again...\"",
+          "links": [
+            {
+              "id": 130,
+              "title": "Trant Heidelstam: \"\"Sure, what's on your mind?\"\"",
+              "articyId": "0x010000570001D90A",
+              "text": "\"Sure, what's on your mind?\"",
+              "links": [
+                {
+                  "id": 367,
+                  "title": "You: \"\"You're saying that Feld Electrical...\"",
+                  "articyId": "0x010000580000C708",
+                  "text": "\"You're saying that Feld Electrical built this boardwalk?\" (Look under your feet.)",
+                  "links": [
+                    {
+                      "id": 419,
+                      "title": "Trant Heidelstam: \"\"Yes, they even built a pleasure wh...\"",
+                      "articyId": "0x010000570001D841",
+                      "text": "\"Yes, they even built a pleasure wheel, but that got destroyed in the war.\"",
+                      "links": [
+                        {
+                          "id": 56,
+                          "title": "Kim Kitsuragi: \"\"A pleasure wheel?\" The lieutenant...\"",
+                          "articyId": "0x01000011000012E1",
+                          "text": "\"A pleasure wheel?\" The lieutenant looks wistfully at the horizon, as if picturing gondolas rising to the sky.",
+                          "links": [
+                            {
+                              "id": 134,
+                              "title": "Empathy: \"Perhaps reminded of a childhood mem...\"",
+                              "articyId": "0x010000060001D697",
+                              "text": "Perhaps reminded of a childhood memory? It's clear he would prefer there were a big wheel lighting up the coast.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 350,
+                          "title": "Mikael Heidelstam: \"\"A wheel?\" The kid looks wistfully...\"",
+                          "articyId": "0x0100000800001124",
+                          "text": "\"A wheel?\" The kid looks wistfully at the horizon, as if picturing gondolas rising to the sky.",
+                          "links": [
+                            {
+                              "id": 149,
+                              "title": "Trant Heidelstam: \"\"Yes. To lure in their star enginee...\"",
+                              "articyId": "0x010000570001D855",
+                              "text": "\"Yes. To lure in their star engineers. This part of Martinaise was nothing but reeds before Feld arrived. They had to make the prospect of living here *attractive*. It was supposed to become a global centre for innovation in cybernetics -- but history had other plans.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 105,
+                  "title": "You: \"\"What happened to the engineers, th...\"",
+                  "articyId": "0x010000580000C70E",
+                  "text": "\"What happened to the engineers, the company people?\"",
+                  "links": [
+                    {
+                      "id": 133,
+                      "title": "Trant Heidelstam: \"\"Oh, I'm afraid it didn't end well...\"",
+                      "articyId": "0x010000580000C732",
+                      "text": "\"Oh, I'm afraid it didn't end well for the boys.\" He smiles again, as if he's somehow personally responsible for this bleak turn of events. \"But this story is a bit too *dark* for little Mikael here. Now if you were to ask about *tape computers*...\"",
+                      "links": [
+                        {
+                          "id": 234,
+                          "title": "Rhetoric: \"He means that 'the boys' got shot b...\"",
+                          "articyId": "0x010000110000127F",
+                          "text": "He means that 'the boys' got shot by the communists. 'The boys' were bourgeois.",
+                          "links": [
+                            {
+                              "id": 120,
+                              "title": "You: \"(Turn to Mikael.) \"He means they al...\"",
+                              "articyId": "0x010000110000129B",
+                              "text": "(Turn to Mikael.) \"He means they all got shot in the head because they were bourgeois. Now, do you know what the bourgeoisie is?\"",
+                              "links": [
+                                {
+                                  "id": 380,
+                                  "title": "Trant Heidelstam: \"\"Officer!\" He sounds disappointed....\"",
+                                  "articyId": "0x01000011000012B6",
+                                  "text": "\"Officer!\" He sounds disappointed. \"I told you this chapter of history wasn't on Mikael's curriculum yet. Let's keep this kid-friendly.\"",
+                                  "links": [
+                                    {
+                                      "id": 142,
+                                      "title": "Mikael Heidelstam: \"The boy looks first at you, then ba...\"",
+                                      "articyId": "0x01000011000012C4",
+                                      "text": "The boy looks first at you, then back at his father, confused.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 235,
+                              "title": "You: \"(Turn to Mikael.) \"He means they al...\"",
+                              "articyId": "0x01000011000012A2",
+                              "text": "(Turn to Mikael.) \"He means they all died at the hands of the communists.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 302,
+                              "title": "You: \"\"Tape computers, right.\"\"",
+                              "articyId": "0x01000011000012A9",
+                              "text": "\"Tape computers, right.\"",
+                              "links": [
+                                {
+                                  "id": 16,
+                                  "title": "Trant Heidelstam: \"\"Tape computers.\" He nods, wind tou...\"",
+                                  "articyId": "0x010000570001D812",
+                                  "text": "\"Tape computers.\" He nods, wind tousling his suit jacket.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 335,
+                          "title": "Rhetoric: \"Wait, is he saying that we should j...\"",
+                          "articyId": "0x0100001100001285",
+                          "text": "Wait, is he saying that we should just *bypass* the excesses of the Revolution?",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 84,
+                  "title": "You: \"\"What did the revolutionaries do wi...\"",
+                  "articyId": "0x010000580000C714",
+                  "text": "\"What did the revolutionaries do with those advanced tape computers?\"",
+                  "links": [
+                    {
+                      "id": 17,
+                      "title": "Trant Heidelstam: \"\"They used them for military commun...\"",
+                      "articyId": "0x010000570001D940",
+                      "text": "\"They used them for military communications,\" he says, while his son looks up, idly chewing on the corner of his würm-themed colouring book. \"But also to write and send out press releases. The most notorious example being Le Décret de Mars.\"",
+                      "links": [
+                        {
+                          "id": 343,
+                          "title": "You: \"\"What was that?\"\"",
+                          "articyId": "0x010000570001D954",
+                          "text": "\"What was that?\"",
+                          "links": [
+                            {
+                              "id": 282,
+                              "title": "Trant Heidelstam: \"\"What's the March decree? I mean th...\"",
+                              "articyId": "0x010000570001D946",
+                              "text": "\"What's the March decree? I mean the radio transmission sent out to news agencies and world governments by the newly-created Commune of Revachol on the 7th of March in the year '02.\"",
+                              "links": [
+                                {
+                                  "id": 287,
+                                  "title": "Encyclopedia: \"A short-lived legislative foundatio...\"",
+                                  "articyId": "0x010000060001D69F",
+                                  "text": "A short-lived legislative foundation for a short-lived utopia.",
+                                  "links": [
+                                    {
+                                      "id": 184,
+                                      "title": "Trant Heidelstam: \"\"It's a beautiful piece of text, ac...\"",
+                                      "articyId": "0x010000570001D964",
+                                      "text": "\"It's a beautiful piece of text, actually. A singer-songwriter I know -- Charette -- called it a love poem to Revachol on her political concept album 'Bons baisers d'Insulinde'. You should read it. Every local library in Revachol stocks a copy of the decree.\"",
+                                      "links": [
+                                        {
+                                          "id": 262,
+                                          "title": "Trant Heidelstam: \"\"I tried to get Mikael to memorise...\"",
+                                          "articyId": "0x010000570001D95C",
+                                          "text": "\"I tried to get Mikael to memorise it.\" He looks at his son, who starts giggling, his face hidden behind the book. \"*Tried to*. Someone was much too interested in würms to be paying any attention.\"",
+                                          "links": [
+                                            {
+                                              "id": 36,
+                                              "title": "Perception (Sight): \"The kid takes a peek at the green a...\"",
+                                              "articyId": "0x010000060001D6A7",
+                                              "text": "The kid takes a peek at the green and silver würm on the cover of the book. Already forgetting about this part of the discussion.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 254,
+                  "title": "You: \"\"How did those tape computers work?\"\"",
+                  "articyId": "0x01000011000011C5",
+                  "text": "\"How did those tape computers work?\"",
+                  "links": [
+                    {
+                      "id": 344,
+                      "title": "Trant Heidelstam: \"\"Actually, no one knows. No one eve...\"",
+                      "articyId": "0x010000580000C767",
+                      "text": "\"Actually, no one knows. No one even knows what a computer made entirely of tape would look like! But word has it they were *very elegant* -- exquisite, alien-looking turn-of-the-century hardware...\" He raises his finger, remembering something.",
+                      "links": [
+                        {
+                          "id": 316,
+                          "title": "Encyclopedia: \"Buckle up!\"",
+                          "articyId": "0x010000060001D6AF",
+                          "text": "Buckle up!",
+                          "links": [
+                            {
+                              "id": 231,
+                              "title": "Trant Heidelstam: \"\"Ten years ago, I did a little... f...\"",
+                              "articyId": "0x01000011000011D1",
+                              "text": "\"Ten years ago, I did a little... freelancing, I guess you could say. I was a special consultant for an exhibition at the Wompty-Dompty-Dom Centre in Vredefort, Oranje. It raised the same questions, and we had lengthy discussions with Paul Ockermann, who was head curator at the time -- this was before the twins Keith and Guy Joost joined the team -- trying to...\"",
+                              "links": [
+                                {
+                                  "id": 321,
+                                  "title": "Reaction Speed: \"Wait. Did he just say *Wompty-Dompt...\"",
+                                  "articyId": "0x01000011000011D8",
+                                  "text": "Wait. Did he just say *Wompty-Dompty-Dom Centre*?",
+                                  "links": [
+                                    {
+                                      "id": 117,
+                                      "title": "Suggestion: \"He did it! He said *Wompty-Dompty-D...\"",
+                                      "articyId": "0x01000011000011DF",
+                                      "text": "He did it! He said *Wompty-Dompty-Dom Centre* like it's the most natural thing in the world.",
+                                      "links": [
+                                        {
+                                          "id": 322,
+                                          "title": "Encyclopedia: \"What the hell *is* a Wompty-Dompty-...\"",
+                                          "articyId": "0x01000011000011E5",
+                                          "text": "What the hell *is* a Wompty-Dompty-Dom Centre? And who the hell are Keith and Guy Joost?!",
+                                          "links": [
+                                            {
+                                              "id": 331,
+                                              "title": "Physical Instrument: \"This is all ninsy-pinsy garbage for...\"",
+                                              "articyId": "0x010000060001D6B9",
+                                              "text": "This is all ninsy-pinsy garbage for sissy-people!",
+                                              "links": [
+                                                {
+                                                  "id": 379,
+                                                  "title": "You: \"\"Okay. The Wompty-Dompty-Dom Centre...\"",
+                                                  "articyId": "0x01000011000011F4",
+                                                  "text": "\"Okay. The Wompty-Dompty-Dom Centre? Paul Ockermann? Keith and Guy Joost? What are you *talking* about?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 141,
+                                                      "title": "Trant Heidelstam: \"\"The Wompty-Dompty-Dom Centre for C...\"",
+                                                      "articyId": "0x0100001100001217",
+                                                      "text": "\"The Wompty-Dompty-Dom Centre for Contemporary Arts.\" There it is again -- those words. \"The exhibition itself drew on Lagerman's notion of memory and so there were some parallels, that's why the head curator Paul Ockermann chose to...\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 9,
+                                                          "title": "You: \"\"You're making this up.\" (Turn to t...\"",
+                                                          "articyId": "0x0100001100001224",
+                                                          "text": "\"You're making this up.\" (Turn to the lieutenant.) \"Kim, is he making this up?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 10,
+                                                              "title": "Trant Heidelstam: \"\"In fact, I'm not. The Wompty-Dompt...\"",
+                                                              "articyId": "0x0100001100001239",
+                                                              "text": "\"In fact, I'm not. The Wompty-Dompty-Dom Centre,\" he says casually, \"is a place you can visit if you're ever in Vredefort, and are ever in the market for an exhibition space slash contemporary art research centre.\" He clears his throat.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 238,
+                                                                  "title": "Trant Heidelstam: \"\"But perhaps I should return to the...\"",
+                                                                  "articyId": "0x0100001600009385",
+                                                                  "text": "\"But perhaps I should return to the tape computers. As I was saying, the device itself was very elegant, fragile even. One could write directly on the tape using a special chemical solution. The machine would then analyse the handwriting, perform operations and project output onto a white screen. It was a beautiful, delicate thing.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 109,
+                                                                      "title": "Conceptualization: \"Made of black film and folding tape...\"",
+                                                                      "articyId": "0x010000060001D6C2",
+                                                                      "text": "Made of black film and folding tape structures...",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 324,
+                                                                          "title": "You: \"(Nod.) \"Cool.\"\"",
+                                                                          "articyId": "0x010000160000938E",
+                                                                          "text": "(Nod.) \"Cool.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 232,
+                                                                              "title": "Trant Heidelstam: \"\"Very, very cool,\" he agrees. \"Thou...\"",
+                                                                              "articyId": "0x010000110000125D",
+                                                                              "text": "\"Very, very cool,\" he agrees. \"Though I understand the socio-economic causes of the Revolution, it pains me to imagine the revolutionaries setting fire to this precious device. But so they did. The Feld Playback Experiment vanished into the fires of '07.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 41,
+                                                                                  "title": "You: \"\"Wait, the Feld Playback Experiment?\"\"",
+                                                                                  "articyId": "0x01000016000093A7",
+                                                                                  "text": "\"Wait, the Feld Playback Experiment?\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 30,
+                                                                                      "title": "Trant Heidelstam: \"\"Yes, the official name of the prot...\"",
+                                                                                      "articyId": "0x01000016000093B5",
+                                                                                      "text": "\"Yes, the official name of the prototype. Some sources report it as the Feld Playback *Experience*, but those are incorrect.\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 12,
+                                                                                  "title": "You: \"\"Why did the revolutionaries destro...\"",
+                                                                                  "articyId": "0x01000016000093AD",
+                                                                                  "text": "\"Why did the revolutionaries destroy it?\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 124,
+                                                                                      "title": "Trant Heidelstam: \"\"Who knows? Maybe it was an acciden...\"",
+                                                                                      "articyId": "0x01000016000093BD",
+                                                                                      "text": "\"Who knows? Maybe it was an accident, or maybe they didn't want the technology to end up in the wrong hands. Either way -- they're all gone now, all three versions of the prototype. Nothing but debris and ashes remains inside that building.\" He takes a step back; the boardwalk creaks mournfully in the wind.",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 414,
+                                                                                          "title": "Shivers: \"Two seagulls circle in the sky. You...\"",
+                                                                                          "articyId": "0x01000016000093C4",
+                                                                                          "text": "Two seagulls circle in the sky. You look up and think: really? Or was there a fourth prototype that remains hidden in the mausoleums below Coal City?...",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 233,
+                                                                                              "title": "Conceptualization: \"All of this sounds like something R...\"",
+                                                                                              "articyId": "0x010000110000126A",
+                                                                                              "text": "All of this sounds like something Ruby would be interested in...",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 215,
+                                                                          "title": "You: \"\"Pfft. I've seen cooler things than...\"",
+                                                                          "articyId": "0x0100001600009394",
+                                                                          "text": "\"Pfft. I've seen cooler things than that.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 347,
+                                                                              "title": "Trant Heidelstam: \"\"*I* certainly haven't.\" He shakes...\"",
+                                                                              "articyId": "0x0100000600014869",
+                                                                              "text": "\"*I* certainly haven't.\" He shakes his head. \"Though I understand the socio-economic causes of the Revolution, it pains me to imagine the revolutionaries setting fire to this precious device. But so they did. The Feld Playback Experiment vanished into the fires of '07.\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 239,
+                                                                          "title": "You: \"\"The RCM should get some of those.\"\"",
+                                                                          "articyId": "0x010000160000939A",
+                                                                          "text": "\"The RCM should get some of those.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 249,
+                                                                              "title": "Trant Heidelstam: \"\"Even *one* would be very useful,\"...\"",
+                                                                              "articyId": "0x010000060001486F",
+                                                                              "text": "\"Even *one* would be very useful,\" he agrees. \"Though I understand the socio-economic causes of the Revolution, it pains me to imagine the revolutionaries setting fire to this precious device. But so they did. The Feld Playback Experiment vanished into the fires of '07.\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 118,
+                                                          "title": "You: \"\"You're making this up.\" (Turn to h...\"",
+                                                          "articyId": "0x010000110000122A",
+                                                          "text": "\"You're making this up.\" (Turn to his son.) \"Hey, is your dad making this all up?\"",
+                                                          "links": []
+                                                        },
+                                                        {
+                                                          "id": 170,
+                                                          "title": "You: \"\"Come on, there is no place called...\"",
+                                                          "articyId": "0x0100001100001230",
+                                                          "text": "\"Come on, there is no place called the Wompty-Dompty-Dom Centre of Arts.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 40,
+                                                              "title": "Kim Kitsuragi: \"\"Actually, I think there is...\" He...\"",
+                                                              "articyId": "0x0100001100001245",
+                                                              "text": "\"Actually, I think there is...\" He pauses. \"No, it's too much, he's joking.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 123,
+                                                  "title": "You: \"\"Okay. Back to... where were we? Ta...\"",
+                                                  "articyId": "0x010000160000937B",
+                                                  "text": "\"Okay. Back to... where were we? Tape computers, I think.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 20,
+                                                      "title": "Trant Heidelstam: \"\"Yes -- tape computers. *And* Feld...\"",
+                                                      "articyId": "0x0100000600014852",
+                                                      "text": "\"Yes -- tape computers. *And* Feld Electrical.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 284,
+                  "title": "You: \"\"I wanted to ask something else...\"\"",
+                  "articyId": "0x010000580000C71A",
+                  "text": "\"I wanted to ask something else...\"",
+                  "links": [
+                    {
+                      "id": 39,
+                      "title": "Trant Heidelstam: \"\"But of course! What else?\" He smil...\"",
+                      "articyId": "0x01000011000011BF",
+                      "text": "\"But of course! What else?\" He smiles and ruffles his kid's head.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "title": "You: \"\"What's so fascinating about an emp...\"",
+          "articyId": "0x010000580000C45E",
+          "text": "\"What's so fascinating about an empty old building?\"",
+          "links": [
+            {
+              "id": 409,
+              "title": "Trant Heidelstam: \"\"A-ha, but it's not just *any* empt...\"",
+              "articyId": "0x010000110000130B",
+              "text": "\"A-ha, but it's not just *any* empty old building!\" He raises his hand to his eyes to shield himself from the pattering rain. All four of you turn to admire the mural before you.",
+              "links": [
+                {
+                  "id": 186,
+                  "title": "Trant Heidelstam: \"\"What not a lot of people know is -...\"",
+                  "articyId": "0x0100000500002D39",
+                  "text": "\"What not a lot of people know is -- this used to be the R&D department of *Feld Electrical*. And Feld, which now sells ink cartridges, mostly, was once a top dog in the turn-of-the-century cybernetics boom.\"",
+                  "links": [
+                    {
+                      "id": 394,
+                      "title": "Encyclopedia: \"Hold on, what's R&D?\"",
+                      "articyId": "0x0100000500002D5C",
+                      "text": "Hold on, what's R&D?",
+                      "links": [
+                        {
+                          "id": 203,
+                          "title": "You: \"Look at the building looming over y...\"",
+                          "articyId": "0x0100000500002D51",
+                          "text": "Look at the building looming over you.",
+                          "links": [
+                            {
+                              "id": 161,
+                              "title": "Feld Mural: \"It looks old and weathered, with se...\"",
+                              "articyId": "0x0100000500002D62",
+                              "text": "It looks old and weathered, with seagulls picking apart its stone-and-metal carcass. Bushy undergrowth has taken hold of the collapsed rooftop; some kind of bird has set up a nest on a broken windowsill.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 187,
+                          "title": "You: \"\"Wait, what's an R&D department?\"\"",
+                          "articyId": "0x0100000500002D80",
+                          "text": "\"Wait, what's an R&D department?\"",
+                          "links": [
+                            {
+                              "id": 34,
+                              "title": "Trant Heidelstam: \"\"Apologies, it's an acronym for res...\"",
+                              "articyId": "0x0100000500002D8F",
+                              "text": "\"Apologies, it's an acronym for research and development, they don't use it anymore.\" He smiles brightly, laugh lines around his eyes.",
+                              "links": [
+                                {
+                                  "id": 13,
+                                  "title": "Trant Heidelstam: \"\"You're probably more familiar with...\"",
+                                  "articyId": "0x010000570001D556",
+                                  "text": "\"You're probably more familiar with *RTD*, research and *technological* development.\"",
+                                  "links": [
+                                    {
+                                      "id": 196,
+                                      "title": "Encyclopedia: \"Mea culpa! You were not familiar wi...\"",
+                                      "articyId": "0x010000570001D61F",
+                                      "text": "Mea culpa! You were not familiar with that one either. This man is a book head.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 267,
+                          "title": "You: \"\"I don't think I've ever heard of t...\"",
+                          "articyId": "0x0100000500002D86",
+                          "text": "\"I don't think I've ever heard of this Feld Electrical.\" (Proceed.)",
+                          "links": [
+                            {
+                              "id": 286,
+                              "title": "Trant Heidelstam: \"\"That's not surprising. Only a vest...\"",
+                              "articyId": "0x0100000500002DAB",
+                              "text": "\"That's not surprising. Only a vestigial ink cartridge and ferrotape manufacturer remains.\" He adjusts his suit jacket.",
+                              "links": [
+                                {
+                                  "id": 80,
+                                  "title": "Trant Heidelstam: \"\"They started out as a midway elect...\"",
+                                  "articyId": "0x0100002100000BC4",
+                                  "text": "\"They started out as a midway electronics outfit in Königstein two centuries ago. After an aggressive move to Revachol, Feld became a global player in the emerging personal electronics market of the pre-Revolutionary era.\"",
+                                  "links": [
+                                    {
+                                      "id": 323,
+                                      "title": "Trant Heidelstam: \"\"Still, Tricentennial was beating t...\"",
+                                      "articyId": "0x01000016000092A3",
+                                      "text": "\"Still, Tricentennial was beating them in business machines.\" He gestures toward the building. \"But Feld had an ace up their sleeve. Or, should I say, they were *developing* an ace up their sleeve?...\" He grins. \"I'm mixing my metaphors here.\"",
+                                      "links": [
+                                        {
+                                          "id": 214,
+                                          "title": "You: \"\"What was that ace?\"\"",
+                                          "articyId": "0x01000016000092AB",
+                                          "text": "\"What was that ace?\"",
+                                          "links": [
+                                            {
+                                              "id": 268,
+                                              "title": "Trant Heidelstam: \"\"It was here in Martinaise -- possi...\"",
+                                              "articyId": "0x0100000500002DB2",
+                                              "text": "\"It was here in Martinaise -- possibly in this very building -- that they developed prototypes for a...\" He pauses for effect. \"...*tape computer*.\"",
+                                              "links": [
+                                                {
+                                                  "id": 401,
+                                                  "title": "You: \"\"A tape computer?\"\"",
+                                                  "articyId": "0x010000060001D688",
+                                                  "text": "\"A tape computer?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 67,
+                                                      "title": "Trant Heidelstam: \"\"Mhm. An elegant folding mechanism...\"",
+                                                      "articyId": "0x010000060001D68E",
+                                                      "text": "\"Mhm. An elegant folding mechanism of rollers and ferrotape ribbons, portable enough to be a take-it-home solution, revolutionizing business machines, possibly even bringing them to the average consumer.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 385,
+                                                          "title": "Trant Heidelstam: \"\"Which is a feat of engineering eve...\"",
+                                                          "articyId": "0x01000016000092BD",
+                                                          "text": "\"Which is a feat of engineering even today's giants Rehm, ICN, and ZAMM haven't achieved yet.\" He grins, admiring the sentence he just produced.",
+                                                          "links": [
+                                                            {
+                                                              "id": 399,
+                                                              "title": "Composure: \"He assumes something like a combat...\"",
+                                                              "articyId": "0x0100000500002DC0",
+                                                              "text": "He assumes something like a combat stance, facing the wind.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 174,
+                                                                  "title": "You: \"\"What happened?\"\"",
+                                                                  "articyId": "0x01000016000092C5",
+                                                                  "text": "\"What happened?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 346,
+                                                                      "title": "Trant Heidelstam: \"\"Indeed, what?\"\"",
+                                                                      "articyId": "0x0100000500002DB9",
+                                                                      "text": "\"Indeed, what?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 412,
+                                                                          "title": "Mikael Heidelstam: \"\"The Revolution?\" The boy wipes his...\"",
+                                                                          "articyId": "0x01000016000092CD",
+                                                                          "text": "\"The Revolution?\" The boy wipes his nose on his sleeve.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 413,
+                                                                              "title": "Trant Heidelstam: \"\"Unfortunately their moonshot proje...\"",
+                                                                              "articyId": "0x01000016000092D4",
+                                                                              "text": "\"Unfortunately their moonshot project never made it to the market.\" He nods. \"Feld's move to Revachol backfired. The Revolutionary government liquefied their assets and expropriated those very advanced prototypes. Possibly from this very building... or one of the adjacent ruins.\" He pauses, pointing to the other building, then continues:",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 2,
+                                                                                  "title": "Trant Heidelstam: \"\"All of this was built by Feld, eve...\"",
+                                                                                  "articyId": "0x0100000600014849",
+                                                                                  "text": "\"All of this was built by Feld, even the boardwalk. Wild Pines built Martinaise proper as a resort for their middle management, Feld built this side of town for R&D.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 29,
+                                          "title": "You: \"\"Very interesting. Let's get back t...\"",
+                                          "articyId": "0x01000016000092B4",
+                                          "text": "\"Very interesting. Let's get back to this later.\"",
+                                          "links": [
+                                            {
+                                              "id": 269,
+                                              "title": "Trant Heidelstam: \"\"It was here in Martinaise -- possi...\"",
+                                              "articyId": "0x0100000600014838",
+                                              "text": "\"It was here in Martinaise -- possibly in this very building -- that they developed prototypes for a...\" He stops mid-sentence, realizing you're not listening.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 225,
+              "title": "Trant Heidelstam: \"\"A-ha, but it's not just *any* empt...\"",
+              "articyId": "0x0100000500002D6E",
+              "text": "\"A-ha, but it's not just *any* empty old building!\" He raises his hand to his eyes to shield himself from the pattering rain. All three of you turn to admire the mural before you.",
+              "links": []
+            },
+            {
+              "id": 398,
+              "title": "Trant Heidelstam: \"\"A-ha, but it's not just *any* empt...\"",
+              "articyId": "0x0100000500002D77",
+              "text": "\"A-ha, but it's not just *any* empty old building!\" He raises his hand to his eyes to shield himself from the freezing snow. All four of you turn to admire the mural before you.",
+              "links": []
+            },
+            {
+              "id": 345,
+              "title": "Trant Heidelstam: \"\"A-ha, but it's not just *any* empt...\"",
+              "articyId": "0x0100000500002D33",
+              "text": "\"A-ha, but it's not just *any* empty old building!\" He raises his hand to his eyes to shield himself from the freezing snow. All three of you turn to admire the mural before you.",
+              "links": []
+            },
+            {
+              "id": 381,
+              "title": "Trant Heidelstam: \"\"A-ha, but it's not just *any* empt...\"",
+              "articyId": "0x0100001100001311",
+              "text": "\"A-ha, but it's not just *any* empty old building!\" He raises his hand to his eyes, springtime sun warming his handsome face. All four of you turn to admire the mural before you.",
+              "links": []
+            },
+            {
+              "id": 236,
+              "title": "Trant Heidelstam: \"\"A-ha, but it's not just *any* empt...\"",
+              "articyId": "0x0100001100001317",
+              "text": "\"A-ha, but it's not just *any* empty old building!\" He raises his hand to his eyes, springtime sun warming his handsome face. All three of you turn to admire the mural before you.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "title": "You: \"\"This is a long-shot, but could you...\"",
+          "articyId": "0x0100000F0000F501",
+          "text": "\"This is a long-shot, but could you help me contact the Coalition?\"",
+          "links": [
+            {
+              "id": 69,
+              "title": "Trant Heidelstam: \"\"Well, that certainly depends. You...\"",
+              "articyId": "0x0100000F0000F50A",
+              "text": "\"Well, that certainly depends. You know, the popular image of the Coalition is of a monolithic politico-military entity, but in reality, it's comprised of many interconnected, yet semi-autonomous components...\"",
+              "links": [
+                {
+                  "id": 111,
+                  "title": "Trant Heidelstam: \"\"For instance, the offices of INSUR...\"",
+                  "articyId": "0x0100000F0000F511",
+                  "text": "\"For instance, the offices of INSURCOM are responsible for military affairs. These offices are located in the Bank of the World building, just a few kilometres from here...\" He points west toward the skyscrapers across the bay.",
+                  "links": [
+                    {
+                      "id": 49,
+                      "title": "Trant Heidelstam: \"\"But then there's also the Provisio...\"",
+                      "articyId": "0x0100000F0000F51A",
+                      "text": "\"But then there's also the Provisional Commission, as well as the Institute for Revacholian Culture, with its architecturally significant headquarters in Le Jardin.\"",
+                      "links": [
+                        {
+                          "id": 369,
+                          "title": "You: \"\"What's INSURCOM?\"\"",
+                          "articyId": "0x0100000F0000F527",
+                          "text": "\"What's INSURCOM?\"",
+                          "links": [
+                            {
+                              "id": 8,
+                              "title": "Trant Heidelstam: \"\"INSURCOM is responsible for all as...\"",
+                              "articyId": "0x0100000F0000F543",
+                              "text": "\"INSURCOM is responsible for all aspects of the military occupation of Revachol. During the Revolution, they coordinated the efforts of the Occidental and Graadian invasion, but these days their function is primarily logistical.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 288,
+                          "title": "You: \"\"What's this Insitute for Revacholi...\"",
+                          "articyId": "0x0100000F0000F52C",
+                          "text": "\"What's this Insitute for Revacholian Culture?\"",
+                          "links": [
+                            {
+                              "id": 332,
+                              "title": "Trant Heidelstam: \"\"Oh, the Institute is a marvellous...\"",
+                              "articyId": "0x0100000F0000F548",
+                              "text": "\"Oh, the Institute is a marvellous organisation, my *favourite* part of the Coalition by far. Their mandate is two-fold: To export notable works of Revacholian culture throughout the Moralintern, while also importing the most important cultural products of the wider world to citizens of Revachol...\"",
+                              "links": [
+                                {
+                                  "id": 137,
+                                  "title": "Trant Heidelstam: \"\"There's an exhibition on Vespertin...\"",
+                                  "articyId": "0x0100000F0000F55C",
+                                  "text": "\"There's an exhibition on Vespertine proto-expressionism that I can't wait to take Mikael to. We're working our way through the major artistic movements of the last cenutry.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 162,
+                          "title": "You: \"\"Who handles the money? There's got...\"",
+                          "articyId": "0x0100000F0000F531",
+                          "text": "\"Who handles the money? There's got to be an economic component.\"",
+                          "links": [
+                            {
+                              "id": 207,
+                              "title": "Trant Heidelstam: \"\"Of course there is! The Coalition'...\"",
+                              "articyId": "0x0100000F0000F54D",
+                              "text": "\"Of course there is! The Coalition's economic affairs are handled by the Bank of the World -- Revachol Mission. They operate in concert with the Institute of Price Stabilité in Sur-la-Clef.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 112,
+                          "title": "You: \"\"That's all fine, but what if I wan...\"",
+                          "articyId": "0x0100000F0000F536",
+                          "text": "\"That's all fine, but what if I want to assign *responsibility*?\" (Proceed.)",
+                          "links": [
+                            {
+                              "id": 135,
+                              "title": "Trant Heidelstam: \"\"Ah, that's simple! You're looking...\"",
+                              "articyId": "0x0100000F0000F552",
+                              "text": "\"Ah, that's simple! You're looking for the Comité de Responsabilité de Revachol. It's a sort of clearinghouse for Coalition affairs in Revachol...\"",
+                              "links": [
+                                {
+                                  "id": 403,
+                                  "title": "Empathy: \"Yes, this is just the sort of reaso...\"",
+                                  "articyId": "0x0100000F0000F575",
+                                  "text": "Yes, this is just the sort of reasonable authority you're looking for!",
+                                  "links": [
+                                    {
+                                      "id": 136,
+                                      "title": "Trant Heidelstam: \"\"If you will, picture the Coalition...\"",
+                                      "articyId": "0x0100000F0000F557",
+                                      "text": "\"If you will, picture the Coalition as a kind of wheel. The hub of this wheel is the Comité de Responsabilité, and out from that hub radiate a great many spokes, which connect to INSURCOM, the Institute for Revacholian Culture, the Provisional Commission, and so on...\"",
+                                      "links": [
+                                        {
+                                          "id": 138,
+                                          "title": "You: \"\"If you're not part of the Coalitio...\"",
+                                          "articyId": "0x0100000F0000F57C",
+                                          "text": "\"If you're not part of the Coalition, how do you know so much about its bureaucracy?\"",
+                                          "links": [
+                                            {
+                                              "id": 164,
+                                              "title": "Trant Heidelstam: \"\"I have a longstanding interest in...\"",
+                                              "articyId": "0x0100000F0000F592",
+                                              "text": "\"I have a longstanding interest in political systems. You see, it's my personal theory that political systems are a lot like personalities. In other words, how a state organises itself is in some way the public expression of its innermost character...\"",
+                                              "links": [
+                                                {
+                                                  "id": 22,
+                                                  "title": "You: \"\"What is the innermost character of...\"",
+                                                  "articyId": "0x0100000F0000F58D",
+                                                  "text": "\"What is the innermost character of the Coalition, then?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 370,
+                                                      "title": "Trant Heidelstam: \"The man smiles at you for a long mo...\"",
+                                                      "articyId": "0x0100000F0000F59C",
+                                                      "text": "The man smiles at you for a long moment...",
+                                                      "links": [
+                                                        {
+                                                          "id": 371,
+                                                          "title": "Composure: \"He is doing his best not to show it...\"",
+                                                          "articyId": "0x0100000F0000F5C0",
+                                                          "text": "He is doing his best not to show it, but the smile is ever-so-slightly more forced than before.",
+                                                          "links": [
+                                                            {
+                                                              "id": 290,
+                                                              "title": "Trant Heidelstam: \"\"Of course, officer, we've only rec...\"",
+                                                              "articyId": "0x0100000F0000F5C7",
+                                                              "text": "\"Of course, officer, we've only recently met. It would require a more thorough conversation than we have time for to answer a question like that. It's fascinating to think about, though, isn't it?\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 252,
+                                                  "title": "You: \"\"What kind of political system do y...\"",
+                                                  "articyId": "0x0100000F0000F588",
+                                                  "text": "\"What kind of political system do you think represents *my* innermost character?\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 351,
+                                          "title": "You: \"\"Alright, fine. How do I get in tou...\"",
+                                          "articyId": "0x0100000F0000F581",
+                                          "text": "\"Alright, fine. How do I get in touch with the Committee?\"",
+                                          "links": [
+                                            {
+                                              "id": 289,
+                                              "title": "Trant Heidelstam: \"The man's smile turns into a frown....\"",
+                                              "articyId": "0x0100000F0000F597",
+                                              "text": "The man's smile turns into a frown. \"Well, now, *that* is rather complicated. You can write to the Committee directly, but I understand that there's quite the backlog. A month or more, according to friends of mine who just so happen to know about this sort of thing...\"",
+                                              "links": [
+                                                {
+                                                  "id": 165,
+                                                  "title": "Trant Heidelstam: \"\"Of course, if you could somehow co...\"",
+                                                  "articyId": "0x0100000F0000F5A1",
+                                                  "text": "\"Of course, if you could somehow contact Coalition Warship Archer, you could reach the Committee directly. But, well, that obviously presents any number of logistical and technical challenges.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 70,
+                                                      "title": "You: \"\"Wait, what's Coalition Warship Arc...\"",
+                                                      "articyId": "0x0100000F0000F5D5",
+                                                      "text": "\"Wait, what's Coalition Warship Archer?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 23,
+                                                          "title": "Trant Heidelstam: \"\"Why, officer, it's that gigantic a...\"",
+                                                          "articyId": "0x0100000F0000F5EA",
+                                                          "text": "\"Why, officer, it's that gigantic aerostatic right over there. Have you really never noticed it before?\" A look of profound concern comes across the man's face.",
+                                                          "links": [
+                                                            {
+                                                              "id": 227,
+                                                              "title": "Perception (Sight): \"You follow the man's gaze out towar...\"",
+                                                              "articyId": "0x0100000F0000F5F9",
+                                                              "text": "You follow the man's gaze out toward the west. There, hanging some distance above the horison, you can just make out a strange silhouette...",
+                                                              "links": [
+                                                                {
+                                                                  "id": 189,
+                                                                  "title": "Perception (Sight): \"It looks, to your eye, like some ki...\"",
+                                                                  "articyId": "0x0100000F0000F615",
+                                                                  "text": "It looks, to your eye, like some kind of long, metallic fish, suspended beneath a number of ceiling fans...",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 115,
+                                                                      "title": "Conceptualization: \"Not just any fish, it moves like so...\"",
+                                                                      "articyId": "0x0100000F0000F62E",
+                                                                      "text": "Not just any fish, it moves like some ancient bottom-feeder gliding over the ocean floor in search of prey...",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 228,
+                                                                          "title": "Half Light: \"Don't let the paintjob fool you, it...\"",
+                                                                          "articyId": "0x0100000F0000F633",
+                                                                          "text": "Don't let the paintjob fool you, it's a goddamn killing machine, and there's nothing you can do to stop it!",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 71,
+                                                                              "title": "Visual Calculus: \"It's about four-and-a-half kilometr...\"",
+                                                                              "articyId": "0x0100000F0000F63D",
+                                                                              "text": "It's about four-and-a-half kilometres from your position, you estimate.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 318,
+                                                                                  "title": "You: \"\"It's amazing. An inspiring symbol.\"\"",
+                                                                                  "articyId": "0x0100000F0000F687",
+                                                                                  "text": "\"It's amazing. An inspiring symbol.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 291,
+                                                                                      "title": "Trant Heidelstam: \"\"That is certainly how the Coalitio...\"",
+                                                                                      "articyId": "0x0100000F0000F6AB",
+                                                                                      "text": "\"That is certainly how the Coalition intends for it to be seen! You know, I once read a very interesting paper from Messina on the psychology of air-based artillery...\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 292,
+                                                                                          "title": "Trant Heidelstam: \"\"Apparently its presence stimulates...\"",
+                                                                                          "articyId": "0x0100000F0000F6B1",
+                                                                                          "text": "\"Apparently its presence stimulates the *exact* same part of the neural cortex that more primitive cultures associate with divine judgment. Isn't that fascinating?\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 54,
+                                                                                  "title": "You: \"\"It looks like a fish.\"\"",
+                                                                                  "articyId": "0x0100000F0000F68C",
+                                                                                  "text": "\"It looks like a fish.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 26,
+                                                                                      "title": "Trant Heidelstam: \"\"That's very interesting. Most peop...\"",
+                                                                                      "articyId": "0x0100000F0000F6B6",
+                                                                                      "text": "\"That's very interesting. Most people I've met say it reminds them of a giant metallic dragonfly, but of course there's no right way to respond to a massive airborne artillery platform...\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 72,
+                                                                                  "title": "You: \"\"It looks like a killing machine.\"\"",
+                                                                                  "articyId": "0x0100000F0000F691",
+                                                                                  "text": "\"It looks like a killing machine.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 405,
+                                                                                      "title": "Trant Heidelstam: \"\"Ah, well, it is one of the most he...\"",
+                                                                                      "articyId": "0x0100000F0000F6BB",
+                                                                                      "text": "\"Ah, well, it is one of the most heavily armed aerostatics to ever fly. I've heard it said that the Archer is capable of engaging whole fleets of lesser vessels *from multiple sides* simultaneously. How about that?\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 276,
+                                                                                  "title": "You: \"\"Huh. Can't believe I never noticed...\"",
+                                                                                  "articyId": "0x0100000F0000F696",
+                                                                                  "text": "\"Huh. Can't believe I never noticed it before.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 406,
+                                                                                      "title": "Trant Heidelstam: \"\"I believe that is intentional. You...\"",
+                                                                                      "articyId": "0x0100000F0000F6C0",
+                                                                                      "text": "\"I believe that is intentional. You see, the Coalition are very sensitive to how they are perceived by the people of Revachol, which is why they generally prefer for their warships to remain at a discreet distance from major population centres...\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 37,
+                                                                  "title": "Perception (Sight): \"You look around, but you don't see...\"",
+                                                                  "articyId": "0x0100000F0000F61A",
+                                                                  "text": "You look around, but you don't see anything unusual. Then again, your eyes aren't the sharpest...",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 253,
+                                                                      "title": "You: \"\"Oh, right. The *Archer*. I thought...\"",
+                                                                      "articyId": "0x0100000F0000F652",
+                                                                      "text": "\"Oh, right. The *Archer*. I thought you said... something else.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 24,
+                                                                          "title": "Trant Heidelstam: \"\"Ah, well, that's a relief to here....\"",
+                                                                          "articyId": "0x0100000F0000F660",
+                                                                          "text": "\"Ah, well, that's a relief to here. It would really be *quite concerning* if you hadn't been aware of it until just now...\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 209,
+                                                                      "title": "You: \"\"I don't think I've ever noticed it...\"",
+                                                                      "articyId": "0x0100000F0000F657",
+                                                                      "text": "\"I don't think I've ever noticed it before.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 116,
+                                                                          "title": "Trant Heidelstam: \"\"Fascinating! You know, in one sens...\"",
+                                                                          "articyId": "0x0100000F0000F665",
+                                                                          "text": "\"Fascinating! You know, in one sense, that's exactly what the Coalition intends. You see, they would prefer that most people in Revachol *don't* think of themselves as living under a *military* occupation. That's why they generally prefer to keep their warships at a discreet distance from major population centres...\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 50,
+                                                              "title": "Perception (Sight): \"You follow the man's gaze out towar...\"",
+                                                              "articyId": "0x0100000F0000F5FE",
+                                                              "text": "You follow the man's gaze out toward the west. There, amidst the low-hanging stars, you can just make out signs of motion...",
+                                                              "links": [
+                                                                {
+                                                                  "id": 167,
+                                                                  "title": "Perception (Sight): \"It's a set of position lights movin...\"",
+                                                                  "articyId": "0x0100000F0000F61F",
+                                                                  "text": "It's a set of position lights moving in unison, like a restless constellation...",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 114,
+                                                                      "title": "Conceptualization: \"No, it's more like a creature from...\"",
+                                                                      "articyId": "0x0100000F0000F629",
+                                                                      "text": "No, it's more like a creature from the abyssopelagic zone, a great dark bioluminescent fish...",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 208,
+                                                                          "title": "Half Light: \"Don't let the shiny lights fool you...\"",
+                                                                          "articyId": "0x0100000F0000F638",
+                                                                          "text": "Don't let the shiny lights fool you, it's a goddamn killing machine, and there's nothing you can do to stop it!",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 275,
+                                                                  "title": "Perception (Sight): \"You can't see anything. But then, i...\"",
+                                                                  "articyId": "0x0100000F0000F624",
+                                                                  "text": "You can't see anything. But then, it's dark, and your eyes aren't the sharpest...",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 166,
+                                                      "title": "You: \"\"Why do I need to contact a militar...\"",
+                                                      "articyId": "0x0100000F0000F5DA",
+                                                      "text": "\"Why do I need to contact a military warship to talk to a civilian bureaucrat?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 319,
+                                                          "title": "Trant Heidelstam: \"\"A very astute question! You see, i...\"",
+                                                          "articyId": "0x0100000F0000F6DE",
+                                                          "text": "\"A very astute question! You see, in addition to its role as a military warship, the Archer is also responsible for coordinating all Coalition communications and surveillance operations in Revachol.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 320,
+                                                              "title": "You: \"\"Hold on, it's *watching* us, too?\"\"",
+                                                              "articyId": "0x0100000F0000F6E5",
+                                                              "text": "\"Hold on, it's *watching* us, too?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 333,
+                                                                  "title": "Trant Heidelstam: \"\"Not just watching, it's *listening...\"",
+                                                                  "articyId": "0x0100000F0000F6EF",
+                                                                  "text": "\"Not just watching, it's *listening* as well. I don't know the particulars, of course, but I would expect a warship like the Archer to possess the most advanced surveillance equipment available outside of Seol.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 73,
+                                                              "title": "You: \"\"I feel like there's *got* to be an...\"",
+                                                              "articyId": "0x0100000F0000F6EA",
+                                                              "text": "\"I feel like there's *got* to be another way.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 168,
+                                                                  "title": "Trant Heidelstam: \"\"Well, I suppose you could rent a p...\"",
+                                                                  "articyId": "0x0100000F0000F6F4",
+                                                                  "text": "\"Well, I suppose you could rent a private aerostatic and attempt to rendezvous with Archer directly, but I must caution against it. Warships like the Archer are usually authorised to fire on unidentified aerostatics on sight.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 404,
+                                                      "title": "You: \"\"So how does one go about contactin...\"",
+                                                      "articyId": "0x0100000F0000F5DF",
+                                                      "text": "\"So how does one go about contacting a Coalition warship?\" (Proceed.)",
+                                                      "links": [
+                                                        {
+                                                          "id": 55,
+                                                          "title": "Trant Heidelstam: \"\"That might be the trickiest questi...\"",
+                                                          "articyId": "0x0100000F0000F70A",
+                                                          "text": "\"That might be the trickiest question of all. From a technical standpoint, it shouldn't be all that difficult. You simply require a radio transmitter capable of broadcasting on Coalition frequencies...\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 277,
+                                                              "title": "Trant Heidelstam: \"\"The problem is that those sorts of...\"",
+                                                              "articyId": "0x0100000F0000F70F",
+                                                              "text": "\"The problem is that those sorts of radio transmitters are *tightly* controlled by the Coalition. Even the RCM doesn't typically have access to them outside of special joint operations...\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 352,
+                                                                  "title": "Kim Kitsuragi: \"\"He's correct. It makes coordinatin...\"",
+                                                                  "articyId": "0x0100000F0000F729",
+                                                                  "text": "\"He's correct. It makes coordinating operations with the Coalition exceedingly difficult, from our perspective.\"",
+                                                                  "links": []
+                                                                },
+                                                                {
+                                                                  "id": 140,
+                                                                  "title": "You: \"\"What am I supposed to do then?\"\"",
+                                                                  "articyId": "0x0100000F0000F731",
+                                                                  "text": "\"What am I supposed to do then?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 334,
+                                                                      "title": "Trant Heidelstam: \"\"All that said, someone with a powe...\"",
+                                                                      "articyId": "0x0100000F0000F714",
+                                                                      "text": "\"All that said, someone with a powerful radio and a certain level of technical skill might be able to circuit-bend their way onto the Coalition frequencies...\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 139,
+                                                                          "title": "Trant Heidelstam: \"\"It's only too bad the old Feld eng...\"",
+                                                                          "articyId": "0x0100000F0000F719",
+                                                                          "text": "\"It's only too bad the old Feld engineers are no longer available. This sort of thing would have been *right* in their wheelhouse.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 230,
+                                                                              "title": "Kim Kitsuragi: \"\"Hmmm, she's not a 'Feld engineer,'...\"",
+                                                                              "articyId": "0x0100000F0000F759",
+                                                                              "text": "\"Hmmm, she's not a 'Feld engineer,' exactly, but perhaps that programmer from the church might be of assistance?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 169,
+                                                                                  "title": "Trant Heidelstam: \"\"In any event, it's a fascinating t...\"",
+                                                                                  "articyId": "0x0100000F0000F783",
+                                                                                  "text": "\"In any event, it's a fascinating technical challenge. I'll be *very* interested to see how you tackle it.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 190,
+                                                                              "title": "Empathy: \"This sounds like something that pro...\"",
+                                                                              "articyId": "0x0100000F0000F768",
+                                                                              "text": "This sounds like something that programmer you met in the church might help with...",
+                                                                              "links": []
+                                                                            },
+                                                                            {
+                                                                              "id": 407,
+                                                                              "title": "Kim Kitsuragi: \"\"Hmmm, no one would mistake them fo...\"",
+                                                                              "articyId": "0x0100000F0000F75E",
+                                                                              "text": "\"Hmmm, no one would mistake them for Feld engineers, but perhaps your young friends in the *tent* might be of assistance?\"",
+                                                                              "links": []
+                                                                            },
+                                                                            {
+                                                                              "id": 278,
+                                                                              "title": "Empathy: \"Perhaps your new friends in the ten...\"",
+                                                                              "articyId": "0x0100000F0000F76D",
+                                                                              "text": "Perhaps your new friends in the tent might be able to help you?",
+                                                                              "links": []
+                                                                            },
+                                                                            {
+                                                                              "id": 378,
+                                                                              "title": "Kim Kitsuragi: \"\"Oh, good: Now we're circuit-bendin...\"",
+                                                                              "articyId": "0x0100000F0000F763",
+                                                                              "text": "\"Oh, good: Now we're circuit-bending into radio towers. Just what this *side task* was missing...\"",
+                                                                              "links": []
+                                                                            },
+                                                                            {
+                                                                              "id": 408,
+                                                                              "title": "Empathy: \"You *will* figure it out. Something...\"",
+                                                                              "articyId": "0x0100000F0000F772",
+                                                                              "text": "You *will* figure it out. Something tells you the person you're looking for is already on this coast...",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 125,
+          "title": "You: \"\"You look like someone who has mone...\"",
+          "articyId": "0x010000570001D543",
+          "text": "\"You look like someone who has money. Do you have any money?\"",
+          "links": [
+            {
+              "id": 221,
+              "title": "Trant Heidelstam: \"\"I do have some money, yes, but tha...\"",
+              "articyId": "0x010000570001D54A",
+              "text": "\"I do have some money, yes, but that's not what's really important here.\" He brushes it off like it's not a thing at all.",
+              "links": [
+                {
+                  "id": 349,
+                  "title": "Authority: \"He's not gonna give you money, what...\"",
+                  "articyId": "0x010000060001D6F2",
+                  "text": "He's not gonna give you money, what are you doing? Clearly you were just profiling.",
+                  "links": [
+                    {
+                      "id": 188,
+                      "title": "Rhetoric: \"No, I mean, c'mon -- you need the m...\"",
+                      "articyId": "0x010000060001D6FB",
+                      "text": "No, I mean, c'mon -- you need the money. If it's not a thing, he can give you some.",
+                      "links": [
+                        {
+                          "id": 279,
+                          "title": "You: \"\"Could I have some of that 'unimpor...\"",
+                          "articyId": "0x010000570001D5A9",
+                          "text": "\"Could I have some of that 'unimportant' money then?\"",
+                          "links": [
+                            {
+                              "id": 415,
+                              "title": "Trant Heidelstam: \"\"Oh, no, I don't have it *on me*, o...\"",
+                              "articyId": "0x010000570001D5B6",
+                              "text": "\"Oh, no, I don't have it *on me*, officer, I was talking in more... general terms.\" He looks uncomfortable, his left hand squeezing his son's shoulder.",
+                              "links": [
+                                {
+                                  "id": 393,
+                                  "title": "Trant Heidelstam: \"\"I'm just spending time with my kid...\"",
+                                  "articyId": "0x0100000500002D13",
+                                  "text": "\"I'm just spending time with my kid here, showing him around the lesser-known parts of our home town... It wouldn't be *wise* to carry huge amounts of cash on such expeditions!\"",
+                                  "links": [
+                                    {
+                                      "id": 240,
+                                      "title": "Physical Instrument: \"Not that he would have to worry abo...\"",
+                                      "articyId": "0x010000570001D51D",
+                                      "text": "Not that he would have to worry about being robbed -- he looks surprisingly buff. Does he work out?",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 81,
+                          "title": "You: \"\"I don't want your money, I just wa...\"",
+                          "articyId": "0x010000570001D5AF",
+                          "text": "\"I don't want your money, I just wanted to see whether my profiling skills were working.\"",
+                          "links": [
+                            {
+                              "id": 160,
+                              "title": "Trant Heidelstam: \"\"Of course, detective, I wouldn't h...\"",
+                              "articyId": "0x0100000500002D1B",
+                              "text": "\"Of course, detective, I wouldn't have assumed anything else. Matter of fact,\" he looks up again, a playful hint shining in his eyes...",
+                              "links": [
+                                {
+                                  "id": 285,
+                                  "title": "Trant Heidelstam: \"\"I don't know if you're familiar wi...\"",
+                                  "articyId": "0x0100000500002D29",
+                                  "text": "\"I don't know if you're familiar with this, but the Vespertine Department of Justice has published a rather interesting paper on the criminal profiling in former socialist states. Have you read it?\"",
+                                  "links": [
+                                    {
+                                      "id": 185,
+                                      "title": "Trant Heidelstam: \"\"If not, then you definitely should...\"",
+                                      "articyId": "0x0100000500002D22",
+                                      "text": "\"If not, then you definitely should -- if not for tips and tricks, then just for theoretical curiosity. Anyway, that's just a little something that sprang to mind.\" He squeezes his son's shoulder lightly. \"You were saying?\"",
+                                      "links": [
+                                        {
+                                          "id": 226,
+                                          "title": "Reaction Speed: \"Forget it. They don't sell those ki...\"",
+                                          "articyId": "0x010000060001D704",
+                                          "text": "Forget it. They don't sell those kinds of books at \"Crime, Romance & Biographies of Famous People.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 147,
+          "title": "You: \"\"By the way, do you work out?\"\"",
+          "articyId": "0x010000570001D5E7",
+          "text": "\"By the way, do you work out?\"",
+          "links": [
+            {
+              "id": 178,
+              "title": "Trant Heidelstam: \"\"I do some Lo Manthang stick fighti...\"",
+              "articyId": "0x010000570001D5ED",
+              "text": "\"I do some Lo Manthang stick fighting now and then.\"",
+              "links": [
+                {
+                  "id": 179,
+                  "title": "Encyclopedia: \"Lo Manthang stick fighting is a for...\"",
+                  "articyId": "0x010000570001D60D",
+                  "text": "Lo Manthang stick fighting is a form of martial arts originating from the isle of Lo Manthang. It uses slender wooden sticks for confronting the opponent.",
+                  "links": [
+                    {
+                      "id": 242,
+                      "title": "You: \"\"Wait, what's Lo Manthang stick fig...\"",
+                      "articyId": "0x010000570001D619",
+                      "text": "\"Wait, what's Lo Manthang stick fighting?\"",
+                      "links": [
+                        {
+                          "id": 126,
+                          "title": "Trant Heidelstam: \"\"It's an anthropological heritage o...\"",
+                          "articyId": "0x010000570001D646",
+                          "text": "\"It's an anthropological heritage of the Lomanthang people, a martial art of sorts, but what not a lot of books mention is that it also carries a *cultural* significance among the Lomanthangs, as it used to be the best means of showing off to look for a bride, which...\"",
+                          "links": [
+                            {
+                              "id": 261,
+                              "title": "Trant Heidelstam: \"\"... interestingly enough, brings u...\"",
+                              "articyId": "0x010000570001D64F",
+                              "text": "\"... interestingly enough, brings us to the socio-economic structure of the traditional rural tribes of the Lo Manthang isles, which...\" He goes on to give you a detailed overview of their way of life, the amiable, slightly nervous smile not once leaving his face.",
+                              "links": [
+                                {
+                                  "id": 43,
+                                  "title": "Encyclopedia: \"I couldn't have said it better. Thi...\"",
+                                  "articyId": "0x010000570001D656",
+                                  "text": "I couldn't have said it better. This man is a fountain of knowledge!",
+                                  "links": [
+                                    {
+                                      "id": 360,
+                                      "title": "Trant Heidelstam: \"\"But anyway,\" he says after a while...\"",
+                                      "articyId": "0x010000110000137A",
+                                      "text": "\"But anyway,\" he says after a while, \"I am boring you with details again. You were saying?\"",
+                                      "links": [
+                                        {
+                                          "id": 79,
+                                          "title": "You: \"\"I don't really remember what I was...\"",
+                                          "articyId": "0x0100001100001381",
+                                          "text": "\"I don't really remember what I was saying...\"",
+                                          "links": [
+                                            {
+                                              "id": 410,
+                                              "title": "Trant Heidelstam: \"\"Then I guess everything got said,...\"",
+                                              "articyId": "0x0100001100001396",
+                                              "text": "\"Then I guess everything got said, right?\" He looks up to the sky. \"The drizzle... it never seems to stop, does it?\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 60,
+                                              "title": "Trant Heidelstam: \"\"Then I guess everything got said,...\"",
+                                              "articyId": "0x010000110000139C",
+                                              "text": "\"Then I guess everything got said, right?\" He squints his eyes in the snow.",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 213,
+                                              "title": "Trant Heidelstam: \"\"Then I guess everything got said,...\"",
+                                              "articyId": "0x01000011000013A2",
+                                              "text": "\"Then I guess everything got said, right?\" He squints his eyes in the sun.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 82,
+                      "title": "You: \"\"A form of martial arts from the is...\"",
+                      "articyId": "0x010000570001D630",
+                      "text": "\"A form of martial arts from the isle of Lo Manthang, right?\"",
+                      "links": [
+                        {
+                          "id": 387,
+                          "title": "Trant Heidelstam: \"\"Actually, a great many cultures ha...\"",
+                          "articyId": "0x010000570001D636",
+                          "text": "\"Actually, a great many cultures have their own version of stick fighting, such as the sacred Mabolo tradition of the Hali people, the name deriving from the butterfruit tree traditionally used for crafting the long, slender sticks -- whereas the sticks used in other cultures...\"",
+                          "links": [
+                            {
+                              "id": 197,
+                              "title": "Trant Heidelstam: \"You doze off, as he paints you a co...\"",
+                              "articyId": "0x010000570001D63F",
+                              "text": "You doze off, as he paints you a comprehensive picture of the history of stick fighting among mankind, seasoning it with unexpected pop-culture references.",
+                              "links": [
+                                {
+                                  "id": 183,
+                                  "title": "Rhetoric: \"Man, he's good at speaking. People...\"",
+                                  "articyId": "0x010000570001D8AC",
+                                  "text": "Man, he's good at speaking. People must love him.",
+                                  "links": [
+                                    {
+                                      "id": 417,
+                                      "title": "Trant Heidelstam: \"\"But anyway,\" he says after a while...\"",
+                                      "articyId": "0x010000570001D6B1",
+                                      "text": "\"But anyway,\" he says after a while with a charming, apologetic smile, \"I am boring you with details again. You were saying?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 416,
+                      "title": "You: \"\"I'm not really interested in the p...\"",
+                      "articyId": "0x010000570001D65D",
+                      "text": "\"I'm not really interested in the practice, I just want to know how often you work out. Now and then -- that's what, like once a week?\"",
+                      "links": [
+                        {
+                          "id": 31,
+                          "title": "Trant Heidelstam: \"\"Lo Manthang stick fighting is a li...\"",
+                          "articyId": "0x010000570001D663",
+                          "text": "\"Lo Manthang stick fighting is a little like a pyrholidon addiction,\" he explains with a little smile. \"I've been practising it for nearly 20 years now, so you could say that my doses have grown a little... peculiar.\"",
+                          "links": [
+                            {
+                              "id": 171,
+                              "title": "Electrochemistry: \"Wait. What does this man know about...\"",
+                              "articyId": "0x0100001100001328",
+                              "text": "Wait. What does this man know about pyrholidon addiction?",
+                              "links": [
+                                {
+                                  "id": 78,
+                                  "title": "You: \"\"Hold on. Pyrholidon addiction? Wha...\"",
+                                  "articyId": "0x010000110000133D",
+                                  "text": "\"Hold on. Pyrholidon addiction? What an interesting metaphor...\" (Study his face.) \"Or perhaps not a metaphor at all?\"",
+                                  "links": [
+                                    {
+                                      "id": 121,
+                                      "title": "Trant Heidelstam: \"\"You got me, detective.\" He chuckle...\"",
+                                      "articyId": "0x0100001100001345",
+                                      "text": "\"You got me, detective.\" He chuckles, before a shadow takes hold of his face. \"But my history should hardly come as a surprise.\"",
+                                      "links": [
+                                        {
+                                          "id": 122,
+                                          "title": "Authority: \"Here's a former junkie. I can recog...\"",
+                                          "articyId": "0x0100001100001360",
+                                          "text": "Here's a former junkie. I can recognize one when I see it.",
+                                          "links": [
+                                            {
+                                              "id": 317,
+                                              "title": "Mikael Heidelstam: \"Suddenly little Mikael opens up his...\"",
+                                              "articyId": "0x010000080000112C",
+                                              "text": "Suddenly little Mikael opens up his mouth: \"Dad's fighting with sticks every night after dinner for four hours. He has a special room for that -- *and* a special costume!\"",
+                                              "links": [
+                                                {
+                                                  "id": 342,
+                                                  "title": "Trant Heidelstam: \"\"That's right, Mikael.\" Trant grabs...\"",
+                                                  "articyId": "0x0100001100001372",
+                                                  "text": "\"That's right, Mikael.\" Trant grabs his kid into a single-handed embrace, happy to change the subject. \"It also has a meditative quality, helps to clear my head... But anyway,\" he says, swaying with his hand.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 237,
+                                  "title": "You: \"\"I can assure you -- *nothing* in t...\"",
+                                  "articyId": "0x0100001100001337",
+                                  "text": "\"I can assure you -- *nothing* in this world comes even close to being addicted to this devil.\"",
+                                  "links": [
+                                    {
+                                      "id": 172,
+                                      "title": "Trant Heidelstam: \"\"Oh, I know, detective.\" He chuckle...\"",
+                                      "articyId": "0x0100001100001352",
+                                      "text": "\"Oh, I know, detective.\" He chuckles, before a shadow takes hold of his pallid face -- he misses the devil.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 173,
+                                      "title": "Trant Heidelstam: \"\"Oh, I know, detective.\" He chuckle...\"",
+                                      "articyId": "0x0100001100001358",
+                                      "text": "\"Oh, I know, detective.\" He chuckles, but a shadow takes hold of his pallid face -- what does he mean that he *knows*?",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 96,
+                                  "title": "You: \"\"So what is it, twice a week then?...\"",
+                                  "articyId": "0x010000570001D66A",
+                                  "text": "\"So what is it, twice a week then? Every other day? *Man* is it difficult to stay on the right topic with you.\"",
+                                  "links": [
+                                    {
+                                      "id": 271,
+                                      "title": "Mikael Heidelstam: \"Suddenly little Mikael opens up his...\"",
+                                      "articyId": "0x0100000800001114",
+                                      "text": "Suddenly little Mikael opens up his mouth: \"Dad's fighting with sticks every night after dinner for four hours. He has a special room for that -- *and* a special costume!\"",
+                                      "links": [
+                                        {
+                                          "id": 180,
+                                          "title": "Trant Heidelstam: \"\"That's right, Mikael.\" Trant grabs...\"",
+                                          "articyId": "0x010000570001D677",
+                                          "text": "\"That's right, Mikael.\" Trant grabs his kid into a single-handed embrace, looking slightly embarrassed. \"It also has a meditative quality, helps to clear my head... But anyway,\" he says, swaying with his hand.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 255,
+                                  "title": "Empathy: \"Wait. What does this man know about...\"",
+                                  "articyId": "0x010000110000132E",
+                                  "text": "Wait. What does this man know about pyrholidon addiction?",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x01000011000013B7",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 101,
+          "title": "You: \"\"Great, thank you for all the inter...\"",
+          "articyId": "0x010000580000C470",
+          "text": "\"Great, thank you for all the interesting information.\" [Leave.]",
+          "links": [
+            {
+              "id": 392,
+              "title": "Trant Heidelstam: \"\"No, thanks to *you* for having me...\"",
+              "articyId": "0x010000580000C7B1",
+              "text": "\"No, thanks to *you* for having me and little Mikael here to pick your brain... A very interesting conversation indeed.\"",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "Rhetoric: \"Pick *your* brain? If anything, thi...\"",
+                  "articyId": "0x010000060001D70C",
+                  "text": "Pick *your* brain? If anything, this was rather one-sided. He did the talking. Whatever...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "title": "Trant Heidelstam: \"\"Good evening!\" He nods to you, smi...\"",
+      "articyId": "0x0100007100003EA7",
+      "text": "\"Good evening!\" He nods to you, smiling.",
+      "links": []
+    },
+    {
+      "id": 265,
+      "title": "Trant Heidelstam: \"\"Hello again!\" He nods to you, smil...\"",
+      "articyId": "0x010000580000C6A1",
+      "text": "\"Hello again!\" He nods to you, smiling.",
+      "links": []
+    },
+    {
+      "id": 132,
+      "title": "Trant Heidelstam: \"\"... and, Mikael, notice the window...\"",
+      "articyId": "0x010000580000C6AC",
+      "text": "\"... and, Mikael, notice the windows? Especially with how there are no windows on the south side? This was to deal with...\" A blond man stands next to his son, pointing to the weather-worn ruins. He sees you approaching and smiles...",
+      "links": [
+        {
+          "id": 326,
+          "title": "Trant Heidelstam: \"\"You, officers! Come to investigate...\"",
+          "articyId": "0x010000570001D50A",
+          "text": "\"You, officers! Come to investigate the historic subtext of West Martinaise? I'm Trant Heidelstam,\" he turns to the lieutenant. \"You must be Kim Kitsuragi, right? I was just telling my son about this building. Not a lot of people realize the historic significance here. Very rich in *hypertext*.\"",
+          "links": [
+            {
+              "id": 241,
+              "title": "Kim Kitsuragi: \"\"Nice to meet you.\" The lieutenant...\"",
+              "articyId": "0x010000570001D539",
+              "text": "\"Nice to meet you.\" The lieutenant nods.",
+              "links": [
+                {
+                  "id": 100,
+                  "title": "You: \"\"Hold on. Hyper...text?\"\"",
+                  "articyId": "0x0100005700023F99",
+                  "text": "\"Hold on. Hyper...text?\"",
+                  "links": [
+                    {
+                      "id": 223,
+                      "title": "Trant Heidelstam: \"\"Yes, hypertext,\" he says, as if it...\"",
+                      "articyId": "0x0100005700023FA0",
+                      "text": "\"Yes, hypertext,\" he says, as if it's self-evident. \"Jan Kaarp and the collection of cultural hyperlinks.\"",
+                      "links": [
+                        {
+                          "id": 246,
+                          "title": "Half Light: \"He's just making up fancy words. Th...\"",
+                          "articyId": "0x0100005700023FB3",
+                          "text": "He's just making up fancy words. This doesn't mean anything!",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 46,
+                  "title": "You: \"\"Wait, what was that about the wind...\"",
+                  "articyId": "0x0100005700023F5F",
+                  "text": "\"Wait, what was that about the windows before?\"",
+                  "links": [
+                    {
+                      "id": 366,
+                      "title": "Trant Heidelstam: \"\"Oh yes. So, Mikael, they had to de...\"",
+                      "articyId": "0x0100005700023F81",
+                      "text": "\"Oh yes. So, Mikael, they had to deal with monitor glare, especially in the summer. They still had vector monitors back then. That was 49 years ago. So they didn't have windows on the south wall.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 311,
+                  "title": "You: \"\"You and Kim know each other?\" (Pro...\"",
+                  "articyId": "0x0100005700023F6A",
+                  "text": "\"You and Kim know each other?\" (Proceed.)",
+                  "links": [
+                    {
+                      "id": 263,
+                      "title": "Trant Heidelstam: \"\"No, I can't say that we've met bef...\"",
+                      "articyId": "0x0100005700023F88",
+                      "text": "\"No, I can't say that we've met before. But I've *heard* of Kim, of course. Mikael, say hi to the officers.\" He rests his hand on the boy's shoulder. The child stays hidden behind the hem of his father's coat, clutching to his würm-themed colouring book.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 146,
+          "title": "Trant Heidelstam: \"\"You, officer! Come to investigate...\"",
+          "articyId": "0x010000570001D531",
+          "text": "\"You, officer! Come to investigate the historic subtext of West Martinaise? I was just telling my son about this building. Not many people appreciate the historic significance here. Very rich in *hypertext*.\"",
+          "links": [
+            {
+              "id": 32,
+              "title": "You: \"\"Hold on. Hyper...text?\"\"",
+              "articyId": "0x0100005700023FC3",
+              "text": "\"Hold on. Hyper...text?\"",
+              "links": [
+                {
+                  "id": 312,
+                  "title": "Trant Heidelstam: \"\"Yes, hypertext,\" he says, as if it...\"",
+                  "articyId": "0x0100005700023FC9",
+                  "text": "\"Yes, hypertext,\" he says, as if it's self-evident. \"Jan Kaarp and the collection of cultural hyperlinks.\"",
+                  "links": [
+                    {
+                      "id": 150,
+                      "title": "Half Light: \"He's just making up fancy words. Th...\"",
+                      "articyId": "0x0100005700023FD3",
+                      "text": "He's just making up fancy words. This doesn't mean anything!",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 83,
+              "title": "You: \"\"Wait, what was that about the wind...\"",
+              "articyId": "0x0100005700023FD9",
+              "text": "\"Wait, what was that about the windows before?\"",
+              "links": [
+                {
+                  "id": 313,
+                  "title": "Trant Heidelstam: \"\"Oh yes. So, Mikael, they had to de...\"",
+                  "articyId": "0x0100005700023FE3",
+                  "text": "\"Oh yes. So, Mikael, they had to deal with monitor glare, especially in the summer. They still had vector monitors back then. That was 49 years ago. So they didn't have windows on the south wall.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 151,
+              "title": "You: \"\"Alright, you were talking about th...\"",
+              "articyId": "0x0100005700023FF0",
+              "text": "\"Alright, you were talking about the building, go on.\" (Continue.)",
+              "links": [
+                {
+                  "id": 244,
+                  "title": "Trant Heidelstam: \"\"*Very* important. Mikael, say hi t...\"",
+                  "articyId": "0x0100005700023DDA",
+                  "text": "\"*Very* important. Mikael, say hi to the officer.\" He rests his hand on the boy's shoulder. The child stays hidden behind the hem of his father's coat, clutching to his würm-themed colouring book.",
+                  "links": [
+                    {
+                      "id": 309,
+                      "title": "Trant Heidelstam: \"\"Mikael's a little tired today. We...\"",
+                      "articyId": "0x0100005700023DE6",
+                      "text": "\"Mikael's a little tired today. We spent all night trying to run Orbis on his radiocomputer. Have you heard of it? It's a programming language used in Graad. Quite tricky, but he wanted to play this Graad-made adventure programme. We've been getting *really* into würms lately...\"",
+                      "links": [
+                        {
+                          "id": 35,
+                          "title": "Drama: \"The man speaks in the artificial ca...\"",
+                          "articyId": "0x010000060001D680",
+                          "text": "The man speaks in the artificial cadence of a professor -- or someone who's been on too many radio shows.",
+                          "links": [
+                            {
+                              "id": 310,
+                              "title": "Trant Heidelstam: \"\"But I assume you're not here for g...\"",
+                              "articyId": "0x0100005700023DEF",
+                              "text": "\"But I assume you're not here for giant würms when there are so many real things to see. Just as I was telling Mikael before -- this is where the Coalition landed in '08. We could be standing on what is the most interesting landmark in Revachol West.\" He points to the building again.",
+                              "links": [
+                                {
+                                  "id": 42,
+                                  "title": "Esprit de Corps: \"This man is your half brother. You...\"",
+                                  "articyId": "0x010000570001D515",
+                                  "text": "This man is your half brother. You feel it. But *why*?",
+                                  "links": [
+                                    {
+                                      "id": 420,
+                                      "title": "Encyclopedia: \"Wow, get a load of this guy. He *re...\"",
+                                      "articyId": "0x0100005700023DF7",
+                                      "text": "Wow, get a load of this guy. He *really* enjoys his trivia. The Orbis programming language was named after its inventor, Viktor Orbis, a cybernetician from Graad. They run Vox in the Occidental countries...",
+                                      "links": [
+                                        {
+                                          "id": 195,
+                                          "title": "Kim Kitsuragi: \"\"Detective, a word.\" He turns to th...\"",
+                                          "articyId": "0x0100005300004B17",
+                                          "text": "\"Detective, a word.\" He turns to the blonde man. \"Excuse us a moment, please.\"",
+                                          "links": [
+                                            {
+                                              "id": 259,
+                                              "title": "Trant Heidelstam: \"\"Of course, lieutenant.\" He nods. \"...\"",
+                                              "articyId": "0x0100005300004B1E",
+                                              "text": "\"Of course, lieutenant.\" He nods. \"Take your time. Mikael and I have plenty to keep us occupied!\"",
+                                              "links": [
+                                                {
+                                                  "id": 220,
+                                                  "title": "Kim Kitsuragi: \"In a low voice, the lieutenant whis...\"",
+                                                  "articyId": "0x0100005300004B25",
+                                                  "text": "In a low voice, the lieutenant whispers: \"I haven't the faintest idea who this gentleman is, but I've got a *hunch* he might have some affiliation with the Coalition, in case you're still serious about that *committee business*...\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 260,
+                                                      "title": "Kim Kitsuragi: \"\"In any case, I'll let you take it...\"",
+                                                      "articyId": "0x0100005300004B2C",
+                                                      "text": "\"In any case, I'll let you take it from here.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 325,
+                                                          "title": "Trant Heidelstam: \"With that, you both turn back to th...\"",
+                                                          "articyId": "0x0100005300004B33",
+                                                          "text": "With that, you both turn back to the blonde man.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 144,
+                                          "title": "Empathy: \"Something about the way this man ca...\"",
+                                          "articyId": "0x0100005300004B00",
+                                          "text": "Something about the way this man carries himself makes you wonder whether he might be able to help you with your *committee business*.",
+                                          "links": [
+                                            {
+                                              "id": 194,
+                                              "title": "Savoir Faire: \"It's his *sartorial style*. Call it...\"",
+                                              "articyId": "0x0100005300004B08",
+                                              "text": "It's his *sartorial style*. Call it 'well-travelled bean-counter'...",
+                                              "links": [
+                                                {
+                                                  "id": 365,
+                                                  "title": "Rhetoric: \"It's his manner of speaking. He rem...\"",
+                                                  "articyId": "0x0100005300004B0F",
+                                                  "text": "It's his manner of speaking. He reminds you of a lecturer...",
+                                                  "links": [
+                                                    {
+                                                      "id": 145,
+                                                      "title": "Trant Heidelstam: \"Whatever it is, he gives you an enc...\"",
+                                                      "articyId": "0x0100005300004B3B",
+                                                      "text": "Whatever it is, he gives you an encouraging smile.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

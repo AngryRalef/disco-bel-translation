@@ -1,0 +1,175 @@
+{
+  "id": "0x0100008100005A6E",
+  "title": "SEAFORT ORB / fairweather t500 helmet",
+  "description": "Orb that checks how much armour you've collected after you pick up the helmet.",
+  "dialogueTree": [
+    {
+      "id": 26,
+      "title": "Endurance: \"Brother, you've managed to collect...\"",
+      "articyId": "0x0100008100005A81",
+      "text": "Brother, you've managed to collect all the armour pieces. Too bad it's too late for the big showdown.",
+      "links": [
+        {
+          "id": 14,
+          "title": "You: \"Don't think this helmet would have...\"",
+          "articyId": "0x010000160000312B",
+          "text": "Don't think this helmet would have helped me anyway. (Look down at your wound.)",
+          "links": [
+            {
+              "id": 15,
+              "title": "Physical Instrument: \"It would have looked very impressiv...\"",
+              "articyId": "0x0100001600003155",
+              "text": "It would have looked very impressive... Still. You found it all. Now your mortal coil is  *completely* protected. Few cops are this futuristic.",
+              "links": [
+                {
+                  "id": 19,
+                  "title": "You: \"At least now I am truly invincible....\"",
+                  "articyId": "0x0100001600003182",
+                  "text": "At least now I am truly invincible. [Leave.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "You: \"At least my collector's impulse has...\"",
+          "articyId": "0x0100001600003131",
+          "text": "At least my collector's impulse has been satisfied.",
+          "links": [
+            {
+              "id": 22,
+              "title": "Physical Instrument: \"Indeed. You found it all. Now your...\"",
+              "articyId": "0x010000160000315B",
+              "text": "Indeed. You found it all. Now your mortal coil is  *completely* protected. Few cops are this futuristic.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "title": "You: \"I'm sure I'll have a use for this a...\"",
+          "articyId": "0x0100001600003137",
+          "text": "I'm sure I'll have a use for this armour in the future.",
+          "links": [
+            {
+              "id": 11,
+              "title": "Physical Instrument: \"Future use for a future armour. Agr...\"",
+              "articyId": "0x0100001600003161",
+              "text": "Future use for a future armour. Agreed. Gear up, heavy porcelain man. It's a violent world.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Physical Instrument: \"Son, you found another piece of the...\"",
+      "articyId": "0x0100008100005A87",
+      "text": "Son, you found another piece of the armour puzzle. Too bad it's too late for the big showdown. And also too late to collect all of them and have a full set.",
+      "links": [
+        {
+          "id": 16,
+          "title": "You: \"Don't think this helmet would have...\"",
+          "articyId": "0x01000016000031D7",
+          "text": "Don't think this helmet would have helped me anyway. (Look down at your wound.)",
+          "links": [
+            {
+              "id": 30,
+              "title": "Physical Instrument: \"But it would have looked really imp...\"",
+              "articyId": "0x01000016000031D1",
+              "text": "But it would have looked really impressive.",
+              "links": [
+                {
+                  "id": 17,
+                  "title": "You: \"And maybe scared the enemy combatan...\"",
+                  "articyId": "0x01000016000031EB",
+                  "text": "And maybe scared the enemy combatants...",
+                  "links": [
+                    {
+                      "id": 13,
+                      "title": "Physical Instrument: \"Exactly. But no use crying over spi...\"",
+                      "articyId": "0x01000016000031FA",
+                      "text": "Exactly. But no use crying over spilt milk. Keep up the pace. Only forward.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 21,
+                  "title": "You: \"Can't do anything about it now.\"",
+                  "articyId": "0x01000016000031E5",
+                  "text": "Can't do anything about it now.",
+                  "links": [
+                    {
+                      "id": 4,
+                      "title": "Physical Instrument: \"That's a good attitude to take. I l...\"",
+                      "articyId": "0x01000016000031F2",
+                      "text": "That's a good attitude to take. I like it. Keep it up, and keep the helmet handy.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"I never cared about collecting the...\"",
+          "articyId": "0x0100001600003149",
+          "text": "I never cared about collecting the full set. I'm not the collector type.",
+          "links": [
+            {
+              "id": 8,
+              "title": "Physical Instrument: \"Yeah, sure, but you would have beco...\"",
+              "articyId": "0x010000160000316D",
+              "text": "Yeah, sure, but you would have become nearly invincible.",
+              "links": [
+                {
+                  "id": 3,
+                  "title": "You: \"I'll make do. [Leave.]\"",
+                  "articyId": "0x0100001600003191",
+                  "text": "I'll make do. [Leave.]",
+                  "links": []
+                },
+                {
+                  "id": 18,
+                  "title": "You: \"Damn. Perhaps another day. [Leave.]\"",
+                  "articyId": "0x0100008100005A8F",
+                  "text": "Damn. Perhaps another day. [Leave.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"Hey, at least I've got this cool he...\"",
+          "articyId": "0x010000160000314F",
+          "text": "Hey, at least I've got this cool helmet *now*. I can wear it into the next battle.",
+          "links": [
+            {
+              "id": 5,
+              "title": "Physical Instrument: \"I'm liking the positive attitude. K...\"",
+              "articyId": "0x0100001600003173",
+              "text": "I'm liking the positive attitude. Keep it up, champ.",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "You: \"[Leave.]\"",
+                  "articyId": "0x0100001600003209",
+                  "text": "[Leave.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "id": "0x0100006B00002E2A",
+  "title": "INVENTORY / DELUXE TOPPING PIE",
+  "description": "That some good pie to eat and get healthy.",
+  "dialogueTree": [
+    {
+      "id": 31,
+      "title": "Deluxe Topping Pie: \"The super fancy topping pie is wait...\"",
+      "articyId": "0x0100008100003A48",
+      "text": "The super fancy topping pie is waiting for you to dig in.",
+      "links": [
+        {
+          "id": 40,
+          "title": "Conceptualization: \"You should eat it slowly, really sa...\"",
+          "articyId": "0x0100008100003A4E",
+          "text": "You should eat it slowly, really savour the chef's concept.",
+          "links": [
+            {
+              "id": 78,
+              "title": "Authority: \"Eating this pie will almost certain...\"",
+              "articyId": "0x0100008100003A54",
+              "text": "Eating this pie will almost certainly make you less of a man. What were you thinking, agreeing to take a wheat-free, meat-free pie from that sleazy bastard?",
+              "links": [
+                {
+                  "id": 75,
+                  "title": "You: \"I'm hungover and *famished*! Who ca...\"",
+                  "articyId": "0x0100008100003AFA",
+                  "text": "I'm hungover and *famished*! Who cares what's on it? Devour that topping pie!",
+                  "links": [
+                    {
+                      "id": 49,
+                      "title": "Deluxe Topping Pie: \"You can barely taste what you're ea...\"",
+                      "articyId": "0x0100008100003AF3",
+                      "text": "You can barely taste what you're eating as you shove the slices in your mouth, but you can tell: it's doing your body good. Soon it's all gone -- just some wheat-free flour left on your hands.",
+                      "links": []
+                    },
+                    {
+                      "id": 30,
+                      "title": "Deluxe Topping Pie: \"You can barely taste what you're ea...\"",
+                      "articyId": "0x0100008100003FFF",
+                      "text": "You can barely taste what you're eating as you shove the slices in your mouth, but you can tell: it's doing your body good. Soon it's all gone -- just some wheat-free flour left on your hands.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 32,
+                  "title": "You: \"Consume the pie contemplatively.\"",
+                  "articyId": "0x0100008100003A66",
+                  "text": "Consume the pie contemplatively.",
+                  "links": [
+                    {
+                      "id": 25,
+                      "title": "Deluxe Topping Pie: \"It's an unexpectedly pleasing combi...\"",
+                      "articyId": "0x0100008100003B15",
+                      "text": "It's an unexpectedly pleasing combination of flavours and textures -- salty crunch of meatless bacon, butteriness of avocado, sweet bursts of pineapple and fig tempered by the pungency of basil, with a kick from the pepper, paprika, and lime... You have to admit: even the wheat-free crust is pretty good.",
+                      "links": [
+                        {
+                          "id": 50,
+                          "title": "Deluxe Topping Pie: \"Even such a profound experience of...\"",
+                          "articyId": "0x0100008100003B34",
+                          "text": "Even such a profound experience of topping pie has to come to an end, though. Soon, you have nothing but flour on your hands.",
+                          "links": []
+                        },
+                        {
+                          "id": 70,
+                          "title": "Deluxe Topping Pie: \"Even such a profound experience of...\"",
+                          "articyId": "0x010000810000400E",
+                          "text": "Even such a profound experience of topping pie has to come to an end, though. Soon, you have nothing but flour on your hands.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 41,
+                  "title": "You: \"\"Hey, Kim, share this topping pie w...\"",
+                  "articyId": "0x0100008100003A6C",
+                  "text": "\"Hey, Kim, share this topping pie with me?\"",
+                  "links": [
+                    {
+                      "id": 65,
+                      "title": "Kim Kitsuragi: \"The lieutenant looks at you wearily...\"",
+                      "articyId": "0x0100008100003B5F",
+                      "text": "The lieutenant looks at you wearily. \"Please let's not go through this again.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 58,
+                      "title": "Kim Kitsuragi: \"He sighs. \"Haven't I already proven...\"",
+                      "articyId": "0x0100008100003C42",
+                      "text": "He sighs. \"Haven't I already proven that we are comrades or whatever by splitting that sandwich with you?\"",
+                      "links": [
+                        {
+                          "id": 27,
+                          "title": "You: \"\"But that was just a sandwich! This...\"",
+                          "articyId": "0x0100008100003C49",
+                          "text": "\"But that was just a sandwich! This is a topping pie!\"",
+                          "links": [
+                            {
+                              "id": 6,
+                              "title": "Kim Kitsuragi: \"\"I thought it was the symbolism tha...\"",
+                              "articyId": "0x0100008100003C8C",
+                              "text": "\"I thought it was the symbolism that was important, not the type of...\" He takes off his glasses and rubs his forehead. \"Please, just... enjoy the pie.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 28,
+                          "title": "You: \"\"Every meal we share strengthens ou...\"",
+                          "articyId": "0x0100008100003C55",
+                          "text": "\"Every meal we share strengthens our bond!\"",
+                          "links": [
+                            {
+                              "id": 29,
+                              "title": "Kim Kitsuragi: \"\"That depends on one's perspective....\"",
+                              "articyId": "0x0100008100003C9E",
+                              "text": "\"That depends on one's perspective.\" He takes off his glasses and rubs his forehead. \"Please, just... enjoy the pie.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "title": "You: \"\"I was just asking out of politenes...\"",
+                          "articyId": "0x0100008100003C4F",
+                          "text": "\"I was just asking out of politeness.\"",
+                          "links": [
+                            {
+                              "id": 60,
+                              "title": "Kim Kitsuragi: \"\"Well, then: no, thank you.\"\"",
+                              "articyId": "0x0100008100003C92",
+                              "text": "\"Well, then: no, thank you.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 53,
+                          "title": "You: \"\"Please, Kim. At least take one sli...\"",
+                          "articyId": "0x0100008100003B7E",
+                          "text": "\"Please, Kim. At least take one slice. It's really too big for me, and it's going to just grow colder and soggier if I keep any part of it...\"",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "Kim Kitsuragi: \"He thinks about it for a moment, th...\"",
+                              "articyId": "0x0100008100003B9C",
+                              "text": "He thinks about it for a moment, then gingerly picks up a slice and starts chewing on it thoughtfully.",
+                              "links": [
+                                {
+                                  "id": 35,
+                                  "title": "You: \"\"Thank you, partner.\" (Eat the rest...\"",
+                                  "articyId": "0x0100008100003C26",
+                                  "text": "\"Thank you, partner.\" (Eat the rest of the pie.)",
+                                  "links": [
+                                    {
+                                      "id": 73,
+                                      "title": "Kim Kitsuragi: \"He finishes his slice and brushes t...\"",
+                                      "articyId": "0x0100008100003C2D",
+                                      "text": "He finishes his slice and brushes the wheat-free flour off his hands. \"That wasn't terrible. Well, shall we?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 39,
+                                  "title": "You: \"\"Thank you, partner.\" (Eat the rest...\"",
+                                  "articyId": "0x0100008100004023",
+                                  "text": "\"Thank you, partner.\" (Eat the rest of the pie.)",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 71,
+                      "title": "Kim Kitsuragi: \"\"No, thank you.\"\"",
+                      "articyId": "0x0100008100003B6B",
+                      "text": "\"No, thank you.\"",
+                      "links": [
+                        {
+                          "id": 66,
+                          "title": "Composure: \"His tone is almost stern beneath th...\"",
+                          "articyId": "0x0100008100003C3A",
+                          "text": "His tone is almost stern beneath the politeness.",
+                          "links": []
+                        },
+                        {
+                          "id": 24,
+                          "title": "You: \"\"Why won't you share my food with m...\"",
+                          "articyId": "0x0100008100003C67",
+                          "text": "\"Why won't you share my food with me, Kim?\"",
+                          "links": [
+                            {
+                              "id": 55,
+                              "title": "Kim Kitsuragi: \"He sighs. \"Don't take it personally...\"",
+                              "articyId": "0x0100008100003B90",
+                              "text": "He sighs. \"Don't take it personally.\"",
+                              "links": [
+                                {
+                                  "id": 13,
+                                  "title": "You: \"\"You ate that one man's salami. Why...\"",
+                                  "articyId": "0x0100008100003BC9",
+                                  "text": "\"You ate that one man's salami. Why won't you eat my topping pie?\"",
+                                  "links": [
+                                    {
+                                      "id": 26,
+                                      "title": "Kim Kitsuragi: \"\"I just don't want any. Please, enj...\"",
+                                      "articyId": "0x0100008100003BDF",
+                                      "text": "\"I just don't want any. Please, enjoy, and then let's move on.\"",
+                                      "links": [
+                                        {
+                                          "id": 22,
+                                          "title": "You: \"\"No, but really! You must..!\" (Shov...\"",
+                                          "articyId": "0x0100008100003BFF",
+                                          "text": "\"No, but really! You must..!\" (Shove the topping pie into Kim's hands.)",
+                                          "links": [
+                                            {
+                                              "id": 64,
+                                              "title": "Kim Kitsuragi: \"The lieutenant takes the pie from y...\"",
+                                              "articyId": "0x0100008100003C0E",
+                                              "text": "The lieutenant takes the pie from you and calmly lets it fall to the ground, face down. \"All done. Shall we?\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 45,
+                                          "title": "You: \"\"Okay.\"\"",
+                                          "articyId": "0x0100008100003C05",
+                                          "text": "\"Okay.\"",
+                                          "links": [
+                                            {
+                                              "id": 74,
+                                              "title": "Deluxe Topping Pie: \"The pie is still in your hands, its...\"",
+                                              "articyId": "0x0100008900001BDA",
+                                              "text": "The pie is still in your hands, its round face untouched, unbroken.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 34,
+                                  "title": "You: \"\"I've seen you share the food of ot...\"",
+                                  "articyId": "0x0100008100003BD7",
+                                  "text": "\"I've seen you share the food of other people! Can't help but wonder if you consider me an enemy.\"",
+                                  "links": [
+                                    {
+                                      "id": 42,
+                                      "title": "Kim Kitsuragi: \"\"That's a ridiculous notion. We are...\"",
+                                      "articyId": "0x0100008100003BE6",
+                                      "text": "\"That's a ridiculous notion. We are not living in a highly ritualistic society where not sharing food with someone indicates animosity. We are in Revachol, where people ought to be free not to eat topping pie when they are not hungry.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 77,
+                          "title": "You: \"\"Don't you ever eat?\"\"",
+                          "articyId": "0x0100008100003B78",
+                          "text": "\"Don't you ever eat?\"",
+                          "links": [
+                            {
+                              "id": 23,
+                              "title": "Kim Kitsuragi: \"The lieutenant crosses his arms. \"F...\"",
+                              "articyId": "0x0100008100003B96",
+                              "text": "The lieutenant crosses his arms. \"Food of my choice, on my own schedule.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 56,
+                          "title": "You: \"\"Okay.\"\"",
+                          "articyId": "0x0100008100003B84",
+                          "text": "\"Okay.\"",
+                          "links": [
+                            {
+                              "id": 33,
+                              "title": "Deluxe Topping Pie: \"The pie is still in your hands, its...\"",
+                              "articyId": "0x0100008100003B8A",
+                              "text": "The pie is still in your hands, its round face untouched, unbroken.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "You: \"Throw the topping pie on the ground...\"",
+                  "articyId": "0x0100008100003AED",
+                  "text": "Throw the topping pie on the ground. You're not taking any bribes from questionable persons.",
+                  "links": [
+                    {
+                      "id": 21,
+                      "title": "Deluxe Topping Pie: \"The pie lies sadly face-down on the...\"",
+                      "articyId": "0x0100008100003B44",
+                      "text": "The pie lies sadly face-down on the ground, a waste of culinary creativity, some of its colourful toppings scattered around it.",
+                      "links": [
+                        {
+                          "id": 51,
+                          "title": "Kim Kitsuragi: \"He inclines his head. \"Why...?\" he...\"",
+                          "articyId": "0x0100008100003C7E",
+                          "text": "He inclines his head. \"Why...?\" he starts, then thinks better of it.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 54,
+                  "title": "You: \"Leave it for later. [Put the toppin...\"",
+                  "articyId": "0x0100008100003A72",
+                  "text": "Leave it for later. [Put the topping pie away.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

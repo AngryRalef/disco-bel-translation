@@ -1,0 +1,353 @@
+{
+  "id": "0x01000048000000BE",
+  "title": "BOOKSTORE / BACK DOOR",
+  "description": "It's the back door of \"Crime, Romance, and Biographies of Famous People\". You can look at it, use a key object on it or try to force it open.",
+  "dialogueTree": [
+    {
+      "id": 47,
+      "title": "Warded Door: \"A heavy door with a missing handle...\"",
+      "articyId": "0x0100009200001325",
+      "text": "A heavy door with a missing handle stands before you, covered in dozens (if not hundreds) of Semenese trinkets and charms. It appears to be locked.",
+      "links": [
+        {
+          "id": 50,
+          "title": "You: \"Maybe I *should* break it down? But...\"",
+          "articyId": "0x0100002F0000D76D",
+          "text": "Maybe I *should* break it down? But not before I strategize...",
+          "links": [
+            {
+              "id": 6,
+              "title": "Physical Instrument: \"That's right, take in your surround...\"",
+              "articyId": "0x0100002F0000D77B",
+              "text": "That's right, take in your surroundings. You need to have a solid ground and a proper posture if you want to succeed.",
+              "links": [
+                {
+                  "id": 62,
+                  "title": "You: \"First -- check your posture.\"",
+                  "articyId": "0x010000920000037C",
+                  "text": "First -- check your posture.",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Physical Instrument: \"Steady breathing, solid core -- you...\"",
+                      "articyId": "0x010000920000038A",
+                      "text": "Steady breathing, solid core -- you've got this. With one shoulder forward you're ready to smash into the door like a battering ram.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 33,
+                  "title": "You: \"Check your surroundings.\"",
+                  "articyId": "0x0100009200000382",
+                  "text": "Check your surroundings.",
+                  "links": [
+                    {
+                      "id": 85,
+                      "title": "Physical Instrument: \"The room is dimly lit and littered...\"",
+                      "articyId": "0x010000920000039F",
+                      "text": "The room is dimly lit and littered with old barber shop rubbish, but the path to the door is clear.",
+                      "links": [
+                        {
+                          "id": 16,
+                          "title": "You: \"And what about the door?\"",
+                          "articyId": "0x01000092000003BC",
+                          "text": "And what about the door?",
+                          "links": [
+                            {
+                              "id": 49,
+                              "title": "Physical Instrument: \"It's made of a solid block of wood,...\"",
+                              "articyId": "0x01000092000003C3",
+                              "text": "It's made of a solid block of wood, but it has stood there for ages -- the hinges are old and coated with a carmine layer of rust. It should be doable.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "title": "You: \"Knock on the door.\"",
+          "articyId": "0x010000480000019A",
+          "text": "Knock on the door.",
+          "links": [
+            {
+              "id": 48,
+              "title": "Warded Door: \"Only an echo... No one is there.\"",
+              "articyId": "0x01000048000001F4",
+              "text": "Only an echo... No one is there.",
+              "links": [
+                {
+                  "id": 37,
+                  "title": "Perception (Hearing): \"A hollowed out, dark echo...\"",
+                  "articyId": "0x0100002F0000DC2F",
+                  "text": "A hollowed out, dark echo...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "title": "You: \"Unlock the door with the key.\"",
+          "articyId": "0x0100004800000116",
+          "text": "Unlock the door with the key.",
+          "links": [
+            {
+              "id": 3,
+              "title": "Warded Door: \"After exerting some force you manag...\"",
+              "articyId": "0x01000048000000ED",
+              "text": "After exerting some force you manage to turn the key. It's eerily silent. The door slides slightly open, letting a draft of cold air into the room.",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "Shivers: \"You feel the tiny hairs on the back...\"",
+                  "articyId": "0x01000048000001BE",
+                  "text": "You feel the tiny hairs on the back of your neck rise up, as if someone's standing right behind you.",
+                  "links": [
+                    {
+                      "id": 27,
+                      "title": "Half Light: \"An uneasy knot forms in the pit of...\"",
+                      "articyId": "0x01000092000007BD",
+                      "text": "An uneasy knot forms in the pit of your stomach...",
+                      "links": [
+                        {
+                          "id": 38,
+                          "title": "You: \"Touch the back of your neck: What i...\"",
+                          "articyId": "0x0100002F0001168A",
+                          "text": "Touch the back of your neck: What is this feeling?",
+                          "links": [
+                            {
+                              "id": 4,
+                              "title": "Shivers: \"Outside, the wind howls in from acr...\"",
+                              "articyId": "0x0100002F00011690",
+                              "text": "Outside, the wind howls in from across the bay. The building at Rue de Saint-Ghislaine stands like a matchbox on its side, with men inside like little wooden sticks ready to catch fire.",
+                              "links": [
+                                {
+                                  "id": 67,
+                                  "title": "Shivers: \"A panicking woman squeezes the pend...\"",
+                                  "articyId": "0x01000092000007C7",
+                                  "text": "A panicking woman squeezes the pendant around her neck until it leaves a mark inside her palm. A man, a few metres away, stands frozen with a key in his hand. Somewhere inside a spider is spinning its web.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 46,
+                          "title": "You: \"\"Uh, Kim? Maybe you should go first...\"",
+                          "articyId": "0x01000048000001E2",
+                          "text": "\"Uh, Kim? Maybe you should go first...\"",
+                          "links": [
+                            {
+                              "id": 14,
+                              "title": "Kim Kitsuragi: \"\"Detective, you're the one in charg...\"",
+                              "articyId": "0x010000480000017D",
+                              "text": "\"Detective, you're the one in charge.\" The lieutenant motions toward the door.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 81,
+                          "title": "You: \"[Open the door and enter.]\"",
+                          "articyId": "0x010000480000011E",
+                          "text": "[Open the door and enter.]",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"Break down the door.\"",
+          "articyId": "0x01000048000000D0",
+          "text": "Break down the door.",
+          "links": [
+            {
+              "id": 72,
+              "title": "Pain Threshold: \"You smash into the wood and see a s...\"",
+              "articyId": "0x0100002F000116BC",
+              "text": "You smash into the wood and see a small crack appear on the door frame. It's going to take one more try to break through to the other side, but you've done it...",
+              "links": [
+                {
+                  "id": 19,
+                  "title": "Kim Kitsuragi: \"\"You're not thinking of trying agai...\"",
+                  "articyId": "0x0100002F000116FE",
+                  "text": "\"You're not thinking of trying again, are you?\" The lieutenant stares at you as you stand there, silent and brooding.",
+                  "links": [
+                    {
+                      "id": 39,
+                      "title": "You: \"Smash into the door again -- wordle...\"",
+                      "articyId": "0x0100002F000116E6",
+                      "text": "Smash into the door again -- wordless.",
+                      "links": [
+                        {
+                          "id": 7,
+                          "title": "Pain Threshold: \"The door shudders with your impact....\"",
+                          "articyId": "0x010000480000010A",
+                          "text": "The door shudders with your impact. Hinges snap, panels crack, splinters fly by as you smash through, tumbling into the darkness ahead.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "title": "You: \"Smash into the door and shout: \"Wel...\"",
+                      "articyId": "0x0100002F000116F8",
+                      "text": "Smash into the door and shout: \"Welcome to Revachol!\"",
+                      "links": []
+                    },
+                    {
+                      "id": 51,
+                      "title": "You: \"Smash into the door and shout: \"Fuc...\"",
+                      "articyId": "0x010000920000036F",
+                      "text": "Smash into the door and shout: \"Fuck the system!\"",
+                      "links": []
+                    },
+                    {
+                      "id": 56,
+                      "title": "You: \"Smash into the door and shout: \"Fre...\"",
+                      "articyId": "0x0100002F0000D7F7",
+                      "text": "Smash into the door and shout: \"Freeze, dirtbags!\"",
+                      "links": []
+                    },
+                    {
+                      "id": 42,
+                      "title": "You: \"Smash into the door and shout: \"Han...\"",
+                      "articyId": "0x0100002F0000D7FD",
+                      "text": "Smash into the door and shout: \"Hands up, now!\"",
+                      "links": []
+                    },
+                    {
+                      "id": 71,
+                      "title": "You: \"Smash into the door and shout: \"Fuc...\"",
+                      "articyId": "0x0100002F0000D811",
+                      "text": "Smash into the door and shout: \"Fuck, it hurts!\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 66,
+                  "title": "Plaisance: \"\"What are you doing, officer?!\" A v...\"",
+                  "articyId": "0x0100002F00011704",
+                  "text": "\"What are you doing, officer?!\" A voice rings from the other room. It sounds almost worried -- worried about your health.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 77,
+              "title": "Pain Threshold: \"Ow, shoot! Whose moronic idea was i...\"",
+              "articyId": "0x0100002F000116C1",
+              "text": "Ow, shoot! Whose moronic idea was it to just *run through the door*? Don't you know that things like that *hurt*?!",
+              "links": [
+                {
+                  "id": 5,
+                  "title": "Physical Instrument: \"Walk it off, son! Stop wriggling li...\"",
+                  "articyId": "0x0100002F0000D710",
+                  "text": "Walk it off, son! Stop wriggling like a maggot, it's nothing to worry about.",
+                  "links": []
+                },
+                {
+                  "id": 53,
+                  "title": "You: \"\"Oh god...\" (Try to breathe normall...\"",
+                  "articyId": "0x0100002F0000D55D",
+                  "text": "\"Oh god...\" (Try to breathe normally.) \"This really wasn't the best idea, was it...\"",
+                  "links": [
+                    {
+                      "id": 20,
+                      "title": "Kim Kitsuragi: \"\"Are you alright?\" The lieutenant s...\"",
+                      "articyId": "0x0100009200000322",
+                      "text": "\"Are you alright?\" The lieutenant steps closer, his eyes soft and worried. \"This looked... pretty intense and painful, I must admit.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 15,
+                      "title": "Plaisance: \"\"What is going *on* there?!\" an ups...\"",
+                      "articyId": "0x0100009200000329",
+                      "text": "\"What is going *on* there?!\" an upset, high-pitched voice calls out from the bookstore. \"Are you really trying to break down the back door?\"",
+                      "links": [
+                        {
+                          "id": 21,
+                          "title": "Plaisance: \"\"I warn you, don't tempt the spirit...\"",
+                          "articyId": "0x0100009200000333",
+                          "text": "\"I warn you, don't tempt the spirits, officer!\" You can hear her take a frightened step backwards. \"Don't tempt the spirits or you'll damage the holy *wards* on the door!\"",
+                          "links": [
+                            {
+                              "id": 9,
+                              "title": "Warded Door: \"It barely looks like you've done an...\"",
+                              "articyId": "0x0100009200000343",
+                              "text": "It barely looks like you've done any damage to the door, however -- it's still locked and closed, covered in dozens of little charms and trinkets.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 76,
+                  "title": "You: \"\"I deserve this. My body deserves t...\"",
+                  "articyId": "0x0100002F0000D562",
+                  "text": "\"I deserve this. My body deserves to suffer for being this *weak* and *disappointing*.\"",
+                  "links": []
+                },
+                {
+                  "id": 17,
+                  "title": "You: \"\"Is that... Is that *blood* I'm see...\"",
+                  "articyId": "0x0100002F0000D5EC",
+                  "text": "\"Is that... Is that *blood* I'm seeing?\" (Rub your forehead.)",
+                  "links": []
+                },
+                {
+                  "id": 2,
+                  "title": "You: \"\"Please don't cry, please don't cry...\"",
+                  "articyId": "0x0100002F00011718",
+                  "text": "\"Please don't cry, please don't cry...\" (Slap your face.) \"I don't want anyone to see me cry!\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x01000048000000F3",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 64,
+          "title": "Physical Instrument: \"What if... you just break it down?\"",
+          "articyId": "0x0100002F0000D702",
+          "text": "What if... you just break it down?",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Warded Door: \"A heavy door with a missing handle...\"",
+      "articyId": "0x010000920000131F",
+      "text": "A heavy door with a missing handle stands before you, covered in dozens (if not hundreds) of little oddly-shaped trinkets and charms. It appears to be locked.",
+      "links": []
+    }
+  ]
+}

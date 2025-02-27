@@ -1,0 +1,99 @@
+{
+  "id": "0x010000570001CD13",
+  "title": "CHURCH / WATERBASINS",
+  "description": "Waterbasin dialogue for solving the \"Move the waterbasins\" task.",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Water Bowls: \"It's awfully silent again, as if so...\"",
+      "articyId": "0x010000570001CD1C",
+      "text": "It's awfully silent again, as if someone turned off the entire world outside those walls. Water inside the bowls stands still.",
+      "links": [
+        {
+          "id": 17,
+          "title": "Perception (Sight): \"Measurements have been marked down...\"",
+          "articyId": "0x010000570001CFAC",
+          "text": "Measurements have been marked down around the bowls, each chalk-drawn line representing a centimetre on the floor.",
+          "links": [
+            {
+              "id": 21,
+              "title": "Interfacing: \"Oh boy, this is going to be good.\"",
+              "articyId": "0x010000570001CD62",
+              "text": "Oh boy, this is going to be good.",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "You: \"Move the third bowl from the left t...\"",
+                  "articyId": "0x010000570001CD34",
+                  "text": "Move the third bowl from the left two centimetres away.",
+                  "links": [
+                    {
+                      "id": 20,
+                      "title": "Water Bowls: \"It moves like a ghost without creat...\"",
+                      "articyId": "0x010000570001CD3A",
+                      "text": "It moves like a ghost without creating a single trace of sound.",
+                      "links": [
+                        {
+                          "id": 6,
+                          "title": "Soona, the Programmer: \"The lead programmer sends you an en...\"",
+                          "articyId": "0x010000570001CD72",
+                          "text": "The lead programmer sends you an encouraging thumbs up from across the hall.",
+                          "links": [
+                            {
+                              "id": 19,
+                              "title": "Physical Instrument: \"Time to run back! Or maybe walk, th...\"",
+                              "articyId": "0x01000021000028A7",
+                              "text": "Time to run back! Or maybe walk, this *is* a sacred place after all...",
+                              "links": [
+                                {
+                                  "id": 13,
+                                  "title": "Pain Threshold: \"*And* your leg still hurts from the...\"",
+                                  "articyId": "0x0100002100002C25",
+                                  "text": "*And* your leg still hurts from the tribunal.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "title": "Logic: \"This task is an insult to your ment...\"",
+                          "articyId": "0x010000570001CD7A",
+                          "text": "This task is an insult to your mental skills.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 14,
+                  "title": "You: \"Move the fourth bowl from the left...\"",
+                  "articyId": "0x010000570001CD26",
+                  "text": "Move the fourth bowl from the left five centimetres to the right.",
+                  "links": [
+                    {
+                      "id": 18,
+                      "title": "Water Bowls: \"Some water spills out of the bowl,...\"",
+                      "articyId": "0x010000570001CD40",
+                      "text": "Some water spills out of the bowl, wetting the floor.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 22,
+                  "title": "You: \"[Leave.]\"",
+                  "articyId": "0x010000570001CD2C",
+                  "text": "[Leave.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

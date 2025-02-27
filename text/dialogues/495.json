@@ -1,0 +1,123 @@
+{
+  "id": "0x0100007500000DBF",
+  "title": "BOARDWALK / TRASH CAN",
+  "description": "A TRASH CAN OH BOY. Its an interaction.",
+  "dialogueTree": [
+    {
+      "id": 23,
+      "title": "Trash Can: \"There's some tare, an empty cigaret...\"",
+      "articyId": "0x0100007500000DC5",
+      "text": "There's some tare, an empty cigarette package, and a crumpled kebab wrapper in the trash bin.",
+      "links": [
+        {
+          "id": 2,
+          "title": "You: \"Examine the tare.\"",
+          "articyId": "0x0100007500000F30",
+          "text": "Examine the tare.",
+          "links": [
+            {
+              "id": 18,
+              "title": "Trash Can: \"Two empty bottles of 'Touloula' vod...\"",
+              "articyId": "0x0100007500000F5B",
+              "text": "Two empty bottles of 'Touloula' vodka and a can of black 'Potent Porter' is all you find.",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Perception (Sight): \"No. There's more in there. 'Livis'...\"",
+                  "articyId": "0x0100007500000F70",
+                  "text": "No. There's more in there. 'Livis' strawberry liquor, plus some pilsner bottles too. Better not pick them up, they seem unhygienic.",
+                  "links": [
+                    {
+                      "id": 13,
+                      "title": "Kim Kitsuragi: \"\"A tragedy...\" The lieutenant looks...\"",
+                      "articyId": "0x010000060001D970",
+                      "text": "\"A tragedy...\" The lieutenant looks in the can, eyes watering from the smell.",
+                      "links": [
+                        {
+                          "id": 16,
+                          "title": "Empathy: \"He shakes his head with genuine sad...\"",
+                          "articyId": "0x010000060001D986",
+                          "text": "He shakes his head with genuine sadness.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "You: \"Examine the cigarette package.\"",
+          "articyId": "0x0100007500000F36",
+          "text": "Examine the cigarette package.",
+          "links": [
+            {
+              "id": 20,
+              "title": "Trash Can: \"Whoever tossed it here was a heavy...\"",
+              "articyId": "0x0100007500000F55",
+              "text": "Whoever tossed it here was a heavy smoker: the brand name reads 'Red Astra'.",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Encyclopedia: \"'Red Astra' is the black market ver...\"",
+                  "articyId": "0x0100007500000F75",
+                  "text": "'Red Astra' is the black market version of 'Astra' cigarettes, known for their high tar content.",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Electrochemistry: \"Now, this makes partying look *bad*...\"",
+                      "articyId": "0x010000060001D979",
+                      "text": "Now, this makes partying look *bad*. Still -- don't let it sway you. *You're* responsible.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"Examine the kebab wrapper.\"",
+          "articyId": "0x0100007500000F46",
+          "text": "Examine the kebab wrapper.",
+          "links": [
+            {
+              "id": 24,
+              "title": "Trash Can: \"You see traces of mayonnaise and ke...\"",
+              "articyId": "0x0100007500000F4F",
+              "text": "You see traces of mayonnaise and ketchup on it, as well as a tomato wedge. The wrapper reads: 'SHISH KEBAB REVACHOL'.",
+              "links": [
+                {
+                  "id": 22,
+                  "title": "Visual Calculus: \"It's no older than a day, or two. N...\"",
+                  "articyId": "0x010000060001D98E",
+                  "text": "It's no older than a day, or two. No mould yet.",
+                  "links": [
+                    {
+                      "id": 15,
+                      "title": "Perception (Smell): \"It's hard to concentrate in the sme...\"",
+                      "articyId": "0x0100002100000C03",
+                      "text": "It's hard to concentrate in the smell. The sea air brings some relief.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100007500000F3C",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

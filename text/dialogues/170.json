@@ -1,0 +1,257 @@
+{
+  "id": "0x0100002F0000EDE8",
+  "title": "THOUGHT / SORRY COP",
+  "description": "Suggestion tells you all about being a Sorry Cop.\n\n... I am SORRY!!! Sorry for everything! Sorry for being *me*!",
+  "dialogueTree": [
+    {
+      "id": 2,
+      "title": "Suggestion: \"Hey, so we've been monitoring you i...\"",
+      "articyId": "0x010000060000FA4B",
+      "text": "Hey, so we've been monitoring you internally, and now we know your *copotype*.",
+      "links": [
+        {
+          "id": 35,
+          "title": "You: \"Wait, there are *copotypes*?\"",
+          "articyId": "0x010000060000FA57",
+          "text": "Wait, there are *copotypes*?",
+          "links": [
+            {
+              "id": 19,
+              "title": "Suggestion: \"Yes. Guess what's yours?\"",
+              "articyId": "0x010000060000FA6A",
+              "text": "Yes. Guess what's yours?",
+              "links": [
+                {
+                  "id": 3,
+                  "title": "You: \"Cool cop?\"",
+                  "articyId": "0x010000060000FA87",
+                  "text": "Cool cop?",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Suggestion: \"No, you're the *Sorry Cop*. The cop...\"",
+                      "articyId": "0x010000060000FABE",
+                      "text": "No, you're the *Sorry Cop*. The cop who's sorriest. Let's make it official, then, shall we?",
+                      "links": [
+                        {
+                          "id": 12,
+                          "title": "Empathy: \"Huge lack of enthusiasm going on in...\"",
+                          "articyId": "0x010000060000FAF6",
+                          "text": "Huge lack of enthusiasm going on in here.",
+                          "links": [
+                            {
+                              "id": 24,
+                              "title": "You: \"Okay, okay, but what are the *other...\"",
+                              "articyId": "0x010000060000FACB",
+                              "text": "Okay, okay, but what are the *other* copotypes?",
+                              "links": [
+                                {
+                                  "id": 20,
+                                  "title": "Suggestion: \"Oh, you know. Apocalypse, Superstel...\"",
+                                  "articyId": "0x010000060000FAE1",
+                                  "text": "Oh, you know. Apocalypse, Superstellar, The Advanced Interesting Cop. Liquid Shadow Cop. But you're too sorry to say those things, so -- here we go?",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "title": "You: \"Uhm, won't the other copotypes be j...\"",
+                              "articyId": "0x010000060000FAD1",
+                              "text": "Uhm, won't the other copotypes be jealous?",
+                              "links": [
+                                {
+                                  "id": 39,
+                                  "title": "Suggestion: \"What? Jealous of the *Sorry Cop*? I...\"",
+                                  "articyId": "0x010000060000FAE9",
+                                  "text": "What? Jealous of the *Sorry Cop*? I think they'll be fine. Don't worry.",
+                                  "links": [
+                                    {
+                                      "id": 21,
+                                      "title": "Conceptualization: \"They'll be super, super fine. It'll...\"",
+                                      "articyId": "0x010000060000FB1C",
+                                      "text": "They'll be super, super fine. It'll be totally *okay*. You can dual-copotype from sorry to anything.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 33,
+                              "title": "You: \"I'm sorry. (Opt in.)\"",
+                              "articyId": "0x010000060000FAD7",
+                              "text": "I'm sorry. (Opt in.)",
+                              "links": [
+                                {
+                                  "id": 26,
+                                  "title": "Suggestion: \"Of course you are. It's okay. See i...\"",
+                                  "articyId": "0x010000060000FAF0",
+                                  "text": "Of course you are. It's okay. See if you can get something out of this. Like... info, or... maybe every time you say you're sorry you get a million bucks?",
+                                  "links": [
+                                    {
+                                      "id": 29,
+                                      "title": "Logic: \"That won't happen.\"",
+                                      "articyId": "0x01000006000192D8",
+                                      "text": "That won't happen.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 40,
+                              "title": "You: \"You know, actually I'm *not* sorry....\"",
+                              "articyId": "0x010000060000FB01",
+                              "text": "You know, actually I'm *not* sorry. I change my mind.",
+                              "links": [
+                                {
+                                  "id": 34,
+                                  "title": "Suggestion: \"No, you don't. C'mon. You'll be bac...\"",
+                                  "articyId": "0x010000060000FB2A",
+                                  "text": "No, you don't. C'mon. You'll be back to saying sorry in two minutes. Stop wasting time and begin The Repentance.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 25,
+                              "title": "You: \"Fuckin'... *they* should be sorry!\"",
+                              "articyId": "0x010000060000FB08",
+                              "text": "Fuckin'... *they* should be sorry!",
+                              "links": [
+                                {
+                                  "id": 31,
+                                  "title": "Suggestion: \"Yes-yes, impotent rage and lamentat...\"",
+                                  "articyId": "0x010000060000FB0F",
+                                  "text": "Yes-yes, impotent rage and lamentation. Let's wrap it up?",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 36,
+                              "title": "You: \"No. I'm *really* not sorry. Fuck of...\"",
+                              "articyId": "0x010000060000FB3D",
+                              "text": "No. I'm *really* not sorry. Fuck off! (Opt out.)",
+                              "links": [
+                                {
+                                  "id": 32,
+                                  "title": "Suggestion: \"Wow. Okay. *Fuck off*? Maybe we wer...\"",
+                                  "articyId": "0x010000060000FB44",
+                                  "text": "Wow. Okay. *Fuck off*? Maybe we were wrong about you then...",
+                                  "links": [
+                                    {
+                                      "id": 15,
+                                      "title": "Half Light: \"Check out the big balls on Fire Cop...\"",
+                                      "articyId": "0x010000060000FB4B",
+                                      "text": "Check out the big balls on Fire Cop...",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "You: \"Some kind of... weapon-cop?\"",
+                  "articyId": "0x010000060000FA8D",
+                  "text": "Some kind of... weapon-cop?",
+                  "links": []
+                },
+                {
+                  "id": 16,
+                  "title": "You: \"Sorry cop? I'm sorry, I'm not sure....\"",
+                  "articyId": "0x010000060000FA81",
+                  "text": "Sorry cop? I'm sorry, I'm not sure...",
+                  "links": [
+                    {
+                      "id": 30,
+                      "title": "Suggestion: \"Yes. Sorry Cop. The cop who's sorri...\"",
+                      "articyId": "0x010000060000FAB8",
+                      "text": "Yes. Sorry Cop. The cop who's sorriest. Let's make it official, then, shall we?",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 6,
+                  "title": "You: \"I'm sorry you had to monitor me.\"",
+                  "articyId": "0x010000060000FA93",
+                  "text": "I'm sorry you had to monitor me.",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Suggestion: \"Okay, just for the length of this s...\"",
+                      "articyId": "0x010000060000FAAB",
+                      "text": "Okay, just for the length of this short demonstration, please say something that isn't *I'm sorry*. Guess. What is it?",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 9,
+                  "title": "You: \"I was kinda hoping I'm the Apocalyp...\"",
+                  "articyId": "0x010000060001CA94",
+                  "text": "I was kinda hoping I'm the Apocalypse Cop.",
+                  "links": [
+                    {
+                      "id": 27,
+                      "title": "Suggestion: \"That is only a ludicrous daydream....\"",
+                      "articyId": "0x010000060001CAAF",
+                      "text": "That is only a ludicrous daydream. Guess again. You're the...",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 13,
+                  "title": "You: \"I was kinda hoping I'm the Supersta...\"",
+                  "articyId": "0x010000060001CAA0",
+                  "text": "I was kinda hoping I'm the Superstar Cop.",
+                  "links": []
+                },
+                {
+                  "id": 18,
+                  "title": "You: \"I was kinda thinking I'm the Regula...\"",
+                  "articyId": "0x010000060001CAA6",
+                  "text": "I was kinda thinking I'm the Regular Cop.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"Okay. What am I?\"",
+          "articyId": "0x010000060000FA5D",
+          "text": "Okay. What am I?",
+          "links": [
+            {
+              "id": 7,
+              "title": "Suggestion: \"Guess.\"",
+              "articyId": "0x010000060000FA72",
+              "text": "Guess.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"[Discard thought.]\"",
+          "articyId": "0x010000060000FA63",
+          "text": "[Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

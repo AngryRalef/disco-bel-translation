@@ -1,0 +1,580 @@
+{
+  "id": "0x010000450001C7F8",
+  "title": "SEAFORT INT / MICROGRID GENERATOR",
+  "description": "(generator, rewired – insert fuel here (use controls to activate electricity and open door if fuel in). kim remarks on wiring.)",
+  "dialogueTree": [
+    {
+      "id": 95,
+      "title": "Microgrid Generator: \"This old cylindrical generator wait...\"",
+      "articyId": "0x010000450001C969",
+      "text": "This old cylindrical generator waits with its fuel cap open. Makeshift electrical wiring runs out of its side and across the floor.",
+      "links": [
+        {
+          "id": 112,
+          "title": "You: \"Pour fuel into the tank.\"",
+          "articyId": "0x010000450001D891",
+          "text": "Pour fuel into the tank.",
+          "links": [
+            {
+              "id": 82,
+              "title": "Kim Kitsuragi: \"The lieutenant assists you, holding...\"",
+              "articyId": "0x010000450001D898",
+              "text": "The lieutenant assists you, holding the canister up to the fuel tank as you tilt. Dark brown viscous fluid pours out and the room fills with a chemical smell.",
+              "links": [
+                {
+                  "id": 93,
+                  "title": "Microgrid Generator: \"There's a red starter switch on the...\"",
+                  "articyId": "0x010000450001D8A8",
+                  "text": "There's a red starter switch on the side of the cylinder and a start rope on the other side -- the lieutenant flicks the switch.",
+                  "links": [
+                    {
+                      "id": 75,
+                      "title": "You: \"Pull the rope.\"",
+                      "articyId": "0x010000450001D8B7",
+                      "text": "Pull the rope.",
+                      "links": [
+                        {
+                          "id": 113,
+                          "title": "Microgrid Generator: \"The recoil start wakes the old gene...\"",
+                          "articyId": "0x010000450001D8AF",
+                          "text": "The recoil start wakes the old generator up. The machine sputters like an old war horse before settling down to a rattle.",
+                          "links": [
+                            {
+                              "id": 76,
+                              "title": "Kim Kitsuragi: \"\"That should do it.\"\"",
+                              "articyId": "0x010000450001D8C6",
+                              "text": "\"That should do it.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 47,
+              "title": "Cuno: \"The boy helps you out, holding the...\"",
+              "articyId": "0x0100006B00001796",
+              "text": "The boy helps you out, holding the canister up to the fuel tank as you tilt. Dark brown viscous fluid pours out and the room fills with a chemical smell.",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Microgrid Generator: \"There's a red starter switch on the...\"",
+                  "articyId": "0x0100008900002725",
+                  "text": "There's a red starter switch on the side of the cylinder and a start rope on the other side -- Cuno flicks the switch.",
+                  "links": [
+                    {
+                      "id": 21,
+                      "title": "You: \"Pull the rope.\"",
+                      "articyId": "0x010000890000272C",
+                      "text": "Pull the rope.",
+                      "links": [
+                        {
+                          "id": 130,
+                          "title": "Microgrid Generator: \"The recoil start wakes the old gene...\"",
+                          "articyId": "0x0100008900002732",
+                          "text": "The recoil start wakes the old generator up instantly. The machine sputters like an old war horse before settling down to a rattle.",
+                          "links": [
+                            {
+                              "id": 22,
+                              "title": "Cuno: \"\"We're in. We're doing this,\" he sa...\"",
+                              "articyId": "0x010000890000273C",
+                              "text": "\"We're in. We're doing this,\" he says over the sputter.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 128,
+              "title": "Microgrid Generator: \"The room fills with a pervasive che...\"",
+              "articyId": "0x010000450001D8D4",
+              "text": "The room fills with a pervasive chemical smell as dark brown liquid flows into the tank. There's a red starter switch on one side of the cylinder and a start rope on the other.",
+              "links": [
+                {
+                  "id": 69,
+                  "title": "You: \"Flick the switch.\"",
+                  "articyId": "0x010000450001D8E1",
+                  "text": "Flick the switch.",
+                  "links": [
+                    {
+                      "id": 35,
+                      "title": "Microgrid Generator: \"A tiny red light glitters inside th...\"",
+                      "articyId": "0x010000450001D8F1",
+                      "text": "A tiny red light glitters inside the burnt plastic.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 79,
+                  "title": "You: \"Pull the rope.\"",
+                  "articyId": "0x010000450001D8E7",
+                  "text": "Pull the rope.",
+                  "links": [
+                    {
+                      "id": 129,
+                      "title": "Microgrid Generator: \"The recoil start wakes the old gene...\"",
+                      "articyId": "0x010000450001D909",
+                      "text": "The recoil start wakes the old generator up. The machine sputters like an old war horse before settling down to a rattle.",
+                      "links": []
+                    },
+                    {
+                      "id": 46,
+                      "title": "Microgrid Generator: \"Nothing happens.\"",
+                      "articyId": "0x010000450001D911",
+                      "text": "Nothing happens.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "title": "You: \"Where do these wires lead?\"",
+          "articyId": "0x010000450001C8AF",
+          "text": "Where do these wires lead?",
+          "links": [
+            {
+              "id": 91,
+              "title": "Kim Kitsuragi: \"He looks at the wall socket. \"Downs...\"",
+              "articyId": "0x010000450001C8C8",
+              "text": "He looks at the wall socket. \"Downstairs somewhere.\"",
+              "links": []
+            },
+            {
+              "id": 94,
+              "title": "Cuno: \"He looks at the wall socket. \"Dunno...\"",
+              "articyId": "0x0100006B00001780",
+              "text": "He looks at the wall socket. \"Dunno, looks like downstairs somewhere...\"",
+              "links": []
+            },
+            {
+              "id": 81,
+              "title": "Microgrid Generator: \"Downstairs somewhere -- or into the...\"",
+              "articyId": "0x010000450001C982",
+              "text": "Downstairs somewhere -- or into the lighting perhaps? You can't tell.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 120,
+          "title": "You: \"What kind of generator am I looking...\"",
+          "articyId": "0x010000450001C8B5",
+          "text": "What kind of generator am I looking at?",
+          "links": [
+            {
+              "id": 135,
+              "title": "Kim Kitsuragi: \"\"Liquid carbon, I would imagine it...\"",
+              "articyId": "0x010000450001C8F3",
+              "text": "\"Liquid carbon, I would imagine it takes *mazut*.\" He points to the open fuel cap on the side of the dynamo.",
+              "links": [
+                {
+                  "id": 86,
+                  "title": "Kim Kitsuragi: \"\"The kind that's favoured by vagran...\"",
+                  "articyId": "0x0100000F00010C46",
+                  "text": "\"The kind that's favoured by vagrants and fuel thieves. It's been a long winter...\"",
+                  "links": [
+                    {
+                      "id": 110,
+                      "title": "Kim Kitsuragi: \"The lieutenant pauses. Something se...\"",
+                      "articyId": "0x0100000F00010C4B",
+                      "text": "The lieutenant pauses. Something seems to be pecking at the edge of his concentration. He gives you a sideways look before adding...",
+                      "links": [
+                        {
+                          "id": 107,
+                          "title": "Kim Kitsuragi: \"\"... Long and cold.\"\"",
+                          "articyId": "0x0100000F00010C50",
+                          "text": "\"... Long and cold.\"",
+                          "links": [
+                            {
+                              "id": 99,
+                              "title": "Esprit de Corps: \"There's no time to dwell on this mo...\"",
+                              "articyId": "0x0100000F00010C55",
+                              "text": "There's no time to dwell on this moment. You've got to keep moving...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 30,
+                  "title": "Kim Kitsuragi: \"\"The kind that's favoured by vagran...\"",
+                  "articyId": "0x010000450001C8FA",
+                  "text": "\"The kind that's favoured by vagrants and fuel thieves. It's been a long winter... Long and cold.\"",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "Rhetoric: \"If anyone's stayed here, they'd nee...\"",
+                      "articyId": "0x010000060000E52B",
+                      "text": "If anyone's stayed here, they'd need a generator.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 77,
+              "title": "Cuno: \"\"Smells like *mazut*.\" The kid taps...\"",
+              "articyId": "0x0100006B00001788",
+              "text": "\"Smells like *mazut*.\" The kid taps on the open fuel cap on the side of the dynamo. \"Heavy fuel shit.\"",
+              "links": []
+            },
+            {
+              "id": 92,
+              "title": "Microgrid Generator: \"The industrial smell of *mazut* ris...\"",
+              "articyId": "0x010000450001C9A3",
+              "text": "The industrial smell of *mazut* rises from the fuel cap. This generator uses heavy oil.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "title": "You: \"Tap on the side.\"",
+          "articyId": "0x010000450001C901",
+          "text": "Tap on the side.",
+          "links": [
+            {
+              "id": 114,
+              "title": "Microgrid Generator: \"The tank is far from full, but ther...\"",
+              "articyId": "0x010000450001D931",
+              "text": "The tank is far from full, but there should be enough inside to keep it going for a day.",
+              "links": []
+            },
+            {
+              "id": 31,
+              "title": "Microgrid Generator: \"A hollow ring -- the canister is em...\"",
+              "articyId": "0x010000450001C909",
+              "text": "A hollow ring -- the canister is empty. Dust falls from the generator and down into the ammo lift.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "title": "You: \"\"What does this mean? A generator h...\"",
+          "articyId": "0x010000890000275C",
+          "text": "\"What does this mean? A generator here?\"",
+          "links": [
+            {
+              "id": 105,
+              "title": "Cuno: \"\"Fuck does Cuno know?\"\"",
+              "articyId": "0x0100008900002763",
+              "text": "\"Fuck does Cuno know?\"",
+              "links": [
+                {
+                  "id": 115,
+                  "title": "Conceptualization: \"Is it not the wisest man who knows...\"",
+                  "articyId": "0x0100008F00003D6E",
+                  "text": "Is it not the wisest man who knows he knows nothing?",
+                  "links": [
+                    {
+                      "id": 24,
+                      "title": "You: \"\"You have taught me the meaning of...\"",
+                      "articyId": "0x0100008F00003D93",
+                      "text": "\"You have taught me the meaning of wisdom, Cuno.\"",
+                      "links": [
+                        {
+                          "id": 23,
+                          "title": "Cuno: \"\"Yeah, Cuno's fucking wise like tha...\"",
+                          "articyId": "0x0100008F00003D8E",
+                          "text": "\"Yeah, Cuno's fucking wise like that. Cuno's gonna be a real wise pig.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 97,
+                      "title": "You: \"\"I meant why is it here?\"\"",
+                      "articyId": "0x0100008F00003D83",
+                      "text": "\"I meant why is it here?\"",
+                      "links": [
+                        {
+                          "id": 148,
+                          "title": "Cuno: \"\"Probably because it's winter. Some...\"",
+                          "articyId": "0x0100008F00003D89",
+                          "text": "\"Probably because it's winter. Some bums who camp here don't wanna freeze to death? Maybe? Probably. Cuno's probably right...\"",
+                          "links": [
+                            {
+                              "id": 7,
+                              "title": "Logic: \"It's...\"",
+                              "articyId": "0x010000060000E561",
+                              "text": "It's...",
+                              "links": [
+                                {
+                                  "id": 63,
+                                  "title": "You: \"\"The fire guy. Some kids told me ab...\"",
+                                  "articyId": "0x010000060000E570",
+                                  "text": "\"The fire guy. Some kids told me about a *guy* here. A guy who made a fire.\"",
+                                  "links": [
+                                    {
+                                      "id": 5,
+                                      "title": "Cuno: \"\"All right.\" He claps his hands. \"W...\"",
+                                      "articyId": "0x010000060000E577",
+                                      "text": "\"All right.\" He claps his hands. \"We're on to something -- Cuno meant fire guy too.\"",
+                                      "links": [
+                                        {
+                                          "id": 131,
+                                          "title": "You: \"\"Do *you* know anything about a fir...\"",
+                                          "articyId": "0x010000060000E588",
+                                          "text": "\"Do *you* know anything about a fire guy?\"",
+                                          "links": [
+                                            {
+                                              "id": 16,
+                                              "title": "Cuno: \"\"Yeah -- no.\" He quickly turns his...\"",
+                                              "articyId": "0x010000060000E590",
+                                              "text": "\"Yeah -- no.\" He quickly turns his attention back to the generator. \"Cuno doesn't come here, I told you.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 96,
+                      "title": "You: \"Say nothing.\"",
+                      "articyId": "0x0100008F00003D7A",
+                      "text": "Say nothing.",
+                      "links": [
+                        {
+                          "id": 56,
+                          "title": "Microgrid Generator: \"The wind outside picks up suddenly...\"",
+                          "articyId": "0x0100008F00003D74",
+                          "text": "The wind outside picks up suddenly with a faint howl. Inside it's warm.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "title": "You: \"\"What does this mean? A generator h...\"",
+          "articyId": "0x010000450001C8BB",
+          "text": "\"What does this mean? A generator here?\"",
+          "links": [
+            {
+              "id": 29,
+              "title": "Kim Kitsuragi: \"\"I don't know. I am not a philosoph...\"",
+              "articyId": "0x010000450001C8E5",
+              "text": "\"I don't know. I am not a philosopher.\"",
+              "links": [
+                {
+                  "id": 100,
+                  "title": "Conceptualization: \"That is his idea of a joke.\"",
+                  "articyId": "0x010000450001C8EC",
+                  "text": "That is his idea of a joke.",
+                  "links": [
+                    {
+                      "id": 44,
+                      "title": "You: \"\"I am. This generator proves the un...\"",
+                      "articyId": "0x010000450001C925",
+                      "text": "\"I am. This generator proves the universe is material...\" (Kick the generator.)",
+                      "links": [
+                        {
+                          "id": 40,
+                          "title": "Pain Threshold: \"A small agony -- minuscule bones ma...\"",
+                          "articyId": "0x0100008F00003DAA",
+                          "text": "A small agony -- minuscule bones may have fractured -- but it proves the point.",
+                          "links": [
+                            {
+                              "id": 98,
+                              "title": "You: \"\"...ouch.\" (Grab your wounded toe.)\"",
+                              "articyId": "0x0100008F00003DAF",
+                              "text": "\"...ouch.\" (Grab your wounded toe.)",
+                              "links": []
+                            },
+                            {
+                              "id": 25,
+                              "title": "Kim Kitsuragi: \"He nods approvingly. He even smiles...\"",
+                              "articyId": "0x0100008F00003DC4",
+                              "text": "He nods approvingly. He even smiles.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 80,
+                      "title": "You: \"\"I meant why is it here?\"\"",
+                      "articyId": "0x010000450001C917",
+                      "text": "\"I meant why is it here?\"",
+                      "links": [
+                        {
+                          "id": 45,
+                          "title": "Kim Kitsuragi: \"\"Someone with basic electrical skil...\"",
+                          "articyId": "0x010000450001C93D",
+                          "text": "\"Someone with basic electrical skills has restored it in order to keep the room warm. Maybe it's the *fire guy*...\"",
+                          "links": []
+                        },
+                        {
+                          "id": 84,
+                          "title": "Kim Kitsuragi: \"\"Someone with basic electrical skil...\"",
+                          "articyId": "0x010000060000E556",
+                          "text": "\"Someone with basic electrical skills has restored it in order to keep the room warm.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 121,
+                      "title": "You: \"Say nothing.\"",
+                      "articyId": "0x010000450001C91D",
+                      "text": "Say nothing.",
+                      "links": [
+                        {
+                          "id": 101,
+                          "title": "Microgrid Generator: \"The wind outside picks up suddenly...\"",
+                          "articyId": "0x010000450001C935",
+                          "text": "The wind outside picks up suddenly with a faint howl. Inside it's warm.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 90,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000450001C8C1",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Microgrid Generator: \"An old cylindrical generator is nes...\"",
+      "articyId": "0x010000450001C881",
+      "text": "An old cylindrical generator is nested above the ammo lift, with makeshift electrical wiring running out of its side and across the floor. The cables disappear into the wall to your right.",
+      "links": [
+        {
+          "id": 70,
+          "title": "Kim Kitsuragi: \"The lieutenant puts his hand on the...\"",
+          "articyId": "0x010000450001C894",
+          "text": "The lieutenant puts his hand on the metal barrel, checking for warmth...",
+          "links": [
+            {
+              "id": 73,
+              "title": "Kim Kitsuragi: \"\"It's cold now,\" he concludes. \"But...\"",
+              "articyId": "0x010000450001C8A1",
+              "text": "\"It's cold now,\" he concludes. \"But someone has been maintaining it. The wiring has been repaired.\"",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "Inland Empire: \"W-w-w-wait. Haven't you heard this...\"",
+                  "articyId": "0x0100000F00010C25",
+                  "text": "W-w-w-wait. Haven't you heard this before?",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "title": "Cuno: \"Cuno puts his hand on the generator...\"",
+          "articyId": "0x0100006B00001790",
+          "text": "Cuno puts his hand on the generator. \"This shit's cold.\"",
+          "links": [
+            {
+              "id": 85,
+              "title": "Inland Empire: \"N-n-n-no. This isn't right...\"",
+              "articyId": "0x0100000F00010BF1",
+              "text": "N-n-n-no. This isn't right...",
+              "links": [
+                {
+                  "id": 49,
+                  "title": "You: \"What's the matter?\"",
+                  "articyId": "0x0100000F00010C00",
+                  "text": "What's the matter?",
+                  "links": [
+                    {
+                      "id": 17,
+                      "title": "Inland Empire: \"'It's cold now,' he was supposed to...\"",
+                      "articyId": "0x0100000F00010C0E",
+                      "text": "'It's cold now,' he was supposed to say. 'But someone has been maintaining it. The wiring has been repaired'...",
+                      "links": [
+                        {
+                          "id": 78,
+                          "title": "Inland Empire: \"But he's not here to say it. Someth...\"",
+                          "articyId": "0x0100000F00010C13",
+                          "text": "But he's not here to say it. Something *else* got in the way. Events *intervened*...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 106,
+                  "title": "You: \"Ignore it.\"",
+                  "articyId": "0x0100000F00010C05",
+                  "text": "Ignore it.",
+                  "links": [
+                    {
+                      "id": 109,
+                      "title": "Microgrid Generator: \"You brush away the thought and turn...\"",
+                      "articyId": "0x0100000F00010C18",
+                      "text": "You brush away the thought and turn back to the generator.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "You: \"Put your hand on the machine.\"",
+          "articyId": "0x010000450001C94D",
+          "text": "Put your hand on the machine.",
+          "links": [
+            {
+              "id": 20,
+              "title": "Microgrid Generator: \"It's cold. Rust flakes off and stic...\"",
+              "articyId": "0x010000450001C959",
+              "text": "It's cold. Rust flakes off and sticks to your palm.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

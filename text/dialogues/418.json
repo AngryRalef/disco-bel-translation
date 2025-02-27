@@ -1,0 +1,128 @@
+{
+  "id": "0x0100005A0000E5E9",
+  "title": "NETHOUSE ORB / fireplace phasmid",
+  "description": "You think the fire iron is a phasmid.",
+  "dialogueTree": [
+    {
+      "id": 19,
+      "title": "Inland Empire: \"Is that the phasmid? It looks like...\"",
+      "articyId": "0x0100005A000100DD",
+      "text": "Is that the phasmid? It looks like the phasmid, leaning against the wall...",
+      "links": [
+        {
+          "id": 16,
+          "title": "Reaction Speed: \"Wait, what if this is the fishing r...\"",
+          "articyId": "0x01000081000010D8",
+          "text": "Wait, what if this is the fishing rod situation all over again?",
+          "links": []
+        },
+        {
+          "id": 13,
+          "title": "You: \"Try to sneak up to the phasmid.\"",
+          "articyId": "0x0100005A000100E3",
+          "text": "Try to sneak up to the phasmid.",
+          "links": [
+            {
+              "id": 21,
+              "title": "Inland Empire: \"It's not the phasmid... It's not ev...\"",
+              "articyId": "0x0100005A000100F7",
+              "text": "It's not the phasmid... It's not even organic -- it's a fire iron. How disappointing!",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "You: \"I can't believe it!\"",
+                  "articyId": "0x010000810000013B",
+                  "text": "I can't believe it!",
+                  "links": [
+                    {
+                      "id": 18,
+                      "title": "Inland Empire: \"Right?! You'll have better luck nex...\"",
+                      "articyId": "0x010000810000014F",
+                      "text": "Right?! You'll have better luck next time, though. The phasmid -- finding it is your destiny.",
+                      "links": [
+                        {
+                          "id": 12,
+                          "title": "You: \"Give the dream of discovering the I...\"",
+                          "articyId": "0x010000810000112D",
+                          "text": "Give the dream of discovering the Insulindian phasmid a rest... for now. [Leave.]",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 6,
+                  "title": "You: \"Of course that wasn't the phasmid....\"",
+                  "articyId": "0x0100008100000141",
+                  "text": "Of course that wasn't the phasmid. It's way too big.",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Inland Empire: \"Don't be too hard on yourself. You...\"",
+                      "articyId": "0x0100008100000155",
+                      "text": "Don't be too hard on yourself. You couldn't have known that for sure. And, besides, finding this phasmid is your special destiny -- you can feel it!",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 10,
+                  "title": "You: \"This is what I get for trying to be...\"",
+                  "articyId": "0x0100008100000147",
+                  "text": "This is what I get for trying to be a scientist instead of a cop. I mean, I'm not even a *good* cop.",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Inland Empire: \"You were just following your instin...\"",
+                      "articyId": "0x010000810000015B",
+                      "text": "You were just following your instincts, your destiny. You're meant to find the phasmid! Just maybe not here...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "You: \"Leap toward the phasmid and clasp i...\"",
+          "articyId": "0x0100008100001104",
+          "text": "Leap toward the phasmid and clasp it in your hands!",
+          "links": []
+        },
+        {
+          "id": 15,
+          "title": "You: \"You're not going to be fooled again...\"",
+          "articyId": "0x01000081000010E1",
+          "text": "You're not going to be fooled again. You're going to stand here calmly and observe this non-phasmid until you see what it really is...",
+          "links": [
+            {
+              "id": 7,
+              "title": "Inland Empire: \"Fine. It's not a phasmid. It's not...\"",
+              "articyId": "0x01000081000010E8",
+              "text": "Fine. It's not a phasmid. It's not even organic. Just a fire iron resting by the fire place. But... where's your sense of wonder, man?",
+              "links": [
+                {
+                  "id": 2,
+                  "title": "You: \"Forget about the phasmid... err, fi...\"",
+                  "articyId": "0x01000081000010FC",
+                  "text": "Forget about the phasmid... err, fire iron. [Leave.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "You: \"Ignore the sighting. [Discard thoug...\"",
+          "articyId": "0x0100005A000100EF",
+          "text": "Ignore the sighting. [Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

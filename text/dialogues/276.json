@@ -1,0 +1,266 @@
+{
+  "id": "0x010000450001C82C",
+  "title": "SEAFORT INT / BLAST DOOR",
+  "description": "blast door interactable dialogue. (this is closed, no way to open, open from console if has fuel in)",
+  "dialogueTree": [
+    {
+      "id": 17,
+      "title": "Small Blast Door: \"The heavy metal door stands as it d...\"",
+      "articyId": "0x010000450001D889",
+      "text": "The heavy metal door stands as it did, firmly rusted shut into its big brother.",
+      "links": [
+        {
+          "id": 12,
+          "title": "You: \"What's on the other side?\"",
+          "articyId": "0x010000450001CE50",
+          "text": "What's on the other side?",
+          "links": [
+            {
+              "id": 40,
+              "title": "Kim Kitsuragi: \"\"Another part of the island probabl...\"",
+              "articyId": "0x010000450001CECF",
+              "text": "\"Another part of the island probably.\" The lieutenant looks into the keyhole. \"The lock looks like it could still be usable.\"",
+              "links": []
+            },
+            {
+              "id": 73,
+              "title": "Cuno: \"\"Another part of Death Island? Some...\"",
+              "articyId": "0x0100006B000017ED",
+              "text": "\"Another part of Death Island? Some secret hidden shit, Cuno thinks. Important shit...\"",
+              "links": [
+                {
+                  "id": 71,
+                  "title": "Logic: \"The chances of there being 'importa...\"",
+                  "articyId": "0x010000060001EF37",
+                  "text": "The chances of there being 'important shit' there are rather high, yes.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 77,
+              "title": "Small Blast Door: \"The door is mute, cold as ice. The...\"",
+              "articyId": "0x010000450001CE68",
+              "text": "The door is mute, cold as ice. The lock looks like it may have seen recent use, but it's impossible to tell.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "title": "You: \"How do I open this?\"",
+          "articyId": "0x010000450001CE56",
+          "text": "How do I open this?",
+          "links": [
+            {
+              "id": 38,
+              "title": "Kim Kitsuragi: \"\"Fuel -- generator -- console. That...\"",
+              "articyId": "0x010000450001D978",
+              "text": "\"Fuel -- generator -- console. That's our best chance.\" He points to the console at the other end of the room. \"That there could open it, now that the power's on.\"",
+              "links": []
+            },
+            {
+              "id": 54,
+              "title": "Kim Kitsuragi: \"\"Fuel -- generator -- console. That...\"",
+              "articyId": "0x010000450001D951",
+              "text": "\"Fuel -- generator -- console. That's our best chance.\" He points to the console at the other end of the room. \"That there could open it, once we've put some fuel in the generator.\"",
+              "links": []
+            },
+            {
+              "id": 50,
+              "title": "Cuno: \"\"We fuelled the generator, didn't w...\"",
+              "articyId": "0x0100006B000017F7",
+              "text": "\"We fuelled the generator, didn't we?\" He points to the console at the other end of the room. \"What do you think that shit's for? Let's press some buttons.\"",
+              "links": []
+            },
+            {
+              "id": 2,
+              "title": "Cuno: \"\"What do you think that shit's for?...\"",
+              "articyId": "0x0100006B00001809",
+              "text": "\"What do you think that shit's for? Let's press some buttons.\" He points to the console at the other end of the room.",
+              "links": []
+            },
+            {
+              "id": 18,
+              "title": "Small Blast Door: \"Fuel --> generator --> console. See...\"",
+              "articyId": "0x0100008900000DF3",
+              "text": "Fuel --> generator --> console. Seems like an obvious path, now that the power is on.",
+              "links": []
+            },
+            {
+              "id": 31,
+              "title": "Small Blast Door: \"Fuel --> generator --> console. See...\"",
+              "articyId": "0x0100008900000DF8",
+              "text": "Fuel --> generator --> console. Seems like the obvious path.",
+              "links": []
+            },
+            {
+              "id": 26,
+              "title": "Kim Kitsuragi: \"\"Maybe this is one of the doors we...\"",
+              "articyId": "0x010000450001CE76",
+              "text": "\"Maybe this is one of the doors we *don't* open?\" He looks at the door, then at its bigger brother, then at the lock…",
+              "links": [
+                {
+                  "id": 28,
+                  "title": "Interfacing: \"He's right. It would be better to o...\"",
+                  "articyId": "0x010000450001CF50",
+                  "text": "He's right. It would be better to open its *big brother*. A powerful engine hangs under the ceiling -- it must control the blast door.",
+                  "links": [
+                    {
+                      "id": 64,
+                      "title": "You: \"\"You're right. We open the big one...\"",
+                      "articyId": "0x010000450001CF62",
+                      "text": "\"You're right. We open the big one -- do you see controls anywhere?\"",
+                      "links": [
+                        {
+                          "id": 53,
+                          "title": "Kim Kitsuragi: \"\"I think there's a console just sou...\"",
+                          "articyId": "0x010000450001CF69",
+                          "text": "\"I think there's a console just southeast...\"  He shuffles his feet to stay warm. \"Let's look around. Getting the blast door open seems like the best plan.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 29,
+                      "title": "You: \"\"No, this isn't 'One More Door'. We...\"",
+                      "articyId": "0x010000450001CEA0",
+                      "text": "\"No, this isn't 'One More Door'. We're opening it.\"",
+                      "links": [
+                        {
+                          "id": 27,
+                          "title": "Kim Kitsuragi: \"\"All right.\" The lieutenant knocks...\"",
+                          "articyId": "0x010000450001CE7D",
+                          "text": "\"All right.\" The lieutenant knocks on the metal. \"I retract my statement. It was naive. Let's look around and get it open.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 69,
+                      "title": "You: \"\"I find us not opening it highly un...\"",
+                      "articyId": "0x010000450001CEA6",
+                      "text": "\"I find us not opening it highly unlikely.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 52,
+                      "title": "You: \"\"Sure, you're right. We won't have...\"",
+                      "articyId": "0x010000450001CEBA",
+                      "text": "\"Sure, you're right. We won't have to open it.\"",
+                      "links": [
+                        {
+                          "id": 63,
+                          "title": "Kim Kitsuragi: \"The lieutenant knocks on the metal....\"",
+                          "articyId": "0x010000060000E8EC",
+                          "text": "The lieutenant knocks on the metal. \"I retract my statement. It was naive. Let's look around and get it open.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 70,
+              "title": "Cuno: \"\"Cuno don't know how to pick this l...\"",
+              "articyId": "0x0100006B000017FD",
+              "text": "\"Cuno don't know how to pick this lock. This one's... military shit.\" He looks at the door, then at its bigger brother, then at the lock.",
+              "links": [
+                {
+                  "id": 19,
+                  "title": "Interfacing: \"He's right. It would be better to o...\"",
+                  "articyId": "0x0100008900000E10",
+                  "text": "He's right. It would be better to open its *big brother*. A powerful engine hangs beneath the ceiling -- it must control the blast door.",
+                  "links": [
+                    {
+                      "id": 13,
+                      "title": "You: \"\"You're right. We open the big one...\"",
+                      "articyId": "0x0100008900000E17",
+                      "text": "\"You're right. We open the big one -- do you see controls somewhere?\"",
+                      "links": [
+                        {
+                          "id": 39,
+                          "title": "Cuno: \"\"Yeah, the console over there?\" He...\"",
+                          "articyId": "0x0100008900000E3A",
+                          "text": "\"Yeah, the console over there?\" He points to the southeast. \"Yeah. Yeah. Let's get this big shit open.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 56,
+                      "title": "You: \"\"No. This is the titular *One More...\"",
+                      "articyId": "0x0100008900000E1D",
+                      "text": "\"No. This is the titular *One More Door*. We're opening it.\"",
+                      "links": [
+                        {
+                          "id": 37,
+                          "title": "Cuno: \"\"Fuckin' A, let's get this shit ope...\"",
+                          "articyId": "0x0100008900000E35",
+                          "text": "\"Fuckin' A, let's get this shit open. Get to the secrets behind. Secret style.\" He stares at the large doors looming above him.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 32,
+                      "title": "You: \"\"I find that highly unlikely.\"\"",
+                      "articyId": "0x0100008900000E29",
+                      "text": "\"I find that highly unlikely.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 36,
+                      "title": "You: \"\"One of the *very few doors*? Perha...\"",
+                      "articyId": "0x0100008900000E2F",
+                      "text": "\"One of the *very few doors*? Perhaps...\"",
+                      "links": []
+                    },
+                    {
+                      "id": 68,
+                      "title": "You: \"\"Sure, you're right. We won't have...\"",
+                      "articyId": "0x0100008900000E23",
+                      "text": "\"Sure, you're right. We won't have to open it.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 55,
+              "title": "Small Blast Door: \"How indeed? Finding the key seems u...\"",
+              "articyId": "0x010000450001CE97",
+              "text": "How indeed? Finding the key seems unlikely...",
+              "links": [
+                {
+                  "id": 42,
+                  "title": "Interfacing: \"Perhaps you could open its *big bro...\"",
+                  "articyId": "0x010000450001CF56",
+                  "text": "Perhaps you could open its *big brother*? A powerful engine hangs beneath the ceiling -- it must control the blast door. There must be controls somewhere...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000450001CE5C",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Small Blast Door: \"You see a small metal door nested i...\"",
+      "articyId": "0x010000450001CE43",
+      "text": "You see a small metal door nested inside a larger one -- a heavy steel blast door. There is a conventional keyhole above the handle. It's very small.",
+      "links": []
+    }
+  ]
+}

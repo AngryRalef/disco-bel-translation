@@ -1,0 +1,128 @@
+{
+  "id": "0x0100002F00003553",
+  "title": "BOOKSTORE / COCKATOO",
+  "description": "From A to Zrieek! Guide to a Well-Behaved Cockatoo. (Helen)",
+  "dialogueTree": [
+    {
+      "id": 28,
+      "title": "From A to Zrieek! A Guide To a Well-Behaved Cockatoo: \"A sulphur-crested cockatoo sits on...\"",
+      "articyId": "0x0100002F0000DA4C",
+      "text": "A sulphur-crested cockatoo sits on the cover, its beak slightly open. It looks as if the bird is calling out the book title: \"From A to Zrieek! A Guide To A Well-Behaved Cockatoo.\"",
+      "links": [
+        {
+          "id": 8,
+          "title": "You: \"Flip through the pages.\"",
+          "articyId": "0x0100002F0000DA5C",
+          "text": "Flip through the pages.",
+          "links": [
+            {
+              "id": 6,
+              "title": "From A to Zrieek! A Guide To a Well-Behaved Cockatoo: \"Turns out that there are so many di...\"",
+              "articyId": "0x0100002F0000DA6E",
+              "text": "Turns out that there are so many different cockatoo species, and they all have behavioural problems.",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Composure: \"You don't have behavioural problems...\"",
+                  "articyId": "0x010000060001CA6C",
+                  "text": "You don't have behavioural problems. That's garbage. You're cool.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "You: \"\"What about this guide to cockatoos...\"",
+          "articyId": "0x0100002F0000DA62",
+          "text": "\"What about this guide to cockatoos, storekeeper?\"",
+          "links": [
+            {
+              "id": 27,
+              "title": "Plaisance: \"\"It's a must-have if you own a cock...\"",
+              "articyId": "0x0100002F0000DA68",
+              "text": "\"It's a must-have if you own a cockatoo. I've heard they're quite capricious.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"\"I want to buy the guide to cockato...\"",
+          "articyId": "0x0100002F0000DA9F",
+          "text": "\"I want to buy the guide to cockatoos.\"",
+          "links": [
+            {
+              "id": 20,
+              "title": "Plaisance: \"\"Oh, a nature enthusiast! Good choi...\"",
+              "articyId": "0x0100002F0000DAB0",
+              "text": "\"Oh, a nature enthusiast! Good choice. I *knew* it was a good idea to keep that around...\"",
+              "links": [
+                {
+                  "id": 15,
+                  "title": "Tutorial Agent: \"You've acquired an interactable ite...\"",
+                  "articyId": "0x0100005300025B1F",
+                  "text": "You've acquired an interactable item. Investigate this item further by going to the INTERACT tab in your INVENTORY.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "You: \"Steal the guide to cockatoos.\"",
+          "articyId": "0x0100000400015EE2",
+          "text": "Steal the guide to cockatoos.",
+          "links": [
+            {
+              "id": 34,
+              "title": "Interfacing: \"You wait for the storekeeper to be...\"",
+              "articyId": "0x0100006B00001B13",
+              "text": "You wait for the storekeeper to be distracted. When she's not looking, you haul the tome of cockatoos into your pocket.",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "Interfacing: \"It's quite a challenge, but eventua...\"",
+                  "articyId": "0x0100006B00001B23",
+                  "text": "It's quite a challenge, but eventually the guide to cockatoos is yours. Splendid effort!",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "title": "Interfacing: \"Slowly, you move your hand toward t...\"",
+              "articyId": "0x0100006B00001B1D",
+              "text": "Slowly, you move your hand toward the tome of cockatoos. Before you reach the book, you're interrupted:",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Kim Kitsuragi: \"The lieutenant coughs sharply, then...\"",
+                  "articyId": "0x0100006B00001B33",
+                  "text": "The lieutenant coughs sharply, then whispers: \"Do we really need to do this? I think not.\"",
+                  "links": []
+                },
+                {
+                  "id": 21,
+                  "title": "Plaisance: \"\"Sir, no touching the merchandise....\"",
+                  "articyId": "0x0100006B00001B29",
+                  "text": "\"Sir, no touching the merchandise. People like their books pristine, not handled by god knows who.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002F0000DAA5",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

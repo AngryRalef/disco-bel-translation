@@ -1,0 +1,196 @@
+{
+  "id": "0x0100008100001006",
+  "title": "BOARDWALK ORB / smell of death",
+  "description": "You smell something awfully familiar...",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Perception (Smell): \"The smell... It's awful and familia...\"",
+      "articyId": "0x0100004000002CDB",
+      "text": "The smell... It's awful and familiar.",
+      "links": [
+        {
+          "id": 16,
+          "title": "You: \"Hold on, that *is* awful. (Cover yo...\"",
+          "articyId": "0x010000060001D952",
+          "text": "Hold on, that *is* awful. (Cover your nose.)",
+          "links": [
+            {
+              "id": 37,
+              "title": "Perception (Smell): \"It doesn't help. You can still smel...\"",
+              "articyId": "0x010000060001D959",
+              "text": "It doesn't help. You can still smell it.",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Endurance: \"Keep it in now. Don't overreact. Br...\"",
+                  "articyId": "0x010000060001D960",
+                  "text": "Keep it in now. Don't overreact. Breathe.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "title": "You: \"What is it?\"",
+          "articyId": "0x0100007B00002033",
+          "text": "What is it?",
+          "links": [
+            {
+              "id": 18,
+              "title": "Perception (Smell): \"You've never smelled anything this...\"",
+              "articyId": "0x0100007B0000203A",
+              "text": "You've never smelled anything this bad before. It's pungent, but with a faintly cloying sweetness like cheap perfume on Death itself.",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "Half Light: \"Something cold wakes in the pit of...\"",
+                  "articyId": "0x0100002100000BFB",
+                  "text": "Something cold wakes in the pit of your stomach: fear.",
+                  "links": [
+                    {
+                      "id": 42,
+                      "title": "Logic: \"It *is* death. It must be.\"",
+                      "articyId": "0x0100007B0000204F",
+                      "text": "It *is* death. It must be.",
+                      "links": [
+                        {
+                          "id": 24,
+                          "title": "You: \"\"Kim, what's that smell?\"\"",
+                          "articyId": "0x0100007B00002093",
+                          "text": "\"Kim, what's that smell?\"",
+                          "links": [
+                            {
+                              "id": 25,
+                              "title": "Kim Kitsuragi: \"The lieutenant has already brought...\"",
+                              "articyId": "0x0100007B0000209B",
+                              "text": "The lieutenant has already brought a handkerchief to his nose.",
+                              "links": [
+                                {
+                                  "id": 2,
+                                  "title": "Kim Kitsuragi: \"\"Eyes up, detective. Something's no...\"",
+                                  "articyId": "0x0100007B000020A2",
+                                  "text": "\"Eyes up, detective. Something's not right here.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 23,
+                          "title": "You: \"\"Heads up, lieutenant. Something's...\"",
+                          "articyId": "0x0100004000002D26",
+                          "text": "\"Heads up, lieutenant. Something's not right here.\"",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "Kim Kitsuragi: \"The lieutenant has already brought...\"",
+                              "articyId": "0x0100004000002D2D",
+                              "text": "The lieutenant has already brought a handkerchief to his nose.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 31,
+                          "title": "You: \"Goddamnit...\"",
+                          "articyId": "0x0100004000002D35",
+                          "text": "Goddamnit...",
+                          "links": [
+                            {
+                              "id": 41,
+                              "title": "Perception (Smell): \"A sense of dread washes over you as...\"",
+                              "articyId": "0x0100004000002D3C",
+                              "text": "A sense of dread washes over you as you look ahead.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "title": "You: \"It's a dead corpse isn't it?\"",
+                          "articyId": "0x0100007B00002063",
+                          "text": "It's a dead corpse isn't it?",
+                          "links": [
+                            {
+                              "id": 30,
+                              "title": "Perception (Smell): \"Yes. A sense of dread washes over y...\"",
+                              "articyId": "0x0100007B000020AB",
+                              "text": "Yes. A sense of dread washes over you as you look ahead.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 32,
+                          "title": "You: \"I don't want to be here.\"",
+                          "articyId": "0x0100004000002D44",
+                          "text": "I don't want to be here.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "title": "Encyclopedia: \"The signs of decaying meat. It anno...\"",
+                      "articyId": "0x0100007B00002071",
+                      "text": "The signs of decaying meat. It announces itself from two dozen metres away. A warning, a *memento mori*.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "title": "You: \"Isn't it just the rotting fish?\"",
+          "articyId": "0x0100007B000033CF",
+          "text": "Isn't it just the rotting fish?",
+          "links": [
+            {
+              "id": 15,
+              "title": "Perception (Smell): \"Don't be naive.\"",
+              "articyId": "0x0100004000002CFB",
+              "text": "Don't be naive.",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "You: \"Oh no...\"",
+                  "articyId": "0x0100007B000033DD",
+                  "text": "Oh no...",
+                  "links": []
+                },
+                {
+                  "id": 22,
+                  "title": "You: \"What is it then?\"",
+                  "articyId": "0x0100004000002D0A",
+                  "text": "What is it then?",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "title": "Perception (Smell): \"No, it's much worse than that.\"",
+              "articyId": "0x0100007B000033D6",
+              "text": "No, it's much worse than that.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Perception (Smell): \"What is that awful smell?\"",
+      "articyId": "0x0100004000002CE3",
+      "text": "What is that awful smell?",
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "0x0100006B00003BE8",
+  "title": "INITIATION / cannot pay game over",
+  "description": "orbital that pops up if you, the player, try to BREAK the system by spending *all* of the money you can get *anywhere* in Martinaise so you cannot pay Garte for the room at all. oh, believe me, we will take this into account and you will get a game over.",
+  "dialogueTree": [
+    {
+      "id": 4,
+      "title": "Inland Empire: \"You did it. You fucked up now. No m...\"",
+      "articyId": "0x0100006B00003BF1",
+      "text": "You did it. You fucked up now. No money, no way to pay Garte. There's only one option left...",
+      "links": [
+        {
+          "id": 2,
+          "title": "You: \"What is it?\"",
+          "articyId": "0x0100006B00003BF7",
+          "text": "What is it?",
+          "links": [
+            {
+              "id": 3,
+              "title": "Inland Empire: \"Go... to the trash container...\"",
+              "articyId": "0x0100006B00003BFC",
+              "text": "Go... to the trash container...",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

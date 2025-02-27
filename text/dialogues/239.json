@@ -1,0 +1,441 @@
+{
+  "id": "0x010000450000E690",
+  "title": "WHIRLING F1 / INDUSTRIAL STOVE",
+  "description": "You can use the stove to boil the hanged man's boots when Kim is not around.",
+  "dialogueTree": [
+    {
+      "id": 15,
+      "title": "Industrial Stove: \"This industrial gas-powered stove h...\"",
+      "articyId": "0x010000580000A7A5",
+      "text": "This industrial gas-powered stove has been used to prepare food for many hungry hostel guests. There are several pots and pans on hand.",
+      "links": [
+        {
+          "id": 60,
+          "title": "Kim Kitsuragi: \"\"What are you planning to do, throw...\"",
+          "articyId": "0x010000580000A7BD",
+          "text": "\"What are you planning to do, throw a dinner party? Please refrain from culinary experiments until after we've finished the investigation.\"",
+          "links": [
+            {
+              "id": 58,
+              "title": "Esprit de Corps: \"Whatever you had planned, you have...\"",
+              "articyId": "0x0100002100003152",
+              "text": "Whatever you had planned, you have to do it when the lieutenant's gone.",
+              "links": [
+                {
+                  "id": 36,
+                  "title": "You: \"\"Okay, okay.\" [Leave.]\"",
+                  "articyId": "0x010000580000A7C5",
+                  "text": "\"Okay, okay.\" [Leave.]",
+                  "links": [
+                    {
+                      "id": 51,
+                      "title": "Industrial Stove: \"The stove is unmoved by your coming...\"",
+                      "articyId": "0x010000580000A7CB",
+                      "text": "The stove is unmoved by your comings and goings.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "title": "Savoir Faire: \"The lieutenant said you'd need to b...\"",
+          "articyId": "0x010000580000A7D2",
+          "text": "The lieutenant said you'd need to boil the boots in acid to get the corpse smell out, but this huge pot, industrial dish soap, white vinegar, and patience might do the trick.",
+          "links": [
+            {
+              "id": 18,
+              "title": "You: \"Check out the cookware.\"",
+              "articyId": "0x010000580000A7E5",
+              "text": "Check out the cookware.",
+              "links": [
+                {
+                  "id": 52,
+                  "title": "Industrial Stove: \"A commercial pot draws your attenti...\"",
+                  "articyId": "0x010000580000A80A",
+                  "text": "A commercial pot draws your attention. It's very large. Gigantic, even. It could be used to make enough stew to feed an entire city. And also to boil a putrid pair of death-boots.",
+                  "links": [
+                    {
+                      "id": 47,
+                      "title": "Esprit de Corps: \"Far away, in the darkness of a make...\"",
+                      "articyId": "0x010000060001A8DC",
+                      "text": "Far away, in the darkness of a makeshift morgue behind Station 41's lazareth, Dr. Nix Gottlieb cuts into the cold, dead feet of a murder victim. The veins are oddly black, he suspects a neurotoxin...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 57,
+              "title": "You: \"Check out the cleaning supplies.\"",
+              "articyId": "0x010000580000A7EB",
+              "text": "Check out the cleaning supplies.",
+              "links": [
+                {
+                  "id": 77,
+                  "title": "Industrial Stove: \"There is a variety of soaps and ble...\"",
+                  "articyId": "0x010000580000A810",
+                  "text": "There is a variety of soaps and bleaches in the cabinet to the left of the stove. There is also a bottle of white vinegar in the cabinet next to the fridge.",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Endurance: \"This is gonna take *the hard* stuff...\"",
+                      "articyId": "0x010000060001A321",
+                      "text": "This is gonna take *the hard* stuff too. Use as much as you can.",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "Logic: \"It's bad with those boots. Don't be...\"",
+                          "articyId": "0x010000060001A328",
+                          "text": "It's bad with those boots. Don't be stingy now.",
+                          "links": [
+                            {
+                              "id": 19,
+                              "title": "You: \"Soap! That's exactly what I need. P...\"",
+                              "articyId": "0x010000580000AAF1",
+                              "text": "Soap! That's exactly what I need. Pour lots of dish soap into the pot.",
+                              "links": [
+                                {
+                                  "id": 46,
+                                  "title": "Industrial Stove: \"The bottom of the pot fills with sh...\"",
+                                  "articyId": "0x0100005A0000D249",
+                                  "text": "The bottom of the pot fills with shiny white goo.",
+                                  "links": [
+                                    {
+                                      "id": 76,
+                                      "title": "Interfacing: \"Alright now, chef. Light the stove...\"",
+                                      "articyId": "0x010000060001A331",
+                                      "text": "Alright now, chef. Light the stove up and boil them.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 69,
+                              "title": "You: \"The boots are *really* disgusting....\"",
+                              "articyId": "0x010000580000AAE5",
+                              "text": "The boots are *really* disgusting. Pour some dish soap *and* the bottle of white vinegar into the pot.",
+                              "links": [
+                                {
+                                  "id": 80,
+                                  "title": "Industrial Stove: \"The delicious smells of cheap soap...\"",
+                                  "articyId": "0x0100005A0000D244",
+                                  "text": "The delicious smells of cheap soap and vinegar waft up from the pot.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 28,
+              "title": "You: \"Add water -- and the boots -- to th...\"",
+              "articyId": "0x010000580000A7F1",
+              "text": "Add water -- and the boots -- to the pot. Bring it all to a *nice* boil.",
+              "links": [
+                {
+                  "id": 37,
+                  "title": "Industrial Stove: \"The strong smell of vinegar forces...\"",
+                  "articyId": "0x010000580000AB0A",
+                  "text": "The strong smell of vinegar forces you to step away from the pot. The water slowly comes to a boil.",
+                  "links": [
+                    {
+                      "id": 4,
+                      "title": "You: \"Wait...\"",
+                      "articyId": "0x010000580000AB1A",
+                      "text": "Wait...",
+                      "links": [
+                        {
+                          "id": 45,
+                          "title": "Industrial Stove: \"Strips of polymer fabric and human...\"",
+                          "articyId": "0x010000580000AB24",
+                          "text": "Strips of polymer fabric and human tissue separate from the lining of the boots. They float to the bubbling surface.",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "You: \"Beautiful.\"",
+                              "articyId": "0x010000060001A350",
+                              "text": "Beautiful.",
+                              "links": [
+                                {
+                                  "id": 26,
+                                  "title": "Industrial Stove: \"A two course dinner of rotting fles...\"",
+                                  "articyId": "0x010000060001A356",
+                                  "text": "A two course dinner of rotting flesh and hardened ceramic.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "title": "You: \"Wait some more...\"",
+                              "articyId": "0x010000580000AB2B",
+                              "text": "Wait some more...",
+                              "links": [
+                                {
+                                  "id": 53,
+                                  "title": "Industrial Stove: \"The boots look cleaner and cleaner....\"",
+                                  "articyId": "0x010000580000AB32",
+                                  "text": "The boots look cleaner and cleaner. Those bits of human flesh are beginning to look *cooked*. You can smell it too.",
+                                  "links": [
+                                    {
+                                      "id": 68,
+                                      "title": "Perception (Smell): \"Just like beef stew.\"",
+                                      "articyId": "0x010000060001A8E8",
+                                      "text": "Just like beef stew.",
+                                      "links": [
+                                        {
+                                          "id": 14,
+                                          "title": "Half Light: \"You should taste some.\"",
+                                          "articyId": "0x0100004000002FA2",
+                                          "text": "You should taste some.",
+                                          "links": [
+                                            {
+                                              "id": 27,
+                                              "title": "Endurance: \"Rotten Human Meat-Ceramic Boot Soup...\"",
+                                              "articyId": "0x0100004000002FCF",
+                                              "text": "Rotten Human Meat-Ceramic Boot Soup? Nope, you really shouldn't.",
+                                              "links": [
+                                                {
+                                                  "id": 48,
+                                                  "title": "You: \"No way, I'm not touching it.\"",
+                                                  "articyId": "0x0100004000002FA8",
+                                                  "text": "No way, I'm not touching it.",
+                                                  "links": [
+                                                    {
+                                                      "id": 16,
+                                                      "title": "Half Light: \"Yeah, maybe that's a good habit *no...\"",
+                                                      "articyId": "0x0100004000002FBC",
+                                                      "text": "Yeah, maybe that's a good habit *not* to include in your roster. Anyways, the boots are coming along nicely.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 29,
+                                                  "title": "You: \"Tip your finger in the pot and lick...\"",
+                                                  "articyId": "0x0100004000002FAE",
+                                                  "text": "Tip your finger in the pot and lick it.",
+                                                  "links": [
+                                                    {
+                                                      "id": 65,
+                                                      "title": "Industrial Stove: \"Your hands are protected from the h...\"",
+                                                      "articyId": "0x0100004000002FF3",
+                                                      "text": "Your hands are protected from the heat, but the 'stew' tastes absolutely vile.",
+                                                      "links": [
+                                                        {
+                                                          "id": 59,
+                                                          "title": "Volition: \"You're tasting another human being....\"",
+                                                          "articyId": "0x0100004000002FFA",
+                                                          "text": "You're tasting another human being. You shouldn't.",
+                                                          "links": [
+                                                            {
+                                                              "id": 55,
+                                                              "title": "Conceptualization: \"Of course it tastes vile. Look at t...\"",
+                                                              "articyId": "0x0100004000003003",
+                                                              "text": "Of course it tastes vile. Look at the effort you put in the culinary side of this? Not exactly fine dining, is it?",
+                                                              "links": [
+                                                                {
+                                                                  "id": 61,
+                                                                  "title": "Inland Empire: \"You have awakened the *hunger*. The...\"",
+                                                                  "articyId": "0x010000400000300A",
+                                                                  "text": "You have awakened the *hunger*. There is no turning back now, better invest in a good cook book and stock up on salt.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 39,
+                                                                      "title": "Encyclopedia: \"Well, at least now you know.\"",
+                                                                      "articyId": "0x0100004000003016",
+                                                                      "text": "Well, at least now you know.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 49,
+                                                                          "title": "Industrial Stove: \"Few more moments and the boots will...\"",
+                                                                          "articyId": "0x0100004000002FDC",
+                                                                          "text": "Few more moments and the boots will be ready.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 64,
+                                                      "title": "Industrial Stove: \"The scorching hot 'stew' burns your...\"",
+                                                      "articyId": "0x0100004000002FB6",
+                                                      "text": "The scorching hot 'stew' burns your finger and tastes absolutely vile.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 66,
+                                              "title": "You: \"A little more...\"",
+                                              "articyId": "0x010000580000AB39",
+                                              "text": "A little more...",
+                                              "links": [
+                                                {
+                                                  "id": 67,
+                                                  "title": "Industrial Stove: \"That's it, chef! The boots are as c...\"",
+                                                  "articyId": "0x010000580000AB40",
+                                                  "text": "That's it, chef! The boots are as clean as they're going to get. Steam dense with the smell of strange meat disappears into the vent above the stove.",
+                                                  "links": [
+                                                    {
+                                                      "id": 6,
+                                                      "title": "You: \"Dump the sock and flesh stew -- and...\"",
+                                                      "articyId": "0x010000580000AB47",
+                                                      "text": "Dump the sock and flesh stew -- and examine your new boots!",
+                                                      "links": [
+                                                        {
+                                                          "id": 78,
+                                                          "title": "Industrial Stove: \"A pair of real beauties! The boots...\"",
+                                                          "articyId": "0x010000580000AB54",
+                                                          "text": "A pair of real beauties! The boots are shiny, hot and reek of vinegar. Just perfect.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 71,
+                                                      "title": "You: \"Dump the sock and flesh stew -- and...\"",
+                                                      "articyId": "0x0100006B0000422A",
+                                                      "text": "Dump the sock and flesh stew -- and examine your new boots!",
+                                                      "links": [
+                                                        {
+                                                          "id": 7,
+                                                          "title": "Industrial Stove: \"The boots look clean but still smel...\"",
+                                                          "articyId": "0x010000580000AB4E",
+                                                          "text": "The boots look clean but still smell funky.",
+                                                          "links": [
+                                                            {
+                                                              "id": 62,
+                                                              "title": "Inland Empire: \"Feels like you should've used vineg...\"",
+                                                              "articyId": "0x010000060001A363",
+                                                              "text": "Feels like you should've used vinegar too...",
+                                                              "links": [
+                                                                {
+                                                                  "id": 79,
+                                                                  "title": "You: \"Try boiling them again, this time w...\"",
+                                                                  "articyId": "0x010000580000AB5C",
+                                                                  "text": "Try boiling them again, this time with white vinegar.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 38,
+                                                                      "title": "Industrial Stove: \"The strong vinegar odour forces you...\"",
+                                                                      "articyId": "0x010000580000AB70",
+                                                                      "text": "The strong vinegar odour forces you to take a few steps back from the stove.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 21,
+                                                                          "title": "You: \"Wait *even more*...\"",
+                                                                          "articyId": "0x010000580000AB77",
+                                                                          "text": "Wait *even more*...",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 13,
+                                                                              "title": "Industrial Stove: \"The whole kitchen now smells like w...\"",
+                                                                              "articyId": "0x010000580000AB7E",
+                                                                              "text": "The whole kitchen now smells like white vinegar. But maybe your boots won't smell like a corpse?",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 54,
+                                                                                  "title": "You: \"All right! Dump the water and sniff...\"",
+                                                                                  "articyId": "0x010000580000AB85",
+                                                                                  "text": "All right! Dump the water and sniff the boots.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 70,
+                                                                                      "title": "Industrial Stove: \"A pair of real beauties! The boots...\"",
+                                                                                      "articyId": "0x010000580000AB8C",
+                                                                                      "text": "A pair of real beauties! The boots are shiny, hot and reek of vinegar. Just perfect.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 41,
+                                                                  "title": "You: \"Endure the stench. It has to come o...\"",
+                                                                  "articyId": "0x010000580000AB62",
+                                                                  "text": "Endure the stench. It has to come out eventually, right?",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 20,
+                  "title": "Industrial Stove: \"The soap bubbles over the rim of th...\"",
+                  "articyId": "0x010000580000AAFE",
+                  "text": "The soap bubbles over the rim of the pot -- the water slowly comes to a boil.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 25,
+              "title": "You: \"Master chef out. [Leave.]\"",
+              "articyId": "0x010000580000A7F7",
+              "text": "Master chef out. [Leave.]",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "title": "Savoir Faire: \"Getting the corpse residue out of t...\"",
+          "articyId": "0x010000580000A7D8",
+          "text": "Getting the corpse residue out of these boots is going to require patience. And also a huge pot full of boiling water, soap, and white vinegar.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

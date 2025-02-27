@@ -1,0 +1,861 @@
+{
+  "id": "0x0100004C0000B258",
+  "title": "INVENTORY / BADGE",
+  "description": "Your lost badge.",
+  "dialogueTree": [
+    {
+      "id": 147,
+      "title": "BADGE: LTN-2JFR DU BOIS: \"A police badge on which you see the...\"",
+      "articyId": "0x0100000700006599",
+      "text": "A police badge on which you see the photo of a man -- you. Some seaweed is stuck to the back.",
+      "links": [
+        {
+          "id": 190,
+          "title": "You: \"Look at the photo.\"",
+          "articyId": "0x0100004C0000B280",
+          "text": "Look at the photo.",
+          "links": [
+            {
+              "id": 14,
+              "title": "BADGE: LTN-2JFR DU BOIS: \"The man keeps winking at you with h...\"",
+              "articyId": "0x0100004C0000B2C6",
+              "text": "The man keeps winking at you with his green-grey eyes. The photo is old, no doubt about that.",
+              "links": [
+                {
+                  "id": 69,
+                  "title": "Logic: \"But the badge is new. You used an o...\"",
+                  "articyId": "0x010000060001C3C1",
+                  "text": "But the badge is new. You used an old photo for a new badge.",
+                  "links": [
+                    {
+                      "id": 133,
+                      "title": "Suggestion: \"Good choice. A newer photo would lo...\"",
+                      "articyId": "0x010000060001C3C9",
+                      "text": "Good choice. A newer photo would look... different.",
+                      "links": [
+                        {
+                          "id": 16,
+                          "title": "You: \"How old?\"",
+                          "articyId": "0x010000070000772B",
+                          "text": "How old?",
+                          "links": [
+                            {
+                              "id": 168,
+                              "title": "BADGE: LTN-2JFR DU BOIS: \"Eight, maybe ten years. The guy in...\"",
+                              "articyId": "0x0100000700007732",
+                              "text": "Eight, maybe ten years. The guy in the picture is rather good looking. He's got a nice haircut and is distinctly lacking in massive sideburns.",
+                              "links": [
+                                {
+                                  "id": 27,
+                                  "title": "You: \"And he's winking? Why?\"",
+                                  "articyId": "0x010000070000773A",
+                                  "text": "And he's winking? Why?",
+                                  "links": [
+                                    {
+                                      "id": 88,
+                                      "title": "BADGE: LTN-2JFR DU BOIS: \"Why do you think? His face is alrea...\"",
+                                      "articyId": "0x0100000700007741",
+                                      "text": "Why do you think? His face is already contorted by the Expression. Although it looks less grotesque on him than it does on you now.",
+                                      "links": [
+                                        {
+                                          "id": 150,
+                                          "title": "Pain Threshold: \"It looks better on him because he i...\"",
+                                          "articyId": "0x0100000700007748",
+                                          "text": "It looks better on him because he isn't in as much *pain* while producing it as you are now. Although there's already a hint of that pain, certainly.",
+                                          "links": [
+                                            {
+                                              "id": 28,
+                                              "title": "Inland Empire: \"Don't be fooled. The bad times have...\"",
+                                              "articyId": "0x0100000700007758",
+                                              "text": "Don't be fooled. The bad times have already begun.",
+                                              "links": [
+                                                {
+                                                  "id": 59,
+                                                  "title": "Conceptualization: \"Wake up the past and tell it to sta...\"",
+                                                  "articyId": "0x010000070000775F",
+                                                  "text": "Wake up the past and tell it to stay awake -- the bad times are here to stay.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 198,
+                                          "title": "BADGE: LTN-2JFR DU BOIS: \"It looks like you had quite the cha...\"",
+                                          "articyId": "0x0100004C0000B2FB",
+                                          "text": "It looks like you had quite the charming face -- way back then. Your hair is brown and slightly curly, your eyes seem more clear somehow.",
+                                          "links": [
+                                            {
+                                              "id": 41,
+                                              "title": "Visual Calculus: \"The lack of alcohol swelling is a b...\"",
+                                              "articyId": "0x010000060001C34F",
+                                              "text": "The lack of alcohol swelling is a bonus. Though there's a *pinch* of that in your cheeks already.",
+                                              "links": [
+                                                {
+                                                  "id": 180,
+                                                  "title": "Inland Empire: \"Don't be fooled. The bad times have...\"",
+                                                  "articyId": "0x0100000200001112",
+                                                  "text": "Don't be fooled. The bad times have already begun.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "You: \"\"Name: Harrier Du Bois...\"\"",
+          "articyId": "0x0100004C0000B28E",
+          "text": "\"Name: Harrier Du Bois...\"",
+          "links": [
+            {
+              "id": 143,
+              "title": "Kim Kitsuragi: \"\"'Harrier,' that's long for 'Harry'...\"",
+              "articyId": "0x0100004C0000B303",
+              "text": "\"'Harrier,' that's long for 'Harry'. So you *are* Harry...\" He thinks. \"Evrart was half right. Probably not a lot of people know your full name. Whoever told him you're Harry Du Bois didn't.\"",
+              "links": [
+                {
+                  "id": 93,
+                  "title": "You: \"\"Strange. It doesn't say Raphaël Am...\"",
+                  "articyId": "0x0100004C0000B343",
+                  "text": "\"Strange. It doesn't say Raphaël Ambrosius Costeau.\"",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Kim Kitsuragi: \"\"Not strange at all -- your name is...\"",
+                      "articyId": "0x0100004C0000B34A",
+                      "text": "\"Not strange at all -- your name is Harrier Du Bois. Like it says on your police badge.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 120,
+                  "title": "You: \"\"Wait, what kind of name is 'Harrie...\"",
+                  "articyId": "0x0100004C0000B33C",
+                  "text": "\"Wait, what kind of name is 'Harrier'?\"",
+                  "links": [
+                    {
+                      "id": 43,
+                      "title": "Kim Kitsuragi: \"\"It's a wartime name. Revolutionary...\"",
+                      "articyId": "0x0100004C0000B388",
+                      "text": "\"It's a wartime name. Revolutionary. The kind mothers give their sons during troubled times. Like 'Undying' or 'Boxer' or 'Ironhide'.\"",
+                      "links": [
+                        {
+                          "id": 151,
+                          "title": "Endurance: \"It's meant to keep you safe.\"",
+                          "articyId": "0x0100000700007799",
+                          "text": "It's meant to keep you safe.",
+                          "links": [
+                            {
+                              "id": 50,
+                              "title": "Reaction Speed: \"...from bullets, hunger, shrapnel,...\"",
+                              "articyId": "0x01000007000077A1",
+                              "text": "...from bullets, hunger, shrapnel, kidnappings, and worse.",
+                              "links": []
+                            },
+                            {
+                              "id": 112,
+                              "title": "Conceptualization: \"A name like armour.\"",
+                              "articyId": "0x010000060001C36B",
+                              "text": "A name like armour.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 146,
+                  "title": "You: \"\"But... I don't *want* to be Harrie...\"",
+                  "articyId": "0x0100006B00006816",
+                  "text": "\"But... I don't *want* to be Harrier Du Bois.\" (Don't accept it.)",
+                  "links": [
+                    {
+                      "id": 102,
+                      "title": "Kim Kitsuragi: \"\"Why? It's a cool name. I like it.\"...\"",
+                      "articyId": "0x0100006B0000681D",
+                      "text": "\"Why? It's a cool name. I like it.\" He shrugs. \"Besides, you're Harry anyway. No one's ever called *Harrier*.\"",
+                      "links": [
+                        {
+                          "id": 6,
+                          "title": "BADGE: LTN-2JFR DU BOIS: \"The badge in your hands shines as y...\"",
+                          "articyId": "0x010000060001C374",
+                          "text": "The badge in your hands shines as you rotate it, catching light. You see lines of information:",
+                          "links": []
+                        },
+                        {
+                          "id": 99,
+                          "title": "Esprit de Corps: \"He's not going to call you Harrier....\"",
+                          "articyId": "0x01000007000077B3",
+                          "text": "He's not going to call you Harrier. He'll keep calling you 'officer' when he's angry with you and 'detective' when he's not.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 55,
+                  "title": "You: \"\"Harrier Du Bois it is, then.\" (Acc...\"",
+                  "articyId": "0x0100006B00006828",
+                  "text": "\"Harrier Du Bois it is, then.\" (Accept it.)",
+                  "links": [
+                    {
+                      "id": 68,
+                      "title": "Kim Kitsuragi: \"\"Pleased to make your acquaintance,...\"",
+                      "articyId": "0x0100006B00006830",
+                      "text": "\"Pleased to make your acquaintance, Harrier Du Bois.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 100,
+              "title": "Kim Kitsuragi: \"\"Harrier Du Bois...\" He looks you u...\"",
+              "articyId": "0x0100004C0000B311",
+              "text": "\"Harrier Du Bois...\" He looks you up and down. \"It suits you. I'm going to call you 'Harry,' since it's short for 'Harrier'.\"",
+              "links": [
+                {
+                  "id": 109,
+                  "title": "Esprit de Corps: \"No, he's not. He's going keep calli...\"",
+                  "articyId": "0x0100000700007783",
+                  "text": "No, he's not. He's going keep calling you \"officer\" when he's angry with you -- and \"detective\" when he's not.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 37,
+              "title": "BADGE: LTN-2JFR DU BOIS: \"This document confirms it -- Harrie...\"",
+              "articyId": "0x0100004C0000B318",
+              "text": "This document confirms it -- Harrier Du Bois, i.e. Harry, is really your name.",
+              "links": []
+            },
+            {
+              "id": 155,
+              "title": "BADGE: LTN-2JFR DU BOIS: \"This is your name. You are Harrier...\"",
+              "articyId": "0x0100004C0000B32C",
+              "text": "This is your name. You are Harrier Du Bois. Harry.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "title": "You: \"\"Rank: LTN-2JFR?\"\"",
+          "articyId": "0x0100004C0000B287",
+          "text": "\"Rank: LTN-2JFR?\"",
+          "links": [
+            {
+              "id": 24,
+              "title": "Kim Kitsuragi: \"\"Lieutenant double-yefreitor.\"\"",
+              "articyId": "0x0100004C0000B3D2",
+              "text": "\"Lieutenant double-yefreitor.\"",
+              "links": [
+                {
+                  "id": 152,
+                  "title": "You: \"\"What is a 'lieutenant double-yefre...\"",
+                  "articyId": "0x010000070000789F",
+                  "text": "\"What is a 'lieutenant double-yefreitor?'\"",
+                  "links": [
+                    {
+                      "id": 89,
+                      "title": "Kim Kitsuragi: \"\"The lieutenant is a rank above ser...\"",
+                      "articyId": "0x01000007000078A6",
+                      "text": "\"The lieutenant is a rank above sergeant and below captain. It's the highest rank in the RCM that still does field work. I am a lieutenant.\"",
+                      "links": [
+                        {
+                          "id": 182,
+                          "title": "You: \"\"And double-yefreitor?\"\"",
+                          "articyId": "0x01000007000078AD",
+                          "text": "\"And double-yefreitor?\"",
+                          "links": [
+                            {
+                              "id": 189,
+                              "title": "Kim Kitsuragi: \"\"The title of yefreitor is added to...\"",
+                              "articyId": "0x01000007000078B4",
+                              "text": "\"The title of yefreitor is added to your rank when you decline a promotion to a higher rank -- in your case, captain,\" the lieutenant explains. \"You have declined twice. Thus you're double-yefreitor.\"",
+                              "links": [
+                                {
+                                  "id": 60,
+                                  "title": "You: \"\"Declined?\"\"",
+                                  "articyId": "0x01000007000078BB",
+                                  "text": "\"Declined?\"",
+                                  "links": [
+                                    {
+                                      "id": 122,
+                                      "title": "Kim Kitsuragi: \"\"There are many reasons one would d...\"",
+                                      "articyId": "0x01000007000078C2",
+                                      "text": "\"There are many reasons one would do this. The rank above you in your precinct's *décomptage* might be taken. Or sometimes promoted officers do not *want* to replace their superiors -- out of respect.\"",
+                                      "links": [
+                                        {
+                                          "id": 51,
+                                          "title": "Kim Kitsuragi: \"\"And sometimes,\" he continues, \"the...\"",
+                                          "articyId": "0x01000007000078C9",
+                                          "text": "\"And sometimes,\" he continues, \"they just prefer the type of police work available to their current rank -- in your case, lieutenant.\"",
+                                          "links": [
+                                            {
+                                              "id": 12,
+                                              "title": "Esprit de Corps: \"Heavy-duty case-solving machine.\"",
+                                              "articyId": "0x01000007000078D0",
+                                              "text": "Heavy-duty case-solving machine.",
+                                              "links": [
+                                                {
+                                                  "id": 95,
+                                                  "title": "You: \"\"What's a 'décomptage'?\"\"",
+                                                  "articyId": "0x0100004C0000B499",
+                                                  "text": "\"What's a 'décomptage'?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 67,
+                                                      "title": "Kim Kitsuragi: \"\"Décomptage is the hierarchical sys...\"",
+                                                      "articyId": "0x0100004C0000B59F",
+                                                      "text": "\"Décomptage is the hierarchical system employed by the Revachol Citizens Militia. It means counting down to twos.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 90,
+                                                          "title": "Encyclopedia: \"The countdown is modelled after the...\"",
+                                                          "articyId": "0x01000007000078D8",
+                                                          "text": "The countdown is modelled after the dual-leadership system employed by the Left during the Revolution. Which in turn was developed by last century experimental psychologists in the University of Koenigstein.",
+                                                          "links": [
+                                                            {
+                                                              "id": 123,
+                                                              "title": "Kim Kitsuragi: \"\"The lowest rank is junior officer...\"",
+                                                              "articyId": "0x01000007000078E1",
+                                                              "text": "\"The lowest rank is junior officer -- usually teenagers. Then there are the patrol officers. Then sergeants, lieutenants, and then a captain. That's basically it, except for a few kinks.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 76,
+                                                                  "title": "You: \"\"What kinks?\"\"",
+                                                                  "articyId": "0x01000007000078E8",
+                                                                  "text": "\"What kinks?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 18,
+                                                                      "title": "Kim Kitsuragi: \"\"Kinks like satellite-officers and...\"",
+                                                                      "articyId": "0x01000007000078F6",
+                                                                      "text": "\"Kinks like satellite-officers and the additional yefreitor rank I already explained.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 97,
+                                                                          "title": "Authority: \"The long and short of it is: you're...\"",
+                                                                          "articyId": "0x010000060001C3AE",
+                                                                          "text": "The long and short of it is: you're his superior.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 91,
+                                                                              "title": "You: \"\"Wait -- satellite-officers?\"\"",
+                                                                              "articyId": "0x01000007000078FD",
+                                                                              "text": "\"Wait -- satellite-officers?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 142,
+                                                                                  "title": "Kim Kitsuragi: \"\"You are given the title of 'satell...\"",
+                                                                                  "articyId": "0x0100000700007917",
+                                                                                  "text": "\"You are given the title of 'satellite-officer' if your partner is quickly promoted through the ranks and you rise with him. You don't seem to be a satellite...\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 62,
+                                                                              "title": "You: \"\"So you've been putting up with all...\"",
+                                                                              "articyId": "0x010000070000791F",
+                                                                              "text": "\"So you've been putting up with all my bullshit because I'm your superior?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 35,
+                                                                                  "title": "Kim Kitsuragi: \"\"I'm not putting up with anything,\"...\"",
+                                                                                  "articyId": "0x0100000700007938",
+                                                                                  "text": "\"I'm not putting up with anything,\" the lieutenant says with a little smile. \"You put your life on the line and we came out on top. That matters.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 63,
+                                                                                      "title": "Kim Kitsuragi: \"\"More than driving your motor carri...\"",
+                                                                                      "articyId": "0x0100000700007966",
+                                                                                      "text": "\"More than driving your motor carriage into the sea. The upside of that is, of course, you finding your badge.\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 183,
+                                                                                  "title": "Kim Kitsuragi: \"\"No. I've been putting up with you...\"",
+                                                                                  "articyId": "0x0100000700007947",
+                                                                                  "text": "\"No. I've been putting up with you because, despite an unconventional approach, you're doing good police work.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 175,
+                                                                                      "title": "Kim Kitsuragi: \"\"It matters more than driving your...\"",
+                                                                                      "articyId": "0x010000070000796F",
+                                                                                      "text": "\"It matters more than driving your motor carriage into the sea.\" He smiles encouragingly. \"And now we've even found your badge.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 181,
+                                                                                          "title": "Empathy: \"He trusts you -- for now. Try not t...\"",
+                                                                                          "articyId": "0x010000060001C389",
+                                                                                          "text": "He trusts you -- for now. Try not to spoil it.",
+                                                                                          "links": []
+                                                                                        },
+                                                                                        {
+                                                                                          "id": 7,
+                                                                                          "title": "Empathy: \"Still -- he doesn't trust you compl...\"",
+                                                                                          "articyId": "0x010000060001C38F",
+                                                                                          "text": "Still -- he doesn't trust you completely.",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 153,
+                                                                              "title": "You: \"\"So you've been putting up with me...\"",
+                                                                              "articyId": "0x0100000700007928",
+                                                                              "text": "\"So you've been putting up with me because we're of the same rank?\"",
+                                                                              "links": []
+                                                                            },
+                                                                            {
+                                                                              "id": 118,
+                                                                              "title": "You: \"\"Thanks for explaining all this.\" (...\"",
+                                                                              "articyId": "0x0100000700007904",
+                                                                              "text": "\"Thanks for explaining all this.\" (Don't mention it.)",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 13,
+                                                                                  "title": "Kim Kitsuragi: \"\"My pleasure.\"\"",
+                                                                                  "articyId": "0x010000070000790B",
+                                                                                  "text": "\"My pleasure.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 54,
+                                                  "title": "You: \"\"I thought my rank was *drunk*.\"\"",
+                                                  "articyId": "0x0100004C0000B4AF",
+                                                  "text": "\"I thought my rank was *drunk*.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 46,
+                                                      "title": "Kim Kitsuragi: \"\"Yes, apparently you've had a rathe...\"",
+                                                      "articyId": "0x0100004C0000B4C0",
+                                                      "text": "\"Yes, apparently you've had a rather successful career in the past and,\" -- he pauses to examine you -- \"this leads me to believe maybe your current *situation* is only temporary.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 162,
+                                                          "title": "You: \"\"I won't forsake the drink -- it ma...\"",
+                                                          "articyId": "0x0100004C0000B4C7",
+                                                          "text": "\"I won't forsake the drink -- it makes me happy.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 145,
+                                                              "title": "Kim Kitsuragi: \"\"It does seem to be a rather *speci...\"",
+                                                              "articyId": "0x0100004C0000B4FF",
+                                                              "text": "\"It does seem to be a rather *special* relationship the two of you have forged, yes, lieutenant double-yefreitor.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 74,
+                                                          "title": "You: \"\"Thanks. That gives me hope.\"\"",
+                                                          "articyId": "0x0100004C0000B4CE",
+                                                          "text": "\"Thanks. That gives me hope.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 66,
+                                                              "title": "Kim Kitsuragi: \"\"Good,\" he says with a quick smile.\"",
+                                                              "articyId": "0x0100004C0000B4E3",
+                                                              "text": "\"Good,\" he says with a quick smile.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 144,
+                                                          "title": "You: \"\"I'm afraid there are no ex-alcohol...\"",
+                                                          "articyId": "0x0100004C0000B4D5",
+                                                          "text": "\"I'm afraid there are no ex-alcoholics.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 86,
+                                                              "title": "Kim Kitsuragi: \"\"People have been through worse and...\"",
+                                                              "articyId": "0x0100004C0000B4EF",
+                                                              "text": "\"People have been through worse and gotten back on their feet, lieutenant double-yefreitor,\" he says with a reassuring little smile.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 101,
+                                                          "title": "You: \"\"I don't want to get better -- I wa...\"",
+                                                          "articyId": "0x0100004C0000B4DC",
+                                                          "text": "\"I don't want to get better -- I want to get worse.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 87,
+                                                              "title": "Kim Kitsuragi: \"\"I... uh, don't really know how to...\"",
+                                                              "articyId": "0x0100004C0000B4F7",
+                                                              "text": "\"I... uh, don't really know how to respond to that, lieutenant double-yefreitor.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 39,
+                                                  "title": "You: \"Turn back to the document.\"",
+                                                  "articyId": "0x0100004C0000B4A1",
+                                                  "text": "Turn back to the document.",
+                                                  "links": [
+                                                    {
+                                                      "id": 132,
+                                                      "title": "BADGE: LTN-2JFR DU BOIS: \"Such a small yet precious thing. Ex...\"",
+                                                      "articyId": "0x010000060001C3A7",
+                                                      "text": "Such a small yet precious thing. Expensive paper caught between thick plastic like a fly in amber. It reads:",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 72,
+              "title": "BADGE: LTN-2JFR DU BOIS: \"That's what it says on the badge. N...\"",
+              "articyId": "0x0100004C0000B397",
+              "text": "That's what it says on the badge. No more information is provided.",
+              "links": [
+                {
+                  "id": 156,
+                  "title": "Esprit de Corps: \"You should look at the badge when L...\"",
+                  "articyId": "0x0100004C0000B3D9",
+                  "text": "You should look at the badge when Lieutenant Kitsuragi is around -- he could help you make sense of all this.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "title": "You: \"\"Serial: REV12-62-05-JAM41...\"\"",
+          "articyId": "0x0100004C0000B42F",
+          "text": "\"Serial: REV12-62-05-JAM41...\"",
+          "links": [
+            {
+              "id": 44,
+              "title": "Kim Kitsuragi: \"\"That's just the serial number. Rev...\"",
+              "articyId": "0x0100004C0000B43B",
+              "text": "\"That's just the serial number. Revachol, Jamrock, Precinct 41, with some numbers thrown in there for good measure.\"",
+              "links": [
+                {
+                  "id": 92,
+                  "title": "Logic: \"The numbers are not there for 'good...\"",
+                  "articyId": "0x01000007000153DC",
+                  "text": "The numbers are not there for 'good measure'. They have an administrative purpose. One that's unfortunately been erased from your memory.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 176,
+              "title": "BADGE: LTN-2JFR DU BOIS: \"Revachol, Jamrock, Precinct 41. You...\"",
+              "articyId": "0x0100004C0000B446",
+              "text": "Revachol, Jamrock, Precinct 41. You don't remember what the numbers in the middle mean.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 191,
+          "title": "You: \"\"Date of issue: 7th of November, '5...\"",
+          "articyId": "0x0100004C0000B295",
+          "text": "\"Date of issue: 7th of November, '50...\"",
+          "links": [
+            {
+              "id": 184,
+              "title": "Kim Kitsuragi: \"\"Four months ago -- I'm guessing th...\"",
+              "articyId": "0x0100004C0000B405",
+              "text": "\"Four months ago -- I'm guessing that's when you were promoted to the rank of lieutenant double-yefreitor.\"",
+              "links": [
+                {
+                  "id": 75,
+                  "title": "Kim Kitsuragi: \"\"A new badge usually comes with a n...\"",
+                  "articyId": "0x010000060001C3B9",
+                  "text": "\"A new badge usually comes with a new rank. You seem to have been... doing well then.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 70,
+              "title": "Kim Kitsuragi: \"\"Four months ago? Seems like a new...\"",
+              "articyId": "0x010000060001C3D8",
+              "text": "\"Four months ago? Seems like a new document was recently made. One is handed to you as part of a promotion, or... if you lose the old one.",
+              "links": [
+                {
+                  "id": 15,
+                  "title": "Endurance: \"The pain in your chest tells you yo...\"",
+                  "articyId": "0x010000060001C3F5",
+                  "text": "The pain in your chest tells you you were working yourself to death to earn that rank.",
+                  "links": [
+                    {
+                      "id": 103,
+                      "title": "Electrochemistry: \"The case created a lot of *edge* yo...\"",
+                      "articyId": "0x010000060001C3FB",
+                      "text": "The case created a lot of *edge* you have to *take off*. The death march really gets us going.",
+                      "links": [
+                        {
+                          "id": 98,
+                          "title": "Logic: \"You're pretty sure you weren't doin...\"",
+                          "articyId": "0x010000060001C400",
+                          "text": "You're pretty sure you weren't doing *well* -- but better? Probably yes.",
+                          "links": [
+                            {
+                              "id": 85,
+                              "title": "Inland Empire: \"A lot can happen in four months. Es...\"",
+                              "articyId": "0x0100004C0000B420",
+                              "text": "A lot can happen in four months. Especially in winter. The winters are never easy on you, of that you are sure.",
+                              "links": [
+                                {
+                                  "id": 58,
+                                  "title": "Horrific Necktie: \"I remember that time... the tie aro...\"",
+                                  "articyId": "0x010000060001C410",
+                                  "text": "I remember that time... the tie around your neck feels tight suddenly. That was a good time. We had a good work/drink balance going. What happened, man? Pump it up.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 199,
+              "title": "BADGE: LTN-2JFR DU BOIS: \"The badge was issued roughly four m...\"",
+              "articyId": "0x0100004C0000B3F9",
+              "text": "The badge was issued roughly four months ago.",
+              "links": [
+                {
+                  "id": 121,
+                  "title": "Logic: \"A new document is given to you as p...\"",
+                  "articyId": "0x010000060001C3EC",
+                  "text": "A new document is given to you as part of a promotion. Or when you lose the old one.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 128,
+          "title": "You: \"\"Precinct: 41?\"\"",
+          "articyId": "0x0100004C0000B2B4",
+          "text": "\"Precinct: 41?\"",
+          "links": [
+            {
+              "id": 73,
+              "title": "Kim Kitsuragi: \"\"Yes. It's the designation of your...\"",
+              "articyId": "0x0100004C0000B3F1",
+              "text": "\"Yes. It's the designation of your Precinct. Forty-one. Like mine says Fifty-seven. The 57th is mostly Industrial Harbour. A lot of asphalt. The 41st is...\" He stops.",
+              "links": [
+                {
+                  "id": 166,
+                  "title": "You: \"\"What?\"",
+                  "articyId": "0x010000060001C41B",
+                  "text": "\"What?",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "Kim Kitsuragi: \"\"It's a *tough* station to work in....\"",
+                      "articyId": "0x010000060001C422",
+                      "text": "\"It's a *tough* station to work in. You have all of Jamrock to cover -- that district should have *three* precincts, but money is what it is.\"",
+                      "links": [
+                        {
+                          "id": 107,
+                          "title": "Esprit de Corps: \"It's no wonder you are like you are...\"",
+                          "articyId": "0x010000060001C429",
+                          "text": "It's no wonder you are like you are, he thinks. But then again...",
+                          "links": [
+                            {
+                              "id": 134,
+                              "title": "Kim Kitsuragi: \"\"But then again...\" A faint smile....\"",
+                              "articyId": "0x010000060001C430",
+                              "text": "\"But then again...\" A faint smile. \"It's a legendary district. And a hell of a station too. It must be an honour and a curse to work with people like Pryce, McCoy, Berdyayeva...\"",
+                              "links": [
+                                {
+                                  "id": 108,
+                                  "title": "Encyclopedia: \"...Roberts, Feuerbach, De Mettrie.....\"",
+                                  "articyId": "0x010000060001C44D",
+                                  "text": "...Roberts, Feuerbach, De Mettrie... suddenly names from your décomptage flash in your forebrain.",
+                                  "links": [
+                                    {
+                                      "id": 167,
+                                      "title": "Reaction Speed: \"He knew all those people although t...\"",
+                                      "articyId": "0x010000060001C444",
+                                      "text": "He knew all those people although they're not from his station. They must be big.",
+                                      "links": [
+                                        {
+                                          "id": 185,
+                                          "title": "Authority: \"And you? Is it an honour to work wi...\"",
+                                          "articyId": "0x010000060001C437",
+                                          "text": "And you? Is it an honour to work with you? Don't ask him, ask yourself.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 157,
+              "title": "BADGE: LTN-2JFR DU BOIS: \"The number shows that this badge be...\"",
+              "articyId": "0x0100004C0000B3E5",
+              "text": "The number shows that this badge belongs to an officer of the 41st precinct.",
+              "links": [
+                {
+                  "id": 23,
+                  "title": "BADGE: LTN-2JFR DU BOIS: \"The badge in your hands shines as y...\"",
+                  "articyId": "0x0100004C0000B3B9",
+                  "text": "The badge in your hands shines as you rotate it, catching light. You see lines of information on it. And a shining watermark.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 111,
+          "title": "You: \"Put the badge away. [Leave.]\"",
+          "articyId": "0x0100004C0000B2CD",
+          "text": "Put the badge away. [Leave.]",
+          "links": []
+        },
+        {
+          "id": 71,
+          "title": "You: \"\"I found my badge!\"\"",
+          "articyId": "0x01000007000076D6",
+          "text": "\"I found my badge!\"",
+          "links": [
+            {
+              "id": 135,
+              "title": "Kim Kitsuragi: \"\"At least *something* good came out...\"",
+              "articyId": "0x01000007000076E3",
+              "text": "\"At least *something* good came out of all this.\" The lieutenant glances at the badge in your hands.",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "You: \"Study the badge.\"",
+                  "articyId": "0x0100000700007708",
+                  "text": "Study the badge.",
+                  "links": [
+                    {
+                      "id": 119,
+                      "title": "BADGE: LTN-2JFR DU BOIS: \"Encased between two durable plastic...\"",
+                      "articyId": "0x0100004C0000B263",
+                      "text": "Encased between two durable plastic sheets is a bluish card with lines of information -- and a watermark in the shape of the street grid of Revachol West.",
+                      "links": [
+                        {
+                          "id": 149,
+                          "title": "BADGE: LTN-2JFR DU BOIS: \"You see: a photo, a name, a rank, a...\"",
+                          "articyId": "0x010000070000771B",
+                          "text": "You see: a photo, a name, a rank, a document number, the date of issue, and -- in the lower right corner -- your precinct.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 148,
+                  "title": "You: \"[Leave.]\"",
+                  "articyId": "0x010000070000770D",
+                  "text": "[Leave.]",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 117,
+              "title": "BADGE: LTN-2JFR DU BOIS: \"The man in the photo looks at you s...\"",
+              "articyId": "0x01000007000076E9",
+              "text": "The man in the photo looks at you solemnly.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "0x0100006B00002391",
+  "title": "INVENTORY / SMALLEST CHURCH TAPE",
+  "description": "tape interactable in inventory; smallest church in saint-saens with all the dialogue necessary. item pickup in world.",
+  "dialogueTree": [
+    {
+      "id": 19,
+      "title": "\"Smallest Church in Saint-Saëns\": \"The porta-reel is just what you nee...\"",
+      "articyId": "0x01000021000031D4",
+      "text": "The porta-reel is just what you needed -- the reels attach to the apparatus with a satisfying click. The tape is routed behind the magnetic reader.",
+      "links": [
+        {
+          "id": 12,
+          "title": "You: \"Press play on tape.\"",
+          "articyId": "0x0100006B000023A5",
+          "text": "Press play on tape.",
+          "links": [
+            {
+              "id": 11,
+              "title": "\"Smallest Church in Saint-Saëns\": \"You press the large button marked *...\"",
+              "articyId": "0x01000057000237EF",
+              "text": "You press the large button marked *Commencer* and the tape starts spinning. There's a small delay before the song starts playing...",
+              "links": [
+                {
+                  "id": 31,
+                  "title": "You: \"Press your ear against the speaker.\"",
+                  "articyId": "0x010000570002380F",
+                  "text": "Press your ear against the speaker.",
+                  "links": [
+                    {
+                      "id": 54,
+                      "title": "\"Smallest Church in Saint-Saëns\": \"It sounds like someone's moving in...\"",
+                      "articyId": "0x010000570002380A",
+                      "text": "It sounds like someone's moving in the room, getting comfortable. Then the organ starts playing a simple melancholic tune, echoing in the hallway. A lone singing voice joins in...",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "\"Smallest Church in Saint-Saëns\": \"Telling you about the tiniest churc...\"",
+                          "articyId": "0x0100005700023827",
+                          "text": "Telling you about the tiniest church in Saint-Saëns, surrounded by even tinier yard. You almost feel the seaside mist on your skin. It's *mega* sad.",
+                          "links": [
+                            {
+                              "id": 51,
+                              "title": "Inland Empire: \"Within seconds you know -- this is...\"",
+                              "articyId": "0x010000570002385E",
+                              "text": "Within seconds you know -- this is the one. The *real shit* you've been looking for. The one you trashed your room to. This one tells it like it is. This is your tune.",
+                              "links": []
+                            },
+                            {
+                              "id": 17,
+                              "title": "\"Smallest Church in Saint-Saëns\": \"A click -- then silence, for a bit....\"",
+                              "articyId": "0x0100006B0000990C",
+                              "text": "A click -- then silence, for a bit. Then the tape stops spinning.",
+                              "links": [
+                                {
+                                  "id": 27,
+                                  "title": "You: \"Could I sing this for karaoke? I th...\"",
+                                  "articyId": "0x0100005700023842",
+                                  "text": "Could I sing this for karaoke? I think I could sing this.",
+                                  "links": [
+                                    {
+                                      "id": 50,
+                                      "title": "Inland Empire: \"Of course you could sing this! You...\"",
+                                      "articyId": "0x0100005700023858",
+                                      "text": "Of course you could sing this! You could take sad to a whole new level with this. And you already know the lyrics since you've listened to it, like, a million times!",
+                                      "links": [
+                                        {
+                                          "id": 28,
+                                          "title": "Encyclopedia: \"Yup. They're all here. All three ve...\"",
+                                          "articyId": "0x0100000600016C0B",
+                                          "text": "Yup. They're all here. All three verses.",
+                                          "links": [
+                                            {
+                                              "id": 52,
+                                              "title": "Inland Empire: \"*And* the B-side of the tape contai...\"",
+                                              "articyId": "0x0100005700023877",
+                                              "text": "*And* the B-side of the tape contains the instrumental version. It's like the world itself is telling you to do it. Only one obstacle stands on your way...",
+                                              "links": [
+                                                {
+                                                  "id": 55,
+                                                  "title": "You: \"What?\"",
+                                                  "articyId": "0x0100005700023880",
+                                                  "text": "What?",
+                                                  "links": [
+                                                    {
+                                                      "id": 32,
+                                                      "title": "Inland Empire: \"Garte. You have to convince Garte t...\"",
+                                                      "articyId": "0x010000570002388D",
+                                                      "text": "Garte. You have to convince Garte to let you sing karaoke in the Whirling. After you've won him over, you can *express* yourself. Let the pain out. Make everyone understand.",
+                                                      "links": [
+                                                        {
+                                                          "id": 2,
+                                                          "title": "Kim Kitsuragi: \"The lieutenant looks at you as you...\"",
+                                                          "articyId": "0x01000021000031FF",
+                                                          "text": "The lieutenant looks at you as you remove the tape from the boombox. He doesn't say anything.",
+                                                          "links": []
+                                                        },
+                                                        {
+                                                          "id": 53,
+                                                          "title": "Kim Kitsuragi: \"The lieutenant watches you pack up...\"",
+                                                          "articyId": "0x0100000600016C1F",
+                                                          "text": "The lieutenant watches you pack up the boombox. He doesn't say anything.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 18,
+                                                  "title": "You: \"Nothing can stop me now.\"",
+                                                  "articyId": "0x0100005700023886",
+                                                  "text": "Nothing can stop me now.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 37,
+                                  "title": "You: \"No, I couldn't! It's too sad, I mig...\"",
+                                  "articyId": "0x0100005700023848",
+                                  "text": "No, I couldn't! It's too sad, I might cry and trash the room again.",
+                                  "links": [
+                                    {
+                                      "id": 16,
+                                      "title": "Inland Empire: \"Crying is good, it gives your perfo...\"",
+                                      "articyId": "0x0100005700023852",
+                                      "text": "Crying is good, it gives your performance authenticity. Besides, you already know the lyrics since you've listened to it, like, a million times!",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "title": "You: \"Scratch that, I'm already crying. A...\"",
+                                  "articyId": "0x0100005700023865",
+                                  "text": "Scratch that, I'm already crying. And I look dumb. And old.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 29,
+                                  "title": "You: \"Remove the tape.\"",
+                                  "articyId": "0x01000021000031DF",
+                                  "text": "Remove the tape.",
+                                  "links": [
+                                    {
+                                      "id": 38,
+                                      "title": "\"Smallest Church in Saint-Saëns\": \"Immediately the boombox tunes itsel...\"",
+                                      "articyId": "0x01000021000031EA",
+                                      "text": "Immediately the boombox tunes itself back to the Friday night beats, vibrating on your shoulder.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 40,
+                                  "title": "Logic: \"Nothing to do with this right now.\"",
+                                  "articyId": "0x0100000600016BF3",
+                                  "text": "Nothing to do with this right now.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "title": "You: \"Keep the porta-reel at the harmless...\"",
+                  "articyId": "0x0100005700023815",
+                  "text": "Keep the porta-reel at the harmless distance and wait.",
+                  "links": [
+                    {
+                      "id": 36,
+                      "title": "\"Smallest Church in Saint-Saëns\": \"Then the organ starts playing a sim...\"",
+                      "articyId": "0x0100005700023820",
+                      "text": "Then the organ starts playing a simple melancholic tune, echoing in the hallway. A lone singing voice joins in...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "title": "You: \"Not now. [Put the tape away.]\"",
+          "articyId": "0x0100006B000023AB",
+          "text": "Not now. [Put the tape away.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "\"Smallest Church in Saint-Saëns\": \"The porta-reel is just what you nee...\"",
+      "articyId": "0x0100006B0000239F",
+      "text": "The porta-reel is just what you needed -- the reels attach to the apparatus with a satisfying click. The tape is routed behind the magnetic reader.",
+      "links": []
+    },
+    {
+      "id": 39,
+      "title": "\"Smallest Church in Saint-Saëns\": \"There's no way to listen to the tap...\"",
+      "articyId": "0x0100006B00002392",
+      "text": "There's no way to listen to the tape without a working tape player or porta-reel at hand.",
+      "links": [
+        {
+          "id": 49,
+          "title": "Inland Empire: \"But even just holding the tape make...\"",
+          "articyId": "0x0100005700023802",
+          "text": "But even just holding the tape makes you feel a little sad...",
+          "links": [
+            {
+              "id": 30,
+              "title": "Reaction Speed: \"A pawnshop -- a pawnshop would have...\"",
+              "articyId": "0x0100000600016BDA",
+              "text": "A pawnshop -- a pawnshop would have a tape player...",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

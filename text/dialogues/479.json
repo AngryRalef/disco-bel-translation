@@ -1,0 +1,226 @@
+{
+  "id": "0x0100006B00007DDE",
+  "title": "CANAL / WATERLOCK LEVER",
+  "description": "this is the button-switch-lever-thing that closes the waterlock once it's been fixed on day 3",
+  "dialogueTree": [
+    {
+      "id": 56,
+      "title": "Water Lock Control Panel: \"A rusting control panel with loose...\"",
+      "articyId": "0x0100006B00007F0E",
+      "text": "A rusting control panel with loose wires dangling out from the hole where an indicator light used to be, and a mechanical lever sitting in the middle.",
+      "links": [
+        {
+          "id": 48,
+          "title": "Logic: \"Could this be why Morell hasn't ret...\"",
+          "articyId": "0x010000060001AD3F",
+          "text": "Could this be why Morell hasn't returned to Lena?",
+          "links": [
+            {
+              "id": 12,
+              "title": "Reaction Speed: \"Wait... Could this be why Morell ha...\"",
+              "articyId": "0x010000060001AD4D",
+              "text": "Wait... Could this be why Morell hasn't returned to Lena?",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "You: \"\"So the coast is closed off. This m...\"",
+          "articyId": "0x0100000600017623",
+          "text": "\"So the coast is closed off. This may be why Lena's husband Morell the cryptozoologist hasn't returned.\"",
+          "links": [
+            {
+              "id": 15,
+              "title": "Kim Kitsuragi: \"\"Looks like it, yes. We should prob...\"",
+              "articyId": "0x0100000600017634",
+              "text": "\"Looks like it, yes. We should probably go tell Lena. Take a load off her mind.\"",
+              "links": [
+                {
+                  "id": 55,
+                  "title": "Empathy: \"She *was* quite worried...\"",
+                  "articyId": "0x0100000600017683",
+                  "text": "She *was* quite worried...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"So the coast is closed off. Is this...\"",
+          "articyId": "0x010000060001764D",
+          "text": "So the coast is closed off. Is this why Lena's husband Morell the cryptozoologist hasn't returned?",
+          "links": [
+            {
+              "id": 62,
+              "title": "Water Lock Control Panel: \"The Water Lock Control Panel doesn'...\"",
+              "articyId": "0x0100000600017654",
+              "text": "The Water Lock Control Panel doesn't make for much of a partner, but yeah -- why not.",
+              "links": [
+                {
+                  "id": 23,
+                  "title": "Logic: \"You should probably tell Lena. It'l...\"",
+                  "articyId": "0x010000060001765A",
+                  "text": "You should probably tell Lena. It'll take a load off her mind.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "title": "You: \"Pull the lever -- again.\"",
+          "articyId": "0x0100000600017524",
+          "text": "Pull the lever -- again.",
+          "links": [
+            {
+              "id": 52,
+              "title": "Water Lock Control Panel: \"You grab the handle and pull the le...\"",
+              "articyId": "0x0100006B00007F68",
+              "text": "You grab the handle and pull the lever up. As soon as the metal connects against the contact pins you hear a loud *clunk*, then...",
+              "links": [
+                {
+                  "id": 10,
+                  "title": "Water Lock Control Panel: \"The water lock starts moving...\"",
+                  "articyId": "0x0100006B00008068",
+                  "text": "The water lock starts moving...",
+                  "links": [
+                    {
+                      "id": 14,
+                      "title": "Kim Kitsuragi: \"\"All right.\" The lieutenant looks a...\"",
+                      "articyId": "0x0100000600017532",
+                      "text": "\"All right.\" The lieutenant looks across the canal. \"We can go to the coast now. Expect rugged terrain -- and drunks.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 36,
+                      "title": "Kim Kitsuragi: \"\"Okay...\" The lieutenant looks acro...\"",
+                      "articyId": "0x010000060001AD60",
+                      "text": "\"Okay...\" The lieutenant looks across the canal. \"If we ever need to get to the coast, then this is the way. But please, contain your *wanderlust* for now. I don't want us to get sidetracked. Not with everything that's going on.\"",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "Esprit de Corps: \"Focus on one thing, achieve it, the...\"",
+                          "articyId": "0x010000060001AD7E",
+                          "text": "Focus on one thing, achieve it, then the next... he thinks. That's the task chain.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 28,
+              "title": "Water Lock Control Panel: \"You pull the lever all the way up u...\"",
+              "articyId": "0x0100006B00007F36",
+              "text": "You pull the lever all the way up until the metal clicks against the contact pins. You hear a soft *clunk*, then...",
+              "links": [
+                {
+                  "id": 64,
+                  "title": "Water Lock Control Panel: \"Nothing happens.\"",
+                  "articyId": "0x0100006B00007F44",
+                  "text": "Nothing happens.",
+                  "links": [
+                    {
+                      "id": 53,
+                      "title": "You: \"Push it HARDER.\"",
+                      "articyId": "0x0100006B00008019",
+                      "text": "Push it HARDER.",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Water Lock Control Panel: \"Nothing happens. A cold gust of win...\"",
+                          "articyId": "0x0100006B00008028",
+                          "text": "Nothing happens. A cold gust of wind blowing in from the sea interrupts the silence of the situation.",
+                          "links": [
+                            {
+                              "id": 61,
+                              "title": "Kim Kitsuragi: \"\"Mm-hmm.\" The lieutenant hums to hi...\"",
+                              "articyId": "0x0100006B00008078",
+                              "text": "\"Mm-hmm.\" The lieutenant hums to himself while staring at your activities.",
+                              "links": []
+                            },
+                            {
+                              "id": 41,
+                              "title": "Man on water lock: \"The man watches you in silence, ver...\"",
+                              "articyId": "0x0100006B0000807D",
+                              "text": "The man watches you in silence, very slowly cutting off another slice of his salami and putting it in his mouth.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 17,
+                      "title": "You: \"Release the lever.\"",
+                      "articyId": "0x0100006B0000801E",
+                      "text": "Release the lever.",
+                      "links": [
+                        {
+                          "id": 60,
+                          "title": "Water Lock Control Panel: \"A spring brings the lever back to i...\"",
+                          "articyId": "0x0100006B00007F4B",
+                          "text": "A spring brings the lever back to its original position. You still need to close the water lock to get across the canal -- some other way.",
+                          "links": [
+                            {
+                              "id": 18,
+                              "title": "Perception (Sight): \"Wasn't there a sign over there sayi...\"",
+                              "articyId": "0x010000060001753D",
+                              "text": "Wasn't there a sign over there saying functionality will be restored on Wednesday morning?",
+                              "links": []
+                            },
+                            {
+                              "id": 13,
+                              "title": "Perception (Sight): \"Isn't there a sign over there sayin...\"",
+                              "articyId": "0x01000002000013B0",
+                              "text": "Isn't there a sign over there saying functionality will be restored on Wednesday morning?",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "title": "You: \"Pull the lever up.\"",
+          "articyId": "0x0100006B00007EAC",
+          "text": "Pull the lever up.",
+          "links": []
+        },
+        {
+          "id": 27,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100006B00007EB1",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 40,
+          "title": "Visual Calculus: \"This panel usually closes the water...\"",
+          "articyId": "0x0100006B00007F06",
+          "text": "This panel usually closes the water lock, turning it into a bridge that lets you cross the canal -- but there's a crashed \"Samaran butter\" sign in the way. Pulling the lever *probably* won't do anything.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Water Lock Control Panel: \"A couple of indicator lights are mi...\"",
+      "articyId": "0x0100006B00007E94",
+      "text": "A couple of indicator lights are missing from this control panel. Loose wires dangle from the now-vacant holes. In the middle is a lever -- beneath it, a small metal plaque.",
+      "links": []
+    }
+  ]
+}

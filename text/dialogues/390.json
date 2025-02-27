@@ -1,0 +1,895 @@
+{
+  "id": "0x010000580000F6BE",
+  "title": "INVENTORY / RUBY'S JOURNAL",
+  "description": "Here you can learn about Ruby's involvement with La Puta Madre.",
+  "dialogueTree": [
+    {
+      "id": 174,
+      "title": "Ruby's Journal: \"The thick journal bound in brown le...\"",
+      "articyId": "0x0100005800010453",
+      "text": "The thick journal bound in brown leather is full of candour and diagrams.",
+      "links": [
+        {
+          "id": 133,
+          "title": "You: \"Study the handwriting.\"",
+          "articyId": "0x010000580001049B",
+          "text": "Study the handwriting.",
+          "links": [
+            {
+              "id": 6,
+              "title": "Ruby's Journal: \"The large cursive of someone who wr...\"",
+              "articyId": "0x0100005800010510",
+              "text": "The large cursive of someone who writes quickly and confidently.",
+              "links": [
+                {
+                  "id": 181,
+                  "title": "Interfacing: \"Perhaps too confidently -- many phr...\"",
+                  "articyId": "0x010000160000A87C",
+                  "text": "Perhaps too confidently -- many phrases and even paragraphs have been crossed out, with tiny corrections scrawled above and in the margins.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 166,
+          "title": "You: \"Flip through the pages again.\"",
+          "articyId": "0x010000160000A9E3",
+          "text": "Flip through the pages again.",
+          "links": [
+            {
+              "id": 97,
+              "title": "You: \"What kinds of logistics?\"",
+              "articyId": "0x01000058000104FC",
+              "text": "What kinds of logistics?",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "Ruby's Journal: \"Hard to tell exactly -- it's mostly...\"",
+                  "articyId": "0x0100005800010531",
+                  "text": "Hard to tell exactly -- it's mostly noted down in code. Looks like contact information, quantities, directions.",
+                  "links": [
+                    {
+                      "id": 87,
+                      "title": "Kim Kitsuragi: \"\"There could be useful information...\"",
+                      "articyId": "0x0100005800010545",
+                      "text": "\"There could be useful information about local operations in those notes. We have a junior sergeant at my station who's good with codes -- I can give this to her after we finish this.\"",
+                      "links": [
+                        {
+                          "id": 129,
+                          "title": "Volition: \"Professionalism is his coping mecha...\"",
+                          "articyId": "0x010000160000A8C4",
+                          "text": "Professionalism is his coping mechanism.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 160,
+              "title": "You: \"What are the diagrams of?\"",
+              "articyId": "0x01000058000105AB",
+              "text": "What are the diagrams of?",
+              "links": [
+                {
+                  "id": 136,
+                  "title": "Ruby's Journal: \"Esoteric radio technology. The most...\"",
+                  "articyId": "0x01000058000105B2",
+                  "text": "Esoteric radio technology. The most recent ones probably pertain to the Latitude Compressor: sketches, calculations of distance and density. You make out a familiar spiral shape.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 86,
+              "title": "You: \"Anything personal?\"",
+              "articyId": "0x0100005800010502",
+              "text": "Anything personal?",
+              "links": [
+                {
+                  "id": 66,
+                  "title": "Ruby's Journal: \"Short, wry observations of people a...\"",
+                  "articyId": "0x0100005800010537",
+                  "text": "Short, wry observations of people and places -- probably a way to pass the time on the road. Also, what appear to be attempts to sort through some difficult decisions. There are a few passages with many questions in them.",
+                  "links": [
+                    {
+                      "id": 185,
+                      "title": "Interfacing: \"The way some of those question mark...\"",
+                      "articyId": "0x0100005800010563",
+                      "text": "The way some of those question marks trail off into ellipses -- she was going through a tough time.",
+                      "links": [
+                        {
+                          "id": 91,
+                          "title": "Authority: \"Staff issues, always tough on the l...\"",
+                          "articyId": "0x010000160000A8CB",
+                          "text": "Staff issues, always tough on the leadership. You smell traces of betrayal.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 85,
+              "title": "You: \"How far back do the entries go?\"",
+              "articyId": "0x01000058000104F6",
+              "text": "How far back do the entries go?",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "Ruby's Journal: \"The first entry is from August 2nd...\"",
+                  "articyId": "0x0100005800010528",
+                  "text": "The first entry is from August 2nd of last year. It reads simply: \"I know my position is precarious. All I can do is make myself as useful as I can while looking for a way out. (Remember: no one is indispensable.)\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "title": "You: \"What did she write the day Lely die...\"",
+              "articyId": "0x0100005800010587",
+              "text": "What did she write the day Lely died?",
+              "links": [
+                {
+                  "id": 167,
+                  "title": "Ruby's Journal: \"Nothing on March 4th... March 5th,...\"",
+                  "articyId": "0x010000580001058E",
+                  "text": "Nothing on March 4th... March 5th, though: \"Well, *that's* bound to come back and bite me in the ass. I'm bad at this -- loyal to a fault. Except... But that's another matter entirely.\"",
+                  "links": [
+                    {
+                      "id": 43,
+                      "title": "Logic: \"She is referring to betraying her p...\"",
+                      "articyId": "0x010000160000A8D3",
+                      "text": "She is referring to betraying her previous employer. Does this suggest she did it in self-defence?",
+                      "links": [
+                        {
+                          "id": 79,
+                          "title": "Logic: \"You have no idea what she means. Th...\"",
+                          "articyId": "0x010000060001E7F9",
+                          "text": "You have no idea what she means. These are personal notes, don't expect to understand all of it.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 135,
+              "title": "You: \"Anything about... La Puta Madre?\"",
+              "articyId": "0x0100005800010597",
+              "text": "Anything about... La Puta Madre?",
+              "links": [
+                {
+                  "id": 187,
+                  "title": "Ruby's Journal: \"That name isn't mentioned as far as...\"",
+                  "articyId": "0x010000580001059E",
+                  "text": "That name isn't mentioned as far as you can tell.",
+                  "links": [
+                    {
+                      "id": 101,
+                      "title": "Logic: \"Small wonder -- would you talk abou...\"",
+                      "articyId": "0x010000160000A8E9",
+                      "text": "Small wonder -- would you talk about La Puta Madre in your journal? You do see an 'M' though -- La Puta Madre? 'M' is mentioned on March 9th and March 15th.",
+                      "links": [
+                        {
+                          "id": 117,
+                          "title": "You: \"Read the entry from March 9th first...\"",
+                          "articyId": "0x01000058000105C7",
+                          "text": "Read the entry from March 9th first.",
+                          "links": [
+                            {
+                              "id": 57,
+                              "title": "Ruby's Journal: \"\"Great. M's peone is coming to town...\"",
+                              "articyId": "0x01000058000105E4",
+                              "text": "\"Great. M's peone is coming to town, no doubt to investigate the lynching, but also -- I feel it in my gut -- to finally put a bullet in my head. While I'm napping in my lorry or on a smoke break... Well, I won't stick around just to twist my own neck by constantly looking over my shoulder.\"",
+                              "links": [
+                                {
+                                  "id": 188,
+                                  "title": "Ruby's Journal: \"\"Then again, isn't that what I've b...\"",
+                                  "articyId": "0x01000058000108FB",
+                                  "text": "\"Then again, isn't that what I've been doing ever since I got the call.\"",
+                                  "links": [
+                                    {
+                                      "id": 96,
+                                      "title": "Reaction Speed: \"\"The call\"? Did M call her personal...\"",
+                                      "articyId": "0x010000160000A90D",
+                                      "text": "\"The call\"? Did M call her personally? Why?",
+                                      "links": [
+                                        {
+                                          "id": 99,
+                                          "title": "Inland Empire: \"Things played out just as she had f...\"",
+                                          "articyId": "0x0100005800010909",
+                                          "text": "Things played out just as she had feared. Except *you* didn't shoot her.",
+                                          "links": [
+                                            {
+                                              "id": 100,
+                                              "title": "Half Light: \"It's in you to do something like th...\"",
+                                              "articyId": "0x010000580001092F",
+                                              "text": "It's in you to do something like this -- kill her. Physically at least. You could pull the trigger if you had to.",
+                                              "links": [
+                                                {
+                                                  "id": 49,
+                                                  "title": "You: \"No, I couldn't.\"",
+                                                  "articyId": "0x0100005800010959",
+                                                  "text": "No, I couldn't.",
+                                                  "links": [
+                                                    {
+                                                      "id": 168,
+                                                      "title": "Half Light: \"Yes, you could. You'd pull it one,...\"",
+                                                      "articyId": "0x0100005800010982",
+                                                      "text": "Yes, you could. You'd pull it one, two, three times -- and watch her fall.",
+                                                      "links": [
+                                                        {
+                                                          "id": 2,
+                                                          "title": "Empathy: \"No, stop... He wouldn't do that.\"",
+                                                          "articyId": "0x010000060001E801",
+                                                          "text": "No, stop... He wouldn't do that.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 47,
+                                                  "title": "You: \"This is not me. I wouldn't do somet...\"",
+                                                  "articyId": "0x010000160000A91B",
+                                                  "text": "This is not me. I wouldn't do something like that.",
+                                                  "links": [
+                                                    {
+                                                      "id": 152,
+                                                      "title": "Inland Empire: \"Maybe it's the old you? Or maybe sh...\"",
+                                                      "articyId": "0x010000160000A921",
+                                                      "text": "Maybe it's the old you? Or maybe she was just paranoid...",
+                                                      "links": [
+                                                        {
+                                                          "id": 89,
+                                                          "title": "Empathy: \"No, not even the old you. No you wo...\"",
+                                                          "articyId": "0x010000060001E809",
+                                                          "text": "No, not even the old you. No you would do that.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 106,
+                                                  "title": "You: \"What a coincidence...\"",
+                                                  "articyId": "0x010000580001096F",
+                                                  "text": "What a coincidence...",
+                                                  "links": [
+                                                    {
+                                                      "id": 46,
+                                                      "title": "Inland Empire: \"Is it? Can you be sure? What if you...\"",
+                                                      "articyId": "0x01000058000109A1",
+                                                      "text": "Is it? Can you be sure? What if you are secretly being manipulated by La Puta Madre as you pursue this investigation. What if he wiped your memory on purpose?",
+                                                      "links": [
+                                                        {
+                                                          "id": 56,
+                                                          "title": "Logic: \"On purpose? That's pretty far-fetch...\"",
+                                                          "articyId": "0x010000160000A92A",
+                                                          "text": "On purpose? That's pretty far-fetched.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 122,
+                                                  "title": "You: \"I'm okay with the idea.\"",
+                                                  "articyId": "0x010000580001098B",
+                                                  "text": "I'm okay with the idea.",
+                                                  "links": [
+                                                    {
+                                                      "id": 137,
+                                                      "title": "Inland Empire: \"That's a good, pragmatic approach.\"",
+                                                      "articyId": "0x01000058000109A7",
+                                                      "text": "That's a good, pragmatic approach.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 8,
+                                              "title": "You: \"Read the entry from March 12th.\"",
+                                              "articyId": "0x01000058000105CD",
+                                              "text": "Read the entry from March 12th.",
+                                              "links": [
+                                                {
+                                                  "id": 22,
+                                                  "title": "Ruby's Journal: \"\"Been holed up here for three days...\"",
+                                                  "articyId": "0x01000058000105F7",
+                                                  "text": "\"Been holed up here for three days now. I'm used to being alone and all, but -- I don't know when I'll be able to leave, or if I'll be ratted out. They *will* rat me out, of course. I've made it a point to believe in the best in people (the boys, for example), but -- experience tells me...\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 50,
+                                                      "title": "Ruby's Journal: \"\"Did M feel truly betrayed by me? I...\"",
+                                                      "articyId": "0x0100005800010A0D",
+                                                      "text": "\"Did M feel truly betrayed by me? I was feeling threatened -- he'd have to know if he threatened people, they'd take measures to protect themselves. Even I know that. Economic measures first of all. Gotta make a living, right. I can still hear his voice in the receiver, taste the plastic...\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 78,
+                                                          "title": "Ruby's Journal: \"The entry ends abruptly.\"",
+                                                          "articyId": "0x0100005800010A16",
+                                                          "text": "The entry ends abruptly.",
+                                                          "links": [
+                                                            {
+                                                              "id": 93,
+                                                              "title": "Authority: \"The call was a courtesy. He must ha...\"",
+                                                              "articyId": "0x010000160000A965",
+                                                              "text": "The call was a courtesy. He must have held her in high regard to personally tell her he knew about her plan to run drugs for the competition.",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 104,
+                                                              "title": "Empathy: \"That must have been one hell of a c...\"",
+                                                              "articyId": "0x010000160000A95E",
+                                                              "text": "That must have been one hell of a conversation.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 175,
+                                          "title": "Inland Empire: \"Were you *supposed* to find her, ev...\"",
+                                          "articyId": "0x0100005800010915",
+                                          "text": "Were you *supposed* to find her, even apart from the investigation, then? On M's request? No, you wouldn't do something like this. This must be a mistake.",
+                                          "links": [
+                                            {
+                                              "id": 45,
+                                              "title": "Half Light: \"You didn't follow through. You shou...\"",
+                                              "articyId": "0x010000580001093B",
+                                              "text": "You didn't follow through. You should have shot her in the head.",
+                                              "links": [
+                                                {
+                                                  "id": 121,
+                                                  "title": "You: \"Goddamn right, I should have.\"",
+                                                  "articyId": "0x0100005800010947",
+                                                  "text": "Goddamn right, I should have.",
+                                                  "links": [
+                                                    {
+                                                      "id": 59,
+                                                      "title": "Half Light: \"Too late to do that now, *assassino...\"",
+                                                      "articyId": "0x0100006B00005F74",
+                                                      "text": "Too late to do that now, *assassino grande*! Better start looking over your shoulder now.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 92,
+                                                  "title": "You: \"Am I sure this is a mistake? Look a...\"",
+                                                  "articyId": "0x010000160000A932",
+                                                  "text": "Am I sure this is a mistake? Look at me.",
+                                                  "links": [
+                                                    {
+                                                      "id": 112,
+                                                      "title": "Inland Empire: \"Whatever you may *look* like, you d...\"",
+                                                      "articyId": "0x010000160000A940",
+                                                      "text": "Whatever you may *look* like, you don't *feel* like a hired assassin.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 164,
+                                                  "title": "You: \"This is a coincidence. I would neve...\"",
+                                                  "articyId": "0x010000160000A939",
+                                                  "text": "This is a coincidence. I would never kill people for a mob boss.",
+                                                  "links": [
+                                                    {
+                                                      "id": 131,
+                                                      "title": "Inland Empire: \"The thought steadies your nerves. T...\"",
+                                                      "articyId": "0x010000160000A947",
+                                                      "text": "The thought steadies your nerves. The journal stops shaking in your hand.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 102,
+                          "title": "You: \"Not now.\"",
+                          "articyId": "0x010000160000A907",
+                          "text": "Not now.",
+                          "links": []
+                        },
+                        {
+                          "id": 17,
+                          "title": "You: \"\"No mention of La Puta Madre...\"\"",
+                          "articyId": "0x010000160000A977",
+                          "text": "\"No mention of La Puta Madre...\"",
+                          "links": [
+                            {
+                              "id": 130,
+                              "title": "Kim Kitsuragi: \"\"What about this 'M'?\" He points at...\"",
+                              "articyId": "0x010000160000A8F5",
+                              "text": "\"What about this 'M'?\" He points at the page you're staring at. \"Could this be La Puta Madre? Here: March 9th and March 15th.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 98,
+              "title": "You: \"What's the most recent entry? (Conc...\"",
+              "articyId": "0x01000058000105A5",
+              "text": "What's the most recent entry? (Conclude with journal.)",
+              "links": [
+                {
+                  "id": 30,
+                  "title": "Ruby's Journal: \"The most recent entry is from today...\"",
+                  "articyId": "0x01000058000105BB",
+                  "text": "The most recent entry is from today. It reads:",
+                  "links": [
+                    {
+                      "id": 23,
+                      "title": "Ruby's Journal: \"\"Even when I leave here (if I leave...\"",
+                      "articyId": "0x0100006B00005F68",
+                      "text": "\"Even when I leave here (if I leave here alive) -- what's my next move?... Staging a lynching is a crime, even if I'm not accused of murder on top of that. Forever on the run? Not really my idea of the open road. \n\nMan, I was really looking forward to winning.\"",
+                      "links": [
+                        {
+                          "id": 139,
+                          "title": "Kim Kitsuragi: \"\"I don't think she killed the merce...\"",
+                          "articyId": "0x010000160000A845",
+                          "text": "\"I don't think she killed the mercenary.\" The lieutenant taps on the page. \"It looks like she might have been... framed?\"",
+                          "links": [
+                            {
+                              "id": 143,
+                              "title": "Esprit de Corps: \"This whole thing was a detour -- an...\"",
+                              "articyId": "0x010000160000A97F",
+                              "text": "This whole thing was a detour -- and a fatal one, he thinks.",
+                              "links": [
+                                {
+                                  "id": 84,
+                                  "title": "Volition: \"Don't get emotional.\"",
+                                  "articyId": "0x010000160000A99F",
+                                  "text": "Don't get emotional.",
+                                  "links": [
+                                    {
+                                      "id": 62,
+                                      "title": "You: \"\"So she died for nothing?\"\"",
+                                      "articyId": "0x010000160000A7A5",
+                                      "text": "\"So she died for nothing?\"",
+                                      "links": [
+                                        {
+                                          "id": 125,
+                                          "title": "Kim Kitsuragi: \"\"She was in plenty of trouble even...\"",
+                                          "articyId": "0x010000160000A799",
+                                          "text": "\"She was in plenty of trouble even without the murder charge.\" He looks down. \"Still, it's a nasty business.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 110,
+                                      "title": "You: \"\"She killed the merc, then turned t...\"",
+                                      "articyId": "0x010000160000A7D4",
+                                      "text": "\"She killed the merc, then turned the gun on herself -- case closed. It's so tidy!\"",
+                                      "links": [
+                                        {
+                                          "id": 25,
+                                          "title": "Kim Kitsuragi: \"\"No, it's dirty.\"\"",
+                                          "articyId": "0x010000160000A7CE",
+                                          "text": "\"No, it's dirty.\"",
+                                          "links": [
+                                            {
+                                              "id": 90,
+                                              "title": "Composure: \"Kim's posture is unusually rigid --...\"",
+                                              "articyId": "0x010000160000A7E0",
+                                              "text": "Kim's posture is unusually rigid -- he's used to this sort of thing, but he's not particularly happy about being used to it.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 145,
+                                      "title": "You: \"\"Okay. What do you mean, framed?\"\"",
+                                      "articyId": "0x010000160000A998",
+                                      "text": "\"Okay. What do you mean, framed?\"",
+                                      "links": [
+                                        {
+                                          "id": 165,
+                                          "title": "Kim Kitsuragi: \"\"By the Hardie boys, by Klaasje, by...\"",
+                                          "articyId": "0x010000160000A9AB",
+                                          "text": "\"By the Hardie boys, by Klaasje, by us.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 109,
+                          "title": "Kim Kitsuragi: \"\"It looks like she might have been....\"",
+                          "articyId": "0x010000160000A77C",
+                          "text": "\"It looks like she might have been... framed?\" The lieutenant taps on the page.",
+                          "links": [
+                            {
+                              "id": 144,
+                              "title": "Esprit de Corps: \"That would be a first -- or a fourt...\"",
+                              "articyId": "0x010000160000A986",
+                              "text": "That would be a first -- or a fourth -- but who's counting, he thinks. Very rarely does anyone actually get framed.",
+                              "links": [
+                                {
+                                  "id": 150,
+                                  "title": "You: \"\"If she didn't do it, then maybe it...\"",
+                                  "articyId": "0x010000160000A834",
+                                  "text": "\"If she didn't do it, then maybe it's good that we didn't catch her?\"",
+                                  "links": [
+                                    {
+                                      "id": 26,
+                                      "title": "Kim Kitsuragi: \"\"I wouldn't go so far as to say tha...\"",
+                                      "articyId": "0x010000160000A7FF",
+                                      "text": "\"I wouldn't go so far as to say that -- we have other reasons to arrest her.\" He frowns.",
+                                      "links": [
+                                        {
+                                          "id": 138,
+                                          "title": "Kim Kitsuragi: \"\"Besides, I'm not sure her life as...\"",
+                                          "articyId": "0x010000160000A81E",
+                                          "text": "\"Besides, I'm not sure her life as a fugitive is going to be much better than with us.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 124,
+                                  "title": "You: \"\"Kim, am I really a La Puta Madre a...\"",
+                                  "articyId": "0x010000160000A76C",
+                                  "text": "\"Kim, am I really a La Puta Madre agent?\"",
+                                  "links": [
+                                    {
+                                      "id": 60,
+                                      "title": "Kim Kitsuragi: \"\"No, I don't think you are.\" He loo...\"",
+                                      "articyId": "0x010000160000A784",
+                                      "text": "\"No, I don't think you are.\" He looks you straight in the eye for a moment, then sighs. \"Ask someone in your precinct if you want to be sure.\"",
+                                      "links": [
+                                        {
+                                          "id": 68,
+                                          "title": "Drama: \"He truly does not believe you are....\"",
+                                          "articyId": "0x010000060001E811",
+                                          "text": "He truly does not believe you are. Perhaps he shouldn't be so trusting...",
+                                          "links": [
+                                            {
+                                              "id": 69,
+                                              "title": "Volition: \"His trust is well placed. You aren'...\"",
+                                              "articyId": "0x010000060001E819",
+                                              "text": "His trust is well placed. You aren't. You can *feel* it.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 61,
+                                          "title": "You: \"\"Who *is* La Puta Madre?\"\"",
+                                          "articyId": "0x010000160000A79F",
+                                          "text": "\"Who *is* La Puta Madre?\"",
+                                          "links": [
+                                            {
+                                              "id": 107,
+                                              "title": "Kim Kitsuragi: \"\"The head of a major Jamrock gang s...\"",
+                                              "articyId": "0x010000160000A760",
+                                              "text": "\"The head of a major Jamrock gang specializing in drug production and trafficking -- a very bad person.\"",
+                                              "links": [
+                                                {
+                                                  "id": 169,
+                                                  "title": "Drama: \"He's not 100% sure you're not indeb...\"",
+                                                  "articyId": "0x010000160000A7DA",
+                                                  "text": "He's not 100% sure you're not indebted to this very, very bad person.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 63,
+                                  "title": "You: \"\"Then who do you think killed Lely?...\"",
+                                  "articyId": "0x010000160000A7ED",
+                                  "text": "\"Then who do you think killed Lely?\" (Conclude.)",
+                                  "links": [
+                                    {
+                                      "id": 80,
+                                      "title": "Kim Kitsuragi: \"\"Klaasje was the one who pointed th...\"",
+                                      "articyId": "0x010000160000A7F9",
+                                      "text": "\"Klaasje was the one who pointed the finger at Ruby. Perhaps she was trying to steer us away from herself? Or...\" He stops to think.",
+                                      "links": [
+                                        {
+                                          "id": 54,
+                                          "title": "You: \"\"Seems plausible.\"\"",
+                                          "articyId": "0x010000160000A810",
+                                          "text": "\"Seems plausible.\"",
+                                          "links": [
+                                            {
+                                              "id": 55,
+                                              "title": "Kim Kitsuragi: \"\"Either way, we need to keep an eye...\"",
+                                              "articyId": "0x010000160000A826",
+                                              "text": "\"Either way, we need to keep an eye on her.\"",
+                                              "links": [
+                                                {
+                                                  "id": 163,
+                                                  "title": "Kim Kitsuragi: \"\"One thing is for certain: We have...\"",
+                                                  "articyId": "0x010000160000A80A",
+                                                  "text": "\"One thing is for certain: We have business back in the Whirling-in-Rags. Questions to ask. We should get to it.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 123,
+                                                      "title": "Half Light: \"Something tells you you should be e...\"",
+                                                      "articyId": "0x010000060001E821",
+                                                      "text": "Something tells you you should be extra careful from now on.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 41,
+                                          "title": "You: \"\"I don't know...\"\"",
+                                          "articyId": "0x010000160000A818",
+                                          "text": "\"I don't know...\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 64,
+                                          "title": "You: \"\"But no one heard the shot...\"\"",
+                                          "articyId": "0x010000160000A7F3",
+                                          "text": "\"But no one heard the shot...\"",
+                                          "links": [
+                                            {
+                                              "id": 162,
+                                              "title": "Kim Kitsuragi: \"\"Maybe she had an accomplice. Eithe...\"",
+                                              "articyId": "0x010000160000A7C4",
+                                              "text": "\"Maybe she had an accomplice. Either way, we need to keep an eye on her.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 108,
+                                      "title": "Kim Kitsuragi: \"\"Could have been Titus. Then again....\"",
+                                      "articyId": "0x010000160000A766",
+                                      "text": "\"Could have been Titus. Then again...\" He pauses to think.",
+                                      "links": [
+                                        {
+                                          "id": 73,
+                                          "title": "You: \"\"But no one heard the shot...\"\"",
+                                          "articyId": "0x010000160000A82E",
+                                          "text": "\"But no one heard the shot...\"",
+                                          "links": [
+                                            {
+                                              "id": 13,
+                                              "title": "Kim Kitsuragi: \"\"Maybe there's a Hardie boy we've y...\"",
+                                              "articyId": "0x010000160000A83A",
+                                              "text": "\"Maybe there's a Hardie boy we've yet to meet who acted as his accomplice? Either way, we need to keep an eye on him.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 179,
+                                          "title": "You: \"\"Seems plausible.\"\"",
+                                          "articyId": "0x010000160000A7B6",
+                                          "text": "\"Seems plausible.\"",
+                                          "links": [
+                                            {
+                                              "id": 3,
+                                              "title": "Kim Kitsuragi: \"\"Either way, we need to keep an eye...\"",
+                                              "articyId": "0x010000160000A7B0",
+                                              "text": "\"Either way, we need to keep an eye on him. Somewhere along the way, we might have been fed a lie or two...\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 180,
+                                          "title": "You: \"\"I don't know...\"\"",
+                                          "articyId": "0x010000160000A7BC",
+                                          "text": "\"I don't know...\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 34,
+                                          "title": "You: \"\"T-man wouldn't fuck me over!\"\"",
+                                          "articyId": "0x010000160000A9C7",
+                                          "text": "\"T-man wouldn't fuck me over!\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 113,
+                          "title": "Esprit de Corps: \"You should show all this to the lie...\"",
+                          "articyId": "0x010000160000A9DA",
+                          "text": "You should show all this to the lieutenant, see what he makes of it.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 88,
+                      "title": "Ruby's Journal: \"\"Even when I leave here (if I leave...\"",
+                      "articyId": "0x010000060001574C",
+                      "text": "\"Even when I leave here (if I leave here alive) -- what's my next move?... Staging a lynching is a crime, even if I'm not accused of murder on top of that. Forever on the run? Not really my idea of the open road. \n\nMan, I was really looking forward to winning.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 186,
+              "title": "You: \"(Look at the cover again.)\"",
+              "articyId": "0x0100005800010580",
+              "text": "(Look at the cover again.)",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 95,
+          "title": "You: \"Flip through the pages.\"",
+          "articyId": "0x010000580001046E",
+          "text": "Flip through the pages.",
+          "links": [
+            {
+              "id": 19,
+              "title": "Ruby's Journal: \"It's a mix of logistical notes, dia...\"",
+              "articyId": "0x01000058000104F0",
+              "text": "It's a mix of logistical notes, diagrams, and personal reflections, all dated.",
+              "links": [
+                {
+                  "id": 42,
+                  "title": "Kim Kitsuragi: \"\"We could learn a lot from this.\"\"",
+                  "articyId": "0x010000160000A890",
+                  "text": "\"We could learn a lot from this.\"",
+                  "links": []
+                },
+                {
+                  "id": 111,
+                  "title": "Kim Kitsuragi: \"\"It's good she left in a hurry. We...\"",
+                  "articyId": "0x010000160000A896",
+                  "text": "\"It's good she left in a hurry. We could learn a lot from this...\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"Put the journal away. [Leave.]\"",
+          "articyId": "0x010000580001043B",
+          "text": "Put the journal away. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Ruby's Journal: \"A thick journal. The cover is worn,...\"",
+      "articyId": "0x010000580000F6C5",
+      "text": "A thick journal. The cover is worn, like someone used to carry it around in their back pocket.",
+      "links": [
+        {
+          "id": 134,
+          "title": "You: \"Examine the cover.\"",
+          "articyId": "0x01000058000104AD",
+          "text": "Examine the cover.",
+          "links": [
+            {
+              "id": 36,
+              "title": "Ruby's Journal: \"It's made of full-grain leather. Th...\"",
+              "articyId": "0x01000058000104B4",
+              "text": "It's made of full-grain leather. The lower left corner of the back cover sports an embossed brand name: \"SCHNELLER.\"",
+              "links": [
+                {
+                  "id": 5,
+                  "title": "Encyclopedia: \"Schneller is a stationary brand fro...\"",
+                  "articyId": "0x01000058000104BB",
+                  "text": "Schneller is a stationary brand from Gottwald beloved among architects and engineers.",
+                  "links": [
+                    {
+                      "id": 182,
+                      "title": "Conceptualization: \"She had good taste and must have ta...\"",
+                      "articyId": "0x01000058000104D5",
+                      "text": "She had good taste and must have taken what she recorded here seriously.",
+                      "links": []
+                    },
+                    {
+                      "id": 18,
+                      "title": "Conceptualization: \"She's got good taste and must have...\"",
+                      "articyId": "0x01000058000104C8",
+                      "text": "She's got good taste and must have taken whatever she recorded here seriously.",
+                      "links": []
+                    },
+                    {
+                      "id": 40,
+                      "title": "Empathy: \"This was important to her -- when i...\"",
+                      "articyId": "0x010000060001E7F1",
+                      "text": "This was important to her -- when it was still hers.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 132,
+          "title": "You: \"Unwind the strap. (Move on.)\"",
+          "articyId": "0x0100005800010435",
+          "text": "Unwind the strap. (Move on.)",
+          "links": [
+            {
+              "id": 65,
+              "title": "Ruby's Journal: \"The journal falls open. About two t...\"",
+              "articyId": "0x0100005800010491",
+              "text": "The journal falls open. About two thirds of its ruled pages have been filled.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "id": "0x0100002F00011814",
+  "title": "BOOKSTORE / HJELMSERIES",
+  "description": "A shelf full of Hjelmdall books. There are so many.",
+  "dialogueTree": [
+    {
+      "id": 32,
+      "title": "Man from Hjelmdall Series: \"The display rack is brimming with w...\"",
+      "articyId": "0x0100002F000118CC",
+      "text": "The display rack is brimming with worn paperbacks featuring an extremely muscular, sword-wielding barbarian on the cover. Nearly all the titles contain the word *Hjelmdall* somewhere.",
+      "links": [
+        {
+          "id": 41,
+          "title": "Physical Instrument: \"This is entirely, *completely* you....\"",
+          "articyId": "0x01000006000197BE",
+          "text": "This is entirely, *completely* you. You have found the *right* books.",
+          "links": [
+            {
+              "id": 10,
+              "title": "You: \"\"Storekeep, tell me about the muscl...\"",
+              "articyId": "0x0100002F000118EA",
+              "text": "\"Storekeep, tell me about the muscleman books.\"",
+              "links": [
+                {
+                  "id": 58,
+                  "title": "Plaisance: \"\"Oh, *Man from Hjelmdall*. A very p...\"",
+                  "articyId": "0x0100002F0001193B",
+                  "text": "\"Oh, *Man from Hjelmdall*. A very popular series of adventure novels.\" She looks at the book with some disdain. \"They're awfully immoral and violent books.\"",
+                  "links": [
+                    {
+                      "id": 12,
+                      "title": "You: \"\"Who's this Man from Hjelmdall?\"\"",
+                      "articyId": "0x0100002F0001194D",
+                      "text": "\"Who's this Man from Hjelmdall?\"",
+                      "links": [
+                        {
+                          "id": 13,
+                          "title": "Plaisance: \"\"He's a 'hero' from the frozen nort...\"",
+                          "articyId": "0x0100002F00011959",
+                          "text": "\"He's a 'hero' from the frozen northlands. He travels to all sorts of lands and mainly kills people. There are hundreds of books in the series... and they sell incredibly well.\"",
+                          "links": [
+                            {
+                              "id": 17,
+                              "title": "Encyclopedia: \"It's pulp adventure. Takes place in...\"",
+                              "articyId": "0x010000060001BD64",
+                              "text": "It's pulp adventure. Takes place in a faux-mythological non-place called Hjelmdall. There is no such region on the Katla isola.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 69,
+                      "title": "You: \"\"Why are they so popular?\"\"",
+                      "articyId": "0x0100002F00011947",
+                      "text": "\"Why are they so popular?\"",
+                      "links": [
+                        {
+                          "id": 68,
+                          "title": "Plaisance: \"\"Blood and violence, scantily clad...\"",
+                          "articyId": "0x0100002F00011941",
+                          "text": "\"Blood and violence, scantily clad women, epic narratives, all those mystical things he encounters. They're bound to grab those with little imagination and nothing to do.\"",
+                          "links": [
+                            {
+                              "id": 64,
+                              "title": "You: \"\"Sounds good. Which one should I st...\"",
+                              "articyId": "0x0100002F00011C02",
+                              "text": "\"Sounds good. Which one should I start with?\"",
+                              "links": [
+                                {
+                                  "id": 11,
+                                  "title": "Plaisance: \"\"What does it matter? They're all t...\"",
+                                  "articyId": "0x0100002F00011C10",
+                                  "text": "\"What does it matter? They're all the same.\" She rolls her eyes, then fiddles with her pendant. \"However, the customer is always right, they say.\"",
+                                  "links": [
+                                    {
+                                      "id": 65,
+                                      "title": "Plaisance: \"\"If you're a novice of the series,...\"",
+                                      "articyId": "0x0100002F00011C17",
+                                      "text": "\"If you're a novice of the series, I'd recommend 'Hjelmdallermann: the Man from Hjelmdall.' It's supposed to be a good introduction to the series.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "title": "You: \"\"That doesn't sound like something...\"",
+                              "articyId": "0x0100002F00011BFD",
+                              "text": "\"That doesn't sound like something I'd be interested in.\"",
+                              "links": [
+                                {
+                                  "id": 26,
+                                  "title": "Plaisance: \"\"At last, someone sensible...\" She...\"",
+                                  "articyId": "0x0100002F00011953",
+                                  "text": "\"At last, someone sensible...\" She fiddles with her pendant. \"However, I still urge you to buy one. Can't judge a book by the cover, they say!\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "You: \"\"Wow, more Hjelmdall...\"\"",
+              "articyId": "0x01000006000197A3",
+              "text": "\"Wow, more Hjelmdall...\"",
+              "links": [
+                {
+                  "id": 31,
+                  "title": "Man from Hjelmdall: \"Mountains of it. Heroic quantities...\"",
+                  "articyId": "0x01000006000197AA",
+                  "text": "Mountains of it. Heroic quantities of Hjelmdall. Roy's puny shirt is nothing compared to the *real deal*.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 56,
+              "title": "You: \"Look through the display of books.\"",
+              "articyId": "0x0100002F00011907",
+              "text": "Look through the display of books.",
+              "links": [
+                {
+                  "id": 50,
+                  "title": "Man from Hjelmdall Series: \"Rows and rows of Hjelmdallermenn bl...\"",
+                  "articyId": "0x0100002F00011B49",
+                  "text": "Rows and rows of Hjelmdallermenn blur your vision. You make out some titles: \"Man from Hjelmdall and the Mammoth-Riders\", \"Man from Hjelmdall: Return to Hjelmdall\", and the solipsistic \"Man From Hjelmdall and the Hjelmdall Man.\"",
+                  "links": [
+                    {
+                      "id": 36,
+                      "title": "You: \"Good god, how many are there?\"",
+                      "articyId": "0x0100002F00011B50",
+                      "text": "Good god, how many are there?",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "Man from Hjelmdall Series: \"Maybe a hundred? \"Man from Hjelmdal...\"",
+                          "articyId": "0x0100002F00011B70",
+                          "text": "Maybe a hundred? \"Man from Hjelmdall and the Sages at the End of the World\", \"Man from Hjelmdall and the False-God\", \"Man from Hjelmdall and the Scorched Earth\", \"Man from Hjelmdall: The Hjelmdall Colonies\", \"Man from Hjelmdall and the Swamp Beast\", \"Man from Hjelmdall and the Snow Crabs.\"",
+                          "links": [
+                            {
+                              "id": 51,
+                              "title": "Half Light: \"Those snow crabs are worse than the...\"",
+                              "articyId": "0x010000060001975E",
+                              "text": "Those snow crabs are worse than they sound.",
+                              "links": [
+                                {
+                                  "id": 15,
+                                  "title": "You: \"Is that all?\"",
+                                  "articyId": "0x0100002F00011B7D",
+                                  "text": "Is that all?",
+                                  "links": [
+                                    {
+                                      "id": 34,
+                                      "title": "Man from Hjelmdall Series: \"Not even close! \"Man from Hjelmdall...\"",
+                                      "articyId": "0x0100002F00011B85",
+                                      "text": "Not even close! \"Man from Hjelmdall in Hell\", \"Man from Hjelmdall and the Forest of Slaves\", \"Man from Hjelmdall Under the Lake\", \"Man from Hjelmdall: Hjelmdall Burning\". There's even \"The Trial of Death\", a Pasternal combat game book set in the world of Hjelmdallermann, and so much more.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 22,
+                      "title": "You: \"Enough.\"",
+                      "articyId": "0x0100002F00011B56",
+                      "text": "Enough.",
+                      "links": [
+                        {
+                          "id": 55,
+                          "title": "Man from Hjelmdall Series: \"The display rack before you is burd...\"",
+                          "articyId": "0x0100002F00011B69",
+                          "text": "The display rack before you is burdened under piles of Man from Hjelmdall novels.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 46,
+              "title": "You: \"Do any of the books call out to me?\"",
+              "articyId": "0x0100002F00011A49",
+              "text": "Do any of the books call out to me?",
+              "links": [
+                {
+                  "id": 59,
+                  "title": "Pain Threshold: \"A twinge at the back of your head m...\"",
+                  "articyId": "0x0100002F00011A56",
+                  "text": "A twinge at the back of your head makes you flinch. Your eye starts twitching.",
+                  "links": [
+                    {
+                      "id": 29,
+                      "title": "You: \"Ow!\"",
+                      "articyId": "0x0100002F00011BD9",
+                      "text": "Ow!",
+                      "links": [
+                        {
+                          "id": 44,
+                          "title": "Man from Hjelmdall Series: \"Your hand reaches toward a book wit...\"",
+                          "articyId": "0x0100002F00011BA8",
+                          "text": "Your hand reaches toward a book with glossy cover art of the very muscular Man from Hjelmdall -- in *chains* -- kneeling in front of a staircase leading to a throne. A woman sits on the throne, leering at the man.",
+                          "links": [
+                            {
+                              "id": 37,
+                              "title": "Inland Empire: \"She's laughing at him. Belittling h...\"",
+                              "articyId": "0x0100002F00011BB4",
+                              "text": "She's laughing at him. Belittling him.",
+                              "links": [
+                                {
+                                  "id": 35,
+                                  "title": "Man from Hjelmdall Series: \"Between the throne and the Hjelmdal...\"",
+                                  "articyId": "0x0100002F00011BBA",
+                                  "text": "Between the throne and the Hjelmdallermann lies a bonfire, casting shadows on the wall. The shadow of the woman's head-dress looks like a pair of devil horns. The title reads: \"Man from Hjelmdall and the Devil Woman\".",
+                                  "links": [
+                                    {
+                                      "id": 16,
+                                      "title": "You: \"Hmm, aren't all women devil women?\"",
+                                      "articyId": "0x0100002F00011BA2",
+                                      "text": "Hmm, aren't all women devil women?",
+                                      "links": [
+                                        {
+                                          "id": 70,
+                                          "title": "Man from Hjelmdall Series: \"Especially those leering types who...\"",
+                                          "articyId": "0x0100002F00011B9C",
+                                          "text": "Especially those leering types who seem to wear nothing but an armoured bikini. There's also some sort of a snake-lizard beast slithering around her abdomen-chest-shoulder region.",
+                                          "links": [
+                                            {
+                                              "id": 52,
+                                              "title": "Conceptualization: \"It's symbolic of vice and sin.\"",
+                                              "articyId": "0x0100002F00011B96",
+                                              "text": "It's symbolic of vice and sin.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 18,
+                                      "title": "You: \"\"Storekeep, this book is misogynist...\"",
+                                      "articyId": "0x0100002F0001198E",
+                                      "text": "\"Storekeep, this book is misogynistic. How can you peddle such filth?\"",
+                                      "links": [
+                                        {
+                                          "id": 42,
+                                          "title": "Kim Kitsuragi: \"\"The entire series is also *endeari...\"",
+                                          "articyId": "0x0100002F0001197F",
+                                          "text": "\"The entire series is also *endearingly* racist, if I may add.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 45,
+                                          "title": "Plaisance: \"\"Oh, sir, I know.\" The storekeep ap...\"",
+                                          "articyId": "0x0100002F00011979",
+                                          "text": "\"Oh, sir, I know.\" The storekeep apologizes immediately. \"This really isn't representative of our values. But the store has to cater to its customers.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 24,
+                                      "title": "You: \"Interesting.\"",
+                                      "articyId": "0x0100002F00011BE7",
+                                      "text": "Interesting.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 23,
+                      "title": "You: \"Ugh, what is it?\"",
+                      "articyId": "0x0100002F00011BC4",
+                      "text": "Ugh, what is it?",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 43,
+                  "title": "Pain Threshold: \"Nothing of interest. Only silence a...\"",
+                  "articyId": "0x0100002F00011A5B",
+                  "text": "Nothing of interest. Only silence and the cosmic background pain-radiation.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 33,
+              "title": "You: \"\"I want to buy the 'Hjelmdallermann...\"",
+              "articyId": "0x0100002F000118FB",
+              "text": "\"I want to buy the 'Hjelmdallermann' book.\"",
+              "links": [
+                {
+                  "id": 60,
+                  "title": "Plaisance: \"\"Oh yes, certainly.\" She rubs her h...\"",
+                  "articyId": "0x0100002F00011B1D",
+                  "text": "\"Oh yes, certainly.\" She rubs her hands together. \"Another good sale.\"",
+                  "links": [
+                    {
+                      "id": 66,
+                      "title": "Tutorial Agent: \"You've acquired an interactable ite...\"",
+                      "articyId": "0x0100005300025B11",
+                      "text": "You've acquired an interactable item. Investigate this item further by going to the INTERACT tab in your INVENTORY.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 57,
+              "title": "You: \"\"I want to buy 'Man from Hjelmdall...\"",
+              "articyId": "0x0100002F0001191C",
+              "text": "\"I want to buy 'Man from Hjelmdall and the Devil Woman'.\"",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Plaisance: \"She nudges her glasses. \"It *is* a...\"",
+                  "articyId": "0x0100002F00011966",
+                  "text": "She nudges her glasses. \"It *is* a best-seller for a reason.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x0100002F000118DE",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "0x0100002F0000FDF7",
+  "title": "APT / MAZOV DOOR",
+  "description": "DOOR, APARTMENT #11 (turns into door. can lockpick and get into?)\n\n1. Use the wirecutters to cut the chain.\nIf you don't have them, the door suggests it. The chain is very flimsy. \nExactly the same structure as other doors. \n\n1. Observe the padlock. - the weakness here is in chain.\n\nOption to get a task if you do not have the chaincutters.",
+  "dialogueTree": [
+    {
+      "id": 32,
+      "title": "Padlocked Door: \"This door has been closed with a pa...\"",
+      "articyId": "0x0100002F0000FE64",
+      "text": "This door has been closed with a padlock. A chalk-drawn number on the board says #11.",
+      "links": [
+        {
+          "id": 57,
+          "title": "You: \"Knock.\"",
+          "articyId": "0x0100002F0000FE6B",
+          "text": "Knock.",
+          "links": [
+            {
+              "id": 36,
+              "title": "Padlocked Door: \"No reply.\"",
+              "articyId": "0x0100002F0000FE7A",
+              "text": "No reply.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "title": "You: \"Examine the padlock.\"",
+          "articyId": "0x010000570001DCE6",
+          "text": "Examine the padlock.",
+          "links": [
+            {
+              "id": 59,
+              "title": "Padlocked Door: \"It's a solid lump of metal, but the...\"",
+              "articyId": "0x010000570001DCED",
+              "text": "It's a solid lump of metal, but the shackle is deeply corroded -- a solid pair of chaincutters would make short work of it.",
+              "links": [
+                {
+                  "id": 16,
+                  "title": "You: \"\"Time for a little snip-snip!\" (Do...\"",
+                  "articyId": "0x010000570001E12B",
+                  "text": "\"Time for a little snip-snip!\" (Do hand-scissors.)",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Kim Kitsuragi: \"\"You seem committed to it, so go on.\"\"",
+                      "articyId": "0x010000570001E133",
+                      "text": "\"You seem committed to it, so go on.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 67,
+                  "title": "You: \"Refrain from commenting.\"",
+                  "articyId": "0x010000570001E13F",
+                  "text": "Refrain from commenting.",
+                  "links": [
+                    {
+                      "id": 72,
+                      "title": "Kim Kitsuragi: \"The lieutenant is concentrated on t...\"",
+                      "articyId": "0x010000570001E14D",
+                      "text": "The lieutenant is concentrated on the hallway, scanning both ways for any approachers.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 74,
+                  "title": "Interfacing: \"Better whip out those cutters... yo...\"",
+                  "articyId": "0x0100008900004552",
+                  "text": "Better whip out those cutters... you won't get very far otherwise.",
+                  "links": []
+                },
+                {
+                  "id": 58,
+                  "title": "Interfacing: \"Yes! Get those cutters in there and...\"",
+                  "articyId": "0x0100008900004572",
+                  "text": "Yes! Get those cutters in there and *snip* away. This weak chain is no match for your might.",
+                  "links": []
+                },
+                {
+                  "id": 17,
+                  "title": "Interfacing: \"A lock blocks your path! You might...\"",
+                  "articyId": "0x0100008900004564",
+                  "text": "A lock blocks your path! You might have use for one of those standard police devices for cutting chains. Something that may be found in an RCM motor carriage...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "title": "You: \"\"We could use some chaincutters her...\"",
+          "articyId": "0x01000008000012A9",
+          "text": "\"We could use some chaincutters here to cut the shackle.\"",
+          "links": [
+            {
+              "id": 3,
+              "title": "Kim Kitsuragi: \"\"Why would we want to break into so...\"",
+              "articyId": "0x01000008000012B0",
+              "text": "\"Why would we want to break into some random citizen's apartment?\"",
+              "links": [
+                {
+                  "id": 45,
+                  "title": "You: \"\"Snip-snip, my friend!\" (Do hand-sc...\"",
+                  "articyId": "0x01000008000012BE",
+                  "text": "\"Snip-snip, my friend!\" (Do hand-scissors.)",
+                  "links": [
+                    {
+                      "id": 28,
+                      "title": "Kim Kitsuragi: \"The lieutenant doesn't say a word,...\"",
+                      "articyId": "0x01000008000012DC",
+                      "text": "The lieutenant doesn't say a word, his face wiped clear of any emotion.",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "Rhetoric: \"There's so much he could say right...\"",
+                          "articyId": "0x01000008000012D3",
+                          "text": "There's so much he could say right now, but he knows it wouldn't make much of a difference.",
+                          "links": [
+                            {
+                              "id": 46,
+                              "title": "Kim Kitsuragi: \"He takes a closer look at the lock....\"",
+                              "articyId": "0x01000008000012E4",
+                              "text": "He takes a closer look at the lock. \"I supposed if one were *committed* to it, there's a pair of chaincutters in the Kineema.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 6,
+                  "title": "You: \"\"Why *wouldn't* we want to?\"\"",
+                  "articyId": "0x01000008000012B8",
+                  "text": "\"Why *wouldn't* we want to?\"",
+                  "links": [
+                    {
+                      "id": 41,
+                      "title": "Kim Kitsuragi: \"The lieutenant looks at you for a l...\"",
+                      "articyId": "0x01000008000012CD",
+                      "text": "The lieutenant looks at you for a long moment, then blinks once...",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 18,
+                  "title": "You: \"\"I don't know, just seems like some...\"",
+                  "articyId": "0x01000008000012C4",
+                  "text": "\"I don't know, just seems like something we could do.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "You: \"Use the chaincutters to cut through...\"",
+          "articyId": "0x010000570001DCC9",
+          "text": "Use the chaincutters to cut through the padlock.",
+          "links": [
+            {
+              "id": 29,
+              "title": "Interfacing: \"The shackle snaps like a twig and t...\"",
+              "articyId": "0x010000570001DCDA",
+              "text": "The shackle snaps like a twig and the lock falls to the floor with a little thud. It should be possible to enter now...",
+              "links": [
+                {
+                  "id": 44,
+                  "title": "Kim Kitsuragi: \"\"After you, detective.\"\"",
+                  "articyId": "0x010000570001E163",
+                  "text": "\"After you, detective.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 56,
+              "title": "Interfacing: \"What are you doing? You need to get...\"",
+              "articyId": "0x01000002000011A0",
+              "text": "What are you doing? You need to get your tools out, man.",
+              "links": []
+            },
+            {
+              "id": 66,
+              "title": "Interfacing: \"What are you doing? You're trying t...\"",
+              "articyId": "0x010000570001DCDF",
+              "text": "What are you doing? You're trying to cut the body of the lock with the chaincutters and it's really not working.",
+              "links": [
+                {
+                  "id": 10,
+                  "title": "Kim Kitsuragi: \"\"I believe it's the *shackle* you m...\"",
+                  "articyId": "0x0100007000005BFF",
+                  "text": "\"I believe it's the *shackle* you mean to cut, detective.\" The lieutenant points to the corroded loop with a gloved finger.",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Empathy: \"He's just trying to help, don't tak...\"",
+                      "articyId": "0x010000060001B954",
+                      "text": "He's just trying to help, don't take it... bad. Relax.",
+                      "links": [
+                        {
+                          "id": 55,
+                          "title": "You: \"\"Don't you think that's what I'm *t...\"",
+                          "articyId": "0x0100007000005C08",
+                          "text": "\"Don't you think that's what I'm *trying* to do?\"",
+                          "links": [
+                            {
+                              "id": 31,
+                              "title": "Kim Kitsuragi: \"\"Perhaps you should give it another...\"",
+                              "articyId": "0x0100007000005C16",
+                              "text": "\"Perhaps you should give it another go?\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 73,
+                          "title": "You: \"\"These chaincutters are broken, Kim.\"\"",
+                          "articyId": "0x0100007000005C0E",
+                          "text": "\"These chaincutters are broken, Kim.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002F0000FE71",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

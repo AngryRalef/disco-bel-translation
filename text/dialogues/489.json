@@ -1,0 +1,461 @@
+{
+  "id": "0x01000071000056B6",
+  "title": "COAST / SMALL BUOY",
+  "description": "Here you can find Klaasje's buoy if you know about it.",
+  "dialogueTree": [
+    {
+      "id": 53,
+      "title": "Small Buoy: \"The dome-shaped plastic buoy still...\"",
+      "articyId": "0x0100008900000C6D",
+      "text": "The dome-shaped plastic buoy still bobs up and down in the water amidst the trembling reeds.",
+      "links": [
+        {
+          "id": 20,
+          "title": "You: \"\"Damn, I felt *really* strange just...\"",
+          "articyId": "0x01000006000173AC",
+          "text": "\"Damn, I felt *really* strange just now.\"",
+          "links": [
+            {
+              "id": 88,
+              "title": "Kim Kitsuragi: \"\"Mhm.\" No further response. All his...\"",
+              "articyId": "0x01000006000173B2",
+              "text": "\"Mhm.\" No further response. All his concentration is on the contraption.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "title": "You: \"\"We're lucky it's still here. A lit...\"",
+          "articyId": "0x0100007100005903",
+          "text": "\"We're lucky it's still here. A little longer and it would have floated away...\"",
+          "links": [
+            {
+              "id": 94,
+              "title": "Kim Kitsuragi: \"The lieutenant flashes a mirthless...\"",
+              "articyId": "0x01000071000059EA",
+              "text": "The lieutenant flashes a mirthless half-smile. \"We still got here too late. There's nothing of use here anymore.\"",
+              "links": []
+            },
+            {
+              "id": 7,
+              "title": "Kim Kitsuragi: \"\"Indeed.\" The lieutenant nods thoug...\"",
+              "articyId": "0x01000071000059DC",
+              "text": "\"Indeed.\" The lieutenant nods thoughtfully. \"Let's see what's inside.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "title": "You: \"Pick up the buoy.\"",
+          "articyId": "0x01000071000058D0",
+          "text": "Pick up the buoy.",
+          "links": [
+            {
+              "id": 51,
+              "title": "Small Buoy: \"You lift the buoy out of the water...\"",
+              "articyId": "0x0100007100005A10",
+              "text": "You lift the buoy out of the water without much effort. It's not tied to anything -- the cords dangling from the bottom appear to have been cut.",
+              "links": [
+                {
+                  "id": 50,
+                  "title": "You: \"Examine the plastic ball.\"",
+                  "articyId": "0x01000071000059FD",
+                  "text": "Examine the plastic ball.",
+                  "links": [
+                    {
+                      "id": 52,
+                      "title": "Small Buoy: \"The number '11' has been written on...\"",
+                      "articyId": "0x0100007100005A23",
+                      "text": "The number '11' has been written on the yellow plastic. It hasn't been in the water for very long, but it's already discoloured and slimy with silt. A latch holds it closed, but only just barely -- the brittle metal of the latch has cracked.",
+                      "links": [
+                        {
+                          "id": 92,
+                          "title": "Kim Kitsuragi: \"\"Simple construction, very unsafe.\"\"",
+                          "articyId": "0x0100007100005A4D",
+                          "text": "\"Simple construction, very unsafe.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 11,
+                          "title": "Savoir Faire: \"Primitive construction, but it does...\"",
+                          "articyId": "0x0100007100005A54",
+                          "text": "Primitive construction, but it does the job.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 91,
+                  "title": "You: \"Shake the buoy.\"",
+                  "articyId": "0x0100007100005A03",
+                  "text": "Shake the buoy.",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "Small Buoy: \"There's something in there... splas...\"",
+                      "articyId": "0x0100007100005A2F",
+                      "text": "There's something in there... splashing around.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 87,
+                  "title": "You: \"Sniff the buoy.\"",
+                  "articyId": "0x0100007100005A09",
+                  "text": "Sniff the buoy.",
+                  "links": [
+                    {
+                      "id": 78,
+                      "title": "Small Buoy: \"It smells like you would expect it...\"",
+                      "articyId": "0x0100007100005A35",
+                      "text": "It smells like you would expect it to smell: a concentrated version of the coast. Salt, industrial slop and decay.",
+                      "links": [
+                        {
+                          "id": 63,
+                          "title": "Electrochemistry: \"...and just a dash of hard liquor....\"",
+                          "articyId": "0x0100007100005A64",
+                          "text": "...and just a dash of hard liquor. Yummm.",
+                          "links": [
+                            {
+                              "id": 8,
+                              "title": "Perception (Smell): \"The water this side of the peninsul...\"",
+                              "articyId": "0x010000060001D714",
+                              "text": "The water this side of the peninsula is cleaner, actually. Smells a little salty.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 47,
+                  "title": "You: \"Open the buoy. (Move on.)\"",
+                  "articyId": "0x01000071000058D6",
+                  "text": "Open the buoy. (Move on.)",
+                  "links": [
+                    {
+                      "id": 69,
+                      "title": "Small Buoy: \"A shot-glass's worth of seawater po...\"",
+                      "articyId": "0x0100007100005A3C",
+                      "text": "A shot-glass's worth of seawater pours out -- some algae. And nothing else.",
+                      "links": [
+                        {
+                          "id": 29,
+                          "title": "Kim Kitsuragi: \"\"Well, damn.\"\"",
+                          "articyId": "0x0100007100005A74",
+                          "text": "\"Well, damn.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 30,
+                          "title": "Inland Empire: \"Another identity misplaced... There...\"",
+                          "articyId": "0x0100007100005A7C",
+                          "text": "Another identity misplaced... There must be some cosmic conspiracy afoot!",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "title": "You: \"Stare into the empty buoy.\"",
+          "articyId": "0x010000710000590D",
+          "text": "Stare into the empty buoy.",
+          "links": [
+            {
+              "id": 60,
+              "title": "Kim Kitsuragi: \"\"I have no idea.\" The lieutenant ta...\"",
+              "articyId": "0x010000710000591F",
+              "text": "\"I have no idea.\" The lieutenant taps his foot, frowning.",
+              "links": [
+                {
+                  "id": 19,
+                  "title": "You: \"\"This is a minor quirk. We know wha...\"",
+                  "articyId": "0x010000710000595E",
+                  "text": "\"This is a minor quirk. We know what was in the buoy anyway.\"",
+                  "links": [
+                    {
+                      "id": 43,
+                      "title": "Kim Kitsuragi: \"He purses his lips. \"Or *think* we...\"",
+                      "articyId": "0x0100007100005964",
+                      "text": "He purses his lips. \"Or *think* we do... This is a small loose end, either way. Not important I hope.\"",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "You: \"\"It must have been Klaasje's enemie...\"",
+                          "articyId": "0x0100007100005A88",
+                          "text": "\"It must have been Klaasje's enemies -- which means she's in danger!\"",
+                          "links": [
+                            {
+                              "id": 93,
+                              "title": "Kim Kitsuragi: \"\"Could be. We should keep an eye ou...\"",
+                              "articyId": "0x0100007100005A8E",
+                              "text": "\"Could be. We should keep an eye out.\" He sighs. \"Nothing more for us to do here. Let's go.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 48,
+                          "title": "You: \"\"Maybe Klaasje took them herself...\"\"",
+                          "articyId": "0x010000710000594C",
+                          "text": "\"Maybe Klaasje took them herself...\"",
+                          "links": [
+                            {
+                              "id": 67,
+                              "title": "Kim Kitsuragi: \"\"That may very well be the case. We...\"",
+                              "articyId": "0x0100007100005976",
+                              "text": "\"That may very well be the case. We should keep an eye on her.\" He sighs. \"Nothing more for us to do here. Let's go.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "title": "You: \"\"I think there's a cosmic conspirac...\"",
+                          "articyId": "0x0100007100005952",
+                          "text": "\"I think there's a cosmic conspiracy -- identities being lost and stolen left and right...\"",
+                          "links": [
+                            {
+                              "id": 25,
+                              "title": "Kim Kitsuragi: \"\"This wasn't a *real* identity, at...\"",
+                              "articyId": "0x0100007100005970",
+                              "text": "\"This wasn't a *real* identity, at least not as far as we know.\" He sighs. \"We should go.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 62,
+                          "title": "You: \"\"Could this be related to the crypt...\"",
+                          "articyId": "0x0100007100005958",
+                          "text": "\"Could this be related to the cryptozoologists and their little expedition?\"",
+                          "links": [
+                            {
+                              "id": 26,
+                              "title": "Kim Kitsuragi: \"\"In my experience, cryptids are gen...\"",
+                              "articyId": "0x0100007100005ADB",
+                              "text": "\"In my experience, cryptids are generally uninterested in travel documentation.\" He sighs. \"We should go.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 95,
+                          "title": "You: \"\"I've no idea. Do you have any theo...\"",
+                          "articyId": "0x0100007100005AC8",
+                          "text": "\"I've no idea. Do you have any theories, lieutenant?\"",
+                          "links": [
+                            {
+                              "id": 86,
+                              "title": "Kim Kitsuragi: \"\"Might have been Klaasje. Might hav...\"",
+                              "articyId": "0x0100007100005ACE",
+                              "text": "\"Might have been Klaasje. Might have been the people after her. Might have been a local drunk.\" He shrugs. \"We should go.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 58,
+                  "title": "You: \"\"This is a disaster. Everything is...\"",
+                  "articyId": "0x0100007100005AAE",
+                  "text": "\"This is a disaster. Everything is ruined.\"",
+                  "links": [
+                    {
+                      "id": 45,
+                      "title": "Kim Kitsuragi: \"\"I wouldn't go so far as to say tha...\"",
+                      "articyId": "0x0100007100005AB4",
+                      "text": "\"I wouldn't go so far as to say that. This is only a small loose end. But I do wish we knew who took the documents.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 73,
+              "title": "Small Buoy: \"The buoy continues to be mostly emp...\"",
+              "articyId": "0x0100007100005919",
+              "text": "The buoy continues to be mostly empty.",
+              "links": [
+                {
+                  "id": 31,
+                  "title": "You: \"It must have been Klaasje's enemies...\"",
+                  "articyId": "0x0100007100005AFC",
+                  "text": "It must have been Klaasje's enemies -- which means she's in danger!",
+                  "links": [
+                    {
+                      "id": 64,
+                      "title": "Small Buoy: \"No answers appear to you in the dir...\"",
+                      "articyId": "0x0100007100005A9A",
+                      "text": "No answers appear to you in the dirty sea water at the bottom of the buoy. Just the heavy smell of brine and silt and disappearance.",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "Logic: \"You could ask the Miss what she thi...\"",
+                          "articyId": "0x01000006000151CE",
+                          "text": "You could ask the Miss what she thinks. Later, if you have the time -- though you doubt she'll tell you much at this point.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 65,
+                  "title": "You: \"Maybe Klaasje took them herself...\"",
+                  "articyId": "0x0100007100005B02",
+                  "text": "Maybe Klaasje took them herself...",
+                  "links": []
+                },
+                {
+                  "id": 3,
+                  "title": "You: \"There's a cosmic conspiracy -- iden...\"",
+                  "articyId": "0x0100007100005AF0",
+                  "text": "There's a cosmic conspiracy -- identities being lost and stolen left and right...",
+                  "links": []
+                },
+                {
+                  "id": 80,
+                  "title": "You: \"I think... it may have been the Ins...\"",
+                  "articyId": "0x0100007100005AF6",
+                  "text": "I think... it may have been the Insulindian phasmid.",
+                  "links": []
+                },
+                {
+                  "id": 46,
+                  "title": "You: \"Don't try to guess who took the doc...\"",
+                  "articyId": "0x0100007100005BA8",
+                  "text": "Don't try to guess who took the documents. You don't have enough information.",
+                  "links": [
+                    {
+                      "id": 27,
+                      "title": "Rhetoric: \"Coward. You should *always* try to...\"",
+                      "articyId": "0x0100007100005BAE",
+                      "text": "Coward. You should *always* try to guess.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "title": "You: \"Let the buoy be. [Leave.]\"",
+          "articyId": "0x0100007100005764",
+          "text": "Let the buoy be. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Small Buoy: \"A metal-and-plastic contraption bob...\"",
+      "articyId": "0x01000071000056FA",
+      "text": "A metal-and-plastic contraption bobs up and down amidst the trembling reeds. At first it just looks like trash, but if you look closer...",
+      "links": [
+        {
+          "id": 12,
+          "title": "Kim Kitsuragi: \"\"That over there,\" he points to the...\"",
+          "articyId": "0x01000071000058A5",
+          "text": "\"That over there,\" he points to the strange-looking object, \"must be the buoy Klaasje told us about -- the one she hid her passport in. We should take a look.\"",
+          "links": [
+            {
+              "id": 81,
+              "title": "Drama: \"Oooh, hidden things -- secrets, lie...\"",
+              "articyId": "0x01000071000058AB",
+              "text": "Oooh, hidden things -- secrets, lies!",
+              "links": [
+                {
+                  "id": 59,
+                  "title": "Shivers: \"Cold. Air. Tendons. Snapped the cor...\"",
+                  "articyId": "0x01000071000058BA",
+                  "text": "Cold. Air. Tendons. Snapped the cords keeping the buoy in place. A little longer and it would be floating somewhere out in the open sea...",
+                  "links": [
+                    {
+                      "id": 68,
+                      "title": "You: \"What?\"",
+                      "articyId": "0x0100007100005996",
+                      "text": "What?",
+                      "links": [
+                        {
+                          "id": 49,
+                          "title": "Shivers: \"Moves across the water, leaving no...\"",
+                          "articyId": "0x01000071000059A5",
+                          "text": "Moves across the water, leaving no traces. You're cold again, as always...",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 28,
+                      "title": "You: \"Yes, but who or what is this?\"",
+                      "articyId": "0x01000071000059B5",
+                      "text": "Yes, but who or what is this?",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "Shivers: \"Splendour.\"",
+                          "articyId": "0x01000071000059C7",
+                          "text": "Splendour.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "title": "You: \"Enough. Shake it off.\"",
+                      "articyId": "0x010000710000599C",
+                      "text": "Enough. Shake it off.",
+                      "links": [
+                        {
+                          "id": 77,
+                          "title": "Shivers: \"It's just rapid movement across the...\"",
+                          "articyId": "0x01000071000059AB",
+                          "text": "It's just rapid movement across the water. It leaves no trace. A whisper...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 13,
+                  "title": "Shivers: \"Yes, spindly extremities have been...\"",
+                  "articyId": "0x01000071000058C0",
+                  "text": "Yes, spindly extremities have been here, snapped the cords keeping the buoy in place. A little longer -- and it will be floating somewhere out in the open sea...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "title": "Logic: \"This must be the buoy Klaasje menti...\"",
+          "articyId": "0x01000071000058E9",
+          "text": "This must be the buoy Klaasje mentioned.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

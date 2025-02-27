@@ -1,0 +1,2298 @@
+{
+  "id": "0x010000310000AB30",
+  "title": "KINEEMA / SYLVIE",
+  "description": "Your wildly successful phone call to Sylvie Malaiika.",
+  "dialogueTree": [
+    {
+      "id": 163,
+      "title": "You: \"\"Hey, Sylvie, it's the police again.\"\"",
+      "articyId": "0x010000310000E4A6",
+      "text": "\"Hey, Sylvie, it's the police again.\"",
+      "links": [
+        {
+          "id": 326,
+          "title": "Sylvie: \"\"Oh, great.\" She doesn't sound thri...\"",
+          "articyId": "0x010000310000E4AD",
+          "text": "\"Oh, great.\" She doesn't sound thrilled. \"What else do you need, detective?\"",
+          "links": [
+            {
+              "id": 122,
+              "title": "You: \"\"You quit your job at the Whirling...\"",
+              "articyId": "0x010000310000ACD1",
+              "text": "\"You quit your job at the Whirling -- why?\"",
+              "links": [
+                {
+                  "id": 111,
+                  "title": "Sylvie: \"\"You mean why did I leave the bar?\"...\"",
+                  "articyId": "0x010000570002194D",
+                  "text": "\"You mean why did I leave the bar?\" You can hear her tense up on the other side. \"Honestly, I'm... not really comfortable discussing it with you, sir.\"",
+                  "links": [
+                    {
+                      "id": 242,
+                      "title": "Logic: \"Why not?\"",
+                      "articyId": "0x0100002100002712",
+                      "text": "Why not?",
+                      "links": [
+                        {
+                          "id": 251,
+                          "title": "You: \"\"Wait, why aren't you comfortable d...\"",
+                          "articyId": "0x0100005700021954",
+                          "text": "\"Wait, why aren't you comfortable discussing it with me?\"",
+                          "links": [
+                            {
+                              "id": 390,
+                              "title": "Sylvie: \"\"I, uh...\" The static wavers. \"Let'...\"",
+                              "articyId": "0x0100005700021969",
+                              "text": "\"I, uh...\" The static wavers. \"Let's just say I left because I needed to get away from someone.\"",
+                              "links": [
+                                {
+                                  "id": 413,
+                                  "title": "You: \"\"Get away from whom?\"\"",
+                                  "articyId": "0x0100005700021970",
+                                  "text": "\"Get away from whom?\"",
+                                  "links": [
+                                    {
+                                      "id": 440,
+                                      "title": "Sylvie: \"\"You know whom.\"\"",
+                                      "articyId": "0x0100005700021976",
+                                      "text": "\"You know whom.\"",
+                                      "links": [
+                                        {
+                                          "id": 228,
+                                          "title": "Suggestion: \"You think you hear a sliver of accu...\"",
+                                          "articyId": "0x0100005700021985",
+                                          "text": "You think you hear a sliver of accusation in her words.",
+                                          "links": [
+                                            {
+                                              "id": 112,
+                                              "title": "Volition: \"Don't be paranoid, she's obviously...\"",
+                                              "articyId": "0x01000057000219B3",
+                                              "text": "Don't be paranoid, she's obviously talking about someone else, not you.",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 43,
+                                              "title": "You: \"\"You mean me? You needed to get awa...\"",
+                                              "articyId": "0x01000005000038F0",
+                                              "text": "\"You mean me? You needed to get away from *me*?\"",
+                                              "links": [
+                                                {
+                                                  "id": 332,
+                                                  "title": "Sylvie: \"\"I *really* don't want to talk abou...\"",
+                                                  "articyId": "0x0100000500003902",
+                                                  "text": "\"I *really* don't want to talk about this. Let's just forget about this, okay?\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 85,
+                          "title": "You: \"\"Okay. Did you leave because of Gar...\"",
+                          "articyId": "0x010000570002195A",
+                          "text": "\"Okay. Did you leave because of Garte?\"",
+                          "links": [
+                            {
+                              "id": 414,
+                              "title": "Sylvie: \"\"What?\" She stops abruptly. \"No, wh...\"",
+                              "articyId": "0x010000570002197E",
+                              "text": "\"What?\" She stops abruptly. \"No, why would you even think that?!\"",
+                              "links": [
+                                {
+                                  "id": 234,
+                                  "title": "You: \"\"He told me he asked you out. Are y...\"",
+                                  "articyId": "0x01000005000038DF",
+                                  "text": "\"He told me he asked you out. Are you saying it didn't happen?\"",
+                                  "links": [
+                                    {
+                                      "id": 253,
+                                      "title": "Sylvie: \"\"*Please* don't bring Garte into th...\"",
+                                      "articyId": "0x010000570002199E",
+                                      "text": "\"*Please* don't bring Garte into this, it's none of your business!\"",
+                                      "links": [
+                                        {
+                                          "id": 27,
+                                          "title": "Perception (Hearing): \"\"God, why can't you just mind your...\"",
+                                          "articyId": "0x0100000600019974",
+                                          "text": "\"God, why can't you just mind your own business...\" she mutters.",
+                                          "links": [
+                                            {
+                                              "id": 272,
+                                              "title": "Sylvie: \"\"I already said I don't want to tal...\"",
+                                              "articyId": "0x01000057000219A4",
+                                              "text": "\"I already said I don't want to talk about this! You're messing everything up again!\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 271,
+                                  "title": "You: \"\"Sylvie, don't be afraid of that pi...\"",
+                                  "articyId": "0x0100005700021992",
+                                  "text": "\"Sylvie, don't be afraid of that pig. You have to stand up for yourself!\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 417,
+                                  "title": "You: \"\"So you do agree that quitting your...\"",
+                                  "articyId": "0x01000005000038E7",
+                                  "text": "\"So you do agree that quitting your job just because someone asked you out is an *overreaction*?\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 252,
+                          "title": "You: \"\"Alright, I won't push you on this....\"",
+                          "articyId": "0x0100005700021962",
+                          "text": "\"Alright, I won't push you on this. Are you ever coming back to work?\" (Conclude.)",
+                          "links": [
+                            {
+                              "id": 86,
+                              "title": "Sylvie: \"\"Maybe, I don't know...\" She seems...\"",
+                              "articyId": "0x01000057000219D5",
+                              "text": "\"Maybe, I don't know...\" She seems to relax a little bit. \"I just know I have to take some time off right now.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 246,
+              "title": "You: \"\"Was it you who called the police?\"\"",
+              "articyId": "0x010000310000AB65",
+              "text": "\"Was it you who called the police?\"",
+              "links": [
+                {
+                  "id": 219,
+                  "title": "Sylvie: \"\"No, not me.\"\"",
+                  "articyId": "0x010000310000AB6C",
+                  "text": "\"No, not me.\"",
+                  "links": [
+                    {
+                      "id": 34,
+                      "title": "You: \"\"But why *didn't* you call? Didn't...\"",
+                      "articyId": "0x010000310000AB73",
+                      "text": "\"But why *didn't* you call? Didn't a corpse behind your workplace bother you?\"",
+                      "links": [
+                        {
+                          "id": 406,
+                          "title": "Sylvie: \"\"What? Of course it bothered me! Bu...\"",
+                          "articyId": "0x010000310000ABAC",
+                          "text": "\"What? Of course it bothered me! But I thought the Union already knew about the corpse.\"",
+                          "links": [
+                            {
+                              "id": 350,
+                              "title": "You: \"\"What does this Union have to do wi...\"",
+                              "articyId": "0x0100005700021AE3",
+                              "text": "\"What does this Union have to do with anything?\"",
+                              "links": [
+                                {
+                                  "id": 407,
+                                  "title": "Sylvie: \"\"No one calls the police.\" You can...\"",
+                                  "articyId": "0x010000310000ABE1",
+                                  "text": "\"No one calls the police.\" You can hear her adjust the receiver in her hand. \"The Union would get angry.\"",
+                                  "links": [
+                                    {
+                                      "id": 360,
+                                      "title": "You: \"\"What do you mean by that?\"\"",
+                                      "articyId": "0x0100004B000005A0",
+                                      "text": "\"What do you mean by that?\"",
+                                      "links": [
+                                        {
+                                          "id": 310,
+                                          "title": "Sylvie: \"\"You know...\" She seems to be looki...\"",
+                                          "articyId": "0x0100004B000005B4",
+                                          "text": "\"You know...\" She seems to be looking for words. \"What the Union says, goes. People listen to them and they take care of their own, which is, like, everyone here.\"",
+                                          "links": [
+                                            {
+                                              "id": 274,
+                                              "title": "Authority: \"Garbage!\"",
+                                              "articyId": "0x01000006000167C6",
+                                              "text": "Garbage!",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 120,
+                              "title": "You: \"\"I meant us. You should have called...\"",
+                              "articyId": "0x010000310000ABDA",
+                              "text": "\"I meant us. You should have called *the police*.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 432,
+                      "title": "You: \"\"Do you know who made that call?\"\"",
+                      "articyId": "0x010000310000AB8C",
+                      "text": "\"Do you know who made that call?\"",
+                      "links": [
+                        {
+                          "id": 283,
+                          "title": "Sylvie: \"\"No...\" You can hear her regaining...\"",
+                          "articyId": "0x010000310000ACAA",
+                          "text": "\"No...\" You can hear her regaining control in the background. \"I honestly don't know.\"",
+                          "links": [
+                            {
+                              "id": 92,
+                              "title": "Kim Kitsuragi: \"\"Seems like Klaasje wasn't lying wh...\"",
+                              "articyId": "0x0100000600016869",
+                              "text": "\"Seems like Klaasje wasn't lying when she said it was her.\" The lieutenant makes a note. \"This corroborates her story -- she made the call.\"",
+                              "links": [
+                                {
+                                  "id": 130,
+                                  "title": "Volition: \"I wouldn't be so sure, detective.\"",
+                                  "articyId": "0x01000006000168A2",
+                                  "text": "I wouldn't be so sure, detective.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 210,
+                                  "title": "Volition: \"Are you *sure* lieutenant? For some...\"",
+                                  "articyId": "0x0100000600016894",
+                                  "text": "Are you *sure* lieutenant? For some reason, you have a little doubt about that...",
+                                  "links": []
+                                },
+                                {
+                                  "id": 258,
+                                  "title": "Drama: \"She iseth the fairest of them all....\"",
+                                  "articyId": "0x0100000600016884",
+                                  "text": "She iseth the fairest of them all. The ugliness of lies wouldst never escape her lips!",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 256,
+                              "title": "Logic: \"Seems like Klaasje wasn't lying whe...\"",
+                              "articyId": "0x0100000600016875",
+                              "text": "Seems like Klaasje wasn't lying when she said she made the call. This corroborates.",
+                              "links": []
+                            },
+                            {
+                              "id": 418,
+                              "title": "Kim Kitsuragi: \"\"It was someone else.\" The lieutena...\"",
+                              "articyId": "0x01000006000167EC",
+                              "text": "\"It was someone else.\" The lieutenant makes a note. \"We'll find them sooner or later, officer. It just might take a while.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 91,
+                              "title": "Sylvie: \"\"You have to ask someone else. Ther...\"",
+                              "articyId": "0x01000006000167F2",
+                              "text": "\"You have to ask someone else. There are thousands of people in Martinaise.\"",
+                              "links": [
+                                {
+                                  "id": 5,
+                                  "title": "Volition: \"Relax. You'll find them sooner or l...\"",
+                                  "articyId": "0x01000006000167FA",
+                                  "text": "Relax. You'll find them sooner or later -- this will just take some time.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 35,
+                          "title": "Sylvie: \"\"No, sorry... I don't.\" She clears...\"",
+                          "articyId": "0x010000310000AB93",
+                          "text": "\"No, sorry... I don't.\" She clears her throat. \"Not a lot of people have phones around here. Copper thieves take the wires...\"",
+                          "links": [
+                            {
+                              "id": 346,
+                              "title": "Sylvie: \"\"People don't have the money to hav...\"",
+                              "articyId": "0x0100004C0000172D",
+                              "text": "\"People don't have the money to have the cables put in again. They use the Union's phone or the one on the coast.\"",
+                              "links": [
+                                {
+                                  "id": 396,
+                                  "title": "Logic: \"So the Union has a phone -- and the...\"",
+                                  "articyId": "0x01000006000167E3",
+                                  "text": "So the Union has a phone -- and there's one further down the coast. Got it.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 405,
+                      "title": "You: \"\"Okay, next question.\" (Back.)\"",
+                      "articyId": "0x010000310000AB85",
+                      "text": "\"Okay, next question.\" (Back.)",
+                      "links": [
+                        {
+                          "id": 139,
+                          "title": "Sylvie: \"\"Okay...\" She's calmer now. Probabl...\"",
+                          "articyId": "0x010000310000ACC4",
+                          "text": "\"Okay...\" She's calmer now. Probably because the focus has shifted elsewhere.",
+                          "links": []
+                        },
+                        {
+                          "id": 121,
+                          "title": "Sylvie: \"\"Yeah, go on.\"\"",
+                          "articyId": "0x010000310000ACB9",
+                          "text": "\"Yeah, go on.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 343,
+              "title": "You: \"\"Do you know who put the victim's c...\"",
+              "articyId": "0x0100004B00000753",
+              "text": "\"Do you know who put the victim's clothes in the trash?\"",
+              "links": [
+                {
+                  "id": 38,
+                  "title": "Sylvie: \"\"No, I don't know. It wasn't me...\"...\"",
+                  "articyId": "0x0100004B0000075B",
+                  "text": "\"No, I don't know. It wasn't me...\" She gulps. \"I haven't been out there since... I was terrified of the stench and the corpse.\" She falls silent.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 188,
+              "title": "You: \"\"Have you seen my badge?\"\"",
+              "articyId": "0x010000310000AD53",
+              "text": "\"Have you seen my badge?\"",
+              "links": [
+                {
+                  "id": 357,
+                  "title": "Sylvie: \"\"Yes, I know who you are. You're a...\"",
+                  "articyId": "0x010000310000AD7B",
+                  "text": "\"Yes, I know who you are. You're a police officer... *the law*.\"",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Authority: \"Yeah, I think she got it. Good job!\"",
+                      "articyId": "0x0100004C0000175B",
+                      "text": "Yeah, I think she got it. Good job!",
+                      "links": [
+                        {
+                          "id": 82,
+                          "title": "You: \"\"Wait, how did you first learn I'm...\"",
+                          "articyId": "0x0100004B000005FD",
+                          "text": "\"Wait, how did you first learn I'm a police officer?\"",
+                          "links": [
+                            {
+                              "id": 249,
+                              "title": "Sylvie: \"\"You told me back in the Whirling.....\"",
+                              "articyId": "0x0100004B0000060D",
+                              "text": "\"You told me back in the Whirling... you told *everybody*. And showed us your badge... I don't need to hear about it anymore.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 380,
+                          "title": "You: \"\"My badge is missing. Have you seen...\"",
+                          "articyId": "0x010000310000AD82",
+                          "text": "\"My badge is missing. Have you seen it anywhere?\"",
+                          "links": [
+                            {
+                              "id": 426,
+                              "title": "Kim Kitsuragi: \"The lieutenant goes pale. 'Missing...\"",
+                              "articyId": "0x0100002F0001340E",
+                              "text": "The lieutenant goes pale. 'Missing badge?' he mouths to himself, silently.",
+                              "links": []
+                            },
+                            {
+                              "id": 52,
+                              "title": "Sylvie: \"\"Oh... no, I haven't, sorry.\"\"",
+                              "articyId": "0x010000310000AD89",
+                              "text": "\"Oh... no, I haven't, sorry.\"",
+                              "links": [
+                                {
+                                  "id": 199,
+                                  "title": "Composure: \"Real policemen have uniforms too, b...\"",
+                                  "articyId": "0x0100004B000006FC",
+                                  "text": "Real policemen have uniforms too, by the way. Where's yours?",
+                                  "links": [
+                                    {
+                                      "id": 125,
+                                      "title": "You: \"Not my uniform too! God, I should r...\"",
+                                      "articyId": "0x0100004C00001781",
+                                      "text": "Not my uniform too! God, I should really look into that.",
+                                      "links": [
+                                        {
+                                          "id": 108,
+                                          "title": "Composure: \"Yes, you absolutely should. It's aw...\"",
+                                          "articyId": "0x0100004C000017AB",
+                                          "text": "Yes, you absolutely should. It's awful that you lost it.",
+                                          "links": [
+                                            {
+                                              "id": 265,
+                                              "title": "Esprit de Corps: \"It feels like you haven't worn your...\"",
+                                              "articyId": "0x010000310000ADD1",
+                                              "text": "It feels like you haven't worn yours in a long-long time.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 59,
+                                      "title": "You: \"Kim doesn't have a *uniform* and he...\"",
+                                      "articyId": "0x0100004C0000177C",
+                                      "text": "Kim doesn't have a *uniform* and he seems real to me.",
+                                      "links": [
+                                        {
+                                          "id": 327,
+                                          "title": "Composure: \"He's in plainclothes. Voluntarily....\"",
+                                          "articyId": "0x0100004C000017B9",
+                                          "text": "He's in plainclothes. Voluntarily. It's different from not knowing where your uniform is.",
+                                          "links": [
+                                            {
+                                              "id": 203,
+                                              "title": "Esprit de Corps: \"There are officers who wear the sig...\"",
+                                              "articyId": "0x0100004C00001799",
+                                              "text": "There are officers who wear the signature Perseus Black uniforms to the highest ranks in the RCM and end up buried in them as well -- others do it more *casually*. Looks like you're one of them.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 202,
+                                      "title": "You: \"I'm going to let it slide. I don't...\"",
+                                      "articyId": "0x0100004C00001776",
+                                      "text": "I'm going to let it slide. I don't need answers for every little thing.",
+                                      "links": [
+                                        {
+                                          "id": 388,
+                                          "title": "Composure: \"Right. It's better to not ask too m...\"",
+                                          "articyId": "0x0100004C0000178B",
+                                          "text": "Right. It's better to not ask too many questions, lest people start thinking you're a *cop* or something.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 311,
+                      "title": "Rhetoric: \"This exact conversation has happene...\"",
+                      "articyId": "0x0100004B000005EB",
+                      "text": "This exact conversation has happened before. Establishing authority before this young girl seems to have been important to you in the past. Don't go there again.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 189,
+              "title": "You: \"\"Have you seen my gun?\"\"",
+              "articyId": "0x010000310000AD59",
+              "text": "\"Have you seen my gun?\"",
+              "links": [
+                {
+                  "id": 77,
+                  "title": "Sylvie: \"\"Please, no. Not this again -- ever...\"",
+                  "articyId": "0x010000310000AD98",
+                  "text": "\"Please, no. Not this again -- everyone saw your 'cool gun', detective...\" She sounds beyond exacerbated.",
+                  "links": [
+                    {
+                      "id": 220,
+                      "title": "You: \"\"I showed you my gun? When did it h...\"",
+                      "articyId": "0x010000310000AD67",
+                      "text": "\"I showed you my gun? When did it happen?\"",
+                      "links": [
+                        {
+                          "id": 358,
+                          "title": "Sylvie: \"\"You were trying to *impress* some...\"",
+                          "articyId": "0x010000310000ADA1",
+                          "text": "\"You were trying to *impress* some people with it. Everyone was eating and...\" She stops hesitantly, not sure if she should continue.",
+                          "links": [
+                            {
+                              "id": 367,
+                              "title": "Half Light: \"Sounds like it's going to be bad. D...\"",
+                              "articyId": "0x0100000500003913",
+                              "text": "Sounds like it's going to be bad. Do you really want to know?",
+                              "links": [
+                                {
+                                  "id": 19,
+                                  "title": "You: \"\"And what? What did I do?\"\"",
+                                  "articyId": "0x0100004B0000062F",
+                                  "text": "\"And what? What did I do?\"",
+                                  "links": [
+                                    {
+                                      "id": 198,
+                                      "title": "Sylvie: \"\"You were waving it around in every...\"",
+                                      "articyId": "0x0100004B00000620",
+                                      "text": "\"You were waving it around in everyone's face, begging them to describe it. You said it 'calms you'. And then you started making suicide jokes. It got pretty *graphic*.\"",
+                                      "links": [
+                                        {
+                                          "id": 54,
+                                          "title": "Drama: \"Oh, those again? I have been trying...\"",
+                                          "articyId": "0x0100004B0000063F",
+                                          "text": "Oh, those again? I have been trying to wean you off them.",
+                                          "links": [
+                                            {
+                                              "id": 104,
+                                              "title": "You: \"Off of what?\"",
+                                              "articyId": "0x0100004B00000647",
+                                              "text": "Off of what?",
+                                              "links": [
+                                                {
+                                                  "id": 268,
+                                                  "title": "Drama: \"You know, when you put your gun, yo...\"",
+                                                  "articyId": "0x0100004B0000064E",
+                                                  "text": "You know, when you put your gun, your *actual* gun, on your temple and pretend to shoot your brains out? Off of that. People don't like that.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 269,
+                                              "title": "Rhetoric: \"Hm, I remember this. You were screa...\"",
+                                              "articyId": "0x0100004B00000656",
+                                              "text": "Hm, I remember this. You were screaming things like \"My brains are all over the walls, painting them red. I won't be seeing it, cause these are my brains. I can't see without my brains!\" Very nice visuals there.",
+                                              "links": [
+                                                {
+                                                  "id": 36,
+                                                  "title": "Empathy: \"Some poor sod was trying to eat his...\"",
+                                                  "articyId": "0x0100004B0000065D",
+                                                  "text": "Some poor sod was trying to eat his pudding, while you were screaming, spit flying, imitating the *mercy shot* right next to him... Spat some in his food, I don't think he touched it after...",
+                                                  "links": [
+                                                    {
+                                                      "id": 385,
+                                                      "title": "Half Light: \"People tried to back away from you...\"",
+                                                      "articyId": "0x0100004B0000066D",
+                                                      "text": "People tried to back away from you or even slip out of the door, but you screamed: I AM THE GODDAMNED LAW AND YOU HAVE TO LISTEN TO ME, YOU ARE ALL SUSPECTS IN A MURDER INVESTIGATION!",
+                                                      "links": [
+                                                        {
+                                                          "id": 435,
+                                                          "title": "You: \"\"I should have killed myself...\"\"",
+                                                          "articyId": "0x0100004B00000684",
+                                                          "text": "\"I should have killed myself...\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 294,
+                                                              "title": "Sylvie: \"\"No, please, no more suicide threat...\"",
+                                                              "articyId": "0x0100004B0000069C",
+                                                              "text": "\"No, please, no more suicide threats! Thank *god* you don't have that stupid gun anymore...\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 347,
+                                                                  "title": "Conceptualization: \"There are *way* more inventive ways...\"",
+                                                                  "articyId": "0x0100004C00001968",
+                                                                  "text": "There are *way* more inventive ways than a gun to leave this world.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 124,
+                                                          "title": "You: \"\"Why would I threaten to kill mysel...\"",
+                                                          "articyId": "0x0100004B0000068A",
+                                                          "text": "\"Why would I threaten to kill myself?! I mean, look at this world, I would love to stay!\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 144,
+                                                              "title": "Sylvie: \"There is silence on the other end o...\"",
+                                                              "articyId": "0x0100004C000017E4",
+                                                              "text": "There is silence on the other end of the line.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 351,
+                                                          "title": "You: \"\"Okay. I don't know what to say.\"\"",
+                                                          "articyId": "0x010000210000283F",
+                                                          "text": "\"Okay. I don't know what to say.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 376,
+                                                              "title": "Sylvie: \"\"Me neither.\"\"",
+                                                              "articyId": "0x0100002100002846",
+                                                              "text": "\"Me neither.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 386,
+                                                          "title": "You: \"\"Yes, but what happened to my gun?\"...\"",
+                                                          "articyId": "0x0100004B00000694",
+                                                          "text": "\"Yes, but what happened to my gun?\" (Just conclude.)",
+                                                          "links": [
+                                                            {
+                                                              "id": 323,
+                                                              "title": "Sylvie: \"\"No idea. All I know is, next you w...\"",
+                                                              "articyId": "0x010000310000ADB1",
+                                                              "text": "\"No idea. All I know is, next you were waving around money instead. Saying things like 'Big bucks cannot lie' and 'Guns can't buy money, but money can always buy guns'.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 4,
+                                                                  "title": "Sylvie: \"\"It almost looked like you pawned i...\"",
+                                                                  "articyId": "0x0100000500003929",
+                                                                  "text": "\"It almost looked like you pawned it, but believe me, I did *not* ask.\" She sighs.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 103,
+                                  "title": "You: \"\"Actually, I don't want to know. I...\"",
+                                  "articyId": "0x0100004B00000635",
+                                  "text": "\"Actually, I don't want to know. I don't want to know what happened.\"",
+                                  "links": [
+                                    {
+                                      "id": 328,
+                                      "title": "Sylvie: \"\"Great.\" There's relief in her voic...\"",
+                                      "articyId": "0x0100004C000017C8",
+                                      "text": "\"Great.\" There's relief in her voice. \"Anything else?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 324,
+              "title": "You: \"\"Have you seen my police man unifor...\"",
+              "articyId": "0x010000310000ADC3",
+              "text": "\"Have you seen my police man uniform?\"",
+              "links": [
+                {
+                  "id": 284,
+                  "title": "Sylvie: \"\"Uniform? I never saw you in any un...\"",
+                  "articyId": "0x010000310000ADC9",
+                  "text": "\"Uniform? I never saw you in any uniform, you had your... *things* on. The disco things.\"",
+                  "links": [
+                    {
+                      "id": 410,
+                      "title": "Esprit de Corps: \"Somewhere in a dank rental apartmen...\"",
+                      "articyId": "0x0100004C000017A4",
+                      "text": "Somewhere in a dank rental apartment, two police officers stand in the dark. Trash and liquor bottles cover the floor. Things are not good.",
+                      "links": [
+                        {
+                          "id": 411,
+                          "title": "Esprit de Corps: \"One of the men, trying not to slip...\"",
+                          "articyId": "0x0100004C00001824",
+                          "text": "One of the men, trying not to slip on old newspapers, makes his way to the window and pulls the curtains apart. Roaches scatter as the light comes in.",
+                          "links": [
+                            {
+                              "id": 363,
+                              "title": "Esprit de Corps: \"\"Goddamn...\" officer Michel 'Elfboy...\"",
+                              "articyId": "0x0100004C0000182A",
+                              "text": "\"Goddamn...\" officer Michel 'Elfboy' Williams speaks to himself. His partner, Sundance Fischer, looks at the patrol uniform he's wearing -- then at an identical suit framed on the wall. It's blue and covered in dust. \"Let's get the fuck out of here,\" he turns to Williams, \"he hasn't been here in days.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 316,
+              "title": "You: \"\"Are you *sure* you don't remember...\"",
+              "articyId": "0x0100000600016AB0",
+              "text": "\"Are you *sure* you don't remember where the paperwork I flushed is?\"",
+              "links": [
+                {
+                  "id": 179,
+                  "title": "Sylvie: \"\"Yes, I'm sure. Every time we talk...\"",
+                  "articyId": "0x0100000600016ABC",
+                  "text": "\"Yes, I'm sure. Every time we talk about it I'm going to be *more* sure I don't know.\"",
+                  "links": [
+                    {
+                      "id": 113,
+                      "title": "Sylvie: \"\"Sorry about that.\" She doesn't sou...\"",
+                      "articyId": "0x0100000600016AB6",
+                      "text": "\"Sorry about that.\" She doesn't sound like she's too sorry. \"Anything else, detective?\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 105,
+              "title": "You: \"\"I must have had some sort of offic...\"",
+              "articyId": "0x0100004B000007B5",
+              "text": "\"I must have had some sort of official police documents on me. Do you know where they could be?\"",
+              "links": [
+                {
+                  "id": 65,
+                  "title": "Sylvie: \"\"I, ugh... the ones I had to wrench...\"",
+                  "articyId": "0x0100000600016AD5",
+                  "text": "\"I, ugh... the ones I had to wrench out of your toilet?\"",
+                  "links": [
+                    {
+                      "id": 276,
+                      "title": "You: \"\"I put them in my toilet?\"\"",
+                      "articyId": "0x0100000600016AF9",
+                      "text": "\"I put them in my toilet?\"",
+                      "links": [
+                        {
+                          "id": 148,
+                          "title": "Sylvie: \"\"Yes. You put *something* there. Ca...\"",
+                          "articyId": "0x0100000600016AFF",
+                          "text": "\"Yes. You put *something* there. Causing bad water damage in the kitchen. I think it was that.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 420,
+                      "title": "You: \"\"What happened to them?\"\"",
+                      "articyId": "0x0100000600016ADB",
+                      "text": "\"What happened to them?\"",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "Sylvie: \"\"I... dammit, I don't remember what...\"",
+                          "articyId": "0x0100000600016AE1",
+                          "text": "\"I... dammit, I don't remember what I did to your damn papers! I don't remember every little thing I do...\" Resentment gives way to concern in her voice.",
+                          "links": [
+                            {
+                              "id": 211,
+                              "title": "Half Light: \"She's worried she might have accide...\"",
+                              "articyId": "0x0100000600016AE7",
+                              "text": "She's worried she might have accidentally done something bad. Then she remembers it's *you*.",
+                              "links": [
+                                {
+                                  "id": 299,
+                                  "title": "Sylvie: \"\"Especially when there's a hurrican...\"",
+                                  "articyId": "0x0100000600016AED",
+                                  "text": "\"Especially when there's a hurricane loose. It's your fault for losing them -- not mine.\"",
+                                  "links": [
+                                    {
+                                      "id": 93,
+                                      "title": "Inland Empire: \"Something in you wants to immediate...\"",
+                                      "articyId": "0x0100000600016AF3",
+                                      "text": "Something in you wants to immediately *forget* about this. As if there was a reason you threw them away.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 166,
+              "title": "You: \"\"Do you know how my paperwork ended...\"",
+              "articyId": "0x0100004B0000074D",
+              "text": "\"Do you know how my paperwork ended up in the trash container behind the Whirling?\"",
+              "links": [
+                {
+                  "id": 329,
+                  "title": "Sylvie: \"\"Well.\" There's an uncomfortable pa...\"",
+                  "articyId": "0x0100004C00001954",
+                  "text": "\"Well.\" There's an uncomfortable pause. \"You tried to jam it down the toilet, sir, clogging it completely. After I had *unclogged* the toilet and retrieved the paperwork I threw it out in the trash, thinking you didn't need it.\"",
+                  "links": [
+                    {
+                      "id": 84,
+                      "title": "Sylvie: \"\"I am sorry about that.\" She doesn'...\"",
+                      "articyId": "0x0100004C0000195B",
+                      "text": "\"I am sorry about that.\" She doesn't sound like she's actually that sorry. \"Anything else, detective?\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 281,
+              "title": "You: \"\"Hey, do you want to grab a cup of...\"",
+              "articyId": "0x0100003100006CB1",
+              "text": "\"Hey, do you want to grab a cup of coffee with me some time?\"",
+              "links": [
+                {
+                  "id": 428,
+                  "title": "Sylvie: \"\"No, absolutely not.\"\"",
+                  "articyId": "0x0100003100006CB8",
+                  "text": "\"No, absolutely not.\"",
+                  "links": [
+                    {
+                      "id": 53,
+                      "title": "Reaction Speed: \"That came so fast you can't but won...\"",
+                      "articyId": "0x010000310000E430",
+                      "text": "That came so fast you can't but wonder what else would she be good at.",
+                      "links": [
+                        {
+                          "id": 292,
+                          "title": "You: \"Yes, what would she be good at?\"",
+                          "articyId": "0x010000310000E443",
+                          "text": "Yes, what would she be good at?",
+                          "links": [
+                            {
+                              "id": 123,
+                              "title": "Reaction Speed: \"Baseball? Ring-a-bell Quiz Shows? C...\"",
+                              "articyId": "0x010000310000E44B",
+                              "text": "Baseball? Ring-a-bell Quiz Shows? Catching keys in the air? Petting an angry cat?",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "title": "Volition: \"Ouch.... That's like twenty points...\"",
+                          "articyId": "0x01000004000121CC",
+                          "text": "Ouch.... That's like twenty points of pride-damage right there, buddy.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 182,
+              "title": "You: \"\"I think I got everything I need, t...\"",
+              "articyId": "0x0100003100006CC4",
+              "text": "\"I think I got everything I need, thanks.\" [End call.]",
+              "links": [
+                {
+                  "id": 431,
+                  "title": "Sylvie: \"You hear the call breaking up on th...\"",
+                  "articyId": "0x0100003100006E4C",
+                  "text": "You hear the call breaking up on the other end of the radio and then the already familiar voice:",
+                  "links": [
+                    {
+                      "id": 336,
+                      "title": "Alice: \"\"Anything else I can help you with,...\"",
+                      "articyId": "0x0100003100006E45",
+                      "text": "\"Anything else I can help you with, officer?\"",
+                      "links": [
+                        {
+                          "id": 201,
+                          "title": "You: \"\"Wait, Kim,\" (Lower your microphone...\"",
+                          "articyId": "0x0100004C000016AA",
+                          "text": "\"Wait, Kim,\" (Lower your microphone.) \"Is she speaking truth? The Union is the law around here?\"",
+                          "links": [
+                            {
+                              "id": 361,
+                              "title": "Kim Kitsuragi: \"\"Legally, no. In reality, yes.\" He...\"",
+                              "articyId": "0x0100004B000005BD",
+                              "text": "\"Legally, no. In reality, yes.\" He looks around. \"Martinaise is *de facto* policed by the Dockworkers' Union.\"",
+                              "links": [
+                                {
+                                  "id": 39,
+                                  "title": "Esprit de Corps: \"Words are not necessary to feel the...\"",
+                                  "articyId": "0x0100004C000016B2",
+                                  "text": "Words are not necessary to feel the lieutenant's discontent for the situation.",
+                                  "links": [
+                                    {
+                                      "id": 344,
+                                      "title": "You: \"\"*I* am the authority around here.\"\"",
+                                      "articyId": "0x0100004C00001697",
+                                      "text": "\"*I* am the authority around here.\"",
+                                      "links": [
+                                        {
+                                          "id": 226,
+                                          "title": "Sylvie: \"\"Okay.\" She obviously doesn't want...\"",
+                                          "articyId": "0x0100004C0000169D",
+                                          "text": "\"Okay.\" She obviously doesn't want to challenge your authority. You feel *much* better now.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 408,
+                                      "title": "You: \"\"Looks like there's a limit to my a...\"",
+                                      "articyId": "0x010000310000ABEE",
+                                      "text": "\"Looks like there's a limit to my authority then.\"",
+                                      "links": [
+                                        {
+                                          "id": 102,
+                                          "title": "Sylvie: \"\"Mhmh.\"\"",
+                                          "articyId": "0x010000310000E479",
+                                          "text": "\"Mhmh.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 264,
+                                      "title": "You: \"\"Tell me, why *exactly* did you let...\"",
+                                      "articyId": "0x010000310000AC3E",
+                                      "text": "\"Tell me, why *exactly* did you let a corpse hang in your own backyard for weeks instead of calling us?\" (Push on.)",
+                                      "links": [
+                                        {
+                                          "id": 355,
+                                          "title": "Sylvie: \"\"I... I didn't want to get in troub...\"",
+                                          "articyId": "0x010000310000AC45",
+                                          "text": "\"I... I didn't want to get in trouble with the others...\"",
+                                          "links": [
+                                            {
+                                              "id": 333,
+                                              "title": "Authority: \"Push her *further*. Show her the er...\"",
+                                              "articyId": "0x01000006000167CE",
+                                              "text": "Push her *further*. Show her the error of her ways.",
+                                              "links": [
+                                                {
+                                                  "id": 321,
+                                                  "title": "Empathy: \"No, don't push her. It sounds as if...\"",
+                                                  "articyId": "0x010000310000AC4C",
+                                                  "text": "No, don't push her. It sounds as if she's about to cry.",
+                                                  "links": [
+                                                    {
+                                                      "id": 15,
+                                                      "title": "You: \"\"Let me get this straight, you igno...\"",
+                                                      "articyId": "0x010000310000AC5F",
+                                                      "text": "\"Let me get this straight, you ignored the law to save your own skin?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 306,
+                                                          "title": "Sylvie: \"\"I... I didn't know I had to report...\"",
+                                                          "articyId": "0x010000310000AC72",
+                                                          "text": "\"I... I didn't know I had to report it... I... I thought someone would take him down eventually...\" Her voice breaks.",
+                                                          "links": [
+                                                            {
+                                                              "id": 293,
+                                                              "title": "Half Light: \"The fucking nerves on her?! Trying...\"",
+                                                              "articyId": "0x0100004B000005C7",
+                                                              "text": "The fucking nerves on her?! Trying to hide behind WEAKNESS. You're a GOD. An angry but JUST God.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 339,
+                                                                  "title": "You: \"(Yell:) \"I'M A GOD. YOU REPORT TO M...\"",
+                                                                  "articyId": "0x0100004B000005CE",
+                                                                  "text": "(Yell:) \"I'M A GOD. YOU REPORT TO ME, NOT TO THE UNION -- IS IT CLEAR?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 436,
+                                                                      "title": "Kim Kitsuragi: \"\"Hey!\" The lieutenant interrupts wi...\"",
+                                                                      "articyId": "0x0100004C000016E3",
+                                                                      "text": "\"Hey!\" The lieutenant interrupts with a flicker of anger in his eyes. \"If you cannot restrain yourself then I'll be handling the interviews from now on and you can quietly take notes.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 167,
+                                                                          "title": "You: \"\"You got your methods, I got mine l...\"",
+                                                                          "articyId": "0x0100004C000016EA",
+                                                                          "text": "\"You got your methods, I got mine lieutenant. Now let me do my job.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 169,
+                                                                              "title": "Kim Kitsuragi: \"\"Fine.\" The lieutenant clenches his...\"",
+                                                                              "articyId": "0x0100004C00001712",
+                                                                              "text": "\"Fine.\" The lieutenant clenches his jaw. \"But know that I don't approve of such gratuitous volatility.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 21,
+                                                                                  "title": "Esprit de Corps: \"An angry cop refusing to face his d...\"",
+                                                                                  "articyId": "0x0100004C00001719",
+                                                                                  "text": "An angry cop refusing to face his demons and taking his frustration out on others -- just a badge and a gun away from those he's manhandling. A fast burning candle -- that's the side you just exposed to the lieutenant. He doesn't judge, has seen it too many times all ready -- you both have probably, but he takes a mental note.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 168,
+                                                                                      "title": "Sylvie: \"Breathing on the other end suggests...\"",
+                                                                                      "articyId": "0x0100004C00001706",
+                                                                                      "text": "Breathing on the other end suggests that Sylvie is still on the line. She heard everything.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 107,
+                                                                          "title": "You: \"\"Sorry, I don't know what came over...\"",
+                                                                          "articyId": "0x0100004C000016F1",
+                                                                          "text": "\"Sorry, I don't know what came over me, I just lost it -- I might have an anger issue.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 295,
+                                                                              "title": "Kim Kitsuragi: \"\"Apparently so. Please do try to co...\"",
+                                                                              "articyId": "0x0100004C000016F8",
+                                                                              "text": "\"Apparently so. Please do try to control yourself.\" The anger is gone from his eyes and it's almost as if his voice is softer than before.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 312,
+                                                                                  "title": "Esprit de Corps: \"Cop with an anger issue, underpaid,...\"",
+                                                                                  "articyId": "0x0100004C000016FF",
+                                                                                  "text": "Cop with an anger issue, underpaid, overworked and on the verge of collapse in both personal and professional life -- that's more of a rule than an exception. And the lieutenant knows this. He understands.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 64,
+                                                                      "title": "Sylvie: \"There's no reply from the other end...\"",
+                                                                      "articyId": "0x0100006B0000794C",
+                                                                      "text": "There's no reply from the other end of the line.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 51,
+                                                                  "title": "You: \"\"It's a little late for tears, isn'...\"",
+                                                                  "articyId": "0x010000310000AC80",
+                                                                  "text": "\"It's a little late for tears, isn't it? Should have used them to summon the police earlier.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 101,
+                                                                      "title": "Sylvie: \"You can almost hear the girl gettin...\"",
+                                                                      "articyId": "0x010000310000AC99",
+                                                                      "text": "You can almost hear the girl getting smaller on the other end of the line, until she almost drowns in static.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 76,
+                                                                  "title": "You: \"\"It's okay, things happen. Not real...\"",
+                                                                  "articyId": "0x010000310000AC79",
+                                                                  "text": "\"It's okay, things happen. Not really your fault.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 16,
+                                                                      "title": "Sylvie: \"\"Yes... I know, it's just...\" She t...\"",
+                                                                      "articyId": "0x010000310000AC87",
+                                                                      "text": "\"Yes... I know, it's just...\" She takes a deep breath before continuing. \"Was there anything else?\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 434,
+                                                      "title": "You: \"\"What *others*?\"\"",
+                                                      "articyId": "0x010000310000B102",
+                                                      "text": "\"What *others*?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 141,
+                                                          "title": "Sylvie: \"\"The other people who live around h...\"",
+                                                          "articyId": "0x010000310000B109",
+                                                          "text": "\"The other people who live around here. Local people. I... I didn't want trouble... \"",
+                                                          "links": [
+                                                            {
+                                                              "id": 267,
+                                                              "title": "Empathy: \"Her voice is resigned and weak.\"",
+                                                              "articyId": "0x010000310000E467",
+                                                              "text": "Her voice is resigned and weak.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 387,
+                                                                  "title": "You: \"\"What trouble?!\"\"",
+                                                                  "articyId": "0x0100004C000016BC",
+                                                                  "text": "\"What trouble?!\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 55,
+                                                                      "title": "Sylvie: \"\"You don't live here, you *don't* u...\"",
+                                                                      "articyId": "0x0100004C000016CB",
+                                                                      "text": "\"You don't live here, you *don't* understand. Squealing is frowned upon here -- everything is dealt with... well, by the Union. Internally.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 345,
+                                                                          "title": "Sylvie: \"You hear static. Her chin rub again...\"",
+                                                                          "articyId": "0x0100004C000016D3",
+                                                                          "text": "You hear static. Her chin rub against the receiver. Then: \"Please, I just didn't want any trouble.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 106,
+                                                                  "title": "You: \"\"Okay, I understand.\"\"",
+                                                                  "articyId": "0x0100004C000016C3",
+                                                                  "text": "\"Okay, I understand.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 158,
+                                                      "title": "You: \"\"I see. Don't worry about it, I und...\"",
+                                                      "articyId": "0x010000310000AC58",
+                                                      "text": "\"I see. Don't worry about it, I understand.\" (Back off.)",
+                                                      "links": [
+                                                        {
+                                                          "id": 322,
+                                                          "title": "Sylvie: \"\"You do?\" She sounds relieved. \"Wha...\"",
+                                                          "articyId": "0x010000310000AC65",
+                                                          "text": "\"You do?\" She sounds relieved. \"What else can I do for you?\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 247,
+                                      "title": "You: \"\"I see. Maybe there's something els...\"",
+                                      "articyId": "0x010000310000AC2A",
+                                      "text": "\"I see. Maybe there's something else you can tell me about?\" (Back off.)",
+                                      "links": [
+                                        {
+                                          "id": 354,
+                                          "title": "Sylvie: \"\"I don't know what to tell you, off...\"",
+                                          "articyId": "0x010000310000AC37",
+                                          "text": "\"I don't know what to tell you, officer. I didn't call you, because I didn't want to get in trouble with the others, with the Union. I'm sorry about that.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 135,
+                  "title": "Sylvie: \"\"I do hope so. Please don't call me...\"",
+                  "articyId": "0x0100003100006CCB",
+                  "text": "\"I do hope so. Please don't call me again. Bye.\" She's ready to hang up.",
+                  "links": [
+                    {
+                      "id": 190,
+                      "title": "You: \"Wait, why does she seem angry with...\"",
+                      "articyId": "0x010000310000ADE7",
+                      "text": "Wait, why does she seem angry with you?",
+                      "links": [
+                        {
+                          "id": 221,
+                          "title": "Empathy: \"Yes. You have obviously done someth...\"",
+                          "articyId": "0x010000310000AE98",
+                          "text": "Yes. You have obviously done something to upset her -- at the Whirling-in-Rags, when she was still working there.",
+                          "links": [
+                            {
+                              "id": 214,
+                              "title": "You: \"\"Wait, before you go... You're mad...\"",
+                              "articyId": "0x0100003100006C74",
+                              "text": "\"Wait, before you go... You're mad at me, right? Tell me, what did I do? I can't remember anything.\"",
+                              "links": [
+                                {
+                                  "id": 429,
+                                  "title": "Sylvie: \"\"I'm not mad, it's just...\" The sta...\"",
+                                  "articyId": "0x0100003100006CDF",
+                                  "text": "\"I'm not mad, it's just...\" The static sighs again. \"You were so drunk and so emotional all the time, and then the *skua thing* happened. It just made me want to quit.\"",
+                                  "links": [
+                                    {
+                                      "id": 244,
+                                      "title": "You: \"\"What skua thing?\"\"",
+                                      "articyId": "0x0100003100006CF0",
+                                      "text": "\"What skua thing?\"",
+                                      "links": [
+                                        {
+                                          "id": 136,
+                                          "title": "Sylvie: \"\"The stuffed bird. The great skua....\"",
+                                          "articyId": "0x0100003100006D1A",
+                                          "text": "\"The stuffed bird. The great skua. You threw it against the wall, while screaming 'fuck that bird' and laughing like a maniac.\"",
+                                          "links": [
+                                            {
+                                              "id": 302,
+                                              "title": "Sylvie: \"\"I think you said it had been *givi...\"",
+                                              "articyId": "0x0100003100006D21",
+                                              "text": "\"I think you said it had been *giving you shit ever since you got there*.\"",
+                                              "links": [
+                                                {
+                                                  "id": 97,
+                                                  "title": "You: \"\"This sounds like me alright.\"\"",
+                                                  "articyId": "0x0100003100006D2E",
+                                                  "text": "\"This sounds like me alright.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 303,
+                                                      "title": "Sylvie: \"\"Didn't seem like you had fun doing...\"",
+                                                      "articyId": "0x0100003100006D4A",
+                                                      "text": "\"Didn't seem like you had fun doing it though.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 48,
+                                                  "title": "You: \"\"This doesn't sound anything like m...\"",
+                                                  "articyId": "0x0100003100006D35",
+                                                  "text": "\"This doesn't sound anything like me, I love birds!\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 83,
+                                                      "title": "Sylvie: \"\"Yes, well...\" The static on the ra...\"",
+                                                      "articyId": "0x0100004B00000718",
+                                                      "text": "\"Yes, well...\" The static on the radio suggests Sylvie doesn't have a comment.",
+                                                      "links": [
+                                                        {
+                                                          "id": 419,
+                                                          "title": "Encyclopedia: \"Rubbish! You're a green hat and fea...\"",
+                                                          "articyId": "0x0100000600016819",
+                                                          "text": "Rubbish! You're a green hat and feather totin' birdwatcher!",
+                                                          "links": [
+                                                            {
+                                                              "id": 164,
+                                                              "title": "You: \"\"Actually, I think I might be a bir...\"",
+                                                              "articyId": "0x0100004B0000071E",
+                                                              "text": "\"Actually, I think I might be a birdie. A birdwatching enthusiast, you know.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 37,
+                                                                  "title": "Sylvie: \"Her voice reappears from the static...\"",
+                                                                  "articyId": "0x0100004B00000726",
+                                                                  "text": "Her voice reappears from the static: \"That's wonderful, really. Maybe you should keep pursuing that hobby. Maybe it would calm you down a little.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 206,
+                                                              "title": "You: \"Am I, though?\"",
+                                                              "articyId": "0x010000060001680C",
+                                                              "text": "Am I, though?",
+                                                              "links": [
+                                                                {
+                                                                  "id": 334,
+                                                                  "title": "Encyclopedia: \"Or a cop with brain damage. One of...\"",
+                                                                  "articyId": "0x0100000600016829",
+                                                                  "text": "Or a cop with brain damage. One of the two.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 157,
+                                                  "title": "You: \"\"Bitch bird got what was coming to...\"",
+                                                  "articyId": "0x0100003100006D3C",
+                                                  "text": "\"Bitch bird got what was coming to her.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 20,
+                                                      "title": "Sylvie: \"\"Okay, officer...\" Her voice is wit...\"",
+                                                      "articyId": "0x0100004B00000731",
+                                                      "text": "\"Okay, officer...\" Her voice is withdrawing as if she's moving away from the speaker.",
+                                                      "links": [
+                                                        {
+                                                          "id": 165,
+                                                          "title": "Authority: \"Crackling static... more static and...\"",
+                                                          "articyId": "0x0100004B0000073D",
+                                                          "text": "Crackling static... more static and yes, more of that sweet static. The violence of your words is obviously scaring her.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 245,
+                                                  "title": "You: \"\"Why do I always end up screwing ev...\"",
+                                                  "articyId": "0x0100003100006D43",
+                                                  "text": "\"Why do I always end up screwing everything up?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 250,
+                                                      "title": "Sylvie: \"\"It was a pretty bird, there since...\"",
+                                                      "articyId": "0x0100004B00000737",
+                                                      "text": "\"It was a pretty bird, there since I started working in the Whirling. I really liked her. We called her Scotty...\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 109,
+                                                          "title": "Empathy: \"There's genuine sadness in her voic...\"",
+                                                          "articyId": "0x0100004C0000183D",
+                                                          "text": "There's genuine sadness in her voice.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 119,
+                                      "title": "You: \"\"So you're telling me that *I* was...\"",
+                                      "articyId": "0x0100003100006D59",
+                                      "text": "\"So you're telling me that *I* was the one who made you want to quit?\"",
+                                      "links": [
+                                        {
+                                          "id": 415,
+                                          "title": "Sylvie: \"\"Yes, obviously. You were the worst...\"",
+                                          "articyId": "0x0100005700021A70",
+                                          "text": "\"Yes, obviously. You were the worst client I've ever seen. And I have seen *so many* assholes in this place...\"",
+                                          "links": [
+                                            {
+                                              "id": 40,
+                                              "title": "Sylvie: \"\"I've had sailors fighting, Union g...\"",
+                                              "articyId": "0x0100004C00001845",
+                                              "text": "\"I've had sailors fighting, Union guys grabbing my ass, kids stealing booze. Once a guy was glued to the karaoke machine every night for two months. But *you*...\" She pauses.",
+                                              "links": [
+                                                {
+                                                  "id": 49,
+                                                  "title": "You: \"\"Go on. I want to know what I did.\"\"",
+                                                  "articyId": "0x0100003100006D86",
+                                                  "text": "\"Go on. I want to know what I did.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 215,
+                                                      "title": "Sylvie: \"\"Well... You were worse than all of...\"",
+                                                      "articyId": "0x0100003100006DA8",
+                                                      "text": "\"Well... You were worse than all of them. Honestly, you were getting borderline aggressive.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 216,
+                                                          "title": "Sylvie: \"\"Even about little things, like not...\"",
+                                                          "articyId": "0x0100003100006DB7",
+                                                          "text": "\"Even about little things, like not turning down the volume at 3 AM. I even *liked* one of those songs you kept listening to on repeat. No more. I hate it now.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 412,
+                                                              "title": "You: \"\"Hold on, which song?\"\"",
+                                                              "articyId": "0x0100004C0000184F",
+                                                              "text": "\"Hold on, which song?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 110,
+                                                                  "title": "Sylvie: \"\"'We Go On' by the OO.\" She sighs....\"",
+                                                                  "articyId": "0x0100004C00001856",
+                                                                  "text": "\"'We Go On' by the OO.\" She sighs. \"I can't listen to it anymore, you've turned it into a parody.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 69,
+                                                                      "title": "You: \"\"Sorry. Sorry about the song.\"\"",
+                                                                      "articyId": "0x010000210000253A",
+                                                                      "text": "\"Sorry. Sorry about the song.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 28,
+                                                                          "title": "Sylvie: \"\"To hell with that song...\"\"",
+                                                                          "articyId": "0x0100002100002540",
+                                                                          "text": "\"To hell with that song...\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 183,
+                                                              "title": "You: \"\"Right. Was that all?\"\"",
+                                                              "articyId": "0x0100003100006DC1",
+                                                              "text": "\"Right. Was that all?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 217,
+                                                                  "title": "Sylvie: \"\"Then there was your room. Your *pr...\"",
+                                                                  "articyId": "0x0100003100006DC8",
+                                                                  "text": "\"Then there was your room. Your *project*, an experiment to see how bad it can get in there.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 218,
+                                                                      "title": "Sylvie: \"\"I tried to send the cleaner, but y...\"",
+                                                                      "articyId": "0x0100003100006DCF",
+                                                                      "text": "\"I tried to send the cleaner, but you wouldn't let me. Threatened to 'make me understand'. I had no idea what you meant -- and I *don't* want to know.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 138,
+                                                                          "title": "Sylvie: \"\"And then you screamed something in...\"",
+                                                                          "articyId": "0x0100003100006DD7",
+                                                                          "text": "\"And then you screamed something incomprehensible about churches and the scent of apricots and aquariums.\" She takes a deep breath.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 301,
+                                                                              "title": "You: \"\"I'm sorry.\"\"",
+                                                                              "articyId": "0x0100002100002549",
+                                                                              "text": "\"I'm sorry.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 25,
+                                                                                  "title": "Sylvie: \"\"And *then* I had to deal with your...\"",
+                                                                                  "articyId": "0x0100005700021AD2",
+                                                                                  "text": "\"And *then* I had to deal with your toilet. The one you clogged with *police documents*, causing water damage downstairs in the kitchen.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 129,
+                                                                                      "title": "Sylvie: \"\"I won't even *mention* you waving...\"",
+                                                                                      "articyId": "0x0100000600016838",
+                                                                                      "text": "\"I won't even *mention* you waving your gun around, harassing customers, *threatening* to sing karaoke, threatening to kill yourself...\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 362,
+                                                                                          "title": "You: \"\"Wait -- police documents?\"\"",
+                                                                                          "articyId": "0x0100004B000007A8",
+                                                                                          "text": "\"Wait -- police documents?\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 204,
+                                                                                              "title": "Sylvie: \"\"I, ugh... the ones I had to wrench...\"",
+                                                                                              "articyId": "0x0100004C0000187B",
+                                                                                              "text": "\"I, ugh... the ones I had to wrench out of your toilet.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 177,
+                                                                                                  "title": "You: \"\"Ah yes, *that* paperwork. I found...\"",
+                                                                                                  "articyId": "0x0100000600016A7E",
+                                                                                                  "text": "\"Ah yes, *that* paperwork. I found it.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 178,
+                                                                                                      "title": "Sylvie: \"\"Good. Then it's not lost.\" She see...\"",
+                                                                                                      "articyId": "0x0100000600016A84",
+                                                                                                      "text": "\"Good. Then it's not lost.\" She seems a little relieved. \"Just don't throw it in the toilet again. Toilets don't work like that.\"",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 364,
+                                                                                                  "title": "You: \"\"What happened to them?\"\"",
+                                                                                                  "articyId": "0x0100004C0000188E",
+                                                                                                  "text": "\"What happened to them?\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 63,
+                                                                                                      "title": "Sylvie: \"\"I... dammit, I don't remember what...\"",
+                                                                                                      "articyId": "0x0100004C00001894",
+                                                                                                      "text": "\"I... dammit, I don't remember what I did to your damn papers! I don't remember every little thing I do.\" Resentment gives way to concern in her voice.",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 296,
+                                                                                                          "title": "Half Light: \"She's worried she might have accide...\"",
+                                                                                                          "articyId": "0x0100004C0000189E",
+                                                                                                          "text": "She's worried she might have accidentally done something bad. Then she remembers it's *you*.",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 44,
+                                                                                                              "title": "Sylvie: \"\"Especially when there's a hurrican...\"",
+                                                                                                              "articyId": "0x0100000600016A9B",
+                                                                                                              "text": "\"Especially when there's a hurricane loose. It's *your* fault for losing them -- not mine.\"",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 241,
+                                                                                                                  "title": "Inland Empire: \"Something in you wants to immediate...\"",
+                                                                                                                  "articyId": "0x0100000600016AA2",
+                                                                                                                  "text": "Something in you wants to immediately *forget* about this. As if there was a reason you threw them away.",
+                                                                                                                  "links": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": 319,
+                                                                                          "title": "You: \"\"Okay, I get it. I wasn't a very go...\"",
+                                                                                          "articyId": "0x0100003100006DEA",
+                                                                                          "text": "\"Okay, I get it. I wasn't a very good tenant.\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 262,
+                                                                                              "title": "Sylvie: \"\"No, you really weren't. You were s...\"",
+                                                                                              "articyId": "0x0100003100006DF2",
+                                                                                              "text": "\"No, you really weren't. You were simply the worst.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 98,
+                                                                                                  "title": "You: \"\"I am truly sorry for everything, S...\"",
+                                                                                                  "articyId": "0x0100003100006E13",
+                                                                                                  "text": "\"I am truly sorry for everything, Sylvie.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 430,
+                                                                                                      "title": "Sylvie: \"\"God, I... I knew I shouldn't have...\"",
+                                                                                                      "articyId": "0x0100003100006E28",
+                                                                                                      "text": "\"God, I... I knew I shouldn't have brought it up. Just... try not to call me again and let's pretend it never happened.\"",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 263,
+                                                                                                  "title": "You: \"\"I was trying to show you the world...\"",
+                                                                                                  "articyId": "0x0100003100006E1A",
+                                                                                                  "text": "\"I was trying to show you the world of tomorrow. The Great Panic at The End.\"",
+                                                                                                  "links": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 320,
+                                                                                                  "title": "You: \"\"Well, you're the worst tavern wenc...\"",
+                                                                                                  "articyId": "0x0100003100006E21",
+                                                                                                  "text": "\"Well, you're the worst tavern wench I've ever seen!\"",
+                                                                                                  "links": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 99,
+                                                                                                  "title": "You: \"\"Girl, just loosen up a little... D...\"",
+                                                                                                  "articyId": "0x0100003100006E37",
+                                                                                                  "text": "\"Girl, just loosen up a little... Don't you ever party?\"",
+                                                                                                  "links": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 170,
+                                                                                                  "title": "You: \"\"Huh, I don't even know what to say...\"",
+                                                                                                  "articyId": "0x0100006B000091BD",
+                                                                                                  "text": "\"Huh, I don't even know what to say...\"",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 254,
+                                                                              "title": "You: \"\"Sounds intense.\"\"",
+                                                                              "articyId": "0x0100005700021ABF",
+                                                                              "text": "\"Sounds intense.\"",
+                                                                              "links": []
+                                                                            },
+                                                                            {
+                                                                              "id": 229,
+                                                                              "title": "You: \"\"That's it? That's not so bad.\"\"",
+                                                                              "articyId": "0x0100005700021AC5",
+                                                                              "text": "\"That's it? That's not so bad.\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 304,
+                                                  "title": "You: \"\"I think I've heard enough.\" (Back...\"",
+                                                  "articyId": "0x0100003100006D8B",
+                                                  "text": "\"I think I've heard enough.\" (Back off.)",
+                                                  "links": [
+                                                    {
+                                                      "id": 137,
+                                                      "title": "Sylvie: \"\"I bet.\"\"",
+                                                      "articyId": "0x0100003100006D9B",
+                                                      "text": "\"I bet.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 24,
+                                      "title": "You: \"\"But... when I spoke to Garte it se...\"",
+                                      "articyId": "0x0100005700021AB9",
+                                      "text": "\"But... when I spoke to Garte it seemed like he thought you left because of *him*.\"",
+                                      "links": [
+                                        {
+                                          "id": 230,
+                                          "title": "Sylvie: \"\"Wait, really? No, this is absolute...\"",
+                                          "articyId": "0x0100005700021AF9",
+                                          "text": "\"Wait, really? No, this is absolutely not true. I like Garte, I really do.\"",
+                                          "links": [
+                                            {
+                                              "id": 146,
+                                              "title": "You: \"\"Didn't he cross a line when he ask...\"",
+                                              "articyId": "0x0100005700021B00",
+                                              "text": "\"Didn't he cross a line when he asked you out?\"",
+                                              "links": [
+                                                {
+                                                  "id": 330,
+                                                  "title": "Sylvie: \"\"No, I was actually flattered, I've...\"",
+                                                  "articyId": "0x0100005700021B28",
+                                                  "text": "\"No, I was actually flattered, I've always liked him. It was just bad timing... with the corpse and all that.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 273,
+                                                      "title": "Sylvie: \"There's a pause. You can almost see...\"",
+                                                      "articyId": "0x0100005700021B36",
+                                                      "text": "There's a pause. You can almost see her on the other side, the telephone cord coiled around her index.",
+                                                      "links": [
+                                                        {
+                                                          "id": 126,
+                                                          "title": "Sylvie: \"\"I didn't know *what* to say to him...\"",
+                                                          "articyId": "0x0100005700021B2F",
+                                                          "text": "\"I didn't know *what* to say to him later. Then you came and destroyed the place. So I left without explaining. I should have told him maybe...\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 127,
+                                                              "title": "You: \"\"I can tell him.\" (Accept.)\"",
+                                                              "articyId": "0x0100005700021B41",
+                                                              "text": "\"I can tell him.\" (Accept.)",
+                                                              "links": [
+                                                                {
+                                                                  "id": 366,
+                                                                  "title": "Sylvie: \"\"Okay, but... please don't mess it...\"",
+                                                                  "articyId": "0x0100005700021B55",
+                                                                  "text": "\"Okay, but... please don't mess it up. Please don't take out your gun or something.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 365,
+                                                              "title": "You: \"\"Understood.\" (Refuse task)\"",
+                                                              "articyId": "0x0100005700021B47",
+                                                              "text": "\"Understood.\" (Refuse task)",
+                                                              "links": [
+                                                                {
+                                                                  "id": 395,
+                                                                  "title": "Sylvie: \"\"Right. Well... Are we almost done...\"",
+                                                                  "articyId": "0x0100005700021B4F",
+                                                                  "text": "\"Right. Well... Are we almost done now, officer?\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 134,
+                                      "title": "You: \"\"You said I was singing. What did I...\"",
+                                      "articyId": "0x0100002F0000A0DF",
+                                      "text": "\"You said I was singing. What did I sing? I'm looking for a song...\"",
+                                      "links": [
+                                        {
+                                          "id": 30,
+                                          "title": "Sylvie: \"\"Oh, all sorts of things. Some disc...\"",
+                                          "articyId": "0x010000210000272E",
+                                          "text": "\"Oh, all sorts of things. Some disco, rock too. So much disco and rock...\"",
+                                          "links": [
+                                            {
+                                              "id": 33,
+                                              "title": "You: \"\"Was I singing... \"The Smallest Chu...\"",
+                                              "articyId": "0x0100002F0000A0BA",
+                                              "text": "\"Was I singing... \"The Smallest Church In Saint-Saëns\"?\"",
+                                              "links": [
+                                                {
+                                                  "id": 213,
+                                                  "title": "Sylvie: \"\"Yes. That's the one you liked to s...\"",
+                                                  "articyId": "0x0100002F0000A0CC",
+                                                  "text": "\"Yes. That's the one you liked to sing along to the *most*. The later it got the more *that one* came on.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 397,
+                                                      "title": "Inland Empire: \"Interesting... you still have to fi...\"",
+                                                      "articyId": "0x0100000600016A41",
+                                                      "text": "Interesting... you still have to find a copy though. Before you can blast it.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 78,
+                                              "title": "You: \"\"Maybe you can help me identify thi...\"",
+                                              "articyId": "0x010000310000AF88",
+                                              "text": "\"Maybe you can help me identify this one particular song...\"",
+                                              "links": [
+                                                {
+                                                  "id": 384,
+                                                  "title": "Sylvie: \"\"Which one would that be?\"\"",
+                                                  "articyId": "0x010000310000AFD0",
+                                                  "text": "\"Which one would that be?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 409,
+                                                      "title": "You: \"\"One that was really *sad*.\"\"",
+                                                      "articyId": "0x010000310000AFD7",
+                                                      "text": "\"One that was really *sad*.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 266,
+                                                          "title": "Sylvie: \"\"Sad? I think the one you mean is \"...\"",
+                                                          "articyId": "0x010000310000AFDE",
+                                                          "text": "\"Sad? I think the one you mean is \"The Smallest Church in Saint-Saëns\". Butchered that right up...\" Her voice carries a tone of disappointment.",
+                                                          "links": [
+                                                            {
+                                                              "id": 6,
+                                                              "title": "Inland Empire: \"Interesting... you still have to fi...\"",
+                                                              "articyId": "0x0100000600016847",
+                                                              "text": "Interesting... you still have to find it, however.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 74,
+                                          "title": "Sylvie: \"\"All sorts of things. The OO. Some...\"",
+                                          "articyId": "0x0100002F0000A0E6",
+                                          "text": "\"All sorts of things. The OO. Some disco, rock too. So much disco and rock...\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 145,
+                                      "title": "You: \"\"Right, thank you for talking with...\"",
+                                      "articyId": "0x0100004C000018CC",
+                                      "text": "\"Right, thank you for talking with me. Take care.\" [Leave.]",
+                                      "links": [
+                                        {
+                                          "id": 41,
+                                          "title": "Sylvie: \"You hear a sigh of relief on the ot...\"",
+                                          "articyId": "0x0100004C000018C6",
+                                          "text": "You hear a sigh of relief on the other end of the radio. Wordless, the call breaks. Then the already familiar voice:",
+                                          "links": [
+                                            {
+                                              "id": 313,
+                                              "title": "Alice: \"\"Anything else I can help you with,...\"",
+                                              "articyId": "0x0100004C000018C0",
+                                              "text": "\"Anything else I can help you with, officer?\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 309,
+                          "title": "Empathy: \"No. She doesn't have a problem with...\"",
+                          "articyId": "0x010000310000AEB3",
+                          "text": "No. She doesn't have a problem with you. It must be someone *else* she's angry about. Some other guy... like *Garte*.",
+                          "links": [
+                            {
+                              "id": 222,
+                              "title": "You: \"Yeah, it's definitely some other gu...\"",
+                              "articyId": "0x010000310000AEBA",
+                              "text": "Yeah, it's definitely some other guy, a guy like *Garte*.",
+                              "links": [
+                                {
+                                  "id": 248,
+                                  "title": "Empathy: \"You know women and their constant *...\"",
+                                  "articyId": "0x010000310000AED5",
+                                  "text": "You know women and their constant *problems*. Yack yack nag nag. How's one supposed to get *the love* going like that?",
+                                  "links": [
+                                    {
+                                      "id": 149,
+                                      "title": "Empathy: \"That's where *you* step in. You're...\"",
+                                      "articyId": "0x0100002B00060B07",
+                                      "text": "That's where *you* step in. You're Lieutenant Love, matchmaker extraordinaire! Help the poor girl out, lest she turns into a *spinster*.",
+                                      "links": [
+                                        {
+                                          "id": 318,
+                                          "title": "Authority: \"Khm... Correction: Lieutenant Doubl...\"",
+                                          "articyId": "0x0100002B0006502F",
+                                          "text": "Khm... Correction: Lieutenant Double-Yefreitor Love.",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 181,
+                                          "title": "You: \"Stop! That's Lieutenant Double-Yefr...\"",
+                                          "articyId": "0x0100002B00065039",
+                                          "text": "Stop! That's Lieutenant Double-Yefreitor Love for you.",
+                                          "links": [
+                                            {
+                                              "id": 73,
+                                              "title": "Empathy: \"Of course. So much more love. But n...\"",
+                                              "articyId": "0x0100002B0006503F",
+                                              "text": "Of course. So much more love. But now -- react!",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 180,
+                                          "title": "You: \"Oh my god, not a spinster!\"",
+                                          "articyId": "0x0100002B00060B17",
+                                          "text": "Oh my god, not a spinster!",
+                                          "links": [
+                                            {
+                                              "id": 277,
+                                              "title": "Empathy: \"Not a spinster, my god!\"",
+                                              "articyId": "0x0100002B00060B39",
+                                              "text": "Not a spinster, my god!",
+                                              "links": [
+                                                {
+                                                  "id": 422,
+                                                  "title": "Empathy: \"You have to intervene on behalf of...\"",
+                                                  "articyId": "0x0100002B00060B58",
+                                                  "text": "You have to intervene on behalf of Love! First calm her down, tell her you've got everything *under control* -- and then go have a boys' talk with Garte himself.",
+                                                  "links": [
+                                                    {
+                                                      "id": 10,
+                                                      "title": "Empathy: \"Think you can do that, Lieutenant L...\"",
+                                                      "articyId": "0x0100002B00060B5F",
+                                                      "text": "Think you can do that, Lieutenant Love?",
+                                                      "links": [
+                                                        {
+                                                          "id": 335,
+                                                          "title": "Rhetoric: \"Whatever this Empathy failure tells...\"",
+                                                          "articyId": "0x010000210000313A",
+                                                          "text": "Whatever this Empathy failure tells you -- *don't* take the quest. It's not wonderful, it's ugly.",
+                                                          "links": []
+                                                        },
+                                                        {
+                                                          "id": 279,
+                                                          "title": "You: \"\"Khm...\" (To the microphone.) \"Are...\"",
+                                                          "articyId": "0x0100002B00060B6C",
+                                                          "text": "\"Khm...\" (To the microphone.) \"Are you still there, kiddo? Listen... I've got everything under control.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 32,
+                                                              "title": "Sylvie: \"\"No. What?\"\"",
+                                                              "articyId": "0x0100002B00060B73",
+                                                              "text": "\"No. What?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 402,
+                                                                  "title": "You: \"\"I know, baby, I know. It's just th...\"",
+                                                                  "articyId": "0x0100002B00060BBD",
+                                                                  "text": "\"I know, baby, I know. It's just that you've got that sweet woman-child thing that makes men go *crazy*. Especially a man like Garte.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 280,
+                                                                      "title": "Sylvie: \"\"Oh god.\" The static appears to bre...\"",
+                                                                      "articyId": "0x0100002B00060BB4",
+                                                                      "text": "\"Oh god.\" The static appears to breathe heavily. \"Please just stay out of my li...\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 307,
+                                                                          "title": "You: \"\"I've got a hunch your love life is...\"",
+                                                                          "articyId": "0x010000310000AE66",
+                                                                          "text": "\"I've got a hunch your love life is about to take a *very* pleasant turn.\" (Give the lieutenant a knowing wink.)",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 308,
+                                                                              "title": "Kim Kitsuragi: \"\"What?\" The lieutenant raises his s...\"",
+                                                                              "articyId": "0x010000310000AE6D",
+                                                                              "text": "\"What?\" The lieutenant raises his shoulders. \"What is it?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 383,
+                                                                                  "title": "You: \"\"You'll see, lieutenant. You will s...\"",
+                                                                                  "articyId": "0x010000310000AE7A",
+                                                                                  "text": "\"You'll see, lieutenant. You will see.\" (Wink again.)",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 17,
+                                                                          "title": "You: \"\"I got a hunch your love life is ab...\"",
+                                                                          "articyId": "0x010000310000AE3B",
+                                                                          "text": "\"I got a hunch your love life is about to take a *very* pleasant turn.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 243,
+                                                                  "title": "You: \"\"You and Garte, right? A little tro...\"",
+                                                                  "articyId": "0x0100002B00060B80",
+                                                                  "text": "\"You and Garte, right? A little trouble under the sheets? Say no more, papa's got this. Big Poppa.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 133,
+                                                                      "title": "Rhetoric: \"God -- what is happening in your HE...\"",
+                                                                      "articyId": "0x0100002B00065056",
+                                                                      "text": "God -- what is happening in your HEAD?!",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 152,
+                                                                          "title": "Electrochemistry: \"Big Big Poppa is happening.\"",
+                                                                          "articyId": "0x0100002B0006505D",
+                                                                          "text": "Big Big Poppa is happening.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 150,
+                                                          "title": "You: \"\"Daddy is going to take you on his...\"",
+                                                          "articyId": "0x0100002B00060B95",
+                                                          "text": "\"Daddy is going to take you on his lap, little darling.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 382,
+                                                              "title": "Sylvie: \"\"...\"\"",
+                                                              "articyId": "0x010000310000AE56",
+                                                              "text": "\"...\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 291,
+                                                                  "title": "Alice: \"\"Call was terminated by the other p...\"",
+                                                                  "articyId": "0x010000310000AE4F",
+                                                                  "text": "\"Call was terminated by the other party. Anything else, officer?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 375,
+                                                                      "title": "Empathy: \"It's *on*. The Love Quest is on --...\"",
+                                                                      "articyId": "0x0100000600016B0F",
+                                                                      "text": "It's *on*. The Love Quest is on -- too late everyone! It's *on*. Take it to Garte now!",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 377,
+                                                          "title": "You: \"Please no. I don't want to say any...\"",
+                                                          "articyId": "0x0100002B00060B9B",
+                                                          "text": "Please no. I don't want to say any of those things. (Refuse the Love Quest -- although it's *wonderful*.)",
+                                                          "links": [
+                                                            {
+                                                              "id": 378,
+                                                              "title": "Empathy: \"You're just a gimp. What, you want...\"",
+                                                              "articyId": "0x0100002B00060BCD",
+                                                              "text": "You're just a gimp. What, you want to be more *empathetic*?",
+                                                              "links": [
+                                                                {
+                                                                  "id": 317,
+                                                                  "title": "Electrochemistry: \"Nothing's wrong, it's just *sssssex...\"",
+                                                                  "articyId": "0x0100002B00060BD3",
+                                                                  "text": "Nothing's wrong, it's just *sssssexuality*.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 348,
+                                                                      "title": "Alice: \"\"Call was terminated by the other p...\"",
+                                                                      "articyId": "0x010000570002193B",
+                                                                      "text": "\"Call was terminated by the other party. Anything else, officer?\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 45,
+                                          "title": "You: \"Yeah. She's a woman. Probably just...\"",
+                                          "articyId": "0x0100002B00060B1D",
+                                          "text": "Yeah. She's a woman. Probably just playing hardball with the goods. Women are just transactional.",
+                                          "links": [
+                                            {
+                                              "id": 352,
+                                              "title": "Empathy: \"Oh yeah. My point exactly. You know...\"",
+                                              "articyId": "0x0100002B00060B87",
+                                              "text": "Oh yeah. My point exactly. You know how they are -- transactional and hysteric. Loony broads.",
+                                              "links": [
+                                                {
+                                                  "id": 401,
+                                                  "title": "Empathy: \"You know what you've got to do. Fir...\"",
+                                                  "articyId": "0x0100002B00060B8E",
+                                                  "text": "You know what you've got to do. First you've got to calm her down, tell her you've got everything *under control* -- then go and have a little boys' talk with Garte himself.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 421,
+                                          "title": "You: \"What am I, deranged? A woman doesn'...\"",
+                                          "articyId": "0x0100002B00060B23",
+                                          "text": "What am I, deranged? A woman doesn't have to be married. She doesn't even have to be in a relationship. Also, feminism.",
+                                          "links": [
+                                            {
+                                              "id": 278,
+                                              "title": "Empathy: \"What *deranged*? I'm just telling t...\"",
+                                              "articyId": "0x0100002B00060B45",
+                                              "text": "What *deranged*? I'm just telling things the way they are. Can't a man even be honest in his *own head* anymore?",
+                                              "links": [
+                                                {
+                                                  "id": 151,
+                                                  "title": "Empathy: \"You have to *act*, Lieutenant Love....\"",
+                                                  "articyId": "0x0100002B00060BEB",
+                                                  "text": "You have to *act*, Lieutenant Love. You have to calm that hysteric girl down, tell her you've got everything under control -- and then go and have a little boys' talk with the man himself.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 132,
+                                          "title": "You: \"I'm happy to help, but maybe I coul...\"",
+                                          "articyId": "0x0100002B00060B29",
+                                          "text": "I'm happy to help, but maybe I could do so without all this internalized misogyny?",
+                                          "links": [
+                                            {
+                                              "id": 212,
+                                              "title": "Empathy: \"What misogyny? I'm just telling thi...\"",
+                                              "articyId": "0x0100002B00060B33",
+                                              "text": "What misogyny? I'm just telling things the way they are. Can't a man be honest in his *own head* anymore?",
+                                              "links": [
+                                                {
+                                                  "id": 11,
+                                                  "title": "Empathy: \"You have to *act*, Lieutenant Love....\"",
+                                                  "articyId": "0x0100002B00060BC5",
+                                                  "text": "You have to *act*, Lieutenant Love. You have to calm that hysteric down, tell it you've got everything under control -- then go and have a little boys' talk with Garte himself.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 18,
+                              "title": "You: \"Uh, okay... but I'm a guy. Sure it...\"",
+                              "articyId": "0x010000310000AEC0",
+                              "text": "Uh, okay... but I'm a guy. Sure it isn't about me?",
+                              "links": [
+                                {
+                                  "id": 325,
+                                  "title": "Empathy: \"Trust me, you wouldn't want to be *...\"",
+                                  "articyId": "0x010000310000AEC8",
+                                  "text": "Trust me, you wouldn't want to be *the guy* here. You know how it is. Yack yack nag nag.",
+                                  "links": [
+                                    {
+                                      "id": 140,
+                                      "title": "Empathy: \"No, you're The Guy  -- you're Lieut...\"",
+                                      "articyId": "0x010000310000AF16",
+                                      "text": "No, you're The Guy  -- you're Lieutenant Love, matchmaker extraordinaire! Help the poor girl out, lest she turns into a *spinster*!",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 337,
+                      "title": "You: \"\"Bye, Sylvie.\"\"",
+                      "articyId": "0x010000310000AE08",
+                      "text": "\"Bye, Sylvie.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Reaction Speed: \"If she used to work in the Whirling...\"",
+      "articyId": "0x010000210000271F",
+      "text": "If she used to work in the Whirling-in-Rags, then you must have met her.",
+      "links": [
+        {
+          "id": 75,
+          "title": "You: \"\"Hello, this is the police calling....\"",
+          "articyId": "0x0100003100006B62",
+          "text": "\"Hello, this is the police calling. I have some questions for you about your last days at work.\"",
+          "links": [
+            {
+              "id": 156,
+              "title": "Sylvie: \"\"Oh, right...\" She recognizes your...\"",
+              "articyId": "0x0100003100006B79",
+              "text": "\"Oh, right...\" She recognizes your voice almost immediately. \"Hello, officer, what can I do for you?\"",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Empathy: \"You can hear resentment in her tone...\"",
+                  "articyId": "0x0100003100006B8C",
+                  "text": "You can hear resentment in her tone -- she's not thrilled to be talking to you again.",
+                  "links": [
+                    {
+                      "id": 147,
+                      "title": "Electrochemistry: \"There is *no* resentment in her ton...\"",
+                      "articyId": "0x010000050000393A",
+                      "text": "There is *no* resentment in her tone. She wants you to ask her out. No question about it.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 87,
+          "title": "You: \"\"Sylvie? I believe we've met before...\"",
+          "articyId": "0x010000040001215C",
+          "text": "\"Sylvie? I believe we've met before. This is me, a detective from the Whirling-in-Rags!\"",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

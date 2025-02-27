@@ -1,0 +1,935 @@
+{
+  "id": "0x0100007D000000D9",
+  "title": "COAST ORB / snow shivers",
+  "description": "If it snows when you cross the desolate beach, Shivers tells you a little about Revachol.",
+  "dialogueTree": [
+    {
+      "id": 22,
+      "title": "Shivers: \"Winter, slow to let go of Revachol,...\"",
+      "articyId": "0x0100007D000003A3",
+      "text": "Winter, slow to let go of Revachol, flecks some more wet snow from above...",
+      "links": [
+        {
+          "id": 60,
+          "title": "You: \"Look around you.\"",
+          "articyId": "0x010000060001742E",
+          "text": "Look around you.",
+          "links": [
+            {
+              "id": 98,
+              "title": "Shivers: \"The snow falls lazily, making the b...\"",
+              "articyId": "0x0100000600017427",
+              "text": "The snow falls lazily, making the beach sand paler still, mixing with the rust-coloured sewage run-off.",
+              "links": [
+                {
+                  "id": 61,
+                  "title": "Shivers: \"And to think -- it seemed as though...\"",
+                  "articyId": "0x0100007D000003B6",
+                  "text": "And to think -- it seemed as though it were already spring.",
+                  "links": [
+                    {
+                      "id": 19,
+                      "title": "You: \"How does it feel?\"",
+                      "articyId": "0x010000060001743F",
+                      "text": "How does it feel?",
+                      "links": [
+                        {
+                          "id": 136,
+                          "title": "Shivers: \"You're warm in your hat and your co...\"",
+                          "articyId": "0x01000081000017B2",
+                          "text": "You're warm in your hat and your coat. Like a well-equipped explorer, you comfortably survey the white landscape.",
+                          "links": [
+                            {
+                              "id": 177,
+                              "title": "Kim Kitsuragi: \"The lieutenant looks at you standin...\"",
+                              "articyId": "0x01000081000018A4",
+                              "text": "The lieutenant looks at you standing there shivering with some concern, but makes no comment.",
+                              "links": [
+                                {
+                                  "id": 166,
+                                  "title": "You: \"What's in the west?\"",
+                                  "articyId": "0x0100007D0000028F",
+                                  "text": "What's in the west?",
+                                  "links": [
+                                    {
+                                      "id": 27,
+                                      "title": "Shivers: \"More winding coastline lined with a...\"",
+                                      "articyId": "0x01000081000018E2",
+                                      "text": "More winding coastline lined with abandoned buildings. Crumbling piers, salt water lapping at their dark piles. Grey and red, forgotten city blocks. What remains of the pre-revolutionary effort to gentrify the coast.",
+                                      "links": [
+                                        {
+                                          "id": 178,
+                                          "title": "You: \"And beyond that?\"",
+                                          "articyId": "0x01000081000018E9",
+                                          "text": "And beyond that?",
+                                          "links": [
+                                            {
+                                              "id": 124,
+                                              "title": "Shivers: \"The waters turn black. Coal City in...\"",
+                                              "articyId": "0x01000081000018F0",
+                                              "text": "The waters turn black. Coal City in the shadow of Saint-Martin, a boom town, back when coal extracted from countless shafts near the city was needed to power Revachol.",
+                                              "links": [
+                                                {
+                                                  "id": 83,
+                                                  "title": "Shivers: \"No more. The coal was supplanted by...\"",
+                                                  "articyId": "0x01000081000018F7",
+                                                  "text": "No more. The coal was supplanted by petroleum from the ocean floor and hydropower from the Esperance. Everything crumbled. These days, only the weakest remain in Coal City. Their hopes of getting rich linger in the defunct shafts under their feet.",
+                                                  "links": [
+                                                    {
+                                                      "id": 20,
+                                                      "title": "You: \"What is there?\"",
+                                                      "articyId": "0x0100000600017456",
+                                                      "text": "What is there?",
+                                                      "links": [
+                                                        {
+                                                          "id": 32,
+                                                          "title": "Shivers: \"Below the old mines -- L'Ossuaire M...\"",
+                                                          "articyId": "0x010000060001745C",
+                                                          "text": "Below the old mines -- L'Ossuaire Municipal, Revachol's underground cemetery. *Les petits rats* brave the underground passageways, trying to get to Le Royaume...",
+                                                          "links": [
+                                                            {
+                                                              "id": 95,
+                                                              "title": "You: \"Le Royaume...\"",
+                                                              "articyId": "0x010000810000197E",
+                                                              "text": "Le Royaume...",
+                                                              "links": [
+                                                                {
+                                                                  "id": 197,
+                                                                  "title": "Shivers: \"...where the Filippian kings were i...\"",
+                                                                  "articyId": "0x0100008100001996",
+                                                                  "text": "...where the Filippian kings were interred, with their doctors and their admirals. Mausoleums, burial chambers, leaf gold still remains on the Double Door of the Morning.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 181,
+                                                                      "title": "You: \"That's where Cuno said he's gonna g...\"",
+                                                                      "articyId": "0x0100000700009839",
+                                                                      "text": "That's where Cuno said he's gonna go...",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 182,
+                                                                          "title": "Shivers: \"Yes. To peel the gold off with his...\"",
+                                                                          "articyId": "0x0100000700009842",
+                                                                          "text": "Yes. To peel the gold off with his fingernails.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 168,
+                                                              "title": "You: \"Les *petits rats*...\"",
+                                                              "articyId": "0x0100008100001984",
+                                                              "text": "Les *petits rats*...",
+                                                              "links": [
+                                                                {
+                                                                  "id": 74,
+                                                                  "title": "Shivers: \"Children under 14. They go undergro...\"",
+                                                                  "articyId": "0x01000081000019A9",
+                                                                  "text": "Children under 14. They go underground, looking for artefacts to sell to foreign museums -- and for fabled relics. Their parents let them. They go deeper...",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 125,
+                                                                      "title": "You: \"Deeper...\"",
+                                                                      "articyId": "0x010000810000198A",
+                                                                      "text": "Deeper...",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 72,
+                                                                          "title": "Shivers: \"...after rubies, melchiorite, lapis...\"",
+                                                                          "articyId": "0x01000081000019D0",
+                                                                          "text": "...after rubies, melchiorite, lapis lazuli plundered from Safre and Seol during the time of the Suzerain. In the burial chambers of the kings: Grand Old Filippe, Guillaume II, and even in the mausoleum of Filippe the Opulent.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 137,
+                                                                              "title": "Shivers: \"Two kilometres underground, in a wi...\"",
+                                                                              "articyId": "0x01000081000019DF",
+                                                                              "text": "Two kilometres underground, in a winding shaft along whose walls mirrors have been placed so that daylight may eternally fall upon the richest of all the kings.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 115,
+                                                                                  "title": "Shivers: \"The mausoleum contains untold quant...\"",
+                                                                                  "articyId": "0x01000081000019E6",
+                                                                                  "text": "The mausoleum contains untold quantities of gold -- and that special, purest-of-the-pure magenta cocaine favoured by Revacholian royalty.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 36,
+                                                                                      "title": "Electrochemistry: \"Did someone say *untold quantities...\"",
+                                                                                      "articyId": "0x01000081000019F4",
+                                                                                      "text": "Did someone say *untold quantities of cocaine*? Drop everything immediately and go looking for this hoard!",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 96,
+                                                                                          "title": "Logic: \"How can it be pure if it's magenta?\"",
+                                                                                          "articyId": "0x01000081000019ED",
+                                                                                          "text": "How can it be pure if it's magenta?",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 198,
+                                                                      "title": "You: \"How can it be pure if it's magenta?\"",
+                                                                      "articyId": "0x01000081000019FC",
+                                                                      "text": "How can it be pure if it's magenta?",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 55,
+                                                                          "title": "Shivers: \"Snow falls and there is no answer....\"",
+                                                                          "articyId": "0x0100008100001A29",
+                                                                          "text": "Snow falls and there is no answer. Some things are not for mortals to know.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 85,
+                                                                      "title": "You: \"Wipe the snow from your shoulder.\"",
+                                                                      "articyId": "0x01000081000019D8",
+                                                                      "text": "Wipe the snow from your shoulder.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 200,
+                                                                          "title": "Shivers: \"Few *petits rats* return from the s...\"",
+                                                                          "articyId": "0x0100008100001A13",
+                                                                          "text": "Few *petits rats* return from the shafts -- and even fewer find what they're looking for. A small child steps out of a black tunnel, with silver trinkets in her pockets.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 63,
+                                                                              "title": "Shivers: \"All around her, white snow on the e...\"",
+                                                                              "articyId": "0x0100008100001A21",
+                                                                              "text": "All around her, white snow on the extinguished coke furnaces, and on the weather-worn shacks, where fathers beat their sons after drinking. The snow melts on your fingers, turning to water.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "title": "You: \"What's in the east?\"",
+                                  "articyId": "0x0100007D000001B7",
+                                  "text": "What's in the east?",
+                                  "links": [
+                                    {
+                                      "id": 13,
+                                      "title": "Shivers: \"The canal you crossed to get here,...\"",
+                                      "articyId": "0x01000081000018B5",
+                                      "text": "The canal you crossed to get here, and beyond it -- Martinaise proper, the district the police forgot to police. There is laughter, lights, attempts at entrepreneurial activity, cynicism.",
+                                      "links": [
+                                        {
+                                          "id": 192,
+                                          "title": "Shivers: \"Someone is scraping snow off their...\"",
+                                          "articyId": "0x01000081000018BC",
+                                          "text": "Someone is scraping snow off their windshield. At the roundabout, in the midst of which a statue of Filippe the III serves as a destination for grade-school field trips and a fine perch for winter birds.",
+                                          "links": [
+                                            {
+                                              "id": 48,
+                                              "title": "You: \"That's all?\"",
+                                              "articyId": "0x01000081000018CC",
+                                              "text": "That's all?",
+                                              "links": [
+                                                {
+                                                  "id": 123,
+                                                  "title": "Shivers: \"Like all monuments, it's also a war...\"",
+                                                  "articyId": "0x01000081000018D3",
+                                                  "text": "Like all monuments, it's also a warning. Six-story ruins on the south side of the roundabout cast a long shadow over the profligate king.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 38,
+                                              "title": "You: \"And further...\"",
+                                              "articyId": "0x0100008100001A4B",
+                                              "text": "And further...",
+                                              "links": [
+                                                {
+                                                  "id": 50,
+                                                  "title": "Shivers: \"A fenced-off yard. There's a truck...\"",
+                                                  "articyId": "0x0100008100001A52",
+                                                  "text": "A fenced-off yard. There's a truck belonging to a logistics company parked next to the gate. Bright light from a building behind the fence reflects off its hood.",
+                                                  "links": [
+                                                    {
+                                                      "id": 149,
+                                                      "title": "Conceptualization: \"Clean white light, coming from the...\"",
+                                                      "articyId": "0x0100008100001A5A",
+                                                      "text": "Clean white light, coming from the windows of a clean cube-shaped office building hidden amidst ruins. A secret...",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 122,
+                                  "title": "You: \"What's in the north?\"",
+                                  "articyId": "0x0100007D00000414",
+                                  "text": "What's in the north?",
+                                  "links": [
+                                    {
+                                      "id": 172,
+                                      "title": "Shivers: \"An abandoned church that's being tu...\"",
+                                      "articyId": "0x0100008100003245",
+                                      "text": "An abandoned church that's being turned into a dance club. Four youths are hard at work there, making it ever harder core.",
+                                      "links": [
+                                        {
+                                          "id": 59,
+                                          "title": "You: \"And further north?\"",
+                                          "articyId": "0x0100008100003254",
+                                          "text": "And further north?",
+                                          "links": [
+                                            {
+                                              "id": 8,
+                                              "title": "Shivers: \"A serpentine strip of land weaving...\"",
+                                              "articyId": "0x010000810000325E",
+                                              "text": "A serpentine strip of land weaving its way into the Martinaise inlet. Unfortunates on the run -- from the law, from themselves -- sometimes hide out on nearby islets. Little dots in the ocean that are occasionally submerged when the tide is high and the weather foul.",
+                                              "links": [
+                                                {
+                                                  "id": 133,
+                                                  "title": "You: \"And on the islets?\"",
+                                                  "articyId": "0x010000810000329B",
+                                                  "text": "And on the islets?",
+                                                  "links": [
+                                                    {
+                                                      "id": 156,
+                                                      "title": "Shivers: \"The remains of a camp on a jagged p...\"",
+                                                      "articyId": "0x010000810000326C",
+                                                      "text": "The remains of a camp on a jagged piece of rock -- a tent, old dishes and cutlery. Long since abandoned. A hermit crab scuttles among the debris, looking for a new shell.",
+                                                      "links": [
+                                                        {
+                                                          "id": 90,
+                                                          "title": "Shivers: \"Further out, the lights burn bright...\"",
+                                                          "articyId": "0x0100008100003272",
+                                                          "text": "Further out, the lights burn bright on Résurrection; way beyond Martinaise -- a popular spa destination for ample-bodied Ozonne kids with equally ample pockets.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 53,
+                                                  "title": "You: \"And on the other side of the inlet?\"",
+                                                  "articyId": "0x01000081000032A3",
+                                                  "text": "And on the other side of the inlet?",
+                                                  "links": [
+                                                    {
+                                                      "id": 165,
+                                                      "title": "Shivers: \"Then there's Ozonne... but the snow...\"",
+                                                      "articyId": "0x0100008100003265",
+                                                      "text": "Then there's Ozonne... but the snow falls too thick. You cannot see that far.",
+                                                      "links": [
+                                                        {
+                                                          "id": 201,
+                                                          "title": "You: \"Before that? Before the curtains ar...\"",
+                                                          "articyId": "0x010000810000327B",
+                                                          "text": "Before that? Before the curtains are drawn...",
+                                                          "links": [
+                                                            {
+                                                              "id": 80,
+                                                              "title": "Shivers: \"The Bay of Revachol, vastness, grea...\"",
+                                                              "articyId": "0x0100008100003282",
+                                                              "text": "The Bay of Revachol, vastness, great depth -- over 1200 m at its deepest. Water, air brinier than here. It is crisscrossed by huge cargo ships bearing company logos: Wild Pines, ZAMM, Moriyn.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 81,
+                                                                  "title": "Shivers: \"And, at the farthest reaches of the...\"",
+                                                                  "articyId": "0x0100008100003289",
+                                                                  "text": "And, at the farthest reaches of the Bay of Revachol -- the shadow of Coalition Warship Archer, on perpetual patrol duty, ready to unleash artillery fire if you were to rise up against the market. You shudder.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 17,
+                                      "title": "Shivers: \"The abandoned church. One of two re...\"",
+                                      "articyId": "0x0100008100003232",
+                                      "text": "The abandoned church. One of two remaining stave churches which were collectively called les Sept Soeurs. The other six sisters were destroyed during the Revolution.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 52,
+                                      "title": "Shivers: \"The abandoned church, its walls cov...\"",
+                                      "articyId": "0x0100008100003239",
+                                      "text": "The abandoned church, its walls covered with hoarfrost now. One of les Sept Soeurs. The other six sisters were destroyed during the Revolution.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 159,
+                                  "title": "You: \"What's in the south?\"",
+                                  "articyId": "0x0100007D0000034A",
+                                  "text": "What's in the south?",
+                                  "links": [
+                                    {
+                                      "id": 86,
+                                      "title": "Shivers: \"The raised motorway, 8/81, with veh...\"",
+                                      "articyId": "0x0100008100001A7B",
+                                      "text": "The raised motorway, 8/81, with vehicles whooshing past one another day and night, while those who reside beneath the motorway attempt to carry on with their lives in the snow and the slush. And south of the 8/81 is the Pox.",
+                                      "links": [
+                                        {
+                                          "id": 139,
+                                          "title": "You: \"The Pox...\"",
+                                          "articyId": "0x010000810000310B",
+                                          "text": "The Pox...",
+                                          "links": [
+                                            {
+                                              "id": 75,
+                                              "title": "Shivers: \"...was once a park, a place for ref...\"",
+                                              "articyId": "0x0100008100001A8D",
+                                              "text": "...was once a park, a place for reflection and recuperation for the patients of the Old Military Hospital. In the Twenties, it was used as a quarantine centre during a measles outbreak that killed many children. Most everyone has avoided the hospital and surrounding park ever since.",
+                                              "links": [
+                                                {
+                                                  "id": 169,
+                                                  "title": "Shivers: \"The Pox is completely wild now. Eve...\"",
+                                                  "articyId": "0x0100008100001A99",
+                                                  "text": "The Pox is completely wild now. Evergreen thickets covered in snow and industrial dust. Feral dogs and even wolves roaming in packs. The police try to keep the deepest corners cordoned off.",
+                                                  "links": [
+                                                    {
+                                                      "id": 67,
+                                                      "title": "You: \"But still...\"",
+                                                      "articyId": "0x010000060001DE24",
+                                                      "text": "But still...",
+                                                      "links": [
+                                                        {
+                                                          "id": 56,
+                                                          "title": "Shivers: \"...heavy drug users do slip through...\"",
+                                                          "articyId": "0x0100008100001AA0",
+                                                          "text": "...heavy drug users do slip through and hole up in the Old Military Hospital, hoping to find something to get high on among the hastily abandoned supplies. Or just to overdose in peace.",
+                                                          "links": [
+                                                            {
+                                                              "id": 179,
+                                                              "title": "You: \"Further south...\"",
+                                                              "articyId": "0x0100008100001AA7",
+                                                              "text": "Further south...",
+                                                              "links": [
+                                                                {
+                                                                  "id": 57,
+                                                                  "title": "Shivers: \"A line of motor garages with armour...\"",
+                                                                  "articyId": "0x0100008100001AAE",
+                                                                  "text": "A line of motor garages with armoured carapaces, hunched in the cold. A mechanic is hard at work, patching up bullet holes in the side of a Coupris 40. These are the garages of Precinct 41. Snow settles on the roof of the re-purposed silk mill that serves as your station. Shivering RCM personnel hurry in and out of the main entrance.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 28,
+                                                                      "title": "Esprit de Corps: \"Patrol Officer Judit Minot stands i...\"",
+                                                                      "articyId": "0x0100008100001AB7",
+                                                                      "text": "Patrol Officer Judit Minot stands in the corner, beneath the narrow awning that hangs over the main entrance. She is watching the snow absent-mindedly as she searches for her gloves in her briefcase.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 29,
+                                                                          "title": "Judit Minot: \"\"Where are hell are they...\" she mu...\"",
+                                                                          "articyId": "0x0100008100001AC4",
+                                                                          "text": "\"Where are hell are they...\" she mutters under her breath.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 30,
+                                                                              "title": "Nix Gottlieb: \"The surgeon watches her for a momen...\"",
+                                                                              "articyId": "0x01000081000031A3",
+                                                                              "text": "The surgeon watches her for a moment, pulling on his cigarette. \"You know, it's not so cold that you're going to get frostbite without your gloves.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 131,
+                                                                                  "title": "Judit Minot: \"She nods, then looks down at her ha...\"",
+                                                                                  "articyId": "0x01000081000031AA",
+                                                                                  "text": "She nods, then looks down at her hands. No frostbite, sure, but a web of thin red cracks around the wrists. She is visibly embarrassed by the delicacy of her skin.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 164,
+                                                                                      "title": "Judit Minot: \"Suddenly, she smiles at some though...\"",
+                                                                                      "articyId": "0x01000081000031B1",
+                                                                                      "text": "Suddenly, she smiles at some thought that had just come to her, nods to the surgeon again, and sprints down the stairs, gloveless, into the falling snow.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 58,
+                                                                      "title": "Esprit de Corps: \"Satellite-Officer Jean Vicquemare r...\"",
+                                                                      "articyId": "0x0100008100001B1F",
+                                                                      "text": "Satellite-Officer Jean Vicquemare rushes down the station stairs, angrily hunched over in the falling slush.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 6,
+                                                                          "title": "Esprit de Corps: \"On the bridge, Officers Torson and...\"",
+                                                                          "articyId": "0x0100008100001B4E",
+                                                                          "text": "On the bridge, Officers Torson and McLaine are standing guard. The muscular Torson wears jeans and a leather jacket. When Vicquemare passes him, the young man remarks...",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 76,
+                                                                              "title": "Mack Torson: \"\"Where's your homo, homey?\"\"",
+                                                                              "articyId": "0x0100008100001B48",
+                                                                              "text": "\"Where's your homo, homey?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 127,
+                                                                                  "title": "Jean Vicquemare: \"\"What?\"\"",
+                                                                                  "articyId": "0x0100008100001B0D",
+                                                                                  "text": "\"What?\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 103,
+                                                                                      "title": "Chester McLaine: \"\"It's not like that. They're what i...\"",
+                                                                                      "articyId": "0x0100008100001B01",
+                                                                                      "text": "\"It's not like that. They're what is called *hetero-sexual life partners*. They have a battle-tested relationship. A 'bröderbund', if you will.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 87,
+                                                                                          "title": "Jean Vicquemare: \"\"Huh? Yeah.\" He takes out his glove...\"",
+                                                                                          "articyId": "0x0100008100001B19",
+                                                                                          "text": "\"Huh? Yeah.\" He takes out his gloves and struggles to pull them onto his hands.",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 153,
+                                                                                              "title": "Mack Torson: \"\"Hetero... sexual. Life... partners.\"\"",
+                                                                                              "articyId": "0x0100008100001B25",
+                                                                                              "text": "\"Hetero... sexual. Life... partners.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 14,
+                                                                                                  "title": "Jean Vicquemare: \"\"Funny apery.\" Vicquemare finally m...\"",
+                                                                                                  "articyId": "0x0100008100001B31",
+                                                                                                  "text": "\"Funny apery.\" Vicquemare finally manages to pull his gloves on. There's a small tear along the inside seam of the left glove. \"Male-centric workplace humour. Have you seen him?\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 138,
+                                                                                                      "title": "Mack Torson: \"\"Is there something wrong?\"\"",
+                                                                                                      "articyId": "0x0100008100001B3D",
+                                                                                                      "text": "\"Is there something wrong?\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 180,
+                                                                                                          "title": "Jean Vicquemare: \"\"No, nothing. It's just... Judit we...\"",
+                                                                                                          "articyId": "0x0100008100001B07",
+                                                                                                          "text": "\"No, nothing. It's just... Judit went to his place and found the Monday mail unopened. I think he's still there. You didn't, like, drink with him over the weekend did you?\"",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 104,
+                                                                                                              "title": "Chester McLaine: \"\"That would have been irresponsible.\"\"",
+                                                                                                              "articyId": "0x0100008100001B2B",
+                                                                                                              "text": "\"That would have been irresponsible.\"",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 128,
+                                                                                                                  "title": "Mack Torson: \"\"With that animal? Never again, man...\"",
+                                                                                                                  "articyId": "0x0100008100001B13",
+                                                                                                                  "text": "\"With that animal? Never again, man. What, is he still down there, in... you know, south of the interchange? The... what was it?\"",
+                                                                                                                  "links": [
+                                                                                                                    {
+                                                                                                                      "id": 88,
+                                                                                                                      "title": "Jean Vicquemare: \"\"In Martinaise. He's in Martinaise.\"\"",
+                                                                                                                      "articyId": "0x0100008100001B37",
+                                                                                                                      "text": "\"In Martinaise. He's in Martinaise.\"",
+                                                                                                                      "links": []
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 163,
+                                                                          "title": "Esprit de Corps: \"It's the only home you have now. Bu...\"",
+                                                                          "articyId": "0x0100008100001B5E",
+                                                                          "text": "It's the only home you have now. But you can't go back. Not like this.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 171,
+                                                                      "title": "Mack Torson: \"\"Wonder if Vic's found his hetero-s...\"",
+                                                                      "articyId": "0x01000081000031E8",
+                                                                      "text": "\"Wonder if Vic's found his hetero-sexual life partner yet.\" The man in the fishnet wifebeater looks over at Chester McLaine.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 155,
+                                                                          "title": "Chester McLaine: \"\"Damn, I don't know. Even a real *b...\"",
+                                                                          "articyId": "0x01000081000031EE",
+                                                                          "text": "\"Damn, I don't know. Even a real *bröderbund* like that can't survive everything...\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 89,
+                                                                      "title": "Shivers: \"Around you, the snow continues to f...\"",
+                                                                      "articyId": "0x0100008100001B58",
+                                                                      "text": "Around you, the snow continues to fall. To the west, the ocean swells.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 73,
+                                                                          "title": "You: \"No, it was home. I want more.\"",
+                                                                          "articyId": "0x010000810000315D",
+                                                                          "text": "No, it was home. I want more.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 15,
+                                                                              "title": "Shivers: \"The stairs descend -- to Central Ja...\"",
+                                                                              "articyId": "0x010000810000319A",
+                                                                              "text": "The stairs descend -- to Central Jamrock. A man named Kuklov has a snow-covered stall there, in the market across the bridge. He sells kebab infested with fly larvae to your colleagues who believe eating it will make them immune to food poisoning.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 7,
+                                                                                  "title": "Shivers: \"Snow falls on the utility district:...\"",
+                                                                                  "articyId": "0x01000081000031B9",
+                                                                                  "text": "Snow falls on the utility district: the library, the florist, the Saramirizian restaurant that offers homemade wine. And also on the brothels and drug dens, and the chop shops of the zemlyaki.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 16,
+                                                                                      "title": "Shivers: \"All of this built around a lake tha...\"",
+                                                                                      "articyId": "0x01000081000031C3",
+                                                                                      "text": "All of this built around a lake that formed in a meteorite strike. At the centre of this lake, there is a little ship. There are lights at the bottom of its hull. They are lights directed toward the sea floor, looking for something, like whiskers...",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 82,
+                                                                                          "title": "You: \"For what?\"",
+                                                                                          "articyId": "0x0100000600017477",
+                                                                                          "text": "For what?",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 91,
+                                                                          "title": "You: \"Look around.\"",
+                                                                          "articyId": "0x0100000600017467",
+                                                                          "text": "Look around.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 2,
+                                                                              "title": "Shivers: \"A chill comes over you, crawling do...\"",
+                                                                              "articyId": "0x010000060001746F",
+                                                                              "text": "A chill comes over you, crawling down your back. The sand under your feet is wet. Somewhere in the south, tarpaulin flap in the wind.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 170,
+                                      "title": "Shivers: \"The raised motorway, 8/81, separati...\"",
+                                      "articyId": "0x01000081000030FD",
+                                      "text": "The raised motorway, 8/81, separating Martinaise from Jamrock. Vehicles whoosh past one another day and night, while those who reside in the labyrinthine alleyways beneath the motorway attempt to carry on with their lives in the snow and the slush. And south of the 8/81 is the Pox.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 43,
+                                  "title": "You: \"Where is Ruby?\"",
+                                  "articyId": "0x010000060001DE2C",
+                                  "text": "Where is Ruby?",
+                                  "links": [
+                                    {
+                                      "id": 92,
+                                      "title": "Shivers: \"Near. Snow falls into dark water. S...\"",
+                                      "articyId": "0x010000060001DE33",
+                                      "text": "Near. Snow falls into dark water. She prays, though she doesn't believe. There is a hum in the air.",
+                                      "links": [
+                                        {
+                                          "id": 143,
+                                          "title": "Shivers: \"That's all.\"",
+                                          "articyId": "0x010000060001DE3A",
+                                          "text": "That's all.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 94,
+                                  "title": "You: \"What's above?\"",
+                                  "articyId": "0x010000810000193F",
+                                  "text": "What's above?",
+                                  "links": [
+                                    {
+                                      "id": 62,
+                                      "title": "Shivers: \"More coalition aerostatics. Occasio...\"",
+                                      "articyId": "0x0100008100001956",
+                                      "text": "More coalition aerostatics. Occasionally, lights flash as they manoeuvre through the falling snow. One large airship carries crates in its belly.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 114,
+                                      "title": "Shivers: \"Coalition aerostatics hang like app...\"",
+                                      "articyId": "0x0100008100001945",
+                                      "text": "Coalition aerostatics hang like apparitions under the cloud cover. Occasionally, lights flash as they manoeuvre through the falling snow.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 84,
+                                  "title": "You: \"What's below me?\"",
+                                  "articyId": "0x0100008100001939",
+                                  "text": "What's below me?",
+                                  "links": [
+                                    {
+                                      "id": 193,
+                                      "title": "Shivers: \"Layer upon layer of sand poisoned w...\"",
+                                      "articyId": "0x0100008100001933",
+                                      "text": "Layer upon layer of sand poisoned with industrial run-off. The storm drainage. Hidden bunkers. Rats scuttle...",
+                                      "links": [
+                                        {
+                                          "id": 157,
+                                          "title": "You: \"Tell me a secret of the sands, wind...\"",
+                                          "articyId": "0x0100000600019697",
+                                          "text": "Tell me a secret of the sands, wind.",
+                                          "links": [
+                                            {
+                                              "id": 3,
+                                              "title": "Shivers: \"Someone's stuffed a big old polar a...\"",
+                                              "articyId": "0x010000060001968A",
+                                              "text": "Someone's stuffed a big old polar anorak into a concrete pipe under the boardwalk. It would keep you warm. You will probably never happen across it, but who knows.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 109,
+                                          "title": "You: \"No need for secrets.\"",
+                                          "articyId": "0x01000006000196A8",
+                                          "text": "No need for secrets.",
+                                          "links": [
+                                            {
+                                              "id": 119,
+                                              "title": "Shivers: \"No need for anything anymore.\"",
+                                              "articyId": "0x01000006000196AE",
+                                              "text": "No need for anything anymore.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 21,
+                                  "title": "You: \"Stomp your feet for warmth, brushin...\"",
+                                  "articyId": "0x0100007D00000194",
+                                  "text": "Stomp your feet for warmth, brushing off the snow. [Finish thought.]",
+                                  "links": [
+                                    {
+                                      "id": 33,
+                                      "title": "Kim Kitsuragi: \"\"We should keep moving. Who knows w...\"",
+                                      "articyId": "0x0100007D0000019A",
+                                      "text": "\"We should keep moving. Who knows when this snow will let up?\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 47,
+                                      "title": "Shivers: \"The spring thaw will come in earnes...\"",
+                                      "articyId": "0x0100007D00000125",
+                                      "text": "The spring thaw will come in earnest. Just not yet.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 70,
+                              "title": "Kim Kitsuragi: \"The lieutenant looks at your feet w...\"",
+                              "articyId": "0x01000081000018AA",
+                              "text": "The lieutenant looks at your feet with some concern, but makes no comment.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 69,
+                          "title": "Shivers: \"The melting snow seeps through your...\"",
+                          "articyId": "0x010000810000183B",
+                          "text": "The melting snow seeps through your thin clothes. Grandmothers don't let their grandchildren out dressed so lightly in this weather. At least your hair is protected from getting wet and sticking together. You look around...",
+                          "links": []
+                        },
+                        {
+                          "id": 5,
+                          "title": "Shivers: \"Your teeth chatter as the snow melt...\"",
+                          "articyId": "0x0100008100001845",
+                          "text": "Your teeth chatter as the snow melts on your exposed skin, running down your chest and your back in icy rivulets. Your hat is of little help. To distract yourself, you look around...",
+                          "links": []
+                        },
+                        {
+                          "id": 167,
+                          "title": "Shivers: \"You're warm in your coat, though yo...\"",
+                          "articyId": "0x010000810000184F",
+                          "text": "You're warm in your coat, though your cold, damp hair sticks to your head unpleasantly -- you should have a hat. You survey the landscape around you.",
+                          "links": []
+                        },
+                        {
+                          "id": 147,
+                          "title": "Shivers: \"The melting snow seeps through your...\"",
+                          "articyId": "0x0100008100001872",
+                          "text": "The melting snow seeps through your thin clothes. Grandmothers don't let their grandchildren out dressed so lightly in this weather. You look around...",
+                          "links": []
+                        },
+                        {
+                          "id": 148,
+                          "title": "Shivers: \"Your teeth chatter as the snow melt...\"",
+                          "articyId": "0x0100008100001888",
+                          "text": "Your teeth chatter as the snow melts on your exposed skin, running down your chest and your back in icy rivulets. To distract yourself, you look around...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 135,
+                  "title": "Shivers: \"It has been a cold year. All things...\"",
+                  "articyId": "0x0100008100001742",
+                  "text": "It has been a cold year. All things waiting for spring will have to wait a bit longer.",
+                  "links": [
+                    {
+                      "id": 54,
+                      "title": "You: \"What am I doing?\"",
+                      "articyId": "0x0100007D000003B0",
+                      "text": "What am I doing?",
+                      "links": [
+                        {
+                          "id": 68,
+                          "title": "Shivers: \"Looking up at the sky, melted snow...\"",
+                          "articyId": "0x0100008100001813",
+                          "text": "Looking up at the sky, melted snow dripping from your hair...",
+                          "links": [
+                            {
+                              "id": 23,
+                              "title": "You: \"What do I see?\"",
+                              "articyId": "0x010000810000181B",
+                              "text": "What do I see?",
+                              "links": [
+                                {
+                                  "id": 176,
+                                  "title": "Shivers: \"The sky is full of great battleship...\"",
+                                  "articyId": "0x0100008100001821",
+                                  "text": "The sky is full of great battleships. White clouds collide with one another, and the world is drenched with their debris.",
+                                  "links": [
+                                    {
+                                      "id": 99,
+                                      "title": "You: \"How does it feel?\"",
+                                      "articyId": "0x0100008100001827",
+                                      "text": "How does it feel?",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 121,
+          "title": "You: \"Shake the shivers off. [Discard tho...\"",
+          "articyId": "0x0100007D00000317",
+          "text": "Shake the shivers off. [Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

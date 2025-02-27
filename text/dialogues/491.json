@@ -1,0 +1,106 @@
+{
+  "id": "0x0100007200003D49",
+  "title": "CHURCH ORB / figurine",
+  "description": "this pops up and tells you you should give dolores dei your figurine",
+  "dialogueTree": [
+    {
+      "id": 9,
+      "title": "Reaction Speed: \"Hey! Her Innocence Dolores Dei like...\"",
+      "articyId": "0x0100007200003D53",
+      "text": "Hey! Her Innocence Dolores Dei liked little figurines, right? Liked holding little men between her fingers, remember?",
+      "links": [
+        {
+          "id": 5,
+          "title": "You: \"What?\"",
+          "articyId": "0x0100007200003D60",
+          "text": "What?",
+          "links": [
+            {
+              "id": 19,
+              "title": "Reaction Speed: \"You have the Headless FALN Rider fi...\"",
+              "articyId": "0x0100007200003D79",
+              "text": "You have the Headless FALN Rider figurine. You should give it to her. Win her back!",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "You: \"What? (Look around.) Win who back?...\"",
+                  "articyId": "0x0100007200003DA7",
+                  "text": "What? (Look around.) Win who back? I can't win her back, she's a long dead historical figure.",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Reaction Speed: \"Don't be so pessimistic. Love doesn...\"",
+                      "articyId": "0x0100007200003DBA",
+                      "text": "Don't be so pessimistic. Love doesn't die that easily!",
+                      "links": [
+                        {
+                          "id": 13,
+                          "title": "Inland Empire: \"This isn't funny... you have a bad...\"",
+                          "articyId": "0x0100007200003DC1",
+                          "text": "This isn't funny... you have a bad feeling about this one.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "title": "You: \"I should yes. This is a TASK of min...\"",
+                  "articyId": "0x0100007200003DAD",
+                  "text": "I should yes. This is a TASK of mine now.",
+                  "links": [
+                    {
+                      "id": 15,
+                      "title": "Reaction Speed: \"So very, very, *very* nifty... nift...\"",
+                      "articyId": "0x0100007200003DCC",
+                      "text": "So very, very, *very* nifty... nifty and mysterious. This is surely what the figurines are for!",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 11,
+                  "title": "You: \"Forget about this... [Discard thoug...\"",
+                  "articyId": "0x0100007200003DB3",
+                  "text": "Forget about this... [Discard thought.]",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "title": "Reaction Speed: \"You have the revolutionary soldier...\"",
+              "articyId": "0x0100007200003D87",
+              "text": "You have the revolutionary soldier figurine. You should give it to her. Win her back!",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"No, I don't remember anything, I do...\"",
+          "articyId": "0x0100007200003D66",
+          "text": "No, I don't remember anything, I don't want to think about this. Good bye. [Discard thought.]",
+          "links": [
+            {
+              "id": 10,
+              "title": "Reaction Speed: \"No... it would have been *beautiful...\"",
+              "articyId": "0x0100007200003D91",
+              "text": "No... it would have been *beautiful*. Really tiny. Thoughtful. Clever!",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Volition: \"Whatever this was, it feels like yo...\"",
+                  "articyId": "0x0100007200003D97",
+                  "text": "Whatever this was, it feels like you made the right choice not to peek into it.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

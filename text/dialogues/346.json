@@ -1,0 +1,232 @@
+{
+  "id": "0x01000057000003AD",
+  "title": "DOOMED / CURTAINS",
+  "description": "Safety Curtains blocking entrance to Dicemaker. (p.s. they are made of metal not wood, apparently)",
+  "dialogueTree": [
+    {
+      "id": 62,
+      "title": "Safety Curtains: \"As before, an iron safety curtain c...\"",
+      "articyId": "0x010000060001A4B2",
+      "text": "As before, an iron safety curtain curves before your eyes. It covers half the room -- blocking the way into a colossal industrial chimney.",
+      "links": [
+        {
+          "id": 45,
+          "title": "Logic: \"This is directly above the central...\"",
+          "articyId": "0x0100009200001151",
+          "text": "This is directly above the central furnace in the cellar. The voices probably came from here.",
+          "links": []
+        },
+        {
+          "id": 55,
+          "title": "You: \"Knock on it.\"",
+          "articyId": "0x0100005700001F98",
+          "text": "Knock on it.",
+          "links": [
+            {
+              "id": 16,
+              "title": "Safety Curtains: \"What an odd thing to do.... Nothing...\"",
+              "articyId": "0x0100005700001FA7",
+              "text": "What an odd thing to do.... Nothing happens.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"Knock on it harder.\"",
+          "articyId": "0x0100005700001FB2",
+          "text": "Knock on it harder.",
+          "links": [
+            {
+              "id": 38,
+              "title": "Safety Curtains: \"Still nothing. No one's home.\"",
+              "articyId": "0x0100005700001FB8",
+              "text": "Still nothing. No one's home.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "title": "You: \"Knock *even* harder!\"",
+          "articyId": "0x0100005700001FBE",
+          "text": "Knock *even* harder!",
+          "links": [
+            {
+              "id": 35,
+              "title": "Safety Curtains: \"Those curtains prove to be surprisi...\"",
+              "articyId": "0x0100005700001FC7",
+              "text": "Those curtains prove to be surprisingly sturdy... Your fist hurts now.",
+              "links": [
+                {
+                  "id": 37,
+                  "title": "Kim Kitsuragi: \"\"There must be another way to wake...\"",
+                  "articyId": "0x0100000600019BAC",
+                  "text": "\"There must be another way to wake up whoever is in there... Maybe we can try yelling into the furnace downstairs?\"",
+                  "links": []
+                },
+                {
+                  "id": 64,
+                  "title": "Kim Kitsuragi: \"\"There must be another way to wake...\"",
+                  "articyId": "0x01000021000026B7",
+                  "text": "\"There must be another way to wake up whoever is in there... Maybe we should ask the lady in the bookstore what's going on here?\"",
+                  "links": []
+                },
+                {
+                  "id": 21,
+                  "title": "Physical Instrument: \"There must be another way to wake u...\"",
+                  "articyId": "0x0100009200001145",
+                  "text": "There must be another way to wake up whoever is in there... Maybe you should try yelling into the furnace downstairs?",
+                  "links": []
+                },
+                {
+                  "id": 49,
+                  "title": "Logic: \"There must be another way to wake u...\"",
+                  "articyId": "0x01000021000026C6",
+                  "text": "There must be another way to wake up whoever is in there... Maybe you should talk to the lady in the bookstore, ask what's going on?",
+                  "links": []
+                },
+                {
+                  "id": 28,
+                  "title": "Logic: \"If this is really an entrance to th...\"",
+                  "articyId": "0x010000920000113A",
+                  "text": "If this is really an entrance to the chimney then there must be a furnace somewhere as well. Maybe there's another way to get in?",
+                  "links": []
+                },
+                {
+                  "id": 65,
+                  "title": "Kim Kitsuragi: \"\"Can you please try to refrain from...\"",
+                  "articyId": "0x0100005700001FD3",
+                  "text": "\"Can you please try to refrain from attacking random things?\"",
+                  "links": [
+                    {
+                      "id": 56,
+                      "title": "You: \"\"I need to find the *malignant enti...\"",
+                      "articyId": "0x0100009200000578",
+                      "text": "\"I need to find the *malignant entity*, Kim. This is the chimney.\"",
+                      "links": [
+                        {
+                          "id": 50,
+                          "title": "Kim Kitsuragi: \"The lieutenant sighs. \"Ghosts aren'...\"",
+                          "articyId": "0x010000920000057F",
+                          "text": "The lieutenant sighs. \"Ghosts aren't real, didn't your parents tell you that? In any case, there's no way we can get in right now. Let's investigate further.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 23,
+                      "title": "You: \"\"This is not random, this is *signi...\"",
+                      "articyId": "0x0100005700001FE1",
+                      "text": "\"This is not random, this is *significant*. I want to see what's on the other side.\"",
+                      "links": [
+                        {
+                          "id": 12,
+                          "title": "Kim Kitsuragi: \"\"Why do you think there's something...\"",
+                          "articyId": "0x0100005700002012",
+                          "text": "\"Why do you think there's something on the other side necessarily?\" the lieutenant asks, but you can see a spark of curiosity in his eyes.",
+                          "links": [
+                            {
+                              "id": 24,
+                              "title": "Kim Kitsuragi: \"\"In any case, there's no way we can...\"",
+                              "articyId": "0x0100009200001170",
+                              "text": "\"In any case, there's no way we can get in right now. Let's investigate further.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 32,
+                      "title": "You: \"\"I can try...\" (Blow gently on your...\"",
+                      "articyId": "0x0100005700001FE7",
+                      "text": "\"I can try...\" (Blow gently on your bruised knuckles.)",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Kim Kitsuragi: \"\"Thanks.\"\"",
+                          "articyId": "0x0100005700001FF1",
+                          "text": "\"Thanks.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "title": "You: \"\"Hello? I yelled, but it didn't wor...\"",
+          "articyId": "0x010000060001A477",
+          "text": "\"Hello? I yelled, but it didn't work...\"",
+          "links": [
+            {
+              "id": 34,
+              "title": "Safety Curtains: \"Again your voice becomes a raspy cr...\"",
+              "articyId": "0x010000060001A47E",
+              "text": "Again your voice becomes a raspy croak, mid-sentence. It's silent in the abandoned office building -- no one answers you.",
+              "links": [
+                {
+                  "id": 41,
+                  "title": "Empathy: \"A sudden bout of self pity comes ov...\"",
+                  "articyId": "0x010000060001A48C",
+                  "text": "A sudden bout of self pity comes over you.",
+                  "links": [
+                    {
+                      "id": 40,
+                      "title": "Drama: \"Sire, may we suggest something? Thi...\"",
+                      "articyId": "0x010000060001A485",
+                      "text": "Sire, may we suggest something? Think of the yelling-into-the-furnace as a *grand performance*. Use your chest voice, not your head voice. Sing from the diaphragm.",
+                      "links": [
+                        {
+                          "id": 60,
+                          "title": "Physical Instrument: \"Perhaps it's not such a bad idea? T...\"",
+                          "articyId": "0x010000060001A4A0",
+                          "text": "Perhaps it's not such a bad idea? Try it again, son.",
+                          "links": []
+                        },
+                        {
+                          "id": 46,
+                          "title": "Physical Instrument: \"You took your shot and still missed...\"",
+                          "articyId": "0x0100002F00013511",
+                          "text": "You took your shot and still missed. Well, you did your best, champ. Shame it wasn't good enough.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100005700001F9E",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Safety Curtains: \"An iron safety curtain curves befor...\"",
+      "articyId": "0x0100005700000572",
+      "text": "An iron safety curtain curves before your eyes, folded like a bellows. It covers half the room -- blocking the way into a colossal industrial chimney.",
+      "links": [
+        {
+          "id": 63,
+          "title": "Inland Empire: \"This must be where the *Entity* liv...\"",
+          "articyId": "0x0100009200000BE3",
+          "text": "This must be where the *Entity* lives...",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

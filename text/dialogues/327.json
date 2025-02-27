@@ -1,0 +1,671 @@
+{
+  "id": "0x0100004D0000315A",
+  "title": "PAWNSHOP / RACK OF SECOND-HAND UNIFORMS",
+  "description": "You look at and ask Roy about the Man from Hjelmdall T-Shirt.",
+  "dialogueTree": [
+    {
+      "id": 49,
+      "title": "Rack of Second-Hand Uniforms: \"What a shirt. All other shirts pale...\"",
+      "articyId": "0x01000006000163FC",
+      "text": "What a shirt. All other shirts pale in comparison to the muscular man with antlers and immense zweihänders.",
+      "links": [
+        {
+          "id": 107,
+          "title": "You: \"Sniff the T-shirt.\"",
+          "articyId": "0x0100004D00003CF1",
+          "text": "Sniff the T-shirt.",
+          "links": [
+            {
+              "id": 79,
+              "title": "Rack of Second-Hand Uniforms: \"Smells like worn cotton. And a litt...\"",
+              "articyId": "0x0100004D00003D0D",
+              "text": "Smells like worn cotton. And a little old sweat there?",
+              "links": [
+                {
+                  "id": 108,
+                  "title": "Perception (Smell): \"Worn cotton with a side of flea mar...\"",
+                  "articyId": "0x0100004D00003D1F",
+                  "text": "Worn cotton with a side of flea market or trash bin.",
+                  "links": [
+                    {
+                      "id": 51,
+                      "title": "Bird's Nest Roy: \"\"Sniffing is okay,\" says the shopke...\"",
+                      "articyId": "0x0100004D00003FF9",
+                      "text": "\"Sniffing is okay,\" says the shopkeep. \"But please don't try anything on. Can't have you leaving your photon emissions in the fabric of things you're not going to buy.\"",
+                      "links": [
+                        {
+                          "id": 126,
+                          "title": "Inland Empire: \"You're not imagining it. Photon emi...\"",
+                          "articyId": "0x0100004D00004002",
+                          "text": "You're not imagining it. Photon emissions? What is he talking about?",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "title": "You: \"\"What's the deal with the man on th...\"",
+          "articyId": "0x0100004D00003CC9",
+          "text": "\"What's the deal with the man on this t-shirt?\"",
+          "links": [
+            {
+              "id": 54,
+              "title": "Kim Kitsuragi: \"\"It's the Man from Hjelmdall.\"\"",
+              "articyId": "0x0100004D00003D9F",
+              "text": "\"It's the Man from Hjelmdall.\"",
+              "links": [
+                {
+                  "id": 55,
+                  "title": "Bird's Nest Roy: \"\"Walking away from his burning vill...\"",
+                  "articyId": "0x0100004D00004060",
+                  "text": "\"Walking away from his burning village, yes.\"",
+                  "links": [
+                    {
+                      "id": 127,
+                      "title": "Empathy: \"Their matter-of-fact tone belies th...\"",
+                      "articyId": "0x0100004D00004067",
+                      "text": "Their matter-of-fact tone belies their surprise at the fact that you didn't recognize the figure in the print.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 64,
+              "title": "Bird's Nest Roy: \"\"That's the Man from Hjelmdall walk...\"",
+              "articyId": "0x0100004D00003DAB",
+              "text": "\"That's the Man from Hjelmdall walking away as his village burns.\"",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Empathy: \"He's surprised at your non-recognit...\"",
+                  "articyId": "0x0100004D00004074",
+                  "text": "He's surprised at your non-recognition.",
+                  "links": [
+                    {
+                      "id": 62,
+                      "title": "Drama: \"Lie, sire. For no reason.\"",
+                      "articyId": "0x0100000600016420",
+                      "text": "Lie, sire. For no reason.",
+                      "links": []
+                    },
+                    {
+                      "id": 119,
+                      "title": "You: \"\"He's a music-based superstar, righ...\"",
+                      "articyId": "0x01000058000011F5",
+                      "text": "\"He's a music-based superstar, right?\"",
+                      "links": [
+                        {
+                          "id": 25,
+                          "title": "Bird's Nest Roy: \"\"Hmm, I think you might be thinking...\"",
+                          "articyId": "0x01000058000012C5",
+                          "text": "\"Hmm, I think you might be thinking about someone else I... dislike music,\" he frowns. \"So I couldn't tell you who.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 33,
+                      "title": "You: \"(Lie) \"I was a very sheltered child...\"",
+                      "articyId": "0x01000058000011ED",
+                      "text": "(Lie) \"I was a very sheltered child -- my parents only let me read boring books about ordinary people, and the Man from Hjelmdall looks *extraordinary*.\"",
+                      "links": [
+                        {
+                          "id": 57,
+                          "title": "Bird's Nest Roy: \"\"That's very sad, man. Then you mis...\"",
+                          "articyId": "0x0100005800001277",
+                          "text": "\"That's very sad, man. Then you missed out on some pretty well executed, albeit repetitive adventure literature.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 128,
+                      "title": "You: \"\"I'm guessing I'm supposed to know...\"",
+                      "articyId": "0x01000058000011E6",
+                      "text": "\"I'm guessing I'm supposed to know who this Man from Hjelmdall is, but I lost my memory recently and need help remembering basic facts about reality.\"",
+                      "links": [
+                        {
+                          "id": 47,
+                          "title": "Bird's Nest Roy: \"\"Huh?\"\"",
+                          "articyId": "0x0100008900000356",
+                          "text": "\"Huh?\"",
+                          "links": [
+                            {
+                              "id": 48,
+                              "title": "You: \"\"I said I lost my memory recently a...\"",
+                              "articyId": "0x010000890000035E",
+                              "text": "\"I said I lost my memory recently and need help remembering basic facts about reality.\"",
+                              "links": [
+                                {
+                                  "id": 26,
+                                  "title": "Bird's Nest Roy: \"\"Oh... I see. That's tough, man, I...\"",
+                                  "articyId": "0x0100000200000D2C",
+                                  "text": "\"Oh... I see. That's tough, man, I feel the same way sometimes. The Man from Hjelmdall is the hero of a series of popular books based on a fictional version of Katla.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 117,
+                              "title": "You: \"\"Never mind. Tell me more about thi...\"",
+                              "articyId": "0x0100008900000365",
+                              "text": "\"Never mind. Tell me more about this Man from Hjelmdall.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 82,
+                      "title": "You: \"\"Remind me, who's the Man from Hjel...\"",
+                      "articyId": "0x0100004D00004058",
+                      "text": "\"Remind me, who's the Man from Hjelmdall again?\"",
+                      "links": [
+                        {
+                          "id": 34,
+                          "title": "Bird's Nest Roy: \"\"The Man from Hjelmdall is the hero...\"",
+                          "articyId": "0x010000580000127D",
+                          "text": "\"The Man from Hjelmdall is the hero of a series of popular books based on a fictional version of Katla, mostly what is nowadays Arda NFD.\"",
+                          "links": [
+                            {
+                              "id": 14,
+                              "title": "Bird's Nest Roy: \"\"In fact...\" He leans in. \"Most peo...\"",
+                              "articyId": "0x01000058000012D5",
+                              "text": "\"In fact...\" He leans in. \"Most people don't think that the Man from Hjelmdall ever really existed, but they are *wrong*.\"",
+                              "links": [
+                                {
+                                  "id": 83,
+                                  "title": "Kim Kitsuragi: \"The lieutenant raises a brow. \"*Hje...\"",
+                                  "articyId": "0x01000058000012E1",
+                                  "text": "The lieutenant raises a brow. \"*Hjelmdall* isn't a real place.\"",
+                                  "links": [
+                                    {
+                                      "id": 39,
+                                      "title": "Bird's Nest Roy: \"\"Neither is the Man a real man, of...\"",
+                                      "articyId": "0x01000058000012E7",
+                                      "text": "\"Neither is the Man a real man, of course, but both the Man and Hjelmdall are an ontological necessity...\" He stops abruptly. \"But, hey, it's not worth getting into an argument about.\"",
+                                      "links": [
+                                        {
+                                          "id": 122,
+                                          "title": "Rhetoric: \"Wow, what?\"",
+                                          "articyId": "0x0100000600018B27",
+                                          "text": "Wow, what?",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 36,
+                              "title": "Bird's Nest Roy: \"\"He left his native village of Hjel...\"",
+                              "articyId": "0x0100005800001357",
+                              "text": "\"He left his native village of Hjelmdall after his son was kidnapped, having many exciting adventures and killing many enemies with his swords, but he lost his family in the process. Tragic stuff, really.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 115,
+          "title": "You: \"\"That's a rad Man from Hjelmdall t-...\"",
+          "articyId": "0x0100004D00003CCF",
+          "text": "\"That's a rad Man from Hjelmdall t-shirt you've got there.\"",
+          "links": [
+            {
+              "id": 41,
+              "title": "Bird's Nest Roy: \"\"Hell yeah, man.\" The shopkeep soun...\"",
+              "articyId": "0x0100004D00003DB8",
+              "text": "\"Hell yeah, man.\" The shopkeep sounds enthusiastic. \"I don't usually carry printed tees, but this one was just such a pure exemplar.\"",
+              "links": [
+                {
+                  "id": 52,
+                  "title": "You: \"\"You must be a serious Man from Hje...\"",
+                  "articyId": "0x0100004D0000402A",
+                  "text": "\"You must be a serious Man from Hjelmdall fan.\"",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Bird's Nest Roy: \"\"A fan... No, I wouldn't go that fa...\"",
+                      "articyId": "0x0100004D00003DCA",
+                      "text": "\"A fan... No, I wouldn't go that far. But I do think the Hjelmdallermann Saga is an integral part of our shared reality.\"",
+                      "links": [
+                        {
+                          "id": 58,
+                          "title": "Bird's Nest Roy: \"\"Most people don't think that the M...\"",
+                          "articyId": "0x01000058000012BA",
+                          "text": "\"Most people don't think that the Man from Hjemdall really existed, but they're *wrong*.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 71,
+                  "title": "You: \"\"We have a lot in common. I'm a big...\"",
+                  "articyId": "0x0100004D00003DBE",
+                  "text": "\"We have a lot in common. I'm a big fan of the Man from Hjelmdall too.\"",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "Bird's Nest Roy: \"He grimaces. \"I wouldn't go so far...\"",
+                      "articyId": "0x0100005800001287",
+                      "text": "He grimaces. \"I wouldn't go so far as to say that I'm a fan. But I do think the Hjelmdallermann Saga is an integral part of our shared reality.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "title": "You: \"\"What did you mean the Man from Hje...\"",
+          "articyId": "0x01000058000012A4",
+          "text": "\"What did you mean the Man from Hjelmdall was real?\"",
+          "links": [
+            {
+              "id": 86,
+              "title": "Bird's Nest Roy: \"\"I mean -- even if the Man from Hje...\"",
+              "articyId": "0x01000058000012AB",
+              "text": "\"I mean -- even if the Man from Hjelmdall didn't exist before the adventure novels, the stories have made it so that he has. It's simple really.\"",
+              "links": [
+                {
+                  "id": 59,
+                  "title": "Kim Kitsuragi: \"\"Okay...\" He sounds incredulous.\"",
+                  "articyId": "0x0100005800001385",
+                  "text": "\"Okay...\" He sounds incredulous.",
+                  "links": [
+                    {
+                      "id": 60,
+                      "title": "Bird's Nest Roy: \"\"You sound sceptical. It's not that...\"",
+                      "articyId": "0x01000058000013A3",
+                      "text": "\"You sound sceptical. It's not that complicated. All that's required is a more robust understanding of cause and effect.\"",
+                      "links": [
+                        {
+                          "id": 10,
+                          "title": "Bird's Nest Roy: \"\"Besides, I've been to Katla, thoug...\"",
+                          "articyId": "0x01000058000013BF",
+                          "text": "\"Besides, I've been to Katla, though not quite as far north as the Hjelmdall, and watched the northern lights travel across the sky. Very unique energetic tides there.\"",
+                          "links": [
+                            {
+                              "id": 63,
+                              "title": "Encyclopedia: \"It's for the best, because Hjelmdal...\"",
+                              "articyId": "0x0100000600016429",
+                              "text": "It's for the best, because Hjelmdall is *not* a real place. And thus he could not have gone there.",
+                              "links": [
+                                {
+                                  "id": 111,
+                                  "title": "Conceptualization: \"His theory isn't exactly *incoheren...\"",
+                                  "articyId": "0x01000058000013F0",
+                                  "text": "His theory isn't exactly *incoherent*, but its logic does suggest some *unusual* neural activity. Interesting...",
+                                  "links": [
+                                    {
+                                      "id": 90,
+                                      "title": "Inland Empire: \"Very, *very* unique energies indeed...\"",
+                                      "articyId": "0x0100000600018B48",
+                                      "text": "Very, *very* unique energies indeed. Geomagnetic ley lines, one might even say.",
+                                      "links": [
+                                        {
+                                          "id": 40,
+                                          "title": "Physical Instrument: \"Stop talking about this nerd stuff....\"",
+                                          "articyId": "0x0100000600018BD4",
+                                          "text": "Stop talking about this nerd stuff. It will make you *weedy*.",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 91,
+                                          "title": "Physical Instrument: \"Stop talking about this nerd stuff....\"",
+                                          "articyId": "0x0100000600018BC3",
+                                          "text": "Stop talking about this nerd stuff. It will make you *weedy*.  Buy the damn shirt already, it's powerful.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 88,
+                  "title": "You: \"\"Uh huh, say more?'\"",
+                  "articyId": "0x0100005800001391",
+                  "text": "\"Uh huh, say more?'",
+                  "links": [
+                    {
+                      "id": 129,
+                      "title": "Bird's Nest Roy: \"\"It's simply a matter of recognizin...\"",
+                      "articyId": "0x01000058000013AA",
+                      "text": "\"It's simply a matter of recognizing that cause and effect work in both directions.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 120,
+                  "title": "You: \"\"I'm totally with you, man. Reality...\"",
+                  "articyId": "0x0100005800001397",
+                  "text": "\"I'm totally with you, man. Reality has a way of bending back on itself.\"",
+                  "links": [
+                    {
+                      "id": 61,
+                      "title": "Bird's Nest Roy: \"\"Exactly. Cause and effect work in...\"",
+                      "articyId": "0x01000058000013B0",
+                      "text": "\"Exactly. Cause and effect work in both directions.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 110,
+                  "title": "You: \"\"I'm not following at all.\"\"",
+                  "articyId": "0x01000058000013C8",
+                  "text": "\"I'm not following at all.\"",
+                  "links": [
+                    {
+                      "id": 37,
+                      "title": "Bird's Nest Roy: \"\"It's not that complicated. All tha...\"",
+                      "articyId": "0x01000058000013B6",
+                      "text": "\"It's not that complicated. All that's required is a more robust understanding of cause and effect.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 38,
+                  "title": "You: \"\"I'm going to call bullshit right n...\"",
+                  "articyId": "0x01000058000013D2",
+                  "text": "\"I'm going to call bullshit right now.\"",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Bird's Nest Roy: \"He smirks. \"It's a simple matter of...\"",
+                      "articyId": "0x01000058000013D9",
+                      "text": "He smirks. \"It's a simple matter of cause and effect, and recognizing that they work in both directions.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "title": "You: \"\"This shirt celebrates a false hero...\"",
+          "articyId": "0x0100004D00003FE7",
+          "text": "\"This shirt celebrates a false hero, a guardian of the masculine order.\"",
+          "links": [
+            {
+              "id": 23,
+              "title": "Bird's Nest Roy: \"He drums his fingers on the counter...\"",
+              "articyId": "0x0100004D000040B0",
+              "text": "He drums his fingers on the counter. \"I doubt the real Man from Hjelmdall was as poor a role model as the one in the popular literature.\"",
+              "links": [
+                {
+                  "id": 98,
+                  "title": "Bird's Nest Roy: \"\"But, yes, the books are very sexis...\"",
+                  "articyId": "0x0100005800001295",
+                  "text": "\"But, yes, the books are very sexist. In a not-entirely-unenjoyable way.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "You: \"\"How much are you selling this T-sh...\"",
+          "articyId": "0x0100004D00003CD5",
+          "text": "\"How much are you selling this T-shirt for?\"",
+          "links": [
+            {
+              "id": 19,
+              "title": "Bird's Nest Roy: \"\"Two reál.\"\"",
+              "articyId": "0x0100004D00003DF4",
+              "text": "\"Two reál.\"",
+              "links": [
+                {
+                  "id": 31,
+                  "title": "Kim Kitsuragi: \"The lieutenant raises his eyebrows....\"",
+                  "articyId": "0x0100004D00003E2A",
+                  "text": "The lieutenant raises his eyebrows. \"That's dirt cheap.\"",
+                  "links": [
+                    {
+                      "id": 103,
+                      "title": "You: \"\"That's unusually cheap, isn't it?\"\"",
+                      "articyId": "0x0100004D00003E12",
+                      "text": "\"That's unusually cheap, isn't it?\"",
+                      "links": [
+                        {
+                          "id": 21,
+                          "title": "Bird's Nest Roy: \"\"It should belong to anyone who is...\"",
+                          "articyId": "0x0100004D00003E38",
+                          "text": "\"It should belong to anyone who is ready to wear it.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 66,
+                      "title": "You: \"\"Sounds like a good deal, although...\"",
+                      "articyId": "0x0100004D00004104",
+                      "text": "\"Sounds like a good deal, although I wouldn't really know.\"",
+                      "links": [
+                        {
+                          "id": 67,
+                          "title": "Bird's Nest Roy: \"\"Oh, it is.\"\"",
+                          "articyId": "0x0100004D0000410A",
+                          "text": "\"Oh, it is.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 92,
+                      "title": "You: \"\"Couldn't you just give it to me fo...\"",
+                      "articyId": "0x010000070001ADF0",
+                      "text": "\"Couldn't you just give it to me for free then?\"",
+                      "links": [
+                        {
+                          "id": 104,
+                          "title": "Bird's Nest Roy: \"He frowns. \"But... why?\"\"",
+                          "articyId": "0x0100004D00003E3E",
+                          "text": "He frowns. \"But... why?\"",
+                          "links": [
+                            {
+                              "id": 97,
+                              "title": "You: \"\"Because I'm a broke cop without a...\"",
+                              "articyId": "0x0100004D00003E5E",
+                              "text": "\"Because I'm a broke cop without a cent to my name.\"",
+                              "links": [
+                                {
+                                  "id": 81,
+                                  "title": "Bird's Nest Roy: \"\"I sympathize, I do, but this is a...\"",
+                                  "articyId": "0x0100004D00003E64",
+                                  "text": "\"I sympathize, I do, but this is a for-profit enterprise.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 22,
+                              "title": "You: \"\"The Man from Hjelmdall is a supers...\"",
+                              "articyId": "0x0100004D00003E44",
+                              "text": "\"The Man from Hjelmdall is a superstar, I'm a superstar -- it would be perfect!\"",
+                              "links": [
+                                {
+                                  "id": 80,
+                                  "title": "Bird's Nest Roy: \"He thinks about it. \"I suppose that...\"",
+                                  "articyId": "0x0100004D00003E50",
+                                  "text": "He thinks about it. \"I suppose that makes sense, yes. Please, go ahead and take it -- Welcome to Hjelmdall.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "title": "You: \"\"Perhaps I could repay you in some...\"",
+                              "articyId": "0x0100004D00003E4A",
+                              "text": "\"Perhaps I could repay you in some other way?\"",
+                              "links": [
+                                {
+                                  "id": 105,
+                                  "title": "Bird's Nest Roy: \"\"I deal in goods, not services.\"\"",
+                                  "articyId": "0x0100004D00003E6A",
+                                  "text": "\"I deal in goods, not services.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 27,
+                              "title": "You: \"\"You said everything's going to be...\"",
+                              "articyId": "0x0100000200000D40",
+                              "text": "\"You said everything's going to be over soon anyway, man. I just want to walk into the end times wearing this t-shirt.\"",
+                              "links": [
+                                {
+                                  "id": 28,
+                                  "title": "Bird's Nest Roy: \"\"Interesting choice. But sure, why...\"",
+                                  "articyId": "0x0100000200000D46",
+                                  "text": "\"Interesting choice. But sure, why not -- take it. Welcome to Hjelmdall.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 72,
+                              "title": "You: \"\"I guess I can't really think of an...\"",
+                              "articyId": "0x0100004D00003E58",
+                              "text": "\"I guess I can't really think of any good reason.\"",
+                              "links": [
+                                {
+                                  "id": 12,
+                                  "title": "Bird's Nest Roy: \"\"You'll just have to buy it, then,\"...\"",
+                                  "articyId": "0x0100004D00003E70",
+                                  "text": "\"You'll just have to buy it, then,\" he replies with a dry smile. \"But it's not like it's *expensive*.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 32,
+                      "title": "You: \"\"Cool, I'll think about it.\"\"",
+                      "articyId": "0x0100004D00004113",
+                      "text": "\"Cool, I'll think about it.\"",
+                      "links": [
+                        {
+                          "id": 116,
+                          "title": "Bird's Nest Roy: \"He inclines his head. \"You should.\"\"",
+                          "articyId": "0x0100004D0000411A",
+                          "text": "He inclines his head. \"You should.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 102,
+                  "title": "Logic: \"That's very cheap for a printed t-s...\"",
+                  "articyId": "0x0100004D00003E00",
+                  "text": "That's very cheap for a printed t-shirt that's still in pretty good shape.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "title": "You: \"\"Okay, I've thought it over and I w...\"",
+          "articyId": "0x0100004D00003CDB",
+          "text": "\"Okay, I've thought it over and I want to buy the T-shirt.\"",
+          "links": [
+            {
+              "id": 68,
+              "title": "Bird's Nest Roy: \"\"Welcome to Hjelmdall, officer.\"\"",
+              "articyId": "0x01000054000002AB",
+              "text": "\"Welcome to Hjelmdall, officer.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 118,
+          "title": "You: \"Let go of the T-shirt. [Leave.]\"",
+          "articyId": "0x0100004D00003D89",
+          "text": "Let go of the T-shirt. [Leave.]",
+          "links": []
+        },
+        {
+          "id": 70,
+          "title": "Encyclopedia: \"The antlers on the hood of the man'...\"",
+          "articyId": "0x0100000600018B51",
+          "text": "The antlers on the hood of the man's cloak and his piercing blue eyes are familiar....",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Rack of Second-Hand Uniforms: \"Wow! A very large red T-shirt with...\"",
+      "articyId": "0x0100004D00003C8B",
+      "text": "Wow! A very large red T-shirt with an impressive print stands out from the other garb.",
+      "links": [
+        {
+          "id": 69,
+          "title": "You: \"Oh yeah?\"",
+          "articyId": "0x01000006000163E7",
+          "text": "Oh yeah?",
+          "links": [
+            {
+              "id": 45,
+              "title": "Rack of Second-Hand Uniforms: \"*Oh* yeah. The print depicts a musc...\"",
+              "articyId": "0x0100004D00003EDE",
+              "text": "*Oh* yeah. The print depicts a muscled  man striding toward you, a giant sword in each hand, encircled by burning embers. Behind him is a cluster of cabins engulfed in flames. Beneath him are the words: \"HJELMDALL BURNING.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 121,
+          "title": "You: \"Not now. [Leave.]\"",
+          "articyId": "0x01000006000163ED",
+          "text": "Not now. [Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

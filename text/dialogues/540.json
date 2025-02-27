@@ -1,0 +1,68 @@
+{
+  "id": "0x010000890000358D",
+  "title": "SEAFORT ORB / full faln set",
+  "description": "test case orb for wearing the full faln set if you have all of the items.",
+  "dialogueTree": [
+    {
+      "id": 9,
+      "title": "Composure: \"O glorious Falnier! You wear the fu...\"",
+      "articyId": "0x0100008900003595",
+      "text": "O glorious Falnier! You wear the full set like a true-born hero. The *ULTIMATE PERFORMANCE* of FALN flows in you.",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"I feel... so *dynamic*.\"",
+          "articyId": "0x01000089000035A7",
+          "text": "I feel... so *dynamic*.",
+          "links": [
+            {
+              "id": 10,
+              "title": "Composure: \"You are the most *Ultra* of men. Pe...\"",
+              "articyId": "0x010000890000359B",
+              "text": "You are the most *Ultra* of men. Peak performance!",
+              "links": [
+                {
+                  "id": 2,
+                  "title": "Composure: \"Go on! The fucking sunset awaits, F...\"",
+                  "articyId": "0x01000089000035A0",
+                  "text": "Go on! The fucking sunset awaits, FALN rider!",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"I look so *futuristic*.\"",
+          "articyId": "0x01000089000035AC",
+          "text": "I look so *futuristic*.",
+          "links": [
+            {
+              "id": 5,
+              "title": "Composure: \"You are Next Century personified, t...\"",
+              "articyId": "0x01000089000035B8",
+              "text": "You are Next Century personified, the synthetic man!",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"It's like I can do anything. *ANYTH...\"",
+          "articyId": "0x01000089000035C4",
+          "text": "It's like I can do anything. *ANYTHING*!",
+          "links": [
+            {
+              "id": 8,
+              "title": "Composure: \"You are literally untouchable. A go...\"",
+              "articyId": "0x01000089000035CB",
+              "text": "You are literally untouchable. A god among mere men.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

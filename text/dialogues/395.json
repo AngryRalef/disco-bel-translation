@@ -1,0 +1,278 @@
+{
+  "id": "0x010000580001B778",
+  "title": "SHACK ORB / locust city logic",
+  "description": "Cuno must have taken the locusts from the trap. Get task to confront him.",
+  "dialogueTree": [
+    {
+      "id": 49,
+      "title": "Perception (Hearing): \"All around you, the hisses and chir...\"",
+      "articyId": "0x0100008200007C18",
+      "text": "All around you, the hisses and chirps of locusts fill the musky air. The earthen floor of the shack has been shaped into mounds of mud dotted with little holes for windows.",
+      "links": [
+        {
+          "id": 22,
+          "title": "Conceptualization: \"Like skyscrapers, spires of dirt an...\"",
+          "articyId": "0x0100008200007C1E",
+          "text": "Like skyscrapers, spires of dirt and sand rising. Accommodations for their insectoid inhabitants?",
+          "links": [
+            {
+              "id": 9,
+              "title": "Kim Kitsuragi: \"\"Well, detective, it appears you've...\"",
+              "articyId": "0x01000012000006FF",
+              "text": "\"Well, detective, it appears you've solved the case...\" The lieutenant looks around, writes something in his notebook, and turns to you...",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "Kim Kitsuragi: \"\"Of the locusts. For the missing lo...\"",
+                  "articyId": "0x0100008200007C2B",
+                  "text": "\"Of the locusts. For the missing locust case, which is a sub-case of the imaginary insect case. So at least *that's* going well.\"",
+                  "links": [
+                    {
+                      "id": 39,
+                      "title": "You: \"\"Yes, precisely what I was thinking!\"\"",
+                      "articyId": "0x0100008200007C32",
+                      "text": "\"Yes, precisely what I was thinking!\"",
+                      "links": [
+                        {
+                          "id": 51,
+                          "title": "Kim Kitsuragi: \"\"Yes.\" He nods. \"I feel we are near...\"",
+                          "articyId": "0x0100008200007C55",
+                          "text": "\"Yes.\" He nods. \"I feel we are nearing a *real* breakthrough.\"",
+                          "links": [
+                            {
+                              "id": 43,
+                              "title": "You: \"\"You think the Insulindian phasmid...\"",
+                              "articyId": "0x0100008200007C5C",
+                              "text": "\"You think the Insulindian phasmid is nearby?\"",
+                              "links": [
+                                {
+                                  "id": 37,
+                                  "title": "Kim Kitsuragi: \"\"If anything, the presence of the l...\"",
+                                  "articyId": "0x0100008200007C69",
+                                  "text": "\"If anything, the presence of the locusts points to the opposite -- the phasmid did not take the bait from the traps. It was Cuno. The phasmid doesn't exist...\"",
+                                  "links": [
+                                    {
+                                      "id": 14,
+                                      "title": "Kim Kitsuragi: \"He shrugs. \"But what do I know?\"\"",
+                                      "articyId": "0x0100008200007C7C",
+                                      "text": "He shrugs. \"But what do I know?\"",
+                                      "links": [
+                                        {
+                                          "id": 24,
+                                          "title": "Logic: \"Use your powers of deduction! You k...\"",
+                                          "articyId": "0x0100008200007C70",
+                                          "text": "Use your powers of deduction! You knew the magic bug was nowhere near here. The phasmid is impairing your judgement.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 8,
+                              "title": "You: \"\"We should talk to the kid outside....\"",
+                              "articyId": "0x0100000600017AD5",
+                              "text": "\"We should talk to the kid outside. It was probably him. Get him to stop.\" [Leave.]",
+                              "links": [
+                                {
+                                  "id": 6,
+                                  "title": "Kim Kitsuragi: \"\"I'll let you handle that side of t...\"",
+                                  "articyId": "0x0100000600017AED",
+                                  "text": "\"I'll let you handle that side of things. You're doing just fine.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 33,
+                              "title": "You: \"\"We should talk to Cuno about this....\"",
+                              "articyId": "0x0100008200007C62",
+                              "text": "\"We should talk to Cuno about this. Get him to stop.\" [Leave.]",
+                              "links": [
+                                {
+                                  "id": 48,
+                                  "title": "Kim Kitsuragi: \"\"I'll let you handle the Cuno side...\"",
+                                  "articyId": "0x0100008200007CDC",
+                                  "text": "\"I'll let you handle the Cuno side of things. You're doing just fine.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "title": "You: \"\"Stop being so sarcastic, Kim.\"\"",
+                      "articyId": "0x0100008200007C38",
+                      "text": "\"Stop being so sarcastic, Kim.\"",
+                      "links": [
+                        {
+                          "id": 23,
+                          "title": "Kim Kitsuragi: \"\"Oh, I'm not being sarcastic *at al...\"",
+                          "articyId": "0x0100008200007C40",
+                          "text": "\"Oh, I'm not being sarcastic *at all*. We are making *real* progress here.\"",
+                          "links": [
+                            {
+                              "id": 13,
+                              "title": "Rhetoric: \"When someone says they're not being...\"",
+                              "articyId": "0x0100008200007C47",
+                              "text": "When someone says they're not being sarcastic, it's usually a good sign that they're being *very* sarcastic.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 28,
+              "title": "Perception (Hearing): \"Sounds like you found the locusts,...\"",
+              "articyId": "0x0100008200007CCF",
+              "text": "Sounds like you found the locusts, detective.",
+              "links": [
+                {
+                  "id": 16,
+                  "title": "You: \"What is this?\"",
+                  "articyId": "0x0100008200007C8C",
+                  "text": "What is this?",
+                  "links": [
+                    {
+                      "id": 27,
+                      "title": "Perception (Hearing): \"Heaps of leaves are rotting among t...\"",
+                      "articyId": "0x0100008200007C9C",
+                      "text": "Heaps of leaves are rotting among the mud-cake towers. Dozens of little locusts feed on them, buzzing away with vicious joy. Cuno has really outdone himself here.",
+                      "links": [
+                        {
+                          "id": 25,
+                          "title": "Inland Empire: \"It's an ode to self expression.\"",
+                          "articyId": "0x0100008200007CA3",
+                          "text": "It's an ode to self expression.",
+                          "links": [
+                            {
+                              "id": 44,
+                              "title": "Conceptualization: \"It's the work of a self-taught visi...\"",
+                              "articyId": "0x0100008200007CAA",
+                              "text": "It's the work of a self-taught visionary.",
+                              "links": [
+                                {
+                                  "id": 10,
+                                  "title": "You: \"I should go and ask him to stop the...\"",
+                                  "articyId": "0x0100008200007C92",
+                                  "text": "I should go and ask him to stop then. [Finish thought.]",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 21,
+                      "title": "Perception (Hearing): \"Heaps of leaves are rotting among t...\"",
+                      "articyId": "0x0100000600017ADC",
+                      "text": "Heaps of leaves are rotting among the mud-cake towers. Dozens of little locusts feed on them, buzzing away with vicious joy. The kid in the yard has really outdone himself here.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 15,
+              "title": "Kim Kitsuragi: \"\"Well, detective, it appears you're...\"",
+              "articyId": "0x0100000600017A13",
+              "text": "\"Well, detective, it appears you're on the way to solving the case...\" The lieutenant looks around, writes something in his notebook, and turns to you...",
+              "links": [
+                {
+                  "id": 17,
+                  "title": "Kim Kitsuragi: \"\"The missing locust case, which is...\"",
+                  "articyId": "0x0100000600017A1D",
+                  "text": "\"The missing locust case, which is a sub-case of the imaginary insect case. So at least *that's* going well.\"",
+                  "links": [
+                    {
+                      "id": 20,
+                      "title": "You: \"\"Wait -- could this mean the Insuli...\"",
+                      "articyId": "0x0100000600017A42",
+                      "text": "\"Wait -- could this mean the Insulindian phasmid is nearby?\"",
+                      "links": [
+                        {
+                          "id": 42,
+                          "title": "Kim Kitsuragi: \"\"If anything, the presence of the l...\"",
+                          "articyId": "0x0100000600017A48",
+                          "text": "\"If anything, the presence of the locusts points to the *opposite* -- the phasmid did not take the bait from the traps.\"",
+                          "links": [
+                            {
+                              "id": 12,
+                              "title": "Kim Kitsuragi: \"\"Instead, it was a kid's prank.\" He...\"",
+                              "articyId": "0x0100000600017A4E",
+                              "text": "\"Instead, it was a kid's prank.\" He shrugs. \"But what do I know?\"",
+                              "links": [
+                                {
+                                  "id": 29,
+                                  "title": "Logic: \"Use your powers of deduction! You k...\"",
+                                  "articyId": "0x0100000600017A54",
+                                  "text": "Use your powers of deduction! You knew the bug was nowhere near here. The phasmid is impairing your judgement.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 41,
+                      "title": "You: \"\"Yes. We need to tell Morell about...\"",
+                      "articyId": "0x0100000600017A3B",
+                      "text": "\"Yes. We need to tell Morell about this immediately.\"",
+                      "links": [
+                        {
+                          "id": 19,
+                          "title": "Kim Kitsuragi: \"\"Of course. I'll leave that to you....\"",
+                          "articyId": "0x0100000600017A5F",
+                          "text": "\"Of course. I'll leave that to you. You seem to have a *handle* on the phasmid-trap-insect situation.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Perception (Hearing): \"Sounds like you found the locusts,...\"",
+              "articyId": "0x0100000600017A24",
+              "text": "Sounds like you found the locusts, detective.",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "You: \"I need to tell Morell...\"",
+                  "articyId": "0x0100000600017A2B",
+                  "text": "I need to tell Morell...",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "Perception (Hearing): \"As you turn away, heaps of leaves a...\"",
+                      "articyId": "0x0100000600017A34",
+                      "text": "As you turn away, heaps of leaves are rotting among the mud-cake towers. Dozens of little locusts feed on them, buzzing away with vicious joy...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

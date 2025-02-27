@@ -1,0 +1,393 @@
+{
+  "id": "0x0100000900001FEE",
+  "title": "KIM SWITCH / RACIST KITSURAGI",
+  "description": "Dialogue about if you are down the racism. Triggers some distance after leaving the lorry driver (it's hooked up to the Kim switchboard).",
+  "dialogueTree": [
+    {
+      "id": 71,
+      "title": "Suggestion: \"Well, now you've done it. Let's see...\"",
+      "articyId": "0x0100007000000881",
+      "text": "Well, now you've done it. Let's see if you can talk your way out of this one.",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"\"Relax, I was practising the time-h...\"",
+          "articyId": "0x0100000900001FFB",
+          "text": "\"Relax, I was practising the time-honoured technique known as the 'lie'.\"",
+          "links": [
+            {
+              "id": 50,
+              "title": "Kim Kitsuragi: \"\"I suppose that's a relief. Just be...\"",
+              "articyId": "0x010000090000207F",
+              "text": "\"I suppose that's a relief. Just be careful how often you avail yourself of this 'technique'. A lie may be useful in the short-term, but they have a way of catching up with you later.\"",
+              "links": [
+                {
+                  "id": 69,
+                  "title": "Drama: \"We know a *lie*, sire. And it didn'...\"",
+                  "articyId": "0x0100000600010936",
+                  "text": "We know a *lie*, sire. And it didn't feel like one to us. He chooses to believe though -- for now.",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Kim Kitsuragi: \"\"And one more thing -- as you've se...\"",
+                      "articyId": "0x0100000600010942",
+                      "text": "\"And one more thing -- as you've seen, these sorts of attitudes are quite common in Martinaise. So I expect this to happen again. And again...\"",
+                      "links": [
+                        {
+                          "id": 54,
+                          "title": "Kim Kitsuragi: \"\"I've had this conversation enough...\"",
+                          "articyId": "0x0100000600010949",
+                          "text": "\"I've had this conversation enough times in my life. From now on, I'm  going to stay out of it. How you choose to respond is your business.\" He concludes: \"But be careful. Now, let's move on.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "title": "You: \"\"I was just trying to convey that I...\"",
+          "articyId": "0x01000009000020D0",
+          "text": "\"I was just trying to convey that I understood his grievances and wasn't judging him for having them.\"",
+          "links": [
+            {
+              "id": 47,
+              "title": "Kim Kitsuragi: \"The lieutenant narrows his gaze. \"S...\"",
+              "articyId": "0x010000700000089E",
+              "text": "The lieutenant narrows his gaze. \"So you *don't* find his views... say, *unbefitting of a police officer*?\"",
+              "links": [
+                {
+                  "id": 24,
+                  "title": "Rhetoric: \"Okay... feels like this is going to...\"",
+                  "articyId": "0x010000060001D193",
+                  "text": "Okay... feels like this is going to be a *discussion* now.",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "You: \"\"It's not about me. As police offic...\"",
+                      "articyId": "0x01000070000008A4",
+                      "text": "\"It's not about me. As police officers, we gain nothing by staking out the moral high ground over him.\"",
+                      "links": [
+                        {
+                          "id": 28,
+                          "title": "Kim Kitsuragi: \"\"Our position in Revachol is alread...\"",
+                          "articyId": "0x01000070000008C0",
+                          "text": "\"Our position in Revachol is already precarious: Many people think we're vigilantes as it is. I can't have them thinking we're *racist* vigilantes to boot.\"",
+                          "links": [
+                            {
+                              "id": 36,
+                              "title": "You: \"\"You're right. I didn't mean to cau...\"",
+                              "articyId": "0x01000009000022DD",
+                              "text": "\"You're right. I didn't mean to cause trouble. Sorry about that.\"",
+                              "links": [
+                                {
+                                  "id": 14,
+                                  "title": "Kim Kitsuragi: \"\"Apology accepted, detective.\" The...\"",
+                                  "articyId": "0x01000070000008D1",
+                                  "text": "\"Apology accepted, detective.\" The lieutenant relaxes. A weight seems to have been lifted from his shoulders.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 19,
+                                  "title": "Kim Kitsuragi: \"\"That's good to hear. I don't want...\"",
+                                  "articyId": "0x01000009000022E6",
+                                  "text": "\"That's good to hear. I don't want there to be any unnecessary friction in our relationship during this *important* case.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 66,
+                              "title": "You: \"\"Well, *actually*...\"\"",
+                              "articyId": "0x01000070000008CA",
+                              "text": "\"Well, *actually*...\"",
+                              "links": [
+                                {
+                                  "id": 10,
+                                  "title": "Rhetoric: \"Wait a second. Are you sure you wan...\"",
+                                  "articyId": "0x01000070000008DE",
+                                  "text": "Wait a second. Are you sure you want to go there? Even if you succeed, you're going to fail.",
+                                  "links": [
+                                    {
+                                      "id": 52,
+                                      "title": "You: \"What do you mean? I'm in the right...\"",
+                                      "articyId": "0x01000070000008E5",
+                                      "text": "What do you mean? I'm in the right here.",
+                                      "links": [
+                                        {
+                                          "id": 73,
+                                          "title": "Rhetoric: \"Are you sure about that?\"",
+                                          "articyId": "0x01000070000008F4",
+                                          "text": "Are you sure about that?",
+                                          "links": [
+                                            {
+                                              "id": 32,
+                                              "title": "You: \"Yes.\"",
+                                              "articyId": "0x01000009000022C8",
+                                              "text": "Yes.",
+                                              "links": [
+                                                {
+                                                  "id": 12,
+                                                  "title": "Rhetoric: \"Hoo boy, we're really doing this.\"",
+                                                  "articyId": "0x0100007000000904",
+                                                  "text": "Hoo boy, we're really doing this.",
+                                                  "links": [
+                                                    {
+                                                      "id": 70,
+                                                      "title": "You: \"\"Everyone thinks they're better tha...\"",
+                                                      "articyId": "0x01000009000020DE",
+                                                      "text": "\"Everyone thinks they're better than other people. Some people are just particularly crude about it.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 68,
+                                                          "title": "Kim Kitsuragi: \"\"There's a difference between sayin...\"",
+                                                          "articyId": "0x010000700000095C",
+                                                          "text": "\"There's a difference between saying something crude -- and an ideological racist.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 26,
+                                                              "title": "Rhetoric: \"Okay. You think there's a way out o...\"",
+                                                              "articyId": "0x010000060001D19E",
+                                                              "text": "Okay. You think there's a way out of this.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 20,
+                                                                  "title": "You: \"\"That doesn't mean they don't have...\"",
+                                                                  "articyId": "0x0100007000000981",
+                                                                  "text": "\"That doesn't mean they don't have rights. If they're perpetrators, then we punish, if they're victims, then we help. That's all there is.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 4,
+                                                                      "title": "Kim Kitsuragi: \"The lieutenant falls silent and loo...\"",
+                                                                      "articyId": "0x01000009000020EC",
+                                                                      "text": "The lieutenant falls silent and looks down at his boots. Whether he thinks you have a point or not, he isn't saying. It's unclear what this means for your relationship. Then he speaks...",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 55,
+                                                      "title": "You: \"\"It's basic biology.\"\"",
+                                                      "articyId": "0x0100000900002010",
+                                                      "text": "\"It's basic biology.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 53,
+                                                          "title": "Kim Kitsuragi: \"The lieutenant says nothing, waitin...\"",
+                                                          "articyId": "0x0100007000000972",
+                                                          "text": "The lieutenant says nothing, waiting for you to continue.",
+                                                          "links": [
+                                                            {
+                                                              "id": 59,
+                                                              "title": "You: \"\"It's only rational for a society t...\"",
+                                                              "articyId": "0x0100007000000978",
+                                                              "text": "\"It's only rational for a society to select for the most desirable traits. That's how it works in Nature.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 9,
+                                                                  "title": "Kim Kitsuragi: \"\"And what exactly do you think shou...\"",
+                                                                  "articyId": "0x0100002F00004FE3",
+                                                                  "text": "\"And what exactly do you think should happen to those with *undesirable* traits?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 22,
+                                                                      "title": "You: \"(Shrug.) \"Let Nature sort them out....\"",
+                                                                      "articyId": "0x0100000900002026",
+                                                                      "text": "(Shrug.) \"Let Nature sort them out.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 30,
+                                                                          "title": "Kim Kitsuragi: \"\"Well,\" he says after taking a mome...\"",
+                                                                          "articyId": "0x0100000900002051",
+                                                                          "text": "\"Well,\" he says after taking a moment to collect himself. \"You've made your views on the subject quite clear...\" Another little pause.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 8,
+                                                                      "title": "You: \"\"I've got nothing against them, but...\"",
+                                                                      "articyId": "0x010000090000202D",
+                                                                      "text": "\"I've got nothing against them, but we have a responsibility to future generations.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 6,
+                                                                          "title": "Kim Kitsuragi: \"\"Wonderful.\" The lieutenant falls s...\"",
+                                                                          "articyId": "0x0100007000000989",
+                                                                          "text": "\"Wonderful.\" The lieutenant falls silent. His expression is hard to read, but it certainly doesn't look *happy*. Then he speaks...",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 7,
+                                                                      "title": "You: \"\"Wait, am I becoming some sort of D...\"",
+                                                                      "articyId": "0x010000060001091F",
+                                                                      "text": "\"Wait, am I becoming some sort of Death's Head Racist suddenly?!\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 21,
+                                                                          "title": "Kim Kitsuragi: \"\"I don't know what you mean by *dea...\"",
+                                                                          "articyId": "0x0100000600010925",
+                                                                          "text": "\"I don't know what you mean by *death's head* but it certainly looks like you're becoming a racist, officer.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 56,
+                                                  "title": "Rhetoric: \"Here we go. Zoom in on the mixed ra...\"",
+                                                  "articyId": "0x0100002F00004896",
+                                                  "text": "Here we go. Zoom in on the mixed races part. It's the best one.",
+                                                  "links": [
+                                                    {
+                                                      "id": 46,
+                                                      "title": "You: \"\"Look, what happens when the races...\"",
+                                                      "articyId": "0x0100000900002017",
+                                                      "text": "\"Look, what happens when the races get all mixed up?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 18,
+                                                          "title": "Kim Kitsuragi: \"\"I'm going to *stop* this conversat...\"",
+                                                          "articyId": "0x010000090000201E",
+                                                          "text": "\"I'm going to *stop* this conversation.\" He makes a sudden hand gesture. An open palm. \"This is Martinaise. People have certain attitudes here. You will find plenty of citizens to agree with you. As for me...\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 29,
+                                              "title": "You: \"Forget it, this was a dumb idea.\"",
+                                              "articyId": "0x01000070000008FB",
+                                              "text": "Forget it, this was a dumb idea.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 67,
+                                      "title": "You: \"On second thought, maybe I don't.\"",
+                                      "articyId": "0x01000070000008EB",
+                                      "text": "On second thought, maybe I don't.",
+                                      "links": [
+                                        {
+                                          "id": 72,
+                                          "title": "Rhetoric: \"Now you're thinking sensibly.\"",
+                                          "articyId": "0x0100006B0000274F",
+                                          "text": "Now you're thinking sensibly.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 44,
+                                      "title": "Kim Kitsuragi: \"\"Stop right there. I know what you'...\"",
+                                      "articyId": "0x0100007000000A5A",
+                                      "text": "\"Stop right there. I know what you're going to say. Don't. Also -- these attitudes are quite common in Martinaise. So I expect this to happen again. And again.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 13,
+                      "title": "You: \"\"Of course. But he's also not entir...\"",
+                      "articyId": "0x01000070000008B2",
+                      "text": "\"Of course. But he's also not entirely responsible for them. I haven't been in this world for long -- already I'm a product of my environment.\"",
+                      "links": [
+                        {
+                          "id": 49,
+                          "title": "Kim Kitsuragi: \"\"There are tens of thousands of peo...\"",
+                          "articyId": "0x01000070000008B9",
+                          "text": "\"There are tens of thousands of people who grew up in Martinaise and somehow managed to avoid becoming racists who yell 'Come here, saffron picker' at passers by.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 37,
+                      "title": "You: \"\"Maybe he's got a point.\"\"",
+                      "articyId": "0x0100007000000912",
+                      "text": "\"Maybe he's got a point.\"",
+                      "links": [
+                        {
+                          "id": 23,
+                          "title": "Kim Kitsuragi: \"\"And what point would that be?\"\"",
+                          "articyId": "0x0100007000000919",
+                          "text": "\"And what point would that be?\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "title": "You: \"\"I don't really want to talk about...\"",
+          "articyId": "0x0100002F00004FC1",
+          "text": "\"I don't really want to talk about it.\" [Leave.]",
+          "links": [
+            {
+              "id": 48,
+              "title": "Kim Kitsuragi: \"The lieutenant looks at you in sile...\"",
+              "articyId": "0x0100002F00004FCE",
+              "text": "The lieutenant looks at you in silence, though you cannot discern if he's judging you or not. \"I suppose your reasons are your own.\"",
+              "links": [
+                {
+                  "id": 60,
+                  "title": "Kim Kitsuragi: \"\"Let me say just one more thing. As...\"",
+                  "articyId": "0x0100007000000A55",
+                  "text": "\"Let me say just one more thing. As you've seen, these sorts of attitudes are quite common in Martinaise. So I expect this to happen again. And again...\"",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Kim Kitsuragi: \"\"I've had this conversation enough...\"",
+                      "articyId": "0x0100007000000A62",
+                      "text": "\"I've had this conversation enough times in my life. From now on, I'm going to stay out of it. How you choose to respond is your business.\" He concludes: \"Now -- let's get back to the task at hand.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

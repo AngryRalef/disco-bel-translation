@@ -1,0 +1,556 @@
+{
+  "id": "0x010000450000E7AD",
+  "title": "WHIRLING F1 ORB / play pinball",
+  "description": "1. Let's play pinball.\n2. Kim \"Pinball\" Kitsuragi back story.",
+  "dialogueTree": [
+    {
+      "id": 18,
+      "title": "Interfacing: \"All these mesmerizing machines, jus...\"",
+      "articyId": "0x0100007800010ADB",
+      "text": "All these mesmerizing machines, just waiting to be plugged back in and played.",
+      "links": [
+        {
+          "id": 53,
+          "title": "You: \"Run your finger across the dust of...\"",
+          "articyId": "0x0100007800010ACF",
+          "text": "Run your finger across the dust of the 'White Deora' machine.",
+          "links": [
+            {
+              "id": 68,
+              "title": "Interfacing: \"Feels like it might jump back to li...\"",
+              "articyId": "0x0100007800010AC9",
+              "text": "Feels like it might jump back to life any moment, the lights illuminating the white robed woman.",
+              "links": [
+                {
+                  "id": 72,
+                  "title": "You: \"\"What's 'White Deora'?\"\"",
+                  "articyId": "0x0100007800010B03",
+                  "text": "\"What's 'White Deora'?\"",
+                  "links": [
+                    {
+                      "id": 79,
+                      "title": "Kim Kitsuragi: \"\"Some kind of...\" He looks around,...\"",
+                      "articyId": "0x0100007800010B16",
+                      "text": "\"Some kind of...\" He looks around, thinking. \"Inane pinball theme -- probably related to Messina during the Dolorian age. The *history themes* are the worst.\"",
+                      "links": [
+                        {
+                          "id": 35,
+                          "title": "Encyclopedia: \"Deora was one of the three *Crown C...\"",
+                          "articyId": "0x0100007800010B24",
+                          "text": "Deora was one of the three *Crown Cities* of the Dolorian era, on the Mundi isola -- the others being Rheasilvia and Advesperascit. This theme is all about early airships and beautiful, sad, pearl-laden women. It's quite nice actually.",
+                          "links": [
+                            {
+                              "id": 24,
+                              "title": "Empathy: \"The lieutenant grimaces, looking at...\"",
+                              "articyId": "0x0100007800010B1D",
+                              "text": "The lieutenant grimaces, looking at the machines.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 78,
+                  "title": "You: \"\"How about we fire one of these bad...\"",
+                  "articyId": "0x0100007800010B0F",
+                  "text": "\"How about we fire one of these bad boys up and play some ball?\"",
+                  "links": [
+                    {
+                      "id": 37,
+                      "title": "Kim Kitsuragi: \"\"You can't *fire* them up, they're...\"",
+                      "articyId": "0x0100007800010B3C",
+                      "text": "\"You can't *fire* them up, they're broken. Only that one machine in the main hall works. The Royalist Pinball.\" He looks away.",
+                      "links": [
+                        {
+                          "id": 48,
+                          "title": "Half Light: \"What a dumb name -- Royalist Pinbal...\"",
+                          "articyId": "0x0100007800010B49",
+                          "text": "What a dumb name -- Royalist Pinball. If they weren't broken, he would kick one of these machines about now.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 64,
+                  "title": "You: \"\"Sounds like you don't enjoy pinbal...\"",
+                  "articyId": "0x0100007800010B50",
+                  "text": "\"Sounds like you don't enjoy pinball, Kim.\"",
+                  "links": [
+                    {
+                      "id": 60,
+                      "title": "Kim Kitsuragi: \"\"No, I love it -- I love pinball. W...\"",
+                      "articyId": "0x0100007800010B5A",
+                      "text": "\"No, I love it -- I love pinball. Who doesn't love pinball? Let's move on.\"",
+                      "links": [
+                        {
+                          "id": 73,
+                          "title": "Drama: \"He doesn't.\"",
+                          "articyId": "0x0100007800010B61",
+                          "text": "He doesn't.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 47,
+                  "title": "You: \"\"What about that other one -- the F...\"",
+                  "articyId": "0x0100007800010B09",
+                  "text": "\"What about that other one -- the Franconigerian Ball. Wanna play that?\"",
+                  "links": [
+                    {
+                      "id": 36,
+                      "title": "Kim Kitsuragi: \"\"No.\"\"",
+                      "articyId": "0x0100007800010B34",
+                      "text": "\"No.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 38,
+                  "title": "You: \"Think: Kim Kitsuragi... Kim Kitsura...\"",
+                  "articyId": "0x0100007800010B69",
+                  "text": "Think: Kim Kitsuragi... Kim Kitsuragi...",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Encyclopedia: \"Kim 'Pinball' Kitsuragi!\"",
+                      "articyId": "0x0100007800010B79",
+                      "text": "Kim 'Pinball' Kitsuragi!",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "You: \"Kim 'Pinball' Kitsuragi, AKA Kimbal...\"",
+                          "articyId": "0x0100007800010C05",
+                          "text": "Kim 'Pinball' Kitsuragi, AKA Kimball?",
+                          "links": [
+                            {
+                              "id": 4,
+                              "title": "Encyclopedia: \"Exactly. That's what he's known as....\"",
+                              "articyId": "0x0100007800010C0C",
+                              "text": "Exactly. That's what he's known as. His reputation proceeds him!",
+                              "links": [
+                                {
+                                  "id": 56,
+                                  "title": "You: \"\"You're Kim 'Pinball' Kitsuragi.\"\"",
+                                  "articyId": "0x0100007800010C13",
+                                  "text": "\"You're Kim 'Pinball' Kitsuragi.\"",
+                                  "links": [
+                                    {
+                                      "id": 19,
+                                      "title": "Kim Kitsuragi: \"\"So *now* he remembers...\" He looks...\"",
+                                      "articyId": "0x0100007800010C27",
+                                      "text": "\"So *now* he remembers...\" He looks at you in the silence of the workshop -- then takes his glasses off and cleans them.",
+                                      "links": [
+                                        {
+                                          "id": 45,
+                                          "title": "Kim Kitsuragi: \"\"Fine. I'm Kim 'Pinball' Kitsuragi....\"",
+                                          "articyId": "0x0100007800010C43",
+                                          "text": "\"Fine. I'm Kim 'Pinball' Kitsuragi.\" he puts them back on. \"AKA The Kimball. You remembered -- congratulations.\"",
+                                          "links": [
+                                            {
+                                              "id": 87,
+                                              "title": "You: \"\"Wait, but I still can't remember a...\"",
+                                              "articyId": "0x0100007800010CCC",
+                                              "text": "\"Wait, but I still can't remember anything *else*.\"",
+                                              "links": [
+                                                {
+                                                  "id": 20,
+                                                  "title": "Kim Kitsuragi: \"\"Wonderful. He *only* remembers hea...\"",
+                                                  "articyId": "0x0100007800010CD5",
+                                                  "text": "\"Wonderful. He *only* remembers hearing about the *pinball policeman*.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 86,
+                                              "title": "You: \"\"You don't seem to really 'like' pi...\"",
+                                              "articyId": "0x0100007800010C4B",
+                                              "text": "\"You don't seem to really 'like' pinball.\"",
+                                              "links": [
+                                                {
+                                                  "id": 70,
+                                                  "title": "Kim Kitsuragi: \"\"No human being should. It is a gam...\"",
+                                                  "articyId": "0x0100007800010C64",
+                                                  "text": "\"No human being should. It is a game that requires no skill and a childlike affinity to flashing lights. And to *fantastique*, science fiction, and historic romance franchises.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 5,
+                                                      "title": "Kim Kitsuragi: \"\"It is *lame*.\"\"",
+                                                      "articyId": "0x0100007800010C6B",
+                                                      "text": "\"It is *lame*.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 76,
+                                                          "title": "You: \"\"Then why are you called Pinball?\"\"",
+                                                          "articyId": "0x0100007800010C72",
+                                                          "text": "\"Then why are you called Pinball?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 29,
+                                                              "title": "Kim Kitsuragi: \"\"I am not *called* Pinball. It was...\"",
+                                                              "articyId": "0x0100007800010C79",
+                                                              "text": "\"I am not *called* Pinball. It was used to taunt me -- a long time ago. *Before* I became a homicide detective. And got my lieutenancy.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 3,
+                                                                  "title": "You: \"\"How did you...\"\"",
+                                                                  "articyId": "0x0100007800010CA2",
+                                                                  "text": "\"How did you...\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 77,
+                                                                      "title": "Kim Kitsuragi: \"He puts his glasses back on. \"Fine....\"",
+                                                                      "articyId": "0x0100007800010CA9",
+                                                                      "text": "He puts his glasses back on. \"Fine. I was a juvenile police officer -- for over 15 years. It's how I started out in the RCM. Once I had to infiltrate a pinball ring. As you do -- when you're a juvie cop.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 58,
+                                                                          "title": "You: \"\"Lame.\"\"",
+                                                                          "articyId": "0x0100007800010CE3",
+                                                                          "text": "\"Lame.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 51,
+                                                                              "title": "Kim Kitsuragi: \"\"Unbelievably,\" he nods. \"To do tha...\"",
+                                                                              "articyId": "0x0100007800010CE9",
+                                                                              "text": "\"Unbelievably,\" he nods. \"To do that I needed to become a... *pinball champion*. I trained for nine months. The job was successful and I was moved out of the juvenile wing -- to homicide.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 46,
+                                                                                  "title": "Kim Kitsuragi: \"\"End of story.\"\"",
+                                                                                  "articyId": "0x0100007800010CB0",
+                                                                                  "text": "\"End of story.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 62,
+                                                                                      "title": "You: \"\"You were a juvie cop for 15 years?\"\"",
+                                                                                      "articyId": "0x0100007800010CB7",
+                                                                                      "text": "\"You were a juvie cop for 15 years?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 82,
+                                                                                          "title": "Kim Kitsuragi: \"\"That time is over now.\" He looks a...\"",
+                                                                                          "articyId": "0x0100007800010CBE",
+                                                                                          "text": "\"That time is over now.\" He looks at the pinball machine and breathes in. \"I was already a 38 year old man. It was unbecoming. As was playing pinball.\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 52,
+                                                                                              "title": "Empathy: \"So that's why he doesn't want to ta...\"",
+                                                                                              "articyId": "0x0100007800010D10",
+                                                                                              "text": "So that's why he doesn't want to talk to Cuno. Trauma-and-Stressor Disorder from being a juvie cop.",
+                                                                                              "links": []
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 21,
+                                                                                              "title": "You: \"\"Wait, so *that's* why you didn't t...\"",
+                                                                                              "articyId": "0x0100007800010D17",
+                                                                                              "text": "\"Wait, so *that's* why you didn't talk to Cuno.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 12,
+                                                                                                  "title": "Kim Kitsuragi: \"\"It's best if *you* handle the juve...\"",
+                                                                                                  "articyId": "0x0100007800010D1D",
+                                                                                                  "text": "\"It's best if *you* handle the juvenile delinquents,\" he nods.",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 11,
+                                                                                              "title": "You: \"\"I'm gonna call you Pinball now.\"\"",
+                                                                                              "articyId": "0x0100007800010C7F",
+                                                                                              "text": "\"I'm gonna call you Pinball now.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 7,
+                                                                                                  "title": "Kim Kitsuragi: \"\"No. You're *gonna* call me Lieuten...\"",
+                                                                                                  "articyId": "0x0100007800010D33",
+                                                                                                  "text": "\"No. You're *gonna* call me Lieutenant Kitsuragi -- or on rare occasions 'Kim', because it's shorter.\" He nods. \"Let's go.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 8,
+                                                                                                      "title": "Volition: \"Any plan to call him Pinball or Kim...\"",
+                                                                                                      "articyId": "0x0100007800010D39",
+                                                                                                      "text": "Any plan to call him Pinball or Kimball is immediately wiped from your neocortex, as if with some sort of mind altering device. It is simply not going to happen.",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 71,
+                                                                                              "title": "You: \"\"I'm gonna call you *Kimball* now.\"\"",
+                                                                                              "articyId": "0x0100007800010C91",
+                                                                                              "text": "\"I'm gonna call you *Kimball* now.\"",
+                                                                                              "links": []
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 66,
+                                                                                              "title": "You: \"\"Don't worry, I'll keep calling you...\"",
+                                                                                              "articyId": "0x0100007800010C85",
+                                                                                              "text": "\"Don't worry, I'll keep calling you Kim.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 43,
+                                                                                                  "title": "Kim Kitsuragi: \"\"Lieutenant Kitsuragi is good too.\"...\"",
+                                                                                                  "articyId": "0x0100007800010CC5",
+                                                                                                  "text": "\"Lieutenant Kitsuragi is good too.\" He nods. \"Now -- we really need to continue our sweep of what appears to be a secret path through the Whirling.\"",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 17,
+                                                                                              "title": "You: \"\"You're Lieutenant Kitsuragi to me.\"\"",
+                                                                                              "articyId": "0x0100007800010C8B",
+                                                                                              "text": "\"You're Lieutenant Kitsuragi to me.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 6,
+                                                                                                  "title": "Kim Kitsuragi: \"\"Not only to you -- I am *Lieutenan...\"",
+                                                                                                  "articyId": "0x0100007800010C9C",
+                                                                                                  "text": "\"Not only to you -- I am *Lieutenant Kitsuragi* to everyone.\" He nods. \"Now -- we really need to continue our sweep of what appears to be a secret path through the Whirling.\"",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 63,
+                                                                          "title": "You: \"\"Okay.\"\"",
+                                                                          "articyId": "0x0100007800010CDD",
+                                                                          "text": "\"Okay.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 67,
+                                                                              "title": "Kim Kitsuragi: \"\"It was not okay. I needed to becom...\"",
+                                                                              "articyId": "0x0100007800010CF8",
+                                                                              "text": "\"It was not okay. I needed to become a... *pinball champion*.\" He shudders. \"I trained for 9 months. The job was successful and I was moved out of the juvenile wing -- to homicide.\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 75,
+                                  "title": "You: \"\"Hey, Kimball.\"\"",
+                                  "articyId": "0x0100007800010C19",
+                                  "text": "\"Hey, Kimball.\"",
+                                  "links": [
+                                    {
+                                      "id": 57,
+                                      "title": "Kim Kitsuragi: \"\"What?\"\"",
+                                      "articyId": "0x0100007800010C2E",
+                                      "text": "\"What?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 34,
+                                  "title": "You: \"I'm not gonna talk to him about tha...\"",
+                                  "articyId": "0x0100007800010C1F",
+                                  "text": "I'm not gonna talk to him about that.",
+                                  "links": [
+                                    {
+                                      "id": 10,
+                                      "title": "Encyclopedia: \"Of course, of course. Just somethin...\"",
+                                      "articyId": "0x0100007800010C37",
+                                      "text": "Of course, of course. Just something that swam to the surface. Go on, do real police work. This isn't a pinball mystery.",
+                                      "links": [
+                                        {
+                                          "id": 23,
+                                          "title": "Suggestion: \"He also really doesn't want to talk...\"",
+                                          "articyId": "0x0100007800010C5B",
+                                          "text": "He also really doesn't want to talk about it.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 49,
+                      "title": "Encyclopedia: \"It's strange that he doesn't like p...\"",
+                      "articyId": "0x0100007800010B7F",
+                      "text": "It's strange that he doesn't like pinball. Kim here is a Seolite. His people are incredibly dextrous, and they all *love* pinball. Matter of fact...",
+                      "links": [
+                        {
+                          "id": 74,
+                          "title": "You: \"\"Hey, didn't you guys, like, *inven...\"",
+                          "articyId": "0x0100007800010B86",
+                          "text": "\"Hey, didn't you guys, like, *invent* pinball?\"",
+                          "links": [
+                            {
+                              "id": 55,
+                              "title": "Kim Kitsuragi: \"\"Us *guys*?\"\"",
+                              "articyId": "0x0100007800010B8D",
+                              "text": "\"Us *guys*?\"",
+                              "links": [
+                                {
+                                  "id": 50,
+                                  "title": "Volition: \"Stop.\"",
+                                  "articyId": "0x0100007800010BB1",
+                                  "text": "Stop.",
+                                  "links": [
+                                    {
+                                      "id": 61,
+                                      "title": "You: \"\"You know -- Seol guys. Massive pin...\"",
+                                      "articyId": "0x0100007800010B94",
+                                      "text": "\"You know -- Seol guys. Massive pinball people.\"",
+                                      "links": [
+                                        {
+                                          "id": 80,
+                                          "title": "Kim Kitsuragi: \"\"Seol is an *extremely* protectioni...\"",
+                                          "articyId": "0x0100007800010B9C",
+                                          "text": "\"Seol is an *extremely* protectionist isola, inaccessible to the rest of mankind. As it has been for over a thousand years. I have no special knowledge of them, despite my heritage.\"",
+                                          "links": [
+                                            {
+                                              "id": 31,
+                                              "title": "Kim Kitsuragi: \"\"But even *I* know that they don't...\"",
+                                              "articyId": "0x0100007800010BAA",
+                                              "text": "\"But even *I* know that they don't play pinball. They have a rigid class society, and a punitive justice system...\" He looks around. \"We should continue with our exploration of this place. It doesn't matter.\"",
+                                              "links": [
+                                                {
+                                                  "id": 33,
+                                                  "title": "You: \"\"So you're not all, like, pinball a...\"",
+                                                  "articyId": "0x0100007800010BCA",
+                                                  "text": "\"So you're not all, like, pinball aces? Because I could swear I know you are.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 81,
+                                                      "title": "Kim Kitsuragi: \"\"No. *They're* not -- let's move on...\"",
+                                                      "articyId": "0x0100007800010BFD",
+                                                      "text": "\"No. *They're* not -- let's move on. There's more to this place than pinball machines.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 65,
+                                                  "title": "You: \"\"Okay.\"\"",
+                                                  "articyId": "0x0100007800010BD1",
+                                                  "text": "\"Okay.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 14,
+                                                      "title": "Kim Kitsuragi: \"\"Okay.\" He thinks for a moment. \"I...\"",
+                                                      "articyId": "0x0100007800010BDF",
+                                                      "text": "\"Okay.\" He thinks for a moment. \"I don't like pinball because I had to learn to play it for an undercover job at a pinball ring. And it's a lame, boring, and unchallenging game -- there. We can move on now.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 15,
+                                                          "title": "Encyclopedia: \"You still feel he's holding out on...\"",
+                                                          "articyId": "0x0100007800010BE6",
+                                                          "text": "You still feel he's holding out on Seolite pinball tricks, but fine. Explore on then.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 30,
+                                      "title": "You: \"\"No matter. This is a failure. I'm...\"",
+                                      "articyId": "0x0100007800010BA2",
+                                      "text": "\"No matter. This is a failure. I'm failing and I'm going to stop.\"",
+                                      "links": [
+                                        {
+                                          "id": 32,
+                                          "title": "Kim Kitsuragi: \"\"Okay.\" He thinks for a moment. \"I...\"",
+                                          "articyId": "0x0100007800010BB9",
+                                          "text": "\"Okay.\" He thinks for a moment. \"I don't like pinball because I had to learn to play it for an undercover job at a pinball ring. And it's a lame, boring, and unchallenging game -- there. We can move on now.\"",
+                                          "links": [
+                                            {
+                                              "id": 28,
+                                              "title": "Volition: \"Super. Tip-top! This went pretty we...\"",
+                                              "articyId": "0x0100007800010BC1",
+                                              "text": "Super. Tip-top! This went pretty well all things considered.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 9,
+                  "title": "You: \"\"Let's move on then.\" [Finish thoug...\"",
+                  "articyId": "0x0100007800010BF3",
+                  "text": "\"Let's move on then.\" [Finish thought.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "title": "You: \"[Discard thought.]\"",
+          "articyId": "0x0100007800010AD5",
+          "text": "[Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

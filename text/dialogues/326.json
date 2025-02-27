@@ -1,0 +1,376 @@
+{
+  "id": "0x0100004D00002F6D",
+  "title": "KIM SWITCH / SAMARAN BUTTER",
+  "description": "Kim asks you what you think might have happened at the canal.",
+  "dialogueTree": [
+    {
+      "id": 44,
+      "title": "You: \"\"It looks like someone was in a rea...\"",
+      "articyId": "0x0100004D00002FD8",
+      "text": "\"It looks like someone was in a real hurry.\"",
+      "links": [
+        {
+          "id": 38,
+          "title": "Kim Kitsuragi: \"\"What kind of car do you think it w...\"",
+          "articyId": "0x0100000700006A09",
+          "text": "\"What kind of car do you think it was?\"",
+          "links": [
+            {
+              "id": 43,
+              "title": "You: \"\"I think it was a Coupris 40.\"\"",
+              "articyId": "0x010000540000074C",
+              "text": "\"I think it was a Coupris 40.\"",
+              "links": [
+                {
+                  "id": 30,
+                  "title": "Kim Kitsuragi: \"He seems impressed. \"That's quite l...\"",
+                  "articyId": "0x010000540000077C",
+                  "text": "He seems impressed. \"That's quite likely, from what I can tell.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 17,
+              "title": "You: \"\"I believe it was a Linnea G22.\"\"",
+              "articyId": "0x0100005400000752",
+              "text": "\"I believe it was a Linnea G22.\"",
+              "links": []
+            },
+            {
+              "id": 18,
+              "title": "You: \"\"I have no idea.\"\"",
+              "articyId": "0x0100005400000761",
+              "text": "\"I have no idea.\"",
+              "links": [
+                {
+                  "id": 19,
+                  "title": "Kim Kitsuragi: \"\"I suppose it's not really our job...\"",
+                  "articyId": "0x010000540000076B",
+                  "text": "\"I suppose it's not really our job to figure that out.\"",
+                  "links": [
+                    {
+                      "id": 41,
+                      "title": "You: \"\"I have some ideas about who it mig...\"",
+                      "articyId": "0x0100004D00003018",
+                      "text": "\"I have some ideas about who it might have been.\"",
+                      "links": [
+                        {
+                          "id": 39,
+                          "title": "Kim Kitsuragi: \"He raises his eyebrows. \"Oh?\"\"",
+                          "articyId": "0x0100004D00003049",
+                          "text": "He raises his eyebrows. \"Oh?\"",
+                          "links": [
+                            {
+                              "id": 9,
+                              "title": "You: \"\"It had to be someone really cool a...\"",
+                              "articyId": "0x0100004D0000305B",
+                              "text": "\"It had to be someone really cool and courageous.\"",
+                              "links": [
+                                {
+                                  "id": 23,
+                                  "title": "Kim Kitsuragi: \"\"I suppose that narrows it down som...\"",
+                                  "articyId": "0x0100004D0000306D",
+                                  "text": "\"I suppose that narrows it down somewhat. Fortunately, we're not traffic cops. Should we get back to the murder?\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 32,
+                              "title": "You: \"\"It was someone dangerous. Perhaps...\"",
+                              "articyId": "0x010000060001731F",
+                              "text": "\"It was someone dangerous. Perhaps this is somehow *connected* to the murder?\"",
+                              "links": [
+                                {
+                                  "id": 6,
+                                  "title": "Kim Kitsuragi: \"\"The traffic hooliganism? I hope no...\"",
+                                  "articyId": "0x0100000600017326",
+                                  "text": "\"The traffic hooliganism? I hope not. Fortunately, we're not traffic cops. Should we get back to the murder?\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 12,
+                              "title": "You: \"\"Actually, never mind, I need more...\"",
+                              "articyId": "0x0100004D00003061",
+                              "text": "\"Actually, never mind, I need more evidence to come up with a list of suspects.\"",
+                              "links": [
+                                {
+                                  "id": 33,
+                                  "title": "Kim Kitsuragi: \"\"We're not traffic cops. Should we...\"",
+                                  "articyId": "0x0100004D00003074",
+                                  "text": "\"We're not traffic cops. Should we get back to the murder?\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 48,
+                      "title": "You: \"\"Yeah, I have no idea. Who could it...\"",
+                      "articyId": "0x0100004D0000301E",
+                      "text": "\"Yeah, I have no idea. Who could it have been?\"",
+                      "links": [
+                        {
+                          "id": 49,
+                          "title": "Kim Kitsuragi: \"The lieutenant shrugs. \"We're not t...\"",
+                          "articyId": "0x0100004D00003030",
+                          "text": "The lieutenant shrugs. \"We're not traffic cops. Should we get back to the murder?\"",
+                          "links": [
+                            {
+                              "id": 24,
+                              "title": "You: \"Try to come up with a convincing ex...\"",
+                              "articyId": "0x0100004D0000309C",
+                              "text": "Try to come up with a convincing explanation for the driver's actions.",
+                              "links": [
+                                {
+                                  "id": 37,
+                                  "title": "Conceptualization: \"Somewhere in the depths of your alc...\"",
+                                  "articyId": "0x0100004D000030B7",
+                                  "text": "Somewhere in the depths of your alcohol-addled soul, you find a few threads that you can weave into a story.",
+                                  "links": [
+                                    {
+                                      "id": 67,
+                                      "title": "You: \"\"This could have only been...\" (Pau...\"",
+                                      "articyId": "0x0100004D00003055",
+                                      "text": "\"This could have only been...\" (Pause dramatically.) \"... Jacob Irw.\"",
+                                      "links": [
+                                        {
+                                          "id": 47,
+                                          "title": "Kim Kitsuragi: \"\"The TipTop Tournée champion?\"\"",
+                                          "articyId": "0x0100000700006A17",
+                                          "text": "\"The TipTop Tournée champion?\"",
+                                          "links": [
+                                            {
+                                              "id": 65,
+                                              "title": "You: \"\"After the untimely death of dear f...\"",
+                                              "articyId": "0x0100004D000030AB",
+                                              "text": "\"After the untimely death of dear friend and fellow racer Alfie Deletraz at Fjordhammer, Jacob Irw was desperately chasing death on the race track -- but death *eluded* him.\"",
+                                              "links": [
+                                                {
+                                                  "id": 55,
+                                                  "title": "Kim Kitsuragi: \"The lieutenant patiently listens to...\"",
+                                                  "articyId": "0x0100000700006A22",
+                                                  "text": "The lieutenant patiently listens to the words coming from your mouth.",
+                                                  "links": [
+                                                    {
+                                                      "id": 28,
+                                                      "title": "You: \"\"After quitting in frustration, he...\"",
+                                                      "articyId": "0x0100004D000030F8",
+                                                      "text": "\"After quitting in frustration, he became a recluse, a ghost-driver, searching for death on the streets of Revachol, speeding...\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 54,
+                                                          "title": "Kim Kitsuragi: \"\"... jumping canals at night?\" He i...\"",
+                                                          "articyId": "0x0100005400000303",
+                                                          "text": "\"... jumping canals at night?\" He interrupts you. \"If I was Jacob Irw I wouldn't drive in *Martinaise*. The roads are awful.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 29,
+                                                              "title": "Authority: \"Shut *down*.\"",
+                                                              "articyId": "0x010000540000063D",
+                                                              "text": "Shut *down*.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 42,
+                                                                  "title": "Kim Kitsuragi: \"\"In conclusion -- it's a colourful...\"",
+                                                                  "articyId": "0x0100004D00003114",
+                                                                  "text": "\"In conclusion -- it's a colourful theory, but I don't believe Jacob Irw did this. Should we go?\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 51,
+                                  "title": "Conceptualization: \"You've thought of a very touching s...\"",
+                                  "articyId": "0x0100004D000030BE",
+                                  "text": "You've thought of a very touching story. It's shit, though.",
+                                  "links": [
+                                    {
+                                      "id": 21,
+                                      "title": "You: \"That's okay, I love shit stories.\"",
+                                      "articyId": "0x01000054000002B3",
+                                      "text": "That's okay, I love shit stories.",
+                                      "links": [
+                                        {
+                                          "id": 22,
+                                          "title": "Conceptualization: \"Well, you're in luck, then.\"",
+                                          "articyId": "0x01000054000002C0",
+                                          "text": "Well, you're in luck, then.",
+                                          "links": [
+                                            {
+                                              "id": 8,
+                                              "title": "You: \"\"See, Kim, what happened here is --...\"",
+                                              "articyId": "0x0100004D0000304F",
+                                              "text": "\"See, Kim, what happened here is -- the driver was a man whose wife was about to give birth...\"",
+                                              "links": [
+                                                {
+                                                  "id": 61,
+                                                  "title": "Conceptualization: \"Yes, this is good, this is very goo...\"",
+                                                  "articyId": "0x0100004D0000380D",
+                                                  "text": "Yes, this is good, this is very good.",
+                                                  "links": [
+                                                    {
+                                                      "id": 66,
+                                                      "title": "Rhetoric: \"No, it's shit.\"",
+                                                      "articyId": "0x01000007000076C3",
+                                                      "text": "No, it's shit.",
+                                                      "links": [
+                                                        {
+                                                          "id": 45,
+                                                          "title": "You: \"\"He was out drinking with his pals...\"",
+                                                          "articyId": "0x0100004D00003081",
+                                                          "text": "\"He was out drinking with his pals when he got the news, and, flushed with paternal pride, he got into his Coupris at once and raced to the clinic...\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 50,
+                                                              "title": "Kim Kitsuragi: \"\"Yes, yes, that could very well hav...\"",
+                                                              "articyId": "0x0100004D00003095",
+                                                              "text": "\"Yes, yes, that could very well have been it. Now let's move on. We're not traffic cops.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 60,
+                                      "title": "You: \"Maybe I shouldn't tell it if it's s...\"",
+                                      "articyId": "0x01000054000002B9",
+                                      "text": "Maybe I shouldn't tell it if it's shit.",
+                                      "links": [
+                                        {
+                                          "id": 62,
+                                          "title": "Conceptualization: \"Nope, you're already telling it.\"",
+                                          "articyId": "0x01000054000002C9",
+                                          "text": "Nope, you're already telling it.",
+                                          "links": [
+                                            {
+                                              "id": 63,
+                                              "title": "Volition: \"The urge is strong, but you are str...\"",
+                                              "articyId": "0x01000054000002D0",
+                                              "text": "The urge is strong, but you are stronger.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 52,
+                              "title": "You: \"\"No, we need to find this Jacob Irw...\"",
+                              "articyId": "0x0100004D000037E8",
+                              "text": "\"No, we need to find this Jacob Irw before tragedy strikes.\" (Take the task.)",
+                              "links": [
+                                {
+                                  "id": 46,
+                                  "title": "Kim Kitsuragi: \"He sighs. \"If we must.\"\"",
+                                  "articyId": "0x0100005400000318",
+                                  "text": "He sighs. \"If we must.\"",
+                                  "links": [
+                                    {
+                                      "id": 10,
+                                      "title": "Esprit de Corps: \"I'm not expecting him to get far wi...\"",
+                                      "articyId": "0x010000060001733A",
+                                      "text": "I'm not expecting him to get far with this, the lieutenant consoles himself.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 56,
+                              "title": "You: \"\"We should bring this driver to jus...\"",
+                              "articyId": "0x0100005400000322",
+                              "text": "\"We should bring this driver to justice.\" (Take the task.)",
+                              "links": []
+                            },
+                            {
+                              "id": 4,
+                              "title": "You: \"\"On second thought, maybe this does...\"",
+                              "articyId": "0x0100004D000037F1",
+                              "text": "\"On second thought, maybe this doesn't really warrant an investigation.\" [Leave.]",
+                              "links": []
+                            },
+                            {
+                              "id": 13,
+                              "title": "You: \"\"Let's move on. We've learned all w...\"",
+                              "articyId": "0x0100004D000037E1",
+                              "text": "\"Let's move on. We've learned all we can here.\" [Leave.]",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "You: \"\"Reckless traffic hooliganism.\"\"",
+      "articyId": "0x0100004D00002FDE",
+      "text": "\"Reckless traffic hooliganism.\"",
+      "links": []
+    },
+    {
+      "id": 3,
+      "title": "You: \"\"Some top-shelf shenanigans. I want...\"",
+      "articyId": "0x0100004D00003026",
+      "text": "\"Some top-shelf shenanigans. I want to meet the driver and shake his hand.\"",
+      "links": []
+    },
+    {
+      "id": 20,
+      "title": "You: \"\"I don't care and it's not really o...\"",
+      "articyId": "0x0100002100000841",
+      "text": "\"I don't care and it's not really our concern.\" [Leave.]",
+      "links": [
+        {
+          "id": 11,
+          "title": "Kim Kitsuragi: \"\"You're right.\" He straightens his...\"",
+          "articyId": "0x0100002100000848",
+          "text": "\"You're right.\" He straightens his back. \"Let's get back to the murder investigation.\"",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

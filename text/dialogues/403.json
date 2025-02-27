@@ -1,0 +1,83 @@
+{
+  "id": "0x0100005A00002D05",
+  "title": "DOOMED F2 ORB / conceptstream",
+  "description": "Slipstream conceptualizing",
+  "dialogueTree": [
+    {
+      "id": 2,
+      "title": "Conceptualization: \"Looks like someone tried to *reconc...\"",
+      "articyId": "0x0100005700021FD4",
+      "text": "Looks like someone tried to *reconceptualize* their business here.",
+      "links": [
+        {
+          "id": 9,
+          "title": "You: \"I don't get it.\"",
+          "articyId": "0x0100005700021FDD",
+          "text": "I don't get it.",
+          "links": [
+            {
+              "id": 5,
+              "title": "Conceptualization: \"Look: The skis and rotor blades bot...\"",
+              "articyId": "0x0100005700021FEC",
+              "text": "Look: The skis and rotor blades both bear the same \"Slipstream\" logo. It seems likely that they started out making one, failed to turn a profit, and then pivoted to producing the other.",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "You: \"But the question is -- which did th...\"",
+                  "articyId": "0x0100007000005CAE",
+                  "text": "But the question is -- which did they start with, and which did they pivot to?",
+                  "links": [
+                    {
+                      "id": 6,
+                      "title": "Conceptualization: \"That's a good question.\"",
+                      "articyId": "0x0100007000005CB4",
+                      "text": "That's a good question.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 7,
+                  "title": "You: \"What a strange leap of imagination....\"",
+                  "articyId": "0x0100005700021FF3",
+                  "text": "What a strange leap of imagination... And yet they still failed. How sad. [Finish thought.]",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Conceptualization: \"Reality is ruthless.\"",
+                      "articyId": "0x010000570002200F",
+                      "text": "Reality is ruthless.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 11,
+                  "title": "You: \"That's just speculation. We don't k...\"",
+                  "articyId": "0x0100005700021FFF",
+                  "text": "That's just speculation. We don't know anything for sure. [Finish thought.]",
+                  "links": [
+                    {
+                      "id": 12,
+                      "title": "Conceptualization: \"Not quite. You *do* know that there...\"",
+                      "articyId": "0x0100005700022006",
+                      "text": "Not quite. You *do* know that there's something unusual about this company's business model...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"[Discard the thought.]\"",
+          "articyId": "0x0100005700021FE3",
+          "text": "[Discard the thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

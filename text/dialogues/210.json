@@ -1,0 +1,511 @@
+{
+  "id": "0x0100002F00011820",
+  "title": "BOOKSTORE / CRIME",
+  "description": "Shelf of crime books.",
+  "dialogueTree": [
+    {
+      "id": 56,
+      "title": "Shelf of Crime Novels: \"Shelves filled to the brim with cri...\"",
+      "articyId": "0x0100002F00011F7E",
+      "text": "Shelves filled to the brim with crime novels featuring the supposedly stalwart Vespertine detective, Dick Mullen.",
+      "links": [
+        {
+          "id": 4,
+          "title": "You: \"\"Storekeep, what's all this crime f...\"",
+          "articyId": "0x0100002F00011ADC",
+          "text": "\"Storekeep, what's all this crime fiction?\"",
+          "links": [
+            {
+              "id": 75,
+              "title": "Plaisance: \"\"Oh, crime, robberies, murders...\"...\"",
+              "articyId": "0x0100002F00011F86",
+              "text": "\"Oh, crime, robberies, murders...\" She lowers her voice. \"Even *sexual* crimes. We're fortunate to have Dick Mullen and his stories to sort all that out.\"",
+              "links": [
+                {
+                  "id": 91,
+                  "title": "Plaisance: \"\"You're a... a police officer... ap...\"",
+                  "articyId": "0x0100006B000009CC",
+                  "text": "\"You're a... a police officer... apparently. You should buy *all* of these. They really do teach a person how to be a proper detective.\"",
+                  "links": [
+                    {
+                      "id": 10,
+                      "title": "Electrochemistry: \"Sex crimes *did* pique your interes...\"",
+                      "articyId": "0x010000060001BDAA",
+                      "text": "Sex crimes *did* pique your interest, but still -- this Dick Mullen person only gets your pleasure centres *down*.",
+                      "links": [
+                        {
+                          "id": 28,
+                          "title": "Logic: \"NOTE! Reading about Dick Mullen wil...\"",
+                          "articyId": "0x010000060001BDB1",
+                          "text": "NOTE! Reading about Dick Mullen will not actually make you a better detective.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "title": "You: \"Look through the display of books.\"",
+          "articyId": "0x0100002F00011AE2",
+          "text": "Look through the display of books.",
+          "links": [
+            {
+              "id": 32,
+              "title": "Shelf of Crime Novels: \"Crime fiction... is a disgrace. An...\"",
+              "articyId": "0x0100006B000009D8",
+              "text": "Crime fiction... is a disgrace. An asinine misrepresentation of the physical attributes and the arduous everyday work of actual police officers.",
+              "links": [
+                {
+                  "id": 16,
+                  "title": "Shelf of Crime Novels: \"These books *greatly* overstate the...\"",
+                  "articyId": "0x0100006B00000A65",
+                  "text": "These books *greatly* overstate the excitement of police work, glossing over how long it takes to actually follow up on leads and eliminate dead-ends.",
+                  "links": [
+                    {
+                      "id": 39,
+                      "title": "Endurance: \"Furthermore -- they have NO IDEA ho...\"",
+                      "articyId": "0x010000060001BDB9",
+                      "text": "Furthermore -- they have NO IDEA how hard it is to simply remove a body from a tree.",
+                      "links": [
+                        {
+                          "id": 64,
+                          "title": "Shelf of Crime Novels: \"What's more, they completely ignore...\"",
+                          "articyId": "0x0100006B00000B34",
+                          "text": "What's more, they completely ignore the psychological hardships of, year after year, coming into contact with people during the worst days of their lives.",
+                          "links": [
+                            {
+                              "id": 63,
+                              "title": "Shelf of Crime Novels: \"Not a single mention of all the str...\"",
+                              "articyId": "0x0100006B00000A6B",
+                              "text": "Not a single mention of all the stress this work creates upon the officer's *family*. Detective fiction just doesn't tell the truth at all. Now, would you like a list of the books found on the shelf?",
+                              "links": [
+                                {
+                                  "id": 33,
+                                  "title": "You: \"Sure thing.\"",
+                                  "articyId": "0x0100006B000009E3",
+                                  "text": "Sure thing.",
+                                  "links": [
+                                    {
+                                      "id": 31,
+                                      "title": "Shelf of Crime Novels: \"You see: \"Dick Mullen on the Job\",...\"",
+                                      "articyId": "0x0100002F00011F8C",
+                                      "text": "You see: \"Dick Mullen on the Job\", \"Get Me Mullen!\", \"The Stalwart Adventures of Richard P. Mullen\", \"Dick Mullen and the Murder in the Orchard\", \"The Sordid Affair of Dick Mullen\"...",
+                                      "links": [
+                                        {
+                                          "id": 41,
+                                          "title": "Shelf of Crime Novels: \"\"A Killing Is Declared\", \"Dick Mull...\"",
+                                          "articyId": "0x0100002F00011F97",
+                                          "text": "\"A Killing Is Declared\", \"Dick Mullen in the Murderhouse\", \"The Final Case of Dick Mullen\" (an obvious lie), \"Dick Mullen in the Clock Tower\", \"The Ordeals of Dick Mullen\", \"Dauntless Dick\", \"Dick Mullen's Funeral Pyre\", \"The Murder of Dick Mullen\"...",
+                                          "links": [
+                                            {
+                                              "id": 76,
+                                              "title": "You: \"Dick Mullen *dies*?!\"",
+                                              "articyId": "0x0100006B000009F6",
+                                              "text": "Dick Mullen *dies*?!",
+                                              "links": [
+                                                {
+                                                  "id": 51,
+                                                  "title": "Shelf of Crime Novels: \"Oh no, turns out he faked it to sol...\"",
+                                                  "articyId": "0x0100006B000009FD",
+                                                  "text": "Oh no, turns out he faked it to solve a case.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 2,
+                                              "title": "You: \"Are there any more?\"",
+                                              "articyId": "0x0100006B00000A03",
+                                              "text": "Are there any more?",
+                                              "links": [
+                                                {
+                                                  "id": 86,
+                                                  "title": "Shelf of Crime Novels: \"Yes. There's also: \"The Dame Who Di...\"",
+                                                  "articyId": "0x0100006B00000A25",
+                                                  "text": "Yes. There's also: \"The Dame Who Did It\", \"Farewell, My Mullen\" (faking death seems to be a common trope in the Mullen series), \"The Morbid Tales of Dick Mullen\", \"A Dark Tide Turns\"...",
+                                                  "links": [
+                                                    {
+                                                      "id": 34,
+                                                      "title": "Shelf of Crime Novels: \"\"Tragedy Calls for Dick Mullen\" (an...\"",
+                                                      "articyId": "0x0100006B00000A2C",
+                                                      "text": "\"Tragedy Calls for Dick Mullen\" (another one with fake death), and, of course, \"Dick Mullen: The Murderer\", in order to catch a murderer, Dick Mullen must *become* the murderer.",
+                                                      "links": [
+                                                        {
+                                                          "id": 71,
+                                                          "title": "Esprit de Corps: \"Come on, this is *not* the way real...\"",
+                                                          "articyId": "0x0100006B00000A38",
+                                                          "text": "Come on, this is *not* the way real police solve crimes. The *real* police are some twenty kilometres away, sitting in an armoured motor carriage.",
+                                                          "links": [
+                                                            {
+                                                              "id": 68,
+                                                              "title": "Mack Torson: \"\"Come on, Chester, tell the story a...\"",
+                                                              "articyId": "0x0100006B00001925",
+                                                              "text": "\"Come on, Chester, tell the story again.\" A bald man turns toward a lean man and pats him on the back.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 53,
+                                                                  "title": "Chester McLaine: \"\"Again? Man, I tell that one at lea...\"",
+                                                                  "articyId": "0x0100006B0000192A",
+                                                                  "text": "\"Again? Man, I tell that one at least once a month. It's not that interesting,\" Chester replies.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 73,
+                                                                      "title": "Mack Torson: \"\"The *fuck* it is,\" the bald man re...\"",
+                                                                      "articyId": "0x0100006B0000192F",
+                                                                      "text": "\"The *fuck* it is,\" the bald man replies. \"And these guys haven't heard it.\" He motions to the civilian sitting in the back seat. \"You see, Chester here,\" he pokes his finger at the lean man. \"Chester *faked his own death* once!\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 42,
+                                                                          "title": "Civilian: \"\"Gosh, why?\" One civilian looks on,...\"",
+                                                                          "articyId": "0x0100005800020685",
+                                                                          "text": "\"Gosh, why?\" One civilian looks on, amazed. The bald man bellows a reply:",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 26,
+                                                                              "title": "Mack Torson: \"\"A very fuckin' dangerous case, ain...\"",
+                                                                              "articyId": "0x0100006B0000194F",
+                                                                              "text": "\"A very fuckin' dangerous case, ain't that right, Chester? They almost got you that time.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 88,
+                                                                                  "title": "Chester McLaine: \"\"Yeah, sure came close,\" Chester mu...\"",
+                                                                                  "articyId": "0x0100006B00001934",
+                                                                                  "text": "\"Yeah, sure came close,\" Chester mutters in return, then turns to the rapt listener. \"Alright, so I was tailing this guy called 'Francis the Shoe'...\" The inside of the motor carriage is thick with cigarette smoke. Outside, it starts to rain...",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 44,
+                                                              "title": "Inland Empire: \"After all this, you still haven't f...\"",
+                                                              "articyId": "0x0100006B00000A55",
+                                                              "text": "After all this, you still haven't found the answer to the one question that matters: Who *is* Dick Mullen?",
+                                                              "links": [
+                                                                {
+                                                                  "id": 23,
+                                                                  "title": "Reaction Speed: \"Wait a minute, all this told us *no...\"",
+                                                                  "articyId": "0x0100008900002281",
+                                                                  "text": "Wait a minute, all this told us *nothing* about who Dick Mullen actually is...",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 100,
+                                                                      "title": "Drama: \"Sssssire, you could learn much from...\"",
+                                                                      "articyId": "0x010000890000228B",
+                                                                      "text": "Sssssire, you could learn much from thisss Mullen, if you underssstood who he issss....",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 67,
+                                              "title": "You: \"Okay, let's stop now.\"",
+                                              "articyId": "0x0100006B00000A15",
+                                              "text": "Okay, let's stop now.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 43,
+                                  "title": "You: \"Oh god, no.\"",
+                                  "articyId": "0x0100006B000009E9",
+                                  "text": "Oh god, no.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "title": "You: \"Who is Dick Mullen?\"",
+          "articyId": "0x0100002F00011AED",
+          "text": "Who is Dick Mullen?",
+          "links": [
+            {
+              "id": 35,
+              "title": "Reaction Speed: \"Your quick eye notices a small cate...\"",
+              "articyId": "0x0100006B00000A43",
+              "text": "Your quick eye notices a small caterpillar crawling across the spine of a book. The title reads: \"Dick Mullen and the Mistaken Identity.\"",
+              "links": [
+                {
+                  "id": 40,
+                  "title": "You: \"What do we have here? Mistaken iden...\"",
+                  "articyId": "0x0100002F00011B06",
+                  "text": "What do we have here? Mistaken identity...",
+                  "links": [
+                    {
+                      "id": 93,
+                      "title": "Shelf of Crime Novels: \"A worn paperback from Dick Mullen's...\"",
+                      "articyId": "0x0100007000005765",
+                      "text": "A worn paperback from Dick Mullen's classic *hard-boiled* phase. The premise seems to be that Dick Mullen is framed for the murder of his best friend, and has just a few days to prove his innocence.",
+                      "links": [
+                        {
+                          "id": 65,
+                          "title": "You: \"Hmm. Why does this speak to me?\"",
+                          "articyId": "0x010000700000576C",
+                          "text": "Hmm. Why does this speak to me?",
+                          "links": [
+                            {
+                              "id": 94,
+                              "title": "Shelf of Crime Novels: \"Could it be the motifs of unstable...\"",
+                              "articyId": "0x0100007000005772",
+                              "text": "Could it be the motifs of unstable identities and shocking betrayals?",
+                              "links": [
+                                {
+                                  "id": 69,
+                                  "title": "You: \"That's probably right, I'm a compli...\"",
+                                  "articyId": "0x010000700000577A",
+                                  "text": "That's probably right, I'm a complicated guy, full of contradictions.",
+                                  "links": [
+                                    {
+                                      "id": 13,
+                                      "title": "Shelf of Crime Novels: \"Then this is the book for you.\"",
+                                      "articyId": "0x01000070000057C1",
+                                      "text": "Then this is the book for you.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 45,
+                                  "title": "You: \"No, it's gotta be something *else*.\"",
+                                  "articyId": "0x0100007000005780",
+                                  "text": "No, it's gotta be something *else*.",
+                                  "links": [
+                                    {
+                                      "id": 12,
+                                      "title": "Shelf of Crime Novels: \"Perhaps you're drawn to the dark an...\"",
+                                      "articyId": "0x0100007000005788",
+                                      "text": "Perhaps you're drawn to the dark and *noirish* atmosphere?",
+                                      "links": [
+                                        {
+                                          "id": 54,
+                                          "title": "You: \"Yeah, I'm pretty intense. I'm all a...\"",
+                                          "articyId": "0x0100007000005790",
+                                          "text": "Yeah, I'm pretty intense. I'm all about that dark stuff.",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 99,
+                                          "title": "You: \"No, that's not it either.\"",
+                                          "articyId": "0x0100007000005796",
+                                          "text": "No, that's not it either.",
+                                          "links": [
+                                            {
+                                              "id": 18,
+                                              "title": "Shelf of Crime Novels: \"Is it because the smoking dame in t...\"",
+                                              "articyId": "0x01000070000057A4",
+                                              "text": "Is it because the smoking dame in the slinky red dress on the cover is giving you a hard-on?",
+                                              "links": [
+                                                {
+                                                  "id": 46,
+                                                  "title": "You: \"Oh, right. That's definitely it.\"",
+                                                  "articyId": "0x01000070000057AB",
+                                                  "text": "Oh, right. That's definitely it.",
+                                                  "links": [
+                                                    {
+                                                      "id": 55,
+                                                      "title": "Shelf of Crime Novels: \"Yeah, this is the book for you.\"",
+                                                      "articyId": "0x01000070000057B9",
+                                                      "text": "Yeah, this is the book for you.",
+                                                      "links": [
+                                                        {
+                                                          "id": 74,
+                                                          "title": "Conceptualization: \"See the way she's suggestively hold...\"",
+                                                          "articyId": "0x01000070000057B2",
+                                                          "text": "See the way she's suggestively holding that pistol? That's *symbolism*.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 25,
+                                                  "title": "You: \"What? No. That's not what's happeni...\"",
+                                                  "articyId": "0x01000070000057D5",
+                                                  "text": "What? No. That's not what's happening.",
+                                                  "links": [
+                                                    {
+                                                      "id": 38,
+                                                      "title": "Shelf of Crime Novels: \"Yes it is. The bulge in your pants...\"",
+                                                      "articyId": "0x01000070000057DC",
+                                                      "text": "Yes it is. The bulge in your pants is embarrassingly obvious.",
+                                                      "links": [
+                                                        {
+                                                          "id": 11,
+                                                          "title": "Electrochemistry: \"Relax. It's not that bad. Also, thi...\"",
+                                                          "articyId": "0x010000060001BDC1",
+                                                          "text": "Relax. It's not that bad. Also, this means your bloodflow is returning to normal. Good news, really.",
+                                                          "links": [
+                                                            {
+                                                              "id": 3,
+                                                              "title": "Kim Kitsuragi: \"\"Something the matter, detective?\"\"",
+                                                              "articyId": "0x01000070000057F0",
+                                                              "text": "\"Something the matter, detective?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 80,
+                                                                  "title": "You: \"\"Nope, all good here.\" (Casually ad...\"",
+                                                                  "articyId": "0x01000070000057F9",
+                                                                  "text": "\"Nope, all good here.\" (Casually adjust your pants.)",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 70,
+                                                                      "title": "Kim Kitsuragi: \"The lieutenant nods. You think you...\"",
+                                                                      "articyId": "0x0100007000005807",
+                                                                      "text": "The lieutenant nods. You think you detect the faintest trace of a grin on his face, but you can't say for certain.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 27,
+                                                                  "title": "You: \"\"Kim, would you describe this woman...\"",
+                                                                  "articyId": "0x01000070000057FF",
+                                                                  "text": "\"Kim, would you describe this woman as a *smoking dame*?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 9,
+                                                                      "title": "Kim Kitsuragi: \"The lieutenant narrows his eyes and...\"",
+                                                                      "articyId": "0x010000700000580F",
+                                                                      "text": "The lieutenant narrows his eyes and contemplates the book for a moment.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 14,
+                                                                          "title": "Kim Kitsuragi: \"\"I would certainly say she fits tha...\"",
+                                                                          "articyId": "0x0100007000005816",
+                                                                          "text": "\"I would certainly say she fits that description, providing that's your type.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 19,
+                                                              "title": "Volition: \"Quit staring -- You're in public! T...\"",
+                                                              "articyId": "0x01000070000057E3",
+                                                              "text": "Quit staring -- You're in public! There's plenty of time for that later... in the privacy of your own room.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 87,
+              "title": "Reaction Speed: \"Your attempt to grasp at the answer...\"",
+              "articyId": "0x0100006B00000A4F",
+              "text": "Your attempt to grasp at the answer fails... it seems very close by, pulsating just out of reach.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "title": "You: \"\"I want to buy this Dick Mullen nov...\"",
+          "articyId": "0x0100006B00005F96",
+          "text": "\"I want to buy this Dick Mullen novel.\"",
+          "links": [
+            {
+              "id": 89,
+              "title": "Plaisance: \"\"Hrm, of course.\" She shudders. \"Su...\"",
+              "articyId": "0x0100006B00005F90",
+              "text": "\"Hrm, of course.\" She shudders. \"Such violence and immorality... uh, I mean, enjoy!\"",
+              "links": [
+                {
+                  "id": 24,
+                  "title": "Tutorial Agent: \"You've acquired an interactable ite...\"",
+                  "articyId": "0x0100005300025AF5",
+                  "text": "You've acquired an interactable item. Investigate this item further by going to the INTERACT tab in your INVENTORY.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002F00011AF9",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Shelf of Crime Novels: \"These shelves are overburdened with...\"",
+      "articyId": "0x0100002F00011AD6",
+      "text": "These shelves are overburdened with books from the same series. You see the name \"Dick Mullen\" over and over.",
+      "links": [
+        {
+          "id": 17,
+          "title": "Perception (Sight): \"A couple spook novels hide amidst a...\"",
+          "articyId": "0x0100006B00000B3C",
+          "text": "A couple spook novels hide amidst all the detective books. Thrilling tales of spycraft and derring-do.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

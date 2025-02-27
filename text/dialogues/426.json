@@ -1,0 +1,162 @@
+{
+  "id": "0x0100005A00011F81",
+  "title": "WHIRLING F2 / DREAM 2 INTRO",
+  "description": "1. You try to get comfortable, but the bed is less than ideal.\n2. You begin to drift off, but have trouble getting to sleep.",
+  "dialogueTree": [
+    {
+      "id": 14,
+      "title": "Bed: \"And then -- sleep doesn't come.\"",
+      "articyId": "0x0100000500003455",
+      "text": "And then -- sleep doesn't come.",
+      "links": [
+        {
+          "id": 22,
+          "title": "You: \"But I *want* to sleep...\"",
+          "articyId": "0x010000060001667C",
+          "text": "But I *want* to sleep...",
+          "links": [
+            {
+              "id": 18,
+              "title": "Bed: \"Obviously -- you're in bed with you...\"",
+              "articyId": "0x010000060001668B",
+              "text": "Obviously -- you're in bed with your eyes closed. But it's not happening.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "You: \"Why?\"",
+          "articyId": "0x0100000500003344",
+          "text": "Why?",
+          "links": [
+            {
+              "id": 16,
+              "title": "Bed: \"Maybe it's the bed's fault?\"",
+              "articyId": "0x010000050000334A",
+              "text": "Maybe it's the bed's fault?",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "You: \"Check the pillow.\"",
+                  "articyId": "0x0100000500003351",
+                  "text": "Check the pillow.",
+                  "links": [
+                    {
+                      "id": 3,
+                      "title": "Bed: \"Its synthetic filling has separated...\"",
+                      "articyId": "0x0100000500003373",
+                      "text": "Its synthetic filling has separated into hard lumps. The pillowcase smells oddly.",
+                      "links": [
+                        {
+                          "id": 19,
+                          "title": "Perception (Smell): \"Smells of alcohol and sweat. And gr...\"",
+                          "articyId": "0x010000050000338A",
+                          "text": "Smells of alcohol and sweat. And grease.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 23,
+                  "title": "You: \"Check the blanket.\"",
+                  "articyId": "0x0100000500003358",
+                  "text": "Check the blanket.",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Bed: \"It barely covers your toes, stretch...\"",
+                      "articyId": "0x010000050000337A",
+                      "text": "It barely covers your toes, stretching over your soft belly. This is your body here, intimate and warm, breathing...",
+                      "links": [
+                        {
+                          "id": 7,
+                          "title": "Composure: \"A bit tense in the muscles -- relax...\"",
+                          "articyId": "0x010000050000339A",
+                          "text": "A bit tense in the muscles -- relax.",
+                          "links": [
+                            {
+                              "id": 20,
+                              "title": "Half Light: \"Breathing, are you sure? Your heart...\"",
+                              "articyId": "0x01000005000033A1",
+                              "text": "Breathing, are you sure? Your heart beats a little bit faster at this unnerving thought.",
+                              "links": [
+                                {
+                                  "id": 10,
+                                  "title": "Inland Empire: \"Under your thrumming eyelids, you s...\"",
+                                  "articyId": "0x010000050000345F",
+                                  "text": "Under your thrumming eyelids, you see a dizzying array of colours. You won't get off this carousel quite so easily.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 21,
+                  "title": "You: \"Roll over to the other side.\"",
+                  "articyId": "0x010000050000335F",
+                  "text": "Roll over to the other side.",
+                  "links": [
+                    {
+                      "id": 6,
+                      "title": "Bed: \"It's a little better... Colours, sc...\"",
+                      "articyId": "0x0100000500003366",
+                      "text": "It's a little better... Colours, scenes, and half-formed phrases still litter your mind. Part of you is still trying to solve the case, isn't it?",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "You: \"Who killed him? Who?\"",
+                          "articyId": "0x01000005000033A9",
+                          "text": "Who killed him? Who?",
+                          "links": [
+                            {
+                              "id": 2,
+                              "title": "Bed: \"Something to do with... What was it...\"",
+                              "articyId": "0x01000005000033B7",
+                              "text": "Something to do with... What was it that the lieutenant said? Union? And it's gone again, your thoughts lost between the slowing brain waves.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "title": "You: \"No more thoughts. Fall asleep now.....\"",
+                          "articyId": "0x01000005000033AF",
+                          "text": "No more thoughts. Fall asleep now...",
+                          "links": [
+                            {
+                              "id": 13,
+                              "title": "Bed: \"Your breathing steadies. A great si...\"",
+                              "articyId": "0x01000005000033C3",
+                              "text": "Your breathing steadies. A great silence washes over you... until your eyelids *twitch* in your sleep and images... images start forming...",
+                              "links": [
+                                {
+                                  "id": 15,
+                                  "title": "Bed: \"...\"",
+                                  "articyId": "0x01000003000002C2",
+                                  "text": "...",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

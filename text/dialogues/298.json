@@ -1,0 +1,208 @@
+{
+  "id": "0x0100004C00008E4D",
+  "title": "CONTAINERYARD / EVRART GUN",
+  "description": "\"Let's talk about my lost gun.\"\n&\n\"Can I have my lost gun now?\"",
+  "dialogueTree": [
+    {
+      "id": 24,
+      "title": "Evrart Claire: \"\"Yes, yes, my best men are tracking...\"",
+      "articyId": "0x010000820002058F",
+      "text": "\"Yes, yes, my best men are tracking it down. Some kids saw some other kids running away with it. Some folks said a paranoid schizophrenic might have it. Leads are being checked, Harry.\"",
+      "links": [
+        {
+          "id": 43,
+          "title": "Evrart Claire: \"\"What's that, Harry? You're getting...\"",
+          "articyId": "0x0100008200020596",
+          "text": "\"What's that, Harry? You're getting a little pale. Is it the words *paranoid schizophrenic* and *lost gun* in one sentence? Don't worry, it's just a lead. It'll probably turn out to be nothing.\"",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Evrart Claire: \"\"Yes. Your lost gun.\" His face turn...\"",
+      "articyId": "0x01000082000205C8",
+      "text": "\"Yes. Your lost gun.\" His face turns serious. \"My best men are on it. They're turning every stone, searching every playground, asking kids, grandmas, everyone.\"",
+      "links": [
+        {
+          "id": 23,
+          "title": "Evrart Claire: \"\"Your gun *will* be found, Harry. L...\"",
+          "articyId": "0x01000082000205D1",
+          "text": "\"Your gun *will* be found, Harry. Let me assure you of that.\" He winks at you. \"It's just a matter of time and... *effort*.\"",
+          "links": [
+            {
+              "id": 40,
+              "title": "Rhetoric: \"The only way to find it seems to be...\"",
+              "articyId": "0x01000082000205DB",
+              "text": "The only way to find it seems to be working with him. He might even be holding your gun hostage...",
+              "links": [
+                {
+                  "id": 5,
+                  "title": "You: \"Hold on, could he really hold my gu...\"",
+                  "articyId": "0x01000082000213B8",
+                  "text": "Hold on, could he really hold my gun hostage?",
+                  "links": [
+                    {
+                      "id": 13,
+                      "title": "Rhetoric: \"Who knows? Only one thing is certai...\"",
+                      "articyId": "0x01000082000213C0",
+                      "text": "Who knows? Only one thing is certain: If you work with him, you're going to get it back, and working with him might be the only way to do it.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "You: \"\"Wait... the gun may have been boug...\"",
+                  "articyId": "0x0100002F000129B8",
+                  "text": "\"Wait... the gun may have been bought from Roy's pawn shop. Have your men factored that in?\"",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "Evrart Claire: \"\"Yes, thank you for the *hot tip* r...\"",
+                      "articyId": "0x0100002F000129BF",
+                      "text": "\"Yes, thank you for the *hot tip* regarding your lost gun, Harry. My men have indeed\" -- he makes air quotes -- \"*factored in that you pawned it*.\"",
+                      "links": [
+                        {
+                          "id": 7,
+                          "title": "Evrart Claire: \"\"Now please... let the professional...\"",
+                          "articyId": "0x0100002F000129F8",
+                          "text": "\"Now please... let the professionals do their job. Kick back, Harry, relax! I have *great guys* on this. You focus on what's important – building our relationship for the good of Martinaise.\"",
+                          "links": [
+                            {
+                              "id": 6,
+                              "title": "Reaction Speed: \"It did not come as a surprise to hi...\"",
+                              "articyId": "0x0100002F000129C5",
+                              "text": "It did not come as a surprise to him. He might actually not be bullshitting.",
+                              "links": [
+                                {
+                                  "id": 42,
+                                  "title": "Inland Empire: \"It did not come as a surprise to hi...\"",
+                                  "articyId": "0x0100002F000129CF",
+                                  "text": "It did not come as a surprise to him. He might actually not be bullshitting.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 36,
+                  "title": "You: \"\"I will not be blackmailed with thi...\"",
+                  "articyId": "0x01000082000205E9",
+                  "text": "\"I will not be blackmailed with this gun business.\"",
+                  "links": [
+                    {
+                      "id": 47,
+                      "title": "Evrart Claire: \"\"Harry, Harry -- I was only trying...\"",
+                      "articyId": "0x0100008200020621",
+                      "text": "\"Harry, Harry -- I was only trying to be tactful. A lost gun is a dangerous thing. I can't have it around in my neighbourhood.\"",
+                      "links": [
+                        {
+                          "id": 18,
+                          "title": "Evrart Claire: \"His tone is suddenly very serious....\"",
+                          "articyId": "0x0100008200020628",
+                          "text": "His tone is suddenly very serious. \"Kids could be playing gun-roulette with it as we speak. Teenage gangs could be arming themselves. Get a hold of yourself, Harry!\"",
+                          "links": [
+                            {
+                              "id": 20,
+                              "title": "Kim Kitsuragi: \"\"I assure you, we are working on lo...\"",
+                              "articyId": "0x0100008200020635",
+                              "text": "\"I assure you, we are working on locating the missing sidearm as well.\"",
+                              "links": [
+                                {
+                                  "id": 22,
+                                  "title": "Esprit de Corps: \"The lieutenant is concerned about t...\"",
+                                  "articyId": "0x0100000200000905",
+                                  "text": "The lieutenant is concerned about the lost gun and feels that the fact you haven't prioritized looking for it is unfortunate, if inevitable, and doesn't put the RCM in a good light.",
+                                  "links": [
+                                    {
+                                      "id": 37,
+                                      "title": "Evrart Claire: \"\"Excellent, Mr. Kitsuragi. That's e...\"",
+                                      "articyId": "0x0100008200020642",
+                                      "text": "\"Excellent, Mr. Kitsuragi. That's excellent news.\" He claps his hands together. \"Looks like we have a friendly gun-finding competition on our hands.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 19,
+                  "title": "You: \"\"I don't care about my gun. Keep it.\"\"",
+                  "articyId": "0x01000082000205EF",
+                  "text": "\"I don't care about my gun. Keep it.\"",
+                  "links": [
+                    {
+                      "id": 32,
+                      "title": "Evrart Claire: \"\"'I don't care about my gun'...\" he...\"",
+                      "articyId": "0x010000820002061A",
+                      "text": "\"'I don't care about my gun'...\" he repeats. \"I love it, Harry! Wish I could be like that. But I can't. I have a responsibility to this community. I can't have a loaded gun out in the streets.\"",
+                      "links": [
+                        {
+                          "id": 41,
+                          "title": "Kim Kitsuragi: \"\"The officer is exaggerating,\" says...\"",
+                          "articyId": "0x010000820002064E",
+                          "text": "\"The officer is exaggerating,\" says the lieutenant, leaning forward. \"Of course we care about the missing firearm, and we are *actively* looking for it as well.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "title": "Evrart Claire: \"\"'I don't care about my gun...'\" he...\"",
+                      "articyId": "0x0100008200020606",
+                      "text": "\"'I don't care about my gun...'\" he repeats. \"I love it, Harry! Wish I could be like that. But I can't. I have a responsibility to this community. I can't have a loaded gun in the streets.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 31,
+                  "title": "You: \"\"Does this mean if I do things for...\"",
+                  "articyId": "0x01000082000205F5",
+                  "text": "\"Does this mean if I do things for you I will get my gun back?\"",
+                  "links": [
+                    {
+                      "id": 48,
+                      "title": "Evrart Claire: \"\"Damn it, Harry, that's exactly wha...\"",
+                      "articyId": "0x01000082000205FE",
+                      "text": "\"Damn it, Harry, that's exactly what it means!\"",
+                      "links": [
+                        {
+                          "id": 12,
+                          "title": "Half Light: \"He is not.\"",
+                          "articyId": "0x010000820002066C",
+                          "text": "He is not.",
+                          "links": [
+                            {
+                              "id": 8,
+                              "title": "Kim Kitsuragi: \"\"Of course,\" the lieutenant replies...\"",
+                              "articyId": "0x0100008200020661",
+                              "text": "\"Of course,\" the lieutenant replies dryly. \"I understand. We help you -- you help us.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

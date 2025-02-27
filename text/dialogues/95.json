@@ -1,0 +1,1301 @@
+{
+  "id": "0x0100000F0000EA29",
+  "title": "WESTCOAST / SUNDAY FRIEND",
+  "description": "PART OF THE MORALIST DREAM QUEST. You come across the Sunday friend enjoying the historical scenery. You also have the chance to apologise if you accused him earlier.",
+  "dialogueTree": [
+    {
+      "id": 69,
+      "title": "Sunday Friend: \"\"Always my pleasure to be of assist...\"",
+      "articyId": "0x0100000F0000EF06",
+      "text": "\"Always my pleasure to be of assistance to the RCM. Godspeed, and if we don't meet again, bonne chance!\"",
+      "links": []
+    },
+    {
+      "id": 229,
+      "title": "Sunday Friend: \"The man sees you approaching and tu...\"",
+      "articyId": "0x0100000F0000EA3C",
+      "text": "The man sees you approaching and turns away...",
+      "links": [
+        {
+          "id": 131,
+          "title": "Sunday Friend: \"\"Officer...\"\"",
+          "articyId": "0x0100000F0000EA43",
+          "text": "\"Officer...\"",
+          "links": [
+            {
+              "id": 72,
+              "title": "Kim Kitsuragi: \"\"Mr. Villedrouin...\" The lieutenant...\"",
+              "articyId": "0x0100000F0000EA52",
+              "text": "\"Mr. Villedrouin...\" The lieutenant nods.",
+              "links": [
+                {
+                  "id": 227,
+                  "title": "Sunday Friend: \"The awkward silence that follows is...\"",
+                  "articyId": "0x01000053000057C7",
+                  "text": "The awkward silence that follows is yours to fill.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 132,
+              "title": "You: \"\"Mr. Villedrouin...\"\"",
+              "articyId": "0x0100000F0000EA5F",
+              "text": "\"Mr. Villedrouin...\"",
+              "links": [
+                {
+                  "id": 73,
+                  "title": "Sunday Friend: \"\"I must admit. I did not take you f...\"",
+                  "articyId": "0x0100000F0000EA74",
+                  "text": "\"I must admit. I did not take you for a sightseer. What do you want now?\"",
+                  "links": [
+                    {
+                      "id": 217,
+                      "title": "You: \"\"Listen, about what happened earlie...\"",
+                      "articyId": "0x0100000F0000EA84",
+                      "text": "\"Listen, about what happened earlier...\"",
+                      "links": [
+                        {
+                          "id": 51,
+                          "title": "Sunday Friend: \"\"Yes?\" He turns to face you.\"",
+                          "articyId": "0x0100000F0000EAA6",
+                          "text": "\"Yes?\" He turns to face you.",
+                          "links": [
+                            {
+                              "id": 133,
+                              "title": "You: \"\"It seems we had a little 'misunder...\"",
+                              "articyId": "0x0100000F0000EAC3",
+                              "text": "\"It seems we had a little 'misunderstanding.'\"",
+                              "links": [
+                                {
+                                  "id": 16,
+                                  "title": "Sunday Friend: \"\"That is certainly a *euphemistic*...\"",
+                                  "articyId": "0x0100000F0000EAE7",
+                                  "text": "\"That is certainly a *euphemistic* way to describe what I recall...\"",
+                                  "links": [
+                                    {
+                                      "id": 151,
+                                      "title": "Empathy: \"You aren't going to get out of this...\"",
+                                      "articyId": "0x0100000F0000EB0C",
+                                      "text": "You aren't going to get out of this with evasion.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 168,
+                              "title": "You: \"\"I would like to sincerely apologis...\"",
+                              "articyId": "0x0100000F0000EAC8",
+                              "text": "\"I would like to sincerely apologise for my behaviour. It was completely inappropriate, and I accept full responsibility.\"",
+                              "links": [
+                                {
+                                  "id": 31,
+                                  "title": "Sunday Friend: \"The man considers your words a mome...\"",
+                                  "articyId": "0x0100000F0000EAEC",
+                                  "text": "The man considers your words a moment, then nods slowly...",
+                                  "links": [
+                                    {
+                                      "id": 111,
+                                      "title": "Sunday Friend: \"\"I accept your apology, officer, ou...\"",
+                                      "articyId": "0x0100000F0000EAF1",
+                                      "text": "\"I accept your apology, officer, out of my *profound* respect for the RCM, and the importance of our continuing partnership.\"",
+                                      "links": [
+                                        {
+                                          "id": 184,
+                                          "title": "Sunday Friend: \"\"Now, what brings you down to the c...\"",
+                                          "articyId": "0x0100000F0000EAF6",
+                                          "text": "\"Now, what brings you down to the coast?\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 124,
+                              "title": "You: \"\"I'm still pretty sure you were in...\"",
+                              "articyId": "0x0100000F0000EACD",
+                              "text": "\"I'm still pretty sure you were in the wrong, but I'm willing to forgive you.\"",
+                              "links": [
+                                {
+                                  "id": 14,
+                                  "title": "Sunday Friend: \"\"Unbelievable. I have never seen th...\"",
+                                  "articyId": "0x0100000F0000EAD8",
+                                  "text": "\"Unbelievable. I have never seen the nerve before...\"",
+                                  "links": [
+                                    {
+                                      "id": 15,
+                                      "title": "Sunday Friend: \"\"Does this behaviour represent the...\"",
+                                      "articyId": "0x0100000F0000EAE2",
+                                      "text": "\"Does this behaviour represent the RCM's *official stance* toward its Coalition partners?\" He turns to the lieutenant.",
+                                      "links": [
+                                        {
+                                          "id": 74,
+                                          "title": "Authority: \"Do you hear that contempt in his vo...\"",
+                                          "articyId": "0x0100000F0000EB31",
+                                          "text": "Do you hear that contempt in his voice? He's always considered himself *above* you.",
+                                          "links": [
+                                            {
+                                              "id": 17,
+                                              "title": "Kim Kitsuragi: \"\"I must apologise on my partner's b...\"",
+                                              "articyId": "0x0100000F0000EB4A",
+                                              "text": "\"I must apologise on my partner's behalf, again. Please believe me when I say that he does not speak for the RCM in *any* capacity.\"",
+                                              "links": [
+                                                {
+                                                  "id": 230,
+                                                  "title": "Sunday Friend: \"\"Perhaps he does, perhaps he does n...\"",
+                                                  "articyId": "0x0100000F0000EB00",
+                                                  "text": "\"Perhaps he does, perhaps he does not. In any case, this conversation is over. Good day, officers.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 231,
+                                                      "title": "Sunday Friend: \"With that, he turns his back to you...\"",
+                                                      "articyId": "0x0100000F0000EB05",
+                                                      "text": "With that, he turns his back to you once more.",
+                                                      "links": [
+                                                        {
+                                                          "id": 198,
+                                                          "title": "Kim Kitsuragi: \"The lieutenant stares at the man's...\"",
+                                                          "articyId": "0x0100000F0000EB55",
+                                                          "text": "The lieutenant stares at the man's back, then steps away. He makes sure no one else can hear him as he turns to face you...",
+                                                          "links": [
+                                                            {
+                                                              "id": 112,
+                                                              "title": "Kim Kitsuragi: \"\"I don't understand why you have it...\"",
+                                                              "articyId": "0x0100000F0000EB5A",
+                                                              "text": "\"I don't understand why you have it in for this man. He's never been anything but gracious and helpful to our cause. Why do you feel the need to insult him?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 75,
+                                                                  "title": "You: \"\"I'm sorry, Kim. I just can't help...\"",
+                                                                  "articyId": "0x0100000F0000EB5F",
+                                                                  "text": "\"I'm sorry, Kim. I just can't help it.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 76,
+                                                                      "title": "Kim Kitsuragi: \"\"Good god, couldn't you *try* at le...\"",
+                                                                      "articyId": "0x0100000F0000EB7B",
+                                                                      "text": "\"Good god, couldn't you *try* at least?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 77,
+                                                                          "title": "Kim Kitsuragi: \"\"I'm not even sure why I'm botherin...\"",
+                                                                          "articyId": "0x0100000F0000EB90",
+                                                                          "text": "\"I'm not even sure why I'm bothering. This is *your* side task, after all...\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 49,
+                                                                              "title": "Empathy: \"This isn't the end. There may yet b...\"",
+                                                                              "articyId": "0x01000053000057D6",
+                                                                              "text": "This isn't the end. There may yet be someone along this coast who can direct you where you need to go...",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 3,
+                                                                                  "title": "Kim Kitsuragi: \"\"Now, let's go. You've done enough...\"",
+                                                                                  "articyId": "0x0100000F0000EB9B",
+                                                                                  "text": "\"Now, let's go. You've done enough damage here.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 86,
+                                                                  "title": "You: \"\"It feels like he holds us in conte...\"",
+                                                                  "articyId": "0x0100000F0000EB64",
+                                                                  "text": "\"It feels like he holds us in contempt, like he thinks he's better than we are.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 134,
+                                                                      "title": "Kim Kitsuragi: \"\"Of course he does, he's from the M...\"",
+                                                                      "articyId": "0x0100000F0000EB80",
+                                                                      "text": "\"Of course he does, he's from the Moralintern. But that doesn't mean *we* don't have standards to maintain...\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 100,
+                                                                  "title": "You: \"\"I just don't like his face, okay?\"\"",
+                                                                  "articyId": "0x0100000F0000EB69",
+                                                                  "text": "\"I just don't like his face, okay?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 135,
+                                                                      "title": "Kim Kitsuragi: \"\"Good god, couldn't you *pretend* a...\"",
+                                                                      "articyId": "0x0100000F0000EB85",
+                                                                      "text": "\"Good god, couldn't you *pretend* at least?\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 150,
+                                      "title": "Sunday Friend: \"\"Especially from a common officer o...\"",
+                                      "articyId": "0x0100000F0000EADD",
+                                      "text": "\"Especially from a common officer of the Revachol Citizens Militia.\"",
+                                      "links": [
+                                        {
+                                          "id": 99,
+                                          "title": "Authority: \"Do you hear that contempt in his vo...\"",
+                                          "articyId": "0x0100000F0000EB3F",
+                                          "text": "Do you hear that contempt in his voice? He's always considered himself *above* you.",
+                                          "links": [
+                                            {
+                                              "id": 238,
+                                              "title": "Empathy: \"This isn't the end. There may yet b...\"",
+                                              "articyId": "0x01000053000057CF",
+                                              "text": "This isn't the end. There may yet be someone along this coast who can direct you where you need to go...",
+                                              "links": [
+                                                {
+                                                  "id": 213,
+                                                  "title": "Sunday Friend: \"\"And now, this conversation is over...\"",
+                                                  "articyId": "0x0100000F0000EAFB",
+                                                  "text": "\"And now, this conversation is over. Good day, *officer*.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 210,
+              "title": "You: \"\"I've been looking all over for you.\"\"",
+              "articyId": "0x0100000F0000EA64",
+              "text": "\"I've been looking all over for you.\"",
+              "links": [
+                {
+                  "id": 197,
+                  "title": "Sunday Friend: \"\"Is that so? Have you come to *enfo...\"",
+                  "articyId": "0x0100000F0000EA7A",
+                  "text": "\"Is that so? Have you come to *enforce* an arrest warrant?\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 50,
+              "title": "You: \"\"Look what the tide dragged in.\"\"",
+              "articyId": "0x0100000F0000EA69",
+              "text": "\"Look what the tide dragged in.\"",
+              "links": [
+                {
+                  "id": 183,
+                  "title": "Sunday Friend: \"\"Is that an RCM *term of art* for t...\"",
+                  "articyId": "0x0100000F0000EA7F",
+                  "text": "\"Is that an RCM *term of art* for the *wrongfully accused*?\"",
+                  "links": [
+                    {
+                      "id": 97,
+                      "title": "Empathy: \"How do you expect to assign la resp...\"",
+                      "articyId": "0x0100000F0000EA91",
+                      "text": "How do you expect to assign la responsabilité if you won't apologise for your own mistakes?",
+                      "links": [
+                        {
+                          "id": 149,
+                          "title": "You: \"\"Let's get right to it. I have some...\"",
+                          "articyId": "0x0100000F0000EA9E",
+                          "text": "\"Let's get right to it. I have something to say.\"",
+                          "links": [
+                            {
+                              "id": 123,
+                              "title": "Sunday Friend: \"\"And what is that, officer?\" He tur...\"",
+                              "articyId": "0x0100000F0000EAAC",
+                              "text": "\"And what is that, officer?\" He turns to face you.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 148,
+                          "title": "You: \"\"Sorry, bad joke. I wanted to talk...\"",
+                          "articyId": "0x0100000F0000EA98",
+                          "text": "\"Sorry, bad joke. I wanted to talk about what happened earlier.\"",
+                          "links": [
+                            {
+                              "id": 211,
+                              "title": "Sunday Friend: \"\"I'm listening.\" He turns to face y...\"",
+                              "articyId": "0x0100000F0000EAB1",
+                              "text": "\"I'm listening.\" He turns to face you.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 228,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x010000580001C71A",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "title": "Sunday Friend: \"\"Ah, super, here you are again, off...\"",
+      "articyId": "0x0100000F0000EBAC",
+      "text": "\"Ah, super, here you are again, officer. How can I help?\"",
+      "links": [
+        {
+          "id": 63,
+          "title": "You: \"\"Actually, I was wondering what *yo...\"",
+          "articyId": "0x0100000F0000EBE8",
+          "text": "\"Actually, I was wondering what *you're* doing out here.\"",
+          "links": [
+            {
+              "id": 128,
+              "title": "Sunday Friend: \"\"Mm, well that's très simple. I was...\"",
+              "articyId": "0x0100005300003113",
+              "text": "\"Mm, well that's très simple. I was visiting the fishing village just north of here. They have applied for a series of micro-loans to revitalise the old market, and well, I wished to see the situation *first-hand*...\"",
+              "links": [
+                {
+                  "id": 82,
+                  "title": "Sunday Friend: \"\"And then, well, I had some extra t...\"",
+                  "articyId": "0x010000530000311A",
+                  "text": "\"And then, well, I had some extra time on my hands, so I decided to stroll down here. It's quite peaceful, isn't it?\"",
+                  "links": [
+                    {
+                      "id": 159,
+                      "title": "You: \"(Look around.) \"Yeah, it's lovely.\"\"",
+                      "articyId": "0x0100005300003127",
+                      "text": "(Look around.) \"Yeah, it's lovely.\"",
+                      "links": [
+                        {
+                          "id": 12,
+                          "title": "Sunday Friend: \"The man takes a deep breath. \"Yes,...\"",
+                          "articyId": "0x0100005300003140",
+                          "text": "The man takes a deep breath. \"Yes, there's nothing like a stroll along the coast to lift one's spirits.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "title": "You: \"\"It's not quite my scene.\"\"",
+                      "articyId": "0x010000530000312D",
+                      "text": "\"It's not quite my scene.\"",
+                      "links": [
+                        {
+                          "id": 207,
+                          "title": "Sunday Friend: \"\"Well, you know what they say, 'In...\"",
+                          "articyId": "0x0100005300003148",
+                          "text": "\"Well, you know what they say, 'In matters of taste, there can be no dispute'! For my part, I find it quite invigorating.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 142,
+                      "title": "You: \"\"You do know there was a mass execu...\"",
+                      "articyId": "0x0100005300003133",
+                      "text": "\"You do know there was a mass execution right over there?\"",
+                      "links": [
+                        {
+                          "id": 208,
+                          "title": "Sunday Friend: \"\"Really?\" The man frowns. \"*Here*?...\"",
+                          "articyId": "0x0100005300003164",
+                          "text": "\"Really?\" The man frowns. \"*Here*? How can you be sure?\"",
+                          "links": [
+                            {
+                              "id": 160,
+                              "title": "You: \"\"It's sort of a gift I have. I can...\"",
+                              "articyId": "0x010000530000316B",
+                              "text": "\"It's sort of a gift I have. I can reconstruct things that happened in the past. High-end detective stuff.\"",
+                              "links": [
+                                {
+                                  "id": 70,
+                                  "title": "Sunday Friend: \"\"Ah, a very useful gift for a polic...\"",
+                                  "articyId": "0x0100005300003179",
+                                  "text": "\"Ah, a very useful gift for a police detective, I'm sure. Fascinating, *how much history* is contained right here, if only one knows where to look for it...\"",
+                                  "links": [
+                                    {
+                                      "id": 237,
+                                      "title": "Rhetoric: \"Are you just going to let him get a...\"",
+                                      "articyId": "0x0100005300003187",
+                                      "text": "Are you just going to let him get away with these generalities and euphemisms?",
+                                      "links": [
+                                        {
+                                          "id": 178,
+                                          "title": "You: \"\"I'm sure the communards who were k...\"",
+                                          "articyId": "0x0100005300003195",
+                                          "text": "\"I'm sure the communards who were killed here take a different view.\"",
+                                          "links": [
+                                            {
+                                              "id": 93,
+                                              "title": "Sunday Friend: \"\"Yes, the loss of human life was tr...\"",
+                                              "articyId": "0x01000053000031AA",
+                                              "text": "\"Yes, the loss of human life was truly catastrophic... This is why the Coalition is so focused on preventing another war. Our peacekeeping mission is a testament to this...\"",
+                                              "links": [
+                                                {
+                                                  "id": 244,
+                                                  "title": "Sunday Friend: \"\"Thankfully, the region is becoming...\"",
+                                                  "articyId": "0x01000053000031B1",
+                                                  "text": "\"Thankfully, the region is becoming more and more stable. I'm confident that atrocities like this belong in the past. The future is...\" he snaps his fingers, \"*tranquilou bilou!*\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 164,
+                                                      "title": "Rhetoric: \"*Tranquilou bilou*? Let's not get i...\"",
+                                                      "articyId": "0x01000053000031B8",
+                                                      "text": "*Tranquilou bilou*? Let's not get into this, you can't argue with someone who uses words like 'tranquilou bilou'.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 26,
+                                          "title": "You: \"\"Ugly work, but at least someone ha...\"",
+                                          "articyId": "0x010000530000319B",
+                                          "text": "\"Ugly work, but at least someone had the balls to do what had to be done.\"",
+                                          "links": [
+                                            {
+                                              "id": 209,
+                                              "title": "Sunday Friend: \"\"A rather *brutal* perspective on h...\"",
+                                              "articyId": "0x01000053000031C4",
+                                              "text": "\"A rather *brutal* perspective on history.\" He frowns slightly. \"I personally take the more nuanced view that it was regrettably harsh, but perhaps necessary to end the war...\"",
+                                              "links": [
+                                                {
+                                                  "id": 216,
+                                                  "title": "Sunday Friend: \"\"What's certain is that we must do...\"",
+                                                  "articyId": "0x010000580001C727",
+                                                  "text": "\"What's certain is that we must do everything to prevent such tragic events from ever happening again. The answers lie in *debates*, not in violence.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 58,
+                                          "title": "You: \"\"Really, it's the property damage t...\"",
+                                          "articyId": "0x01000053000031A1",
+                                          "text": "\"Really, it's the property damage that most offends me.\"",
+                                          "links": [
+                                            {
+                                              "id": 179,
+                                              "title": "Sunday Friend: \"\"Now, now. Human life is *always* m...\"",
+                                              "articyId": "0x01000053000031D0",
+                                              "text": "\"Now, now. Human life is *always* more important than private property...\"",
+                                              "links": [
+                                                {
+                                                  "id": 121,
+                                                  "title": "Sunday Friend: \"\"Though, I do hope whoever was resp...\"",
+                                                  "articyId": "0x01000053000031DB",
+                                                  "text": "\"Though, I do hope whoever was responsible at least compensated the building's owner appropriately.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 180,
+                                          "title": "You: \"\"You're right. It's so complex and...\"",
+                                          "articyId": "0x01000053000031E7",
+                                          "text": "\"You're right. It's so complex and fascinating I can't even *begin* to think critically about it.\"",
+                                          "links": [
+                                            {
+                                              "id": 225,
+                                              "title": "Sunday Friend: \"\"Well said. Let us just be grateful...\"",
+                                              "articyId": "0x01000053000031EE",
+                                              "text": "\"Well said. Let us just be grateful that *we* don't live in such fascinating times.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 47,
+                                          "title": "Rhetoric: \"You feel like there's *something* y...\"",
+                                          "articyId": "0x01000053000031FA",
+                                          "text": "You feel like there's *something* you could say here, if only you really knew what was going on...",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 129,
+                              "title": "You: \"\"For one, that wall over there is *...\"",
+                              "articyId": "0x0100005300003171",
+                              "text": "\"For one, that wall over there is *covered* in bullet holes.\"",
+                              "links": [
+                                {
+                                  "id": 25,
+                                  "title": "Sunday Friend: \"\"Ah, is that what those pock marks...\"",
+                                  "articyId": "0x0100005300003180",
+                                  "text": "\"Ah, is that what those pock marks are? I might've guessed. Fascinating, *how much history* is contained right here, if only one knows where to look for it...\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "title": "You: \"\"Did you see all the bullet holes i...\"",
+                      "articyId": "0x0100005300003139",
+                      "text": "\"Did you see all the bullet holes in that wall over there?\"",
+                      "links": [
+                        {
+                          "id": 130,
+                          "title": "Sunday Friend: \"\"Ah, is that what those pock marks...\"",
+                          "articyId": "0x0100005300003207",
+                          "text": "\"Ah, is that what those pock marks are? I might've guessed. Fascinating, *how much history* is contained right here, if only one knows where to look for it...\"",
+                          "links": [
+                            {
+                              "id": 27,
+                              "title": "Rhetoric: \"You feel like there's *something* y...\"",
+                              "articyId": "0x0100005300003201",
+                              "text": "You feel like there's *something* you could say here, if only you really knew what was going on...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 224,
+                      "title": "You: \"\"Actually, there was something *els...\"",
+                      "articyId": "0x0100005300003151",
+                      "text": "\"Actually, there was something *else* I wanted to ask you about.\"",
+                      "links": [
+                        {
+                          "id": 243,
+                          "title": "Sunday Friend: \"\"Ah, bon? I'm all ears, officer.\"\"",
+                          "articyId": "0x0100005300003158",
+                          "text": "\"Ah, bon? I'm all ears, officer.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"\"I need your help forming a committ...\"",
+          "articyId": "0x0100000F0000EBDE",
+          "text": "\"I need your help forming a committee. I'm trying to assign *la responsabilité*.\"",
+          "links": [
+            {
+              "id": 32,
+              "title": "Sunday Friend: \"\"My friend, if it's *la responsabil...\"",
+              "articyId": "0x0100000F0000EBF5",
+              "text": "\"My friend, if it's *la responsabilité* you're after, I have good news for you: There's no need to form such a committee, because it already exists!\"",
+              "links": [
+                {
+                  "id": 169,
+                  "title": "Logic: \"God, of course it does. These Moral...\"",
+                  "articyId": "0x0100000F0000EBFC",
+                  "text": "God, of course it does. These Moralintern types...",
+                  "links": [
+                    {
+                      "id": 136,
+                      "title": "Sunday Friend: \"\"The Comité de Responsabilité de Re...\"",
+                      "articyId": "0x0100000F0000EC03",
+                      "text": "\"The Comité de Responsabilité de Revachol. It acts as a sort-of clearinghouse for Coalition activities. To put it simply, they are the ultimate arbiters of la responsabilité in this part of the world.\"",
+                      "links": [
+                        {
+                          "id": 78,
+                          "title": "Empathy: \"Yes, this is just the sort of reaso...\"",
+                          "articyId": "0x0100000F0000EC0A",
+                          "text": "Yes, this is just the sort of reasonable authority you're looking for!",
+                          "links": [
+                            {
+                              "id": 79,
+                              "title": "Sunday Friend: \"\"I would offer to connect you with...\"",
+                              "articyId": "0x0100000F0000EC11",
+                              "text": "\"I would offer to connect you with the committee myself, but alas, I am not actually *in* Martinaise.\"",
+                              "links": [
+                                {
+                                  "id": 52,
+                                  "title": "Perception (Sight): \"What? Where is he, then?\"",
+                                  "articyId": "0x0100000F0000EC2A",
+                                  "text": "What? Where is he, then?",
+                                  "links": [
+                                    {
+                                      "id": 19,
+                                      "title": "Inland Empire: \"You *knew* there was something stra...\"",
+                                      "articyId": "0x0100000F0000EC32",
+                                      "text": "You *knew* there was something strange about this one! He's an astral projection, a bureaucratic phantasm!",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 42,
+                                      "title": "Rhetoric: \"He's speaking figuratively. He mean...\"",
+                                      "articyId": "0x0100000F0000EC37",
+                                      "text": "He's speaking figuratively. He means he's not in Martinaise in his *official* capacity.",
+                                      "links": [
+                                        {
+                                          "id": 214,
+                                          "title": "You: \"\"What are you talking about? I'm lo...\"",
+                                          "articyId": "0x0100000F0000EC4D",
+                                          "text": "\"What are you talking about? I'm looking at you right now!\"",
+                                          "links": [
+                                            {
+                                              "id": 170,
+                                              "title": "Sunday Friend: \"\"Of course, we are speaking informa...\"",
+                                              "articyId": "0x0100000F0000EC69",
+                                              "text": "\"Of course, we are speaking informally, but *officially* I am still in La Delta, preparing for an upcoming conference on fuel oil derivatives...\"",
+                                              "links": [
+                                                {
+                                                  "id": 54,
+                                                  "title": "Sunday Friend: \"\"That's why it would be extremely i...\"",
+                                                  "articyId": "0x0100000F0000EC83",
+                                                  "text": "\"That's why it would be extremely irregular, or potentially even *inappropriate* for me to intercede with the Committee concerning a district I'm not officially in.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 233,
+                                                      "title": "You: \"\"But this is an urgent matter. I *n...\"",
+                                                      "articyId": "0x0100000F0000ECC5",
+                                                      "text": "\"But this is an urgent matter. I *need* to get in touch with the Committee.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 126,
+                                                          "title": "Sunday Friend: \"\"Yes, you've made your *persistence...\"",
+                                                          "articyId": "0x0100000F0000ECD4",
+                                                          "text": "\"Yes, you've made your *persistence* quite clear. Under normal circumstances I would have to insist you go through the regular channels.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 6,
+                                                              "title": "Volition: \"No, no. You can't let them give you...\"",
+                                                              "articyId": "0x0100000F0000ECE3",
+                                                              "text": "No, no. You can't let them give you the runaround.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 223,
+                                                                  "title": "Sunday Friend: \"\"But if you have information of a v...\"",
+                                                                  "articyId": "0x0100000F0000ED04",
+                                                                  "text": "\"But if you have information of a vital interest, they might be willing to entertain an exception. In which case, I would advise you to contact them via Coalition Warship Archer.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 115,
+                                                                      "title": "You: \"\"Wait, what's Coalition Warship Arc...\"",
+                                                                      "articyId": "0x0100000F0000ED32",
+                                                                      "text": "\"Wait, what's Coalition Warship Archer?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 116,
+                                                                          "title": "Sunday Friend: \"\"Officer? You mean to say you haven...\"",
+                                                                          "articyId": "0x0100000F0000ED45",
+                                                                          "text": "\"Officer? You mean to say you haven't noticed the giant Coalition aerostatic peacefully patrolling the skies over Revachol?\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 201,
+                                                                              "title": "Perception (Sight): \"You follow the man's gaze out towar...\"",
+                                                                              "articyId": "0x0100000F0000ED52",
+                                                                              "text": "You follow the man's gaze out toward the west. There, hanging some distance above the horison, you can just make out a strange silhouette...",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 80,
+                                                                                  "title": "Perception (Sight): \"It looks, to your eye, like some ki...\"",
+                                                                                  "articyId": "0x0100000F0000ED6C",
+                                                                                  "text": "It looks, to your eye, like some kind of long, metallic fish, suspended beneath a number of ceiling fans...",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 187,
+                                                                                      "title": "Conceptualization: \"Not just any fish, it moves like so...\"",
+                                                                                      "articyId": "0x0100000F0000ED8A",
+                                                                                      "text": "Not just any fish, it moves like some ancient bottom-feeder gliding over the ocean floor in search of prey...",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 117,
+                                                                                          "title": "Half Light: \"Don't let the paintjob fool you, it...\"",
+                                                                                          "articyId": "0x0100000F0000ED8F",
+                                                                                          "text": "Don't let the paintjob fool you, it's a goddamn killing machine, and there's nothing you can do to stop it!",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 154,
+                                                                                              "title": "Visual Calculus: \"It's about four-and-a-half kilometr...\"",
+                                                                                              "articyId": "0x0100000F0000ED98",
+                                                                                              "text": "It's about four-and-a-half kilometres from your position, you estimate.",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 46,
+                                                                                                  "title": "You: \"\"It's amazing. An inspiring symbol.\"\"",
+                                                                                                  "articyId": "0x0100000F0000EDD9",
+                                                                                                  "text": "\"It's amazing. An inspiring symbol.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 65,
+                                                                                                      "title": "Sunday Friend: \"\"Isn't it? A triumph of both techni...\"",
+                                                                                                      "articyId": "0x0100000F0000EDF5",
+                                                                                                      "text": "\"Isn't it? A triumph of both technical ingenuity and international cooperation. I, for one, feel much safer knowing it's up there, watching all of us.\"",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 203,
+                                                                                                  "title": "You: \"\"It looks like a fish.\"\"",
+                                                                                                  "articyId": "0x0100000F0000EDDE",
+                                                                                                  "text": "\"It looks like a fish.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 189,
+                                                                                                      "title": "Sunday Friend: \"\"Fascinating. I always thought it w...\"",
+                                                                                                      "articyId": "0x0100000F0000EDFA",
+                                                                                                      "text": "\"Fascinating. I always thought it was more like a dragonfly. But isn't it interesting how humanity always finds inspiration in nature?\"",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 56,
+                                                                                                  "title": "You: \"\"It looks like a killing machine.\"\"",
+                                                                                                  "articyId": "0x0100000F0000EDE3",
+                                                                                                  "text": "\"It looks like a killing machine.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 155,
+                                                                                                      "title": "Sunday Friend: \"\"Well, of course it *is* a heavily...\"",
+                                                                                                      "articyId": "0x0100000F0000EDFF",
+                                                                                                      "text": "\"Well, of course it *is* a heavily armed and armoured warship with a full complement. But I assure you its purpose in Revachol is to *keep* the peace, not disturb it.\"",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 139,
+                                                                                                  "title": "You: \"\"Huh. Can't believe I never noticed...\"",
+                                                                                                  "articyId": "0x0100000F0000EDE8",
+                                                                                                  "text": "\"Huh. Can't believe I never noticed it before.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 119,
+                                                                                                      "title": "Sunday Friend: \"\"That is part of the idea, of cours...\"",
+                                                                                                      "articyId": "0x0100000F0000EE04",
+                                                                                                      "text": "\"That is part of the idea, of course. The Coalition doesn't want the people of Revachol to feel that they are under a *military* occupation. That is why the Archer is always careful to maintain a constant, discreet distance.\"",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 175,
+                                                                                  "title": "Perception (Sight): \"You look around, but you don't see...\"",
+                                                                                  "articyId": "0x0100000F0000ED71",
+                                                                                  "text": "You look around, but you don't see anything unusual. Then again, your eyes aren't the sharpest...",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 202,
+                                                                                      "title": "You: \"\"Oh, right. The *Archer*. I thought...\"",
+                                                                                      "articyId": "0x0100000F0000EDAF",
+                                                                                      "text": "\"Oh, right. The *Archer*. I thought you said... something else.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 23,
+                                                                                          "title": "Sunday Friend: \"\"Ah, well, I'm glad to hear that at...\"",
+                                                                                          "articyId": "0x0100000F0000EDBB",
+                                                                                          "text": "\"Ah, well, I'm glad to hear that at least. It would really be *quite unusual* for you to have never noticed it before...\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 118,
+                                                                                      "title": "You: \"\"I don't think I've ever noticed it...\"",
+                                                                                      "articyId": "0x0100000F0000EDB4",
+                                                                                      "text": "\"I don't think I've ever noticed it before.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 242,
+                                                                                          "title": "Sunday Friend: \"\"Interesting. In a sense, that's th...\"",
+                                                                                          "articyId": "0x0100000F0000EDC0",
+                                                                                          "text": "\"Interesting. In a sense, that's the very idea. The Coalition doesn't want the people of Revachol to feel that they are under a *military* occupation. That is why the Archer is always careful to maintain a constant, discreet distance.\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 44,
+                                                                              "title": "Perception (Sight): \"You follow the man's gaze out towar...\"",
+                                                                              "articyId": "0x0100000F0000ED59",
+                                                                              "text": "You follow the man's gaze out toward the west. There, amidst the low-hanging stars, you can just make out signs of motion...",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 92,
+                                                                                  "title": "Perception (Sight): \"It's a set of position lights movin...\"",
+                                                                                  "articyId": "0x0100000F0000ED76",
+                                                                                  "text": "It's a set of position lights moving in unison, like a restless constellation...",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 106,
+                                                                                      "title": "Conceptualization: \"No, it's more like a creature from...\"",
+                                                                                      "articyId": "0x0100000F0000ED9F",
+                                                                                      "text": "No, it's more like a creature from the abyssopelagic zone, a great dark bioluminescent fish...",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 188,
+                                                                                          "title": "Half Light: \"Don't let the shiny lights fool you...\"",
+                                                                                          "articyId": "0x0100000F0000EDA5",
+                                                                                          "text": "Don't let the shiny lights fool you, it's a goddamn killing machine, and there's nothing you can do to stop it!",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 138,
+                                                                                  "title": "Perception (Sight): \"You can't see anything. But then, i...\"",
+                                                                                  "articyId": "0x0100000F0000ED7B",
+                                                                                  "text": "You can't see anything. But then, it's dark, and your eyes aren't the sharpest...",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 43,
+                                                                      "title": "You: \"\"Why do I need to go through Archer...\"",
+                                                                      "articyId": "0x0100000F0000ED37",
+                                                                      "text": "\"Why do I need to go through Archer to speak to the Committee?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 140,
+                                                                          "title": "Sunday Friend: \"\"You see, in addition to being an a...\"",
+                                                                          "articyId": "0x0100000F0000EE22",
+                                                                          "text": "\"You see, in addition to being an airborne artillery platform, Coalition Warship Archer is also the linchpin of the Coalition's surveillance and communications infrastructure in Revachol.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 157,
+                                                                      "title": "You: \"\"Hold on, it's *watching* us, too?\"\"",
+                                                                      "articyId": "0x0100000F0000EE37",
+                                                                      "text": "\"Hold on, it's *watching* us, too?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 204,
+                                                                          "title": "Sunday Friend: \"\"And listening! It has the most obj...\"",
+                                                                          "articyId": "0x0100000F0000EE27",
+                                                                          "text": "\"And listening! It has the most objective vantage point in the entire city. Not to mention a vast array of radio, photographic, and meteorological monitoring instruments.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 156,
+                                                                              "title": "Sunday Friend: \"\"I find it a great comfort to know...\"",
+                                                                              "articyId": "0x0100000F0000EE31",
+                                                                              "text": "\"I find it a great comfort to know there are benevolent powers watching over all, in strict accordance with the Wayfarer Act and the Bristelmüne Conventions.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 13,
+                                                                                  "title": "Encyclopedia: \"The Bristelmüne Conventions are a s...\"",
+                                                                                  "articyId": "0x010000580001C73C",
+                                                                                  "text": "The Bristelmüne Conventions are a series of international agreements governing the treatment of military personnel and civilians in theatres of war as well as occupied territories. In practice, they are more talked about than observed.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 137,
+                                                                      "title": "You: \"\"So how does one go about contactin...\"",
+                                                                      "articyId": "0x0100000F0000ED3C",
+                                                                      "text": "\"So how does one go about contacting a Coalition warship?\" (Proceed.)",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 127,
+                                                                          "title": "Sunday Friend: \"\"Hmmm, this is quite the problem, v...\"",
+                                                                          "articyId": "0x0100000F0000EE53",
+                                                                          "text": "\"Hmmm, this is quite the problem, very tricky. Of course, the Archer has orders to fire on any unidentified aerostatics that might approach it, so it might be safer to get in touch *from the ground*...\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 235,
+                                                                              "title": "Sunday Friend: \"\"But in that case, you would requir...\"",
+                                                                              "articyId": "0x0100000F0000EE5A",
+                                                                              "text": "\"But in that case, you would require a radio transmitter capable of broadcasting on Coalition frequencies. And that kind of technology naturally isn't typically available for non-Coalition use. Yes, it *is* a bit of a conundrum.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 57,
+                                                                                  "title": "Sunday Friend: \"\"I suppose there might be some way...\"",
+                                                                                  "articyId": "0x0100000F0000EE60",
+                                                                                  "text": "\"I suppose there might be some way to *circuit-bend* your way onto those frequencies, but you'd have to be one of those *techno-tinkerers* to do it.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 158,
+                                                                                      "title": "You: \"\"Do you know any of these tinkerers?\"\"",
+                                                                                      "articyId": "0x0100000F0000EE6A",
+                                                                                      "text": "\"Do you know any of these tinkerers?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 177,
+                                                                                          "title": "Sunday Friend: \"\"Unfortunately not, no, I don't hav...\"",
+                                                                                          "articyId": "0x0100000F0000EE7F",
+                                                                                          "text": "\"Unfortunately not, no, I don't have the pleasure. I am merely a representative of the Coalition Government, not very well-versed in technology. But you...\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 226,
+                                                                                              "title": "Kim Kitsuragi: \"\"Hmmm, sounds like something that p...\"",
+                                                                                              "articyId": "0x0100005300004B7C",
+                                                                                              "text": "\"Hmmm, sounds like something that programmer we met in the church might be able to help with...\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 166,
+                                                                                                  "title": "Sunday Friend: \"\"Let me just say that I have *compl...\"",
+                                                                                                  "articyId": "0x0100005300004B68",
+                                                                                                  "text": "\"Let me just say that I have *complete confidence* in the RCM. I'm sure you'll figure something out.\"",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 122,
+                                                                                              "title": "Empathy: \"This sounds like something that pro...\"",
+                                                                                              "articyId": "0x0100005300004B62",
+                                                                                              "text": "This sounds like something that programmer you met in the church might help with...",
+                                                                                              "links": []
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 71,
+                                                                                              "title": "Kim Kitsuragi: \"\"Hmmm, perhaps your young friends i...\"",
+                                                                                              "articyId": "0x0100005300004B5C",
+                                                                                              "text": "\"Hmmm, perhaps your young friends in the *tent* might be of assistance?\"",
+                                                                                              "links": []
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 195,
+                                                                                              "title": "Empathy: \"Perhaps your new friends in the ten...\"",
+                                                                                              "articyId": "0x0100005300004B76",
+                                                                                              "text": "Perhaps your new friends in the tent might be able to help you?",
+                                                                                              "links": []
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 196,
+                                                                                              "title": "Kim Kitsuragi: \"\"Oh, good: 'Techno-tinkerers.' Just...\"",
+                                                                                              "articyId": "0x0100005300004B82",
+                                                                                              "text": "\"Oh, good: 'Techno-tinkerers.' Just what this *side task* was missing...\"",
+                                                                                              "links": []
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 167,
+                                                                                              "title": "Empathy: \"You *will* figure it out. Something...\"",
+                                                                                              "articyId": "0x0100005300004B70",
+                                                                                              "text": "You *will* figure it out. Something tells you the person you're looking for is already on this coast...",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 176,
+                                                                                      "title": "You: \"\"Is that... legal?\"\"",
+                                                                                      "articyId": "0x0100000F0000EE6F",
+                                                                                      "text": "\"Is that... legal?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 205,
+                                                                                          "title": "Sunday Friend: \"\"Unauthorised circuit-bending is a...\"",
+                                                                                          "articyId": "0x0100000F0000EE84",
+                                                                                          "text": "\"Unauthorised circuit-bending is a very serious matter with grave security implications, but as of the moment there is no specific law *forbidding* it, in Revachol at least...\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 120,
+                                                                                      "title": "You: \"\"So what am I supposed to do?\"\"",
+                                                                                      "articyId": "0x0100000F0000EE74",
+                                                                                      "text": "\"So what am I supposed to do?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 215,
+                                                                                          "title": "Sunday Friend: \"\"That, my friend, is your responsab...\"",
+                                                                                          "articyId": "0x0100000F0000EE89",
+                                                                                          "text": "\"That, my friend, is your responsabilité. I cannot take it from you, nor can you delegate it to someone else...\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 234,
+                                                      "title": "You: \"\"How am I supposed to contact the C...\"",
+                                                      "articyId": "0x0100000F0000ECCA",
+                                                      "text": "\"How am I supposed to contact the Committee then?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 113,
+                                                          "title": "Sunday Friend: \"The man frowns. \"Well, under ordina...\"",
+                                                          "articyId": "0x0100000F0000ECD9",
+                                                          "text": "The man frowns. \"Well, under ordinary circumstances, the Committee contacts *you*.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 185,
+                                                              "title": "Rhetoric: \"In other words, the Committee only...\"",
+                                                              "articyId": "0x0100000F0000ECE8",
+                                                              "text": "In other words, the Committee only knows what it *wants* to know.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 102,
+                                                      "title": "You: \"\"Are you saying I should just give...\"",
+                                                      "articyId": "0x0100000F0000ECCF",
+                                                      "text": "\"Are you saying I should just give up?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 114,
+                                                          "title": "Sunday Friend: \"\"I don't mean to discourage you, of...\"",
+                                                          "articyId": "0x0100000F0000ECDE",
+                                                          "text": "\"I don't mean to discourage you, of course, just to say that it won't be *easy* to reach the Committee.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 241,
+                                                              "title": "Logic: \"Not exactly a model of accessible a...\"",
+                                                              "articyId": "0x0100000F0000ECED",
+                                                              "text": "Not exactly a model of accessible and accountable governance...",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 53,
+                                          "title": "You: \"(Attempt to stick your hand through...\"",
+                                          "articyId": "0x0100000F0000EC52",
+                                          "text": "(Attempt to stick your hand through his astral form.)",
+                                          "links": [
+                                            {
+                                              "id": 232,
+                                              "title": "Sunday Friend: \"\"Mais que faites-vous, officer?\" Yo...\"",
+                                              "articyId": "0x0100000F0000EC7E",
+                                              "text": "\"Mais que faites-vous, officer?\" Your hand bumps up against the man's solid if somewhat fleshy chest.",
+                                              "links": [
+                                                {
+                                                  "id": 101,
+                                                  "title": "Kim Kitsuragi: \"\"Yes, I was wondering the same thin...\"",
+                                                  "articyId": "0x0100000F0000EC94",
+                                                  "text": "\"Yes, I was wondering the same thing. What are you doing?\"",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 22,
+                                                  "title": "You: \"\"You said you weren't really here....\"",
+                                                  "articyId": "0x0100000F0000ECA2",
+                                                  "text": "\"You said you weren't really here. I had to make sure you weren't an astral projection.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 174,
+                                                      "title": "Sunday Friend: \"\"No, no, don't be silly. We're simp...\"",
+                                                      "articyId": "0x0100000F0000ECAC",
+                                                      "text": "\"No, no, don't be silly. We're simply speaking in an informal capacity. *Officially* I am still in La Delta, preparing for an upcoming conference on fuel oil derivatives...\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 64,
+                                                  "title": "You: \"\"Nothing, just lost my balance a mo...\"",
+                                                  "articyId": "0x0100000F0000ECA7",
+                                                  "text": "\"Nothing, just lost my balance a moment.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 88,
+                                                      "title": "Sunday Friend: \"\"Perhaps your blood sugar is a bit...\"",
+                                                      "articyId": "0x0100000F0000ECB1",
+                                                      "text": "\"Perhaps your blood sugar is a bit low? As I was saying, *officially* speaking I am still in La Delta, preparing for an upcoming conference on fuel oil derivatives...\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "title": "You: \"\"I got it. You're only here on *per...\"",
+                                          "articyId": "0x0100000F0000EC57",
+                                          "text": "\"I got it. You're only here on *personal* business.\"",
+                                          "links": [
+                                            {
+                                              "id": 153,
+                                              "title": "Sunday Friend: \"\"Précisément. *Officially* I am sti...\"",
+                                              "articyId": "0x0100000F0000EC74",
+                                              "text": "\"Précisément. *Officially* I am still in La Delta, preparing for an upcoming conference on fuel oil derivatives...\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 152,
+                                          "title": "You: \"\"So... where *are* you, then?\"\"",
+                                          "articyId": "0x0100000F0000EC5C",
+                                          "text": "\"So... where *are* you, then?\"",
+                                          "links": [
+                                            {
+                                              "id": 21,
+                                              "title": "Sunday Friend: \"\"Why, *officially* I am still in La...\"",
+                                              "articyId": "0x0100000F0000EC79",
+                                              "text": "\"Why, *officially* I am still in La Delta, preparing for an upcoming conference on fuel oil derivatives. I'm only in Martinaise in an unofficial capacity...\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 87,
+          "title": "You: \"\"Thank you for your time.\" [Leave.]\"",
+          "articyId": "0x0100000F0000EBE3",
+          "text": "\"Thank you for your time.\" [Leave.]",
+          "links": [
+            {
+              "id": 236,
+              "title": "Sunday Friend: \"\"Already leaving?\" He shakes his he...\"",
+              "articyId": "0x0100000F0000EF0B",
+              "text": "\"Already leaving?\" He shakes his head merrily. \"À tout à l'heure, officer!\"",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "title": "Sunday Friend: \"As you approach, the man turns and...\"",
+      "articyId": "0x0100000F0000EBB1",
+      "text": "As you approach, the man turns and greets you with a polite wave.",
+      "links": [
+        {
+          "id": 18,
+          "title": "Empathy: \"He appears completely at ease, like...\"",
+          "articyId": "0x0100000F0000EBCF",
+          "text": "He appears completely at ease, like a common holidaymaker.",
+          "links": [
+            {
+              "id": 62,
+              "title": "Sunday Friend: \"\"Ah, super, it's the officer! I was...\"",
+              "articyId": "0x0100000F0000EBB8",
+              "text": "\"Ah, super, it's the officer! I was not expecting to run into you again, but things have a funny way of turning out, no?\"",
+              "links": [
+                {
+                  "id": 200,
+                  "title": "Sunday Friend: \"\"What brings you down to the scenic...\"",
+                  "articyId": "0x0100000F0000EBBD",
+                  "text": "\"What brings you down to the scenic Martinaise coast?\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

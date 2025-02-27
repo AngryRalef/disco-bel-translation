@@ -1,0 +1,940 @@
+{
+  "id": "0x0100004C00004947",
+  "title": "CONTAINERYARD / CLOAK JUMP",
+  "description": "You see a policeman-cloak -- jump to it. Get it. If you're above, to be precise! Otherwise, you can just pick it up or whatever.",
+  "dialogueTree": [
+    {
+      "id": 118,
+      "title": "Policeman Cloak: \"The tarpaulin cloak swings alone fo...\"",
+      "articyId": "0x01000040000030F4",
+      "text": "The tarpaulin cloak swings alone for a while there in the wind. No one's coming for it anymore.",
+      "links": []
+    },
+    {
+      "id": 216,
+      "title": "Policeman Cloak: \"Looks like someone left his tarpaul...\"",
+      "articyId": "0x0100004C00004F92",
+      "text": "Looks like someone left his tarpaulin cloak hanging on the railing here. There is a white rectangle clearly visible on its back.",
+      "links": [
+        {
+          "id": 85,
+          "title": "You: \"\"Look, lieutenant. (Point to the cl...\"",
+          "articyId": "0x0100004C00004FB9",
+          "text": "\"Look, lieutenant. (Point to the cloak.) Someone left their cloak behind.\"",
+          "links": [
+            {
+              "id": 189,
+              "title": "Kim Kitsuragi: \"\"Yes. It was probably you.\" He look...\"",
+              "articyId": "0x0100004C00004FB3",
+              "text": "\"Yes. It was probably you.\" He looks at you. \"It does bear the RCM insignia after all.\"",
+              "links": [
+                {
+                  "id": 190,
+                  "title": "You: \"\"You think I should get it?\"\"",
+                  "articyId": "0x0100004C00004FD0",
+                  "text": "\"You think I should get it?\"",
+                  "links": [
+                    {
+                      "id": 61,
+                      "title": "Kim Kitsuragi: \"\"The service cloak issued to you by...\"",
+                      "articyId": "0x0100004C00004FD7",
+                      "text": "\"The service cloak issued to you by your station? Yes, yes I do.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"\"Lieutenant...\" (Point to the cloak...\"",
+          "articyId": "0x01000006000185C4",
+          "text": "\"Lieutenant...\" (Point to the cloak.) \"I think that's mine.\"",
+          "links": [
+            {
+              "id": 207,
+              "title": "Kim Kitsuragi: \"\"Yes. It does bear the RCM insignia...\"",
+              "articyId": "0x01000006000185CB",
+              "text": "\"Yes. It does bear the RCM insignia. And we're the only detectives in Martinaise.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 149,
+          "title": "You: \"Grab the cloak. [Leave.]\"",
+          "articyId": "0x0100004C00004F9F",
+          "text": "Grab the cloak. [Leave.]",
+          "links": [
+            {
+              "id": 98,
+              "title": "Policeman Cloak: \"As your fingers touch the tarpaulin...\"",
+              "articyId": "0x0100004C00004FFD",
+              "text": "As your fingers touch the tarpaulin it almost feels like the cloak wants to deliver a message of comfort through your fingertips...",
+              "links": [
+                {
+                  "id": 14,
+                  "title": "Esprit de Corps: \"*I will shield you from the element...\"",
+                  "articyId": "0x0100004C000072D4",
+                  "text": "*I will shield you from the elements and give my life for yours* -- that's what the cloak is relaying.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 203,
+          "title": "Inland Empire: \"This is *your* cloak. You can feel...\"",
+          "articyId": "0x01000006000185B3",
+          "text": "This is *your* cloak. You can feel it.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "title": "Policeman Cloak: \"A tarpaulin cloak is still caught o...\"",
+      "articyId": "0x0100005A0000FBB6",
+      "text": "A tarpaulin cloak is still caught on the railing. No one has claimed it for their own.",
+      "links": [
+        {
+          "id": 81,
+          "title": "You: \"Look around.\"",
+          "articyId": "0x0100004C00004B6E",
+          "text": "Look around.",
+          "links": [
+            {
+              "id": 188,
+              "title": "Kim Kitsuragi: \"The wind is aggressive up here. The...\"",
+              "articyId": "0x0100004C00004EFF",
+              "text": "The wind is aggressive up here. The lieutenant looks at the enormous crane towering in the distance, over the container yard.",
+              "links": [
+                {
+                  "id": 22,
+                  "title": "Empathy: \"The look in his eyes is a mix of th...\"",
+                  "articyId": "0x0100004C00004F06",
+                  "text": "The look in his eyes is a mix of the engineer-like interest and the wonder of a six year old seeing a horse for the first time.",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "Interfacing: \"That machine is a Kvalsund 10-20 HK...\"",
+                      "articyId": "0x0100000600018163",
+                      "text": "That machine is a Kvalsund 10-20 HK.",
+                      "links": [
+                        {
+                          "id": 111,
+                          "title": "You: \"\"Kvalsund 10-20 HK...\" (Point at th...\"",
+                          "articyId": "0x0100004C00004F20",
+                          "text": "\"Kvalsund 10-20 HK...\" (Point at the crane.)",
+                          "links": [
+                            {
+                              "id": 127,
+                              "title": "Kim Kitsuragi: \"\"Is it?\" He looks at you, impressed...\"",
+                              "articyId": "0x0100004C00004F58",
+                              "text": "\"Is it?\" He looks at you, impressed. \"Kvalsund makes lot of heavy equipment, but this is phenomenal even for them.\"",
+                              "links": [
+                                {
+                                  "id": 192,
+                                  "title": "Kim Kitsuragi: \"\"But I digress. We were focusing on...\"",
+                                  "articyId": "0x0100002D0000039F",
+                                  "text": "\"But I digress. We were focusing on your *cloak* here.\" He looks at the sad piece of fabric flapping in the wind.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 161,
+                          "title": "You: \"\"Motherfucker...\" (Let out a whistl...\"",
+                          "articyId": "0x0100004C00004F27",
+                          "text": "\"Motherfucker...\" (Let out a whistle.) \"Now that's a huge crane!\"",
+                          "links": [
+                            {
+                              "id": 113,
+                              "title": "Kim Kitsuragi: \"\"Yes, that's one way of putting it....\"",
+                              "articyId": "0x0100004C00004F50",
+                              "text": "\"Yes, that's one way of putting it.\" He turns to you with a faint smile, then looks back at the crane. \"It's certainly an impressive achievement of engineering.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 112,
+                          "title": "You: \"\"It's just a machine, lieutenant. L...\"",
+                          "articyId": "0x0100004C00004F2C",
+                          "text": "\"It's just a machine, lieutenant. Like a giant hammer or a pair of pliers. Nothing to see here.\"",
+                          "links": [
+                            {
+                              "id": 12,
+                              "title": "Kim Kitsuragi: \"\"I think there's a certain beauty i...\"",
+                              "articyId": "0x0100004C00004F48",
+                              "text": "\"I think there's a certain beauty in this giant pair of pliers. But you're right, we were focusing on your *cloak*...\"",
+                              "links": [
+                                {
+                                  "id": 76,
+                                  "title": "Kim Kitsuragi: \"He turns back to the sad piece of f...\"",
+                                  "articyId": "0x0100000600018A28",
+                                  "text": "He turns back to the sad piece of fabric flapping in the wind.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 199,
+                          "title": "You: \"Let him have this moment of wonder.\"",
+                          "articyId": "0x0100004C00004F35",
+                          "text": "Let him have this moment of wonder.",
+                          "links": [
+                            {
+                              "id": 49,
+                              "title": "Kim Kitsuragi: \"His eyes trace the crane's contour...\"",
+                              "articyId": "0x0100004C00004F3C",
+                              "text": "His eyes trace the crane's contour as if trying to memorize its majestic shape. Then he notices your gaze.",
+                              "links": [
+                                {
+                                  "id": 77,
+                                  "title": "Kim Kitsuragi: \"\"Yes... we were in the middle of so...\"",
+                                  "articyId": "0x0100000600018A2E",
+                                  "text": "\"Yes... we were in the middle of something -- your cloak...\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 151,
+                          "title": "Kim Kitsuragi: \"Then he turns back to the sad piece...\"",
+                          "articyId": "0x0100001D0000024D",
+                          "text": "Then he turns back to the sad piece of fabric flapping in the wind.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 175,
+          "title": "You: \"\"What exactly are we doing up here?\"\"",
+          "articyId": "0x0100004C00004B67",
+          "text": "\"What exactly are we doing up here?\"",
+          "links": [
+            {
+              "id": 27,
+              "title": "Kim Kitsuragi: \"\"I was under the assumption we coul...\"",
+              "articyId": "0x0100004C000049BE",
+              "text": "\"I was under the assumption we could ask the leader of this Union to help us get this body down. This is why we're here, right?\" He doesn't wait for you to answer.",
+              "links": [
+                {
+                  "id": 88,
+                  "title": "Kim Kitsuragi: \"\"Or it could be that we're just *ex...\"",
+                  "articyId": "0x0100004C000049B6",
+                  "text": "\"Or it could be that we're just *exploring*.\" He looks around, wind rustling his hair.",
+                  "links": [
+                    {
+                      "id": 150,
+                      "title": "Empathy: \"He's thinking you've forgotten wher...\"",
+                      "articyId": "0x01000082000087D3",
+                      "text": "He's thinking you've forgotten where you are again.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 198,
+              "title": "Kim Kitsuragi: \"\"I was under the impression we're o...\"",
+              "articyId": "0x0100004C00004EEE",
+              "text": "\"I was under the impression we're on our way to meet the king of this *castle under siege* -- Evrart -- one of the people we're interviewing. This way we may be able to get around his henchmen.\"",
+              "links": []
+            },
+            {
+              "id": 39,
+              "title": "Kim Kitsuragi: \"\"What are we doing? We're awfully c...\"",
+              "articyId": "0x0100004C0000499D",
+              "text": "\"What are we doing? We're awfully close to breaking into the industrial harbour -- they're bound to have information for us. I thought that was our intention...\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "You: \"\"Do you really think this cloak is...\"",
+          "articyId": "0x0100004C00004B75",
+          "text": "\"Do you really think this cloak is mine? Should I go for it? Jump?\"",
+          "links": [
+            {
+              "id": 84,
+              "title": "Kim Kitsuragi: \"\"The cloak? I *do* think it's yours...\"",
+              "articyId": "0x0100004C00004D13",
+              "text": "\"The cloak? I *do* think it's yours, yes. As to whether you should go for it...\" He looks over the ledge, at the cold pavement below.",
+              "links": [
+                {
+                  "id": 51,
+                  "title": "Kim Kitsuragi: \"\"Well, it doesn't seem too dangerou...\"",
+                  "articyId": "0x0100002D000003AC",
+                  "text": "\"Well, it doesn't seem too dangerous -- two metres tops. Whenever you're ready to do it, I'll be right behind you.\"",
+                  "links": [
+                    {
+                      "id": 214,
+                      "title": "Conceptualization: \"The cloak looks like a bag of goodi...\"",
+                      "articyId": "0x0100004C00004D25",
+                      "text": "The cloak looks like a bag of goodies floating in the wind. Who knows what its pockets may hide?!",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 193,
+          "title": "You: \"Go for the cloak -- jump over the l...\"",
+          "articyId": "0x0100004C00004B5F",
+          "text": "Go for the cloak -- jump over the ledge!",
+          "links": [
+            {
+              "id": 212,
+              "title": "Savoir Faire: \"As you leap in the air, a chilly br...\"",
+              "articyId": "0x0100004C00004C17",
+              "text": "As you leap in the air, a chilly breeze engulfs you, sharpening you senses.",
+              "links": [
+                {
+                  "id": 17,
+                  "title": "You: \"Close your eyes, let your senses ta...\"",
+                  "articyId": "0x0100004C00004C28",
+                  "text": "Close your eyes, let your senses take in the world around you.",
+                  "links": [
+                    {
+                      "id": 131,
+                      "title": "Savoir Faire: \"Ankles tingling from the tension, b...\"",
+                      "articyId": "0x0100004C00004C2F",
+                      "text": "Ankles tingling from the tension, blood roaring in your ears -- you are ready for your rendezvous with the concrete pavement below.",
+                      "links": [
+                        {
+                          "id": 68,
+                          "title": "Shivers: \"Martinaise goes about its daily rou...\"",
+                          "articyId": "0x0100004C00004C36",
+                          "text": "Martinaise goes about its daily routine as you soar through the air. The loud voices of protesters mix with the engine sounds from the traffic jam; waves crash against the pier and dense, salty sea air fills your lungs.",
+                          "links": [
+                            {
+                              "id": 137,
+                              "title": "Electrochemistry: \"Also, you should be having a drink...\"",
+                              "articyId": "0x0100004C000072B3",
+                              "text": "Also, you should be having a drink right now -- you should have a bottle of alcohol in your hand *right now*.",
+                              "links": [
+                                {
+                                  "id": 65,
+                                  "title": "Horrific Necktie: \"He's so on the money, *bratan*. Jus...\"",
+                                  "articyId": "0x010000820001F9A9",
+                                  "text": "He's so on the money, *bratan*. Just imagine yourself dual-wielding a bottle and a flaming cigarette! Whilst airborne!",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 13,
+                  "title": "You: \"What was that about a drink? Wouldn...\"",
+                  "articyId": "0x0100004C000072BB",
+                  "text": "What was that about a drink? Wouldn't that ruin the moment?",
+                  "links": [
+                    {
+                      "id": 86,
+                      "title": "Electrochemistry: \"Don't be ridiculous, of course not.\"",
+                      "articyId": "0x0100005A0000FBCC",
+                      "text": "Don't be ridiculous, of course not.",
+                      "links": [
+                        {
+                          "id": 138,
+                          "title": "You: \"No, a drink *would* ruin the pristi...\"",
+                          "articyId": "0x0100005A0000FBD2",
+                          "text": "No, a drink *would* ruin the pristine beauty of this moment of ultimate sobriety.",
+                          "links": [
+                            {
+                              "id": 230,
+                              "title": "Electrochemistry: \"What have you done to my precious a...\"",
+                              "articyId": "0x0100005A0000FC09",
+                              "text": "What have you done to my precious alcoholic friend? You're no fun anymore.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "title": "You: \"Damn, you're right! Beer gushing in...\"",
+                          "articyId": "0x0100005A0000FBD7",
+                          "text": "Damn, you're right! Beer gushing into my face would really *nail it* right now.",
+                          "links": [
+                            {
+                              "id": 229,
+                              "title": "Electrochemistry: \"Yeah. You'd be like the ultimate ro...\"",
+                              "articyId": "0x0100005A0000FC04",
+                              "text": "Yeah. You'd be like the ultimate rock and roll mega star. A flying legend.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 201,
+                          "title": "You: \"I have a bottle in hand right now -...\"",
+                          "articyId": "0x0100005A0000FBDC",
+                          "text": "I have a bottle in hand right now -- I could go for it!",
+                          "links": [
+                            {
+                              "id": 114,
+                              "title": "Electrochemistry: \"Don't really know why you haven't y...\"",
+                              "articyId": "0x0100005A0000FBEA",
+                              "text": "Don't really know why you haven't yet.",
+                              "links": [
+                                {
+                                  "id": 219,
+                                  "title": "Visual Calculus: \"That would be incredibly unsound at...\"",
+                                  "articyId": "0x0100005A0000FBEF",
+                                  "text": "That would be incredibly unsound at this moment.",
+                                  "links": [
+                                    {
+                                      "id": 191,
+                                      "title": "Savoir Faire: \"Time is running out -- continue the...\"",
+                                      "articyId": "0x0100005A0000FBF8",
+                                      "text": "Time is running out -- continue the voyage and celebrate later.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 91,
+                  "title": "You: \"Don't let go of the moment yet.\"",
+                  "articyId": "0x0100004C00004C44",
+                  "text": "Don't let go of the moment yet.",
+                  "links": [
+                    {
+                      "id": 19,
+                      "title": "Shivers: \"The little backyard, Kingdom of Cun...\"",
+                      "articyId": "0x0100004C00004C7D",
+                      "text": "The little backyard, Kingdom of Cuno, looks almost idyllic when it's not dominated by a decomposing human being.",
+                      "links": [
+                        {
+                          "id": 109,
+                          "title": "Shivers: \"And its de-facto ruler, Cuno the Gr...\"",
+                          "articyId": "0x0100004C00004C8E",
+                          "text": "And its de-facto ruler, Cuno the Gremlin King, is pointing at *you*, talking to his friend. What is he saying?",
+                          "links": [
+                            {
+                              "id": 213,
+                              "title": "Perception (Hearing): \"\"Flying f****t... winged pig... shi...\"",
+                              "articyId": "0x0100004C00004C88",
+                              "text": "\"Flying f****t... winged pig... shit is airborne...\" These are the only words the wind coming in from the Insulindian ocean carries to you.",
+                              "links": [
+                                {
+                                  "id": 197,
+                                  "title": "Savoir Faire: \"His words remain indiscernible. No...\"",
+                                  "articyId": "0x0100004C00004C94",
+                                  "text": "His words remain indiscernible. No matter -- it's time to start thinking about the landing.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "title": "Shivers: \"The corpse is dominating the yard a...\"",
+                      "articyId": "0x0100004C00004C55",
+                      "text": "The corpse is dominating the yard and the stench is nauseating, even so far from the epicentre. It brings tears to your eyes.",
+                      "links": [
+                        {
+                          "id": 132,
+                          "title": "Authority: \"We'll take care of that body too. W...\"",
+                          "articyId": "0x0100004C00004C61",
+                          "text": "We'll take care of that body too. We'll take care of all of it!",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 110,
+                  "title": "You: \"Continue the voyage through the sal...\"",
+                  "articyId": "0x0100004C00004CC0",
+                  "text": "Continue the voyage through the salty air.",
+                  "links": [
+                    {
+                      "id": 30,
+                      "title": "Savoir Faire: \"As the concrete floor welcomes you,...\"",
+                      "articyId": "0x0100004C00004C71",
+                      "text": "As the concrete floor welcomes you, you realize it's been a while since you felt so alive, alert, capable. Must be the adrenaline.",
+                      "links": [
+                        {
+                          "id": 82,
+                          "title": "Kim Kitsuragi: \"\"Hell yeah!\" The lieutenant exclaim...\"",
+                          "articyId": "0x0100004C00004CE7",
+                          "text": "\"Hell yeah!\" The lieutenant exclaims. \"My climbing might not have been as disco as your jump, but can we still get an Ace's High?\"",
+                          "links": [
+                            {
+                              "id": 202,
+                              "title": "Savoir Faire: \"With your feet firmly planted on th...\"",
+                              "articyId": "0x0100005A0000FC30",
+                              "text": "With your feet firmly planted on the concrete, the noise of the harbour rushes back in.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 163,
+                          "title": "Kim Kitsuragi: \"\"I knew you could do it!\" The lieut...\"",
+                          "articyId": "0x0100004E00000096",
+                          "text": "\"I knew you could do it!\" The lieutenant exclaims. \"My climbing down might not have been as disco as your jump, but at least we can explore the harbour now.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 60,
+                          "title": "You: \"\"FRANCONEGRO!!!\"\"",
+                          "articyId": "0x0100004C00004CF1",
+                          "text": "\"FRANCONEGRO!!!\"",
+                          "links": [
+                            {
+                              "id": 25,
+                              "title": "Savoir Faire: \"No one hears your shouts, but it ma...\"",
+                              "articyId": "0x0100005A0000FC20",
+                              "text": "No one hears your shouts, but it makes you feel powerful inside. Now, with your feet firmly planted on the concrete, the noise of the harbour rushes back in.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 95,
+                          "title": "You: \"\"Not bad, not too bad at all.\"\"",
+                          "articyId": "0x0100004C00004CF8",
+                          "text": "\"Not bad, not too bad at all.\"",
+                          "links": [
+                            {
+                              "id": 50,
+                              "title": "Savoir Faire: \"No one is listening to your words,...\"",
+                              "articyId": "0x0100005A0000FC25",
+                              "text": "No one is listening to your words, but it doesn't matter. You feel pride. Now, with your feet firmly planted on the concrete, the noise of the harbour rushes back in.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 176,
+              "title": "Savoir Faire: \"Holy wow, that's *high*! You'd have...\"",
+              "articyId": "0x0100004C00004BC7",
+              "text": "Holy wow, that's *high*! You'd have to be a total madman to jump. This is certain death!",
+              "links": [
+                {
+                  "id": 215,
+                  "title": "You: \"\"Right, I can't do it right now --...\"",
+                  "articyId": "0x0100004C00004EC6",
+                  "text": "\"Right, I can't do it right now -- I'll make the jump next time.\"",
+                  "links": [
+                    {
+                      "id": 34,
+                      "title": "Kim Kitsuragi: \"\"Sure.\" He looks at you, worried. \"...\"",
+                      "articyId": "0x0100004C00004ECD",
+                      "text": "\"Sure.\" He looks at you, worried. \"Just be careful, okay? Looks like you almost strained a muscle there.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 103,
+                      "title": "Savoir Faire: \"Will you? Because it feels like you...\"",
+                      "articyId": "0x0100005A0000FC39",
+                      "text": "Will you? Because it feels like you strained a muscle there. Or two.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 145,
+                  "title": "Volition: \"You could have died there! Shit, sh...\"",
+                  "articyId": "0x0100004C00004D46",
+                  "text": "You could have died there! Shit, shit, shit, shit... I'm failing you. This wasn't part of our deal!",
+                  "links": [
+                    {
+                      "id": 96,
+                      "title": "Horrific Necktie: \"I got you, I got you, *bratan*. Let...\"",
+                      "articyId": "0x0100004C00004D5A",
+                      "text": "I got you, I got you, *bratan*. Let me just adjust your breathing a little bit... There, isn't that better?",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "You: \"(Tug on your tie.) God, now I can't...\"",
+                          "articyId": "0x0100004C00004D62",
+                          "text": "(Tug on your tie.) God, now I can't breathe at all... Stop doing this to me, necktie, you were supposed to be a *friend*!",
+                          "links": [
+                            {
+                              "id": 177,
+                              "title": "Kim Kitsuragi: \"\"Hey, hey... what's happening? You...\"",
+                              "articyId": "0x0100004C00004DBD",
+                              "text": "\"Hey, hey... what's happening? You okay?\" He sounds genuinely worried.",
+                              "links": [
+                                {
+                                  "id": 97,
+                                  "title": "You: \"\"I'm alright, Kim... I... I just......\"",
+                                  "articyId": "0x0100004C00004DC4",
+                                  "text": "\"I'm alright, Kim... I... I just...\" (Keep tugging on your tie.) \"I can't *breathe*.\"",
+                                  "links": [
+                                    {
+                                      "id": 222,
+                                      "title": "Kim Kitsuragi: \"\"It's okay, you're just having a *l...\"",
+                                      "articyId": "0x0100004C00004DF8",
+                                      "text": "\"It's okay, you're just having a *little* panic attack. Try to breathe as slowly as you can, alright?\" He shakes you gently by the shoulder.",
+                                      "links": [
+                                        {
+                                          "id": 140,
+                                          "title": "Horrific Necktie: \"The necktie lets go a little, its v...\"",
+                                          "articyId": "0x0100002D000003B6",
+                                          "text": "The necktie lets go a little, its vicious grip easing around your neck. Colours return to the world around you.",
+                                          "links": [
+                                            {
+                                              "id": 160,
+                                              "title": "You: \"\"Thanks, I think it's working.\" (Le...\"",
+                                              "articyId": "0x0100004C00004E0C",
+                                              "text": "\"Thanks, I think it's working.\" (Let go of your tie.)",
+                                              "links": [
+                                                {
+                                                  "id": 78,
+                                                  "title": "Kim Kitsuragi: \"\"Good. We can always come back when...\"",
+                                                  "articyId": "0x0100002D000003C9",
+                                                  "text": "\"Good. We can always come back when you're feeling better. It's just a cloak after all.\" He looks around.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 73,
+                              "title": "Horrific Necktie: \"Feel the squeeze, baby!\"",
+                              "articyId": "0x0100004C00004E52",
+                              "text": "Feel the squeeze, baby!",
+                              "links": [
+                                {
+                                  "id": 136,
+                                  "title": "Savoir Faire: \"Tears run down your face. You're cl...\"",
+                                  "articyId": "0x0100004C00004E30",
+                                  "text": "Tears run down your face. You're clutching your chest and mumbling incoherently. How much worse can it get?",
+                                  "links": [
+                                    {
+                                      "id": 187,
+                                      "title": "You: \"Just let me fucking *breathe*, Horr...\"",
+                                      "articyId": "0x0100004C00004E42",
+                                      "text": "Just let me fucking *breathe*, Horrific Necktie.",
+                                      "links": [
+                                        {
+                                          "id": 20,
+                                          "title": "Horrific Necktie: \"Fine, be boring, breathe! -- Get hi...\"",
+                                          "articyId": "0x0100004C00004E58",
+                                          "text": "Fine, be boring, breathe! -- Get high on some of that sweet-sweet O, baby!",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 45,
+                                      "title": "You: \"Just let it all out, let it go, let...\"",
+                                      "articyId": "0x0100004C00004E5E",
+                                      "text": "Just let it all out, let it go, let it happen.",
+                                      "links": [
+                                        {
+                                          "id": 21,
+                                          "title": "Horrific Necktie: \"As you let go a tidal wave of tears...\"",
+                                          "articyId": "0x0100004C00004E64",
+                                          "text": "As you let go a tidal wave of tears breaks through the dam and washes away everything.",
+                                          "links": [
+                                            {
+                                              "id": 63,
+                                              "title": "Horrific Necktie: \"The sadness, the stress, the failur...\"",
+                                              "articyId": "0x0100005A0000FC57",
+                                              "text": "The sadness, the stress, the failures of the past and present and the weight of being you. It would wash you away, too, if it weren't for the firm grip of your necktie.",
+                                              "links": [
+                                                {
+                                                  "id": 26,
+                                                  "title": "Horrific Necktie: \"The necktie is guiding you through...\"",
+                                                  "articyId": "0x0100005A0000FC50",
+                                                  "text": "The necktie is guiding you through this. It's your spirit animal, both your nemesis and friend. Suddenly a feeling of ease brushes through you -- you're fine again.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 69,
+                      "title": "Kim Kitsuragi: \"\"Hey, hey... what happened?\" He sou...\"",
+                      "articyId": "0x0100004C00004D89",
+                      "text": "\"Hey, hey... what happened?\" He sounds genuinely worried.",
+                      "links": [
+                        {
+                          "id": 179,
+                          "title": "You: \"\"I'm alright, Kim... I... I just ca...\"",
+                          "articyId": "0x0100005A0000FC73",
+                          "text": "\"I'm alright, Kim... I... I just can't do it right now.\"",
+                          "links": [
+                            {
+                              "id": 139,
+                              "title": "Kim Kitsuragi: \"\"I understand. We can always come b...\"",
+                              "articyId": "0x0100005A0000FC87",
+                              "text": "\"I understand. We can always come back when you're feeling better. It's just a cloak after all.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 159,
+                      "title": "You: \"The tears just come. From nowhere....\"",
+                      "articyId": "0x0100004C00004D97",
+                      "text": "The tears just come. From nowhere. Like a sudden guerrilla attack from the bushes, they overwhelm you.",
+                      "links": [
+                        {
+                          "id": 33,
+                          "title": "Savoir Faire: \"After a while your sobbing stops. U...\"",
+                          "articyId": "0x0100004C00004E18",
+                          "text": "After a while your sobbing stops. Up here no one saw the little meltdown you just had and your heart actually feels lighter now. Time to proceed.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "title": "You: \"\"Yeah, not right now.\" [Leave.]\"",
+          "articyId": "0x0100004C00004B7C",
+          "text": "\"Yeah, not right now.\" [Leave.]",
+          "links": []
+        },
+        {
+          "id": 221,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100004C00004B8A",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Policeman Cloak: \"Looks like someone left his tarpaul...\"",
+      "articyId": "0x0100004C00004986",
+      "text": "Looks like someone left his tarpaulin cloak hanging on the railing here.",
+      "links": [
+        {
+          "id": 119,
+          "title": "Esprit de Corps: \"Man down! A trooper has been left b...\"",
+          "articyId": "0x0100004C0000493F",
+          "text": "Man down! A trooper has been left behind the enemy lines!",
+          "links": [
+            {
+              "id": 128,
+              "title": "Esprit de Corps: \"You could swear it's more of an ins...\"",
+              "articyId": "0x0100004C00004AA8",
+              "text": "You could swear it's more of an instinct than anything else, but you *know* it's a cop's cloak.",
+              "links": [
+                {
+                  "id": 80,
+                  "title": "You: \"\"A cop's cloak! It's a cop's cloak!...\"",
+                  "articyId": "0x0100004C00004B4E",
+                  "text": "\"A cop's cloak! It's a cop's cloak!!!\"",
+                  "links": [
+                    {
+                      "id": 220,
+                      "title": "Kim Kitsuragi: \"\"Yes. It is probably yours. It does...\"",
+                      "articyId": "0x0100004C00004ADA",
+                      "text": "\"Yes. It is probably yours. It does bear the RCM insignia after all. Now -- how to retrieve it?\" He judges the drop.",
+                      "links": [
+                        {
+                          "id": 90,
+                          "title": "Kim Kitsuragi: \"\"You could probably make the jump....\"",
+                          "articyId": "0x0100004C00004AE2",
+                          "text": "\"You could probably make the jump. You look like you've done some track and field in your day.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 41,
+                      "title": "Policeman Cloak: \"Unaware of your existence the cloak...\"",
+                      "articyId": "0x0100004C00004B57",
+                      "text": "Unaware of your existence the cloak continues its helpless flapping.",
+                      "links": [
+                        {
+                          "id": 29,
+                          "title": "Logic: \"Considering the limited police pres...\"",
+                          "articyId": "0x0100004C00004B22",
+                          "text": "Considering the limited police presence in Martinaise -- you think we might take a leap of logic and say it's yours?",
+                          "links": [
+                            {
+                              "id": 40,
+                              "title": "You: \"You son of a gun, it's my cloak!\"",
+                              "articyId": "0x0100004C00004B29",
+                              "text": "You son of a gun, it's my cloak!",
+                              "links": [
+                                {
+                                  "id": 130,
+                                  "title": "Logic: \"Nailed it!\"",
+                                  "articyId": "0x0100004C00004B44",
+                                  "text": "Nailed it!",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 83,
+                              "title": "Policeman Cloak: \"The white rectangle, now clearly vi...\"",
+                              "articyId": "0x0100004C00004B2F",
+                              "text": "The white rectangle, now clearly visible in the wind, seems to confirm your hypothesis. But who's the cop?",
+                              "links": [
+                                {
+                                  "id": 101,
+                                  "title": "Logic: \"You are the cop. It's your cloak. D...\"",
+                                  "articyId": "0x0100004C00004B3D",
+                                  "text": "You are the cop. It's your cloak. Don't make things complicated.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 23,
+                  "title": "You: \"Just a cop's cloak... I don't want...\"",
+                  "articyId": "0x0100004C0000728C",
+                  "text": "Just a cop's cloak... I don't want to deal with this right now. [Leave.]",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 120,
+              "title": "Perception (Sight): \"When the wind ruffles the cloak you...\"",
+              "articyId": "0x0100004C00004AA0",
+              "text": "When the wind ruffles the cloak you can most definitely see a white rectangle on its back.",
+              "links": [
+                {
+                  "id": 183,
+                  "title": "You: \"\"You son of a gun, it's a cop's clo...\"",
+                  "articyId": "0x0100004C00004AF1",
+                  "text": "\"You son of a gun, it's a cop's cloak!\"",
+                  "links": [
+                    {
+                      "id": 28,
+                      "title": "Perception (Sight): \"Indeed it is.\"",
+                      "articyId": "0x0100004C00004B1B",
+                      "text": "Indeed it is.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 24,
+                  "title": "You: \"The cloak does not concern me at th...\"",
+                  "articyId": "0x0100004C00007292",
+                  "text": "The cloak does not concern me at the moment. [Leave.]",
+                  "links": []
+                },
+                {
+                  "id": 167,
+                  "title": "You: \"\"Look, lieutenant! (Point to the fl...\"",
+                  "articyId": "0x0100004C00004AAE",
+                  "text": "\"Look, lieutenant! (Point to the flapping cloak.) Someone left his cloak behind.\"",
+                  "links": []
+                },
+                {
+                  "id": 211,
+                  "title": "You: \"Ignore the cloak. [Leave.]\"",
+                  "articyId": "0x0100004C00004AC1",
+                  "text": "Ignore the cloak. [Leave.]",
+                  "links": []
+                },
+                {
+                  "id": 104,
+                  "title": "You: \"Interesting. Why would someone leav...\"",
+                  "articyId": "0x0100005A0000FC91",
+                  "text": "Interesting. Why would someone leave a cloak there, and how can I get to it?",
+                  "links": [
+                    {
+                      "id": 231,
+                      "title": "Policeman Cloak: \"The cloak flaps in the wind, inviti...\"",
+                      "articyId": "0x0100005A0000FC98",
+                      "text": "The cloak flaps in the wind, invitingly. It's almost within your reach, if you only just... just go for it.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 52,
+                  "title": "You: \"I guess it's probably nothing. [Lea...\"",
+                  "articyId": "0x0100004C00004AC8",
+                  "text": "I guess it's probably nothing. [Leave.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

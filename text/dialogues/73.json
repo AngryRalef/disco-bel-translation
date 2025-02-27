@@ -1,0 +1,121 @@
+{
+  "id": "0x0100000800002901",
+  "title": "COAST ORB / laughingatscene",
+  "description": "Convo with Logic about the scene of the party",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Logic: \"This is it -- the scene of the part...\"",
+      "articyId": "0x0100000800002908",
+      "text": "This is it -- the scene of the party. The fire pit, cigarettes, and empty bottles all evidence it.",
+      "links": [
+        {
+          "id": 10,
+          "title": "You: \"Hold up -- don't you mean scene of...\"",
+          "articyId": "0x0100000800002918",
+          "text": "Hold up -- don't you mean scene of the crime?",
+          "links": [
+            {
+              "id": 15,
+              "title": "Logic: \"Not as such. I'm talking about what...\"",
+              "articyId": "0x010000080000290E",
+              "text": "Not as such. I'm talking about what came after -- the party scene.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"Yeah. Sure does look like a lot of...\"",
+          "articyId": "0x010000080000291E",
+          "text": "Yeah. Sure does look like a lot of folks partied here.",
+          "links": [
+            {
+              "id": 9,
+              "title": "Logic: \"Looks like they were here a while,...\"",
+              "articyId": "0x0100000800002913",
+              "text": "Looks like they were here a while, judging from all the bottles. The sunken motor carriage provided them a focal point -- like a goose ice-sculpture or a chocolate fountain.",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "You: \"\"Hey, Kim. Looks like we've had a c...\"",
+                  "articyId": "0x0100000800002935",
+                  "text": "\"Hey, Kim. Looks like we've had a couple of party-goers here.\"",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Kim Kitsuragi: \"\"Looks like it.\"\"",
+                      "articyId": "0x0100000800002944",
+                      "text": "\"Looks like it.\"",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "You: \"\"Looks like they had a great time l...\"",
+                          "articyId": "0x0100000800002954",
+                          "text": "\"Looks like they had a great time laughing here.\"",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "Kim Kitsuragi: \"\"Hey -- let's keep moving, detectiv...\"",
+                              "articyId": "0x010000080000294A",
+                              "text": "\"Hey -- let's keep moving, detective.\" The lieutenant adjusts his glasses.",
+                              "links": [
+                                {
+                                  "id": 13,
+                                  "title": "Empathy: \"Somehow he doesn't want to dwell on...\"",
+                                  "articyId": "0x010000060001C22F",
+                                  "text": "Somehow he doesn't want to dwell on it...",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "title": "You: \"\"This was some kind of theatre to t...\"",
+                          "articyId": "0x010000080000295A",
+                          "text": "\"This was some kind of theatre to them. A circus production by a great clown.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 7,
+                          "title": "You: \"\"Was this party against the law? On...\"",
+                          "articyId": "0x0100000800002960",
+                          "text": "\"Was this party against the law? On the ice like this -- it was probably a public danger.\"",
+                          "links": [
+                            {
+                              "id": 12,
+                              "title": "Kim Kitsuragi: \"\"Not as such, no. Let's keep moving...\"",
+                              "articyId": "0x010000080000294F",
+                              "text": "\"Not as such, no. Let's keep moving, detective.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 14,
+                  "title": "You: \"Guess I'll be on my way. (Finish th...\"",
+                  "articyId": "0x010000080000293B",
+                  "text": "Guess I'll be on my way. (Finish thought.)",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "You: \"(Dismiss thought.)\"",
+          "articyId": "0x0100000800002923",
+          "text": "(Dismiss thought.)",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

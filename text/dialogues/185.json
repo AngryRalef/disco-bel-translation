@@ -1,0 +1,430 @@
+{
+  "id": "0x0100002F0000FA60",
+  "title": "WHIRLING F1 / STEEL DOOR",
+  "description": "The steel door in the back of the kitchen. Leads to the storage area with the elevator.",
+  "dialogueTree": [
+    {
+      "id": 90,
+      "title": "Blue door: \"You see a heavy steel door with a p...\"",
+      "articyId": "0x0100002F0000FA67",
+      "text": "You see a heavy steel door with a prominent dimple lock. It's painted blue.",
+      "links": [
+        {
+          "id": 25,
+          "title": "You: \"Try the 'Workshop Spare' key on the...\"",
+          "articyId": "0x0100005800009EA7",
+          "text": "Try the 'Workshop Spare' key on the door.",
+          "links": [
+            {
+              "id": 79,
+              "title": "Blue door: \"The key fits the dimple lock. It ta...\"",
+              "articyId": "0x0100008F00003FC3",
+              "text": "The key fits the dimple lock. It takes a bit of effort to turn it after all these years, but then -- the lock clicks.",
+              "links": [
+                {
+                  "id": 101,
+                  "title": "Inland Empire: \"Dust rises before you like mist. A...\"",
+                  "articyId": "0x01000078000109FF",
+                  "text": "Dust rises before you like mist. A tomb? Haunted by regal spirits from distant ages...",
+                  "links": [
+                    {
+                      "id": 10,
+                      "title": "Perception (Smell): \"No. Smells like engine grease and c...\"",
+                      "articyId": "0x0100007800010A06",
+                      "text": "No. Smells like engine grease and cut wood. A workshop.",
+                      "links": []
+                    },
+                    {
+                      "id": 33,
+                      "title": "Perception (Smell): \"The darkness before you smells like...\"",
+                      "articyId": "0x0100007800010A15",
+                      "text": "The darkness before you smells like engine grease and cut wood...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 52,
+              "title": "Blue door: \"The key fits the dimple lock. It ta...\"",
+              "articyId": "0x0100002F000130FF",
+              "text": "The key fits the dimple lock. It takes a bit of effort to turn it after all these years, but then -- the lock clicks.",
+              "links": []
+            },
+            {
+              "id": 42,
+              "title": "Blue door: \"The key fits the dimple lock. It ta...\"",
+              "articyId": "0x0100005800007355",
+              "text": "The key fits the dimple lock. It takes a bit of effort to turn it after all these years, but then -- the lock clicks.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "title": "You: \"Touch the door.\"",
+          "articyId": "0x0100005800006D62",
+          "text": "Touch the door.",
+          "links": [
+            {
+              "id": 67,
+              "title": "Blue door: \"The cobalt blue surface feels rough...\"",
+              "articyId": "0x0100005800007345",
+              "text": "The cobalt blue surface feels rough to touch. The stainless steel door is flush with its frame on every side.",
+              "links": [
+                {
+                  "id": 92,
+                  "title": "Interfacing: \"Old cobalt paint. Rough on the fing...\"",
+                  "articyId": "0x01000078000108A8",
+                  "text": "Old cobalt paint. Rough on the fingers. Forty, fifty years since this was painted, maybe?",
+                  "links": [
+                    {
+                      "id": 85,
+                      "title": "Visual Calculus: \"It leads to a side-building, adjace...\"",
+                      "articyId": "0x01000078000108EF",
+                      "text": "It leads to a side-building, adjacent to this one. The old building next to this, half ruined. Whatever is behind it must be older.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "title": "You: \"Try to push on the door.\"",
+          "articyId": "0x0100005800006D5C",
+          "text": "Try to push on the door.",
+          "links": [
+            {
+              "id": 65,
+              "title": "Blue door: \"The door does not budge.\"",
+              "articyId": "0x0100005800006D6F",
+              "text": "The door does not budge.",
+              "links": [
+                {
+                  "id": 45,
+                  "title": "Physical Instrument: \"A challenge!\"",
+                  "articyId": "0x01000078000108B1",
+                  "text": "A challenge!",
+                  "links": [
+                    {
+                      "id": 43,
+                      "title": "You: \"Pull on the door -- hard.\"",
+                      "articyId": "0x0100005800009BE3",
+                      "text": "Pull on the door -- hard.",
+                      "links": [
+                        {
+                          "id": 18,
+                          "title": "Blue door: \"The steel doesn't even tremble.\"",
+                          "articyId": "0x0100005800009BEA",
+                          "text": "The steel doesn't even tremble.",
+                          "links": [
+                            {
+                              "id": 44,
+                              "title": "You: \"Put your weight into it.\"",
+                              "articyId": "0x0100005800009BF1",
+                              "text": "Put your weight into it.",
+                              "links": [
+                                {
+                                  "id": 71,
+                                  "title": "Blue door: \"Now you're hanging from the handle....\"",
+                                  "articyId": "0x0100005800009C00",
+                                  "text": "Now you're hanging from the handle. The door remains immobile.",
+                                  "links": [
+                                    {
+                                      "id": 97,
+                                      "title": "Physical Instrument: \"Okay -- it was a *challenge* and yo...\"",
+                                      "articyId": "0x01000078000108C3",
+                                      "text": "Okay -- it was a *challenge* and you failed. What now, loser?",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 68,
+                              "title": "You: \"Give up.\"",
+                              "articyId": "0x0100005800009BF7",
+                              "text": "Give up.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "title": "You: \"No, it's not.\"",
+                      "articyId": "0x0100000600017095",
+                      "text": "No, it's not.",
+                      "links": [
+                        {
+                          "id": 102,
+                          "title": "Blue door: \"You're right. The door looks positi...\"",
+                          "articyId": "0x010000060001709C",
+                          "text": "You're right. The door looks positively *immutable*. You could never get it open using force.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "title": "You: \"\"I wonder where this door leads.\"\"",
+          "articyId": "0x0100005800006DAD",
+          "text": "\"I wonder where this door leads.\"",
+          "links": [
+            {
+              "id": 19,
+              "title": "Kim Kitsuragi: \"\"So do I.\" The lieutenant touches t...\"",
+              "articyId": "0x01000078000108D6",
+              "text": "\"So do I.\" The lieutenant touches the lock. \"It's locked -- and sturdy. The paint job looks old. From *before* the cafeteria.\"",
+              "links": [
+                {
+                  "id": 93,
+                  "title": "Kim Kitsuragi: \"\"We're not getting past it without...\"",
+                  "articyId": "0x01000078000108E2",
+                  "text": "\"We're not getting past it without a key. We should ask the bartender...\" He corrects himself. \"The cafeteria manager.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 54,
+              "title": "Kim Kitsuragi: \"\"You do?\" The lieutenant regards yo...\"",
+              "articyId": "0x0100005800006D9D",
+              "text": "\"You do?\" The lieutenant regards you with patient scepticism. \"It's a door in the back of the kitchen. Why do you care where it leads?\"",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "Interfacing: \"The winch, outside, in the back yar...\"",
+                  "articyId": "0x010000780001090A",
+                  "text": "The winch, outside, in the back yard. Remember? No? Your *fingers* do!",
+                  "links": []
+                },
+                {
+                  "id": 8,
+                  "title": "You: \"\"There was a winch outside, on the...\"",
+                  "articyId": "0x0100007800010913",
+                  "text": "\"There was a winch outside, on the roof. Like that of a small *elevator*.\"",
+                  "links": [
+                    {
+                      "id": 73,
+                      "title": "Kim Kitsuragi: \"\"Hmm... Well, if there was a *winch...\"",
+                      "articyId": "0x010000780001091C",
+                      "text": "\"Hmm... Well, if there was a *winch*, I suppose we could look into it. As a... side-investigation.\"",
+                      "links": [
+                        {
+                          "id": 75,
+                          "title": "Conceptualization: \"It's hardly a side-investigation. Y...\"",
+                          "articyId": "0x01000078000109D5",
+                          "text": "It's hardly a side-investigation. You already have a name for it.",
+                          "links": [
+                            {
+                              "id": 55,
+                              "title": "You: \"\"Yes, a mini side-investigation.\"\"",
+                              "articyId": "0x0100007800010923",
+                              "text": "\"Yes, a mini side-investigation.\"",
+                              "links": [
+                                {
+                                  "id": 69,
+                                  "title": "Kim Kitsuragi: \"He looks at you, then at the door....\"",
+                                  "articyId": "0x0100007800010929",
+                                  "text": "He looks at you, then at the door. \"Garte is the person to ask about this -- the cafeteria manager.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 38,
+                              "title": "You: \"\"No, the door is a *mega-investigat...\"",
+                              "articyId": "0x0100007800010936",
+                              "text": "\"No, the door is a *mega-investigation*.\"",
+                              "links": [
+                                {
+                                  "id": 32,
+                                  "title": "Kim Kitsuragi: \"\"Hardly.\" He looks at the door, the...\"",
+                                  "articyId": "0x01000078000109EC",
+                                  "text": "\"Hardly.\" He looks at the door, then you. \"Anyway, Garte is the person to ask about this -- the cafeteria manager.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 27,
+                                  "title": "Kim Kitsuragi: \"\"It's hardly worth a *title*...\" He...\"",
+                                  "articyId": "0x0100007800010948",
+                                  "text": "\"It's hardly worth a *title*...\" He looks at the door, then you. \"Anyway, Garte is the person to ask about this -- the cafeteria manager.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 21,
+                              "title": "You: \"\"The door and the main investigatio...\"",
+                              "articyId": "0x010000780001093C",
+                              "text": "\"The door and the main investigation will merge into a *stereo*-investigation.\"",
+                              "links": [
+                                {
+                                  "id": 70,
+                                  "title": "Kim Kitsuragi: \"\"If you say so.\" He looks at the do...\"",
+                                  "articyId": "0x0100007800010942",
+                                  "text": "\"If you say so.\" He looks at the door, then you. \"Garte is the person to ask about this -- the cafeteria manager.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 72,
+                  "title": "You: \"\"I am drawn to its cobalt blue.\"\"",
+                  "articyId": "0x01000078000108FD",
+                  "text": "\"I am drawn to its cobalt blue.\"",
+                  "links": [
+                    {
+                      "id": 74,
+                      "title": "Kim Kitsuragi: \"\"It *is* quite pretty. I suppose we...\"",
+                      "articyId": "0x010000780001092F",
+                      "text": "\"It *is* quite pretty. I suppose we could look into it. As a... side-investigation.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 107,
+                  "title": "You: \"\"It's part of the Whirling-in-Rags....\"",
+                  "articyId": "0x0100005800006DC7",
+                  "text": "\"It's part of the Whirling-in-Rags. There's something *about* this place that makes me want to know.\"",
+                  "links": [
+                    {
+                      "id": 60,
+                      "title": "Kim Kitsuragi: \"\"Eccentric. But okay, I suppose we...\"",
+                      "articyId": "0x01000078000109B0",
+                      "text": "\"Eccentric. But okay, I suppose we could look into it. As a... side-investigation.\"",
+                      "links": [
+                        {
+                          "id": 37,
+                          "title": "Empathy: \"He's not bothered by your eccentric...\"",
+                          "articyId": "0x0100005800006DF8",
+                          "text": "He's not bothered by your eccentricity. He seems genuinely intrigued himself.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 58,
+                  "title": "You: \"\"Out of duty. We may find something...\"",
+                  "articyId": "0x0100005800006DCD",
+                  "text": "\"Out of duty. We may find something pertinent to the investigation.\"",
+                  "links": [
+                    {
+                      "id": 39,
+                      "title": "Kim Kitsuragi: \"\"Hmm... Yes, I suppose it's worth s...\"",
+                      "articyId": "0x01000078000109B8",
+                      "text": "\"Hmm... Yes, I suppose it's worth seeing if we can get in. Just to be thorough. As a... side-investigation.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 61,
+                  "title": "You: \"\"You're right. It's not important....\"",
+                  "articyId": "0x01000078000109C7",
+                  "text": "\"You're right. It's not important. Let's go.\"",
+                  "links": [
+                    {
+                      "id": 6,
+                      "title": "Blue door: \"The door stands silent, unmoved by...\"",
+                      "articyId": "0x0100008F00003E59",
+                      "text": "The door stands silent, unmoved by your words. You still feel like you should look into it if you get the chance...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 41,
+              "title": "Blue door: \"Your words fail to even echo agains...\"",
+              "articyId": "0x0100005800006DB5",
+              "text": "Your words fail to even echo against the door's implacable steel.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "You: \"\"This door is *connected* to the on...\"",
+          "articyId": "0x0100008F00003E36",
+          "text": "\"This door is *connected* to the one upstairs. But how do we get through?\"",
+          "links": [
+            {
+              "id": 111,
+              "title": "Kim Kitsuragi: \"\"Have you tried using the key?\" The...\"",
+              "articyId": "0x0100008F00003E3C",
+              "text": "\"Have you tried using the key?\" The lieutenant nods toward the lock. \"I suspect that will work.\"",
+              "links": []
+            },
+            {
+              "id": 5,
+              "title": "Kim Kitsuragi: \"\"There must be a key somewhere,\" th...\"",
+              "articyId": "0x0100008F00003E47",
+              "text": "\"There must be a key somewhere,\" the lieutenant says. \"Probably somewhere in the Whirling? It's not *too* important. We can get in and out using the roof door.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "title": "You: \"\"I'll be back, door. Mark my words....\"",
+          "articyId": "0x0100008F00003E08",
+          "text": "\"I'll be back, door. Mark my words.\" [Leave.]",
+          "links": [
+            {
+              "id": 62,
+              "title": "Blue door: \"The door stands silent, unmoved by...\"",
+              "articyId": "0x0100008F00003E0E",
+              "text": "The door stands silent, unmoved by your words.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100005800006D87",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 64,
+          "title": "Visual Calculus: \"It could be connected to the barred...\"",
+          "articyId": "0x0100005800006D50",
+          "text": "It could be connected to the barred door upstairs.",
+          "links": []
+        },
+        {
+          "id": 80,
+          "title": "Inland Empire: \"You immediately feel *drawn* to the...\"",
+          "articyId": "0x010000060001970E",
+          "text": "You immediately feel *drawn* to the colour. Blue is for mystery.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

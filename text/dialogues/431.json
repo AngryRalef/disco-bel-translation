@@ -1,0 +1,814 @@
+{
+  "id": "0x0100005A00012F17",
+  "title": "INVENTORY / PALE MEDICINE",
+  "description": "Medicinal Purposes of the Pale.",
+  "dialogueTree": [
+    {
+      "id": 148,
+      "title": "Medicinal Purposes of the Pale: \"\"Medicinal Purposes of the Pale.\" T...\"",
+      "articyId": "0x0100007000003ED5",
+      "text": "\"Medicinal Purposes of the Pale.\" The cover of this heavy tome features a number of esoteric symbols.",
+      "links": [
+        {
+          "id": 34,
+          "title": "You: \"I want to try concoct one of those...\"",
+          "articyId": "0x010000890000410A",
+          "text": "I want to try concoct one of those hangover-cures again.",
+          "links": [
+            {
+              "id": 69,
+              "title": "Medicinal Purposes of the Pale: \"Very well. First, choose a base ing...\"",
+              "articyId": "0x0100007000004290",
+              "text": "Very well. First, choose a base ingredient.",
+              "links": [
+                {
+                  "id": 122,
+                  "title": "You: \"Ginger root.\"",
+                  "articyId": "0x0100007000004098",
+                  "text": "Ginger root.",
+                  "links": [
+                    {
+                      "id": 61,
+                      "title": "Medicinal Purposes of the Pale: \"Next, you'll need to combine the ba...\"",
+                      "articyId": "0x010000700000406E",
+                      "text": "Next, you'll need to combine the base ingredient with an appropriate vehicle.",
+                      "links": [
+                        {
+                          "id": 28,
+                          "title": "You: \"Mix it with a dram of whiskey.\"",
+                          "articyId": "0x01000070000040B6",
+                          "text": "Mix it with a dram of whiskey.",
+                          "links": [
+                            {
+                              "id": 129,
+                              "title": "Medicinal Purposes of the Pale: \"Lastly, is there anything else you'...\"",
+                              "articyId": "0x01000070000040C5",
+                              "text": "Lastly, is there anything else you'd like to add?",
+                              "links": [
+                                {
+                                  "id": 87,
+                                  "title": "You: \"A few pomegranate seeds.\"",
+                                  "articyId": "0x01000070000040D4",
+                                  "text": "A few pomegranate seeds.",
+                                  "links": [
+                                    {
+                                      "id": 145,
+                                      "title": "Medicinal Purposes of the Pale: \"You've created a delicious tincture...\"",
+                                      "articyId": "0x01000070000041BB",
+                                      "text": "You've created a delicious tincture of whiskey and ginger. According to the pharmacopoeia, it should increase your energy and focus, though in your experience it's only done the opposite.",
+                                      "links": [
+                                        {
+                                          "id": 67,
+                                          "title": "Electrochemistry: \"If only you could find one of these...\"",
+                                          "articyId": "0x0100007000004224",
+                                          "text": "If only you could find one of these right now and drink the shit out of it. The book said it's good for you, so it would be okay.",
+                                          "links": [
+                                            {
+                                              "id": 30,
+                                              "title": "Medicinal Purposes of the Pale: \"Would you like to try again?\"",
+                                              "articyId": "0x0100007000004238",
+                                              "text": "Would you like to try again?",
+                                              "links": [
+                                                {
+                                                  "id": 68,
+                                                  "title": "You: \"Yeah, let's try again.\"",
+                                                  "articyId": "0x010000700000426A",
+                                                  "text": "Yeah, let's try again.",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 42,
+                                                  "title": "You: \"No, this stuff is all a bunch of ho...\"",
+                                                  "articyId": "0x0100007000004271",
+                                                  "text": "No, this stuff is all a bunch of hooey, anyway. (Close the book.)",
+                                                  "links": [
+                                                    {
+                                                      "id": 95,
+                                                      "title": "Medicinal Purposes of the Pale: \"You close the book and find yoursel...\"",
+                                                      "articyId": "0x01000070000042EC",
+                                                      "text": "You close the book and find yourself staring at the familiar cover once more.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 106,
+                                      "title": "Medicinal Purposes of the Pale: \"The tincture you've invented sounds...\"",
+                                      "articyId": "0x01000070000041C2",
+                                      "text": "The tincture you've invented sounds intriguing, but its medicinal value is suspect, to say the least. Safe to say it won't cure your hangover.",
+                                      "links": [
+                                        {
+                                          "id": 100,
+                                          "title": "Electrochemistry: \"Whoever wrote this never heard of t...\"",
+                                          "articyId": "0x0100007000004215",
+                                          "text": "Whoever wrote this never heard of the hair of the dog. Fuck this book. See if there's a bar open that'll still serve you.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 127,
+                                      "title": "Medicinal Purposes of the Pale: \"You've created a julep of mint. It...\"",
+                                      "articyId": "0x0100007000004074",
+                                      "text": "You've created a julep of mint. It won't help your hangover, but it does seem like it would be refreshing on a warm summer's day.",
+                                      "links": [
+                                        {
+                                          "id": 124,
+                                          "title": "Shivers: \"The cool damp of the city has penet...\"",
+                                          "articyId": "0x010000700000421C",
+                                          "text": "The cool damp of the city has penetrated to your very marrow. Summer is a long way away.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 166,
+                                      "title": "Medicinal Purposes of the Pale: \"The tincture you've invented sounds...\"",
+                                      "articyId": "0x0100007000004178",
+                                      "text": "The tincture you've invented sounds intriguing, but its medicinal value is suspect, to say the least. Safe to say it won't cure your hangover.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 128,
+                                      "title": "Medicinal Purposes of the Pale: \"God only knows what to call this th...\"",
+                                      "articyId": "0x010000700000407A",
+                                      "text": "God only knows what to call this thing you've created, but drinking it would likely make your problems worse, not better.",
+                                      "links": [
+                                        {
+                                          "id": 88,
+                                          "title": "Electrochemistry: \"You should drink it anyway.\"",
+                                          "articyId": "0x010000700000420E",
+                                          "text": "You should drink it anyway.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 29,
+                                      "title": "Medicinal Purposes of the Pale: \"The ginger root will help with the...\"",
+                                      "articyId": "0x01000070000040FB",
+                                      "text": "The ginger root will help with the nausea and the birch bark tea will help you flush out the toxins. The ginseng should give you more energy, as a nice bonus.",
+                                      "links": [
+                                        {
+                                          "id": 82,
+                                          "title": "Medicinal Purposes of the Pale: \"You imagine yourself with a mug of...\"",
+                                          "articyId": "0x01000070000042B7",
+                                          "text": "You imagine yourself with a mug of this tea in a chair by the window. It's a beautiful image, but will it ever come true for you?",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 94,
+                                          "title": "Conceptualization: \"The very thought of this tea causes...\"",
+                                          "articyId": "0x0100007000004256",
+                                          "text": "The very thought of this tea causes your muscles to relax and your mind to clear. You're more present and in control than you were a moment ago.",
+                                          "links": [
+                                            {
+                                              "id": 89,
+                                              "title": "You: \"Mmmm. (Savour the feeling a moment...\"",
+                                              "articyId": "0x01000070000042C3",
+                                              "text": "Mmmm. (Savour the feeling a moment longer.)",
+                                              "links": [
+                                                {
+                                                  "id": 167,
+                                                  "title": "Medicinal Purposes of the Pale: \"A tingle rushes down your spine and...\"",
+                                                  "articyId": "0x01000070000042D2",
+                                                  "text": "A tingle rushes down your spine and you feel your toes uncurl. If only it could always be like this.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 43,
+                                              "title": "You: \"Alright, time to get back to work....\"",
+                                              "articyId": "0x01000070000042CA",
+                                              "text": "Alright, time to get back to work. (Close the book.)",
+                                              "links": [
+                                                {
+                                                  "id": 174,
+                                                  "title": "Medicinal Purposes of the Pale: \"You close the book and find yoursel...\"",
+                                                  "articyId": "0x01000070000042DE",
+                                                  "text": "You close the book and find yourself staring at the familiar cover once more.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 15,
+                                              "title": "You: \"Great, so where can I get all this...\"",
+                                              "articyId": "0x01000070000042E6",
+                                              "text": "Great, so where can I get all this stuff?",
+                                              "links": [
+                                                {
+                                                  "id": 70,
+                                                  "title": "Medicinal Purposes of the Pale: \"From the pale, of course. Or perhap...\"",
+                                                  "articyId": "0x01000070000042F5",
+                                                  "text": "From the pale, of course. Or perhaps from some enterprising entroponaut. Where you would find one of those, though, the book does not say.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 141,
+                                      "title": "Medicinal Purposes of the Pale: \"The ginger root will help with the...\"",
+                                      "articyId": "0x01000070000040EF",
+                                      "text": "The ginger root will help with the nausea and the birch bark tea will help you flush out the toxins. The sugar just makes it taste better.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 62,
+                                      "title": "Medicinal Purposes of the Pale: \"The ginger root will help with the...\"",
+                                      "articyId": "0x01000070000040F5",
+                                      "text": "The ginger root will help with the nausea and the birch bark tea will help you flush out the toxins. The pomegranate seeds are a natural aphrodisiac, as a nice bonus.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 99,
+                                      "title": "Medicinal Purposes of the Pale: \"The combination of mint and birch b...\"",
+                                      "articyId": "0x010000700000413C",
+                                      "text": "The combination of mint and birch bark make this tea relaxing and good for the digestion. It won't do much for your hangover, though.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 74,
+                                      "title": "Medicinal Purposes of the Pale: \"This tastes so bad it can only be g...\"",
+                                      "articyId": "0x0100007000004092",
+                                      "text": "This tastes so bad it can only be good for you. According to the pharmacopoeia, it should help you perform your *marital obligations*.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 63,
+                                      "title": "Medicinal Purposes of the Pale: \"The ginger and aloe vera make this...\"",
+                                      "articyId": "0x0100007000004134",
+                                      "text": "The ginger and aloe vera make this poultice ideal for the treatment of arthritis. It won't do anything for your hangover, though.",
+                                      "links": [
+                                        {
+                                          "id": 78,
+                                          "title": "Endurance: \"Be that as it may, it might have be...\"",
+                                          "articyId": "0x0100007000004260",
+                                          "text": "Be that as it may, it might have been useful to have such a thing for the trials you'll soon be facing. It's a shame you can't get your hands on these ingredients.",
+                                          "links": [
+                                            {
+                                              "id": 14,
+                                              "title": "Medicinal Purposes of the Pale: \"Would you like to try again?\"",
+                                              "articyId": "0x0100007000004284",
+                                              "text": "Would you like to try again?",
+                                              "links": [
+                                                {
+                                                  "id": 31,
+                                                  "title": "You: \"Yeah, let's try again.\"",
+                                                  "articyId": "0x0100007000004278",
+                                                  "text": "Yeah, let's try again.",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 146,
+                                                  "title": "You: \"No, this stuff is all a bunch of ho...\"",
+                                                  "articyId": "0x010000700000427E",
+                                                  "text": "No, this stuff is all a bunch of hooey anyway. (Close the book.)",
+                                                  "links": [
+                                                    {
+                                                      "id": 17,
+                                                      "title": "Medicinal Purposes of the Pale: \"You close the book and find yoursel...\"",
+                                                      "articyId": "0x0100006B00005EA3",
+                                                      "text": "You close the book and find yourself staring at the familiar cover once more.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 130,
+                                      "title": "Medicinal Purposes of the Pale: \"The mint and aloe vera make this po...\"",
+                                      "articyId": "0x010000700000410C",
+                                      "text": "The mint and aloe vera make this poultice ideal for soothing inflammation and minor burns. It won't do anything for your hangover, though.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 7,
+                                      "title": "Medicinal Purposes of the Pale: \"The rue and aloe vera make this pou...\"",
+                                      "articyId": "0x0100007000004126",
+                                      "text": "The rue and aloe vera make this poultice ideal for alleviating minor injuries and inflammation. It won't do anything for your hangover, though.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 92,
+                                  "title": "You: \"A spoonful of sugar.\"",
+                                  "articyId": "0x01000070000040DA",
+                                  "text": "A spoonful of sugar.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 93,
+                                  "title": "You: \"Some wild ginseng root.\"",
+                                  "articyId": "0x01000070000040E0",
+                                  "text": "Some wild ginseng root.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 156,
+                          "title": "You: \"Boil it with a tea made from birch...\"",
+                          "articyId": "0x01000070000040B0",
+                          "text": "Boil it with a tea made from birch bark.",
+                          "links": []
+                        },
+                        {
+                          "id": 140,
+                          "title": "You: \"Mash it into a paste with some aloe...\"",
+                          "articyId": "0x01000070000040BC",
+                          "text": "Mash it into a paste with some aloe vera extract.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 86,
+                  "title": "You: \"A sprig of fresh mint.\"",
+                  "articyId": "0x01000070000040A4",
+                  "text": "A sprig of fresh mint.",
+                  "links": []
+                },
+                {
+                  "id": 123,
+                  "title": "You: \"Common meadow rue.\"",
+                  "articyId": "0x010000700000409E",
+                  "text": "Common meadow rue.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 169,
+          "title": "You: \"Open the book.\"",
+          "articyId": "0x0100007000003EE5",
+          "text": "Open the book.",
+          "links": [
+            {
+              "id": 120,
+              "title": "Medicinal Purposes of the Pale: \"Flipping through the book you find...\"",
+              "articyId": "0x0100007000003EEC",
+              "text": "Flipping through the book you find a number of sections on the general benefits of the pale. A large pharmacopoeia makes up nearly half of the book.",
+              "links": [
+                {
+                  "id": 36,
+                  "title": "You: \"What's a pharmacopoeia?\"",
+                  "articyId": "0x0100007000003EF3",
+                  "text": "What's a pharmacopoeia?",
+                  "links": [
+                    {
+                      "id": 45,
+                      "title": "Medicinal Purposes of the Pale: \"You come across the following expla...\"",
+                      "articyId": "0x0100007000003F14",
+                      "text": "You come across the following explanation: \"While modern pharmacopoeia are continually updated by so-called 'experts' based on the results of 'clinical trials,' readers will find assembled here the timeless wisdom relied upon by generations of traditional Seolite medicine practitioners, Mesque mystics, and Iilmaraan folk doctors.\"",
+                      "links": [
+                        {
+                          "id": 101,
+                          "title": "Encyclopedia: \"It's all quackery, in other words.\"",
+                          "articyId": "0x0100007000003F0D",
+                          "text": "It's all quackery, in other words.",
+                          "links": [
+                            {
+                              "id": 103,
+                              "title": "Inland Empire: \"Finally, something to calm the angr...\"",
+                              "articyId": "0x0100007000003F3E",
+                              "text": "Finally, something to calm the angry spirits that have been plaguing you.",
+                              "links": [
+                                {
+                                  "id": 3,
+                                  "title": "Medicinal Purposes of the Pale: \"It seems to contain descriptions of...\"",
+                                  "articyId": "0x0100007000003F1B",
+                                  "text": "It seems to contain descriptions of the medicinal properties of various ingredients that may be gathered from the pale, as well as instructions for producing a variety of herbal remedies.",
+                                  "links": [
+                                    {
+                                      "id": 102,
+                                      "title": "You: \"Is there anything in there about re...\"",
+                                      "articyId": "0x0100007000003F30",
+                                      "text": "Is there anything in there about restoring lost memories?",
+                                      "links": [
+                                        {
+                                          "id": 73,
+                                          "title": "Medicinal Purposes of the Pale: \"There are a number of Seolite tonic...\"",
+                                          "articyId": "0x010000700000401E",
+                                          "text": "There are a number of Seolite tonics that promise to improve your short-term memory, but nothing that speaks to your condition.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 170,
+                                      "title": "You: \"I just want something that will soo...\"",
+                                      "articyId": "0x0100007000003F36",
+                                      "text": "I just want something that will soothe the relentless torment of my existence.",
+                                      "links": [
+                                        {
+                                          "id": 104,
+                                          "title": "Medicinal Purposes of the Pale: \"What you're describing is booze. Yo...\"",
+                                          "articyId": "0x0100007000003F47",
+                                          "text": "What you're describing is booze. You don't need any herbs for that.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 71,
+                                      "title": "You: \"Anything about curing an apocalypti...\"",
+                                      "articyId": "0x0100007000003F29",
+                                      "text": "Anything about curing an apocalyptic hangover?",
+                                      "links": [
+                                        {
+                                          "id": 47,
+                                          "title": "Medicinal Purposes of the Pale: \"There's nothing in here that speaks...\"",
+                                          "articyId": "0x010000700000404F",
+                                          "text": "There's nothing in here that speaks to hangovers directly. However, while browsing through the various descriptions you become convinced that you could assemble something from the ingredients listed here. Want to give it a shot?",
+                                          "links": [
+                                            {
+                                              "id": 38,
+                                              "title": "You: \"(Rub your hands together.) Alright,...\"",
+                                              "articyId": "0x010000700000405E",
+                                              "text": "(Rub your hands together.) Alright, book, let's see what you got.",
+                                              "links": [
+                                                {
+                                                  "id": 139,
+                                                  "title": "Medicinal Purposes of the Pale: \"First, you need to choose a base in...\"",
+                                                  "articyId": "0x0100007000004065",
+                                                  "text": "First, you need to choose a base ingredient.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 60,
+                                              "title": "You: \"I don't have time for this.\"",
+                                              "articyId": "0x0100007000004056",
+                                              "text": "I don't have time for this.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 119,
+                                      "title": "You: \"Enough of this.\"",
+                                      "articyId": "0x010000700000403B",
+                                      "text": "Enough of this.",
+                                      "links": [
+                                        {
+                                          "id": 164,
+                                          "title": "Medicinal Purposes of the Pale: \"The tome seems to get heavier with...\"",
+                                          "articyId": "0x0100006B00005E94",
+                                          "text": "The tome seems to get heavier with every passing minute.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 149,
+                  "title": "You: \"I think I just want some general he...\"",
+                  "articyId": "0x0100007000003F01",
+                  "text": "I think I just want some general health advice.",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Medicinal Purposes of the Pale: \"Have you taken any walks through th...\"",
+                      "articyId": "0x0100007000003F4E",
+                      "text": "Have you taken any walks through the pale recently?",
+                      "links": [
+                        {
+                          "id": 105,
+                          "title": "You: \"Yes, twice a week.\"",
+                          "articyId": "0x0100007000003F6A",
+                          "text": "Yes, twice a week.",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Medicinal Purposes of the Pale: \"And on your walks, do you stop to m...\"",
+                              "articyId": "0x0100007000003F71",
+                              "text": "And on your walks, do you stop to meditate on the nature of your being?",
+                              "links": [
+                                {
+                                  "id": 165,
+                                  "title": "You: \"Totally. Every time.\"",
+                                  "articyId": "0x0100007000003F80",
+                                  "text": "Totally. Every time.",
+                                  "links": [
+                                    {
+                                      "id": 171,
+                                      "title": "Medicinal Purposes of the Pale: \"Good. And when you meditate, are yo...\"",
+                                      "articyId": "0x0100007000003FBD",
+                                      "text": "Good. And when you meditate, are you in the nude?",
+                                      "links": [
+                                        {
+                                          "id": 108,
+                                          "title": "You: \"Oh, yeah. Buck naked.\"",
+                                          "articyId": "0x0100007000003FCB",
+                                          "text": "Oh, yeah. Buck naked.",
+                                          "links": [
+                                            {
+                                              "id": 137,
+                                              "title": "Medicinal Purposes of the Pale: \"Excellent.\"",
+                                              "articyId": "0x0100007000006C67",
+                                              "text": "Excellent.",
+                                              "links": [
+                                                {
+                                                  "id": 90,
+                                                  "title": "Electrochemistry: \"Free your body! You long to feel th...\"",
+                                                  "articyId": "0x0100007000006C34",
+                                                  "text": "Free your body! You long to feel the cool breeze tickle against your inner thighs and midriff.",
+                                                  "links": [
+                                                    {
+                                                      "id": 168,
+                                                      "title": "Physical Instrument: \"What about your junk?\"",
+                                                      "articyId": "0x0100007000006C3A",
+                                                      "text": "What about your junk?",
+                                                      "links": [
+                                                        {
+                                                          "id": 44,
+                                                          "title": "Electrochemistry: \"Well, yeah, on your junk, too.\"",
+                                                          "articyId": "0x0100007000006C4C",
+                                                          "text": "Well, yeah, on your junk, too.",
+                                                          "links": [
+                                                            {
+                                                              "id": 136,
+                                                              "title": "Medicinal Purposes of the Pale: \"Your genitalia are the site of your...\"",
+                                                              "articyId": "0x0100007000006C54",
+                                                              "text": "Your genitalia are the site of your most important agiogenous zone. It's vitally important to aerate them in the pale.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 46,
+                                                      "title": "Medicinal Purposes of the Pale: \"You're doing everything as you shou...\"",
+                                                      "articyId": "0x0100007000003FD9",
+                                                      "text": "You're doing everything as you should. Regular pale meditation has been shown to help keep your body lithe and strong, your mind alert and expansive...",
+                                                      "links": [
+                                                        {
+                                                          "id": 54,
+                                                          "title": "Medicinal Purposes of the Pale: \"A note of caution, however. Be sure...\"",
+                                                          "articyId": "0x0100007000004340",
+                                                          "text": "A note of caution, however. Be sure to limit your exposure to the pale to no more than an hour a day, and no more than three hours total per week.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "title": "You: \"What? No.\"",
+                                          "articyId": "0x0100007000003FC4",
+                                          "text": "What? No.",
+                                          "links": [
+                                            {
+                                              "id": 155,
+                                              "title": "Medicinal Purposes of the Pale: \"Nudity is the most important part....\"",
+                                              "articyId": "0x0100007000003FD2",
+                                              "text": "Nudity is the most important part. Of the many ways modern society prevents our true selves from manifesting, clothing may be the most repressive...",
+                                              "links": [
+                                                {
+                                                  "id": 118,
+                                                  "title": "Medicinal Purposes of the Pale: \"You probably can't even take off yo...\"",
+                                                  "articyId": "0x0100007000003FE0",
+                                                  "text": "You probably can't even take off your pants, can you?",
+                                                  "links": [
+                                                    {
+                                                      "id": 55,
+                                                      "title": "Authority: \"Nor should you. Nudity is *shameful...\"",
+                                                      "articyId": "0x0100007000006C28",
+                                                      "text": "Nor should you. Nudity is *shameful*. No officer of the law should ever be caught *sans pantalones*.",
+                                                      "links": [
+                                                        {
+                                                          "id": 125,
+                                                          "title": "You: \"Oh god, you're right. I *can't* tak...\"",
+                                                          "articyId": "0x0100007000003FF5",
+                                                          "text": "Oh god, you're right. I *can't* take my pants off!",
+                                                          "links": [
+                                                            {
+                                                              "id": 26,
+                                                              "title": "Medicinal Purposes of the Pale: \"That feeling is the weight of socie...\"",
+                                                              "articyId": "0x0100007000003FFC",
+                                                              "text": "That feeling is the weight of society bearing down on you. Until you get out from under it, you will never feel true freedom.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 25,
+                                                          "title": "You: \"I could, I just don't feel like it.\"",
+                                                          "articyId": "0x0100007000003FE7",
+                                                          "text": "I could, I just don't feel like it.",
+                                                          "links": []
+                                                        },
+                                                        {
+                                                          "id": 57,
+                                                          "title": "You: \"I could, but Kim's here.\"",
+                                                          "articyId": "0x0100007000003FEE",
+                                                          "text": "I could, but Kim's here.",
+                                                          "links": [
+                                                            {
+                                                              "id": 37,
+                                                              "title": "Medicinal Purposes of the Pale: \"Your partner is even more repressed...\"",
+                                                              "articyId": "0x010000700000400E",
+                                                              "text": "Your partner is even more repressed than you are. It would do you both a world of good to spend a little more time getting in touch with your bodies.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 117,
+                                                                  "title": "Kim Kitsuragi: \"You glance over at the lieutenant,...\"",
+                                                                  "articyId": "0x0100007000004348",
+                                                                  "text": "You glance over at the lieutenant, who is standing, as usual, with his hands neatly folded behind his back. What he's thinking about, if he's thinking about anything at all, is absolutely opaque to you.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 24,
+                                  "title": "You: \"No, I don't.\"",
+                                  "articyId": "0x0100007000003F86",
+                                  "text": "No, I don't.",
+                                  "links": [
+                                    {
+                                      "id": 150,
+                                      "title": "Medicinal Purposes of the Pale: \"You need to do that. It's important...\"",
+                                      "articyId": "0x0100007000003F8E",
+                                      "text": "You need to do that. It's important for opening up your agiogenous zones.",
+                                      "links": [
+                                        {
+                                          "id": 132,
+                                          "title": "You: \"At the Remote Viewers Division we'r...\"",
+                                          "articyId": "0x0100007000006C1A",
+                                          "text": "At the Remote Viewers Division we're trained to keep our agiogenous zones maximally dilated.",
+                                          "links": [
+                                            {
+                                              "id": 84,
+                                              "title": "Medicinal Purposes of the Pale: \"Remote Viewers Division? What kind...\"",
+                                              "articyId": "0x0100007000006C21",
+                                              "text": "Remote Viewers Division? What kind of woo-woo shit is that?",
+                                              "links": [
+                                                {
+                                                  "id": 16,
+                                                  "title": "Medicinal Purposes of the Pale: \"This book contains serious ancient...\"",
+                                                  "articyId": "0x0100007000006C5E",
+                                                  "text": "This book contains serious ancient wisdom, not whacko conspiracy theories. If you don't respect it, it will never reveal its secrets.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 107,
+                                          "title": "You: \"What are agiogenous zones?\"",
+                                          "articyId": "0x0100007000003F95",
+                                          "text": "What are agiogenous zones?",
+                                          "links": [
+                                            {
+                                              "id": 72,
+                                              "title": "Medicinal Purposes of the Pale: \"They're a series of psychic nodes l...\"",
+                                              "articyId": "0x0100007000003F9C",
+                                              "text": "They're a series of psychic nodes located throughout your body. Unfortunately, the stresses of modern life often cause us to close off our agiogenous zones, which can result in all manner of physical and psychic ailments...",
+                                              "links": [
+                                                {
+                                                  "id": 121,
+                                                  "title": "Medicinal Purposes of the Pale: \"Regular meditation in the pale, how...\"",
+                                                  "articyId": "0x0100007000003FA3",
+                                                  "text": "Regular meditation in the pale, however, can help to open up these zones, permitting the freeflow of psychic energy throughout the body.",
+                                                  "links": [
+                                                    {
+                                                      "id": 96,
+                                                      "title": "You: \"Oh... then I do, very much so. I me...\"",
+                                                      "articyId": "0x01000089000040E8",
+                                                      "text": "Oh... then I do, very much so. I meditate *all the time*.",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 163,
+                                                      "title": "You: \"That's just ridiculous. (Close the...\"",
+                                                      "articyId": "0x01000089000040ED",
+                                                      "text": "That's just ridiculous. (Close the book.)",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 138,
+                                          "title": "You: \"Okay, that's enough. (Close the boo...\"",
+                                          "articyId": "0x0100007000003FAA",
+                                          "text": "Okay, that's enough. (Close the book.)",
+                                          "links": [
+                                            {
+                                              "id": 116,
+                                              "title": "Medicinal Purposes of the Pale: \"You close the book and find yoursel...\"",
+                                              "articyId": "0x0100007000004304",
+                                              "text": "You close the book and find yourself staring at the familiar cover once more.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 91,
+                          "title": "You: \"Maybe?\"",
+                          "articyId": "0x0100007000003F5C",
+                          "text": "Maybe?",
+                          "links": []
+                        },
+                        {
+                          "id": 4,
+                          "title": "You: \"I don't even know what this 'pale'...\"",
+                          "articyId": "0x0100007000003F55",
+                          "text": "I don't even know what this 'pale' thing is, how could I have walked through it?",
+                          "links": [
+                            {
+                              "id": 23,
+                              "title": "Medicinal Purposes of the Pale: \"The book is frustratingly vague on...\"",
+                              "articyId": "0x0100007000003F63",
+                              "text": "The book is frustratingly vague on this topic, but it seems that if you've walked through the pale, you would know it.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "title": "You: \"[Put the book away.]\"",
+          "articyId": "0x0100007000003ECE",
+          "text": "[Put the book away.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

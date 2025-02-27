@@ -1,0 +1,474 @@
+{
+  "id": "0x0100004B0000195A",
+  "title": "KIM SWITCH / TWINS AND RADIO",
+  "description": "Fires after you've heard the Twins testimony with Kim. He reveals he knows the station. Weird if true, worth giving them a call.",
+  "dialogueTree": [
+    {
+      "id": 62,
+      "title": "Kim Kitsuragi: \"\"I believe they heard something,\" h...\"",
+      "articyId": "0x0100004B0000196B",
+      "text": "\"I believe they heard something,\" he says, glancing back at the twins. \"And given the poverty of this part of town, I don't know how they could have heard a radio.\"",
+      "links": [
+        {
+          "id": 51,
+          "title": "Kim Kitsuragi: \"\"I don't *know* how they heard it,...\"",
+          "articyId": "0x0100004B00001970",
+          "text": "\"I don't *know* how they heard it, but...\" He returns his gaze to you. \"I know the station they imitated. So they must have heard it somehow.\"",
+          "links": [
+            {
+              "id": 78,
+              "title": "You: \"\"What channel was it?\"\"",
+              "articyId": "0x0100004B00001975",
+              "text": "\"What channel was it?\"",
+              "links": [
+                {
+                  "id": 32,
+                  "title": "Kim Kitsuragi: \"\"Speedfreaks FM.\"\"",
+                  "articyId": "0x0100004B0000197A",
+                  "text": "\"Speedfreaks FM.\"",
+                  "links": [
+                    {
+                      "id": 44,
+                      "title": "Reaction Speed: \"No hesitation. He knows it well. Pr...\"",
+                      "articyId": "0x0100004B0000197F",
+                      "text": "No hesitation. He knows it well. Probably has the channel saved to his radio.",
+                      "links": [
+                        {
+                          "id": 37,
+                          "title": "You: \"\"Wait a second. How do you know tha...\"",
+                          "articyId": "0x0100004B00001984",
+                          "text": "\"Wait a second. How do you know that station?\"",
+                          "links": [
+                            {
+                              "id": 82,
+                              "title": "Kim Kitsuragi: \"He pauses. \"It's... important in ou...\"",
+                              "articyId": "0x0100004B00001989",
+                              "text": "He pauses. \"It's... important in our line to know about all sorts of things. I know a little bit about radio culture.\"",
+                              "links": [
+                                {
+                                  "id": 9,
+                                  "title": "Drama: \"The machinery of his mind is at wor...\"",
+                                  "articyId": "0x0100004B000019AC",
+                                  "text": "The machinery of his mind is at work, sire! With swiftness the gears do turn, for to produce *deceit*! He seeks to hide his fondness for his favourite channel, Speedfreaks FM!",
+                                  "links": [
+                                    {
+                                      "id": 38,
+                                      "title": "You: \"\"Are you a fan of the station, Kim?\"\"",
+                                      "articyId": "0x0100004B000019B1",
+                                      "text": "\"Are you a fan of the station, Kim?\"",
+                                      "links": [
+                                        {
+                                          "id": 23,
+                                          "title": "Kim Kitsuragi: \"\"No. And my radio habits are not re...\"",
+                                          "articyId": "0x0100004B000019C0",
+                                          "text": "\"No. And my radio habits are not relevant to this serious murder investigation.\"",
+                                          "links": [
+                                            {
+                                              "id": 47,
+                                              "title": "Drama: \"You have seen through the veil he w...\"",
+                                              "articyId": "0x0100004B000019CA",
+                                              "text": "You have seen through the veil he would have drawn o're your eyes. Do with this what thou wilt!",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 25,
+                                      "title": "You: \"\"Radio culture. Sure.\"\"",
+                                      "articyId": "0x0100004B000019B6",
+                                      "text": "\"Radio culture. Sure.\"",
+                                      "links": [
+                                        {
+                                          "id": 69,
+                                          "title": "Kim Kitsuragi: \"\"Mhm.\" The lieutenant checks his wa...\"",
+                                          "articyId": "0x0100004B000019C5",
+                                          "text": "\"Mhm.\" The lieutenant checks his watch. \"Anyway.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 22,
+                                      "title": "You: \"\"Radio culture, huh? That makes sen...\"",
+                                      "articyId": "0x0100004B000019BB",
+                                      "text": "\"Radio culture, huh? That makes sense.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 52,
+                          "title": "You: \"\"Speedfreaks FM, huh?\"\"",
+                          "articyId": "0x0100004B0000198E",
+                          "text": "\"Speedfreaks FM, huh?\"",
+                          "links": [
+                            {
+                              "id": 65,
+                              "title": "Kim Kitsuragi: \"\"Yeah. Local station, known for its...\"",
+                              "articyId": "0x0100004B00001993",
+                              "text": "\"Yeah. Local station, known for its kinetic music and aggressive style.\"",
+                              "links": [
+                                {
+                                  "id": 46,
+                                  "title": "You: \"\"Sounds like a good time!\"\"",
+                                  "articyId": "0x0100004B00001998",
+                                  "text": "\"Sounds like a good time!\"",
+                                  "links": [
+                                    {
+                                      "id": 74,
+                                      "title": "Kim Kitsuragi: \"\"Yeah.\" The lieutenant checks his w...\"",
+                                      "articyId": "0x0100004B000019A7",
+                                      "text": "\"Yeah.\" The lieutenant checks his watch. \"Anyway.\"",
+                                      "links": [
+                                        {
+                                          "id": 63,
+                                          "title": "Composure: \"The lieutenant isn't usually a man...\"",
+                                          "articyId": "0x0100004B000019E1",
+                                          "text": "The lieutenant isn't usually a man who checks his watch without reason. He was trying to stay cool. Don't push now -- keep an eye out for it again later.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 21,
+                                  "title": "You: \"\"Sounds a bit rough for me. I like...\"",
+                                  "articyId": "0x0100004B0000199D",
+                                  "text": "\"Sounds a bit rough for me. I like tenderness in my radio, I think.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 33,
+                                  "title": "You: \"\"Sounds like a station for idiots.\"\"",
+                                  "articyId": "0x0100004B000019A2",
+                                  "text": "\"Sounds like a station for idiots.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Kim Kitsuragi: \"\"So. Those voices they heard...\"\"",
+      "articyId": "0x0100004B00001966",
+      "text": "\"So. Those voices they heard...\"",
+      "links": [
+        {
+          "id": 75,
+          "title": "Reaction Speed: \"Yes, of course! Earlier, when you t...\"",
+          "articyId": "0x0100004B000019FA",
+          "text": "Yes, of course! Earlier, when you turned the radio on in his Kineema!",
+          "links": []
+        },
+        {
+          "id": 16,
+          "title": "Volition: \"Don't.\"",
+          "articyId": "0x0100004B00001A00",
+          "text": "Don't.",
+          "links": [
+            {
+              "id": 26,
+              "title": "You: \"\"Speedfreaks FM! Your favourite cha...\"",
+              "articyId": "0x0100004B00001A07",
+              "text": "\"Speedfreaks FM! Your favourite channel!\"",
+              "links": [
+                {
+                  "id": 17,
+                  "title": "Kim Kitsuragi: \"The lieutenant breathes steadily, e...\"",
+                  "articyId": "0x0100004B00001A1F",
+                  "text": "The lieutenant breathes steadily, each inhalation and exhalation controlled.",
+                  "links": [
+                    {
+                      "id": 79,
+                      "title": "Volition: \"He was clearly uncomfortable discus...\"",
+                      "articyId": "0x0100004B00001A42",
+                      "text": "He was clearly uncomfortable discussing it before. He still is. You have nothing to gain from pushing his buttons.",
+                      "links": []
+                    },
+                    {
+                      "id": 34,
+                      "title": "Kim Kitsuragi: \"\"I can't explain how they heard it,...\"",
+                      "articyId": "0x0100004B00001A47",
+                      "text": "\"I can't explain how they heard it,\" he says, ignoring your comment. \"I believe they heard something. And given the poverty of this part of town, I don't know how they could have heard a radio. However...\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 53,
+              "title": "You: \"\"Wasn't your radio tuned into Speed...\"",
+              "articyId": "0x0100004B00001A0C",
+              "text": "\"Wasn't your radio tuned into Speedfreaks FM?\"",
+              "links": [
+                {
+                  "id": 39,
+                  "title": "Kim Kitsuragi: \"\"You must be mistaken,\" the lieuten...\"",
+                  "articyId": "0x0100004B00001A25",
+                  "text": "\"You must be mistaken,\" the lieutenant says in a calm, measured tone. \"Anyway.\"",
+                  "links": [
+                    {
+                      "id": 64,
+                      "title": "Logic: \"A calculated response. To say *why...\"",
+                      "articyId": "0x0100004B00001A2C",
+                      "text": "A calculated response. To say *why the hell did you snoop on my radio?* would be reasonable -- but it would confirm he likes the station. Instead, he dismisses it. He must be embarrassed by his affection for Speedfreaks FM.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 83,
+              "title": "You: \"Say nothing.\"",
+              "articyId": "0x0100004B00001A11",
+              "text": "Say nothing.",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "Kim Kitsuragi: \"\"I can't explain how they heard it,...\"",
+                  "articyId": "0x0100004B00001A31",
+                  "text": "\"I can't explain how they heard it,\" the lieutenant continues unabated. \"I believe they heard something. And given the poverty of this part of town, I don't know how they could have heard a radio. However...\"",
+                  "links": [
+                    {
+                      "id": 67,
+                      "title": "Kim Kitsuragi: \"\"Weird as it is, this situation is...\"",
+                      "articyId": "0x0100004B00001A37",
+                      "text": "\"Weird as it is, this situation is not connected to the murder. This isn't our business.\"",
+                      "links": [
+                        {
+                          "id": 48,
+                          "title": "You: \"\"Are you just embarrassed that we m...\"",
+                          "articyId": "0x0100004B00001A5E",
+                          "text": "\"Are you just embarrassed that we may have to contact Speedfreaks FM?\"",
+                          "links": [
+                            {
+                              "id": 42,
+                              "title": "Kim Kitsuragi: \"\"No.\" His answer is immediate. \"I j...\"",
+                              "articyId": "0x0100004B00001A97",
+                              "text": "\"No.\" His answer is immediate. \"I just... don't see how this furthers our investigation into a murder. That's all.\"",
+                              "links": [
+                                {
+                                  "id": 43,
+                                  "title": "Kim Kitsuragi: \"An ocean breeze blows in strong. He...\"",
+                                  "articyId": "0x0100004B00001A9C",
+                                  "text": "An ocean breeze blows in strong. He raises his jacket collar against it.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 58,
+                          "title": "You: \"\"I suspect you're embarrassed to ca...\"",
+                          "articyId": "0x0100004B00002ACB",
+                          "text": "\"I suspect you're embarrassed to call Speedfreaks FM, Kim.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 40,
+                          "title": "You: \"\"It's a mystery though. Mysteries a...\"",
+                          "articyId": "0x0100004B00001A63",
+                          "text": "\"It's a mystery though. Mysteries are our business.\"",
+                          "links": [
+                            {
+                              "id": 50,
+                              "title": "Kim Kitsuragi: \"\"Yes. Mysteries like *who killed th...\"",
+                              "articyId": "0x0100004B0000294B",
+                              "text": "\"Yes. Mysteries like *who killed the hanged man* are our business. Not this...\"",
+                              "links": [
+                                {
+                                  "id": 81,
+                                  "title": "Kim Kitsuragi: \"\"Besides. Maybe it was just a radio...\"",
+                                  "articyId": "0x0100004B00002AD4",
+                                  "text": "\"Besides. Maybe it was just a radio they overheard -- they might not be old enough to know the difference. How would they have heard the voices?\"",
+                                  "links": [
+                                    {
+                                      "id": 20,
+                                      "title": "You: \"\"Even if it was a radio, where was...\"",
+                                      "articyId": "0x0100004B0000279E",
+                                      "text": "\"Even if it was a radio, where was it coming from?\"",
+                                      "links": [
+                                        {
+                                          "id": 24,
+                                          "title": "Kim Kitsuragi: \"The lieutenant shrugs.\"",
+                                          "articyId": "0x0100004B000027B9",
+                                          "text": "The lieutenant shrugs.",
+                                          "links": [
+                                            {
+                                              "id": 76,
+                                              "title": "Kim Kitsuragi: \"\"Let's at least rule out radios bef...\"",
+                                              "articyId": "0x0100004B000027AC",
+                                              "text": "\"Let's at least rule out radios before continuing. Maybe the twins didn't know it was a radio they were hearing...\"",
+                                              "links": [
+                                                {
+                                                  "id": 11,
+                                                  "title": "Kim Kitsuragi: \"\"The washerwoman seems to know ever...\"",
+                                                  "articyId": "0x0100004B00002933",
+                                                  "text": "\"The washerwoman seems to know everything that happens here. Let's ask if she heard anything, before moving on.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 80,
+                                                      "title": "Kim Kitsuragi: \"\"After you.\" The lieutenant gesture...\"",
+                                                      "articyId": "0x0100004B00002964",
+                                                      "text": "\"After you.\" The lieutenant gestures toward the old woman.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 77,
+                                      "title": "You: \"\"Didn't Ruby have advanced radio kn...\"",
+                                      "articyId": "0x0100004B000027C9",
+                                      "text": "\"Didn't Ruby have advanced radio know-how?\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 6,
+                                      "title": "You: \"\"Maybe they're psychic recruit mate...\"",
+                                      "articyId": "0x0100004B00002799",
+                                      "text": "\"Maybe they're psychic recruit material for the Remote Viewers Division?\"",
+                                      "links": [
+                                        {
+                                          "id": 57,
+                                          "title": "Kim Kitsuragi: \"\"No. You're not going to try to rec...\"",
+                                          "articyId": "0x0100004B000027B3",
+                                          "text": "\"No. You're not going to try to recruit the twins to the Remote Viewers Division...\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 7,
+                                      "title": "You: \"\"Maybe it has something to do with...\"",
+                                      "articyId": "0x0100004B000027F4",
+                                      "text": "\"Maybe it has something to do with the mass call-in *radio* game?\"",
+                                      "links": [
+                                        {
+                                          "id": 8,
+                                          "title": "Kim Kitsuragi: \"\"That doesn't seem likely to me.\"\"",
+                                          "articyId": "0x0100004B000027FA",
+                                          "text": "\"That doesn't seem likely to me.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 35,
+                                      "title": "You: \"\"Entroponetic crosstalk?\"\"",
+                                      "articyId": "0x0100004B00002780",
+                                      "text": "\"Entroponetic crosstalk?\"",
+                                      "links": [
+                                        {
+                                          "id": 19,
+                                          "title": "Kim Kitsuragi: \"\"If it was... that can't be it.\" Th...\"",
+                                          "articyId": "0x0100004B00002786",
+                                          "text": "\"If it was... that can't be it.\" The lieutenant frowns.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 30,
+                                      "title": "You: \"\"Maybe it's related to what happene...\"",
+                                      "articyId": "0x0100004B000027D6",
+                                      "text": "\"Maybe it's related to what happened in the church -- Soona's experiment...\"",
+                                      "links": [
+                                        {
+                                          "id": 49,
+                                          "title": "Kim Kitsuragi: \"The lieutenant is grimly silent.\"",
+                                          "articyId": "0x0100004B000027DC",
+                                          "text": "The lieutenant is grimly silent.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 66,
+                                      "title": "You: \"(Cough under your breath.) \"Seolite...\"",
+                                      "articyId": "0x0100004B00002778",
+                                      "text": "(Cough under your breath.) \"Seolite spy-tech.\"",
+                                      "links": [
+                                        {
+                                          "id": 45,
+                                          "title": "Kim Kitsuragi: \"\"We're going to stay focused on the...\"",
+                                          "articyId": "0x0100004B000027E3",
+                                          "text": "\"We're going to stay focused on the *case*, officer,\" the lieutenant says, words heavy with anger.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 36,
+                                      "title": "You: \"\"I got nothing.\"\"",
+                                      "articyId": "0x0100004B000027A3",
+                                      "text": "\"I got nothing.\"",
+                                      "links": [
+                                        {
+                                          "id": 85,
+                                          "title": "Kim Kitsuragi: \"\"Neither do I.\" He sighs.\"",
+                                          "articyId": "0x0100004B000027BF",
+                                          "text": "\"Neither do I.\" He sighs.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 68,
+                          "title": "You: \"\"But it is related, Kim. The wind t...\"",
+                          "articyId": "0x0100004B00001A68",
+                          "text": "\"But it is related, Kim. The wind told me so.\"",
+                          "links": [
+                            {
+                              "id": 15,
+                              "title": "Kim Kitsuragi: \"The lieutenant says nothing. An oce...\"",
+                              "articyId": "0x0100004B0000295B",
+                              "text": "The lieutenant says nothing. An ocean breeze blows in strong. He raises his jacket collar against it.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

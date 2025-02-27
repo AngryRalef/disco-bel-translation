@@ -1,0 +1,53 @@
+{
+  "id": "0x0100006B000025C6",
+  "title": "Flow – PLAZA ORB / wearing skullboy jackets",
+  "description": "This what happens when you put either of their jackets on, ya cool cad!",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Composure: \"You've finally made it haven't you?...\"",
+      "articyId": "0x0100006B000025D3",
+      "text": "You've finally made it haven't you? People point fingers at you and whisper to each other when you pass by, wondering to themselves:",
+      "links": [
+        {
+          "id": 6,
+          "title": "Composure: \"\"Where did that man get such a cool...\"",
+          "articyId": "0x0100006B00004779",
+          "text": "\"Where did that man get such a cool jacket? Did he receive it upon graduating the École normale supérieure de Bad-Assery? Is he *dangerous?*\"",
+          "links": [
+            {
+              "id": 7,
+              "title": "You: \"Damn right I'm dangerous.\"",
+              "articyId": "0x010000060001B37B",
+              "text": "Damn right I'm dangerous.",
+              "links": [
+                {
+                  "id": 2,
+                  "title": "Composure: \"You are very dangerous, my friend....\"",
+                  "articyId": "0x0100006B000025D9",
+                  "text": "You are very dangerous, my friend. Dangerous and cool. In fact, no one dares to say *a single thing* about the jacket. But believe me, they are all *very impressed*.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "title": "You: \"Yeah -- a danger to *myself*. What...\"",
+              "articyId": "0x010000060001B381",
+              "text": "Yeah -- a danger to *myself*. What am I doing? This is insane.",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Composure: \"Oh no, believe me -- it will be *ev...\"",
+                  "articyId": "0x010000060001B38A",
+                  "text": "Oh no, believe me -- it will be *everyone else* who's uncomfortable with it. You're safe. No one dares say a word -- unless they're, like, from your station and coming to *judge* you. But what are the chances of that happening?",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

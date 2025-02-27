@@ -1,0 +1,61 @@
+{
+  "id": "0x0100006B00002623",
+  "title": "COAST ORB / wearing interisolary pants",
+  "description": "Putting the pants on gives a one time +1 to Kingdom of Conscience, you moralist douche. This is edited now.",
+  "dialogueTree": [
+    {
+      "id": 3,
+      "title": "Volition: \"Mm, these are some wonderfully regu...\"",
+      "articyId": "0x0100006B00002639",
+      "text": "Mm, these are some wonderfully regular pants. Not too tight, not too loose -- moderate in every sense. You'll blend right in at some pleasant dinner party.",
+      "links": [
+        {
+          "id": 8,
+          "title": "You: \"I like regular, normal things.\"",
+          "articyId": "0x0100000600017400",
+          "text": "I like regular, normal things.",
+          "links": [
+            {
+              "id": 6,
+              "title": "Volition: \"Mhm, I know you do. These interisol...\"",
+              "articyId": "0x0100006B00002634",
+              "text": "Mhm, I know you do. These interisolary pants are like wearing a perfect *compromise* in your nether regions. No one will call the Moralintern on you like this, that's for sure.",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Volition: \"You're a little more moralist now,...\"",
+                  "articyId": "0x0100006B0000262F",
+                  "text": "You're a little more moralist now, buddy. A little more *normal*. Even if you didn't want to be.",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Composure: \"Makes sense. This is what wearing b...\"",
+                      "articyId": "0x010000060001C57F",
+                      "text": "Makes sense. This is what wearing boring office trousers does to you.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "You: \"Oops, it's a fashion faux pas! [Dis...\"",
+          "articyId": "0x0100000600017407",
+          "text": "Oops, it's a fashion faux pas! [Discard the thought -- and the pants.]",
+          "links": [
+            {
+              "id": 7,
+              "title": "Volition: \"Let's hope no one saw you wearing t...\"",
+              "articyId": "0x010000060001740F",
+              "text": "Let's hope no one saw you wearing those outrageously regular -- almost moralist! -- pants.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

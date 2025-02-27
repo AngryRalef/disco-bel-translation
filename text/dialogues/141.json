@@ -1,0 +1,405 @@
+{
+  "id": "0x0100002B00085B55",
+  "title": "DOOMED / HIDDEN WEAPONS CACHE",
+  "description": "Weapons hidden inside the wall. Kim reacts to the room (revolution etc) and you obtain an antique rifle that it seems to have a bullet in it. Lootable item: antique_rifle. You can get a bullet and compare it with the hanged man's.",
+  "dialogueTree": [
+    {
+      "id": 38,
+      "title": "A Hole in the Wall: \"A few bricks have fallen off, revea...\"",
+      "articyId": "0x0100002B000863B8",
+      "text": "A few bricks have fallen off, revealing a compartment behind the wall. It's too dark to see in.",
+      "links": [
+        {
+          "id": 62,
+          "title": "You: \"\"Where are we?\" (Look around the se...\"",
+          "articyId": "0x0100002B000863C4",
+          "text": "\"Where are we?\" (Look around the secret room.)",
+          "links": [
+            {
+              "id": 13,
+              "title": "Kim Kitsuragi: \"\"Seems like an old bunker from the...\"",
+              "articyId": "0x0100002B000863F9",
+              "text": "\"Seems like an old bunker from the Revolutionary period. Look at all those rifles...\" He points up, at the rifles under the ceiling. \"Must be an old weapons cache.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"\"Look, there's a hole in the wall.\"...\"",
+          "articyId": "0x0100002B000863CA",
+          "text": "\"Look, there's a hole in the wall.\" (Point at the hidden compartment.)",
+          "links": [
+            {
+              "id": 92,
+              "title": "Kim Kitsuragi: \"\"There is, yes. And there also appe...\"",
+              "articyId": "0x0100002B00086404",
+              "text": "\"There is, yes. And there also appears to be something *inside* the hole... Interesting. Do you want to take a look?\"",
+              "links": [
+                {
+                  "id": 84,
+                  "title": "You: \"\"Okay, I do...\" (Look inside.)\"",
+                  "articyId": "0x0100002B00086414",
+                  "text": "\"Okay, I do...\" (Look inside.)",
+                  "links": [
+                    {
+                      "id": 39,
+                      "title": "A Hole in the Wall: \"Your hand reaches deep into darknes...\"",
+                      "articyId": "0x0100002B00086422",
+                      "text": "Your hand reaches deep into darkness and spider webs, rummaging around. You find rusty rifles, hidden away...",
+                      "links": [
+                        {
+                          "id": 33,
+                          "title": "You: \"\"Rifles, Kim!\"\"",
+                          "articyId": "0x0100002B0008649C",
+                          "text": "\"Rifles, Kim!\"",
+                          "links": [
+                            {
+                              "id": 60,
+                              "title": "Kim Kitsuragi: \"The lieutenant steps closer, curiou...\"",
+                              "articyId": "0x0100002B000864A2",
+                              "text": "The lieutenant steps closer, curious: \"Are these any good?\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 94,
+                          "title": "You: \"Inspect the rifles.\"",
+                          "articyId": "0x0100002B0008648F",
+                          "text": "Inspect the rifles.",
+                          "links": [
+                            {
+                              "id": 86,
+                              "title": "A Hole in the Wall: \"Most of them are rusty and inoperab...\"",
+                              "articyId": "0x0100002B00086496",
+                              "text": "Most of them are rusty and inoperable like the rest, but one catches your eye -- a bolt action model with a fine wood stock. In better cosmetic order than the others.",
+                              "links": [
+                                {
+                                  "id": 56,
+                                  "title": "Hand/Eye Coordination: \"An old Belle-Magrave rifle, Revolut...\"",
+                                  "articyId": "0x0100007000003E7A",
+                                  "text": "An old Belle-Magrave rifle, Revolutionary-era. Prized for its reliability more than it's accuracy. The rest are probably Belle-Magraves too, just too damaged to be sure.",
+                                  "links": [
+                                    {
+                                      "id": 89,
+                                      "title": "Authority: \"Take it! You're a police officer. P...\"",
+                                      "articyId": "0x0100002B00086522",
+                                      "text": "Take it! You're a police officer. Police officers carry guns.",
+                                      "links": [
+                                        {
+                                          "id": 46,
+                                          "title": "You: \"\"This one looks nice.\" (Take the ri...\"",
+                                          "articyId": "0x0100002B000864B7",
+                                          "text": "\"This one looks nice.\" (Take the rifle.)",
+                                          "links": [
+                                            {
+                                              "id": 34,
+                                              "title": "Kim Kitsuragi: \"\"An old Belle-Magrave, from the Rev...\"",
+                                              "articyId": "0x0100002B000864CD",
+                                              "text": "\"An old Belle-Magrave, from the Revolution,\" the lieutenant notes with approval. His eyes are gleaming. \"Seems to no longer be functional, but still -- a beautiful thing, in its own way.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 63,
+                  "title": "You: \"\"No, you do the honours.\" (Back off...\"",
+                  "articyId": "0x0100002B0008641A",
+                  "text": "\"No, you do the honours.\" (Back off.)",
+                  "links": [
+                    {
+                      "id": 85,
+                      "title": "Kim Kitsuragi: \"\"Sure,\" he nods and steps closer. \"...\"",
+                      "articyId": "0x0100002B00086428",
+                      "text": "\"Sure,\" he nods and steps closer. \"Okay, here's some more rifles... None of these seem to be working. And oh...\" His hand reaches in, rummaging in the dark...",
+                      "links": [
+                        {
+                          "id": 42,
+                          "title": "Kim Kitsuragi: \"\"An old Belle-Magrave rifle -- that...\"",
+                          "articyId": "0x0100002B00086452",
+                          "text": "\"An old Belle-Magrave rifle -- that's *rare* to find in such good order. Seems to no longer be functional, but still -- rare. Here...\"",
+                          "links": [
+                            {
+                              "id": 77,
+                              "title": "Esprit de Corps: \"This should cheer you up.\"",
+                              "articyId": "0x0100000600017226",
+                              "text": "This should cheer you up.",
+                              "links": [
+                                {
+                                  "id": 18,
+                                  "title": "Kim Kitsuragi: \"\"It's yours, officer.\" He hands you...\"",
+                                  "articyId": "0x0100002B00086480",
+                                  "text": "\"It's yours, officer.\" He hands you the gun. \"You found this place.\"",
+                                  "links": [
+                                    {
+                                      "id": 91,
+                                      "title": "You: \"\"Isn't that the same gun that fired...\"",
+                                      "articyId": "0x01000021000008FB",
+                                      "text": "\"Isn't that the same gun that fired the fatal bullet?\"",
+                                      "links": [
+                                        {
+                                          "id": 5,
+                                          "title": "Kim Kitsuragi: \"\"It's the same *type* of weapon, ye...\"",
+                                          "articyId": "0x0100002100000902",
+                                          "text": "\"It's the same *type* of weapon, yes -- a breechloader. But it's not the same gun. This one's been out of order for *years...* I'm afraid our search for the real murder weapon must continue.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "title": "You: \"\"Could the murder weapon we're look...\"",
+                                      "articyId": "0x010000060001A188",
+                                      "text": "\"Could the murder weapon we're looking for be similar?\"",
+                                      "links": [
+                                        {
+                                          "id": 79,
+                                          "title": "Kim Kitsuragi: \"\"It's the same *type* of weapon, ye...\"",
+                                          "articyId": "0x010000060001A190",
+                                          "text": "\"It's the same *type* of weapon, yes. A breechloader. An interesting coincidence that we should find something so similar. But I'm afraid our search for the real murder weapon must continue.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 80,
+                                      "title": "You: \"\"Could the murder weapon we're look...\"",
+                                      "articyId": "0x010000060001A1A6",
+                                      "text": "\"Could the murder weapon we're looking for be similar?\"",
+                                      "links": [
+                                        {
+                                          "id": 90,
+                                          "title": "Kim Kitsuragi: \"\"For that we would have to take a c...\"",
+                                          "articyId": "0x010000060001A1AD",
+                                          "text": "\"For that we would have to take a closer look at the bullet you found, officer. I wouldn't read too much into this, yet -- what we have discovered here is an *inoperable antique*.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "title": "You: \"\"What does this mean -- a rifle her...\"",
+          "articyId": "0x010000060001721E",
+          "text": "\"What does this mean -- a rifle here?\"",
+          "links": [
+            {
+              "id": 2,
+              "title": "Kim Kitsuragi: \"\"It means there are firearms -- bre...\"",
+              "articyId": "0x0100000600017249",
+              "text": "\"It means there are firearms -- breechloaders -- still lying around in Martinaise. This would have been good in our case against Ruby for Titus. Too late for that now, but still -- might be useful down the road...\"",
+              "links": []
+            },
+            {
+              "id": 9,
+              "title": "Kim Kitsuragi: \"\"It means there are firearms -- bre...\"",
+              "articyId": "0x0100000600017251",
+              "text": "\"It means there are firearms -- breechloaders -- still lying around in Martinaise. This could prove useful in our case against Ruby for Titus. Men are easily swayed by the sight of a rifle.\"",
+              "links": []
+            },
+            {
+              "id": 71,
+              "title": "Kim Kitsuragi: \"\"It means there are firearms -- alb...\"",
+              "articyId": "0x0100000600017234",
+              "text": "\"It means there are firearms -- albeit inoperable -- still lying around in Martinaise. It's an interesting coincidence, I would say. Might come in useful in the future.\"",
+              "links": [
+                {
+                  "id": 87,
+                  "title": "Empathy: \"He likes this find.\"",
+                  "articyId": "0x0100000600017241",
+                  "text": "He likes this find.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002B000863D0",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 76,
+          "title": "You: \"Where am I?\"",
+          "articyId": "0x0100002B000863F1",
+          "text": "Where am I?",
+          "links": [
+            {
+              "id": 64,
+              "title": "A Hole in the Wall: \"Inside a secret room infested with...\"",
+              "articyId": "0x0100002B00086439",
+              "text": "Inside a secret room infested with rats, spiders, and woodlice.",
+              "links": [
+                {
+                  "id": 70,
+                  "title": "Encyclopedia: \"Seems like an old weapons cache fro...\"",
+                  "articyId": "0x0100002B00086445",
+                  "text": "Seems like an old weapons cache from the Revolutionary period.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"So there's a hole in the wall.\"",
+          "articyId": "0x0100002B000863EB",
+          "text": "So there's a hole in the wall.",
+          "links": [
+            {
+              "id": 14,
+              "title": "A Hole in the Wall: \"There is. Inside it's nothing but g...\"",
+              "articyId": "0x0100002B00086433",
+              "text": "There is. Inside it's nothing but gloomy blackness. Better not stick your hand inside!",
+              "links": [
+                {
+                  "id": 19,
+                  "title": "You: \"Stick your hand inside the hole.\"",
+                  "articyId": "0x0100002B000864D9",
+                  "text": "Stick your hand inside the hole.",
+                  "links": [
+                    {
+                      "id": 88,
+                      "title": "A Hole in the Wall: \"Your hand reaches deep into darknes...\"",
+                      "articyId": "0x0100002B000864E7",
+                      "text": "Your hand reaches deep into darkness and spider webs, rummaging around. You find a number of rusty rifles, hidden away... Most of them are ugly and inoperable, but a single rifle catches your eye. It's a bolt-action with a fine wood stock.",
+                      "links": [
+                        {
+                          "id": 43,
+                          "title": "Hand/Eye Coordination: \"An old Belle-Magrave rifle, Revolut...\"",
+                          "articyId": "0x0100002B000864EE",
+                          "text": "An old Belle-Magrave rifle, Revolutionary-era. Prized for its reliability more than it's accuracy. The rest are probably Belle-Magraves too, just too damaged to be identified.",
+                          "links": [
+                            {
+                              "id": 69,
+                              "title": "Reaction Speed: \"This is definitely the same make of...\"",
+                              "articyId": "0x010000210000090E",
+                              "text": "This is definitely the same make of gun as the one that fired the fatal bullet in the murder case. It's not the murder weapon itself, but still... you should have it, just in case.",
+                              "links": []
+                            },
+                            {
+                              "id": 47,
+                              "title": "You: \"Take the rifle.\"",
+                              "articyId": "0x0100002B000864F5",
+                              "text": "Take the rifle.",
+                              "links": [
+                                {
+                                  "id": 95,
+                                  "title": "A Hole in the Wall: \"A fit service weapon for a fit offi...\"",
+                                  "articyId": "0x0100002B00086503",
+                                  "text": "A fit service weapon for a fit officer. Too bad it doesn't work -- it looks like it's been out of order for years.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 23,
+                              "title": "You: \"Leave it there.\"",
+                              "articyId": "0x0100002B000864FB",
+                              "text": "Leave it there.",
+                              "links": [
+                                {
+                                  "id": 41,
+                                  "title": "A Hole in the Wall: \"History is best left where it lies....\"",
+                                  "articyId": "0x0100002B00086509",
+                                  "text": "History is best left where it lies. The rifle doesn't work anyway.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 40,
+                  "title": "You: \"Never mind.\"",
+                  "articyId": "0x0100002B000864DF",
+                  "text": "Never mind.",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "A Hole in the Wall: \"Wait, what, really? You're not goin...\"",
+                      "articyId": "0x0100002B00086517",
+                      "text": "Wait, what, really? You're not going to look inside a secret compartment behind the wall? Okay, officer... *Okay*.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "title": "You: \"What does this mean -- a rifle here...\"",
+          "articyId": "0x010000060001725E",
+          "text": "What does this mean -- a rifle here?",
+          "links": [
+            {
+              "id": 65,
+              "title": "A Hole in the Wall: \"It means there are firearms -- fron...\"",
+              "articyId": "0x010000060001726A",
+              "text": "It means there are firearms -- front loaders -- still lying around Martinaise. This would have been good in our case against Ruby for Titus. Too late for that now, but still -- might be useful down the road...",
+              "links": []
+            },
+            {
+              "id": 21,
+              "title": "A Hole in the Wall: \"It means there are firearms -- fron...\"",
+              "articyId": "0x010000060001727A",
+              "text": "It means there are firearms -- front loaders -- still lying around Martinaise. This could prove useful in our case against Ruby for Titus. Men are easily swayed by the sight of a rifle...",
+              "links": []
+            },
+            {
+              "id": 3,
+              "title": "A Hole in the Wall: \"It means there are firearms -- albe...\"",
+              "articyId": "0x0100000600017264",
+              "text": "It means there are firearms -- albeit inoperable -- still lying around Martinaise. This is an interesting coincidence. Could prove useful in some way. You don't know *how* yet, but it might be useful down the road…",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "Logic: \"This is a good find. Really justifi...\"",
+                  "articyId": "0x0100000600017270",
+                  "text": "This is a good find. Really justifies coming down here and looking around.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

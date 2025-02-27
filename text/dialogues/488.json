@@ -1,0 +1,230 @@
+{
+  "id": "0x010000710000060B",
+  "title": "THOUGHT / SOBRIETY DAY ONE",
+  "description": "Endurance -- about staying clean. Not an initiation dialogue, but UPON FIXING thought?",
+  "dialogueTree": [
+    {
+      "id": 13,
+      "title": "Endurance: \"Do you know what today is?\"",
+      "articyId": "0x0100006B0000A234",
+      "text": "Do you know what today is?",
+      "links": [
+        {
+          "id": 29,
+          "title": "You: \"My birthday?\"",
+          "articyId": "0x0100009400000E33",
+          "text": "My birthday?",
+          "links": [
+            {
+              "id": 10,
+              "title": "Endurance: \"No. Well, it might be, but you don'...\"",
+              "articyId": "0x0100009400000E3C",
+              "text": "No. Well, it might be, but you don't have your badge, so how would you know? Try again.",
+              "links": [
+                {
+                  "id": 2,
+                  "title": "You: \"My wedding anniversary?\"",
+                  "articyId": "0x0100000200000EC8",
+                  "text": "My wedding anniversary?",
+                  "links": [
+                    {
+                      "id": 18,
+                      "title": "Endurance: \"No, believe it or not, this isn't a...\"",
+                      "articyId": "0x0100000200000EEB",
+                      "text": "No, believe it or not, this isn't about *her*. Well, not exactly...",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 14,
+                  "title": "You: \"The day I'll solve this case?\"",
+                  "articyId": "0x0100000200000ECE",
+                  "text": "The day I'll solve this case?",
+                  "links": [
+                    {
+                      "id": 23,
+                      "title": "Endurance: \"Let's hope so. It's beginning to se...\"",
+                      "articyId": "0x0100000200000EF2",
+                      "text": "Let's hope so. It's beginning to seem possible that you *will* solve it.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 6,
+                  "title": "You: \"I give up.\"",
+                  "articyId": "0x0100000200000ED4",
+                  "text": "I give up.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"(Lie.) Yes.\"",
+          "articyId": "0x0100009400000E2D",
+          "text": "(Lie.) Yes.",
+          "links": [
+            {
+              "id": 25,
+              "title": "Endurance: \"No, you don't. It's been too long s...\"",
+              "articyId": "0x0100000200000EDA",
+              "text": "No, you don't. It's been too long since this has happened for you to recognize the feeling.",
+              "links": [
+                {
+                  "id": 30,
+                  "title": "Endurance: \"It's your first day sober.\"",
+                  "articyId": "0x0100000200000EF9",
+                  "text": "It's your first day sober.",
+                  "links": [
+                    {
+                      "id": 4,
+                      "title": "You: \"What?! I've been sober for *over tw...\"",
+                      "articyId": "0x0100000200000F0A",
+                      "text": "What?! I've been sober for *over two days* already!",
+                      "links": [
+                        {
+                          "id": 31,
+                          "title": "Endurance: \"It takes a while for that shit to g...\"",
+                          "articyId": "0x0100000200000F1D",
+                          "text": "It takes a while for that shit to get out of your system, and for reality to come back into focus.",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "You: \"Reality... (Look around.)\"",
+                              "articyId": "0x0100000200000F39",
+                              "text": "Reality... (Look around.)",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Endurance: \"Yes, you're beginning to see the wo...\"",
+                                  "articyId": "0x0100000200000F32",
+                                  "text": "Yes, you're beginning to see the world for what it is, even through the mental fog. And yourself, too -- what you've made yourself into.",
+                                  "links": [
+                                    {
+                                      "id": 5,
+                                      "title": "You: \"I don't know how I feel about this...\"",
+                                      "articyId": "0x0100000200000F4D",
+                                      "text": "I don't know how I feel about this yet...",
+                                      "links": [
+                                        {
+                                          "id": 12,
+                                          "title": "Endurance: \"You're going to feel all kinds of c...\"",
+                                          "articyId": "0x0100000200000F65",
+                                          "text": "You're going to feel all kinds of contradictory, confusing things for months to come. But don't get discouraged -- you just have to keep going, right foot in front of left, left foot in front of right...",
+                                          "links": [
+                                            {
+                                              "id": 21,
+                                              "title": "You: \"I'm done with my old life. One foot...\"",
+                                              "articyId": "0x0100000200000F73",
+                                              "text": "I'm done with my old life. One foot after the other, I will go on...",
+                                              "links": [
+                                                {
+                                                  "id": 34,
+                                                  "title": "Endurance: \"...and together we will walk the wa...\"",
+                                                  "articyId": "0x0100000200000F96",
+                                                  "text": "...and together we will walk the waste land of reality. Because even if you haven't had your last drink or your last line, you will never really, truly enjoy either again.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 20,
+                                              "title": "You: \"No, I can't handle this, I'm done....\"",
+                                              "articyId": "0x0100000200000F79",
+                                              "text": "No, I can't handle this, I'm done. I'm going to find a drink *right now*. [Discard thought.]",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "title": "You: \"Oh, how I've missed this clarity!\"",
+                                      "articyId": "0x0100000200000F41",
+                                      "text": "Oh, how I've missed this clarity!",
+                                      "links": [
+                                        {
+                                          "id": 8,
+                                          "title": "Endurance: \"Don't get too excited. Clarity is s...\"",
+                                          "articyId": "0x0100000200000F59",
+                                          "text": "Don't get too excited. Clarity is still many months away for you -- difficult, confusing, very emotional months. Shall we keep going?",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 27,
+                                      "title": "You: \"Everything is terrible. I want off...\"",
+                                      "articyId": "0x0100000200000F47",
+                                      "text": "Everything is terrible. I want off the sobriety train.",
+                                      "links": [
+                                        {
+                                          "id": 11,
+                                          "title": "Endurance: \"You've shown you can get through tw...\"",
+                                          "articyId": "0x0100000200000F53",
+                                          "text": "You've shown you can get through two days of detox. You can certainly endure a little more...",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 15,
+                      "title": "You: \"How did I let it come to this? I ne...\"",
+                      "articyId": "0x0100000200000F10",
+                      "text": "How did I let it come to this? I need to get my buzz on *immediately*.",
+                      "links": [
+                        {
+                          "id": 24,
+                          "title": "Endurance: \"No, you don't. You're well into det...\"",
+                          "articyId": "0x0100000200000F2B",
+                          "text": "No, you don't. You're well into detoxing now. *Reality* is beginning to come into focus -- just look around.",
+                          "links": [
+                            {
+                              "id": 16,
+                              "title": "You: \"Reality... (Study your surroundings...\"",
+                              "articyId": "0x0100000200000F9E",
+                              "text": "Reality... (Study your surroundings with your newly sober eyes.)",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "You: \"Huh?\"",
+          "articyId": "0x0100009400000E28",
+          "text": "Huh?",
+          "links": [
+            {
+              "id": 33,
+              "title": "Endurance: \"Of course. It's been too long since...\"",
+              "articyId": "0x0100000200000EE0",
+              "text": "Of course. It's been too long since this has happened for you to recognize the feeling.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

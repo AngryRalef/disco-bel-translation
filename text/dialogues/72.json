@@ -1,0 +1,190 @@
+{
+  "id": "0x010000070001B006",
+  "title": "EVRART ORB / fishing rod convo",
+  "description": "Quick attempt to catch the fishing rod...",
+  "dialogueTree": [
+    {
+      "id": 4,
+      "title": "Reaction Speed: \"Is that an Insulindian phasmid? It...\"",
+      "articyId": "0x010000070001B00C",
+      "text": "Is that an Insulindian phasmid? It looks like an Insulindian phasmid. Quick -- catch it before it scuttles away!",
+      "links": [
+        {
+          "id": 13,
+          "title": "Inland Empire: \"It's gotta be the phasmid this time...\"",
+          "articyId": "0x010000070001B089",
+          "text": "It's gotta be the phasmid this time. Look -- it moved!",
+          "links": []
+        },
+        {
+          "id": 21,
+          "title": "You: \"\"Stop right there!\"\"",
+          "articyId": "0x010000070001B0A0",
+          "text": "\"Stop right there!\"",
+          "links": [
+            {
+              "id": 12,
+              "title": "Fishing Rod: \"You shout at what you thought to be...\"",
+              "articyId": "0x010000070001B077",
+              "text": "You shout at what you thought to be a phasmid, but turns out to be a fishing rod.",
+              "links": [
+                {
+                  "id": 25,
+                  "title": "Evrart Claire: \"\"What are you trying to accomplish,...\"",
+                  "articyId": "0x010000070001B048",
+                  "text": "\"What are you trying to accomplish, Harry?\"",
+                  "links": [
+                    {
+                      "id": 23,
+                      "title": "You: \"\"Uh, it's a novel fishing method.\"\"",
+                      "articyId": "0x010000070001B054",
+                      "text": "\"Uh, it's a novel fishing method.\"",
+                      "links": [
+                        {
+                          "id": 6,
+                          "title": "Evrart Claire: \"\"Perhaps we should try it out in th...\"",
+                          "articyId": "0x010000070001B036",
+                          "text": "\"Perhaps we should try it out in the wild sometime.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "title": "You: \"\"Sorry, I thought the fishing rod w...\"",
+                      "articyId": "0x010000070001B060",
+                      "text": "\"Sorry, I thought the fishing rod was... something else.\"",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Evrart Claire: \"His great belly ripples with laught...\"",
+                          "articyId": "0x010000070001B02A",
+                          "text": "His great belly ripples with laughter. \"A skinny, shy young girl? Never mind.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "title": "You: \"\"I was just trying to surprise you....\"",
+                      "articyId": "0x010000070001B06C",
+                      "text": "\"I was just trying to surprise you. To throw you off, you know.\"",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "Evrart Claire: \"\"Well, you certainly succeeded, Har...\"",
+                          "articyId": "0x010000070001B066",
+                          "text": "\"Well, you certainly succeeded, Harry.\" He adjust himself in the chair. \"You are a very surprising police officer indeed.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "You: \"Pirouette toward the phasmid.\"",
+          "articyId": "0x010000070001B012",
+          "text": "Pirouette toward the phasmid.",
+          "links": [
+            {
+              "id": 22,
+              "title": "Fishing Rod: \"Beautiful leap! But this isn't a ph...\"",
+              "articyId": "0x010000070001B024",
+              "text": "Beautiful leap! But this isn't a phasmid in your hand -- it is a fishing rod.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "You: \"Creep up to the phasmid quietly.\"",
+          "articyId": "0x010000070001B018",
+          "text": "Creep up to the phasmid quietly.",
+          "links": [
+            {
+              "id": 10,
+              "title": "Fishing Rod: \"You're a master of stealth. But loo...\"",
+              "articyId": "0x010000070001B030",
+              "text": "You're a master of stealth. But look what you've caught -- not a phasmid, but a fishing rod!",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"Wait a moment. Is that really the p...\"",
+          "articyId": "0x010000070001B01E",
+          "text": "Wait a moment. Is that really the phasmid? You don't want to make a fool out of yourself.",
+          "links": [
+            {
+              "id": 16,
+              "title": "Fishing Rod: \"Definitely not a phasmid. Definitel...\"",
+              "articyId": "0x010000070001B03C",
+              "text": "Definitely not a phasmid. Definitely a fishing rod.",
+              "links": [
+                {
+                  "id": 19,
+                  "title": "Evrart Claire: \"\"I see you're admiring my fishing g...\"",
+                  "articyId": "0x010000070001B08F",
+                  "text": "\"I see you're admiring my fishing gear. Are you by any chance a fisherman yourself?\"",
+                  "links": [
+                    {
+                      "id": 15,
+                      "title": "You: \"\"Fisherman? Totally. It's all I do...\"",
+                      "articyId": "0x010000070001B04E",
+                      "text": "\"Fisherman? Totally. It's all I do for fun.\"",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Evrart Claire: \"\"I thought so, Harry, I thought so....\"",
+                          "articyId": "0x010000070001B07D",
+                          "text": "\"I thought so, Harry, I thought so. We should go out together sometime. Bond like men of worth and value.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 27,
+                      "title": "You: \"\"I think maybe I used to be the Fis...\"",
+                      "articyId": "0x010000070001B095",
+                      "text": "\"I think maybe I used to be the Fisher King...\"",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "Evrart Claire: \"\"Ha ha, maybe you were.\"\"",
+                          "articyId": "0x010000070001B05A",
+                          "text": "\"Ha ha, maybe you were.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 9,
+                      "title": "You: \"\"Nah, I'm just sizing you up. Study...\"",
+                      "articyId": "0x010000070001B083",
+                      "text": "\"Nah, I'm just sizing you up. Studying your strengths and weaknesses.\"",
+                      "links": [
+                        {
+                          "id": 17,
+                          "title": "Evrart Claire: \"\"I doubt you'll learn anything from...\"",
+                          "articyId": "0x010000070001B042",
+                          "text": "\"I doubt you'll learn anything from that fishing rod.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

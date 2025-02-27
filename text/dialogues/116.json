@@ -1,0 +1,627 @@
+{
+  "id": "0x010000270000278C",
+  "title": "BOOKSTORE / CURTAINS",
+  "description": "The curtains hanging in front of the back room. Curious trinkets attached. Very suspect. Can open, but Plaisance doesn't like that.",
+  "dialogueTree": [
+    {
+      "id": 43,
+      "title": "Closed Curtains: \"You see a set of tattered curtains...\"",
+      "articyId": "0x0100005A000000AC",
+      "text": "You see a set of tattered curtains blocking the way to another room. A strange cage-like trinket dangles from the curtains.",
+      "links": [
+        {
+          "id": 8,
+          "title": "You: \"Pull the curtains open.\"",
+          "articyId": "0x0100005A000000BF",
+          "text": "Pull the curtains open.",
+          "links": [
+            {
+              "id": 44,
+              "title": "Closed Curtains: \"You see a dimly lit room full of du...\"",
+              "articyId": "0x0100009200000838",
+              "text": "You see a dimly lit room full of dusty furniture and trash. A doorway stands in the back, covered in dozens of scary little Semenese wards, your shadow looming over it like an omen.",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Plaisance: \"A small terrified \"Oh!\" escapes fro...\"",
+                  "articyId": "0x0100005A000000D4",
+                  "text": "A small terrified \"Oh!\" escapes from Plaisance, as she tries her best to look away, her round face buried in her hands.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 83,
+              "title": "Closed Curtains: \"You see a dimly lit room full of du...\"",
+              "articyId": "0x0100005A000000CD",
+              "text": "You see a dimly lit room full of dusty furniture and trash. A doorway stands in the back, covered in dozens of scary little cage-like trinkets, your shadow looming over it like an omen.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "title": "You: \"[Ignore the curtains.]\"",
+          "articyId": "0x0100005A000000C5",
+          "text": "[Ignore the curtains.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Closed Curtains: \"You see a tattered set of curtains...\"",
+      "articyId": "0x0100002F0000321D",
+      "text": "You see a tattered set of curtains and a polyhedron-shaped cage-like trinket.",
+      "links": [
+        {
+          "id": 35,
+          "title": "You: \"What's so eerie about those curtain...\"",
+          "articyId": "0x0100002F0000D62D",
+          "text": "What's so eerie about those curtains?",
+          "links": [
+            {
+              "id": 107,
+              "title": "Inland Empire: \"Be wary of those mysterious ornamen...\"",
+              "articyId": "0x0100002F0000D634",
+              "text": "Be wary of those mysterious ornaments from the *dark isles*.",
+              "links": [
+                {
+                  "id": 56,
+                  "title": "You: \"Dark isles? What's going on?\"",
+                  "articyId": "0x0100002F0000303C",
+                  "text": "Dark isles? What's going on?",
+                  "links": [
+                    {
+                      "id": 24,
+                      "title": "Inland Empire: \"Do you know what takes place upon m...\"",
+                      "articyId": "0x0100002F00011CCA",
+                      "text": "Do you know what takes place upon mist-shrouded Semenese islands? Don't listen to Encyclopedia -- they're inhabited by shamans and wildmen practising unnatural mysticism.",
+                      "links": [
+                        {
+                          "id": 37,
+                          "title": "You: \"So the Remote Viewers Division... i...\"",
+                          "articyId": "0x0100002F0000D6D3",
+                          "text": "So the Remote Viewers Division... is real? I am it. And I am up to the task!",
+                          "links": [
+                            {
+                              "id": 48,
+                              "title": "Inland Empire: \"Wait... What?\"",
+                              "articyId": "0x0100002F0000D6BB",
+                              "text": "Wait... What?",
+                              "links": [
+                                {
+                                  "id": 64,
+                                  "title": "You: \"What's the hang-up? Mystical spirit...\"",
+                                  "articyId": "0x0100002F0000D6A7",
+                                  "text": "What's the hang-up? Mystical spirits, unnatural emanations -- nothing a para-detective can't handle. Let's go!",
+                                  "links": [
+                                    {
+                                      "id": 102,
+                                      "title": "Inland Empire: \"Okay... you're one of the initiated...\"",
+                                      "articyId": "0x01000006000197D1",
+                                      "text": "Okay... you're one of the initiated. Then go ahead and fiddle with the curtains. But do so at your own PERIL.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "title": "You: \"Yeah, actually... this is bullshit.\"",
+                                  "articyId": "0x01000006000197C7",
+                                  "text": "Yeah, actually... this is bullshit.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "title": "You: \"Yes, I've *sensed* that. It's terri...\"",
+                          "articyId": "0x0100002F00003049",
+                          "text": "Yes, I've *sensed* that. It's terrifying.",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Inland Empire: \"They lurk in the tropical pale of S...\"",
+                              "articyId": "0x0100002F0000304F",
+                              "text": "They lurk in the tropical pale of Semenine, casting strange magicks on everyone! Ignore the curtains -- or suffer the consequences...",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 41,
+                          "title": "You: \"You're out of line.\"",
+                          "articyId": "0x0100002F0000322D",
+                          "text": "You're out of line.",
+                          "links": [
+                            {
+                              "id": 27,
+                              "title": "Inland Empire: \"Not so! You sense their strange mag...\"",
+                              "articyId": "0x0100002F00003235",
+                              "text": "Not so! You sense their strange magicks, cast from the dark forests they writhe around in. Don't believe it? Go ahead, straight through the curtains. Suffer the consequences.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 97,
+                      "title": "Inland Empire: \"Do you realize what's out there? Up...\"",
+                      "articyId": "0x0100002F00003043",
+                      "text": "Do you realize what's out there? Upon the mist-shrouded islands of Ile du Fantôme, in Semenine? Eerie pygmies and wild shamans practising unnatural mysticism?",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 11,
+                  "title": "You: \"I prefer to just not think about it...\"",
+                  "articyId": "0x0100002F0000D4EB",
+                  "text": "I prefer to just not think about it...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 118,
+          "title": "You: \"\"Shopkeeper, what's behind the curt...\"",
+          "articyId": "0x0100002F000115C0",
+          "text": "\"Shopkeeper, what's behind the curtains?\"",
+          "links": [
+            {
+              "id": 126,
+              "title": "Plaisance: \"\"Nothing! Why aren't you browsing t...\"",
+              "articyId": "0x0100002F00011C5D",
+              "text": "\"Nothing! Why aren't you browsing the books?\" She fiddles with her pendant. \"Don't you feel *compelled* to look at the books? You ought to.\"",
+              "links": [
+                {
+                  "id": 62,
+                  "title": "Conceptualization: \"She speaks almost as if she's tryin...\"",
+                  "articyId": "0x01000037000000DB",
+                  "text": "She speaks almost as if she's trying to put a *spell* on you, urging you to buy more books...",
+                  "links": [
+                    {
+                      "id": 91,
+                      "title": "Closed Curtains: \"Oddly enough, the more she tries to...\"",
+                      "articyId": "0x01000006000197D9",
+                      "text": "Oddly enough, the more she tries to draw you away from the curtains, the more alluring they become.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "title": "You: \"Examine the strange cage-like trink...\"",
+          "articyId": "0x0100002F00002BC0",
+          "text": "Examine the strange cage-like trinket.",
+          "links": [
+            {
+              "id": 104,
+              "title": "Closed Curtains: \"You see some kind of charm -- an ir...\"",
+              "articyId": "0x0100002700002795",
+              "text": "You see some kind of charm -- an irregular polyhedron, assembled from bones, sticks, and straw. Inside, a disturbing fish-head with empty eye sockets stares at you.",
+              "links": [
+                {
+                  "id": 105,
+                  "title": "Encyclopedia: \"From the looks of it this is a trad...\"",
+                  "articyId": "0x010000270000279D",
+                  "text": "From the looks of it this is a traditional Semenese ward, meant to provide protection against ill luck, bad dreams, curses, and other supra-natural scourges.",
+                  "links": [
+                    {
+                      "id": 79,
+                      "title": "You: \"And who are the Semenese?\"",
+                      "articyId": "0x0100002F000115CD",
+                      "text": "And who are the Semenese?",
+                      "links": [
+                        {
+                          "id": 81,
+                          "title": "Encyclopedia: \"Inhabitants of Ile du Fantôme or th...\"",
+                          "articyId": "0x0100002F00011CB7",
+                          "text": "Inhabitants of Ile du Fantôme or the Semenine Islands down south. Don't listen to what Inland Empire told you -- it's a beautiful place with a rich and unique culture...",
+                          "links": []
+                        },
+                        {
+                          "id": 28,
+                          "title": "Encyclopedia: \"Inhabitants of Ile du Fantôme, the...\"",
+                          "articyId": "0x0100002F000115D4",
+                          "text": "Inhabitants of Ile du Fantôme, the Semenine Islands down south...",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "title": "Closed Curtains: \"Aside from poking at it -- suspicio...\"",
+                      "articyId": "0x010000060001995D",
+                      "text": "Aside from poking at it -- suspiciously -- there is nothing else to do with the fish-head charm at this time. The curtains remain shut before you.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "You: \"Take a peek behind the curtains.\"",
+          "articyId": "0x0100007000003CDB",
+          "text": "Take a peek behind the curtains.",
+          "links": [
+            {
+              "id": 85,
+              "title": "Savoir Faire: \"The room behind them is dim... You...\"",
+              "articyId": "0x0100002F00002F10",
+              "text": "The room behind them is dim... You can only discern shadowy silhouettes of *things* there, crouching in the dark like monsters in a child's bedroom.",
+              "links": [
+                {
+                  "id": 50,
+                  "title": "Savoir Faire: \"A faint slice of light from the cur...\"",
+                  "articyId": "0x0100002F00011CA7",
+                  "text": "A faint slice of light from the curtains reveals a doorway in the back, draped in cage-like polyhedrons. They are all made of fish heads and tiny animal bones; it looks like a small graveyard...",
+                  "links": [
+                    {
+                      "id": 17,
+                      "title": "Inland Empire: \"We must be dealing with seriously m...\"",
+                      "articyId": "0x0100002F00002C90",
+                      "text": "We must be dealing with seriously malign forces here if there are *dozens* of wards.",
+                      "links": []
+                    },
+                    {
+                      "id": 34,
+                      "title": "Kim Kitsuragi: \"\"What do you see?\" the lieutenant a...\"",
+                      "articyId": "0x010000270000282E",
+                      "text": "\"What do you see?\" the lieutenant asks, whispering conspiratorially.",
+                      "links": [
+                        {
+                          "id": 54,
+                          "title": "You: \"\"I see *monsters* crouching in the...\"",
+                          "articyId": "0x010000370000004C",
+                          "text": "\"I see *monsters* crouching in the dark.\"",
+                          "links": [
+                            {
+                              "id": 38,
+                              "title": "Kim Kitsuragi: \"\"No, what do you *really* see?\"\"",
+                              "articyId": "0x010000370000005F",
+                              "text": "\"No, what do you *really* see?\"",
+                              "links": [
+                                {
+                                  "id": 109,
+                                  "title": "You: \"\"Spirits, from the darkest realms,...\"",
+                                  "articyId": "0x0100003700000066",
+                                  "text": "\"Spirits, from the darkest realms, rising to greet us...\"",
+                                  "links": [
+                                    {
+                                      "id": 82,
+                                      "title": "Kim Kitsuragi: \"\"You're hopeless,\" he sighs. \"Quick...\"",
+                                      "articyId": "0x010000370000006C",
+                                      "text": "\"You're hopeless,\" he sighs. \"Quick, she's turning around...\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 33,
+                          "title": "You: \"\"I see more of those little trinket...\"",
+                          "articyId": "0x0100003700000052",
+                          "text": "\"I see more of those little trinkets. It looks pretty insane.\"",
+                          "links": [
+                            {
+                              "id": 120,
+                              "title": "Kim Kitsuragi: \"\"Spooky,\" the lieutenant comments....\"",
+                              "articyId": "0x0100003700000080",
+                              "text": "\"Spooky,\" the lieutenant comments. \"Quick, she's turning around...\"",
+                              "links": [
+                                {
+                                  "id": 57,
+                                  "title": "Plaisance: \"\"What are you doing there, officers...\"",
+                                  "articyId": "0x0100003700000072",
+                                  "text": "\"What are you doing there, officers?\" The shopkeeper turns around right as you manage to close the curtains. \"I told you not to play with the curtains... Please browse the books, sir!\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 95,
+                          "title": "You: \"\"There's a door in the back. Wonder...\"",
+                          "articyId": "0x0100003700000058",
+                          "text": "\"There's a door in the back. Wonder where it leads...\"",
+                          "links": [
+                            {
+                              "id": 6,
+                              "title": "Kim Kitsuragi: \"\"To the cellar?\" the lieutenant sug...\"",
+                              "articyId": "0x0100003700000088",
+                              "text": "\"To the cellar?\" the lieutenant suggests. \"Quick, she's turning around...\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 96,
+                          "title": "You: \"\"Honestly, I can't really see anyth...\"",
+                          "articyId": "0x0100002F00002F29",
+                          "text": "\"Honestly, I can't really see anything. It looks like a regular back room to me.\"",
+                          "links": [
+                            {
+                              "id": 106,
+                              "title": "Kim Kitsuragi: \"\"I see,\" the lieutenant nods, befor...\"",
+                              "articyId": "0x0100002F00002F30",
+                              "text": "\"I see,\" the lieutenant nods, before looking at the shopkeeper: \"Quick, she's turning around...\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "title": "You: \"(Pull open the curtains.)\"",
+          "articyId": "0x01000027000027AB",
+          "text": "(Pull open the curtains.)",
+          "links": [
+            {
+              "id": 125,
+              "title": "Closed Curtains: \"Just as you're about to pull apart...\"",
+              "articyId": "0x0100002F00002D30",
+              "text": "Just as you're about to pull apart the curtains, the petrified voice of the shop owner cries out once more:",
+              "links": [
+                {
+                  "id": 87,
+                  "title": "Plaisance: \"\"Sir, don't touch that! I told you...\"",
+                  "articyId": "0x0100002F000115FA",
+                  "text": "\"Sir, don't touch that! I told you it's off-limits for the customers!\" Her hand has closed around her pendant, her fingers nervously playing with the talisman.",
+                  "links": [
+                    {
+                      "id": 31,
+                      "title": "Plaisance: \"\"Para-psychologically speaking -- w...\"",
+                      "articyId": "0x0100003700000020",
+                      "text": "\"Para-psychologically speaking -- we're *done* if you decide to open them. I won't be held responsible for the consequences! It's too dangerous!\"",
+                      "links": [
+                        {
+                          "id": 94,
+                          "title": "Perception (Hearing): \"She looks away, mumbling: \"Why is e...\"",
+                          "articyId": "0x0100003700000029",
+                          "text": "She looks away, mumbling: \"Why is everyone *always* messing with the curtains, why can't they just buy books like normal people...\"",
+                          "links": [
+                            {
+                              "id": 80,
+                              "title": "You: \"\"I've heard there's a fridge there...\"",
+                              "articyId": "0x0100002F00011600",
+                              "text": "\"I've heard there's a fridge there that I need.\"",
+                              "links": [
+                                {
+                                  "id": 49,
+                                  "title": "Plaisance: \"\"Everybody suddenly *needs* somethi...\"",
+                                  "articyId": "0x0100002F00011606",
+                                  "text": "\"Everybody suddenly *needs* something from there....\" She waves her hands angrily. \"Leave the curtains be. It's what it wants...\"",
+                                  "links": [
+                                    {
+                                      "id": 103,
+                                      "title": "Half Light: \"Okay. So what's in there has a will...\"",
+                                      "articyId": "0x01000006000197F2",
+                                      "text": "Okay. So what's in there has a will and it *wants* you to enter? This is bad.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 68,
+                              "title": "You: \"\"This is about *the curse*? That's...\"",
+                              "articyId": "0x01000037000000AA",
+                              "text": "\"This is about *the curse*? That's why you're afraid?\"",
+                              "links": [
+                                {
+                                  "id": 42,
+                                  "title": "Plaisance: \"\"No, it's just a store room for the...\"",
+                                  "articyId": "0x01000037000000B0",
+                                  "text": "\"No, it's just a store room for the employees, I told you! Now *please* step away from the curtains...\" She's almost begging you.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 61,
+                              "title": "You: \"\"Ma'am, this is different -- I'm a...\"",
+                              "articyId": "0x0100002F0001161A",
+                              "text": "\"Ma'am, this is different -- I'm a police officer, I *need* to get in there.\"",
+                              "links": [
+                                {
+                                  "id": 30,
+                                  "title": "Plaisance: \"\"Why? It's not like anyone was *kil...\"",
+                                  "articyId": "0x0100002F00011626",
+                                  "text": "\"Why? It's not like anyone was *killed* there!\" She stops abruptly as her hand flies over her mouth, baffled by her own bluntness.",
+                                  "links": [
+                                    {
+                                      "id": 84,
+                                      "title": "Plaisance: \"\"I am sorry, I don't mean to be so...\"",
+                                      "articyId": "0x0100003700000095",
+                                      "text": "\"I am sorry, I don't mean to be so impolite, just please don't go there! I can't allow that. You'll only make things worse and unleash *the powers*.\"",
+                                      "links": [
+                                        {
+                                          "id": 40,
+                                          "title": "Savoir Faire: \"The curtains do seem *frail* sudden...\"",
+                                          "articyId": "0x01000006000197FA",
+                                          "text": "The curtains do seem *frail* suddenly. Not robust enough to contain a slippery darkness.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 22,
+                              "title": "You: \"\"But I sense this place calling for...\"",
+                              "articyId": "0x0100002F00011614",
+                              "text": "\"But I sense this place calling for me. I must investigate *beyond* the threshold!\"",
+                              "links": [
+                                {
+                                  "id": 119,
+                                  "title": "Plaisance: \"\"You *do*?!\" She grabs her pendant...\"",
+                                  "articyId": "0x0100002F0001160D",
+                                  "text": "\"You *do*?!\" She grabs her pendant again, visibly shaken. \"My god, even more reasons to not mess with the curtains... Just step away, dear sir!\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 123,
+                              "title": "You: \"\"I don't care, you can't stop me! I...\"",
+                              "articyId": "0x010000370000009D",
+                              "text": "\"I don't care, you can't stop me! I'll open them.\" (Continue.)",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Plaisance: \"\"No!\" She raises her hand to try an...\"",
+                                  "articyId": "0x01000037000000A3",
+                                  "text": "\"No!\" She raises her hand to try and stop you. \"Please just talk to me, officer... Come here and let's talk this through before you decide to do anything *extreme*...\"",
+                                  "links": [
+                                    {
+                                      "id": 98,
+                                      "title": "Rhetoric: \"Talking is always good. Go see what...\"",
+                                      "articyId": "0x01000037000000B8",
+                                      "text": "Talking is always good. Go see what she has to say.",
+                                      "links": [
+                                        {
+                                          "id": 16,
+                                          "title": "Half Light: \"Lies. Rip them open, we say!\"",
+                                          "articyId": "0x0100000600019802",
+                                          "text": "Lies. Rip them open, we say!",
+                                          "links": [
+                                            {
+                                              "id": 10,
+                                              "title": "Inland Empire: \"There *is* something mysterious abo...\"",
+                                              "articyId": "0x0100002100002764",
+                                              "text": "There *is* something mysterious about the curtains... be careful!",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 58,
+                              "title": "You: \"\"Alright, I'll think about it for a...\"",
+                              "articyId": "0x01000037000000C0",
+                              "text": "\"Alright, I'll think about it for a while...\" (Continue.)",
+                              "links": [
+                                {
+                                  "id": 69,
+                                  "title": "Plaisance: \"\"Thank you!\" The shopkeeper lets ou...\"",
+                                  "articyId": "0x01000037000000C7",
+                                  "text": "\"Thank you!\" The shopkeeper lets out a loud sigh. \"Let's just talk about this first, alright? There's no reason for you to venture into the unknown...\"",
+                                  "links": [
+                                    {
+                                      "id": 18,
+                                      "title": "Horrific Necktie: \"What are you, a coward? Think about...\"",
+                                      "articyId": "0x0100002F00002D5C",
+                                      "text": "What are you, a coward? Think about the marvellous adventures waiting for us on the other side!",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "title": "You: \"(Rip them apart, this time for real...\"",
+          "articyId": "0x0100002F000115EE",
+          "text": "(Rip them apart, this time for real.)",
+          "links": [
+            {
+              "id": 110,
+              "title": "Closed Curtains: \"You see a dimly lit room full of du...\"",
+              "articyId": "0x0100009200000829",
+              "text": "You see a dimly lit room full of dusty furniture and trash. A doorway stands in the back, covered in dozens of scary little Semenese wards, your shadow looming over it like an omen.",
+              "links": [
+                {
+                  "id": 25,
+                  "title": "Plaisance: \"\"I warned you! You are unleashing f...\"",
+                  "articyId": "0x0100002F00002C50",
+                  "text": "\"I warned you! You are unleashing forces beyond your understanding!\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 88,
+              "title": "Closed Curtains: \"You see a dimly lit room full of du...\"",
+              "articyId": "0x0100002F00011620",
+              "text": "You see a dimly lit room full of dusty furniture and trash. A doorway stands in the back, covered in dozens of scary little cage-like trinkets, your shadow looming over it like an omen.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 124,
+          "title": "You: \"Ignore the curtains for now. [Leave...\"",
+          "articyId": "0x0100002F00002BC6",
+          "text": "Ignore the curtains for now. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Closed Curtains: \"You see a set of tattered curtains...\"",
+      "articyId": "0x0100002F00002BDC",
+      "text": "You see a set of tattered curtains blocking the way to another room. A strange cage-like trinket dangles from the curtains.",
+      "links": [
+        {
+          "id": 26,
+          "title": "Plaisance: \"\"Excuse me, officer...\" She calls o...\"",
+          "articyId": "0x0100002F00002F5F",
+          "text": "\"Excuse me, officer...\" She calls out from the counter. \"The back room is strictly for employees only.\"",
+          "links": [
+            {
+              "id": 63,
+              "title": "Inland Empire: \"She's right -- those curtains give...\"",
+              "articyId": "0x0100002F00002BE4",
+              "text": "She's right -- those curtains give off some *eerie vibes*. Better not mess with it.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

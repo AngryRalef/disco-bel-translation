@@ -1,0 +1,285 @@
+{
+  "id": "0x010000580000AB96",
+  "title": "YARD / HANGED MAN BOOTS",
+  "description": "If Kim is not there, you can take off the boots once the body is down.",
+  "dialogueTree": [
+    {
+      "id": 17,
+      "title": "Kim Kitsuragi: \"\"I thought we decided to leave it t...\"",
+      "articyId": "0x010000580000AC41",
+      "text": "\"I thought we decided to leave it to Processing.\" The lieutenant shakes his head. \"Let's not turn this into some kind of circus.\"",
+      "links": [
+        {
+          "id": 52,
+          "title": "Interfacing: \"Damn it, this is turning into some...\"",
+          "articyId": "0x0100000600009350",
+          "text": "Damn it, this is turning into some sort of mega-puzzle.",
+          "links": [
+            {
+              "id": 41,
+              "title": "Logic: \"Okay, so you can *sneak* out of you...\"",
+              "articyId": "0x0100000600009357",
+              "text": "Okay, so you can *sneak* out of your room maybe, after he's gone asleep...",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "The Hanged Man: \"The body is reluctant to let go of...\"",
+      "articyId": "0x010000580000AC52",
+      "text": "The body is reluctant to let go of the boots -- as though they were its last bit of dignity.",
+      "links": [
+        {
+          "id": 65,
+          "title": "Physical Instrument: \"You're going to need to summon all...\"",
+          "articyId": "0x010000580000AC88",
+          "text": "You're going to need to summon all your strength for this undertaking.",
+          "links": [
+            {
+              "id": 3,
+              "title": "Ice Bear Fridge: \"Whatever you're planning to do, you...\"",
+              "articyId": "0x010000580000AD01",
+              "text": "Whatever you're planning to do, you need to do it before you catch pneumonia in the cold draft coming from deep inside the fridge.",
+              "links": [
+                {
+                  "id": 40,
+                  "title": "You: \"Pull on the right boot.\"",
+                  "articyId": "0x010000580000AC58",
+                  "text": "Pull on the right boot.",
+                  "links": [
+                    {
+                      "id": 53,
+                      "title": "The Hanged Man: \"It's not completely useless. You're...\"",
+                      "articyId": "0x010000580000AC70",
+                      "text": "It's not completely useless. You're able to reveal a little more of the putrid polymer sock beneath the boot.",
+                      "links": [
+                        {
+                          "id": 57,
+                          "title": "Interfacing: \"Just relax. This is easy. This is *...\"",
+                          "articyId": "0x010000060001A2E2",
+                          "text": "Just relax. This is easy. This is *happening*.",
+                          "links": [
+                            {
+                              "id": 32,
+                              "title": "Empathy: \"See? The corpse doesn't care if you...\"",
+                              "articyId": "0x010000060001A3F4",
+                              "text": "See? The corpse doesn't care if you try to take his boots. He doesn't need them. He's probably *glad* to get rid of them.",
+                              "links": [
+                                {
+                                  "id": 36,
+                                  "title": "You: \"Pick up the body and try to shake t...\"",
+                                  "articyId": "0x010000580000AC76",
+                                  "text": "Pick up the body and try to shake the boots off.",
+                                  "links": [
+                                    {
+                                      "id": 11,
+                                      "title": "The Hanged Man: \"It's heavier than you'd think. You'...\"",
+                                      "articyId": "0x010000580000AC8F",
+                                      "text": "It's heavier than you'd think. You're forced to drop it back down immediately. The corpse lands on the ground with a nauseating thud, looking even sadder than before.",
+                                      "links": [
+                                        {
+                                          "id": 21,
+                                          "title": "Physical Instrument: \"Damn, you're out of shape... In you...\"",
+                                          "articyId": "0x010000060001A2EA",
+                                          "text": "Damn, you're out of shape... In your defence, the corpse *was* quite slippery.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 28,
+                                  "title": "You: \"Step on the corpse as you pull on t...\"",
+                                  "articyId": "0x010000580000AC82",
+                                  "text": "Step on the corpse as you pull on the boots.",
+                                  "links": [
+                                    {
+                                      "id": 4,
+                                      "title": "The Hanged Man: \"Something cracks in the left leg --...\"",
+                                      "articyId": "0x010000580000AC9B",
+                                      "text": "Something cracks in the left leg -- it really is about to come off. The leg, I mean. Not the boot.",
+                                      "links": [
+                                        {
+                                          "id": 38,
+                                          "title": "Visual Calculus: \"You may want to slow down. Don't te...\"",
+                                          "articyId": "0x010000060001A2F2",
+                                          "text": "You may want to slow down. Don't tear into it like that.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 64,
+                                  "title": "You: \"Adjust his seating position first.\"",
+                                  "articyId": "0x010000060001A8C6",
+                                  "text": "Adjust his seating position first.",
+                                  "links": [
+                                    {
+                                      "id": 70,
+                                      "title": "The Hanged Man: \"He's too heavy to move by yourself...\"",
+                                      "articyId": "0x010000060001A8CD",
+                                      "text": "He's too heavy to move by yourself -- a great mass of dead muscles, with hoarfrost covering his milky eyes.",
+                                      "links": [
+                                        {
+                                          "id": 49,
+                                          "title": "Inland Empire: \"Is that an accusatory glance he gav...\"",
+                                          "articyId": "0x010000060001A8D3",
+                                          "text": "Is that an accusatory glance he gave you? No... no, he's cool.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 54,
+                                  "title": "You: \"Try to twist the boots off one by o...\"",
+                                  "articyId": "0x010000580000AC7C",
+                                  "text": "Try to twist the boots off one by one.",
+                                  "links": [
+                                    {
+                                      "id": 68,
+                                      "title": "The Hanged Man: \"This is the right method. It takes...\"",
+                                      "articyId": "0x010000580000AC95",
+                                      "text": "This is the right method. It takes some time, but eventually the boots come off -- with nasty slices of polymer sock stuck to even bigger pieces of skin and rotting flesh.",
+                                      "links": [
+                                        {
+                                          "id": 19,
+                                          "title": "You: \"Take stock of the damage.\"",
+                                          "articyId": "0x010000580000ACA1",
+                                          "text": "Take stock of the damage.",
+                                          "links": [
+                                            {
+                                              "id": 37,
+                                              "title": "The Hanged Man: \"Not good. Let's pin this on the bea...\"",
+                                              "articyId": "0x010000580000AD2E",
+                                              "text": "Not good. Let's pin this on the bear -- the ice bear tore up his legs with its claws. As for the boots -- you can't possibly do anything with them until you have cleaned and *disinfected* them thoroughly.",
+                                              "links": [
+                                                {
+                                                  "id": 67,
+                                                  "title": "Perception (Smell): \"Yes. These absolutely need to be wa...\"",
+                                                  "articyId": "0x010000060001A2FA",
+                                                  "text": "Yes. These absolutely need to be washed before. The stink is incredible.",
+                                                  "links": [
+                                                    {
+                                                      "id": 62,
+                                                      "title": "Reaction Speed: \"Didn't the Whirling have a kitchen?\"",
+                                                      "articyId": "0x010000060001A30A",
+                                                      "text": "Didn't the Whirling have a kitchen?",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 71,
+                                              "title": "The Hanged Man: \"The legs look like they've been cla...\"",
+                                              "articyId": "0x010000580000ACA9",
+                                              "text": "The legs look like they've been clawed at by wild animals. As for the boots -- you can't possibly do anything with them until you have cleaned and *disinfected* them thoroughly.",
+                                              "links": [
+                                                {
+                                                  "id": 26,
+                                                  "title": "Perception (Smell): \"Yes. These absolutely need to be wa...\"",
+                                                  "articyId": "0x010000060001A300",
+                                                  "text": "Yes. These absolutely need to be washed before. The stink is incredible.",
+                                                  "links": [
+                                                    {
+                                                      "id": 45,
+                                                      "title": "Reaction Speed: \"Didn't the Whirling have a kitchen?\"",
+                                                      "articyId": "0x010000060001A312",
+                                                      "text": "Didn't the Whirling have a kitchen?",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 5,
+                                          "title": "Cunoesse: \"\"Look -- he's skinning the fucker u...\"",
+                                          "articyId": "0x010000580000AD11",
+                                          "text": "\"Look -- he's skinning the fucker up good. *Puukko* style.\"",
+                                          "links": [
+                                            {
+                                              "id": 63,
+                                              "title": "Cuno: \"\"Hell. Keep at it, pig!\"\"",
+                                              "articyId": "0x010000580000AD37",
+                                              "text": "\"Hell. Keep at it, pig!\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 66,
+                  "title": "You: \"Pull on the left boot.\"",
+                  "articyId": "0x010000580000ACB3",
+                  "text": "Pull on the left boot.",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "The Hanged Man: \"It feels like the leg is going to c...\"",
+                      "articyId": "0x010000580000ACBA",
+                      "text": "It feels like the leg is going to come off along with the boot, but you are able to get the boot to move a centimetre or two.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "title": "Cuno: \"\"Whoah. Cuno's little *sneak-pig's*...\"",
+              "articyId": "0x010000580000AD08",
+              "text": "\"Whoah. Cuno's little *sneak-pig's* back for the booty... \"",
+              "links": [
+                {
+                  "id": 56,
+                  "title": "Cunoesse: \"\"Yeah, fuck it to pieces for us. Li...\"",
+                  "articyId": "0x010000060000935F",
+                  "text": "\"Yeah, fuck it to pieces for us. Liar cop!\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Hanged Man: \"Before you can grab hold of the boo...\"",
+      "articyId": "0x0100002D000003E4",
+      "text": "Before you can grab hold of the boot, you hear a voice coming out of the dead man's mouth. It's the voice of Lieutenant Kim Kitsuragi, telling you to stop whatever you're doing.",
+      "links": [
+        {
+          "id": 58,
+          "title": "The Hanged Man: \"You're sabotaging the crime scene,...\"",
+          "articyId": "0x0100002D000003EB",
+          "text": "You're sabotaging the crime scene, and yet you haven't even finished the field autopsy. Come back later when you're done with the investigation.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

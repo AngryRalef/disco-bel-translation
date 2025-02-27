@@ -1,0 +1,153 @@
+{
+  "id": "0x0100002B00029F08",
+  "title": "FRITTE / TARE MACHINE",
+  "description": "Right next to the glass-doored fridge.",
+  "dialogueTree": [
+    {
+      "id": 23,
+      "title": "Tare Machine: \"The tare machine stands in the corn...\"",
+      "articyId": "0x0100002B00029F1A",
+      "text": "The tare machine stands in the corner. A sign says: \"ONE BOTTLE = TEN CENTS\".",
+      "links": [
+        {
+          "id": 7,
+          "title": "You: \"\"What is this machine?\"\"",
+          "articyId": "0x0100008F00003324",
+          "text": "\"What is this machine?\"",
+          "links": [
+            {
+              "id": 12,
+              "title": "Frittte clerk: \"\"Hm?\" The clerk looks up, out of he...\"",
+              "articyId": "0x0100008F0000332A",
+              "text": "\"Hm?\" The clerk looks up, out of her magazine. \"Oh. That's the tare machine.\"",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "You: \"\"Yes, but what *is* it?\"\"",
+                  "articyId": "0x0100008F00003331",
+                  "text": "\"Yes, but what *is* it?\"",
+                  "links": [
+                    {
+                      "id": 17,
+                      "title": "Frittte clerk: \"She knits her brow, confused. \"It's...\"",
+                      "articyId": "0x0100008F0000333F",
+                      "text": "She knits her brow, confused. \"It's... a machine for tare? You know. You find tare outside -- like, bottles or whatever -- and put it in the machine. Then it gives you money.\"",
+                      "links": [
+                        {
+                          "id": 13,
+                          "title": "Savoir Faire: \"Cool. Let's do this swindle. This *...\"",
+                          "articyId": "0x010000060001F61F",
+                          "text": "Cool. Let's do this swindle. This *tare* swindle.",
+                          "links": [
+                            {
+                              "id": 2,
+                              "title": "You: \"\"I see. And how do I pick up tare f...\"",
+                              "articyId": "0x0100008F00003352",
+                              "text": "\"I see. And how do I pick up tare for the tare machine?\"",
+                              "links": [
+                                {
+                                  "id": 8,
+                                  "title": "Frittte clerk: \"\"You need a bag I guess? We used to...\"",
+                                  "articyId": "0x0100008F00003359",
+                                  "text": "\"You need a bag I guess? We used to have some but we gave them all out, so...\" She shrugs awkwardly.",
+                                  "links": [
+                                    {
+                                      "id": 9,
+                                      "title": "Frittte clerk: \"\"Feel free to use it if you find a...\"",
+                                      "articyId": "0x0100008F00003360",
+                                      "text": "\"Feel free to use it if you find a bag, though. I'm sure there are some... out there.\" She points outside. \"Somewhere...\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 14,
+                  "title": "You: \"\"I understand now. Thank you.\"\"",
+                  "articyId": "0x0100008F00003337",
+                  "text": "\"I understand now. Thank you.\"",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Frittte clerk: \"\"Mh.\" She looks down, back into her...\"",
+                      "articyId": "0x0100008F00003345",
+                      "text": "\"Mh.\" She looks down, back into her magazine.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"\"Excuse me -- I have the tare bag b...\"",
+          "articyId": "0x0100008F0000336A",
+          "text": "\"Excuse me -- I have the tare bag but no tare. Can I still use the tare machine?\"",
+          "links": [
+            {
+              "id": 4,
+              "title": "Frittte clerk: \"\"No.\" She doesn't even bother looki...\"",
+              "articyId": "0x0100008F00003370",
+              "text": "\"No.\" She doesn't even bother looking up out of her magazine. \"You need tare to use the tare machine.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "You: \"Insert your bottles.\"",
+          "articyId": "0x0100002B00029F2A",
+          "text": "Insert your bottles.",
+          "links": [
+            {
+              "id": 16,
+              "title": "Tare Machine: \"Your bottles clunk into the machine...\"",
+              "articyId": "0x010000030000043E",
+              "text": "Your bottles clunk into the machine and the money appears with a satisfying jingle. You're a richer man now!",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "Inland Empire: \"You're 100% sure you got special Ho...\"",
+                  "articyId": "0x010000060001D49D",
+                  "text": "You're 100% sure you got special Hobocop money for that tare. At least +100% extra tare money. If the numbers on the machine told you otherwise, it's a *lie*.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "title": "Tare Machine: \"Your bottles clunk into the machine...\"",
+              "articyId": "0x0100002B00029F3D",
+              "text": "Your bottles clunk into the machine and the money appears with a satisfying jingle. You're a richer man now!",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Electrochemistry: \"D'you know what you should do with...\"",
+                  "articyId": "0x0100002B00036EBE",
+                  "text": "D'you know what you should do with that money, kiddo? You should *buy more alcohol*! Enter the endless cycle of consumption!",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002B00029F30",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

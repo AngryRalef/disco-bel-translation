@@ -1,0 +1,227 @@
+{
+  "id": "0x0100002B00086764",
+  "title": "FRITTE / APOTHECARY",
+  "description": "A small cabinet on the wall, right next to the posters.",
+  "dialogueTree": [
+    {
+      "id": 35,
+      "title": "Saint-Batiste Pharmaceutics: \"A small cabinet on the wall is fill...\"",
+      "articyId": "0x010000060001A6D8",
+      "text": "A small cabinet on the wall is filled with various medicine bottles, nasal sprays and blister packs. They all bear the Saint-Batiste Pharmaceutics logo.",
+      "links": [
+        {
+          "id": 29,
+          "title": "You: \"\"What do those products do?\"\"",
+          "articyId": "0x0100005700022F42",
+          "text": "\"What do those products do?\"",
+          "links": [
+            {
+              "id": 4,
+              "title": "Frittte clerk: \"\"Uhm... I don't know, let's see......\"",
+              "articyId": "0x0100005700022F48",
+              "text": "\"Uhm... I don't know, let's see... Nosaphed is a nasal spray. Drouamine is a really good painkiller. Magnesium is a dietary supplement. Hypnogamma is...\" She stops.",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "Frittte clerk: \"\"I don't really know what Hypnogamm...\"",
+                  "articyId": "0x0100005700022F5F",
+                  "text": "\"I don't really know what Hypnogamma is. I guess it makes you feel less shit? It's recommended to use after lots of partying, studying, or exercising.\"",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "You: \"\"Can you be a little more... specif...\"",
+                      "articyId": "0x0100008F0000307D",
+                      "text": "\"Can you be a little more... specific?\"",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Frittte clerk: \"\"Uhm...\" She chews her bubblegum ab...\"",
+                          "articyId": "0x0100008F0000308B",
+                          "text": "\"Uhm...\" She chews her bubblegum absent-mindedly. \"No, sorry. I'm not, like, a doctor or anything.\"",
+                          "links": [
+                            {
+                              "id": 30,
+                              "title": "Tutorial Agent: \"NOSAPHED heals +1 Health. DROUAMINE...\"",
+                              "articyId": "0x0100000600018421",
+                              "text": "NOSAPHED heals +1 Health. DROUAMINE heals +3 Health. MAGNESIUM heals +1 Morale. HYPNOGAMMA heals +3 Morale.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 39,
+                      "title": "You: \"\"Thank you for explaining, miss.\"\"",
+                      "articyId": "0x0100008F00003083",
+                      "text": "\"Thank you for explaining, miss.\"",
+                      "links": [
+                        {
+                          "id": 31,
+                          "title": "Frittte clerk: \"Her nose is already back in her mag...\"",
+                          "articyId": "0x0100008F00003126",
+                          "text": "Her nose is already back in her magazine. \"Uh-huh.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "You: \"\"Who is Saint-Batiste?\"\"",
+          "articyId": "0x0100008F0000313F",
+          "text": "\"Who is Saint-Batiste?\"",
+          "links": [
+            {
+              "id": 36,
+              "title": "Frittte clerk: \"\"Saint-Batiste? You know...\" She no...\"",
+              "articyId": "0x0100008F00003146",
+              "text": "\"Saint-Batiste? You know...\" She nods slowly at the cabinet. \"The pharmaceuticals company?\"",
+              "links": [
+                {
+                  "id": 40,
+                  "title": "Frittte clerk: \"\"Saint-Batiste Pharmaceuticals? The...\"",
+                  "articyId": "0x0100008F00003165",
+                  "text": "\"Saint-Batiste Pharmaceuticals? The one that sells meds out of Saint-Batiste?\" She points to the cabinet. \"That one? There?\"",
+                  "links": [
+                    {
+                      "id": 7,
+                      "title": "Encyclopedia: \"She is right! Saint-Batiste the com...\"",
+                      "articyId": "0x0100008F0000316B",
+                      "text": "She is right! Saint-Batiste the company derives its name from Saint-Batiste the city, itself so named... because that's what it is. A rare case where that really is the full etymological history -- as far as almost anyone knows, at least.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "You: \"\"Do you have any ammonia?\"\"",
+          "articyId": "0x0100008900000003",
+          "text": "\"Do you have any ammonia?\"",
+          "links": [
+            {
+              "id": 41,
+              "title": "Frittte clerk: \"\"Yeah... there's like an ampoule so...\"",
+              "articyId": "0x010000890000000A",
+              "text": "\"Yeah... there's like an ampoule somewhere.\" She waves her hand in the air absent-mindedly.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "You: \"\"I want to buy some ammonia.\"\"",
+          "articyId": "0x0100002B00086DD9",
+          "text": "\"I want to buy some ammonia.\"",
+          "links": [
+            {
+              "id": 25,
+              "title": "Frittte clerk: \"\"M'kay.\" She hands you a small caps...\"",
+              "articyId": "0x0100006B0000AE4E",
+              "text": "\"M'kay.\" She hands you a small capsule. \"Don't, like... over-do it or something.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "You: \"\"Can I have Nosaphed?\"\"",
+          "articyId": "0x0100005700022F65",
+          "text": "\"Can I have Nosaphed?\"",
+          "links": [
+            {
+              "id": 17,
+              "title": "Frittte clerk: \"\"Mkay, here. I hope Saint-Batiste m...\"",
+              "articyId": "0x0100002B00086DEE",
+              "text": "\"Mkay, here. I hope Saint-Batiste makes you feel better or something.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "title": "You: \"\"I need Drouamine.\"\"",
+          "articyId": "0x0100002B00086DE6",
+          "text": "\"I need Drouamine.\"",
+          "links": [
+            {
+              "id": 27,
+              "title": "Frittte clerk: \"\"Mkay, here. I hope Saint-Batiste m...\"",
+              "articyId": "0x0100000500002971",
+              "text": "\"Mkay, here. I hope Saint-Batiste makes you feel better or something.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"\"A bottle of magnesium, please.\"\"",
+          "articyId": "0x0100002B00086DE0",
+          "text": "\"A bottle of magnesium, please.\"",
+          "links": [
+            {
+              "id": 33,
+              "title": "Frittte clerk: \"\"Mkay, here. I hope Saint-Batiste m...\"",
+              "articyId": "0x0100000500002977",
+              "text": "\"Mkay, here. I hope Saint-Batiste makes you feel better or something.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "You: \"\"I'll take some Hypnogamma.\"\"",
+          "articyId": "0x0100002B00086E2C",
+          "text": "\"I'll take some Hypnogamma.\"",
+          "links": [
+            {
+              "id": 34,
+              "title": "Frittte clerk: \"\"Mkay, here. I hope Saint-Batiste m...\"",
+              "articyId": "0x010000050000297D",
+              "text": "\"Mkay, here. I hope Saint-Batiste makes you feel better or something.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002B00086A16",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Saint-Batiste Pharmaceutics: \"A small cabinet on the wall is fill...\"",
+      "articyId": "0x0100002B000869F2",
+      "text": "A small cabinet on the wall is filled with various medicine bottles, nasal sprays and blister packs. They all bear the Saint-Batiste Pharmaceutics logo.",
+      "links": [
+        {
+          "id": 28,
+          "title": "Frittte clerk: \"\"Uhm, just ask me if you need anyth...\"",
+          "articyId": "0x0100005700022E25",
+          "text": "\"Uhm, just ask me if you need anything from Saint-Batiste. We don't stock prescription meds, but we do have nosaphed, drouamine, magnesium and hypnogamma.\"",
+          "links": []
+        },
+        {
+          "id": 32,
+          "title": "Encyclopedia: \"Their logo is the bloodless rose --...\"",
+          "articyId": "0x010000040001501A",
+          "text": "Their logo is the bloodless rose -- pure white, untouched by harm.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

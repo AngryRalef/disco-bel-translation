@@ -1,0 +1,912 @@
+{
+  "id": "0x010000450001C843",
+  "title": "SEAFORT INT / FELD INSULAR CONSOLE",
+  "description": "old electronic console – turn on lights and open blast door if fuel in generator",
+  "dialogueTree": [
+    {
+      "id": 85,
+      "title": "Feld \"Insular\" Console: \"A dim golden glow animates the cons...\"",
+      "articyId": "0x010000450001D003",
+      "text": "A dim golden glow animates the console. Faint, like a ghost-light. 'Urgence -- Ouvert!' reads one dial key. 'Allumer', reads another.",
+      "links": [
+        {
+          "id": 119,
+          "title": "Kim Kitsuragi: \"\"It's on...\" He smiles. \"Turn: Emer...\"",
+          "articyId": "0x010000450001D010",
+          "text": "\"It's on...\" He smiles. \"Turn: Emergency -- Open!\"",
+          "links": [
+            {
+              "id": 62,
+              "title": "Interfacing: \"Automatic boot.\"",
+              "articyId": "0x010000450001D983",
+              "text": "Automatic boot.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "title": "Cuno: \"\"Aw shit, it's on...\" He grins. \"Tu...\"",
+          "articyId": "0x010000060000E975",
+          "text": "\"Aw shit, it's on...\" He grins. \"Turn: Emergency -- Open!\"",
+          "links": []
+        },
+        {
+          "id": 205,
+          "title": "Interfacing: \"It's on! Automatic boot. Now, just...\"",
+          "articyId": "0x010000060000E97C",
+          "text": "It's on! Automatic boot. Now, just turn the key...",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "title": "Feld \"Insular\" Console: \"The console is powered off and cove...\"",
+      "articyId": "0x010000450001CFEC",
+      "text": "The console is powered off and covered in dust. 'Urgence -- Ouvert!' reads a dial key. 'Allumer', reads another. The frequency band says: 'Radiodiffusé'.",
+      "links": [
+        {
+          "id": 118,
+          "title": "You: \"Could this console open the blast d...\"",
+          "articyId": "0x010000450001CFA1",
+          "text": "Could this console open the blast door?",
+          "links": [
+            {
+              "id": 72,
+              "title": "Kim Kitsuragi: \"\"I think yes. Let's see...\" He poin...\"",
+              "articyId": "0x010000450001D992",
+              "text": "\"I think yes. Let's see...\" He points to the emergency dial switch. \"That one. The emergency open...\"",
+              "links": []
+            },
+            {
+              "id": 226,
+              "title": "Cuno: \"\"Try fucking with that one. It's re...\"",
+              "articyId": "0x0100006B0000182D",
+              "text": "\"Try fucking with that one. It's red.\" He points to the emergency dial switch. It is large and alarmingly red.",
+              "links": []
+            },
+            {
+              "id": 153,
+              "title": "Kim Kitsuragi: \"\"Possibly...\" He inspects the dials...\"",
+              "articyId": "0x010000450001CFBD",
+              "text": "\"Possibly...\" He inspects the dials. \"'Urgence -- Ouvert!', 'Allumer', 'Radiodiffusé'. It sounds like this device was used to control the electronics here. Maybe it still does?\"",
+              "links": []
+            },
+            {
+              "id": 246,
+              "title": "Cuno: \"\"Cuno isn't a machine-meister.\" He...\"",
+              "articyId": "0x0100006B0000183A",
+              "text": "\"Cuno isn't a machine-meister.\" He stares at the dials. \"'Urgence -- Ouvert!', 'Allumer', 'Radiodiffusé'.... Yeah, why the fuck not?\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "You: \"What does it... *do*?\"",
+          "articyId": "0x010000450001CF93",
+          "text": "What does it... *do*?",
+          "links": [
+            {
+              "id": 69,
+              "title": "Kim Kitsuragi: \"\"'Urgence -- Ouvert!', 'Allumer', '...\"",
+              "articyId": "0x010000450001CFAE",
+              "text": "\"'Urgence -- Ouvert!', 'Allumer', 'Radiodiffusé'.\" He inspects the dials. \"Sounds like this device was used to control the electronics here. Maybe it still does?\"",
+              "links": [
+                {
+                  "id": 71,
+                  "title": "Interfacing: \"This device was used to control the...\"",
+                  "articyId": "0x010000450001D1FF",
+                  "text": "This device was used to control the electronics in the room. It could open doors, control lights, function as a radiocomputer...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 116,
+              "title": "Cuno: \"\"The fuck is this....\" He stares at...\"",
+              "articyId": "0x0100006B00001840",
+              "text": "\"The fuck is this....\" He stares at the dials: \"'Urgence -- Ouvert!', 'Allumer', 'Radiodiffusé'. Maybe, like, press the buttons or something.\"",
+              "links": []
+            },
+            {
+              "id": 96,
+              "title": "Feld \"Insular\" Console: \"'Urgence -- Ouvert!' reads one dial...\"",
+              "articyId": "0x010000450001CFDB",
+              "text": "'Urgence -- Ouvert!' reads one dial key. 'Allumer', reads another. 'Radiodiffusé', says the frequency band.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 274,
+          "title": "You: \"Turn: 'Emergency -- Open!'\"",
+          "articyId": "0x010000450001CF78",
+          "text": "Turn: 'Emergency -- Open!'",
+          "links": [
+            {
+              "id": 90,
+              "title": "Feld \"Insular\" Console: \"With the door open, the dial switch...\"",
+              "articyId": "0x010000450001D28C",
+              "text": "With the door open, the dial switch has locked into place -- a security measure of some sort.",
+              "links": []
+            },
+            {
+              "id": 200,
+              "title": "Small Blast Door: \"The blast door opens with a series...\"",
+              "articyId": "0x010000450001DB59",
+              "text": "The blast door opens with a series of clicks. A shaft of light appears, then widens, as the light shines in.",
+              "links": [
+                {
+                  "id": 141,
+                  "title": "Perception (Sight): \"Pollen drifts in the light shaft.\"",
+                  "articyId": "0x010000450001DAB8",
+                  "text": "Pollen drifts in the light shaft.",
+                  "links": []
+                },
+                {
+                  "id": 39,
+                  "title": "Half Light: \"A sudden wave of anxiety makes your...\"",
+                  "articyId": "0x010000450001DAAF",
+                  "text": "A sudden wave of anxiety makes your skin crawl.",
+                  "links": [
+                    {
+                      "id": 147,
+                      "title": "Shivers: \"No, it's more than that. There's so...\"",
+                      "articyId": "0x010000450001DB89",
+                      "text": "No, it's more than that. There's something there, waiting.",
+                      "links": []
+                    },
+                    {
+                      "id": 264,
+                      "title": "Kim Kitsuragi: \"\"After you.\" The lieutenant gesture...\"",
+                      "articyId": "0x010000450001D9AB",
+                      "text": "\"After you.\" The lieutenant gestures at the opening.",
+                      "links": [
+                        {
+                          "id": 241,
+                          "title": "You: \"\"Before -- outside. When we were wa...\"",
+                          "articyId": "0x010000450001DA72",
+                          "text": "\"Before -- outside. When we were walking across the sand, I felt someone watching me.\"",
+                          "links": [
+                            {
+                              "id": 46,
+                              "title": "Kim Kitsuragi: \"\"So did I. Not back there, but... I...\"",
+                              "articyId": "0x010000450001DA85",
+                              "text": "\"So did I. Not back there, but... I've felt it since we came here.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "title": "You: \"\"What's there?\" (Point to the door....\"",
+                          "articyId": "0x010000450001DA78",
+                          "text": "\"What's there?\" (Point to the door.)",
+                          "links": [
+                            {
+                              "id": 17,
+                              "title": "Kim Kitsuragi: \"\"I don't know.\"\"",
+                              "articyId": "0x010000450001DA9A",
+                              "text": "\"I don't know.\"",
+                              "links": [
+                                {
+                                  "id": 95,
+                                  "title": "Shivers: \"A thin wisp of smoke rises from a c...\"",
+                                  "articyId": "0x010000060001F088",
+                                  "text": "A thin wisp of smoke rises from a charred black firepit... the wind picks up, then dies down again.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "title": "You: \"\"I'm scared.\"\"",
+                          "articyId": "0x010000450001DAA2",
+                          "text": "\"I'm scared.\"",
+                          "links": [
+                            {
+                              "id": 38,
+                              "title": "Kim Kitsuragi: \"\"Don't be. I have a gun.\" He takes...\"",
+                              "articyId": "0x010000450001DAA8",
+                              "text": "\"Don't be. I have a gun.\" He takes out his sidearm, checks the barrel, then holsters it again.",
+                              "links": [
+                                {
+                                  "id": 215,
+                                  "title": "Hand/Eye Coordination: \"Harry, this reminds you -- you're o...\"",
+                                  "articyId": "0x010000450001DB28",
+                                  "text": "Harry, this reminds you -- you're out of bullets.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 170,
+                          "title": "You: \"\"What if we get into another fight?\"\"",
+                          "articyId": "0x010000450001DB9D",
+                          "text": "\"What if we get into another fight?\"",
+                          "links": [
+                            {
+                              "id": 278,
+                              "title": "Kim Kitsuragi: \"\"Don't worry. I have a gun.\" He tak...\"",
+                              "articyId": "0x010000450001DBA4",
+                              "text": "\"Don't worry. I have a gun.\" He takes out his sidearm, checks the barrel, then holsters it again.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 143,
+                          "title": "You: \"\"I also have a gun.\"\"",
+                          "articyId": "0x010000450001DB03",
+                          "text": "\"I also have a gun.\"",
+                          "links": [
+                            {
+                              "id": 145,
+                              "title": "Kim Kitsuragi: \"\"I know. It was not easy to acquire.\"\"",
+                              "articyId": "0x010000450001DB18",
+                              "text": "\"I know. It was not easy to acquire.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 242,
+                          "title": "You: \"\"My gun is out of bullets, by the w...\"",
+                          "articyId": "0x010000450001DB09",
+                          "text": "\"My gun is out of bullets, by the way.\"",
+                          "links": [
+                            {
+                              "id": 144,
+                              "title": "Kim Kitsuragi: \"\"Then it's extra good that mine is...\"",
+                              "articyId": "0x010000450001DB11",
+                              "text": "\"Then it's extra good that mine is not.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 142,
+                          "title": "You: \"\"I don't have a gun.\"\"",
+                          "articyId": "0x010000450001DAED",
+                          "text": "\"I don't have a gun.\"",
+                          "links": [
+                            {
+                              "id": 6,
+                              "title": "Kim Kitsuragi: \"\"Extra good that I do.\"\"",
+                              "articyId": "0x010000450001DAF4",
+                              "text": "\"Extra good that I do.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 73,
+                          "title": "You: \"\"Let's go.\" [Leave.]\"",
+                          "articyId": "0x010000450001DA7E",
+                          "text": "\"Let's go.\" [Leave.]",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 271,
+              "title": "Small Blast Door: \"The door comes screeching to a halt...\"",
+              "articyId": "0x0100008900001553",
+              "text": "The door comes screeching to a halt. Behind it you see a hole in the concrete wall, where light shines in.",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "Perception (Sight): \"Pollen drifts in the light shaft.\"",
+                  "articyId": "0x010000890000289D",
+                  "text": "Pollen drifts in the light shaft.",
+                  "links": []
+                },
+                {
+                  "id": 104,
+                  "title": "Half Light: \"A sudden wave of anxiety makes your...\"",
+                  "articyId": "0x01000089000028A3",
+                  "text": "A sudden wave of anxiety makes your skin crawl.",
+                  "links": [
+                    {
+                      "id": 117,
+                      "title": "Shivers: \"No, it's more than that. There's so...\"",
+                      "articyId": "0x01000089000028AE",
+                      "text": "No, it's more than that. There's something there, waiting.",
+                      "links": []
+                    },
+                    {
+                      "id": 201,
+                      "title": "Cuno: \"\"Fuckin' right!\" Cuno points to the...\"",
+                      "articyId": "0x0100006B00001846",
+                      "text": "\"Fuckin' right!\" Cuno points to the opening.",
+                      "links": [
+                        {
+                          "id": 227,
+                          "title": "You: \"\"Before -- outside. When we were wa...\"",
+                          "articyId": "0x01000089000028F0",
+                          "text": "\"Before -- outside. When we were walking across the sand, I felt someone watching me.\"",
+                          "links": [
+                            {
+                              "id": 106,
+                              "title": "Cuno: \"\"Cuno knows. This place is spooky a...\"",
+                              "articyId": "0x01000089000028FC",
+                              "text": "\"Cuno knows. This place is spooky as fuck.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 216,
+                          "title": "You: \"\"What's there?\"\"",
+                          "articyId": "0x01000089000028EA",
+                          "text": "\"What's there?\"",
+                          "links": [
+                            {
+                              "id": 19,
+                              "title": "Cuno: \"\"Cuno doesn't know, but Cuno wants...\"",
+                              "articyId": "0x01000089000028F6",
+                              "text": "\"Cuno doesn't know, but Cuno wants to know.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 247,
+                          "title": "You: \"\"Don't worry kid. I'm a good guy wi...\"",
+                          "articyId": "0x0100000400014B29",
+                          "text": "\"Don't worry kid. I'm a good guy with a gun.\"",
+                          "links": [
+                            {
+                              "id": 131,
+                              "title": "Cuno: \"\"Are you?\" He squints at you -- squ...\"",
+                              "articyId": "0x0100000400014B23",
+                              "text": "\"Are you?\" He squints at you -- squints into your soul. \"*Are you?*\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 130,
+                          "title": "You: \"\"Don't worry, I've got a gun. No bu...\"",
+                          "articyId": "0x0100000400014B17",
+                          "text": "\"Don't worry, I've got a gun. No bullets, but I have a gun.\"",
+                          "links": [
+                            {
+                              "id": 176,
+                              "title": "Cuno: \"\"Fucking great news, cop. Scare awa...\"",
+                              "articyId": "0x0100000400014B2F",
+                              "text": "\"Fucking great news, cop. Scare away whatever shit out there's gonna spook on us with an *empty fucking gun*.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 20,
+                          "title": "You: \"\"Don't worry, kid. I'm a cop. Maybe...\"",
+                          "articyId": "0x0100000400014B1D",
+                          "text": "\"Don't worry, kid. I'm a cop. Maybe I don't have a gun, but I'm a cop.\"",
+                          "links": [
+                            {
+                              "id": 82,
+                              "title": "Cuno: \"\"Fucking great. Spooky island shit...\"",
+                              "articyId": "0x0100000400014B11",
+                              "text": "\"Fucking great. Spooky island shit is gonna shit on us and we can't even *shoot* it.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 53,
+                          "title": "You: \"\"Let's go.\" [Leave.]\"",
+                          "articyId": "0x01000089000028C1",
+                          "text": "\"Let's go.\" [Leave.]",
+                          "links": []
+                        },
+                        {
+                          "id": 282,
+                          "title": "You: \"\"There was something I needed to do...\"",
+                          "articyId": "0x01000089000028C7",
+                          "text": "\"There was something I needed to do with this console first...\"",
+                          "links": [
+                            {
+                              "id": 81,
+                              "title": "Cuno: \"\"Why? The door is open -- we can ju...\"",
+                              "articyId": "0x01000089000028CD",
+                              "text": "\"Why? The door is open -- we can just fuck on now.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 146,
+              "title": "Small Blast Door: \"The door comes screeching to a halt...\"",
+              "articyId": "0x010000450001DB70",
+              "text": "The door comes screeching to a halt. Behind it you see a hole in the concrete wall, where light shines in.",
+              "links": [
+                {
+                  "id": 34,
+                  "title": "Perception (Sight): \"Pollen drifts in the light shaft.\"",
+                  "articyId": "0x010000450001DB4E",
+                  "text": "Pollen drifts in the light shaft.",
+                  "links": [
+                    {
+                      "id": 40,
+                      "title": "Half Light: \"A sudden anxious fear makes your sk...\"",
+                      "articyId": "0x010000450001DB48",
+                      "text": "A sudden anxious fear makes your skin crawl.",
+                      "links": [
+                        {
+                          "id": 148,
+                          "title": "Shivers: \"No, it's more than that. There's so...\"",
+                          "articyId": "0x010000450001DB91",
+                          "text": "No, it's more than that. There's something there, waiting.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "title": "Kim Kitsuragi: \"\"Electrical devices do not work wit...\"",
+              "articyId": "0x010000450001D051",
+              "text": "\"Electrical devices do not work without electricity.\" The lieutenant looks on as you fiddle with the dial. \"We need to power the generator upstairs first.\"",
+              "links": []
+            },
+            {
+              "id": 86,
+              "title": "Cuno: \"\"No, no, no...\" He stares at you as...\"",
+              "articyId": "0x010000450001D06E",
+              "text": "\"No, no, no...\" He stares at you as you fiddle with the dial. \"We gotta juice this thing first. Power it up! Pow-pow-power it up, get it?\"",
+              "links": []
+            },
+            {
+              "id": 133,
+              "title": "Feld \"Insular\" Console: \"Nothing happens as you turn the dia...\"",
+              "articyId": "0x010000450001D075",
+              "text": "Nothing happens as you turn the dial. The power is off, the console stands silent.",
+              "links": []
+            },
+            {
+              "id": 132,
+              "title": "Kim Kitsuragi: \"Nothing happens. \"We need to restor...\"",
+              "articyId": "0x010000450001CF8B",
+              "text": "Nothing happens. \"We need to restore power before using this, officer. There was a generator that you missed...\" He looks upstairs. \"It didn't look like there was fuel in it.\"",
+              "links": [
+                {
+                  "id": 259,
+                  "title": "Kim Kitsuragi: \"\"We should look around outside. The...\"",
+                  "articyId": "0x010000450001D0AC",
+                  "text": "\"We should look around outside. There are barrels all over, maybe one of them still has something in it...\" He looks into the dim light to his right.",
+                  "links": [
+                    {
+                      "id": 16,
+                      "title": "Interfacing: \"The boat engine!\"",
+                      "articyId": "0x010000450001D20F",
+                      "text": "The boat engine!",
+                      "links": [
+                        {
+                          "id": 249,
+                          "title": "You: \"\"Wait, what about this fuel I found...\"",
+                          "articyId": "0x010000060000E8FC",
+                          "text": "\"Wait, what about this fuel I found from my MC?\" (Show him the canister.)",
+                          "links": [
+                            {
+                              "id": 67,
+                              "title": "Kim Kitsuragi: \"\"There's barely anything left. That...\"",
+                              "articyId": "0x010000060000E902",
+                              "text": "\"There's barely anything left. That won't work.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 261,
+                          "title": "You: \"\"Or we could get some from the boat...\"",
+                          "articyId": "0x010000450001D215",
+                          "text": "\"Or we could get some from the boat engine?\"",
+                          "links": [
+                            {
+                              "id": 198,
+                              "title": "Kim Kitsuragi: \"\"But, officer,\" he looks you in the...\"",
+                              "articyId": "0x010000450001D241",
+                              "text": "\"But, officer,\" he looks you in the eye, \"then we would have to *swim* back to the mainland. Let's just look around, okay.\"",
+                              "links": [
+                                {
+                                  "id": 228,
+                                  "title": "Feld \"Insular\" Console: \"The console stands by, mutely. 'Urg...\"",
+                                  "articyId": "0x010000060000E958",
+                                  "text": "The console stands by, mutely. 'Urgence -- Ouvert!' reads a dial key. 'Allumer,' reads another. The frequency band says: 'Radiodiffusé.'",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 114,
+                          "title": "You: \"\"Failing that we could... go back t...\"",
+                          "articyId": "0x010000450001D21B",
+                          "text": "\"Failing that we could... go back to the mainland and get some from...\"",
+                          "links": [
+                            {
+                              "id": 262,
+                              "title": "Kim Kitsuragi: \"\"My Kineema?\" He shakes his head. \"...\"",
+                              "articyId": "0x010000450001D265",
+                              "text": "\"My Kineema?\" He shakes his head. \"I don't want to do that. Let's just look around.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 37,
+                          "title": "You: \"Nod in agreement.\"",
+                          "articyId": "0x010000450001D221",
+                          "text": "Nod in agreement.",
+                          "links": [
+                            {
+                              "id": 115,
+                              "title": "Feld \"Insular\" Console: \"The console looks on as you talk, m...\"",
+                              "articyId": "0x010000450001D25F",
+                              "text": "The console looks on as you talk, mute and unpowered. Its dials are covered in dust.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 258,
+              "title": "Cuno: \"\"Cuno's gonna stop you right there....\"",
+              "articyId": "0x010000450001D087",
+              "text": "\"Cuno's gonna stop you right there. This...\" he strokes the console, \"ain't gonna work.\" He points upward, to the generator. \"Not without the juice. You gotta fuel that shit if you want it to work. Let's look outside maybe?\"",
+              "links": [
+                {
+                  "id": 218,
+                  "title": "Reaction Speed: \"What about the fuel you found in th...\"",
+                  "articyId": "0x010000060000E912",
+                  "text": "What about the fuel you found in the MC? The red government-marked fuel...",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "You: \"\"Wait, what about this fuel I found...\"",
+                      "articyId": "0x010000060000E927",
+                      "text": "\"Wait, what about this fuel I found from my MC?\" (Show him the canister.)",
+                      "links": [
+                        {
+                          "id": 177,
+                          "title": "Cuno: \"\"It's sweet you got government fuel...\"",
+                          "articyId": "0x010000060000E943",
+                          "text": "\"It's sweet you got government fuel -- way sweet -- but there ain't shit left in there. You need, like, a full load. Let's check outside when you're done with this.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 83,
+                      "title": "You: \"(Peek into the canister.)\"",
+                      "articyId": "0x010000060000E92D",
+                      "text": "(Peek into the canister.)",
+                      "links": [
+                        {
+                          "id": 220,
+                          "title": "Reaction Speed: \"Yeah, okay. There's barely anything...\"",
+                          "articyId": "0x010000060000E93C",
+                          "text": "Yeah, okay. There's barely anything left in there. You have to find a larger supply.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 55,
+                      "title": "You: \"Nah, it won't work. The canister fe...\"",
+                      "articyId": "0x010000060000E933",
+                      "text": "Nah, it won't work. The canister feels light.",
+                      "links": [
+                        {
+                          "id": 110,
+                          "title": "Reaction Speed: \"Of course. Anything else you want w...\"",
+                          "articyId": "0x010000060000E950",
+                          "text": "Of course. Anything else you want with this console?",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 15,
+              "title": "Feld \"Insular\" Console: \"Who's to say this thing even works?...\"",
+              "articyId": "0x010000450001D081",
+              "text": "Who's to say this thing even works? You have to supply it with power first. There must be a generator nearby.",
+              "links": [
+                {
+                  "id": 123,
+                  "title": "Interfacing: \"There are barrels all around. One o...\"",
+                  "articyId": "0x010000450001D0ED",
+                  "text": "There are barrels all around. One of them must still have fuel in it... Pour it into a generator and voila!",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 248,
+          "title": "You: \"Turn: 'Emergency -- Open!'\"",
+          "articyId": "0x01000004000150AA",
+          "text": "Turn: 'Emergency -- Open!'",
+          "links": []
+        },
+        {
+          "id": 253,
+          "title": "You: \"Push: 'Light (Interior)'.\"",
+          "articyId": "0x010000450001CF84",
+          "text": "Push: 'Light (Interior)'.",
+          "links": [
+            {
+              "id": 277,
+              "title": "Feld \"Insular\" Console: \"The old button is stuck.\"",
+              "articyId": "0x010000450001D282",
+              "text": "The old button is stuck.",
+              "links": []
+            },
+            {
+              "id": 207,
+              "title": "Feld \"Insular\" Console: \"The lighting in the room turns on w...\"",
+              "articyId": "0x010000450001D065",
+              "text": "The lighting in the room turns on with a sizzle. A dim, ambient orange.",
+              "links": []
+            },
+            {
+              "id": 165,
+              "title": "Feld \"Insular\" Console: \"Nothing happens.\"",
+              "articyId": "0x010000060000E962",
+              "text": "Nothing happens.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 275,
+          "title": "You: \"Slide: 'Radio' dial.\"",
+          "articyId": "0x010000450001CF7E",
+          "text": "Slide: 'Radio' dial.",
+          "links": [
+            {
+              "id": 4,
+              "title": "Feld \"Insular\" Console: \"The dial slides under the dusty gla...\"",
+              "articyId": "0x010000450001D2B4",
+              "text": "The dial slides under the dusty glass, dark and silent despite the power being on. You make out defunct stations on the UKV frequency. The words \"FELD INSULAR\" are written on the band.",
+              "links": [
+                {
+                  "id": 239,
+                  "title": "Logic: \"An *idea* lights up in your head...\"",
+                  "articyId": "0x010000450001D135",
+                  "text": "An *idea* lights up in your head...",
+                  "links": [
+                    {
+                      "id": 41,
+                      "title": "You: \"Maybe I could contact Soona -- the...\"",
+                      "articyId": "0x010000450001D128",
+                      "text": "Maybe I could contact Soona -- the programmer lady? She could open the door remotely...",
+                      "links": [
+                        {
+                          "id": 36,
+                          "title": "Kim Kitsuragi: \"\"This is an air-gapped system.\" The...\"",
+                          "articyId": "0x010000450001D156",
+                          "text": "\"This is an air-gapped system.\" The lieutenant inspects the indicator. \"*Off-air,* I think they call it. That won't work.\"",
+                          "links": [
+                            {
+                              "id": 276,
+                              "title": "You: \"\"Are you sure?\"\"",
+                              "articyId": "0x010000450001D15D",
+                              "text": "\"Are you sure?\"",
+                              "links": [
+                                {
+                                  "id": 42,
+                                  "title": "Kim Kitsuragi: \"\"No, I'm not, but it would not be v...\"",
+                                  "articyId": "0x010000450001D16B",
+                                  "text": "\"No, I'm not, but it would not be very good military technology if programmer ladies could control it remotely. Also, it's ancient. Incompatible.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 87,
+                              "title": "You: \"\"Okay.\"\"",
+                              "articyId": "0x010000450001D163",
+                              "text": "\"Okay.\"",
+                              "links": [
+                                {
+                                  "id": 260,
+                                  "title": "Kim Kitsuragi: \"\"We're better off looking for a mec...\"",
+                                  "articyId": "0x010000450001D172",
+                                  "text": "\"We're better off looking for a mechanical solution -- if we need one at all.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 174,
+                          "title": "Cuno: \"\"Who the fuck is Soona?\" he grunts....\"",
+                          "articyId": "0x0100006B00009C3E",
+                          "text": "\"Who the fuck is Soona?\" he grunts. \"Never mind. It won't work. This is fucking... military mega-grade shit, you know? It's also, like, four hundred years old.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 89,
+                          "title": "Logic: \"Wait, actually, this would not be v...\"",
+                          "articyId": "0x010000450001D1A9",
+                          "text": "Wait, actually, this would not be very good military technology if *programmer ladies* could control it remotely... It's probably not connected to the front. Or just plain broken. Nice idea, though...",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 157,
+                      "title": "You: \"No. It's too far fetched.\"",
+                      "articyId": "0x010000450001D147",
+                      "text": "No. It's too far fetched.",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "Logic: \"You're right. You're not a *circuit...\"",
+                          "articyId": "0x010000450001D19D",
+                          "text": "You're right. You're not a *circuit bender*. You don't know about these things.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 88,
+                  "title": "Kim Kitsuragi: \"\"INSULAR...\" The lieutenant leans i...\"",
+                  "articyId": "0x010000450001D188",
+                  "text": "\"INSULAR...\" The lieutenant leans in to inspect the cursive writing. \"This is an *off-air* radiocomputer, I believe. Used for military communications.\"",
+                  "links": [
+                    {
+                      "id": 3,
+                      "title": "Encyclopedia: \"It's an air-gapped system. An *off-...\"",
+                      "articyId": "0x010000450001D196",
+                      "text": "It's an air-gapped system. An *off-air* military model. Its circuits are nearly impossible to *bend*, i.e. it cannot be remote controlled.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 77,
+                  "title": "Cuno: \"\"Whoa... Told you. Military mega gr...\"",
+                  "articyId": "0x0100006B0000184E",
+                  "text": "\"Whoa... Told you. Military mega grade. Also, like, four hundred years old, I think? A thousand?\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 169,
+              "title": "Feld \"Insular\" Console: \"The dial slides under the glass, da...\"",
+              "articyId": "0x010000450001D10D",
+              "text": "The dial slides under the glass, dark and silent. Restoring electric power has not breathed life into it.",
+              "links": []
+            },
+            {
+              "id": 224,
+              "title": "Feld \"Insular\" Console: \"The dial slides under the glass, si...\"",
+              "articyId": "0x010000450001D114",
+              "text": "The dial slides under the glass, silently. You make out defunct stations on the UKV frequency. The words \"FELD INSULAR\" are written on the band.",
+              "links": []
+            },
+            {
+              "id": 61,
+              "title": "Feld \"Insular\" Console: \"The glass is dusty, it's hard to ma...\"",
+              "articyId": "0x010000450001D713",
+              "text": "The glass is dusty, it's hard to make out the writing on the band. Nothing has changed about it.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000450001CFD4",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Feld \"Insular\" Console: \"Green paint flakes off the monobloc...\"",
+      "articyId": "0x010000450001CEFE",
+      "text": "Green paint flakes off the monoblock aluminium cabinet. There are rows of switches on the front panel, a frequency band and even a keyboard...",
+      "links": [
+        {
+          "id": 206,
+          "title": "You: \"Run your fingers across the keyboar...\"",
+          "articyId": "0x010000450001CF2F",
+          "text": "Run your fingers across the keyboard.",
+          "links": [
+            {
+              "id": 84,
+              "title": "Feld \"Insular\" Console: \"The keys rattle like teeth. This ke...\"",
+              "articyId": "0x010000450001CF36",
+              "text": "The keys rattle like teeth. This keyboard hasn't been functional in decades.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 229,
+          "title": "You: \"What is this? (Run your fingers acr...\"",
+          "articyId": "0x010000450001CF06",
+          "text": "What is this? (Run your fingers across the keyboard.)",
+          "links": [
+            {
+              "id": 272,
+              "title": "Kim Kitsuragi: \"\"The console of an antique computat...\"",
+              "articyId": "0x010000450001CF22",
+              "text": "\"The console of an antique computation device.\" The lieutenant points to the wires running into the machine. \"The generator upstairs, with wires coming out. They terminate here.\"",
+              "links": []
+            },
+            {
+              "id": 22,
+              "title": "Kim Kitsuragi: \"\"The console of an antique computat...\"",
+              "articyId": "0x010000450001CF48",
+              "text": "\"The console of an antique computation device.\" The lieutenant points to the wires running into the machine. \"There was a generator upstairs, with wires coming out. They terminate here.\"",
+              "links": []
+            },
+            {
+              "id": 63,
+              "title": "Cuno: \"\"Old hardware.\" He points to the wi...\"",
+              "articyId": "0x0100006B00001817",
+              "text": "\"Old hardware.\" He points to the wires running into the machine. \"From the big power-box upstairs. Circuit-bender shit. Military-grade.\"",
+              "links": []
+            },
+            {
+              "id": 152,
+              "title": "Feld \"Insular\" Console: \"The keys rattle like teeth as black...\"",
+              "articyId": "0x010000450001CF29",
+              "text": "The keys rattle like teeth as black dust rises from them. This must be the console of some antique computation device. The wires from the generator upstairs are routed into its innards.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000450001D1D8",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

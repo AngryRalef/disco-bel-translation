@@ -1,0 +1,202 @@
+{
+  "id": "0x010000450000E7DC",
+  "title": "WHIRLING F3 ORB / pinball workshop",
+  "description": "1. This was a pinball workshop.\n2. Was the Whirling-in-Rags part of the doomed commercial area task gained.",
+  "dialogueTree": [
+    {
+      "id": 26,
+      "title": "Logic: \"So this is where they brought fault...\"",
+      "articyId": "0x01000058000075BA",
+      "text": "So this is where they brought faulty pinball machines to fix them up -- a long time ago. Everything is covered with dust now...",
+      "links": [
+        {
+          "id": 31,
+          "title": "Kim Kitsuragi: \"The lieutenant looks around the dus...\"",
+          "articyId": "0x010000060001BD0A",
+          "text": "The lieutenant looks around the dusty, crowded room, inspecting the tools on the shelf.",
+          "links": []
+        },
+        {
+          "id": 46,
+          "title": "You: \"\"Looks like they gave up on fixing...\"",
+          "articyId": "0x01000058000075F3",
+          "text": "\"Looks like they gave up on fixing the pinball machines at some point.\"",
+          "links": [
+            {
+              "id": 55,
+              "title": "Kim Kitsuragi: \"\"At some point -- twenty years ago?...\"",
+              "articyId": "0x010000580000760E",
+              "text": "\"At some point -- twenty years ago? Fifteen maybe. Before pinball went out of vogue.\"",
+              "links": []
+            },
+            {
+              "id": 32,
+              "title": "Logic: \"Yes. Pinball hasn't enjoyed a heyda...\"",
+              "articyId": "0x0100008F00003ED4",
+              "text": "Yes. Pinball hasn't enjoyed a heyday for fifteen or twenty years.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "You: \"\"Doesn't look like that pinball mac...\"",
+          "articyId": "0x010000580000762F",
+          "text": "\"Doesn't look like that pinball machine will ever get fixed.\"",
+          "links": []
+        },
+        {
+          "id": 43,
+          "title": "You: \"\"This used to be a... pinball works...\"",
+          "articyId": "0x0100005800007657",
+          "text": "\"This used to be a... pinball workshop.\"",
+          "links": [
+            {
+              "id": 4,
+              "title": "Kim Kitsuragi: \"\"Looks like it. I'm guessing Martin...\"",
+              "articyId": "0x0100007800010D64",
+              "text": "\"Looks like it. I'm guessing Martinaise North 22 used to be a pinball arcade before it became a hostel. There are machines left over...\" He taps his foot.",
+              "links": [
+                {
+                  "id": 45,
+                  "title": "Perception (Hearing): \"A creak, some dust falls off a shel...\"",
+                  "articyId": "0x0100007800010D6B",
+                  "text": "A creak, some dust falls off a shelf.",
+                  "links": [
+                    {
+                      "id": 60,
+                      "title": "Kim Kitsuragi: \"\"Downstairs in the hall -- next to...\"",
+                      "articyId": "0x0100007800010D72",
+                      "text": "\"Downstairs in the hall -- next to the main door. One of them even works. I've seen one of the Hardies bang away at it.\"",
+                      "links": [
+                        {
+                          "id": 24,
+                          "title": "Reaction Speed: \"Remember the *Dicemaker*?! Then tha...\"",
+                          "articyId": "0x0100007800010D86",
+                          "text": "Remember the *Dicemaker*?! Then that means...",
+                          "links": [
+                            {
+                              "id": 25,
+                              "title": "You: \"\"Whirling-in-Rags was once the East...\"",
+                              "articyId": "0x0100007800010D99",
+                              "text": "\"Whirling-in-Rags was once the East Delta Pinball arcade. This is all left over from that.\"",
+                              "links": [
+                                {
+                                  "id": 20,
+                                  "title": "Kim Kitsuragi: \"\"Ah, yes -- as the novelty dicemake...\"",
+                                  "articyId": "0x0100007800010DA6",
+                                  "text": "\"Ah, yes -- as the novelty dicemaker said.\" He makes a note in his notebook. \"This has absolutely nothing to do with the case, I'm sure. But I do like a nice little *connection*.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 18,
+                                  "title": "Logic: \"As the Dicemaker said, yes; it all...\"",
+                                  "articyId": "0x0100008F00003EFF",
+                                  "text": "As the Dicemaker said, yes; it all fits. Not that it has anything to do with the case, but it is a nice connection!",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 51,
+                          "title": "Inland Empire: \"But then it went bankrupt... your s...\"",
+                          "articyId": "0x0100007800010DCB",
+                          "text": "But then it went bankrupt... your skin crawls from making the connection!",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 47,
+                      "title": "Logic: \"And it has been forgotten. Now, the...\"",
+                      "articyId": "0x0100008F00003EF8",
+                      "text": "And it has been forgotten. Now, there is only one working machine in the main hall -- the rest is lost to dust.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 56,
+              "title": "Logic: \"Yes. Martinaise North 22 used to be...\"",
+              "articyId": "0x0100008F00003EEA",
+              "text": "Yes. Martinaise North 22 used to be a pinball arcade.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "You: \"\"Could this mean the Whirling-in-Ra...\"",
+          "articyId": "0x0100007800010DBA",
+          "text": "\"Could this mean the Whirling-in-Rags really *is* part of the Doomed Commercial Area?\"",
+          "links": [
+            {
+              "id": 34,
+              "title": "Kim Kitsuragi: \"\"If that's true then our *cafeteria...\"",
+              "articyId": "0x0100007800010DC5",
+              "text": "\"If that's true then our *cafeteria manager* is not going to like it.\" He looks around. \"We should tell him what we found up here -- *omitting* that suspicion.\"",
+              "links": [
+                {
+                  "id": 35,
+                  "title": "Kim Kitsuragi: \"\"He does not appear to be the kind...\"",
+                  "articyId": "0x0100007800010DE0",
+                  "text": "\"He does not appear to be the kind of man who likes his establishment to be part of a neighbourhood ghost story. About *bankruptcy*.\"",
+                  "links": [
+                    {
+                      "id": 37,
+                      "title": "Logic: \"Stupid superstition. But still -- i...\"",
+                      "articyId": "0x01000006000171AC",
+                      "text": "Stupid superstition. But still -- it would be *interesting* to see what the cafeteria manager thinks of this...",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "Inland Empire: \"It's not a ghost story. It's a curs...\"",
+                          "articyId": "0x01000006000171B3",
+                          "text": "It's not a ghost story. It's a curse -- and Garte ought be made knowledgeable so he can perform counter-spells.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 44,
+              "title": "Logic: \"Yes. It would mean that.\"",
+              "articyId": "0x0100008F00003F11",
+              "text": "Yes. It would mean that.",
+              "links": [
+                {
+                  "id": 36,
+                  "title": "Logic: \"And Garte would not like that. He s...\"",
+                  "articyId": "0x0100008F00003F17",
+                  "text": "And Garte would not like that. He should probably be made aware that his establishment is part of the neighbourhood ghost story.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "title": "You: \"Not interested. [Discard thought.]\"",
+          "articyId": "0x01000058000076B7",
+          "text": "Not interested. [Discard thought.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Logic: \"This seems to be some kind of works...\"",
+      "articyId": "0x01000058000075E3",
+      "text": "This seems to be some kind of workshop. For fixing up pinball machines -- a long time ago. Everything is covered with dust now...",
+      "links": []
+    }
+  ]
+}

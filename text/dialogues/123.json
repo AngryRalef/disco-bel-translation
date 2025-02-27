@@ -1,0 +1,138 @@
+{
+  "id": "0x0100002B0000522E",
+  "title": "PLAZA / COIN-OPERATED VIEWER II",
+  "description": "A coin-operated viewer on the plaza. It offers a view to the church.",
+  "dialogueTree": [
+    {
+      "id": 14,
+      "title": "Coin-Operated Viewer: \"This coin-operated viewer is facing...\"",
+      "articyId": "0x0100002B0000524D",
+      "text": "This coin-operated viewer is facing southwest. Its coin-slot is full of fossilized bubblegum, rendering the machine permanently inaccessible.",
+      "links": [
+        {
+          "id": 8,
+          "title": "You: \"\"Poor little viewer...\" (Pat it.)\"",
+          "articyId": "0x0100002B00050B42",
+          "text": "\"Poor little viewer...\" (Pat it.)",
+          "links": [
+            {
+              "id": 17,
+              "title": "Coin-Operated Viewer: \"The metal feels cold and wet under...\"",
+              "articyId": "0x0100002B00050B48",
+              "text": "The metal feels cold and wet under your palm. It looks unhygienic.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"\"Vandalism.\" (Shake your head.)\"",
+          "articyId": "0x01000004000120A3",
+          "text": "\"Vandalism.\" (Shake your head.)",
+          "links": [
+            {
+              "id": 10,
+              "title": "Kim Kitsuragi: \"\"Probably some kids...\" The lieuten...\"",
+              "articyId": "0x01000004000120A9",
+              "text": "\"Probably some kids...\" The lieutenant inspects the rigged slot.",
+              "links": [
+                {
+                  "id": 25,
+                  "title": "Interfacing: \"A simple but clever solution to rui...\"",
+                  "articyId": "0x010000450001B061",
+                  "text": "A simple but clever solution to ruining a coin-operated viewer. It took ingenuity.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 24,
+              "title": "Coin-Operated Viewer: \"The mute machine is unable to confi...\"",
+              "articyId": "0x01000007000097C6",
+              "text": "The mute machine is unable to confirm or deny your theory.",
+              "links": [
+                {
+                  "id": 13,
+                  "title": "Interfacing: \"But yes -- it was vandalism.\"",
+                  "articyId": "0x01000007000097CD",
+                  "text": "But yes -- it was vandalism.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "You: \"Look inside.\"",
+          "articyId": "0x0100002B0000529F",
+          "text": "Look inside.",
+          "links": [
+            {
+              "id": 7,
+              "title": "Coin-Operated Viewer: \"A thick layer of graffito covers th...\"",
+              "articyId": "0x0100002B000052A7",
+              "text": "A thick layer of graffito covers the lenses -- you spell out the word \"ONUC\" written on the other side -- with N and C scribbled backwards.",
+              "links": [
+                {
+                  "id": 15,
+                  "title": "Logic: \"That's CUNO on the lens.\"",
+                  "articyId": "0x010000060001B53B",
+                  "text": "That's CUNO on the lens.",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "You: \"Shift your focus to the background.\"",
+                      "articyId": "0x010000450001B06E",
+                      "text": "Shift your focus to the background.",
+                      "links": [
+                        {
+                          "id": 22,
+                          "title": "Coin-Operated Viewer: \"Under the graffito a sea of blues a...\"",
+                          "articyId": "0x010000330000112E",
+                          "text": "Under the graffito a sea of blues and greys appears -- behind the water lies a coast studded with concrete and reeds. On it -- a church on stilts, lanky weather-worn wooden planks, an x-shaped cross topping its tower.",
+                          "links": [
+                            {
+                              "id": 18,
+                              "title": "Encyclopedia: \"You know this to be the Star of Per...\"",
+                              "articyId": "0x01000038000014C9",
+                              "text": "You know this to be the Star of Perikarnassis, or the Chi-Rho. The central symbol of the Perikarnassian church -- a star, a great moral height to be strived towards.",
+                              "links": [
+                                {
+                                  "id": 12,
+                                  "title": "Inland Empire: \"The church looks old and weather-wo...\"",
+                                  "articyId": "0x010000060001B543",
+                                  "text": "The church looks old and weather-worn. There are no lights in the windows.",
+                                  "links": [
+                                    {
+                                      "id": 4,
+                                      "title": "Perception (Sight): \"Around the large wooden building yo...\"",
+                                      "articyId": "0x010000060001B54B",
+                                      "text": "Around the large wooden building you see chunks of sea ice, gathered on the beach. And a small tent set up on the ice.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002B00005265",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

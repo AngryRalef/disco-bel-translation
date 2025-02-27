@@ -1,0 +1,104 @@
+{
+  "id": "0x0100002F0001269E",
+  "title": "LAIR / Door to Stairwell",
+  "description": "This prevents the player from leaving the main lair -- only fires if they have dealt with Ruby but not read her journal.",
+  "dialogueTree": [
+    {
+      "id": 10,
+      "title": "Kim Kitsuragi: \"The lieutenant clears his throat. \"...\"",
+      "articyId": "0x0100002F0001276D",
+      "text": "The lieutenant clears his throat. \"Detective -- aren't you forgetting something?\"",
+      "links": [
+        {
+          "id": 17,
+          "title": "Kim Kitsuragi: \"\"We still have to deal with her...\"...\"",
+          "articyId": "0x0100002F00012725",
+          "text": "\"We still have to deal with her...\" He adjusts his coat. \"Not pleasant, I know. But we can't leave her like that. And we have to investigate the scene, too.\"",
+          "links": [
+            {
+              "id": 9,
+              "title": "You: \"\"But it's so sad, Kim. Too sad for...\"",
+              "articyId": "0x0100002F0001273D",
+              "text": "\"But it's so sad, Kim. Too sad for me!\"",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "Kim Kitsuragi: \"\"Be that as it may, it doesn't chan...\"",
+                  "articyId": "0x0100002F0001272B",
+                  "text": "\"Be that as it may, it doesn't change the fact. We have a duty to her. Let's see it through.\" He gestures back toward the tunnels. \"After you.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "title": "You: \"\"I'd rather go outside and have a b...\"",
+              "articyId": "0x0100002F0001275C",
+              "text": "\"I'd rather go outside and have a beer right now.\"",
+              "links": []
+            },
+            {
+              "id": 16,
+              "title": "You: \"\"Yeah, you're right. Let's get it o...\"",
+              "articyId": "0x0100002F00012762",
+              "text": "\"Yeah, you're right. Let's get it over with.\"",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "Kim Kitsuragi: \"He gestures back toward the tunnels...\"",
+                  "articyId": "0x0100002F00012778",
+                  "text": "He gestures back toward the tunnels. \"After you.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Kim Kitsuragi: \"\"Her journal? We should probably le...\"",
+          "articyId": "0x0100002F00012745",
+          "text": "\"Her journal? We should probably leaf through it. Might learn something useful.\"",
+          "links": [
+            {
+              "id": 20,
+              "title": "You: \"\"Of course. I was just testing you,...\"",
+              "articyId": "0x0100002F00012751",
+              "text": "\"Of course. I was just testing you, to see if *you* remembered.\"",
+              "links": [
+                {
+                  "id": 14,
+                  "title": "Kim Kitsuragi: \"The lieutenant only shakes his head...\"",
+                  "articyId": "0x0100002F00012737",
+                  "text": "The lieutenant only shakes his head. \"Let's just do it, shall we?\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "title": "You: \"\"Aw, can't you do it Kim? I'm wiped...\"",
+              "articyId": "0x0100002F00012731",
+              "text": "\"Aw, can't you do it Kim? I'm wiped out.\"",
+              "links": []
+            },
+            {
+              "id": 2,
+              "title": "You: \"\"Sorry!\" (Hit your head.) \"I forgot.\"\"",
+              "articyId": "0x0100002F0001271F",
+              "text": "\"Sorry!\" (Hit your head.) \"I forgot.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Kim Kitsuragi: \"\"We still need to investigate the s...\"",
+          "articyId": "0x0100002F0001274B",
+          "text": "\"We still need to investigate the scene. Remember?\"",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

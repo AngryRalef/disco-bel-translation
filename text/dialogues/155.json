@@ -1,0 +1,143 @@
+{
+  "id": "0x0100002F0000D33D",
+  "title": "BOOKSTORE / PRIMERBOOK",
+  "description": "A primer-book (quest item for Arx)",
+  "dialogueTree": [
+    {
+      "id": 25,
+      "title": "Primer Book: \"You see a colourful primer. The tit...\"",
+      "articyId": "0x0100002F0000D3DA",
+      "text": "You see a colourful primer. The title reads: \"A Primer for Small Kids.\"",
+      "links": [
+        {
+          "id": 31,
+          "title": "You: \"Flip through the pages.\"",
+          "articyId": "0x0100002F0000D352",
+          "text": "Flip through the pages.",
+          "links": [
+            {
+              "id": 7,
+              "title": "Primer Book: \"It's exactly like a primer -- a wor...\"",
+              "articyId": "0x0100002F0000D36F",
+              "text": "It's exactly like a primer -- a word on every page relating to a letter of the alphabet.",
+              "links": [
+                {
+                  "id": 14,
+                  "title": "Primer Book: \"I'm not sure what you're planning t...\"",
+                  "articyId": "0x0100005A00011C8A",
+                  "text": "I'm not sure what you're planning to get from this. It's meant for babies. Literal babies.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"\"Madam, what's this book?\"\"",
+          "articyId": "0x0100002F0000D358",
+          "text": "\"Madam, what's this book?\"",
+          "links": [
+            {
+              "id": 4,
+              "title": "Plaisance: \"\"A highly educational primer. It's...\"",
+              "articyId": "0x0100002F0000D369",
+              "text": "\"A highly educational primer. It's exceptional for the young mind... and obviously, very popular.\"",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "You: \"\"Oh wow, that's cool. I want to bec...\"",
+                  "articyId": "0x0100002F0000D37A",
+                  "text": "\"Oh wow, that's cool. I want to become smarter.\"",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "Plaisance: \"\"You're a grown man, though. It's a...\"",
+                      "articyId": "0x0100002F0000D386",
+                      "text": "\"You're a grown man, though. It's a bit too late for that... this is a book for small children.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 12,
+                  "title": "You: \"\"Okay. Cool.\"\"",
+                  "articyId": "0x0100006B00002206",
+                  "text": "\"Okay. Cool.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "You: \"I want to buy this Primer.\"",
+          "articyId": "0x0100002F0000D392",
+          "text": "I want to buy this Primer.",
+          "links": [
+            {
+              "id": 13,
+              "title": "Plaisance: \"\"Uh... you have kids?\" She shudders...\"",
+              "articyId": "0x0100002F0000D38C",
+              "text": "\"Uh... you have kids?\" She shudders uncomfortably. \"Okay, I guess. Enjoy it.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "title": "You: \"Steal the Primer.\"",
+          "articyId": "0x0100006B00001B43",
+          "text": "Steal the Primer.",
+          "links": [
+            {
+              "id": 24,
+              "title": "Savoir Faire: \"You peek at the storekeep, waiting...\"",
+              "articyId": "0x0100006B00001B57",
+              "text": "You peek at the storekeep, waiting for her to be distracted. When she's not looking, you deftly swipe the small booklet off the shelf and stuff it in your pocket.",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Savoir Faire: \"You now proudly own a primer book f...\"",
+                  "articyId": "0x0100006B00001B67",
+                  "text": "You now proudly own a primer book for small children which, to be honest, barely cost anything.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 16,
+              "title": "Savoir Faire: \"Slowly, you move your hand towards...\"",
+              "articyId": "0x0100006B00001B61",
+              "text": "Slowly, you move your hand towards the small book. Before you even can reach it, you're interrupted:",
+              "links": [
+                {
+                  "id": 30,
+                  "title": "Kim Kitsuragi: \"The lieutenant coughs sharply, then...\"",
+                  "articyId": "0x0100006B00001B77",
+                  "text": "The lieutenant coughs sharply, then whispers: \"Let's not. Defrauding small business owners is not our *thing*.\"",
+                  "links": []
+                },
+                {
+                  "id": 21,
+                  "title": "Plaisance: \"\"Sir, please, no touching the merch...\"",
+                  "articyId": "0x0100006B00001B6D",
+                  "text": "\"Sir, please, no touching the merchandise.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002F0000D39E",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

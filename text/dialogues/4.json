@@ -1,0 +1,1780 @@
+{
+  "id": "0x0100000400000561",
+  "title": "WHIRLING F2 / KLAASJE 1",
+  "description": "A striking young woman in a silver body-suit smokes in the hostel hallway. She addresses you as if you were a police officer. You may use your finger pistols for a SUGGESTION red-check. Failure gives you some forewarning about what's going on.",
+  "dialogueTree": [
+    {
+      "id": 160,
+      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Officer.\" The woman nods to you, s...\"",
+      "articyId": "0x0100002700000A05",
+      "text": "\"Officer.\" The woman nods to you, still smoking her cigarette.",
+      "links": [
+        {
+          "id": 303,
+          "title": "You: \"\"Ah yes, *officer*... about that.\"\"",
+          "articyId": "0x0100000B00003B5F",
+          "text": "\"Ah yes, *officer*... about that.\"",
+          "links": [
+            {
+              "id": 47,
+              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Yes, sir?\"\"",
+              "articyId": "0x0100000B00003B66",
+              "text": "\"Yes, sir?\"",
+              "links": [
+                {
+                  "id": 100,
+                  "title": "You: \"\"How did you know I'm with the poli...\"",
+                  "articyId": "0x0100000B00003B6D",
+                  "text": "\"How did you know I'm with the police?\"",
+                  "links": [
+                    {
+                      "id": 101,
+                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Unless you've been feeding us a se...\"",
+                      "articyId": "0x0100000B00003B74",
+                      "text": "\"Unless you've been feeding us a set of well rehearsed lies, you've been here for three days. On *official police business* no less.\"",
+                      "links": [
+                        {
+                          "id": 165,
+                          "title": "You: \"\"And what business is that?\"\"",
+                          "articyId": "0x0100000400000C87",
+                          "text": "\"And what business is that?\"",
+                          "links": [
+                            {
+                              "id": 180,
+                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I couldn't say. In truth... so far...\"",
+                              "articyId": "0x0100000400000C8E",
+                              "text": "\"I couldn't say. In truth... so far, mostly drinking.\"",
+                              "links": [
+                                {
+                                  "id": 292,
+                                  "title": "Logic: \"You have no doubt about the drinkin...\"",
+                                  "articyId": "0x0100000400000E8C",
+                                  "text": "You have no doubt about the drinking, but do you strike yourself as a tight-lipped drunk? She must have heard *something*.",
+                                  "links": [
+                                    {
+                                      "id": 51,
+                                      "title": "You: \"\"I might not know where I am. Or wh...\"",
+                                      "articyId": "0x0100000400005B1E",
+                                      "text": "\"I might not know where I am. Or who I am. Or what a *Coupris Kineema* is; how I know what one sounds like...\"",
+                                      "links": [
+                                        {
+                                          "id": 89,
+                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"She nods.\"",
+                                          "articyId": "0x0100000400005B24",
+                                          "text": "She nods.",
+                                          "links": [
+                                            {
+                                              "id": 218,
+                                              "title": "You: \"\"...but I do know when someone's no...\"",
+                                              "articyId": "0x0100000400005B2A",
+                                              "text": "\"...but I do know when someone's not telling me the whole story. What am I doing here? What's my case?\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 159,
+                                              "title": "You: \"\"That's it.\"\"",
+                                              "articyId": "0x0100000B00003B8A",
+                                              "text": "\"That's it.\"",
+                                              "links": [
+                                                {
+                                                  "id": 15,
+                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Good monologue!\" She smiles, flash...\"",
+                                                  "articyId": "0x0100000B00003B91",
+                                                  "text": "\"Good monologue!\" She smiles, flashing her pearl-white teeth.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 104,
+                                      "title": "You: \"\"I might not know who I am, but I d...\"",
+                                      "articyId": "0x0100000400005B18",
+                                      "text": "\"I might not know who I am, but I do know when someone's not telling me the whole story. What am I *doing* here?\"",
+                                      "links": [
+                                        {
+                                          "id": 272,
+                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"There's a mercenary out back. He's...\"",
+                                          "articyId": "0x0100000400000CD1",
+                                          "text": "\"There's a mercenary out back. He's been hanged. The body has been there for a week now. The locals probably got tired of it and called the cops.\"",
+                                          "links": [
+                                            {
+                                              "id": 217,
+                                              "title": "Empathy: \"She speaks matter-of-factly, but th...\"",
+                                              "articyId": "0x0100000400000EC1",
+                                              "text": "She speaks matter-of-factly, but there's a sadness in her voice.",
+                                              "links": [
+                                                {
+                                                  "id": 214,
+                                                  "title": "You: \"\"And why didn't you just tell me th...\"",
+                                                  "articyId": "0x0100000600011D61",
+                                                  "text": "\"And why didn't you just tell me that?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 181,
+                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I didn't mean to overwhelm you wit...\"",
+                                                      "articyId": "0x0100000400000CE8",
+                                                      "text": "\"I didn't mean to overwhelm you with information. You seem a bit... lost, officer.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 148,
+                                      "title": "You: \"\"Why don't I remember being a cop,...\"",
+                                      "articyId": "0x0100002700000A1C",
+                                      "text": "\"Why don't I remember being a cop, or anything else?\"",
+                                      "links": [
+                                        {
+                                          "id": 82,
+                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I can see that.\"\"",
+                                          "articyId": "0x0100002700000ADB",
+                                          "text": "\"I can see that.\"",
+                                          "links": [
+                                            {
+                                              "id": 238,
+                                              "title": "You: \"\"Do you know why?\"\"",
+                                              "articyId": "0x0100002700000AE2",
+                                              "text": "\"Do you know why?\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 161,
+                                              "title": "You: \"\"Good.\"\"",
+                                              "articyId": "0x0100002700000AE8",
+                                              "text": "\"Good.\"",
+                                              "links": [
+                                                {
+                                                  "id": 239,
+                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Is it?\" She raises an eyebrow. The...\"",
+                                                  "articyId": "0x0100002700000AF1",
+                                                  "text": "\"Is it?\" She raises an eyebrow. The cigarette sizzles.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 18,
+                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Could it be because of the drinkin...\"",
+                                          "articyId": "0x0100000400000D13",
+                                          "text": "\"Could it be because of the drinking?\" She raises an eyebrow. The cigarette sizzles.",
+                                          "links": [
+                                            {
+                                              "id": 169,
+                                              "title": "Perception (Sight): \"She hasn't had time to put her make...\"",
+                                              "articyId": "0x0100000400000EE7",
+                                              "text": "She hasn't had time to put her make-up on -- this is her morning cigarette. She looks tired, her beauty waning faster than it ought to at her age.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 288,
+                                      "title": "You: \"\"Who in their right mind would let...\"",
+                                      "articyId": "0x0100000400000C64",
+                                      "text": "\"Who in their right mind would let *me* be an officer of the law?\"",
+                                      "links": [
+                                        {
+                                          "id": 166,
+                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Don't be so harsh on yourself. The...\"",
+                                          "articyId": "0x0100000400000D0B",
+                                          "text": "\"Don't be so harsh on yourself. They let almost anyone be a police officer.\"",
+                                          "links": [
+                                            {
+                                              "id": 36,
+                                              "title": "Authority: \"A glib remark. Don't let it stand -...\"",
+                                              "articyId": "0x0100000400005C9E",
+                                              "text": "A glib remark. Don't let it stand -- assert yourself.",
+                                              "links": [
+                                                {
+                                                  "id": 93,
+                                                  "title": "You: \"\"Actually, I can see why they would...\"",
+                                                  "articyId": "0x0100000400005BD9",
+                                                  "text": "\"Actually, I can see why they would entrust me with the law. I have the right character.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 35,
+                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"A fondness for contradictory state...\"",
+                                                      "articyId": "0x0100000400005C7E",
+                                                      "text": "\"A fondness for contradictory statements?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 206,
+                                                          "title": "You: \"\"No. In the course of our conversat...\"",
+                                                          "articyId": "0x0100000400005C06",
+                                                          "text": "\"No. In the course of our conversation I have masterfully suppressed the urge to throw up. This is a sign of professionalism.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 219,
+                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Thank you, sir.\" She smiles, lazil...\"",
+                                                              "articyId": "0x0100000400005C45",
+                                                              "text": "\"Thank you, sir.\" She smiles, lazily. \"I mean that.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 94,
+                                                          "title": "You: \"\"No. I realized you were withholdin...\"",
+                                                          "articyId": "0x0100000400005C0C",
+                                                          "text": "\"No. I realized you were withholding information. Something lit up in me. A killer instinct.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 274,
+                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Of course.\" She pulls on her cigar...\"",
+                                                              "articyId": "0x0100000400005C4C",
+                                                              "text": "\"Of course.\" She pulls on her cigarette.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 163,
+                                                                  "title": "Rhetoric: \"She remains unconvinced...\"",
+                                                                  "articyId": "0x010000450001FD0A",
+                                                                  "text": "She remains unconvinced...",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 207,
+                                                          "title": "You: \"\"No. I think I saw a sadness in you...\"",
+                                                          "articyId": "0x0100000400005C30",
+                                                          "text": "\"No. I think I saw a sadness in you when you told me about the hanged man. Others would have missed it.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 145,
+                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"But I wasn't sad.\" She tilts her h...\"",
+                                                              "articyId": "0x0100000400005C37",
+                                                              "text": "\"But I wasn't sad.\" She tilts her head.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 108,
+                                                          "title": "You: \"\"No. My mind keeps coming up with t...\"",
+                                                          "articyId": "0x0100000400005C24",
+                                                          "text": "\"No. My mind keeps coming up with titbits of information -- all sorts of facts, trivia. Gives me a detective-y vibe.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 149,
+                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Of course.\" She pulls on her cigar...\"",
+                                                              "articyId": "0x010000450001FE3A",
+                                                              "text": "\"Of course.\" She pulls on her cigarette.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 95,
+                                                          "title": "You: \"\"No. I *deduced* that I'd thrown my...\"",
+                                                          "articyId": "0x0100000400005C12",
+                                                          "text": "\"No. I *deduced* that I'd thrown my shoe out the window from the direction of the shards.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 195,
+                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Extraordinary.\" She pulls on her c...\"",
+                                                              "articyId": "0x0100002700000A53",
+                                                              "text": "\"Extraordinary.\" She pulls on her cigarette and nods.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 241,
+                                                                  "title": "Rhetoric: \"She doesn't actually think it's all...\"",
+                                                                  "articyId": "0x010000450001FD03",
+                                                                  "text": "She doesn't actually think it's all that extraordinary.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 140,
+                                                          "title": "You: \"\"This is your morning cigarette. I...\"",
+                                                          "articyId": "0x010000450001FE2B",
+                                                          "text": "\"This is your morning cigarette. I deduced this from your lack of make-up. Also -- you *party*. A lot.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 48,
+                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Not as much as you...\" She pulls o...\"",
+                                                              "articyId": "0x010000450001FE32",
+                                                              "text": "\"Not as much as you...\" She pulls on her cigarette. \"I'm sorry, sir. I didn't mean to be glib. I'm sure you're very good at your job.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 188,
+                                                          "title": "You: \"\"Never mind. It's more likely someo...\"",
+                                                          "articyId": "0x0100000400005C3E",
+                                                          "text": "\"Never mind. It's more likely someone made a mistake somewhere...\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 59,
+                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I'm sorry. I was being glib.\" She...\"",
+                                                              "articyId": "0x0100002700000A4B",
+                                                              "text": "\"I'm sorry. I was being glib.\" She pulls on her cigarette. \"I'm sure you're a great cop.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 46,
+                                                                  "title": "Electrochemistry: \"No, she's not! Reassert yourself by...\"",
+                                                                  "articyId": "0x01000006000180F2",
+                                                                  "text": "No, she's not! Reassert yourself by being *flirtatious*.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 23,
+                                                  "title": "You: \"Better let it go. Say nothing.\"",
+                                                  "articyId": "0x0100000400005CAD",
+                                                  "text": "Better let it go. Say nothing.",
+                                                  "links": [
+                                                    {
+                                                      "id": 250,
+                                                      "title": "Authority: \"Retreat is not a winning tactic.\"",
+                                                      "articyId": "0x0100000400005CB4",
+                                                      "text": "Retreat is not a winning tactic.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 269,
+                                                  "title": "Authority: \"That feels like a jab, but honestly...\"",
+                                                  "articyId": "0x010000060001F4DE",
+                                                  "text": "That feels like a jab, but honestly -- you deserve it. Plus, it would be *rude* to reprimand her.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 67,
+                                      "title": "You: \"Try *The Expression* on her -- let...\"",
+                                      "articyId": "0x0100000400000EF8",
+                                      "text": "Try *The Expression* on her -- let her know you want her. Physically.",
+                                      "links": [
+                                        {
+                                          "id": 80,
+                                          "title": "Suggestion: \"*Try The Expression*? C'mon, why ar...\"",
+                                          "articyId": "0x0100000B000040DA",
+                                          "text": "*Try The Expression*? C'mon, why are you still doing this?",
+                                          "links": [
+                                            {
+                                              "id": 289,
+                                              "title": "You: \"\"I'm at death's door, bloated, a go...\"",
+                                              "articyId": "0x0100000400000D38",
+                                              "text": "\"I'm at death's door, bloated, a goner. And still...\" (Sigh.) \"Does the longing ever stop?\"",
+                                              "links": [
+                                                {
+                                                  "id": 243,
+                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Alcohol raises testosterone levels...\"",
+                                                  "articyId": "0x0100000400000F09",
+                                                  "text": "\"Alcohol raises testosterone levels, especially in men,\" she says matter-of-factly. \"The levels remain elevated after inebriation ends and the pain begins. You seek comfort. It's only natural.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 60,
+                                                      "title": "Encyclopedia: \"Isn't it the other way around? Heav...\"",
+                                                      "articyId": "0x0100006B00008961",
+                                                      "text": "Isn't it the other way around? Heavy drinking decreases testosterone... and believe me, you would know.",
+                                                      "links": [
+                                                        {
+                                                          "id": 273,
+                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"She puts out her cigarette.\"",
+                                                          "articyId": "0x0100000400000F10",
+                                                          "text": "She puts out her cigarette.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 194,
+                                          "title": "Suggestion: \"The words have already left your mo...\"",
+                                          "articyId": "0x0100000B000040E2",
+                                          "text": "The words have already left your mouth...",
+                                          "links": [
+                                            {
+                                              "id": 182,
+                                              "title": "You: \"\"I want to have fuck with you.\"\"",
+                                              "articyId": "0x0100000400000D52",
+                                              "text": "\"I want to have fuck with you.\"",
+                                              "links": [
+                                                {
+                                                  "id": 19,
+                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"She erupts in laughter, all the fat...\"",
+                                                  "articyId": "0x0100000400000D46",
+                                                  "text": "She erupts in laughter, all the fatigue swept from her face. \"What was that!? That's not even how *words* are used. What did you say? C'mon, say it again!\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 20,
+                                                      "title": "You: \"\"I said I wanted to have sex with y...\"",
+                                                      "articyId": "0x0100000400000D4C",
+                                                      "text": "\"I said I wanted to have sex with you.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 228,
+                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"No, you see, that's not what you s...\"",
+                                                          "articyId": "0x0100000400000D5F",
+                                                          "text": "\"No, you see, that's not what you said. You said...\" But she's unable to finish, consumed with laughter.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 103,
+                                                      "title": "You: \"\"No, I don't want to.\"\"",
+                                                      "articyId": "0x0100000400000DD4",
+                                                      "text": "\"No, I don't want to.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 221,
+                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"C'mon man, pretty please! One more...\"",
+                                                          "articyId": "0x0100000400005D47",
+                                                          "text": "\"C'mon man, pretty please! One more time!\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 257,
+                                                              "title": "Authority: \"Don't back down now. Say what you s...\"",
+                                                              "articyId": "0x010000060000FFE7",
+                                                              "text": "Don't back down now. Say what you said again -- *proudly*.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 64,
+                                                                  "title": "You: \"\"I said *I want to have fuck with y...\"",
+                                                                  "articyId": "0x0100000400000D66",
+                                                                  "text": "\"I said *I want to have fuck with you*.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 290,
+                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"God damn right you did, you crazy...\"",
+                                                                      "articyId": "0x0100000400000D73",
+                                                                      "text": "\"God damn right you did, you crazy asshole, you!\" She wipes the tears from her eyes. \"What kind of cop *are* you?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 3,
+                                                                          "title": "You: \"\"I'm a Cop of the Apocalypse.\"\"",
+                                                                          "articyId": "0x0100000400000D8C",
+                                                                          "text": "\"I'm a Cop of the Apocalypse.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 202,
+                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Has the time come already?\" She ra...\"",
+                                                                              "articyId": "0x0100000400000DDC",
+                                                                              "text": "\"Has the time come already?\" She raises an eyebrow.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 170,
+                                                                                  "title": "You: \"\"Yes, we are mere minutes away from...\"",
+                                                                                  "articyId": "0x0100000400005D50",
+                                                                                  "text": "\"Yes, we are mere minutes away from the total collapse of reality.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 232,
+                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Mere minutes? I should go and prep...\"",
+                                                                                      "articyId": "0x0100000400005D57",
+                                                                                      "text": "\"Mere minutes? I should go and prepare then. Thank you, this has been delightful. I hope it does all come crashing down. Otherwise...\" She extinguishes her cigarette.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 184,
+                                                                                  "title": "You: \"\"Cops walking around with no memory...\"",
+                                                                                  "articyId": "0x0100000400000DE3",
+                                                                                  "text": "\"Cops walking around with no memory of who they are, saying what I just said... The end can't be more than two days away.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 129,
+                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"You're one intense cop. Anyone eve...\"",
+                                                                                      "articyId": "0x0100000400000DFE",
+                                                                                      "text": "\"You're one intense cop. Anyone ever tell you that?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 299,
+                                                                                          "title": "You: \"\"Yeah, I guess I'm pretty intense.\"\"",
+                                                                                          "articyId": "0x0100000400005DAA",
+                                                                                          "text": "\"Yeah, I guess I'm pretty intense.\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 262,
+                                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"All right, then. Looks like I shou...\"",
+                                                                                              "articyId": "0x0100000400000E21",
+                                                                                              "text": "\"All right, then. Looks like I should go and prepare for what's to come. And thank you, this has been delightful. I do hope it happens *sooner*. Otherwise...\" She extinguishes her cigarette.",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": 254,
+                                                                                          "title": "You: \"\"I'm sure I'm usually less intense....\"",
+                                                                                          "articyId": "0x0100000400005DCB",
+                                                                                          "text": "\"I'm sure I'm usually less intense. I don't know why this *stuff* is coming out of my mouth. \"",
+                                                                                          "links": []
+                                                                                        },
+                                                                                        {
+                                                                                          "id": 168,
+                                                                                          "title": "You: \"\"I wouldn't know. I have no recolle...\"",
+                                                                                          "articyId": "0x0100000400000E19",
+                                                                                          "text": "\"I wouldn't know. I have no recollection of anyone ever telling me *anything*.\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 50,
+                                                                                  "title": "You: \"\"No, we still have some centuries t...\"",
+                                                                                  "articyId": "0x0100000400000DE9",
+                                                                                  "text": "\"No, we still have some centuries to go.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 150,
+                                                                          "title": "You: \"\"Superstar Cop. I can no longer den...\"",
+                                                                          "articyId": "0x0100000400000D92",
+                                                                          "text": "\"Superstar Cop. I can no longer deny it.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 5,
+                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Okay, that's cool. Or... if I can...\"",
+                                                                              "articyId": "0x0100000400000E32",
+                                                                              "text": "\"Okay, that's cool. Or... if I can just maybe ask you to elaborate on that superstardom a tiny bit?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 291,
+                                                                                  "title": "You: \"\"It means I'm a bloated old drunk w...\"",
+                                                                                  "articyId": "0x0100000400000E39",
+                                                                                  "text": "\"It means I'm a bloated old drunk with sideburns and disco pants. If I don't have a joke up my sleeve -- it's on me.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 6,
+                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I have certainly been entertained....\"",
+                                                                                      "articyId": "0x0100000400000E47",
+                                                                                      "text": "\"I have certainly been entertained. Thank you. Whatever you are, you should stick to it. Otherwise...\" She extinguishes her cigarette.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 229,
+                                                                                  "title": "You: \"\"I sincerely think I'm a superstar....\"",
+                                                                                  "articyId": "0x0100000400000E3F",
+                                                                                  "text": "\"I sincerely think I'm a superstar. It's a theory I'm developing.\"",
+                                                                                  "links": []
+                                                                                },
+                                                                                {
+                                                                                  "id": 73,
+                                                                                  "title": "You: \"\"I am a scion of Guillaume le Milli...\"",
+                                                                                  "articyId": "0x0100000400005D96",
+                                                                                  "text": "\"I am a scion of Guillaume le Million.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 297,
+                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Or maybe you *are* Guillaume le Mi...\"",
+                                                                                      "articyId": "0x0100000400005D9D",
+                                                                                      "text": "\"Or maybe you *are* Guillaume le Million? He'd be about your age now... Think about it! One thing, though...\" She extinguishes her cigarette.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 151,
+                                                                          "title": "You: \"\"I'm sorry. I don't know why I said...\"",
+                                                                          "articyId": "0x0100000400000D98",
+                                                                          "text": "\"I'm sorry. I don't know why I said that. You're pretty... I'm sorry. I'm the Sorry Cop.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 183,
+                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Don't be, it was funny. And, anywa...\"",
+                                                                              "articyId": "0x0100000400000DA9",
+                                                                              "text": "\"Don't be, it was funny. And, anyway, who gives a shit? Who gives a shit about any of it?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 185,
+                                                                                  "title": "Empathy: \"She appears to genuinely want you t...\"",
+                                                                                  "articyId": "0x0100000400000EF0",
+                                                                                  "text": "She appears to genuinely want you to understand it's okay.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 143,
+                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"So what if you can't pull Grade A...\"",
+                                                                                      "articyId": "0x0100000400000DBF",
+                                                                                      "text": "\"So what if you can't pull Grade A pussy anymore? There are other things in life -- more meaningful, more fitting for a man your age. This...\" She gestures towards herself, draped in silver. \"This is *fata morgana*. One thing, though...\" She extinguishes her cigarette.",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 4,
+                                                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"It's gonna suck for you later when...\"",
+                                                                                          "articyId": "0x0100000400000DC6",
+                                                                                          "text": "\"It's gonna suck for you later when you have to interrogate me.\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 65,
+                                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"And, for the record: No, I didn't...\"",
+                                                                                              "articyId": "0x0100000400000DCD",
+                                                                                              "text": "\"And, for the record: No, I didn't do it.\"",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 152,
+                                                                          "title": "You: \"\"I'm not sure I'm a cop at all. I s...\"",
+                                                                          "articyId": "0x0100000400000D9E",
+                                                                          "text": "\"I'm not sure I'm a cop at all. I sure don't remember being one. I think I might have lied.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 66,
+                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Okay, sir, I have to ask: do you r...\"",
+                                                                              "articyId": "0x0100000400000E50",
+                                                                              "text": "\"Okay, sir, I have to ask: do you really not remember? Just like that...\" She tries to think of a likelier explanation, but fails. \"You drank so much you lost your memory?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 21,
+                                                                                  "title": "You: \"\"I don't think there's any more to...\"",
+                                                                                  "articyId": "0x0100000400000E5D",
+                                                                                  "text": "\"I don't think there's any more to it. I'm a joke of a cop, or I joked about being one, and I drank too much. I'm also old.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 162,
+                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I'm sorry...\" She extinguishes her...\"",
+                                                                                      "articyId": "0x0100002700000C5C",
+                                                                                      "text": "\"I'm sorry...\" She extinguishes her cigarette.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 242,
+                                                                                  "title": "You: \"\"No. There is a massive, otherworld...\"",
+                                                                                  "articyId": "0x0100000400000E63",
+                                                                                  "text": "\"No. There is a massive, otherworldly mystery afoot here. And I am at the centre of it.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 115,
+                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"In that case, I think I might have...\"",
+                                                                                      "articyId": "0x0100002700000C56",
+                                                                                      "text": "\"In that case, I think I might have a *premonition* for you...\" The silence is foreboding as she extinguishes her cigarette.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 74,
+                                                                                  "title": "You: \"\"It's obvious. Someone did me over....\"",
+                                                                                  "articyId": "0x0100000400005DB2",
+                                                                                  "text": "\"It's obvious. Someone did me over. I got fucked -- bad.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 287,
+                                                                  "title": "You: \"\"Find someone else to laugh at.\"\"",
+                                                                  "articyId": "0x0100002700000C43",
+                                                                  "text": "\"Find someone else to laugh at.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 33,
+                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I'm sorry.\" She puts out her cigar...\"",
+                                                                      "articyId": "0x0100000400000E6D",
+                                                                      "text": "\"I'm sorry.\" She puts out her cigarette. \"I didn't mean to hurt your feelings.\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 261,
+                                      "title": "You: \"\"I should get going now.\" [Leave.]\"",
+                                      "articyId": "0x0100000400000D32",
+                                      "text": "\"I should get going now.\" [Leave.]",
+                                      "links": [
+                                        {
+                                          "id": 296,
+                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Of course.\" She puts out her cigar...\"",
+                                          "articyId": "0x0100000400005D29",
+                                          "text": "\"Of course.\" She puts out her cigarette. \"Be careful, officer. They don't like the police around here.\"",
+                                          "links": [
+                                            {
+                                              "id": 7,
+                                              "title": "Reaction Speed: \"Something stirs in you as she's abo...\"",
+                                              "articyId": "0x0100000400005CF2",
+                                              "text": "Something stirs in you as she's about to go. Must be that *killer instinct* again -- the need to ask *questions*. It's like you've said the words a million times before...",
+                                              "links": [
+                                                {
+                                                  "id": 128,
+                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"She looks back at you, a light glin...\"",
+                                                  "articyId": "0x0100008900001BEC",
+                                                  "text": "She looks back at you, a light glinting off her eyes.",
+                                                  "links": [
+                                                    {
+                                                      "id": 109,
+                                                      "title": "You: \"What if I don't want to ask questio...\"",
+                                                      "articyId": "0x0100000400005D06",
+                                                      "text": "What if I don't want to ask questions?",
+                                                      "links": [
+                                                        {
+                                                          "id": 171,
+                                                          "title": "Reaction Speed: \"You're a cop, Harry. It is *unnatur...\"",
+                                                          "articyId": "0x0100000400005E0F",
+                                                          "text": "You're a cop, Harry. It is *unnatural* of you not to want to ask questions.",
+                                                          "links": [
+                                                            {
+                                                              "id": 236,
+                                                              "title": "Volition: \"You don't have to. No one is forcin...\"",
+                                                              "articyId": "0x0100000B00003B9E",
+                                                              "text": "You don't have to. No one is forcing you to be a cop.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 9,
+                                                                  "title": "You: \"\"Wait! I have some questions before...\"",
+                                                                  "articyId": "0x0100000400005E16",
+                                                                  "text": "\"Wait! I have some questions before you go.\"",
+                                                                  "links": []
+                                                                },
+                                                                {
+                                                                  "id": 96,
+                                                                  "title": "You: \"Let the moment pass.\"",
+                                                                  "articyId": "0x0100000400005E1C",
+                                                                  "text": "Let the moment pass.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 146,
+                                                      "title": "You: \"\"Before you go I have some *questio...\"",
+                                                      "articyId": "0x0100000400005D00",
+                                                      "text": "\"Before you go I have some *questions* for you.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 37,
+                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Yes?\"\"",
+                                                          "articyId": "0x0100000400005E29",
+                                                          "text": "\"Yes?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 133,
+                                                              "title": "You: \"\"What is it that they have against...\"",
+                                                              "articyId": "0x0100000400005F81",
+                                                              "text": "\"What is it that they have against the police here?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 41,
+                                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"The dockworkers are pretty cocky....\"",
+                                                                  "articyId": "0x0100000400005F7A",
+                                                                  "text": "\"The dockworkers are pretty cocky. They think they're police enough. At least here on the coast -- I can't say about the rest of the city.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 38,
+                                                              "title": "You: \"\"What is this place? Where am I?\"\"",
+                                                              "articyId": "0x0100000400005E39",
+                                                              "text": "\"What is this place? Where am I?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 266,
+                                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"You're in a hostel, sir.\"\"",
+                                                                  "articyId": "0x0100000400005E49",
+                                                                  "text": "\"You're in a hostel, sir.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 276,
+                                                                      "title": "You: \"\"No -- *where* are we? Where in the...\"",
+                                                                      "articyId": "0x0100000400005E50",
+                                                                      "text": "\"No -- *where* are we? Where in the world?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 189,
+                                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"We are in Revachol.\"\"",
+                                                                          "articyId": "0x0100000400005E60",
+                                                                          "text": "\"We are in Revachol.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 75,
+                                                                              "title": "Encyclopedia: \"Revachol is the disgraced former ca...\"",
+                                                                              "articyId": "0x0100000400005E67",
+                                                                              "text": "Revachol is the disgraced former capital of the world, divided into zones of control under foreign occupation -- half a century after a failed world revolution. She is central to our moment in time.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 76,
+                                                                                  "title": "You: \"\"Should that mean something to me?\"\"",
+                                                                                  "articyId": "0x0100000400005E6E",
+                                                                                  "text": "\"Should that mean something to me?\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 55,
+                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"You sure look like you're from Rev...\"",
+                                                                                      "articyId": "0x0100000400005F36",
+                                                                                      "text": "\"You sure look like you're from Revachol. Revachol parties.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 56,
+                                                                                          "title": "Encyclopedia: \"Her accent suggests she is not from...\"",
+                                                                                          "articyId": "0x0100000400005F43",
+                                                                                          "text": "Her accent suggests she is not from around here. She's from Oranje, another part of the world.",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 77,
+                                                                                  "title": "You: \"\"Revachol forever.\"\"",
+                                                                                  "articyId": "0x0100000400005E74",
+                                                                                  "text": "\"Revachol forever.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 172,
+                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"For ever and ever.\"\"",
+                                                                                      "articyId": "0x0100000400005E9D",
+                                                                                      "text": "\"For ever and ever.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 215,
+                                                                                          "title": "Shivers: \"And ever and ever... Out of the cor...\"",
+                                                                                          "articyId": "0x0100002700000A6D",
+                                                                                          "text": "And ever and ever... Out of the corner of your eye, you see the hair on the back of your hand standing on end. It feels as though low-grade lightning is coursing through you. You must be hypersensitive from the hangover.",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 110,
+                                                                                  "title": "You: \"\"How about you tell me something el...\"",
+                                                                                  "articyId": "0x0100000400005E7A",
+                                                                                  "text": "\"How about you tell me something else instead?\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 52,
+                                                              "title": "You: \"\"Tell me what year it is.\"\"",
+                                                              "articyId": "0x0100000400005EA3",
+                                                              "text": "\"Tell me what year it is.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 132,
+                                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"It's '51.\"\"",
+                                                                  "articyId": "0x0100000400005EB9",
+                                                                  "text": "\"It's '51.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 53,
+                                                                      "title": "You: \"\"What century?\"\"",
+                                                                      "articyId": "0x0100000400005EC2",
+                                                                      "text": "\"What century?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 54,
+                                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"The Current Century.\"\"",
+                                                                          "articyId": "0x0100000400005ED5",
+                                                                          "text": "\"The Current Century.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 212,
+                                                                              "title": "You: \"\"And that's what? What number?\"\"",
+                                                                              "articyId": "0x0100000400005EDC",
+                                                                              "text": "\"And that's what? What number?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 121,
+                                                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Centuries don't have numbers, they...\"",
+                                                                                  "articyId": "0x0100000400005EE3",
+                                                                                  "text": "\"Centuries don't have numbers, they have names, and this is the current one.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 190,
+                                                                                      "title": "You: \"\"How many centuries have there been...\"",
+                                                                                      "articyId": "0x0100000400005EEA",
+                                                                                      "text": "\"How many centuries have there been, then?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 277,
+                                                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Civilization has existed for eight...\"",
+                                                                                          "articyId": "0x0100000400005EF1",
+                                                                                          "text": "\"Civilization has existed for eight thousand years, sir.\" She grins.",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 213,
+                                                                                              "title": "You: \"\"What's so funny?\"\"",
+                                                                                              "articyId": "0x0100000400005EF8",
+                                                                                              "text": "\"What's so funny?\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 10,
+                                                                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"You're right.\" Her expression turn...\"",
+                                                                                                  "articyId": "0x0100000400005EFF",
+                                                                                                  "text": "\"You're right.\" Her expression turns serious. \"There is nothing funny about civilization.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 279,
+                                                                                                      "title": "Empathy: \"She hates civilization. She feels b...\"",
+                                                                                                      "articyId": "0x0100000400005F21",
+                                                                                                      "text": "She hates civilization. She feels betrayed by it.",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 111,
+                                                                      "title": "You: \"\"Okay, tell me something else.\"\"",
+                                                                      "articyId": "0x0100000400005EC8",
+                                                                      "text": "\"Okay, tell me something else.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 97,
+                                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Yeah?\"\"",
+                                                                          "articyId": "0x0100000400005E88",
+                                                                          "text": "\"Yeah?\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 267,
+                                                                              "title": "Inland Empire: \"Those words -- \"tell me something e...\"",
+                                                                              "articyId": "0x0100000400005E8F",
+                                                                              "text": "Those words -- \"tell me something else\" -- feel like something you've said innumerable times before. Your mouth is the very shape of them.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 255,
+                                                              "title": "You: \"\"Your room is almost next to mine....\"",
+                                                              "articyId": "0x0100000400005E3F",
+                                                              "text": "\"Your room is almost next to mine. Did you hear anything last night?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 24,
+                                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"There was the usual ruckus.\" She s...\"",
+                                                                  "articyId": "0x0100000400005F8F",
+                                                                  "text": "\"There was the usual ruckus.\" She shrugs. \"Loud disco music.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 270,
+                                                                      "title": "You: \"\"Did I have any visitors?\"\"",
+                                                                      "articyId": "0x0100000B00002C24",
+                                                                      "text": "\"Did I have any visitors?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 126,
+                                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I couldn't say -- it's impossible...\"",
+                                                                          "articyId": "0x0100000B00002C2B",
+                                                                          "text": "\"I couldn't say -- it's impossible to hear people speaking from over here.\" She nods toward Room #3.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 112,
+                                                                              "title": "You: \"\"Loud disco music?\"\"",
+                                                                              "articyId": "0x0100000B00002C32",
+                                                                              "text": "\"Loud disco music?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 282,
+                                                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Oh yes, various artists. Ostentati...\"",
+                                                                                  "articyId": "0x0100000B00002CB6",
+                                                                                  "text": "\"Oh yes, various artists. Ostentatious Orchestrations prime among them.\" She raises an eyebrow, waiting for the name to connect with you.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 226,
+                                                                                      "title": "Encyclopedia: \"Oh, *that*. Yeah, whooh... The less...\"",
+                                                                                      "articyId": "0x0100000B00002CC3",
+                                                                                      "text": "Oh, *that*. Yeah, whooh... The less said about OO, the better.",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 193,
+                                                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"OO were *huge* where I come from....\"",
+                                                                                          "articyId": "0x0100000B00002CBC",
+                                                                                          "text": "\"OO were *huge* where I come from. I was very young then, of course. Like seven. 'Life gets haaard!'\" she sings, \"'But we go ooooooon!'\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 58,
+                                                                                              "title": "Rhetoric: \"In that case, doesn't life get hard...\"",
+                                                                                              "articyId": "0x0100000B00002C81",
+                                                                                              "text": "In that case, doesn't life get hard *because* we go on?",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 302,
+                                                                                                  "title": "You: \"\"Yeah, we go on, alright.\"\"",
+                                                                                                  "articyId": "0x0100000B00002C6D",
+                                                                                                  "text": "\"Yeah, we go on, alright.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 225,
+                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I don't know about that... At arou...\"",
+                                                                                                      "articyId": "0x0100000B00002C95",
+                                                                                                      "text": "\"I don't know about that... At around two o'clock, the disco stopped, and there was a change of pace.\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 98,
+                                                                                                          "title": "You: \"\"What happened?\"\"",
+                                                                                                          "articyId": "0x0100000400005F95",
+                                                                                                          "text": "\"What happened?\"",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 42,
+                                                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"A slow, sad song started playing....\"",
+                                                                                                              "articyId": "0x0100000400005FAC",
+                                                                                                              "text": "\"A slow, sad song started playing. Like organ music, on repeat. That went on for quite a while. Some of the time you were yelling along to it.\"",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 268,
+                                                                                                                  "title": "You: \"\"Was I singing this?\" (Show her the...\"",
+                                                                                                                  "articyId": "0x0100000400005FB9",
+                                                                                                                  "text": "\"Was I singing this?\" (Show her the empty case of \"The Smallest Church In Saint-Saëns\".)",
+                                                                                                                  "links": [
+                                                                                                                    {
+                                                                                                                      "id": 43,
+                                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Yes! There was a church in there....\"",
+                                                                                                                      "articyId": "0x0100000400005FD8",
+                                                                                                                      "text": "\"Yes! There was a church in there. A really small church. Like the smallest, saddest church in the whole world. It was about that. And also...\"",
+                                                                                                                      "links": [
+                                                                                                                        {
+                                                                                                                          "id": 173,
+                                                                                                                          "title": "You: \"\"What else?\"\"",
+                                                                                                                          "articyId": "0x0100000400005FE6",
+                                                                                                                          "text": "\"What else?\"",
+                                                                                                                          "links": []
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "id": 256,
+                                                                                                                  "title": "You: \"\"What was I singing?\"\"",
+                                                                                                                  "articyId": "0x0100000400005FB3",
+                                                                                                                  "text": "\"What was I singing?\"",
+                                                                                                                  "links": [
+                                                                                                                    {
+                                                                                                                      "id": 134,
+                                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"That it doesn't *matter* anymore....\"",
+                                                                                                                      "articyId": "0x0100000400005FDE",
+                                                                                                                      "text": "\"That it doesn't *matter* anymore. And that we're *alone* now. It was difficult to tell -- the song itself was very quiet and soft, but you sounded like a wounded boar, sir. It was hard to understand what you were singing on top of it.\"",
+                                                                                                                      "links": [
+                                                                                                                        {
+                                                                                                                          "id": 234,
+                                                                                                                          "title": "You: \"\"I'm sorry.\"\"",
+                                                                                                                          "articyId": "0x0100000400006005",
+                                                                                                                          "text": "\"I'm sorry.\"",
+                                                                                                                          "links": [
+                                                                                                                            {
+                                                                                                                              "id": 235,
+                                                                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Don't be, I was going out later an...\"",
+                                                                                                                              "articyId": "0x0100000400006029",
+                                                                                                                              "text": "\"Don't be, I was going out later anyway. It didn't bother me.\"",
+                                                                                                                              "links": []
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": 174,
+                                                                                                                          "title": "You: \"\"When you say *wounded* do you mean...\"",
+                                                                                                                          "articyId": "0x0100000400005FFE",
+                                                                                                                          "text": "\"When you say *wounded* do you mean that in a *cool* way? Like a *wild beast*?\"",
+                                                                                                                          "links": [
+                                                                                                                            {
+                                                                                                                              "id": 25,
+                                                                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Yes. It was very cool.\"\"",
+                                                                                                                              "articyId": "0x010000040000600C",
+                                                                                                                              "text": "\"Yes. It was very cool.\"",
+                                                                                                                              "links": [
+                                                                                                                                {
+                                                                                                                                  "id": 281,
+                                                                                                                                  "title": "Rhetoric: \"It's impossible to say whether she'...\"",
+                                                                                                                                  "articyId": "0x0100000400006019",
+                                                                                                                                  "text": "It's impossible to say whether she's being sarcastic or really means it.",
+                                                                                                                                  "links": []
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "id": 135,
+                                                                                                                          "title": "You: \"\"Then what happened?\"\"",
+                                                                                                                          "articyId": "0x0100000400005FF6",
+                                                                                                                          "text": "\"Then what happened?\"",
+                                                                                                                          "links": [
+                                                                                                                            {
+                                                                                                                              "id": 191,
+                                                                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Then you started screaming and tra...\"",
+                                                                                                                              "articyId": "0x0100000400006020",
+                                                                                                                              "text": "\"Then you started screaming and trashed the place.\"",
+                                                                                                                              "links": [
+                                                                                                                                {
+                                                                                                                                  "id": 301,
+                                                                                                                                  "title": "You: \"\"Are you sure I wasn't being assaul...\"",
+                                                                                                                                  "articyId": "0x0100000400006031",
+                                                                                                                                  "text": "\"Are you sure I wasn't being assaulted?\"",
+                                                                                                                                  "links": [
+                                                                                                                                    {
+                                                                                                                                      "id": 26,
+                                                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"No, it didn't sound like there was...\"",
+                                                                                                                                      "articyId": "0x0100000400006045",
+                                                                                                                                      "text": "\"No, it didn't sound like there was a fight. It sounded like someone was trashing their room.\"",
+                                                                                                                                      "links": []
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "id": 78,
+                                                                                                                                  "title": "You: \"\"That's so *me*. What did I do?\"\"",
+                                                                                                                                  "articyId": "0x0100000400006037",
+                                                                                                                                  "text": "\"That's so *me*. What did I do?\"",
+                                                                                                                                  "links": [
+                                                                                                                                    {
+                                                                                                                                      "id": 57,
+                                                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"A window was smashed. The tape pla...\"",
+                                                                                                                                      "articyId": "0x010000040000604D",
+                                                                                                                                      "text": "\"A window was smashed. The tape player probably -- the song stopped -- and furniture too. A real destructothon. There was screaming. Then, I think, you passed out.\"",
+                                                                                                                                      "links": [
+                                                                                                                                        {
+                                                                                                                                          "id": 175,
+                                                                                                                                          "title": "You: \"\"Was there anything else?\"\"",
+                                                                                                                                          "articyId": "0x010000040000605B",
+                                                                                                                                          "text": "\"Was there anything else?\"",
+                                                                                                                                          "links": [
+                                                                                                                                            {
+                                                                                                                                              "id": 176,
+                                                                                                                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"There was. I think you screamed th...\"",
+                                                                                                                                              "articyId": "0x0100000400006071",
+                                                                                                                                              "text": "\"There was. I think you screamed that you... didn't want to be 'this type of animal' anymore. I may have misheard, but it was sort of memorable.\"",
+                                                                                                                                              "links": [
+                                                                                                                                                {
+                                                                                                                                                  "id": 99,
+                                                                                                                                                  "title": "Pain Threshold: \"Sounds like you were in some real *...\"",
+                                                                                                                                                  "articyId": "0x010000060001F4E8",
+                                                                                                                                                  "text": "Sounds like you were in some real *fundamental* pain there, muscle-man.",
+                                                                                                                                                  "links": [
+                                                                                                                                                    {
+                                                                                                                                                      "id": 79,
+                                                                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I went out afterwards. Everything...\"",
+                                                                                                                                                      "articyId": "0x0100000400006099",
+                                                                                                                                                      "text": "\"I went out afterwards. Everything was quiet by then. Around four or five.\" She nods. \"And that was it.\"",
+                                                                                                                                                      "links": []
+                                                                                                                                                    }
+                                                                                                                                                  ]
+                                                                                                                                                }
+                                                                                                                                              ]
+                                                                                                                                            }
+                                                                                                                                          ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                          "id": 12,
+                                                                                                                                          "title": "You: \"\"Please tell me there wasn't anythi...\"",
+                                                                                                                                          "articyId": "0x0100000400006061",
+                                                                                                                                          "text": "\"Please tell me there wasn't anything *else*.\"",
+                                                                                                                                          "links": []
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                          "id": 13,
+                                                                                                                                          "title": "You: \"\"It prides me to hear this. Tell me...\"",
+                                                                                                                                          "articyId": "0x0100000400006067",
+                                                                                                                                          "text": "\"It prides me to hear this. Tell me there was more.\"",
+                                                                                                                                          "links": []
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                  "id": 192,
+                                                                                                                                  "title": "You: \"\"You're making this up. I would nev...\"",
+                                                                                                                                  "articyId": "0x010000040000603D",
+                                                                                                                                  "text": "\"You're making this up. I would never behave like that.\"",
+                                                                                                                                  "links": [
+                                                                                                                                    {
+                                                                                                                                      "id": 44,
+                                                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Yes.\" She looks at you. \"Never.\"\"",
+                                                                                                                                      "articyId": "0x0100000400006053",
+                                                                                                                                      "text": "\"Yes.\" She looks at you. \"Never.\"",
+                                                                                                                                      "links": [
+                                                                                                                                        {
+                                                                                                                                          "id": 223,
+                                                                                                                                          "title": "You: \"\"What happened then?\"\"",
+                                                                                                                                          "articyId": "0x0100000400006087",
+                                                                                                                                          "text": "\"What happened then?\"",
+                                                                                                                                          "links": []
+                                                                                                                                        }
+                                                                                                                                      ]
+                                                                                                                                    }
+                                                                                                                                  ]
+                                                                                                                                }
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "id": 125,
+                                                                                                                  "title": "You: \"\"I've heard enough.\"\"",
+                                                                                                                  "articyId": "0x0100000400005FBF",
+                                                                                                                  "text": "\"I've heard enough.\"",
+                                                                                                                  "links": [
+                                                                                                                    {
+                                                                                                                      "id": 233,
+                                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Okay.\"\"",
+                                                                                                                      "articyId": "0x0100000400005FC6",
+                                                                                                                      "text": "\"Okay.\"",
+                                                                                                                      "links": []
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 136,
+                                                                                                  "title": "You: \"\"It mostly just gets hard, doesn't...\"",
+                                                                                                  "articyId": "0x0100000B00002C73",
+                                                                                                  "text": "\"It mostly just gets hard, doesn't it?\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 138,
+                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"It would appear so. At around two...\"",
+                                                                                                      "articyId": "0x0100000B00002C9B",
+                                                                                                      "text": "\"It would appear so. At around two o'clock, the disco stopped, and there was a change of pace.\"",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 137,
+                                                                                                  "title": "You: \"\"Maybe we should stop going on then...\"",
+                                                                                                  "articyId": "0x0100000B00002C79",
+                                                                                                  "text": "\"Maybe we should stop going on then? Doesn't the 'going on' cause the 'getting harder' part?\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 224,
+                                                                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I think you might have come to the...\"",
+                                                                                                      "articyId": "0x0100000B00002C8E",
+                                                                                                      "text": "\"I think you might have come to the same conclusion last night. At around two o'clock, the disco stopped, and there was a change of pace.\"",
+                                                                                                      "links": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 127,
+                                                                              "title": "You: \"\"Tell me something else.\"\"",
+                                                                              "articyId": "0x0100000B00002C38",
+                                                                              "text": "\"Tell me something else.\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 280,
+                                                              "title": "You: \"\"Okay. You can go now.\" [Leave.]\"",
+                                                              "articyId": "0x0100000400005F9E",
+                                                              "text": "\"Okay. You can go now.\" [Leave.]",
+                                                              "links": [
+                                                                {
+                                                                  "id": 11,
+                                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Glad to have been of assistance.\"\"",
+                                                                  "articyId": "0x0100000400005FA5",
+                                                                  "text": "\"Glad to have been of assistance.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 83,
+                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"And no, it never stops.\"\"",
+                                                      "articyId": "0x0100002F00012B8D",
+                                                      "text": "\"And no, it never stops.\"",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 216,
+                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Goodbye.\"\"",
+                                                      "articyId": "0x01000027000010FF",
+                                                      "text": "\"Goodbye.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 295,
+                                              "title": "Reaction Speed: \"Something stirs in you as she's abo...\"",
+                                              "articyId": "0x0100000400005CE2",
+                                              "text": "Something stirs in you as she's about to go. Call it an instinct, a need -- the need to ask *questions*. It's like you've said the words a million times before...",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 177,
+          "title": "You: \"\"*Officer*? Am I military personnel?\"\"",
+          "articyId": "0x0100000400000C17",
+          "text": "\"*Officer*? Am I military personnel?\"",
+          "links": [
+            {
+              "id": 2,
+              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Uh... no.\" She seems perplexed by...\"",
+              "articyId": "0x0100000400000C25",
+              "text": "\"Uh... no.\" She seems perplexed by your question.",
+              "links": [
+                {
+                  "id": 200,
+                  "title": "Authority: \"There's only one solution to this....\"",
+                  "articyId": "0x010000780000698B",
+                  "text": "There's only one solution to this. You're a businessman.",
+                  "links": [
+                    {
+                      "id": 117,
+                      "title": "You: \"\"Wait, I know! I'm a businessman. *...\"",
+                      "articyId": "0x0100000400000C2C",
+                      "text": "\"Wait, I know! I'm a businessman. *Chief executive officer*, right?\"",
+                      "links": [
+                        {
+                          "id": 201,
+                          "title": "Klaasje (Miss Oranje Disco Dancer): \"The young woman shakes her head slo...\"",
+                          "articyId": "0x0100000400000C3A",
+                          "text": "The young woman shakes her head slowly.",
+                          "links": [
+                            {
+                              "id": 203,
+                              "title": "Conceptualization: \"*Officer* could be an artistic stat...\"",
+                              "articyId": "0x0100000400005A81",
+                              "text": "*Officer* could be an artistic statement. You're already prone to those.",
+                              "links": [
+                                {
+                                  "id": 85,
+                                  "title": "You: \"\"'Officer' is my stage name, right?...\"",
+                                  "articyId": "0x0100000400005A79",
+                                  "text": "\"'Officer' is my stage name, right? I can see myself as a middling disco artist called 'The Officer.'\"",
+                                  "links": [
+                                    {
+                                      "id": 49,
+                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"\"No...\" She looks you in the eye. \"...\"",
+                                      "articyId": "0x0100000400000C48",
+                                      "text": "\"No...\" She looks you in the eye. \"You're a *police* officer, sir.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 63,
+                                  "title": "You: \"\"Okay... Chief technical officer?\"\"",
+                                  "articyId": "0x0100000400000C41",
+                                  "text": "\"Okay... Chief technical officer?\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 263,
+                              "title": "Conceptualization: \"*Officer* could be an artistic stat...\"",
+                              "articyId": "0x0100000400005AAE",
+                              "text": "*Officer* could be an artistic statement. A claim to *official* renown.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 62,
+                      "title": "You: \"\"Then why did you call me an office...\"",
+                      "articyId": "0x0100000400000C33",
+                      "text": "\"Then why did you call me an officer?\"",
+                      "links": [
+                        {
+                          "id": 17,
+                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Because you're a police officer, s...\"",
+                          "articyId": "0x0100000400000C50",
+                          "text": "\"Because you're a police officer, sir.\" She pulls on her cigarette.",
+                          "links": [
+                            {
+                              "id": 86,
+                              "title": "You: \"\"Are you sure?\"\"",
+                              "articyId": "0x0100000400005AD7",
+                              "text": "\"Are you sure?\"",
+                              "links": [
+                                {
+                                  "id": 293,
+                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I am, yes. Unless you've been feed...\"",
+                                  "articyId": "0x0100000400005ADE",
+                                  "text": "\"I am, yes. Unless you've been feeding us a set of very well rehearsed lies all this time...\" She takes another drag.",
+                                  "links": [
+                                    {
+                                      "id": 141,
+                                      "title": "You: \"\"All this time?\"\"",
+                                      "articyId": "0x01000078000069AD",
+                                      "text": "\"All this time?\"",
+                                      "links": [
+                                        {
+                                          "id": 227,
+                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"You've been here for three days. O...\"",
+                                          "articyId": "0x01000078000069BA",
+                                          "text": "\"You've been here for three days. On *official police business*, no less.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 178,
+                              "title": "You: \"\"You're shitting me!\"\"",
+                              "articyId": "0x0100000400000C5E",
+                              "text": "\"You're shitting me!\"",
+                              "links": [
+                                {
+                                  "id": 179,
+                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"I'm not. Unless *you've* been shit...\"",
+                                  "articyId": "0x0100000400000C80",
+                                  "text": "\"I'm not. Unless *you've* been shitting *us* all this time...\" She takes another drag.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 142,
+                              "title": "You: \"\"God damn right, I'm a policeman! A...\"",
+                              "articyId": "0x0100000400000C70",
+                              "text": "\"God damn right, I'm a policeman! And don't you forget it!\"",
+                              "links": [
+                                {
+                                  "id": 167,
+                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Okay, cool. I won't.\"\"",
+                                  "articyId": "0x0100000400000D1B",
+                                  "text": "\"Okay, cool. I won't.\"",
+                                  "links": [
+                                    {
+                                      "id": 153,
+                                      "title": "Empathy: \"She means it. She wouldn't defy aut...\"",
+                                      "articyId": "0x0100000400000ED2",
+                                      "text": "She means it. She wouldn't defy authority, however sweaty and bloated it may look.",
+                                      "links": [
+                                        {
+                                          "id": 88,
+                                          "title": "You: \"\"No need to be alarmed. I was just...\"",
+                                          "articyId": "0x0100000400005AEB",
+                                          "text": "\"No need to be alarmed. I was just getting into character, you know.\"",
+                                          "links": [
+                                            {
+                                              "id": 130,
+                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Okay.\" She breathes in the silvery...\"",
+                                              "articyId": "0x0100000400005B4A",
+                                              "text": "\"Okay.\" She breathes in the silvery smoke.",
+                                              "links": [
+                                                {
+                                                  "id": 14,
+                                                  "title": "Endurance: \"Whoah! Something wants to come out...\"",
+                                                  "articyId": "0x01000006000180E2",
+                                                  "text": "Whoah! Something wants to come out of you -- a bit of vomit? Thankfully you keep it down, because your body does not control you.",
+                                                  "links": [
+                                                    {
+                                                      "id": 72,
+                                                      "title": "You: \"\"How did you know I'm a police offi...\"",
+                                                      "articyId": "0x0100000400005B51",
+                                                      "text": "\"How did you know I'm a police officer?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 204,
+                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Sir, you've been here for three da...\"",
+                                                          "articyId": "0x0100000400005B58",
+                                                          "text": "\"Sir, you've been here for three days. On *official police business*, as you put it.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 87,
+                                          "title": "You: \"\"Good. Now, how did you know I was...\"",
+                                          "articyId": "0x0100000400005AE5",
+                                          "text": "\"Good. Now, how did you know I was a police officer?\"",
+                                          "links": [
+                                            {
+                                              "id": 294,
+                                              "title": "Klaasje (Miss Oranje Disco Dancer): \"\"First I have to ask: Are you okay,...\"",
+                                              "articyId": "0x0100000400005AF3",
+                                              "text": "\"First I have to ask: Are you okay, sir?\" All of a sudden, she looks genuinely concerned. \"You look like you're about to throw up... Can I bring you something?\"",
+                                              "links": [
+                                                {
+                                                  "id": 186,
+                                                  "title": "Endurance: \"She's right. Something wants to com...\"",
+                                                  "articyId": "0x0100000400005B5E",
+                                                  "text": "She's right. Something wants to come out -- through your mouth. But you can keep it down because your body does not control you.",
+                                                  "links": [
+                                                    {
+                                                      "id": 22,
+                                                      "title": "You: \"\"I'm fine. Answer the question.\"\"",
+                                                      "articyId": "0x0100000400005B65",
+                                                      "text": "\"I'm fine. Answer the question.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 249,
+                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Sir, you've been here for three da...\"",
+                                                          "articyId": "0x0100000400005BB5",
+                                                          "text": "\"Sir, you've been here for three days. On *official police business*, as you put it.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 139,
+                                                              "title": "You: \"\"What kind of business?\"\"",
+                                                              "articyId": "0x0100002700000AC4",
+                                                              "text": "\"What kind of business?\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 248,
+                                                          "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Sir...\" For a moment it looks like...\"",
+                                                          "articyId": "0x0100000400005BAE",
+                                                          "text": "\"Sir...\" For a moment it looks like you're going to blow, but you manage to keep it in. \"You've been here for three days. On *official police business*, no less.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 81,
+                                                              "title": "You: \"\"Don't worry, I'm not going to vomi...\"",
+                                                              "articyId": "0x0100002700000AB6",
+                                                              "text": "\"Don't worry, I'm not going to vomit.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 114,
+                                                                  "title": "Klaasje (Miss Oranje Disco Dancer): \"\"Okay.\"\"",
+                                                                  "articyId": "0x0100002700000ABC",
+                                                                  "text": "\"Okay.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 247,
+                                                      "title": "You: \"\"I feel wretched. Tell me, how do y...\"",
+                                                      "articyId": "0x0100000400005B6B",
+                                                      "text": "\"I feel wretched. Tell me, how do you know I'm with the police?\"",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 205,
+                                                      "title": "You: \"\"It's a small wonder I'm able to ev...\"",
+                                                      "articyId": "0x0100000400005B71",
+                                                      "text": "\"It's a small wonder I'm able to even formulate this very thought. But I'll be fine. How did you know I was a cop?\"",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 34,
+                                                      "title": "Klaasje (Miss Oranje Disco Dancer): \"She's right. Something wants to com...\"",
+                                                      "articyId": "0x0100000400005B86",
+                                                      "text": "She's right. Something wants to come out through your mouth, right in front of her, right here... It makes you put your hand on your stomach and swallow.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "title": "You: \"Turn your bloated face away from he...\"",
+          "articyId": "0x0100000400000C1D",
+          "text": "Turn your bloated face away from her beauty and just keep on walking. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "title": "Klaasje (Miss Oranje Disco Dancer): \"The young woman raises a cigarette...\"",
+      "articyId": "0x0100000400000BB7",
+      "text": "The young woman raises a cigarette to her lips.",
+      "links": [
+        {
+          "id": 230,
+          "title": "Perception (Sight): \"Her eyes are brown and her face is...\"",
+          "articyId": "0x0100000400005A71",
+          "text": "Her eyes are brown and her face is speckled with birthmarks. She can't be more than 28.",
+          "links": [
+            {
+              "id": 271,
+              "title": "Conceptualization: \"A silver jumpsuit falls off her lik...\"",
+              "articyId": "0x010000450001FCF8",
+              "text": "A silver jumpsuit falls off her like scale armour, sparkling. This is the sparkle of too many nights out on the city.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

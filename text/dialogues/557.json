@@ -1,0 +1,60 @@
+{
+  "id": "0x0100008F000028D4",
+  "title": "WALKWAY ORB / walkwaycoat",
+  "description": "This is the third Shivers in the coat quest. It is a challenging orb.",
+  "dialogueTree": [
+    {
+      "id": 3,
+      "title": "Shivers: \"It is harder and harder to reach yo...\"",
+      "articyId": "0x0100008F000028DB",
+      "text": "It is harder and harder to reach you... I am not sure how well you'll hear me...",
+      "links": [
+        {
+          "id": 8,
+          "title": "You: \"Please, I want to help you! Where m...\"",
+          "articyId": "0x0100008F000028E1",
+          "text": "Please, I want to help you! Where must I go next?",
+          "links": [
+            {
+              "id": 4,
+              "title": "Shivers: \"Listen within the flower of home… I...\"",
+              "articyId": "0x0100008F000028F3",
+              "text": "Listen within the flower of home… I am lost... Please....",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "You: \"Can't you just tell me where you ar...\"",
+          "articyId": "0x0100008F000028E7",
+          "text": "Can't you just tell me where you are? Or what you are?",
+          "links": [
+            {
+              "id": 7,
+              "title": "Shivers: \"I am lost and unfound... Listen wit...\"",
+              "articyId": "0x0100008F000028F9",
+              "text": "I am lost and unfound... Listen within the flower of home…",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"GET OUT OF MY HEAD!\"",
+          "articyId": "0x0100008F000028ED",
+          "text": "GET OUT OF MY HEAD!",
+          "links": [
+            {
+              "id": 6,
+              "title": "Shivers: \"Forgive me... I only want reunion.....\"",
+              "articyId": "0x0100008F000028FF",
+              "text": "Forgive me... I only want reunion... I am struggling to know where... Listen within the flower of home… Please...",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

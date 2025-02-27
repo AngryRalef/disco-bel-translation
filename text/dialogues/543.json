@@ -1,0 +1,76 @@
+{
+  "id": "0x0100008F00000534",
+  "title": "APT ORB / electrochem after picking up speed",
+  "description": "Upon picking up the speed, electrochem chimes in. Needs a wa to go away if you give it up to cuno or take it yourself?",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Electrochemistry: \"Take the speed. Take that glorious...\"",
+      "articyId": "0x0100008F0000053C",
+      "text": "Take the speed. Take that glorious stuff. You have it now. You've got it! TAKE IT!",
+      "links": [
+        {
+          "id": 12,
+          "title": "You: \"Let's get fucked up.\"",
+          "articyId": "0x0100008F00000549",
+          "text": "Let's get fucked up.",
+          "links": [
+            {
+              "id": 11,
+              "title": "Electrochemistry: \"FUCKING RIGHT! PUT THAT BOTTLE IN Y...\"",
+              "articyId": "0x0100008F0000055E",
+              "text": "FUCKING RIGHT! PUT THAT BOTTLE IN YOUR HAND AND PARTY DOWN!",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"No. Not right now, anyway. [Discard...\"",
+          "articyId": "0x0100008F0000054F",
+          "text": "No. Not right now, anyway. [Discard thought.]",
+          "links": [
+            {
+              "id": 10,
+              "title": "Electrochemistry: \"Come on. Come on! A little! Just a...\"",
+              "articyId": "0x0100008F00000558",
+              "text": "Come on. Come on! A little! Just a little bit! Whaddya say, huh?",
+              "links": [
+                {
+                  "id": 2,
+                  "title": "You: \"Maybe just a little...\"",
+                  "articyId": "0x0100008F000005A3",
+                  "text": "Maybe just a little...",
+                  "links": [
+                    {
+                      "id": 9,
+                      "title": "Electrochemistry: \"Just a little. Then a lot. Come on,...\"",
+                      "articyId": "0x0100008F00000B6D",
+                      "text": "Just a little. Then a lot. Come on, party boy! Let's get FUCKED!",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 8,
+                  "title": "You: \"I said I discard the thought! [Disc...\"",
+                  "articyId": "0x0100008F000005A9",
+                  "text": "I said I discard the thought! [Discard thought.]",
+                  "links": [
+                    {
+                      "id": 3,
+                      "title": "Electrochemistry: \"Fuck you. You used to be cool. Why...\"",
+                      "articyId": "0x0100008F00000B66",
+                      "text": "Fuck you. You used to be cool. Why can't you just take the bottle and snort snort snort?",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

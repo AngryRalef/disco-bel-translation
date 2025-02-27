@@ -1,0 +1,156 @@
+{
+  "id": "0x010000580000DD97",
+  "title": "LAIR ORB / shot viscal",
+  "description": "You decide that the shot that killed the merc couldn't have come from this bunker.",
+  "dialogueTree": [
+    {
+      "id": 46,
+      "title": "Visual Calculus: \"Could this have been the killer's h...\"",
+      "articyId": "0x010000580000DE45",
+      "text": "Could this have been the killer's hideout, and this narrow window -- the point of origin of the shot that killed the mercenary?",
+      "links": [
+        {
+          "id": 5,
+          "title": "Hand/Eye Coordination: \"This does look like an *embrasure*,...\"",
+          "articyId": "0x0100005800010B07",
+          "text": "This does look like an *embrasure*, a slit made for shooting out of.",
+          "links": [
+            {
+              "id": 36,
+              "title": "You: \"Peek out.\"",
+              "articyId": "0x0100005800010B13",
+              "text": "Peek out.",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "Visual Calculus: \"Outside the window -- another day....\"",
+                  "articyId": "0x0100005800010B1F",
+                  "text": "Outside the window -- another day. The beach sand soaks up the drizzling rain, growing darker and darker.",
+                  "links": [
+                    {
+                      "id": 39,
+                      "title": "You: \"Would this have been a good hideout...\"",
+                      "articyId": "0x0100005800010B73",
+                      "text": "Would this have been a good hideout for a sniper?",
+                      "links": [
+                        {
+                          "id": 16,
+                          "title": "Kim Kitsuragi: \"\"It's a great place to hide, certai...\"",
+                          "articyId": "0x0100005800010BD1",
+                          "text": "\"It's a great place to hide, certainly, but there hasn't been anyone here in ages.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 3,
+                          "title": "Kim Kitsuragi: \"\"It's a great place to hide, certai...\"",
+                          "articyId": "0x0100005800010BD7",
+                          "text": "\"It's a great place to hide, certainly, but there hasn't been anyone in here for ages.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 41,
+                          "title": "Visual Calculus: \"It's a good place to hide, but does...\"",
+                          "articyId": "0x0100005800010BDD",
+                          "text": "It's a good place to hide, but doesn't look like anyone has stayed here in a while.",
+                          "links": []
+                        },
+                        {
+                          "id": 31,
+                          "title": "Visual Calculus: \"It's definitely a good place to hid...\"",
+                          "articyId": "0x0100005800010BE3",
+                          "text": "It's definitely a good place to hide. You barely found it yourself.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 45,
+                      "title": "You: \"Is it feasible to hit a target in t...\"",
+                      "articyId": "0x0100005800010C0C",
+                      "text": "Is it feasible to hit a target in the Whirling-in-Rags from this window? (Conclude.)",
+                      "links": [
+                        {
+                          "id": 6,
+                          "title": "Visual Calculus: \"No, it's not. No matter how you cra...\"",
+                          "articyId": "0x0100005800010BB2",
+                          "text": "No, it's not. No matter how you crane your neck, you can't see the whole of the Whirling-in-Rags, and certainly not the relevant segment of the top floor.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 38,
+                      "title": "You: \"\"Kim, I can't see the Whirling-in-R...\"",
+                      "articyId": "0x0100005800010C13",
+                      "text": "\"Kim, I can't see the Whirling-in-Rags... The shot didn't come from here.\" (Conclude.)",
+                      "links": [
+                        {
+                          "id": 11,
+                          "title": "Kim Kitsuragi: \"\"Indeed. No one could get a clear v...\"",
+                          "articyId": "0x0100005800010C1D",
+                          "text": "\"Indeed. No one could get a clear view. Well, at least we've been thorough. I like thorough.\"",
+                          "links": [
+                            {
+                              "id": 7,
+                              "title": "Authority: \"The lieutenant's voice betrays a sl...\"",
+                              "articyId": "0x0100005800010C25",
+                              "text": "The lieutenant's voice betrays a slight disappointment, which he glosses over by reasserting control.",
+                              "links": [
+                                {
+                                  "id": 17,
+                                  "title": "Kim Kitsuragi: \"\"In fact -- I think we're done with...\"",
+                                  "articyId": "0x0100000600015003",
+                                  "text": "\"In fact -- I think we're done with this bunker.\" He looks to the exit. \"After you, officer.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 32,
+                  "title": "Visual Calculus: \"Outside the window -- desolation. S...\"",
+                  "articyId": "0x0100005800010B25",
+                  "text": "Outside the window -- desolation. Snow falls softly onto the coastal sand, where it melts almost instantly. On rooftops, it lingers.",
+                  "links": []
+                },
+                {
+                  "id": 4,
+                  "title": "Visual Calculus: \"Outside the window -- the day is cl...\"",
+                  "articyId": "0x0100005800010B2B",
+                  "text": "Outside the window -- the day is clear, and as mild as can be in early spring.",
+                  "links": []
+                },
+                {
+                  "id": 37,
+                  "title": "Visual Calculus: \"You hear the rain's susurration acr...\"",
+                  "articyId": "0x0100005800010B31",
+                  "text": "You hear the rain's susurration across the sea water. The night shudders.",
+                  "links": []
+                },
+                {
+                  "id": 19,
+                  "title": "Visual Calculus: \"In the darkness, you can barely mak...\"",
+                  "articyId": "0x0100005800010B37",
+                  "text": "In the darkness, you can barely make out the falling snow. It settles, making the night still quieter.",
+                  "links": []
+                },
+                {
+                  "id": 2,
+                  "title": "Visual Calculus: \"The lights of Martinaise shine cool...\"",
+                  "articyId": "0x0100005800010B3D",
+                  "text": "The lights of Martinaise shine coolly in the clear night.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

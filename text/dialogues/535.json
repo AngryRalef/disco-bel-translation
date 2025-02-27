@@ -1,0 +1,285 @@
+{
+  "id": "0x0100008900001BC0",
+  "title": "INVENTORY / FILTHY JACKET",
+  "description": "an inventory interaction so you can't sell the filthy garbage because clothing items cannot be sold, oiii.",
+  "dialogueTree": [
+    {
+      "id": 3,
+      "title": "Filthy Jacket: \"As you hold it in your hands, it ma...\"",
+      "articyId": "0x0100008900001BE2",
+      "text": "As you hold it in your hands, it makes an uncomfortable crunching sound...",
+      "links": [
+        {
+          "id": 23,
+          "title": "You: \"Man, how did this jacket get so dis...\"",
+          "articyId": "0x0100009400000839",
+          "text": "Man, how did this jacket get so disgusting?",
+          "links": [
+            {
+              "id": 38,
+              "title": "Filthy Jacket: \"It's a sordid, filthy tale, not for...\"",
+              "articyId": "0x0100009400000848",
+              "text": "It's a sordid, filthy tale, not for the weak. Are you sure you can stomach it?",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "Composure: \"Some secrets are better left uncove...\"",
+                  "articyId": "0x0100008900001C02",
+                  "text": "Some secrets are better left uncovered. Don't even try, seriously.",
+                  "links": [
+                    {
+                      "id": 24,
+                      "title": "You: \"Think about it.\"",
+                      "articyId": "0x0100009400000718",
+                      "text": "Think about it.",
+                      "links": [
+                        {
+                          "id": 13,
+                          "title": "Filthy Jacket: \"It occurs to you that you're not ev...\"",
+                          "articyId": "0x0100009400000736",
+                          "text": "It occurs to you that you're not even *holding* the jacket itself, but rather the thick crust of jetsam and seagull shit that ensconces it.",
+                          "links": [
+                            {
+                              "id": 39,
+                              "title": "Perception (Smell): \"It smells like a dead sea creature,...\"",
+                              "articyId": "0x0100009400000753",
+                              "text": "It smells like a dead sea creature, tangled in grey strands of seaweed. It must have spent quite some time in the water before the tide deposited it ashore...",
+                              "links": [
+                                {
+                                  "id": 26,
+                                  "title": "You: \"Gross.\"",
+                                  "articyId": "0x0100009400000790",
+                                  "text": "Gross.",
+                                  "links": [
+                                    {
+                                      "id": 41,
+                                      "title": "Composure: \"Why, why did you think about it? Lo...\"",
+                                      "articyId": "0x010000940000079E",
+                                      "text": "Why, why did you think about it? Look at your hands -- They're covered in muck!",
+                                      "links": [
+                                        {
+                                          "id": 27,
+                                          "title": "You: \"Ew, ew, ew! (Flick your hands.)\"",
+                                          "articyId": "0x01000094000007F5",
+                                          "text": "Ew, ew, ew! (Flick your hands.)",
+                                          "links": [
+                                            {
+                                              "id": 22,
+                                              "title": "Composure: \"Now you're just flicking that shit...\"",
+                                              "articyId": "0x01000094000007FB",
+                                              "text": "Now you're just flicking that shit everywhere! This is a disaster. You'll never get the smell out.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 20,
+                                          "title": "You: \"Maybe if I wipe my hands on my pant...\"",
+                                          "articyId": "0x01000094000007A5",
+                                          "text": "Maybe if I wipe my hands on my pants?",
+                                          "links": [
+                                            {
+                                              "id": 11,
+                                              "title": "Composure: \"What? No! Then it'll just be on you...\"",
+                                              "articyId": "0x01000094000007AC",
+                                              "text": "What? No! Then it'll just be on your *pants*. This is a disaster. You'll never get the smell out.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 21,
+                                  "title": "You: \"Okay, but what's the crust *made* o...\"",
+                                  "articyId": "0x0100009400000796",
+                                  "text": "Okay, but what's the crust *made* of?",
+                                  "links": [
+                                    {
+                                      "id": 17,
+                                      "title": "Filthy Jacket: \"Somehow it was carried or dragged t...\"",
+                                      "articyId": "0x01000094000007B3",
+                                      "text": "Somehow it was carried or dragged to the boardwalk, if not by human hands than perhaps the feral dogs that prowl the beaches at night...",
+                                      "links": [
+                                        {
+                                          "id": 40,
+                                          "title": "Visual Calculus: \"The faint impressions of many footp...\"",
+                                          "articyId": "0x0100009400000775",
+                                          "text": "The faint impressions of many footprints are also present, though it's impossible to tell what kind or how many. Suffice to say, the jacket spent some time on the ground before someone draped it over the railing...",
+                                          "links": [
+                                            {
+                                              "id": 34,
+                                              "title": "You: \"Okay, that's pretty disgusting. I'v...\"",
+                                              "articyId": "0x01000094000007BD",
+                                              "text": "Okay, that's pretty disgusting. I've had enough.",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 5,
+                                              "title": "You: \"What happened once someone put it o...\"",
+                                              "articyId": "0x01000094000007C3",
+                                              "text": "What happened once someone put it on the railing?",
+                                              "links": [
+                                                {
+                                                  "id": 28,
+                                                  "title": "Filthy Jacket: \"The crust is hard. This jacket spen...\"",
+                                                  "articyId": "0x01000094000007CB",
+                                                  "text": "The crust is hard. This jacket spent at least a day baking in the sun. Who knows what happened to it then?",
+                                                  "links": [
+                                                    {
+                                                      "id": 30,
+                                                      "title": "Shivers: \"Somewhere, high above the city, a p...\"",
+                                                      "articyId": "0x01000094000007D8",
+                                                      "text": "Somewhere, high above the city, a pair of seagulls trace loops through the air...",
+                                                      "links": [
+                                                        {
+                                                          "id": 25,
+                                                          "title": "Shivers: \"They are like the bombardiers of th...\"",
+                                                          "articyId": "0x01000094000007D2",
+                                                          "text": "They are like the bombardiers of the aerostatic brigades, gliding above a *target-rich environment*...",
+                                                          "links": [
+                                                            {
+                                                              "id": 29,
+                                                              "title": "Shivers: \"All of a sudden, the bomb bay doors...\"",
+                                                              "articyId": "0x01000094000007DE",
+                                                              "text": "All of a sudden, the bomb bay doors open, and their white glittering payload rushes to the ground...",
+                                                              "links": [
+                                                                {
+                                                                  "id": 6,
+                                                                  "title": "Shivers: \"*SPLAT*. An explosion of white on a...\"",
+                                                                  "articyId": "0x01000094000007E4",
+                                                                  "text": "*SPLAT*. An explosion of white on a man's shoe. A curse goes up, but the birds do not hear.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 15,
+                                                                      "title": "You: \"Why did I just spend all this time...\"",
+                                                                      "articyId": "0x0100009400000819",
+                                                                      "text": "Why did I just spend all this time thinking about seagull shit?",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 14,
+                                                                      "title": "You: \"I feel like I really understand thi...\"",
+                                                                      "articyId": "0x0100009400000813",
+                                                                      "text": "I feel like I really understand this jacket now. [Put the jacket away.]",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 36,
+                                                          "title": "You: \"I'm just going to pretend I didn't...\"",
+                                                          "articyId": "0x010000940000080B",
+                                                          "text": "I'm just going to pretend I didn't think about any of this.",
+                                                          "links": [
+                                                            {
+                                                              "id": 37,
+                                                              "title": "Composure: \"It's too late! You've already thoug...\"",
+                                                              "articyId": "0x010000940000082A",
+                                                              "text": "It's too late! You've already thought about it. And now your hands are covered in muck!",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "title": "You: \"Don't think about it.\"",
+                      "articyId": "0x010000940000071E",
+                      "text": "Don't think about it.",
+                      "links": [
+                        {
+                          "id": 12,
+                          "title": "Filthy Jacket: \"Good choice. The less you think abo...\"",
+                          "articyId": "0x0100009400000744",
+                          "text": "Good choice. The less you think about the jacket, the better.",
+                          "links": [
+                            {
+                              "id": 4,
+                              "title": "You: \"On second thought, let's *do* think...\"",
+                              "articyId": "0x010000940000074C",
+                              "text": "On second thought, let's *do* think about it.",
+                              "links": []
+                            },
+                            {
+                              "id": 31,
+                              "title": "You: \"[Put the filthy jacket away.]\"",
+                              "articyId": "0x0100008900001C0E",
+                              "text": "[Put the filthy jacket away.]",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"Why did I fondle the shit jacket ag...\"",
+          "articyId": "0x0100000400015EA3",
+          "text": "Why did I fondle the shit jacket again?",
+          "links": [
+            {
+              "id": 16,
+              "title": "Filthy Jacket: \"There is no why.\"",
+              "articyId": "0x0100000400015EA9",
+              "text": "There is no why.",
+              "links": [
+                {
+                  "id": 33,
+                  "title": "You: \"Let's just put it away then.\"",
+                  "articyId": "0x0100000400015EB1",
+                  "text": "Let's just put it away then.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "You: \"Let's not think about that right no...\"",
+          "articyId": "0x010000940000083F",
+          "text": "Let's not think about that right now. [Put the filthy jacket away.]",
+          "links": [
+            {
+              "id": 10,
+              "title": "Filthy Jacket: \"It's probably better that way.\"",
+              "articyId": "0x0100009400000822",
+              "text": "It's probably better that way.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

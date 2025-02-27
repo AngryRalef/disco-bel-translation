@@ -1,0 +1,232 @@
+{
+  "id": "0x0100002F000118A3",
+  "title": "BOOKSTORE / BIOGRAPHIES",
+  "description": "Shelf full of biographies of famous people.",
+  "dialogueTree": [
+    {
+      "id": 27,
+      "title": "Shelf of Biographies: \"Shelves full of biographies of *fam...\"",
+      "articyId": "0x0100006B00000C39",
+      "text": "Shelves full of biographies of *famous people*, whoever they are.",
+      "links": [
+        {
+          "id": 22,
+          "title": "You: \"\"Storekeep, anything of note in thi...\"",
+          "articyId": "0x0100002F00003361",
+          "text": "\"Storekeep, anything of note in this shelf?\"",
+          "links": [
+            {
+              "id": 12,
+              "title": "Plaisance: \"\"I would say...\" The woman hums to...\"",
+              "articyId": "0x0100002F0000351F",
+              "text": "\"I would say...\" The woman hums to herself. \"'The Greatest Innocence.' Yes, most certainly. It's an important educational tool, delving into the depths of history, religion, and their relation to *innocentic power*.\"",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "You: \"\"Who or what is an innocence?\"\"",
+                  "articyId": "0x0100002F0000473D",
+                  "text": "\"Who or what is an innocence?\"",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Plaisance: \"\"A very influential historical figu...\"",
+                      "articyId": "0x0100002F00004737",
+                      "text": "\"A very influential historical figure, but surely I don't have to tell you that.\" She waves her hand, as if casting aside the thought. \"You're a law officer and law officers have at least *some* education.\"",
+                      "links": [
+                        {
+                          "id": 19,
+                          "title": "Plaisance: \"\"The book is also very daring. The...\"",
+                          "articyId": "0x0100002F0000D86A",
+                          "text": "\"The book is also very daring. The author aims to re-examine the universal understandings of the innocentic system, creating a fresh vantage point and a shift in the tired order of things.\"",
+                          "links": [
+                            {
+                              "id": 30,
+                              "title": "You: \"\"I thought it was about which of th...\"",
+                              "articyId": "0x0100002F0000D88F",
+                              "text": "\"I thought it was about which of these... innocences... is the coolest and greatest?\"",
+                              "links": [
+                                {
+                                  "id": 17,
+                                  "title": "Plaisance: \"\"Perhaps for a layman!\" She scoffs....\"",
+                                  "articyId": "0x0100002F0000D896",
+                                  "text": "\"Perhaps for a layman!\" She scoffs. \"Deep analysis is necessary to peel back the multi-layered meanings.\"",
+                                  "links": [
+                                    {
+                                      "id": 31,
+                                      "title": "Conceptualization: \"Do her words seem vague and abstrac...\"",
+                                      "articyId": "0x0100002F0000D8A1",
+                                      "text": "Do her words seem vague and abstract to you?",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 40,
+                              "title": "You: \"\"So you recommend it?\"\"",
+                              "articyId": "0x0100002F0000D872",
+                              "text": "\"So you recommend it?\"",
+                              "links": [
+                                {
+                                  "id": 35,
+                                  "title": "Plaisance: \"\"Certainly. It's prudent for a pers...\"",
+                                  "articyId": "0x0100002F0000D879",
+                                  "text": "\"Certainly. It's prudent for a person to have at least an elementary understanding of history and society. Imagine the chaos we'd be in otherwise.\"",
+                                  "links": [
+                                    {
+                                      "id": 39,
+                                      "title": "Inland Empire: \"You feel like you should get this o...\"",
+                                      "articyId": "0x010000060001BDCA",
+                                      "text": "You feel like you should get this one. Definitely. It's *important* somehow. There is something personal inside...",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 29,
+                  "title": "You: \"\"Great. I don't need to know any mo...\"",
+                  "articyId": "0x0100006B00000C2D",
+                  "text": "\"Great. I don't need to know any more.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"Look through the display of books.\"",
+          "articyId": "0x0100002F00011A6E",
+          "text": "Look through the display of books.",
+          "links": [
+            {
+              "id": 6,
+              "title": "Shelf of Biographies: \"Browsing through all the books with...\"",
+              "articyId": "0x0100006B00000999",
+              "text": "Browsing through all the books with all their names makes your head spin. None of these seem important or relevant. It's all just vapid egoism!",
+              "links": [
+                {
+                  "id": 41,
+                  "title": "Shelf of Biographies: \"Suddenly, a particularly odd title...\"",
+                  "articyId": "0x0100002F000118AE",
+                  "text": "Suddenly, a particularly odd title catches your eye. It reads: \"High Speed Love: the Tragic True Love Story of Jacob Irw and Alfie Deletraz\" by one Cecilia Averbrook.",
+                  "links": [
+                    {
+                      "id": 18,
+                      "title": "You: \"What's it about?\"",
+                      "articyId": "0x010000060001BDDB",
+                      "text": "What's it about?",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Shelf of Biographies: \"\"High Speed Love\" chronicles the ro...\"",
+                          "articyId": "0x010000060001BDE2",
+                          "text": "\"High Speed Love\" chronicles the romance between two of the finest TipTop Tournée racers in history. One of them is the madcap driver Jacob Irw. His blond mane graces the cover.",
+                          "links": [
+                            {
+                              "id": 4,
+                              "title": "Shelf of Biographies: \"Next to Irw's life story, you see a...\"",
+                              "articyId": "0x010000060001BDE9",
+                              "text": "Next to Irw's life story, you see a slim biography of an Occidental rock star called \"The Antistar\". He's famous for shooting morphine into one of his eyeballs, and cocaine into the other!",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Shelf of Biographies: \"Next to that, Revacholian radio-per...\"",
+                                  "articyId": "0x010000060001BDF0",
+                                  "text": "Next to that, Revacholian radio-personality Guillaume Bevy stands in front of a run down drug den. He's a permanent fixture on Channel 8, reporting on real life crime and ruining cops' days...",
+                                  "links": [
+                                    {
+                                      "id": 10,
+                                      "title": "Plaisance: \"\"I really *must* insist you buy one...\"",
+                                      "articyId": "0x010000060001BDF7",
+                                      "text": "\"I really *must* insist you buy one of the books.\" You're interrupted by the shopkeep. \"Reading them is not for free. Do still browse though. But not too *long*.\"",
+                                      "links": [
+                                        {
+                                          "id": 25,
+                                          "title": "Suggestion: \"She understands she has erred again...\"",
+                                          "articyId": "0x010000060001BE03",
+                                          "text": "She understands she has erred against the customer and immediately corrects course.",
+                                          "links": [
+                                            {
+                                              "id": 34,
+                                              "title": "Plaisance: \"\"I'm sorry, I did not mean to rush...\"",
+                                              "articyId": "0x010000060001BE0B",
+                                              "text": "\"I'm sorry, I did not mean to rush you. You *are* browsing. Go ahead. Take your time. Time is commerce.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "You: \"\"I'm interested in that 'Greatest I...\"",
+          "articyId": "0x0100002F00011A85",
+          "text": "\"I'm interested in that 'Greatest Innocence' book.\"",
+          "links": [
+            {
+              "id": 23,
+              "title": "Plaisance: \"\"A true cultural touchstone.\" She n...\"",
+              "articyId": "0x0100002F00003DA9",
+              "text": "\"A true cultural touchstone.\" She nods. \"Enjoy the read.\"",
+              "links": [
+                {
+                  "id": 16,
+                  "title": "Tutorial Agent: \"You've acquired an interactable ite...\"",
+                  "articyId": "0x0100005300025AE7",
+                  "text": "You've acquired an interactable item. Investigate this item further by going to the INTERACT tab in your INVENTORY.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002F00011A62",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Shelf of Biographies: \"The plaque on the shelf reads: \"Bio...\"",
+      "articyId": "0x0100002F00011A90",
+      "text": "The plaque on the shelf reads: \"Biographies of Famous People.\" You see a large variety of names, none of which ring a bell.",
+      "links": [
+        {
+          "id": 26,
+          "title": "Composure: \"You will attain a place on this she...\"",
+          "articyId": "0x0100006B00000C40",
+          "text": "You will attain a place on this shelf one day... or *die trying*!",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

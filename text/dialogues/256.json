@@ -1,0 +1,376 @@
+{
+  "id": "0x01000045000128ED",
+  "title": "INVENTORY / LELY TAPE",
+  "description": "tape now interactable in inventory, if you have the boombox. Lely-Kortenaer banter for interrogate Klaasje sequence",
+  "dialogueTree": [
+    {
+      "id": 31,
+      "title": "The Great Doorgunner Megamix: \"The porta-reel is just what you nee...\"",
+      "articyId": "0x010000210000318F",
+      "text": "The porta-reel is just what you needed -- the reels attach to the apparatus with a satisfying click. The tape is routed behind the magnetic reader.",
+      "links": [
+        {
+          "id": 34,
+          "title": "You: \"Play the tape.\"",
+          "articyId": "0x0100004500012968",
+          "text": "Play the tape.",
+          "links": [
+            {
+              "id": 39,
+              "title": "The Great Doorgunner Megamix: \"You push 'Commencer' and the tape s...\"",
+              "articyId": "0x01000045000129C1",
+              "text": "You push 'Commencer' and the tape starts spinning. Violent static and machine sounds fill the air....",
+              "links": [
+                {
+                  "id": 48,
+                  "title": "The Great Doorgunner Megamix: \"\"...this isn't Revachol,\" a man's v...\"",
+                  "articyId": "0x01000045000129E4",
+                  "text": "\"...this isn't Revachol,\" a man's voice says. \"This is a fucking village, I can almost see the elephants.\" Another loud screech. Some kind of machinery.",
+                  "links": [
+                    {
+                      "id": 40,
+                      "title": "Kim Kitsuragi: \"\"The harbour.\" The lieutenant takes...\"",
+                      "articyId": "0x01000045000129EA",
+                      "text": "\"The harbour.\" The lieutenant takes out his notebook. \"That's the sound of a Kvalsund crane.\"",
+                      "links": [
+                        {
+                          "id": 37,
+                          "title": "Interfacing: \"He's right.\"",
+                          "articyId": "0x0100004500012B6B",
+                          "text": "He's right.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 36,
+                      "title": "Interfacing: \"The Kvalsund crane in the harbour....\"",
+                      "articyId": "0x0100004500012B63",
+                      "text": "The Kvalsund crane in the harbour. Its screaming is distinctly apocalyptic.",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "The Great Doorgunner Megamix: \"More static. \"When this shit is don...\"",
+                          "articyId": "0x01000045000129F2",
+                          "text": "More static. \"When this shit is done I'm gonna tear that place up, Soldier of the Apocalypse style -- kill shit, dogs and chickens too...\"",
+                          "links": [
+                            {
+                              "id": 61,
+                              "title": "The Great Doorgunner Megamix: \"\"Gonna rent a room, Korty, a real n...\"",
+                              "articyId": "0x0100004500012F57",
+                              "text": "\"Gonna rent a room, Korty, a real nice one...\" This part is unintelligible. \"I don't give a shit, I'm fucking done. I'm done mentally.\"",
+                              "links": [
+                                {
+                                  "id": 49,
+                                  "title": "The Great Doorgunner Megamix: \"\"I'll fucking do them all in, rape...\"",
+                                  "articyId": "0x0100004500012A0D",
+                                  "text": "\"I'll fucking do them all in, rape that disco cunt on the counter. You know, the dancer whore upstairs. Do it Co Hoi-style.\"",
+                                  "links": [
+                                    {
+                                      "id": 17,
+                                      "title": "The Great Doorgunner Megamix: \"\"Never did get that taste out of my...\"",
+                                      "articyId": "0x0100004500012F51",
+                                      "text": "\"Never did get that taste out of my mouth...\" A click -- then silence. The rest of the tape is empty.",
+                                      "links": [
+                                        {
+                                          "id": 44,
+                                          "title": "Kim Kitsuragi: \"The lieutenant presses the button m...\"",
+                                          "articyId": "0x0100008F000037C4",
+                                          "text": "The lieutenant presses the button marked 'Arrêter' on your porta-reel; the tape stops spinning.",
+                                          "links": [
+                                            {
+                                              "id": 68,
+                                              "title": "You: \"\"What was that at the very end? Sil...\"",
+                                              "articyId": "0x0100004500012A49",
+                                              "text": "\"What was that at the very end? Silence?\"",
+                                              "links": [
+                                                {
+                                                  "id": 41,
+                                                  "title": "Kim Kitsuragi: \"\"End of recording.\"\"",
+                                                  "articyId": "0x0100004500012A5C",
+                                                  "text": "\"End of recording.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 30,
+                                              "title": "You: \"\"What do you think?\"\"",
+                                              "articyId": "0x0100004500012B84",
+                                              "text": "\"What do you think?\"",
+                                              "links": [
+                                                {
+                                                  "id": 78,
+                                                  "title": "Kim Kitsuragi: \"\"It seemed authentic enough. Probab...\"",
+                                                  "articyId": "0x0100004500012B8B",
+                                                  "text": "\"It seemed authentic enough. Probably recorded off their shortwave, then *edited* to seem more incriminating. He sounded like he was on patrol around the harbour walls.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 45,
+                                                      "title": "You: \"\"I agree. He also sounded inebriate...\"",
+                                                      "articyId": "0x0100004500012AD5",
+                                                      "text": "\"I agree. He also sounded inebriated.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 75,
+                                                          "title": "Kim Kitsuragi: \"\"Still...\" The lieutenant looks at...\"",
+                                                          "articyId": "0x0100004500012AE3",
+                                                          "text": "\"Still...\" The lieutenant looks at the tape. You are familiar with this look now -- it's his *look of suspicion*.",
+                                                          "links": [
+                                                            {
+                                                              "id": 56,
+                                                              "title": "Esprit de Corps: \"There's more going on here than we...\"",
+                                                              "articyId": "0x010000060001AD88",
+                                                              "text": "There's more going on here than we know.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 46,
+                                                      "title": "You: \"\"But he *did* say he's going to do...\"",
+                                                      "articyId": "0x0100004500012ADB",
+                                                      "text": "\"But he *did* say he's going to do it. You can't edit words into someone's mouth.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 29,
+                                                          "title": "Kim Kitsuragi: \"\"Indeed, but...\" The lieutenant loo...\"",
+                                                          "articyId": "0x0100004500012AE9",
+                                                          "text": "\"Indeed, but...\" The lieutenant looks at the tape. You are familiar with this look now -- it's his *look of suspicion*.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 47,
+                                                      "title": "You: \"\"I think he sounded all right. Just...\"",
+                                                      "articyId": "0x0100003700000173",
+                                                      "text": "\"I think he sounded all right. Just letting off some steam.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 27,
+                                                          "title": "Kim Kitsuragi: \"\"Yes,\" he says incredulously. \"It w...\"",
+                                                          "articyId": "0x010000370000017A",
+                                                          "text": "\"Yes,\" he says incredulously. \"It was just *locker room talk*.\" The lieutenant looks at the tape. You are familiar with this look now -- it's his *look of suspicion*.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 35,
+                                              "title": "You: \"\"Who's this *Korty*?\"\"",
+                                              "articyId": "0x0100004500012A4F",
+                                              "text": "\"Who's this *Korty*?\"",
+                                              "links": [
+                                                {
+                                                  "id": 9,
+                                                  "title": "Kim Kitsuragi: \"\"Korty could be short for 'Kortenae...\"",
+                                                  "articyId": "0x0100004500012A6E",
+                                                  "text": "\"Korty could be short for 'Kortenaer'. One of the other mercenaries, the one he was talking to. The third one must be relaying the signal.\"",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 10,
+                                                  "title": "Kim Kitsuragi: \"\"One of the other mercenaries I thi...\"",
+                                                  "articyId": "0x0100004500012A74",
+                                                  "text": "\"One of the other mercenaries I think. The one he was talking to. A friend of his?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 20,
+                                                      "title": "Half Light: \"Bad news.\"",
+                                                      "articyId": "0x010000060001AD92",
+                                                      "text": "Bad news.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 69,
+                                              "title": "You: \"\"What's Co Hoi?\"\"",
+                                              "articyId": "0x0100004500012AA1",
+                                              "text": "\"What's Co Hoi?\"",
+                                              "links": [
+                                                {
+                                                  "id": 70,
+                                                  "title": "Kim Kitsuragi: \"\"A village on the Samaran isola, in...\"",
+                                                  "articyId": "0x0100004500012AA8",
+                                                  "text": "\"A village on the Samaran isola, in South Safre. Graad committed war crimes there -- the kind of thing he talks about.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 60,
+                                                      "title": "Encyclopedia: \"The South Safre conflict is an ongo...\"",
+                                                      "articyId": "0x0100004500012B00",
+                                                      "text": "The South Safre conflict is an ongoing proxy war between Graad and Safre. It has been hot for 12 years with the atrocities piling on. Mostly committed by the Graad.",
+                                                      "links": [
+                                                        {
+                                                          "id": 77,
+                                                          "title": "You: \"\"You think he was there?\"",
+                                                          "articyId": "0x0100004500012AAF",
+                                                          "text": "\"You think he was there?",
+                                                          "links": [
+                                                            {
+                                                              "id": 2,
+                                                              "title": "Kim Kitsuragi: \"\"No. The tattoos did not say so. Th...\"",
+                                                              "articyId": "0x0100004500012AC2",
+                                                              "text": "\"No. The tattoos did not say so. They said he served on Semenine. I think Co Hoi is merc talk for atrocity.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 28,
+                                                                  "title": "Rhetoric: \"A symbol of *Soldier of the Apocaly...\"",
+                                                                  "articyId": "0x0100004500012ACC",
+                                                                  "text": "A symbol of *Soldier of the Apocalypse*-style conduct in a civil environment.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 32,
+                                                              "title": "Kim Kitsuragi: \"\"Who knows? Maybe the tattoos would...\"",
+                                                              "articyId": "0x0100004500012ABC",
+                                                              "text": "\"Who knows? Maybe the tattoos would have an answer. Or maybe Co Hoi is just merc talk for atrocity. Slaughter.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 51,
+                                              "title": "You: \"\"Okay then. What now?\" (Remove the...\"",
+                                              "articyId": "0x0100004500012A55",
+                                              "text": "\"Okay then. What now?\" (Remove the tape.)",
+                                              "links": [
+                                                {
+                                                  "id": 24,
+                                                  "title": "Kim Kitsuragi: \"\"I think we've got a few more quest...\"",
+                                                  "articyId": "0x0100004500012B09",
+                                                  "text": "\"I think we've got a few more questions for Klaasje, don't you?\" He looks around. \"This seems to contradict her testimony. At least to some degree.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 42,
+                                          "title": "Esprit de Corps: \"Somewhere between the GRIH and Le C...\"",
+                                          "articyId": "0x0100004500012CB7",
+                                          "text": "Somewhere between the GRIH and Le Cycle, the good lieutenant steps out of his Kineema. A brisk, chill wind greets him. You get the feeling he should have been here for this. Listen again when he's here.",
+                                          "links": [
+                                            {
+                                              "id": 25,
+                                              "title": "Esprit de Corps: \"The lieutenant is out there somewhe...\"",
+                                              "articyId": "0x0100008F000029E6",
+                                              "text": "The lieutenant is out there somewhere. Doing something. You get the feeling he should have been here for this. Listen again when he's here.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "You: \"Play the tape.\"",
+          "articyId": "0x0100000200005BBD",
+          "text": "Play the tape.",
+          "links": [
+            {
+              "id": 12,
+              "title": "Esprit de Corps: \"Not so fast. Somewhere between the...\"",
+              "articyId": "0x0100000200005BC3",
+              "text": "Not so fast. Somewhere between the GRIH and Le Cycle, the good lieutenant steps out of his Kineema. A brisk, chill wind greets him. You get the feeling he should be here for this. Listen when he's here.",
+              "links": [
+                {
+                  "id": 33,
+                  "title": "Esprit de Corps: \"Not so fast. The lieutenant is out...\"",
+                  "articyId": "0x0100000200005BC9",
+                  "text": "Not so fast. The lieutenant is out there somewhere. Doing something. You get the feeling he should be here for this. Listen when he's here.",
+                  "links": [
+                    {
+                      "id": 26,
+                      "title": "You: \"Take out the tape.\"",
+                      "articyId": "0x010000210000319D",
+                      "text": "Take out the tape.",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "The Great Doorgunner Megamix: \"As you take out the tape, the boomb...\"",
+                          "articyId": "0x01000021000031A4",
+                          "text": "As you take out the tape, the boombox tunes itself back to the cheery radio again, spewing out beats like it's a Friday night.",
+                          "links": [
+                            {
+                              "id": 18,
+                              "title": "Empathy: \"The contrast feels chilly -- inappr...\"",
+                              "articyId": "0x01000021000031AB",
+                              "text": "The contrast feels chilly -- inappropriate even.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "You: \"Don't play the tape. [Put porta-ree...\"",
+          "articyId": "0x0100006B0000233D",
+          "text": "Don't play the tape. [Put porta-reel away.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "The Great Doorgunner Megamix: \"The porta-reel is just what you nee...\"",
+      "articyId": "0x0100006B00002337",
+      "text": "The porta-reel is just what you needed -- the reels attach to the apparatus with a satisfying click. The tape is routed behind the magnetic reader.",
+      "links": []
+    },
+    {
+      "id": 52,
+      "title": "The Great Doorgunner Megamix: \"You stare at the Great Doorgunner M...\"",
+      "articyId": "0x0100006B0000202E",
+      "text": "You stare at the Great Doorgunner Megamix. If only you had a boombox, you would be able to play Titus' tape.",
+      "links": [
+        {
+          "id": 74,
+          "title": "Inland Empire: \"The tape feels ominous... Upon it,...\"",
+          "articyId": "0x0100006B0000204D",
+          "text": "The tape feels ominous... Upon it, the dead speak. Respect the tape!",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

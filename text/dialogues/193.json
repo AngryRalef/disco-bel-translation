@@ -1,0 +1,1374 @@
+{
+  "id": "0x0100002F0000FC47",
+  "title": "BOARDWALK / THE PIGS",
+  "description": "The Pigs! Evrart arranges you to meet the woman who has been posing as a police officer. She's carrying an attachment of sirens and police lights. She's got your gun.",
+  "dialogueTree": [
+    {
+      "id": 202,
+      "title": "The Pigs: \"The woman stands, slumped. She look...\"",
+      "articyId": "0x0100006B0000366C",
+      "text": "The woman stands, slumped. She looks catatonic under her mountain of RCM paraphernalia. Nothing more to do here.",
+      "links": []
+    },
+    {
+      "id": 183,
+      "title": "The Pigs: \"The woman stands, slumped. She look...\"",
+      "articyId": "0x0100005A00010E50",
+      "text": "The woman stands, slumped. She looks catatonic under her mountain of RCM paraphernalia.",
+      "links": [
+        {
+          "id": 40,
+          "title": "Perception (Sight): \"Is one of those things a... police...\"",
+          "articyId": "0x010000060001D8DF",
+          "text": "Is one of those things a... police cap?",
+          "links": [
+            {
+              "id": 238,
+              "title": "Electrochemistry: \"There were narcotics in there too....\"",
+              "articyId": "0x010000060001D8FE",
+              "text": "There were narcotics in there too. You're thinking of taking them? Do!",
+              "links": []
+            },
+            {
+              "id": 289,
+              "title": "You: \"Shake her shoulder.\"",
+              "articyId": "0x0100006B00003673",
+              "text": "Shake her shoulder.",
+              "links": [
+                {
+                  "id": 37,
+                  "title": "The Pigs: \"The old woman doesn't react to your...\"",
+                  "articyId": "0x0100006B00003823",
+                  "text": "The old woman doesn't react to your touch.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 184,
+              "title": "You: \"Pick up the RCM cap.\"",
+              "articyId": "0x0100006B00003678",
+              "text": "Pick up the RCM cap.",
+              "links": [
+                {
+                  "id": 36,
+                  "title": "The Pigs: \"She doesn't even flinch as you reac...\"",
+                  "articyId": "0x0100006B0000381D",
+                  "text": "She doesn't even flinch as you reach out and disentangle the familiar-looking lieutenant's cap from her mountain of RCM paraphernalia.",
+                  "links": [
+                    {
+                      "id": 136,
+                      "title": "Kim Kitsuragi: \"\"Oh. Is that yours?\"\"",
+                      "articyId": "0x0100006B00003869",
+                      "text": "\"Oh. Is that yours?\"",
+                      "links": [
+                        {
+                          "id": 57,
+                          "title": "Esprit de Corps: \"It's hard to say. It's been so long...\"",
+                          "articyId": "0x010000060001D8E7",
+                          "text": "It's hard to say. It's been so long since you wore yours.",
+                          "links": [
+                            {
+                              "id": 271,
+                              "title": "You: \"\"I think so.\"\"",
+                              "articyId": "0x0100006B00003871",
+                              "text": "\"I think so.\"",
+                              "links": [
+                                {
+                                  "id": 159,
+                                  "title": "Kim Kitsuragi: \"The lieutenant nods.\"",
+                                  "articyId": "0x0100006B0000387F",
+                                  "text": "The lieutenant nods.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 104,
+                              "title": "You: \"\"Maybe. Probably. You know me.\"\"",
+                              "articyId": "0x0100006B00003876",
+                              "text": "\"Maybe. Probably. You know me.\"",
+                              "links": [
+                                {
+                                  "id": 105,
+                                  "title": "Kim Kitsuragi: \"\"It's your hat.\" The lieutenant nod...\"",
+                                  "articyId": "0x0100006B00003884",
+                                  "text": "\"It's your hat.\" The lieutenant nods.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 264,
+                              "title": "You: \"\"Mine? No. It's ours, the RCM's.\"\"",
+                              "articyId": "0x0100000700015115",
+                              "text": "\"Mine? No. It's ours, the RCM's.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 235,
+              "title": "You: \"Confiscate the narcotics. (Wink!)\"",
+              "articyId": "0x0100006B000037F1",
+              "text": "Confiscate the narcotics. (Wink!)",
+              "links": [
+                {
+                  "id": 236,
+                  "title": "The Pigs: \"You take the phial of pyrholidon an...\"",
+                  "articyId": "0x0100006B0000380E",
+                  "text": "You take the phial of pyrholidon and the bottle of speed. As evidence, obviously.",
+                  "links": [
+                    {
+                      "id": 86,
+                      "title": "Logic: \"She didn't consume them. She didn't...\"",
+                      "articyId": "0x010000060001D8F1",
+                      "text": "She didn't consume them. She didn't look high. She 'confiscated' them, a little like you are doing now.",
+                      "links": [
+                        {
+                          "id": 120,
+                          "title": "Kim Kitsuragi: \"\"You might not want to take those.\"...\"",
+                          "articyId": "0x0100006B00003901",
+                          "text": "\"You might not want to take those.\" The lieutenant states firmly. \"You seem to have a slight... problem...\"",
+                          "links": [
+                            {
+                              "id": 169,
+                              "title": "Volition: \"Listen to him. For once.\"",
+                              "articyId": "0x010000060001D91A",
+                              "text": "Listen to him. For once.",
+                              "links": [
+                                {
+                                  "id": 160,
+                                  "title": "You: \"\"Fine, you take them then.\"\"",
+                                  "articyId": "0x0100006B000038D3",
+                                  "text": "\"Fine, you take them then.\"",
+                                  "links": [
+                                    {
+                                      "id": 76,
+                                      "title": "Kim Kitsuragi: \"\"Thank you.\" He pockets the drugs....\"",
+                                      "articyId": "0x0100006B000038F1",
+                                      "text": "\"Thank you.\" He pockets the drugs. \"I'm doing this to help you. We need to focus on the case.\"",
+                                      "links": [
+                                        {
+                                          "id": 168,
+                                          "title": "Empathy: \"He's grateful you did this.\"",
+                                          "articyId": "0x010000060001D911",
+                                          "text": "He's grateful you did this.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 138,
+                                  "title": "You: \"\"I'm *confiscating* these. As evide...\"",
+                                  "articyId": "0x0100006B0000389B",
+                                  "text": "\"I'm *confiscating* these. As evidence.\"",
+                                  "links": [
+                                    {
+                                      "id": 55,
+                                      "title": "Kim Kitsuragi: \"\"Sure.\" The lieutenant gives you hi...\"",
+                                      "articyId": "0x0100006B000038BC",
+                                      "text": "\"Sure.\" The lieutenant gives you his usual firm stare. \"I guess that's fine.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 290,
+                                  "title": "You: \"\"I need to do this case. I need eve...\"",
+                                  "articyId": "0x0100006B000038A0",
+                                  "text": "\"I need to do this case. I need everything I can get.\"",
+                                  "links": [
+                                    {
+                                      "id": 106,
+                                      "title": "Kim Kitsuragi: \"\"Right.\" The lieutenant gives you h...\"",
+                                      "articyId": "0x0100006B000038B7",
+                                      "text": "\"Right.\" The lieutenant gives you his usual firm stare. Then sighs. \"Okay.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 54,
+                                  "title": "You: \"Say nothing.\"",
+                                  "articyId": "0x0100006B000038A9",
+                                  "text": "Say nothing.",
+                                  "links": [
+                                    {
+                                      "id": 67,
+                                      "title": "Kim Kitsuragi: \"\"I guess I got my answer.\" The lieu...\"",
+                                      "articyId": "0x0100006B000038B0",
+                                      "text": "\"I guess I got my answer.\" The lieutenant gives you his usual firm stare.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 53,
+                          "title": "Kim Kitsuragi: \"The lieutenant coughs. \"You're taki...\"",
+                          "articyId": "0x0100006B0000388F",
+                          "text": "The lieutenant coughs. \"You're taking those, are you?\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 186,
+              "title": "You: \"Leave her be. [Leave.]\"",
+              "articyId": "0x0100006B000037F7",
+              "text": "Leave her be. [Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "title": "The Pigs: \"\"Put your hands where I can see the...\"",
+      "articyId": "0x0100002F0000FCCE",
+      "text": "\"Put your hands where I can see them,\" the ageing woman under a mountain of police paraphernalia mumbles to herself, then notices you and reaches for the megaphone...",
+      "links": [
+        {
+          "id": 241,
+          "title": "The Pigs: \"\"Show me your hands. This is the Pi...\"",
+          "articyId": "0x0100005A00010608",
+          "text": "\"Show me your hands. This is the Pigs. Show me your hands *RIGHT NOW*,\" she screams in the megaphone. \"SHOW ME YOUR HANDS RIGHT NOW!\"",
+          "links": [
+            {
+              "id": 73,
+              "title": "The Pigs: \"Scavenged battery-powered police li...\"",
+              "articyId": "0x0100005A0001058E",
+              "text": "Scavenged battery-powered police lights protrude from her back. The flickering light-show reveals a gun in her shaking hand.",
+              "links": [
+                {
+                  "id": 23,
+                  "title": "Interfacing: \"Her hand is trembling from some sor...\"",
+                  "articyId": "0x0100006B000035AA",
+                  "text": "Her hand is trembling from some sort of neurodegenerative disease.",
+                  "links": [
+                    {
+                      "id": 91,
+                      "title": "Kim Kitsuragi: \"\"Madam! Please drop the firearm imm...\"",
+                      "articyId": "0x0100005A00010502",
+                      "text": "\"Madam! Please drop the firearm immediately!\"",
+                      "links": []
+                    },
+                    {
+                      "id": 153,
+                      "title": "Half Light: \"You shouldn't be here. Something's...\"",
+                      "articyId": "0x0100005A00010571",
+                      "text": "You shouldn't be here. Something's very wrong with her. She's completely out of control.",
+                      "links": [
+                        {
+                          "id": 93,
+                          "title": "You: \"\"Wait, what should we do, Kim?\"\"",
+                          "articyId": "0x0100005A00010631",
+                          "text": "\"Wait, what should we do, Kim?\"",
+                          "links": [
+                            {
+                              "id": 22,
+                              "title": "Kim Kitsuragi: \"\"This is bad,\" the lieutenant whisp...\"",
+                              "articyId": "0x0100005A0001067C",
+                              "text": "\"This is bad,\" the lieutenant whispers. \"Getting your weapon back is the priority. We can't have an unhinged civilian running around with a gun.\"",
+                              "links": [
+                                {
+                                  "id": 240,
+                                  "title": "The Pigs: \"\"COMPLY, OR I WILL LIGHT YOU THE FU...\"",
+                                  "articyId": "0x0100005A000104F3",
+                                  "text": "\"COMPLY, OR I WILL LIGHT YOU THE FUCK UP!\" she continues to yell as she lumbers about.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 218,
+                          "title": "You: \"Raise your hands.\"",
+                          "articyId": "0x0100005A00010524",
+                          "text": "Raise your hands.",
+                          "links": [
+                            {
+                              "id": 48,
+                              "title": "The Pigs: \"\"The man appears to be pulling out...\"",
+                              "articyId": "0x0100006B000035B5",
+                              "text": "\"The man appears to be pulling out an object from his pocket!\" Her eyes fill with terror. \"FEAR UNDER THREAT! FEAR UNDER THREAT!\"",
+                              "links": [
+                                {
+                                  "id": 231,
+                                  "title": "The Pigs: \"\"Superseding event! Split-second de...\"",
+                                  "articyId": "0x0100005A00010616",
+                                  "text": "\"Superseding event! Split-second decision! Get on the ground! GET ON THE GODDAMN GROUND!\"",
+                                  "links": [
+                                    {
+                                      "id": 95,
+                                      "title": "You: \"\"I wasn't taking anything out of my...\"",
+                                      "articyId": "0x0100006B000035CB",
+                                      "text": "\"I wasn't taking anything out of my pocket.\"",
+                                      "links": [
+                                        {
+                                          "id": 60,
+                                          "title": "The Pigs: \"\"GET ON THE GROUND! I WANT YOU ON T...\"",
+                                          "articyId": "0x0100006B000035D9",
+                                          "text": "\"GET ON THE GROUND! I WANT YOU ON THE PAVEMENT RIGHT NOW! THIS IS THE PIGS!\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 155,
+                                      "title": "You: \"\"Ma'am, I just wanna talk to you.\"\"",
+                                      "articyId": "0x0100006B000035D0",
+                                      "text": "\"Ma'am, I just wanna talk to you.\"",
+                                      "links": [
+                                        {
+                                          "id": 6,
+                                          "title": "The Pigs: \"\"Subject yourself to a FULL BODY CA...\"",
+                                          "articyId": "0x0100006B000035DE",
+                                          "text": "\"Subject yourself to a FULL BODY CAVITY SEARCH! PROHIBITED MATERIALS CONCEALED IN NOSTRILS, EARS, MOUTH, NAVEL, URETHRA, FORESKIN, VAGINA, AND RECTUM!\"",
+                                          "links": [
+                                            {
+                                              "id": 233,
+                                              "title": "Empathy: \"In her mind the cavity search is ha...\"",
+                                              "articyId": "0x0100006B0000362E",
+                                              "text": "In her mind the cavity search is happening, as long as she's saying it. It appears the things she says are very real to her.",
+                                              "links": [
+                                                {
+                                                  "id": 232,
+                                                  "title": "Kim Kitsuragi: \"\"Be careful, detective. Don't do an...\"",
+                                                  "articyId": "0x0100006B00003625",
+                                                  "text": "\"Be careful, detective. Don't do anything that might set her off.\"",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 188,
+                                                  "title": "Composure: \"The situation looks bad. Calm yours...\"",
+                                                  "articyId": "0x010000060001D861",
+                                                  "text": "The situation looks bad. Calm yourself. Steady your breathing.",
+                                                  "links": [
+                                                    {
+                                                      "id": 272,
+                                                      "title": "Rhetoric: \"You'll have to go for the gun soone...\"",
+                                                      "articyId": "0x010000060001D867",
+                                                      "text": "You'll have to go for the gun sooner or later... perhaps you can learn crucial facts before you do?",
+                                                      "links": [
+                                                        {
+                                                          "id": 108,
+                                                          "title": "Hand/Eye Coordination: \"This is dangerous. You're 70% certa...\"",
+                                                          "articyId": "0x010000060001D884",
+                                                          "text": "This is dangerous. You're 70% certain you always leave your gun loaded.",
+                                                          "links": [
+                                                            {
+                                                              "id": 199,
+                                                              "title": "You: \"\"We can solve this peacefully, plea...\"",
+                                                              "articyId": "0x0100005A000104D4",
+                                                              "text": "\"We can solve this peacefully, please lower the weapon.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 201,
+                                                                  "title": "The Pigs: \"\"OFFICER IN NEED OF ASSISTANCE!\" He...\"",
+                                                                  "articyId": "0x0100005A00010627",
+                                                                  "text": "\"OFFICER IN NEED OF ASSISTANCE!\" Her eyes dart between you and Kim. \"SUSPECT AT LARGE, GET ON THE GROUND!\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 129,
+                                                                      "title": "Kim Kitsuragi: \"\"Ma'am, please...\" The lieutenant i...\"",
+                                                                      "articyId": "0x0100005A000105CA",
+                                                                      "text": "\"Ma'am, please...\" The lieutenant is trying to maintain eye-contact. \"We want to help you, but you need to lower that weapon.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 247,
+                                                                          "title": "Half Light: \"Doesn't want to hurt her?! This is...\"",
+                                                                          "articyId": "0x0100007B00002669",
+                                                                          "text": "Doesn't want to hurt her?! This is flight or fight -- do or die.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 4,
+                                                                              "title": "You: \"\"Let's just talk, alright?\"\"",
+                                                                              "articyId": "0x0100005A00010772",
+                                                                              "text": "\"Let's just talk, alright?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 3,
+                                                                                  "title": "The Pigs: \"\"Disturbance reported, authorize de...\"",
+                                                                                  "articyId": "0x0100005A00010621",
+                                                                                  "text": "\"Disturbance reported, authorize deadly force. SECTOR, TAKE THE SHOT!\" Her head snaps at you. \"BIG RED KEY, BIG RED KEY!\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 193,
+                                                                                      "title": "Encyclopedia: \"Big red key? That's code for the ba...\"",
+                                                                                      "articyId": "0x010000070001366F",
+                                                                                      "text": "Big red key? That's code for the battering ram. Cop talk. You know this.",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 85,
+                                                                                          "title": "Empathy: \"What happened to make her like this...\"",
+                                                                                          "articyId": "0x0100007B00002670",
+                                                                                          "text": "What happened to make her like this?",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 149,
+                                                                                              "title": "Inland Empire: \"Loneliness.\"",
+                                                                                              "articyId": "0x0100000700014314",
+                                                                                              "text": "Loneliness.",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 72,
+                                                                                                  "title": "Interfacing: \"Yes, sure. But also -- in a less ab...\"",
+                                                                                                  "articyId": "0x0100000700014324",
+                                                                                                  "text": "Yes, sure. But also -- in a less abstract way -- the neurodegenerative disease I mentioned earlier.",
+                                                                                                  "links": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": 263,
+                                                                                                  "title": "Interfacing: \"Again, a neurodegenerative disease.\"",
+                                                                                                  "articyId": "0x01000007000150BF",
+                                                                                                  "text": "Again, a neurodegenerative disease.",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 123,
+                                                                              "title": "You: \"\"That's it, you're under arrest!\"\"",
+                                                                              "articyId": "0x0100000700013526",
+                                                                              "text": "\"That's it, you're under arrest!\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 252,
+                                                                                  "title": "Kim Kitsuragi: \"\"You're making it worse, officer,\"...\"",
+                                                                                  "articyId": "0x010000070001352E",
+                                                                                  "text": "\"You're making it worse, officer,\" the lieutenant says quietly. His eyes never leave the woman's face.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 266,
+                                                                              "title": "You: \"\"Blow her away, lieutenant!\"\"",
+                                                                              "articyId": "0x0100005A00010777",
+                                                                              "text": "\"Blow her away, lieutenant!\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 74,
+                                                                                  "title": "Kim Kitsuragi: \"\"You're making it worse, officer,\"...\"",
+                                                                                  "articyId": "0x0100005A00010781",
+                                                                                  "text": "\"You're making it worse, officer,\" the lieutenant says quietly. His eyes never leave the woman's face.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 2,
+                                                              "title": "You: \"\"Ma'am, I'm here to help. Tell me w...\"",
+                                                              "articyId": "0x0100005A000104D9",
+                                                              "text": "\"Ma'am, I'm here to help. Tell me what's wrong.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 112,
+                                                                  "title": "The Pigs: \"The woman looks at you, but through...\"",
+                                                                  "articyId": "0x0100005A0001051B",
+                                                                  "text": "The woman looks at you, but through you. Like you don't exist. Her eyes gleam feverishly and the rotating police-beacon lights reveal deep scratch marks on her cheeks.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 27,
+                                                                      "title": "Visual Calculus: \"Recent. Self-inflicted.\"",
+                                                                      "articyId": "0x0100000700013539",
+                                                                      "text": "Recent. Self-inflicted.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 209,
+                                                                          "title": "Pain Threshold: \"Sometimes when things get very bad...\"",
+                                                                          "articyId": "0x010000060001D872",
+                                                                          "text": "Sometimes when things get very bad it's good to remind yourself that you have a body. By scratching it.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 242,
+                                                                              "title": "The Pigs: \"\"THIS IS THE POLICE!\" She howls thr...\"",
+                                                                              "articyId": "0x0100005A000107C8",
+                                                                              "text": "\"THIS IS THE POLICE!\" She howls through her megaphone. \"UNLAWFUL ENGAGEMENT. HANDS ON THE GROUND, SCUM-BAG!\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 58,
+                                                                                  "title": "Rhetoric: \"Hands on the...?\"",
+                                                                                  "articyId": "0x0100000700013544",
+                                                                                  "text": "Hands on the...?",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 198,
+                                                                                      "title": "Empathy: \"So that's how Cunoesse must have fe...\"",
+                                                                                      "articyId": "0x01000007000151F8",
+                                                                                      "text": "So that's how Cunoesse must have felt... right before you fired a shot at her.",
+                                                                                      "links": []
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 229,
+                                                                                      "title": "Empathy: \"So that's how Cunoesse must have fe...\"",
+                                                                                      "articyId": "0x01000007000151E5",
+                                                                                      "text": "So that's how Cunoesse must have felt, when you pointed the gun at her.",
+                                                                                      "links": []
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 291,
+                                                                                      "title": "Empathy: \"So this is what the weather's like...\"",
+                                                                                      "articyId": "0x0100007B000026A4",
+                                                                                      "text": "So this is what the weather's like on the other end of a cop's gun?",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 87,
+                                                                                          "title": "You: \"\"Kim?\"\"",
+                                                                                          "articyId": "0x0100000700013556",
+                                                                                          "text": "\"Kim?\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 267,
+                                                                                              "title": "Kim Kitsuragi: \"The lieutenant's eyes stay fixed on...\"",
+                                                                                              "articyId": "0x0100005A00010787",
+                                                                                              "text": "The lieutenant's eyes stay fixed on the woman and her gun -- he studies them closely, then mumbles: \"Fascinating.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 94,
+                                                                                                  "title": "Composure: \"His shoulders relax and a look of r...\"",
+                                                                                                  "articyId": "0x0100005A000107A0",
+                                                                                                  "text": "His shoulders relax and a look of realization appears in his eyes... Did he notice something?",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 286,
+                                                                                                      "title": "Kim Kitsuragi: \"\"See?\" He glances at you. \"This is...\"",
+                                                                                                      "articyId": "0x0100005A000105DB",
+                                                                                                      "text": "\"See?\" He glances at you. \"This is what happens, when we're not around.\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 176,
+                                                                                                          "title": "Esprit de Corps: \"Get the gun, lieutenant, it's okay....\"",
+                                                                                                          "articyId": "0x0100000700013715",
+                                                                                                          "text": "Get the gun, lieutenant, it's okay. It's safe, he thinks. Just get it.",
+                                                                                                          "links": []
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 222,
+                                                                                              "title": "The Pigs: \"\"SUSPECT AT LARGE ON FOOT,\" she yel...\"",
+                                                                                              "articyId": "0x010000070001356E",
+                                                                                              "text": "\"SUSPECT AT LARGE ON FOOT,\" she yells in the megaphone. \"PIGS IN PURSUIT, CUFF HIM, BOYS!\"",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": 260,
+                                                                                          "title": "You: \"\"I hear you, ma'am, look...\" (Start...\"",
+                                                                                          "articyId": "0x010000070001355B",
+                                                                                          "text": "\"I hear you, ma'am, look...\" (Start slowly bending over.) \"...hands going on the ground.\"",
+                                                                                          "links": []
+                                                                                        },
+                                                                                        {
+                                                                                          "id": 273,
+                                                                                          "title": "You: \"\"We *just* want to help, that's all.\"\"",
+                                                                                          "articyId": "0x0100000700013566",
+                                                                                          "text": "\"We *just* want to help, that's all.\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 113,
+                                                              "title": "You: \"\"Please identify yourself, ma'am?\"\"",
+                                                              "articyId": "0x0100005A0001055B",
+                                                              "text": "\"Please identify yourself, ma'am?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 221,
+                                                                  "title": "The Pigs: \"\"IT'S THE GODDAMN POLICE, SHIT-BAG,...\"",
+                                                                  "articyId": "0x0100005A00010556",
+                                                                  "text": "\"IT'S THE GODDAMN POLICE, SHIT-BAG,\" she yells into the megaphone. \"HUG THE PAVEMENT, YOU'RE UNDER ARREST!\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 256,
+                                                                      "title": "Perception (Sight): \"As she waves her hands, you notice...\"",
+                                                                      "articyId": "0x0100006B0000373C",
+                                                                      "text": "As she waves her hands, you notice familiar-looking ampoules and packets sticking out the mountain of police gear on her back. Medicine? Or drugs?",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 26,
+                                                                          "title": "Electrochemistry: \"Magnesium, drouamine, maybe even  s...\"",
+                                                                          "articyId": "0x01000007000067FC",
+                                                                          "text": "Magnesium, drouamine, maybe even  speed... My god, she has speed on her? What else?",
+                                                                          "links": []
+                                                                        },
+                                                                        {
+                                                                          "id": 114,
+                                                                          "title": "Suggestion: \"She thinks she's a police officer.....\"",
+                                                                          "articyId": "0x0100005A000105FA",
+                                                                          "text": "She thinks she's a police officer... Try treating her like a police officer. A *lower-ranking* police officer.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 230,
+                                                              "title": "You: \"\"Patrol officer Pigs, I need your g...\"",
+                                                              "articyId": "0x0100005A000105BB",
+                                                              "text": "\"Patrol officer Pigs, I need your gun for inspection.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 154,
+                                                                  "title": "The Pigs: \"\"Wh... what?\" She lowers the megaph...\"",
+                                                                  "articyId": "0x0100005A00010970",
+                                                                  "text": "\"Wh... what?\" She lowers the megaphone and stares at the gun in her hand.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 268,
+                                                                      "title": "You: \"\"Patrol officer, you're in gross vi...\"",
+                                                                      "articyId": "0x0100005A00010977",
+                                                                      "text": "\"Patrol officer, you're in gross violation of the RCM Code of Conduct.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 116,
+                                                                          "title": "The Pigs: \"\"Sir...\" She hesitates, looking aro...\"",
+                                                                          "articyId": "0x0100005A00010877",
+                                                                          "text": "\"Sir...\" She hesitates, looking around in confusion. The three barrelled pepperbox wavers in her hand.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 71,
+                                                                              "title": "Interfacing: \"That's *the* gun, man! That's *your...\"",
+                                                                              "articyId": "0x01000007000136C5",
+                                                                              "text": "That's *the* gun, man! That's *your* gun. Please get it back!",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 18,
+                                                                                  "title": "Composure: \"In this moment of hesitation she al...\"",
+                                                                                  "articyId": "0x01000007000136BD",
+                                                                                  "text": "In this moment of hesitation she almost doesn't seem disturbed, but like someone suddenly waking from a deep sleep.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 200,
+                                                                                      "title": "You: \"\"Patrol officer, I have to sign you...\"",
+                                                                                      "articyId": "0x0100005A00010600",
+                                                                                      "text": "\"Patrol officer, I have to sign you up for a disciplinary hearing...\" (Slowly shake your head.)",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 12,
+                                                                                          "title": "Kim Kitsuragi: \"\"Easy...\" the lieutenant whispers....\"",
+                                                                                          "articyId": "0x0100007B000029AD",
+                                                                                          "text": "\"Easy...\" the lieutenant whispers. \"Press her too hard and she'll...\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 110,
+                                                                                              "title": "Reaction Speed: \"Too late, lieutenant.\"",
+                                                                                              "articyId": "0x01000007000136EE",
+                                                                                              "text": "Too late, lieutenant.",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 287,
+                                                                                      "title": "You: \"\"Please, Pigs, just give me the gun.\"\"",
+                                                                                      "articyId": "0x0100005A00010982",
+                                                                                      "text": "\"Please, Pigs, just give me the gun.\"",
+                                                                                      "links": []
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 125,
+                                                                                      "title": "You: \"\"It's okay, ma'am. Everything's gon...\"",
+                                                                                      "articyId": "0x01000007000136CE",
+                                                                                      "text": "\"It's okay, ma'am. Everything's gonna be alright.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 126,
+                                                                                          "title": "The Pigs: \"\"But...\" Her eyes fill with tears,...\"",
+                                                                                          "articyId": "0x01000007000136E4",
+                                                                                          "text": "\"But...\" Her eyes fill with tears, then suddenly she slams the megaphone against her lips and teeth. Blood gushes down her chin, but she doesn't notice it.",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 281,
+                                                                      "title": "You: \"\"Just lower the gun, officer.\"\"",
+                                                                      "articyId": "0x010000060001D87B",
+                                                                      "text": "\"Just lower the gun, officer.\"",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 41,
+                                                                      "title": "You: \"\"That's right, Pigs, give me the gu...\"",
+                                                                      "articyId": "0x0100000700013581",
+                                                                      "text": "\"That's right, Pigs, give me the gun. It will be alright. It's mine.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 56,
+                                                                          "title": "The Pigs: \"With a swift, poorly coordinated mo...\"",
+                                                                          "articyId": "0x0100007B0000299A",
+                                                                          "text": "With a swift, poorly coordinated move the woman slams the megaphone against her lips and teeth. A trickle of blood runs down her chin. She doesn't notice it.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 122,
+                                                                              "title": "The Pigs: \"\"OFFICER COMPROMISED, UNLAWFUL IMPE...\"",
+                                                                              "articyId": "0x0100007B000029A0",
+                                                                              "text": "\"OFFICER COMPROMISED, UNLAWFUL IMPERSONATION! PIGS *EN ROUTE*, ENGAGE AT WILL!!!\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 127,
+                                                                                  "title": "Suggestion: \"Okay, she's actually *more* agitate...\"",
+                                                                                  "articyId": "0x010000070001430C",
+                                                                                  "text": "Okay, she's actually *more* agitated now. My bad.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 204,
+                                                              "title": "You: \"\"Are you on drugs?\"\"",
+                                                              "articyId": "0x0100006B0000374A",
+                                                              "text": "\"Are you on drugs?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 75,
+                                                                  "title": "The Pigs: \"\"CONFISCATED CONTRABAND!\" The megap...\"",
+                                                                  "articyId": "0x0100006B00003750",
+                                                                  "text": "\"CONFISCATED CONTRABAND!\" The megaphone makes her voice almost painfully metallic. \"RESTRICTED ACCESS, TWO KILOS MISSING, EYE-WITNESS REPORT COMPROMISED!\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 107,
+                                                                      "title": "Kim Kitsuragi: \"\"I don't think she's on drugs,\" the...\"",
+                                                                      "articyId": "0x0100007B000026B7",
+                                                                      "text": "\"I don't think she's on drugs,\" the lieutenant whispers. \"Being *off* drugs might actually be the problem here...\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 50,
+                                                              "title": "You: \"\"Careful, I'm packing fire too...\"...\"",
+                                                              "articyId": "0x0100006B0000365D",
+                                                              "text": "\"Careful, I'm packing fire too...\" (Flash your piece.)",
+                                                              "links": [
+                                                                {
+                                                                  "id": 279,
+                                                                  "title": "The Pigs: \"\"SUSPECT IS ARMED AND DANGEROUS! RE...\"",
+                                                                  "articyId": "0x0100006B00003760",
+                                                                  "text": "\"SUSPECT IS ARMED AND DANGEROUS! REQUESTING IMMEDIATE BACK-UP!\" She's now panting heavily. \"RESISTING ARREST, BREAKER BREAKER, CUT HIM OFF!\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 24,
+                                                                      "title": "Reaction Speed: \"There's no way you can take aim and...\"",
+                                                                      "articyId": "0x0100007B00002695",
+                                                                      "text": "There's no way you can take aim and fire before she gets a shot off.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 205,
+                                                                          "title": "Kim Kitsuragi: \"\"Wait, officer!\" the lieutenant sho...\"",
+                                                                          "articyId": "0x0100006B00003779",
+                                                                          "text": "\"Wait, officer!\" the lieutenant shouts. \"We're trying to *de*-escalate the situation! Adding more guns just makes it worse.\"",
+                                                                          "links": []
+                                                                        },
+                                                                        {
+                                                                          "id": 98,
+                                                                          "title": "The Pigs: \"\"DON'T MOVE!\" She seems to grit her...\"",
+                                                                          "articyId": "0x0100006B00003767",
+                                                                          "text": "\"DON'T MOVE!\" She seems to grit her teeth. \"HANDS ON YOUR HEAD, HUMAN SHIELD! HANDS ON YOUR FUCKING HEAD!\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 206,
+                                                                              "title": "Half Light: \"Enough! Fry me some bacon!\"",
+                                                                              "articyId": "0x0100007B00002684",
+                                                                              "text": "Enough! Fry me some bacon!",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 51,
+                                                                                  "title": "Suggestion: \"There has to be a way to resolve th...\"",
+                                                                                  "articyId": "0x0100006B00003781",
+                                                                                  "text": "There has to be a way to resolve this situation peacefully.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 220,
+                                                              "title": "You: \"\"You're not the police. *I* am the...\"",
+                                                              "articyId": "0x0100005A00010551",
+                                                              "text": "\"You're not the police. *I* am the police.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 219,
+                                                                  "title": "The Pigs: \"\"Back-up?\" She lowers the megaphone...\"",
+                                                                  "articyId": "0x0100005A0001054C",
+                                                                  "text": "\"Back-up?\" She lowers the megaphone half-way, but immediately raises it again and screams: \"BACK-UP, BACK-UP! STATUS UNCONFIRMED!\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 173,
+                                                                      "title": "Electrochemistry: \"Yeah, back her up, right up against...\"",
+                                                                      "articyId": "0x01000007000135C0",
+                                                                      "text": "Yeah, back her up, right up against those boxes and do some sex-healing.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 192,
+                                                                          "title": "Volition: \"STOP! For the love of god, don't.\"",
+                                                                          "articyId": "0x01000007000135DC",
+                                                                          "text": "STOP! For the love of god, don't.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 88,
+                                                                              "title": "Rhetoric: \"Confirmed. Don't listen to your gla...\"",
+                                                                              "articyId": "0x01000007000135E3",
+                                                                              "text": "Confirmed. Don't listen to your glands right now. Listen to me. The lady asked, if you're the backup?",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 237,
+                                                                          "title": "You: \"\"Baby, you know who I am -- everybo...\"",
+                                                                          "articyId": "0x0100007B000026DF",
+                                                                          "text": "\"Baby, you know who I am -- everybody knows.\" (Wink.)",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 121,
+                                                                              "title": "The Pigs: \"\"I do?\" The question is addressed t...\"",
+                                                                              "articyId": "0x0100007B00002709",
+                                                                              "text": "\"I do?\" The question is addressed to herself more than you. \"Gareth? No I...\" She raises the megaphone and screams: \"AGGRAVATED ASSAULT, MAN DOWN, SUSPECT ON FOOT!\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 28,
+                                                                                  "title": "Logic: \"There's a scenario unfolding in her...\"",
+                                                                                  "articyId": "0x0100000700013613",
+                                                                                  "text": "There's a scenario unfolding in her head right now. It has nothing to do with what's happening here.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 280,
+                                                                                      "title": "Kim Kitsuragi: \"\"What's the situation...\" the lieut...\"",
+                                                                                      "articyId": "0x0100007B00002760",
+                                                                                      "text": "\"What's the situation...\" the lieutenant hesitates addressing the woman, \"... officer?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 274,
+                                                                                          "title": "The Pigs: \"\"LAW ENFORCEMENT COMPROMISED,\" she...\"",
+                                                                                          "articyId": "0x010000070001361B",
+                                                                                          "text": "\"LAW ENFORCEMENT COMPROMISED,\" she screams in the megaphone. Red and blue lights illuminate the spit flying everywhere. \"IMPERSONATING A POLICE OFFICER!\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 210,
+                                                                                              "title": "Rhetoric: \"Does she not believe you two are ac...\"",
+                                                                                              "articyId": "0x0100000700013623",
+                                                                                              "text": "Does she not believe you two are actually police officers?",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 83,
+                                                                                      "title": "You: \"\"What's the situation?\"\"",
+                                                                                      "articyId": "0x0100005A000106A5",
+                                                                                      "text": "\"What's the situation?\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 207,
+                                                                          "title": "You: \"\"*Back-up*?! There's nothing to bac...\"",
+                                                                          "articyId": "0x0100007B000026E5",
+                                                                          "text": "\"*Back-up*?! There's nothing to back up, nowhere to back down -- the terrible finale is on us!\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 69,
+                                                                              "title": "The Pigs: \"\"Nowhere...\" she repeats, sudden sa...\"",
+                                                                              "articyId": "0x0100007B00002702",
+                                                                              "text": "\"Nowhere...\" she repeats, sudden sadness in her eyes. There's a moment of clarity. \"Mr. Morrand? No I...\" She raises the megaphone and screams: \"AGGRAVATED ASSAULT, MAN DOWN, SUSPECT ON FOOT!\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 208,
+                                                                          "title": "You: \"\"Me, back-up? More like a fuck-up...\"\"",
+                                                                          "articyId": "0x0100007B000026EB",
+                                                                          "text": "\"Me, back-up? More like a fuck-up...\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 39,
+                                                                              "title": "The Pigs: \"\"Fuck-up,\" she repeats, \"fuck up, f...\"",
+                                                                              "articyId": "0x0100007B00002710",
+                                                                              "text": "\"Fuck-up,\" she repeats, \"fuck up, fuck up, you fucked up, you fucked up, Gareth!\" Spit is flying everywhere as she screams in the megaphone: \"AGGRAVATED ASSAULT, MAN DOWN, SUSPECT ON FOOT!\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 68,
+                                                                          "title": "You: \"\"Yes, I'm the back-up.\" (Resist a y...\"",
+                                                                          "articyId": "0x0100007B000026D9",
+                                                                          "text": "\"Yes, I'm the back-up.\" (Resist a yawn.) \"Here to back you up.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 143,
+                                                                              "title": "The Pigs: \"\"You are?\" The question is addresse...\"",
+                                                                              "articyId": "0x0100007B00002717",
+                                                                              "text": "\"You are?\" The question is addressed to herself more than you. \"Mr. Morrand? No I...\" She raises the megaphone and screams: \"AGGRAVATED ASSAULT, MAN DOWN, SUSPECT ON FOOT!\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 25,
+                                                                          "title": "You: \"\"I'm with the rat squad!\"\"",
+                                                                          "articyId": "0x0100007B0000273F",
+                                                                          "text": "\"I'm with the rat squad!\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 124,
+                                                                              "title": "The Pigs: \"\"Rat squad?\" The question is addres...\"",
+                                                                              "articyId": "0x01000007000135F7",
+                                                                              "text": "\"Rat squad?\" The question is addressed to herself more than you. \"But I thought... But Mr. Morrand...\" The megaphone raises and she screams: \"AGGRAVATED ASSAULT, MAN DOWN, SUSPECT ON FOOT!\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 187,
+                                                                          "title": "You: \"\"I'm with the Remote Viewers Divisi...\"",
+                                                                          "articyId": "0x0100007B0000272D",
+                                                                          "text": "\"I'm with the Remote Viewers Division.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 164,
+                                                                              "title": "The Pigs: \"\"But back-up...\" She looks around,...\"",
+                                                                              "articyId": "0x0100007B00002733",
+                                                                              "text": "\"But back-up...\" She looks around, bewildered. \"I thought Mr. Morrand...\" She raises the megaphone and screams: \"AGGRAVATED ASSAULT, MAN DOWN, SUSPECT ON FOOT!\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 292,
+                                                                          "title": "You: \"\"Yes. I'm a detective with the 41st...\"",
+                                                                          "articyId": "0x0100007B000026F5",
+                                                                          "text": "\"Yes. I'm a detective with the 41st Precinct.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 261,
+                                                                              "title": "The Pigs: \"\"No,\" the crazed woman mumbles, sha...\"",
+                                                                              "articyId": "0x01000007000135FF",
+                                                                              "text": "\"No,\" the crazed woman mumbles, shaking her head. \"No, no, no... I though Mr. Morrand... Gareth...\" Suddenly she raises the megaphone and screams: \"AGGRAVATED ASSAULT, MAN DOWN, OFFICERS IN PURSUIT!\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 79,
+                                                              "title": "You: \"Time to get my gun!\"",
+                                                              "articyId": "0x0100005A00010541",
+                                                              "text": "Time to get my gun!",
+                                                              "links": [
+                                                                {
+                                                                  "id": 89,
+                                                                  "title": "Rhetoric: \"Does she not believe you're actuall...\"",
+                                                                  "articyId": "0x0100000700013631",
+                                                                  "text": "Does she not believe you're actually a police officer?",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 285,
+                                                                      "title": "You: \"\"Wait, what if she's right and I ac...\"",
+                                                                      "articyId": "0x0100000700013647",
+                                                                      "text": "\"Wait, what if she's right and I actually *am* an imposter?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 225,
+                                                                          "title": "Kim Kitsuragi: \"\"Now...\" the lieutenant takes a dee...\"",
+                                                                          "articyId": "0x010000070001368C",
+                                                                          "text": "\"Now...\" the lieutenant takes a deep breath and steadies his voice, \"... is not the time.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 194,
+                                                                      "title": "You: \"\"Look, ma'am...\" (Point to your clo...\"",
+                                                                      "articyId": "0x01000007000136A0",
+                                                                      "text": "\"Look, ma'am...\" (Point to your clothes.) \"White rectangles. I *am* a cop.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 223,
+                                                                          "title": "The Pigs: \"\"LICENCE AND REGISTRATION!!!\" She r...\"",
+                                                                          "articyId": "0x0100000700013663",
+                                                                          "text": "\"LICENCE AND REGISTRATION!!!\" She repeatedly bashes the megaphone against her head, then screams in the bloody mouthpiece: \"LICENCE AND REGISTRATION! COME IN DISPATCH! SECTOR, SECTOR, AZIMUTH!!!\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 128,
+                                                                              "title": "Rhetoric: \"It's not a code. Just disjointed wo...\"",
+                                                                              "articyId": "0x01000007000150D3",
+                                                                              "text": "It's not a code. Just disjointed words.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 175,
+                                                                      "title": "You: \"\"Eee... I'm in full RCM lieutenant'...\"",
+                                                                      "articyId": "0x0100000700013698",
+                                                                      "text": "\"Eee... I'm in full RCM lieutenant's uniform. Trust me. I'm a cop.\"",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 224,
+                                                                      "title": "You: \"\"We really are cops. Look, white re...\"",
+                                                                      "articyId": "0x0100000700013680",
+                                                                      "text": "\"We really are cops. Look, white rectangles!\"",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 239,
+                                                                      "title": "You: \"\"We really are cops. Look, my badge...\"",
+                                                                      "articyId": "0x0100000700013655",
+                                                                      "text": "\"We really are cops. Look, my badge...\" (Take out your badge and show it to her.)",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 211,
+                                                                      "title": "You: \"\"Hey, you're the one impersonating...\"",
+                                                                      "articyId": "0x010000070001364E",
+                                                                      "text": "\"Hey, you're the one impersonating a police officer!\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 174,
+                                                                          "title": "The Pigs: \"\"RESISTING ARREST! CONFINED QUARTER...\"",
+                                                                          "articyId": "0x010000070001365C",
+                                                                          "text": "\"RESISTING ARREST! CONFINED QUARTERS! DROP YOUR HEAD!\" She bashes the megaphone against her head. Repeatedly. Then screams in the bloody mouthpiece: \"COME IN DISPATCH! COME IN FUCK! CIVILIAN ENGAGEMENT!!!\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 109,
+                                                                              "title": "Half Light: \"She's losing it -- one twitch and t...\"",
+                                                                              "articyId": "0x01000007000136AC",
+                                                                              "text": "She's losing it -- one twitch and there will be blood.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 32,
+                                                              "title": "You: \"Nope, not right now. [Leave.]\"",
+                                                              "articyId": "0x0100002F0000FCDB",
+                                                              "text": "Nope, not right now. [Leave.]",
+                                                              "links": [
+                                                                {
+                                                                  "id": 150,
+                                                                  "title": "Kim Kitsuragi: \"\"Officer...\" The lieutenant shakes...\"",
+                                                                  "articyId": "0x010000070001433E",
+                                                                  "text": "\"Officer...\" The lieutenant shakes his head and adds: \"There is *no* way I'm leaving it like this.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 77,
+                                                                      "title": "You: \"\"You're right, of course. Let's do...\"",
+                                                                      "articyId": "0x0100000700014346",
+                                                                      "text": "\"You're right, of course. Let's do this!\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 151,
+                                                                          "title": "Kim Kitsuragi: \"The lieutenant nods. His eyes stay...\"",
+                                                                          "articyId": "0x0100000700014366",
+                                                                          "text": "The lieutenant nods. His eyes stay on the swaying firearm.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 253,
+                                                                      "title": "You: \"\"Suit yourself, but *I* need to dec...\"",
+                                                                      "articyId": "0x010000070001434D",
+                                                                      "text": "\"Suit yourself, but *I* need to decompress first.\" (Turn to leave.)",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 265,
+                                                                  "title": "Kim Kitsuragi: \"\"We can't leave. A delirious civili...\"",
+                                                                  "articyId": "0x0100005A00010507",
+                                                                  "text": "\"We can't leave. A delirious civilian is pointing a firearm at us. *Your* firearm. You *need* to solve this.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 262,
+                                                                      "title": "Esprit de Corps: \"Just trust me and go for the gun.\"",
+                                                                      "articyId": "0x0100000700013725",
+                                                                      "text": "Just trust me and go for the gun.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 92,
+                          "title": "You: \"\"Easy, ma'am, take it easy...\"\"",
+                          "articyId": "0x0100005A00010529",
+                          "text": "\"Easy, ma'am, take it easy...\"",
+                          "links": [
+                            {
+                              "id": 46,
+                              "title": "The Pigs: \"\"Failure to comply. Suspect is disp...\"",
+                              "articyId": "0x0100005A0001052E",
+                              "text": "\"Failure to comply. Suspect is displaying aggression! OFFICER UNDER DURESS! OFFICER UNDER DURESS!\"",
+                              "links": [
+                                {
+                                  "id": 5,
+                                  "title": "Reaction Speed: \"Her eyes bulge with terror. Veins p...\"",
+                                  "articyId": "0x0100006B000035BD",
+                                  "text": "Her eyes bulge with terror. Veins protrude on her forehead.",
+                                  "links": [
+                                    {
+                                      "id": 278,
+                                      "title": "The Pigs: \"\"I *am* the police! Don't move! DON...\"",
+                                      "articyId": "0x0100005A0001068B",
+                                      "text": "\"I *am* the police! Don't move! DON'T MOVE! Hands on your head! SUSPECT IS ARMED AND DANGEROUS!\"",
+                                      "links": [
+                                        {
+                                          "id": 49,
+                                          "title": "You: \"\"I'm not moving.\"\"",
+                                          "articyId": "0x0100006B000035F1",
+                                          "text": "\"I'm not moving.\"",
+                                          "links": [
+                                            {
+                                              "id": 33,
+                                              "title": "The Pigs: \"\"SUSPECT IS ON THE LOOSE! SUSPECT A...\"",
+                                              "articyId": "0x0100006B000035FD",
+                                              "text": "\"SUSPECT IS ON THE LOOSE! SUSPECT AT LARGE! Officer administers street justice at her own peril!\"",
+                                              "links": [
+                                                {
+                                                  "id": 34,
+                                                  "title": "The Pigs: \"\"THAT ONE EXTRA LICK WITH A BATON O...\"",
+                                                  "articyId": "0x0100006B00003611",
+                                                  "text": "\"THAT ONE EXTRA LICK WITH A BATON OR EXTRA KNEE STRIKE ABOVE WHAT WAS ACTUALLY REQUIRED! SUSPECT IS UNDER CONTROL! SUSPECT IS UNDER CONTROL!\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 288,
+                                                      "title": "Empathy: \"In her mind you're under control no...\"",
+                                                      "articyId": "0x0100006B00003618",
+                                                      "text": "In her mind you're under control now, the next moment you're not. It appears the things she says are very real to her, as long as she's saying them.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 244,
+                                          "title": "You: \"\"Ma'am, I need you to calm down. I...\"",
+                                          "articyId": "0x0100006B000035F6",
+                                          "text": "\"Ma'am, I need you to calm down. I just want to talk.\"",
+                                          "links": [
+                                            {
+                                              "id": 7,
+                                              "title": "The Pigs: \"\"LATERAL VASCULAR NECK RESTRAINT! C...\"",
+                                              "articyId": "0x0100006B00003604",
+                                              "text": "\"LATERAL VASCULAR NECK RESTRAINT! CAROTID SLEEPER! CAROTID SLEEPER! Critically reducing blood from passing through the neck of the suspect!\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 255,
+                          "title": "You: \"\"You're not getting the porta-reel....\"",
+                          "articyId": "0x0100006B00003686",
+                          "text": "\"You're not getting the porta-reel...\"",
+                          "links": []
+                        },
+                        {
+                          "id": 96,
+                          "title": "You: \"\"It's just a standard flashlight, m...\"",
+                          "articyId": "0x0100006B0000368B",
+                          "text": "\"It's just a standard flashlight, ma'am. Calm down.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 134,
+                          "title": "You: \"\"The sabre is only decorative. It's...\"",
+                          "articyId": "0x0100006B00003690",
+                          "text": "\"The sabre is only decorative. It's not a threat to you.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 185,
+                          "title": "You: \"\"I don't feel comfortable being sep...\"",
+                          "articyId": "0x0100006B00003695",
+                          "text": "\"I don't feel comfortable being separated from my multitool.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 269,
+                          "title": "You: \"\"If you want the prybar you're gonn...\"",
+                          "articyId": "0x0100006B0000369A",
+                          "text": "\"If you want the prybar you're gonna have to... pry it from me.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 203,
+                          "title": "You: \"\"No! The tare is mine. I collected...\"",
+                          "articyId": "0x0100006B0000369F",
+                          "text": "\"No! The tare is mine. I collected it.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 97,
+                          "title": "You: \"\"Ma'am... I got a gun.\"\"",
+                          "articyId": "0x0100006B000036A4",
+                          "text": "\"Ma'am... I got a gun.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 245,
+                          "title": "You: \"\"Easy, now. They're just chaincutte...\"",
+                          "articyId": "0x0100006B000036A9",
+                          "text": "\"Easy, now. They're just chaincutters.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 35,
+                          "title": "You: \"\"No! I need this ledger to take not...\"",
+                          "articyId": "0x0100006B000036AF",
+                          "text": "\"No! I need this ledger to take notes.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "0x0100008900001C34",
+  "title": "ICE / ETERNITE",
+  "description": "this dialogue for pushing over eternite for you know very darksoulsy shortcut, yes, gut design.",
+  "dialogueTree": [
+    {
+      "id": 10,
+      "title": "Pile of Eternite: \"A pane of eternite has been planted...\"",
+      "articyId": "0x0100008900001C3B",
+      "text": "A pane of eternite has been planted into the snow. Two poles are holding it up.",
+      "links": [
+        {
+          "id": 11,
+          "title": "Interfacing: \"*Barely* holding it up. It could fa...\"",
+          "articyId": "0x0100008900001C94",
+          "text": "*Barely* holding it up. It could fall over any minute... a stronger gust of wind might be enough.",
+          "links": [
+            {
+              "id": 15,
+              "title": "You: \"\"What is this?\"\"",
+              "articyId": "0x010000040001509B",
+              "text": "\"What is this?\"",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "Kim Kitsuragi: \"\"It looks like a makeshift bridge.\"...\"",
+                  "articyId": "0x01000004000150A0",
+                  "text": "\"It looks like a makeshift bridge.\" The lieutenant adjusts his collar against a cool breeze. \"Could be convenient.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 12,
+              "title": "You: \"What is this?\"",
+              "articyId": "0x0100008900001C9D",
+              "text": "What is this?",
+              "links": [
+                {
+                  "id": 13,
+                  "title": "Pile of Eternite: \"Looks like a makeshift bridge, curr...\"",
+                  "articyId": "0x0100008900001CAD",
+                  "text": "Looks like a makeshift bridge, currently drawn up.",
+                  "links": [
+                    {
+                      "id": 17,
+                      "title": "Encyclopedia: \"When junior researcher Õlari Taal i...\"",
+                      "articyId": "0x0100008900001CA7",
+                      "text": "When junior researcher Õlari Taal invented eternite in the un-prestigious Värtna Polytechnic Institute some thirty odd years ago, he thought it would last forever -- hence the name eternite. The only lasting thing about it turned out to be its carcinogenic effect.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 16,
+              "title": "You: \"Push the eternite over.\"",
+              "articyId": "0x0100008900001C41",
+              "text": "Push the eternite over.",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "Pile of Eternite: \"The pane falls into the icy snow wi...\"",
+                  "articyId": "0x0100008900001C4F",
+                  "text": "The pane falls into the icy snow with a soft thunk.",
+                  "links": [
+                    {
+                      "id": 6,
+                      "title": "Kim Kitsuragi: \"\"We should ask that girl on the ice...\"",
+                      "articyId": "0x01000021000020DD",
+                      "text": "\"We should ask that girl on the ice what's going on here.\" The lieutenant gestures toward the young woman next to the tent.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "You: \"[Leave it as is.]\"",
+              "articyId": "0x0100008900001C46",
+              "text": "[Leave it as is.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

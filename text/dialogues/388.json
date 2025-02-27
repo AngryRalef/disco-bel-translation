@@ -1,0 +1,310 @@
+{
+  "id": "0x010000580000BFFC",
+  "title": "LAIR / KRAS MAZOV PORTRAIT",
+  "description": "This portrait is covered in cobwebs. You can:\n1. Compare to weapons cache.\n2. Learn about Mazov.\n3. React depending on political persuasion.\n4. Speculate about who may have stayed here (foreshadows deserter).",
+  "dialogueTree": [
+    {
+      "id": 18,
+      "title": "Kras Mazov Portrait: \"A moustachioed and mutton-chopped m...\"",
+      "articyId": "0x010000580000C889",
+      "text": "A moustachioed and mutton-chopped man, amateurishly depicted, gazes at you with sad eyes. A plaque reads: \"K. Mazov.\" There is a spider web in the lower left corner of the portrait.",
+      "links": [
+        {
+          "id": 42,
+          "title": "You: \"Brush the dust off the portrait.\"",
+          "articyId": "0x010000580000DCF9",
+          "text": "Brush the dust off the portrait.",
+          "links": [
+            {
+              "id": 43,
+              "title": "Kras Mazov Portrait: \"Years' worth of dust is shaken off....\"",
+              "articyId": "0x010000580000DD10",
+              "text": "Years' worth of dust is shaken off. The full head of hair, matched by an ample moustache and sideburns, look a bit silly.",
+              "links": [
+                {
+                  "id": 44,
+                  "title": "Shivers: \"Someone crouches, heels digging int...\"",
+                  "articyId": "0x010000580000DD73",
+                  "text": "Someone crouches, heels digging into wet sand. Hands sweep across the sand, grains sticking to the frayed skin of the fingertips. An old man sits on a slab of concrete and taps his fingers against the glass of a scope... you shudder.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"Wonder: who is K. Mazov?\"",
+          "articyId": "0x010000580000DCFF",
+          "text": "Wonder: who is K. Mazov?",
+          "links": [
+            {
+              "id": 49,
+              "title": "Kras Mazov Portrait: \"The man in the portrait looks back...\"",
+              "articyId": "0x010000580000DD06",
+              "text": "The man in the portrait looks back at you silently. He knows who he is, but he isn't telling.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"\"Who is K. Mazov?\"\"",
+          "articyId": "0x010000580000C8A3",
+          "text": "\"Who is K. Mazov?\"",
+          "links": [
+            {
+              "id": 9,
+              "title": "Kim Kitsuragi: \"\"Well, my amnesiac friend, Mazov is...\"",
+              "articyId": "0x010000580000DC9A",
+              "text": "\"Well, my amnesiac friend, Mazov is the father of scientific communism. His theories about economic history greatly influenced -- some would even say *sparked* -- the Antecentennial Revolution.\"",
+              "links": [
+                {
+                  "id": 41,
+                  "title": "You: \"\"So my comrades were here.\"\"",
+                  "articyId": "0x010000580000DCA0",
+                  "text": "\"So my comrades were here.\"",
+                  "links": [
+                    {
+                      "id": 7,
+                      "title": "Kim Kitsuragi: \"\"If you wish. At any rate, looks li...\"",
+                      "articyId": "0x010000580000DD30",
+                      "text": "\"If you wish. At any rate, looks like some Mazovians were hiding out here but left a long time ago.\"",
+                      "links": [
+                        {
+                          "id": 50,
+                          "title": "Rhetoric: \"The lieutenant does not seem to sha...\"",
+                          "articyId": "0x010000580000DD4A",
+                          "text": "The lieutenant does not seem to share your enthusiasm.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 26,
+                  "title": "You: \"\"So his ideas tend to stir up troub...\"",
+                  "articyId": "0x010000580000DCAA",
+                  "text": "\"So his ideas tend to stir up trouble?\"",
+                  "links": [
+                    {
+                      "id": 4,
+                      "title": "Kim Kitsuragi: \"\"Yes. And it looks like some latter...\"",
+                      "articyId": "0x010000580000DD2A",
+                      "text": "\"Yes. And it looks like some latter-day radicals were hiding out here but left a long time ago.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 22,
+                  "title": "You: \"\"So... this must have been the hidi...\"",
+                  "articyId": "0x010000580000DCAF",
+                  "text": "\"So... this must have been the hiding place of some naive leftists?\"",
+                  "links": [
+                    {
+                      "id": 20,
+                      "title": "Kim Kitsuragi: \"\"Yes, some radical -- or radicals -...\"",
+                      "articyId": "0x010000580000DD24",
+                      "text": "\"Yes, some radical -- or radicals -- were hiding out here but left a long time ago.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 25,
+                  "title": "You: \"\"So... this must have been the hidi...\"",
+                  "articyId": "0x010000580000DCA5",
+                  "text": "\"So... this must have been the hiding place of some antitraditionalist murderers?\"",
+                  "links": []
+                },
+                {
+                  "id": 19,
+                  "title": "You: \"\"Why would someone have a portrait...\"",
+                  "articyId": "0x010000580000DCBA",
+                  "text": "\"Why would someone have a portrait like this?\"",
+                  "links": [
+                    {
+                      "id": 23,
+                      "title": "Kim Kitsuragi: \"\"Looks like some radical -- or radi...\"",
+                      "articyId": "0x010000580000DD3B",
+                      "text": "\"Looks like some radical -- or radicals -- were hiding out here but left a long time ago.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "You: \"\"Look, Kim! It's Comrade Mazov!\"\"",
+          "articyId": "0x010000580000C8A9",
+          "text": "\"Look, Kim! It's Comrade Mazov!\"",
+          "links": [
+            {
+              "id": 32,
+              "title": "Kim Kitsuragi: \"\"Yes, I can see that. Looks like so...\"",
+              "articyId": "0x010000580000DCCC",
+              "text": "\"Yes, I can see that. Looks like some communists were hiding out here. They left a long time ago.\"",
+              "links": [
+                {
+                  "id": 45,
+                  "title": "Rhetoric: \"The lieutenant does not seem to sha...\"",
+                  "articyId": "0x010000580000DCD3",
+                  "text": "The lieutenant does not seem to share your enthusiasm.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "title": "You: \"\"It's Kras Mazov! What a troublemak...\"",
+          "articyId": "0x010000580000DC8E",
+          "text": "\"It's Kras Mazov! What a troublemaker he was.\"",
+          "links": [
+            {
+              "id": 39,
+              "title": "Kim Kitsuragi: \"\"Yes. Looks like some latter-day ra...\"",
+              "articyId": "0x010000580000DCE0",
+              "text": "\"Yes. Looks like some latter-day radicals were hiding out here. They left a long time ago.\"",
+              "links": [
+                {
+                  "id": 34,
+                  "title": "You: \"\"A long time ago? How long?\"\"",
+                  "articyId": "0x0100001600009B57",
+                  "text": "\"A long time ago? How long?\"",
+                  "links": [
+                    {
+                      "id": 14,
+                      "title": "Kim Kitsuragi: \"\"Half a century? This was probably...\"",
+                      "articyId": "0x0100001600009B5E",
+                      "text": "\"Half a century? This was probably part of the network of defence posts the communards built against the amphibious landing.\" He looks around.",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Kim Kitsuragi: \"\"I think the purpose of this bunker...\"",
+                          "articyId": "0x0100001600009B65",
+                          "text": "\"I think the purpose of this bunker was to produce propaganda. It would have had radio equipment back then, but that's all been looted.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 48,
+                  "title": "You: \"\"What's this still doing here?\"\"",
+                  "articyId": "0x010000580000DE05",
+                  "text": "\"What's this still doing here?\"",
+                  "links": [
+                    {
+                      "id": 16,
+                      "title": "Kim Kitsuragi: \"\"What most people think of as *hist...\"",
+                      "articyId": "0x010000580000DE15",
+                      "text": "\"What most people think of as *history* has a tendency to linger in run-down neighbourhoods. Martinaise being what it is, no one has gone through the trouble of cleaning out the old bunkers.\"",
+                      "links": [
+                        {
+                          "id": 28,
+                          "title": "Savoir Faire: \"A good hiding place for someone who...\"",
+                          "articyId": "0x0100001600009B6F",
+                          "text": "A good hiding place for someone who's up to no good.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 8,
+                  "title": "You: \"\"Maybe I should move in here. Seems...\"",
+                  "articyId": "0x010000580000DDD5",
+                  "text": "\"Maybe I should move in here. Seems cozy.\"",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Kim Kitsuragi: \"\"I won't stand in your way -- but o...\"",
+                      "articyId": "0x010000580000DE22",
+                      "text": "\"I won't stand in your way -- but only after we're through with this case.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 6,
+                  "title": "You: \"\"Could it be connected to the Mazov...\"",
+                  "articyId": "0x0100000600014FCF",
+                  "text": "\"Could it be connected to the Mazov bust we found in the student's room?\"",
+                  "links": [
+                    {
+                      "id": 27,
+                      "title": "Kim Kitsuragi: \"\"Millions of depictions of Mazov ha...\"",
+                      "articyId": "0x0100000600014FD6",
+                      "text": "\"Millions of depictions of Mazov have been produced. They're not all connected -- besides, that looked like some student. The youths always go for this kind of stuff...\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "You: \"\"Could someone have stopped through...\"",
+                  "articyId": "0x0100001600009B77",
+                  "text": "\"Could someone have stopped through here recently?\" (Conclude.)",
+                  "links": [
+                    {
+                      "id": 40,
+                      "title": "Kim Kitsuragi: \"\"You mean, like Ruby? No. I think w...\"",
+                      "articyId": "0x0100001600009B7D",
+                      "text": "\"You mean, like Ruby? No. I think we've stumbled on a piece of history.\" He looks at the dust.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "You: \"\"It's that Mazov guy. This must hav...\"",
+          "articyId": "0x010000580000DC94",
+          "text": "\"It's that Mazov guy. This must have been the hiding place of some naive leftists.\"",
+          "links": [
+            {
+              "id": 46,
+              "title": "Kim Kitsuragi: \"\"Some radical -- or radicals -- wer...\"",
+              "articyId": "0x010000580000DCE9",
+              "text": "\"Some radical -- or radicals -- were hiding out here. They left a long time ago.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "You: \"\"It's Kras Mazov, the idol of murde...\"",
+          "articyId": "0x010000580000C8AF",
+          "text": "\"It's Kras Mazov, the idol of murdering traitors.\"",
+          "links": []
+        },
+        {
+          "id": 21,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000580000C8B5",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 12,
+          "title": "Encyclopedia: \"Kras Mazov (nom de guerre), was an...\"",
+          "articyId": "0x010000580000C895",
+          "text": "Kras Mazov (nom de guerre), was an economist and a theoretical historian. He was a leading figure in the Graad side of the Turn-of-the-Century Revolution, where he headed the Eleven Day Government. Mazov is considered the father of scientific communism (Mazovian thought or Mazovianism).",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

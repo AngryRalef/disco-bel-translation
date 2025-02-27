@@ -1,0 +1,333 @@
+{
+  "id": "0x010000040000D725",
+  "title": "PLAZA / TIRETRACKS VISCAL",
+  "description": "You notice a set of a motor carriage tracks backing into the fence.",
+  "dialogueTree": [
+    {
+      "id": 61,
+      "title": "Visual Calculus: \"The tracks are as they have ever be...\"",
+      "articyId": "0x010000040000D7E9",
+      "text": "The tracks are as they have ever been. A bit more worn, perhaps. Fortunately, the street sweeper still hasn't noticed their presence.",
+      "links": [
+        {
+          "id": 28,
+          "title": "You: \"\"A car drove through the fence.\"\"",
+          "articyId": "0x0100002F00010038",
+          "text": "\"A car drove through the fence.\"",
+          "links": [
+            {
+              "id": 62,
+              "title": "Kim Kitsuragi: \"\"You are correct. This is a rather...\"",
+              "articyId": "0x0100002F0001003E",
+              "text": "\"You are correct. This is a rather motor carriage-friendly city.\"",
+              "links": [
+                {
+                  "id": 67,
+                  "title": "Inland Empire: \"Somehow that makes you feel... scar...\"",
+                  "articyId": "0x0100008100000D3D",
+                  "text": "Somehow that makes you feel... scared. You don't know why.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "title": "You: \"\"Is this connected to the case?\"\"",
+          "articyId": "0x01000011000017D7",
+          "text": "\"Is this connected to the case?\"",
+          "links": [
+            {
+              "id": 81,
+              "title": "Kim Kitsuragi: \"\"I'm not sure... there are plenty o...\"",
+              "articyId": "0x01000011000017DF",
+              "text": "\"I'm not sure... there are plenty of traffic accidents waiting to happen in Martinaise. With the jam right here on the roundabout. I would keep them separate.\"",
+              "links": [
+                {
+                  "id": 34,
+                  "title": "Visual Calculus: \"You could *follow* the tracks south...\"",
+                  "articyId": "0x010000060001BEF3",
+                  "text": "You could *follow* the tracks south. There seems to be a canal there. See where they went. (If you find the time.)",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "You: \"\"This is where I started off with m...\"",
+          "articyId": "0x0100008100000CE0",
+          "text": "\"This is where I started off with my motor carriage... before sinking it in the sea.\"",
+          "links": [
+            {
+              "id": 64,
+              "title": "Kim Kitsuragi: \"\"No wonder the cafeteria manager se...\"",
+              "articyId": "0x0100008100000D2E",
+              "text": "\"No wonder the cafeteria manager seemed frustrated when he was giving us directions to the yard.\"",
+              "links": [
+                {
+                  "id": 72,
+                  "title": "Kim Kitsuragi: \"\"Well,\" he gestures toward the gapi...\"",
+                  "articyId": "0x0100008100000D26",
+                  "text": "\"Well,\" he gestures toward the gaping hole in the fence, \"you did provide us with a very convenient access point to the crime scene.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 79,
+              "title": "Kim Kitsuragi: \"\"Yes, it is. Well,\" he gestures tow...\"",
+              "articyId": "0x0100008100000CE6",
+              "text": "\"Yes, it is. Well,\" he gestures toward the gaping hole in the fence, \"you did provide us with a very convenient access point to the crime scene.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "title": "You: \"\"This is the point of departure of...\"",
+          "articyId": "0x0100008100000D13",
+          "text": "\"This is the point of departure of the vehicle that crashed into the Samaran Butter sign.\"",
+          "links": [
+            {
+              "id": 46,
+              "title": "Kim Kitsuragi: \"The lieutenant follows the tracks w...\"",
+              "articyId": "0x0100008100000D36",
+              "text": "The lieutenant follows the tracks with his gaze. \"That's plausible. A similar... reckless abandon seems to be in evidence.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "title": "You: \"I think I got it. [Leave.]\"",
+          "articyId": "0x010000040000D81D",
+          "text": "I think I got it. [Leave.]",
+          "links": []
+        },
+        {
+          "id": 54,
+          "title": "You: \"This is significant somehow.\"",
+          "articyId": "0x010000040000D8CD",
+          "text": "This is significant somehow.",
+          "links": [
+            {
+              "id": 55,
+              "title": "Visual Calculus: \"Maybe. Probably.\"",
+              "articyId": "0x010000040000D8D4",
+              "text": "Maybe. Probably.",
+              "links": [
+                {
+                  "id": 71,
+                  "title": "Inland Empire: \"An ominous warning of bad things ah...\"",
+                  "articyId": "0x0100002F00010049",
+                  "text": "An ominous warning of bad things ahead.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"This is where I started off with my...\"",
+          "articyId": "0x0100002F00010E41",
+          "text": "This is where I started off with my motor carriage.",
+          "links": [
+            {
+              "id": 43,
+              "title": "Visual Calculus: \"Yes. And ended up half-sunken in th...\"",
+              "articyId": "0x0100002F00010FB1",
+              "text": "Yes. And ended up half-sunken in the sea. You must have been drunk when you left off.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "title": "You: \"This is the point of departure of t...\"",
+          "articyId": "0x0100002F0001004F",
+          "text": "This is the point of departure of the motor carriage that crashed into the Samaran Butter sign, right?",
+          "links": [
+            {
+              "id": 78,
+              "title": "Visual Calculus: \"Why yes it is! Good connection.\"",
+              "articyId": "0x0100002F00010056",
+              "text": "Why yes it is! Good connection.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Perception (Sight): \"You see a set of tyre tracks in the...\"",
+      "articyId": "0x010000040000D77F",
+      "text": "You see a set of tyre tracks in the brown slush that covers the plaza mosaic.",
+      "links": [
+        {
+          "id": 33,
+          "title": "You: \"Why am I looking at this?\"",
+          "articyId": "0x0100000600017303",
+          "text": "Why am I looking at this?",
+          "links": [
+            {
+              "id": 38,
+              "title": "Perception (Sight): \"Cop habit. You look at everything.\"",
+              "articyId": "0x010000060001730A",
+              "text": "Cop habit. You look at everything.",
+              "links": [
+                {
+                  "id": 73,
+                  "title": "Logic: \"This isn't case-related, you think.\"",
+                  "articyId": "0x0100000600017313",
+                  "text": "This isn't case-related, you think.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "title": "You: \"What kind of vehicle drove through...\"",
+          "articyId": "0x010000040000D868",
+          "text": "What kind of vehicle drove through here?",
+          "links": [
+            {
+              "id": 80,
+              "title": "Perception (Sight): \"Hard to say.\"",
+              "articyId": "0x010000040000D86E",
+              "text": "Hard to say.",
+              "links": []
+            },
+            {
+              "id": 39,
+              "title": "Perception (Sight): \"Hard to say. Your vision is blurred...\"",
+              "articyId": "0x0100002F00010F88",
+              "text": "Hard to say. Your vision is blurred and you are having difficulty concentrating thanks to your relentless hangover.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "title": "You: \"Reconstruct the movement.\"",
+          "articyId": "0x010000040000D7C7",
+          "text": "Reconstruct the movement.",
+          "links": [
+            {
+              "id": 36,
+              "title": "Visual Calculus: \"The tyre tracks were left here by a...\"",
+              "articyId": "0x010000040000D889",
+              "text": "The tyre tracks were left here by an unknown event that took place some days ago. It's a message, written in the language of burnt rubber.",
+              "links": [
+                {
+                  "id": 70,
+                  "title": "Visual Calculus: \"Some of that rubber stuck to the ti...\"",
+                  "articyId": "0x010000040000D897",
+                  "text": "Some of that rubber stuck to the tiles right in front of the Whirling-in-Rags. This is point A. The driver started there...",
+                  "links": [
+                    {
+                      "id": 66,
+                      "title": "Visual Calculus: \"...and then accelerated straight in...\"",
+                      "articyId": "0x010000040000D816",
+                      "text": "...and then accelerated straight into the fence.",
+                      "links": [
+                        {
+                          "id": 12,
+                          "title": "Authority: \"The hole in this fence doesn't look...\"",
+                          "articyId": "0x010000040000D793",
+                          "text": "The hole in this fence doesn't look *that* huge.",
+                          "links": [
+                            {
+                              "id": 51,
+                              "title": "You: \"Damn bartender.\"",
+                              "articyId": "0x0100002F00010FBA",
+                              "text": "Damn bartender.",
+                              "links": [
+                                {
+                                  "id": 44,
+                                  "title": "Authority: \"He was exaggerating. People blame *...\"",
+                                  "articyId": "0x0100002F00010FC1",
+                                  "text": "He was exaggerating. People blame *cops* for everything that goes wrong in the world. This has nothing to do with you.",
+                                  "links": [
+                                    {
+                                      "id": 35,
+                                      "title": "Interfacing: \"As a matter of fact, you don't even...\"",
+                                      "articyId": "0x01000011000017CD",
+                                      "text": "As a matter of fact, you don't even know why you stopped here. You would never drive recklessly like this. And you don't have a car.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 77,
+                              "title": "You: \"The hole is not that impressive.\"",
+                              "articyId": "0x0100002F0001001C",
+                              "text": "The hole is not that impressive.",
+                              "links": []
+                            },
+                            {
+                              "id": 16,
+                              "title": "You: \"Okay. What happened next?\"",
+                              "articyId": "0x0100002F00010F92",
+                              "text": "Okay. What happened next?",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "title": "You: \"What happened next?\"",
+                          "articyId": "0x0100002F00010E4C",
+                          "text": "What happened next?",
+                          "links": [
+                            {
+                              "id": 37,
+                              "title": "Visual Calculus: \"The driver proceeded to back out of...\"",
+                              "articyId": "0x010000040000D8AD",
+                              "text": "The driver proceeded to back out of the yard, barely stopping before hitting the adjacent building...",
+                              "links": [
+                                {
+                                  "id": 14,
+                                  "title": "Visual Calculus: \"...before heading south. Must have...\"",
+                                  "articyId": "0x010000040000D8BB",
+                                  "text": "...before heading south. Must have been in a hurry.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 45,
+              "title": "Visual Calculus: \"No, these tracks are not interestin...\"",
+              "articyId": "0x010000040000D7DB",
+              "text": "No, these tracks are not interesting at all. Let the street sweeper just sweep them away.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "title": "You: \"Not now. [Leave.]\"",
+          "articyId": "0x010000040000D78D",
+          "text": "Not now. [Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

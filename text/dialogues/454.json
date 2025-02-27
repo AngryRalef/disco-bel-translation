@@ -1,0 +1,82 @@
+{
+  "id": "0x010000640000D79D",
+  "title": "WHIRLING F1 ORB / vicquemare esprit afterthought",
+  "description": "What a hell... *are* we from the same station?",
+  "dialogueTree": [
+    {
+      "id": 10,
+      "title": "Esprit de Corps: \"Okay, the man with the sunglasses a...\"",
+      "articyId": "0x010000640000D79E",
+      "text": "Okay, the man with the sunglasses and his *hypothetical Station 41*. Weird, right?",
+      "links": [
+        {
+          "id": 2,
+          "title": "You: \"I know! Super weird.\"",
+          "articyId": "0x010000640000D8EF",
+          "text": "I know! Super weird.",
+          "links": [
+            {
+              "id": 12,
+              "title": "Esprit de Corps: \"There's something we're missing her...\"",
+              "articyId": "0x010000640000D8F7",
+              "text": "There's something we're missing here... something you can't put our finger on. You know what -- just ask him. I know it sounds crazy (and you'll probably get laughed at). But still...",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "You: \"I was thinking the same thing. I sh...\"",
+                  "articyId": "0x010000640000D90E",
+                  "text": "I was thinking the same thing. I should just ask him if we're from the same station.",
+                  "links": [
+                    {
+                      "id": 6,
+                      "title": "Esprit de Corps: \"Yes. Just cross it off the list. It...\"",
+                      "articyId": "0x010000640000D91C",
+                      "text": "Yes. Just cross it off the list. It's probably not true though.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "title": "You: \"It's impossible. I don't want to wa...\"",
+                  "articyId": "0x010000640000D915",
+                  "text": "It's impossible. I don't want to waste my time.",
+                  "links": [
+                    {
+                      "id": 9,
+                      "title": "Esprit de Corps: \"Of course. Yes. It's preposterous.\"",
+                      "articyId": "0x0100007800013BEE",
+                      "text": "Of course. Yes. It's preposterous.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"I guess it was kind of weird, yes.\"",
+          "articyId": "0x010000640000D7AA",
+          "text": "I guess it was kind of weird, yes.",
+          "links": []
+        },
+        {
+          "id": 3,
+          "title": "You: \"No, this whole interaction was perf...\"",
+          "articyId": "0x010000640000D7B0",
+          "text": "No, this whole interaction was perfectly normal.",
+          "links": []
+        },
+        {
+          "id": 5,
+          "title": "You: \"Frankly I'm way past caring or wond...\"",
+          "articyId": "0x010000640000D7BC",
+          "text": "Frankly I'm way past caring or wondering. [Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

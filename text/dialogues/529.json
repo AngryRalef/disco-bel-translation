@@ -1,0 +1,81 @@
+{
+  "id": "0x010000820001F6C3",
+  "title": "WALKWAY ORB / logic belt afterthought",
+  "description": "",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Logic: \"These are the same belts as the one...\"",
+      "articyId": "0x010000820001F935",
+      "text": "These are the same belts as the one the victim was hanged with.",
+      "links": [
+        {
+          "id": 3,
+          "title": "Encyclopedia: \"I knew it was a cargo lashing belt!\"",
+          "articyId": "0x010000820001F98C",
+          "text": "I knew it was a cargo lashing belt!",
+          "links": []
+        },
+        {
+          "id": 6,
+          "title": "You: \"\"Look, lieutenant. The same belts a...\"",
+          "articyId": "0x010000820001F953",
+          "text": "\"Look, lieutenant. The same belts as the one the victim was hanged with. Says *Vermillion* on the side...\"",
+          "links": [
+            {
+              "id": 19,
+              "title": "Kim Kitsuragi: \"\"You're right. This is probably whe...\"",
+              "articyId": "0x010000820001F976",
+              "text": "\"You're right. This is probably where Titus and his men got the belt.\" The lieutenant looks at the pile.",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Kim Kitsuragi: \"\"More ammo on our belt for the rema...\"",
+                  "articyId": "0x010000060001863E",
+                  "text": "\"More ammo on our belt for the remainder of the investigation. Good find, detective.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "title": "Kim Kitsuragi: \"\"You're right.\" The lieutenant look...\"",
+              "articyId": "0x010000820001F967",
+              "text": "\"You're right.\" The lieutenant looks at the pile. \"This certainly confirms the theory that the belt must've come from inside the harbour.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"The same exact belts. Even the same...\"",
+          "articyId": "0x010000820001F959",
+          "text": "The same exact belts. Even the same writing...",
+          "links": [
+            {
+              "id": 20,
+              "title": "Logic: \"Yes, this confirms Titus's story.\"",
+              "articyId": "0x010000820001F986",
+              "text": "Yes, this confirms Titus's story.",
+              "links": []
+            },
+            {
+              "id": 8,
+              "title": "Logic: \"Indeed, it appears so. This is wher...\"",
+              "articyId": "0x010000820001F994",
+              "text": "Indeed, it appears so. This is where the belt came from.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "You: \"[Finish thought.]\"",
+          "articyId": "0x010000820001F95F",
+          "text": "[Finish thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

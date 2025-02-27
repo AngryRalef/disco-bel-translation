@@ -1,0 +1,237 @@
+{
+  "id": "0x0100000F0001200E",
+  "title": "CONTAINERYARD ORB / ultraliberal dream quest",
+  "description": "Savoir Faire hears wealth humming in the container -- whether it's raised or lowered. Also gives you instant access to MRLBG.",
+  "dialogueTree": [
+    {
+      "id": 38,
+      "title": "Savoir Faire: \"Here we are. Whoever is in there de...\"",
+      "articyId": "0x0100000F0001618F",
+      "text": "Here we are. Whoever is in there definitely has money, so let's convince them to part with it for our *exclusive* piece of art.",
+      "links": []
+    },
+    {
+      "id": 4,
+      "title": "Savoir Faire: \"There! In that container you moved....\"",
+      "articyId": "0x0100000F000120D2",
+      "text": "There! In that container you moved. There's *something* rich in there. We've got to get inside.",
+      "links": [
+        {
+          "id": 15,
+          "title": "You: \"But I already tried to convince it...\"",
+          "articyId": "0x0100000F000120D8",
+          "text": "But I already tried to convince it to open for me and failed.",
+          "links": [
+            {
+              "id": 31,
+              "title": "Savoir Faire: \"Then it's time to show you how a *m...\"",
+              "articyId": "0x0100000F000120EE",
+              "text": "Then it's time to show you how a *master* does it. No lock survives a round with Savvy. Get me up close.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "You: \"What do you suggest?\"",
+          "articyId": "0x0100000F000120E2",
+          "text": "What do you suggest?",
+          "links": [
+            {
+              "id": 10,
+              "title": "Savoir Faire: \"Opening the door? C'mon, I shouldn'...\"",
+              "articyId": "0x0100000F000120F3",
+              "text": "Opening the door? C'mon, I shouldn't have to tell you that. Get me up close and I'll show you how it's done.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Savoir Faire: \"Psst, hear that?\"",
+      "articyId": "0x010000580001D70F",
+      "text": "Psst, hear that?",
+      "links": [
+        {
+          "id": 21,
+          "title": "You: \"Hear what?\"",
+          "articyId": "0x010000580001D715",
+          "text": "Hear what?",
+          "links": [
+            {
+              "id": 6,
+              "title": "Savoir Faire: \"The ominous hum of a preposterously...\"",
+              "articyId": "0x010000580001D728",
+              "text": "The ominous hum of a preposterously affluent individual... It seems to be coming from above us.",
+              "links": [
+                {
+                  "id": 32,
+                  "title": "Perception (Hearing): \"You hear dock water quietly lapping...\"",
+                  "articyId": "0x010000580001D774",
+                  "text": "You hear dock water quietly lapping against seaweed-slimed concrete, but definitely no ominous hums.",
+                  "links": [
+                    {
+                      "id": 7,
+                      "title": "You: \"(Look up.)\"",
+                      "articyId": "0x010000580001D73C",
+                      "text": "(Look up.)",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "Savoir Faire: \"See that massive container there, h...\"",
+                          "articyId": "0x010000580001D76C",
+                          "text": "See that massive container there, held up by that humongous crane? That's it! We need to get that box of treasures down. Try using that control panel over there.",
+                          "links": [
+                            {
+                              "id": 35,
+                              "title": "Logic: \"Hold up a minute... why should a pr...\"",
+                              "articyId": "0x010000580001D736",
+                              "text": "Hold up a minute... why should a preposterously affluent individual be hiding themselves in a container?",
+                              "links": [
+                                {
+                                  "id": 12,
+                                  "title": "You: \"Let's slow down here. Why would we...\"",
+                                  "articyId": "0x010000580001D785",
+                                  "text": "Let's slow down here. Why would we search for rich people in containers?",
+                                  "links": [
+                                    {
+                                      "id": 17,
+                                      "title": "Savoir Faire: \"*Slow down*? We don't have time to...\"",
+                                      "articyId": "0x010000580001D7B5",
+                                      "text": "*Slow down*? We don't have time to slow down -- it's *crunch time*! Get your ass moving and control that crane! We've got sales to make.",
+                                      "links": [
+                                        {
+                                          "id": 3,
+                                          "title": "You: \"Yes, but...\"",
+                                          "articyId": "0x010000580001D7CE",
+                                          "text": "Yes, but...",
+                                          "links": [
+                                            {
+                                              "id": 13,
+                                              "title": "Savoir Faire: \"No 'buts', I want to see your *can-...\"",
+                                              "articyId": "0x010000580001D7D5",
+                                              "text": "No 'buts', I want to see your *can-do* attitude shine this time. Get moving!",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 16,
+                                  "title": "You: \"No problemo, boss-man. On my way to...\"",
+                                  "articyId": "0x010000580001D79E",
+                                  "text": "No problemo, boss-man. On my way to lower that crane... [Leave.]",
+                                  "links": [
+                                    {
+                                      "id": 27,
+                                      "title": "Savoir Faire: \"Great *work* ethic, friend. No one...\"",
+                                      "articyId": "0x010000580001D7BC",
+                                      "text": "Great *work* ethic, friend. No one should be scared to get their hands dirty on the road to brilliant *success*.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 36,
+                      "title": "You: \"I don't see anyone. Are you sure?\"",
+                      "articyId": "0x010000580001D743",
+                      "text": "I don't see anyone. Are you sure?",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "Savoir Faire: \"Yes, I'm sure. *Someone* here has a...\"",
+                          "articyId": "0x010000580001D74A",
+                          "text": "Yes, I'm sure. *Someone* here has assets stacked away in OFCs. Look up.",
+                          "links": [
+                            {
+                              "id": 37,
+                              "title": "Encyclopedia: \"OFCs or Offshore Financial Centres...\"",
+                              "articyId": "0x010000580001D77E",
+                              "text": "OFCs or Offshore Financial Centres -- that's another word for tax havens. EPIS has adopted the OFFNET approach into their frameworks for addressing OFCs, but it's still a problem.",
+                              "links": [
+                                {
+                                  "id": 14,
+                                  "title": "You: \"Wait, you mean tax havens?\"",
+                                  "articyId": "0x010000580001D790",
+                                  "text": "Wait, you mean tax havens?",
+                                  "links": [
+                                    {
+                                      "id": 39,
+                                      "title": "Savoir Faire: \"Tax havens, OFCs, Sinks, Conduits,...\"",
+                                      "articyId": "0x010000580001D796",
+                                      "text": "Tax havens, OFCs, Sinks, Conduits, *heavens*... Get with the terms, hustler-boy. Now look up!",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 19,
+                                  "title": "You: \"Wait, OFCs?\"",
+                                  "articyId": "0x010000580001D751",
+                                  "text": "Wait, OFCs?",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "You: \"I don't hear anything.\"",
+          "articyId": "0x010000580001D71B",
+          "text": "I don't hear anything.",
+          "links": []
+        },
+        {
+          "id": 34,
+          "title": "You: \"You mean the rain?\"",
+          "articyId": "0x010000580001D7ED",
+          "text": "You mean the rain?",
+          "links": [
+            {
+              "id": 8,
+              "title": "Savoir Faire: \"No, not the rain -- the ominous hum...\"",
+              "articyId": "0x010000580001D7F9",
+              "text": "No, not the rain -- the ominous hum of a *preposterously affluent individual*... It seems to be coming from above us.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "You: \"Everything gets so quiet when it sn...\"",
+          "articyId": "0x010000580001D7F3",
+          "text": "Everything gets so quiet when it snows.",
+          "links": [
+            {
+              "id": 9,
+              "title": "Savoir Faire: \"No, not the snow -- the ominous hum...\"",
+              "articyId": "0x010000580001D801",
+              "text": "No, not the snow -- the ominous hum of a *preposterously affluent individual*... It seems to be coming from above us.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

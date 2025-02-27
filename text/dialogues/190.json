@@ -1,0 +1,715 @@
+{
+  "id": "0x0100002F0000FBC5",
+  "title": "APT / CUNO DAD",
+  "description": "Cuno's dad, loitering on the bed. Drugs. Sleeping with his eyes open. His face reminds you Cuno 30 years later. Also seems like he's dead. Hairy ginger chest, in undewear. Kim reacts. Hearing redcheck while he gurgles, success: he's trying to call you pigs. \n\n\nI talked to your dad boolean. / I was somehow able to not evade your dad.",
+  "dialogueTree": [
+    {
+      "id": 107,
+      "title": "Cuno's Dad: \"The ageing alcoholic is still there...\"",
+      "articyId": "0x0100005700021611",
+      "text": "The ageing alcoholic is still there, breathing... The air in the room is stale.",
+      "links": [
+        {
+          "id": 53,
+          "title": "You: \"\"Hey, talk to me! Are you even aliv...\"",
+          "articyId": "0x010000750000026A",
+          "text": "\"Hey, talk to me! Are you even alive?\"",
+          "links": [
+            {
+              "id": 126,
+              "title": "Cuno's Dad: \"A lump of flesh is sticking out fro...\"",
+              "articyId": "0x0100005700021622",
+              "text": "A lump of flesh is sticking out from under the blanket. It seems to be twitching from time to time, like the paw of an animal who's having a bad dream.",
+              "links": [
+                {
+                  "id": 123,
+                  "title": "Perception (Sight): \"And look, the other foot is camoufl...\"",
+                  "articyId": "0x01000057000211ED",
+                  "text": "And look, the other foot is camouflaged by a striped sock bearing the name MAXTOR on the sole. Three toes are poking out of a hole.",
+                  "links": [
+                    {
+                      "id": 116,
+                      "title": "Encyclopedia: \"Maxtor is a gas company. He's weari...\"",
+                      "articyId": "0x0100005700021200",
+                      "text": "Maxtor is a gas company. He's wearing free socks from a gas company. They probably came with the bills.",
+                      "links": []
+                    },
+                    {
+                      "id": 89,
+                      "title": "Cuno's Dad: \"A groan rises from the man's throat...\"",
+                      "articyId": "0x01000057000212CB",
+                      "text": "A groan rises from the man's throat, dry like a death rattle... He's trying to say something in his sleep.",
+                      "links": [
+                        {
+                          "id": 30,
+                          "title": "Half Light: \"The bear is trying to wake up!\"",
+                          "articyId": "0x0100005700021534",
+                          "text": "The bear is trying to wake up!",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "title": "You: \"\"Kim, is this thing even *alive*?\"\"",
+          "articyId": "0x01000057000211E0",
+          "text": "\"Kim, is this thing even *alive*?\"",
+          "links": [
+            {
+              "id": 14,
+              "title": "Kim Kitsuragi: \"\"I'm afraid it is. Look, it *moves*...\"",
+              "articyId": "0x01000057000211E6",
+              "text": "\"I'm afraid it is. Look, it *moves*.\" He points to a fleshy lump sticking out from the other end of the blanket. The limb seems to be twitching from time to time.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 129,
+          "title": "You: \"\"Hey, are you really Cuno's father?\"\"",
+          "articyId": "0x0100007500000275",
+          "text": "\"Hey, are you really Cuno's father?\"",
+          "links": [
+            {
+              "id": 71,
+              "title": "Cuno's Dad: \"The light from the window is weak,...\"",
+              "articyId": "0x010000750000027C",
+              "text": "The light from the window is weak, but it seems like he is. His wild, unwashed mane bears a familiar ginger tone. Even the hair on his chest is coppery.",
+              "links": [
+                {
+                  "id": 112,
+                  "title": "Visual Calculus: \"Don't forget his face: the bloated...\"",
+                  "articyId": "0x01000007000194D4",
+                  "text": "Don't forget his face: the bloated and reddened cheeks, the bulbous nose... This would be Cuno after 30 years of substance abuse, if he drank too.",
+                  "links": [
+                    {
+                      "id": 88,
+                      "title": "Logic: \"The sight you're beholding right no...\"",
+                      "articyId": "0x01000007000194DD",
+                      "text": "The sight you're beholding right now is probably the reason he doesn't.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 75,
+                  "title": "Visual Calculus: \"Don't forget his face: the bloated...\"",
+                  "articyId": "0x0100007500000296",
+                  "text": "Don't forget his face: the bloated and reddened cheeks, the bulbous nose... This would be Cuno after 30 years of alcohol and substance abuse.",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Half Light: \"There's still plenty to be scared o...\"",
+                      "articyId": "0x010000750000029C",
+                      "text": "There's still plenty to be scared of here. Just not what you thought.",
+                      "links": [
+                        {
+                          "id": 84,
+                          "title": "You: \"\"I was expecting something... scari...\"",
+                          "articyId": "0x01000075000002BC",
+                          "text": "\"I was expecting something... scarier.\"",
+                          "links": [
+                            {
+                              "id": 130,
+                              "title": "Cuno's Dad: \"No response. A pair of half-open bu...\"",
+                              "articyId": "0x0100007500000283",
+                              "text": "No response. A pair of half-open bug eyes is staring back at you from the dark, empty and frozen. It's clear that the person behind them is not awake.",
+                              "links": [
+                                {
+                                  "id": 76,
+                                  "title": "Encyclopedia: \"Nocturnal lagophthalmos. The likeli...\"",
+                                  "articyId": "0x01000075000002CD",
+                                  "text": "Nocturnal lagophthalmos. The likelihood of falling asleep with partially open eyelids rises after stimulant use and heavy drinking.",
+                                  "links": [
+                                    {
+                                      "id": 54,
+                                      "title": "Pain Threshold: \"His half-open eyes give him the loo...\"",
+                                      "articyId": "0x0100007500000289",
+                                      "text": "His half-open eyes give him the look of a dead man. But he is in there... and not enjoying himself.",
+                                      "links": [
+                                        {
+                                          "id": 23,
+                                          "title": "Cuno's Dad: \"Suddenly the man starts growling. T...\"",
+                                          "articyId": "0x0100007500000290",
+                                          "text": "Suddenly the man starts growling. Three words manage to escape his mouth, along with a strong stench of alcohol: 'Fucking... kipt... f****ts...'",
+                                          "links": [
+                                            {
+                                              "id": 52,
+                                              "title": "Shivers: \"Somewhere, just out of earshot, a g...\"",
+                                              "articyId": "0x0100007000005AF2",
+                                              "text": "Somewhere, just out of earshot, a glass bottle explodes. A man's voice shouts \"You fucking kids!\" And then the screech of sneakers pounding the pavement, a girl's voice yelling \"Got him!\" and a painfully shrill laugh piercing the air...",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 55,
+                          "title": "You: \"\"I can't believe it, Cuno's dad can...\"",
+                          "articyId": "0x01000075000002B6",
+                          "text": "\"I can't believe it, Cuno's dad can't be a loser! It *must* be someone else.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 17,
+                          "title": "You: \"\"Doesn't look like you're going to...\"",
+                          "articyId": "0x01000075000002C2",
+                          "text": "\"Doesn't look like you're going to fuck anyone up any time soon, little man.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "title": "You: \"\"Is this.... Cuno's father we're se...\"",
+          "articyId": "0x0100005700021223",
+          "text": "\"Is this.... Cuno's father we're seeing?\"",
+          "links": [
+            {
+              "id": 117,
+              "title": "Kim Kitsuragi: \"\"Well, judging by the colour of his...\"",
+              "articyId": "0x0100005700021250",
+              "text": "\"Well, judging by the colour of his hair I would say yes, it is.\"",
+              "links": [
+                {
+                  "id": 133,
+                  "title": "Cuno's Dad: \"The lieutenant's right -- the man's...\"",
+                  "articyId": "0x0100005700021277",
+                  "text": "The lieutenant's right -- the man's unwashed hair bears a familiar ginger tone. Even the hair on his chest is coppery. The light from the window falls into his half-open eyes.",
+                  "links": [
+                    {
+                      "id": 86,
+                      "title": "Encyclopedia: \"Nocturnal lagophthalmos. The likeli...\"",
+                      "articyId": "0x0100008200008EC3",
+                      "text": "Nocturnal lagophthalmos. The likelihood of falling asleep with partially open eyelids rises after stimulant use and heavy drinking.",
+                      "links": [
+                        {
+                          "id": 87,
+                          "title": "Half Light: \"There's still plenty to be scared o...\"",
+                          "articyId": "0x0100008200008ED4",
+                          "text": "There's still plenty to be scared of here. Just not what you thought.",
+                          "links": [
+                            {
+                              "id": 99,
+                              "title": "You: \"\"I was expecting something... worse.\"\"",
+                              "articyId": "0x010000570002126A",
+                              "text": "\"I was expecting something... worse.\"",
+                              "links": [
+                                {
+                                  "id": 50,
+                                  "title": "Kim Kitsuragi: \"\"I think he's still *quite* bad......\"",
+                                  "articyId": "0x010000570002128E",
+                                  "text": "\"I think he's still *quite* bad... I mean, what he has come to.\" The lieutenant tilts his head.",
+                                  "links": [
+                                    {
+                                      "id": 137,
+                                      "title": "Kim Kitsuragi: \"\"This man won't be feeding his fami...\"",
+                                      "articyId": "0x0100008200008EDC",
+                                      "text": "\"This man won't be feeding his family any time soon. Not that he was, but...\" The lieutenant thinks to himself. \"At least he won't be beating his son.\"",
+                                      "links": [
+                                        {
+                                          "id": 134,
+                                          "title": "Cuno's Dad: \"A pair of half-open bug eyes is sta...\"",
+                                          "articyId": "0x010000570002129D",
+                                          "text": "A pair of half-open bug eyes is staring back at you from the dark, empty and frozen. It's clear that the person behind them is not awake.",
+                                          "links": [
+                                            {
+                                              "id": 64,
+                                              "title": "Pain Threshold: \"His half-open eyes give him the loo...\"",
+                                              "articyId": "0x0100008200008EE6",
+                                              "text": "His half-open eyes give him the look of a dead man. But he is in there... and not enjoying himself.",
+                                              "links": [
+                                                {
+                                                  "id": 94,
+                                                  "title": "You: \"\"Hold on, what happened to his eyes?\"\"",
+                                                  "articyId": "0x01000057000212BD",
+                                                  "text": "\"Hold on, what happened to his eyes?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 95,
+                                                      "title": "Kim Kitsuragi: \"\"Can't you tell? It happens to exce...\"",
+                                                      "articyId": "0x01000057000212D9",
+                                                      "text": "\"Can't you tell? It happens to exceptionally *committed* substance abusers. They fall asleep with their eyelids still open. Not a pretty sight.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 77,
+                                                  "title": "You: \"\"He's gonna sleep it off, I know th...\"",
+                                                  "articyId": "0x0100008200008EFD",
+                                                  "text": "\"He's gonna sleep it off, I know this shit.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 101,
+                                                      "title": "Cuno's Dad: \"\"Fuckn... k... f...pi...\" Suddenly...\"",
+                                                      "articyId": "0x01000057000212C5",
+                                                      "text": "\"Fuckn... k... f...pi...\" Suddenly the man starts growling. Three words manage to escape his mouth, along with a strong stench of alcohol.",
+                                                      "links": [
+                                                        {
+                                                          "id": 39,
+                                                          "title": "Kim Kitsuragi: \"\"Look, he's trying to communicate.\"\"",
+                                                          "articyId": "0x01000057000212D2",
+                                                          "text": "\"Look, he's trying to communicate.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 15,
+                                                  "title": "You: \"\"This is serious damage, I'm still...\"",
+                                                  "articyId": "0x01000057000212B7",
+                                                  "text": "\"This is serious damage, I'm still not sure he's not dead.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 124,
+                              "title": "You: \"\"I can't believe it, Cuno's dad isn...\"",
+                              "articyId": "0x010000570002127F",
+                              "text": "\"I can't believe it, Cuno's dad isn't a loser! It *must* be someone else.\"",
+                              "links": [
+                                {
+                                  "id": 135,
+                                  "title": "Kim Kitsuragi: \"\"Are you saying a man who looks lik...\"",
+                                  "articyId": "0x0100007000005AC7",
+                                  "text": "\"Are you saying a man who looks like Cuno broke into his father's apartment and passed out in his father's bed?\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 43,
+                              "title": "You: \"\"Doesn't look like he's going fuck...\"",
+                              "articyId": "0x0100005700021264",
+                              "text": "\"Doesn't look like he's going fuck anyone up any time soon.\"",
+                              "links": [
+                                {
+                                  "id": 100,
+                                  "title": "Kim Kitsuragi: \"\"No, it really doesn't.\" The lieute...\"",
+                                  "articyId": "0x0100005700021271",
+                                  "text": "\"No, it really doesn't.\" The lieutenant tilts his head. \"This looks very hard to recover from.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "You: \"\"Do you need help?\"\"",
+          "articyId": "0x01000075000002A3",
+          "text": "\"Do you need help?\"",
+          "links": [
+            {
+              "id": 45,
+              "title": "Cuno's Dad: \"The pile of blankets grunts. It's h...\"",
+              "articyId": "0x01000075000002A9",
+              "text": "The pile of blankets grunts. It's hard to say if there's anything left you could do.",
+              "links": [
+                {
+                  "id": 122,
+                  "title": "Endurance: \"A coronary artery bypass graft? Tak...\"",
+                  "articyId": "0x0100008200008F33",
+                  "text": "A coronary artery bypass graft? Take out his liver and replace it with a new one? Somehow undo 20 years of neurological damage from stimulants...",
+                  "links": [
+                    {
+                      "id": 132,
+                      "title": "Rhetoric: \"A change in the genetic make up wou...\"",
+                      "articyId": "0x0100008200008F42",
+                      "text": "A change in the genetic make up wouldn't hurt. Ginger degenerate.",
+                      "links": []
+                    },
+                    {
+                      "id": 59,
+                      "title": "Rhetoric: \"A change in the socio-economic circ...\"",
+                      "articyId": "0x0100008200008F49",
+                      "text": "A change in the socio-economic circumstances wouldn't hurt.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "title": "You: \"\"Maybe we should help him somehow?\"\"",
+          "articyId": "0x010000570002154F",
+          "text": "\"Maybe we should help him somehow?\"",
+          "links": [
+            {
+              "id": 22,
+              "title": "Kim Kitsuragi: \"\"What is there to do? We could turn...\"",
+              "articyId": "0x010000570002157D",
+              "text": "\"What is there to do? We could turn him on his side, so he doesn't choke on his own vomit. But he's already on his side...\"",
+              "links": [
+                {
+                  "id": 96,
+                  "title": "You: \"\"Excellent form.\"\"",
+                  "articyId": "0x0100007000005AF9",
+                  "text": "\"Excellent form.\"",
+                  "links": [
+                    {
+                      "id": 6,
+                      "title": "Kim Kitsuragi: \"\"We could take him to Remedie or Sa...\"",
+                      "articyId": "0x0100005700021584",
+                      "text": "\"We could take him to Remedie or Saint Batiste, but he doesn't have money for medical services. The Almshouse would turn him down...\"",
+                      "links": [
+                        {
+                          "id": 60,
+                          "title": "Kim Kitsuragi: \"\"They don't do charity for people w...\"",
+                          "articyId": "0x0100008200008F61",
+                          "text": "\"They don't do charity for people who're trying to kill themselves. Besides, he'll be dead in a few...\" The lieutenant stops, listening to him.",
+                          "links": [
+                            {
+                              "id": 27,
+                              "title": "Rhetoric: \"... years? Months? Weeks?\"",
+                              "articyId": "0x010000060001E608",
+                              "text": "... years? Months? Weeks?",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Cuno's Dad: \"The pile of blankets grunts miserab...\"",
+                                  "articyId": "0x01000057000215C6",
+                                  "text": "The pile of blankets grunts miserably.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 74,
+                  "title": "You: \"\"Poor guy.\"\"",
+                  "articyId": "0x0100007000005AFE",
+                  "text": "\"Poor guy.\"",
+                  "links": []
+                },
+                {
+                  "id": 108,
+                  "title": "You: \"Nod.\"",
+                  "articyId": "0x0100008200008F52",
+                  "text": "Nod.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "title": "You: \"(Whisper.) \"I took your amphetamine...\"",
+          "articyId": "0x0100005700021229",
+          "text": "(Whisper.) \"I took your amphetamine, old man.\"",
+          "links": [
+            {
+              "id": 38,
+              "title": "Cuno's Dad: \"Silence... Only heat emanates from...\"",
+              "articyId": "0x010000570002124A",
+              "text": "Silence... Only heat emanates from the sleeping body.",
+              "links": [
+                {
+                  "id": 16,
+                  "title": "Electrochemistry: \"He wouldn't be too thrilled to lear...\"",
+                  "articyId": "0x01000057000215D5",
+                  "text": "He wouldn't be too thrilled to learn you stole his stash. It was the last thing keeping him functional.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "title": "You: \"Figure out what he's trying to say.\"",
+          "articyId": "0x010000570001DF20",
+          "text": "Figure out what he's trying to say.",
+          "links": [
+            {
+              "id": 34,
+              "title": "Perception (Hearing): \"The man groans once again, but his...\"",
+              "articyId": "0x01000057000215A3",
+              "text": "The man groans once again, but his tongue keeps failing him: It's impossible to make out the syllables. A hand emerges from the blankets, trying to gesticulate something...",
+              "links": [
+                {
+                  "id": 73,
+                  "title": "Perception (Hearing): \"And then it dawns upon you, clear a...\"",
+                  "articyId": "0x01000057000215A9",
+                  "text": "And then it dawns upon you, clear and surreal...",
+                  "links": [
+                    {
+                      "id": 90,
+                      "title": "Perception (Hearing): \"\"Pigs,\" he says.\"",
+                      "articyId": "0x0100005700021554",
+                      "text": "\"Pigs,\" he says.",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Perception (Hearing): \"He's trying to call you pigs.\"",
+                          "articyId": "0x010000570001DF2B",
+                          "text": "He's trying to call you pigs.",
+                          "links": [
+                            {
+                              "id": 63,
+                              "title": "Authority: \"Are you going to let a semi-conscio...\"",
+                              "articyId": "0x0100007000005B08",
+                              "text": "Are you going to let a semi-conscious degenerate disrespect you?",
+                              "links": [
+                                {
+                                  "id": 102,
+                                  "title": "You: \"\"What did you just say?!\"\"",
+                                  "articyId": "0x0100005700021539",
+                                  "text": "\"What did you just say?!\"",
+                                  "links": [
+                                    {
+                                      "id": 67,
+                                      "title": "Cuno's Dad: \"His hand falls back on the bed, lim...\"",
+                                      "articyId": "0x01000057000215B3",
+                                      "text": "His hand falls back on the bed, limp and defeated. A loud snore escapes his mouth... He's asleep again.",
+                                      "links": [
+                                        {
+                                          "id": 91,
+                                          "title": "Kim Kitsuragi: \"\"At least he got to say his piece.\"\"",
+                                          "articyId": "0x0100005700021576",
+                                          "text": "\"At least he got to say his piece.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 104,
+                                  "title": "You: \"\"You're awake... He's awake!\"\"",
+                                  "articyId": "0x010000570002153F",
+                                  "text": "\"You're awake... He's awake!\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 83,
+                                  "title": "You: \"\"Fuck you. Die.\"\"",
+                                  "articyId": "0x0100005700021563",
+                                  "text": "\"Fuck you. Die.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 28,
+                      "title": "Perception (Hearing): \"\"Pig,\" he says.\"",
+                      "articyId": "0x01000007000194C2",
+                      "text": "\"Pig,\" he says.",
+                      "links": [
+                        {
+                          "id": 36,
+                          "title": "Perception (Hearing): \"He's trying to call you a pig.\"",
+                          "articyId": "0x01000007000194BC",
+                          "text": "He's trying to call you a pig.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 66,
+              "title": "Perception (Hearing): \"The man groans once again, but his...\"",
+              "articyId": "0x01000057000212F4",
+              "text": "The man groans once again, but his tongue keeps failing him: It's impossible to make out the syllables. A hand emerges from the blankets, trying to gesticulate something...",
+              "links": [
+                {
+                  "id": 109,
+                  "title": "Cuno's Dad: \"And then falls back again, limp and...\"",
+                  "articyId": "0x010000570002159B",
+                  "text": "And then falls back again, limp and defeated by sleep. A loud snore escapes his mouth.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000570002103D",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "A Pile of Clothes: \"A bundle of clothes heaped on the b...\"",
+      "articyId": "0x0100002F0000FBF1",
+      "text": "A bundle of clothes heaped on the bed. A stained parka, some towels and a duvet. Some socks even.",
+      "links": [
+        {
+          "id": 111,
+          "title": "Perception (Sight): \"In the dark it looks like a nest.\"",
+          "articyId": "0x0100008200008E7A",
+          "text": "In the dark it looks like a nest.",
+          "links": [
+            {
+              "id": 131,
+              "title": "You: \"\"Hold up, lieutenant. Look at that...\"",
+              "articyId": "0x0100008200008E24",
+              "text": "\"Hold up, lieutenant. Look at that pile of clothes.\"",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "Kim Kitsuragi: \"\"Mhmh...\" The lieutenant has covere...\"",
+                  "articyId": "0x0100008200008E8A",
+                  "text": "\"Mhmh...\" The lieutenant has covered his nose.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 44,
+              "title": "You: \"Slowly reach out your hand.\"",
+              "articyId": "0x01000057000215F3",
+              "text": "Slowly reach out your hand.",
+              "links": [
+                {
+                  "id": 103,
+                  "title": "A Pile of Clothes: \"Something underneath there is breat...\"",
+                  "articyId": "0x0100008200008E2B",
+                  "text": "Something underneath there is breathing.",
+                  "links": [
+                    {
+                      "id": 9,
+                      "title": "Half Light: \"It doesn't give a shit that you're...\"",
+                      "articyId": "0x0100008200008E32",
+                      "text": "It doesn't give a shit that you're a cop! Stop your hand now or you're gonna die!",
+                      "links": [
+                        {
+                          "id": 127,
+                          "title": "Inland Empire: \"It's not too late, no one's going t...\"",
+                          "articyId": "0x0100008200008E97",
+                          "text": "It's not too late, no one's going to blame you for backing out. You don't have to do this. Just get out.",
+                          "links": [
+                            {
+                              "id": 92,
+                              "title": "You: \"Keep extending your hand towards th...\"",
+                              "articyId": "0x0100008200008E37",
+                              "text": "Keep extending your hand towards the pile.",
+                              "links": [
+                                {
+                                  "id": 35,
+                                  "title": "A Pile of Clothes: \"Your hand touches a greasy duvet, c...\"",
+                                  "articyId": "0x0100008200008E52",
+                                  "text": "Your hand touches a greasy duvet, covered in cigarette burns and ketchup stains. You hear a growl. There is something *alive* underneath it.",
+                                  "links": [
+                                    {
+                                      "id": 72,
+                                      "title": "Perception (Hearing): \"It's deep, in suffering somehow.\"",
+                                      "articyId": "0x0100008200008E9F",
+                                      "text": "It's deep, in suffering somehow.",
+                                      "links": [
+                                        {
+                                          "id": 110,
+                                          "title": "You: \"Pull the blanket off.\"",
+                                          "articyId": "0x0100008200008E59",
+                                          "text": "Pull the blanket off.",
+                                          "links": [
+                                            {
+                                              "id": 121,
+                                              "title": "Cuno's Dad: \"You see a 60-year-old fat red-heade...\"",
+                                              "articyId": "0x0100008200008E0C",
+                                              "text": "You see a 60-year-old fat red-headed man passed out from large amounts of alcohol. And god knows what else. The smell of shit rises from his mouth.",
+                                              "links": [
+                                                {
+                                                  "id": 136,
+                                                  "title": "Cuno's Dad: \"You don't have to take him down. He...\"",
+                                                  "articyId": "0x0100008200008EAA",
+                                                  "text": "You don't have to take him down. He's already down.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 85,
+                              "title": "You: \"Fuck this, I'm out. [Leave.]\"",
+                              "articyId": "0x0100008200008E3D",
+                              "text": "Fuck this, I'm out. [Leave.]",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 51,
+              "title": "You: \"Nothing to see here then. [Leave.]\"",
+              "articyId": "0x01000057000215F9",
+              "text": "Nothing to see here then. [Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

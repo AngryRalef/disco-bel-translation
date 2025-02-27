@@ -1,0 +1,1000 @@
+{
+  "id": "0x0100001600001D03",
+  "title": "WHIRLING / SLEEPING DOCKWORKER",
+  "description": "Downstairs at the Whirling In Rags there's a sleeping dockworker. Interfacing people can steal his wallet and work pass, Phys inst can wake him up by yelling and then get some info on the Union and the strike.",
+  "dialogueTree": [
+    {
+      "id": 131,
+      "title": "Sleeping Dockworker: \"The worker is in a deep slumber.\"",
+      "articyId": "0x0100002F000027CE",
+      "text": "The worker is in a deep slumber.",
+      "links": [
+        {
+          "id": 4,
+          "title": "You: \"\"Lieutenant, who is this?\"\"",
+          "articyId": "0x0100001600001F6E",
+          "text": "\"Lieutenant, who is this?\"",
+          "links": [
+            {
+              "id": 110,
+              "title": "Kim Kitsuragi: \"\"No idea. Looks like he works for W...\"",
+              "articyId": "0x0100001600001F68",
+              "text": "\"No idea. Looks like he works for Wild Pines, the logistics company who owns and operates the harbour.\"",
+              "links": [
+                {
+                  "id": 96,
+                  "title": "You: \"\"But why is he sleeping during the...\"",
+                  "articyId": "0x01000057000220A2",
+                  "text": "\"But why is he sleeping during the day?\"",
+                  "links": [
+                    {
+                      "id": 40,
+                      "title": "Kim Kitsuragi: \"\"Possibly because there's a strike...\"",
+                      "articyId": "0x01000057000220AA",
+                      "text": "\"Possibly because there's a strike going on in the harbour. There's not much to do -- aside from drinking and sleeping.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "You: \"Pick up the pills.\"",
+          "articyId": "0x010000060000FFFA",
+          "text": "Pick up the pills.",
+          "links": [
+            {
+              "id": 145,
+              "title": "Sleeping Dockworker: \"The man does not mind. You probably...\"",
+              "articyId": "0x0100000600010001",
+              "text": "The man does not mind. You probably need them more than he does.",
+              "links": [
+                {
+                  "id": 100,
+                  "title": "Tutorial Agent: \"You’ve just picked up some MAGNESIU...\"",
+                  "articyId": "0x0100000600010008",
+                  "text": "You’ve just picked up some MAGNESIUM. This item is stored in the bottom left corner of the screen, above your character portrait. Use MAGNESIUM to heal your Morale, if you have Morale damage.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "title": "You: \"Inspect the piece of plastic on his...\"",
+          "articyId": "0x0100005700022073",
+          "text": "Inspect the piece of plastic on his carabiner.",
+          "links": [
+            {
+              "id": 58,
+              "title": "Sleeping Dockworker: \"It's a dockworker's ID, doubling as...\"",
+              "articyId": "0x0100005700022079",
+              "text": "It's a dockworker's ID, doubling as a shift card and a job permit. A young, able-bodied man stares back at you from the photo: Santiago S. John.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "title": "You: \"Wake him up.\"",
+          "articyId": "0x0100001600001EB8",
+          "text": "Wake him up.",
+          "links": [
+            {
+              "id": 142,
+              "title": "Physical Instrument: \"There is only one way to awake this...\"",
+              "articyId": "0x01000057000220B3",
+              "text": "There is only one way to awake this bone idle from his slumber. Roar like a hurricane, rip the buildings from the Earth!",
+              "links": [
+                {
+                  "id": 144,
+                  "title": "You: \"\"WAKE UP! THIS IS AN ORDER, I AM TH...\"",
+                  "articyId": "0x01000057000220FE",
+                  "text": "\"WAKE UP! THIS IS AN ORDER, I AM THE LAW.\"",
+                  "links": [
+                    {
+                      "id": 84,
+                      "title": "Sleeping Dockworker: \"\"Why the yelling, man?\" The 30-some...\"",
+                      "articyId": "0x0100002D0000000B",
+                      "text": "\"Why the yelling, man?\" The 30-something man slowly lifts his head and gives you a pensive look.",
+                      "links": [
+                        {
+                          "id": 178,
+                          "title": "Encyclopedia: \"Looks like a Sao descendant. A lot...\"",
+                          "articyId": "0x01000006000181AE",
+                          "text": "Looks like a Sao descendant. A lot of Sao dockworkers around.",
+                          "links": [
+                            {
+                              "id": 51,
+                              "title": "You: \"\"You're *alive*? You looked out for...\"",
+                              "articyId": "0x0100002D0000001D",
+                              "text": "\"You're *alive*? You looked out for the long count there...\"",
+                              "links": [
+                                {
+                                  "id": 56,
+                                  "title": "Sleeping Dockworker: \"\"Wait, what? I was just sleeping.\"...\"",
+                                  "articyId": "0x0100002D0000003F",
+                                  "text": "\"Wait, what? I was just sleeping.\" He seems pissed off. \"What do you want, officer?\"",
+                                  "links": [
+                                    {
+                                      "id": 159,
+                                      "title": "Authority: \"Officer? Even after a rude awakenin...\"",
+                                      "articyId": "0x0100000600010A6B",
+                                      "text": "Officer? Even after a rude awakening -- this dockworker respects the police. More than they usually do at least.",
+                                      "links": [
+                                        {
+                                          "id": 87,
+                                          "title": "You: \"\"See anything interesting in your d...\"",
+                                          "articyId": "0x0100005700022118",
+                                          "text": "\"See anything interesting in your dreams?\"",
+                                          "links": [
+                                            {
+                                              "id": 106,
+                                              "title": "Sleeping Dockworker: \"\"Thank god, no.\"\"",
+                                              "articyId": "0x0100005700022179",
+                                              "text": "\"Thank god, no.\"",
+                                              "links": [
+                                                {
+                                                  "id": 41,
+                                                  "title": "You: \"\"Was it a fathomless darkness into...\"",
+                                                  "articyId": "0x0100005700022180",
+                                                  "text": "\"Was it a fathomless darkness into which we ought to be deferred, like corpses to a mausoleum?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 121,
+                                                      "title": "Sleeping Dockworker: \"The worker stares at you, his eyes...\"",
+                                                      "articyId": "0x01000057000221B1",
+                                                      "text": "The worker stares at you, his eyes dry from sleep. A web of wrinkles covers his tanned forehead.",
+                                                      "links": [
+                                                        {
+                                                          "id": 59,
+                                                          "title": "Sleeping Dockworker: \"\"I don't know what you're talking a...\"",
+                                                          "articyId": "0x01000057000221F7",
+                                                          "text": "\"I don't know what you're talking about, kind sir, but when I'm out, then I'm really *out*. No corpses. No mausoleums. Just *quality-time*.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 168,
+                                                              "title": "Inland Empire: \"A little *me*-time in the abyssopel...\"",
+                                                              "articyId": "0x0100000600010A5D",
+                                                              "text": "A little *me*-time in the abyssopelagic zone... you can never return to it now. Only detective-work remains. Wakefulness and detection.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 128,
+                                                                  "title": "Endurance: \"Fuck sleep. Despite the headache --...\"",
+                                                                  "articyId": "0x010000060001F53F",
+                                                                  "text": "Fuck sleep. Despite the headache -- and the queasiness -- you feel like you've got at least a ten kilometre run in you.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 101,
+                                                  "title": "You: \"\"Was it pure nothing, your consciou...\"",
+                                                  "articyId": "0x0100000600010A30",
+                                                  "text": "\"Was it pure nothing, your consciousness no larger than a single grain of malt?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 102,
+                                                      "title": "Sleeping Dockworker: \"The worker stares at you, his eyes...\"",
+                                                      "articyId": "0x0100000600010A45",
+                                                      "text": "The worker stares at you, his eyes dry from sleep. A web of wrinkles covers his tanned forehead.",
+                                                      "links": [
+                                                        {
+                                                          "id": 92,
+                                                          "title": "Sleeping Dockworker: \"\"I don't know what you're talking a...\"",
+                                                          "articyId": "0x0100000600010A3F",
+                                                          "text": "\"I don't know what you're talking about, kind sir, but when I'm out, then I'm really *out*. No malt grains or whatever. No poetry-stuff. Just *quality-time*.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 167,
+                                                  "title": "You: \"\"Tell me -- was it a bliss free of...\"",
+                                                  "articyId": "0x0100000600010A37",
+                                                  "text": "\"Tell me -- was it a bliss free of ex-somethings?",
+                                                  "links": [
+                                                    {
+                                                      "id": 146,
+                                                      "title": "Sleeping Dockworker: \"The worker stares at you, his eyes...\"",
+                                                      "articyId": "0x0100000600010A51",
+                                                      "text": "The worker stares at you, his eyes dry from sleep. A web of wrinkles covers his tanned forehead.",
+                                                      "links": [
+                                                        {
+                                                          "id": 65,
+                                                          "title": "Sleeping Dockworker: \"\"I don't know what you're talking a...\"",
+                                                          "articyId": "0x0100000600010A4B",
+                                                          "text": "\"I don't know what you're talking about, kind sir, but when I'm out, then I'm really *out*. No ex-anything. Just *quality time*.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 192,
+                                                  "title": "You: \"\"You're right. Let's talk about som...\"",
+                                                  "articyId": "0x010000570002218C",
+                                                  "text": "\"You're right. Let's talk about something else.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 9,
+                                                      "title": "Sleeping Dockworker: \"\"Brilliant.\" The worker blinks, as...\"",
+                                                      "articyId": "0x01000057000221BD",
+                                                      "text": "\"Brilliant.\" The worker blinks, as if trying to scare away the sleep.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 190,
+                                          "title": "You: \"\"Tell me about Wild Pines.\" (Point...\"",
+                                          "articyId": "0x0100002D0000008C",
+                                          "text": "\"Tell me about Wild Pines.\" (Point to the writing on his overalls.)",
+                                          "links": [
+                                            {
+                                              "id": 54,
+                                              "title": "Sleeping Dockworker: \"\"That's the name of my employer. I...\"",
+                                              "articyId": "0x0100001800002BBD",
+                                              "text": "\"That's the name of my employer. I work in logistics.\"",
+                                              "links": [
+                                                {
+                                                  "id": 160,
+                                                  "title": "Empathy: \"He doesn't sound too enthusiastic a...\"",
+                                                  "articyId": "0x010000570002211E",
+                                                  "text": "He doesn't sound too enthusiastic about this.",
+                                                  "links": [
+                                                    {
+                                                      "id": 173,
+                                                      "title": "You: \"\"How's that going?\"\"",
+                                                      "articyId": "0x0100005700022125",
+                                                      "text": "\"How's that going?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 201,
+                                                          "title": "Sleeping Dockworker: \"\"How's it going?\" The dockworker le...\"",
+                                                          "articyId": "0x0100005700022132",
+                                                          "text": "\"How's it going?\" The dockworker lets out a big yawn, then stares at the cafeteria's terrace doors. Some fingerprints glisten on the glass.",
+                                                          "links": [
+                                                            {
+                                                              "id": 174,
+                                                              "title": "Sleeping Dockworker: \"\"Haven't you noticed what's going o...\"",
+                                                              "articyId": "0x0100005700022139",
+                                                              "text": "\"Haven't you noticed what's going on outside?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 8,
+                                                                  "title": "You: \"\"Of course. It's a total *madhouse*.\"\"",
+                                                                  "articyId": "0x0100005700022140",
+                                                                  "text": "\"Of course. It's a total *madhouse*.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 153,
+                                                                      "title": "Sleeping Dockworker: \"\"Good, then you understand the gist...\"",
+                                                                      "articyId": "0x0100005700022154",
+                                                                      "text": "\"Good, then you understand the gist of it. We would all be better off without the employers and their employment.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 72,
+                                                                          "title": "Sleeping Dockworker: \"\"For one -- I could get some god da...\"",
+                                                                          "articyId": "0x0100005700022169",
+                                                                          "text": "\"For one -- I could get some god damn shut-eye.\" He rubs his eyes, then lets his head fall back on the table. \"Right to *sleep*, I say.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 175,
+                                                                  "title": "You: \"\"I'm not sure what you mean.\"\"",
+                                                                  "articyId": "0x0100005700022146",
+                                                                  "text": "\"I'm not sure what you mean.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 152,
+                                                                      "title": "Sleeping Dockworker: \"\"We're in the middle of a strike do...\"",
+                                                                      "articyId": "0x010000570002214E",
+                                                                      "text": "\"We're in the middle of a strike down at the harbour. Trying to force some sense into the executive board of Wild Pines.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 133,
+                                                                          "title": "Sleeping Dockworker: \"\"For one -- I could use some more s...\"",
+                                                                          "articyId": "0x010000570002215D",
+                                                                          "text": "\"For one -- I could use some more shut-eye in the mornings...\" He rubs his eyes and sighs. \"Right to work? Right to *sleep*, I say.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 80,
+                                                                  "title": "You: \"\"I've almost never been outside of...\"",
+                                                                  "articyId": "0x010000060001F54D",
+                                                                  "text": "\"I've almost never been outside of this building.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 195,
+                                                                      "title": "Sleeping Dockworker: \"\"Good.\" He doesn't dwell on the par...\"",
+                                                                      "articyId": "0x010000060001F554",
+                                                                      "text": "\"Good.\" He doesn't dwell on the particulars of your existence. \"We're in the middle of a strike down at the harbour. Trying to force some sense into the executive board of Wild Pines.\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 30,
+                                                      "title": "You: \"\"That's wonderful.\"\"",
+                                                      "articyId": "0x010000570002212B",
+                                                      "text": "\"That's wonderful.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 73,
+                                                          "title": "Sleeping Dockworker: \"\"Logistics? No, it's a nightmare.\"...\"",
+                                                          "articyId": "0x0100005700022171",
+                                                          "text": "\"Logistics? No, it's a nightmare.\" He lets his head fall back on the table.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 85,
+                                          "title": "You: \"\"Why are you sleeping here while th...\"",
+                                          "articyId": "0x0100002D00000051",
+                                          "text": "\"Why are you sleeping here while the others are out striking?\"",
+                                          "links": [
+                                            {
+                                              "id": 42,
+                                              "title": "Sleeping Dockworker: \"\"They got it. Measurehead's got it,...\"",
+                                              "articyId": "0x0100005700022198",
+                                              "text": "\"They got it. Measurehead's got it, he's guarding the gate. I'm just getting some sleep. Or *was*...\"",
+                                              "links": [
+                                                {
+                                                  "id": 179,
+                                                  "title": "Physical Instrument: \"The way he says \"Measurehead\" impli...\"",
+                                                  "articyId": "0x010000060001F55C",
+                                                  "text": "The way he says \"Measurehead\" implies ultimate trust in this head-reckoner's physical prowess.",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 50,
+                                                  "title": "Physical Instrument: \"The way he says \"Measurehead\" impli...\"",
+                                                  "articyId": "0x010000060001F56B",
+                                                  "text": "The way he says \"Measurehead\" implies ultimate trust in this head-reckoner's physical prowess. He seems like a worthy rival. You should *slay* him.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 158,
+                                          "title": "You: \"\"Who's behind organizing the strike?\"\"",
+                                          "articyId": "0x0100006B0000103A",
+                                          "text": "\"Who's behind organizing the strike?\"",
+                                          "links": [
+                                            {
+                                              "id": 194,
+                                              "title": "Sleeping Dockworker: \"\"We are... the workers. The Union....\"",
+                                              "articyId": "0x0100006B00001041",
+                                              "text": "\"We are... the workers. The Union. We know what we need, what's right for us.\"",
+                                              "links": [
+                                                {
+                                                  "id": 108,
+                                                  "title": "You: \"\"You mean there's no leader?\"\"",
+                                                  "articyId": "0x0100006B0000104C",
+                                                  "text": "\"You mean there's no leader?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 176,
+                                                      "title": "Sleeping Dockworker: \"\"Okay, I guess there's also Evrart,...\"",
+                                                      "articyId": "0x0100006B00001059",
+                                                      "text": "\"Okay, I guess there's also Evrart, he's in charge of the Union. He's smart. Knows how to negotiate. He's got our back.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 151,
+                                                  "title": "You: \"\"Huh, alright. I guess that makes s...\"",
+                                                  "articyId": "0x0100006B00001053",
+                                                  "text": "\"Huh, alright. I guess that makes sense... somehow.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 104,
+                                          "title": "You: \"\"What about the dead body in the ya...\"",
+                                          "articyId": "0x0100001800001E6C",
+                                          "text": "\"What about the dead body in the yard?\"",
+                                          "links": [
+                                            {
+                                              "id": 196,
+                                              "title": "Sleeping Dockworker: \"\"Yeah, what about it?\"\"",
+                                              "articyId": "0x0100001800001E73",
+                                              "text": "\"Yeah, what about it?\"",
+                                              "links": [
+                                                {
+                                                  "id": 14,
+                                                  "title": "You: \"\"You seem cool with it. Do you have...\"",
+                                                  "articyId": "0x0100001800001E7A",
+                                                  "text": "\"You seem cool with it. Do you have many of those hanging from the trees here?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 170,
+                                                      "title": "Sleeping Dockworker: \"\"You know, people die here every da...\"",
+                                                      "articyId": "0x0100001800001F1F",
+                                                      "text": "\"You know, people die here every day. Someone's found in a ditch, another one falls in a manhole, a third one gets eaten by stray dogs.\" He respites.",
+                                                      "links": [
+                                                        {
+                                                          "id": 55,
+                                                          "title": "Sleeping Dockworker: \"\"If someone has decided to die on t...\"",
+                                                          "articyId": "0x0100001800002DAE",
+                                                          "text": "\"If someone has decided to die on top of a tree, then how is it my concern?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 111,
+                                                              "title": "You: \"\"Someone has to look into it. Looks...\"",
+                                                              "articyId": "0x0100001800001F39",
+                                                              "text": "\"Someone has to look into it. Looks like I'm that someone. Tell me what you know.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 112,
+                                                                  "title": "Sleeping Dockworker: \"\"I can tell you this -- trouble's a...\"",
+                                                                  "articyId": "0x0100001800001FA0",
+                                                                  "text": "\"I can tell you this -- trouble's ahead.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 149,
+                                                                      "title": "Physical Instrument: \"You have a pretty solid feeling tha...\"",
+                                                                      "articyId": "0x0100001800001FB4",
+                                                                      "text": "You have a pretty solid feeling that the man's *not* just mouthing off. He's strong, but even he has reasons to be cautious here.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 113,
+                                                                          "title": "You: \"\"The trouble is already here. Or ho...\"",
+                                                                          "articyId": "0x0100001800001FA7",
+                                                                          "text": "\"The trouble is already here. Or how else would you call a dead man hanging from a tree?\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 114,
+                                                                              "title": "Sleeping Dockworker: \"\"They say your guy was a killer. Yo...\"",
+                                                                              "articyId": "0x0100001800001FAE",
+                                                                              "text": "\"They say your guy was a killer. Your tree-man. He has friends, same as him. Killers. There's only one thing they know well -- how to wreak havoc.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 49,
+                                                                                  "title": "You: \"\"Wait -- *who* says that?\"\"",
+                                                                                  "articyId": "0x01000006000181B7",
+                                                                                  "text": "\"Wait -- *who* says that?\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 127,
+                                                                                      "title": "Sleeping Dockworker: \"\"Everyone. It's a local rumour.\" He...\"",
+                                                                                      "articyId": "0x01000006000181BE",
+                                                                                      "text": "\"Everyone. It's a local rumour.\" He yawns suddenly.",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 2,
+                                                                                          "title": "Rhetoric: \"Meaning: you're not gonna get more...\"",
+                                                                                          "articyId": "0x01000006000181C6",
+                                                                                          "text": "Meaning: you're not gonna get more out of me.",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 28,
+                                                                                              "title": "Logic: \"It was probably his colleagues from...\"",
+                                                                                              "articyId": "0x01000006000181CD",
+                                                                                              "text": "It was probably his colleagues from the Union.",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 36,
+                                                                                  "title": "You: \"\"You're saying things might get vio...\"",
+                                                                                  "articyId": "0x0100001800001FCF",
+                                                                                  "text": "\"You're saying things might get violent around here?\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 109,
+                                                                          "title": "You: \"\"What trouble?\"\"",
+                                                                          "articyId": "0x010000040000AC78",
+                                                                          "text": "\"What trouble?\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 197,
+                                                                              "title": "Sleeping Dockworker: \"\"You heard what I said. Draw your o...\"",
+                                                                              "articyId": "0x0100001800001FD6",
+                                                                              "text": "\"You heard what I said. Draw your own conclusions. That's all I know, and I prefer to keep it this way.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 136,
+                                                                                  "title": "Kim Kitsuragi: \"The lieutenant gives you a little n...\"",
+                                                                                  "articyId": "0x0100000600010A1D",
+                                                                                  "text": "The lieutenant gives you a little nod -- then makes a note in his blue notebook.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 79,
+                                                                                      "title": "Esprit de Corps: \"So Union people think he was a kill...\"",
+                                                                                      "articyId": "0x0100000600010A26",
+                                                                                      "text": "So Union people think he was a killer, he thinks -- even Sleepy here? This doesn't help a *lot*, but it's something. Good work, detective.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 76,
+                                                              "title": "You: \"\"Well... little point asking you ab...\"",
+                                                              "articyId": "0x0100006B0000106D",
+                                                              "text": "\"Well... little point asking you about the body, then. I got other questions.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 47,
+                                                                  "title": "Sleeping Dockworker: \"\"If you get lucky, I might even hav...\"",
+                                                                  "articyId": "0x0100006B00001074",
+                                                                  "text": "\"If you get lucky, I might even have answers for them.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 74,
+                                                  "title": "You: \"\"I'm just trying to find out what y...\"",
+                                                  "articyId": "0x01000057000221CB",
+                                                  "text": "\"I'm just trying to find out what you know about it.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 129,
+                                          "title": "You: \"\"Yours?\" (Point at the bottle and t...\"",
+                                          "articyId": "0x0100001800001CE2",
+                                          "text": "\"Yours?\" (Point at the bottle and the spilt rum.)",
+                                          "links": [
+                                            {
+                                              "id": 94,
+                                              "title": "Sleeping Dockworker: \"\"Indeed. Help yourself to some.\" He...\"",
+                                              "articyId": "0x0100001800001CF5",
+                                              "text": "\"Indeed. Help yourself to some.\" He blinks. \"Wait, no, it's empty. Sorry about that, pal.\"",
+                                              "links": [
+                                                {
+                                                  "id": 5,
+                                                  "title": "You: \"\"I already had some. It's a fine ru...\"",
+                                                  "articyId": "0x0100001800001D8B",
+                                                  "text": "\"I already had some. It's a fine rum.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 148,
+                                                      "title": "Sleeping Dockworker: \"\"Knocks you right out when you drow...\"",
+                                                      "articyId": "0x0100001800001D94",
+                                                      "text": "\"Knocks you right out when you drown a bottle or two.\" He rubs his face, then buries it in his hands. You can hear a faint snore.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 88,
+                                                  "title": "You: \"Say nothing.\"",
+                                                  "articyId": "0x01000057000221E7",
+                                                  "text": "Say nothing.",
+                                                  "links": [
+                                                    {
+                                                      "id": 161,
+                                                      "title": "Sleeping Dockworker: \"He rubs his face, before burying it...\"",
+                                                      "articyId": "0x01000057000221EE",
+                                                      "text": "He rubs his face, before burying it in his hands. You can hear a faint snore.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 52,
+                                          "title": "You: \"\"Alright, I'll let you sleep.\" [Lea...\"",
+                                          "articyId": "0x0100002F0000283C",
+                                          "text": "\"Alright, I'll let you sleep.\" [Leave.]",
+                                          "links": [
+                                            {
+                                              "id": 6,
+                                              "title": "Sleeping Dockworker: \"The dockworker doesn't answer, his...\"",
+                                              "articyId": "0x0100002F00002843",
+                                              "text": "The dockworker doesn't answer, his head is already back down on the table. In sweet sleep.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "title": "You: \"\"I just wanted to see what would ha...\"",
+                              "articyId": "0x0100001800001D22",
+                              "text": "\"I just wanted to see what would happen if I yelled.\"",
+                              "links": [
+                                {
+                                  "id": 95,
+                                  "title": "Sleeping Dockworker: \"\"Congratulations, you have seen the...\"",
+                                  "articyId": "0x0100001800001E2B",
+                                  "text": "\"Congratulations, you have seen the future. Now if you excuse me again, officer...\" The worker sinks back onto the table, ready to continue his nap.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 34,
+                              "title": "You: \"\"I need you to answer some question...\"",
+                              "articyId": "0x0100006B00000EB2",
+                              "text": "\"I need you to answer some questions right now.\"",
+                              "links": [
+                                {
+                                  "id": 162,
+                                  "title": "Sleeping Dockworker: \"\"Really? You woke me up for that?\"...\"",
+                                  "articyId": "0x0100006B00000EB9",
+                                  "text": "\"Really? You woke me up for that?\" The worker gives you a vacant stare, then groans. \"Fine, what is it, officer?\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 97,
+                  "title": "You: \"(No words, just a primordial scream...\"",
+                  "articyId": "0x0100005700022104",
+                  "text": "(No words, just a primordial scream.)",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 171,
+              "title": "Physical Instrument: \"The worker continues to nap, undist...\"",
+              "articyId": "0x0100002D00000084",
+              "text": "The worker continues to nap, undisturbed despite you shaking him. This guy's a real juggernaut of sleep.",
+              "links": []
+            },
+            {
+              "id": 147,
+              "title": "Physical Instrument: \"You gently shake his shoulder, but...\"",
+              "articyId": "0x0100001600001ED0",
+              "text": "You gently shake his shoulder, but nothing happens. This man could probably sleep soundly in a ship's engine room.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "You: \"Steal the dockworker's ID.\"",
+          "articyId": "0x0100006B00000E7B",
+          "text": "Steal the dockworker's ID.",
+          "links": [
+            {
+              "id": 10,
+              "title": "Interfacing: \"Your fingers find their way into th...\"",
+              "articyId": "0x0100006B00000F49",
+              "text": "Your fingers find their way into the shackle, flicking open its spring-loaded gate. The metal loop holds the plastic ID, and a leather-bound pocketbook...",
+              "links": [
+                {
+                  "id": 35,
+                  "title": "You: \"And the man?\"",
+                  "articyId": "0x0100000600010A75",
+                  "text": "And the man?",
+                  "links": [
+                    {
+                      "id": 15,
+                      "title": "Sleeping Dockworker: \"The man emits a loud snore. Is he a...\"",
+                      "articyId": "0x01000018000022C1",
+                      "text": "The man emits a loud snore. Is he about to wake up? Doesn't look like it, but you never know. Better be quick!",
+                      "links": [
+                        {
+                          "id": 130,
+                          "title": "Volition: \"Are you positive that what you're d...\"",
+                          "articyId": "0x01000018000022C8",
+                          "text": "Are you positive that what you're doing here is proper police conduct? You can still leave and do *nothing*.",
+                          "links": [
+                            {
+                              "id": 93,
+                              "title": "You: \"Does the lieutenant see me?\"",
+                              "articyId": "0x0100000600010A7E",
+                              "text": "Does the lieutenant see me?",
+                              "links": [
+                                {
+                                  "id": 48,
+                                  "title": "Kim Kitsuragi: \"No. He's looking the other way -- p...\"",
+                                  "articyId": "0x0100000600010A85",
+                                  "text": "No. He's looking the other way -- perhaps purposefully.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 184,
+                              "title": "You: \"Steal the document.\"",
+                              "articyId": "0x0100002F00002B15",
+                              "text": "Steal the document.",
+                              "links": [
+                                {
+                                  "id": 116,
+                                  "title": "Interfacing: \"You slip the plastic ID card out of...\"",
+                                  "articyId": "0x0100002F00002B5C",
+                                  "text": "You slip the plastic ID card out of the loop and pocket it. The man continues to snore.",
+                                  "links": [
+                                    {
+                                      "id": 107,
+                                      "title": "Visual Calculus: \"Just for the record, you look nothi...\"",
+                                      "articyId": "0x010000570002225F",
+                                      "text": "Just for the record, you look nothing like the man on the document.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 29,
+                              "title": "You: \"Swipe through the pocketbook and ta...\"",
+                              "articyId": "0x0100002F00002B1B",
+                              "text": "Swipe through the pocketbook and take what's inside.",
+                              "links": [
+                                {
+                                  "id": 141,
+                                  "title": "Interfacing: \"You find a black paper note with a...\"",
+                                  "articyId": "0x0100002F00002B54",
+                                  "text": "You find a black paper note with a woman's profile on it. Seems like this woman lived centuries ago. The note says *five* reál. It feels nice and greasy.",
+                                  "links": [
+                                    {
+                                      "id": 143,
+                                      "title": "Electrochemistry: \"Yum, yum. Money. Think of all the t...\"",
+                                      "articyId": "0x01000057000220D3",
+                                      "text": "Yum, yum. Money. Think of all the things you can buy with this. The synapses in your brain fire with glee.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 115,
+                                      "title": "Inland Empire: \"You don't really know what it's for...\"",
+                                      "articyId": "0x0100002F00002B32",
+                                      "text": "You don't really know what it's for, but you get the feeling notes like these are *super* important -- you should keep it.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 132,
+                              "title": "You: \"Close the carabiner.\"",
+                              "articyId": "0x01000057000220DC",
+                              "text": "Close the carabiner.",
+                              "links": [
+                                {
+                                  "id": 172,
+                                  "title": "Sleeping Dockworker: \"The sleeping dockworker has little...\"",
+                                  "articyId": "0x01000057000220E9",
+                                  "text": "The sleeping dockworker has little to say about your actions. He remains silent.",
+                                  "links": [
+                                    {
+                                      "id": 189,
+                                      "title": "Volition: \"You're not 100% clear what you did...\"",
+                                      "articyId": "0x01000057000220E3",
+                                      "text": "You're not 100% clear what you did here was *right*, but to hell with it...",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 89,
+              "title": "Interfacing: \"You fumble with the spring-loaded g...\"",
+              "articyId": "0x0100006B00000F58",
+              "text": "You fumble with the spring-loaded gate of the carabiner, but to no avail... the dangling items refuse to come loose, they just jingle in an ever louder manner.",
+              "links": [
+                {
+                  "id": 27,
+                  "title": "Half Light: \"Like fucking sleigh bells! What are...\"",
+                  "articyId": "0x0100000600010A8D",
+                  "text": "Like fucking sleigh bells! What are you doing, you're gonna get caught!",
+                  "links": [
+                    {
+                      "id": 193,
+                      "title": "Garte, the Cafeteria Manager: \"\"Stop *finger-fucking* him, officer...\"",
+                      "articyId": "0x0100006B00000F5F",
+                      "text": "\"Stop *finger-fucking* him, officer!\" The cafeteria manager shouts from behind the counter. \"I'm responsible for these oafs and their *stuff*. Even Sleepy there...\"",
+                      "links": [
+                        {
+                          "id": 90,
+                          "title": "You: \"\"What, no, I wasn't.... I'm just ch...\"",
+                          "articyId": "0x0100006B00000F66",
+                          "text": "\"What, no, I wasn't.... I'm just checking if the man is feeling okay.\"",
+                          "links": [
+                            {
+                              "id": 135,
+                              "title": "Garte, the Cafeteria Manager: \"\"Yeah, sure! I don't care. Just don...\"",
+                              "articyId": "0x0100006B00000F89",
+                              "text": "\"Yeah, sure! I don't care. Just don't finger-bang his stuff, okay!\" He snorts angrily, then turns back to his activities.",
+                              "links": [
+                                {
+                                  "id": 46,
+                                  "title": "Kim Kitsuragi: \"\"To be honest, he is correct. Polic...\"",
+                                  "articyId": "0x0100006B00000FD6",
+                                  "text": "\"To be honest, he is correct. Police officers generally don't go around *appropriating* possessions from people. Let's go.\"",
+                                  "links": [
+                                    {
+                                      "id": 123,
+                                      "title": "Interfacing: \"It was just an *idea*, c'mon. Relax...\"",
+                                      "articyId": "0x0100000600010A95",
+                                      "text": "It was just an *idea*, c'mon. Relax, everyone. It didn't turn out well -- doesn't mean it was a bad idea. Or that you shouldn't *appropriate* stuff...",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 91,
+                          "title": "You: \"\"You stay out of this, bartender!\"\"",
+                          "articyId": "0x0100006B00000F6B",
+                          "text": "\"You stay out of this, bartender!\"",
+                          "links": [
+                            {
+                              "id": 99,
+                              "title": "Garte, the Cafeteria Manager: \"\"Fine -- fine! Finger-bang him then...\"",
+                              "articyId": "0x0100006B00000F82",
+                              "text": "\"Fine -- fine! Finger-bang him then, I don't care.\" He snorts angrily, then turns back to his activities.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 122,
+                          "title": "You: \"\"We might be dealing with a *crimin...\"",
+                          "articyId": "0x0100006B00000F74",
+                          "text": "\"We might be dealing with a *criminal* here. Let me work.\"",
+                          "links": [
+                            {
+                              "id": 166,
+                              "title": "Garte, the Cafeteria Manager: \"\"Yes. Sure. A *criminal*.\" He rolls...\"",
+                              "articyId": "0x0100006B00000F7B",
+                              "text": "\"Yes. Sure. A *criminal*.\" He rolls his eyes, then turns back to his activities.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 169,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100001600001D4F",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 183,
+          "title": "Inland Empire: \"Perhaps he's on his way to where yo...\"",
+          "articyId": "0x0100001600001F29",
+          "text": "Perhaps he's on his way to where you just came from -- into the primordial darkness?",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Sleeping Dockworker: \"A man is sleeping at the table, wea...\"",
+      "articyId": "0x0100001600001D0B",
+      "text": "A man is sleeping at the table, wearing mud-caked boots and rolled down overalls. The back of his shirt reads \"WILD PINES\", encircled by a logo with a tree.",
+      "links": [
+        {
+          "id": 53,
+          "title": "Physical Instrument: \"He looks one with the table. It wou...\"",
+          "articyId": "0x0100001600001D23",
+          "text": "He looks one with the table. It would take quite some effort to wake him up.",
+          "links": [
+            {
+              "id": 66,
+              "title": "Interfacing: \"A colourful piece of plastic is dan...\"",
+              "articyId": "0x0100000600011CEC",
+              "text": "A colourful piece of plastic is dangling from his carabiner... hmm. Makes your fingers itch.",
+              "links": [
+                {
+                  "id": 78,
+                  "title": "Sleeping Dockworker: \"On the counter -- rolled out of his...\"",
+                  "articyId": "0x010000060000FFF2",
+                  "text": "On the counter -- rolled out of his open hand -- you see a blister pack of headache medicine.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

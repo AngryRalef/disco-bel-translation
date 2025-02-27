@@ -1,0 +1,319 @@
+{
+  "id": "0x0100007500000FE9",
+  "title": "KINEEMA / CALLING THE LIBRARY",
+  "description": "Calling Jamrock Public Library to see if you can find out anything about the dead man found at the boardwalk. You'll get Working Class Woman's home address from here.",
+  "dialogueTree": [
+    {
+      "id": 33,
+      "title": "You: \"\"I'm looking for any information th...\"",
+      "articyId": "0x0100007500001103",
+      "text": "\"I'm looking for any information that you can provide on Billie Méjean, a reader.\"",
+      "links": [
+        {
+          "id": 16,
+          "title": "Jamrock Public Library: \"\"Billie, Billie *Méjean*, you said?...\"",
+          "articyId": "0x0100007500001109",
+          "text": "\"Billie, Billie *Méjean*, you said? Give me a moment, I'll have to check our database.\" He puts down the receiver.",
+          "links": [
+            {
+              "id": 45,
+              "title": "Jamrock Public Library: \"\"...\"\"",
+              "articyId": "0x0100007500001287",
+              "text": "\"...\"",
+              "links": [
+                {
+                  "id": 27,
+                  "title": "Jamrock Public Library: \"\"...\"\"",
+                  "articyId": "0x010000750000128F",
+                  "text": "\"...\"",
+                  "links": [
+                    {
+                      "id": 43,
+                      "title": "Jamrock Public Library: \"\"...\"\"",
+                      "articyId": "0x0100007500001296",
+                      "text": "\"...\"",
+                      "links": [
+                        {
+                          "id": 51,
+                          "title": "Shivers: \"On Meroe drive in Central Jamrock -...\"",
+                          "articyId": "0x010000060001DAFF",
+                          "text": "On Meroe drive in Central Jamrock -- in a darkened hall lit by orange desk lamps -- far away from the noise outside -- a middle-aged man taps commands into an old radiocomputer. A printout falls on the desk. Behind him, a lonely reader scours some dusty bookshelves, looking for a paperback...",
+                          "links": [
+                            {
+                              "id": 4,
+                              "title": "Jamrock Public Library: \"\"Yes, hello, are you still there?\"...\"",
+                              "articyId": "0x0100007500001110",
+                              "text": "\"Yes, hello, are you still there?\" You can hear him fiddle with the printout. \"I found Billie Méjean's home address, is that alright? No phone number unfortunately.\"",
+                              "links": [
+                                {
+                                  "id": 3,
+                                  "title": "Logic: \"They're too poor to have a phone li...\"",
+                                  "articyId": "0x010000060001DAC2",
+                                  "text": "They're too poor to have a phone line.",
+                                  "links": [
+                                    {
+                                      "id": 24,
+                                      "title": "You: \"\"Yes, home address is fine.\"\"",
+                                      "articyId": "0x010000750000129E",
+                                      "text": "\"Yes, home address is fine.\"",
+                                      "links": [
+                                        {
+                                          "id": 46,
+                                          "title": "Jamrock Public Library: \"\"Here we go, sir: Rue de Saint-Ghis...\"",
+                                          "articyId": "0x01000075000012A5",
+                                          "text": "\"Here we go, sir: Rue de Saint-Ghislaine 33B, apartment no 20. It's in Martinaise, I believe... Capeside Apartments, it says. That's all.\"",
+                                          "links": [
+                                            {
+                                              "id": 32,
+                                              "title": "Reaction Speed: \"That's where the smoker on the balc...\"",
+                                              "articyId": "0x0100002100002224",
+                                              "text": "That's where the smoker on the balcony lives, isn't it?",
+                                              "links": [
+                                                {
+                                                  "id": 25,
+                                                  "title": "You: \"\"Do you have any other information...\"",
+                                                  "articyId": "0x01000075000012C2",
+                                                  "text": "\"Do you have any other information on Billie Méjean?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 47,
+                                                      "title": "Jamrock Public Library: \"\"It says here that they returned th...\"",
+                                                      "articyId": "0x01000075000012CF",
+                                                      "text": "\"It says here that they returned their last book just a few days ago, but I wasn't at work that day.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 6,
+                                                          "title": "You: \"\"Do you know someone who was?\"\"",
+                                                          "articyId": "0x01000075000012FE",
+                                                          "text": "\"Do you know someone who was?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 7,
+                                                              "title": "Jamrock Public Library: \"\"Marie?\" He covers the phone with h...\"",
+                                                              "articyId": "0x0100007500001305",
+                                                              "text": "\"Marie?\" He covers the phone with his hand and yells out into the room behind him: \"Marie! Do you remember a reader named Billie Méjean? They returned a Thibault book the other day...\" You hear someone answer from afar.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 40,
+                                                                  "title": "Perception (Hearing): \"\"Maurice, what?!\" a woman yells. Th...\"",
+                                                                  "articyId": "0x010000060001DAD4",
+                                                                  "text": "\"Maurice, what?!\" a woman yells. Then: \"Yes-yes, okay, if it was the police...\" She starts explaining something.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 48,
+                                                                      "title": "Jamrock Public Library: \"\"Yes, it was my colleague Marie,\" t...\"",
+                                                                      "articyId": "0x010000750000143C",
+                                                                      "text": "\"Yes, it was my colleague Marie,\" the librarian is speaking into the phone again. \"She said that it was Billie's *husband* who returned the book. He also asked for this new sci-fi release \"Loos, Radio City '87\", but we don't have it yet.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 38,
+                                                                          "title": "Logic: \"Loos, Radio City? That's the same b...\"",
+                                                                          "articyId": "0x0100007500001330",
+                                                                          "text": "Loos, Radio City? That's the same book the working class woman was reading at the bookstand...",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 53,
+                                                                              "title": "Inland Empire: \"Something unpleasant twitches in yo...\"",
+                                                                              "articyId": "0x0100007500001337",
+                                                                              "text": "Something unpleasant twitches in your stomach.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 41,
+                                                                          "title": "Logic: \"Good. You have a name now.\"",
+                                                                          "articyId": "0x010000060001DAE6",
+                                                                          "text": "Good. You have a name now.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 29,
+                                                                              "title": "You: \"\"So Billie Méjean is a woman, not a...\"",
+                                                                              "articyId": "0x0100007500001449",
+                                                                              "text": "\"So Billie Méjean is a woman, not a man? How did your colleague know that it was her husband?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 50,
+                                                                                  "title": "Jamrock Public Library: \"\"Marie knows Billie, she's been wor...\"",
+                                                                                  "articyId": "0x0100007500001456",
+                                                                                  "text": "\"Marie knows Billie, she's been working here longer than me. Sometimes her husband returns some books for her.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 18,
+                                                                                      "title": "Empathy: \"And then goes for a little drink la...\"",
+                                                                                      "articyId": "0x010000060001DAEE",
+                                                                                      "text": "And then goes for a little drink later, on the lookout...",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 35,
+                                                                              "title": "You: \"\"Do you know the husband's name?\"\"",
+                                                                              "articyId": "0x0100007500001797",
+                                                                              "text": "\"Do you know the husband's name?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 36,
+                                                                                  "title": "Jamrock Public Library: \"\"Sorry, no -- Marie only knows him...\"",
+                                                                                  "articyId": "0x010000750000179E",
+                                                                                  "text": "\"Sorry, no -- Marie only knows him by sight.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 30,
+                                                                              "title": "You: \"\"Can Marie describe to me what the...\"",
+                                                                              "articyId": "0x010000750000144F",
+                                                                              "text": "\"Can Marie describe to me what the husband looked like?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 23,
+                                                                                  "title": "Jamrock Public Library: \"\"Marie...\" A moment passes.\"",
+                                                                                  "articyId": "0x010000060001DAF6",
+                                                                                  "text": "\"Marie...\" A moment passes.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 26,
+                                                                                      "title": "Jamrock Public Library: \"\"She said it was an older man... An...\"",
+                                                                                      "articyId": "0x010000750000145E",
+                                                                                      "text": "\"She said it was an older man... And that she's pretty sure he had had a drink or two the last time she saw him.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 31,
+                                                                                          "title": "You: \"\"What was he wearing?\"\"",
+                                                                                          "articyId": "0x0100007500001484",
+                                                                                          "text": "\"What was he wearing?\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 44,
+                                                                                              "title": "Jamrock Public Library: \"\"Uh, one second...\" The librarian t...\"",
+                                                                                              "articyId": "0x010000750000148A",
+                                                                                              "text": "\"Uh, one second...\" The librarian turns away from the phone again and relays the question.",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 54,
+                                                                                                  "title": "Jamrock Public Library: \"\"Sorry, Marie wasn't really paying...\"",
+                                                                                                  "articyId": "0x0100007500001490",
+                                                                                                  "text": "\"Sorry, Marie wasn't really paying any attention to that.\"",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 2,
+                                                                              "title": "You: \"\"Thank you. That's all from me, I h...\"",
+                                                                              "articyId": "0x0100007500001465",
+                                                                              "text": "\"Thank you. That's all from me, I have no other questions.\" (End call with the library.)",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 20,
+                                                                                  "title": "Jamrock Public Library: \"\"Happy we could help. Good bye, off...\"",
+                                                                                  "articyId": "0x010000750000146E",
+                                                                                  "text": "\"Happy we could help. Good bye, officer.\" The librarian hangs up and the call gets redirected back to the station with a soft click...",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 22,
+                                                                                      "title": "Alice: \"\"Anything else you need from me?\"\"",
+                                                                                      "articyId": "0x0100007500001474",
+                                                                                      "text": "\"Anything else you need from me?\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 12,
+                                                  "title": "You: \"\"Thank you. That's all from me, I h...\"",
+                                                  "articyId": "0x01000075000012C8",
+                                                  "text": "\"Thank you. That's all from me, I have no other questions.\" (End call with the library.)",
+                                                  "links": [
+                                                    {
+                                                      "id": 5,
+                                                      "title": "Jamrock Public Library: \"\"Happy we could help. Good bye, off...\"",
+                                                      "articyId": "0x01000075000012D7",
+                                                      "text": "\"Happy we could help. Good bye, officer.\" The librarian hangs up and the call gets redirected back to the station.",
+                                                      "links": [
+                                                        {
+                                                          "id": 37,
+                                                          "title": "Alice: \"\"Anything else you need from me?\" A...\"",
+                                                          "articyId": "0x01000075000012DF",
+                                                          "text": "\"Anything else you need from me?\" Alice asks.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 42,
+                                              "title": "Reaction Speed: \"By the pier, north of here. Those b...\"",
+                                              "articyId": "0x010000210000222B",
+                                              "text": "By the pier, north of here. Those big apartment buildings there.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 52,
+                                      "title": "You: \"\"I'm not really that good with addr...\"",
+                                      "articyId": "0x01000075000012AD",
+                                      "text": "\"I'm not really that good with addresses.\"",
+                                      "links": [
+                                        {
+                                          "id": 21,
+                                          "title": "Jamrock Public Library: \"\"Maybe you can write it down? It's...\"",
+                                          "articyId": "0x01000075000012B4",
+                                          "text": "\"Maybe you can write it down? It's Rue de Saint-Ghislaine 33B, apartment no 20. It's in Martinaise, I believe... Capeside Apartments, it says. That's all.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

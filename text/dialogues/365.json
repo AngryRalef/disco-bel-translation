@@ -1,0 +1,453 @@
+{
+  "id": "0x01000057000223F7",
+  "title": "INVENTORY / NOTE FROM THE FRIDGE",
+  "description": "Read the note you found from the giant ice bear fridge in the doomed commercial area.",
+  "dialogueTree": [
+    {
+      "id": 33,
+      "title": "A Note from the Fridge: \"The note is written with a blue pen...\"",
+      "articyId": "0x010000570002259C",
+      "text": "The note is written with a blue pencil on a piece of lined office paper. The kitchen magnets have left spots on its surface.",
+      "links": [
+        {
+          "id": 5,
+          "title": "Kim Kitsuragi: \"\"Does it say anything interesting?\"...\"",
+          "articyId": "0x010000570002240C",
+          "text": "\"Does it say anything interesting?\" The lieutenant leans closer to read the crumpled note over your shoulder.",
+          "links": [
+            {
+              "id": 56,
+              "title": "Esprit de Corps: \"This is tangential at best, but the...\"",
+              "articyId": "0x010000060001A137",
+              "text": "This is tangential at best, but the lieutenant's *detective instinct* is still active.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "title": "You: \"Read the note.\"",
+          "articyId": "0x0100005700022436",
+          "text": "Read the note.",
+          "links": [
+            {
+              "id": 15,
+              "title": "A Note from the Fridge: \"Someone has scribbled: \"S, I can't...\"",
+              "articyId": "0x010000570002269D",
+              "text": "Someone has scribbled: \"S, I can't believe the off-site copy is still here! The illiterate ginger kid keeps stealing stuff from the studio, so I had to hide it somewhere safe.\"",
+              "links": [
+                {
+                  "id": 104,
+                  "title": "A Note from the Fridge: \"\"You'll find the filament memory wi...\"",
+                  "articyId": "0x01000057000226A3",
+                  "text": "\"You'll find the filament memory with the off-site copy in the frozen ice cream maker. Please take it home ASAP, it's important. I'd do it myself if I lived in a civilized place with a freezer. Take care, Sulisław.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 67,
+              "title": "A Note from the Fridge: \"Someone has scribbled: \"S, I can't...\"",
+              "articyId": "0x0100000500001193",
+              "text": "Someone has scribbled: \"S, I can't believe the off-site copy is still here! The illiterate ginger kid keeps stealing stuff from the studio, so I had to hide it somewhere safe.\"",
+              "links": [
+                {
+                  "id": 120,
+                  "title": "A Note from the Fridge: \"\"You'll find the filament memory wi...\"",
+                  "articyId": "0x0100000500001198",
+                  "text": "\"You'll find the filament memory with the off-site copy in the frozen ice cream maker. Please take it home ASAP, it's important. I'd do it myself if I lived in a civilized place with a freezer. Take care, Sulisław.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 88,
+          "title": "You: \"Who wrote that note?\"",
+          "articyId": "0x0100007000005E05",
+          "text": "Who wrote that note?",
+          "links": [
+            {
+              "id": 98,
+              "title": "Kim Kitsuragi: \"\"Sulisław... wasn't he one of Miss...\"",
+              "articyId": "0x0100000500001690",
+              "text": "\"Sulisław... wasn't he one of Miss Luukanen-Kilde's coworkers?\" He tilts his head. \"I remember coming across this name when we were reading her personal log.\"",
+              "links": []
+            },
+            {
+              "id": 20,
+              "title": "Kim Kitsuragi: \"\"Looks like someone from that radio...\"",
+              "articyId": "0x0100007000005E33",
+              "text": "\"Looks like someone from that radiogame company upstairs. I'm a little surprised they just left their property lying here.\"",
+              "links": [
+                {
+                  "id": 54,
+                  "title": "You: \"\"Maybe they had to leave in a hurry.\"\"",
+                  "articyId": "0x0100007000005E77",
+                  "text": "\"Maybe they had to leave in a hurry.\"",
+                  "links": [
+                    {
+                      "id": 30,
+                      "title": "Kim Kitsuragi: \"\"That's a plausible hypothesis.\"\"",
+                      "articyId": "0x0100007000005E7D",
+                      "text": "\"That's a plausible hypothesis.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 73,
+                  "title": "You: \"\"Maybe it's because of the Entity.\"\"",
+                  "articyId": "0x0100007000005E89",
+                  "text": "\"Maybe it's because of the Entity.\"",
+                  "links": [
+                    {
+                      "id": 21,
+                      "title": "Kim Kitsuragi: \"\"That's implausible.\"\"",
+                      "articyId": "0x0100007000005F4E",
+                      "text": "\"That's implausible.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 7,
+                  "title": "You: \"\"Guess we'll never know.\"\"",
+                  "articyId": "0x0100007000005E5B",
+                  "text": "\"Guess we'll never know.\"",
+                  "links": [
+                    {
+                      "id": 111,
+                      "title": "Kim Kitsuragi: \"The lieutenant nods.\"",
+                      "articyId": "0x0100007000005E61",
+                      "text": "The lieutenant nods.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 72,
+              "title": "Kim Kitsuragi: \"\"Someone who owns a radiocomputer?...\"",
+              "articyId": "0x0100007000005E39",
+              "text": "\"Someone who owns a radiocomputer? My guess is as good as yours, officer.\"",
+              "links": [
+                {
+                  "id": 63,
+                  "title": "Rhetoric: \"Which is to say -- not very good.\"",
+                  "articyId": "0x0100007000005E4B",
+                  "text": "Which is to say -- not very good.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 39,
+              "title": "A Note from the Fridge: \"According to the note, someone name...\"",
+              "articyId": "0x0100007000005EA1",
+              "text": "According to the note, someone named 'Sulisław'.",
+              "links": [
+                {
+                  "id": 102,
+                  "title": "Reaction Speed: \"Wasn't he one of Soona's former cow...\"",
+                  "articyId": "0x01000005000016A8",
+                  "text": "Wasn't he one of Soona's former coworkers?",
+                  "links": []
+                },
+                {
+                  "id": 126,
+                  "title": "Interfacing: \"Perhaps someone who belonged to the...\"",
+                  "articyId": "0x0100007000005EE3",
+                  "text": "Perhaps someone who belonged to the defunct radiocomputer company?",
+                  "links": [
+                    {
+                      "id": 112,
+                      "title": "You: \"But why did they leave a filament l...\"",
+                      "articyId": "0x0100007000005F0C",
+                      "text": "But why did they leave a filament lying in a freezer?",
+                      "links": [
+                        {
+                          "id": 130,
+                          "title": "Interfacing: \"Sounds like a question for a detect...\"",
+                          "articyId": "0x0100007000005F30",
+                          "text": "Sounds like a question for a detective, detective.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 74,
+                      "title": "You: \"That makes sense.\"",
+                      "articyId": "0x0100007000005EFA",
+                      "text": "That makes sense.",
+                      "links": [
+                        {
+                          "id": 55,
+                          "title": "Interfacing: \"It would be *oh so* fun to try that...\"",
+                          "articyId": "0x0100007000005F36",
+                          "text": "It would be *oh so* fun to try that radiocomputer out for yourself.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 48,
+                  "title": "Logic: \"Someone who owns a radiocomputer, o...\"",
+                  "articyId": "0x0100007000005EB2",
+                  "text": "Someone who owns a radiocomputer, one might assume.",
+                  "links": [
+                    {
+                      "id": 59,
+                      "title": "You: \"Thanks, smart ass.\"",
+                      "articyId": "0x0100007000005EC9",
+                      "text": "Thanks, smart ass.",
+                      "links": [
+                        {
+                          "id": 9,
+                          "title": "Logic: \"You're welcome.\"",
+                          "articyId": "0x0100007000005F48",
+                          "text": "You're welcome.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 118,
+                      "title": "You: \"Makes sense.\"",
+                      "articyId": "0x0100007000005ECF",
+                      "text": "Makes sense.",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "Logic: \"It does, but who might that be?\"",
+                          "articyId": "0x0100007000005F42",
+                          "text": "It does, but who might that be?",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "title": "You: \"What's a filament memory?\"",
+          "articyId": "0x0100005700022418",
+          "text": "What's a filament memory?",
+          "links": [
+            {
+              "id": 86,
+              "title": "Kim Kitsuragi: \"\"It belongs inside a radiocomputer,...\"",
+              "articyId": "0x0100007000005CF3",
+              "text": "\"It belongs inside a radiocomputer, storing its memory. It's like a tape -- you listen to disco tapes, right? It's like one of your disco tapes, only for a computer.\"",
+              "links": [
+                {
+                  "id": 49,
+                  "title": "Interfacing: \"It's like the *production schedule*...\"",
+                  "articyId": "0x0100000600019E1F",
+                  "text": "It's like the *production schedule* you found, only this one's an *off-site copy*.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 92,
+              "title": "A Note from the Fridge: \"The note doesn't specify.\"",
+              "articyId": "0x010000570002249B",
+              "text": "The note doesn't specify.",
+              "links": [
+                {
+                  "id": 32,
+                  "title": "Encyclopedia: \"It's part of a radiocomputer. When...\"",
+                  "articyId": "0x01000057000224A7",
+                  "text": "It's part of a radiocomputer. When not in use, filaments are stored at temperatures below zero.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "title": "You: \"Who's the illiterate ginger kid?\"",
+          "articyId": "0x01000057000224AD",
+          "text": "Who's the illiterate ginger kid?",
+          "links": [
+            {
+              "id": 57,
+              "title": "Kim Kitsuragi: \"\"Really?\" The lieutenant looks at y...\"",
+              "articyId": "0x0100007000005D23",
+              "text": "\"Really?\" The lieutenant looks at you, the corner of his mouth curved into a smug grin. \"You don't have a single guess?\"",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "You: \"\"You mean Cuno?\"\"",
+                  "articyId": "0x0100007000005D2F",
+                  "text": "\"You mean Cuno?\"",
+                  "links": [
+                    {
+                      "id": 116,
+                      "title": "Kim Kitsuragi: \"\"Oh, I'm sure that child would *lov...\"",
+                      "articyId": "0x0100007000005D51",
+                      "text": "\"Oh, I'm sure that child would *love* to get his hands on a filament memory -- even if he doesn't know what to do with it. He'd probably try to pawn it for speed, based on our encounter.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 87,
+                  "title": "You: \"\"No, no idea at all.\"\"",
+                  "articyId": "0x0100007000005D39",
+                  "text": "\"No, no idea at all.\"",
+                  "links": [
+                    {
+                      "id": 124,
+                      "title": "Kim Kitsuragi: \"\"I'm placing my bets on a certain r...\"",
+                      "articyId": "0x0100007000005D45",
+                      "text": "\"I'm placing my bets on a certain red-haired miscreant we met before. He'd probably try to pawn it for speed, based on our encounter.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 17,
+              "title": "Kim Kitsuragi: \"\"Some local miscreant probably. The...\"",
+              "articyId": "0x0100007000005D17",
+              "text": "\"Some local miscreant probably. There are tons of them running around in Martinaise, ready to stir up trouble. We usually dispatch our junior officers to deal with them.\"",
+              "links": []
+            },
+            {
+              "id": 96,
+              "title": "A Note from the Fridge: \"The note does not specify.\"",
+              "articyId": "0x0100007000005D76",
+              "text": "The note does not specify.",
+              "links": [
+                {
+                  "id": 58,
+                  "title": "Volition: \"Are you serious? You sure you don't...\"",
+                  "articyId": "0x0100007000005D82",
+                  "text": "Are you serious? You sure you don't want to hazard a guess here, detective?",
+                  "links": [
+                    {
+                      "id": 117,
+                      "title": "You: \"Oh, you mean Cuno?\"",
+                      "articyId": "0x0100007000005D93",
+                      "text": "Oh, you mean Cuno?",
+                      "links": [
+                        {
+                          "id": 123,
+                          "title": "Volition: \"Ding, ding, ding! We have a winner!\"",
+                          "articyId": "0x0100007000005DA4",
+                          "text": "Ding, ding, ding! We have a winner!",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 125,
+                      "title": "You: \"No idea.\"",
+                      "articyId": "0x0100007000005D63",
+                      "text": "No idea.",
+                      "links": [
+                        {
+                          "id": 44,
+                          "title": "Volition: \"Really? You sure it isn't a certain...\"",
+                          "articyId": "0x0100007000005D7C",
+                          "text": "Really? You sure it isn't a certain redhaired little gremlin who refers to himself in the third person?",
+                          "links": [
+                            {
+                              "id": 122,
+                              "title": "You: \"Are you talking about Cuno?\"",
+                              "articyId": "0x0100007000005D8D",
+                              "text": "Are you talking about Cuno?",
+                              "links": []
+                            },
+                            {
+                              "id": 77,
+                              "title": "You: \"Nope. Drawing a blank here.\"",
+                              "articyId": "0x0100007000005D3F",
+                              "text": "Nope. Drawing a blank here.",
+                              "links": [
+                                {
+                                  "id": 34,
+                                  "title": "Volition: \"The damage is truly extraordinary....\"",
+                                  "articyId": "0x0100007000005D29",
+                                  "text": "The damage is truly extraordinary. It's a miracle you don't shit yourself.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "title": "You: \"Where's the frozen ice cream maker?\"",
+          "articyId": "0x01000057000226DC",
+          "text": "Where's the frozen ice cream maker?",
+          "links": [
+            {
+              "id": 113,
+              "title": "Kim Kitsuragi: \"\"I don't know... I assume it's some...\"",
+              "articyId": "0x01000057000224FF",
+              "text": "\"I don't know... I assume it's somewhere close to the ice bear fridge.\"",
+              "links": []
+            },
+            {
+              "id": 114,
+              "title": "A Note from the Fridge: \"Didn't you see a *melting* ice crea...\"",
+              "articyId": "0x0100005700022704",
+              "text": "Didn't you see a *melting* ice cream maker right next to the breaker box?",
+              "links": [
+                {
+                  "id": 85,
+                  "title": "Logic: \"And you *did* unplug the black wire...\"",
+                  "articyId": "0x010000570002270C",
+                  "text": "And you *did* unplug the black wire from said breaker box.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "title": "A Note from the Fridge: \"Didn't you see one right next to th...\"",
+              "articyId": "0x0100005700022713",
+              "text": "Didn't you see one right next to the breaker box?",
+              "links": []
+            },
+            {
+              "id": 76,
+              "title": "A Note from the Fridge: \"Somewhere among the shadows in the...\"",
+              "articyId": "0x010000570002271A",
+              "text": "Somewhere among the shadows in the cellar.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "title": "You: \"[Put the note away.]\"",
+          "articyId": "0x01000057000224A1",
+          "text": "[Put the note away.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

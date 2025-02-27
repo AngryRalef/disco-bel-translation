@@ -1,0 +1,731 @@
+{
+  "id": "0x0100000400000653",
+  "title": "WESTCOAST / EXECUTIONS VISCAL",
+  "description": "An easy PERCEPTION check highlights a scattering of bullet holes in the wall. Pass a medium VISUAL CALCULUS and the interact appears as a ghostly mass execution perpetrated by dotted lines against a row of figures facing the wall. Either way, dialogue with the object has you and Lt Kitsuragi figure out it was an execution after the amphibious assault. You may relive it as an INLAND EMPIRE dream sequence later.",
+  "dialogueTree": [
+    {
+      "id": 41,
+      "title": "Visual Calculus: \"A row of ghostly shades facing a cr...\"",
+      "articyId": "0x0100005A00011AFE",
+      "text": "A row of ghostly shades facing a crumbling wall, with another seven shades standing ten metres from them. A single person stands on the sideline.",
+      "links": [
+        {
+          "id": 15,
+          "title": "You: \"Look at the people against the wall...\"",
+          "articyId": "0x0100005A00011AC2",
+          "text": "Look at the people against the wall.",
+          "links": [
+            {
+              "id": 81,
+              "title": "Visual Calculus: \"A host of men, probably in everyday...\"",
+              "articyId": "0x0100005A00011AD2",
+              "text": "A host of men, probably in everyday clothes -- ragged from the conflict and covered in dust. They were not sitting (a common practice for executions in some nations), as demonstrated by the height level of the bullet holes.",
+              "links": [
+                {
+                  "id": 150,
+                  "title": "Visual Calculus: \"They stand, facing the wall... It's...\"",
+                  "articyId": "0x0100006B00005759",
+                  "text": "They stand, facing the wall... It's impossible to discern any details about their personality or background.",
+                  "links": [
+                    {
+                      "id": 60,
+                      "title": "Esprit de Corps: \"Ordinary people -- familiar, each a...\"",
+                      "articyId": "0x0100005A0000FE91",
+                      "text": "Ordinary people -- familiar, each and every one of them.",
+                      "links": [
+                        {
+                          "id": 59,
+                          "title": "You: \"Who were they?\"",
+                          "articyId": "0x0100005A0000FE5C",
+                          "text": "Who were they?",
+                          "links": [
+                            {
+                              "id": 196,
+                              "title": "Esprit de Corps: \"Comrades. The forsaken, the wretche...\"",
+                              "articyId": "0x0100005A0000FE76",
+                              "text": "Comrades. The forsaken, the wretched, who tried to rise against the horrors of the world.",
+                              "links": []
+                            },
+                            {
+                              "id": 197,
+                              "title": "Esprit de Corps: \"Foreign dissidents, unwashed crimin...\"",
+                              "articyId": "0x0100005A0000FE7B",
+                              "text": "Foreign dissidents, unwashed criminals, and hoi polloi. Such is your belief, officer.",
+                              "links": [
+                                {
+                                  "id": 18,
+                                  "title": "Empathy: \"Maybe you should change it. They we...\"",
+                                  "articyId": "0x010000060001D813",
+                                  "text": "Maybe you should change it. They were praying... screaming...",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 14,
+                              "title": "Esprit de Corps: \"Leeches, fleas, and thieves. All th...\"",
+                              "articyId": "0x0100005A0000FE80",
+                              "text": "Leeches, fleas, and thieves. All the freeloader scum living off the hard work of others. Such is your belief.",
+                              "links": []
+                            },
+                            {
+                              "id": 103,
+                              "title": "Esprit de Corps: \"Collateral damage on the path towar...\"",
+                              "articyId": "0x0100005A0000FE85",
+                              "text": "Collateral damage on the path toward normalcy and progress. Such is your belief, officer.",
+                              "links": []
+                            },
+                            {
+                              "id": 13,
+                              "title": "Esprit de Corps: \"You, your friends, your family. Eve...\"",
+                              "articyId": "0x0100006B000058CE",
+                              "text": "You, your friends, your family. Everyone you had ever known. This was *you*.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 172,
+          "title": "You: \"Look at the line of soldiers.\"",
+          "articyId": "0x0100005A00011ABD",
+          "text": "Look at the line of soldiers.",
+          "links": [
+            {
+              "id": 117,
+              "title": "Visual Calculus: \"Seven men in combat uniforms and da...\"",
+              "articyId": "0x0100005A00011A9E",
+              "text": "Seven men in combat uniforms and dark coats, holding automatic rifles aimed at the people. Soldiers from some side... but from which one?",
+              "links": [
+                {
+                  "id": 134,
+                  "title": "Authority: \"Men of duty. Dark duty.\"",
+                  "articyId": "0x0100006B00005878",
+                  "text": "Men of duty. Dark duty.",
+                  "links": [
+                    {
+                      "id": 168,
+                      "title": "You: \"Who were they?\"",
+                      "articyId": "0x0100006B00005889",
+                      "text": "Who were they?",
+                      "links": [
+                        {
+                          "id": 169,
+                          "title": "Authority: \"Murderers. Twisted by orders. Young...\"",
+                          "articyId": "0x0100006B000058B7",
+                          "text": "Murderers. Twisted by orders. Young boys forced into killing.",
+                          "links": []
+                        },
+                        {
+                          "id": 141,
+                          "title": "Authority: \"Martyrs of the Nation, the ardent k...\"",
+                          "articyId": "0x0100006B000058AC",
+                          "text": "Martyrs of the Nation, the ardent knights. The few who had the guts to do this.",
+                          "links": []
+                        },
+                        {
+                          "id": 67,
+                          "title": "Authority: \"Overpriced mercenaries putting down...\"",
+                          "articyId": "0x0100006B000058A0",
+                          "text": "Overpriced mercenaries putting down some rabid dogs. Someone's gotta do it, right?",
+                          "links": []
+                        },
+                        {
+                          "id": 58,
+                          "title": "Authority: \"In all truth, violence offers no an...\"",
+                          "articyId": "0x0100006B000058A6",
+                          "text": "In all truth, violence offers no answer... It's only the last available resort when all mediation fails. And here, all did fail.",
+                          "links": []
+                        },
+                        {
+                          "id": 24,
+                          "title": "Authority: \"Soldiers... people in a bad spot th...\"",
+                          "articyId": "0x0100006B000058DB",
+                          "text": "Soldiers... people in a bad spot they probably did not choose, ordered to commit acts they wanted no part of.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 129,
+          "title": "You: \"Look at the person standing on the...\"",
+          "articyId": "0x0100006B0000586F",
+          "text": "Look at the person standing on the side.",
+          "links": [
+            {
+              "id": 19,
+              "title": "Visual Calculus: \"The commandant -- the one who gives...\"",
+              "articyId": "0x0100005A00011AD8",
+              "text": "The commandant -- the one who gives the order. Machine gun fire crackling through the air, the lights of the muzzle flashes dancing on his face...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 147,
+          "title": "You: \"\"Kim, who was who in this execution?\"\"",
+          "articyId": "0x0100005A00011AEC",
+          "text": "\"Kim, who was who in this execution?\"",
+          "links": [
+            {
+              "id": 154,
+              "title": "Kim Kitsuragi: \"At first the lieutenant doesn't say...\"",
+              "articyId": "0x0100005A00011A87",
+              "text": "At first the lieutenant doesn't say a word... he just stares at the wall. \"I don't know,\" he says finally. \"I don't know who died here, lined up beside that horrible wall. It could have been any of the parties involved in the Revolution.\"",
+              "links": [
+                {
+                  "id": 46,
+                  "title": "Kim Kitsuragi: \"\"Perhaps the ones executed here wer...\"",
+                  "articyId": "0x0100006B00005770",
+                  "text": "\"Perhaps the ones executed here were the loyalist-conservatives -- killed by the communists at the start of the civil war. Or it could have been the communists, put to death during the last stretch of the conflict by the Coalition forces.\"",
+                  "links": [
+                    {
+                      "id": 25,
+                      "title": "Logic: \"Remember what Trant Heidelstam said...\"",
+                      "articyId": "0x010000060001D81F",
+                      "text": "Remember what Trant Heidelstam said about Feld.",
+                      "links": [
+                        {
+                          "id": 45,
+                          "title": "You: \"\"What if it was the Feld personnel...\"",
+                          "articyId": "0x0100006B0000576A",
+                          "text": "\"What if it was the Feld personnel when their assets were being seized by the revolutionaries?\"",
+                          "links": [
+                            {
+                              "id": 29,
+                              "title": "Kim Kitsuragi: \"\"Another likely scenario.\" The lieu...\"",
+                              "articyId": "0x0100005A00011B2A",
+                              "text": "\"Another likely scenario.\" The lieutenant nods.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 130,
+                      "title": "Kim Kitsuragi: \"\"It could even have been the employ...\"",
+                      "articyId": "0x0100006B000058EF",
+                      "text": "\"It could even have been the employees of the Feld R&D Center down the coast, as their building was taken over by the revolutionaries.\"",
+                      "links": [
+                        {
+                          "id": 101,
+                          "title": "Reaction Speed: \"Or maybe...\"",
+                          "articyId": "0x010000060001D827",
+                          "text": "Or maybe...",
+                          "links": [
+                            {
+                              "id": 104,
+                              "title": "You: \"\"What about people from the Coaliti...\"",
+                              "articyId": "0x0100005A00011A92",
+                              "text": "\"What about people from the Coalition? The so-called moralists?\"",
+                              "links": [
+                                {
+                                  "id": 116,
+                                  "title": "Kim Kitsuragi: \"\"Yeah... it's very unlikely the Coa...\"",
+                                  "articyId": "0x0100005A00011A98",
+                                  "text": "\"Yeah... it's very unlikely the Coalition forces were the ones who died here. They were always the *last* ones against the wall.\"",
+                                  "links": [
+                                    {
+                                      "id": 133,
+                                      "title": "Kim Kitsuragi: \"\"To be honest, if a Coalition membe...\"",
+                                      "articyId": "0x0100005A00011AB7",
+                                      "text": "\"To be honest, if a Coalition member was anyone in this situation -- it was the commandant. The superior giving the orders.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 75,
+                              "title": "You: \"\"You mentioned Coalition forces. Co...\"",
+                              "articyId": "0x0100002100000B93",
+                              "text": "\"You mentioned Coalition forces. Could it have been them against the wall?\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "title": "You: \"Who was who in this execution? I ne...\"",
+          "articyId": "0x0100005A00011A81",
+          "text": "Who was who in this execution? I need to understand.",
+          "links": [
+            {
+              "id": 145,
+              "title": "Visual Calculus: \"I'm just a representation of your m...\"",
+              "articyId": "0x0100005A00011AAA",
+              "text": "I'm just a representation of your mental faculties... piecing together any available information. You should probably ask the lieutenant.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 146,
+          "title": "You: \"Good bye. [Leave.]\"",
+          "articyId": "0x0100005A00011ADE",
+          "text": "Good bye. [Leave.]",
+          "links": [
+            {
+              "id": 155,
+              "title": "Visual Calculus: \"A cold sea wind blows away the figu...\"",
+              "articyId": "0x0100005A00011AE5",
+              "text": "A cold sea wind blows away the figures.",
+              "links": [
+                {
+                  "id": 170,
+                  "title": "Shivers: \"Behind this building -- the other o...\"",
+                  "articyId": "0x010000060001491D",
+                  "text": "Behind this building -- the other one. Once filled with engineers and designers of Feld Electric, now collapsed and dead, but for some rats... You feel drawn, for some reason, to the faded mural again.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Perception (Sight): \"A scattering of bullet holes is spr...\"",
+      "articyId": "0x0100005A0000FD24",
+      "text": "A scattering of bullet holes is spread across the cracked wall, reaching from one corner to the other.",
+      "links": [
+        {
+          "id": 61,
+          "title": "You: \"\"Oh my god, look at all these bulle...\"",
+          "articyId": "0x0100005A00011A67",
+          "text": "\"Oh my god, look at all these bullet holes! I haven't seen any other bullet holes in the walls before, somehow.\"",
+          "links": [
+            {
+              "id": 5,
+              "title": "Kim Kitsuragi: \"\"Hmm, correct.\" The lieutenant exam...\"",
+              "articyId": "0x0100005A00011A5D",
+              "text": "\"Hmm, correct.\" The lieutenant examines the wall closely. \"The density of the bullet holes is unusual, even in a general *average bullet hole frequency in Martinaise* sense. Grim affairs.\"",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "Kim Kitsuragi: \"\"Meaning, this is *a lot* of bullet...\"",
+                  "articyId": "0x0100005A00011B42",
+                  "text": "\"Meaning, this is *a lot* of bullet holes.\" He brushes the wall with his hand. \"Looks like fully-automatic rifle fire. Something you don't see these days...\"",
+                  "links": [
+                    {
+                      "id": 82,
+                      "title": "You: \"\"Why not?\"\"",
+                      "articyId": "0x0100006B0000558C",
+                      "text": "\"Why not?\"",
+                      "links": [
+                        {
+                          "id": 122,
+                          "title": "Kim Kitsuragi: \"\"The manufacturing and sale of auto...\"",
+                          "articyId": "0x0100006B0000559A",
+                          "text": "\"The manufacturing and sale of automatic rifles was curtailed after the Revolution. The destructive power of such tools proved to be... too much. We do need to retain some humanity in this world.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 190,
+                      "title": "You: \"Say nothing, just nod.\"",
+                      "articyId": "0x0100006B00005591",
+                      "text": "Say nothing, just nod.",
+                      "links": [
+                        {
+                          "id": 184,
+                          "title": "Kim Kitsuragi: \"The lieutenant also nods. It is qui...\"",
+                          "articyId": "0x0100006B000055A0",
+                          "text": "The lieutenant also nods. It is quite a scene -- the two of you standing next to the broken wall of an abandoned building... nodding. Nodding along.",
+                          "links": [
+                            {
+                              "id": 63,
+                              "title": "Esprit de Corps: \"Two officers of the law against the...\"",
+                              "articyId": "0x0100006B000055AF",
+                              "text": "Two officers of the law against the world. Nodding in unison. It is your source of power. The bond of camaraderie between you... is palpable...",
+                              "links": [
+                                {
+                                  "id": 85,
+                                  "title": "You: \"Nod even more.\"",
+                                  "articyId": "0x0100006B000055B7",
+                                  "text": "Nod even more.",
+                                  "links": [
+                                    {
+                                      "id": 56,
+                                      "title": "Kim Kitsuragi: \"The lieutenant is nodding so hard i...\"",
+                                      "articyId": "0x0100006B000055CC",
+                                      "text": "The lieutenant is nodding so hard it looks like his head is about to snap off his neck.",
+                                      "links": [
+                                        {
+                                          "id": 64,
+                                          "title": "You: \"Don't stop nodding.\"",
+                                          "articyId": "0x0100006B00005615",
+                                          "text": "Don't stop nodding.",
+                                          "links": [
+                                            {
+                                              "id": 11,
+                                              "title": "Kim Kitsuragi: \"The lieutenant matches your nodding...\"",
+                                              "articyId": "0x0100006B0000562C",
+                                              "text": "The lieutenant matches your nodding pace. He's a true professional at this.",
+                                              "links": [
+                                                {
+                                                  "id": 148,
+                                                  "title": "Endurance: \"The nodding's reaching critical mas...\"",
+                                                  "articyId": "0x0100006B00005632",
+                                                  "text": "The nodding's reaching critical mass! You can't take this much longer, captain!",
+                                                  "links": [
+                                                    {
+                                                      "id": 118,
+                                                      "title": "You: \"Keep nodding, goddamn it! Stay the...\"",
+                                                      "articyId": "0x0100006B00005639",
+                                                      "text": "Keep nodding, goddamn it! Stay the course!",
+                                                      "links": [
+                                                        {
+                                                          "id": 124,
+                                                          "title": "Kim Kitsuragi: \"A small bead of sweat runs down the...\"",
+                                                          "articyId": "0x0100006B00005647",
+                                                          "text": "A small bead of sweat runs down the side of the lieutenant's face as he maintains his nodding...",
+                                                          "links": [
+                                                            {
+                                                              "id": 42,
+                                                              "title": "Physical Instrument: \"It's too much! You can feel your ve...\"",
+                                                              "articyId": "0x0100006B0000566C",
+                                                              "text": "It's too much! You can feel your vertebrae starting to crack, your muscles groaning...",
+                                                              "links": [
+                                                                {
+                                                                  "id": 192,
+                                                                  "title": "You: \"Just one more nod.\"",
+                                                                  "articyId": "0x0100006B00005673",
+                                                                  "text": "Just one more nod.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 185,
+                                                                      "title": "Kim Kitsuragi: \"As the lieutenant takes out a handk...\"",
+                                                                      "articyId": "0x0100006B00005682",
+                                                                      "text": "As the lieutenant takes out a handkerchief and softly taps the sweat off his temple... a faint crack echoes through the coast...",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 149,
+                                                                          "title": "Pain Threshold: \"Almost snapped your neck... but I f...\"",
+                                                                          "articyId": "0x0100006B00005662",
+                                                                          "text": "Almost snapped your neck... but I fucking got this. No pain... no pain...",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 43,
+                                                                              "title": "Endurance: \"Whew, got off lucky there... that c...\"",
+                                                                              "articyId": "0x0100006B000056A8",
+                                                                              "text": "Whew, got off lucky there... that could have resulted in a world of hurt.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 66,
+                                                                                  "title": "Kim Kitsuragi: \"\"Alright,\" the lieutenant coughs ab...\"",
+                                                                                  "articyId": "0x0100006B000056E3",
+                                                                                  "text": "\"Alright,\" the lieutenant coughs abruptly. \"It's a good moment to stop. My neck was starting to hurt. If there's nothing more, we should get going.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 65,
+                                                                                      "title": "Esprit de Corps: \"He would follow you into death itse...\"",
+                                                                                      "articyId": "0x0100006B000056DD",
+                                                                                      "text": "He would follow you into death itself... and you would do the same for him.",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 22,
+                                                                              "title": "Endurance: \"Whew, got off really lucky... that...\"",
+                                                                              "articyId": "0x0100006B000056AE",
+                                                                              "text": "Whew, got off really lucky... that could have resulted in a world of hurt.",
+                                                                              "links": []
+                                                                            },
+                                                                            {
+                                                                              "id": 21,
+                                                                              "title": "Endurance: \"Abort! Abort! No... shit, it's too...\"",
+                                                                              "articyId": "0x0100006B00005653",
+                                                                              "text": "Abort! Abort! No... shit, it's too late!",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 57,
+                                                                                  "title": "You: \"\"OH SHIT FUCK HELL!\"\"",
+                                                                                  "articyId": "0x0100006B000056C4",
+                                                                                  "text": "\"OH SHIT FUCK HELL!\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 125,
+                                                                                      "title": "Kim Kitsuragi: \"\"Busted the neck, did you?\" He cran...\"",
+                                                                                      "articyId": "0x0100006B000056BE",
+                                                                                      "text": "\"Busted the neck, did you?\" He cranes his neck left and right, stretching. \"Glad I stopped when I did... my neck was really starting to hurt. Don't worry, it'll mend... now, we should get going.\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 191,
+                                                                              "title": "Endurance: \"Your neck couldn't withstand all th...\"",
+                                                                              "articyId": "0x0100006B0000565D",
+                                                                              "text": "Your neck couldn't withstand all this effort... it's too much!",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 199,
+                                          "title": "You: \"Stop nodding.\"",
+                                          "articyId": "0x0100006B0000561A",
+                                          "text": "Stop nodding.",
+                                          "links": [
+                                            {
+                                              "id": 156,
+                                              "title": "Kim Kitsuragi: \"\"Alright,\" the lieutenant coughs ab...\"",
+                                              "articyId": "0x0100006B000055EC",
+                                              "text": "\"Alright,\" the lieutenant coughs abruptly. \"I'm glad we stopped when we did... my neck was starting to hurt. If there's nothing more, we should get going.\"",
+                                              "links": [
+                                                {
+                                                  "id": 16,
+                                                  "title": "Esprit de Corps: \"Follow your brother into death itse...\"",
+                                                  "articyId": "0x0100006B000055FC",
+                                                  "text": "Follow your brother into death itself.",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 10,
+                                                  "title": "Endurance: \"Phew! All that nodding was rough on...\"",
+                                                  "articyId": "0x0100006B0000560B",
+                                                  "text": "Phew! All that nodding was rough on the old neck. Close to feeling that twinge...",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 106,
+                                  "title": "You: \"Shake your head.\"",
+                                  "articyId": "0x0100006B000055BC",
+                                  "text": "Shake your head.",
+                                  "links": [
+                                    {
+                                      "id": 86,
+                                      "title": "Kim Kitsuragi: \"He nods in agreement -- it really i...\"",
+                                      "articyId": "0x0100006B000055D1",
+                                      "text": "He nods in agreement -- it really is a very serious scene, worth shaking your head over.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "title": "Kim Kitsuragi: \"The lieutenant gives a terse nod. \"...\"",
+                          "articyId": "0x0100006B000055DA",
+                          "text": "The lieutenant gives a terse nod. \"Nothing for us to do here. Let's move along.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 40,
+              "title": "Perception (Sight): \"The density and spread of these bul...\"",
+              "articyId": "0x0100005A00011A62",
+              "text": "The density and spread of these bullet holes is surprising -- this takes *a lot* of bullets. Fully-automatic rifle fire.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "title": "You: \"Even more bullet holes. Something h...\"",
+          "articyId": "0x0100005A00011A6D",
+          "text": "Even more bullet holes. Something has definitely happened here.",
+          "links": []
+        },
+        {
+          "id": 36,
+          "title": "You: \"Why this many bullet holes?\"",
+          "articyId": "0x0100005A0000FD36",
+          "text": "Why this many bullet holes?",
+          "links": [
+            {
+              "id": 108,
+              "title": "Visual Calculus: \"A row of ghostly shades stand facin...\"",
+              "articyId": "0x0100005A0000FD4B",
+              "text": "A row of ghostly shades stand facing the wall. There are many of them, a dozen at least, their heads lowered and eyes blindfolded. It's quiet. No sound, no movement.",
+              "links": [
+                {
+                  "id": 62,
+                  "title": "Visual Calculus: \"Ten metres away -- other shades are...\"",
+                  "articyId": "0x0100005A00011A75",
+                  "text": "Ten metres away -- other shades are lined up in an orderly manner, automatic rifles primed. A gust of wind blows by -- the coats of the firing squad flap slowly in the breeze. A single person stands on the side.",
+                  "links": [
+                    {
+                      "id": 97,
+                      "title": "Visual Calculus: \"Droplets of rain fall on the wooden...\"",
+                      "articyId": "0x0100006B0000585A",
+                      "text": "Droplets of rain fall on the wooden planks, the surrounding sand dunes. The clouds block out any rays of light...",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "Visual Calculus: \"A long time has passed since the mo...\"",
+                          "articyId": "0x0100005A00011A7B",
+                          "text": "A long time has passed since the moment of this fusillading. Rain and brine have since washed all the blood away. Not a trace remains.",
+                          "links": [
+                            {
+                              "id": 180,
+                              "title": "You: \"What *is* this...\"",
+                              "articyId": "0x010000060001D80B",
+                              "text": "What *is* this...",
+                              "links": [
+                                {
+                                  "id": 171,
+                                  "title": "Visual Calculus: \"The abundance of bullet holes leads...\"",
+                                  "articyId": "0x0100005A00011AA4",
+                                  "text": "The abundance of bullet holes leads to two options: either an inordinate amount of executions were performed here, or they did not use a *conscience round* -- where only one soldier has the loaded rifle. Looks like this was a mass execution with everyone fully armed.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 189,
+                      "title": "Visual Calculus: \"Snowflakes fall on the wooden plank...\"",
+                      "articyId": "0x0100006B00005860",
+                      "text": "Snowflakes fall on the wooden planks and the surrounding sand dunes, covering the land with the white of innocence...",
+                      "links": []
+                    },
+                    {
+                      "id": 179,
+                      "title": "Visual Calculus: \"The morning sun rises beyond the ho...\"",
+                      "articyId": "0x0100006B0000582D",
+                      "text": "The morning sun rises beyond the horizon, radiating the first light of the day. The order was carried out at dawn.",
+                      "links": []
+                    },
+                    {
+                      "id": 23,
+                      "title": "Visual Calculus: \"The sun blazes high up in the sky.....\"",
+                      "articyId": "0x0100006B00005833",
+                      "text": "The sun blazes high up in the sky... baking the planks, the sand, your skin. The order was carried out in the afternoon.",
+                      "links": []
+                    },
+                    {
+                      "id": 96,
+                      "title": "Visual Calculus: \"The sun falls slowly toward the hor...\"",
+                      "articyId": "0x0100006B00005839",
+                      "text": "The sun falls slowly toward the horizon... the last light of the day. The order was carried out in the evening.",
+                      "links": []
+                    },
+                    {
+                      "id": 107,
+                      "title": "Visual Calculus: \"It's dark, very dark... faint light...\"",
+                      "articyId": "0x0100006B0000583F",
+                      "text": "It's dark, very dark... faint lights flicker at the edge of your vision. It's rare for the order to be carried out at night...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 109,
+              "title": "Visual Calculus: \"Unable to piece together the *big p...\"",
+              "articyId": "0x0100005A0000FD50",
+              "text": "Unable to piece together the *big picture* just now. There's a hole in the hypothesis.",
+              "links": [
+                {
+                  "id": 35,
+                  "title": "You: \"I'm dumb.\"",
+                  "articyId": "0x010000060001D7D9",
+                  "text": "I'm dumb.",
+                  "links": [
+                    {
+                      "id": 132,
+                      "title": "Perception (Sight): \"The scattering of bullet holes look...\"",
+                      "articyId": "0x010000060001D7FB",
+                      "text": "The scattering of bullet holes looks like one giant smiling mouth. Smiling its deadly smile. Laughing at you and the world and the living.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 131,
+                  "title": "You: \"Fine. Okay.\"",
+                  "articyId": "0x010000060001D7E7",
+                  "text": "Fine. Okay.",
+                  "links": [
+                    {
+                      "id": 84,
+                      "title": "Perception (Sight): \"The scattering of bullet holes look...\"",
+                      "articyId": "0x010000060001D7F4",
+                      "text": "The scattering of bullet holes looks like one giant smiling mouth. Smiling its deadly smile.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "title": "You: \"Walk away. [Leave.]\"",
+          "articyId": "0x0100005A0000FD3B",
+          "text": "Walk away. [Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

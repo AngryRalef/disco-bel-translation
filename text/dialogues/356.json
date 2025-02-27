@@ -1,0 +1,394 @@
+{
+  "id": "0x010000570001D9A3",
+  "title": "APT / REAL ESTATE AGENT",
+  "description": "A short conversation with the real estate agent. She tells you about some apartments.",
+  "dialogueTree": [
+    {
+      "id": 32,
+      "title": "Real Estate Agent: \"\"What now?\" She crosses her arms im...\"",
+      "articyId": "0x010000570001E42A",
+      "text": "\"What now?\" She crosses her arms impatiently.",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"\"What are you doing here?\"\"",
+          "articyId": "0x010000570001E364",
+          "text": "\"What are you doing here?\"",
+          "links": [
+            {
+              "id": 61,
+              "title": "Real Estate Agent: \"She sighs and looks around. \"I need...\"",
+              "articyId": "0x010000570001E36A",
+              "text": "She sighs and looks around. \"I need to get it ready for the next lease, but as you can see, the previous tenant completely trashed the place.\"",
+              "links": [
+                {
+                  "id": 56,
+                  "title": "You: \"\"Sounds like they knew how to have...\"",
+                  "articyId": "0x0100007000005B45",
+                  "text": "\"Sounds like they knew how to have a good time.\"",
+                  "links": [
+                    {
+                      "id": 51,
+                      "title": "Real Estate Agent: \"\"It was some kind of a moribund old...\"",
+                      "articyId": "0x010000570001E37A",
+                      "text": "\"It was some kind of a moribund old man, who used to be a business owner. You'd think they'd make rent...\" She stops, hesitating.",
+                      "links": [
+                        {
+                          "id": 7,
+                          "title": "Composure: \"A sudden serious look crosses her f...\"",
+                          "articyId": "0x010000570001E40A",
+                          "text": "A sudden serious look crosses her face. This story didn't have a happy ending.",
+                          "links": [
+                            {
+                              "id": 16,
+                              "title": "Real Estate Agent: \"\"But -- that was months ago. Anyway...\"",
+                              "articyId": "0x010000570001E396",
+                              "text": "\"But -- that was months ago. Anyway. Was there anything you wanted, or is that it? I'm in a hurry.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 30,
+                  "title": "You: \"\"Reprehensible. Who lived here?\"\"",
+                  "articyId": "0x010000570001E371",
+                  "text": "\"Reprehensible. Who lived here?\"",
+                  "links": []
+                },
+                {
+                  "id": 23,
+                  "title": "You: \"\"I fuck shit up too.\"\"",
+                  "articyId": "0x010000060001BA37",
+                  "text": "\"I fuck shit up too.\"",
+                  "links": [
+                    {
+                      "id": 57,
+                      "title": "Real Estate Agent: \"\"Heh!\" She smiles aggressively. \"So...\"",
+                      "articyId": "0x010000060001BA3E",
+                      "text": "\"Heh!\" She smiles aggressively. \"Sounds like you've spent too much time undercover in some rock band.\"",
+                      "links": [
+                        {
+                          "id": 58,
+                          "title": "Rhetoric: \"It's not a compliment.\"",
+                          "articyId": "0x010000060001BA4C",
+                          "text": "It's not a compliment.",
+                          "links": [
+                            {
+                              "id": 24,
+                              "title": "You: \"\"Who lived here?\"\"",
+                              "articyId": "0x010000060001BA45",
+                              "text": "\"Who lived here?\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "title": "You: \"\"Isn't it a bit late to be working?\"\"",
+          "articyId": "0x0100002100002277",
+          "text": "\"Isn't it a bit late to be working?\"",
+          "links": [
+            {
+              "id": 40,
+              "title": "Real Estate Agent: \"\"It *is*.\" She breathes in and out...\"",
+              "articyId": "0x010000210000227D",
+              "text": "\"It *is*.\" She breathes in and out to the count of three -- it looks like some special stress release technique -- before she continues...",
+              "links": [
+                {
+                  "id": 35,
+                  "title": "Real Estate Agent: \"\"Everyone says that real estate age...\"",
+                  "articyId": "0x0100002100002284",
+                  "text": "\"Everyone says that real estate agents don't *do* anything, but here I am, in the middle of the night, cleaning up someone's 'crash pad'.\"",
+                  "links": [
+                    {
+                      "id": 41,
+                      "title": "Real Estate Agent: \"\"So, the sooner we get this over wi...\"",
+                      "articyId": "0x010000210000228B",
+                      "text": "\"So, the sooner we get this over with, the better.\" She means you -- time for the next question.",
+                      "links": [
+                        {
+                          "id": 36,
+                          "title": "Endurance: \"Come to think of it, she *does* loo...\"",
+                          "articyId": "0x010000210000229A",
+                          "text": "Come to think of it, she *does* look incredibly tired.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "You: \"\"Who lived in the foreclosed apartm...\"",
+          "articyId": "0x010000570001E35F",
+          "text": "\"Who lived in the foreclosed apartment down the hallway?\"",
+          "links": [
+            {
+              "id": 37,
+              "title": "Real Estate Agent: \"\"Oh, that's another huge mess. The...\"",
+              "articyId": "0x010000570001E39E",
+              "text": "\"Oh, that's another huge mess. The former tenant owes us three months of rent, *three*! We closed the apartment and planned on auctioning off the valuables, but...\"",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "Real Estate Agent: \"\"And again, I have no idea how *stu...\"",
+                  "articyId": "0x010000570001E3BA",
+                  "text": "\"And again, I have no idea how *stupid* mistakes like this can even happen, but Ron, when he came to close the door, didn't close the neighbouring door! And there's a hole in the wall!\"",
+                  "links": [
+                    {
+                      "id": 25,
+                      "title": "Electrochemistry: \"So preppy! She's probably on some l...\"",
+                      "articyId": "0x010000060001BA61",
+                      "text": "So preppy! She's probably on some low grade performance enhancers. Like Preptide or Pericanine.",
+                      "links": [
+                        {
+                          "id": 54,
+                          "title": "Real Estate Agent: \"\"A hole in the wall, can you believ...\"",
+                          "articyId": "0x010000570001E3C1",
+                          "text": "\"A hole in the wall, can you believe it?\" She spreads her hands. \"And then the tenant ran off with his stuff. He's gone, the *money's* gone, just like that!\" She snaps her fingers.",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Logic: \"The sum must've been puny.\"",
+                              "articyId": "0x010000060001BA72",
+                              "text": "The sum must've been puny.",
+                              "links": [
+                                {
+                                  "id": 59,
+                                  "title": "Empathy: \"Oh, it irks her. The *incompetence*...\"",
+                                  "articyId": "0x010000060001BA80",
+                                  "text": "Oh, it irks her. The *incompetence*.",
+                                  "links": [
+                                    {
+                                      "id": 18,
+                                      "title": "You: \"\"My money has also disappeared, I t...\"",
+                                      "articyId": "0x010000570001E3E9",
+                                      "text": "\"My money has also disappeared, I think.\"",
+                                      "links": [
+                                        {
+                                          "id": 22,
+                                          "title": "Real Estate Agent: \"\"Well, it does *not* disappear from...\"",
+                                          "articyId": "0x010000570001E3EF",
+                                          "text": "\"Well, it does *not* disappear from my hands, no, I don't let it.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 45,
+                                      "title": "You: \"\"It couldn't have been that much mo...\"",
+                                      "articyId": "0x010000570001E3D6",
+                                      "text": "\"It couldn't have been that much money. These apartments look pretty shabby.\"",
+                                      "links": [
+                                        {
+                                          "id": 43,
+                                          "title": "Real Estate Agent: \"\"These apartments are perfectly fin...\"",
+                                          "articyId": "0x010000570001E3E2",
+                                          "text": "\"These apartments are perfectly fine! They have gorgeous architecture, a million reál view of the bay, good ventilation, neighbours, life, spark... And they are affordable.\"",
+                                          "links": [
+                                            {
+                                              "id": 44,
+                                              "title": "Real Estate Agent: \"\"I'll tell you, Martinaise has a fu...\"",
+                                              "articyId": "0x010000570001E3F9",
+                                              "text": "\"I'll tell you, Martinaise has a future -- in a few years it's going to blossom with artists and creatives and those radiocomputer wizards.\"",
+                                              "links": [
+                                                {
+                                                  "id": 19,
+                                                  "title": "Rhetoric: \"The *radiocomputer wizards* are inv...\"",
+                                                  "articyId": "0x01000021000012B7",
+                                                  "text": "The *radiocomputer wizards* are invested with magical economic powers.",
+                                                  "links": [
+                                                    {
+                                                      "id": 34,
+                                                      "title": "Inland Empire: \"It's as if they're *real* wizards,...\"",
+                                                      "articyId": "0x010000060001BA88",
+                                                      "text": "It's as if they're *real* wizards, able to resurrect dead real estate and breathe life into bank accounts.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 50,
+                                      "title": "You: \"\"So wait, what happened with the wa...\"",
+                                      "articyId": "0x010000570001E3C7",
+                                      "text": "\"So wait, what happened with the wall?\" (Proceed.)",
+                                      "links": [
+                                        {
+                                          "id": 17,
+                                          "title": "Real Estate Agent: \"\"Don't ask me what happened with th...\"",
+                                          "articyId": "0x010000570001E3AD",
+                                          "text": "\"Don't ask me what happened with the wall, I have no idea how we're going to find the time or resources to fix it.\"",
+                                          "links": [
+                                            {
+                                              "id": 38,
+                                              "title": "Real Estate Agent: \"\"*Both* apartments are now unrentab...\"",
+                                              "articyId": "0x010000570001E3B3",
+                                              "text": "\"*Both* apartments are now unrentable. Both!\" She's still shaking her head, manicured hands now crossed over the chest.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "You: \"\"I glimpsed a *foreclosed* apartmen...\"",
+          "articyId": "0x010000060001BA56",
+          "text": "\"I glimpsed a *foreclosed* apartment down the hallway.\"",
+          "links": []
+        },
+        {
+          "id": 9,
+          "title": "You: \"\"That's all, thank you.\" [Leave.]\"",
+          "articyId": "0x010000570001DFEF",
+          "text": "\"That's all, thank you.\" [Leave.]",
+          "links": [
+            {
+              "id": 52,
+              "title": "Real Estate Agent: \"\"Of course,\" she replies with a smi...\"",
+              "articyId": "0x010000570001E3A5",
+              "text": "\"Of course,\" she replies with a smile, but her eyes remain glazed over -- she's been waiting for you to leave.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Real Estate Agent: \"\"Satisfied? My name is Marielle Cha...\"",
+      "articyId": "0x010000570001DFE3",
+      "text": "\"Satisfied? My name is Marielle Charpentier and I'm an agent with Martinaise Realty Associates. I am *not* breaking in, as I have every *right* to be here. The keys, see?\" She jingles a set of keys in her hand.",
+      "links": [
+        {
+          "id": 39,
+          "title": "Interfacing: \"Boy there are a lot of different ke...\"",
+          "articyId": "0x010000060001BA18",
+          "text": "Boy there are a lot of different keys there. More than *twenty* at least...",
+          "links": [
+            {
+              "id": 33,
+              "title": "Empathy: \"Her voice is really cheerful despit...\"",
+              "articyId": "0x010000060001BA1F",
+              "text": "Her voice is really cheerful despite her obviously *hating* you.",
+              "links": [
+                {
+                  "id": 42,
+                  "title": "Real Estate Agent: \"\"Do you want to see my ID as well?...\"",
+                  "articyId": "0x010000570001E380",
+                  "text": "\"Do you want to see my ID as well? You can't *legally* ask for it, but why not? Want to see my residence permit, too?\" She fumbles through her purse, fishing out a light paper-clad passport.",
+                  "links": [
+                    {
+                      "id": 15,
+                      "title": "You: \"Inspect the passport.\"",
+                      "articyId": "0x010000570001E1DD",
+                      "text": "Inspect the passport.",
+                      "links": [
+                        {
+                          "id": 6,
+                          "title": "Real Estate Agent: \"It feels flimsy in hand, with the w...\"",
+                          "articyId": "0x010000570001E390",
+                          "text": "It feels flimsy in hand, with the words 'Revachol Zone of Control' written under a nondescript municipal logo. There's a picture of her with shorter hair inside, along with all her personal details.",
+                          "links": [
+                            {
+                              "id": 12,
+                              "title": "Suggestion: \"Be friendly.\"",
+                              "articyId": "0x010000060001BA2E",
+                              "text": "Be friendly.",
+                              "links": [
+                                {
+                                  "id": 4,
+                                  "title": "You: \"\"Nice haircut.\" (Hand back the pass...\"",
+                                  "articyId": "0x010000570001E438",
+                                  "text": "\"Nice haircut.\" (Hand back the passport.)",
+                                  "links": [
+                                    {
+                                      "id": 31,
+                                      "title": "Real Estate Agent: \"\"Thank you.\" She slips the passport...\"",
+                                      "articyId": "0x010000570001E41D",
+                                      "text": "\"Thank you.\" She slips the passport back in her purse. \"Do you have any questions? I need to be back in midtown in an hour.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "title": "You: \"\"Everything seems to be in order.\"...\"",
+                                  "articyId": "0x010000570001E417",
+                                  "text": "\"Everything seems to be in order.\" (Hand back the passport.)",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "title": "You: \"\"I don't need your ID, I just need...\"",
+                      "articyId": "0x010000570001E34A",
+                      "text": "\"I don't need your ID, I just need to ask you some questions.\"",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "Real Estate Agent: \"\"Very well, but please make it quic...\"",
+                          "articyId": "0x010000570001E357",
+                          "text": "\"Very well, but please make it quick.\" She slips the passport back to her purse and checks her watch. \"I need to be back in La Delta in an hour.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 10,
+                      "title": "You: \"[Leave.]\"",
+                      "articyId": "0x010000570001E350",
+                      "text": "[Leave.]",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

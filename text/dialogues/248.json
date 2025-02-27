@@ -1,0 +1,322 @@
+{
+  "id": "0x010000450000E7EB",
+  "title": "WHIRLING F3 / FOOTPRINTS IN THE DUST",
+  "description": "1. See tracks from what seem to be boots.\n2. Reveals not odd-soled if you return after suspecting Ruby. (Anti-red-herring.)",
+  "dialogueTree": [
+    {
+      "id": 55,
+      "title": "Footprints in the Dust: \"You *clearly* see footprints in the...\"",
+      "articyId": "0x01000058000074E9",
+      "text": "You *clearly* see footprints in the downy carpet of dust covering the workshop floor.",
+      "links": [
+        {
+          "id": 36,
+          "title": "Kim Kitsuragi: \"\"Jackpot.\" The lieutenant takes out...\"",
+          "articyId": "0x0100007800010E6C",
+          "text": "\"Jackpot.\" The lieutenant takes out his notebook. \"These, unlike everything else here, are *new*.\"",
+          "links": []
+        },
+        {
+          "id": 54,
+          "title": "You: \"Someone's been back here -- *recent...\"",
+          "articyId": "0x0100007800010E60",
+          "text": "Someone's been back here -- *recently*.",
+          "links": [
+            {
+              "id": 56,
+              "title": "Kim Kitsuragi: \"\"Three weeks maximum -- from the du...\"",
+              "articyId": "0x0100007800010E73",
+              "text": "\"Three weeks maximum -- from the dust coverage. It could easily have been *one* week too. You know, officer...\" He looks at you.",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Empathy: \"This is so good it makes him forget...\"",
+                  "articyId": "0x0100007800010E8B",
+                  "text": "This is so good it makes him forget the whole *Kimball* memory.",
+                  "links": [
+                    {
+                      "id": 43,
+                      "title": "Kim Kitsuragi: \"\"It was a *stereo-investigation* af...\"",
+                      "articyId": "0x0100007800010EB3",
+                      "text": "\"It was a *stereo-investigation* after all. It has now converged with our main investigation. Adding a new fact to *consider*.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 45,
+                      "title": "Kim Kitsuragi: \"\"The blue door was a *mega*-investi...\"",
+                      "articyId": "0x0100007800010E94",
+                      "text": "\"The blue door was a *mega*-investigation after all -- it has now converged with our main investigation, which I would say is *quite* large.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 72,
+                      "title": "Kim Kitsuragi: \"\"This isn't bad at all -- it was a...\"",
+                      "articyId": "0x0100007800010EBB",
+                      "text": "\"This isn't bad at all -- it was a *good* idea to see where that door leads. Commendable work bringing us to this place.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 90,
+                  "title": "Empathy: \"This is good. He likes it. That's a...\"",
+                  "articyId": "0x0100007800010E7D",
+                  "text": "This is good. He likes it. That's a little smile there -- in the dark of the workshop.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Footprints in the Dust: \"The dust has not settled again wher...\"",
+              "articyId": "0x0100008F00003F2E",
+              "text": "The dust has not settled again where these footprints have been made. The displacement in this dusty hell tells a story.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "title": "You: \"What does this *mean*?\"",
+          "articyId": "0x0100007800010EAD",
+          "text": "What does this *mean*?",
+          "links": [
+            {
+              "id": 9,
+              "title": "Kim Kitsuragi: \"\"It means someone snuck through wha...\"",
+              "articyId": "0x0100007800010EFD",
+              "text": "\"It means someone snuck through what seems like a *secret route* -- leading to the roof. The roof, from where you can *shoot* our victim. This is significant.\"",
+              "links": [
+                {
+                  "id": 66,
+                  "title": "Kim Kitsuragi: \"\"These prints, officer, could be th...\"",
+                  "articyId": "0x0100007800010F05",
+                  "text": "\"These prints, officer, could be the prints of our killer. And if not -- at least they're a good argument for this *Ruby* doing it. To present to Titus.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 44,
+              "title": "Kim Kitsuragi: \"\"It means someone snuck through wha...\"",
+              "articyId": "0x0100007800010EF7",
+              "text": "\"It means someone snuck through what seems like a secret route -- leading to the roof. From where you can *shoot* our victim. This is significant.\"",
+              "links": [
+                {
+                  "id": 52,
+                  "title": "Kim Kitsuragi: \"\"These prints, officer -- could be...\"",
+                  "articyId": "0x0100007800010F0D",
+                  "text": "\"These prints, officer -- could be the prints of our killer.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title": "Kim Kitsuragi: \"\"It means someone snuck through wha...\"",
+              "articyId": "0x0100007800010ECE",
+              "text": "\"It means someone snuck through what seems like a secret route -- behind our rape victim's room. In the recent weeks. This may prove to be significant.\"",
+              "links": []
+            },
+            {
+              "id": 17,
+              "title": "Kim Kitsuragi: \"\"It means someone snuck through wha...\"",
+              "articyId": "0x0100007800010EEC",
+              "text": "\"It means someone snuck through what seems like a secret route -- behind our rape victim's room. In the recent weeks. This may prove to be significant.\"",
+              "links": []
+            },
+            {
+              "id": 32,
+              "title": "Footprints in the Dust: \"Neither the footprints nor the dust...\"",
+              "articyId": "0x0100008F00003FB0",
+              "text": "Neither the footprints nor the dust speak their secrets. But you know: it means that someone has been back *here*.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "title": "You: \"Crouch, study the footprints.\"",
+          "articyId": "0x010000580000750C",
+          "text": "Crouch, study the footprints.",
+          "links": [
+            {
+              "id": 12,
+              "title": "Footprints in the Dust: \"Large prints, most likely made by b...\"",
+              "articyId": "0x010000580000756C",
+              "text": "Large prints, most likely made by boots. The size is hard to determine (sole could be bigger than vamp). The soles have left a pattern -- uniform, horizontal lines.",
+              "links": [
+                {
+                  "id": 24,
+                  "title": "Perception (Sight): \"One person has been here. They've g...\"",
+                  "articyId": "0x0100007800010FD0",
+                  "text": "One person has been here. They've gone back and forth. The tips point both ways.",
+                  "links": [
+                    {
+                      "id": 46,
+                      "title": "Encyclopedia: \"This print is unlike one left by a...\"",
+                      "articyId": "0x0100007800010F33",
+                      "text": "This print is unlike one left by a regular worker boot. It is not a *brand* sole, with logos on it. It seems custom made or old fashioned.",
+                      "links": [
+                        {
+                          "id": 16,
+                          "title": "Visual Calculus: \"Shoe size is 41-42, maybe 43. It co...\"",
+                          "articyId": "0x0100004500019C77",
+                          "text": "Shoe size is 41-42, maybe 43. It could be a large-footed woman or a small-to-average-footed man. This is, unfortunately, the worst, most vague shoe size there is.",
+                          "links": [
+                            {
+                              "id": 67,
+                              "title": "Half Light: \"Of course! Damn...\"",
+                              "articyId": "0x0100007800010F27",
+                              "text": "Of course! Damn...",
+                              "links": []
+                            },
+                            {
+                              "id": 76,
+                              "title": "You: \"\"The prints look like one person we...\"",
+                              "articyId": "0x0100007800010FC9",
+                              "text": "\"The prints look like one person went back and forth.\"",
+                              "links": [
+                                {
+                                  "id": 92,
+                                  "title": "Kim Kitsuragi: \"\"Between that,\" he points to the el...\"",
+                                  "articyId": "0x0100007800010FDA",
+                                  "text": "\"Between that,\" he points to the elevator doors in the corner, \"and that,\" he points to the barred door.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 40,
+                              "title": "You: \"\"This print doesn't look like the O...\"",
+                              "articyId": "0x0100007800010F89",
+                              "text": "\"This print doesn't look like the Odd-soled print we found at the hanging, Kim.\"",
+                              "links": [
+                                {
+                                  "id": 91,
+                                  "title": "Kim Kitsuragi: \"He inspects the tracks closer. \"The...\"",
+                                  "articyId": "0x0100007800010F96",
+                                  "text": "He inspects the tracks closer. \"The size looks about the same, actually. They're not the same *shoe*, but they *could* be the same person.\"",
+                                  "links": [
+                                    {
+                                      "id": 41,
+                                      "title": "Kim Kitsuragi: \"\"I wouldn't rule out Ruby coming he...\"",
+                                      "articyId": "0x0100007800010FAC",
+                                      "text": "\"I wouldn't rule out Ruby coming here yet. This isn't an argument against her. People change shoes, you know. But it's not argument *for* her either.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 53,
+                              "title": "You: \"\"This doesn't look like the workers...\"",
+                              "articyId": "0x0100007800010F8F",
+                              "text": "\"This doesn't look like the workers boots from the hanging, does it?\"",
+                              "links": [
+                                {
+                                  "id": 80,
+                                  "title": "Kim Kitsuragi: \"\"No. These little... horizontal lin...\"",
+                                  "articyId": "0x0100007800010F9E",
+                                  "text": "\"No. These little... horizontal lines are different. They look custom made to me. Or some kind of foreign print? Hard to say. Still a *boot* though.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 23,
+                              "title": "You: \"Get up. (Conclude.)\"",
+                              "articyId": "0x0100007800010FB2",
+                              "text": "Get up. (Conclude.)",
+                              "links": [
+                                {
+                                  "id": 13,
+                                  "title": "Footprints in the Dust: \"Everything around you is quiet. The...\"",
+                                  "articyId": "0x0100007800010FF3",
+                                  "text": "Everything around you is quiet. The prints criss-cross the workshop floor.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 77,
+                              "title": "You: \"One person went back and forth.\"",
+                              "articyId": "0x0100008F00003F57",
+                              "text": "One person went back and forth.",
+                              "links": [
+                                {
+                                  "id": 84,
+                                  "title": "Footprints in the Dust: \"The footprints go up the length of...\"",
+                                  "articyId": "0x0100008F00003F9E",
+                                  "text": "The footprints go up the length of the room and back down. That is all they do.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 30,
+                              "title": "You: \"This print doesn't look like the Od...\"",
+                              "articyId": "0x0100008F00003F51",
+                              "text": "This print doesn't look like the Odd Sole.",
+                              "links": [
+                                {
+                                  "id": 10,
+                                  "title": "Footprints in the Dust: \"The footprints are of one type. The...\"",
+                                  "articyId": "0x0100008F00003F98",
+                                  "text": "The footprints are of one type. They do not congratulate you for correctly recognizing what type they are not.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 93,
+                              "title": "You: \"This doesn't look like the workers...\"",
+                              "articyId": "0x0100008F00003F5D",
+                              "text": "This doesn't look like the workers boots from the hanging, does it?",
+                              "links": [
+                                {
+                                  "id": 31,
+                                  "title": "Footprints in the Dust: \"The footprints do not speak. They s...\"",
+                                  "articyId": "0x0100008F00003F83",
+                                  "text": "The footprints do not speak. They simply exist here, a product of the dust; just as the footprints outside are a product of the mud and apparently different shoes.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 71,
+                              "title": "You: \"Get up.\"",
+                              "articyId": "0x0100008F00003F65",
+                              "text": "Get up.",
+                              "links": [
+                                {
+                                  "id": 48,
+                                  "title": "Footprints in the Dust: \"The footprints are still there. The...\"",
+                                  "articyId": "0x0100008F00003F7C",
+                                  "text": "The footprints are still there. They have told their story.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100005800007518",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

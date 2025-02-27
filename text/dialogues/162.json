@@ -1,0 +1,320 @@
+{
+  "id": "0x0100002F0000E4AA",
+  "title": "KIM SWITCH / DAY TWO UNION",
+  "description": "Kim blinks red when he's joined your team near the stairs. He wants to tell you the vigilantes have showed up and that you should talk to them -- but be careful. (Final warning about RCM non-presence in Martinaise.)",
+  "dialogueTree": [
+    {
+      "id": 12,
+      "title": "Kim Kitsuragi: \"\"I've got some good news.\" The lieu...\"",
+      "articyId": "0x0100006B0000989D",
+      "text": "\"I've got some good news.\" The lieutenant smiles. \"I took care of the body. The thought of him decomposing in my MC wouldn't let me sleep.\"",
+      "links": [
+        {
+          "id": 46,
+          "title": "You: \"\"Good, thanks.\"\"",
+          "articyId": "0x0100006B00003FCF",
+          "text": "\"Good, thanks.\"",
+          "links": [
+            {
+              "id": 33,
+              "title": "Kim Kitsuragi: \"\"I'm just glad he's gone. We have o...\"",
+              "articyId": "0x0100000600019E90",
+              "text": "\"I'm just glad he's gone. We have other matters to attend to.\"",
+              "links": [
+                {
+                  "id": 57,
+                  "title": "Interfacing: \"Oh well -- we'll get the armoured b...\"",
+                  "articyId": "0x0100000600019E84",
+                  "text": "Oh well -- we'll get the armoured boots in another lifetime.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 26,
+              "title": "Kim Kitsuragi: \"\"I'm just glad he's gone. We have o...\"",
+              "articyId": "0x0100006B00003FE5",
+              "text": "\"I'm just glad he's gone. We have other matters to attend to.\"",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Rhetoric: \"The lieutenant is downplaying his c...\"",
+                  "articyId": "0x0100006B00003FEB",
+                  "text": "The lieutenant is downplaying his contribution -- he got up before sunrise to get this done. And now he's quite pleased with himself for taking care of the gruesome business so efficiently.",
+                  "links": [
+                    {
+                      "id": 36,
+                      "title": "Kim Kitsuragi: \"He points to the mess hall doors. \"...\"",
+                      "articyId": "0x0100006B00004015",
+                      "text": "He points to the mess hall doors. \"The Union muscle finally turned up, and they look rowdy. We need to talk to them.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "title": "You: \"\"I don't know if I was ready to let...\"",
+          "articyId": "0x0100006B00003FD9",
+          "text": "\"I don't know if I was ready to let him go...\"",
+          "links": [
+            {
+              "id": 28,
+              "title": "Kim Kitsuragi: \"\"Well, he's in processing now. We h...\"",
+              "articyId": "0x0100006B00003FDF",
+              "text": "\"Well, he's in processing now. We have other matters to attend to.\"",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "Interfacing: \"Oh well -- we'll get the armoured b...\"",
+                  "articyId": "0x0100000600019EA8",
+                  "text": "Oh well -- we'll get the armoured boots in another lifetime.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 51,
+              "title": "Kim Kitsuragi: \"\"Well, he's in processing now. We h...\"",
+              "articyId": "0x0100000600019EA1",
+              "text": "\"Well, he's in processing now. We have other matters to attend to.\"",
+              "links": [
+                {
+                  "id": 17,
+                  "title": "Empathy: \"He kind of wishes you'd acknowledge...\"",
+                  "articyId": "0x0100006B00003FF8",
+                  "text": "He kind of wishes you'd acknowledged his contribution, but you've missed your opportunity now.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Kim Kitsuragi: \"\"Looks like we can get to work at o...\"",
+      "articyId": "0x0100004C0000BBB7",
+      "text": "\"Looks like we can get to work at once. The Union muscle turned up.\" He points to the mess hall doors. \"They look rowdy. We should talk to them.\"",
+      "links": [
+        {
+          "id": 47,
+          "title": "Composure: \"He won't even *acknowledge* the sto...\"",
+          "articyId": "0x010000060001A391",
+          "text": "He won't even *acknowledge* the stolen boots you're wearing. For him, they don't exist. You'll have to bring it up yourself, later -- *if* you dare.",
+          "links": []
+        },
+        {
+          "id": 58,
+          "title": "You: \"\"Why do we need to talk to them?\"\"",
+          "articyId": "0x0100004C0000BB26",
+          "text": "\"Why do we need to talk to them?\"",
+          "links": [
+            {
+              "id": 56,
+              "title": "Kim Kitsuragi: \"\"This is clearly the Union's *peace...\"",
+              "articyId": "0x010000820001C31C",
+              "text": "\"This is clearly the Union's *peacekeeping* force Evrart told us about. The one he said hanged our victim.\"",
+              "links": [
+                {
+                  "id": 34,
+                  "title": "Kim Kitsuragi: \"\"We can't be sure of course -- Evra...\"",
+                  "articyId": "0x010000820000A256",
+                  "text": "\"We can't be sure of course -- Evrart may have lied to us. He definitely has an agenda of his own. Either way, we need to interview them. And it won't be easy.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 79,
+              "title": "Kim Kitsuragi: \"\"Everything points to the Dockworke...\"",
+              "articyId": "0x010000820000A22D",
+              "text": "\"Everything points to the Dockworkers' Union: the *belt* used for hanging him, the circumstances in Martinaise, my preliminary information...\"",
+              "links": [
+                {
+                  "id": 22,
+                  "title": "Kim Kitsuragi: \"\"Which may, of course, all be wrong...\"",
+                  "articyId": "0x010000820000A25E",
+                  "text": "\"Which may, of course, all be wrong. But we still need to talk to them -- and it won't be easy.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 21,
+              "title": "Kim Kitsuragi: \"\"Everything points to the Dockworke...\"",
+              "articyId": "0x010000820000A23A",
+              "text": "\"Everything points to the Dockworkers' Union: the tracks in the mud, the circumstances in Martinaise, my preliminary information...\"",
+              "links": []
+            },
+            {
+              "id": 50,
+              "title": "Kim Kitsuragi: \"\"A lot of things point to the Dockw...\"",
+              "articyId": "0x010000820000A270",
+              "text": "\"A lot of things point to the Dockworkers' Union: the circumstances in Martinaise, my preliminary information. Hmm, actually...\"",
+              "links": [
+                {
+                  "id": 42,
+                  "title": "Kim Kitsuragi: \"\"...that's not *a lot* of things. W...\"",
+                  "articyId": "0x010000820000A27D",
+                  "text": "\"...that's not *a lot* of things. We should have dug up more yesterday. Still, we need to talk to them. And it won't be easy.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "title": "You: \"\"What do you mean 'rowdy'?\"\"",
+          "articyId": "0x0100004C0000BB1D",
+          "text": "\"What do you mean 'rowdy'?\"",
+          "links": [
+            {
+              "id": 52,
+              "title": "Kim Kitsuragi: \"\"I mean ungovernable. Martinaise is...\"",
+              "articyId": "0x0100004C0000BB6F",
+              "text": "\"I mean ungovernable. Martinaise isn't exactly enthusiastic about the RCM being here. They prefer to be *policed* by the Union -- these men here...\"",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "Kim Kitsuragi: \"\"Men who drink beer for breakfast....\"",
+                  "articyId": "0x010000820000A285",
+                  "text": "\"Men who drink beer for breakfast. I have no doubt these are the Hardie boys Evrart told us about, the ones who *keep the peace* around here.\"",
+                  "links": [
+                    {
+                      "id": 13,
+                      "title": "Kim Kitsuragi: \"\"And the big one,\" he squints his e...\"",
+                      "articyId": "0x010000820000A2A0",
+                      "text": "\"And the big one,\" he squints his eyes, studying the men in the mess hall, \"must be Hardie himself...\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 87,
+                  "title": "Kim Kitsuragi: \"\"Men who drink beer for breakfast?...\"",
+                  "articyId": "0x010000820000A293",
+                  "text": "\"Men who drink beer for breakfast? There's talk of an armed wing of the Union called *the Hardie boys*, who are responsible for said *policing*. I think it's them.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "title": "You: \"\"Are these the men Garte told us ab...\"",
+          "articyId": "0x010000820000A2AE",
+          "text": "\"Are these the men Garte told us about yesterday?\"",
+          "links": [
+            {
+              "id": 45,
+              "title": "Kim Kitsuragi: \"\"I completely forgot.\" He looks at...\"",
+              "articyId": "0x010000820000A2B5",
+              "text": "\"I completely forgot.\" He looks at his notes. \"Sorry, I had a rough night's sleep. It's them, by the looks of it -- loud and nasty, just like the manager said.\"",
+              "links": [
+                {
+                  "id": 27,
+                  "title": "Kim Kitsuragi: \"\"One loose thread less to worry abo...\"",
+                  "articyId": "0x0100007800011890",
+                  "text": "\"One loose thread less to worry about -- and one big problem to replace it.\" He crosses something out.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "title": "You: \"\"There are so many of them. Maybe w...\"",
+          "articyId": "0x0100004C0000BB8E",
+          "text": "\"There are so many of them. Maybe we should call in reinforcements?\"",
+          "links": [
+            {
+              "id": 10,
+              "title": "Kim Kitsuragi: \"\"That would just escalate tensions....\"",
+              "articyId": "0x0100004C0000BB95",
+              "text": "\"That would just escalate tensions. No captain would sign off on it. Solving one murder isn't worth a conflict between the RCM and the Débardeurs' Union.\"",
+              "links": [
+                {
+                  "id": 48,
+                  "title": "Kim Kitsuragi: \"\"In fact, even the *death* of two d...\"",
+                  "articyId": "0x0100004C0000BBA3",
+                  "text": "\"In fact, even the *death* of two detectives might not warrant an all-out war. So let's keep a cool head, okay?\"",
+                  "links": [
+                    {
+                      "id": 75,
+                      "title": "Half Light: \"He's not exaggerating about that mo...\"",
+                      "articyId": "0x010000820000A2CC",
+                      "text": "He's not exaggerating about that mortal danger. Just calmly factoring it in. Your fists clench and your pulse rises uncomfortably.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "title": "You: \"\"Let's roll.\" [Leave.]\"",
+          "articyId": "0x0100004C0000BB10",
+          "text": "\"Let's roll.\" [Leave.]",
+          "links": [
+            {
+              "id": 70,
+              "title": "Kim Kitsuragi: \"\"One more thing before we do...\" He...\"",
+              "articyId": "0x0100000600018CAF",
+              "text": "\"One more thing before we do...\" He glances at the booth again. \"We don't have to talk to them immediately. We can walk right past them, continue with our business.\"",
+              "links": [
+                {
+                  "id": 5,
+                  "title": "Authority: \"Good. A power move. *Purposefully*...\"",
+                  "articyId": "0x0100000600018CB8",
+                  "text": "Good. A power move. *Purposefully* concentrate on something else first.",
+                  "links": [
+                    {
+                      "id": 76,
+                      "title": "Reaction Speed: \"Yeah -- streetwise. Zoom right past...\"",
+                      "articyId": "0x0100000600018CCB",
+                      "text": "Yeah -- streetwise. Zoom right past, do it on your own terms.",
+                      "links": [
+                        {
+                          "id": 19,
+                          "title": "Logic: \"But... aren't you *curious* to know...\"",
+                          "articyId": "0x0100000600018CBE",
+                          "text": "But... aren't you *curious* to know what they have to say about the murder?",
+                          "links": [
+                            {
+                              "id": 43,
+                              "title": "Kim Kitsuragi: \"\"They're in no hurry to leave -- th...\"",
+                              "articyId": "0x0100000600018CC4",
+                              "text": "\"They're in no hurry to leave -- they think they own the place... Anyway, I leave that choice to you. Whatever you decide is fine by me.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Kim Kitsuragi: \"\"Looks like we can get to work at o...\"",
+      "articyId": "0x0100000700009857",
+      "text": "\"Looks like we can get to work at once. The Union muscle turned up.\" He points to the mess hall doors. \"They look rowdy. We should talk to them.\"",
+      "links": []
+    }
+  ]
+}

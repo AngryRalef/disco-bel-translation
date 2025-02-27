@@ -1,0 +1,867 @@
+{
+  "id": "0x0100002B000833A9",
+  "title": "DOOMED / ICE BEAR FRIDGE",
+  "description": "1. Has a note inside that points to the frozen ice cream maker that has the filament memory stored inside.\n2. Reacting to the fact that there's a giant ice bear fridge still running them a loss.\n3. This is where you put the hanged man. If hub reached then this is an instant solution for TASK.find_fridge / If has TASK.find_fridge then this is the solution.\n4. The fridge can be turned off from the breaker box.",
+  "dialogueTree": [
+    {
+      "id": 95,
+      "title": "Ice Bear Fridge: \"The bear's eyes are dead and empty,...\"",
+      "articyId": "0x0100000500001168",
+      "text": "The bear's eyes are dead and empty, the corpse inside the fridge slowly rotting... The power has been cut off.",
+      "links": [
+        {
+          "id": 165,
+          "title": "Reaction Speed: \"But where's the filament memory? It...\"",
+          "articyId": "0x010000050000109E",
+          "text": "But where's the filament memory? It's not here...",
+          "links": []
+        },
+        {
+          "id": 3,
+          "title": "You: \"\"Hey, I can't see the off-site copy...\"",
+          "articyId": "0x0100000500001671",
+          "text": "\"Hey, I can't see the off-site copy anywhere...\" (Check the shelves again.)",
+          "links": [
+            {
+              "id": 150,
+              "title": "Kim Kitsuragi: \"\"Someone must have taken it... What...\"",
+              "articyId": "0x0100000500001680",
+              "text": "\"Someone must have taken it... What does the note say?\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 159,
+          "title": "You: \"Try to remove the dead man's boots.\"",
+          "articyId": "0x010000210000078E",
+          "text": "Try to remove the dead man's boots.",
+          "links": [
+            {
+              "id": 46,
+              "title": "Ice Bear Fridge: \"A gust of freezing cold air rushes...\"",
+              "articyId": "0x0100002B00085E79",
+              "text": "A gust of freezing cold air rushes to greet you. You hear a low grumble, as the bear regulates itself... This is the inside of a refrigerator.",
+              "links": [
+                {
+                  "id": 161,
+                  "title": "Kim Kitsuragi: \"The lieutenant takes a peek inside....\"",
+                  "articyId": "0x0100002B00085EA4",
+                  "text": "The lieutenant takes a peek inside. His hand has found the holster of his gun.",
+                  "links": [
+                    {
+                      "id": 90,
+                      "title": "You: \"\"Relax, Kim, it's a fridge.\"\"",
+                      "articyId": "0x010000570000A780",
+                      "text": "\"Relax, Kim, it's a fridge.\"",
+                      "links": [
+                        {
+                          "id": 177,
+                          "title": "Kim Kitsuragi: \"\"Of course. A giant, ice bear shape...\"",
+                          "articyId": "0x0100000600019D24",
+                          "text": "\"Of course. A giant, ice bear shaped fridge...\" He relaxes his hand, his face bathed in the harsh light of the open fridge door.",
+                          "links": [
+                            {
+                              "id": 74,
+                              "title": "Kim Kitsuragi: \"\"Just what we were looking for -- l...\"",
+                              "articyId": "0x010000050000107F",
+                              "text": "\"Just what we were looking for -- let's see what's inside.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 27,
+                          "title": "Kim Kitsuragi: \"\"Of course. Just a giant, ice bear...\"",
+                          "articyId": "0x010000570000A78C",
+                          "text": "\"Of course. Just a giant, ice bear shaped fridge...\" He relaxes his hand, his face bathed in the harsh light of the open fridge door.",
+                          "links": [
+                            {
+                              "id": 22,
+                              "title": "Kim Kitsuragi: \"\"Let's take a look inside.\"\"",
+                              "articyId": "0x0100000600019D2C",
+                              "text": "\"Let's take a look inside.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 28,
+                  "title": "You: \"Look inside the refrigerator.\"",
+                  "articyId": "0x0100000500001077",
+                  "text": "Look inside the refrigerator.",
+                  "links": [
+                    {
+                      "id": 173,
+                      "title": "Ice Bear Fridge: \"The shelves are empty. All you see...\"",
+                      "articyId": "0x01000075000036D5",
+                      "text": "The shelves are empty. All you see are crumpled ice cream wrappers with the brand name *Revachol Ice City*. A handwritten note has been attached to the door. The fridge is huge.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "title": "You: \"Try to remove the dead man's boots...\"",
+          "articyId": "0x010000050000271A",
+          "text": "Try to remove the dead man's boots again.",
+          "links": []
+        },
+        {
+          "id": 218,
+          "title": "You: \"Tell me something, dead man.\"",
+          "articyId": "0x01000021000007A0",
+          "text": "Tell me something, dead man.",
+          "links": [
+            {
+              "id": 148,
+              "title": "The Hanged Man: \"Shoot, Loonie Roonie!\"",
+              "articyId": "0x010000210000079A",
+              "text": "Shoot, Loonie Roonie!",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "title": "You: \"\"Tell me, who are you, dead man?\"\"",
+          "articyId": "0x01000021000007B0",
+          "text": "\"Tell me, who are you, dead man?\"",
+          "links": []
+        },
+        {
+          "id": 121,
+          "title": "You: \"Search the body *one more time*, th...\"",
+          "articyId": "0x010000210000076C",
+          "text": "Search the body *one more time*, thoroughly.",
+          "links": []
+        },
+        {
+          "id": 192,
+          "title": "You: \"\"Bag him. Take him away, Kim.\" (Let...\"",
+          "articyId": "0x0100002100000760",
+          "text": "\"Bag him. Take him away, Kim.\" (Let the lieutenant take the body away without further examination.)",
+          "links": []
+        },
+        {
+          "id": 6,
+          "title": "You: \"\"Okay, Kim. Take him away.\" (The li...\"",
+          "articyId": "0x010000060001A3E4",
+          "text": "\"Okay, Kim. Take him away.\" (The lieutenant takes the body away -- work alone for the rest of the day.)",
+          "links": []
+        },
+        {
+          "id": 163,
+          "title": "You: \"\"Kim, this fridge looks perfect for...\"",
+          "articyId": "0x01000075000036DF",
+          "text": "\"Kim, this fridge looks perfect for the corpse -- we don't have to ask around anymore.\"",
+          "links": [
+            {
+              "id": 146,
+              "title": "Kim Kitsuragi: \"The lieutenant studies the fridge....\"",
+              "articyId": "0x01000005000021CC",
+              "text": "The lieutenant studies the fridge. \"It's an eccentric choice... but it definitely fits the body. Now the only thing left to do is plug the fridge back in.\"",
+              "links": []
+            },
+            {
+              "id": 4,
+              "title": "Kim Kitsuragi: \"He studies the fridge. \"It's certai...\"",
+              "articyId": "0x01000005000021C4",
+              "text": "He studies the fridge. \"It's certainly an eccentric choice, but it *is* big enough. And cold enough, too...\"",
+              "links": [
+                {
+                  "id": 23,
+                  "title": "Esprit de Corps: \"... but the optics on this are awfu...\"",
+                  "articyId": "0x0100000600019D39",
+                  "text": "... but the optics on this are awful, he thinks. We need to be as silent as we can.",
+                  "links": [
+                    {
+                      "id": 30,
+                      "title": "Visual Calculus: \"Your visual confirms: you could fit...\"",
+                      "articyId": "0x0100000600019D40",
+                      "text": "Your visual confirms: you could fit *two* more bodies in the ice bear fridge.",
+                      "links": [
+                        {
+                          "id": 13,
+                          "title": "Kim Kitsuragi: \"\"Shall we go and get the body, then...\"",
+                          "articyId": "0x010000580000A890",
+                          "text": "\"Shall we go and get the body, then? I'll take the head, you take the feet. The stairs won't be easy, but we'll manage.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 164,
+          "title": "You: \"This looks like it could easily fit...\"",
+          "articyId": "0x01000075000036E5",
+          "text": "This looks like it could easily fit the corpse inside.",
+          "links": [
+            {
+              "id": 52,
+              "title": "Ice Bear Fridge: \"It's perfect -- big, with a powerfu...\"",
+              "articyId": "0x01000005000021DF",
+              "text": "It's perfect -- big, with a powerful cooling system. Now if you could just plug in the fridge and get the lieutenant to help you...",
+              "links": []
+            },
+            {
+              "id": 116,
+              "title": "Ice Bear Fridge: \"It's perfect -- big, with a powerfu...\"",
+              "articyId": "0x01000005000021E5",
+              "text": "It's perfect -- big, with a powerful cooling system. Now if you could just get the lieutenant to help you with the body...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 167,
+          "title": "You: \"\"This is clearly *the* fridge. It l...\"",
+          "articyId": "0x010000050000211A",
+          "text": "\"This is clearly *the* fridge. It looks big enough for *two* corpses.\"",
+          "links": [
+            {
+              "id": 175,
+              "title": "Kim Kitsuragi: \"\"It's certainly an... eccentric cho...\"",
+              "articyId": "0x01000005000021FE",
+              "text": "\"It's certainly an... eccentric choice. But it's more than big enough -- and cold enough. Honestly, it's perfect. All we have to do is plug the fridge back in.\"",
+              "links": []
+            },
+            {
+              "id": 76,
+              "title": "Kim Kitsuragi: \"\"It's certainly an... eccentric cho...\"",
+              "articyId": "0x0100000500002204",
+              "text": "\"It's certainly an... eccentric choice. But it is capacious -- and cold enough, too...\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 120,
+          "title": "You: \"\"So what do you think of this fridg...\"",
+          "articyId": "0x0100001F00000790",
+          "text": "\"So what do you think of this fridge, Kim? It looks big enough for *two* corpses.\"",
+          "links": []
+        },
+        {
+          "id": 132,
+          "title": "You: \"This must be the fridge I was told...\"",
+          "articyId": "0x010000050000212C",
+          "text": "This must be the fridge I was told about. But is it big enough for the corpse?",
+          "links": [
+            {
+              "id": 176,
+              "title": "Ice Bear Fridge: \"It's perfect -- big, with a powerfu...\"",
+              "articyId": "0x010000050000221B",
+              "text": "It's perfect -- big, with a powerful cooling system. Now if you could just plug in the fridge and get the lieutenant to help you...",
+              "links": []
+            },
+            {
+              "id": 168,
+              "title": "Ice Bear Fridge: \"It's perfect -- big, with a powerfu...\"",
+              "articyId": "0x0100000500002215",
+              "text": "It's perfect -- big, with a powerful cooling system. Now if you could just get the lieutenant to help you with the body...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "title": "You: \"Hm, the fridge looks big enough for...\"",
+          "articyId": "0x0100001F000007A0",
+          "text": "Hm, the fridge looks big enough for the corpse...",
+          "links": []
+        },
+        {
+          "id": 96,
+          "title": "You: \"\"The fridge is plugged in now. Will...\"",
+          "articyId": "0x0100000500002176",
+          "text": "\"The fridge is plugged in now. Will you help me with the body, Kim?\"",
+          "links": [
+            {
+              "id": 188,
+              "title": "Kim Kitsuragi: \"\"Of course. I'll take the head, you...\"",
+              "articyId": "0x010000050000224F",
+              "text": "\"Of course. I'll take the head, you take the feet...\"",
+              "links": [
+                {
+                  "id": 145,
+                  "title": "Kim Kitsuragi: \"\"It's not going to be the *easiest*...\"",
+                  "articyId": "0x010000580000A8A9",
+                  "text": "\"It's not going to be the *easiest* thing in the world, but we'll manage.\"",
+                  "links": [
+                    {
+                      "id": 31,
+                      "title": "Physical Instrument: \"The two of you? Easily.\"",
+                      "articyId": "0x0100000600019D4A",
+                      "text": "The two of you? Easily.",
+                      "links": [
+                        {
+                          "id": 127,
+                          "title": "You: \"\"Okay, let's do this!\" (Clap your h...\"",
+                          "articyId": "0x010000580000A899",
+                          "text": "\"Okay, let's do this!\" (Clap your hands.)",
+                          "links": [
+                            {
+                              "id": 73,
+                              "title": "The Hanged Man: \"The body is heavier than you expect...\"",
+                              "articyId": "0x0100006C00000079",
+                              "text": "The body is heavier than you expected -- and stinkier. It takes half an hour to get it down to the basement, then ten more minutes to stuff it into the fridge. The lieutenant takes a step back to admire your handiwork.",
+                              "links": [
+                                {
+                                  "id": 10,
+                                  "title": "Kim Kitsuragi: \"\"Beautiful,\" he says, wiping his ha...\"",
+                                  "articyId": "0x0100002D000001D0",
+                                  "text": "\"Beautiful,\" he says, wiping his hands in his handkerchief. \"A dead body in an ice bear fridge -- this is some of the best police work I've ever done.\"",
+                                  "links": [
+                                    {
+                                      "id": 24,
+                                      "title": "Conceptualization: \"You have created an *ice bear sarco...\"",
+                                      "articyId": "0x0100000600019D64",
+                                      "text": "You have created an *ice bear sarcophagus*.",
+                                      "links": [
+                                        {
+                                          "id": 5,
+                                          "title": "Physical Instrument: \"You've *definitely* earned a drink...\"",
+                                          "articyId": "0x0100000600019D5D",
+                                          "text": "You've *definitely* earned a drink after this. Perhaps even some *pagan rites*.",
+                                          "links": [
+                                            {
+                                              "id": 11,
+                                              "title": "You: \"\"Really? You think it's good work?\"\"",
+                                              "articyId": "0x0100002D000001DD",
+                                              "text": "\"Really? You think it's good work?\"",
+                                              "links": [
+                                                {
+                                                  "id": 82,
+                                                  "title": "Kim Kitsuragi: \"\"No. Not really. Look at that! What...\"",
+                                                  "articyId": "0x0100002D000001E9",
+                                                  "text": "\"No. Not really. Look at that! What have we done? We stuffed a *dead body in an ice bear fridge*. This story does not leave this room.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 199,
+                                                      "title": "Authority: \"He means it. He doesn't want to be...\"",
+                                                      "articyId": "0x0100002D000002BD",
+                                                      "text": "He means it. He doesn't want to be the Ice Bear Cop.",
+                                                      "links": [
+                                                        {
+                                                          "id": 37,
+                                                          "title": "You: \"\"I think this is a glorious achieve...\"",
+                                                          "articyId": "0x0100002D00000206",
+                                                          "text": "\"I think this is a glorious achievement and people need to hear about it.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 149,
+                                                              "title": "Kim Kitsuragi: \"\"No. They do *not* -- they *need* t...\"",
+                                                              "articyId": "0x0100002D0000028A",
+                                                              "text": "\"No. They do *not* -- they *need* to hear about our uneventful, boring, downright *conservative* murder investigation.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 210,
+                                                                  "title": "Kim Kitsuragi: \"\"At least we've stopped the body fr...\"",
+                                                                  "articyId": "0x0100002D0000025F",
+                                                                  "text": "\"At least we've stopped the body from decomposing further -- or will have, once you plug the fridge back in. Then you can conduct one more inspection.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 107,
+                                                                      "title": "The Hanged Man: \"Inside the icy realm of the ice bea...\"",
+                                                                      "articyId": "0x0100000600019D9D",
+                                                                      "text": "Inside the icy realm of the ice bear fridge, the corpse stands slumped, waiting...",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 26,
+                                                                  "title": "Kim Kitsuragi: \"\"At least we've stopped the body fr...\"",
+                                                                  "articyId": "0x0100002D0000023C",
+                                                                  "text": "\"At least we've stopped the body from decomposing further. Now you can conduct another inspection. Under controlled *circumstances*.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 222,
+                                                          "title": "You: \"\"We did our best with the means at...\"",
+                                                          "articyId": "0x0100002D00000214",
+                                                          "text": "\"We did our best with the means at our disposal.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 189,
+                                                              "title": "Kim Kitsuragi: \"\"Did we, though?\" He sighs. \"Okay,...\"",
+                                                              "articyId": "0x0100002D0000024A",
+                                                              "text": "\"Did we, though?\" He sighs. \"Okay, maybe we *did*\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 12,
+                                                          "title": "You: \"\"Yeah, I'm not *proud* either, but...\"",
+                                                          "articyId": "0x0100002D0000021F",
+                                                          "text": "\"Yeah, I'm not *proud* either, but we did find a fridge.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 198,
+                                                              "title": "Kim Kitsuragi: \"\"As impressive as the fridge is, th...\"",
+                                                              "articyId": "0x0100002D0000020C",
+                                                              "text": "\"As impressive as the fridge is, this is a *small* victory. Among numerous defeats.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 126,
+                                                          "title": "You: \"\"This isn't police work, Kim. It's...\"",
+                                                          "articyId": "0x0100002D0000022B",
+                                                          "text": "\"This isn't police work, Kim. It's *art*. We're *artists* and this was our vision.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 162,
+                                                              "title": "Kim Kitsuragi: \"\"If I were an artist, this would ce...\"",
+                                                              "articyId": "0x0100002D00000242",
+                                                              "text": "\"If I were an artist, this would certainly *not* be my vision. I would be much, much more conservative in my work...\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 25,
+                                                                  "title": "Conceptualization: \"He's right. His work would be much...\"",
+                                                                  "articyId": "0x010000060001A0E9",
+                                                                  "text": "He's right. His work would be much more formal.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 197,
+                                              "title": "You: \"\"I'm not sure I believe you.\"\"",
+                                              "articyId": "0x0100002D000001E3",
+                                              "text": "\"I'm not sure I believe you.\"",
+                                              "links": [
+                                                {
+                                                  "id": 48,
+                                                  "title": "Kim Kitsuragi: \"\"Of course you don't. Look at that!...\"",
+                                                  "articyId": "0x0100002D000001F5",
+                                                  "text": "\"Of course you don't. Look at that! What have we *done?* We stuffed a dead body in an ice bear fridge. This does *not* leave this room.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 53,
+                                              "title": "You: \"\"Yes. We need to celebrate by perfo...\"",
+                                              "articyId": "0x0100000600019D70",
+                                              "text": "\"Yes. We need to celebrate by performing pagan rites. Let's bring out the mead and set it on fire.\"",
+                                              "links": [
+                                                {
+                                                  "id": 178,
+                                                  "title": "Kim Kitsuragi: \"\"I *knew* you would say that! I *kn...\"",
+                                                  "articyId": "0x0100000600019D85",
+                                                  "text": "\"I *knew* you would say that! I *knew* this would lead to drinking...\" He shakes his head vigorously. \"No. No more. This is *paganistic* enough -- and it does *not* leave this room.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 44,
+                                              "title": "You: \"\"Behold! We have created an *ice be...\"",
+                                              "articyId": "0x0100000600019D76",
+                                              "text": "\"Behold! We have created an *ice bear sarcophagus*.\"",
+                                              "links": [
+                                                {
+                                                  "id": 214,
+                                                  "title": "Kim Kitsuragi: \"He nods gravely. \"Talk of the *ice...\"",
+                                                  "articyId": "0x0100000600019D7E",
+                                                  "text": "He nods gravely. \"Talk of the *ice bear sarcophagus* must *not* leave this room.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "title": "You: \"\"Alright, time to freeze the body!\"\"",
+          "articyId": "0x0100000500002261",
+          "text": "\"Alright, time to freeze the body!\"",
+          "links": [
+            {
+              "id": 155,
+              "title": "Kim Kitsuragi: \"\"Hold on...\" The lieutenant inspect...\"",
+              "articyId": "0x010000050000226D",
+              "text": "\"Hold on...\" The lieutenant inspects the dark interior of the refrigerator. \"There's no use if the fridge isn't working. Let's plug it in first and then return here to move the body.\"",
+              "links": []
+            },
+            {
+              "id": 106,
+              "title": "Kim Kitsuragi: \"\"Of course. I'll take the head, you...\"",
+              "articyId": "0x0100000500002272",
+              "text": "\"Of course. I'll take the head, you take the feet...\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 195,
+          "title": "You: \"Take the note from the door.\"",
+          "articyId": "0x0100002B00085EBE",
+          "text": "Take the note from the door.",
+          "links": [
+            {
+              "id": 211,
+              "title": "Ice Bear Fridge: \"You pocket the note -- *and* the li...\"",
+              "articyId": "0x0100005700022405",
+              "text": "You pocket the note -- *and* the little fridge magnets keeping it on the door.",
+              "links": [
+                {
+                  "id": 204,
+                  "title": "Tutorial Agent: \"You've acquired an interactable ite...\"",
+                  "articyId": "0x0100005300025ABC",
+                  "text": "You've acquired an interactable item. Investigate this item further by going to the INTERACT tab in your INVENTORY.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 83,
+          "title": "You: \"Examine one of the ice cream wrappe...\"",
+          "articyId": "0x0100000500001092",
+          "text": "Examine one of the ice cream wrappers in there.",
+          "links": [
+            {
+              "id": 209,
+              "title": "Ice Bear Fridge: \"A friendly cartoon bear smiles back...\"",
+              "articyId": "0x0100000600019DAD",
+              "text": "A friendly cartoon bear smiles back at you from a glossy cellophane wrapper. It looks nothing like the fridge -- or the decomposing body in it.",
+              "links": [
+                {
+                  "id": 118,
+                  "title": "Perception (Smell): \"The paper still smells of vanilla a...\"",
+                  "articyId": "0x0100000600019DB4",
+                  "text": "The paper still smells of vanilla and chocolate. Even under this stench you can feel it.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 186,
+              "title": "Ice Bear Fridge: \"A friendly cartoon bear smiles back...\"",
+              "articyId": "0x0100000500001098",
+              "text": "A friendly cartoon bear smiles back at you from a glossy cellophane wrapper. It looks nothing like the fridge.",
+              "links": [
+                {
+                  "id": 29,
+                  "title": "Perception (Smell): \"The paper still smells of vanilla a...\"",
+                  "articyId": "0x01000005000010A5",
+                  "text": "The paper still smells of vanilla and chocolate.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 183,
+          "title": "You: \"\"What is a giant bear-shaped fridge...\"",
+          "articyId": "0x0100002B00086051",
+          "text": "\"What is a giant bear-shaped fridge doing in an abandoned cellar in the first place?\"",
+          "links": [
+            {
+              "id": 187,
+              "title": "Kim Kitsuragi: \"\"Good question. It looks like an ic...\"",
+              "articyId": "0x01000005000010C1",
+              "text": "\"Good question. It looks like an ice cream fridge.\" The lieutenant reaches for one of the wrappers. He tries to study it in the darkness.",
+              "links": [
+                {
+                  "id": 115,
+                  "title": "Shivers: \"Somewhere in the past it's summer....\"",
+                  "articyId": "0x01000005000010E7",
+                  "text": "Somewhere in the past it's summer. Five-year-old Fifette lets go of her mother's hand, change jingling in her pockets, as she hops towards the ice cream stand right across the plaza.",
+                  "links": [
+                    {
+                      "id": 137,
+                      "title": "You: \"Shake from the sudden cold sensatio...\"",
+                      "articyId": "0x0100000600019DBC",
+                      "text": "Shake from the sudden cold sensation.",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "Shivers: \"As she makes her way to the market...\"",
+                          "articyId": "0x01000005000010F0",
+                          "text": "As she makes her way to the market stall the girl starts crying: a ferocious ice bear is guarding the fridge! Its paws raised to ward off any potential customers.",
+                          "links": [
+                            {
+                              "id": 51,
+                              "title": "Shivers: \"Her mother rushes to soothe her, bu...\"",
+                              "articyId": "0x01000005000010F7",
+                              "text": "Her mother rushes to soothe her, but Fifette doesn't want ice cream anymore, she just wants to go home. The ice bear stares at them as they leave the plaza. A gust of wind flies one of the wrappers right past the sobbing girl...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 213,
+                      "title": "You: \"\"So they tried to sell ice cream fr...\"",
+                      "articyId": "0x0100000500001125",
+                      "text": "\"So they tried to sell ice cream from this hypercarnivore?\"",
+                      "links": [
+                        {
+                          "id": 57,
+                          "title": "Kim Kitsuragi: \"\"I know,\" says the lieutenant, \"wha...\"",
+                          "articyId": "0x010000050000112C",
+                          "text": "\"I know,\" says the lieutenant, \"what an unfortunate marketing choice.\"",
+                          "links": [
+                            {
+                              "id": 191,
+                              "title": "Kim Kitsuragi: \"\"At least it's not running them a l...\"",
+                              "articyId": "0x0100007800009A55",
+                              "text": "\"At least it's not running them a loss anymore, now that you've un-plugged the cable.\" He points at the red snaky cable running from the fridge.",
+                              "links": [
+                                {
+                                  "id": 119,
+                                  "title": "Kim Kitsuragi: \"\"The electricity bill must be *cata...\"",
+                                  "articyId": "0x0100000600019DDD",
+                                  "text": "\"The electricity bill must be *catastrophic*. On the other hand, it did help us with a certain corpse situation...\"",
+                                  "links": [
+                                    {
+                                      "id": 138,
+                                      "title": "Esprit de Corps: \"... lucky us.\"",
+                                      "articyId": "0x010000060001A104",
+                                      "text": "... lucky us.",
+                                      "links": [
+                                        {
+                                          "id": 179,
+                                          "title": "Interfacing: \"Indeed. Refrigerated meat is much b...\"",
+                                          "articyId": "0x010000060001A10B",
+                                          "text": "Indeed. Refrigerated meat is much better for coroner's work.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 200,
+                                  "title": "Ice Bear Fridge: \"The fridge sits empty before you, a...\"",
+                                  "articyId": "0x0100002F000134EC",
+                                  "text": "The fridge sits empty before you, an overindulgent wardrobe now that the cooling systems aren't active.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 81,
+                                  "title": "Ice Bear Fridge: \"The fridge buzzes with energy. The...\"",
+                                  "articyId": "0x0100000600019DCA",
+                                  "text": "The fridge buzzes with energy. The electricity bill on this thing must be *catastrophic*.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 64,
+                              "title": "Kim Kitsuragi: \"\"What is even worse -- the bear is...\"",
+                              "articyId": "0x0100002B00086175",
+                              "text": "\"What is even worse -- the bear is still costing them money, to this day...\" The lieutenant points at the red snaky cable running from the fridge.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 84,
+              "title": "Kim Kitsuragi: \"\"Good question. It looks like an ic...\"",
+              "articyId": "0x01000005000010B3",
+              "text": "\"Good question. It looks like an ice cream fridge.\" The lieutenant reaches for one of the wrappers. He studies it in the light.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "title": "You: \"Close the door. [Leave.]\"",
+          "articyId": "0x0100002B00085EC4",
+          "text": "Close the door. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "title": "Ice Bear Fridge: \"The bear's eyes are dead and empty,...\"",
+      "articyId": "0x010000570000B49A",
+      "text": "The bear's eyes are dead and empty, ice inside the fridge slowly melting... The power has been cut off.",
+      "links": []
+    },
+    {
+      "id": 166,
+      "title": "Ice Bear Fridge: \"The bear's eyes are still glowing r...\"",
+      "articyId": "0x0100000500001176",
+      "text": "The bear's eyes are still glowing red -- it's guarding over the freezing corpse hidden inside its belly.",
+      "links": []
+    },
+    {
+      "id": 105,
+      "title": "Ice Bear Fridge: \"The bear's eyes are still glowing r...\"",
+      "articyId": "0x010000570000B4A0",
+      "text": "The bear's eyes are still glowing red, watching over all the ice cream wrappers hidden inside its belly.",
+      "links": []
+    },
+    {
+      "id": 205,
+      "title": "Ice Bear Fridge: \"You see the looming shadow of an ic...\"",
+      "articyId": "0x010000570000B448",
+      "text": "You see the looming shadow of an ice bear with a strange compartment in its belly. The door is slightly open...",
+      "links": [
+        {
+          "id": 65,
+          "title": "Half Light: \"Its eyes are dead, but it's still t...\"",
+          "articyId": "0x010000570000B44E",
+          "text": "Its eyes are dead, but it's still terrifying... Run before it wakes up!",
+          "links": [
+            {
+              "id": 50,
+              "title": "Visual Calculus: \"The bear looks oddly realistic. Is...\"",
+              "articyId": "0x0100000500001089",
+              "text": "The bear looks oddly realistic. Is it taxidermy?",
+              "links": [
+                {
+                  "id": 196,
+                  "title": "Reaction Speed: \"This must be the fridge you were to...\"",
+                  "articyId": "0x0100002D000001C6",
+                  "text": "This must be the fridge you were told about. Look inside, see if it's big enough for the corpse.",
+                  "links": [
+                    {
+                      "id": 63,
+                      "title": "You: \"\"What *is* this thing? It looks lik...\"",
+                      "articyId": "0x0100002B00085E6B",
+                      "text": "\"What *is* this thing? It looks like a giant ice bear...\"",
+                      "links": [
+                        {
+                          "id": 49,
+                          "title": "Kim Kitsuragi: \"The lieutenant doesn't answer, his...\"",
+                          "articyId": "0x010000570000B471",
+                          "text": "The lieutenant doesn't answer, his eyes glued to the animal. It's dark inside its mysterious belly-compartment...",
+                          "links": []
+                        },
+                        {
+                          "id": 190,
+                          "title": "Ice Bear Fridge: \"Your words echo in the empty chambe...\"",
+                          "articyId": "0x010000570000B477",
+                          "text": "Your words echo in the empty chamber, ringing against the wet floor tiles... It's dark inside the bear's mysterious belly-compartment...",
+                          "links": []
+                        },
+                        {
+                          "id": 125,
+                          "title": "Kim Kitsuragi: \"The lieutenant doesn't answer. His...\"",
+                          "articyId": "0x0100002B00085E8F",
+                          "text": "The lieutenant doesn't answer. His eyes are glued to the animal. A sharp slice of light shines out from its mysterious belly-door...",
+                          "links": []
+                        },
+                        {
+                          "id": 101,
+                          "title": "Ice Bear Fridge: \"Your words echo in the empty chambe...\"",
+                          "articyId": "0x0100002B00085E96",
+                          "text": "Your words echo in the empty chamber, ringing against the wet floor tiles. The bear keeps staring. A sharp slice of light shines out from its mysterious belly-door.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 160,
+                      "title": "You: \"Crack open the door...\"",
+                      "articyId": "0x0100002B00085E58",
+                      "text": "Crack open the door...",
+                      "links": [
+                        {
+                          "id": 69,
+                          "title": "Ice Bear Fridge: \"A faint waft of cool air rolls out....\"",
+                          "articyId": "0x010000570000B48B",
+                          "text": "A faint waft of cool air rolls out. You hear the sound of dripping water. This is the inside of a defrosting refrigerator.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 100,
+                      "title": "You: \"Back off. [Leave.]\"",
+                      "articyId": "0x0100002B00085E5E",
+                      "text": "Back off. [Leave.]",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 33,
+                  "title": "Reaction Speed: \"This must be the giant ice bear fri...\"",
+                  "articyId": "0x0100001F00000508",
+                  "text": "This must be the giant ice bear fridge that Soona mentioned. Look inside.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Ice Bear Fridge: \"You see a terrifying ice bear with...\"",
+      "articyId": "0x0100002B00085E52",
+      "text": "You see a terrifying ice bear with a strange compartment in its belly. The door is covered in frost and the bear's eyes are glowing red.",
+      "links": [
+        {
+          "id": 45,
+          "title": "Half Light: \"This ice bear is a hypercarnivore....\"",
+          "articyId": "0x0100002B00085E65",
+          "text": "This ice bear is a hypercarnivore. Be careful.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

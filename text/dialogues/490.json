@@ -1,0 +1,52 @@
+{
+  "id": "0x0100007100005700",
+  "title": "COAST ORB / reeds with buoy",
+  "description": "Visual Calculus notes that this is a good place to hide things.",
+  "dialogueTree": [
+    {
+      "id": 8,
+      "title": "Inland Empire: \"That patch of reeds over there -- i...\"",
+      "articyId": "0x0100007100005710",
+      "text": "That patch of reeds over there -- it's a great place to hide something. Kind of out of the way, being so close to the water.",
+      "links": [
+        {
+          "id": 7,
+          "title": "You: \"Wait, I can't see anything interest...\"",
+          "articyId": "0x010000710000571D",
+          "text": "Wait, I can't see anything interesting...",
+          "links": [
+            {
+              "id": 4,
+              "title": "Inland Empire: \"You don't have a reason to -- yet.\"",
+              "articyId": "0x0100007100005723",
+              "text": "You don't have a reason to -- yet.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"What is this about?\"",
+          "articyId": "0x010000710000572A",
+          "text": "What is this about?",
+          "links": [
+            {
+              "id": 9,
+              "title": "Inland Empire: \"Nothing. Just a hunch. The hunch pa...\"",
+              "articyId": "0x0100007100005739",
+              "text": "Nothing. Just a hunch. The hunch passes, leaving you there, by the old buoy bobbing in the water. Time to go.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "You: \"[Discard thought.]\"",
+          "articyId": "0x0100007100005730",
+          "text": "[Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

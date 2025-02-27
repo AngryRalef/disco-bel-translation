@@ -1,0 +1,206 @@
+{
+  "id": "0x010000070001A93D",
+  "title": "PLAZA ORB / neither man clicked",
+  "description": "An orb to appear on the fifth day (or after triubnal) and address the disappearance of the pétanquista, if the player hasn't talked to either of them.",
+  "dialogueTree": [
+    {
+      "id": 15,
+      "title": "Inland Empire: \"Awful lonely here. No ruckus. No ol...\"",
+      "articyId": "0x010000070001A981",
+      "text": "Awful lonely here. No ruckus. No old men playing their little ball game.",
+      "links": [
+        {
+          "id": 36,
+          "title": "You: \"Yeah, where did the old guys go?\"",
+          "articyId": "0x010000070001A988",
+          "text": "Yeah, where did the old guys go?",
+          "links": [
+            {
+              "id": 24,
+              "title": "Kim Kitsuragi: \"\"You mean the guys who were playing...\"",
+              "articyId": "0x010000070001A99F",
+              "text": "\"You mean the guys who were playing pétanque?\"",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "You: \"\"Yeah, where did they go?\"\"",
+                  "articyId": "0x010000070001A9AD",
+                  "text": "\"Yeah, where did they go?\"",
+                  "links": [
+                    {
+                      "id": 30,
+                      "title": "Kim Kitsuragi: \"\"Have you noticed people sometimes...\"",
+                      "articyId": "0x010000070001A9BB",
+                      "text": "\"Have you noticed people sometimes appear and disappear in places? It's called *doing things*.\"",
+                      "links": [
+                        {
+                          "id": 6,
+                          "title": "You: \"\"Wait, maybe they died during the m...\"",
+                          "articyId": "0x010000070001AA73",
+                          "text": "\"Wait, maybe they died during the mercenary tribunal?\"",
+                          "links": [
+                            {
+                              "id": 20,
+                              "title": "Kim Kitsuragi: \"\"They didn't,\" the lieutenant calms...\"",
+                              "articyId": "0x010000070001AA91",
+                              "text": "\"They didn't,\" the lieutenant calms you. \"Trust me. I saw the bodies.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 32,
+                              "title": "Inland Empire: \"It's very unlikely. Everyone scatte...\"",
+                              "articyId": "0x010000070001AA8B",
+                              "text": "It's very unlikely. Everyone scattered once the tribunal started. They're probably fine.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 11,
+                          "title": "You: \"\"Damn, I missed asking these guys a...\"",
+                          "articyId": "0x010000070001ACDA",
+                          "text": "\"Damn, I missed asking these guys about the dried May bells.\"",
+                          "links": [
+                            {
+                              "id": 22,
+                              "title": "Kim Kitsuragi: \"\"Don't beat yourself up about it. I...\"",
+                              "articyId": "0x010000070001ACE7",
+                              "text": "\"Don't beat yourself up about it. I think I gave you a pretty exhaustive answer about those flowers and what they mean.\"",
+                              "links": [
+                                {
+                                  "id": 23,
+                                  "title": "Physical Instrument: \"Enough with the goddamn flowers alr...\"",
+                                  "articyId": "0x010000070001AD9F",
+                                  "text": "Enough with the goddamn flowers already! Are you a cop or a florist?",
+                                  "links": [
+                                    {
+                                      "id": 18,
+                                      "title": "Logic: \"It was probably nothing anyway. Jus...\"",
+                                      "articyId": "0x010000070001ADA6",
+                                      "text": "It was probably nothing anyway. Just a little thought you had.",
+                                      "links": [
+                                        {
+                                          "id": 16,
+                                          "title": "Inland Empire: \"*Still* you can't shake the feeling...\"",
+                                          "articyId": "0x010000070001ADAD",
+                                          "text": "*Still* you can't shake the feeling that somehow these may bell do actually matter. If only a little bit.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "title": "Inland Empire: \"No need to beat yourself down over...\"",
+                              "articyId": "0x010000070001ACE1",
+                              "text": "No need to beat yourself down over it. It probably wasn't the definitive piece of the puzzle. Still, somehow it feels like May bells matter somehow.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "title": "You: \"\"But what if I wanted to talk to th...\"",
+                          "articyId": "0x010000070001AA79",
+                          "text": "\"But what if I wanted to talk to them?\"",
+                          "links": [
+                            {
+                              "id": 43,
+                              "title": "Kim Kitsuragi: \"\"You'll get them next time,\" the li...\"",
+                              "articyId": "0x010000070001AAA1",
+                              "text": "\"You'll get them next time,\" the lieutenant replies, looking at the empty crater.",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Kim Kitsuragi: \"\"And, I mean... it would be one twi...\"",
+                                  "articyId": "0x010000070001AAB5",
+                                  "text": "\"And, I mean... it would be one twist too many if it turned out these two old men were our killers. That's just unlikely. No...\" He seems pleased with himself. \"We would only have wasted our time here.\"",
+                                  "links": [
+                                    {
+                                      "id": 14,
+                                      "title": "Empathy: \"The lieutenant is thinking of all t...\"",
+                                      "articyId": "0x010000070001AEDA",
+                                      "text": "The lieutenant is thinking of all the time you've spared. He likes it.",
+                                      "links": [
+                                        {
+                                          "id": 21,
+                                          "title": "Logic: \"He's probably right.\"",
+                                          "articyId": "0x010000070001AADC",
+                                          "text": "He's probably right.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 44,
+                              "title": "Inland Empire: \"You'll get them next time. But let'...\"",
+                              "articyId": "0x010000070001AAA7",
+                              "text": "You'll get them next time. But let's be honest, they weren't even in the suspects list.",
+                              "links": [
+                                {
+                                  "id": 45,
+                                  "title": "Inland Empire: \"You would have wasted *so* much tim...\"",
+                                  "articyId": "0x010000070001AAC5",
+                                  "text": "You would have wasted *so* much time talking to these two pensioners. Precious case-time.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 41,
+                          "title": "You: \"\"Right. Let's move.\" [Leave.]\"",
+                          "articyId": "0x010000070001AA7F",
+                          "text": "\"Right. Let's move.\" [Leave.]",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title": "Inland Empire: \"The pétanque players?\"",
+              "articyId": "0x010000070001A9A6",
+              "text": "The pétanque players?",
+              "links": [
+                {
+                  "id": 19,
+                  "title": "You: \"Yeah, where did they go?\"",
+                  "articyId": "0x010000070001A9B4",
+                  "text": "Yeah, where did they go?",
+                  "links": [
+                    {
+                      "id": 25,
+                      "title": "Inland Empire: \"Home? To work? To get something fro...\"",
+                      "articyId": "0x010000070001A9C8",
+                      "text": "Home? To work? To get something from somewhere? Who knows what people are doing when we're not looking.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "title": "You: \"That's just how craters are. [Disca...\"",
+          "articyId": "0x010000070001A98E",
+          "text": "That's just how craters are. [Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

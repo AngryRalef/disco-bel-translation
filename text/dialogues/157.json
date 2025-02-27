@@ -1,0 +1,143 @@
+{
+  "id": "0x0100002F0000DE40",
+  "title": "VILLAGE / SHACK DOOR",
+  "description": "The shack door dialogue, if you have gained access to the shack where you can sleep. It's locked until you get it from the Washerwoman.",
+  "dialogueTree": [
+    {
+      "id": 23,
+      "title": "Kim Kitsuragi: \"\"I'm afraid we don't have time for...\"",
+      "articyId": "0x0100001600009CFD",
+      "text": "\"I'm afraid we don't have time for rest stops right now, officer. We should really get back to the Whirling.\"",
+      "links": [
+        {
+          "id": 27,
+          "title": "You: \"\"Right.\" [Leave.]\"",
+          "articyId": "0x0100001600009D03",
+          "text": "\"Right.\" [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Shack Door: \"It's getting cold this late in the...\"",
+      "articyId": "0x01000021000022FF",
+      "text": "It's getting cold this late in the night. Time to call it a day.",
+      "links": [
+        {
+          "id": 16,
+          "title": "You: \"\"Good night, Kim.\" (Send him away f...\"",
+          "articyId": "0x0100002100002305",
+          "text": "\"Good night, Kim.\" (Send him away for the night.)",
+          "links": [
+            {
+              "id": 21,
+              "title": "Kim Kitsuragi: \"\"Good night, officer. We'll meet in...\"",
+              "articyId": "0x010000210000231D",
+              "text": "\"Good night, officer. We'll meet in front of the shack in the morning.\"",
+              "links": [
+                {
+                  "id": 28,
+                  "title": "You: \"Enter the shack.\"",
+                  "articyId": "0x0100002100002371",
+                  "text": "Enter the shack.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "title": "You: \"Enter the shack.\"",
+          "articyId": "0x010000210000233B",
+          "text": "Enter the shack.",
+          "links": [
+            {
+              "id": 24,
+              "title": "Shack Door: \"...\"",
+              "articyId": "0x0100002100002343",
+              "text": "...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "You: \"Not yet. [Leave.]\"",
+          "articyId": "0x010000210000230B",
+          "text": "Not yet. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Shack Door: \"The door has seen better days -- th...\"",
+      "articyId": "0x0100002F0000DE65",
+      "text": "The door has seen better days -- the layer of paint has started to peel off due to the salt and wind from the sea. Even the lock looks slightly rusted.",
+      "links": [
+        {
+          "id": 22,
+          "title": "You: \"Unlock the shack door with the key.\"",
+          "articyId": "0x0100002F0000DE6B",
+          "text": "Unlock the shack door with the key.",
+          "links": [
+            {
+              "id": 11,
+              "title": "Kim Kitsuragi: \"\"I'll be sleeping in my room in the...\"",
+              "articyId": "0x0100002F0000DE8D",
+              "text": "\"I'll be sleeping in my room in the Whirling. We'll meet in front of the shack in the morning.\"",
+              "links": [
+                {
+                  "id": 32,
+                  "title": "You: \"\"I'll sleep here then. See you in t...\"",
+                  "articyId": "0x0100000600014C15",
+                  "text": "\"I'll sleep here then. See you in the morning.\" (Keep turning the key.)",
+                  "links": [
+                    {
+                      "id": 25,
+                      "title": "Kim Kitsuragi: \"\"Good night.\" He smiles: \"And try n...\"",
+                      "articyId": "0x0100000600014C1C",
+                      "text": "\"Good night.\" He smiles: \"And try not to break the case without me.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "title": "Kim Kitsuragi: \"\"I'll wait outside to give you some...\"",
+              "articyId": "0x0100002100000AB8",
+              "text": "\"I'll wait outside to give you some time and privacy to check out your new living arrangement. But just so you know...\"",
+              "links": [
+                {
+                  "id": 10,
+                  "title": "Kim Kitsuragi: \"\"After we're done with the day, I'l...\"",
+                  "articyId": "0x0100002100001273",
+                  "text": "\"After we're done with the day, I'll still be staying in the Whirling-in-Rags for the night. We'll meet in front of the shack in the morning.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 37,
+              "title": "Shack Door: \"The key turns with a satisfying cli...\"",
+              "articyId": "0x0100002F0000DE81",
+              "text": "The key turns with a satisfying click. You can enter the shack now.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "title": "You: \"Never mind. [Leave.]\"",
+          "articyId": "0x0100002F0000DE71",
+          "text": "Never mind. [Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

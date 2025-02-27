@@ -1,0 +1,152 @@
+{
+  "id": "0x0100007100000538",
+  "title": "THOUGHT / SUICIDE COP",
+  "description": "For when the thought is FIXED. Logic tries to get you to kill yourself if you have a gun and bullets, and tells you you're stupid if you don't.",
+  "dialogueTree": [
+    {
+      "id": 14,
+      "title": "Pain Threshold: \"Sounds like you're a potential Suic...\"",
+      "articyId": "0x01000071000006DA",
+      "text": "Sounds like you're a potential Suicide Cop! With his finger on the *eject* button. Ready to let go of this life! Guess what?",
+      "links": [
+        {
+          "id": 24,
+          "title": "You: \"What's that?\"",
+          "articyId": "0x0100009400000C40",
+          "text": "What's that?",
+          "links": [
+            {
+              "id": 23,
+              "title": "Pain Threshold: \"One bullet should do the trick. You...\"",
+              "articyId": "0x0100009400000C46",
+              "text": "One bullet should do the trick. You have the gun... and you have the bullet.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Pain Threshold: \"Sounds like you're the Suicide Cop!...\"",
+      "articyId": "0x01000071000006E0",
+      "text": "Sounds like you're the Suicide Cop! With his finger on the *eject* button. Ready to let go of this life! But guess what?",
+      "links": [
+        {
+          "id": 16,
+          "title": "Pain Threshold: \"You idiot! You don't have any bulle...\"",
+          "articyId": "0x01000071000008B2",
+          "text": "You idiot! You don't have any bullets!",
+          "links": [
+            {
+              "id": 12,
+              "title": "Composure: \"You've made such a big show out of...\"",
+              "articyId": "0x010000710000097E",
+              "text": "You've made such a big show out of it too. You feel like everyone basically *expects* you to do it now.",
+              "links": [
+                {
+                  "id": 28,
+                  "title": "Volition: \"What is this? You're not ready to d...\"",
+                  "articyId": "0x010000060001998D",
+                  "text": "What is this? You're not ready to die, this is garbage.",
+                  "links": [
+                    {
+                      "id": 29,
+                      "title": "Authority: \"It *would* be the honourable thing...\"",
+                      "articyId": "0x0100000600019994",
+                      "text": "It *would* be the honourable thing to do. It would really show them. Show her too.",
+                      "links": [
+                        {
+                          "id": 31,
+                          "title": "You: \"What a pity. Because that's totally...\"",
+                          "articyId": "0x010000710000094A",
+                          "text": "What a pity. Because that's totally *me*. Suicide Cop.",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Pain Threshold: \"Oh yes. It would be so sweet to tas...\"",
+                              "articyId": "0x0100007100000950",
+                              "text": "Oh yes. It would be so sweet to taste the barrel once more. That sour metal...  maybe there *is* a way? Not yet. But stick with it -- keep going dark, and it'll finally *click*.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 21,
+                          "title": "You: \"Suicide Cop *does* have a ring to i...\"",
+                          "articyId": "0x01000006000199B8",
+                          "text": "Suicide Cop *does* have a ring to it. I should think about it -- but only a little.",
+                          "links": []
+                        },
+                        {
+                          "id": 2,
+                          "title": "You: \"Hmm... maybe I should. Yes. (Look a...\"",
+                          "articyId": "0x01000006000199A9",
+                          "text": "Hmm... maybe I should. Yes. (Look at the gun and start thinking about it.)",
+                          "links": [
+                            {
+                              "id": 15,
+                              "title": "Pain Threshold: \"Oh yes. It would be so sweet to tas...\"",
+                              "articyId": "0x01000006000199B1",
+                              "text": "Oh yes. It would be so sweet to taste the barrel once more. That sour metal...  Oh, but not yet. But stick with it -- keep going dark, and it'll finally *click*.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "title": "You: \"No. It's a sign that I want to live...\"",
+                          "articyId": "0x01000071000008BF",
+                          "text": "No. It's a sign that I want to live. (Refuse.)",
+                          "links": [
+                            {
+                              "id": 20,
+                              "title": "Pain Threshold: \"Fine. Keep up the charade another d...\"",
+                              "articyId": "0x0100007100000964",
+                              "text": "Fine. Keep up the charade another day. This could have been so liberating, but you cling to the case, to your partner, to the world... it's pitiful.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pain Threshold: \"Sounds like you're the Suicide Cop!...\"",
+      "articyId": "0x01000071000006E6",
+      "text": "Sounds like you're the Suicide Cop! With his finger on the *eject* button. Ready to let go of this life! But guess what?",
+      "links": [
+        {
+          "id": 11,
+          "title": "Pain Threshold: \"You idiot! You've got the bullet, b...\"",
+          "articyId": "0x01000071000008D8",
+          "text": "You idiot! You've got the bullet, but no gun!",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Pain Threshold: \"Sounds like you're the Suicide Cop!...\"",
+      "articyId": "0x01000071000006EC",
+      "text": "Sounds like you're the Suicide Cop! With his finger on the *eject* button. Ready to let go of this life! But guess what?",
+      "links": [
+        {
+          "id": 6,
+          "title": "Pain Threshold: \"You idiot! You don't have a gun or...\"",
+          "articyId": "0x01000071000008DF",
+          "text": "You idiot! You don't have a gun or any bullets!",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

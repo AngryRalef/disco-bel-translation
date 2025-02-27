@@ -1,0 +1,641 @@
+{
+  "id": "0x0100002B00081E52",
+  "title": "DOOMED / CENTRAL FURNACE",
+  "description": "This is an industrial oven on the first floor of Doomed. You can interact with it and contact Dicemaker.",
+  "dialogueTree": [
+    {
+      "id": 2,
+      "title": "Central Furnace: \"A thick layer of coal dust covers t...\"",
+      "articyId": "0x010000210000176E",
+      "text": "A thick layer of coal dust covers the furnace, colouring it pitch-black.",
+      "links": [
+        {
+          "id": 142,
+          "title": "You: \"\"Kim, what is this thing? Is it a f...\"",
+          "articyId": "0x0100002B00081E6D",
+          "text": "\"Kim, what is this thing? Is it a furnace?!\"",
+          "links": [
+            {
+              "id": 71,
+              "title": "Kim Kitsuragi: \"\"Looks like it. Looks like an old c...\"",
+              "articyId": "0x0100002B00081EE7",
+              "text": "\"Looks like it. Looks like an old central furnace used to heat the building. It's connected to the chimney...\" He opens the door and gingerly peeks inside.",
+              "links": [
+                {
+                  "id": 113,
+                  "title": "Kim Kitsuragi: \"\"No one has used it in ages... No s...\"",
+                  "articyId": "0x0100009200000C3E",
+                  "text": "\"No one has used it in ages... No signs of any recent fire, only dead rats.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "title": "You: \"Look inside the furnace.\"",
+          "articyId": "0x0100002B00081E73",
+          "text": "Look inside the furnace.",
+          "links": [
+            {
+              "id": 82,
+              "title": "Central Furnace: \"It's dark and grimy here. In the da...\"",
+              "articyId": "0x0100009200000DC8",
+              "text": "It's dark and grimy here. In the darkness, you can hear *chatter*. It's coming from above. A voice -- or several voices -- talking to each other, near the smoke chamber upstairs.",
+              "links": [
+                {
+                  "id": 102,
+                  "title": "Perception (Hearing): \"The echo is so prominent, it's impo...\"",
+                  "articyId": "0x010000060001A447",
+                  "text": "The echo is so prominent, it's impossible to discern what the voices are saying. Or what's producing them.",
+                  "links": [
+                    {
+                      "id": 21,
+                      "title": "Kim Kitsuragi: \"\"What are you doing?\" the lieutenan...\"",
+                      "articyId": "0x0100009200000DD5",
+                      "text": "\"What are you doing?\" the lieutenant asks when he sees you climb half-way inside the furnace.",
+                      "links": [
+                        {
+                          "id": 126,
+                          "title": "You: \"\"I'm hallucinating.\"\"",
+                          "articyId": "0x0100009200000DE2",
+                          "text": "\"I'm hallucinating.\"",
+                          "links": [
+                            {
+                              "id": 68,
+                              "title": "Kim Kitsuragi: \"\"Wait, really?\" The lieutenant soun...\"",
+                              "articyId": "0x0100009200000E0D",
+                              "text": "\"Wait, really?\" The lieutenant sounds concerned. \"Take your head out of the chimney, please. It's not safe.\"",
+                              "links": [
+                                {
+                                  "id": 99,
+                                  "title": "Esprit de Corps: \"It feels safe to know that the lieu...\"",
+                                  "articyId": "0x0100009200000E30",
+                                  "text": "It feels safe to know that the lieutenant's got your back, now and always.",
+                                  "links": [
+                                    {
+                                      "id": 69,
+                                      "title": "Volition: \"This sounded real, not imagined.\"",
+                                      "articyId": "0x010000060001A43F",
+                                      "text": "This sounded real, not imagined.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 132,
+                          "title": "You: \"\"I hear the murderer of the hanged...\"",
+                          "articyId": "0x0100009200000DE8",
+                          "text": "\"I hear the murderer of the hanged man talking.\"",
+                          "links": [
+                            {
+                              "id": 52,
+                              "title": "Kim Kitsuragi: \"\"Wait, really?\" He looks up at the...\"",
+                              "articyId": "0x0100009200000DFE",
+                              "text": "\"Wait, really?\" He looks up at the ceiling. \"Maybe it's coming from behind those safety curtains we saw upstairs?\"",
+                              "links": [
+                                {
+                                  "id": 34,
+                                  "title": "Kim Kitsuragi: \"\"We should ask the lady in the book...\"",
+                                  "articyId": "0x010000210000269F",
+                                  "text": "\"We should ask the lady in the bookstore what's going on with these curtains.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 53,
+                              "title": "Kim Kitsuragi: \"\"Wait, really?\" He looks up at the...\"",
+                              "articyId": "0x0100009200000E3A",
+                              "text": "\"Wait, really?\" He looks up at the ceiling. \"We should investigate, see if someone's upstairs.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 13,
+                          "title": "You: \"\"I'm not sure, Kim... but I think I...\"",
+                          "articyId": "0x0100009200000DF7",
+                          "text": "\"I'm not sure, Kim... but I think I can hear someone talking upstairs.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 61,
+                      "title": "You: \"What's happening?!\"",
+                      "articyId": "0x0100009200000EE2",
+                      "text": "What's happening?!",
+                      "links": [
+                        {
+                          "id": 78,
+                          "title": "Central Furnace: \"Maybe it's coming from behind those...\"",
+                          "articyId": "0x0100009200000F03",
+                          "text": "Maybe it's coming from behind those safety curtains you saw upstairs? You should investigate...",
+                          "links": [
+                            {
+                              "id": 14,
+                              "title": "Electrochemistry: \"Or maybe you're just hungover again...\"",
+                              "articyId": "0x0100009200000F24",
+                              "text": "Or maybe you're just hungover again.",
+                              "links": [
+                                {
+                                  "id": 22,
+                                  "title": "Endurance: \"Could it be psychological? Because...\"",
+                                  "articyId": "0x0100009200000F18",
+                                  "text": "Could it be psychological? Because your physical health is fine.",
+                                  "links": [
+                                    {
+                                      "id": 133,
+                                      "title": "Volition: \"This sounded real, not imagined.\"",
+                                      "articyId": "0x0100009200000F1E",
+                                      "text": "This sounded real, not imagined.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 101,
+                          "title": "Central Furnace: \"Maybe it's coming from somewhere up...\"",
+                          "articyId": "0x0100009200000F0D",
+                          "text": "Maybe it's coming from somewhere upstairs? You should investigate...",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 62,
+                      "title": "You: \"I'm hallucinating...\"",
+                      "articyId": "0x0100009200000EE8",
+                      "text": "I'm hallucinating...",
+                      "links": []
+                    },
+                    {
+                      "id": 138,
+                      "title": "You: \"I hear the murderer of the hanged m...\"",
+                      "articyId": "0x0100009200000EEE",
+                      "text": "I hear the murderer of the hanged man talking.",
+                      "links": []
+                    },
+                    {
+                      "id": 43,
+                      "title": "You: \"I'm getting carbon monoxide poisoni...\"",
+                      "articyId": "0x0100009200000EF7",
+                      "text": "I'm getting carbon monoxide poisoning.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "You: \"Smear your hands with coal.\"",
+          "articyId": "0x0100002B00081E99",
+          "text": "Smear your hands with coal.",
+          "links": [
+            {
+              "id": 152,
+              "title": "Central Furnace: \"A lush layer of coal now covers you...\"",
+              "articyId": "0x0100002B00081EA0",
+              "text": "A lush layer of coal now covers your skin, sinking into the wrinkles. Your hands look ancient.",
+              "links": [
+                {
+                  "id": 130,
+                  "title": "Inland Empire: \"You feel the spirit of Ramout Karza...\"",
+                  "articyId": "0x0100002B00081EAC",
+                  "text": "You feel the spirit of Ramout Karzai, ancient hero of Graad, pulsing through you. All that's left is to cover your face in war-paint.",
+                  "links": [
+                    {
+                      "id": 70,
+                      "title": "You: \"Hadramut Karzai! Smear your cheeks...\"",
+                      "articyId": "0x0100002B00081EC5",
+                      "text": "Hadramut Karzai! Smear your cheeks black with coal.",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Inland Empire: \"Three dangerous stripes appear onto...\"",
+                          "articyId": "0x0100002B00081ED3",
+                          "text": "Three dangerous stripes appear onto your cheeks, telling stories of your wild soul.",
+                          "links": [
+                            {
+                              "id": 112,
+                              "title": "Kim Kitsuragi: \"\"What... what are you doing?\"\"",
+                              "articyId": "0x0100002B00081F5A",
+                              "text": "\"What... what are you doing?\"",
+                              "links": [
+                                {
+                                  "id": 97,
+                                  "title": "You: \"\"I am the reincarnation of an ancie...\"",
+                                  "articyId": "0x0100002B00081FA4",
+                                  "text": "\"I am the reincarnation of an ancient Iilmaraan warrior.\"",
+                                  "links": [
+                                    {
+                                      "id": 17,
+                                      "title": "Kim Kitsuragi: \"\"Please wipe your face clean, offic...\"",
+                                      "articyId": "0x0100002B00081FC3",
+                                      "text": "\"Please wipe your face clean, officer.\"",
+                                      "links": [
+                                        {
+                                          "id": 117,
+                                          "title": "Conceptualization: \"No, you're a proud warrior, keep it...\"",
+                                          "articyId": "0x0100002B00081FCA",
+                                          "text": "No, you're a proud warrior, keep it.",
+                                          "links": [
+                                            {
+                                              "id": 154,
+                                              "title": "You: \"Don't wipe it.\"",
+                                              "articyId": "0x0100005700000234",
+                                              "text": "Don't wipe it.",
+                                              "links": [
+                                                {
+                                                  "id": 73,
+                                                  "title": "Authority: \"These three stripes give you streng...\"",
+                                                  "articyId": "0x0100005700003D09",
+                                                  "text": "These three stripes give you strength in this dangerous realm. It would be foolish to remove them.",
+                                                  "links": [
+                                                    {
+                                                      "id": 90,
+                                                      "title": "You: \"\"We're exploring this dark place an...\"",
+                                                      "articyId": "0x0100005700003D19",
+                                                      "text": "\"We're exploring this dark place and I need the protection my war-paint affords.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 9,
+                                                          "title": "Kim Kitsuragi: \"\"And *this* protects you?\"\"",
+                                                          "articyId": "0x0100005700003D23",
+                                                          "text": "\"And *this* protects you?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 91,
+                                                              "title": "You: \"\"*This* is traditional war-paint. I...\"",
+                                                              "articyId": "0x0100005700003D4C",
+                                                              "text": "\"*This* is traditional war-paint. It will grant me safe passage with the spirits that guard this place.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 147,
+                                                                  "title": "Kim Kitsuragi: \"\"Okay, sure. Go ahead.\" He stubborn...\"",
+                                                                  "articyId": "0x0100005700003D38",
+                                                                  "text": "\"Okay, sure. Go ahead.\" He stubbornly looks away from you and the furnace.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 80,
+                                                                      "title": "Encyclopedia: \"Just pointing out -- this is *not*...\"",
+                                                                      "articyId": "0x0100005700003D54",
+                                                                      "text": "Just pointing out -- this is *not* traditional Semenese war-paint. No idea where you got it.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 38,
+                                                              "title": "You: \"\"It gives me confidence and that's...\"",
+                                                              "articyId": "0x0100005700003D30",
+                                                              "text": "\"It gives me confidence and that's all that matters, Kim.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 26,
+                                                  "title": "Authority: \"You can feel your cheeks turn red u...\"",
+                                                  "articyId": "0x0100005700003D0F",
+                                                  "text": "You can feel your cheeks turn red under the lieutenant's gaze -- you look like a kid, not a police officer. Even the war-paint can't conceal the embarrassment.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "title": "You: \"Wipe it clean.\"",
+                                              "articyId": "0x0100002B00081FD0",
+                                              "text": "Wipe it clean.",
+                                              "links": [
+                                                {
+                                                  "id": 23,
+                                                  "title": "Kim Kitsuragi: \"\"Thank you,\" the lieutenant nods. \"...\"",
+                                                  "articyId": "0x0100002B00081FD7",
+                                                  "text": "\"Thank you,\" the lieutenant nods. \"So, where were we?\" He turns back to the furnace.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 153,
+                                  "title": "You: \"\"Nothing!\" (Wipe your face clean.)...\"",
+                                  "articyId": "0x0100002B00081FAB",
+                                  "text": "\"Nothing!\" (Wipe your face clean.) \"Sorry, that was stupid.\"",
+                                  "links": [
+                                    {
+                                      "id": 86,
+                                      "title": "Kim Kitsuragi: \"\"Yes. Yes, it was,\" the lieutenant...\"",
+                                      "articyId": "0x0100002B00081FB2",
+                                      "text": "\"Yes. Yes, it was,\" the lieutenant nods, before turning back to the furnace.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 135,
+                              "title": "Authority: \"What a proud warrior! This is how t...\"",
+                              "articyId": "0x0100005700003D5C",
+                              "text": "What a proud warrior! This is how the hunted becomes the hunter in this dark dangerous place.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "title": "You: \"No, let's not express ourselves. Le...\"",
+                      "articyId": "0x0100002B00081ECB",
+                      "text": "No, let's not express ourselves. Let's just wipe our hands clean on our pants.",
+                      "links": [
+                        {
+                          "id": 85,
+                          "title": "Inland Empire: \"Yes, how grown-up. The furnace agre...\"",
+                          "articyId": "0x0100002B00081ED9",
+                          "text": "Yes, how grown-up. The furnace agrees.",
+                          "links": [
+                            {
+                              "id": 79,
+                              "title": "Kim Kitsuragi: \"The lieutenant seems relieved as we...\"",
+                              "articyId": "0x0100002B00086EBF",
+                              "text": "The lieutenant seems relieved as well.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 128,
+                      "title": "Conceptualization: \"Maybe you could *paint* something w...\"",
+                      "articyId": "0x010000060001A417",
+                      "text": "Maybe you could *paint* something with this coal? Leave a cave painting for future archaeologists... no, that would be stupid.",
+                      "links": [
+                        {
+                          "id": 146,
+                          "title": "Physical Instrument: \"Still, it's good you have this dirt...\"",
+                          "articyId": "0x010000060001A41F",
+                          "text": "Still, it's good you have this dirt on you. Real men wear *coal* for make-up.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "title": "You: \"\"Those voices I heard... Maybe it's...\"",
+          "articyId": "0x0100009200000EAB",
+          "text": "\"Those voices I heard... Maybe it's the malignant Entity? Plaisance said it lives in a chimney.\"",
+          "links": [
+            {
+              "id": 150,
+              "title": "Kim Kitsuragi: \"\"You're right, the rooms do look li...\"",
+              "articyId": "0x0100009200000EC1",
+              "text": "\"You're right, the rooms do look like they're connected. But *malignant Entities* don't exist -- at least not the *supra-natural* kind.\"",
+              "links": [
+                {
+                  "id": 109,
+                  "title": "Rhetoric: \"Always has to be the sceptic, this...\"",
+                  "articyId": "0x010000060001A42E",
+                  "text": "Always has to be the sceptic, this man...",
+                  "links": [
+                    {
+                      "id": 84,
+                      "title": "Half Light: \"Then what was the chatter you heard...\"",
+                      "articyId": "0x010000060001A435",
+                      "text": "Then what was the chatter you heard?",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "You: \"Yell \"Hello!\" into the furnace.\"",
+          "articyId": "0x0100002B00081F7F",
+          "text": "Yell \"Hello!\" into the furnace.",
+          "links": [
+            {
+              "id": 51,
+              "title": "Physical Instrument: \"Something *breaks loose* in you. A...\"",
+              "articyId": "0x0100005700026C5E",
+              "text": "Something *breaks loose* in you. A mighty bellow echoes throughout the chimney's depths. The chatter of tiny voices above suddenly cease. Then...",
+              "links": [
+                {
+                  "id": 24,
+                  "title": "Central Furnace: \"\"Hello?\" you hear a woman's voice a...\"",
+                  "articyId": "0x0100002B00083364",
+                  "text": "\"Hello?\" you hear a woman's voice answer.",
+                  "links": [
+                    {
+                      "id": 93,
+                      "title": "Inland Empire: \"You've awakened the entity!\"",
+                      "articyId": "0x0100005700026C6A",
+                      "text": "You've awakened the entity!",
+                      "links": []
+                    },
+                    {
+                      "id": 54,
+                      "title": "Half Light: \"And it's a woman! Of course! The ma...\"",
+                      "articyId": "0x0100005700005763",
+                      "text": "And it's a woman! Of course! The malicious entities are *always* women.",
+                      "links": []
+                    },
+                    {
+                      "id": 72,
+                      "title": "You: \"\"This is the police! Who's there?\"\"",
+                      "articyId": "0x0100002B00083371",
+                      "text": "\"This is the police! Who's there?\"",
+                      "links": [
+                        {
+                          "id": 92,
+                          "title": "Central Furnace: \"\"Hello! Did you say anything?\" Ther...\"",
+                          "articyId": "0x010000570000A952",
+                          "text": "\"Hello! Did you say anything?\" There's a pause. \"I can't hear you, please come upstairs! There's a safety curtain on the second floor, I'll open it!\"",
+                          "links": [
+                            {
+                              "id": 136,
+                              "title": "Perception (Hearing): \"You hear a low rumble upstairs -- t...\"",
+                              "articyId": "0x010000570000A95B",
+                              "text": "You hear a low rumble upstairs -- the sound of a curtain being pulled aside.",
+                              "links": [
+                                {
+                                  "id": 158,
+                                  "title": "Kim Kitsuragi: \"The lieutenant nods, then points up...\"",
+                                  "articyId": "0x0100007000003EC3",
+                                  "text": "The lieutenant nods, then points upstairs. \"After you, officer.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 149,
+                      "title": "You: \"\"I summon the ghost of this Doomed...\"",
+                      "articyId": "0x0100005700005780",
+                      "text": "\"I summon the ghost of this Doomed Commercial Area. Answer me, spirit!\"",
+                      "links": []
+                    },
+                    {
+                      "id": 98,
+                      "title": "You: \"\"I summon the ghost of this Doomed...\"",
+                      "articyId": "0x0100005700026C74",
+                      "text": "\"I summon the ghost of this Doomed Commercial Area. Now begone, vile succubus!\"",
+                      "links": []
+                    },
+                    {
+                      "id": 87,
+                      "title": "You: \"\"Hello! Are you there? Speak to me!\"\"",
+                      "articyId": "0x0100002B0008336B",
+                      "text": "\"Hello! Are you there? Speak to me!\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 44,
+              "title": "Physical Instrument: \"Another pathetic yelp sounds off in...\"",
+              "articyId": "0x010000060001A457",
+              "text": "Another pathetic yelp sounds off into the vast darkness of the chimney. You're a little embarrassed you produced it.",
+              "links": []
+            },
+            {
+              "id": 88,
+              "title": "Physical Instrument: \"You muster all your strength and ye...\"",
+              "articyId": "0x0100002B0008597E",
+              "text": "You muster all your strength and yell...",
+              "links": [
+                {
+                  "id": 110,
+                  "title": "You: \"\"He... he... hekkhhhh...\"\"",
+                  "articyId": "0x010000060001A464",
+                  "text": "\"He... he... hekkhhhh...\"",
+                  "links": [
+                    {
+                      "id": 151,
+                      "title": "Physical Instrument: \"Your dehydrated, hungover throat ca...\"",
+                      "articyId": "0x010000060001A45E",
+                      "text": "Your dehydrated, hungover throat can produce little more than a dry croak.",
+                      "links": [
+                        {
+                          "id": 137,
+                          "title": "Volition: \"A lifetime of smoking and drinking...\"",
+                          "articyId": "0x0100007000003EB4",
+                          "text": "A lifetime of smoking and drinking will do that to you.",
+                          "links": [
+                            {
+                              "id": 12,
+                              "title": "Central Furnace: \"The chatter from the chimney contin...\"",
+                              "articyId": "0x0100007000003EBC",
+                              "text": "The chatter from the chimney continue on as before. You seem to have made no impression on whatever's *up there*.",
+                              "links": [
+                                {
+                                  "id": 134,
+                                  "title": "Central Furnace: \"Then again -- maybe it's worth actu...\"",
+                                  "articyId": "0x0100002F00013505",
+                                  "text": "Then again -- maybe it's worth actually trying something *up there*?",
+                                  "links": [
+                                    {
+                                      "id": 11,
+                                      "title": "Kim Kitsuragi: \"\"Hmm, maybe you should let your voi...\"",
+                                      "articyId": "0x0100007000003E93",
+                                      "text": "\"Hmm, maybe you should let your voice rest, officer. Try again later.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "title": "You: \"Kick it with your foot.\"",
+          "articyId": "0x0100002B00081E79",
+          "text": "Kick it with your foot.",
+          "links": [
+            {
+              "id": 4,
+              "title": "Central Furnace: \"A hollow ring echoes through the fu...\"",
+              "articyId": "0x0100002B00081EDF",
+              "text": "A hollow ring echoes through the furnace. Your toe hurts.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002B00081E7F",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "title": "Central Furnace: \"A thick layer of coal dust covers t...\"",
+      "articyId": "0x0100002B00081E59",
+      "text": "A thick layer of coal dust covers the furnace, colouring it pitch-black.",
+      "links": [
+        {
+          "id": 25,
+          "title": "Inland Empire: \"Looks like this furnace has a face...\"",
+          "articyId": "0x0100005700003CEE",
+          "text": "Looks like this furnace has a face and it's a face of agony.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

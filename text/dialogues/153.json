@@ -1,0 +1,1643 @@
+{
+  "id": "0x0100002F00008F85",
+  "title": "GATES / MYSTERIOUS EYES",
+  "description": "Interactable object (the gap in the gates) leads to a dialogue with the spooky pair of eyes.",
+  "dialogueTree": [
+    {
+      "id": 276,
+      "title": "Mysterious Pair of Eyes: \"In the shadowy depths of the gap be...\"",
+      "articyId": "0x0100002F000093B4",
+      "text": "In the shadowy depths of the gap between the gates... there is nothing. Not even a single pair of blue eyes, vigilantly observing your every move. Whoever it was, he is gone.",
+      "links": []
+    },
+    {
+      "id": 221,
+      "title": "Mysterious Pair of Eyes: \"The eerie pair of blue eyes is stil...\"",
+      "articyId": "0x0100002F000092ED",
+      "text": "The eerie pair of blue eyes is still here, gazing out from the dark void between the gates.",
+      "links": [
+        {
+          "id": 206,
+          "title": "Mysterious Pair of Eyes: \"\"Boo! The eyes of Martinaise are up...\"",
+          "articyId": "0x0100002F000092F4",
+          "text": "\"Boo! The eyes of Martinaise are upon you, piggy!\"",
+          "links": [
+            {
+              "id": 17,
+              "title": "You: \"\"God fuck, don't do that, you lunat...\"",
+              "articyId": "0x0100002F00009014",
+              "text": "\"God fuck, don't do that, you lunatic.\"",
+              "links": [
+                {
+                  "id": 49,
+                  "title": "Mysterious Pair of Eyes: \"\"Do what, look?\"\"",
+                  "articyId": "0x0100002F00009124",
+                  "text": "\"Do what, look?\"",
+                  "links": [
+                    {
+                      "id": 219,
+                      "title": "You: \"\"Yes!\"\"",
+                      "articyId": "0x0100002F0000912B",
+                      "text": "\"Yes!\"",
+                      "links": [
+                        {
+                          "id": 176,
+                          "title": "Mysterious Pair of Eyes: \"\"We are the eyes, we cannot be clos...\"",
+                          "articyId": "0x0100002F000092CC",
+                          "text": "\"We are the eyes, we cannot be closed... if one pair shuts, another takes its place, ha ha!\" The eyes grow wide and ominous.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 94,
+                      "title": "You: \"\"No, I meant... don't scare people...\"",
+                      "articyId": "0x0100002F000092BE",
+                      "text": "\"No, I meant... don't scare people like that.\"",
+                      "links": [
+                        {
+                          "id": 177,
+                          "title": "Mysterious Pair of Eyes: \"\"You're the one sticking your nose...\"",
+                          "articyId": "0x0100002F000092FC",
+                          "text": "\"You're the one sticking your nose where it doesn't belong, coppola.\" The eyes blink at you.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 135,
+                      "title": "You: \"\"Never mind, doesn't matter.\" (Calm...\"",
+                      "articyId": "0x0100002F000092C6",
+                      "text": "\"Never mind, doesn't matter.\" (Calm yourself.)",
+                      "links": [
+                        {
+                          "id": 95,
+                          "title": "Mysterious Pair of Eyes: \"The mysterious pair of eyes attenti...\"",
+                          "articyId": "0x0100002F000092D4",
+                          "text": "The mysterious pair of eyes attentively follow your every move.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 130,
+              "title": "You: \"\"Are you the company lookout Joyce...\"",
+              "articyId": "0x01000089000022E1",
+              "text": "\"Are you the company lookout Joyce hinted at?\"",
+              "links": [
+                {
+                  "id": 155,
+                  "title": "Mysterious Pair of Eyes: \"\"Wouldn't you like to know, fucksti...\"",
+                  "articyId": "0x01000089000022EA",
+                  "text": "\"Wouldn't you like to know, fuckstick!\"",
+                  "links": [
+                    {
+                      "id": 119,
+                      "title": "You: \"\"Yes, I would like to. Very much.\"\"",
+                      "articyId": "0x01000089000022F1",
+                      "text": "\"Yes, I would like to. Very much.\"",
+                      "links": [
+                        {
+                          "id": 212,
+                          "title": "Mysterious Pair of Eyes: \"The eyes blink rapidly. \"No, I'm no...\"",
+                          "articyId": "0x010000890000230A",
+                          "text": "The eyes blink rapidly. \"No, I'm not, ha ha ha.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 169,
+                      "title": "You: \"\"Can you please not call me names?\"\"",
+                      "articyId": "0x01000089000022F6",
+                      "text": "\"Can you please not call me names?\"",
+                      "links": [
+                        {
+                          "id": 14,
+                          "title": "Mysterious Pair of Eyes: \"\"Sure thing, pisspig, ha ha ha.\" Th...\"",
+                          "articyId": "0x01000089000022FF",
+                          "text": "\"Sure thing, pisspig, ha ha ha.\" The eyes blink rapidly. \"Oh, and no, I'm not some fuckin' 'lookout' for the *leeches*.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 228,
+              "title": "You: \"\"Who are you?\"\"",
+              "articyId": "0x0100002F00009022",
+              "text": "\"Who are you?\"",
+              "links": [
+                {
+                  "id": 50,
+                  "title": "Mysterious Pair of Eyes: \"\"From your perspective... I'm a Mys...\"",
+                  "articyId": "0x0100002F00009131",
+                  "text": "\"From your perspective... I'm a Mysterious Pair of Eyes, boo!!\"",
+                  "links": [
+                    {
+                      "id": 145,
+                      "title": "You: \"\"I meant, who are you *really*?\"\"",
+                      "articyId": "0x0100002F00009186",
+                      "text": "\"I meant, who are you *really*?\"",
+                      "links": [
+                        {
+                          "id": 246,
+                          "title": "Mysterious Pair of Eyes: \"\"None of your business. Ooh, so spo...\"",
+                          "articyId": "0x0100002F0000919B",
+                          "text": "\"None of your business. Ooh, so spoo-ooky!\"",
+                          "links": [
+                            {
+                              "id": 30,
+                              "title": "Electrochemistry: \"Oh-oh, you know who's got things to...\"",
+                              "articyId": "0x0100008900002314",
+                              "text": "Oh-oh, you know who's got things to hide!?",
+                              "links": [
+                                {
+                                  "id": 213,
+                                  "title": "Volition: \"Don't be an idiot and say it. In th...\"",
+                                  "articyId": "0x010000890000232C",
+                                  "text": "Don't be an idiot and say it. In this day and age, of all times. It won't end well.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 61,
+                                  "title": "You: \"\"Are you some kind of a sex pervert?\"\"",
+                                  "articyId": "0x0100002F0000905C",
+                                  "text": "\"Are you some kind of a sex pervert?\"",
+                                  "links": [
+                                    {
+                                      "id": 35,
+                                      "title": "Mysterious Pair of Eyes: \"\"No. And even if I were, I'm not en...\"",
+                                      "articyId": "0x0100002F00009062",
+                                      "text": "\"No. And even if I were, I'm not engaged in anything factually illegal. No crime here.\"",
+                                      "links": [
+                                        {
+                                          "id": 186,
+                                          "title": "Mysterious Pair of Eyes: \"\"Who do you think you are, being di...\"",
+                                          "articyId": "0x0100002F00009069",
+                                          "text": "\"Who do you think you are, being disdainful and judgemental about a person's private, idiosyncratic, voyeuristic-erotic preferences anyway? Fuckshit. Goddamn pigs.\"",
+                                          "links": [
+                                            {
+                                              "id": 172,
+                                              "title": "You: \"\"Geez, sorry. I was just being curi...\"",
+                                              "articyId": "0x0100002F00009070",
+                                              "text": "\"Geez, sorry. I was just being curious?\"",
+                                              "links": [
+                                                {
+                                                  "id": 131,
+                                                  "title": "Mysterious Pair of Eyes: \"\"Bi-curious or plain curious?\"\"",
+                                                  "articyId": "0x0100002F0000907D",
+                                                  "text": "\"Bi-curious or plain curious?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 217,
+                                                      "title": "You: \"\"What? I don't understand.\"\"",
+                                                      "articyId": "0x0100002F0000908B",
+                                                      "text": "\"What? I don't understand.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 143,
+                                                          "title": "Mysterious Pair of Eyes: \"\"Figures. What else is new! Certain...\"",
+                                                          "articyId": "0x0100002F000090A0",
+                                                          "text": "\"Figures. What else is new! Certainly not a surprise when it comes to you nit-wit coppo-goons.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 100,
+                                                              "title": "You: \"\"Is this one of those homo things t...\"",
+                                                              "articyId": "0x0100008900002358",
+                                                              "text": "\"Is this one of those homo things that keeps coming up?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 72,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"Ah, but of course! It's all a huge...\"",
+                                                                  "articyId": "0x010000890000235F",
+                                                                  "text": "\"Ah, but of course! It's all a huge part of the secret homo-sexual underground.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 101,
+                                                                      "title": "You: \"\"Really?!\"\"",
+                                                                      "articyId": "0x0100008900002366",
+                                                                      "text": "\"Really?!\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 102,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"No.\" A groan comes from the other...\"",
+                                                                          "articyId": "0x010000890000237A",
+                                                                          "text": "\"No.\" A groan comes from the other side. \"You're a complete tool, aren't you.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 58,
+                                                                      "title": "You: \"\"I'm still not sure that's an actua...\"",
+                                                                      "articyId": "0x010000890000236B",
+                                                                      "text": "\"I'm still not sure that's an actual thing...\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 89,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"Of course it's not, you numbnuts!\"...\"",
+                                                                          "articyId": "0x0100008900002374",
+                                                                          "text": "\"Of course it's not, you numbnuts!\" A groan comes from the other side. \"Unbelievable.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 5,
+                                                              "title": "You: \"\"Can you stop being such a jerk?\"\"",
+                                                              "articyId": "0x0100002F000090BC",
+                                                              "text": "\"Can you stop being such a jerk?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 62,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"Ha ha ha ha!\" A loud, derisive lau...\"",
+                                                                  "articyId": "0x0100002F000090D9",
+                                                                  "text": "\"Ha ha ha ha!\" A loud, derisive laugh echoes wildly through the gates.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 77,
+                                                                      "title": "You: \"\"Know what? Fine... no point in get...\"",
+                                                                      "articyId": "0x0100002F00009140",
+                                                                      "text": "\"Know what? Fine... no point in getting riled up by some clown trying to be abusive.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 232,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"Ha ha. Okay, you've got me *corner...\"",
+                                                                          "articyId": "0x0100002F00009148",
+                                                                          "text": "\"Ha ha. Okay, you've got me *cornered* there, good sir officer. Anyway, this is really boring... change the subject, why don't we?\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 63,
+                                                                      "title": "You: \"\"Whatever. Jerk.\"\"",
+                                                                      "articyId": "0x0100002F000090E1",
+                                                                      "text": "\"Whatever. Jerk.\"",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 230,
+                                                                      "title": "You: \"\"I'm going to get over there and fi...\"",
+                                                                      "articyId": "0x0100002F000090E7",
+                                                                      "text": "\"I'm going to get over there and find you, mark my words!\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 19,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"Ha ha. Okay, good luck! I'm gettin...\"",
+                                                                          "articyId": "0x0100002F000090EF",
+                                                                          "text": "\"Ha ha. Okay, good luck! I'm getting bored now... change the subject, why don't we?\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 76,
+                                                              "title": "You: \"\"Fuck you, man, come say that to my...\"",
+                                                              "articyId": "0x0100002F000090C2",
+                                                              "text": "\"Fuck you, man, come say that to my face.\"",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 244,
+                                                              "title": "You: \"\"Fair point. Sorry, I haven't been....\"",
+                                                              "articyId": "0x0100002F000090F9",
+                                                              "text": "\"Fair point. Sorry, I haven't been... doing well these past days.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 218,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"You're apologizing to me after *I*...\"",
+                                                                  "articyId": "0x0100002F00009100",
+                                                                  "text": "\"You're apologizing to me after *I* called you a bunch of shitty things? Goddamn, now who's the weird one?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 231,
+                                                                      "title": "Mysterious Pair of Eyes: \"\"Maybe you're like a... masochist....\"",
+                                                                      "articyId": "0x0100002F00009107",
+                                                                      "text": "\"Maybe you're like a... masochist. Into humiliation and stuff.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 262,
+                                                                          "title": "You: \"\"Nah... I'm just a sorry sack of a...\"",
+                                                                          "articyId": "0x0100002F0000910D",
+                                                                          "text": "\"Nah... I'm just a sorry sack of a man, a positively shitty cop.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 201,
+                                                                              "title": "Mysterious Pair of Eyes: \"\"Ha... live and learn, lawman. Get...\"",
+                                                                              "articyId": "0x0100002F0000911C",
+                                                                              "text": "\"Ha... live and learn, lawman. Get out there and blossom into a flower! Go figure things out! Meanwhile, I'm getting bored... how about we change the subject?\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 144,
+                                                                          "title": "You: \"\"Maybe I am? Never thought of that.\"\"",
+                                                                          "articyId": "0x0100002F00009114",
+                                                                          "text": "\"Maybe I am? Never thought of that.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 4,
+                                                      "title": "You: \"\"Umm... bi?\"\"",
+                                                      "articyId": "0x0100002F00009091",
+                                                      "text": "\"Umm... bi?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 243,
+                                                          "title": "Mysterious Pair of Eyes: \"\"Yeah, I bet you are.\"\"",
+                                                          "articyId": "0x0100002F000090A6",
+                                                          "text": "\"Yeah, I bet you are.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 36,
+                                                              "title": "You: \"\"Err... okay, I guess.\"\"",
+                                                              "articyId": "0x0100002F000090B4",
+                                                              "text": "\"Err... okay, I guess.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 6,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"Hum. Well, this went... nowhere. Z...\"",
+                                                                  "articyId": "0x0100002F000090CA",
+                                                                  "text": "\"Hum. Well, this went... nowhere. Zero fun and excitement here. I'm getting real bored, how about we change the subject?\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 75,
+                                                      "title": "You: \"\"Uhh... plain, maybe?\"\"",
+                                                      "articyId": "0x0100002F00009099",
+                                                      "text": "\"Uhh... plain, maybe?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 18,
+                                                          "title": "Mysterious Pair of Eyes: \"\"That's a bit boring, don't you thi...\"",
+                                                          "articyId": "0x0100002F000090AB",
+                                                          "text": "\"That's a bit boring, don't you think?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 122,
+                                                              "title": "You: \"\"If you say so... I haven't really...\"",
+                                                              "articyId": "0x0100002F000090D2",
+                                                              "text": "\"If you say so... I haven't really thought about it?\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 74,
+                                              "title": "You: \"\"I make it my responsibility to jud...\"",
+                                              "articyId": "0x0100002F00009076",
+                                              "text": "\"I make it my responsibility to judge and police the intimate behaviours of complete strangers.\"",
+                                              "links": [
+                                                {
+                                                  "id": 132,
+                                                  "title": "Mysterious Pair of Eyes: \"\"Believe me, we know. We've got our...\"",
+                                                  "articyId": "0x0100002F00009085",
+                                                  "text": "\"Believe me, we know. We've got our eyes on you. Can't keep it to yourself, can you? Always creepin' into the lives of others, trying to dominate their actions, even their conversations.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 188,
+                                                      "title": "You: \"\"I don't know if that's completely...\"",
+                                                      "articyId": "0x0100002F00009161",
+                                                      "text": "\"I don't know if that's completely accurate...\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 190,
+                                                          "title": "Mysterious Pair of Eyes: \"\"You know what you've done, don't s...\"",
+                                                          "articyId": "0x0100002F0000936B",
+                                                          "text": "\"You know what you've done, don't start denying it now.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 238,
+                                                              "title": "You: \"\"I don't actually remember much of...\"",
+                                                              "articyId": "0x0100002F000093F4",
+                                                              "text": "\"I don't actually remember much of what I've done.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 268,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"A serious bout of denial? Or perha...\"",
+                                                                  "articyId": "0x0100002F00009409",
+                                                                  "text": "\"A serious bout of denial? Or perhaps the result of the incessant stream of alcohol you've been pouring down your throat?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 278,
+                                                                      "title": "You: \"\"Denial...? I don't know.\"\"",
+                                                                      "articyId": "0x0100002F00009410",
+                                                                      "text": "\"Denial...? I don't know.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 193,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"An intriguing mystery! I wonder wh...\"",
+                                                                          "articyId": "0x0100002F0000942B",
+                                                                          "text": "\"An intriguing mystery! I wonder what *terrible secrets* lie behind this dark and ominous veil, ha ha.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 139,
+                                                                              "title": "Mysterious Pair of Eyes: \"\"It's gotta be something *big* and...\"",
+                                                                              "articyId": "0x0100008900002337",
+                                                                              "text": "\"It's gotta be something *big* and *deep* and *important*. Because certainly you aren't some regular asshole avoiding the fact that he goes around fucking up everyone's lives with their self-serving, egotistical arrogance?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 57,
+                                                                                  "title": "Mysterious Pair of Eyes: \"\"I'm sure your story is very *uniqu...\"",
+                                                                                  "articyId": "0x0100008900002340",
+                                                                                  "text": "\"I'm sure your story is very *unique* and not a stereotype-ridden re-hash of tired ideas.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 170,
+                                                                                      "title": "You: \"\"You don't know me.\"\"",
+                                                                                      "articyId": "0x0100008900002349",
+                                                                                      "text": "\"You don't know me.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 159,
+                                                                                          "title": "Mysterious Pair of Eyes: \"\"Sure thing, you pretty flower, you...\"",
+                                                                                          "articyId": "0x0100008900002350",
+                                                                                          "text": "\"Sure thing, you pretty flower, you. Go and discover your *exciting* backstory. I'm sure it'll be one-of-a-kind.\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 23,
+                                                                                      "title": "You: \"\"I don't actually want to talk abou...\"",
+                                                                                      "articyId": "0x0100002F0000943A",
+                                                                                      "text": "\"I don't actually want to talk about my personal life with a stupid voice behind a wall.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 208,
+                                                                                          "title": "Mysterious Pair of Eyes: \"\"A good thing, too! I am not one of...\"",
+                                                                                          "articyId": "0x0100002F0000944C",
+                                                                                          "text": "\"A good thing, too! I am not one of your fatuous Königstein neurosis analyst fucks, cashing in on the anxieties of nice ordinary folk. So, what now, Mr. Sensational Sleuth, sir?\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 125,
+                                                                                      "title": "You: \"\"Think I don't know that?\"\"",
+                                                                                      "articyId": "0x0100002F00009442",
+                                                                                      "text": "\"Think I don't know that?\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 126,
+                                                                                          "title": "Mysterious Pair of Eyes: \"\"Mm, the delights of existence. A c...\"",
+                                                                                          "articyId": "0x0100002F00009452",
+                                                                                          "text": "\"Mm, the delights of existence. A constant anguish and concern over horrible things you don't even know about, but can *imagine* so vividly. Ha ha.\"",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 167,
+                                                                                              "title": "You: \"\"Until doom comes and liberates us...\"",
+                                                                                              "articyId": "0x0100002F00009480",
+                                                                                              "text": "\"Until doom comes and liberates us from all our woes.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 115,
+                                                                                                  "title": "Mysterious Pair of Eyes: \"\"You've really fallen off the rocke...\"",
+                                                                                                  "articyId": "0x0100002F00009493",
+                                                                                                  "text": "\"You've really fallen off the rocker, haven't you? This is getting boring, it's time to change the subject.\"",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 223,
+                                                                                              "title": "You: \"\"Okay, enough already, this is maki...\"",
+                                                                                              "articyId": "0x0100002F0000948C",
+                                                                                              "text": "\"Okay, enough already, this is making me feel even worse.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 251,
+                                                                                                  "title": "Mysterious Pair of Eyes: \"\"Good plan, I was kinda getting bor...\"",
+                                                                                                  "articyId": "0x0100002F0000949C",
+                                                                                                  "text": "\"Good plan, I was kinda getting bored of this topic already. What's next on the menu, Inspector Repression?\"",
+                                                                                                  "links": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 192,
+                                                                      "title": "You: \"\"It's the booze, definitely. For ce...\"",
+                                                                      "articyId": "0x0100002F00009416",
+                                                                      "text": "\"It's the booze, definitely. For certain. No doubt.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 42,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"O-ho! I wonder what *harrowing mys...\"",
+                                                                          "articyId": "0x0100002F00009425",
+                                                                          "text": "\"O-ho! I wonder what *harrowing mystery* lies behind this feat of self-destruction.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 178,
+                                                                      "title": "You: \"\"Both, maybe?\"\"",
+                                                                      "articyId": "0x0100002F0000941C",
+                                                                      "text": "\"Both, maybe?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 114,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"Your life sounds like an immeasura...\"",
+                                                                          "articyId": "0x0100002F00009431",
+                                                                          "text": "\"Your life sounds like an immeasurable clusterfuck. Something's gone *really wrong*.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 148,
+                                                              "title": "You: \"\"I haven't done anything!\"\"",
+                                                              "articyId": "0x0100002F000093FA",
+                                                              "text": "\"I haven't done anything!\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 99,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"A rallying cry for coppers everywh...\"",
+                                                                  "articyId": "0x0100002F00009402",
+                                                                  "text": "\"A rallying cry for coppers everywhere! *We haven't done anything, we are never of any use*, ha ha.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 239,
+                                                                      "title": "You: \"\"What do you have against cops?\"\"",
+                                                                      "articyId": "0x0100002F00009460",
+                                                                      "text": "\"What do you have against cops?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 269,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"Nothing, sir, oh nothing at all! P...\"",
+                                                                          "articyId": "0x0100002F0000947A",
+                                                                          "text": "\"Nothing, sir, oh nothing at all! Please don't arrest me, I'm just a poor, honest man, trying not to make a mistake. Ha ha!\" The sarcastic laughter effortlessly makes it's way through the thick gates. There's no stopping it.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 222,
+                                                                      "title": "You: \"\"Oh whatever, I'm not going to give...\"",
+                                                                      "articyId": "0x0100002F00009466",
+                                                                      "text": "\"Oh whatever, I'm not going to give you the satisfaction.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 250,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"Aw, shucks! And here I was, gettin...\"",
+                                                                          "articyId": "0x0100002F0000946E",
+                                                                          "text": "\"Aw, shucks! And here I was, getting ever so hopeful. Does the ardent cop-man want to ask *more questions* then?\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 107,
+                                                      "title": "You: \"\"Exactly. That's what being a polic...\"",
+                                                      "articyId": "0x0100002F00009167",
+                                                      "text": "\"Exactly. That's what being a police officer is all about.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 248,
+                                                          "title": "Mysterious Pair of Eyes: \"\"Is it now, is it *really*?\"\"",
+                                                          "articyId": "0x0100002F00009364",
+                                                          "text": "\"Is it now, is it *really*?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 166,
+                                                              "title": "You: \"\"Yes.\"\"",
+                                                              "articyId": "0x0100002F00009372",
+                                                              "text": "\"Yes.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 191,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"Look at you, little authoritarian....\"",
+                                                                  "articyId": "0x0100002F00009387",
+                                                                  "text": "\"Look at you, little authoritarian. Bet it also makes you feel good and strong to discriminate against any disenfranchised people that get in your way. Makes you feel all *manly*.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 124,
+                                                                      "title": "Mysterious Pair of Eyes: \"\"It's easy and comfortable to side...\"",
+                                                                      "articyId": "0x0100002F0000939C",
+                                                                      "text": "\"It's easy and comfortable to side with the ignorant, the arrogant, the condescending, isn't it? Hide away in the soft, secure existence of perceived superiority, a vapid fantasy of your mind.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 53,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"Well, we know what you're up to. W...\"",
+                                                                          "articyId": "0x0100002F000093A3",
+                                                                          "text": "\"Well, we know what you're up to. We observe your every move. Take care and watch your back.\" The eyes suddenly disappear from sight, only emptiness remains, floating in the lacuna between the gates.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 194,
+                                                                              "title": "You: \"\"Yeah, you piss off, you self-right...\"",
+                                                                              "articyId": "0x0100002F000094D3",
+                                                                              "text": "\"Yeah, you piss off, you self-righteous, lecturing ass-goblin!\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 225,
+                                                                                  "title": "Mysterious Pair of Eyes: \"There is no reply. Only silence lur...\"",
+                                                                                  "articyId": "0x0100002F000094DD",
+                                                                                  "text": "There is no reply. Only silence lurks in the cavernous depths of the darkness beyond.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 279,
+                                                                              "title": "You: \"\"Hey, come back! Where are you goin...\"",
+                                                                              "articyId": "0x0100002F000094D8",
+                                                                              "text": "\"Hey, come back! Where are you going?\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 81,
+                                                              "title": "You: \"\"Hell yes!\"\"",
+                                                              "articyId": "0x0100002F00009378",
+                                                              "text": "\"Hell yes!\"",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 15,
+                                                              "title": "You: \"\"You can fucking say that again. Go...\"",
+                                                              "articyId": "0x0100008900002388",
+                                                              "text": "\"You can fucking say that again. God, yes, the power!\"",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 82,
+                                                              "title": "You: \"\"Well, maybe?\"\"",
+                                                              "articyId": "0x0100002F0000937D",
+                                                              "text": "\"Well, maybe?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 237,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"I sincerely doubt it. You're suppo...\"",
+                                                                  "articyId": "0x0100002F0000938E",
+                                                                  "text": "\"I sincerely doubt it. You're supposed to help people and handle actual crime. Not walk around like an oppressive tyrant, passing punishments however you feel.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 65,
+                                                                      "title": "You: \"\"Oh. I don't do that... I think. As...\"",
+                                                                      "articyId": "0x0100002F000093BF",
+                                                                      "text": "\"Oh. I don't do that... I think. As far as I remember.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 41,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"Aren't we the lucky ones then? But...\"",
+                                                                          "articyId": "0x0100002F000093D4",
+                                                                          "text": "\"Aren't we the lucky ones then? But I'm getting *real* bored with this... maybe it's time to change the subject.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 113,
+                                                                      "title": "You: \"\"But what if they *really* deserved...\"",
+                                                                      "articyId": "0x0100002F000093C5",
+                                                                      "text": "\"But what if they *really* deserved it?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 136,
+                                                                          "title": "Mysterious Pair of Eyes: \"\"Isn't that what the judicial syste...\"",
+                                                                          "articyId": "0x0100002F000093CD",
+                                                                          "text": "\"Isn't that what the judicial system is all about? The rules of law are developed and set for a reason. Well, this turned boring quickly... it's time to change the subject.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 28,
+                                              "title": "You: \"\"Whoah, I retract my statement.\"\"",
+                                              "articyId": "0x0100002F000096C8",
+                                              "text": "\"Whoah, I retract my statement.\"",
+                                              "links": [
+                                                {
+                                                  "id": 168,
+                                                  "title": "Mysterious Pair of Eyes: \"\"Getting too hot for you? Ha ha! Ye...\"",
+                                                  "articyId": "0x0100002F000096CE",
+                                                  "text": "\"Getting too hot for you? Ha ha! Yeah, skitter off, find some actual criminals.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 234,
+                                  "title": "You: \"\"I'm a cop, it sure is my business!\"\"",
+                                  "articyId": "0x0100002F00009235",
+                                  "text": "\"I'm a cop, it sure is my business!\"",
+                                  "links": [
+                                    {
+                                      "id": 220,
+                                      "title": "Mysterious Pair of Eyes: \"\"Indeed... oh yes. We know who you...\"",
+                                      "articyId": "0x0100002F0000924F",
+                                      "text": "\"Indeed... oh yes. We know who you are, we do! Don't you worry about that.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 174,
+                                  "title": "You: \"\"Secretive much? Hiding something?\"\"",
+                                  "articyId": "0x0100002F0000923B",
+                                  "text": "\"Secretive much? Hiding something?\"",
+                                  "links": [
+                                    {
+                                      "id": 39,
+                                      "title": "Mysterious Pair of Eyes: \"\"Yes. My identity. Ha ha ha.\"\"",
+                                      "articyId": "0x0100002F00009243",
+                                      "text": "\"Yes. My identity. Ha ha ha.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 245,
+                      "title": "You: \"\"Good joke, man.\" (Do a slow sarcas...\"",
+                      "articyId": "0x0100002F0000917E",
+                      "text": "\"Good joke, man.\" (Do a slow sarcastic clap.)",
+                      "links": [
+                        {
+                          "id": 90,
+                          "title": "Mysterious Pair of Eyes: \"\"Good use of sarcasm there, man.\" Y...\"",
+                          "articyId": "0x0100002F00009194",
+                          "text": "\"Good use of sarcasm there, man.\" You hear a faint clapping sound, brimming with caricature.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 264,
+                      "title": "You: \"\"That's not funny.\"\"",
+                      "articyId": "0x0100002F00009178",
+                      "text": "\"That's not funny.\"",
+                      "links": [
+                        {
+                          "id": 202,
+                          "title": "Mysterious Pair of Eyes: \"\"Ha ha. It was funny enough to me.\"\"",
+                          "articyId": "0x0100002F0000918D",
+                          "text": "\"Ha ha. It was funny enough to me.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 189,
+                      "title": "You: \"\"Fine, if you won't take this serio...\"",
+                      "articyId": "0x0100002F0000932B",
+                      "text": "\"Fine, if you won't take this seriously, I'm going to ask about something else.\"",
+                      "links": [
+                        {
+                          "id": 267,
+                          "title": "Mysterious Pair of Eyes: \"\"Try not to hurt yourself, old man,...\"",
+                          "articyId": "0x0100002F00009332",
+                          "text": "\"Try not to hurt yourself, old man, ha ha.\" The pair of eyes beams impishly at you.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 142,
+              "title": "You: \"\"What are you doing?\"\"",
+              "articyId": "0x0100002F0000901A",
+              "text": "\"What are you doing?\"",
+              "links": [
+                {
+                  "id": 52,
+                  "title": "Mysterious Pair of Eyes: \"\"Looking. Peeking. Gazing. Staring....\"",
+                  "articyId": "0x0100002F00009259",
+                  "text": "\"Looking. Peeking. Gazing. Staring. Watching. Ogling. Gawking.\"",
+                  "links": [
+                    {
+                      "id": 272,
+                      "title": "You: \"\"Spying?\"\"",
+                      "articyId": "0x0100002F00009260",
+                      "text": "\"Spying?\"",
+                      "links": [
+                        {
+                          "id": 147,
+                          "title": "Mysterious Pair of Eyes: \"\"Nice going, Detective Thesaurus! Y...\"",
+                          "articyId": "0x0100002F0000926D",
+                          "text": "\"Nice going, Detective Thesaurus! You do know a few words, ha ha ha! Yeah, *spying* as well.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 21,
+                      "title": "You: \"\"Okay, who or what are you looking...\"",
+                      "articyId": "0x0100002F00009267",
+                      "text": "\"Okay, who or what are you looking at?\"",
+                      "links": [
+                        {
+                          "id": 47,
+                          "title": "Mysterious Pair of Eyes: \"\"Right now? You! Ha ha. We've got o...\"",
+                          "articyId": "0x0100002F00009DC5",
+                          "text": "\"Right now? You! Ha ha. We've got our eyes on you, believe you me!\"",
+                          "links": [
+                            {
+                              "id": 185,
+                              "title": "Mysterious Pair of Eyes: \"\"And the other eye's on that hulkin...\"",
+                              "articyId": "0x0100002F00008FDE",
+                              "text": "\"And the other eye's on that hulking, blaring leader of the scabs. What a suspicious fucking guy.\"",
+                              "links": [
+                                {
+                                  "id": 197,
+                                  "title": "You: \"\"Oh yeah, him. He's a mercenary pos...\"",
+                                  "articyId": "0x0100008900002398",
+                                  "text": "\"Oh yeah, him. He's a mercenary posing as a worker, yeah.\"",
+                                  "links": [
+                                    {
+                                      "id": 261,
+                                      "title": "Mysterious Pair of Eyes: \"\"That so? Well I'll be damned...\" H...\"",
+                                      "articyId": "0x01000089000023AE",
+                                      "text": "\"That so? Well I'll be damned...\" He snorts. \"Guess you ain't all shit-for-brains after all.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 184,
+                                  "title": "You: \"Say nothing.\"",
+                                  "articyId": "0x010000890000239D",
+                                  "text": "Say nothing.",
+                                  "links": [
+                                    {
+                                      "id": 140,
+                                      "title": "Mysterious Pair of Eyes: \"\"What, did your brain shut off or s...\"",
+                                      "articyId": "0x01000089000023A6",
+                                      "text": "\"What, did your brain shut off or something?\" He grunts. \"I don't understand how you get anything done. Well, whatever.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 247,
+                                  "title": "You: \"\"Why is he suspicious?\"\"",
+                                  "articyId": "0x0100002F00009277",
+                                  "text": "\"Why is he suspicious?\"",
+                                  "links": [
+                                    {
+                                      "id": 273,
+                                      "title": "Mysterious Pair of Eyes: \"\"Just look at the guy, come on.\"\"",
+                                      "articyId": "0x0100002F00009284",
+                                      "text": "\"Just look at the guy, come on.\"",
+                                      "links": [
+                                        {
+                                          "id": 266,
+                                          "title": "Logic: \"There's something twitching in the...\"",
+                                          "articyId": "0x0100002F0000928B",
+                                          "text": "There's something twitching in the back of your mind... a connection hidden between the numbly aching folds of your brain.",
+                                          "links": [
+                                            {
+                                              "id": 274,
+                                              "title": "You: \"\"I mean... maybe, somehow?\"\"",
+                                              "articyId": "0x0100002F000092A9",
+                                              "text": "\"I mean... maybe, somehow?\"",
+                                              "links": [
+                                                {
+                                                  "id": 204,
+                                                  "title": "Mysterious Pair of Eyes: \"\"Look at you, Super-Constable on hi...\"",
+                                                  "articyId": "0x0100002F000092B0",
+                                                  "text": "\"Look at you, Super-Constable on his way to solve a suspicious case! Seems like that's going to take a long fucking while, ha ha.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 235,
+                                              "title": "You: \"\"I dunno...\"\"",
+                                              "articyId": "0x0100002F0000929B",
+                                              "text": "\"I dunno...\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 236,
+                                              "title": "You: \"\"I'll have to... think about it.\"\"",
+                                              "articyId": "0x0100002F000092A1",
+                                              "text": "\"I'll have to... think about it.\"",
+                                              "links": [
+                                                {
+                                                  "id": 80,
+                                                  "title": "Mysterious Pair of Eyes: \"\"Go think-man, go. Find some clues,...\"",
+                                                  "articyId": "0x0100002F00009355",
+                                                  "text": "\"Go think-man, go. Find some clues, put two and two together. That's how the magic happens, ha ha.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 40,
+                                  "title": "You: \"\"You've got something against hones...\"",
+                                  "articyId": "0x0100002F0000927D",
+                                  "text": "\"You've got something against honest workers?\"",
+                                  "links": [
+                                    {
+                                      "id": 134,
+                                      "title": "Mysterious Pair of Eyes: \"\"Honest, my ass. Just look at the g...\"",
+                                      "articyId": "0x0100002F00009293",
+                                      "text": "\"Honest, my ass. Just look at the guy, geez!\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 34,
+              "title": "You: \"\"How do I get to the other side of...\"",
+              "articyId": "0x0100002F00009056",
+              "text": "\"How do I get to the other side of these gates?\"",
+              "links": [
+                {
+                  "id": 171,
+                  "title": "Mysterious Pair of Eyes: \"\"Not through here, that's for sure.\"\"",
+                  "articyId": "0x0100002F00008FD8",
+                  "text": "\"Not through here, that's for sure.\"",
+                  "links": [
+                    {
+                      "id": 146,
+                      "title": "Mysterious Pair of Eyes: \"\"The gate is broken as shit. Someon...\"",
+                      "articyId": "0x0100002F000091A7",
+                      "text": "\"The gate is broken as shit. Someone absolutely destroyed the access panel in the control tower above.\"",
+                      "links": [
+                        {
+                          "id": 161,
+                          "title": "You: \"\"Why would anyone do that?\"\"",
+                          "articyId": "0x0100002F000091B1",
+                          "text": "\"Why would anyone do that?\"",
+                          "links": [
+                            {
+                              "id": 123,
+                              "title": "Mysterious Pair of Eyes: \"\"Probably a docker, aiming to block...\"",
+                              "articyId": "0x0100002F000091B8",
+                              "text": "\"Probably a docker, aiming to block these loud-ass scab fucks from getting in. The guys get panicky sometimes...\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 37,
+                          "title": "You: \"\"To keep the strikebreakers out?\"\"",
+                          "articyId": "0x0100002F000091BF",
+                          "text": "\"To keep the strikebreakers out?\"",
+                          "links": [
+                            {
+                              "id": 133,
+                              "title": "Mysterious Pair of Eyes: \"\"Most likely, Mr. *Amazing Investig...\"",
+                              "articyId": "0x0100002F000091C6",
+                              "text": "\"Most likely, Mr. *Amazing Investigator*. Aren't you a sharp-ass pencil! Maybe someone should write a novel about you.\"",
+                              "links": [
+                                {
+                                  "id": 51,
+                                  "title": "You: \"\"Yeah, someone should.\"\"",
+                                  "articyId": "0x0100002F000091F5",
+                                  "text": "\"Yeah, someone should.\"",
+                                  "links": [
+                                    {
+                                      "id": 108,
+                                      "title": "Mysterious Pair of Eyes: \"\"Of course! Amazing! If a little gi...\"",
+                                      "articyId": "0x0100002F000091E7",
+                                      "text": "\"Of course! Amazing! If a little girl says so, it absolutely should happen!\"",
+                                      "links": [
+                                        {
+                                          "id": 207,
+                                          "title": "Drama: \"You know very well she did not talk...\"",
+                                          "articyId": "0x0100002F00009313",
+                                          "text": "You know very well she did not talk about how someone should write a book about you. *You* are the one who brought the topic up.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 38,
+                                      "title": "Mysterious Pair of Eyes: \"\"Step right up, folks! Read all abo...\"",
+                                      "articyId": "0x0100002F000091FD",
+                                      "text": "\"Step right up, folks! Read all about the Incredible Adventures of Flop the Wonder-Cop! Able to solve the *most dastardly* of plots and ploys. Ha ha ha.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 233,
+                                  "title": "You: \"\"Are you making fun of me?\"\"",
+                                  "articyId": "0x0100002F000091D5",
+                                  "text": "\"Are you making fun of me?\"",
+                                  "links": [
+                                    {
+                                      "id": 92,
+                                      "title": "Mysterious Pair of Eyes: \"\"Oh no, certainly not! Who would ev...\"",
+                                      "articyId": "0x0100002F00009214",
+                                      "text": "\"Oh no, certainly not! Who would ever dare such a thing.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 91,
+                                  "title": "You: \"\"Whatever, it's not really my thing...\"",
+                                  "articyId": "0x0100002F0000920D",
+                                  "text": "\"Whatever, it's not really my thing anyway.\"",
+                                  "links": [
+                                    {
+                                      "id": 265,
+                                      "title": "Mysterious Pair of Eyes: \"\"Not a learned type? Sure is a shoc...\"",
+                                      "articyId": "0x0100002F00009222",
+                                      "text": "\"Not a learned type? Sure is a shocker!\" The eyes gleam brightly in the darkness of the void.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 249,
+                          "title": "You: \"\"Rotten luck. I guess I'll find ano...\"",
+                          "articyId": "0x0100002F000093E1",
+                          "text": "\"Rotten luck. I guess I'll find another way.\"",
+                          "links": [
+                            {
+                              "id": 10,
+                              "title": "Mysterious Pair of Eyes: \"\"Yeah? I got a suggestion, you shou...\"",
+                              "articyId": "0x0100002F000093E8",
+                              "text": "\"Yeah? I got a suggestion, you should go try knock the guard above us out. Ha ha, that would be fuckin' priceless.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 200,
+              "title": "You: \"\"Hang on, how *do* you know who I a...\"",
+              "articyId": "0x0100002F00009050",
+              "text": "\"Hang on, how *do* you know who I am and what I do?\"",
+              "links": [
+                {
+                  "id": 60,
+                  "title": "Mysterious Pair of Eyes: \"\"Welcome to fucking Martinaise, pig...\"",
+                  "articyId": "0x0100002F00008FEA",
+                  "text": "\"Welcome to fucking Martinaise, piggy! We've got our eye on you.\"",
+                  "links": [
+                    {
+                      "id": 64,
+                      "title": "You: \"\"*We* who?\"\"",
+                      "articyId": "0x0100002F00009170",
+                      "text": "\"*We* who?\"",
+                      "links": [
+                        {
+                          "id": 121,
+                          "title": "Mysterious Pair of Eyes: \"\"The eyes. The eyes! There are eyes...\"",
+                          "articyId": "0x0100002F00008FE4",
+                          "text": "\"The eyes. The eyes! There are eyes everywhere, copper. Beware.\"",
+                          "links": [
+                            {
+                              "id": 275,
+                              "title": "You: \"\"Why should I beware?\"\"",
+                              "articyId": "0x0100002F00009341",
+                              "text": "\"Why should I beware?\"",
+                              "links": [
+                                {
+                                  "id": 73,
+                                  "title": "Mysterious Pair of Eyes: \"\"There are *so many* eyes all over...\"",
+                                  "articyId": "0x0100002F00008FF6",
+                                  "text": "\"There are *so many* eyes all over the place, you can't even fathom it. Every hole, every gap, every nook -- someone will be peeking. You can't escape.\"",
+                                  "links": [
+                                    {
+                                      "id": 226,
+                                      "title": "Conceptualization: \"How can they fit into all the holes...\"",
+                                      "articyId": "0x0100002F00009551",
+                                      "text": "How can they fit into all the holes and gaps? Are they very tiny people? Or are they... eyes, separated from the body?",
+                                      "links": [
+                                        {
+                                          "id": 224,
+                                          "title": "You: \"\"There's no way you could *fit* ins...\"",
+                                          "articyId": "0x0100002F000094A5",
+                                          "text": "\"There's no way you could *fit* inside all those nooks and gaps.\"",
+                                          "links": [
+                                            {
+                                              "id": 24,
+                                              "title": "Mysterious Pair of Eyes: \"\"Umm, what? That's not... *literal*...\"",
+                                              "articyId": "0x0100002F000094F4",
+                                              "text": "\"Umm, what? That's not... *literal* -- there are not people actually stuffed into various tiny holes. You get that, right?\"",
+                                              "links": [
+                                                {
+                                                  "id": 285,
+                                                  "title": "You: \"\"Oh. Of course I get it.\"\"",
+                                                  "articyId": "0x0100002F00009543",
+                                                  "text": "\"Oh. Of course I get it.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 116,
+                                                      "title": "Mysterious Pair of Eyes: \"\"Right. Good. You get it. We are wa...\"",
+                                                      "articyId": "0x0100002F00009562",
+                                                      "text": "\"Right. Good. You get it. We are watching you, ever vigilant. Nothing you do escapes our vision.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 54,
+                                                  "title": "You: \"\"That's way more boring than I imag...\"",
+                                                  "articyId": "0x0100002F00009549",
+                                                  "text": "\"That's way more boring than I imagined.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 209,
+                                                      "title": "Mysterious Pair of Eyes: \"\"Boring?! That you are always being...\"",
+                                                      "articyId": "0x0100002F0000956E",
+                                                      "text": "\"Boring?! That you are always being watched and judged? Nothing you do escapes our grasp, we are ever vigilant.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 9,
+                                          "title": "You: \"\"I don't really believe you.\"\"",
+                                          "articyId": "0x0100002F0000935D",
+                                          "text": "\"I don't really believe you.\"",
+                                          "links": [
+                                            {
+                                              "id": 2,
+                                              "title": "Mysterious Pair of Eyes: \"\"We saw you point a gun at the litt...\"",
+                                              "articyId": "0x0100002F00009002",
+                                              "text": "\"We saw you point a gun at the little foul-mouthed girl. What kind of an insane bastard move is that? Fuck, what's wrong with you?\"",
+                                              "links": [
+                                                {
+                                                  "id": 196,
+                                                  "title": "You: \"\"It was just a joke, come on. I was...\"",
+                                                  "articyId": "0x0100002F000095F7",
+                                                  "text": "\"It was just a joke, come on. I was teaching her a lesson.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 240,
+                                                      "title": "Mysterious Pair of Eyes: \"\"No, no. That's... like... a super...\"",
+                                                      "articyId": "0x0100002F000095FE",
+                                                      "text": "\"No, no. That's... like... a super fucked-up thing to do. Seriously, I can't believe you still have your job. Everything else pales compared to this shit...\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 154,
+                                                  "title": "You: \"\"No such thing. I deny everything.\"\"",
+                                                  "articyId": "0x0100002F000095F0",
+                                                  "text": "\"No such thing. I deny everything.\"",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 195,
+                                                  "title": "You: \"\"She is a demon begging for release...\"",
+                                                  "articyId": "0x0100002F000095E9",
+                                                  "text": "\"She is a demon begging for release from this mortal coil.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 270,
+                                              "title": "Mysterious Pair of Eyes: \"\"We've had our eye on you for quite...\"",
+                                              "articyId": "0x0100002F0000950A",
+                                              "text": "\"We've had our eye on you for quite some time. We saw you stumble out of the hostel, all messed up and stinking of booze.\"",
+                                              "links": [
+                                                {
+                                                  "id": 83,
+                                                  "title": "Mysterious Pair of Eyes: \"\"We saw you kick the mailbox. That'...\"",
+                                                  "articyId": "0x0100002F000094BB",
+                                                  "text": "\"We saw you kick the mailbox. That's kind of a jerk thing to do, you know.\"",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 199,
+                                                  "title": "Mysterious Pair of Eyes: \"\"We saw you puke in the back yard,...\"",
+                                                  "articyId": "0x0100002F00009008",
+                                                  "text": "\"We saw you puke in the back yard, trying to get to the hanged man. Shows what a soft-bellied sissy you are.\"",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 128,
+                                                  "title": "Mysterious Pair of Eyes: \"\"And we saw you got the body down....\"",
+                                                  "articyId": "0x0100002F00009618",
+                                                  "text": "\"And we saw you got the body down. Oh, such wonderful progress! Hold the applause, ladies and gents.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 284,
+                                                      "title": "You: \"\"That's it?\"\"",
+                                                      "articyId": "0x0100002F00009513",
+                                                      "text": "\"That's it?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 48,
+                                                          "title": "Mysterious Pair of Eyes: \"\"Alright, you want more? We saw you...\"",
+                                                          "articyId": "0x0100002F0000A044",
+                                                          "text": "\"Alright, you want more? We saw you try to punch that kid. A grown man, a *police officer* trying to punch a snot-nosed punk kid! A kid, for fuck's sake!\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 70,
+                                                              "title": "You: \"\"He fuckin' deserved it.\"\"",
+                                                              "articyId": "0x0100002F0000A051",
+                                                              "text": "\"He fuckin' deserved it.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 129,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"Oh, sure, think up any justificati...\"",
+                                                                  "articyId": "0x0100002F0000A066",
+                                                                  "text": "\"Oh, sure, think up any justification you can for your fucked up, vicious deeds. Seriously, what a psychopath. You can't cover that up...\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 71,
+                                                              "title": "You: \"\"It was a lesson in *respect*.\"\"",
+                                                              "articyId": "0x0100002F0000A057",
+                                                              "text": "\"It was a lesson in *respect*.\"",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 56,
+                                                              "title": "You: \"\"Sorry, things just got out of... h...\"",
+                                                              "articyId": "0x0100002F0000A05F",
+                                                              "text": "\"Sorry, things just got out of... hand.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 87,
+                                                                  "title": "Mysterious Pair of Eyes: \"\"Yeah? Does that happen to you ofte...\"",
+                                                                  "articyId": "0x0100002F0000A072",
+                                                                  "text": "\"Yeah? Does that happen to you often, Officer Heavyhands? Seriously, what a psychopath. You can't cover that up...\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 153,
+                                                          "title": "Mysterious Pair of Eyes: \"\"It's a beginning, copper! You cons...\"",
+                                                          "articyId": "0x0100002F000095CF",
+                                                          "text": "\"It's a beginning, copper! You consider yourself a clean-cut, up-standing citizen? Don't worry, we'll get you yet... no keeping your nose out of the gutter forever.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 84,
+                                                      "title": "You: \"\"Ooh, so *spooky*. Anyone could hav...\"",
+                                                      "articyId": "0x0100002F00009518",
+                                                      "text": "\"Ooh, so *spooky*. Anyone could have seen this.\"",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 150,
+                                                      "title": "You: \"\"Okay, a bit suspicious, but still...\"",
+                                                      "articyId": "0x0100002F0000951F",
+                                                      "text": "\"Okay, a bit suspicious, but still not particularly menacing.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 117,
+                                                  "title": "Mysterious Pair of Eyes: \"\"And we saw your attempt to shoot t...\"",
+                                                  "articyId": "0x0100002F00009622",
+                                                  "text": "\"And we saw your attempt to shoot the dead guy down from the tree. That was an... exceptionally impressive failure, if I say so myself.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 149,
+                                              "title": "Mysterious Pair of Eyes: \"\"We've had our eye on you for some...\"",
+                                              "articyId": "0x0100002F000094CD",
+                                              "text": "\"We've had our eye on you for some time now. And I can tell you straight... goddamn, you're one *boring fuckin' cop*!\"",
+                                              "links": [
+                                                {
+                                                  "id": 66,
+                                                  "title": "You: \"\"Just doing my job.\"\"",
+                                                  "articyId": "0x0100002F00009595",
+                                                  "text": "\"Just doing my job.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 152,
+                                                      "title": "Mysterious Pair of Eyes: \"\"Think you're some kind of a nice,...\"",
+                                                      "articyId": "0x0100002F0000959C",
+                                                      "text": "\"Think you're some kind of a nice, clean, up-standing citizen? Don't worry, we'll get you yet... you can't keep your nose out of the gutter forever.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 287,
+                                                  "title": "You: \"\"Damn straight.\"\"",
+                                                  "articyId": "0x0100002F0000958E",
+                                                  "text": "\"Damn straight.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 43,
+                                          "title": "You: \"\"Prove it, creep.\"\"",
+                                          "articyId": "0x0100002F000094AC",
+                                          "text": "\"Prove it, creep.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 137,
+                                          "title": "You: \"\"Watch all you want, I don't mind.\"\"",
+                                          "articyId": "0x0100002F00009576",
+                                          "text": "\"Watch all you want, I don't mind.\"",
+                                          "links": [
+                                            {
+                                              "id": 86,
+                                              "title": "Mysterious Pair of Eyes: \"\"Ha ha, you won't take us seriously...\"",
+                                              "articyId": "0x0100002F0000957D",
+                                              "text": "\"Ha ha, you won't take us seriously? You will yet -- and you will rue that day.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 165,
+                              "title": "You: \"\"I'm not scared of you.\"\"",
+                              "articyId": "0x0100002F00009347",
+                              "text": "\"I'm not scared of you.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 280,
+                              "title": "You: \"\"Try not to get too cocky, you migh...\"",
+                              "articyId": "0x0100002F000094EC",
+                              "text": "\"Try not to get too cocky, you might get that eye poked out.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 33,
+              "title": "You: \"\"I don't feel comfortable continuin...\"",
+              "articyId": "0x0100002F00009041",
+              "text": "\"I don't feel comfortable continuing this discussion.\" [Leave.]",
+              "links": [
+                {
+                  "id": 106,
+                  "title": "Mysterious Pair of Eyes: \"\"Suit yourself!\" The eyes gleam in...\"",
+                  "articyId": "0x0100002F00009048",
+                  "text": "\"Suit yourself!\" The eyes gleam in the murky depths beyond the gates.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "title": "Mysterious Pair of Eyes: \"The spooky pair of blue eyes is pee...\"",
+      "articyId": "0x0100002F00008F8F",
+      "text": "The spooky pair of blue eyes is peeking in from beyond the gates. The look is very intense, as if trying to burrow into your very soul.",
+      "links": [
+        {
+          "id": 31,
+          "title": "Perception (Hearing): \"A faint, irregular breathing sound...\"",
+          "articyId": "0x0100002F00008F96",
+          "text": "A faint, irregular breathing sound resonates through the gap. Almost inaudible, but still there.",
+          "links": [
+            {
+              "id": 160,
+              "title": "You: \"\"Goddamn! Who's there?\"\"",
+              "articyId": "0x0100002F00008F9D",
+              "text": "\"Goddamn! Who's there?\"",
+              "links": [
+                {
+                  "id": 271,
+                  "title": "Mysterious Pair of Eyes: \"The eyes blink rapidly. They seem t...\"",
+                  "articyId": "0x0100002F00008FAB",
+                  "text": "The eyes blink rapidly. They seem to be focused on following your every move.",
+                  "links": [
+                    {
+                      "id": 198,
+                      "title": "You: \"\"Hey, I asked you a question.\"\"",
+                      "articyId": "0x0100002F00008FB3",
+                      "text": "\"Hey, I asked you a question.\"",
+                      "links": [
+                        {
+                          "id": 216,
+                          "title": "Mysterious Pair of Eyes: \"\"I heard you.\" A muffled voice sudd...\"",
+                          "articyId": "0x0100002F00008FD0",
+                          "text": "\"I heard you.\" A muffled voice suddenly clambers through the thick, solid metal gates.",
+                          "links": [
+                            {
+                              "id": 85,
+                              "title": "Inland Empire: \"Holy shit! A disembodied voice! Hav...\"",
+                              "articyId": "0x0100002F0000953A",
+                              "text": "Holy shit! A disembodied voice! Have cursed void-phantasms come to haunt us for misdeeds done in the past?",
+                              "links": [
+                                {
+                                  "id": 118,
+                                  "title": "Volition: \"Don't be ridiculous. It's just a re...\"",
+                                  "articyId": "0x0100002F0000997F",
+                                  "text": "Don't be ridiculous. It's just a regular person, probably a worker from the harbour.",
+                                  "links": [
+                                    {
+                                      "id": 183,
+                                      "title": "Inland Empire: \"Holy fuck! It's coming to get us!\"",
+                                      "articyId": "0x0100002F0000996E",
+                                      "text": "Holy fuck! It's coming to get us!",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 141,
+                      "title": "You: \"\"Hello?\"\"",
+                      "articyId": "0x0100002F00008FC0",
+                      "text": "\"Hello?\"",
+                      "links": []
+                    },
+                    {
+                      "id": 229,
+                      "title": "You: \"\"Those are some creepy fucking eyes.\"\"",
+                      "articyId": "0x0100002F00009029",
+                      "text": "\"Those are some creepy fucking eyes.\"",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Mysterious Pair of Eyes: \"\"As if you've got better ones, Offi...\"",
+                          "articyId": "0x0100002F00009030",
+                          "text": "\"As if you've got better ones, Officer Bloodshot.\" A muffled voice suddenly clambers through the thick, solid metal gates.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 120,
+                      "title": "You: \"\"Huh, what a freak.\" [Leave.]\"",
+                      "articyId": "0x0100002F00008FB9",
+                      "text": "\"Huh, what a freak.\" [Leave.]",
+                      "links": [
+                        {
+                          "id": 215,
+                          "title": "Mysterious Pair of Eyes: \"The eyes flicker in the darkness be...\"",
+                          "articyId": "0x0100002F00008FC8",
+                          "text": "The eyes flicker in the darkness beyond the gates.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 214,
+              "title": "You: \"\"Hello?\"\"",
+              "articyId": "0x0100002F00008FA3",
+              "text": "\"Hello?\"",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

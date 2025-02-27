@@ -1,0 +1,439 @@
+{
+  "id": "0x0100004500019495",
+  "title": "LANDS END ORB / lands end shot viscal",
+  "description": "the conclusion dialogue where you conclude the shot did not come from land's end. this fires only if you have  TASK.check_lands_end",
+  "dialogueTree": [
+    {
+      "id": 40,
+      "title": "Visual Calculus: \"Is there something here that would...\"",
+      "articyId": "0x01000045000194AD",
+      "text": "Is there something here that would indicate a sniper used this place as a nest for taking the shot? Just some urban detritus, a bottle and a dilapidated old comms tower.",
+      "links": [
+        {
+          "id": 64,
+          "title": "Endurance: \"The wind picks up. Fine sea foam la...\"",
+          "articyId": "0x01000045000194D2",
+          "text": "The wind picks up. Fine sea foam lashes your face. It feels like needles. You can take it -- just raise your collar, detective.",
+          "links": [
+            {
+              "id": 91,
+              "title": "Perception: \"In the distance you can hear the br...\"",
+              "articyId": "0x01000045000194D9",
+              "text": "In the distance you can hear the breakers roar.",
+              "links": [
+                {
+                  "id": 67,
+                  "title": "Kim Kitsuragi: \"\"I don't see it, officer. I don't s...\"",
+                  "articyId": "0x010000450001954D",
+                  "text": "\"I don't see it, officer. I don't see a person take a shot here and hit something there...\" He looks east, over the coast. \"In the Whirling-in-Rags.\"",
+                  "links": []
+                },
+                {
+                  "id": 81,
+                  "title": "You: \"Maybe the campfire was used by the...\"",
+                  "articyId": "0x01000045000194BA",
+                  "text": "Maybe the campfire was used by the perpetrator?",
+                  "links": [
+                    {
+                      "id": 113,
+                      "title": "Kim Kitsuragi: \"\"To warm his hands before pulling t...\"",
+                      "articyId": "0x0100004500019621",
+                      "text": "\"To warm his hands before pulling the trigger? Perhaps. But anyone could have made this. The coast is specked with fires this time of year.\" He looks around.",
+                      "links": [
+                        {
+                          "id": 24,
+                          "title": "Kim Kitsuragi: \"\"Truthfully -- this seems like a ve...\"",
+                          "articyId": "0x0100004500019629",
+                          "text": "\"Truthfully -- this seems like a very poor choice to take a 1.2 kilometre rifle shot from. Visibility is awful, there's water vapour everywhere -- I think we can rule out... B double prime, was it?\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 120,
+                      "title": "Visual Calculus: \"To warm his hands before he pulled...\"",
+                      "articyId": "0x0100004500019503",
+                      "text": "To warm his hands before he pulled the trigger? There are no markings on the ground for a tripod, he would have had to lie on a mattress. This is simply not a good spot for a 1.2 kilometre shot.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "You: \"Maybe the assailant climbed the com...\"",
+                  "articyId": "0x01000045000194C0",
+                  "text": "Maybe the assailant climbed the comms tower, took the shot there?",
+                  "links": [
+                    {
+                      "id": 79,
+                      "title": "Kim Kitsuragi: \"\"It's not possible to climb that la...\"",
+                      "articyId": "0x010000450001955F",
+                      "text": "\"It's not possible to climb that ladder and even if it were -- why? There's no platform up there to aim from.\" The lieutenant looks up, raising his collar.",
+                      "links": [
+                        {
+                          "id": 50,
+                          "title": "Endurance: \"He looks like he's cold out here at...\"",
+                          "articyId": "0x0100004500019566",
+                          "text": "He looks like he's cold out here at the tip of the coast. The jacket is warm, but not for this weather.",
+                          "links": [
+                            {
+                              "id": 28,
+                              "title": "You: \"\"Kim, you look cold -- maybe a thic...\"",
+                              "articyId": "0x0100004500019574",
+                              "text": "\"Kim, you look cold -- maybe a thicker coat?\"",
+                              "links": [
+                                {
+                                  "id": 34,
+                                  "title": "Kim Kitsuragi: \"\"I'm okay. You on the other hand --...\"",
+                                  "articyId": "0x01000045000195C8",
+                                  "text": "\"I'm okay. You on the other hand -- look like you're about to turn into a popsicle.\"",
+                                  "links": [
+                                    {
+                                      "id": 42,
+                                      "title": "Rhetoric: \"Technically speaking that would be...\"",
+                                      "articyId": "0x01000045000195FE",
+                                      "text": "Technically speaking that would be a...",
+                                      "links": [
+                                        {
+                                          "id": 16,
+                                          "title": "You: \"\"Copsicle. You meant to say copsicl...\"",
+                                          "articyId": "0x0100004500019605",
+                                          "text": "\"Copsicle. You meant to say copsicle.\"",
+                                          "links": [
+                                            {
+                                              "id": 57,
+                                              "title": "Kim Kitsuragi: \"\"No. I did not. We *Seolites* don't...\"",
+                                              "articyId": "0x010000450001960B",
+                                              "text": "\"No. I did not. We *Seolites* don't do paranomastic humour.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 102,
+                                          "title": "You: \"\"It's my style. Superstar cops don'...\"",
+                                          "articyId": "0x01000045000195D4",
+                                          "text": "\"It's my style. Superstar cops don't wear parkas. They rock out.\"",
+                                          "links": [
+                                            {
+                                              "id": 80,
+                                              "title": "Kim Kitsuragi: \"\"Absolute idiocy,\" he nods in ackno...\"",
+                                              "articyId": "0x01000045000195F2",
+                                              "text": "\"Absolute idiocy,\" he nods in acknowledgement of the idiocy on display.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 118,
+                                          "title": "You: \"\"What if I *want* to be a popsicle?\"\"",
+                                          "articyId": "0x01000045000195DA",
+                                          "text": "\"What if I *want* to be a popsicle?\"",
+                                          "links": [
+                                            {
+                                              "id": 94,
+                                              "title": "Kim Kitsuragi: \"\"Don't be silly, no one wants to be...\"",
+                                              "articyId": "0x01000045000195F8",
+                                              "text": "\"Don't be silly, no one wants to be a popsicle.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 21,
+                                          "title": "You: \"\"You're right. I should look into t...\"",
+                                          "articyId": "0x01000045000195E0",
+                                          "text": "\"You're right. I should look into this situation before I die of hypothermia.\"",
+                                          "links": [
+                                            {
+                                              "id": 35,
+                                              "title": "Kim Kitsuragi: \"\"That seems smart, yes.\"\"",
+                                              "articyId": "0x01000045000195EB",
+                                              "text": "\"That seems smart, yes.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 92,
+                              "title": "You: \"\"Kim, you look cold -- maybe a litt...\"",
+                              "articyId": "0x010000450001957A",
+                              "text": "\"Kim, you look cold -- maybe a little pilot cap?",
+                              "links": [
+                                {
+                                  "id": 101,
+                                  "title": "Kim Kitsuragi: \"\"No.\"\"",
+                                  "articyId": "0x0100004500019592",
+                                  "text": "\"No.\"",
+                                  "links": [
+                                    {
+                                      "id": 121,
+                                      "title": "Rhetoric: \"No what?\"",
+                                      "articyId": "0x0100004500019599",
+                                      "text": "No what?",
+                                      "links": [
+                                        {
+                                          "id": 82,
+                                          "title": "You: \"\"No what -- you're not cold?\"\"",
+                                          "articyId": "0x01000045000195A6",
+                                          "text": "\"No what -- you're not cold?\"",
+                                          "links": [
+                                            {
+                                              "id": 48,
+                                              "title": "",
+                                              "articyId": "4cwn5_1ac8mh5x_b",
+                                              "text": "\"No, an orange pilot cap would not help.\" He turns to face the sea.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 56,
+                                          "title": "",
+                                          "articyId": "zaxk1h51bi35iwnq",
+                                          "text": "\"No what -- an orange pilot cap would not help?\"",
+                                          "links": [
+                                            {
+                                              "id": 116,
+                                              "title": "",
+                                              "articyId": "le7urxt40vidl43d",
+                                              "text": "\"Yes, that one. No to the orange pilot cap.\" He turns to face the sea.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 49,
+                                          "title": "Rhetoric: \"How do you respond to a pithy *no*...\"",
+                                          "articyId": "0x010000060001E5C2",
+                                          "text": "How do you respond to a pithy *no* like that? He's just *not* into pilot caps, it seems.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 125,
+                      "title": "Visual Calculus: \"The salty water has corroded the la...\"",
+                      "articyId": "0x01000045000194FD",
+                      "text": "The salty water has corroded the ladder to nothing but two thin orange rails. In addition, there is no stable nest up there. It would have been useless.",
+                      "links": [
+                        {
+                          "id": 124,
+                          "title": "Savoir Faire: \"It does look *extremely* rickety. A...\"",
+                          "articyId": "0x010000060001E5CA",
+                          "text": "It does look *extremely* rickety. And wouldn't help much either.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "title": "You: \"What about the cigarette butts?\"",
+                  "articyId": "0x01000045000194C6",
+                  "text": "What about the cigarette butts?",
+                  "links": [
+                    {
+                      "id": 20,
+                      "title": "Kim Kitsuragi: \"\"Those?\" He points to them. \"A smok...\"",
+                      "articyId": "0x010000450001953F",
+                      "text": "\"Those?\" He points to them. \"A smoking assailant who favours Tioumoutiri to Astra or Drouin? Cigarette butts are everywhere. This is a common brand for old men.\"",
+                      "links": [
+                        {
+                          "id": 41,
+                          "title": "Encyclopedia: \"Tioumoutiri was a Revacholian colon...\"",
+                          "articyId": "0x0100004500019509",
+                          "text": "Tioumoutiri was a Revacholian colony on Iilmaraa. The suzerainty's population was mostly Iilmaraan Areopagites -- up to 97%. The region was known for its tobacco export. Hence the name.",
+                          "links": [
+                            {
+                              "id": 65,
+                              "title": "You: \"I want to know *a lot* more about t...\"",
+                              "articyId": "0x0100004500019516",
+                              "text": "I want to know *a lot* more about this.",
+                              "links": [
+                                {
+                                  "id": 31,
+                                  "title": "Encyclopedia: \"Oh, you do! The butts you saw had a...\"",
+                                  "articyId": "0x0100004500019523",
+                                  "text": "Oh, you do! The butts you saw had a silhouette of a boy wearing a kofia hat -- a tobacco picker. This boy is the Tioumoutiri brand logo. Contemporary Revacholians prefer Drouin (a local blend from the southern islands) or Astra, a legendary cigarette from Graad. Tioumoutiri is favoured by older men who like its old fashioned paper filter tips, insane amount of tar and the sweet smells of colonialism and halva.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 66,
+                              "title": "You: \"Enough. The cigarettes are unimport...\"",
+                              "articyId": "0x010000450001951C",
+                              "text": "Enough. The cigarettes are unimportant.",
+                              "links": [
+                                {
+                                  "id": 19,
+                                  "title": "Encyclopedia: \"Nothing is unimportant, detective.\"",
+                                  "articyId": "0x0100004500019531",
+                                  "text": "Nothing is unimportant, detective.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 117,
+                              "title": "Inland Empire: \"Still, you felt it was important en...\"",
+                              "articyId": "0x010000060001E5BA",
+                              "text": "Still, you felt it was important enough to make a mental note. That means *something*. You didn't pay attention to any of the other cigarette butts on the coast.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 109,
+                      "title": "Visual Calculus: \"A smoking assailant who favours Tio...\"",
+                      "articyId": "0x01000045000194F7",
+                      "text": "A smoking assailant who favours Tioumoutiri to Astra or Drouin? Cigarette butts are part of the campfire set -- they're also everywhere.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 23,
+                  "title": "You: \"Look over the water -- to the Whirl...\"",
+                  "articyId": "0x01000045000194CC",
+                  "text": "Look over the water -- to the Whirling-in-Rags.",
+                  "links": [
+                    {
+                      "id": 114,
+                      "title": "Visual Calculus: \"There, 1.2 kilometres over the wave...\"",
+                      "articyId": "0x01000045000196D1",
+                      "text": "There, 1.2 kilometres over the wave-crossed bay, through heavy, dark grey curtains of rain you see the smallest rectangle, barely visible.",
+                      "links": [
+                        {
+                          "id": 46,
+                          "title": "Visual Calculus: \"The light is off on the third floor...\"",
+                          "articyId": "0x01000045000196F2",
+                          "text": "The light is off on the third floor of the Whirling-in-Rags. The young woman is gone, in Precinct 57. Safe, closed off. Her form no longer moves behind the glass there...",
+                          "links": []
+                        },
+                        {
+                          "id": 22,
+                          "title": "Visual Calculus: \"The light is off on the third floor...\"",
+                          "articyId": "0x0100002F0001262D",
+                          "text": "The light is off on the third floor of the Whirling-in-Rags. The young woman is gone who knows where. Safe, closed off. Her form no longer moves behind the glass there...",
+                          "links": []
+                        },
+                        {
+                          "id": 119,
+                          "title": "Visual Calculus: \"It's glowing in the dark night. The...\"",
+                          "articyId": "0x01000045000197D0",
+                          "text": "It's glowing in the dark night. The lights are on. Klaasje must be in there... looks like she's kept her promise not to go out at night anymore.",
+                          "links": [
+                            {
+                              "id": 30,
+                              "title": "Electrochemistry: \"Such a good girl, you think.\"",
+                              "articyId": "0x01000045000197E6",
+                              "text": "Such a good girl, you think.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 123,
+                          "title": "Visual Calculus: \"It's late. There is no light on the...\"",
+                          "articyId": "0x01000045000196FC",
+                          "text": "It's late. There is no light on the third floor of the Whirling-in-Rags. No shape moves behind it. Klaasje must be out on the town.",
+                          "links": []
+                        },
+                        {
+                          "id": 115,
+                          "title": "Visual Calculus: \"A glowing light on the third floor...\"",
+                          "articyId": "0x01000045000196DD",
+                          "text": "A glowing light on the third floor of the Whirling-in-Rags. With binoculars you would see a young woman's shape move behind the glass, her limbs long and slender.",
+                          "links": [
+                            {
+                              "id": 26,
+                              "title": "Electrochemistry: \"Smoking. Drinking. Being happy and...\"",
+                              "articyId": "0x01000045000196E3",
+                              "text": "Smoking. Drinking. Being happy and elated. Without you -- because you're here, freezing in the wind, aren't you? Doing your *detective work*.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 27,
+                      "title": "Visual Calculus: \"There, 1.2 kilometres over the cold...\"",
+                      "articyId": "0x01000045000196EA",
+                      "text": "There, 1.2 kilometres over the cold water of the bay, through a thick snowstorm melting flake by flake in the waves you see the smallest rectangle, barely visible.",
+                      "links": []
+                    },
+                    {
+                      "id": 36,
+                      "title": "Visual Calculus: \"There, 1.2 kilometres over the cold...\"",
+                      "articyId": "0x01000045000197DE",
+                      "text": "There, 1.2 kilometres over the cold water of the bay, blue from the distance and the air, you see the smallest rectangle, barely visible.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 58,
+                  "title": "You: \"[Finish thought.]\"",
+                  "articyId": "0x0100004500019659",
+                  "text": "[Finish thought.]",
+                  "links": [
+                    {
+                      "id": 71,
+                      "title": "Visual Calculus: \"Are you sure? You haven't ruled out...\"",
+                      "articyId": "0x0100004500019660",
+                      "text": "Are you sure? You haven't ruled out the shot coming from here yet...",
+                      "links": [
+                        {
+                          "id": 51,
+                          "title": "You: \"I said finish the god damn thought....\"",
+                          "articyId": "0x010000450001966E",
+                          "text": "I said finish the god damn thought.[Leave.]",
+                          "links": []
+                        },
+                        {
+                          "id": 29,
+                          "title": "You: \"Oh right...\"",
+                          "articyId": "0x0100004500019674",
+                          "text": "Oh right...",
+                          "links": [
+                            {
+                              "id": 59,
+                              "title": "Visual Calculus: \"So?\"",
+                              "articyId": "0x010000450001967C",
+                              "text": "So?",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

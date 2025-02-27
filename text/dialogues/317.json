@@ -1,0 +1,342 @@
+{
+  "id": "0x0100004D000023DC",
+  "title": "CANAL / SAMARAN BUTTER SIGN VISCAL",
+  "description": "You find tire tracks indicating that a car leapt over the canal.",
+  "dialogueTree": [
+    {
+      "id": 67,
+      "title": "Perception (Sight): \"The crumpled SAMARAN BUTTER billboa...\"",
+      "articyId": "0x0100005A0000143D",
+      "text": "The crumpled SAMARAN BUTTER billboard still soaks in the canal, marked by tyre tracks.",
+      "links": [
+        {
+          "id": 54,
+          "title": "You: \"Look at the crater.\"",
+          "articyId": "0x0100004D00003A2B",
+          "text": "Look at the crater.",
+          "links": [
+            {
+              "id": 38,
+              "title": "Visual Calculus: \"Side slip marks indicate that the v...\"",
+              "articyId": "0x0100004D00003C1D",
+              "text": "Side slip marks indicate that the vehicle was travelling up the crater at 35 km/h.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "You: \"Look at the roof of the shack.\"",
+          "articyId": "0x0100004D00003A31",
+          "text": "Look at the roof of the shack.",
+          "links": [
+            {
+              "id": 37,
+              "title": "Visual Calculus: \"The black marks on the roof indicat...\"",
+              "articyId": "0x0100004D00003C15",
+              "text": "The black marks on the roof indicate that the vehicle *vaulted* from the crater to the roof of the shack.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "title": "You: \"Look at the sloping metal roof pane...\"",
+          "articyId": "0x0100004D00003C32",
+          "text": "Look at the sloping metal roof panel.",
+          "links": [
+            {
+              "id": 64,
+              "title": "Visual Calculus: \"The panel served as a take-off ramp...\"",
+              "articyId": "0x0100004D00003C38",
+              "text": "The panel served as a take-off ramp.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "You: \"Look at the broken posts.\"",
+          "articyId": "0x0100004D00003A37",
+          "text": "Look at the broken posts.",
+          "links": [
+            {
+              "id": 50,
+              "title": "Visual Calculus: \"The vehicle soared through the air,...\"",
+              "articyId": "0x0100004D00003C23",
+              "text": "The vehicle soared through the air, hitting the billboard and upsetting the posts. Then it continued its flight, taking the billboard with it.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "You: \"Look at the sign.\"",
+          "articyId": "0x0100004D00003A3D",
+          "text": "Look at the sign.",
+          "links": [
+            {
+              "id": 60,
+              "title": "Visual Calculus: \"The sign broke the vehicle's fall i...\"",
+              "articyId": "0x0100004D00003C29",
+              "text": "The sign broke the vehicle's fall into the canal.",
+              "links": [
+                {
+                  "id": 13,
+                  "title": "Conceptualization: \"The SAMARAN BUTTER billboard still...\"",
+                  "articyId": "0x0100004D000038D7",
+                  "text": "The SAMARAN BUTTER billboard still looks freshly painted, suggesting it took the plunge recently.",
+                  "links": [
+                    {
+                      "id": 63,
+                      "title": "You: \"How recently?\"",
+                      "articyId": "0x0100004D00003C09",
+                      "text": "How recently?",
+                      "links": [
+                        {
+                          "id": 31,
+                          "title": "Conceptualization: \"Within the past 72 hours.\"",
+                          "articyId": "0x0100004D00003C0F",
+                          "text": "Within the past 72 hours.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "title": "You: \"Look at the opposite bank.\"",
+          "articyId": "0x0100004D00003BA2",
+          "text": "Look at the opposite bank.",
+          "links": [
+            {
+              "id": 27,
+              "title": "Visual Calculus: \"Still speeding, the vehicle made a...\"",
+              "articyId": "0x0100004D00003C44",
+              "text": "Still speeding, the vehicle made a loop and vanished into the fog along the coast.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "title": "You: \"What was the model of this phantom...\"",
+          "articyId": "0x0100004D00003BA8",
+          "text": "What was the model of this phantom vehicle?",
+          "links": [
+            {
+              "id": 35,
+              "title": "Visual Calculus: \"There are two good candidates: the...\"",
+              "articyId": "0x0100004D00003BBF",
+              "text": "There are two good candidates: the Coupris 40 and the Linnea G22.",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "You: \"Why the Coupris 40?\"",
+                  "articyId": "0x0100004D00003BCB",
+                  "text": "Why the Coupris 40?",
+                  "links": [
+                    {
+                      "id": 83,
+                      "title": "Visual Calculus: \"It's about the right size, and the...\"",
+                      "articyId": "0x0100004D00003BD7",
+                      "text": "It's about the right size, and the tyre marks look like they came from the skinny tyres frequently found on that motor carriage.",
+                      "links": [
+                        {
+                          "id": 66,
+                          "title": "Encyclopedia: \"The Coupris 40 is a very popular mo...\"",
+                          "articyId": "0x0100004D00003C5D",
+                          "text": "The Coupris 40 is a very popular model with bank clerks, topping-pie delivery drivers, secondary school teachers, cops, strippers dressed as cops, undressed strippers...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 41,
+                  "title": "You: \"Why the Linnea G22?\"",
+                  "articyId": "0x0100004D00003BD1",
+                  "text": "Why the Linnea G22?",
+                  "links": [
+                    {
+                      "id": 36,
+                      "title": "Visual Calculus: \"Very sturdy but light motor carriag...\"",
+                      "articyId": "0x0100004D00003BDD",
+                      "text": "Very sturdy but light motor carriage. More likely than most to survive that jump.",
+                      "links": [
+                        {
+                          "id": 43,
+                          "title": "Encyclopedia: \"The Linnea G22 is not a particularl...\"",
+                          "articyId": "0x0100004D00003C63",
+                          "text": "The Linnea G22 is not a particularly popular model due to its peculiar proportions, which the manufacturer's design team probably thought about for too long.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 80,
+                  "title": "You: \"What now?\"",
+                  "articyId": "0x0100004D00003BF7",
+                  "text": "What now?",
+                  "links": [
+                    {
+                      "id": 75,
+                      "title": "Visual Calculus: \"Now? You'd have to follow the track...\"",
+                      "articyId": "0x0100002F000100C0",
+                      "text": "Now? You'd have to follow the tracks to be sure.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "title": "You: \"\"Yup -- *I* did this.\"\"",
+          "articyId": "0x0100000600017345",
+          "text": "\"Yup -- *I* did this.\"",
+          "links": [
+            {
+              "id": 29,
+              "title": "Kim Kitsuragi: \"\"Clearly, yes. Dwelling on it longe...\"",
+              "articyId": "0x0100000600017365",
+              "text": "\"Clearly, yes. Dwelling on it longer only makes it worse.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"\"Yup -- *I* did this.\"\"",
+          "articyId": "0x0100000600017357",
+          "text": "\"Yup -- *I* did this.\"",
+          "links": [
+            {
+              "id": 32,
+              "title": "Visual Calculus: \"Clearly. The motor carriage in ques...\"",
+              "articyId": "0x010000060001735E",
+              "text": "Clearly. The motor carriage in question was a Coupris 40 -- mere minutes before it took a final voyage into the ocean.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "title": "You: \"Blink. [Leave.]\"",
+          "articyId": "0x0100004D00003BEF",
+          "text": "Blink. [Leave.]",
+          "links": [
+            {
+              "id": 65,
+              "title": "Kim Kitsuragi: \"The lieutenant looks on, waiting fo...\"",
+              "articyId": "0x0100005A00007E65",
+              "text": "The lieutenant looks on, waiting for you to wrap up your analysis.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Perception (Sight): \"A crumpled billboard reading \"SAMAR...\"",
+      "articyId": "0x0100004D000039C8",
+      "text": "A crumpled billboard reading \"SAMARAN BUTTER\" soaks in the canal. Two ugly lines mar the bright countenance of the blond boy depicted.",
+      "links": [
+        {
+          "id": 61,
+          "title": "Interfacing: \"The sign billboard has fallen on th...\"",
+          "articyId": "0x0100000600017589",
+          "text": "The sign billboard has fallen on the water lock, keeping it open -- and thus out of order.",
+          "links": [
+            {
+              "id": 59,
+              "title": "You: \"What is Samaran Butter?\"",
+              "articyId": "0x0100004D000039D5",
+              "text": "What is Samaran Butter?",
+              "links": [
+                {
+                  "id": 53,
+                  "title": "Perception (Sight): \"Whatever it is, the boy on the bill...\"",
+                  "articyId": "0x0100004D000039DB",
+                  "text": "Whatever it is, the boy on the billboard seems very happy about it.",
+                  "links": [
+                    {
+                      "id": 30,
+                      "title": "Encyclopedia: \"Goat milk butter. The Samaran terra...\"",
+                      "articyId": "0x0100004D000039EE",
+                      "text": "Goat milk butter. The Samaran terrain makes it easier to raise goats than cows, and the local goat farmers produce high-quality meat and dairy staples that add variety to other nations' diets.",
+                      "links": [
+                        {
+                          "id": 34,
+                          "title": "Perception (Taste): \"It's an acquired taste.\"",
+                          "articyId": "0x0100004D000039F8",
+                          "text": "It's an acquired taste.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 22,
+              "title": "You: \"Attempt to reconstruct what happene...\"",
+              "articyId": "0x0100004D00003A03",
+              "text": "Attempt to reconstruct what happened here.",
+              "links": [
+                {
+                  "id": 14,
+                  "title": "Visual Calculus: \"Judging by the size of the impact a...\"",
+                  "articyId": "0x0100004D00003A18",
+                  "text": "Judging by the size of the impact and the parallel lines of burnt rubber, the cause was probably a motor vehicle.",
+                  "links": [
+                    {
+                      "id": 42,
+                      "title": "Visual Calculus: \"These match the tyre tracks you saw...\"",
+                      "articyId": "0x01000007000097FF",
+                      "text": "These match the tyre tracks you saw earlier -- *your* tyre tracks.",
+                      "links": []
+                    },
+                    {
+                      "id": 58,
+                      "title": "Visual Calculus: \"These look like the same tyre track...\"",
+                      "articyId": "0x0100002F00010082",
+                      "text": "These look like the same tyre tracks I saw earlier -- in front of the Whirling-in-Rags.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 62,
+                  "title": "Visual Calculus: \"Just some tasteless advertising at...\"",
+                  "articyId": "0x0100004D00003A12",
+                  "text": "Just some tasteless advertising at the bottom of a canal. No use rubbernecking now.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 48,
+              "title": "You: \"Nothing more to see here. [Leave.]\"",
+              "articyId": "0x0100004D00003BAE",
+              "text": "Nothing more to see here. [Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

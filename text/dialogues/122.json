@@ -1,0 +1,237 @@
+{
+  "id": "0x0100002B00005157",
+  "title": "PLAZA / COIN-OPERATED VIEWER I",
+  "description": "A coin-operated viewer on the plaza. It offers a view to the sunken sea-fort.",
+  "dialogueTree": [
+    {
+      "id": 35,
+      "title": "Coin-Operated Viewer: \"This coin-operated viewer is facing...\"",
+      "articyId": "0x0100002B00005162",
+      "text": "This coin-operated viewer is facing South. The instruction manual says to insert twenty five *centims* and pull the handle while looking inside, then use the focus knob to zoom in if necessary.",
+      "links": [
+        {
+          "id": 9,
+          "title": "You: \"\"What's a tourist attraction doing....\"",
+          "articyId": "0x010000450001B082",
+          "text": "\"What's a tourist attraction doing... here?\"",
+          "links": [
+            {
+              "id": 21,
+              "title": "Kim Kitsuragi: \"\"There was a revitalization project...\"",
+              "articyId": "0x010000450001B089",
+              "text": "\"There was a revitalization project in '49. A design studio tried restoring Martinaise to its pre-war glory.\" The lieutenant looks around and concludes: \"It didn't stick.\"",
+              "links": [
+                {
+                  "id": 41,
+                  "title": "You: \"\"What happened?\"\"",
+                  "articyId": "0x010000450001B096",
+                  "text": "\"What happened?\"",
+                  "links": [
+                    {
+                      "id": 40,
+                      "title": "Kim Kitsuragi: \"\"They got as far as the street lamp...\"",
+                      "articyId": "0x010000450001B090",
+                      "text": "\"They got as far as the street lamps and the statue on that intersection. Then something went sour.\" He lowers his voice. \"I suspect that *something* was Evrart Claire -- the Union leader. He muscled them out. It's how it usually goes around here.\"",
+                      "links": [
+                        {
+                          "id": 22,
+                          "title": "You: \"\"Cool. I dig organized crime. It's...\"",
+                          "articyId": "0x010000450001B11F",
+                          "text": "\"Cool. I dig organized crime. It's the best.\"",
+                          "links": [
+                            {
+                              "id": 11,
+                              "title": "Kim Kitsuragi: \"\"That's odd. I could swear you were...\"",
+                              "articyId": "0x010000450001B144",
+                              "text": "\"That's odd. I could swear you were a *police officer*...\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 15,
+                          "title": "You: \"\"Can't we... do something about it?\"\"",
+                          "articyId": "0x010000450001B125",
+                          "text": "\"Can't we... do something about it?\"",
+                          "links": [
+                            {
+                              "id": 25,
+                              "title": "Kim Kitsuragi: \"\"We should have *done* something ab...\"",
+                              "articyId": "0x010000450001B132",
+                              "text": "\"We should have *done* something about the Union ten years ago. That ship has sailed, officer.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 23,
+                          "title": "You: \"Say nothing.\"",
+                          "articyId": "0x010000450001B12B",
+                          "text": "Say nothing.",
+                          "links": [
+                            {
+                              "id": 34,
+                              "title": "Kim Kitsuragi: \"The lieutenant adjusts his collar....\"",
+                              "articyId": "0x010000450001B13C",
+                              "text": "The lieutenant adjusts his collar. It's frisky outside.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "You: \"Insert a coin.\"",
+          "articyId": "0x010000450001B07C",
+          "text": "Insert a coin.",
+          "links": [
+            {
+              "id": 13,
+              "title": "Coin-Operated Viewer: \"Your money disappears into the coin...\"",
+              "articyId": "0x0100002B0000517E",
+              "text": "Your money disappears into the coin-slot. A clunk, the ring of metal...",
+              "links": [
+                {
+                  "id": 39,
+                  "title": "You: \"Pull the handle and look inside.\"",
+                  "articyId": "0x0100002B000051E0",
+                  "text": "Pull the handle and look inside.",
+                  "links": [
+                    {
+                      "id": 31,
+                      "title": "Coin-Operated Viewer: \"The curtains on the display open. Y...\"",
+                      "articyId": "0x0100002B000051F1",
+                      "text": "The curtains on the display open. You lean in to catch the view -- it's blurry, different blues and greens. In the middle of the shimmer stands a drab grey shape, like a ghost.",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "You: \"Turn the knob to focus your vision.\"",
+                          "articyId": "0x0100002B00005217",
+                          "text": "Turn the knob to focus your vision.",
+                          "links": [
+                            {
+                              "id": 36,
+                              "title": "Coin-Operated Viewer: \"The lenses shift, the ghost sharpen...\"",
+                              "articyId": "0x0100002B00005224",
+                              "text": "The lenses shift, the ghost sharpens into an islet in the bay. In the ruins a man-made structure is visible: a half-sunken sea-fort, its concrete almost reconquered by nature.",
+                              "links": [
+                                {
+                                  "id": 26,
+                                  "title": "Coin-Operated Viewer: \"It looks as if it was abandoned qui...\"",
+                                  "articyId": "0x0100003800001495",
+                                  "text": "It looks as if it was abandoned quite some time ago, nothing but a rotten tooth remains of the anti-aircraft tower. A lonely birch tree grows out of it.",
+                                  "links": [
+                                    {
+                                      "id": 37,
+                                      "title": "Empathy: \"Its leaves ripped from it by the wi...\"",
+                                      "articyId": "0x010000450001B0B0",
+                                      "text": "Its leaves ripped from it by the winter wind...",
+                                      "links": [
+                                        {
+                                          "id": 29,
+                                          "title": "You: \"\"Hang in there, little one.\"\"",
+                                          "articyId": "0x0100002B00050B50",
+                                          "text": "\"Hang in there, little one.\"",
+                                          "links": [
+                                            {
+                                              "id": 30,
+                                              "title": "Coin-Operated Viewer: \"The little brave birch-tree seems t...\"",
+                                              "articyId": "0x0100002B00050B60",
+                                              "text": "The little brave birch-tree seems to wave back in the wind.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 33,
+                                          "title": "You: \"\"There are ruins of some kind of bu...\"",
+                                          "articyId": "0x010000450001B0C5",
+                                          "text": "\"There are ruins of some kind of building there...\"",
+                                          "links": [
+                                            {
+                                              "id": 14,
+                                              "title": "Kim Kitsuragi: \"\"Really? I don't have the eyesight...\"",
+                                              "articyId": "0x010000450001B0DE",
+                                              "text": "\"Really? I don't have the eyesight to make it out...\" The lieutenant takes off his glasses and cleans them.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 7,
+                                          "title": "You: \"Could the shot have come from there...\"",
+                                          "articyId": "0x010000450001B0D0",
+                                          "text": "Could the shot have come from there? Then entered the window upstairs the Whirling-in-Rags?",
+                                          "links": [
+                                            {
+                                              "id": 19,
+                                              "title": "Kim Kitsuragi: \"\"Can you tell? From this distance?...\"",
+                                              "articyId": "0x010000450001B0F5",
+                                              "text": "\"Can you tell? From this distance? I don't think it's possible.\"",
+                                              "links": [
+                                                {
+                                                  "id": 38,
+                                                  "title": "Coin-Operated Viewer: \"It's not. The details are blurry, t...\"",
+                                                  "articyId": "0x010000450001B0FC",
+                                                  "text": "It's not. The details are blurry, there's water vapour in the way and waves cut into the islet...",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 10,
+                                              "title": "Coin-Operated Viewer: \"It's not possible to know from this...\"",
+                                              "articyId": "0x010000450001B0E7",
+                                              "text": "It's not possible to know from this distance. The details are blurry, there's water vapour in the way and waves cut into the islet...",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "title": "You: \"[Leave.]\"",
+                                          "articyId": "0x0100002B00050B5B",
+                                          "text": "[Leave.]",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002B0000516E",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 20,
+          "title": "Logic: \"Why place a tourist attraction in t...\"",
+          "articyId": "0x0100002B000051C9",
+          "text": "Why place a tourist attraction in the middle of such poverty?",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

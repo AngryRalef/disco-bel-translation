@@ -1,0 +1,61 @@
+{
+  "id": "0x0100006B00002652",
+  "title": "APT ORB / wearing fancy loafers",
+  "description": "Putting the shoes on gives a one time +1 to Indirect Modes of Taxation, you capitalist swine.",
+  "dialogueTree": [
+    {
+      "id": 4,
+      "title": "Savoir Faire: \"Mm, the luxury of fine things. Just...\"",
+      "articyId": "0x01000021000009C2",
+      "text": "Mm, the luxury of fine things. Just look at those black monk straps! After spending an entire day hustling, who's to say that you *didn't* deserve a pair of ridiculously expensive shoes on your tired feet?",
+      "links": [
+        {
+          "id": 2,
+          "title": "You: \"You're right, beautiful things do m...\"",
+          "articyId": "0x01000021000009C9",
+          "text": "You're right, beautiful things do make people happy...",
+          "links": [
+            {
+              "id": 9,
+              "title": "Savoir Faire: \"Beautiful things give you a *rush*....\"",
+              "articyId": "0x01000021000009D0",
+              "text": "Beautiful things give you a *rush*. It's power -- crafting your style, draping your flesh in silk and leather, deciding how to present yourself to the world.",
+              "links": [
+                {
+                  "id": 5,
+                  "title": "Savoir Faire: \"Remember, when they come to take it...\"",
+                  "articyId": "0x01000021000009D7",
+                  "text": "Remember, when they come to take it *away* from you -- you *worked* for those shoes. Whether you like it or not, wearing these shoes has made you more liberal -- *ultra*liberal.",
+                  "links": [
+                    {
+                      "id": 3,
+                      "title": "Rhetoric: \"They're either a gateway drug -- or...\"",
+                      "articyId": "0x010000060001BB7A",
+                      "text": "They're either a gateway drug -- or a booster pack -- to get you *deeper* into free market ideology.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "You: \"Oops, it's a fashion faux pas! [Dis...\"",
+          "articyId": "0x0100000400015078",
+          "text": "Oops, it's a fashion faux pas! [Discard the thought -- and the shoes!]",
+          "links": [
+            {
+              "id": 6,
+              "title": "Savoir Faire: \"Let's hope no one saw you wearing t...\"",
+              "articyId": "0x01000021000009FB",
+              "text": "Let's hope no one saw you wearing these outrageously expensive -- and ultraliberal! -- shoes.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

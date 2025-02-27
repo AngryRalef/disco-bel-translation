@@ -1,0 +1,83 @@
+{
+  "id": "0x01000089000015B6",
+  "title": "VILLAGE ORB / spirit necktie",
+  "description": "horrific necktie reacting to the bottle and urging you to buy it because otherwise buying the medicial spirit lacks foreshadowing and is too missable.",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Inland Empire: \"You stop mid-step and put your hand...\"",
+      "articyId": "0x0100007800013273",
+      "text": "You stop mid-step and put your hand on the garish necktie.",
+      "links": [
+        {
+          "id": 3,
+          "title": "Horrific Necktie: \"That bottle, *bratan*! Just look at...\"",
+          "articyId": "0x01000089000015BD",
+          "text": "That bottle, *bratan*! Just look at that bottle!",
+          "links": [
+            {
+              "id": 7,
+              "title": "You: \"Where? Bottle? What?\"",
+              "articyId": "0x010000780001326D",
+              "text": "Where? Bottle? What?",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "Rosemary: \"In this drunk's hand -- on the pipe...\"",
+                  "articyId": "0x010000780001327B",
+                  "text": "In this drunk's hand -- on the pipe there. Glowing blue, a mysterious, otherworldly blue. Filled to the brim with holy mysteries!",
+                  "links": [
+                    {
+                      "id": 9,
+                      "title": "Electrochemistry: \"It's hard to know what exactly your...\"",
+                      "articyId": "0x0100007800013282",
+                      "text": "It's hard to know what exactly your vivid interior is speaking of here, but I'm guessing it's got a lot of alcohol in it.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "title": "You: \"I really don't care about any bottl...\"",
+              "articyId": "0x0100007800013265",
+              "text": "I really don't care about any bottle. I don't want to look at it.",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "Horrific Necktie: \"You *should* care. I'm getting a *v...\"",
+                  "articyId": "0x01000078000132A8",
+                  "text": "You *should* care. I'm getting a *very* special vibe from that bottle. Please go talk to him. I need to look at it closer...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "title": "You: \"Okay. Cool. What do I do next?\"",
+              "articyId": "0x010000780001328F",
+              "text": "Okay. Cool. What do I do next?",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Horrific Necktie: \"Oh I think this is about so much *m...\"",
+                  "articyId": "0x01000078000132A2",
+                  "text": "Oh I think this is about so much *more* than cool. Please go talk to him. See what it's about. I'm *drawn* to it.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "You: \"[Discard thought.]\"",
+              "articyId": "0x0100007800013295",
+              "text": "[Discard thought.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

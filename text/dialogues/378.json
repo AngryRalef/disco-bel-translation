@@ -1,0 +1,143 @@
+{
+  "id": "0x0100005800008B04",
+  "title": "KIM SWITCH / END OF DAY",
+  "description": "Kim wants to call it a day.",
+  "dialogueTree": [
+    {
+      "id": 32,
+      "title": "You: \"\"I think I need to talk to the cafe...\"",
+      "articyId": "0x0100007A0000067C",
+      "text": "\"I think I need to talk to the cafeteria manager about my room...\"",
+      "links": [
+        {
+          "id": 39,
+          "title": "Kim Kitsuragi: \"\"You certainly have been avoiding i...\"",
+          "articyId": "0x0100007A00000683",
+          "text": "\"You certainly have been avoiding it.\"",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "You: \"\"I haven't paid the cafeteria manag...\"",
+      "articyId": "0x010000580000600C",
+      "text": "\"I haven't paid the cafeteria manager for damages yet.\"",
+      "links": [
+        {
+          "id": 54,
+          "title": "Kim Kitsuragi: \"\"You should take care of that, then.\"\"",
+          "articyId": "0x0100005800008BCE",
+          "text": "\"You should take care of that, then.\"",
+          "links": [
+            {
+              "id": 24,
+              "title": "You: \"\"I think I have the money now. This...\"",
+              "articyId": "0x0100005800008BBD",
+              "text": "\"I think I have the money now. This is money, right?\" (Show him reál bills.)",
+              "links": [
+                {
+                  "id": 16,
+                  "title": "Kim Kitsuragi: \"He nods. \"I'll also take a room at...\"",
+                  "articyId": "0x0100005800008BC7",
+                  "text": "He nods. \"I'll also take a room at the Whirling. One cannot get much closer to the crime scene.\"",
+                  "links": [
+                    {
+                      "id": 12,
+                      "title": "Empathy: \"He's proud of you for getting your...\"",
+                      "articyId": "0x010000580000606C",
+                      "text": "He's proud of you for getting your act together and finding a way to pay back what you owe.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "title": "You: \"\"But I don't have the money...\"\"",
+              "articyId": "0x0100005800006046",
+              "text": "\"But I don't have the money...\"",
+              "links": [
+                {
+                  "id": 23,
+                  "title": "Kim Kitsuragi: \"\"Let's talk to him anyway. An offic...\"",
+                  "articyId": "0x0100005800006083",
+                  "text": "\"Let's talk to him anyway. An officer of the RCM shouldn't be sleeping in the streets. We'll figure something out.\"",
+                  "links": [
+                    {
+                      "id": 6,
+                      "title": "Empathy: \"Though he finds this situation frus...\"",
+                      "articyId": "0x010000580000608A",
+                      "text": "Though he finds this situation frustrating, he is doing his best to not make you feel any worse than you already do.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "You: \"\"Yes, my hostel room calls.\"\"",
+      "articyId": "0x0100005800008B77",
+      "text": "\"Yes, my hostel room calls.\"",
+      "links": [
+        {
+          "id": 28,
+          "title": "Kim Kitsuragi: \"\"We can pick up where we left off t...\"",
+          "articyId": "0x01000002000011B7",
+          "text": "\"We can pick up where we left off tomorrow morning.\"",
+          "links": []
+        },
+        {
+          "id": 38,
+          "title": "Kim Kitsuragi: \"\"Let's continue tomorrow, bright an...\"",
+          "articyId": "0x0100006B0000A492",
+          "text": "\"Let's continue tomorrow, bright and early -- 7:30 sharp. I'll be waiting downstairs.\"",
+          "links": []
+        },
+        {
+          "id": 52,
+          "title": "Kim Kitsuragi: \"\"I'll also take a room at the Whirl...\"",
+          "articyId": "0x0100005800008B97",
+          "text": "\"I'll also take a room at the Whirling.\"",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "You: \"\"Then I should check in with the ca...\"",
+      "articyId": "0x01000081000042C8",
+      "text": "\"Then I should check in with the cafeteria manager.\"",
+      "links": [
+        {
+          "id": 40,
+          "title": "Kim Kitsuragi: \"\"Do that. I'll be waiting for you d...\"",
+          "articyId": "0x01000081000042CF",
+          "text": "\"Do that. I'll be waiting for you downstairs tomorrow.\"",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "You: \"\"I found lodgings in the village. I...\"",
+      "articyId": "0x0100005800008B7D",
+      "text": "\"I found lodgings in the village. I'll spend the night there.\"",
+      "links": [
+        {
+          "id": 34,
+          "title": "Kim Kitsuragi: \"\"Good to know. I'll be wherever is...\"",
+          "articyId": "0x0100005800008B85",
+          "text": "\"Good to know. I'll be wherever is necessary in the morning. Bright and early, 7:30 sharp.\"",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

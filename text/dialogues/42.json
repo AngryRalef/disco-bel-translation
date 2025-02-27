@@ -1,0 +1,1032 @@
+{
+  "id": "0x0100000700000C2A",
+  "title": "INVENTORY / DOCUMENTS",
+  "description": "Interaction with the documents Evrart asks you to sign.",
+  "dialogueTree": [
+    {
+      "id": 167,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015BFB",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum. Underneath all this -- on the signature lines -- your little forgery.",
+      "links": [
+        {
+          "id": 191,
+          "title": "You: \"Look at the zoning plan.\"",
+          "articyId": "0x01000007000012A2",
+          "text": "Look at the zoning plan.",
+          "links": [
+            {
+              "id": 193,
+              "title": "White Envelope: \"The youth centre cuts into the ocea...\"",
+              "articyId": "0x01000007000012DC",
+              "text": "The youth centre cuts into the ocean like the bow of some great modern ship. Apparently it's going to cover most -- if not all -- of the street and the square between the existing houses. It's three storeys tall.",
+              "links": [
+                {
+                  "id": 169,
+                  "title": "Visual Calculus: \"It's going to be awfully close to t...\"",
+                  "articyId": "0x01000007000012E3",
+                  "text": "It's going to be awfully close to the already existing buildings. Almost wall to wall, practically integrating them into the youth centre.",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Inland Empire: \"This is either an ominous or cool a...\"",
+                      "articyId": "0x0100000700005F10",
+                      "text": "This is either an ominous or cool architectural choice -- hard to say.",
+                      "links": [
+                        {
+                          "id": 287,
+                          "title": "Conceptualization: \"My money is on cool. Looks like a c...\"",
+                          "articyId": "0x0100000700005F22",
+                          "text": "My money is on cool. Looks like a cubic pyrite.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "title": "You: \"\"Kim, what do you think of this?\"\"",
+          "articyId": "0x010000070000129C",
+          "text": "\"Kim, what do you think of this?\"",
+          "links": [
+            {
+              "id": 245,
+              "title": "Kim Kitsuragi: \"\"I'm no property lawyer, but it loo...\"",
+              "articyId": "0x01000007000012AF",
+              "text": "\"I'm no property lawyer, but it looks fine,\" the lieutenant replies, flipping through the documents. \"I like the print size. They're not selling or leasing anything. It's not a perfect solution, but...\" He shrugs.",
+              "links": [
+                {
+                  "id": 125,
+                  "title": "Rhetoric: \"...how else are you going to build...\"",
+                  "articyId": "0x0100000700005F02",
+                  "text": "...how else are you going to build something? It's always inconvenient to build things, and citizens inevitably have disagreements over such construction projects, but there's no other way.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"Try to find a loophole in the deal.\"",
+          "articyId": "0x01000007000012D5",
+          "text": "Try to find a loophole in the deal.",
+          "links": [
+            {
+              "id": 156,
+              "title": "Logic: \"There is no loophole. The simple tr...\"",
+              "articyId": "0x0100000700001300",
+              "text": "There is no loophole. The simple truth is the current residents are going to lose their street access and for the next 12-40 months their lives will be dominated by constant construction noise right next door.",
+              "links": [
+                {
+                  "id": 217,
+                  "title": "You: \"What are the ramifications here?\"",
+                  "articyId": "0x010000070000130D",
+                  "text": "What are the ramifications here?",
+                  "links": [
+                    {
+                      "id": 32,
+                      "title": "Logic: \"There are none. The signatures of t...\"",
+                      "articyId": "0x010000070000132E",
+                      "text": "There are none. The signatures of the drunks are worthless and once Evrart is ready to start the construction, he'll need to actually get Lilienne and Isobel to sign.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 157,
+                  "title": "You: \"Good thing I got those drunks to si...\"",
+                  "articyId": "0x0100000700001327",
+                  "text": "Good thing I got those drunks to sign this.",
+                  "links": [
+                    {
+                      "id": 194,
+                      "title": "Kim Kitsuragi: \"\"Yes.\" The lieutenant nods. \"Too ba...\"",
+                      "articyId": "0x0100000700001343",
+                      "text": "\"Yes.\" The lieutenant nods. \"Too bad we can't see Evrart's face when he finds out.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 158,
+                      "title": "Logic: \"That was a nice move, yes.\"",
+                      "articyId": "0x010000070000133C",
+                      "text": "That was a nice move, yes.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 174,
+              "title": "Logic: \"There is no loophole. The simple tr...\"",
+              "articyId": "0x0100000700001469",
+              "text": "There is no loophole. The simple truth is the current residents are going to lose their street access and for the next 12-40 months their lives will be dominated by constant construction noise right next door.",
+              "links": [
+                {
+                  "id": 117,
+                  "title": "You: \"What are the ramifications here?\"",
+                  "articyId": "0x010000070000146F",
+                  "text": "What are the ramifications here?",
+                  "links": [
+                    {
+                      "id": 118,
+                      "title": "Logic: \"There are none. Your forged signatu...\"",
+                      "articyId": "0x010000070000148C",
+                      "text": "There are none. Your forged signatures are worthless and once Evrart is ready to start the construction, he'll need to actually get Lilienne and Isobel to sign.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 57,
+                  "title": "You: \"Good thing I forged the signatures.\"",
+                  "articyId": "0x0100000700001475",
+                  "text": "Good thing I forged the signatures.",
+                  "links": [
+                    {
+                      "id": 298,
+                      "title": "Kim Kitsuragi: \"\"Yes.\" The lieutenant nods. \"Too ba...\"",
+                      "articyId": "0x0100000700001481",
+                      "text": "\"Yes.\" The lieutenant nods. \"Too bad we won't see Evrart's face when he finds out.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 269,
+                      "title": "Logic: \"That was a nice move, yes.\"",
+                      "articyId": "0x0100000700001492",
+                      "text": "That was a nice move, yes.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 103,
+              "title": "Logic: \"There is no loophole. The simple tr...\"",
+              "articyId": "0x01000007000014C3",
+              "text": "There is no loophole. The simple truth is the current residents are going to lose their street access and for the next 12-40 months their lives will be dominated by constant construction noise right next door.",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "You: \"What are the ramifications here?\"",
+                  "articyId": "0x01000007000014A8",
+                  "text": "What are the ramifications here?",
+                  "links": [
+                    {
+                      "id": 246,
+                      "title": "Logic: \"Once the construction starts it'll...\"",
+                      "articyId": "0x01000007000014B7",
+                      "text": "Once the construction starts it'll probably take a few months -- a year maybe -- for even the most stubborn occupants to get tired of living like this. After that they'll sell their property cheap and move out.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 159,
+                  "title": "You: \"Isobel and Lilienne have a rough 12...\"",
+                  "articyId": "0x01000007000014C9",
+                  "text": "Isobel and Lilienne have a rough 12 to 40 months ahead of them.",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Kim Kitsuragi: \"\"I should have seen it,\" the lieute...\"",
+                      "articyId": "0x01000007000014A2",
+                      "text": "\"I should have seen it,\" the lieutenant says with regret. \"The people in the village are going to move out on their own accord sooner or later.\"",
+                      "links": [
+                        {
+                          "id": 270,
+                          "title": "Kim Kitsuragi: \"\"All we can do now is *not* mail th...\"",
+                          "articyId": "0x01000007000014DB",
+                          "text": "\"All we can do now is *not* mail these to Evrart's accountant.\" He pauses. \"Your gun would probably stay missing though.\"",
+                          "links": [
+                            {
+                              "id": 282,
+                              "title": "You: \"\"Damn it... I really need my gun --...\"",
+                              "articyId": "0x01000007000014FB",
+                              "text": "\"Damn it... I really need my gun -- and to see where this is going.\"",
+                              "links": [
+                                {
+                                  "id": 177,
+                                  "title": "Kim Kitsuragi: \"\"Let's go get it then.\"\"",
+                                  "articyId": "0x0100000700001528",
+                                  "text": "\"Let's go get it then.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 34,
+                              "title": "You: \"\"Fuck these people. What have they...\"",
+                              "articyId": "0x0100000700005B55",
+                              "text": "\"Fuck these people. What have they ever done for me? We move on.\"",
+                              "links": [
+                                {
+                                  "id": 147,
+                                  "title": "Kim Kitsuragi: \"\"Yes -- being an *asshole* makes th...\"",
+                                  "articyId": "0x0100000700005B5C",
+                                  "text": "\"Yes -- being an *asshole* makes this much easier. Let's go.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 281,
+                              "title": "You: \"\"I don't need my gun. I'm not going...\"",
+                              "articyId": "0x01000007000014F5",
+                              "text": "\"I don't need my gun. I'm not going to mail it.\" (Cancel task.)",
+                              "links": [
+                                {
+                                  "id": 176,
+                                  "title": "Kim Kitsuragi: \"The lieutenant gives you a long loo...\"",
+                                  "articyId": "0x0100000700001521",
+                                  "text": "The lieutenant gives you a long look before speaking. \"For what it's worth, I think you're doing the right thing. Firearms can be replaced. People not so much.\"",
+                                  "links": [
+                                    {
+                                      "id": 62,
+                                      "title": "Kim Kitsuragi: \"\"We'll need to find you a new weapo...\"",
+                                      "articyId": "0x0100000700005B68",
+                                      "text": "\"We'll need to find you a new weapon -- and we'll need to hope to finish the case without Evrart's help.\" He sighs.",
+                                      "links": [
+                                        {
+                                          "id": 219,
+                                          "title": "You: \"(Sigh.) \"Okay, damn it... it sounds...\"",
+                                          "articyId": "0x0100000700005B70",
+                                          "text": "(Sigh.) \"Okay, damn it... it sounds like too much. Let's fucking mail it.\"",
+                                          "links": [
+                                            {
+                                              "id": 21,
+                                              "title": "Kim Kitsuragi: \"\"Yes...\" He reluctantly nods. \"It's...\"",
+                                              "articyId": "0x0100000700005B87",
+                                              "text": "\"Yes...\" He reluctantly nods. \"It's probably the smart choice.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 233,
+                                          "title": "You: \"\"Alright, I'm ready to take the dam...\"",
+                                          "articyId": "0x0100000700005B76",
+                                          "text": "\"Alright, I'm ready to take the damage for the sake of my conscience.\"",
+                                          "links": [
+                                            {
+                                              "id": 206,
+                                              "title": "Kim Kitsuragi: \"\"You made the right choice.\" The li...\"",
+                                              "articyId": "0x0100000700005B7E",
+                                              "text": "\"You made the right choice.\" The lieutenant smiles approvingly. \"Now let's move out and solve this case.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 299,
+                              "title": "You: \"Damn it... I really need my gun.\"",
+                              "articyId": "0x010000070000150B",
+                              "text": "Damn it... I really need my gun.",
+                              "links": [
+                                {
+                                  "id": 122,
+                                  "title": "Logic: \"No one would judge you. After all,...\"",
+                                  "articyId": "0x010000070000153D",
+                                  "text": "No one would judge you. After all, what is a cop without his gun? Is he really even a cop anymore?",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 283,
+                              "title": "You: \"I don't need my gun. I'm not going...\"",
+                              "articyId": "0x0100000700001516",
+                              "text": "I don't need my gun. I'm not going to mail it.",
+                              "links": [
+                                {
+                                  "id": 104,
+                                  "title": "Logic: \"Putting the good of others before y...\"",
+                                  "articyId": "0x0100000700001531",
+                                  "text": "Putting the good of others before your own... You're a good man, Harry. A good and honourable man. And guns can be replaced -- people can't.",
+                                  "links": [
+                                    {
+                                      "id": 11,
+                                      "title": "Logic: \"You are of course going to have to...\"",
+                                      "articyId": "0x0100000700005F3A",
+                                      "text": "You are of course going to have to find a new weapon and hope you can finish this case without Evrart's help.",
+                                      "links": [
+                                        {
+                                          "id": 179,
+                                          "title": "You: \"Damn it... it sounds like too much....\"",
+                                          "articyId": "0x0100000700005F4D",
+                                          "text": "Damn it... it sounds like too much. I'm going to fucking mail.",
+                                          "links": [
+                                            {
+                                              "id": 126,
+                                              "title": "Logic: \"This is probably the smart choice....\"",
+                                              "articyId": "0x0100000700005F59",
+                                              "text": "This is probably the smart choice. Now go mail the document and don't think about it anymore.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 107,
+                                          "title": "You: \"Alright, I'm ready to take the dama...\"",
+                                          "articyId": "0x0100000700005F47",
+                                          "text": "Alright, I'm ready to take the damage for the sake of my conscience.",
+                                          "links": [
+                                            {
+                                              "id": 289,
+                                              "title": "Logic: \"Okay. Cool. Honourable too. Just wa...\"",
+                                              "articyId": "0x0100000700005F5F",
+                                              "text": "Okay. Cool. Honourable too. Just walk away with your head held high.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 230,
+                      "title": "Logic: \"It's hard to imagine anyone endurin...\"",
+                      "articyId": "0x01000007000014BD",
+                      "text": "It's hard to imagine anyone enduring these conditions. The stubborn ones might last for a year, but before 40 months are through, they'll sell their property for pennies and move on.",
+                      "links": [
+                        {
+                          "id": 247,
+                          "title": "Logic: \"You could always *not* mail the sig...\"",
+                          "articyId": "0x01000007000014E3",
+                          "text": "You could always *not* mail the signatures to Evrart's accountant. But then you'll never see your gun again.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 53,
+              "title": "Logic: \"There is no loophole. The simple tr...\"",
+              "articyId": "0x0100000200000B03",
+              "text": "There is no loophole. The simple truth is the current residents are going to lose their street access and for the next 12-40 months their lives will be dominated by constant construction noise right next door.",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "You: \"Wait, what are the ramifications of...\"",
+                  "articyId": "0x0100000200000B0A",
+                  "text": "Wait, what are the ramifications of this?",
+                  "links": [
+                    {
+                      "id": 220,
+                      "title": "Logic: \"Once the construction starts it'll...\"",
+                      "articyId": "0x0100000200000B1D",
+                      "text": "Once the construction starts it'll probably take a few months -- a year maybe -- for even the most stubborn occupants to get tired of living like this. After that they'll sell their property for cheap and move out.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 23,
+                  "title": "You: \"This is terrible. Poor people. Can'...\"",
+                  "articyId": "0x0100000200000B15",
+                  "text": "This is terrible. Poor people. Can't I do something?",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "Kim Kitsuragi: \"\"Of course... I should have seen it...\"",
+                      "articyId": "0x0100000200000B27",
+                      "text": "\"Of course... I should have seen it.\" The lieutenant frowns as he reads over the document again.",
+                      "links": [
+                        {
+                          "id": 162,
+                          "title": "Kim Kitsuragi: \"\"Evrart probably has eyes on us, bu...\"",
+                          "articyId": "0x0100000200000B33",
+                          "text": "\"Evrart probably has eyes on us, but...\" He pauses to think. \"If the second signature were to be somehow *wrong*...\"",
+                          "links": [
+                            {
+                              "id": 2,
+                              "title": "Rhetoric: \"He won't say it outright, but he's...\"",
+                              "articyId": "0x0100000200000B39",
+                              "text": "He won't say it outright, but he's suggesting forgery.",
+                              "links": [
+                                {
+                                  "id": 254,
+                                  "title": "You: \"\"I was actually thinking of forging...\"",
+                                  "articyId": "0x0100000200000B6B",
+                                  "text": "\"I was actually thinking of forging Isobel Sadie's signature...\"",
+                                  "links": [
+                                    {
+                                      "id": 89,
+                                      "title": "Kim Kitsuragi: \"He nods approvingly. \"Not a decisio...\"",
+                                      "articyId": "0x0100000200000B83",
+                                      "text": "He nods approvingly. \"Not a decision I would normally condone, but, under the circumstances...\"",
+                                      "links": [
+                                        {
+                                          "id": 150,
+                                          "title": "Kim Kitsuragi: \"\"You probably don't have a pen.\" He...\"",
+                                          "articyId": "0x0100000200000C02",
+                                          "text": "\"You probably don't have a pen.\" He takes one out of his pocket. \"Here, you can keep this. I have another one.\"",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 55,
+                                          "title": "Logic: \"Or! You *could* try to trick Evrart...\"",
+                                          "articyId": "0x0100000400015DD4",
+                                          "text": "Or! You *could* try to trick Evrart. Get someone random to sign the document. By the time the Union boss finds out, your business here will already be concluded.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 131,
+                                  "title": "You: \"\"I thought of forging Isobel Sadies...\"",
+                                  "articyId": "0x0100000200000B77",
+                                  "text": "\"I thought of forging Isobel Sadies signature, but then decided against it. But now I see it may be the right thing to do.\"",
+                                  "links": [
+                                    {
+                                      "id": 255,
+                                      "title": "Kim Kitsuragi: \"He nods. \"Not the sort of act I wou...\"",
+                                      "articyId": "0x0100000200000B97",
+                                      "text": "He nods. \"Not the sort of act I would normally condone, but, under the circumstances, if done *discreetly*... it may be the only way to save what's left of the village.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 187,
+                                  "title": "You: \"\"I considered forgery and ruled it...\"",
+                                  "articyId": "0x0100000200000B7D",
+                                  "text": "\"I considered forgery and ruled it out. It's illegal and unethical.\"",
+                                  "links": [
+                                    {
+                                      "id": 68,
+                                      "title": "Kim Kitsuragi: \"\"I am not sure whether working with...\"",
+                                      "articyId": "0x0100000200000B91",
+                                      "text": "\"I am not sure whether working with Evrart is particularly ethical either... But I understand and respect your position.\" He looks off to the side, deep in thought.",
+                                      "links": [
+                                        {
+                                          "id": 133,
+                                          "title": "Esprit de Corps: \"He feels guilty about failing to pr...\"",
+                                          "articyId": "0x0100000200000C32",
+                                          "text": "He feels guilty about failing to protect the inhabitants of the fishing village from a greedy mob boss.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 253,
+                                  "title": "You: \"\"You're suggesting...\"\"",
+                                  "articyId": "0x0100000200000B3F",
+                                  "text": "\"You're suggesting...\"",
+                                  "links": [
+                                    {
+                                      "id": 149,
+                                      "title": "Kim Kitsuragi: \"He purses his lips. \"Forgery, yes....\"",
+                                      "articyId": "0x0100000200000B4B",
+                                      "text": "He purses his lips. \"Forgery, yes. It would render the document invalid.\"",
+                                      "links": [
+                                        {
+                                          "id": 151,
+                                          "title": "You: \"\"Oh yeah, let's do this.\"\"",
+                                          "articyId": "0x0100000200000C20",
+                                          "text": "\"Oh yeah, let's do this.\"",
+                                          "links": [
+                                            {
+                                              "id": 256,
+                                              "title": "Kim Kitsuragi: \"\"It's not the sort of act I would n...\"",
+                                              "articyId": "0x0100000200000C27",
+                                              "text": "\"It's not the sort of act I would normally encourage, but, under the circumstances, if done *discreetly*... it may be the only way to save what's left of the village.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 163,
+                                          "title": "You: \"\"That's illegal. I expected more fr...\"",
+                                          "articyId": "0x0100000200000B45",
+                                          "text": "\"That's illegal. I expected more from you, Kim.\"",
+                                          "links": [
+                                            {
+                                              "id": 24,
+                                              "title": "Kim Kitsuragi: \"\"I am not sure whether working with...\"",
+                                              "articyId": "0x0100000200000B51",
+                                              "text": "\"I am not sure whether working with Evrart is particularly ethical either... But I understand and respect your position.\" He looks off to the side, deep in thought.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 31,
+                      "title": "Logic: \"Well, you *could* trick Evrart. Get...\"",
+                      "articyId": "0x0100000400015DA4",
+                      "text": "Well, you *could* trick Evrart. Get someone random to sign the document. By the time the Union boss finds out, your business here will already be concluded.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 240,
+                  "title": "You: \"I guess that's just the cost of pro...\"",
+                  "articyId": "0x0100000200000BEC",
+                  "text": "I guess that's just the cost of progress.",
+                  "links": [
+                    {
+                      "id": 275,
+                      "title": "Kim Kitsuragi: \"\"Of course... I should have seen it...\"",
+                      "articyId": "0x0100000400015DC9",
+                      "text": "\"Of course... I should have seen it.\" He frowns as he reads over the document again. \"People will move away on their own accord. I'm not sure they should...\"",
+                      "links": [
+                        {
+                          "id": 213,
+                          "title": "Rhetoric: \"He is not altogether comfortable wi...\"",
+                          "articyId": "0x0100000400015DC3",
+                          "text": "He is not altogether comfortable with your contribution to progress in this instance.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 39,
+                      "title": "Logic: \"How very rational of you. Rational...\"",
+                      "articyId": "0x0100000200000B2D",
+                      "text": "How very rational of you. Rational of Evrart, too -- he will, no doubt, benefit from the village being abandoned.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 49,
+              "title": "Logic: \"There is no loophole. The simple tr...\"",
+              "articyId": "0x01000007000013DE",
+              "text": "There is no loophole. The simple truth is the current residents are going to lose their street access and for the next 12-40 months their lives will be dominated by constant construction noise right next door.",
+              "links": [
+                {
+                  "id": 280,
+                  "title": "You: \"Wait, what are the ramifications of...\"",
+                  "articyId": "0x01000007000013E4",
+                  "text": "Wait, what are the ramifications of this?",
+                  "links": [
+                    {
+                      "id": 145,
+                      "title": "Logic: \"Once the construction starts it'll...\"",
+                      "articyId": "0x01000007000013F9",
+                      "text": "Once the construction starts it'll probably take a few months -- a year maybe -- for even the most stubborn occupants to get tired of living like this. After that they'll sell their property for cheap and move out.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 196,
+                  "title": "You: \"This is terrible. Poor people. Can'...\"",
+                  "articyId": "0x01000007000013EF",
+                  "text": "This is terrible. Poor people. Can't I do something?",
+                  "links": [
+                    {
+                      "id": 33,
+                      "title": "Kim Kitsuragi: \"\"I should have seen it.\" The lieute...\"",
+                      "articyId": "0x010000070000140F",
+                      "text": "\"I should have seen it.\" The lieutenant frowns as he reads over the document again.",
+                      "links": [
+                        {
+                          "id": 297,
+                          "title": "Kim Kitsuragi: \"\"Evrart probably has eyes on us, bu...\"",
+                          "articyId": "0x0100000700001403",
+                          "text": "\"Evrart probably has eyes on us, but...\" He pauses to think. \"We could try to get other people to sign this instead of those listed. *Or* you could forge their signatures yourself. By the time he finds out, we'll already be gone.\"",
+                          "links": [
+                            {
+                              "id": 52,
+                              "title": "Kim Kitsuragi: \"\"However... We'll need access to th...\"",
+                              "articyId": "0x0100002F00012658",
+                              "text": "\"However... We'll need access to the coast before we do anything. Evrart won't believe you got villagers' signatures if you can't even get to the village.\" He shrugs. \"You can try a forgery as soon as we can cross the water lock.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 146,
+                      "title": "Logic: \"Well, you *could* trick Evrart. Get...\"",
+                      "articyId": "0x0100000700001415",
+                      "text": "Well, you *could* trick Evrart. Get some random people to sign the document. By the time the Union boss finds out, your business here will already be concluded.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 90,
+                  "title": "You: \"I guess that's just the cost of pro...\"",
+                  "articyId": "0x0100000200000BB6",
+                  "text": "I guess that's just the cost of progress.",
+                  "links": [
+                    {
+                      "id": 239,
+                      "title": "Kim Kitsuragi: \"\"I should have seen it.\" He frowns...\"",
+                      "articyId": "0x0100000200000BC7",
+                      "text": "\"I should have seen it.\" He frowns as he reads over the document again. \"People will move away on their own accord. Yes, I suppose change always has a price.\"",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Rhetoric: \"He is not altogether comfortable wi...\"",
+                          "articyId": "0x0100000200000BD4",
+                          "text": "He is not altogether comfortable with your contribution to progress in this instance.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 54,
+                      "title": "Logic: \"How very rational of you. Rational...\"",
+                      "articyId": "0x0100000200000BCD",
+                      "text": "How very rational of you. Rational of Evrart, too -- he will, no doubt, benefit from the village being abandoned.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 170,
+              "title": "Logic: \"Again, the document doesn't seem to...\"",
+              "articyId": "0x0100000700001368",
+              "text": "Again, the document doesn't seem to have any hidden clause. Maybe, just maybe, what you see is what you get with Mr. Evrart?",
+              "links": [
+                {
+                  "id": 48,
+                  "title": "Kim Kitsuragi: \"\"Hmmmm,\" the lieutenant hums, watch...\"",
+                  "articyId": "0x010000070000136F",
+                  "text": "\"Hmmmm,\" the lieutenant hums, watching you examine the document again.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 216,
+              "title": "Logic: \"There doesn't seem to be anything o...\"",
+              "articyId": "0x0100000700001306",
+              "text": "There doesn't seem to be anything of interest here. No fine print. You're smart. You can read.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 91,
+          "title": "You: \"Okay, let's do this! (Commence the...\"",
+          "articyId": "0x0100000700000E24",
+          "text": "Okay, let's do this! (Commence the forgery.)",
+          "links": [
+            {
+              "id": 143,
+              "title": "Interfacing: \"With a confident flourish you compl...\"",
+              "articyId": "0x0100000700000E69",
+              "text": "With a confident flourish you complete your forgery. What do you see on the signature line?",
+              "links": [
+                {
+                  "id": 43,
+                  "title": "You: \"The name: \"Isobel Sadie.\"\"",
+                  "articyId": "0x0100000700000E51",
+                  "text": "The name: \"Isobel Sadie.\"",
+                  "links": [
+                    {
+                      "id": 232,
+                      "title": "Interfacing: \"Indeed. To be honest, it does look...\"",
+                      "articyId": "0x0100000700001676",
+                      "text": "Indeed. To be honest, it does look very convincing. The calligraphy is close to superb. It might as well be her actual signature.",
+                      "links": [
+                        {
+                          "id": 76,
+                          "title": "Kim Kitsuragi: \"\"Good. Evrart will have to start ov...\"",
+                          "articyId": "0x010000070000167F",
+                          "text": "\"Good. Evrart will have to start over with his scheming.\" The lieutenant nods. \"When she denies that this is her signature the document will be rendered null and void.\"",
+                          "links": [
+                            {
+                              "id": 136,
+                              "title": "Kim Kitsuragi: \"\"Any halfway competent notary shoul...\"",
+                              "articyId": "0x0100000700005F6C",
+                              "text": "\"Any halfway competent notary should be able to handle this. *Not* getting her signature was probably the best thing to do.\"",
+                              "links": [
+                                {
+                                  "id": 140,
+                                  "title": "Kim Kitsuragi: \"\"Now all we have to do is mail thes...\"",
+                                  "articyId": "0x0100000200000C6F",
+                                  "text": "\"Now all we have to do is mail these. I think I saw a mailbox on the plaza.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 123,
+                          "title": "Interfacing: \"But it's not, and the document will...\"",
+                          "articyId": "0x010000070000168C",
+                          "text": "But it's not, and the document will be nullified if she disputes it. That means Evrart will have to start over.",
+                          "links": [
+                            {
+                              "id": 25,
+                              "title": "Interfacing: \"All you need to do now is mail the...\"",
+                              "articyId": "0x0100000200000C85",
+                              "text": "All you need to do now is mail the signatures to Evrart's accountant in La Delta.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 81,
+                  "title": "You: \"Two names: *Isobel Sadie* and *Lili...\"",
+                  "articyId": "0x0100000700009716",
+                  "text": "Two names: *Isobel Sadie* and *Lilienne Carter*.",
+                  "links": [
+                    {
+                      "id": 148,
+                      "title": "Interfacing: \"Indeed. Your forgery looks very con...\"",
+                      "articyId": "0x0100004000002C90",
+                      "text": "Indeed. Your forgery looks very convincing right next to Lilienne's actual signature. It might as well be real.",
+                      "links": [
+                        {
+                          "id": 63,
+                          "title": "Kim Kitsuragi: \"\"Good. Evrart will have to start ov...\"",
+                          "articyId": "0x0100004000002CA5",
+                          "text": "\"Good. Evrart will have to start over with his scheming.\" The lieutenant nods. \"When Isobel disputes her signature the document will be rendered null and void.\"",
+                          "links": [
+                            {
+                              "id": 201,
+                              "title": "Kim Kitsuragi: \"\"Any halfway competent notary shoul...\"",
+                              "articyId": "0x0100004000002CB4",
+                              "text": "\"Any halfway competent notary should be able to handle this. *Not* getting Isobel's actual signature was probably the best thing to do.\"",
+                              "links": [
+                                {
+                                  "id": 200,
+                                  "title": "Kim Kitsuragi: \"\"Now all we have to do is mail thes...\"",
+                                  "articyId": "0x010000070000972A",
+                                  "text": "\"Now all we have to do is mail these. I think I saw a mailbox on the plaza.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 161,
+                          "title": "Interfacing: \"But it is not, and the document wil...\"",
+                          "articyId": "0x0100004000002CAB",
+                          "text": "But it is not, and the document will be nullified if Isobel disputes it. That means Evrart will have to start over.",
+                          "links": [
+                            {
+                              "id": 251,
+                              "title": "Interfacing: \"All you need to do now is mail the...\"",
+                              "articyId": "0x0100000700009724",
+                              "text": "All you need to do now is mail the signatures to Evrart's accountant in La Delta.",
+                              "links": [
+                                {
+                                  "id": 139,
+                                  "title": "Visual Calculus: \"There was a mail delivery box in th...\"",
+                                  "articyId": "0x0100000700009761",
+                                  "text": "There was a mail delivery box in the plaza, near the corner of the bookstore.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 207,
+                      "title": "Interfacing: \"Indeed. They look distinctly differ...\"",
+                      "articyId": "0x010000070000971D",
+                      "text": "Indeed. They look distinctly different and very convincing. These might as well be their actual signatures.",
+                      "links": [
+                        {
+                          "id": 208,
+                          "title": "Kim Kitsuragi: \"\"Good. Evrart will have to start ov...\"",
+                          "articyId": "0x0100000700009745",
+                          "text": "\"Good. Evrart will have to start over with his scheming.\" The lieutenant nods. \"When Isobel and Lilienne dispute the signatures the document will be rendered null and void.\"",
+                          "links": [
+                            {
+                              "id": 238,
+                              "title": "Kim Kitsuragi: \"\"Any halfway competent notary shoul...\"",
+                              "articyId": "0x010000070000973F",
+                              "text": "\"Any halfway competent notary should be able to handle this. *Not* getting their actual signatures was probably the best thing to do.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 252,
+                          "title": "Interfacing: \"But they're not, and the document w...\"",
+                          "articyId": "0x010000070000974B",
+                          "text": "But they're not, and the document will be nullified if they dispute it. That means Evrart will have to start over.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 215,
+              "title": "Interfacing: \"The pen is shaking in your hand as...\"",
+              "articyId": "0x0100000700000E57",
+              "text": "The pen is shaking in your hand as you draw a pathetic little line.",
+              "links": [
+                {
+                  "id": 178,
+                  "title": "Kim Kitsuragi: \"\"This isn't going to work,\" the lie...\"",
+                  "articyId": "0x01000007000016FE",
+                  "text": "\"This isn't going to work,\" the lieutenant says, looking over your shoulder. \"It doesn't even look like a name. Just a scratch mark.\"",
+                  "links": [
+                    {
+                      "id": 61,
+                      "title": "You: \"\"Did I just ruin it?\"\"",
+                      "articyId": "0x010000070000170D",
+                      "text": "\"Did I just ruin it?\"",
+                      "links": [
+                        {
+                          "id": 212,
+                          "title": "Kim Kitsuragi: \"\"No, it's just a little line. Let's...\"",
+                          "articyId": "0x0100000400015C77",
+                          "text": "\"No, it's just a little line. Let's get an actual signature on top of it and it'll be fine.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 248,
+                          "title": "Kim Kitsuragi: \"\"No, it's just a little line. Let's...\"",
+                          "articyId": "0x0100000700001722",
+                          "text": "\"No, it's just a little line. Let's get an actual signature on top of it and it'll be fine.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 300,
+                  "title": "You: \"Keep drawing.\"",
+                  "articyId": "0x0100000700001704",
+                  "text": "Keep drawing.",
+                  "links": [
+                    {
+                      "id": 249,
+                      "title": "Interfacing: \"The line gets even shakier and star...\"",
+                      "articyId": "0x0100000700001747",
+                      "text": "The line gets even shakier and starts to curve towards the bottom of the page.",
+                      "links": [
+                        {
+                          "id": 77,
+                          "title": "You: \"Have I ruined the document?\"",
+                          "articyId": "0x0100000700001737",
+                          "text": "Have I ruined the document?",
+                          "links": [
+                            {
+                              "id": 296,
+                              "title": "Interfacing: \"No, it's just a line. Forgery obvio...\"",
+                              "articyId": "0x0100000400015C7F",
+                              "text": "No, it's just a line. Forgery obviously isn't your strong suit -- sorry for suggesting it. If you get someone to *actually* sign this, it should be fine.",
+                              "links": []
+                            },
+                            {
+                              "id": 124,
+                              "title": "Interfacing: \"No, it's just a line. Forgery obvio...\"",
+                              "articyId": "0x010000070000174F",
+                              "text": "No, it's just a line. Forgery obviously isn't your strong suit -- sorry for suggesting it. If you get someone to *actually* sign this, it should be fine.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 135,
+                  "title": "You: \"What have I done?\"",
+                  "articyId": "0x0100000700001729",
+                  "text": "What have I done?",
+                  "links": [
+                    {
+                      "id": 50,
+                      "title": "Interfacing: \"It appears you have drawn a line in...\"",
+                      "articyId": "0x0100000700001730",
+                      "text": "It appears you have drawn a line instead of a signature. A puny line. Looks like the late stages of dementia.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 276,
+          "title": "You: \"Put the documents back in the envel...\"",
+          "articyId": "0x01000007000012A8",
+          "text": "Put the documents back in the envelope. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015C05",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum. It's signed by 'Idiot Doom' Spiral and someone called 'Don't Call Abigail', apparently.",
+      "links": []
+    },
+    {
+      "id": 134,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015C0A",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum. It's signed by 'Idiot Doom Spiral' and someone called 'Domwtclall Abheqoeel', apparently.",
+      "links": []
+    },
+    {
+      "id": 115,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015C1A",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum. It's signed by Lilienne Carter and 'Idiot Doom Spiral'.",
+      "links": []
+    },
+    {
+      "id": 274,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015C1F",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum. Underneath all this -- Lilienne's signature and your little forgery.",
+      "links": []
+    },
+    {
+      "id": 152,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015C15",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum. It's signed by Isobel Sadie and Lilienne Carter.",
+      "links": []
+    },
+    {
+      "id": 168,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015C24",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum. Underneath all this -- Lilienne's signature and your little forgery.",
+      "links": []
+    },
+    {
+      "id": 29,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015C3B",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum. Underneath all this -- Lilienne's signature and an empty line, waiting for a signee.",
+      "links": []
+    },
+    {
+      "id": 30,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015C42",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum. Underneath all this -- your failed forgery.",
+      "links": []
+    },
+    {
+      "id": 142,
+      "title": "White Envelope: \"You take the legal documents out of...\"",
+      "articyId": "0x0100000400015C29",
+      "text": "You take the legal documents out of the envelope: a 12-40 month construction period and the zoning plan in the addendum.",
+      "links": []
+    }
+  ]
+}

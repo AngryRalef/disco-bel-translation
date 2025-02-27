@@ -1,0 +1,84 @@
+{
+  "id": "0x0100005A00002C93",
+  "title": "JAM ORB / fuckoffafterthought",
+  "description": "Afterthought dialogue if you told the lorry driver to fuck off.",
+  "dialogueTree": [
+    {
+      "id": 10,
+      "title": "Half Light: \"Damn, that felt *good*. Your heart'...\"",
+      "articyId": "0x0100005A00002CB2",
+      "text": "Damn, that felt *good*. Your heart's pounding nicely. You should tell people to fuck off more often.",
+      "links": [
+        {
+          "id": 4,
+          "title": "Volition: \"No, you shouldn't. You're an office...\"",
+          "articyId": "0x0100005A00002CEB",
+          "text": "No, you shouldn't. You're an officer of the law.",
+          "links": [
+            {
+              "id": 2,
+              "title": "You: \"\"Kim, I think I should tell people...\"",
+              "articyId": "0x0100005A00002CC0",
+              "text": "\"Kim, I think I should tell people to fuck off more often. It felt really good.\"",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Kim Kitsuragi: \"\"Not as a general rule, but that on...\"",
+                  "articyId": "0x0100005A00002CCE",
+                  "text": "\"Not as a general rule, but that one was justified. Better to get the lay of the land before telling people to fuck off.\"",
+                  "links": [
+                    {
+                      "id": 3,
+                      "title": "Authority: \"That means you should do it wheneve...\"",
+                      "articyId": "0x0100005A00002CDC",
+                      "text": "That means you should do it whenever you feel like someone's disrespecting your authority.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "title": "You: \"Fuck yeah, motherfuckers!\"",
+              "articyId": "0x0100005A00002CB9",
+              "text": "Fuck yeah, motherfuckers!",
+              "links": [
+                {
+                  "id": 5,
+                  "title": "Half Light: \"That's the spirit!\"",
+                  "articyId": "0x01000070000009B5",
+                  "text": "That's the spirit!",
+                  "links": [
+                    {
+                      "id": 7,
+                      "title": "Half Light: \"Never forget: The whole world's a w...\"",
+                      "articyId": "0x0100005A00002CF5",
+                      "text": "Never forget: The whole world's a wooden house and you're a god damn flamethrower.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 12,
+              "title": "You: \"It's not really my style.\"",
+              "articyId": "0x0100005A00002CC6",
+              "text": "It's not really my style.",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "Half Light: \"Hey, I've got an idea on how to fix...\"",
+                  "articyId": "0x0100005A00002CFB",
+                  "text": "Hey, I've got an idea on how to fix your style. Maybe you should just go fuck yourself? Yeah, ever thought of that?",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

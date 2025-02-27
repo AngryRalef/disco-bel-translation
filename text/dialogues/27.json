@@ -1,0 +1,389 @@
+{
+  "id": "0x010000040000DDEA",
+  "title": "PLAZA / mailbox",
+  "description": "A mailbox on the plaza.",
+  "dialogueTree": [
+    {
+      "id": 88,
+      "title": "Mail Collection Box: \"The dented yellow mailbox greets yo...\"",
+      "articyId": "0x0100000700001B5B",
+      "text": "The dented yellow mailbox greets you with it's graffito, bullet holes and an RCM sticker.",
+      "links": []
+    },
+    {
+      "id": 42,
+      "title": "Mail Collection Box: \"The dented yellow mailbox greets yo...\"",
+      "articyId": "0x0100000700001B55",
+      "text": "The dented yellow mailbox greets you with it's graffito and bullet holes in the front.",
+      "links": []
+    },
+    {
+      "id": 74,
+      "title": "Mail Collection Box: \"This \"Poste L'Aventurier\" mail coll...\"",
+      "articyId": "0x010000040000DDF9",
+      "text": "This \"Poste L'Aventurier\" mail collection box has been heavily vandalized with graffito. A closer inspection reveals two bullet holes in the front.",
+      "links": [
+        {
+          "id": 66,
+          "title": "Perception (Sight): \"A faint sticker on the side reads:...\"",
+          "articyId": "0x0100005A0000B21E",
+          "text": "A faint sticker on the side reads: \"RCM Emergencies Desk no 8-100-2\", with a slogan: \"Mankind, be vigilant!\"",
+          "links": [
+            {
+              "id": 94,
+              "title": "You: \"\"I knew we'd get to use this mailbo...\"",
+              "articyId": "0x0100000700001B65",
+              "text": "\"I knew we'd get to use this mailbox -- for something.\"",
+              "links": [
+                {
+                  "id": 89,
+                  "title": "Kim Kitsuragi: \"\"Other than kicking?\"\"",
+                  "articyId": "0x0100000700005C18",
+                  "text": "\"Other than kicking?\"",
+                  "links": []
+                },
+                {
+                  "id": 98,
+                  "title": "Kim Kitsuragi: \"\"Yes. For sending mail.\"\"",
+                  "articyId": "0x0100000700005C12",
+                  "text": "\"Yes. For sending mail.\"",
+                  "links": []
+                },
+                {
+                  "id": 9,
+                  "title": "Mail Collection Box: \"Other than kicking? You were right!\"",
+                  "articyId": "0x0100000700001BD1",
+                  "text": "Other than kicking? You were right!",
+                  "links": []
+                },
+                {
+                  "id": 43,
+                  "title": "Mail Collection Box: \"Other than developing a personal re...\"",
+                  "articyId": "0x0100000700001B78",
+                  "text": "Other than developing a personal relationship? Looks like you were right.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 30,
+              "title": "You: \"Drop the white envelope into the ma...\"",
+              "articyId": "0x0100000400015E32",
+              "text": "Drop the white envelope into the mailbox.",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Mail Collection Box: \"You drop the white envelope in the...\"",
+                  "articyId": "0x0100005A00010487",
+                  "text": "You drop the white envelope in the darkness. It lands with a soft thud on what sounds like a couple of letters.",
+                  "links": [
+                    {
+                      "id": 26,
+                      "title": "Perception (Hearing): \"About a week's worth of mail has co...\"",
+                      "articyId": "0x0100000700001BE1",
+                      "text": "About a week's worth of mail has collected in there. They'll empty this very soon.",
+                      "links": [
+                        {
+                          "id": 107,
+                          "title": "Logic: \"Probably did the right thing. You c...\"",
+                          "articyId": "0x0100008900002A6D",
+                          "text": "Probably did the right thing. You can't trust that slug Evrart -- you *know* he's going to play you somehow.",
+                          "links": [
+                            {
+                              "id": 106,
+                              "title": "Kim Kitsuragi: \"\"Let's go back to Evrart.\" The lieu...\"",
+                              "articyId": "0x0100000700001BEE",
+                              "text": "\"Let's go back to Evrart.\" The lieutenant turns towards the industrial harbour. \"This better be worth it -- after what we did.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 16,
+                              "title": "Kim Kitsuragi: \"\"Alright, let's go back to Evrart.\"...\"",
+                              "articyId": "0x0100000700005EDD",
+                              "text": "\"Alright, let's go back to Evrart.\" The lieutenant turns towards the industrial harbour. \"If we don't mention anything to him, he won't know before it's too late.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 35,
+                          "title": "Inland Empire: \"For good or ill, the deed is done.\"",
+                          "articyId": "0x0100005A00010496",
+                          "text": "For good or ill, the deed is done.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 21,
+              "title": "You: \"Drop the white envelope into the ma...\"",
+              "articyId": "0x0100006B000046EC",
+              "text": "Drop the white envelope into the mailbox.",
+              "links": []
+            },
+            {
+              "id": 17,
+              "title": "You: \"Drop the white envelope into the ma...\"",
+              "articyId": "0x0100005A0001048C",
+              "text": "Drop the white envelope into the mailbox.",
+              "links": []
+            },
+            {
+              "id": 73,
+              "title": "You: \"Drop the white envelope into the ma...\"",
+              "articyId": "0x0100005A00010474",
+              "text": "Drop the white envelope into the mailbox.",
+              "links": [
+                {
+                  "id": 93,
+                  "title": "Mail Collection Box: \"But the documents inside the envelo...\"",
+                  "articyId": "0x0100005A0001047A",
+                  "text": "But the documents inside the envelope still lack the required signatures...",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Kim Kitsuragi: \"\"It's not going to be that easy. We...\"",
+                      "articyId": "0x0100000700005EF0",
+                      "text": "\"It's not going to be that easy. We need to dirty our hands with the signatures.\" He looks around. \"I assume that's the goal here.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 77,
+                      "title": "Logic: \"It's not going to be that easy. Evr...\"",
+                      "articyId": "0x0100000700005EF7",
+                      "text": "It's not going to be that easy. Evrart wants you to dirty your hands getting these signatures and he will quickly find out if you just mail.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 36,
+              "title": "You: \"\"Good mail delivery box.\" (Pat the...\"",
+              "articyId": "0x010000040000DE14",
+              "text": "\"Good mail delivery box.\" (Pat the box.)",
+              "links": [
+                {
+                  "id": 38,
+                  "title": "Mail Collection Box: \"The mail collection box has no fait...\"",
+                  "articyId": "0x010000040000DEA6",
+                  "text": "The mail collection box has no faith in your psychopathic manipulations.",
+                  "links": []
+                },
+                {
+                  "id": 85,
+                  "title": "Mail Collection Box: \"The box seems happy.\"",
+                  "articyId": "0x010000040000DE29",
+                  "text": "The box seems happy.",
+                  "links": [
+                    {
+                      "id": 69,
+                      "title": "Perception (Sight): \"\"Eat shit, pig!\", \"FUCKED BY THE CU...\"",
+                      "articyId": "0x010000040000DE41",
+                      "text": "\"Eat shit, pig!\", \"FUCKED BY THE CUNN\" and \"Saint-G\" with a crown have been scribbled on it. \"Jennie is a WHORE\" and \"*Baise cette* mailbox!\" also.",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "You: \"I feel you, mail collection box.\"",
+                          "articyId": "0x010000040000DE59",
+                          "text": "I feel you, mail collection box.",
+                          "links": [
+                            {
+                              "id": 100,
+                              "title": "Mail Collection Box: \"The mail collection box seems catha...\"",
+                              "articyId": "0x010000040000DE6F",
+                              "text": "The mail collection box seems cathartic, thankful even. So do you. You shudder. Then you swallow.",
+                              "links": [
+                                {
+                                  "id": 118,
+                                  "title": "Shivers: \"And then suddenly you see it: over...\"",
+                                  "articyId": "0x010000040000DE7F",
+                                  "text": "And then suddenly you see it: over all the other graffitos someone has -- using the tip of a very sharp knife -- cut the words: REVACHOL FOREVER.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 48,
+                          "title": "You: \"Been there, *Poste L'Aventurier* ma...\"",
+                          "articyId": "0x010000040000DE5F",
+                          "text": "Been there, *Poste L'Aventurier* mail collection box... been there.",
+                          "links": []
+                        },
+                        {
+                          "id": 37,
+                          "title": "You: \"Mail collection box, you should man...\"",
+                          "articyId": "0x010000040000DE67",
+                          "text": "Mail collection box, you should man the fuck up.",
+                          "links": [
+                            {
+                              "id": 101,
+                              "title": "Mail Collection Box: \"The mailbox does not know how to ma...\"",
+                              "articyId": "0x010000040000DE76",
+                              "text": "The mailbox does not know how to man up, it is an inanimate object.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 56,
+                  "title": "Mail Collection Box: \"The mail collection box has no fait...\"",
+                  "articyId": "0x0100000700001BA7",
+                  "text": "The mail collection box has no faith in your psychopathic manipulations.",
+                  "links": []
+                },
+                {
+                  "id": 119,
+                  "title": "Mail Collection Box: \"The box seems happy.\"",
+                  "articyId": "0x0100000700001BAD",
+                  "text": "The box seems happy.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 44,
+              "title": "You: \"\"Fuck you, mail delivery box!\" (Kic...\"",
+              "articyId": "0x010000040000DE1A",
+              "text": "\"Fuck you, mail delivery box!\" (Kick it.)",
+              "links": [
+                {
+                  "id": 99,
+                  "title": "Mail Collection Box: \"There is a hollow ring as you kick...\"",
+                  "articyId": "0x010000040000DE39",
+                  "text": "There is a hollow ring as you kick the box. It sounds like it's mostly empty. Your toe hurts now.",
+                  "links": [
+                    {
+                      "id": 4,
+                      "title": "Pain Threshold: \"Your toe has suffered damage. It hu...\"",
+                      "articyId": "0x0100005A000104C2",
+                      "text": "Your toe has suffered damage. It hurts!",
+                      "links": [
+                        {
+                          "id": 87,
+                          "title": "Kim Kitsuragi: \"\"Cool.\" The lieutenant nods approvi...\"",
+                          "articyId": "0x010000040000DEC3",
+                          "text": "\"Cool.\" The lieutenant nods approvingly. \"You really showed that mail collection box.\"",
+                          "links": [
+                            {
+                              "id": 75,
+                              "title": "Rhetoric: \"He does not actually think it's coo...\"",
+                              "articyId": "0x010000040000DED3",
+                              "text": "He does not actually think it's cool. If anything, the lieutenant feels sorry for the poor box -- he's leaning in to inspect the layers of graffito that deface it.",
+                              "links": [
+                                {
+                                  "id": 6,
+                                  "title": "You: \"\"Oh, you're being sarcastic. I get...\"",
+                                  "articyId": "0x010000040000DEF4",
+                                  "text": "\"Oh, you're being sarcastic. I get it. It was actually a dick move.\"",
+                                  "links": [
+                                    {
+                                      "id": 49,
+                                      "title": "Kim Kitsuragi: \"The lieutenant pats the box, ever s...\"",
+                                      "articyId": "0x010000040000DF18",
+                                      "text": "The lieutenant pats the box, ever so slightly.",
+                                      "links": [
+                                        {
+                                          "id": 7,
+                                          "title": "Empathy: \"Dodged the bullet there... He must...\"",
+                                          "articyId": "0x010000040000DF25",
+                                          "text": "Dodged the bullet there... He must see the box as the weaker of the two, and you as a bully -- something he doesn't stand for.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 76,
+                                  "title": "You: \"(Rub your toe.) \"You think so? You...\"",
+                                  "articyId": "0x010000040000DEFA",
+                                  "text": "(Rub your toe.) \"You think so? You think it was cool?\"",
+                                  "links": [
+                                    {
+                                      "id": 2,
+                                      "title": "Kim Kitsuragi: \"\"I don't. Let's go.\"\"",
+                                      "articyId": "0x010000040000DF11",
+                                      "text": "\"I don't. Let's go.\"",
+                                      "links": [
+                                        {
+                                          "id": 8,
+                                          "title": "Empathy: \"He must see the box as the weaker o...\"",
+                                          "articyId": "0x010000040000DF2B",
+                                          "text": "He must see the box as the weaker of the two, and you as a bully -- something he doesn't stand for.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 108,
+                                  "title": "You: \"Say nothing. [Leave.]\"",
+                                  "articyId": "0x010000040000DF00",
+                                  "text": "Say nothing. [Leave.]",
+                                  "links": [
+                                    {
+                                      "id": 19,
+                                      "title": "Kim Kitsuragi: \"The lieutenant pats the box on the...\"",
+                                      "articyId": "0x010000040000DF07",
+                                      "text": "The lieutenant pats the box on the head, ever so slightly, before walking away.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 105,
+                  "title": "Mail Collection Box: \"There is a hollow, saddened ring as...\"",
+                  "articyId": "0x010000040000DEB9",
+                  "text": "There is a hollow, saddened ring as you kick the L'Aventurier mail collection box. It sounds betrayed, in disbelief even.",
+                  "links": []
+                },
+                {
+                  "id": 96,
+                  "title": "Mail Collection Box: \"There is a hollow ring as you kick...\"",
+                  "articyId": "0x0100000700001B95",
+                  "text": "There is a hollow ring as you kick the box. It sounds like it's mostly empty. Your toe hurts now.",
+                  "links": []
+                },
+                {
+                  "id": 95,
+                  "title": "Mail Collection Box: \"There is a hollow, saddened ring as...\"",
+                  "articyId": "0x0100000700001B8F",
+                  "text": "There is a hollow, saddened ring as you kick the L'Aventurier mail collection box. It sounds betrayed, in disbelief even.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 22,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x010000040000DE20",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

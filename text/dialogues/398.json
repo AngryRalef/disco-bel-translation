@@ -1,0 +1,579 @@
+{
+  "id": "0x0100005900009762",
+  "title": "CONTAINERYARD / RICH GUY CONTAINER DOOR",
+  "description": "Here be the container door with which you converse good Sir, getting rhetorical awards you the ability to *drum-roll* enter the container!",
+  "dialogueTree": [
+    {
+      "id": 100,
+      "title": "Cargo Container Door: \"The door seems to be locked. Conclu...\"",
+      "articyId": "0x0100006A00003697",
+      "text": "The door seems to be locked. Conclusively.",
+      "links": []
+    },
+    {
+      "id": 115,
+      "title": "Cargo Container Door: \"You're back before the cargo contai...\"",
+      "articyId": "0x0100007B00001E81",
+      "text": "You're back before the cargo container. Its draw has not lessened since you were last here. If anything, it seems to have grown slightly.",
+      "links": [
+        {
+          "id": 30,
+          "title": "You: \"Knock on the door.\"",
+          "articyId": "0x0100006A0000362A",
+          "text": "Knock on the door.",
+          "links": [
+            {
+              "id": 33,
+              "title": "Cargo Container Door: \"No reply.\"",
+              "articyId": "0x0100006A00003631",
+              "text": "No reply.",
+              "links": [
+                {
+                  "id": 34,
+                  "title": "Perception (Hearing): \"The knock produces a hollow ring of...\"",
+                  "articyId": "0x0100006A00003638",
+                  "text": "The knock produces a hollow ring of metal. Doesn't sound like there's anything inside the container.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "title": "You: \"Open the door.\"",
+          "articyId": "0x0100005900009782",
+          "text": "Open the door.",
+          "links": [
+            {
+              "id": 138,
+              "title": "Cargo Container Door: \"You attempt to turn the handle, to...\"",
+              "articyId": "0x0100005900009791",
+              "text": "You attempt to turn the handle, to no avail. The doors seem to be mechanically locked.",
+              "links": [
+                {
+                  "id": 45,
+                  "title": "Esprit de Corps: \"To your left, the lieutenant consid...\"",
+                  "articyId": "0x0100000600018631",
+                  "text": "To your left, the lieutenant considers your actions -- with some puzzlement.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "title": "You: \"Persuade the door to open.\"",
+          "articyId": "0x01000059000097C7",
+          "text": "Persuade the door to open.",
+          "links": [
+            {
+              "id": 39,
+              "title": "Savoir Faire: \"Step aside, rank and file, Savvy's...\"",
+              "articyId": "0x0100000F00012139",
+              "text": "Step aside, rank and file, Savvy's at the top of the VIP list here. That's right -- out of the way!",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "Rhetoric: \"Whoa! Watch it!\"",
+                  "articyId": "0x0100000F00016858",
+                  "text": "Whoa! Watch it!",
+                  "links": [
+                    {
+                      "id": 60,
+                      "title": "Physical Instrument: \"How'd he get in front? Little slime...\"",
+                      "articyId": "0x0100000F0001685E",
+                      "text": "How'd he get in front? Little slimeball...",
+                      "links": [
+                        {
+                          "id": 129,
+                          "title": "Savoir Faire: \"Thank you, thank you. Now, are you...\"",
+                          "articyId": "0x0100000F00016788",
+                          "text": "Thank you, thank you. Now, are you ready? It's time to *make our entrance*.",
+                          "links": [
+                            {
+                              "id": 31,
+                              "title": "You: \"\"Khm-khm...\" (Clear your throat, kn...\"",
+                              "articyId": "0x0100000F0001213F",
+                              "text": "\"Khm-khm...\" (Clear your throat, knock on the door.) \"Hi, it's Savvy here, Savvy with two v's, I'm on the list. The guest list.\"",
+                              "links": [
+                                {
+                                  "id": 81,
+                                  "title": "Cargo Container Door: \"At first your knock rings hollow on...\"",
+                                  "articyId": "0x010000580001FB38",
+                                  "text": "At first your knock rings hollow on the door -- and then...",
+                                  "links": [
+                                    {
+                                      "id": 57,
+                                      "title": "Cargo Container Door: \"Just like that, you hear a click. T...\"",
+                                      "articyId": "0x0100006A0000367C",
+                                      "text": "Just like that, you hear a click. Then a rattle. Some mechanism unlocks itself inside the door.",
+                                      "links": [
+                                        {
+                                          "id": 61,
+                                          "title": "Mega Rich Light-Bending Guy: \"From deep within the container, a v...\"",
+                                          "articyId": "0x010000590000999E",
+                                          "text": "From deep within the container, a voice: \"Ahoy! Come on in!\"",
+                                          "links": [
+                                            {
+                                              "id": 43,
+                                              "title": "Kim Kitsuragi: \"The smile disappears. \"You can't be...\"",
+                                              "articyId": "0x010000700000393A",
+                                              "text": "The smile disappears. \"You can't be serious.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 40,
+              "title": "Rhetoric: \"Despite the dirt that surrounds and...\"",
+              "articyId": "0x0100005900009976",
+              "text": "Despite the dirt that surrounds and trails you, a beacon of light emerges from deep within you.",
+              "links": [
+                {
+                  "id": 118,
+                  "title": "You: \"\"Hello, is there anybody in there?\"\"",
+                  "articyId": "0x010000590000997D",
+                  "text": "\"Hello, is there anybody in there?\"",
+                  "links": [
+                    {
+                      "id": 84,
+                      "title": "Cargo Container Door: \"The door stands silent.\"",
+                      "articyId": "0x0100006A00003613",
+                      "text": "The door stands silent.",
+                      "links": [
+                        {
+                          "id": 134,
+                          "title": "Kim Kitsuragi: \"\"Satisfied, detective?\" A wry smile...\"",
+                          "articyId": "0x010000700000392B",
+                          "text": "\"Satisfied, detective?\" A wry smile crosses the lieutenant's face.",
+                          "links": []
+                        },
+                        {
+                          "id": 17,
+                          "title": "Rhetoric: \"Try again.\"",
+                          "articyId": "0x010000700000391F",
+                          "text": "Try again.",
+                          "links": [
+                            {
+                              "id": 110,
+                              "title": "You: \"\"If there's someone in there, I'd l...\"",
+                              "articyId": "0x0100005900009996",
+                              "text": "\"If there's someone in there, I'd like to talk to you.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 143,
+              "title": "Rhetoric: \"Aaaaand as it's always been -- it's...\"",
+              "articyId": "0x010000820001FA8A",
+              "text": "Aaaaand as it's always been -- it's impossible to open a container with rhetoric. Maybe you're losing your mind?",
+              "links": [
+                {
+                  "id": 117,
+                  "title": "Savoir Faire: \"Seems like it. You're still hanging...\"",
+                  "articyId": "0x0100000F00016897",
+                  "text": "Seems like it. You're still hanging with this fool? Something isn't right...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "title": "Rhetoric: \"Why are you even trying to open a d...\"",
+              "articyId": "0x0100005900009945",
+              "text": "Why are you even trying to open a door with rhetoric?",
+              "links": [
+                {
+                  "id": 56,
+                  "title": "Savoir Faire: \"That's a very good question conside...\"",
+                  "articyId": "0x0100000F0001688D",
+                  "text": "That's a very good question considering you have Savvy around -- the ultimate VIP.",
+                  "links": []
+                },
+                {
+                  "id": 94,
+                  "title": "You: \"\"Because getting physical wasn't an...\"",
+                  "articyId": "0x01000070000038DA",
+                  "text": "\"Because getting physical wasn't an option!\"",
+                  "links": [
+                    {
+                      "id": 125,
+                      "title": "Kim Kitsuragi: \"\"Because what wasn't an option?\" Th...\"",
+                      "articyId": "0x01000070000038F5",
+                      "text": "\"Because what wasn't an option?\" The lieutenant looks startled.",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "You: \"\"Using my body over my wits.\"\"",
+                          "articyId": "0x0100007000003911",
+                          "text": "\"Using my body over my wits.\"",
+                          "links": [
+                            {
+                              "id": 29,
+                              "title": "Kim Kitsuragi: \"\"Now is not the time to get philoso...\"",
+                              "articyId": "0x01000070000038D2",
+                              "text": "\"Now is not the time to get philosophical, detective. You can do that after hours.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 41,
+                          "title": "You: \"\"Never mind.\"\"",
+                          "articyId": "0x0100006A0000360C",
+                          "text": "\"Never mind.\"",
+                          "links": [
+                            {
+                              "id": 63,
+                              "title": "Kim Kitsuragi: \"The lieutenant nods. \"Are you satis...\"",
+                              "articyId": "0x01000070000038CA",
+                              "text": "The lieutenant nods. \"Are you satisfied, detective?\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 121,
+                      "title": "Physical Instrument: \"Have I been summoned?\"",
+                      "articyId": "0x01000070000038E1",
+                      "text": "Have I been summoned?",
+                      "links": [
+                        {
+                          "id": 16,
+                          "title": "Rhetoric: \"No one needs you. Go away.\"",
+                          "articyId": "0x01000070000038E8",
+                          "text": "No one needs you. Go away.",
+                          "links": []
+                        },
+                        {
+                          "id": 126,
+                          "title": "Rhetoric: \"You've got to dance with the one th...\"",
+                          "articyId": "0x0100007000003909",
+                          "text": "You've got to dance with the one that brought you, detective.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 32,
+                  "title": "You: \"\"Yeah, why *am* I?\"\"",
+                  "articyId": "0x010000590000994C",
+                  "text": "\"Yeah, why *am* I?\"",
+                  "links": [
+                    {
+                      "id": 75,
+                      "title": "Kim Kitsuragi: \"\"Why are you what?\" The lieutenant...\"",
+                      "articyId": "0x0100005900009963",
+                      "text": "\"Why are you what?\" The lieutenant looks startled.",
+                      "links": [
+                        {
+                          "id": 90,
+                          "title": "You: \"\"Anything at all.\"\"",
+                          "articyId": "0x010000590000996A",
+                          "text": "\"Anything at all.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 42,
+                      "title": "Rhetoric: \"Who understands anything you do?\"",
+                      "articyId": "0x0100006B0000A43E",
+                      "text": "Who understands anything you do?",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "You: \"Nothing more to do here for now. [L...\"",
+          "articyId": "0x0100005900009789",
+          "text": "Nothing more to do here for now. [Leave.]",
+          "links": []
+        },
+        {
+          "id": 91,
+          "title": "You: \"\"Hey there, sugar.\"\"",
+          "articyId": "0x01000059000097E6",
+          "text": "\"Hey there, sugar.\"",
+          "links": [
+            {
+              "id": 92,
+              "title": "Cargo Container Door: \"The container door appears unmoved...\"",
+              "articyId": "0x0100005900009898",
+              "text": "The container door appears unmoved by your attempt at flattery.",
+              "links": [
+                {
+                  "id": 120,
+                  "title": "Suggestion: \"A tough nut to crack, for sure. But...\"",
+                  "articyId": "0x0100007000003878",
+                  "text": "A tough nut to crack, for sure. But the strongest containers often have the softest hearts.",
+                  "links": [
+                    {
+                      "id": 99,
+                      "title": "You: \"\"You're a fine piece of engineering...\"",
+                      "articyId": "0x010000590000989F",
+                      "text": "\"You're a fine piece of engineering, do you know that?\"",
+                      "links": [
+                        {
+                          "id": 147,
+                          "title": "Cargo Container Door: \"The door does not respond to your a...\"",
+                          "articyId": "0x0100007000003887",
+                          "text": "The door does not respond to your advances. Is it possible that it seems somehow *more* closed than before?",
+                          "links": [
+                            {
+                              "id": 111,
+                              "title": "Inland Empire: \"Why does this situation feel so fam...\"",
+                              "articyId": "0x0100007000003890",
+                              "text": "Why does this situation feel so familiar? Do you have a history of propositioning inanimate objects?",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 85,
+                      "title": "You: \"\"C'mon, don't shut me out. Let me i...\"",
+                      "articyId": "0x010000700000387F",
+                      "text": "\"C'mon, don't shut me out. Let me in.\"",
+                      "links": [
+                        {
+                          "id": 55,
+                          "title": "Cargo Container Door: \"The door does not respond to your a...\"",
+                          "articyId": "0x010000820001FAA5",
+                          "text": "The door does not respond to your advances. Is it possible that it seems somehow *more* closed than before?",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 127,
+                      "title": "You: \"\"It's just another day, another cop...\"",
+                      "articyId": "0x010000820001F9BB",
+                      "text": "\"It's just another day, another cop and another container.\"",
+                      "links": [
+                        {
+                          "id": 86,
+                          "title": "Cargo Container Door: \"The mundaneness of the situation do...\"",
+                          "articyId": "0x010000820001FA97",
+                          "text": "The mundaneness of the situation does not seem to affect the container in the slightest.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"[Leave the container alone.]\"",
+          "articyId": "0x010000820001F9B3",
+          "text": "[Leave the container alone.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cargo Container Door: \"Before you stands a cargo container...\"",
+      "articyId": "0x0100005900009770",
+      "text": "Before you stands a cargo container. Just one of many in the yard.",
+      "links": [
+        {
+          "id": 46,
+          "title": "You: \"\"Lieutenant, I think there's someth...\"",
+          "articyId": "0x0100005900009775",
+          "text": "\"Lieutenant, I think there's something *special* about this container...\"",
+          "links": [
+            {
+              "id": 133,
+              "title": "Kim Kitsuragi: \"The lieutenant sighs. \"Is this like...\"",
+              "articyId": "0x0100007000003859",
+              "text": "The lieutenant sighs. \"Is this like your thing with that wall again?\"",
+              "links": [
+                {
+                  "id": 15,
+                  "title": "You: \"\"No, it's totally different. I don'...\"",
+                  "articyId": "0x0100007000003867",
+                  "text": "\"No, it's totally different. I don't want to paint it. I'm just *drawn* to it.\"",
+                  "links": [
+                    {
+                      "id": 83,
+                      "title": "Kim Kitsuragi: \"\"There are a million containers her...\"",
+                      "articyId": "0x01000059000097B2",
+                      "text": "\"There are a million containers here. Why are you fixating on this one?\"",
+                      "links": [
+                        {
+                          "id": 10,
+                          "title": "You: \"\"Mark my words -- there's someone r...\"",
+                          "articyId": "0x0100000F00012104",
+                          "text": "\"Mark my words -- there's someone rich buzzing away inside!\"",
+                          "links": [
+                            {
+                              "id": 80,
+                              "title": "Kim Kitsuragi: \"\"I don't hear anything.\" The lieute...\"",
+                              "articyId": "0x0100000F0001210B",
+                              "text": "\"I don't hear anything.\" The lieutenant cups one of his ears.",
+                              "links": [
+                                {
+                                  "id": 128,
+                                  "title": "You: \"\"That's because you're not *tuned i...\"",
+                                  "articyId": "0x0100000F00012112",
+                                  "text": "\"That's because you're not *tuned in*. Perks of being a hustler. You'll see -- I'll be rolling in money soon.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 18,
+                          "title": "You: \"\"It was hanging from the crane.\"\"",
+                          "articyId": "0x010000820001FA3A",
+                          "text": "\"It was hanging from the crane.\"",
+                          "links": [
+                            {
+                              "id": 116,
+                              "title": "Kim Kitsuragi: \"\"You just picked one out, because y...\"",
+                              "articyId": "0x010000820001FA42",
+                              "text": "\"You just picked one out, because you wanted to interact with a cargo container.\"",
+                              "links": [
+                                {
+                                  "id": 79,
+                                  "title": "Kim Kitsuragi: \"\"We're not here to interact with co...\"",
+                                  "articyId": "0x0100000600018607",
+                                  "text": "\"We're not here to interact with containers -- we're here to get the body down from the tree.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 59,
+                                  "title": "Kim Kitsuragi: \"\"We're not here to interact with co...\"",
+                                  "articyId": "0x0100000600018614",
+                                  "text": "\"We're not here to interact with containers -- we're here to interview the Union boss.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 88,
+                                  "title": "Kim Kitsuragi: \"\"We're not here to interact with co...\"",
+                                  "articyId": "0x0100000600018620",
+                                  "text": "\"We're not here to interact with containers -- we're here to talk to the Union, right?\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 89,
+                          "title": "You: \"\"I don't know, Kim, it just *feels*...\"",
+                          "articyId": "0x01000059000097C0",
+                          "text": "\"I don't know, Kim, it just *feels* special.\"",
+                          "links": [
+                            {
+                              "id": 106,
+                              "title": "Kim Kitsuragi: \"\"It's a cargo container, detective....\"",
+                              "articyId": "0x01000059000097EC",
+                              "text": "\"It's a cargo container, detective. Just like all the others.\" He doesn't even look at it.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 14,
+                          "title": "You: \"(Inspect the container.) \"Maybe the...\"",
+                          "articyId": "0x01000059000097D1",
+                          "text": "(Inspect the container.) \"Maybe there's contraband in there?\"",
+                          "links": [
+                            {
+                              "id": 47,
+                              "title": "Kim Kitsuragi: \"The lieutenant considers this for a...\"",
+                              "articyId": "0x01000059000097DF",
+                              "text": "The lieutenant considers this for a moment. \"There may very well be, but we're not here to look for that.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 87,
+                          "title": "You: \"\"You're right, it's probably nothin...\"",
+                          "articyId": "0x01000006000185EE",
+                          "text": "\"You're right, it's probably nothing.\"",
+                          "links": [
+                            {
+                              "id": 44,
+                              "title": "Kim Kitsuragi: \"\"Damn it, now you've got *me* curio...\"",
+                              "articyId": "0x01000006000185F5",
+                              "text": "\"Damn it, now you've got *me* curious... this is *not* what we came to the harbour for.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 35,
+                  "title": "You: \"\"Maybe? I can't tell. I think we sh...\"",
+                  "articyId": "0x010000700000386E",
+                  "text": "\"Maybe? I can't tell. I think we should investigate further.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Kim Kitsuragi: \"\"You do? Because I don't.\"\"",
+              "articyId": "0x01000059000097A4",
+              "text": "\"You do? Because I don't.\"",
+              "links": [
+                {
+                  "id": 105,
+                  "title": "You: \"\"What, why not?\"\"",
+                  "articyId": "0x01000059000097B9",
+                  "text": "\"What, why not?\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

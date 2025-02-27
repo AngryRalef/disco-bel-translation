@@ -1,0 +1,191 @@
+{
+  "id": "0x0100000600017790",
+  "title": "COAST ORB / abandoned summer house",
+  "description": "",
+  "dialogueTree": [
+    {
+      "id": 6,
+      "title": "Inland Empire: \"Rust peels off the bent iron posts...\"",
+      "articyId": "0x010000060001779D",
+      "text": "Rust peels off the bent iron posts of the swing. The wind whistles through the skeleton of the small house behind you. There's desolation... everywhere.",
+      "links": [
+        {
+          "id": 32,
+          "title": "Empathy: \"Yet someone used to live here. Laug...\"",
+          "articyId": "0x0100000600017822",
+          "text": "Yet someone used to live here. Laugh here. Thought it was a good idea to build a *swing* even...",
+          "links": []
+        },
+        {
+          "id": 12,
+          "title": "You: \"\"What happened here?\"\"",
+          "articyId": "0x01000006000177AA",
+          "text": "\"What happened here?\"",
+          "links": [
+            {
+              "id": 3,
+              "title": "Kim Kitsuragi: \"\"In this yard?\" The lieutenant look...\"",
+              "articyId": "0x01000006000177B7",
+              "text": "\"In this yard?\" The lieutenant looks at the small building. A flock of grey swallows takes off in the distance.",
+              "links": [
+                {
+                  "id": 25,
+                  "title": "Visual Calculus: \"He's assessing the situation. How l...\"",
+                  "articyId": "0x01000006000177C4",
+                  "text": "He's assessing the situation. How long ago was it abandoned.",
+                  "links": [
+                    {
+                      "id": 21,
+                      "title": "Kim Kitsuragi: \"\"Someone thought they could have a...\"",
+                      "articyId": "0x01000006000177BE",
+                      "text": "\"Someone thought they could have a summer house in a *bloc obscur*. For cheap. It didn't work out. They abandoned it about a decade ago.\"",
+                      "links": [
+                        {
+                          "id": 31,
+                          "title": "You: \"\"Wait, what's a *bloc obscur?*\"\"",
+                          "articyId": "0x01000006000177D2",
+                          "text": "\"Wait, what's a *bloc obscur?*\"",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Kim Kitsuragi: \"\"A black bloc, a part of the city l...\"",
+                              "articyId": "0x01000006000177DF",
+                              "text": "\"A black bloc, a part of the city left unrenovated after the war. Or one that has fallen to gang violence. Or has become inhospitable in some other way.\"",
+                              "links": [
+                                {
+                                  "id": 29,
+                                  "title": "Encyclopedia: \"On aerial photos, bloc obscures loo...\"",
+                                  "articyId": "0x01000006000177E6",
+                                  "text": "On aerial photos, bloc obscures look like dark squares. Hence their name.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 7,
+                          "title": "You: \"\"So this part of the coast is a *bl...\"",
+                          "articyId": "0x01000006000177D8",
+                          "text": "\"So this part of the coast is a *bloc obscur*?\"",
+                          "links": [
+                            {
+                              "id": 22,
+                              "title": "Kim Kitsuragi: \"\"Practically. It's not an official...\"",
+                              "articyId": "0x01000006000177EE",
+                              "text": "\"Practically. It's not an official term in any way, but...\" he spreads his arms, \"look around -- no sewage, broken power lines, crime, drunks... Life is tough in the blocs. It's no place to build a summer house.\"",
+                              "links": [
+                                {
+                                  "id": 23,
+                                  "title": "You: \"\"At least they left some old music...\"",
+                                  "articyId": "0x0100000600017803",
+                                  "text": "\"At least they left some old music behind.\" (Tap on the tape you picked up)",
+                                  "links": [
+                                    {
+                                      "id": 4,
+                                      "title": "Kim Kitsuragi: \"\"Yes -- and you picked it up as par...\"",
+                                      "articyId": "0x010000060001782A",
+                                      "text": "\"Yes -- and you picked it up as part of the Jamrock shuffle.\" He gives you a weary smile.",
+                                      "links": [
+                                        {
+                                          "id": 10,
+                                          "title": "Esprit de Corps: \"It's not meant as nagging, just an...\"",
+                                          "articyId": "0x0100000600017832",
+                                          "text": "It's not meant as nagging, just an observation.",
+                                          "links": [
+                                            {
+                                              "id": 30,
+                                              "title": "Kim Kitsuragi: \"\"We should move. I don't think our...\"",
+                                              "articyId": "0x0100000600017846",
+                                              "text": "\"We should move. I don't think our suspect is in this particular yard. No place to hide, and besides, it's too close to Martinaise.\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 15,
+                                              "title": "Kim Kitsuragi: \"\"We should move. I don't think we w...\"",
+                                              "articyId": "0x0100000600017838",
+                                              "text": "\"We should move. I don't think we will solve the murder with forays into the urban hinterland. At least in this phase of the investigation.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 8,
+                                  "title": "You: \"\"Maybe they left something useful b...\"",
+                                  "articyId": "0x0100000600017809",
+                                  "text": "\"Maybe they left something useful behind?\"",
+                                  "links": [
+                                    {
+                                      "id": 17,
+                                      "title": "Kim Kitsuragi: \"\"Yes -- for you to pick up as part...\"",
+                                      "articyId": "0x010000060001784F",
+                                      "text": "\"Yes -- for you to pick up as part of the Jamrock shuffle.\" He gives you a weary smile.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 24,
+                                  "title": "You: \"\"You're right -- it's no place. Let...\"",
+                                  "articyId": "0x0100000600017859",
+                                  "text": "\"You're right -- it's no place. Let's go.\" [Finish]",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "You: \"What happened here?\"",
+          "articyId": "0x01000006000177B0",
+          "text": "What happened here?",
+          "links": [
+            {
+              "id": 19,
+              "title": "Inland Empire: \"In this yard? Someone thought they...\"",
+              "articyId": "0x0100000600017811",
+              "text": "In this yard? Someone thought they could have a summer house on the beach. For cheap. It didn't work out. Looks like they abandoned it.",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "Empathy: \"A long time ago, someone used to li...\"",
+                  "articyId": "0x0100000600017869",
+                  "text": "A long time ago, someone used to live here. Laugh here. Thought it was a good idea to build a *swing* even... an intense loneliness comes over you.",
+                  "links": [
+                    {
+                      "id": 9,
+                      "title": "Electrochemistry: \"This is a good place for a nice *sa...\"",
+                      "articyId": "0x0100000600017874",
+                      "text": "This is a good place for a nice *sad* drink. Uncork a velvety bottle of red wine and think about life for a moment. Really *philosophise*.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "You: \"[Discard thought.]\"",
+          "articyId": "0x0100000600017818",
+          "text": "[Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

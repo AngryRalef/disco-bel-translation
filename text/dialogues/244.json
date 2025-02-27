@@ -1,0 +1,280 @@
+{
+  "id": "0x010000450000E78D",
+  "title": "WHIRLING F1 / ELEVATOR",
+  "description": "1. You experience the lovely elevator and wonder what it was used for.\n2. You can go up and down.",
+  "dialogueTree": [
+    {
+      "id": 2,
+      "title": "Elevator: \"The elevator stands open, inviting...\"",
+      "articyId": "0x0100005800007120",
+      "text": "The elevator stands open, inviting you to step inside.",
+      "links": [
+        {
+          "id": 19,
+          "title": "Logic: \"This elevator must have been used t...\"",
+          "articyId": "0x0100005800009F0B",
+          "text": "This elevator must have been used to transport pinball machines to and from the upstairs workshop.",
+          "links": []
+        },
+        {
+          "id": 21,
+          "title": "You: \"Look at the elevator controls.\"",
+          "articyId": "0x010000580000725E",
+          "text": "Look at the elevator controls.",
+          "links": [
+            {
+              "id": 34,
+              "title": "Elevator: \"There are large rectangular buttons...\"",
+              "articyId": "0x010000580000727F",
+              "text": "There are large rectangular buttons: 'Monter', 'Descendre', and an international: 'Call for Emergency Assistance'. That third one appears to be broken.",
+              "links": [
+                {
+                  "id": 46,
+                  "title": "Encyclopedia: \"A small steel plaque reads 'Halter...\"",
+                  "articyId": "0x0100007800010AA4",
+                  "text": "A small steel plaque reads 'Halter 800'. Halter is a Königsteiner lift company who went out of business a long, long time ago.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "title": "You: \"\"It says the last maintenance was i...\"",
+          "articyId": "0x01000058000072BD",
+          "text": "\"It says the last maintenance was in '88.\"",
+          "links": [
+            {
+              "id": 43,
+              "title": "Kim Kitsuragi: \"\"That it does.\" The lieutenant peek...\"",
+              "articyId": "0x01000058000072CB",
+              "text": "\"That it does.\" The lieutenant peeks in. \"I say -- let's brave it.\"",
+              "links": [
+                {
+                  "id": 22,
+                  "title": "You: \"\"This elevator was last maintained...\"",
+                  "articyId": "0x01000058000072D2",
+                  "text": "\"This elevator was last maintained in the *future*?\"",
+                  "links": [
+                    {
+                      "id": 35,
+                      "title": "Kim Kitsuragi: \"\"No, it was maintained in '88 of th...\"",
+                      "articyId": "0x01000058000072E4",
+                      "text": "\"No, it was maintained in '88 of the *previous* century.\"",
+                      "links": [
+                        {
+                          "id": 14,
+                          "title": "You: \"\"So it's *not* a message from the f...\"",
+                          "articyId": "0x01000058000072EA",
+                          "text": "\"So it's *not* a message from the future?\"",
+                          "links": [
+                            {
+                              "id": 18,
+                              "title": "Kim Kitsuragi: \"\"No, I think the bureaucrats just f...\"",
+                              "articyId": "0x01000058000072FC",
+                              "text": "\"No, I think the bureaucrats just forgot about this back-room elevator after the Revolution.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 28,
+                          "title": "You: \"\"That's disappointing.\"\"",
+                          "articyId": "0x01000058000072F0",
+                          "text": "\"That's disappointing.\"",
+                          "links": [
+                            {
+                              "id": 15,
+                              "title": "Kim Kitsuragi: \"\"If some form of time travel become...\"",
+                              "articyId": "0x0100005800007302",
+                              "text": "\"If some form of time travel becomes possible in the future, I doubt its inventors will use it to repair elevators in Martinaise,” the lieutenant responds with a grave voice.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 24,
+                          "title": "You: \"\"That means it's not really that sa...\"",
+                          "articyId": "0x01000058000072D8",
+                          "text": "\"That means it's not really that safe, is it.\"",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Kim Kitsuragi: \"\"Look on the bright side: if it fai...\"",
+                              "articyId": "0x01000058000072DE",
+                              "text": "\"Look on the bright side: if it fails, we will only sustain minor injuries. I'm talking three, maybe four months in the hospital. Maximum five.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 44,
+                  "title": "You: \"\"Eighty-eight... This elevator was...\"",
+                  "articyId": "0x0100007800010AAD",
+                  "text": "\"Eighty-eight... This elevator was maintained a long time ago.\"",
+                  "links": [
+                    {
+                      "id": 42,
+                      "title": "Kim Kitsuragi: \"\"At the end of the last century.\" H...\"",
+                      "articyId": "0x0100007800010AB6",
+                      "text": "\"At the end of the last century.\" He nods. \"Look on the bright side. If it fails, we will only sustain minor injuries -- I'm talking three, maybe four months in the hospital. maximum five.\"",
+                      "links": [
+                        {
+                          "id": 48,
+                          "title": "Rhetoric: \"It appears his whole enthusiasm is...\"",
+                          "articyId": "0x0100007800010ABD",
+                          "text": "It appears his whole enthusiasm is sarcastic.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"\"This elevator must have been neede...\"",
+          "articyId": "0x0100005800009F2D",
+          "text": "\"This elevator must have been needed to transport the pinball machines up and down.\"",
+          "links": [
+            {
+              "id": 26,
+              "title": "Kim Kitsuragi: \"\"Seems so, although it's pretty......\"",
+              "articyId": "0x0100005800009EF9",
+              "text": "\"Seems so, although it's pretty... quaint for a freight elevator.\" He taps on the guttering light bulb -- it's golden in the dark.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "title": "You: \"\"I wonder what this elevator was us...\"",
+          "articyId": "0x0100005800009F27",
+          "text": "\"I wonder what this elevator was used for.\"",
+          "links": [
+            {
+              "id": 9,
+              "title": "Kim Kitsuragi: \"\"Seems like a small freight elevato...\"",
+              "articyId": "0x0100005800009EFF",
+              "text": "\"Seems like a small freight elevator for transporting machinery. For that -- it's pretty quaint.\" He taps the on the guttering light bulb -- it's golden in the dark.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "title": "You: \"Could this have been for moving pin...\"",
+          "articyId": "0x0100005800009F39",
+          "text": "Could this have been for moving pinball machines up and down?",
+          "links": [
+            {
+              "id": 32,
+              "title": "Elevator: \"Looks like one would fit in there,...\"",
+              "articyId": "0x0100005800009F6F",
+              "text": "Looks like one would fit in there, yes. Although it's also surprisingly human -- in the golden light of that ancient bulb.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "title": "You: \"What were you used for, elevator?\"",
+          "articyId": "0x0100005800009EE6",
+          "text": "What were you used for, elevator?",
+          "links": [
+            {
+              "id": 25,
+              "title": "Elevator: \"The deep scratches on the floor sug...\"",
+              "articyId": "0x0100005800009EF3",
+              "text": "The deep scratches on the floor suggest it was used as a freight elevator -- for transporting heavy machinery. And one man.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "You: \"(Close the doors and go up.)\"",
+          "articyId": "0x01000058000071CF",
+          "text": "(Close the doors and go up.)",
+          "links": [
+            {
+              "id": 16,
+              "title": "Elevator: \"The elevator screeches and rattles,...\"",
+              "articyId": "0x01000058000071E7",
+              "text": "The elevator screeches and rattles, like the belly of some ancient beast, as it carries you upward...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "You: \"Go down.\"",
+          "articyId": "0x01000058000071D5",
+          "text": "Go down.",
+          "links": [
+            {
+              "id": 3,
+              "title": "Elevator: \"The elevator lurches and squeaks, l...\"",
+              "articyId": "0x01000058000071ED",
+              "text": "The elevator lurches and squeaks, like the belly of some ancient beast, as you descend....",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x01000058000071DD",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Elevator: \"This small elevator is dimly lit by...\"",
+      "articyId": "0x01000058000071BD",
+      "text": "This small elevator is dimly lit by a bulb that's been glowing for ages. The latticed cage is open, inviting you to step inside.",
+      "links": [
+        {
+          "id": 4,
+          "title": "You: \"Look in.\"",
+          "articyId": "0x01000058000071FB",
+          "text": "Look in.",
+          "links": [
+            {
+              "id": 33,
+              "title": "Elevator: \"Smells of nougat and sweat. Your he...\"",
+              "articyId": "0x010000580000720D",
+              "text": "Smells of nougat and sweat. Your head brushes up against the ceiling. There is a control panel to your right -- and just enough room for two people to fit in.",
+              "links": [
+                {
+                  "id": 40,
+                  "title": "Perception (Sight): \"The maintenance card under the cont...\"",
+                  "articyId": "0x0100005800007233",
+                  "text": "The maintenance card under the control panel reads: 'Last Maintenance: 10 July '88'.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100005800007201",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

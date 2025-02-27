@@ -1,0 +1,307 @@
+{
+  "id": "0x0100002F0000FDDF",
+  "title": "APT / SMOKER DOOR",
+  "description": "DOOR, APARTMENT #28 (SMOKER ON THE BALCONY)",
+  "dialogueTree": [
+    {
+      "id": 53,
+      "title": "Door, Apartment #28: \"This door is made of metal and appe...\"",
+      "articyId": "0x0100002F0000FE31",
+      "text": "This door is made of metal and appears to be reinforced. Someone here really values their security.",
+      "links": [
+        {
+          "id": 30,
+          "title": "Smoker on the Balcony: \"\"Yes?\" A handsome young man hums wi...\"",
+          "articyId": "0x0100000500003A5A",
+          "text": "\"Yes?\" A handsome young man hums with a cigarette in his hand. \"Are you looking for me, gendarme?\"",
+          "links": [
+            {
+              "id": 46,
+              "title": "You: \"Knock.\"",
+              "articyId": "0x0100000500003A41",
+              "text": "Knock.",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "Door, Apartment #28: \"No one answers.\"",
+                  "articyId": "0x0100000500003A47",
+                  "text": "No one answers.",
+                  "links": [
+                    {
+                      "id": 34,
+                      "title": "Kim Kitsuragi: \"\"Let's go. There's nothing to do he...\"",
+                      "articyId": "0x0100002100003021",
+                      "text": "\"Let's go. There's nothing to do here for us anymore.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 104,
+                      "title": "Kim Kitsuragi: \"\"Let's go. There's nothing to do he...\"",
+                      "articyId": "0x0100002100003032",
+                      "text": "\"Let's go. There's nothing to do here for us anymore.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 95,
+                      "title": "Door, Apartment #28: \"Nothing do to here anymore...\"",
+                      "articyId": "0x0100002100003046",
+                      "text": "Nothing do to here anymore...",
+                      "links": []
+                    },
+                    {
+                      "id": 51,
+                      "title": "Kim Kitsuragi: \"\"We should talk to him.\" The lieute...\"",
+                      "articyId": "0x0100000500003B1F",
+                      "text": "\"We should talk to him.\" The lieutenant nods at the man standing right next to the door.",
+                      "links": []
+                    },
+                    {
+                      "id": 33,
+                      "title": "Logic: \"The man you're looking for is stand...\"",
+                      "articyId": "0x010000210000072B",
+                      "text": "The man you're looking for is standing right next to you. You should talk to him.",
+                      "links": []
+                    },
+                    {
+                      "id": 72,
+                      "title": "Kim Kitsuragi: \"\"We should return tomorrow -- tomor...\"",
+                      "articyId": "0x0100000500003B3B",
+                      "text": "\"We should return tomorrow -- tomorrow at 21.00,\" the lieutenant reminds you.",
+                      "links": []
+                    },
+                    {
+                      "id": 94,
+                      "title": "Logic: \"Looks like he isn't home. You shoul...\"",
+                      "articyId": "0x010000210000071B",
+                      "text": "Looks like he isn't home. You should come back tomorrow evening, after 21.00.",
+                      "links": []
+                    },
+                    {
+                      "id": 83,
+                      "title": "Kim Kitsuragi: \"\"We should return in the evening --...\"",
+                      "articyId": "0x0100000500003B4E",
+                      "text": "\"We should return in the evening -- at 21.00 the earliest.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 32,
+                      "title": "Logic: \"Looks like he isn't home. You shoul...\"",
+                      "articyId": "0x0100002100000723",
+                      "text": "Looks like he isn't home. You should come back later, after 21.00.",
+                      "links": []
+                    },
+                    {
+                      "id": 41,
+                      "title": "Kim Kitsuragi: \"\"Looks like the young man we're loo...\"",
+                      "articyId": "0x0100000500003A9D",
+                      "text": "\"Looks like the young man we're looking for isn't home. I think our best chance to catch him is in the evening.\" He looks around, taking in the cold spring air.",
+                      "links": [
+                        {
+                          "id": 50,
+                          "title": "Kim Kitsuragi: \"\"We should return tomorrow after we...\"",
+                          "articyId": "0x0100000500003AF2",
+                          "text": "\"We should return tomorrow after we have finished with our day's work -- how about 21.00, sound good?\"",
+                          "links": [
+                            {
+                              "id": 84,
+                              "title": "You: \"\"What do you mean?\"\"",
+                              "articyId": "0x0100000500003ABF",
+                              "text": "\"What do you mean?\"",
+                              "links": [
+                                {
+                                  "id": 82,
+                                  "title": "Kim Kitsuragi: \"\"The smoker on the balcony. This is...\"",
+                                  "articyId": "0x0100000500003ACF",
+                                  "text": "\"The smoker on the balcony. This is why we're here, right? He might know something about the murder. So, tomorrow 21.00?\"",
+                                  "links": [
+                                    {
+                                      "id": 23,
+                                      "title": "Esprit de Corps: \"Suddenly he's a little worried abou...\"",
+                                      "articyId": "0x010000060001BB1F",
+                                      "text": "Suddenly he's a little worried about your memory...",
+                                      "links": [
+                                        {
+                                          "id": 45,
+                                          "title": "Encyclopedia: \"Don't worry, it's (mostly) all stil...\"",
+                                          "articyId": "0x010000060001BB25",
+                                          "text": "Don't worry, it's (mostly) all still here. You can remember things. You *got* this.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 80,
+                              "title": "You: \"\"Sounds good. Tomorrow 21.00.\"\"",
+                              "articyId": "0x0100000500003AB3",
+                              "text": "\"Sounds good. Tomorrow 21.00.\"",
+                              "links": [
+                                {
+                                  "id": 42,
+                                  "title": "Kim Kitsuragi: \"\"Tomorrow 21.00, right here, apartm...\"",
+                                  "articyId": "0x0100000500003AC7",
+                                  "text": "\"Tomorrow 21.00, right here, apartment #28.\" He writes it down into his little notebook. \"Good. Let's go.\"",
+                                  "links": [
+                                    {
+                                      "id": 103,
+                                      "title": "Reaction Speed: \"Damn. Turns out it's quite tricky f...\"",
+                                      "articyId": "0x010000060001BB2F",
+                                      "text": "Damn. Turns out it's quite tricky finding someone in a big apartment building... Don't worry. You'll get him!",
+                                      "links": [
+                                        {
+                                          "id": 52,
+                                          "title": "Logic: \"Remember: tomorrow. He's *probably*...\"",
+                                          "articyId": "0x010000060001BEEB",
+                                          "text": "Remember: tomorrow. He's *probably* gone for today.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 81,
+                              "title": "You: \"\"I don't think I can make it.\"\"",
+                              "articyId": "0x0100000500003AB9",
+                              "text": "\"I don't think I can make it.\"",
+                              "links": [
+                                {
+                                  "id": 24,
+                                  "title": "Kim Kitsuragi: \"\"It's alright, we don't have to be...\"",
+                                  "articyId": "0x0100000500003AD6",
+                                  "text": "\"It's alright, we don't have to be here 21.00 sharp, I just need to write something down in my notebook.\" He has already opened the little blue book.",
+                                  "links": [
+                                    {
+                                      "id": 12,
+                                      "title": "Kim Kitsuragi: \"\"Tomorrow evening, right here, apar...\"",
+                                      "articyId": "0x0100000500003AFD",
+                                      "text": "\"Tomorrow evening, right here, apartment #28. Good. Let's go.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 92,
+                      "title": "Logic: \"Looks like he isn't home. You shoul...\"",
+                      "articyId": "0x0100002100000713",
+                      "text": "Looks like he isn't home. You should come back tomorrow evening, after 21.00.",
+                      "links": []
+                    },
+                    {
+                      "id": 91,
+                      "title": "Kim Kitsuragi: \"\"Looks like the young man we're loo...\"",
+                      "articyId": "0x0100000500003AE9",
+                      "text": "\"Looks like the young man we're looking for isn't home. I think our best chance to catch him is in the evening.\" He looks around, taking in the cold spring air.",
+                      "links": [
+                        {
+                          "id": 55,
+                          "title": "Kim Kitsuragi: \"\"We should return tonight after we...\"",
+                          "articyId": "0x0100000500003B05",
+                          "text": "\"We should return tonight after we have finished with our day's work -- how about 21.00, sound good?\"",
+                          "links": [
+                            {
+                              "id": 25,
+                              "title": "You: \"\"What are you talking about?\"\"",
+                              "articyId": "0x0100000500003B82",
+                              "text": "\"What are you talking about?\"",
+                              "links": [
+                                {
+                                  "id": 3,
+                                  "title": "Kim Kitsuragi: \"\"The smoker on the balcony. This is...\"",
+                                  "articyId": "0x0100000500003B94",
+                                  "text": "\"The smoker on the balcony. This is why we're here, right? He might know something about the murder. So, tonight at 21.00?\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 93,
+                              "title": "You: \"\"Sounds good. Tonight at 21.00.\"\"",
+                              "articyId": "0x0100000500003B88",
+                              "text": "\"Sounds good. Tonight at 21.00.\"",
+                              "links": [
+                                {
+                                  "id": 44,
+                                  "title": "Kim Kitsuragi: \"\"Tonight at 21.00, right here, apar...\"",
+                                  "articyId": "0x0100000500003BA7",
+                                  "text": "\"Tonight at 21.00, right here, apartment #28.\" He writes it down into his little notebook. \"Good. Let's go.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 13,
+                              "title": "You: \"\"I don't think I can make it.\"\"",
+                              "articyId": "0x0100000500003B8E",
+                              "text": "\"I don't think I can make it.\"",
+                              "links": [
+                                {
+                                  "id": 26,
+                                  "title": "Kim Kitsuragi: \"\"It's alright, we don't have to be...\"",
+                                  "articyId": "0x0100000500003BA1",
+                                  "text": "\"It's alright, we don't have to be here 21.00 sharp, I just need to write something down in my notebook.\" He has already opened the little blue book.",
+                                  "links": [
+                                    {
+                                      "id": 54,
+                                      "title": "Kim Kitsuragi: \"\"Tonight, right here, apartment #28...\"",
+                                      "articyId": "0x0100000500003B9B",
+                                      "text": "\"Tonight, right here, apartment #28. Good. Let's go.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 31,
+                      "title": "Logic: \"Looks like he isn't home. You shoul...\"",
+                      "articyId": "0x0100002100000709",
+                      "text": "Looks like he isn't home. You should come back later, after 21.00.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 79,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x0100002F0000FE3E",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Kim Kitsuragi: \"\"Let's see if anyone's home. Knock...\"",
+          "articyId": "0x0100000500003A37",
+          "text": "\"Let's see if anyone's home. Knock on the door.\"",
+          "links": []
+        },
+        {
+          "id": 69,
+          "title": "Reaction Speed: \"Number twenty eight... This is wher...\"",
+          "articyId": "0x0100000500003A22",
+          "text": "Number twenty eight... This is where the cleaning lady said the smoker on the balcony lives.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

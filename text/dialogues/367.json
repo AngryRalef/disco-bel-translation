@@ -1,0 +1,729 @@
+{
+  "id": "0x01000057000237F6",
+  "title": "WHIRLING F1 / KARAOKE STAND",
+  "description": "Sing karaoke!",
+  "dialogueTree": [
+    {
+      "id": 7,
+      "title": "Karaoke Stand: \"The stage is all set up for your pe...\"",
+      "articyId": "0x01000057000237FD",
+      "text": "The stage is all set up for your performance. Feels... silent. You can hear the pellets creak under your feet.",
+      "links": [
+        {
+          "id": 49,
+          "title": "Savoir Faire: \"You feel a little dizzy. A little *...\"",
+          "articyId": "0x0100000600016C3D",
+          "text": "You feel a little dizzy. A little *unsteady*, suddenly.",
+          "links": [
+            {
+              "id": 113,
+              "title": "Garte, the Cafeteria Manager: \"\"So, are you ready for your... *thi...\"",
+              "articyId": "0x0100005700023A2E",
+              "text": "\"So, are you ready for your... *thing* now? Let me know when I should turn on the karaoke carousel.\"",
+              "links": [
+                {
+                  "id": 101,
+                  "title": "You: \"\"Look, Kim, I'm going to sing karao...\"",
+                  "articyId": "0x0100005700023A37",
+                  "text": "\"Look, Kim, I'm going to sing karaoke!\"",
+                  "links": [
+                    {
+                      "id": 86,
+                      "title": "Kim Kitsuragi: \"\"I can see that.\" The lieutenant st...\"",
+                      "articyId": "0x0100005700023A49",
+                      "text": "\"I can see that.\" The lieutenant steps away from the stage, ready for your performance.",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "Garte, the Cafeteria Manager: \"\"No, you're not. The *bills*, remem...\"",
+                          "articyId": "0x0100007500001CE8",
+                          "text": "\"No, you're not. The *bills*, remember?\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 156,
+                  "title": "You: \"Put your lips against the microphon...\"",
+                  "articyId": "0x0100005700023A0C",
+                  "text": "Put your lips against the microphone -- test it.",
+                  "links": [
+                    {
+                      "id": 71,
+                      "title": "Karaoke Stand: \"Immediately a loud feedback noise s...\"",
+                      "articyId": "0x0100005700023A5C",
+                      "text": "Immediately a loud feedback noise startles the room. You feel like an amateur. How are you supposed to hold the mic? Should you just *sing* into it? Where should you stand?",
+                      "links": [
+                        {
+                          "id": 106,
+                          "title": "Interfacing: \"Hands... Where do you put your *han...\"",
+                          "articyId": "0x010000750000240D",
+                          "text": "Hands... Where do you put your *hands*?!",
+                          "links": [
+                            {
+                              "id": 67,
+                              "title": "Endurance: \"Does someone feel like throwing up?...\"",
+                              "articyId": "0x0100000600016C45",
+                              "text": "Does someone feel like throwing up? I do. A little.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 19,
+                  "title": "You: \"Look around the room first.\"",
+                  "articyId": "0x0100005700023A12",
+                  "text": "Look around the room first.",
+                  "links": [
+                    {
+                      "id": 54,
+                      "title": "Karaoke Stand: \"It's still early here. Faint daylig...\"",
+                      "articyId": "0x0100005700023A76",
+                      "text": "It's still early here. Faint daylight is seeping into the dining hall. All the tables have been wiped pristine clean for the customers to come...",
+                      "links": [
+                        {
+                          "id": 60,
+                          "title": "Karaoke Stand: \"Someone's making coffee in the kitc...\"",
+                          "articyId": "0x0100007500001F9B",
+                          "text": "Someone's making coffee in the kitchen, but aside from that no one's really around yet. It would be a much better idea to perform in the evening, no?",
+                          "links": [
+                            {
+                              "id": 3,
+                              "title": "Half Light: \"Yes. You can always do it in the ev...\"",
+                              "articyId": "0x0100000600016C4D",
+                              "text": "Yes. You can always do it in the evening. It will be less scary with a lot of people.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 142,
+                      "title": "Karaoke Stand: \"There are *some* people out there,...\"",
+                      "articyId": "0x0100005700023AA2",
+                      "text": "There are *some* people out there, but mostly -- a post meridian slumber has fallen on the premise. Not super lively. It would be wiser to perform in the evening, no? But the choice is yours...",
+                      "links": []
+                    },
+                    {
+                      "id": 61,
+                      "title": "Karaoke Stand: \"The bar is full and buzzing with ch...\"",
+                      "articyId": "0x0100005700023A50",
+                      "text": "The bar is full and buzzing with chatter. No one is paying you any attention, but still you feel your knees turn to noodles. Okay, now a couple is looking at you! Even worse...",
+                      "links": [
+                        {
+                          "id": 137,
+                          "title": "Physical Instrument: \"You're sweating...\"",
+                          "articyId": "0x0100005700023AFE",
+                          "text": "You're sweating...",
+                          "links": [
+                            {
+                              "id": 143,
+                              "title": "Inland Empire: \"They are going to hate you.\"",
+                              "articyId": "0x0100007500001FA5",
+                              "text": "They are going to hate you.",
+                              "links": [
+                                {
+                                  "id": 10,
+                                  "title": "Savoir Faire: \"Just... just make sure you move, ok...\"",
+                                  "articyId": "0x0100007500001FAC",
+                                  "text": "Just... just make sure you move, okay? Don't be stiff.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 38,
+                      "title": "Karaoke Stand: \"The dining hall has cleared up of c...\"",
+                      "articyId": "0x0100005700023AAD",
+                      "text": "The dining hall has cleared up of customers for tonight. Even the kitchen is closed, and someone has turned down the lights. Maybe it's a good idea to do it in the dark like this? Almost after closing hours...",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 82,
+                  "title": "You: \"\"I'm ready, Garte. Hit play.\"\"",
+                  "articyId": "0x0100005700023A20",
+                  "text": "\"I'm ready, Garte. Hit play.\"",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Drama: \"The air is thick with anticipation.\"",
+                      "articyId": "0x0100000300000369",
+                      "text": "The air is thick with anticipation.",
+                      "links": [
+                        {
+                          "id": 171,
+                          "title": "Drama: \"Someone dims the lights as the musi...\"",
+                          "articyId": "0x0100007500002537",
+                          "text": "Someone dims the lights as the music starts... Okay. Here we go...",
+                          "links": [
+                            {
+                              "id": 55,
+                              "title": "Ancient Reptilian Brain: \"\"I would often go there. To the tin...\"",
+                              "articyId": "0x0100005700023A7C",
+                              "text": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+                              "links": [
+                                {
+                                  "id": 42,
+                                  "title": "Drama: \"A lazy applause fills the room. You...\"",
+                                  "articyId": "0x0100001D000000CE",
+                                  "text": "A lazy applause fills the room. You feel your hands shake as awareness of your body returns to you.",
+                                  "links": [
+                                    {
+                                      "id": 128,
+                                      "title": "You: \"Thank you, Ancient Reptilian Brain.\"",
+                                      "articyId": "0x0100000600016C86",
+                                      "text": "Thank you, Ancient Reptilian Brain.",
+                                      "links": [
+                                        {
+                                          "id": 129,
+                                          "title": "Ancient Reptilian Brain: \"There is silence now in the deep wh...\"",
+                                          "articyId": "0x0100000600016C8C",
+                                          "text": "There is silence now in the deep where the voice came from. It has receded -- to return only in dreams and nightmares.",
+                                          "links": [
+                                            {
+                                              "id": 130,
+                                              "title": "Drama: \"This guy really carried you.\"",
+                                              "articyId": "0x0100000600016C94",
+                                              "text": "This guy really carried you.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 72,
+                                      "title": "You: \"\"I want dedicate this song to whoev...\"",
+                                      "articyId": "0x0100005700023ACE",
+                                      "text": "\"I want dedicate this song to whoever wrote me that fucking letter. I still love you. Thank you very much, asshole.\"",
+                                      "links": [
+                                        {
+                                          "id": 117,
+                                          "title": "Karaoke Stand: \"The microphone amplifies your voice...\"",
+                                          "articyId": "0x0100007500001ED1",
+                                          "text": "The microphone amplifies your voice in an uncomfortable manner. Someone coughs. Most people have gone back to talking now.",
+                                          "links": [
+                                            {
+                                              "id": 103,
+                                              "title": "Garte, the Cafeteria Manager: \"\"Good, good,\" the cafeteria manager...\"",
+                                              "articyId": "0x0100007500001EBB",
+                                              "text": "\"Good, good,\" the cafeteria manager intervenes to cut the moment short. \"Are we ready? I want to unplug the microphone now.\"",
+                                              "links": [
+                                                {
+                                                  "id": 164,
+                                                  "title": "Drama: \"Last words?\"",
+                                                  "articyId": "0x0100000600016CA8",
+                                                  "text": "Last words?",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 165,
+                                      "title": "You: \"\"I'd like to dedicate this song to...\"",
+                                      "articyId": "0x0100005700023AD4",
+                                      "text": "\"I'd like to dedicate this song to my partner, Kim, even though he's not here right now.\"",
+                                      "links": [
+                                        {
+                                          "id": 126,
+                                          "title": "Kim Kitsuragi: \"The lieutenant doesn't say anything...\"",
+                                          "articyId": "0x0100007500001EAD",
+                                          "text": "The lieutenant doesn't say anything, but gives you a quick smile, before turning away.",
+                                          "links": [
+                                            {
+                                              "id": 89,
+                                              "title": "Composure: \"He's incapable of blushing, but if...\"",
+                                              "articyId": "0x0100007500001EB4",
+                                              "text": "He's incapable of blushing, but if he weren't -- he'd blush.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 102,
+                                      "title": "You: \"\"I'd like to dedicate this song to...\"",
+                                      "articyId": "0x0100005700023ADA",
+                                      "text": "\"I'd like to dedicate this song to Garte for letting me sing it. It's all shit, Garte.\"",
+                                      "links": [
+                                        {
+                                          "id": 62,
+                                          "title": "Garte, the Cafeteria Manager: \"\"Yes, well...\" He clearly doesn't k...\"",
+                                          "articyId": "0x0100007500001EC2",
+                                          "text": "\"Yes, well...\" He clearly doesn't know how to respond -- your words caught him by surprise. \"I'm just doing my job, that's all.\"",
+                                          "links": [
+                                            {
+                                              "id": 44,
+                                              "title": "Garte, the Cafeteria Manager: \"\"But uh, are you done now? Can I un...\"",
+                                              "articyId": "0x0100007500001ED8",
+                                              "text": "\"But uh, are you done now? Can I unplug the microphone? I'd like to unplug the microphone.\" He's ready for things to get back to normal.",
+                                              "links": [
+                                                {
+                                                  "id": 79,
+                                                  "title": "You: \"\"It's been an honour.\" [Bow and lea...\"",
+                                                  "articyId": "0x0100007500001F5A",
+                                                  "text": "\"It's been an honour.\" [Bow and leave.]",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 96,
+                                                  "title": "You: \"[Whip out your finger pistols, shoo...\"",
+                                                  "articyId": "0x0100007500001F4D",
+                                                  "text": "[Whip out your finger pistols, shoot in the air and leave.]",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 95,
+                                                  "title": "You: \"\"Evening will come, we will sew the...\"",
+                                                  "articyId": "0x0100007500001F46",
+                                                  "text": "\"Evening will come, we will sew the white sail! Workers of the world, unite!\" [Leave.]",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 118,
+                                                  "title": "You: \"\"Thank you, Martinaise.\" [Leave.]\"",
+                                                  "articyId": "0x0100007500001EEE",
+                                                  "text": "\"Thank you, Martinaise.\" [Leave.]",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 39,
+                                                  "title": "You: \"[Say nothing. Leave enigmatically.]\"",
+                                                  "articyId": "0x0100007500001F86",
+                                                  "text": "[Say nothing. Leave enigmatically.]",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 158,
+                                      "title": "You: \"\"I'd like to dedicate this song to...\"",
+                                      "articyId": "0x0100007500001E94",
+                                      "text": "\"I'd like to dedicate this song to the pale nothing that will devour the world.\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 104,
+                                      "title": "You: \"\"I'd like to dedicate this song to...\"",
+                                      "articyId": "0x0100007500001F66",
+                                      "text": "\"I'd like to dedicate this song to Contact Mike. Everyone else *sucks*.\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 138,
+                                      "title": "You: \"\"I'd like to dedicate this song to...\"",
+                                      "articyId": "0x0100000600016CE1",
+                                      "text": "\"I'd like to dedicate this song to the RCM. Please don't fire me.\"",
+                                      "links": [
+                                        {
+                                          "id": 167,
+                                          "title": "Kim Kitsuragi: \"The lieutenant doesn't say anything...\"",
+                                          "articyId": "0x0100000600016CEF",
+                                          "text": "The lieutenant doesn't say anything -- but he smiles sadly.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 9,
+                                      "title": "You: \"\"I don't want to dedicate this song...\"",
+                                      "articyId": "0x0100007500001ECA",
+                                      "text": "\"I don't want to dedicate this song to anyone. I performed it for myself.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 94,
+                              "title": "Ancient Reptilian Brain: \"\"I would often go there. To the tin...\"",
+                              "articyId": "0x0100001D000000F4",
+                              "text": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 63,
+                      "title": "Drama: \"The air is thick with anticipation.\"",
+                      "articyId": "0x0100000300000363",
+                      "text": "The air is thick with anticipation.",
+                      "links": [
+                        {
+                          "id": 172,
+                          "title": "Drama: \"The tape clicks into the carousel a...\"",
+                          "articyId": "0x010000750000254B",
+                          "text": "The tape clicks into the carousel and then the music starts...",
+                          "links": [
+                            {
+                              "id": 43,
+                              "title": "Ancient Reptilian Brain: \"\"I would often go there. To the tin...\"",
+                              "articyId": "0x0100001D00000111",
+                              "text": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+                              "links": [
+                                {
+                                  "id": 27,
+                                  "title": "Garte, the Cafeteria Manager: \"A rather lonely applause echoes thr...\"",
+                                  "articyId": "0x0100001D000000DF",
+                                  "text": "A rather lonely applause echoes through the mostly empty cafeteria. It's Garte. \"Not bad,\" he tells you with an approving nod.",
+                                  "links": [
+                                    {
+                                      "id": 24,
+                                      "title": "Kim Kitsuragi: \"\"Yes. Not bad at all.\" The lieutena...\"",
+                                      "articyId": "0x010000750000208F",
+                                      "text": "\"Yes. Not bad at all.\" The lieutenant joins in. You feel your hands shake as awareness of your body returns to you.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 4,
+                                      "title": "You: \"Thank you, Ancient Reptilian Brain.\"",
+                                      "articyId": "0x0100000600016CBE",
+                                      "text": "Thank you, Ancient Reptilian Brain.",
+                                      "links": [
+                                        {
+                                          "id": 11,
+                                          "title": "Ancient Reptilian Brain: \"No reply. There is silence now in t...\"",
+                                          "articyId": "0x0100000600016CCA",
+                                          "text": "No reply. There is silence now in the deep where the voice came from. It has receded into you, to return only in dreams and nightmares.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 105,
+                                      "title": "You: \"\"Thank you. I don't need big crowds...\"",
+                                      "articyId": "0x010000750000209C",
+                                      "text": "\"Thank you. I don't need big crowds, I just need my friends.\"",
+                                      "links": [
+                                        {
+                                          "id": 170,
+                                          "title": "Garte, the Cafeteria Manager: \"\"Okay. Yes. I'm going to unplug the...\"",
+                                          "articyId": "0x01000075000020B1",
+                                          "text": "\"Okay. Yes. I'm going to unplug the microphone, so you can get off the stage now.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 40,
+                                      "title": "You: \"\"Life is a fucking joke.\"\"",
+                                      "articyId": "0x01000075000020A2",
+                                      "text": "\"Life is a fucking joke.\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 159,
+                                      "title": "You: \"\"Thanks for bearing with me. I'm go...\"",
+                                      "articyId": "0x01000075000020A8",
+                                      "text": "\"Thanks for bearing with me. I'm gonna get back to work now.\"",
+                                      "links": [
+                                        {
+                                          "id": 5,
+                                          "title": "Garte, the Cafeteria Manager: \"\"Uhm... yes. I'm going to unplug th...\"",
+                                          "articyId": "0x0100000600016CD9",
+                                          "text": "\"Uhm... yes. I'm going to unplug the microphone, okay?\" He unplugs it.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 23,
+                              "title": "Ancient Reptilian Brain: \"\"I would often go there. To the tin...\"",
+                              "articyId": "0x0100007500001FDC",
+                              "text": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 163,
+                      "title": "Drama: \"The air is thick with anticipation.\"",
+                      "articyId": "0x010000030000035B",
+                      "text": "The air is thick with anticipation.",
+                      "links": [
+                        {
+                          "id": 48,
+                          "title": "Drama: \"Someone dims the lights as the musi...\"",
+                          "articyId": "0x010000750000253E",
+                          "text": "Someone dims the lights as the music starts. A lump's in your throat suddenly...",
+                          "links": [
+                            {
+                              "id": 28,
+                              "title": "Limbic System: \"\"I would often go there. To the tin...\"",
+                              "articyId": "0x0100001D00000101",
+                              "text": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+                              "links": [
+                                {
+                                  "id": 157,
+                                  "title": "Drama: \"Do you hear that? It's the most pat...\"",
+                                  "articyId": "0x0100007500001CF8",
+                                  "text": "Do you hear that? It's the most pathetic applause in the world, Harry. Made of pity. No one *liked* you.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 97,
+                                  "title": "Drama: \"Do you hear that? The most pathetic...\"",
+                                  "articyId": "0x010000050000206D",
+                                  "text": "Do you hear that? The most pathetic applause in the world. Made of pity. No one *liked* you -- they think you're a joke.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 50,
+                                  "title": "Drama: \"Did you hear that? The most patheti...\"",
+                                  "articyId": "0x0100000600016CFB",
+                                  "text": "Did you hear that? The most pathetic applause in the world. Made of pity. No matter the time of day, or how small the audience -- this is a *pitiful* applause.",
+                                  "links": [
+                                    {
+                                      "id": 119,
+                                      "title": "You: \"Say: \"You *didn't* like it, huh?\"\"",
+                                      "articyId": "0x0100000600016D04",
+                                      "text": "Say: \"You *didn't* like it, huh?\"",
+                                      "links": [
+                                        {
+                                          "id": 81,
+                                          "title": "Karaoke Stand: \"Your words echo in the karaoke mic....\"",
+                                          "articyId": "0x0100000600016D2C",
+                                          "text": "Your words echo in the karaoke mic. People talk in the distance. A couple tries not to look at you.",
+                                          "links": [
+                                            {
+                                              "id": 150,
+                                              "title": "Glen: \"\"Quit yellin' into the mic!\" You he...\"",
+                                              "articyId": "0x0100000600016D3A",
+                                              "text": "\"Quit yellin' into the mic!\" You hear from the Union booth.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 149,
+                                          "title": "Karaoke Stand: \"Your words echo in the karaoke mic....\"",
+                                          "articyId": "0x0100000600016D1E",
+                                          "text": "Your words echo in the karaoke mic. They sound sparse. The room is almost empty.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 148,
+                                      "title": "You: \"\"I'm up here singing my fucking HEA...\"",
+                                      "articyId": "0x0100000600016D0A",
+                                      "text": "\"I'm up here singing my fucking HEART OUT and it's not *good enough* for you fuckers!?\"",
+                                      "links": [
+                                        {
+                                          "id": 151,
+                                          "title": "Karaoke Stand: \"You hear -- or *think* you hear --...\"",
+                                          "articyId": "0x0100000600016D50",
+                                          "text": "You hear -- or *think* you hear -- uncomfortable shifting around. A bit of laughter, maybe? No one's saying anything.",
+                                          "links": [
+                                            {
+                                              "id": 93,
+                                              "title": "Garte, the Cafeteria Manager: \"\"Uhm... I'm gonna unplug the mic no...\"",
+                                              "articyId": "0x0100000600016D49",
+                                              "text": "\"Uhm... I'm gonna unplug the mic now, okay?\"",
+                                              "links": [
+                                                {
+                                                  "id": 41,
+                                                  "title": "You: \"\"You don't know what good singing i...\"",
+                                                  "articyId": "0x0100000600016D74",
+                                                  "text": "\"You don't know what good singing is! This is *real* singing. I sang about *real* stuff.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 139,
+                                                      "title": "Garte, the Cafeteria Manager: \"\"That's it, I'm unplugging it.\" He...\"",
+                                                      "articyId": "0x0100000600016D9B",
+                                                      "text": "\"That's it, I'm unplugging it.\" He presses stop on the tape carousel. You hear a little whine of feedback and then the mic dies in your hand.",
+                                                      "links": [
+                                                        {
+                                                          "id": 12,
+                                                          "title": "Interfacing: \"That's it. You're unpowered.\"",
+                                                          "articyId": "0x0100000600016DBB",
+                                                          "text": "That's it. You're unpowered.",
+                                                          "links": [
+                                                            {
+                                                              "id": 26,
+                                                              "title": "Kim Kitsuragi: \"\"Let's go, officer.\" The lieutenant...\"",
+                                                              "articyId": "0x0100000600016DA3",
+                                                              "text": "\"Let's go, officer.\" The lieutenant closes his notes. \"These people wouldn't know a good performance if it bit them in the ass.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 131,
+                                                                  "title": "You: \"\"You... liked it?\"\"",
+                                                                  "articyId": "0x0100000600016D58",
+                                                                  "text": "\"You... liked it?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 155,
+                                                                      "title": "Kim Kitsuragi: \"\"Yes,\" he bows lightly. \"It was dow...\"",
+                                                                      "articyId": "0x0100000600016DAA",
+                                                                      "text": "\"Yes,\" he bows lightly. \"It was downright tragic, detective.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 77,
+                                                                          "title": "Esprit de Corps: \"I mean it, he thinks.\"",
+                                                                          "articyId": "0x0100000600016DD6",
+                                                                          "text": "I mean it, he thinks.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 141,
+                                                                              "title": "Conceptualization: \"To him, being a cop in the RCM was...\"",
+                                                                              "articyId": "0x0100000600016DE1",
+                                                                              "text": "To him, being a cop in the RCM was truly expressed in that performance.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 140,
+                                                              "title": "You: \"[Put down the mic.]\"",
+                                                              "articyId": "0x0100000600016DB2",
+                                                              "text": "[Put down the mic.]",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 98,
+                                      "title": "You: \"\"Fuck you! I gave it my fucking bes...\"",
+                                      "articyId": "0x0100000600016D10",
+                                      "text": "\"Fuck you! I gave it my fucking best. I gave it EVERYTHING and you SHIT on me?!\"",
+                                      "links": [
+                                        {
+                                          "id": 168,
+                                          "title": "Shanky: \"A voice from the back squeaks somet...\"",
+                                          "articyId": "0x0100000600016D6C",
+                                          "text": "A voice from the back squeaks something. It's definitely laughter.",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 132,
+                                          "title": "Karaoke Stand: \"Someone walks out of the room -- by...\"",
+                                          "articyId": "0x0100000600016D7C",
+                                          "text": "Someone walks out of the room -- by the front door. Some woman. Is it because of you?",
+                                          "links": [
+                                            {
+                                              "id": 25,
+                                              "title": "You: \"\"I SANG ABOUT HOW I FEEL! Fuck all...\"",
+                                              "articyId": "0x0100000600016D83",
+                                              "text": "\"I SANG ABOUT HOW I FEEL! Fuck all you, scum!\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 6,
+                                              "title": "You: \"Just stand there.\"",
+                                              "articyId": "0x0100000600016D8E",
+                                              "text": "Just stand there.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 166,
+                              "title": "Limbic System: \"\"I would often go there. To the tin...\"",
+                              "articyId": "0x0100007500001CF2",
+                              "text": "\"I would often go there. To the tiny church there. The smallest church in Saint-Saëns -- though it once was larger.\n\nHow the rill may rest there. Down through the mist there. Toward the seven sisters -- toward those pale cliffs there\n\nI would often stay there. In the tiny yard there. I have been so glad here -- looking forward to the past here\n\nBut now you are alone. None of this matters at all.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 127,
+                      "title": "Drama: \"The air is thick with anticipation.\"",
+                      "articyId": "0x0100000300000353",
+                      "text": "The air is thick with anticipation.",
+                      "links": [
+                        {
+                          "id": 80,
+                          "title": "Drama: \"The tape clicks into the carousel a...\"",
+                          "articyId": "0x0100007500002551",
+                          "text": "The tape clicks into the carousel and then the music starts... God, a lump's in your throat suddenly...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 100,
+                  "title": "You: \"[Leave.]\"",
+                  "articyId": "0x0100005700023A18",
+                  "text": "[Leave.]",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "title": "Garte, the Cafeteria Manager: \"\"What are you doing? I told you it...\"",
+              "articyId": "0x0100005700023A00",
+              "text": "\"What are you doing? I told you it was for customers only. I'm not turning on the karaoke carousel unless you pay your bills.\"",
+              "links": [
+                {
+                  "id": 147,
+                  "title": "Volition: \"He's not backing up from this. Stan...\"",
+                  "articyId": "0x0100000600016C5B",
+                  "text": "He's not backing up from this. Standing up here is merely a practice run without paying him first.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

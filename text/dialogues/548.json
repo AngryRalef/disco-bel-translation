@@ -1,0 +1,137 @@
+{
+  "id": "0x0100008F0000198E",
+  "title": "COAST ORB / roadsidethought",
+  "description": "Dialogue that comes up as the player walks along the street. Fantasy of the other side of the pavement.",
+  "dialogueTree": [
+    {
+      "id": 9,
+      "title": "Shivers: \"A drop in temperature. An easy flow...\"",
+      "articyId": "0x0100008F00001997",
+      "text": "A drop in temperature. An easy flow of air: an empty street. Before you, a thoroughfare unjammed with lorries. No more drivers smoking on hitch steps. Just... silence.",
+      "links": [
+        {
+          "id": 5,
+          "title": "You: \"What did the smoke smell like?\"",
+          "articyId": "0x0100008F000019A3",
+          "text": "What did the smoke smell like?",
+          "links": [
+            {
+              "id": 20,
+              "title": "Shivers: \"Chemically sweetened. Across the ro...\"",
+              "articyId": "0x0100008F000019AD",
+              "text": "Chemically sweetened. Across the road, a forgotten bus stop; corrosion has opened a hole in its roof. An elm tree watches over the building. Its branches are dripping with rain and snow.",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "Shivers: \"The road is smooth and motley. Crat...\"",
+                  "articyId": "0x0100008F000019B4",
+                  "text": "The road is smooth and motley. Craters filled with a black asphalt. The asphalt first laid is grey already. A row of tenements are under construction in the distance.",
+                  "links": [
+                    {
+                      "id": 12,
+                      "title": "You: \"Who are the people who live across...\"",
+                      "articyId": "0x0100008F000019CE",
+                      "text": "Who are the people who live across the road?",
+                      "links": [
+                        {
+                          "id": 10,
+                          "title": "Shivers: \"A tub warm with water, white with s...\"",
+                          "articyId": "0x0100008F000019E8",
+                          "text": "A tub warm with water, white with soap. A man bathes while radio waves transmit the lottery numbers: 4, 18, 21, 4, 1... A modern washing machine rattles a drawer full of silverware.",
+                          "links": [
+                            {
+                              "id": 2,
+                              "title": "Suggestion: \"His boyfriend is on his way home. H...\"",
+                              "articyId": "0x010000060001C90A",
+                              "text": "His boyfriend is on his way home. He brings tins of meat and vegetables with him. Their pockets are heavier with money; but only slightly.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "title": "You: \"What about the bus stop?\"",
+                      "articyId": "0x0100008F000019C2",
+                      "text": "What about the bus stop?",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "Shivers: \"#312D. Young girls used to come her...\"",
+                          "articyId": "0x0100008F000019FB",
+                          "text": "#312D. Young girls used to come here, huddled up, hoping for more warmth than their thin coats give them. The bus took them to school. It has not run for eight years; there were not enough girls to sustain its cost.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "title": "You: \"What about the road?\"",
+                      "articyId": "0x0100008F000022C2",
+                      "text": "What about the road?",
+                      "links": [
+                        {
+                          "id": 18,
+                          "title": "Shivers: \"Craters pocked the surface. Childre...\"",
+                          "articyId": "0x0100008F00001A07",
+                          "text": "Craters pocked the surface. Children played in them, until heavy trucks full of black pitch rolled in. The landowners have filled the craters with money. It is a vital artery of flow of trade.",
+                          "links": [
+                            {
+                              "id": 15,
+                              "title": "Perception (Sight): \"There's one bump on the road: a dea...\"",
+                              "articyId": "0x0100008F00001A01",
+                              "text": "There's one bump on the road: a dead dog lies flat about two hundred paces away, right at the turn.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "title": "You: \"A dead dog?\"",
+                      "articyId": "0x0100008F000019E1",
+                      "text": "A dead dog?",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "Shivers: \"Tragedy came from the wheels of a f...\"",
+                          "articyId": "0x0100008F00001A1A",
+                          "text": "Tragedy came from the wheels of a fast RCM vehicle, hurrying to work. The cold washes over you. The sound of the sea has grown distant.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 19,
+                      "title": "You: \"That is enough. [Finish thought.]\"",
+                      "articyId": "0x0100008F000019C8",
+                      "text": "That is enough. [Finish thought.]",
+                      "links": [
+                        {
+                          "id": 13,
+                          "title": "Shivers: \"The wind moves the aerosol. A detec...\"",
+                          "articyId": "0x0100008F000022BA",
+                          "text": "The wind moves the aerosol. A detective stands behind the boom barrier; a breeze moves a curl of his hair.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"Let go of the moment. [Discard thou...\"",
+          "articyId": "0x0100008F0000199E",
+          "text": "Let go of the moment. [Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

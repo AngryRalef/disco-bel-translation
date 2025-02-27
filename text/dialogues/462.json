@@ -1,0 +1,53 @@
+{
+  "id": "0x0100006B000025A8",
+  "title": "WALKWAY ORB / equipping carabineer jacket",
+  "description": "putting jacket on +1 to revacholian nationhood you fascist man",
+  "dialogueTree": [
+    {
+      "id": 5,
+      "title": "Half Light: \"Wow... this jacket makes you feel *...\"",
+      "articyId": "0x0100006B000025AF",
+      "text": "Wow... this jacket makes you feel *strong*. As if your blood is mixing with that of the venerable Filippian loyalists of old.",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"Mixing? Does my blood *need* mixing...\"",
+          "articyId": "0x01000021000009E1",
+          "text": "Mixing? Does my blood *need* mixing? Or is it good as it is?",
+          "links": [
+            {
+              "id": 7,
+              "title": "Half Light: \"Apologies, you're right! The need f...\"",
+              "articyId": "0x010000820001F588",
+              "text": "Apologies, you're right! The need for a strong central government has always been clear to you. You're a true patriot of Revachol -- born to do it.",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Half Light: \"It's time to clean up the streets a...\"",
+                  "articyId": "0x0100006B000025BB",
+                  "text": "It's time to clean up the streets and restore the city to its former glory! Whether you like it or not, this jacket gives you serious nationalist cred.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"Oops, I didn't mean to wear a natio...\"",
+          "articyId": "0x01000021000009E8",
+          "text": "Oops, I didn't mean to wear a nationalist jacket. [Discard the thought -- and the jacket.]",
+          "links": [
+            {
+              "id": 6,
+              "title": "Half Light: \"Yes. Let's hope no one saw you wear...\"",
+              "articyId": "0x0100002100000A03",
+              "text": "Yes. Let's hope no one saw you wearing that outrageously fascist jacket.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

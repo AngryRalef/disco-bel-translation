@@ -1,0 +1,83 @@
+{
+  "id": "0x0100002B00009100",
+  "title": "BACKYARD / STONE",
+  "description": "First follow-up convo with Kim where you discover keys under the stone.",
+  "dialogueTree": [
+    {
+      "id": 9,
+      "title": "Stone: \"A stone like any other, lying in a...\"",
+      "articyId": "0x0100004000002900",
+      "text": "A stone like any other, lying in a whorl of sleet and mud. Maybe there's something under it?",
+      "links": [
+        {
+          "id": 18,
+          "title": "You: \"Turn it over.\"",
+          "articyId": "0x010000400000290C",
+          "text": "Turn it over.",
+          "links": [
+            {
+              "id": 3,
+              "title": "Stone: \"There's a key beneath it, rusty fro...\"",
+              "articyId": "0x010000400000291C",
+              "text": "There's a key beneath it, rusty from the dirt.",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "Kim Kitsuragi: \"\"This must be for the front door. P...\"",
+                  "articyId": "0x010000570000F148",
+                  "text": "\"This must be for the front door. Pity it doesn't have the apartment number on it. This building has many apartments and the man can be in any of them...\"",
+                  "links": [
+                    {
+                      "id": 14,
+                      "title": "You: \"\"How are we going to find the right...\"",
+                      "articyId": "0x010000570001638C",
+                      "text": "\"How are we going to find the right one?\"",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "Kim Kitsuragi: \"\"We'll just have to go in and see.\"\"",
+                          "articyId": "0x010000570001677B",
+                          "text": "\"We'll just have to go in and see.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 15,
+                  "title": "Kim Kitsuragi: \"\"This must be for the front door. L...\"",
+                  "articyId": "0x0100005700016771",
+                  "text": "\"This must be for the front door. Let's see if it works.\"",
+                  "links": []
+                },
+                {
+                  "id": 17,
+                  "title": "Logic: \"Looks like it could belong to the b...\"",
+                  "articyId": "0x010000570000F14D",
+                  "text": "Looks like it could belong to the building's front door.",
+                  "links": [
+                    {
+                      "id": 13,
+                      "title": "You: \"Put the stone back. [Leave.]\"",
+                      "articyId": "0x0100004000002953",
+                      "text": "Put the stone back. [Leave.]",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"Ignore it. [Leave.]\"",
+          "articyId": "0x0100004000002912",
+          "text": "Ignore it. [Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

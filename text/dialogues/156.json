@@ -1,0 +1,406 @@
+{
+  "id": "0x0100002F0000DD41",
+  "title": "WHIRLING F2 / TEQUILA DOOR",
+  "description": "The dialogue between you and the door to your room. It is locked unless you've paid for damages.",
+  "dialogueTree": [
+    {
+      "id": 42,
+      "title": "Door, Room #1: \"This is the door to your room.\"",
+      "articyId": "0x0100005800008E3D",
+      "text": "This is the door to your room.",
+      "links": [
+        {
+          "id": 65,
+          "title": "You: \"\"Good night, lieutenant.\"\"",
+          "articyId": "0x010000580000BB98",
+          "text": "\"Good night, lieutenant.\"",
+          "links": [
+            {
+              "id": 69,
+              "title": "Kim Kitsuragi: \"\"Just a moment. You had some questi...\"",
+              "articyId": "0x0100002100001833",
+              "text": "\"Just a moment. You had some questions earlier, I believe, and, besides, we should discuss our progress on the investigation. Let's go out to the balcony.\"",
+              "links": [
+                {
+                  "id": 57,
+                  "title": "You: \"\"Alright, let's go.\"\"",
+                  "articyId": "0x0100006B00004B1E",
+                  "text": "\"Alright, let's go.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 18,
+              "title": "Kim Kitsuragi: \"\"Just a moment. We should talk abou...\"",
+              "articyId": "0x010000210000183B",
+              "text": "\"Just a moment. We should talk about our progress on the investigation. Let's go out to the balcony.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 91,
+          "title": "Door, Room #1: \"Something about it has changed.\"",
+          "articyId": "0x0100002F0000E3DD",
+          "text": "Something about it has changed.",
+          "links": [
+            {
+              "id": 31,
+              "title": "You: \"Try to unlock the door.\"",
+              "articyId": "0x01000058000060A0",
+              "text": "Try to unlock the door.",
+              "links": [
+                {
+                  "id": 58,
+                  "title": "Door, Room #1: \"Your key no longer turns in the loc...\"",
+                  "articyId": "0x01000058000060A7",
+                  "text": "Your key no longer turns in the lock.",
+                  "links": [
+                    {
+                      "id": 53,
+                      "title": "Volition: \"You feel uncertain, like a child wh...\"",
+                      "articyId": "0x01000058000060C5",
+                      "text": "You feel uncertain, like a child who's lost his mother in the crowd.",
+                      "links": [
+                        {
+                          "id": 10,
+                          "title": "Kim Kitsuragi: \"\"It must be an electronic lock. You...\"",
+                          "articyId": "0x01000058000060B4",
+                          "text": "\"It must be an electronic lock. You will have to get Garte, the cafeteria manager, to open it first -- after you've paid for the night.\"",
+                          "links": [
+                            {
+                              "id": 72,
+                              "title": "Half Light: \"Just punch the damned door. No *loc...\"",
+                              "articyId": "0x010000580000610A",
+                              "text": "Just punch the damned door. No *locks* are going to keep you out.",
+                              "links": [
+                                {
+                                  "id": 85,
+                                  "title": "You: \"\"Right, I should go pay my debts be...\"",
+                                  "articyId": "0x010000580000612C",
+                                  "text": "\"Right, I should go pay my debts before I can go to sleep.\"",
+                                  "links": [
+                                    {
+                                      "id": 67,
+                                      "title": "Kim Kitsuragi: \"He nods. \"Yes, we both need to get...\"",
+                                      "articyId": "0x010000580000619E",
+                                      "text": "He nods. \"Yes, we both need to get proper rest tonight.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 41,
+                                  "title": "You: \"\"Nah, I'll get by somehow. Didn't l...\"",
+                                  "articyId": "0x0100005800006120",
+                                  "text": "\"Nah, I'll get by somehow. Didn't like that room very much anyway.\"",
+                                  "links": [
+                                    {
+                                      "id": 32,
+                                      "title": "Kim Kitsuragi: \"\"I would advise against that. It's...\"",
+                                      "articyId": "0x0100005800006198",
+                                      "text": "\"I would advise against that. It's already late, and you won't find cheaper accommodation in the vicinity.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 59,
+                                  "title": "You: \"\"Actually, I don't need to pay -- I...\"",
+                                  "articyId": "0x0100005800006126",
+                                  "text": "\"Actually, I don't need to pay -- I will brave the streets. Go undercover as a hobocop.\"",
+                                  "links": [
+                                    {
+                                      "id": 73,
+                                      "title": "Kim Kitsuragi: \"\"Our investigation does not at pres...\"",
+                                      "articyId": "0x0100005800006192",
+                                      "text": "\"Our investigation does not at present require for anyone to go undercover. Let's drop this discussion and go settle your debt with the manager.\"",
+                                      "links": [
+                                        {
+                                          "id": 33,
+                                          "title": "Authority: \"He's asserting his leadership talen...\"",
+                                          "articyId": "0x01000058000061A6",
+                                          "text": "He's asserting his leadership talents because he is concerned about you.",
+                                          "links": [
+                                            {
+                                              "id": 70,
+                                              "title": "Savoir Faire: \"Hey, remember that trash bin idea.....\"",
+                                              "articyId": "0x01000021000034DB",
+                                              "text": "Hey, remember that trash bin idea...? Time to get climbing!",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 52,
+                                              "title": "Savoir Faire: \"You could try climbing into that tr...\"",
+                                              "articyId": "0x01000021000034B7",
+                                              "text": "You could try climbing into that trash bin in the yard, hobocop style...",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 27,
+                                              "title": "Savoir Faire: \"You could try climbing into that tr...\"",
+                                              "articyId": "0x01000021000034C2",
+                                              "text": "You could try climbing into that trash bin in the yard, hobocop style... after you've gotten open the lid.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 87,
+                                  "title": "You: \"Punch the door.\"",
+                                  "articyId": "0x0100005800008E53",
+                                  "text": "Punch the door.",
+                                  "links": [
+                                    {
+                                      "id": 40,
+                                      "title": "Door, Room #1: \"The door rings from the impact, but...\"",
+                                      "articyId": "0x0100005800008E63",
+                                      "text": "The door rings from the impact, but does not budge.",
+                                      "links": [
+                                        {
+                                          "id": 79,
+                                          "title": "Garte, the Cafeteria Manager: \"(His voice echoes from downstairs.)...\"",
+                                          "articyId": "0x0100002100001231",
+                                          "text": "(His voice echoes from downstairs.) \"What the hell is going on up there?\"",
+                                          "links": [
+                                            {
+                                              "id": 80,
+                                              "title": "Kim Kitsuragi: \"The lieutenant looks at you with a...\"",
+                                              "articyId": "0x010000210000123C",
+                                              "text": "The lieutenant looks at you with a mixture of pity and weariness. \"Come on, let's go down.\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 106,
+                                              "title": "Pain Threshold: \"Your fist bounces off the door and...\"",
+                                              "articyId": "0x0100005800008E73",
+                                              "text": "Your fist bounces off the door and comes back to you on a wave of agony that surges up your arm.",
+                                              "links": [
+                                                {
+                                                  "id": 3,
+                                                  "title": "You: \"\"Aaaaa! It huuurts!\"\"",
+                                                  "articyId": "0x0100005800006249",
+                                                  "text": "\"Aaaaa! It huuurts!\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 34,
+                                                      "title": "Pain Threshold: \"Your angry voice carries through th...\"",
+                                                      "articyId": "0x0100005800006273",
+                                                      "text": "Your angry voice carries through the Whirling, but you still can't stop the tears from welling up in your eyes...",
+                                                      "links": [
+                                                        {
+                                                          "id": 20,
+                                                          "title": "Garte, the Cafeteria Manager: \"(His voice echoes from downstairs.)...\"",
+                                                          "articyId": "0x010000580000623B",
+                                                          "text": "(His voice echoes from downstairs.) \"What the hell is going on up there?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 100,
+                                                              "title": "Kim Kitsuragi: \"The lieutenant looks at you with a...\"",
+                                                              "articyId": "0x0100005800006241",
+                                                              "text": "The lieutenant looks at you with a mixture of pity and weariness. \"Come on, let's go down.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 101,
+                                                  "title": "You: \"Keep it in. Cradle your arm.\"",
+                                                  "articyId": "0x010000580000624F",
+                                                  "text": "Keep it in. Cradle your arm.",
+                                                  "links": [
+                                                    {
+                                                      "id": 5,
+                                                      "title": "Pain Threshold: \"The tears bring some relief, but no...\"",
+                                                      "articyId": "0x010000580000626C",
+                                                      "text": "The tears bring some relief, but not much.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 74,
+                                                  "title": "You: \"Try to stay cool.\"",
+                                                  "articyId": "0x0100005800006255",
+                                                  "text": "Try to stay cool.",
+                                                  "links": [
+                                                    {
+                                                      "id": 56,
+                                                      "title": "Composure: \"You've got this. Men like you don't...\"",
+                                                      "articyId": "0x0100005800008EE4",
+                                                      "text": "You've got this. Men like you don't cry unless it serves their purposes.",
+                                                      "links": [
+                                                        {
+                                                          "id": 107,
+                                                          "title": "You: \"Confront the door with a stoical ex...\"",
+                                                          "articyId": "0x0100005800008EEA",
+                                                          "text": "Confront the door with a stoical expression. You are still The Law.",
+                                                          "links": [
+                                                            {
+                                                              "id": 43,
+                                                              "title": "Garte, the Cafeteria Manager: \"(His voice echoes from downstairs.)...\"",
+                                                              "articyId": "0x0100005800008EAC",
+                                                              "text": "(His voice echoes from downstairs.) \"What's going on up there?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 9,
+                                                                  "title": "Kim Kitsuragi: \"He nods toward the staircase. \"Come...\"",
+                                                                  "articyId": "0x0100005800008EF7",
+                                                                  "text": "He nods toward the staircase. \"Come on, let's go down.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 4,
+                                                          "title": "Pain Threshold: \"Nice try. The tears come streaming...\"",
+                                                          "articyId": "0x010000580000625E",
+                                                          "text": "Nice try. The tears come streaming down your face as you crumble to the ground.",
+                                                          "links": [
+                                                            {
+                                                              "id": 11,
+                                                              "title": "You: \"Blubber. And keep blubbering.\"",
+                                                              "articyId": "0x0100005800006265",
+                                                              "text": "Blubber. And keep blubbering.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 75,
+                                                  "title": "Pain Threshold: \"It hurts, but keep your cool. You'v...\"",
+                                                  "articyId": "0x0100005800008E98",
+                                                  "text": "It hurts, but keep your cool. You've got this.",
+                                                  "links": [
+                                                    {
+                                                      "id": 99,
+                                                      "title": "You: \"Try one more time. This time with b...\"",
+                                                      "articyId": "0x010000580000620E",
+                                                      "text": "Try one more time. This time with both fists, one after the other.",
+                                                      "links": [
+                                                        {
+                                                          "id": 45,
+                                                          "title": "Door, Room #1: \"The door shudders, but appears unda...\"",
+                                                          "articyId": "0x0100005800008ECB",
+                                                          "text": "The door shudders, but appears undamaged.",
+                                                          "links": [
+                                                            {
+                                                              "id": 44,
+                                                              "title": "Physical Instrument: \"Pow-pow! That was impressive.\"",
+                                                              "articyId": "0x0100005800008EB5",
+                                                              "text": "Pow-pow! That was impressive.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 62,
+                                                                  "title": "Garte, the Cafeteria Manager: \"(His voice echoes from downstairs.)...\"",
+                                                                  "articyId": "0x010000580000621C",
+                                                                  "text": "(His voice echoes from downstairs.) \"What's going on up there?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 36,
+                                                                      "title": "Kim Kitsuragi: \"The lieutenant purses his lips. \"Ad...\"",
+                                                                      "articyId": "0x0100005800006222",
+                                                                      "text": "The lieutenant purses his lips. \"Admirable form. Now come on, let's go down.\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 61,
+                                                      "title": "Kim Kitsuragi: \"The lieutenant looks on impassively...\"",
+                                                      "articyId": "0x01000058000061F2",
+                                                      "text": "The lieutenant looks on impassively. \"Even if you could break down the door, all you would get is another bill.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 63,
+                                                          "title": "Door, Room #1: \"The door appears undamaged, and eve...\"",
+                                                          "articyId": "0x0100005800008ED2",
+                                                          "text": "The door appears undamaged, and even more impassive than the lieutenant.",
+                                                          "links": [
+                                                            {
+                                                              "id": 98,
+                                                              "title": "Physical Instrument: \"*Even if you could*? Don't let him...\"",
+                                                              "articyId": "0x01000058000061FF",
+                                                              "text": "*Even if you could*? Don't let him talk you down, son!",
+                                                              "links": [
+                                                                {
+                                                                  "id": 35,
+                                                                  "title": "You: \"\"This door will fall prostrate befo...\"",
+                                                                  "articyId": "0x0100005800008EBD",
+                                                                  "text": "\"This door will fall prostrate before The Law!\" (Punch the door again.)",
+                                                                  "links": []
+                                                                },
+                                                                {
+                                                                  "id": 68,
+                                                                  "title": "You: \"Observe the damage to your knuckles...\"",
+                                                                  "articyId": "0x01000058000061E1",
+                                                                  "text": "Observe the damage to your knuckles. Is this really worth it?",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 66,
+                          "title": "Tutorial Agent: \"The door to your room locks every n...\"",
+                          "articyId": "0x010000210000186C",
+                          "text": "The door to your room locks every night at 21.00 if you haven't paid for the room. You can pay downstairs when speaking to Garte, the cafeteria manager.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 60,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x010000580000618B",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

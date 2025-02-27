@@ -1,0 +1,287 @@
+{
+  "id": "0x0100002B00086758",
+  "title": "FRITTE / KNICK-KNACKS STAND",
+  "description": "The counter.",
+  "dialogueTree": [
+    {
+      "id": 75,
+      "title": "Knick-knacks Stand: \"To the left of the croissants and j...\"",
+      "articyId": "0x0100008F00003051",
+      "text": "To the left of the croissants and juice bottles, several packaged raincoats fill a low shelf. One is missing: the one you tried to steal, but then legally purchased.",
+      "links": []
+    },
+    {
+      "id": 20,
+      "title": "Knick-knacks Stand: \"To the left of the croissants and j...\"",
+      "articyId": "0x0100008F00002FDA",
+      "text": "To the left of the croissants and juice bottles, several packaged raincoats fill a low shelf. One is missing. No one need be any wiser.",
+      "links": []
+    },
+    {
+      "id": 64,
+      "title": "Knick-knacks Stand: \"To the left of the croissants and j...\"",
+      "articyId": "0x0100008F00002FD4",
+      "text": "To the left of the croissants and juice bottles, several packaged raincoats fill a low shelf. One, however, lies in the dusty floor: the one you tried and failed to steal.",
+      "links": [
+        {
+          "id": 72,
+          "title": "Volition: \"Look at it, detective. And be asham...\"",
+          "articyId": "0x0100008F00002FEE",
+          "text": "Look at it, detective. And be ashamed. Until you make it right by *legally purchasing* that raincoat, I'll make sure you feel guilty every time you see it.",
+          "links": [
+            {
+              "id": 71,
+              "title": "You: \"\"What's that?\" (Point to the rainco...\"",
+              "articyId": "0x0100006B0000ACE2",
+              "text": "\"What's that?\" (Point to the raincoat.)",
+              "links": [
+                {
+                  "id": 62,
+                  "title": "Frittte clerk: \"\"What is what?\" The girl leans over...\"",
+                  "articyId": "0x0100008F0000318D",
+                  "text": "\"What is what?\" The girl leans over the counter to see what you're referring to. \"Uhm... a raincoat? You know -- like the one you tried to steal earlier?\"",
+                  "links": []
+                },
+                {
+                  "id": 48,
+                  "title": "Frittte clerk: \"\"What is what?\" The girl leans over...\"",
+                  "articyId": "0x0100008F00003017",
+                  "text": "\"What is what?\" The girl leans over the counter to see what you're referring to. \"Uhm... a raincoat? You know -- like the one you bought earlier?\"",
+                  "links": []
+                },
+                {
+                  "id": 65,
+                  "title": "Frittte clerk: \"\"What is what?\" The girl leans over...\"",
+                  "articyId": "0x0100006B0000ACF4",
+                  "text": "\"What is what?\" The girl leans over the counter to see what you're referring to. \"Uhm, it's a raincoat?\"",
+                  "links": [
+                    {
+                      "id": 80,
+                      "title": "Frittte clerk: \"\"If you want to buy one then it's o...\"",
+                      "articyId": "0x0100006B0000AD48",
+                      "text": "\"If you want to buy one then it's only four reál.\" She taps on the glass counter. The raincoats patiently await purchase.",
+                      "links": [
+                        {
+                          "id": 57,
+                          "title": "Interfacing: \"The sloppy stacking makes it more d...\"",
+                          "articyId": "0x0100006B0000ACD7",
+                          "text": "The sloppy stacking makes it more difficult to discern the missing one. You will be safe.",
+                          "links": []
+                        },
+                        {
+                          "id": 73,
+                          "title": "Interfacing: \"Her attention is drawn to the rainc...\"",
+                          "articyId": "0x0100008F00003040",
+                          "text": "Her attention is drawn to the raincoats. Stealing one undetected will now be more difficult.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 38,
+              "title": "You: \"\"I want to buy a raincoat.\"\"",
+              "articyId": "0x0100006B0000ADF2",
+              "text": "\"I want to buy a raincoat.\"",
+              "links": [
+                {
+                  "id": 82,
+                  "title": "Frittte clerk: \"\"Yes -- buy it, please, don't steal...\"",
+                  "articyId": "0x0100008F00003196",
+                  "text": "\"Yes -- buy it, please, don't steal it...\" The clerk removes the garment from the dusty floor and hands it over.",
+                  "links": [
+                    {
+                      "id": 76,
+                      "title": "Volition: \"A wrong has been made right. You ma...\"",
+                      "articyId": "0x0100008F0000306A",
+                      "text": "A wrong has been made right. You may rest easy now.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 83,
+                  "title": "Frittte clerk: \"\"Here you go.\" The clerk removes th...\"",
+                  "articyId": "0x0100006B0000ADC1",
+                  "text": "\"Here you go.\" The clerk removes the garment from the lower shelf and hands it over.",
+                  "links": [
+                    {
+                      "id": 77,
+                      "title": "Endurance: \"This will keep you nice and warm ou...\"",
+                      "articyId": "0x010000060001F62F",
+                      "text": "This will keep you nice and warm out there. Good choice, if a bit goofy looking...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 22,
+              "title": "You: \"Steal a raincoat.\"",
+              "articyId": "0x0100006B0000AD18",
+              "text": "Steal a raincoat.",
+              "links": [
+                {
+                  "id": 58,
+                  "title": "Interfacing: \"The girl delves into the magazine,...\"",
+                  "articyId": "0x0100006B0000ACEE",
+                  "text": "The girl delves into the magazine, hair covering her face... vision obscured, she cannot see your hand move.",
+                  "links": [
+                    {
+                      "id": 78,
+                      "title": "Interfacing: \"Down onto one knee. Pretending to d...\"",
+                      "articyId": "0x0100006B0000AD06",
+                      "text": "Down onto one knee. Pretending to do up a shoelace. Take a loose package from the bottom. Slip it in the old sleeve. The girl doesn't notice *a thing*.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 85,
+                  "title": "Interfacing: \"The girl delves into the magazine,...\"",
+                  "articyId": "0x0100006B0000AD5F",
+                  "text": "The girl delves into the magazine, hair covering her face... vision obscured, she cannot see your hand move.",
+                  "links": [
+                    {
+                      "id": 12,
+                      "title": "You: \"Try to grab a package. Any one of t...\"",
+                      "articyId": "0x0100006B0000AD86",
+                      "text": "Try to grab a package. Any one of them. Slip it up your sleeve and...",
+                      "links": [
+                        {
+                          "id": 84,
+                          "title": "Interfacing: \"Oh no! I said *don't* let it fall o...\"",
+                          "articyId": "0x010000060001F627",
+                          "text": "Oh no! I said *don't* let it fall out with a thump! What did you do?",
+                          "links": [
+                            {
+                              "id": 79,
+                              "title": "Frittte clerk: \"\"Um, did you...\" The girl stares at...\"",
+                              "articyId": "0x0100006B0000AD3C",
+                              "text": "\"Um, did you...\" The girl stares at the package lying on the floor. It looks a little sad as it lies in the dusty floor.",
+                              "links": [
+                                {
+                                  "id": 2,
+                                  "title": "Frittte clerk: \"\"I mean, I didn't just see a middle...\"",
+                                  "articyId": "0x0100006B0000AD0C",
+                                  "text": "\"I mean, I didn't just see a middle-aged man try to steal a four reál raincoat, did I?\"",
+                                  "links": [
+                                    {
+                                      "id": 16,
+                                      "title": "You: \"\"No, you didn't. I didn't do it!\"\"",
+                                      "articyId": "0x0100006B0000AD4E",
+                                      "text": "\"No, you didn't. I didn't do it!\"",
+                                      "links": [
+                                        {
+                                          "id": 21,
+                                          "title": "Kim Kitsuragi: \"\"Really? A *plastic poncho*?\" The l...\"",
+                                          "articyId": "0x0100006B0000AD00",
+                                          "text": "\"Really? A *plastic poncho*?\" The lieutenant sighs and looks away.",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 59,
+                                          "title": "Frittte clerk: \"The clerk stares at you, but doesn'...\"",
+                                          "articyId": "0x0100006B0000AD7A",
+                                          "text": "The clerk stares at you, but doesn't say a thing for a moment or two.",
+                                          "links": [
+                                            {
+                                              "id": 29,
+                                              "title": "Pain Threshold: \"She's like 14! You're humiliated in...\"",
+                                              "articyId": "0x0100006B0000AD36",
+                                              "text": "She's like 14! You're humiliated in front of a minor, what's *wrong* with you, son?!",
+                                              "links": [
+                                                {
+                                                  "id": 67,
+                                                  "title": "Frittte clerk: \"\"I mean, it doesn't even cost that...\"",
+                                                  "articyId": "0x0100006B0000AD74",
+                                                  "text": "\"I mean, it doesn't even cost that much... like, why would you want to 'fuck with Frittte' over something like this?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 14,
+                                                      "title": "Rhetoric: \"She says 'fuck with Frittte' like i...\"",
+                                                      "articyId": "0x010000060001F638",
+                                                      "text": "She says 'fuck with Frittte' like it's a saying, or like she's quoting someone. Maybe you can ask her about this later?",
+                                                      "links": [
+                                                        {
+                                                          "id": 33,
+                                                          "title": "Frittte clerk: \"\"Fucking with Frittte is *dangerous...\"",
+                                                          "articyId": "0x0100006B0000AD12",
+                                                          "text": "\"Fucking with Frittte is *dangerous*, you know.\" She scratches her cheek, thinking. \"Just leave it there, I'll put it away later.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 66,
+                                      "title": "You: \"\"I'm sorry... I'm such a mess latel...\"",
+                                      "articyId": "0x0100006B0000AD26",
+                                      "text": "\"I'm sorry... I'm such a mess lately...\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 30,
+                                      "title": "You: \"\"Don't judge me. I needed it for an...\"",
+                                      "articyId": "0x0100006B0000AD42",
+                                      "text": "\"Don't judge me. I needed it for an official police investigation.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 15,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x0100002B00086B7D",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Knick-knacks Stand: \"To the left of some croissants and...\"",
+      "articyId": "0x0100008F00002FCE",
+      "text": "To the left of some croissants and juice bottles, you see several packaged raincoats fill a low shelf. One is missing: the one you legally purchased.",
+      "links": []
+    },
+    {
+      "id": 37,
+      "title": "Knick-knacks Stand: \"You see several packaged raincoats...\"",
+      "articyId": "0x0100002B000869E7",
+      "text": "You see several packaged raincoats fill a low shelf beneath a display of croissants and juice bottles. The raincoats are transparent, except for the big 'FRITTTE' slogan on the back.",
+      "links": [
+        {
+          "id": 86,
+          "title": "Interfacing: \"The packages are small. Discreet. S...\"",
+          "articyId": "0x0100006B0000ADF9",
+          "text": "The packages are small. Discreet. Sloppily stacked, making them easier to take unnoticed -- no need to worry about knocking over a display.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

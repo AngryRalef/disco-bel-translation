@@ -1,0 +1,96 @@
+{
+  "id": "0x0100005800007380",
+  "title": "WHIRLING F3 / BARRED DOOR INSIDE",
+  "description": "From the inside, the door opens easily.",
+  "dialogueTree": [
+    {
+      "id": 21,
+      "title": "Barred Door: \"This is the barred door you tried t...\"",
+      "articyId": "0x01000058000077B7",
+      "text": "This is the barred door you tried to kick in before.",
+      "links": []
+    },
+    {
+      "id": 2,
+      "title": "Barred Door: \"This is the inside of the barred do...\"",
+      "articyId": "0x01000058000077A5",
+      "text": "This is the inside of the barred door you've seen before.",
+      "links": []
+    },
+    {
+      "id": 10,
+      "title": "Barred Door: \"The door is small but heavy-looking...\"",
+      "articyId": "0x0100005800007796",
+      "text": "The door is small but heavy-looking. It's barred from the inside.",
+      "links": [
+        {
+          "id": 9,
+          "title": "You: \"Lightly punch the door once more. J...\"",
+          "articyId": "0x01000058000077C6",
+          "text": "Lightly punch the door once more. Just in case.",
+          "links": [
+            {
+              "id": 14,
+              "title": "Barred Door: \"The door shudders a bit, as though...\"",
+              "articyId": "0x01000058000077DA",
+              "text": "The door shudders a bit, as though it were laughing at you.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "You: \"\"So what's on the other side?\"\"",
+          "articyId": "0x0100007800011001",
+          "text": "\"So what's on the other side?\"",
+          "links": [
+            {
+              "id": 19,
+              "title": "Kim Kitsuragi: \"\"Unless we've veered off into a fol...\"",
+              "articyId": "0x0100008F00003FF8",
+              "text": "\"Unless we've veered off into a folded M dimension, I'm expecting to step out on the roof.\"",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "Conceptualization: \"Folded M dimension. A reference to...\"",
+                  "articyId": "0x0100007800011017",
+                  "text": "Folded M dimension. A reference to the popular science fiction series *In System*. Look who's in a good mood suddenly (and reads science fiction).",
+                  "links": [
+                    {
+                      "id": 15,
+                      "title": "Inland Empire: \"Yes. It *is* quite likely that we w...\"",
+                      "articyId": "0x010000060001BD23",
+                      "text": "Yes. It *is* quite likely that we will re-emerge on the M-Plain. Brace for psychokinetic impact. (Or the roof.)",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 20,
+              "title": "Kim Kitsuragi: \"\"Unless we've veered off into a fol...\"",
+              "articyId": "0x0100007800011008",
+              "text": "\"Unless we've veered off into a folded M dimension, I'm expecting to step out on the roof -- we could ask Klaasje about this route, see how she reacts?\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"Unbar the door. [Leave]\"",
+          "articyId": "0x01000058000077CC",
+          "text": "Unbar the door. [Leave]",
+          "links": []
+        },
+        {
+          "id": 16,
+          "title": "You: \"Let the door remain barred. [Leave....\"",
+          "articyId": "0x01000058000077D2",
+          "text": "Let the door remain barred. [Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

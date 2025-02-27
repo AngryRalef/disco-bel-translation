@@ -1,0 +1,2249 @@
+{
+  "id": "0x0100000400009B26",
+  "title": "YARD / TRASH",
+  "description": "You can click on the trash container. This lets you see the padlock has a Whirling-in-Rags logo on it -> go to Garte -> ask for key -> open container - > get your paperwork",
+  "dialogueTree": [
+    {
+      "id": 113,
+      "title": "Trash Container: \"The trash container stands in the s...\"",
+      "articyId": "0x0100004500000BEE",
+      "text": "The trash container stands in the spring snow.",
+      "links": [
+        {
+          "id": 124,
+          "title": "You: \"Why am I looking at you, trash cont...\"",
+          "articyId": "0x010000580001C4C9",
+          "text": "Why am I looking at you, trash container? You're just a trash container.",
+          "links": [
+            {
+              "id": 394,
+              "title": "Trash Container: \"Well it is a *container*. Maybe you...\"",
+              "articyId": "0x010000580001C3C9",
+              "text": "Well it is a *container*. Maybe you're prioritizing it?",
+              "links": [
+                {
+                  "id": 470,
+                  "title": "You: \"\"Lieutenant, what do you think coul...\"",
+                  "articyId": "0x010000580001C485",
+                  "text": "\"Lieutenant, what do you think could be in there?\"",
+                  "links": [
+                    {
+                      "id": 270,
+                      "title": "Kim Kitsuragi: \"\"Trash? Food waste from the cafeter...\"",
+                      "articyId": "0x010000580001C4B9",
+                      "text": "\"Trash? Food waste from the cafeteria? They lock these containers to keep the derelicts from flocking in. Could be evidence too.\"",
+                      "links": [
+                        {
+                          "id": 43,
+                          "title": "You: \"\"Yes, I *feel* like there's somethi...\"",
+                          "articyId": "0x010000580001C4C3",
+                          "text": "\"Yes, I *feel* like there's something in there.\"",
+                          "links": [
+                            {
+                              "id": 103,
+                              "title": "Kim Kitsuragi: \"\"What do you mean *feel*?\"\"",
+                              "articyId": "0x010000580001C3FD",
+                              "text": "\"What do you mean *feel*?\"",
+                              "links": [
+                                {
+                                  "id": 505,
+                                  "title": "You: \"\"It's extrasensory perception. What...\"",
+                                  "articyId": "0x010000580001C4B3",
+                                  "text": "\"It's extrasensory perception. Whatever is in there holds a special *significance*.\"",
+                                  "links": [
+                                    {
+                                      "id": 395,
+                                      "title": "Kim Kitsuragi: \"\"I agree. We should get someone fro...\"",
+                                      "articyId": "0x010000580001C3DB",
+                                      "text": "\"I agree. We should get someone from the Remote Viewers Division here.\"",
+                                      "links": [
+                                        {
+                                          "id": 522,
+                                          "title": "Rhetoric: \"He's being sarcastic. Do *not* ask...\"",
+                                          "articyId": "0x010000580001C3CF",
+                                          "text": "He's being sarcastic. Do *not* ask what the Remote Viewers Division is.",
+                                          "links": [
+                                            {
+                                              "id": 363,
+                                              "title": "You: \"\"What is the Remote Viewers Divisio...\"",
+                                              "articyId": "0x010000580001C438",
+                                              "text": "\"What is the Remote Viewers Division?\"",
+                                              "links": [
+                                                {
+                                                  "id": 104,
+                                                  "title": "Kim Kitsuragi: \"\"All the detectives from all the Pr...\"",
+                                                  "articyId": "0x010000580001C432",
+                                                  "text": "\"All the detectives from all the Precincts who experience extrasensory perception go to the Remote Viewers Division. Their work is invaluable to the force.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 297,
+                                                      "title": "Drama: \"It's remarkable how he can keep a s...\"",
+                                                      "articyId": "0x010000580001C427",
+                                                      "text": "It's remarkable how he can keep a straight face. Take note -- the lieutenant is well versed in dead-panning. Many of the things he says could be meant in jest.",
+                                                      "links": [
+                                                        {
+                                                          "id": 336,
+                                                          "title": "You: \"\"Wow! Could we get them here?\"\"",
+                                                          "articyId": "0x010000580001C3F7",
+                                                          "text": "\"Wow! Could we get them here?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 123,
+                                                              "title": "Kim Kitsuragi: \"\"No, because they don't exist.\"\"",
+                                                              "articyId": "0x010000580001C3F1",
+                                                              "text": "\"No, because they don't exist.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 85,
+                                                                  "title": "You: \"\"I'm so disappointed right now. I t...\"",
+                                                                  "articyId": "0x010000580001C421",
+                                                                  "text": "\"I'm so disappointed right now. I thought there was a Remote Viewers Division.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 178,
+                                                                      "title": "Kim Kitsuragi: \"\"There isn't -- but we should still...\"",
+                                                                      "articyId": "0x010000580001C415",
+                                                                      "text": "\"There isn't -- but we should still access this container.\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 86,
+                                                                  "title": "You: \"\"Oh. Okay.\"\"",
+                                                                  "articyId": "0x010000580001C45A",
+                                                                  "text": "\"Oh. Okay.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 362,
+                                                                      "title": "Kim Kitsuragi: \"\"We should still access this contai...\"",
+                                                                      "articyId": "0x010000580001C409",
+                                                                      "text": "\"We should still access this container. There may be evidence in there.\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 148,
+                                                          "title": "You: \"\"What kind of extra-natural abiliti...\"",
+                                                          "articyId": "0x010000580001C4E5",
+                                                          "text": "\"What kind of extra-natural abilities do they possess?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 20,
+                                                              "title": "Kim Kitsuragi: \"\"None. Because they don't exist.\"\"",
+                                                              "articyId": "0x010000580001C4EF",
+                                                              "text": "\"None. Because they don't exist.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 299,
+                                                          "title": "You: \"\"There is no Remote Viewers Divisio...\"",
+                                                          "articyId": "0x010000580001C464",
+                                                          "text": "\"There is no Remote Viewers Division, is there?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 503,
+                                                              "title": "Kim Kitsuragi: \"\"There isn't.\"\"",
+                                                              "articyId": "0x010000580001C47F",
+                                                              "text": "\"There isn't.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 504,
+                                              "title": "You: \"\"There is no need for sarcasm. I ju...\"",
+                                              "articyId": "0x010000580001C496",
+                                              "text": "\"There is no need for sarcasm. I just feel strongly about it, that's all. Maybe it's not connected to the case, but still.\"",
+                                              "links": [
+                                                {
+                                                  "id": 269,
+                                                  "title": "Kim Kitsuragi: \"\"Oh.\" He pauses. \"It *might* also b...\"",
+                                                  "articyId": "0x010000580001C48B",
+                                                  "text": "\"Oh.\" He pauses. \"It *might* also be evidence. The mob could have disposed of something in there. We should get it open.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 396,
+                                              "title": "You: \"Say nothing.\"",
+                                              "articyId": "0x010000580001C4D5",
+                                              "text": "Say nothing.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 147,
+                                  "title": "You: \"\"It's just a hunch. Maybe someone t...\"",
+                                  "articyId": "0x010000580001C454",
+                                  "text": "\"It's just a hunch. Maybe someone threw something in there?\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 202,
+                                  "title": "You: \"\"Nothing.\"\"",
+                                  "articyId": "0x010000580001C4DB",
+                                  "text": "\"Nothing.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 87,
+                          "title": "You: \"\"Seems like a reasonable assumption.\"\"",
+                          "articyId": "0x0100009700000016",
+                          "text": "\"Seems like a reasonable assumption.\"",
+                          "links": [
+                            {
+                              "id": 337,
+                              "title": "Kim Kitsuragi: \"\"Mhm.\" He leans in to inspect the l...\"",
+                              "articyId": "0x010000580001C44E",
+                              "text": "\"Mhm.\" He leans in to inspect the lock.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 69,
+                          "title": "You: \"\"Then we should open it immediately!\"\"",
+                          "articyId": "0x0100009700000025",
+                          "text": "\"Then we should open it immediately!\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 230,
+                  "title": "You: \"Keep the hunch to yourself.\"",
+                  "articyId": "0x010000580001C4A1",
+                  "text": "Keep the hunch to yourself.",
+                  "links": [
+                    {
+                      "id": 231,
+                      "title": "Kim Kitsuragi: \"The lieutenant leans in to inspect...\"",
+                      "articyId": "0x010000580001C4A7",
+                      "text": "The lieutenant leans in to inspect the lock.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 177,
+                  "title": "You: \"I should get you open, trash contai...\"",
+                  "articyId": "0x010000580001C403",
+                  "text": "I should get you open, trash container.",
+                  "links": [
+                    {
+                      "id": 442,
+                      "title": "Trash Container: \"The lock says Whirling-in-Rags. May...\"",
+                      "articyId": "0x010000580001C41B",
+                      "text": "The lock says Whirling-in-Rags. Maybe the proprietor has the key? Who knows what secrets wait inside...",
+                      "links": [
+                        {
+                          "id": 229,
+                          "title": "Inland Empire: \"Beware. They're very *painful* secr...\"",
+                          "articyId": "0x010000580001C40F",
+                          "text": "Beware. They're very *painful* secrets.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 153,
+                      "title": "Trash Container: \"The lock says Whirling-in-Rags. May...\"",
+                      "articyId": "0x01000006000161FF",
+                      "text": "The lock says Whirling-in-Rags. Maybe the proprietor has the key? Who knows what secrets wait inside...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 18,
+              "title": "Trash Container: \"*Just* a trash container? There is...\"",
+              "articyId": "0x010000580001C470",
+              "text": "*Just* a trash container? There is no such thing.",
+              "links": [
+                {
+                  "id": 424,
+                  "title": "Interfacing: \"Your fingers start to itch just loo...\"",
+                  "articyId": "0x0100000600017B5F",
+                  "text": "Your fingers start to itch just looking at that padlock...",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 179,
+              "title": "Trash Container: \"The body is downwind from here. May...\"",
+              "articyId": "0x010000580001C46A",
+              "text": "The body is downwind from here. Maybe you prefer the smell of garbage to the smell of death?",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "title": "You: \"\"How do we get the lock open?\"\"",
+          "articyId": "0x010000580001C54D",
+          "text": "\"How do we get the lock open?\"",
+          "links": [
+            {
+              "id": 111,
+              "title": "Kim Kitsuragi: \"\"We could try using a prybar -- the...\"",
+              "articyId": "0x0100002100001073",
+              "text": "\"We could try using a prybar -- the one you took from my motor carriage. Or...\"",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "Physical Instrument: \"Did someone say *prybar*?!\"",
+                  "articyId": "0x010000580001C540",
+                  "text": "Did someone say *prybar*?!",
+                  "links": [
+                    {
+                      "id": 44,
+                      "title": "You: \"Fuck yeah! Prybar!\"",
+                      "articyId": "0x010000580001C553",
+                      "text": "Fuck yeah! Prybar!",
+                      "links": [
+                        {
+                          "id": 22,
+                          "title": "Physical Instrument: \"Prybar, prybar, your palms yearn it...\"",
+                          "articyId": "0x010000580001C571",
+                          "text": "Prybar, prybar, your palms yearn it's cold touch. To grasp it once more, as you've done so many times...",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 45,
+                      "title": "You: \"What's a prybar?\"",
+                      "articyId": "0x010000580001C559",
+                      "text": "What's a prybar?",
+                      "links": [
+                        {
+                          "id": 365,
+                          "title": "Physical Instrument: \"Prybar, crowbar, leverage displacem...\"",
+                          "articyId": "0x010000580001C565",
+                          "text": "Prybar, crowbar, leverage displacement tool of the gods. Your hands have held its paint-flaked metal one hundred thousand times.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 444,
+                      "title": "You: \"Forget about the prybar.\"",
+                      "articyId": "0x010000580001C55F",
+                      "text": "Forget about the prybar.",
+                      "links": [
+                        {
+                          "id": 300,
+                          "title": "Physical Instrument: \"*Forget* about it? Like you forgot...\"",
+                          "articyId": "0x010000580001C577",
+                          "text": "*Forget* about it? Like you forgot about your life? No! You cannot forget your own body, and your body cannot forget...",
+                          "links": [
+                            {
+                              "id": 301,
+                              "title": "Half Light: \"THE PRYBAR!\"",
+                              "articyId": "0x010000580001C582",
+                              "text": "THE PRYBAR!",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 524,
+                      "title": "You: \"It's not a *pry*bar, it's a crowbar...\"",
+                      "articyId": "0x010000580001C5BD",
+                      "text": "It's not a *pry*bar, it's a crowbar.",
+                      "links": [
+                        {
+                          "id": 523,
+                          "title": "Physical Instrument: \"Really? Your muscles are down with...\"",
+                          "articyId": "0x010000580001C5A5",
+                          "text": "Really? Your muscles are down with either one.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 506,
+                      "title": "You: \"\"*Or*, lieutenant?\"\"",
+                      "articyId": "0x010000580001C5B7",
+                      "text": "\"*Or*, lieutenant?\"",
+                      "links": [
+                        {
+                          "id": 338,
+                          "title": "Kim Kitsuragi: \"\"Or we could ask for a key from the...\"",
+                          "articyId": "0x010000580001C56B",
+                          "text": "\"Or we could ask for a key from the manager of the Whirling-in-Rags. He probably has one.\"",
+                          "links": [
+                            {
+                              "id": 70,
+                              "title": "Logic: \"He might also have information -- t...\"",
+                              "articyId": "0x01000006000161F0",
+                              "text": "He might also have information -- this is better than the prybar idea.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 149,
+                      "title": "You: \"\"No *or*. Prybar!\"\"",
+                      "articyId": "0x010000580001C5AB",
+                      "text": "\"No *or*. Prybar!\"",
+                      "links": [
+                        {
+                          "id": 525,
+                          "title": "Kim Kitsuragi: \"\"We *might* want to ask for a key f...\"",
+                          "articyId": "0x010000580001C5C3",
+                          "text": "\"We *might* want to ask for a key from the manager of the Whirling-in-Rags. He probably has one. And he also has *information*.\"",
+                          "links": [
+                            {
+                              "id": 152,
+                              "title": "Physical Instrument: \"Ask *the manager*? Bullshit! Go str...\"",
+                              "articyId": "0x01000071000056E7",
+                              "text": "Ask *the manager*? Bullshit! Go straight for the prybar and pry this baby wide open!",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 421,
+              "title": "Kim Kitsuragi: \"\"We could try using a prybar -- the...\"",
+              "articyId": "0x010000580001C53A",
+              "text": "\"We could try using a prybar -- there's one in my motor carriage. Or...\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 511,
+          "title": "You: \"Open the padlock with the key.\"",
+          "articyId": "0x0100004500000698",
+          "text": "Open the padlock with the key.",
+          "links": [
+            {
+              "id": 33,
+              "title": "Trash Container: \"With a well-oiled crack the lock po...\"",
+              "articyId": "0x010000450000086F",
+              "text": "With a well-oiled crack the lock pops open. It should now be possible to simply raise the lid...",
+              "links": [
+                {
+                  "id": 311,
+                  "title": "Inland Empire: \"Don't! Maybe you shouldn't...\"",
+                  "articyId": "0x010000450000081E",
+                  "text": "Don't! Maybe you shouldn't...",
+                  "links": [
+                    {
+                      "id": 454,
+                      "title": "Interfacing: \"'Maybe you shouldn't...' Of course...\"",
+                      "articyId": "0x0100004500000C12",
+                      "text": "'Maybe you shouldn't...' Of course you should! This is your time to shine, Hobocop! Dive into that dumpster for extra content!",
+                      "links": []
+                    },
+                    {
+                      "id": 238,
+                      "title": "You: \"What's this?\"",
+                      "articyId": "0x0100007800008669",
+                      "text": "What's this?",
+                      "links": [
+                        {
+                          "id": 344,
+                          "title": "Inland Empire: \"Just a feeling. A warning from some...\"",
+                          "articyId": "0x0100007800008670",
+                          "text": "Just a feeling. A warning from some part of you.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 515,
+                      "title": "You: \"Didn't I just have a premonition th...\"",
+                      "articyId": "0x010000450000082D",
+                      "text": "Didn't I just have a premonition that *there's something in there*?",
+                      "links": [
+                        {
+                          "id": 453,
+                          "title": "Inland Empire: \"There is. But you won't *like* it....\"",
+                          "articyId": "0x0100004500000840",
+                          "text": "There is. But you won't *like* it. Sweat forms on your brow, your hand is still on the lid...",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 160,
+                      "title": "You: \"Open the lid.\"",
+                      "articyId": "0x010000450000084F",
+                      "text": "Open the lid.",
+                      "links": []
+                    },
+                    {
+                      "id": 281,
+                      "title": "You: \"\"Another time maybe.\" [Leave.]\"",
+                      "articyId": "0x0100004500000818",
+                      "text": "\"Another time maybe.\" [Leave.]",
+                      "links": [
+                        {
+                          "id": 516,
+                          "title": "Kim Kitsuragi: \"\"No-no. We need to investigate now....\"",
+                          "articyId": "0x0100004500000866",
+                          "text": "\"No-no. We need to investigate now.\" Just like that, he opens the lid.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 216,
+                      "title": "Interfacing: \"Yeah! Crack it open Hobocop -- this...\"",
+                      "articyId": "0x0100004500000C19",
+                      "text": "Yeah! Crack it open Hobocop -- this is your time to shine. Dive into that dumpster for extra content!",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 355,
+          "title": "You: \"Open the lid again.\"",
+          "articyId": "0x0100004500000ED0",
+          "text": "Open the lid again.",
+          "links": [
+            {
+              "id": 61,
+              "title": "Trash Container: \"The smell of rotten food rises to g...\"",
+              "articyId": "0x0100004500000860",
+              "text": "The smell of rotten food rises to greet you. You see soggy cartons, dirty rags, and organic waste.",
+              "links": [
+                {
+                  "id": 376,
+                  "title": "You: \"Look under the boxes of carton.\"",
+                  "articyId": "0x0100004500000880",
+                  "text": "Look under the boxes of carton.",
+                  "links": [
+                    {
+                      "id": 510,
+                      "title": "Trash Container: \"You see: milk, an egg-rest with one...\"",
+                      "articyId": "0x0100007100000013",
+                      "text": "You see: milk, an egg-rest with one broken egg in it, some pasta wrapper... Picking up the soggy packages somehow feels familiar.",
+                      "links": [
+                        {
+                          "id": 274,
+                          "title": "Interfacing: \"You've done this before. The moveme...\"",
+                          "articyId": "0x010000710000002F",
+                          "text": "You've done this before. The movements are recorded in your elbows, the methodology in your fingers... you're used to this.",
+                          "links": [
+                            {
+                              "id": 234,
+                              "title": "You: \"Used to what -- dumpster diving?\"",
+                              "articyId": "0x0100007100000007",
+                              "text": "Used to what -- dumpster diving?",
+                              "links": [
+                                {
+                                  "id": 303,
+                                  "title": "Interfacing: \"No, searching for evidence in the t...\"",
+                                  "articyId": "0x010000710000000D",
+                                  "text": "No, searching for evidence in the trash.",
+                                  "links": [
+                                    {
+                                      "id": 343,
+                                      "title": "Interfacing: \"Good practice for dumpster diving.\"",
+                                      "articyId": "0x010000710000001F",
+                                      "text": "Good practice for dumpster diving.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 109,
+                              "title": "You: \"Dive further...\"",
+                              "articyId": "0x0100007100000019",
+                              "text": "Dive further...",
+                              "links": []
+                            },
+                            {
+                              "id": 472,
+                              "title": "Trash Container: \"A box falls into pieces in your han...\"",
+                              "articyId": "0x0100007100000001",
+                              "text": "A box falls into pieces in your hands: Batiste *Soleil* cereal. There are plastic pasta packages below, and *Turbo* noodles. Nothing of note, however.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 112,
+                  "title": "You: \"Pick at the rags.\"",
+                  "articyId": "0x0100004500000886",
+                  "text": "Pick at the rags.",
+                  "links": [
+                    {
+                      "id": 464,
+                      "title": "Trash Container: \"Not much to see here anymore. Just...\"",
+                      "articyId": "0x01000045000012D9",
+                      "text": "Not much to see here anymore. Just a burnt apron and some kitchen towels.",
+                      "links": [
+                        {
+                          "id": 476,
+                          "title": "Trash Container: \"And... what's this?\"",
+                          "articyId": "0x0100002F00012C44",
+                          "text": "And... what's this?",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 137,
+                      "title": "Trash Container: \"Among the threadbare kitchen towels...\"",
+                      "articyId": "0x0100004500000D7C",
+                      "text": "Among the threadbare kitchen towels, something catches your eye -- a pair of denim trousers?",
+                      "links": [
+                        {
+                          "id": 118,
+                          "title": "You: \"Grab them.\"",
+                          "articyId": "0x0100004500001101",
+                          "text": "Grab them.",
+                          "links": [
+                            {
+                              "id": 119,
+                              "title": "Trash Container: \"As the legs of the slime-covered je...\"",
+                              "articyId": "0x010000450000110F",
+                              "text": "As the legs of the slime-covered jeans begin to unspool from the garbage, a rank corpse smell fills the air.",
+                              "links": [
+                                {
+                                  "id": 247,
+                                  "title": "Perception (Smell): \"Are these the victim's clothes? The...\"",
+                                  "articyId": "0x0100004500000D83",
+                                  "text": "Are these the victim's clothes? The smell is not nearly as bad as the cadaver. These clothes could not have been in contact with the deceased for more than two days after his death.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 485,
+                                  "title": "Kim Kitsuragi: \"\"Cadaverine odour is faint.\" The li...\"",
+                                  "articyId": "0x0100004500000D8A",
+                                  "text": "\"Cadaverine odour is faint.\" The lieutenant smells them. \"If these belonged to the deceased, they were removed when he was still in the early stages of decay.\"",
+                                  "links": [
+                                    {
+                                      "id": 146,
+                                      "title": "Kim Kitsuragi: \"\"Drop them in here, officer.\" The l...\"",
+                                      "articyId": "0x010000450002000D",
+                                      "text": "\"Drop them in here, officer.\" The lieutenant produces a black plastic bag marked *evidence* from his pocket.",
+                                      "links": [
+                                        {
+                                          "id": 163,
+                                          "title": "You: \"\"By *early stages* you mean these w...\"",
+                                          "articyId": "0x010000450000112C",
+                                          "text": "\"By *early stages* you mean these were taken from him no more than two days after his death?\"",
+                                          "links": [
+                                            {
+                                              "id": 257,
+                                              "title": "Kim Kitsuragi: \"\"Yes.\" He nods. \"...if we're still...\"",
+                                              "articyId": "0x0100004500001135",
+                                              "text": "\"Yes.\" He nods. \"...if we're still assuming the clothes were taken off to get to the armour. They must have stripped him of it fast, the scavengers. In a matter of days.\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 223,
+                                              "title": "Kim Kitsuragi: \"\"Yes.\" He nods. \"I think the clothe...\"",
+                                              "articyId": "0x0100004500001153",
+                                              "text": "\"Yes.\" He nods. \"I think the clothes were taken off to get to that armour he wore, then discarded. They must have stripped him of it fast, too, the scavengers -- in a matter of days.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 353,
+                                          "title": "You: \"Bag the trousers.\"",
+                                          "articyId": "0x0100004500000DA8",
+                                          "text": "Bag the trousers.",
+                                          "links": [
+                                            {
+                                              "id": 486,
+                                              "title": "Kim Kitsuragi: \"\"*Guitar* mark blue jeans. Pockets...\"",
+                                              "articyId": "0x0100004500000DAF",
+                                              "text": "\"*Guitar* mark blue jeans. Pockets empty.\" The lieutenant quickly searches the jeans. \"Or *emptied*? He wore them with a belt, too, a wide belt -- the loops appear stretched, but...\" He looks into the container.",
+                                              "links": [
+                                                {
+                                                  "id": 10,
+                                                  "title": "Kim Kitsuragi: \"\"The belt is missing. That's it. Do...\"",
+                                                  "articyId": "0x0100004500000DB8",
+                                                  "text": "\"The belt is missing. That's it. Do you see anything else in there? I have another bag here...\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 425,
+                                                      "title": "Trash Container: \"Something slimy catches your eye...\"",
+                                                      "articyId": "0x010000060001A4BE",
+                                                      "text": "Something slimy catches your eye...",
+                                                      "links": [
+                                                        {
+                                                          "id": 248,
+                                                          "title": "You: \"Reach for it.\"",
+                                                          "articyId": "0x0100004500000DBF",
+                                                          "text": "Reach for it.",
+                                                          "links": [
+                                                            {
+                                                              "id": 487,
+                                                              "title": "Trash Container: \"A drab long-sleeved shirt, olive-co...\"",
+                                                              "articyId": "0x0100004500000DE1",
+                                                              "text": "A drab long-sleeved shirt, olive-coloured, appears from the food waste, dripping with pus.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 138,
+                                                                  "title": "You: \"Bag the shirt.\"",
+                                                                  "articyId": "0x0100004500000DEF",
+                                                                  "text": "Bag the shirt.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 324,
+                                                                      "title": "Kim Kitsuragi: \"\"This is a military type over-garme...\"",
+                                                                      "articyId": "0x0100004500000DF6",
+                                                                      "text": "\"This is a military type over-garment. No label or serial number -- this is the kind of rib-knit shirt that's worn over light armour to conceal it in an urban scenario...\" He nods to himself. \"Anything more?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 473,
+                                                                          "title": "Perception (Sight): \"The rest of the rags are just kitch...\"",
+                                                                          "articyId": "0x010000780000865F",
+                                                                          "text": "The rest of the rags are just kitchen-variety waste. Just garbage.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 488,
+                                                                              "title": "You: \"\"A thrown out towel, a mug. That's...\"",
+                                                                              "articyId": "0x0100004500000E20",
+                                                                              "text": "\"A thrown out towel, a mug. That's all.\"",
+                                                                              "links": []
+                                                                            },
+                                                                            {
+                                                                              "id": 288,
+                                                                              "title": "You: \"\"That's all, I think.\"\"",
+                                                                              "articyId": "0x0100004500000E13",
+                                                                              "text": "\"That's all, I think.\"",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "id": 139,
+                                                                          "title": "Perception (Sight): \"The rest of the rags are just kitch...\"",
+                                                                          "articyId": "0x0100004500000DFE",
+                                                                          "text": "The rest of the rags are just kitchen-variety waste. A yellow old mug that catches your eye. But other than that...",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 249,
+                                                          "title": "You: \"\"Nope.\"\"",
+                                                          "articyId": "0x0100004500000DC5",
+                                                          "text": "\"Nope.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 81,
+                                                              "title": "Kim Kitsuragi: \"\"Alright. We should go to Garte aga...\"",
+                                                              "articyId": "0x0100004500000E3C",
+                                                              "text": "\"Alright. We should go to Garte again and ask if he knows who put the clothes in the trash. It could be as simple as someone from the hostel cleaning the yard, or *that* one...\" He nods toward the red-haired boy behind him. \"I'd advise *against* confronting that force.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 63,
+                                                                  "title": "You: \"\"The kid said he didn't know anythi...\"",
+                                                                  "articyId": "0x0100004500000E66",
+                                                                  "text": "\"The kid said he didn't know anything about the clothes.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 40,
+                                                                      "title": "Cunoesse: \"\"The fuck's he on about -- *kid*?!\"...\"",
+                                                                      "articyId": "0x0100004500001164",
+                                                                      "text": "\"The fuck's he on about -- *kid*?!\" the one behind the fence yells. \"You hear that, Cuno? He thinks you're an infant or some shit.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 495,
+                                                                          "title": "Kim Kitsuragi: \"\"Did he? I must have drifted away.....\"",
+                                                                          "articyId": "0x010000450000116B",
+                                                                          "text": "\"Did he? I must have drifted away... somewhere between the copious mentions of pigs and homo-sexuality.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 496,
+                                                                              "title": "Cuno: \"\"Fuck yourself, binoclard!\"\"",
+                                                                              "articyId": "0x0100004500001172",
+                                                                              "text": "\"Fuck yourself, binoclard!\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 384,
+                                                                                  "title": "Cunoesse: \"\"No, Cuno, it's just *bino!*\"\"",
+                                                                                  "articyId": "0x0100004500001179",
+                                                                                  "text": "\"No, Cuno, it's just *bino!*\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 459,
+                                                                  "title": "You: \"\"Yeah, we need to ask the kids who...\"",
+                                                                  "articyId": "0x0100004500000E6C",
+                                                                  "text": "\"Yeah, we need to ask the kids who put them here.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 97,
+                                                                      "title": "Cunoesse: \"\"The fuck's he on about -- *kids*?!...\"",
+                                                                      "articyId": "0x01000045000011BE",
+                                                                      "text": "\"The fuck's he on about -- *kids*?!\" The one behind the fence yells. \"You hear that, Cuno? He thinks you're an infant or something.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 431,
+                                                                          "title": "Kim Kitsuragi: \"\"See?\"\"",
+                                                                          "articyId": "0x0100004500000E89",
+                                                                          "text": "\"See?\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 114,
+                                                                  "title": "You: \"\"Damn, this reminds me: I got side-...\"",
+                                                                  "articyId": "0x0100004500000E72",
+                                                                  "text": "\"Damn, this reminds me: I got side- tracked asking Cuno about the rags... The damned FALN pants got in the way. We should ask again, Kim.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 11,
+                                                                      "title": "Cuno: \"\"Cuno can hear you, cop -- and Cuno...\"",
+                                                                      "articyId": "0x0100004500000E7A",
+                                                                      "text": "\"Cuno can hear you, cop -- and Cuno don't know shit about the rags, okay? You don't have to come asking about them again like some bitch.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 354,
+                                                                          "title": "Kim Kitsuragi: \"\"Information from that *source* has...\"",
+                                                                          "articyId": "0x0100004500000EA0",
+                                                                          "text": "\"Information from that *source* has truly been invaluable to the investigation. I cannot wait to hear more.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 250,
+                                                                  "title": "You: \"\"You think someone from the Whirlin...\"",
+                                                                  "articyId": "0x0100004500000EA8",
+                                                                  "text": "\"You think someone from the Whirling might have been... involved maybe?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 517,
+                                                                      "title": "Kim Kitsuragi: \"\"Not really. All we know is -- the...\"",
+                                                                      "articyId": "0x0100004500000EB5",
+                                                                      "text": "\"Not really. All we know is -- the victim's clothes are in the trash, the lid was locked, and this establishment had the key. It's just a *small* loose thread.\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 460,
+                                                                  "title": "You: \"\"Okay.\" (Proceed.)\"",
+                                                                  "articyId": "0x0100004500000EAE",
+                                                                  "text": "\"Okay.\" (Proceed.)",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 95,
+                                                                      "title": "Kim Kitsuragi: \"The lieutenant nods, then looks bac...\"",
+                                                                      "articyId": "0x0100004500000DD5",
+                                                                      "text": "The lieutenant nods, then looks back into the trash container.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 188,
+                                  "title": "Esprit de Corps: \"This feels like something you shoul...\"",
+                                  "articyId": "0x0100004500000E2E",
+                                  "text": "This feels like something you should return to with Lieutenant Kitsuragi present. Also, it makes you feel like an idiot for not having an evidence bag on you -- what will you do with a dead man's trousers?",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 312,
+                  "title": "You: \"Search the food waste.\"",
+                  "articyId": "0x010000450000088C",
+                  "text": "Search the food waste.",
+                  "links": [
+                    {
+                      "id": 226,
+                      "title": "Trash Container: \"There's nothing more of interest in...\"",
+                      "articyId": "0x01000045000012C6",
+                      "text": "There's nothing more of interest in this sludge of peels and meat by-product. Try the carton or those stinking rags.",
+                      "links": []
+                    },
+                    {
+                      "id": 285,
+                      "title": "Trash Container: \"It's just organic waste, cold and s...\"",
+                      "articyId": "0x0100004500000C46",
+                      "text": "It's just organic waste, cold and slimy on your hands. Apple and potato peels mostly, unidentified sludge, and the occasional chicken bone thrown in for good measure. But hey...",
+                      "links": [
+                        {
+                          "id": 490,
+                          "title": "Inland Empire: \"Nothing. It's nothing. Nothing more...\"",
+                          "articyId": "0x0100004500000F70",
+                          "text": "Nothing. It's nothing. Nothing more to see here.",
+                          "links": [
+                            {
+                              "id": 102,
+                              "title": "Trash Container: \"...what's *this*?\"",
+                              "articyId": "0x010000450002001F",
+                              "text": "...what's *this*?",
+                              "links": [
+                                {
+                                  "id": 190,
+                                  "title": "You: \"What?\"",
+                                  "articyId": "0x0100004500000F77",
+                                  "text": "What?",
+                                  "links": [
+                                    {
+                                      "id": 39,
+                                      "title": "Trash Container: \"A blue piece of plastic sticks out...\"",
+                                      "articyId": "0x0100004500000F85",
+                                      "text": "A blue piece of plastic sticks out from the apple peels. It's *shiny*. Looks like the corner of something...",
+                                      "links": [
+                                        {
+                                          "id": 219,
+                                          "title": "You: \"Pick it out.\"",
+                                          "articyId": "0x0100004500000F8C",
+                                          "text": "Pick it out.",
+                                          "links": [
+                                            {
+                                              "id": 289,
+                                              "title": "Trash Container: \"Something larger -- a clipboard! A...\"",
+                                              "articyId": "0x0100004500000F93",
+                                              "text": "Something larger -- a clipboard! A blue plastic clipboard with moist papers hanging from it. They look badly damaged, but you can still make out forms and notes. Written in a *man's* handwriting...",
+                                              "links": [
+                                                {
+                                                  "id": 251,
+                                                  "title": "Interfacing: \"Not just any man's. This dense curs...\"",
+                                                  "articyId": "0x0100004500000F9A",
+                                                  "text": "Not just any man's. This dense cursive -- it's *yours*.",
+                                                  "links": [
+                                                    {
+                                                      "id": 386,
+                                                      "title": "Kim Kitsuragi: \"\"Looks like we found your paperwork.\"\"",
+                                                      "articyId": "0x010000450000123A",
+                                                      "text": "\"Looks like we found your paperwork.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 220,
+                                                          "title": "You: \"\"No. It can't be.\"\"",
+                                                          "articyId": "0x0100004500000FE2",
+                                                          "text": "\"No. It can't be.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 325,
+                                                              "title": "Kim Kitsuragi: \"\"Yes it is, look.\" He points to it....\"",
+                                                              "articyId": "0x0100004500000FF5",
+                                                              "text": "\"Yes it is, look.\" He points to it. \"This plastic has the RCM street grid on it. You've even got an autopsy form...\" A miserable looking slip of paper sticks to the board.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 143,
+                                                                  "title": "Kim Kitsuragi: \"\"If you don't mind me asking -- how...\"",
+                                                                  "articyId": "0x0100004500001068",
+                                                                  "text": "\"If you don't mind me asking -- how did this get in the trash?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 290,
+                                                                      "title": "You: \"\"It must have been cramping my styl...\"",
+                                                                      "articyId": "0x0100004500001077",
+                                                                      "text": "\"It must have been cramping my style.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 493,
+                                                                          "title": "Kim Kitsuragi: \"\"Officer, this is an official piece...\"",
+                                                                          "articyId": "0x01000045000010C6",
+                                                                          "text": "\"Officer, this is an official piece of paperwork. It probably contains notes on *numerous* ongoing investigations -- and could even list undercover operatives. Informants. I suggest integrating it into your *style*. For all our sakes.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 261,
+                                                                              "title": "Composure: \"Easier said than done -- how could...\"",
+                                                                              "articyId": "0x01000045000011E8",
+                                                                              "text": "Easier said than done -- how could this pathetic cabbage of copy paper and plastic ever become *très disco*?\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 433,
+                                                                                  "title": "Conceptualization: \"Challenge accepted. You should be o...\"",
+                                                                                  "articyId": "0x01000045000011EF",
+                                                                                  "text": "Challenge accepted. You should be on the lookout for stylistic elements that elevate this cabbage to heights unforeseeable.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 414,
+                                                                                      "title": "You: \"I don't know, it seems foreboding t...\"",
+                                                                                      "articyId": "0x0100004500001203",
+                                                                                      "text": "I don't know, it seems foreboding to me somehow. Like there's something in there that's out to get me.",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 385,
+                                                                                          "title": "Conceptualization: \"What are you talking about? No one'...\"",
+                                                                                          "articyId": "0x010000450000120C",
+                                                                                          "text": "What are you talking about? No one's out to get you -- get real man! Upgrade that cop-ledger!",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 165,
+                                                                                      "title": "You: \"What I should do is get back to tha...\"",
+                                                                                      "articyId": "0x01000045000011F6",
+                                                                                      "text": "What I should do is get back to that garbage. (Decline.)",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 41,
+                                                                                          "title": "Trash Container: \"Soggy carton and some kind of food...\"",
+                                                                                          "articyId": "0x0100004500001216",
+                                                                                          "text": "Soggy carton and some kind of food sludge welcome you back, uninvitingly. Smells like the wrong choice.",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 110,
+                                                                                              "title": "Kim Kitsuragi: \"\"Officer,\" the lieutenant adds, \"Th...\"",
+                                                                                              "articyId": "0x010000070001AB91",
+                                                                                              "text": "\"Officer,\" the lieutenant adds, \"This is sensitive information. You need to take this seriously.\"",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 262,
+                                                                                      "title": "You: \"Alright then. Seems like a good ide...\"",
+                                                                                      "articyId": "0x01000045000011FC",
+                                                                                      "text": "Alright then. Seems like a good idea. Right after the garbage, of course. (Accept.)",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 166,
+                                                                                          "title": "Trash Container: \"Good choice. Soggy carton and some...\"",
+                                                                                          "articyId": "0x010000450000121D",
+                                                                                          "text": "Good choice. Soggy carton and some kind of food sludge welcome you back, invitingly.",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 356,
+                                                                      "title": "You: \"\"It has a foreboding quality to it....\"",
+                                                                      "articyId": "0x010000450000108D",
+                                                                      "text": "\"It has a foreboding quality to it. Maybe I *needed* to lose it, for the Great Bloodletting to begin?\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 256,
+                                                                          "title": "Kim Kitsuragi: \"\"What are you *talking* about?\"\"",
+                                                                          "articyId": "0x010000450000109C",
+                                                                          "text": "\"What are you *talking* about?\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 144,
+                                                                              "title": "You: \"\"I don't know.\"\"",
+                                                                              "articyId": "0x01000045000010A4",
+                                                                              "text": "\"I don't know.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 96,
+                                                                                  "title": "Kim Kitsuragi: \"\"I don't know either...\" He points...\"",
+                                                                                  "articyId": "0x01000045000010B9",
+                                                                                  "text": "\"I don't know either...\" He points to the ruined notes. \"You should take stock of your notes, make sure it's all there. Official notes contain informants' names. If some have fallen into the hands of the RCM's adversaries, bloodletting may well ensue.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 13,
+                                                                              "title": "You: \"\"I speaketh the tongue.\"\"",
+                                                                              "articyId": "0x01000045000010AA",
+                                                                              "text": "\"I speaketh the tongue.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 14,
+                                                                                  "title": "Kim Kitsuragi: \"\"Do-eth thou also thorough inventor...\"",
+                                                                                  "articyId": "0x01000045000010B2",
+                                                                                  "text": "\"Do-eth thou also thorough inventories?\" He points to the ruined notes. \"You should take stock of your notes, make sure it's all there. Official notes contain informants' names. If some of it has fallen into the hands of the RCM's adversaries, bloodletting may well ensue.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 382,
+                                                                      "title": "You: \"\"I think I didn't want to be a cop...\"",
+                                                                      "articyId": "0x0100004500001071",
+                                                                      "text": "\"I think I didn't want to be a cop anymore, so I threw it away.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 494,
+                                                                          "title": "Kim Kitsuragi: \"\"Well...\" He doesn't know what to s...\"",
+                                                                          "articyId": "0x01000045000010D5",
+                                                                          "text": "\"Well...\" He doesn't know what to say.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 294,
+                                                                              "title": "Empathy: \"His eyes express a rare condolence....\"",
+                                                                              "articyId": "0x0100004500001593",
+                                                                              "text": "His eyes express a rare condolence. Then he picks it up:",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 222,
+                                                                                  "title": "Kim Kitsuragi: \"\"Lucky we found it. You should take...\"",
+                                                                                  "articyId": "0x01000045000010DC",
+                                                                                  "text": "\"Lucky we found it. You should take stock of what remains, just to be sure some has not made it into the hands of the RCM's adversaries. Organized crime and the like. There might have been police secrets in your notes.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 383,
+                                                                      "title": "You: \"\"Someone from the Whirling threw it...\"",
+                                                                      "articyId": "0x0100004500001085",
+                                                                      "text": "\"Someone from the Whirling threw it in the trash? I don't know. I'm boring.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 357,
+                                                                          "title": "Kim Kitsuragi: \"\"Boring? Try *dangerous*. You shoul...\"",
+                                                                          "articyId": "0x01000045000010E8",
+                                                                          "text": "\"Boring? Try *dangerous*. You should do a thorough inventory of that -- be sure some has not fallen into the hands of the RCM's enemies: organized crime, or worse... Official notes sometimes contain informants' names, even undercover operatives.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 263,
+                                                                              "title": "You: \"\"Okay, I'll do that.\"\"",
+                                                                              "articyId": "0x010000450000126F",
+                                                                              "text": "\"Okay, I'll do that.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 327,
+                                                                                  "title": "Kim Kitsuragi: \"\"It would also not hurt to start ta...\"",
+                                                                                  "articyId": "0x0100004500001284",
+                                                                                  "text": "\"It would also not hurt to start taking notes on the case.\" He peers into the trash, where soggy cartons and rags stink, uninvitingly. \"Now, tell me what your eagle eyes see. Or are we finished?\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 358,
+                                                                              "title": "You: \"Say nothing.\"",
+                                                                              "articyId": "0x0100004500001275",
+                                                                              "text": "Say nothing.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 192,
+                                                                                  "title": "Kim Kitsuragi: \"\"It would also not hurt to start ta...\"",
+                                                                                  "articyId": "0x010000450000128B",
+                                                                                  "text": "\"It would also not hurt to start taking notes on the case. Anyway, where were we...\" The lieutenant peers into the trash container where soggy cartons and rags stink uninvitingly.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 225,
+                                                                              "title": "You: \"\"I don't know, man. Sounds like an...\"",
+                                                                              "articyId": "0x010000450000127B",
+                                                                              "text": "\"I don't know, man. Sounds like an order. I don't take those.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 15,
+                                                                                  "title": "Kim Kitsuragi: \"\"I see, yes. You're what we call a...\"",
+                                                                                  "articyId": "0x0100004500001292",
+                                                                                  "text": "\"I see, yes. You're what we call a *bad ass*, aren't you?\" He makes little quotation marks around the words, indicating he is unsure of its actual badassery.",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 42,
+                                                                                      "title": "Rhetoric: \"Wow, went off script there, getting...\"",
+                                                                                      "articyId": "0x01000045000012A9",
+                                                                                      "text": "Wow, went off script there, getting your ass handed to you. You shouldn't go picking fights if your rhetorical faculties haven't suggested it.",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 518,
+                                                                                          "title": "Kim Kitsuragi: \"\"Tell me, *see-eth* your bad ass mo...\"",
+                                                                                          "articyId": "0x0100004500001269",
+                                                                                          "text": "\"Tell me, *see-eth* your bad ass more in there or are we done here?\" The lieutenant peers into the trash.",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 25,
+                                                                                              "title": "Kim Kitsuragi: \"Soggy cartons and rags look back at...\"",
+                                                                                              "articyId": "0x0100006B00009CE1",
+                                                                                              "text": "Soggy cartons and rags look back at him. \"Oh yes -- and it would also be appropriate to start taking notes on the case. It's what cops do.\"",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "id": 390,
+                                                                                          "title": "Kim Kitsuragi: \"\"Tell me, does your bad ass see mor...\"",
+                                                                                          "articyId": "0x01000045000012A2",
+                                                                                          "text": "\"Tell me, does your bad ass see more in there or are we done here?\" The lieutenant peers into the trash.",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 519,
+                                                                      "title": "You: \"\"I'd rather not to talk about it ri...\"",
+                                                                      "articyId": "0x0100004500001508",
+                                                                      "text": "\"I'd rather not to talk about it right now.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 167,
+                                                                          "title": "Kim Kitsuragi: \"\"Understood.\" He nods, reverting hi...\"",
+                                                                          "articyId": "0x010000450000150F",
+                                                                          "text": "\"Understood.\" He nods, reverting his attention to the container, still stinking in front of you.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 145,
+                                                                              "title": "Authority: \"Be untroubled. If anything, this sm...\"",
+                                                                              "articyId": "0x0100004500001516",
+                                                                              "text": "Be untroubled. If anything, this small moment has made him respect you more.",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 162,
+                                                          "title": "You: \"\"I don't know *what* this is.\"\"",
+                                                          "articyId": "0x0100004500000FE8",
+                                                          "text": "\"I don't know *what* this is.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 141,
+                                                              "title": "Kim Kitsuragi: \"\"It is, look...\" He points to the c...\"",
+                                                              "articyId": "0x0100004500001010",
+                                                              "text": "\"It is, look...\" He points to the clipboard. \"The plastic has the RCM street grid on it. You've even got an autopsy form in there...\" A miserable looking slip of paper sticks to the board.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 432,
+                                                          "title": "You: \"\"The handwriting -- it's mine.\"\"",
+                                                          "articyId": "0x0100004500000FEE",
+                                                          "text": "\"The handwriting -- it's mine.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 461,
+                                                              "title": "Kim Kitsuragi: \"\"There's a *lot* of it too.\" He nod...\"",
+                                                              "articyId": "0x0100004500001009",
+                                                              "text": "\"There's a *lot* of it too.\" He nods approvingly. \"*And* you've got an autopsy form in there -- in the back. That light pink copy paper.\" A miserable looking slip of paper sticks to the board.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 140,
+                                                      "title": "Kim Kitsuragi: \"\"Officer, is that your... paperwork?\"\"",
+                                                      "articyId": "0x0100004500000FA7",
+                                                      "text": "\"Officer, is that your... paperwork?\"",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 326,
+                                                      "title": "You: \"*Mine*? What is it doing in trash?\"",
+                                                      "articyId": "0x010000450000103E",
+                                                      "text": "*Mine*? What is it doing in trash?",
+                                                      "links": [
+                                                        {
+                                                          "id": 221,
+                                                          "title": "Interfacing: \"You don't know. It *might* have bee...\"",
+                                                          "articyId": "0x010000450000104C",
+                                                          "text": "You don't know. It *might* have been by your hand, though. Feels like that. Feels like you might have stuffed it somewhere. Not in this trash though. How it got here you don't know.",
+                                                          "links": [
+                                                            {
+                                                              "id": 474,
+                                                              "title": "Tutorial Agent: \"Some items, such as the ledger you...\"",
+                                                              "articyId": "0x0100000600008CC8",
+                                                              "text": "Some items, such as the ledger you found, are interactable. Go to your INVENTORY and select the INTERACT tab to read your paperwork.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 381,
+                                                      "title": "You: \"This makes a lot of sense.\"",
+                                                      "articyId": "0x0100004500001045",
+                                                      "text": "This makes a lot of sense.",
+                                                      "links": [
+                                                        {
+                                                          "id": 142,
+                                                          "title": "Interfacing: \"It does? Maybe it does. It *might*...\"",
+                                                          "articyId": "0x0100004500001053",
+                                                          "text": "It does? Maybe it does. It *might* have been thrown out by your hand. Feels like that anyway -- like *stuffed* it somewhere. Not in this trash though. How it got here you haven't a clue.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 255,
+                                                      "title": "You: \"\"What is this?\"\"",
+                                                      "articyId": "0x010000450000101D",
+                                                      "text": "\"What is this?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 462,
+                                                          "title": "Cuno: \"\"You askin' me now? It's some shit,...\"",
+                                                          "articyId": "0x0100004500001037",
+                                                          "text": "\"You askin' me now? It's some shit, copper. How should I know?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 492,
+                                                              "title": "Authority: \"Hey, maybe it's your paperwork, off...\"",
+                                                              "articyId": "0x010000450000105A",
+                                                              "text": "Hey, maybe it's your paperwork, officer?",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 491,
+                                  "title": "You: \"Elbows out, there's nothing more he...\"",
+                                  "articyId": "0x0100004500000F7D",
+                                  "text": "Elbows out, there's nothing more here.",
+                                  "links": [
+                                    {
+                                      "id": 64,
+                                      "title": "Trash Container: \"The garbage stinks in front of you,...\"",
+                                      "articyId": "0x0100004500001125",
+                                      "text": "The garbage stinks in front of you, overflowing with soggy cartons, dirty rags, and organic waste.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 182,
+                  "title": "You: \"The mug, I'm getting that mug too.\"",
+                  "articyId": "0x0100007800008645",
+                  "text": "The mug, I'm getting that mug too.",
+                  "links": [
+                    {
+                      "id": 423,
+                      "title": "Trash Container: \"You pick out a broken mug, with an...\"",
+                      "articyId": "0x010000780000864C",
+                      "text": "You pick out a broken mug, with an oddly racist depiction of *the yellow man* frolicking in saffron.",
+                      "links": [
+                        {
+                          "id": 80,
+                          "title": "You: \"An antique?\"",
+                          "articyId": "0x0100004500000CFF",
+                          "text": "An antique?",
+                          "links": [
+                            {
+                              "id": 319,
+                              "title": "Trash Container: \"Only in its social sensibility.\"",
+                              "articyId": "0x0100004500000D0D",
+                              "text": "Only in its social sensibility.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 136,
+                          "title": "You: \"(Take the mug.)\"",
+                          "articyId": "0x0100004500000D05",
+                          "text": "(Take the mug.)",
+                          "links": [
+                            {
+                              "id": 210,
+                              "title": "Kim Kitsuragi: \"\"Interesting.\" The lieutenant looks...\"",
+                              "articyId": "0x010000290000028B",
+                              "text": "\"Interesting.\" The lieutenant looks at the mug. \"Reminds me of the mug collection we saw in our weasel's apartment. Maybe he or she has been dumping their garbage here?\"",
+                              "links": [
+                                {
+                                  "id": 475,
+                                  "title": "Logic: \"An interesting little clue. Let's s...\"",
+                                  "articyId": "0x010000290000027D",
+                                  "text": "An interesting little clue. Let's see where this goes. Clues have a way of magically connecting to other clues -- down the road...",
+                                  "links": [
+                                    {
+                                      "id": 239,
+                                      "title": "Kim Kitsuragi: \"\"Or it may just be a coincidence. E...\"",
+                                      "articyId": "0x01000029000002A3",
+                                      "text": "\"Or it may just be a coincidence. Either way, something to keep in mind. What else do you see?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 372,
+                              "title": "Trash Container: \"You betcha. You know -- this awfull...\"",
+                              "articyId": "0x010000290000029A",
+                              "text": "You betcha. You know -- this awfully *colonial* mug reminds you of another one, doesn't it? Anyway...",
+                              "links": [
+                                {
+                                  "id": 211,
+                                  "title": "Reaction Speed: \"Yes! The one in the apartment you b...\"",
+                                  "articyId": "0x0100002900000293",
+                                  "text": "Yes! The one in the apartment you broke into. Interesting little clue. Surely this will yield something -- down the road...",
+                                  "links": [
+                                    {
+                                      "id": 466,
+                                      "title": "Tutorial Agent: \"You've acquired an interactable ite...\"",
+                                      "articyId": "0x0100005300025AAE",
+                                      "text": "You've acquired an interactable item. Investigate this item further by going to the INTERACT tab in your INVENTORY.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 430,
+                              "title": "Kim Kitsuragi: \"\"Mhm...\" The lieutenant briefly gla...\"",
+                              "articyId": "0x0100004500000D20",
+                              "text": "\"Mhm...\" The lieutenant briefly glances at the mug, then returns his sight to the trash.",
+                              "links": [
+                                {
+                                  "id": 361,
+                                  "title": "Tutorial Agent: \"You've acquired an interactable ite...\"",
+                                  "articyId": "0x0100005300025AA0",
+                                  "text": "You've acquired an interactable item. Investigate this item further by going to the INTERACT tab in your INVENTORY.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 352,
+                              "title": "Trash Container: \"You betcha.\"",
+                              "articyId": "0x0100004500000D2B",
+                              "text": "You betcha.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 481,
+                  "title": "You: \"Dig in Hobocop-style -- for extra c...\"",
+                  "articyId": "0x0100004500000892",
+                  "text": "Dig in Hobocop-style -- for extra content.",
+                  "links": [
+                    {
+                      "id": 244,
+                      "title": "Trash Container: \"Wow, an Armistice calibre 50 nock c...\"",
+                      "articyId": "0x0100004500000C4C",
+                      "text": "Wow, an Armistice calibre 50 nock cannon, half wrapped in paper tissues! So shiny...",
+                      "links": [
+                        {
+                          "id": 134,
+                          "title": "You: \"What's a nock cannon?\"",
+                          "articyId": "0x0100004500000CA8",
+                          "text": "What's a nock cannon?",
+                          "links": [
+                            {
+                              "id": 245,
+                              "title": "Trash Container: \"It's a giant rifle and it's very ex...\"",
+                              "articyId": "0x0100004500000CB5",
+                              "text": "It's a giant rifle and it's very expensive. Not as expensive as that fat string of pearls snaking among the rotten banana peels however...",
+                              "links": [
+                                {
+                                  "id": 34,
+                                  "title": "Trash Container: \"And is that a Cordon Electrics pre...\"",
+                                  "articyId": "0x0100004500000CBC",
+                                  "text": "And is that a Cordon Electrics pre amp with Elektra f2 tubes? It is! That catches quite a price, we're talking 12,000 easy. Unless you're into hi-fi yourself?",
+                                  "links": [
+                                    {
+                                      "id": 286,
+                                      "title": "You: \"I am into hi-fi!\"",
+                                      "articyId": "0x0100004500000CC3",
+                                      "text": "I am into hi-fi!",
+                                      "links": [
+                                        {
+                                          "id": 317,
+                                          "title": "Trash Container: \"That's too bad, because none of tho...\"",
+                                          "articyId": "0x0100004500000CD1",
+                                          "text": "That's too bad, because none of those things are actually in there. There's just food waste and crisp wrappings.",
+                                          "links": [
+                                            {
+                                              "id": 217,
+                                              "title": "You: \"A cruel jest... there must be *some...\"",
+                                              "articyId": "0x0100004500000CE4",
+                                              "text": "A cruel jest... there must be *something*...",
+                                              "links": [
+                                                {
+                                                  "id": 287,
+                                                  "title": "Trash Container: \"All you see is a broken mug with a...\"",
+                                                  "articyId": "0x0100004500000CF1",
+                                                  "text": "All you see is a broken mug with a racist depiction of *the yellow man* frolicking in saffron.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 218,
+                                              "title": "You: \"I knew it. (Withdraw from the dumps...\"",
+                                              "articyId": "0x0100004500000CEA",
+                                              "text": "I knew it. (Withdraw from the dumpster's cavernous depths.)",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 246,
+                                      "title": "You: \"I'll sell it.\"",
+                                      "articyId": "0x0100004500000CC9",
+                                      "text": "I'll sell it.",
+                                      "links": [
+                                        {
+                                          "id": 185,
+                                          "title": "Trash Container: \"No you won't, because none of those...\"",
+                                          "articyId": "0x0100004500000CD8",
+                                          "text": "No you won't, because none of those things are real. They're not actually in there. All you see is food waste and crisp wrappings.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 135,
+                          "title": "You: \"Where?! I can't see it.\"",
+                          "articyId": "0x0100004500000CAE",
+                          "text": "Where?! I can't see it.",
+                          "links": [
+                            {
+                              "id": 187,
+                              "title": "Trash Container: \"Never mind, look at that fat string...\"",
+                              "articyId": "0x0100004500000D3D",
+                              "text": "Never mind, look at that fat string of Archipelagoan pearls snaking amidst the banana peels!",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 366,
+                  "title": "You: \"Time for bed. Crawl inside...\"",
+                  "articyId": "0x0100006B00003C76",
+                  "text": "Time for bed. Crawl inside...",
+                  "links": [
+                    {
+                      "id": 415,
+                      "title": "Trash Container: \"The smell of rotten food rises up a...\"",
+                      "articyId": "0x0100004B00002254",
+                      "text": "The smell of rotten food rises up at you as you climb inside the trash container.",
+                      "links": [
+                        {
+                          "id": 197,
+                          "title": "Kim Kitsuragi: \"The lieutenant averts his eyes as y...\"",
+                          "articyId": "0x0100004B000021F8",
+                          "text": "The lieutenant averts his eyes as you crawl into the trash container.",
+                          "links": [
+                            {
+                              "id": 120,
+                              "title": "Kim Kitsuragi: \"His gaze is focused on something ne...\"",
+                              "articyId": "0x0100004B000021FF",
+                              "text": "His gaze is focused on something nebulous in the far distance. On nothing in particular.",
+                              "links": [
+                                {
+                                  "id": 331,
+                                  "title": "You: \"\"Night, Kim.\"\"",
+                                  "articyId": "0x0100004B0000220D",
+                                  "text": "\"Night, Kim.\"",
+                                  "links": [
+                                    {
+                                      "id": 17,
+                                      "title": "Kim Kitsuragi: \"With effort, he looks at you.\"",
+                                      "articyId": "0x0100004B0000221A",
+                                      "text": "With effort, he looks at you.",
+                                      "links": [
+                                        {
+                                          "id": 521,
+                                          "title": "Empathy: \"Whatever he may feel in this moment...\"",
+                                          "articyId": "0x0100004B00002294",
+                                          "text": "Whatever he may feel in this moment is locked away deep inside him.",
+                                          "links": [
+                                            {
+                                              "id": 392,
+                                              "title": "Kim Kitsuragi: \"\"Good night, detective,\" he says, w...\"",
+                                              "articyId": "0x0100004B00002278",
+                                              "text": "\"Good night, detective,\" he says, with more gentleness than you've heard from him before.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 168,
+                                  "title": "You: \"\"Sorry it had to be this way.\"\"",
+                                  "articyId": "0x0100004B00002221",
+                                  "text": "\"Sorry it had to be this way.\"",
+                                  "links": [
+                                    {
+                                      "id": 169,
+                                      "title": "Kim Kitsuragi: \"He nods. Absent-mindedly, he reache...\"",
+                                      "articyId": "0x0100004B00002281",
+                                      "text": "He nods. Absent-mindedly, he reaches for a cigarette; no sooner has it left his pocket than he catches himself.",
+                                      "links": [
+                                        {
+                                          "id": 391,
+                                          "title": "Kim Kitsuragi: \"He puts the cigarette back, and say...\"",
+                                          "articyId": "0x0100004B0000223D",
+                                          "text": "He puts the cigarette back, and says: \"Me too.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 121,
+                                  "title": "You: \"\"See you in the morning.\"\"",
+                                  "articyId": "0x0100004B00002227",
+                                  "text": "\"See you in the morning.\"",
+                                  "links": [
+                                    {
+                                      "id": 437,
+                                      "title": "Kim Kitsuragi: \"He is as silent as the night.\"",
+                                      "articyId": "0x0100004B00002244",
+                                      "text": "He is as silent as the night.",
+                                      "links": [
+                                        {
+                                          "id": 417,
+                                          "title": "Esprit de Corps: \"The morning will never come.\"",
+                                          "articyId": "0x0100004B0000228C",
+                                          "text": "The morning will never come.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 65,
+                          "title": "You: \"No! Not like this! (Crawl out of th...\"",
+                          "articyId": "0x0100004B0000224D",
+                          "text": "No! Not like this! (Crawl out of the trash.)",
+                          "links": [
+                            {
+                              "id": 295,
+                              "title": "Trash Container: \"You crawl out of the trash containe...\"",
+                              "articyId": "0x0100004B000026D1",
+                              "text": "You crawl out of the trash container. The lid clangs shut. The fresh air rushes into your lungs, but does not clear them of the garbage stink.",
+                              "links": [
+                                {
+                                  "id": 173,
+                                  "title": "Kim Kitsuragi: \"The lieutenant greets you with a sm...\"",
+                                  "articyId": "0x0100004B000026E4",
+                                  "text": "The lieutenant greets you with a small nod, as if you'd just taken a momentary pause to tie a shoelace.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 393,
+                                  "title": "Trash Container: \"The container remains as inviting a...\"",
+                                  "articyId": "0x0100004B00002AF6",
+                                  "text": "The container remains as inviting as a coffin. It is ready whenever you are.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 122,
+                  "title": "You: \"Time for bed again. Crawl inside fo...\"",
+                  "articyId": "0x0100004B000026C8",
+                  "text": "Time for bed again. Crawl inside for real...",
+                  "links": [
+                    {
+                      "id": 84,
+                      "title": "Trash Container: \"The smell of rotten food rises up a...\"",
+                      "articyId": "0x0100004B00002B1D",
+                      "text": "The smell of rotten food rises up at you as you climb inside the trash container.",
+                      "links": [
+                        {
+                          "id": 360,
+                          "title": "You: \"[Close the lid.]\"",
+                          "articyId": "0x0100004B00002206",
+                          "text": "[Close the lid.]",
+                          "links": [
+                            {
+                              "id": 198,
+                              "title": "Kim Kitsuragi: \"Darkness engulfs you. The stink of...\"",
+                              "articyId": "0x0100004B0000226B",
+                              "text": "Darkness engulfs you. The stink of rot nearly knocks you out. For a minute you can smell cigarette smoke wafting in from outside -- then it is gone, and you hear footsteps walking away.",
+                              "links": [
+                                {
+                                  "id": 24,
+                                  "title": "Trash Container: \"This is where you belong...\"",
+                                  "articyId": "0x0100006B00003C8E",
+                                  "text": "This is where you belong...",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 438,
+                              "title": "Kim Kitsuragi: \"Darkness engulfs you. The stink of...\"",
+                              "articyId": "0x0100004B00002264",
+                              "text": "Darkness engulfs you. The stink of rot nearly knocks you out. For a minute you can smell cigarette smoke wafting in from outside.",
+                              "links": [
+                                {
+                                  "id": 465,
+                                  "title": "Kim Kitsuragi: \"A few words also come through the m...\"",
+                                  "articyId": "0x0100004B0000229E",
+                                  "text": "A few words also come through the metal: \"Good night, detective.\" But they dissipate around you like the smoke; you hear the lieutenant's footfall carry him away.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 228,
+                              "title": "Trash Container: \"This is where you belong...\"",
+                              "articyId": "0x0100004B00002B15",
+                              "text": "This is where you belong...",
+                              "links": [
+                                {
+                                  "id": 9,
+                                  "title": "Cuno: \"\"Figures.\"\"",
+                                  "articyId": "0x01000045000007E5",
+                                  "text": "\"Figures.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 129,
+                  "title": "You: \"Close the lid.\"",
+                  "articyId": "0x0100004500000BBD",
+                  "text": "Close the lid.",
+                  "links": [
+                    {
+                      "id": 410,
+                      "title": "Trash Container: \"The container sounds a muffled gong...\"",
+                      "articyId": "0x0100004500000BC4",
+                      "text": "The container sounds a muffled gong.",
+                      "links": [
+                        {
+                          "id": 215,
+                          "title": "Kim Kitsuragi: \"\"That's one thing off the list...\"...\"",
+                          "articyId": "0x0100004500000BD8",
+                          "text": "\"That's one thing off the list...\" The lieutenant sounds relieved. \"I think we got it all.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 316,
+                          "title": "Kim Kitsuragi: \"\"We should return later, officer. I...\"",
+                          "articyId": "0x0100004500000BD1",
+                          "text": "\"We should return later, officer. I don't think we were thorough enough. There may be more in there.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 76,
+                  "title": "Kim Kitsuragi: \"\"We're just in time.\" The lieutenan...\"",
+                  "articyId": "0x0100004500000BA4",
+                  "text": "\"We're just in time.\" The lieutenant peers in. \"This hasn't been emptied for over a week.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 346,
+          "title": "You: \"Force time -- jam the tool under th...\"",
+          "articyId": "0x010000450000069E",
+          "text": "Force time -- jam the tool under the lid and pull!",
+          "links": [
+            {
+              "id": 125,
+              "title": "Physical Instrument: \"You stick the prybar into the fissu...\"",
+              "articyId": "0x01000045000006C1",
+              "text": "You stick the prybar into the fissure beneath the lid and push down. It doesn't take much force -- with a satisfying *crack,* the metal gives way. You can open the lid now.",
+              "links": []
+            },
+            {
+              "id": 368,
+              "title": "Physical Instrument: \"You force open the sealed metal lid...\"",
+              "articyId": "0x010000040001580B",
+              "text": "You force open the sealed metal lid with your goddamn *bare hands*. It is open now. It could not resist your supra-human strength.",
+              "links": []
+            },
+            {
+              "id": 345,
+              "title": "Physical Instrument: \"No matter how strong you think you...\"",
+              "articyId": "0x0100000200001172",
+              "text": "No matter how strong you think you are, this is really not something you should be attempting to do with your bare hands.",
+              "links": []
+            },
+            {
+              "id": 46,
+              "title": "Physical Instrument: \"*Still* not force time. You're just...\"",
+              "articyId": "0x0100006B00009C9B",
+              "text": "*Still* not force time. You're just not getting there... the prybar is primed, but you lack the ability.",
+              "links": []
+            },
+            {
+              "id": 154,
+              "title": "Physical Instrument: \"Force time isn't happening. You've...\"",
+              "articyId": "0x01000045000006BB",
+              "text": "Force time isn't happening. You've jammed the prybar under the lid but it just isn't bending.",
+              "links": [
+                {
+                  "id": 477,
+                  "title": "Half Light: \"WHAT IS THIS? Your triceps ache for...\"",
+                  "articyId": "0x01000045000006D4",
+                  "text": "WHAT IS THIS? Your triceps ache for the metal to bend, but it resists... this calls for a potent curse to help break it's resistance. Utter the POWER WORDS!",
+                  "links": [
+                    {
+                      "id": 512,
+                      "title": "You: \"\"The FUCK kind of metal is this, th...\"",
+                      "articyId": "0x01000045000006DC",
+                      "text": "\"The FUCK kind of metal is this, this is fucking SHIT!\"",
+                      "links": [
+                        {
+                          "id": 213,
+                          "title": "Kim Kitsuragi: \"\"The quality of metal is not the pr...\"",
+                          "articyId": "0x01000045000006FB",
+                          "text": "\"The quality of metal is not the problem. From what I see, it's sturdy enough.\"",
+                          "links": [
+                            {
+                              "id": 74,
+                              "title": "Empathy: \"He's enjoying your little failure....\"",
+                              "articyId": "0x0100004500000716",
+                              "text": "He's enjoying your little failure. He finds it amusing, he's revelling in the sweaty rage on your face.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 513,
+                          "title": "Cuno: \"\"Quit pushin' the blame on the meta...\"",
+                          "articyId": "0x0100004500000701",
+                          "text": "\"Quit pushin' the blame on the metal piggo. Metal's fine. It's your arm that's shit.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 212,
+                      "title": "You: \"Kick the container.\"",
+                      "articyId": "0x01000045000006E2",
+                      "text": "Kick the container.",
+                      "links": [
+                        {
+                          "id": 31,
+                          "title": "Trash Container: \"Unsatisfying. Hurtful. You hear a r...\"",
+                          "articyId": "0x0100004500000720",
+                          "text": "Unsatisfying. Hurtful. You hear a ringing sound, but not quite hollow. The can seems to be full...",
+                          "links": [
+                            {
+                              "id": 429,
+                              "title": "Half Light: \"*Full* of itself. Content, happy yo...\"",
+                              "articyId": "0x0100004500000729",
+                              "text": "*Full* of itself. Content, happy you failed. This snickering trash container is having a grand old time.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 478,
+                      "title": "You: \"Hang from the prybar with all your...\"",
+                      "articyId": "0x01000045000006E8",
+                      "text": "Hang from the prybar with all your weight.",
+                      "links": [
+                        {
+                          "id": 446,
+                          "title": "Trash Container: \"There's a creaking sound as the pry...\"",
+                          "articyId": "0x0100004500000734",
+                          "text": "There's a creaking sound as the prybar slips under the lid. You hang from it, like a moron, huffing and puffing. Clearly the technique is wrong -- but nothing else comes to mind.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 310,
+                      "title": "You: \"\"That's it, I can't pry it open.\"\"",
+                      "articyId": "0x01000045000006EE",
+                      "text": "\"That's it, I can't pry it open.\"",
+                      "links": [
+                        {
+                          "id": 60,
+                          "title": "Kim Kitsuragi: \"\"The strange thing is -- we don't h...\"",
+                          "articyId": "0x010000450000073B",
+                          "text": "\"The strange thing is -- we don't have to.\" He smiles. \"We have the *key* remember. The manager gave you the key.\"",
+                          "links": [
+                            {
+                              "id": 479,
+                              "title": "Cunoesse: \"\"No he don't! He fuckin' lost it! T...\"",
+                              "articyId": "0x010000450000076C",
+                              "text": "\"No he don't! He fuckin' lost it! The ape's lost the key too.\"",
+                              "links": [
+                                {
+                                  "id": 406,
+                                  "title": "Cuno: \"\"Unreal.\"\"",
+                                  "articyId": "0x0100004500000773",
+                                  "text": "\"Unreal.\"",
+                                  "links": [
+                                    {
+                                      "id": 351,
+                                      "title": "Cuno: \"\"We should find his gun and kill so...\"",
+                                      "articyId": "0x0100004500000781",
+                                      "text": "\"We should find his gun and kill someone with it.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 480,
+                          "title": "Kim Kitsuragi: \"\"Let's ask the manager for the key,...\"",
+                          "articyId": "0x010000450000079D",
+                          "text": "\"Let's ask the manager for the key, this is clearly not working.\"",
+                          "links": [
+                            {
+                              "id": 92,
+                              "title": "You: \"\"But I wanted to use the prybar......\"",
+                              "articyId": "0x01000045000007A5",
+                              "text": "\"But I wanted to use the prybar... I feel like I'm losing out on something not using the prybar.\"",
+                              "links": [
+                                {
+                                  "id": 374,
+                                  "title": "Kim Kitsuragi: \"\"You are. The prybar is quite satis...\"",
+                                  "articyId": "0x01000045000007BA",
+                                  "text": "\"You are. The prybar is quite satisfying and handy.\" He nods, without the slightest hint of irony. \"But you are just not good enough at prying. We should get the keys.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 514,
+                              "title": "You: \"Let it go.\"",
+                              "articyId": "0x01000045000007AB",
+                              "text": "Let it go.",
+                              "links": [
+                                {
+                                  "id": 8,
+                                  "title": "Trash Container: \"The dumpster is goading you. It thi...\"",
+                                  "articyId": "0x01000045000007B2",
+                                  "text": "The dumpster is goading you. It thinks you're weak.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 214,
+                      "title": "You: \"Give up.\"",
+                      "articyId": "0x010000450000074F",
+                      "text": "Give up.",
+                      "links": [
+                        {
+                          "id": 373,
+                          "title": "Cuno: \"\"Cuno's gotta say, man, that was un...\"",
+                          "articyId": "0x0100004500000756",
+                          "text": "\"Cuno's gotta say, man, that was unimpressive. The fuck were you trying to do?\"",
+                          "links": [
+                            {
+                              "id": 93,
+                              "title": "You: \"\"Fuck you, Cuno.\"\"",
+                              "articyId": "0x01000045000007D5",
+                              "text": "\"Fuck you, Cuno.\"",
+                              "links": [
+                                {
+                                  "id": 451,
+                                  "title": "Cuno: \"\"Yeah, I know but what were you try...\"",
+                                  "articyId": "0x01000045000007DC",
+                                  "text": "\"Yeah, I know but what were you trying to do pig?\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 375,
+                              "title": "You: \"\"I was trying to open the trash.\"\"",
+                              "articyId": "0x01000045000007C7",
+                              "text": "\"I was trying to open the trash.\"",
+                              "links": [
+                                {
+                                  "id": 75,
+                                  "title": "Cuno: \"\"No you weren't. If you were you'd...\"",
+                                  "articyId": "0x01000045000007F1",
+                                  "text": "\"No you weren't. If you were you'd stick that shitto...\" He makes a move with his hands. \"In that staple or some shit. That little ring that has the lock in it. Then twist that shit, it's the weak spot.\"",
+                                  "links": [
+                                    {
+                                      "id": 159,
+                                      "title": "Cunoesse: \"\"What are you his fuckin' sidekick...\"",
+                                      "articyId": "0x01000045000007FA",
+                                      "text": "\"What are you his fuckin' sidekick now, Cun'? Don't listen to him pig, you were good.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 32,
+                              "title": "You: \"Say nothing.\"",
+                              "articyId": "0x01000045000007CD",
+                              "text": "Say nothing.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 183,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100000400009B66",
+          "text": "[Leave.]",
+          "links": [
+            {
+              "id": 232,
+              "title": "Kim Kitsuragi: \"\"Officer...\" the lieutenant says. \"...\"",
+              "articyId": "0x0100006B00009FAB",
+              "text": "\"Officer...\" the lieutenant says. \"Now that you have your ledger back, it would not hurt to start taking notes on the case. Officially.\"",
+              "links": []
+            },
+            {
+              "id": 367,
+              "title": "Logic: \"Now that your ledger is back in you...\"",
+              "articyId": "0x0100006B00009FD5",
+              "text": "Now that your ledger is back in your possession, it feels like you should do something... *important*.",
+              "links": [
+                {
+                  "id": 50,
+                  "title": "You: \"What am I supposed to do?\"",
+                  "articyId": "0x0100006B00009FDC",
+                  "text": "What am I supposed to do?",
+                  "links": [
+                    {
+                      "id": 233,
+                      "title": "Logic: \"You have to start taking proper not...\"",
+                      "articyId": "0x0100006B00009FFB",
+                      "text": "You have to start taking proper notes on the case. Open your official investigation.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 445,
+                  "title": "You: \"I should... start taking proper not...\"",
+                  "articyId": "0x0100006B00009FE9",
+                  "text": "I should... start taking proper notes on the case?",
+                  "links": [
+                    {
+                      "id": 27,
+                      "title": "Logic: \"Exactly. Open your official investi...\"",
+                      "articyId": "0x0100006B00009FF6",
+                      "text": "Exactly. Open your official investigation.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 26,
+                  "title": "You: \"I'm not going to do anything.\"",
+                  "articyId": "0x0100006B00009FE1",
+                  "text": "I'm not going to do anything.",
+                  "links": [
+                    {
+                      "id": 68,
+                      "title": "Logic: \"Oh, yes you are. It's *fundamental*...\"",
+                      "articyId": "0x0100006B00009FF1",
+                      "text": "Oh, yes you are. It's *fundamental* to proper police procedure to start keeping notes on the case at hand. Open your official investigation.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Trash Container: \"This trash container is locked. The...\"",
+      "articyId": "0x0100000400009B2D",
+      "text": "This trash container is locked. The sliding lid has a padlock that says \"Whirling-in-Rags.\"",
+      "links": [
+        {
+          "id": 88,
+          "title": "Inland Empire: \"There's something in there. Not nec...\"",
+          "articyId": "0x0100009700003E41",
+          "text": "There's something in there. Not necessarily connected to the case -- but still...",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

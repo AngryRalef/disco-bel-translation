@@ -1,0 +1,83 @@
+{
+  "id": "0x010000570000B3CD",
+  "title": "THOUGHT / THE DESTROYER",
+  "description": "Pain Threshold turns you into THE DESTROYER! (a thought for punching and not taking damage). Anti-Object Task Force.",
+  "dialogueTree": [
+    {
+      "id": 3,
+      "title": "Pain Threshold: \"Bent metal, broken glass... your pa...\"",
+      "articyId": "0x0100009400000CDF",
+      "text": "Bent metal, broken glass... your path lies strewn with the broken forms of everyday objects...",
+      "links": [
+        {
+          "id": 2,
+          "title": "Pain Threshold: \"You are *The Destroyer*, the bane o...\"",
+          "articyId": "0x010000570000B3CE",
+          "text": "You are *The Destroyer*, the bane of inanimate matter.",
+          "links": [
+            {
+              "id": 6,
+              "title": "You: \"Gaze upon me, stuff, and despair!\"",
+              "articyId": "0x010000570000B3DA",
+              "text": "Gaze upon me, stuff, and despair!",
+              "links": [
+                {
+                  "id": 13,
+                  "title": "Pain Threshold: \"Kudos.\"",
+                  "articyId": "0x010000570000B3F0",
+                  "text": "Kudos.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title": "You: \"No, I'm just a disempowered individ...\"",
+              "articyId": "0x010000570000B3E1",
+              "text": "No, I'm just a disempowered individual trying to take my disempowerment out on everyday objects.",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Pain Threshold: \"Look! There's a discarded milk cart...\"",
+                  "articyId": "0x010000570000B3F8",
+                  "text": "Look! There's a discarded milk carton on the floor. Why don't you destroy that, too?",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "You: \"Good idea. Fuck you, milk carton, t...\"",
+                      "articyId": "0x010000570000B40E",
+                      "text": "Good idea. Fuck you, milk carton, this is all *your* fault!",
+                      "links": []
+                    },
+                    {
+                      "id": 10,
+                      "title": "You: \"No, I actually feel sorry for the t...\"",
+                      "articyId": "0x010000570000B407",
+                      "text": "No, I actually feel sorry for the things I've destroyed. (I'm sorry, milk carton.)",
+                      "links": [
+                        {
+                          "id": 7,
+                          "title": "Pain Threshold: \"You're right, that's definitely not...\"",
+                          "articyId": "0x010000570000B41B",
+                          "text": "You're right, that's definitely not the behaviour of a destroyer at all. That's just severe anger-management problems and a disregard for property rights.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "title": "You: \"Yeah, I rip shit apart.\"",
+              "articyId": "0x010000570000B3E8",
+              "text": "Yeah, I rip shit apart.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

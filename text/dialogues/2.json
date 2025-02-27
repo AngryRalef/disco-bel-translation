@@ -1,0 +1,448 @@
+{
+  "id": "0x0100000400000281",
+  "title": "WHIRLING / CEILING FAN",
+  "description": "The ceiling fan is spinning like the blades of some rickety old airship about to fall on you. A truly horrendous neck-tie has somehow attached itself to one of the blades.",
+  "dialogueTree": [
+    {
+      "id": 66,
+      "title": "Ceiling Fan: \"The fan is spinning.\"",
+      "articyId": "0x01000027000009FB",
+      "text": "The fan is spinning.",
+      "links": [
+        {
+          "id": 50,
+          "title": "You: \"Grab the tie.\"",
+          "articyId": "0x0100000400005677",
+          "text": "Grab the tie.",
+          "links": [
+            {
+              "id": 82,
+              "title": "Savoir Faire: \"You swoop up and catch the tie... S...\"",
+              "articyId": "0x0100000400000F66",
+              "text": "You swoop up and catch the tie... Snap! It's released from the blade.",
+              "links": [
+                {
+                  "id": 63,
+                  "title": "Ceiling Fan: \"What you have in your hand is a fan...\"",
+                  "articyId": "0x0100002700000778",
+                  "text": "What you have in your hand is a fantastically colourful tie, with four or five different patterns. The knot reminds you of a noose.",
+                  "links": [
+                    {
+                      "id": 109,
+                      "title": "Logic: \"If it's your *friend*, why was it u...\"",
+                      "articyId": "0x0100002700000902",
+                      "text": "If it's your *friend*, why was it up there? Who ties their friend to a ceiling fan? Maybe this thing is dangerous somehow...",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "Inland Empire: \"An ominous, foreboding feeling fill...\"",
+                          "articyId": "0x010000450001FCAB",
+                          "text": "An ominous, foreboding feeling fills you, as you look at the tie.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 128,
+                  "title": "Ceiling Fan: \"What you have in your hand is a tru...\"",
+                  "articyId": "0x0100002700000780",
+                  "text": "What you have in your hand is a truly hideous necktie, with four or five different patterns. The knot reminds you of a noose.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 38,
+              "title": "Savoir Faire: \"Oh no, it's happening again. You di...\"",
+              "articyId": "0x0100002700000880",
+              "text": "Oh no, it's happening again. You didn't catch it and now there's numbness in your left arm, plus half your chest.",
+              "links": [
+                {
+                  "id": 23,
+                  "title": "Pain Threshold: \"You can take this one too. Just bre...\"",
+                  "articyId": "0x01000027000009E7",
+                  "text": "You can take this one too. Just breathe in slowly.",
+                  "links": [
+                    {
+                      "id": 29,
+                      "title": "You: \"Grab your arm.\"",
+                      "articyId": "0x01000027000009F3",
+                      "text": "Grab your arm.",
+                      "links": [
+                        {
+                          "id": 96,
+                          "title": "Ceiling Fan: \"None of these is a real heart attac...\"",
+                          "articyId": "0x01000027000008D8",
+                          "text": "None of these is a real heart attack. This is such a joke. You should probably just exercise more.",
+                          "links": []
+                        },
+                        {
+                          "id": 127,
+                          "title": "Ceiling Fan: \"This is not a *real* heart attack....\"",
+                          "articyId": "0x01000027000008D3",
+                          "text": "This is not a *real* heart attack. This is a joke. It's probably just your lungs or your oesophagus. The oesophagus does practically nothing.",
+                          "links": []
+                        },
+                        {
+                          "id": 101,
+                          "title": "Ceiling Fan: \"It's even worse this time. Maybe yo...\"",
+                          "articyId": "0x010000270000089E",
+                          "text": "It's even worse this time. Maybe you should stop trying to catch the tie?",
+                          "links": [
+                            {
+                              "id": 129,
+                              "title": "Ceiling Fan: \"Still happening. Definitely worse t...\"",
+                              "articyId": "0x01000027000008AA",
+                              "text": "Still happening. Definitely worse than the last time.",
+                              "links": [
+                                {
+                                  "id": 17,
+                                  "title": "Ceiling Fan: \"Finally the stabbing recedes. You c...\"",
+                                  "articyId": "0x01000027000008B0",
+                                  "text": "Finally the stabbing recedes. You could try doing it again to see how painful it gets -- but you would probably die.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 21,
+                          "title": "Ceiling Fan: \"This is bad. Feels like sharp stone...\"",
+                          "articyId": "0x01000027000008B6",
+                          "text": "This is bad. Feels like sharp stones grinding in your chest and keeping you from moving.",
+                          "links": [
+                            {
+                              "id": 22,
+                              "title": "Ceiling Fan: \"For quite a long time.\"",
+                              "articyId": "0x01000027000008BB",
+                              "text": "For quite a long time.",
+                              "links": [
+                                {
+                                  "id": 4,
+                                  "title": "Ceiling Fan: \"Still ongoing. Now is a good time t...\"",
+                                  "articyId": "0x01000027000008C0",
+                                  "text": "Still ongoing. Now is a good time to start worrying.",
+                                  "links": [
+                                    {
+                                      "id": 18,
+                                      "title": "Ceiling Fan: \"Finally the pressure recedes. You f...\"",
+                                      "articyId": "0x01000027000008C5",
+                                      "text": "Finally the pressure recedes. You find yourself covered in cold sweat and trying not to move -- hoping it will keep you from dying.",
+                                      "links": [
+                                        {
+                                          "id": 123,
+                                          "title": "Interfacing: \"You know what you should do? You sh...\"",
+                                          "articyId": "0x010000450001FCC3",
+                                          "text": "You know what you should do? You should stop the fan and then try again, it'll get easier.",
+                                          "links": [
+                                            {
+                                              "id": 39,
+                                              "title": "Endurance: \"Do it -- *if you want to die*, the...\"",
+                                              "articyId": "0x010000450001FCD4",
+                                              "text": "Do it -- *if you want to die*, the stabbing pain in your chest is telling you. You're hanging by a thread here...",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 42,
+              "title": "Savoir Faire: \"You reach out to grab the tie... bu...\"",
+              "articyId": "0x01000004000056CB",
+              "text": "You reach out to grab the tie... but what's this? Diffuse, radiating chest pain! Doom comes over you.",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "Pain Threshold: \"You can take it. Just breathe in sl...\"",
+                  "articyId": "0x01000004000056D3",
+                  "text": "You can take it. Just breathe in slowly.",
+                  "links": [
+                    {
+                      "id": 92,
+                      "title": "You: \"Breathe in calmly.\"",
+                      "articyId": "0x01000004000056F7",
+                      "text": "Breathe in calmly.",
+                      "links": []
+                    },
+                    {
+                      "id": 2,
+                      "title": "You: \"Grab your chest.\"",
+                      "articyId": "0x01000004000056F1",
+                      "text": "Grab your chest.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 33,
+              "title": "Savoir Faire: \"Oh no, it's happening again. You di...\"",
+              "articyId": "0x0100005800009120",
+              "text": "Oh no, it's happening again. You didn't catch it and now there's numbness in half your chest.",
+              "links": [
+                {
+                  "id": 41,
+                  "title": "Pain Threshold: \"You can take this. It's not nearly...\"",
+                  "articyId": "0x0100005800009159",
+                  "text": "You can take this. It's not nearly as bad as the last time.",
+                  "links": [
+                    {
+                      "id": 37,
+                      "title": "You: \"Press your hands to your chest to m...\"",
+                      "articyId": "0x01000058000091B9",
+                      "text": "Press your hands to your chest to make sure your heart is still beating okay.",
+                      "links": [
+                        {
+                          "id": 130,
+                          "title": "Pain Threshold: \"This isn't a real heart attack. You...\"",
+                          "articyId": "0x0100005800009132",
+                          "text": "This isn't a real heart attack. You should probably just exercise more.",
+                          "links": []
+                        },
+                        {
+                          "id": 98,
+                          "title": "Pain Threshold: \"This is not a *real* heart attack....\"",
+                          "articyId": "0x0100005800009174",
+                          "text": "This is not a *real* heart attack. This is a joke. It's probably just your lungs or your oesophagus. The oesophagus does practically nothing.",
+                          "links": []
+                        },
+                        {
+                          "id": 91,
+                          "title": "Pain Threshold: \"It's worse this time. Maybe you sho...\"",
+                          "articyId": "0x0100005800009169",
+                          "text": "It's worse this time. Maybe you should stop trying to catch the tie?",
+                          "links": [
+                            {
+                              "id": 67,
+                              "title": "Pain Threshold: \"Still happening.\"",
+                              "articyId": "0x010000580000912C",
+                              "text": "Still happening.",
+                              "links": [
+                                {
+                                  "id": 97,
+                                  "title": "Pain Threshold: \"Still bad. Definitely worse than th...\"",
+                                  "articyId": "0x0100005800009145",
+                                  "text": "Still bad. Definitely worse than the last time.",
+                                  "links": [
+                                    {
+                                      "id": 87,
+                                      "title": "Pain Threshold: \"Finally the stabbing recedes. You c...\"",
+                                      "articyId": "0x0100005800009153",
+                                      "text": "Finally the stabbing recedes. You could try doing it again to see how painful it gets. (Very.) But do you really want to risk it?",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 99,
+                          "title": "Pain Threshold: \"This is bad. Feels like sharp stone...\"",
+                          "articyId": "0x010000580000918A",
+                          "text": "This is bad. Feels like sharp stones grinding in your chest and keeping you from moving.",
+                          "links": [
+                            {
+                              "id": 124,
+                              "title": "Pain Threshold: \"For quite a long time.\"",
+                              "articyId": "0x0100005800009184",
+                              "text": "For quite a long time.",
+                              "links": [
+                                {
+                                  "id": 11,
+                                  "title": "Pain Threshold: \"Still ongoing. Now is a good time t...\"",
+                                  "articyId": "0x0100005800009190",
+                                  "text": "Still ongoing. Now is a good time to start worrying.",
+                                  "links": [
+                                    {
+                                      "id": 62,
+                                      "title": "Pain Threshold: \"Finally the pressure recedes. You f...\"",
+                                      "articyId": "0x010000580000917E",
+                                      "text": "Finally the pressure recedes. You find yourself covered in cold sweat. Try not to move too fast -- maybe that will keep you from collapsing.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 40,
+                      "title": "You: \"Breathe in and out calmly.\"",
+                      "articyId": "0x010000580000911A",
+                      "text": "Breathe in and out calmly.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "title": "Savoir Faire: \"You reach out to grab the tie... bu...\"",
+              "articyId": "0x0100005800009138",
+              "text": "You reach out to grab the tie... but what's this? Radiating chest pain! Fear washes over you.",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Pain Threshold: \"You can take it. Just breathe.\"",
+                  "articyId": "0x010000580000913F",
+                  "text": "You can take it. Just breathe.",
+                  "links": [
+                    {
+                      "id": 7,
+                      "title": "You: \"Grab your chest.\"",
+                      "articyId": "0x010000580000914D",
+                      "text": "Grab your chest.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 126,
+          "title": "You: \"Pull on the fan.\"",
+          "articyId": "0x010000270000078A",
+          "text": "Pull on the fan.",
+          "links": [
+            {
+              "id": 57,
+              "title": "Ceiling Fan: \"The switch must be broken, because...\"",
+              "articyId": "0x01000027000007C0",
+              "text": "The switch must be broken, because nothing happens. The air in the room is starting to feel like vaporized urine.",
+              "links": []
+            },
+            {
+              "id": 30,
+              "title": "Ceiling Fan: \"The blades come squeaking to a halt...\"",
+              "articyId": "0x01000004000002CA",
+              "text": "The blades come squeaking to a halt. It should be easier to reach the tie now.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "title": "You: \"Pull on the light bulb.\"",
+          "articyId": "0x0100002700000792",
+          "text": "Pull on the light bulb.",
+          "links": [
+            {
+              "id": 15,
+              "title": "Ceiling Fan: \"The lights are off again.\"",
+              "articyId": "0x01000027000007CF",
+              "text": "The lights are off again.",
+              "links": []
+            },
+            {
+              "id": 16,
+              "title": "Ceiling Fan: \"The lights are on.\"",
+              "articyId": "0x01000027000007DB",
+              "text": "The lights are on.",
+              "links": []
+            },
+            {
+              "id": 114,
+              "title": "Ceiling Fan: \"A terrible mistake! Turn the lights...\"",
+              "articyId": "0x01000004000002C0",
+              "text": "A terrible mistake! Turn the lights off IMMEDIATELY! You can practically feel the photons burning a hole in your brain.",
+              "links": [
+                {
+                  "id": 83,
+                  "title": "Pain Threshold: \"It's just a little hangover-induced...\"",
+                  "articyId": "0x0100000400005685",
+                  "text": "It's just a little hangover-induced photosensitivity. Don't over-react.",
+                  "links": [
+                    {
+                      "id": 49,
+                      "title": "You: \"Bring it on.\"",
+                      "articyId": "0x01000004000002D1",
+                      "text": "Bring it on.",
+                      "links": [
+                        {
+                          "id": 25,
+                          "title": "Pain Threshold: \"Little black spots dance on your re...\"",
+                          "articyId": "0x0100000400000F72",
+                          "text": "Little black spots dance on your retinas. It's almost pleasurable.",
+                          "links": []
+                        },
+                        {
+                          "id": 71,
+                          "title": "Pain Threshold: \"Your eyes burn with photosensitivit...\"",
+                          "articyId": "0x0100000400005697",
+                          "text": "Your eyes burn with photosensitivity. It's not good.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 115,
+                      "title": "You: \"Pull again to turn the lights off.\"",
+                      "articyId": "0x01000004000002D8",
+                      "text": "Pull again to turn the lights off.",
+                      "links": [
+                        {
+                          "id": 9,
+                          "title": "Ceiling Fan: \"The lights are off.\"",
+                          "articyId": "0x0100000400000F78",
+                          "text": "The lights are off.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100000400005758",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Ceiling Fan: \"This fan has two chain pull switche...\"",
+      "articyId": "0x0100000400000282",
+      "text": "This fan has two chain pull switches -- one ends in a tiny fan, the other in a light bulb. A truly horrific necktie has somehow attached itself to one of the blades.",
+      "links": [
+        {
+          "id": 81,
+          "title": "Inland Empire: \"Or has it been consigned there as p...\"",
+          "articyId": "0x0100000400000F18",
+          "text": "Or has it been consigned there as punishment? You feel as though this creature is your *friend* and wants to reattach itself to your neck. So that you may continue your adventures together in this strange world!",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

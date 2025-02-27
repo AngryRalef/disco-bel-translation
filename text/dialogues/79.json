@@ -1,0 +1,92 @@
+{
+  "id": "0x0100000B00000429",
+  "title": "ICE / TENT FLAP",
+  "description": "Entering the tent and leaving Kim behind.",
+  "dialogueTree": [
+    {
+      "id": 21,
+      "title": "Andre: \"\"C'mon! Get in, the warm stuff is g...\"",
+      "articyId": "0x0100000B000005BC",
+      "text": "\"C'mon! Get in, the warm stuff is getting out.\"",
+      "links": [
+        {
+          "id": 5,
+          "title": "You: \"Squeeze in.\"",
+          "articyId": "0x0100000B0000054D",
+          "text": "Squeeze in.",
+          "links": [
+            {
+              "id": 6,
+              "title": "Andre: \"\"Sorry.\" He points his thumb at the...\"",
+              "articyId": "0x0100000B00000539",
+              "text": "\"Sorry.\" He points his thumb at the lieutenant. \"We barely have room for one.\"",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Kim Kitsuragi: \"\"You go ahead, I'm too old for this...\"",
+                  "articyId": "0x0100000B00000540",
+                  "text": "\"You go ahead, I'm too old for this...\"",
+                  "links": [
+                    {
+                      "id": 17,
+                      "title": "Esprit de Corps: \"I'm actually not, he thinks. I just...\"",
+                      "articyId": "0x0100000B000005E2",
+                      "text": "I'm actually not, he thinks. I just dislike delinquents.",
+                      "links": [
+                        {
+                          "id": 19,
+                          "title": "Kim Kitsuragi: \"\"I'm sure you will feel right at ho...\"",
+                          "articyId": "0x0100000B000005DA",
+                          "text": "\"I'm sure you will feel right at home. I'll keep watch.\" He gestures for you to squeeze in.",
+                          "links": [
+                            {
+                              "id": 18,
+                              "title": "Tent Flap: \"You leave the lieutenant outside an...\"",
+                              "articyId": "0x01000021000013B0",
+                              "text": "You leave the lieutenant outside and squeeze in.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "You: \"\"No way.\" [Leave.]\"",
+          "articyId": "0x0100000B00000570",
+          "text": "\"No way.\" [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Tent Flap: \"The tent is just tarpaulin fabric c...\"",
+      "articyId": "0x01000004000050D6",
+      "text": "The tent is just tarpaulin fabric covering a pile of stuff. The flap is open. Inside, three young men are listening to some new form of music. It's like nothing you've ever heard. One of them looks at you.",
+      "links": [
+        {
+          "id": 2,
+          "title": "Andre: \"\"C'mon! Get in and close the flap b...\"",
+          "articyId": "0x01000004000050DF",
+          "text": "\"C'mon! Get in and close the flap behind you! The warm stuff is getting out!\"",
+          "links": [
+            {
+              "id": 20,
+              "title": "Authority: \"It's safe to assume this is their l...\"",
+              "articyId": "0x01000004000050E7",
+              "text": "It's safe to assume this is their leader. Or at least he thinks he is.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

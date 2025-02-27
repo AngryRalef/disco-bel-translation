@@ -1,0 +1,283 @@
+{
+  "id": "0x0100009700004CF3",
+  "title": "LAIR / DRAINAGE PIPE",
+  "description": "Alternate path into Feld building.",
+  "dialogueTree": [
+    {
+      "id": 25,
+      "title": "Drainage Pipe: \"Behind the pipe -- the maintenance...\"",
+      "articyId": "0x0100000600014ECB",
+      "text": "Behind the pipe -- the maintenance door, rusted shut and half-sunken in sand.",
+      "links": [
+        {
+          "id": 18,
+          "title": "You: \"What's in there?\"",
+          "articyId": "0x0100009700004D26",
+          "text": "What's in there?",
+          "links": [
+            {
+              "id": 58,
+              "title": "Drainage Pipe: \"An ordinary drainage pipe. Darkness...\"",
+              "articyId": "0x0100009700004D8F",
+              "text": "An ordinary drainage pipe. Darkness.",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "You: \"Okay. What *else*?\"",
+                  "articyId": "0x0100001600009A7E",
+                  "text": "Okay. What *else*?",
+                  "links": [
+                    {
+                      "id": 62,
+                      "title": "Drainage Pipe: \"As your eyes adjust, you see some t...\"",
+                      "articyId": "0x0100009700004DF8",
+                      "text": "As your eyes adjust, you see some trash -- crumpled up newspapers, cigarette butts. Someone has half-heartedly spray-painted 'SKULLS' on the right side.",
+                      "links": [
+                        {
+                          "id": 29,
+                          "title": "You: \"And?\"",
+                          "articyId": "0x0100009700004E48",
+                          "text": "And?",
+                          "links": [
+                            {
+                              "id": 19,
+                              "title": "Drainage Pipe: \"And? And nothing. Broken glass from...\"",
+                              "articyId": "0x0100009700004E42",
+                              "text": "And? And nothing. Broken glass from bottles thrown against the walls of the pipe. A syringe...",
+                              "links": [
+                                {
+                                  "id": 20,
+                                  "title": "Perception (Smell): \"A very, very faint smell of stale l...\"",
+                                  "articyId": "0x0100009700004E4F",
+                                  "text": "A very, very faint smell of stale liquor still lingers -- or is it just your imagination?",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "title": "You: \"\"This looks like a great place to s...\"",
+          "articyId": "0x0100009700004DE1",
+          "text": "\"This looks like a great place to stash narcotics. I want to make sure there's nothing hidden in there that children might pick up.\"",
+          "links": [
+            {
+              "id": 30,
+              "title": "Kim Kitsuragi: \"\"I see. Another stop on your crusad...\"",
+              "articyId": "0x0100001600009A74",
+              "text": "\"I see. Another stop on your crusade against narcomania. I *was* hoping we were in pursuit of a murder suspect...\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "title": "You: \"Could I get into the Feld building...\"",
+          "articyId": "0x0100009700004D4B",
+          "text": "Could I get into the Feld building through this pipe?",
+          "links": [
+            {
+              "id": 50,
+              "title": "Kim Kitsuragi: \"\"Given that this isn't a martial ar...\"",
+              "articyId": "0x0100009700004D57",
+              "text": "\"Given that this isn't a martial arts thriller,\" a grin flickers across his face, \"it's highly unlikely -- and not without risk to our health either.\"",
+              "links": [
+                {
+                  "id": 61,
+                  "title": "Kim Kitsuragi: \"\"However, the pipe suggests there m...\"",
+                  "articyId": "0x0100009700004DA0",
+                  "text": "\"However, the pipe suggests there may be an entrance to the basement around...\" The lieutenant pushes aside the reeds and looks around.",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Visual Calculus: \"He means: the pipe must be coming f...\"",
+                      "articyId": "0x0100009700004E65",
+                      "text": "He means: the pipe must be coming from *somewhere* in the building.",
+                      "links": [
+                        {
+                          "id": 33,
+                          "title": "Logic: \"Oh, duh, why didn't you think of th...\"",
+                          "articyId": "0x0100009700004E6C",
+                          "text": "Oh, duh, why didn't you think of that?",
+                          "links": [
+                            {
+                              "id": 45,
+                              "title": "Suggestion: \"The lieutenant's face lights up. He...\"",
+                              "articyId": "0x0100009700004DAB",
+                              "text": "The lieutenant's face lights up. He doesn't usually notice these little things.",
+                              "links": [
+                                {
+                                  "id": 63,
+                                  "title": "Kim Kitsuragi: \"\"...and it's right here! A maintena...\"",
+                                  "articyId": "0x0100009700004E76",
+                                  "text": "\"...and it's right here! A maintenance door.\" He points to a rusted metal double door to the right of the pipe, obscured by the reeds.",
+                                  "links": [
+                                    {
+                                      "id": 35,
+                                      "title": "Interfacing: \"It's jammed shut. The subtle approa...\"",
+                                      "articyId": "0x0100000600014EEF",
+                                      "text": "It's jammed shut. The subtle approach isn't going to work on this one.",
+                                      "links": [
+                                        {
+                                          "id": 64,
+                                          "title": "Endurance: \"Oh yeah... *big boy time*. This nee...\"",
+                                          "articyId": "0x0100000600014EF5",
+                                          "text": "Oh yeah... *big boy time*. This needs you to put your BACK into it.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"Try to pull the door apart.\"",
+          "articyId": "0x0100009700004D45",
+          "text": "Try to pull the door apart.",
+          "links": [
+            {
+              "id": 34,
+              "title": "Physical Instrument: \"The metal doors are heavy, and very...\"",
+              "articyId": "0x0100009700004E99",
+              "text": "The metal doors are heavy, and very awkward to open on your own, but you just manage to slide them open wide enough for you to slide yourself between them...",
+              "links": [
+                {
+                  "id": 67,
+                  "title": "Kim Kitsuragi: \"\"Good work.\" The lieutenant nods to...\"",
+                  "articyId": "0x0100009700004E31",
+                  "text": "\"Good work.\" The lieutenant nods toward the impenetrable darkness inside. \"Shall we?\"",
+                  "links": [
+                    {
+                      "id": 55,
+                      "title": "You: \"[Go in.]\"",
+                      "articyId": "0x0100009700004E37",
+                      "text": "[Go in.]",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 21,
+              "title": "Physical Instrument: \"It looks too exhausting to even try...\"",
+              "articyId": "0x0100000600014F06",
+              "text": "It looks too exhausting to even try. You'd only bloody your fingers on the rust.",
+              "links": []
+            },
+            {
+              "id": 36,
+              "title": "Physical Instrument: \"You and the lieutenant lean all you...\"",
+              "articyId": "0x0100009700004E0C",
+              "text": "You and the lieutenant lean all your weight into pushing the doors apart, but you're not quite synchronized in your efforts. They slam shut again before you can enter.",
+              "links": [
+                {
+                  "id": 32,
+                  "title": "Kim Kitsuragi: \"The lieutenant leans back against t...\"",
+                  "articyId": "0x0100009700004E12",
+                  "text": "The lieutenant leans back against the door, panting. \"Let's take a breather and try this again later? It's... very tough.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "title": "Physical Instrument: \"You can't seem to pry the doors apa...\"",
+              "articyId": "0x0100009700004DFF",
+              "text": "You can't seem to pry the doors apart for long enough to slip through. A second pair of hands would be really useful here.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100009700004D38",
+          "text": "[Leave.]",
+          "links": []
+        },
+        {
+          "id": 65,
+          "title": "Inland Empire: \"This isn't gonna work without the l...\"",
+          "articyId": "0x0100000600014EDA",
+          "text": "This isn't gonna work without the lieutenant here. What if you *do* find a way in and it's a *trap*? Kitsuragi needs to be here, covering you.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Drainage Pipe: \"An old pipe peeks out from beneath...\"",
+      "articyId": "0x0100009700004CFD",
+      "text": "An old pipe peeks out from beneath the rotting boards of the boardwalk. Could this be an alternative path into the Feld building?",
+      "links": [
+        {
+          "id": 49,
+          "title": "Visual Calculus: \"A building like this must have mult...\"",
+          "articyId": "0x0100009700004D07",
+          "text": "A building like this must have multiple doors serving various functions. Perhaps a basement access?",
+          "links": [
+            {
+              "id": 38,
+              "title": "You: \"Come closer and look in.\"",
+              "articyId": "0x0100009700004D65",
+              "text": "Come closer and look in.",
+              "links": [
+                {
+                  "id": 57,
+                  "title": "Drainage Pipe: \"Your eyes slowly begin to adjust to...\"",
+                  "articyId": "0x0100009700004D6C",
+                  "text": "Your eyes slowly begin to adjust to the darkness inside the drainage pipe.",
+                  "links": [
+                    {
+                      "id": 27,
+                      "title": "Kim Kitsuragi: \"The lieutenant looks over your shou...\"",
+                      "articyId": "0x0100009700004D13",
+                      "text": "The lieutenant looks over your shoulder.",
+                      "links": []
+                    },
+                    {
+                      "id": 6,
+                      "title": "Inland Empire: \"This isn't gonna work without the l...\"",
+                      "articyId": "0x0100000600014ED2",
+                      "text": "This isn't gonna work without the lieutenant here. What if you *do* find a way in and it's a *trap*? Kitsuragi needs to be here, covering you.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 44,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x0100009700004D87",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

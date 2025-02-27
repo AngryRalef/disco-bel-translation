@@ -1,0 +1,265 @@
+{
+  "id": "0x010000580000BD47",
+  "title": "LAIR / INSTIGATORS TENT",
+  "description": "1. Find Ruby's journal here.\n2. Use to stow away Ruby's body if she killed herself.",
+  "dialogueTree": [
+    {
+      "id": 65,
+      "title": "Kim Kitsuragi: \"\"I see the processing guys have bee...\"",
+      "articyId": "0x0100006B00005F1C",
+      "text": "\"I see the processing guys have been faster than usual. It's good we stopped by to check regardless.\" He nods at the lack of Ruby in the tent, then looks around. \"Now -- island time.\"",
+      "links": [
+        {
+          "id": 36,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000580000F66B",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Instigator's Tent: \"The instigator's body has been remo...\"",
+      "articyId": "0x010000580000F673",
+      "text": "The instigator's body has been removed by Processing. The tent seems orphaned now.",
+      "links": []
+    },
+    {
+      "id": 62,
+      "title": "Instigator's Tent: \"The plain red tent rests stoically...\"",
+      "articyId": "0x010000160000AA3C",
+      "text": "The plain red tent rests stoically in the corner. Ruby's dead body is wrapped in her sleeping bag.",
+      "links": [
+        {
+          "id": 55,
+          "title": "You: \"Look inside.\"",
+          "articyId": "0x010000580000BD7B",
+          "text": "Look inside.",
+          "links": [
+            {
+              "id": 68,
+              "title": "Instigator's Tent: \"In the darkness of the tent: Ruby's...\"",
+              "articyId": "0x010000580000F664",
+              "text": "In the darkness of the tent: Ruby's body, zipped up in her sleeping bag. Next to the body -- some books and a kerosene lamp.",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "You: \"Look at the books.\"",
+                  "articyId": "0x010000160000A6B3",
+                  "text": "Look at the books.",
+                  "links": []
+                },
+                {
+                  "id": 39,
+                  "title": "You: \"Back out of the tent.\"",
+                  "articyId": "0x010000160000A6C5",
+                  "text": "Back out of the tent.",
+                  "links": [
+                    {
+                      "id": 19,
+                      "title": "Instigator's Tent: \"The plain red tent rests stoically...\"",
+                      "articyId": "0x0100006B00005ED1",
+                      "text": "The plain red tent rests stoically in the corner.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "title": "Instigator's Tent: \"The tent looks old but well-maintai...\"",
+              "articyId": "0x010000580000BDDA",
+              "text": "The tent looks old but well-maintained. In the darkness of the tent -- a rolled-up sleeping bag, cooking utensils, some books and a kerosene lamp.",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Perception (Smell): \"It reeks of cigarettes.\"",
+                  "articyId": "0x010000160000AA4A",
+                  "text": "It reeks of cigarettes.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "title": "You: \"Sift through the books and magazine...\"",
+          "articyId": "0x010000160000A711",
+          "text": "Sift through the books and magazines.",
+          "links": [
+            {
+              "id": 5,
+              "title": "Instigator's Tent: \"Assorted softcovers, mostly pulp ho...\"",
+              "articyId": "0x010000160000A6D0",
+              "text": "Assorted softcovers, mostly pulp horror. A motor carriage lies buried in the snow on one cover, on another -- a ghost airship. You also see a collection of radio enthusiast magazines.",
+              "links": [
+                {
+                  "id": 59,
+                  "title": "Kim Kitsuragi: \"\"See anything?\" The lieutenant peek...\"",
+                  "articyId": "0x010000160000A6EC",
+                  "text": "\"See anything?\" The lieutenant peeks in over your shoulder.",
+                  "links": []
+                },
+                {
+                  "id": 35,
+                  "title": "You: \"Sift through the magazines.\"",
+                  "articyId": "0x010000160000A6D7",
+                  "text": "Sift through the magazines.",
+                  "links": [
+                    {
+                      "id": 54,
+                      "title": "Instigator's Tent: \"'Rega Monthly', 'Journal of Materia...\"",
+                      "articyId": "0x010000160000A6DE",
+                      "text": "'Rega Monthly', 'Journal of Material Science'. More technological digest. One of the magazines doesn't have images on the cover -- it's not a magazine, it's a leather notebook!",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "You: \"\"A notebook.\" (Take it.)\"",
+                          "articyId": "0x010000160000A6FB",
+                          "text": "\"A notebook.\" (Take it.)",
+                          "links": [
+                            {
+                              "id": 50,
+                              "title": "Instigator's Tent: \"You pocket the worn brown leather j...\"",
+                              "articyId": "0x0100006B00005EDE",
+                              "text": "You pocket the worn brown leather journal.",
+                              "links": [
+                                {
+                                  "id": 11,
+                                  "title": "Inland Empire: \"She watches by, motionless.\"",
+                                  "articyId": "0x0100006B00005F03",
+                                  "text": "She watches by, motionless.",
+                                  "links": [
+                                    {
+                                      "id": 23,
+                                      "title": "Kim Kitsuragi: \"\"We should read this *immediately*....\"",
+                                      "articyId": "0x010000060001E7E6",
+                                      "text": "\"We should read this *immediately*. Like -- right now.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 64,
+                                  "title": "Inland Empire: \"A trusted friend left behind...\"",
+                                  "articyId": "0x0100006B00005EE6",
+                                  "text": "A trusted friend left behind...",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 32,
+                          "title": "You: \"Take the notebook.\"",
+                          "articyId": "0x010000580000BDE6",
+                          "text": "Take the notebook.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "You: \"Look inside.\"",
+          "articyId": "0x010000160000A709",
+          "text": "Look inside.",
+          "links": [
+            {
+              "id": 61,
+              "title": "Instigator's Tent: \"You see a rolled-up sleeping bag an...\"",
+              "articyId": "0x010000160000A71F",
+              "text": "You see a rolled-up sleeping bag and personal belongings.",
+              "links": [
+                {
+                  "id": 21,
+                  "title": "Kim Kitsuragi: \"\"We should put her in the sleeping...\"",
+                  "articyId": "0x010000160000A72C",
+                  "text": "\"We should put her in the sleeping bag so the rats don't get to her.\"",
+                  "links": [
+                    {
+                      "id": 63,
+                      "title": "You: \"\"Okay, let's carry her over here.\"\"",
+                      "articyId": "0x010000580000BD87",
+                      "text": "\"Okay, let's carry her over here.\"",
+                      "links": [
+                        {
+                          "id": 25,
+                          "title": "Kim Kitsuragi: \"The lieutenant nods.\"",
+                          "articyId": "0x010000580000BDAD",
+                          "text": "The lieutenant nods.",
+                          "links": [
+                            {
+                              "id": 9,
+                              "title": "Instigator's Tent: \"There she lies, cocooned in the sle...\"",
+                              "articyId": "0x010000160000A719",
+                              "text": "There she lies, cocooned in the sleeping bag, surrounded by empty cigarette packs, books, and half-read magazines.",
+                              "links": [
+                                {
+                                  "id": 38,
+                                  "title": "Logic: \"Magazines? You should look through...\"",
+                                  "articyId": "0x010000060001570D",
+                                  "text": "Magazines? You should look through them.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 69,
+                  "title": "Esprit de Corps: \"You'll need the lieutenant's help t...\"",
+                  "articyId": "0x010000160000A737",
+                  "text": "You'll need the lieutenant's help to carry her over.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Instigator's Tent: \"The plain red tent rests stoically...\"",
+      "articyId": "0x010000160000AA42",
+      "text": "The plain red tent rests stoically in the corner.",
+      "links": []
+    },
+    {
+      "id": 75,
+      "title": "Instigator's Tent: \"The plain red tent stands by dispas...\"",
+      "articyId": "0x010000580000BD68",
+      "text": "The plain red tent stands by dispassionately.",
+      "links": [
+        {
+          "id": 34,
+          "title": "Savoir Faire: \"It was pitched by practised hands -...\"",
+          "articyId": "0x010000580000BD74",
+          "text": "It was pitched by practised hands -- she was used to camping out.",
+          "links": []
+        },
+        {
+          "id": 6,
+          "title": "Savoir Faire: \"It was pitched by practised hands -...\"",
+          "articyId": "0x010000580000F647",
+          "text": "It was pitched by practised hands -- she's used to camping out.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

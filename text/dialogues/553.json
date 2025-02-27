@@ -1,0 +1,60 @@
+{
+  "id": "0x0100008F00001D53",
+  "title": "COAST ORB / bluedoororb",
+  "description": "Conversation with PhysInt.",
+  "dialogueTree": [
+    {
+      "id": 6,
+      "title": "Physical Instrument: \"There's no way the perp is in here,...\"",
+      "articyId": "0x0100008900001A43",
+      "text": "There's no way the perp is in here, officer. Look how scarred the boards are -- all attempts to pry them off have failed.",
+      "links": [
+        {
+          "id": 2,
+          "title": "You: \"Can *I* try to get in though?\"",
+          "articyId": "0x01000004000164C1",
+          "text": "Can *I* try to get in though?",
+          "links": [
+            {
+              "id": 8,
+              "title": "Physical Instrument: \"Not this time. The opposition is in...\"",
+              "articyId": "0x01000004000164C8",
+              "text": "Not this time. The opposition is insurmountable. But I like the spirit -- have some *points*! It's lonely and cold without points.",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "Inland Empire: \"And dangerous. Dangerous too.\"",
+                  "articyId": "0x0100000600014A30",
+                  "text": "And dangerous. Dangerous too.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"\"Kim, you think she's in there?\" (P...\"",
+          "articyId": "0x0100000600014A10",
+          "text": "\"Kim, you think she's in there?\" (Point at the boarded up building.)",
+          "links": [
+            {
+              "id": 3,
+              "title": "Kim Kitsuragi: \"\"The suspect? God, I hope not -- I...\"",
+              "articyId": "0x0100000600014A17",
+              "text": "\"The suspect? God, I hope not -- I can't see a way in...\" He inspects the bars. \"Though many have tried.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"Nothing more to do here then. [Fini...\"",
+          "articyId": "0x0100008F00002529",
+          "text": "Nothing more to do here then. [Finish thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

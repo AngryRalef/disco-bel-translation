@@ -1,0 +1,338 @@
+{
+  "id": "0x0100002F000114B6",
+  "title": "HQ / EXIT BULLET difficult",
+  "description": "The bullet you find in the shack, hinting that someone else has been staying here. Secretly.",
+  "dialogueTree": [
+    {
+      "id": 13,
+      "title": "Loose Floorboard: \"As you look at the floorboards in t...\"",
+      "articyId": "0x0100005A0000DB07",
+      "text": "As you look at the floorboards in this corner of the shack, it's clear one of them isn't quite level with the others.",
+      "links": [
+        {
+          "id": 52,
+          "title": "Visual Calculus: \"The edge of a floorboard next to it...\"",
+          "articyId": "0x010000160000A438",
+          "text": "The edge of a floorboard next to it looks scratched.",
+          "links": [
+            {
+              "id": 51,
+              "title": "Kim Kitsuragi: \"\"See anything interesting?\"\"",
+              "articyId": "0x010000160000A429",
+              "text": "\"See anything interesting?\"",
+              "links": []
+            },
+            {
+              "id": 8,
+              "title": "You: \"\"Possibly.\"\"",
+              "articyId": "0x01000016000091B6",
+              "text": "\"Possibly.\"",
+              "links": [
+                {
+                  "id": 59,
+                  "title": "Kim Kitsuragi: \"The lieutenant nods.\"",
+                  "articyId": "0x010000160000A430",
+                  "text": "The lieutenant nods.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 43,
+              "title": "You: \"Move the board aside.\"",
+              "articyId": "0x0100005A0000DB02",
+              "text": "Move the board aside.",
+              "links": [
+                {
+                  "id": 33,
+                  "title": "Loose Floorboard: \"The hollow space underneath the flo...\"",
+                  "articyId": "0x0100005A0000E02C",
+                  "text": "The hollow space underneath the floorboards is dark and damp. You can barely make out the mixture of sand and sawdust below.",
+                  "links": [
+                    {
+                      "id": 68,
+                      "title": "You: \"What's in here?\"",
+                      "articyId": "0x0100005A0000E05B",
+                      "text": "What's in here?",
+                      "links": [
+                        {
+                          "id": 64,
+                          "title": "Loose Floorboard: \"Nothing particular catches your eye...\"",
+                          "articyId": "0x0100005A0000E062",
+                          "text": "Nothing particular catches your eye. Looks like more reeds. There might be something hidden inside the sand, though.",
+                          "links": [
+                            {
+                              "id": 67,
+                              "title": "Inland Empire: \"Something bad. Someone's night thou...\"",
+                              "articyId": "0x0100005A0000E069",
+                              "text": "Something bad. Someone's night thoughts. A last resort. A bad idea.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 30,
+                      "title": "You: \"Search through the sand and sawdust...\"",
+                      "articyId": "0x0100005A0000E03B",
+                      "text": "Search through the sand and sawdust.",
+                      "links": [
+                        {
+                          "id": 54,
+                          "title": "Loose Floorboard: \"You stick your hand in and start co...\"",
+                          "articyId": "0x0100005A0000E031",
+                          "text": "You stick your hand in and start combing through the sand. Dry, not like outside. Fine dust... and then -- something hard, wrapped in paper.",
+                          "links": [
+                            {
+                              "id": 6,
+                              "title": "You: \"What is it?\"",
+                              "articyId": "0x010000160000A44A",
+                              "text": "What is it?",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Loose Floorboard: \"A small cylindrical object. You pul...\"",
+                                  "articyId": "0x0100005A0000E07D",
+                                  "text": "A small cylindrical object. You pull it out -- a bullet.",
+                                  "links": [
+                                    {
+                                      "id": 58,
+                                      "title": "Encyclopedia: \"A 9mm bullet to be exact. Fit for a...\"",
+                                      "articyId": "0x0100005A0000E084",
+                                      "text": "A 9mm bullet to be exact. Fit for all muzzleloaders of that calibre, like your own Villiers pistol, for example.",
+                                      "links": [
+                                        {
+                                          "id": 44,
+                                          "title": "You: \"\"Look, a bullet! Not for a breechlo...\"",
+                                          "articyId": "0x010000160000A466",
+                                          "text": "\"Look, a bullet! Not for a breechloader, though...\"",
+                                          "links": [
+                                            {
+                                              "id": 41,
+                                              "title": "Kim Kitsuragi: \"The lieutenant studies the bullet i...\"",
+                                              "articyId": "0x010000160000A483",
+                                              "text": "The lieutenant studies the bullet in your hand. \"Still, interesting.\"",
+                                              "links": [
+                                                {
+                                                  "id": 3,
+                                                  "title": "You: \"\"What do you think it's doing here?\"\"",
+                                                  "articyId": "0x010000160000A491",
+                                                  "text": "\"What do you think it's doing here?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 37,
+                                                      "title": "Kim Kitsuragi: \"\"Someone hid it as extra ammunition?\"\"",
+                                                      "articyId": "0x010000160000A499",
+                                                      "text": "\"Someone hid it as extra ammunition?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 42,
+                                                          "title": "You: \"\"Ruby?\"\"",
+                                                          "articyId": "0x010000160000A4A0",
+                                                          "text": "\"Ruby?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 60,
+                                                              "title": "Kim Kitsuragi: \"\"I don't know, could be. The washer...\"",
+                                                              "articyId": "0x010000160000A4A7",
+                                                              "text": "\"I don't know, could be. The washerwoman was clearly withholding something -- and she *does* rent this place out to people.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 9,
+                                                                  "title": "Empathy: \"Holding the bullet, you get the fee...\"",
+                                                                  "articyId": "0x010000160000A4DF",
+                                                                  "text": "Holding the bullet, you get the feeling -- this isn't ammunition against you. It's for herself.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 32,
+                                                                      "title": "You: \"Seems to me like someone is armed a...\"",
+                                                                      "articyId": "0x010000160000A4F5",
+                                                                      "text": "Seems to me like someone is armed and waiting for us.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 17,
+                                                                          "title": "Empathy: \"Think what you want, but, in your g...\"",
+                                                                          "articyId": "0x0100000200005AF6",
+                                                                          "text": "Think what you want, but, in your gut, you know otherwise.",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 10,
+                                                                      "title": "You: \"\"I think this is a last resort -- a...\"",
+                                                                      "articyId": "0x010000160000A501",
+                                                                      "text": "\"I think this is a last resort -- a bullet in case suicide becomes an option.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 4,
+                                                                          "title": "Kim Kitsuragi: \"\"That's a big leap, but from what I...\"",
+                                                                          "articyId": "0x0100000200005B0A",
+                                                                          "text": "\"That's a big leap, but from what I've heard, this Ruby sounds pretty desperate. Either way,\" he looks at the bullet again, \"this is enough to confront the washerwoman.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 29,
+                                                                      "title": "You: \"\"Kim, I think this is extra ammunit...\"",
+                                                                      "articyId": "0x010000160000A4FB",
+                                                                      "text": "\"Kim, I think this is extra ammunition against us.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 50,
+                                                                          "title": "Kim Kitsuragi: \"\"That's something of a leap -- but...\"",
+                                                                          "articyId": "0x0100000200005B10",
+                                                                          "text": "\"That's something of a leap -- but we should be on our guard. Either way,\" he looks at the bullet again, \"this is enough to confront the washerwoman.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 12,
+                                                                      "title": "Kim Kitsuragi: \"\"Either way,\" he looks at the bulle...\"",
+                                                                      "articyId": "0x0100000200005B02",
+                                                                      "text": "\"Either way,\" he looks at the bullet again, \"this is enough to confront her with.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 57,
+                                                                          "title": "You: \"\"Let's go, then.\" [Leave.]\"",
+                                                                          "articyId": "0x010000160000A4AE",
+                                                                          "text": "\"Let's go, then.\" [Leave.]",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 45,
+                                          "title": "You: \"\"Lieutenant, a bullet!\"\"",
+                                          "articyId": "0x010000160000A46C",
+                                          "text": "\"Lieutenant, a bullet!\"",
+                                          "links": [
+                                            {
+                                              "id": 31,
+                                              "title": "Kim Kitsuragi: \"\"Yes, for muzzleloaders like the on...\"",
+                                              "articyId": "0x010000160000A48A",
+                                              "text": "\"Yes, for muzzleloaders like the ones officers of the RCM carry. Interesting.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 2,
+                                          "title": "You: \"This bullet isn't for a breechloade...\"",
+                                          "articyId": "0x010000160000A472",
+                                          "text": "This bullet isn't for a breechloader like the murder weapon?",
+                                          "links": [
+                                            {
+                                              "id": 18,
+                                              "title": "Loose Floorboard: \"The floorboard isn't interested --...\"",
+                                              "articyId": "0x010000160000A4B8",
+                                              "text": "The floorboard isn't interested -- maybe the Washerwoman is? You have enough to confront her with.",
+                                              "links": [
+                                                {
+                                                  "id": 23,
+                                                  "title": "Hand/Eye Coordination: \"It's extra ammunition. She's locked...\"",
+                                                  "articyId": "0x010000160000A4C6",
+                                                  "text": "It's extra ammunition. She's locked and loaded, ready to fight some cops.",
+                                                  "links": [
+                                                    {
+                                                      "id": 24,
+                                                      "title": "Empathy: \"Holding the bullet, you get the fee...\"",
+                                                      "articyId": "0x010000160000AA7E",
+                                                      "text": "Holding the bullet, you get the feeling -- this isn't ammunition against *you*. It's for herself.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 56,
+                                          "title": "You: \"A bullet, interesting.\"",
+                                          "articyId": "0x010000160000A478",
+                                          "text": "A bullet, interesting.",
+                                          "links": [
+                                            {
+                                              "id": 25,
+                                              "title": "Loose Floorboard: \"The floorboard doesn't care -- but...\"",
+                                              "articyId": "0x010000160000A4BE",
+                                              "text": "The floorboard doesn't care -- but maybe the Washerwoman does? You have enough to confront her with.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 19,
+                                      "title": "Encyclopedia: \"A 9mm bullet to be exact. Fit for a...\"",
+                                      "articyId": "0x0100005A0000E092",
+                                      "text": "A 9mm bullet to be exact. Fit for all muzzleloaders of that calibre.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 48,
+                      "title": "You: \"Oh, I don't want to stick my hand i...\"",
+                      "articyId": "0x0100005A0000E041",
+                      "text": "Oh, I don't want to stick my hand in there. [Leave.]",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Loose Floorboard: \"You return the board to its origina...\"",
+                          "articyId": "0x0100005A0000E036",
+                          "text": "You return the board to its original position.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 55,
+              "title": "You: \"It's nothing. [Leave.]\"",
+              "articyId": "0x0100005A0000E049",
+              "text": "It's nothing. [Leave.]",
+              "links": [
+                {
+                  "id": 66,
+                  "title": "Loose Floorboard: \"In time, dust will settle upon the...\"",
+                  "articyId": "0x0100005A0000E050",
+                  "text": "In time, dust will settle upon the wooden boards, covering up all tracks.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

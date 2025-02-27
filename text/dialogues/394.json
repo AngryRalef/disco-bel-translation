@@ -1,0 +1,561 @@
+{
+  "id": "0x010000580001B4F0",
+  "title": "GARYS APARTMENT / DOOR",
+  "description": "You can open this door when you get the key from Manana.",
+  "dialogueTree": [
+    {
+      "id": 81,
+      "title": "Door, Basement Apartment: \"The door is closed again. Nothing t...\"",
+      "articyId": "0x0100002100003443",
+      "text": "The door is closed again. Nothing to do here anymore.",
+      "links": [
+        {
+          "id": 37,
+          "title": "Perception (Hearing): \"You hear someone inside, walking fr...\"",
+          "articyId": "0x010000210000344F",
+          "text": "You hear someone inside, walking from room to room... whoever lives here must be back home.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Door, Basement Apartment: \"The door has braved the elements fo...\"",
+      "articyId": "0x0100000700015493",
+      "text": "The door has braved the elements for decades. The copper nails holding the upholstery in place have turned green from sea air and so is the knocker, shaped like a lion's head.",
+      "links": [
+        {
+          "id": 67,
+          "title": "Endurance: \"The Royal Lion. Guillaume's Kitten....\"",
+          "articyId": "0x010000070001548D",
+          "text": "The Royal Lion. Guillaume's Kitten. This knocker will last a lifetime and then some.",
+          "links": [
+            {
+              "id": 104,
+              "title": "You: \"\"I know you're in there!\"\"",
+              "articyId": "0x0100000700019401",
+              "text": "\"I know you're in there!\"",
+              "links": [
+                {
+                  "id": 105,
+                  "title": "Kim Kitsuragi: \"\"That already defeats the point, do...\"",
+                  "articyId": "0x0100000700019408",
+                  "text": "\"That already defeats the point, doesn't it?\" The lieutenant glances at the surrounding windows. \"Let's get out of here.\"",
+                  "links": []
+                },
+                {
+                  "id": 65,
+                  "title": "Door, Basement Apartment: \"No answer.\"",
+                  "articyId": "0x0100000700019415",
+                  "text": "No answer.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "title": "You: \"Press your ear against the door.\"",
+              "articyId": "0x01000007000154A3",
+              "text": "Press your ear against the door.",
+              "links": [
+                {
+                  "id": 68,
+                  "title": "Door, Basement Apartment: \"Not a sound. The silence is eerie.\"",
+                  "articyId": "0x01000007000154CA",
+                  "text": "Not a sound. The silence is eerie.",
+                  "links": [
+                    {
+                      "id": 155,
+                      "title": "Inland Empire: \"Even the darkness is holding it's b...\"",
+                      "articyId": "0x01000007000154DE",
+                      "text": "Even the darkness is holding it's breath inside the apartment.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "Door, Basement Apartment: \"Someone is moving around in the apa...\"",
+                  "articyId": "0x01000007000154C4",
+                  "text": "Someone is moving around in the apartment. You hear the water being turned off and the sound of dishes clinking together.",
+                  "links": [
+                    {
+                      "id": 142,
+                      "title": "Logic: \"The tenant must be cleaning up. Tha...\"",
+                      "articyId": "0x01000007000154D2",
+                      "text": "The tenant must be cleaning up. That means you're too late. Nothing more to do here, better report back to Evrart.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 154,
+              "title": "You: \"Knock on the door.\"",
+              "articyId": "0x01000007000154A9",
+              "text": "Knock on the door.",
+              "links": [
+                {
+                  "id": 168,
+                  "title": "Door, Basement Apartment: \"No answer.\"",
+                  "articyId": "0x01000007000193F6",
+                  "text": "No answer.",
+                  "links": []
+                },
+                {
+                  "id": 143,
+                  "title": "Door, Basement Apartment: \"Something hits the ground and shatt...\"",
+                  "articyId": "0x01000007000154E6",
+                  "text": "Something hits the ground and shatters inside the apartment.",
+                  "links": [
+                    {
+                      "id": 63,
+                      "title": "Perception (Hearing): \"A plate, glass or a mug.\"",
+                      "articyId": "0x01000007000154ED",
+                      "text": "A plate, glass or a mug.",
+                      "links": [
+                        {
+                          "id": 167,
+                          "title": "Door, Basement Apartment: \"Then a running tap is turned off an...\"",
+                          "articyId": "0x01000007000154FA",
+                          "text": "Then a running tap is turned off and the complete absence of sounds feels... tense.",
+                          "links": [
+                            {
+                              "id": 144,
+                              "title": "Logic: \"You're too late -- the weasel's alr...\"",
+                              "articyId": "0x0100000700019442",
+                              "text": "You're too late -- the weasel's already back in its den. Let's see what Evrart thinks about it.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 58,
+              "title": "You: \"Use Mañana's key to unlock the door...\"",
+              "articyId": "0x01000007000154B6",
+              "text": "Use Mañana's key to unlock the door.",
+              "links": [
+                {
+                  "id": 113,
+                  "title": "Door, Basement Apartment: \"The key stops mid-way in the lock....\"",
+                  "articyId": "0x0100000700015523",
+                  "text": "The key stops mid-way in the lock. Something's blocking its path. Not a sound is coming from the apartment.",
+                  "links": [
+                    {
+                      "id": 64,
+                      "title": "Interfacing: \"The tenant's key is in the lock.\"",
+                      "articyId": "0x0100000700015517",
+                      "text": "The tenant's key is in the lock.",
+                      "links": [
+                        {
+                          "id": 106,
+                          "title": "Kim Kitsuragi: \"The lieutenant looks first at the d...\"",
+                          "articyId": "0x010000210000342D",
+                          "text": "The lieutenant looks first at the door, then back at you, then signals you to back off from the door.",
+                          "links": []
+                        },
+                        {
+                          "id": 160,
+                          "title": "Half Light: \"You should leave. Leave! Before any...\"",
+                          "articyId": "0x0100002100003436",
+                          "text": "You should leave. Leave! Before anything happens...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 30,
+                  "title": "Door, Basement Apartment: \"The key stops mid-way in the lock....\"",
+                  "articyId": "0x0100000700015508",
+                  "text": "The key stops mid-way in the lock. Something's blocking its path. You hear a dish smashing and shattering inside the apartment, then everything falls very silent.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 103,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x01000007000154B0",
+              "text": "[Leave.]",
+              "links": [
+                {
+                  "id": 145,
+                  "title": "Door, Basement Apartment: \"As you turn to leave, you hear foot...\"",
+                  "articyId": "0x01000021000033FD",
+                  "text": "As you turn to leave, you hear footsteps on the other side -- yes, someone's definitely home.",
+                  "links": [
+                    {
+                      "id": 114,
+                      "title": "Kim Kitsuragi: \"\"We should leave,\" the lieutenant w...\"",
+                      "articyId": "0x0100002100003407",
+                      "text": "\"We should leave,\" the lieutenant whispers, \"and go talk with Evrart, tell him what happened -- that we couldn't open the door. Maybe there's a workaround.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 159,
+                      "title": "Logic: \"Maybe it's a good thing you didn't...\"",
+                      "articyId": "0x0100002100003410",
+                      "text": "Maybe it's a good thing you didn't get to open this stranger's door? Go talk with Evrart, tell him what happened.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 110,
+              "title": "Kim Kitsuragi: \"\"That's probably the door Evrart me...\"",
+              "articyId": "0x0100004000002E0F",
+              "text": "\"That's probably the door Evrart mentioned. We still need to get the key from this Mañana first though.\"",
+              "links": []
+            },
+            {
+              "id": 51,
+              "title": "Door, Basement Apartment: \"This must be the door Evrart mentio...\"",
+              "articyId": "0x0100004000002E06",
+              "text": "This must be the door Evrart mentioned. You still need to get the key from Mañana first though.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Door, Basement Apartment: \"The door to the 'Weasel's' Den', gu...\"",
+      "articyId": "0x0100000700012FDE",
+      "text": "The door to the 'Weasel's' Den', guarded by the lionhead-knocker. Both have seen better days.",
+      "links": [
+        {
+          "id": 44,
+          "title": "You: \"Carefully knock.\"",
+          "articyId": "0x010000580001B517",
+          "text": "Carefully knock.",
+          "links": [
+            {
+              "id": 134,
+              "title": "Door, Basement Apartment: \"You knock silently. The upholstery...\"",
+              "articyId": "0x010000580001B532",
+              "text": "You knock silently. The upholstery muffles the sound. No response comes from the apartment.",
+              "links": [
+                {
+                  "id": 163,
+                  "title": "Kim Kitsuragi: \"\"I guess no one is in.\" The lieuten...\"",
+                  "articyId": "0x010000820002168F",
+                  "text": "\"I guess no one is in.\" The lieutenant looks uncomfortable.",
+                  "links": []
+                },
+                {
+                  "id": 118,
+                  "title": "Inland Empire: \"You feel eyes on you, watching you...\"",
+                  "articyId": "0x01000007000009F5",
+                  "text": "You feel eyes on you, watching you from the windows overlooking the yard.",
+                  "links": [
+                    {
+                      "id": 86,
+                      "title": "Savoir Faire: \"You're *pretty* sure the owner of t...\"",
+                      "articyId": "0x010000060001B5A3",
+                      "text": "You're *pretty* sure the owner of the apartment isn't here. It's safe-ish.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 115,
+          "title": "You: \"Press your ear against the door.\"",
+          "articyId": "0x010000580001B53D",
+          "text": "Press your ear against the door.",
+          "links": [
+            {
+              "id": 91,
+              "title": "Door, Basement Apartment: \"The door is slick with rain. You do...\"",
+              "articyId": "0x010000580001B54A",
+              "text": "The door is slick with rain. You don't hear any movement inside.",
+              "links": [
+                {
+                  "id": 55,
+                  "title": "Perception (Hearing): \"In fact, it's oddly silent in the y...\"",
+                  "articyId": "0x010000060001B5AE",
+                  "text": "In fact, it's oddly silent in the yard around you. No birds chirp.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 116,
+              "title": "Door, Basement Apartment: \"The leather upholstery is worn and...\"",
+              "articyId": "0x010000580001B550",
+              "text": "The leather upholstery is worn and rough against your jaw. You don't hear any movement.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 129,
+          "title": "You: \"\"Lieutenant, what is your opinion o...\"",
+          "articyId": "0x010000820002169E",
+          "text": "\"Lieutenant, what is your opinion of this task we're undertaking?\"",
+          "links": [
+            {
+              "id": 147,
+              "title": "Kim Kitsuragi: \"\"As I already said,\" the lieutenant...\"",
+              "articyId": "0x01000082000216AE",
+              "text": "\"As I already said,\" the lieutenant replies, adjusting his glasses. \"I understand this can't be avoided.\"",
+              "links": [
+                {
+                  "id": 111,
+                  "title": "You: \"\"So you don't mind if I unlock the...\"",
+                  "articyId": "0x01000082000216D9",
+                  "text": "\"So you don't mind if I unlock the door?\"",
+                  "links": [
+                    {
+                      "id": 148,
+                      "title": "Kim Kitsuragi: \"\"If the merc tribunal happens befor...\"",
+                      "articyId": "0x01000082000216E8",
+                      "text": "\"If the merc tribunal happens before we solve this...\" His eyes meet yours. \"We're looking at casualties. What's one unlocked door compared to that?\"",
+                      "links": [
+                        {
+                          "id": 131,
+                          "title": "Kim Kitsuragi: \"\"On the other hand...\" He looks at...\"",
+                          "articyId": "0x01000082000216F6",
+                          "text": "\"On the other hand...\" He looks at the surrounding windows uncomfortably. \"We *could* just leave and tell Evrart we opened the door. No one seems to be tailing us to see if we actually did it.\"",
+                          "links": [
+                            {
+                              "id": 149,
+                              "title": "You: \"\"Lie to Evrart? That's also an opti...\"",
+                              "articyId": "0x01000007000009FD",
+                              "text": "\"Lie to Evrart? That's also an option?\"",
+                              "links": [
+                                {
+                                  "id": 74,
+                                  "title": "Kim Kitsuragi: \"\"Yes, presenting a fabrication is k...\"",
+                                  "articyId": "0x0100000700000A04",
+                                  "text": "\"Yes, presenting a fabrication is known to get results here and there.\" He crosses his arms. \"You took this task. You make the call.\"",
+                                  "links": [
+                                    {
+                                      "id": 56,
+                                      "title": "Interfacing: \"The door is right here. You can jus...\"",
+                                      "articyId": "0x0100000700000A0B",
+                                      "text": "The door is right here. You can just open it and be done with this.",
+                                      "links": [
+                                        {
+                                          "id": 94,
+                                          "title": "Inland Empire: \"Besides, if you never open it, you'...\"",
+                                          "articyId": "0x0100000700000A19",
+                                          "text": "Besides, if you never open it, you're never gonna find out, what's *behind* the door.",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 93,
+                                          "title": "Drama: \"I don't know... you're a *pretty* g...\"",
+                                          "articyId": "0x010000060001B5B7",
+                                          "text": "I don't know... you're a *pretty* good liar. Are you as good an *infiltrator* as you are a liar?",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "title": "Kim Kitsuragi: \"\"It is,\" the lieutenant remarks. \"H...\"",
+                                  "articyId": "0x0100000700012FAF",
+                                  "text": "\"It is,\" the lieutenant remarks. \"However, we should definitely get the key from this 'Mañana' Evrart mentioned. That would drastically increase our credibility.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 139,
+                      "title": "Kim Kitsuragi: \"\"I mind that a local thug is using...\"",
+                      "articyId": "0x01000082000216EF",
+                      "text": "\"I mind that a local thug is using the RCM for his busywork, but if this gets us to the bottom of this hanging then I'm willing to look over it.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 135,
+                  "title": "You: \"\"Got it!\"\"",
+                  "articyId": "0x01000082000216E0",
+                  "text": "\"Got it!\"",
+                  "links": [
+                    {
+                      "id": 25,
+                      "title": "Kim Kitsuragi: \"The lieutenant merely nods in respo...\"",
+                      "articyId": "0x0100000700012F77",
+                      "text": "The lieutenant merely nods in response.",
+                      "links": []
+                    },
+                    {
+                      "id": 150,
+                      "title": "Kim Kitsuragi: \"\"But we do need to get the key from...\"",
+                      "articyId": "0x0100000700012F6E",
+                      "text": "\"But we do need to get the key from this 'Mañana' Evrart mentioned.\" The lieutenant glances at the door. \"Cause we are *not* gonna break the lock.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 62,
+              "title": "Kim Kitsuragi: \"\"Let's be honest, this isn't what I...\"",
+              "articyId": "0x01000082000216B3",
+              "text": "\"Let's be honest, this isn't what I joined the RCM for. But -- every day tells you something new about yourself...\" the lieutenant replies, still inspecting the padded door.",
+              "links": [
+                {
+                  "id": 85,
+                  "title": "Kim Kitsuragi: \"\"Apparently, working with the local...\"",
+                  "articyId": "0x01000082000216BC",
+                  "text": "\"Apparently, working with the local Union boss to get info on an investigation is not something I'm squeamish about.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "You: \"Use Mañana's key to unlock the door...\"",
+          "articyId": "0x010000580001B523",
+          "text": "Use Mañana's key to unlock the door.",
+          "links": [
+            {
+              "id": 141,
+              "title": "Door, Basement Apartment: \"You try to be as silent as you can....\"",
+              "articyId": "0x0100000700000A22",
+              "text": "You try to be as silent as you can. It takes a bit of rattling of the handle to loosen the bolt.",
+              "links": [
+                {
+                  "id": 66,
+                  "title": "Door, Basement Apartment: \"Finally, the door unlocks with a sm...\"",
+                  "articyId": "0x010000580001B570",
+                  "text": "Finally, the door unlocks with a small clack. Thoughts race through your head...",
+                  "links": [
+                    {
+                      "id": 162,
+                      "title": "Perception (Hearing): \"The sound of the key turning still...\"",
+                      "articyId": "0x010000580001B582",
+                      "text": "The sound of the key turning still echoes in the yard. Hopefully no one heard.",
+                      "links": [
+                        {
+                          "id": 73,
+                          "title": "Suggestion: \"Well buddy, you opened it. No need...\"",
+                          "articyId": "0x0100008200021732",
+                          "text": "Well buddy, you opened it. No need to go inside. It would be *rude*.",
+                          "links": [
+                            {
+                              "id": 17,
+                              "title": "Physical Instrument: \"Good job. Let's go now. I'm sure th...\"",
+                              "articyId": "0x0100008200021739",
+                              "text": "Good job. Let's go now. I'm sure there's *nothing* interesting in there.",
+                              "links": [
+                                {
+                                  "id": 39,
+                                  "title": "Interfacing: \"There's *nothing* else to do than l...\"",
+                                  "articyId": "0x0100008200021740",
+                                  "text": "There's *nothing* else to do than leave and tell Evrart. No *conceivable* reason for you to intrude on the premises.",
+                                  "links": [
+                                    {
+                                      "id": 24,
+                                      "title": "Inland Empire: \"Only *curiosity* could account for...\"",
+                                      "articyId": "0x0100000700000A48",
+                                      "text": "Only *curiosity* could account for stepping over that threshold. Maybe there's treasure in there? A white alligator? A fountain of quicksilver?",
+                                      "links": [
+                                        {
+                                          "id": 10,
+                                          "title": "Logic: \"There *might* be important informat...\"",
+                                          "articyId": "0x0100000700000A2A",
+                                          "text": "There *might* be important information in the apartment... I mean... there *might*...",
+                                          "links": [
+                                            {
+                                              "id": 54,
+                                              "title": "Shivers: \"As you hold the opened door you can...\"",
+                                              "articyId": "0x0100008200021747",
+                                              "text": "As you hold the opened door you can feel the air moving. A little draft. A whistle...",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 161,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000580001B529",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Door, Basement Apartment: \"The door to cryptofascist's shabby...\"",
+      "articyId": "0x0100006B00009D22",
+      "text": "The door to cryptofascist's shabby apartment. It has been locked again.",
+      "links": []
+    },
+    {
+      "id": 146,
+      "title": "Door, Basement Apartment: \"This must be it. The basement door...\"",
+      "articyId": "0x010000580001B502",
+      "text": "This must be it. The basement door is weather-worn. The copper nails holding the upholstery in place have turned green from sea air and there's a knocker, shaped like a lion's head.",
+      "links": [
+        {
+          "id": 117,
+          "title": "Endurance: \"The Royal Lion. Guillaume's Kitten....\"",
+          "articyId": "0x0100008200021B1C",
+          "text": "The Royal Lion. Guillaume's Kitten. This knocker will last a lifetime and then some.",
+          "links": [
+            {
+              "id": 38,
+              "title": "Kim Kitsuragi: \"\"That's probably the door Evrart me...\"",
+              "articyId": "0x0100004000002E28",
+              "text": "\"That's probably the door Evrart mentioned. We still need to get the key from this Mañana first though.\"",
+              "links": []
+            },
+            {
+              "id": 99,
+              "title": "Door, Basement Apartment: \"This must be the door Evrart mentio...\"",
+              "articyId": "0x0100004000002E1D",
+              "text": "This must be the door Evrart mentioned. You still need to get the key from Mañana first though.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

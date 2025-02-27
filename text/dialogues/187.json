@@ -1,0 +1,576 @@
+{
+  "id": "0x0100002F0000FB95",
+  "title": "APT / MAZOV BUST",
+  "description": "This is the bust of Kras Mazov. Finishes \"Find out if you're Kras Mazov\" task.",
+  "dialogueTree": [
+    {
+      "id": 18,
+      "title": "Bust of Kras Mazov: \"A plaster cast bust depicts a middl...\"",
+      "articyId": "0x0100002F0000FBA8",
+      "text": "A plaster cast bust depicts a middle-aged man with impressive sideburns. The name on the plinth reads 'Kras Mazov'.",
+      "links": [
+        {
+          "id": 31,
+          "title": "Visual Calculus: \"Honestly, he does kind of look like...\"",
+          "articyId": "0x0100005700021C23",
+          "text": "Honestly, he does kind of look like you after all.",
+          "links": []
+        },
+        {
+          "id": 10,
+          "title": "Encyclopedia: \"Kras Mazov (nom de guerre), was an...\"",
+          "articyId": "0x01000057000217A3",
+          "text": "Kras Mazov (nom de guerre), was an economist and theoretical historian. He was a leading figure on the Graad side of the Turn-of-the-Century Revolution, where he headed the Eleven Day Government. Mazov is considered the father of scientific communism (Mazovian thought or Mazovianism).",
+          "links": [
+            {
+              "id": 99,
+              "title": "You: \"\"Why does this tenant have a bust o...\"",
+              "articyId": "0x010000050000348B",
+              "text": "\"Why does this tenant have a bust of Kras Mazov in their bedroom?\"",
+              "links": [
+                {
+                  "id": 88,
+                  "title": "Kim Kitsuragi: \"\"The white star... the photos on th...\"",
+                  "articyId": "0x0100000500003491",
+                  "text": "\"The white star... the photos on the wall... I think we have broken into the apartment of a young communard.\" He looks around, before mumbling to himself: \"How fitting.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "You: \"\"Kim, you have to admit, this Kras...\"",
+              "articyId": "0x0100005700021794",
+              "text": "\"Kim, you have to admit, this Kras Mazov bears a striking resemblance to me.\"",
+              "links": [
+                {
+                  "id": 75,
+                  "title": "Kim Kitsuragi: \"\"Hold on a second... Is this why yo...\"",
+                  "articyId": "0x0100005700021C44",
+                  "text": "\"Hold on a second... Is this why you broke in here? To find out whether you're Kras Mazov?\"",
+                  "links": [
+                    {
+                      "id": 9,
+                      "title": "You: \"\"I have to consider and investigate...\"",
+                      "articyId": "0x0100005700021C4B",
+                      "text": "\"I have to consider and investigate all possibilities.\"",
+                      "links": [
+                        {
+                          "id": 39,
+                          "title": "Kim Kitsuragi: \"\"Except that Kras Mazov is dead. He...\"",
+                          "articyId": "0x0100005700021C6C",
+                          "text": "\"Except that Kras Mazov is dead. He's been dead for 50 years now.\"",
+                          "links": [
+                            {
+                              "id": 40,
+                              "title": "You: \"\"Just humour me for a moment... Don...\"",
+                              "articyId": "0x0100005700021C7B",
+                              "text": "\"Just humour me for a moment... Don't you see the resemblance?\"",
+                              "links": [
+                                {
+                                  "id": 51,
+                                  "title": "Kim Kitsuragi: \"\"Well, you both do seem to share an...\"",
+                                  "articyId": "0x0100005700021C65",
+                                  "text": "\"Well, you both do seem to share an affinity for sideburns. But it seems like old Kras here didn't drink nearly as much as you.\"",
+                                  "links": [
+                                    {
+                                      "id": 76,
+                                      "title": "You: \"\"How do you know? The bust is proba...\"",
+                                      "articyId": "0x0100005700021C97",
+                                      "text": "\"How do you know? The bust is probably just a romanticized depiction anyway.\"",
+                                      "links": [
+                                        {
+                                          "id": 94,
+                                          "title": "Kim Kitsuragi: \"\"Very well.\" The lieutenant leans c...\"",
+                                          "articyId": "0x0100005700021CAC",
+                                          "text": "\"Very well.\" The lieutenant leans closer to the sculpture. \"Let's look for identifying features then...\"",
+                                          "links": [
+                                            {
+                                              "id": 78,
+                                              "title": "Kim Kitsuragi: \"He puts a finger on a pale dot embe...\"",
+                                              "articyId": "0x0100005700021CB2",
+                                              "text": "He puts a finger on a pale dot embellishing the bust's cheekbone. \"Doesn't he have a birthmark right here? What about you?\"",
+                                              "links": [
+                                                {
+                                                  "id": 62,
+                                                  "title": "You: \"\"I can't tell -- I can't see my fac...\"",
+                                                  "articyId": "0x0100005700021CB9",
+                                                  "text": "\"I can't tell -- I can't see my face.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 41,
+                                                      "title": "Kim Kitsuragi: \"\"Alright. But here's the big thing...\"",
+                                                      "articyId": "0x0100005700021CD1",
+                                                      "text": "\"Alright. But here's the big thing -- Kras Mazov looks Samaran, and you don't.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 46,
+                                                          "title": "You: \"\"No, he doesn't.\"\"",
+                                                          "articyId": "0x0100005700021CE5",
+                                                          "text": "\"No, he doesn't.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 95,
+                                                              "title": "Kim Kitsuragi: \"\"Yes, he does. Look at his eyes. Wa...\"",
+                                                              "articyId": "0x0100005700021D15",
+                                                              "text": "\"Yes, he does. Look at his eyes. Wasn't his mother a Samaran immigrant?\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 102,
+                                                          "title": "You: \"\"I'm part Samaran myself.\"\"",
+                                                          "articyId": "0x0100005700021CEB",
+                                                          "text": "\"I'm part Samaran myself.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 63,
+                                                              "title": "Kim Kitsuragi: \"The lieutenant closes his eyes. \"Ok...\"",
+                                                              "articyId": "0x0100005700021CF2",
+                                                              "text": "The lieutenant closes his eyes. \"Okay, you win. Be Kras Mazov then, I don't care...\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 26,
+                                                                  "title": "Kim Kitsuragi: \"He opens his eyes again, tilting hi...\"",
+                                                                  "articyId": "0x0100005700021D0D",
+                                                                  "text": "He opens his eyes again, tilting his head in a quiet wonder. \"Why are you so hell-bent on proving that you're Kras Mazov anyway?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 43,
+                                                                      "title": "You: \"\"Because I'm a communard.\"\"",
+                                                                      "articyId": "0x0100005700021D56",
+                                                                      "text": "\"Because I'm a communard.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 53,
+                                                                          "title": "Kim Kitsuragi: \"\"Alright, *Kras*. You fought in the...\"",
+                                                                          "articyId": "0x0100006B0000A9BC",
+                                                                          "text": "\"Alright, *Kras*. You fought in the Revolution and everything,\" the lieutenant notes. \"If you say so.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 27,
+                                                                      "title": "You: \"\"Because I believe a powerful natio...\"",
+                                                                      "articyId": "0x0100005700021D5C",
+                                                                      "text": "\"Because I believe a powerful nation-state is the only way to protect the working class from subhumans.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 17,
+                                                                          "title": "Kim Kitsuragi: \"\"I think you have misunderstood who...\"",
+                                                                          "articyId": "0x0100000600014FB7",
+                                                                          "text": "\"I think you have misunderstood who he was, but...\" the lieutenant sighs. \"If you say so.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 5,
+                                                                      "title": "You: \"\"Because *actually* he wanted stabi...\"",
+                                                                      "articyId": "0x0100005700021D6B",
+                                                                      "text": "\"Because *actually* he wanted stability and incremental progress -- and so do I.\"",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 48,
+                                                                      "title": "You: \"\"Because he was totally a gangster...\"",
+                                                                      "articyId": "0x0100000600014FAF",
+                                                                      "text": "\"Because he was totally a gangster and a bank robber who went for *all* the cash in the world. That's *me*.\"",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 103,
+                                                                      "title": "You: \"\"I'm not sure, it's just a feeling...\"",
+                                                                      "articyId": "0x0100005700021D72",
+                                                                      "text": "\"I'm not sure, it's just a feeling I have. But I trust my feelings.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 98,
+                                                                          "title": "Kim Kitsuragi: \"\"Alright, *Kras*,\" the lieutenant n...\"",
+                                                                          "articyId": "0x0100005700021D79",
+                                                                          "text": "\"Alright, *Kras*,\" the lieutenant notes. \"If you say so.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 96,
+                                                          "title": "You: \"\"You're right, that's something we...\"",
+                                                          "articyId": "0x0100005700021D1E",
+                                                          "text": "\"You're right, that's something we definitely don't have in common.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 100,
+                                                              "title": "Kim Kitsuragi: \"\"Good, so you're not him.\"\"",
+                                                              "articyId": "0x0100005700021D27",
+                                                              "text": "\"Good, so you're not him.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 47,
+                                                                  "title": "You: \"\"I might not look like him, but I k...\"",
+                                                                  "articyId": "0x0100005700021D41",
+                                                                  "text": "\"I might not look like him, but I know it in my heart -- Kras Mazov, that's me.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 67,
+                                                  "title": "You: \"\"I definitely don't have a birthmar...\"",
+                                                  "articyId": "0x0100005700021CBF",
+                                                  "text": "\"I definitely don't have a birthmark on my left cheek.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 44,
+                                                      "title": "Kim Kitsuragi: \"\"Then it's settled,\" says the lieut...\"",
+                                                      "articyId": "0x0100005700021CC7",
+                                                      "text": "\"Then it's settled,\" says the lieutenant, straightening his back. \"You're not Kras Mazov.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 45,
+                                                          "title": "You: \"\"No, it's not settled -- I might st...\"",
+                                                          "articyId": "0x0100005700021CD7",
+                                                          "text": "\"No, it's not settled -- I might still be Kras Mazov. It's just a birthmark.\"",
+                                                          "links": []
+                                                        },
+                                                        {
+                                                          "id": 52,
+                                                          "title": "You: \"\"You're right, I'm really not.\"\"",
+                                                          "articyId": "0x0100005700021CDD",
+                                                          "text": "\"You're right, I'm really not.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 97,
+                                                              "title": "Kim Kitsuragi: \"\"It's decided -- you're *not* the m...\"",
+                                                              "articyId": "0x0100005700021D35",
+                                                              "text": "\"It's decided -- you're *not* the most famous philosopher of the modern period.\" The lieutenant nods, turning away to inspect the photo on the other wall.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 21,
+                                      "title": "You: \"\"Maybe this bust shows him *before*...\"",
+                                      "articyId": "0x0100005700021C9D",
+                                      "text": "\"Maybe this bust shows him *before* he started drinking.\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 16,
+                                      "title": "You: \"\"Yeah -- I have a problem. A proble...\"",
+                                      "articyId": "0x0100000600014F9E",
+                                      "text": "\"Yeah -- I have a problem. A problem with alcohol.\"",
+                                      "links": [
+                                        {
+                                          "id": 79,
+                                          "title": "Kim Kitsuragi: \"\"You do -- but that's not the point...\"",
+                                          "articyId": "0x0100000600014FA5",
+                                          "text": "\"You do -- but that's not the point. The point is, he doesn't look like you.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 92,
+                              "title": "You: \"\"You're right, this is silly -- I'm...\"",
+                              "articyId": "0x0100005700021C80",
+                              "text": "\"You're right, this is silly -- I'm no Kras Mazov.\"",
+                              "links": [
+                                {
+                                  "id": 93,
+                                  "title": "Kim Kitsuragi: \"The lieutenant doesn't even bother...\"",
+                                  "articyId": "0x0100005700021C88",
+                                  "text": "The lieutenant doesn't even bother to reply to this.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 87,
+                      "title": "You: \"\"No, it's purely coincidental.\"\"",
+                      "articyId": "0x0100005700021C51",
+                      "text": "\"No, it's purely coincidental.\"",
+                      "links": [
+                        {
+                          "id": 13,
+                          "title": "Kim Kitsuragi: \"\"Sure it is.\"\"",
+                          "articyId": "0x0100005700021C5F",
+                          "text": "\"Sure it is.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 80,
+                      "title": "You: \"\"I'm not saying that I *am* Kras Ma...\"",
+                      "articyId": "0x0100005700021C58",
+                      "text": "\"I'm not saying that I *am* Kras Mazov, I'm just saying that we look alike.\"",
+                      "links": [
+                        {
+                          "id": 66,
+                          "title": "Kim Kitsuragi: \"\"Sure you are.\"\"",
+                          "articyId": "0x0100005700021CA3",
+                          "text": "\"Sure you are.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 49,
+              "title": "You: \"\"Kim, who is this Kras Mazov?\"\"",
+              "articyId": "0x010000570002175C",
+              "text": "\"Kim, who is this Kras Mazov?\"",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Kim Kitsuragi: \"\"He's known as the father of scient...\"",
+                  "articyId": "0x01000057000217D3",
+                  "text": "\"He's known as the father of scientific communism, also known as Mazovianism. His theories about economic history greatly influenced -- some would even say *sparked* -- the Antecentennial Revolution.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "title": "You: \"\"Father Mazov, the hero of the work...\"",
+              "articyId": "0x010000570002178A",
+              "text": "\"Father Mazov, the hero of the working class!\" (Salute the statue.)",
+              "links": [
+                {
+                  "id": 91,
+                  "title": "Kim Kitsuragi: \"\"Whoever lives here definitely shar...\"",
+                  "articyId": "0x0100005700021862",
+                  "text": "\"Whoever lives here definitely shares your enthusiasm.\" He leans closer to inspect the photos of revolutionaries on the wall.",
+                  "links": [
+                    {
+                      "id": 30,
+                      "title": "Kim Kitsuragi: \"\"There aren't many communists aroun...\"",
+                      "articyId": "0x010000060001B9EE",
+                      "text": "\"There aren't many communists around -- not after the Revolution. Some youths still keep the ideology going, it seems.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 71,
+              "title": "You: \"\"Whoever lives here needs to learn...\"",
+              "articyId": "0x010000570002178F",
+              "text": "\"Whoever lives here needs to learn how the economy *actually* works.\"",
+              "links": [
+                {
+                  "id": 35,
+                  "title": "Kim Kitsuragi: \"\"I suspect that's exactly what they...\"",
+                  "articyId": "0x0100005700021868",
+                  "text": "\"I suspect that's exactly what they're trying to do.\" He leans closer to inspect the economics book on the table.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 84,
+              "title": "You: \"\"Kras Mazov was a mass murderer. Th...\"",
+              "articyId": "0x01000057000217AD",
+              "text": "\"Kras Mazov was a mass murderer. There's nothing *cool* about keeping his bust on your night stand.\"",
+              "links": [
+                {
+                  "id": 65,
+                  "title": "Kim Kitsuragi: \"\"He was definitely controversial. T...\"",
+                  "articyId": "0x010000570002186F",
+                  "text": "\"He was definitely controversial. The tenant here seems to like him...\" He leans closer to inspect the photos of revolutionaries on the wall.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 33,
+              "title": "You: \"\"Kras Mazov was a sexual deviant. A...\"",
+              "articyId": "0x01000057000217B3",
+              "text": "\"Kras Mazov was a sexual deviant. A zoophile probably.\"",
+              "links": [
+                {
+                  "id": 86,
+                  "title": "Kim Kitsuragi: \"The lieutenant raises a brow.\"",
+                  "articyId": "0x0100005700021847",
+                  "text": "The lieutenant raises a brow.",
+                  "links": [
+                    {
+                      "id": 24,
+                      "title": "You: \"\"I hate deviants.\"\"",
+                      "articyId": "0x010000570002184E",
+                      "text": "\"I hate deviants.\"",
+                      "links": [
+                        {
+                          "id": 12,
+                          "title": "Kim Kitsuragi: \"\"Thank you for sharing this wonderf...\"",
+                          "articyId": "0x010000570002187B",
+                          "text": "\"Thank you for sharing this wonderful opinion on human sexuality.\" He pretends to read the economics book open on the table.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "title": "You: \"\"That's right.\" (Nod.) \"Filthy.\"\"",
+                      "articyId": "0x01000007000151A3",
+                      "text": "\"That's right.\" (Nod.) \"Filthy.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 64,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x0100002F0000FE0D",
+              "text": "[Leave.]",
+              "links": []
+            },
+            {
+              "id": 3,
+              "title": "You: \"Who is Kras Mazov?\"",
+              "articyId": "0x01000057000217BA",
+              "text": "Who is Kras Mazov?",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "Bust of Kras Mazov: \"Situated between a poster of a whit...\"",
+                  "articyId": "0x010000570002182A",
+                  "text": "Situated between a poster of a white star and a photo of revolutionaries posing with their guns... This can't be a coincidence. There can be only one explanation.",
+                  "links": [
+                    {
+                      "id": 23,
+                      "title": "Bust of Kras Mazov: \"Kras Mazov is a *communard*.\"",
+                      "articyId": "0x0100005700021831",
+                      "text": "Kras Mazov is a *communard*.",
+                      "links": [
+                        {
+                          "id": 34,
+                          "title": "Encyclopedia: \"Yes, Kras Mazov (nom de guerre), wa...\"",
+                          "articyId": "0x0100005700021838",
+                          "text": "Yes, Kras Mazov (nom de guerre), was an economist and theoretical historian. He was a leading figure on the Graad side of the Turn-of-the-Century Revolution, where he headed the Eleven Day Government. Mazov is considered the father of scientific communism (Mazovian thought or Mazovianism).",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 8,
+                  "title": "Bust of Kras Mazov: \"Seems like a good guy judging by th...\"",
+                  "articyId": "0x01000057000217CD",
+                  "text": "Seems like a good guy judging by the moustache. By the way... doesn't he kind of look like *you*?",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 77,
+              "title": "You: \"\"A communard lives in this room.\" (...\"",
+              "articyId": "0x010000050000362C",
+              "text": "\"A communard lives in this room.\" (Look around.)",
+              "links": [
+                {
+                  "id": 55,
+                  "title": "Bust of Kras Mazov: \"A *poor* communard, from the looks...\"",
+                  "articyId": "0x0100000500003633",
+                  "text": "A *poor* communard, from the looks of it. The room is barely bigger than a closet.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 85,
+              "title": "You: \"\"Father Mazov, the hero of the work...\"",
+              "articyId": "0x01000005000035EE",
+              "text": "\"Father Mazov, the hero of the working class!\" (Salute the statue.)",
+              "links": [
+                {
+                  "id": 90,
+                  "title": "Bust of Kras Mazov: \"A warm feeling fills you as you loo...\"",
+                  "articyId": "0x010000050000360A",
+                  "text": "A warm feeling fills you as you look into Mazov's marble eyes. The hallway behind the door is empty; no one else heard your courageous salute.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "title": "You: \"\"Whoever lives here needs to learn...\"",
+              "articyId": "0x01000005000035F4",
+              "text": "\"Whoever lives here needs to learn how the economy *actually* works.\" (Stare at the bust.)",
+              "links": [
+                {
+                  "id": 29,
+                  "title": "Bust of Kras Mazov: \"The bust doesn't reply. The hallway...\"",
+                  "articyId": "0x0100000500003610",
+                  "text": "The bust doesn't reply. The hallway behind the door is empty; no one heard your words.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 54,
+              "title": "You: \"\"Kras Mazov was a mass murderer. Th...\"",
+              "articyId": "0x01000005000035FA",
+              "text": "\"Kras Mazov was a mass murderer. There's nothing *cool* about keeping his bust on your night stand.\" (Stare at the bust.)",
+              "links": []
+            },
+            {
+              "id": 15,
+              "title": "You: \"\"Kras Mazov was a filthy homo-sexua...\"",
+              "articyId": "0x0100000500003600",
+              "text": "\"Kras Mazov was a filthy homo-sexual.\" (Stare at the bust.)",
+              "links": []
+            },
+            {
+              "id": 89,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x01000005000035E6",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

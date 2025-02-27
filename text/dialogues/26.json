@@ -1,0 +1,166 @@
+{
+  "id": "0x010000040000DBCA",
+  "title": "PLAZA ORB / bulletholes esprit",
+  "description": "esprit the corps afterthought",
+  "dialogueTree": [
+    {
+      "id": 13,
+      "title": "Esprit de Corps: \"The sight of bullet holes stirs som...\"",
+      "articyId": "0x010000040000DBD5",
+      "text": "The sight of bullet holes stirs something in you, making you forget the lieutenant's surname.",
+      "links": [
+        {
+          "id": 28,
+          "title": "You: \"Look closer first.\"",
+          "articyId": "0x010000040000DBEA",
+          "text": "Look closer first.",
+          "links": [
+            {
+              "id": 25,
+              "title": "Esprit de Corps: \"The fading marks are too degraded t...\"",
+              "articyId": "0x010000040000DBF1",
+              "text": "The fading marks are too degraded to draw any forensic conclusions. Just chips in the sandstone.",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "Visual Calculus: \"They look pretty ancient...\"",
+                  "articyId": "0x010000040000DD2F",
+                  "text": "They look pretty ancient...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "You: \"\"Kim, look, bullet holes!\"\"",
+          "articyId": "0x010000040000DBDB",
+          "text": "\"Kim, look, bullet holes!\"",
+          "links": [
+            {
+              "id": 29,
+              "title": "Kim Kitsuragi: \"\"Where?\" He looks around.\"",
+              "articyId": "0x010000040000DC8F",
+              "text": "\"Where?\" He looks around.",
+              "links": [
+                {
+                  "id": 23,
+                  "title": "You: \"(Point to the chips in the wall.) \"...\"",
+                  "articyId": "0x010000040000DC96",
+                  "text": "(Point to the chips in the wall.) \"Someone has been shot! We're cops, we should solve it.\"",
+                  "links": [
+                    {
+                      "id": 20,
+                      "title": "Kim Kitsuragi: \"\"There?\" He looks to the wall. \"Tho...\"",
+                      "articyId": "0x010000040000DCAC",
+                      "text": "\"There?\" He looks to the wall. \"Those are *old*.\"",
+                      "links": [
+                        {
+                          "id": 16,
+                          "title": "You: \"\"Oh, you mean like from the Revolut...\"",
+                          "articyId": "0x010000040000DCC9",
+                          "text": "\"Oh, you mean like from the Revolution?\"",
+                          "links": [
+                            {
+                              "id": 26,
+                              "title": "Kim Kitsuragi: \"\"Yes, the one that happened half a...\"",
+                              "articyId": "0x010000040000DCD2",
+                              "text": "\"Yes, the one that happened half a century ago.\" He blinks. \"Those bullets were fired during the Revolution and do not warrant an investigation by officers of civil law.\"",
+                              "links": [
+                                {
+                                  "id": 3,
+                                  "title": "You: \"\"Okay. What can you tell me about t...\"",
+                                  "articyId": "0x010000040000DCEE",
+                                  "text": "\"Okay. What can you tell me about this Revolution?\"",
+                                  "links": [
+                                    {
+                                      "id": 4,
+                                      "title": "Kim Kitsuragi: \"\"Not much. I don't have a *fresh pe...\"",
+                                      "articyId": "0x010000040000DD12",
+                                      "text": "\"Not much. I don't have a *fresh perspective* on it. Shall we go?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "title": "You: \"\"Okay. What can you tell me about t...\"",
+                                  "articyId": "0x010000040000DD05",
+                                  "text": "\"Okay. What can you tell me about the Revolution?\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 12,
+                                  "title": "You: \"\"Alright then.\" [Finish thought.]\"",
+                                  "articyId": "0x010000040000DCF4",
+                                  "text": "\"Alright then.\" [Finish thought.]",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 21,
+                          "title": "You: \"\"What do you mean old?\"\"",
+                          "articyId": "0x010000040000DCB3",
+                          "text": "\"What do you mean old?\"",
+                          "links": [
+                            {
+                              "id": 24,
+                              "title": "Kim Kitsuragi: \"\"These bullets were fired during th...\"",
+                              "articyId": "0x010000040000DCD9",
+                              "text": "\"These bullets were fired during the Revolution, over half a century ago. They do not warrant investigation.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 30,
+                          "title": "You: \"\"Oh, okay then.\" [Finish thought.]\"",
+                          "articyId": "0x010000040000DCB9",
+                          "text": "\"Oh, okay then.\" [Finish thought.]",
+                          "links": [
+                            {
+                              "id": 10,
+                              "title": "Kim Kitsuragi: \"He nods. \"We should focus on presen...\"",
+                              "articyId": "0x010000040000DCC1",
+                              "text": "He nods. \"We should focus on present crimes -- from the present century.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 15,
+                  "title": "You: \"\"Nothing, forget about it.\" [Finish...\"",
+                  "articyId": "0x010000040000DC9D",
+                  "text": "\"Nothing, forget about it.\" [Finish thought.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "title": "You: \"[Discard thought.]\"",
+          "articyId": "0x010000040000DBE3",
+          "text": "[Discard thought.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Esprit de Corps: \"If only Kim were here right now! Yo...\"",
+      "articyId": "0x010000040000DC01",
+      "text": "If only Kim were here right now! You could ask him if he sees a case here. The sight of those bullet holes stirs something in you.",
+      "links": []
+    }
+  ]
+}

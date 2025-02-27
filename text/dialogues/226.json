@@ -1,0 +1,1728 @@
+{
+  "id": "0x0100003600003A41",
+  "title": "PLAZA / THE GARDENER",
+  "description": "The Gardener stands on the corner of Whirling and is there to help you navigate the streets of Martinaise. Later it turns out she's a Union spy. You get to know from here that Joyce is in town.",
+  "dialogueTree": [
+    {
+      "id": 276,
+      "title": "The Gardener: \"\"I can't believe it's snowing again...\"",
+      "articyId": "0x0100005700021314",
+      "text": "\"I can't believe it's snowing again...\" The young woman resting by the wheelbarrow sighs.",
+      "links": [
+        {
+          "id": 272,
+          "title": "The Gardener: \"\"It felt like springtime just a few...\"",
+          "articyId": "0x01000045000200C1",
+          "text": "\"It felt like springtime just a few days ago...\"",
+          "links": [
+            {
+              "id": 200,
+              "title": "You: \"\"Evrart confirmed, he sent you to s...\"",
+              "articyId": "0x010000070001B370",
+              "text": "\"Evrart confirmed, he sent you to spy on us.\"",
+              "links": [
+                {
+                  "id": 226,
+                  "title": "The Gardener: \"\"Is that so?\" Her face remains expr...\"",
+                  "articyId": "0x010000070001B377",
+                  "text": "\"Is that so?\" Her face remains expressionless as she shrugs. \"I don't know anything about that. Must be a misunderstanding.\"",
+                  "links": [
+                    {
+                      "id": 175,
+                      "title": "Composure: \"She's a pro. Nothing short of comin...\"",
+                      "articyId": "0x010000070001B380",
+                      "text": "She's a pro. Nothing short of coming face to face with the fatman himself would make her admit it right now.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 197,
+              "title": "You: \"\"It's so late and you're still here.\"\"",
+              "articyId": "0x01000006000189C0",
+              "text": "\"It's so late and you're still here.\"",
+              "links": [
+                {
+                  "id": 92,
+                  "title": "The Gardener: \"\"I'm a night hawk, what can I say?\"...\"",
+                  "articyId": "0x01000006000189C5",
+                  "text": "\"I'm a night hawk, what can I say?\" She flashes a smile.",
+                  "links": [
+                    {
+                      "id": 246,
+                      "title": "Logic: \"She's still here, because you're st...\"",
+                      "articyId": "0x01000006000189E8",
+                      "text": "She's still here, because you're still here.",
+                      "links": [
+                        {
+                          "id": 359,
+                          "title": "Kim Kitsuragi: \"\"You don't have to stay up because...\"",
+                          "articyId": "0x01000006000189F1",
+                          "text": "\"You don't have to stay up because of us.\"",
+                          "links": [
+                            {
+                              "id": 300,
+                              "title": "The Gardener: \"\"I like the city at night. Don't yo...\"",
+                              "articyId": "0x01000006000189F7",
+                              "text": "\"I like the city at night. Don't you?\" She looks into the darkness and smiles again.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 198,
+                      "title": "Inland Empire: \"Odd...\"",
+                      "articyId": "0x01000006000189CD",
+                      "text": "Odd...",
+                      "links": [
+                        {
+                          "id": 93,
+                          "title": "Drama: \"There's a little meanness in that s...\"",
+                          "articyId": "0x01000006000189D4",
+                          "text": "There's a little meanness in that smile.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 107,
+              "title": "You: \"\"My partner told me you may have am...\"",
+              "articyId": "0x01000057000214FB",
+              "text": "\"My partner told me you may have ammonia -- can I have some?\"",
+              "links": [
+                {
+                  "id": 232,
+                  "title": "The Gardener: \"\"Sure -- I'm done with it.\" She tak...\"",
+                  "articyId": "0x01000057000214EF",
+                  "text": "\"Sure -- I'm done with it.\" She takes a small capsule out of her breast pocket and hands it to you.",
+                  "links": [
+                    {
+                      "id": 192,
+                      "title": "The Gardener: \"\"Go easy on that stuff. It gave me...\"",
+                      "articyId": "0x0100008200009ADE",
+                      "text": "\"Go easy on that stuff. It gave me a terrible headache.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 278,
+              "title": "You: \"\"Do you still have your salts? I th...\"",
+              "articyId": "0x01000057000214F5",
+              "text": "\"Do you still have your salts? I think I could use some.\"",
+              "links": [
+                {
+                  "id": 68,
+                  "title": "The Gardener: \"\"Sure -- I'm done with them.\" She t...\"",
+                  "articyId": "0x0100008200009AF9",
+                  "text": "\"Sure -- I'm done with them.\" She takes a small capsule out of her breast pocket and hands it to you.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 249,
+              "title": "You: \"\"Can I borrow your gloves? I'm doin...\"",
+              "articyId": "0x0100002B0003E157",
+              "text": "\"Can I borrow your gloves? I'm doing an autopsy.\"",
+              "links": [
+                {
+                  "id": 399,
+                  "title": "The Gardener: \"\"An autopsy? Wow. Sure, keep them.\"...\"",
+                  "articyId": "0x0100002B0003F186",
+                  "text": "\"An autopsy? Wow. Sure, keep them.\" She hands you the rubber gloves. \"I have another pair.\"",
+                  "links": [
+                    {
+                      "id": 401,
+                      "title": "Perception (Sight): \"She must be very diligent about the...\"",
+                      "articyId": "0x0100004C0000BFB2",
+                      "text": "She must be very diligent about the glove-use, because her hands are clean and delicate.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 202,
+              "title": "You: \"\"I've investigated the body. Should...\"",
+              "articyId": "0x0100002B0003E15E",
+              "text": "\"I've investigated the body. Shouldn't be long till we get it down.\"",
+              "links": [
+                {
+                  "id": 97,
+                  "title": "The Gardener: \"\"Oh. Okay.\" She doesn't quite know...\"",
+                  "articyId": "0x0100002B0003E164",
+                  "text": "\"Oh. Okay.\" She doesn't quite know what to say. \"Thanks for keeping me in the know, sir.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "title": "You: \"\"The body is down.\"\"",
+              "articyId": "0x0100002B0003E16B",
+              "text": "\"The body is down.\"",
+              "links": [
+                {
+                  "id": 270,
+                  "title": "The Gardener: \"\"Down...?\" The gardener straightens...\"",
+                  "articyId": "0x0100002B0003E171",
+                  "text": "\"Down...?\" The gardener straightens her back. \"Do you mean the body is finally gone?\"",
+                  "links": [
+                    {
+                      "id": 285,
+                      "title": "Rhetoric: \"Absolutely gone.\"",
+                      "articyId": "0x0100008200009B0B",
+                      "text": "Absolutely gone.",
+                      "links": [
+                        {
+                          "id": 203,
+                          "title": "You: \"\"No, the body is down on the ground.\"\"",
+                          "articyId": "0x0100002B0003E178",
+                          "text": "\"No, the body is down on the ground.\"",
+                          "links": [
+                            {
+                              "id": 7,
+                              "title": "The Gardener: \"\"Oh... right.\" She scratches her ch...\"",
+                              "articyId": "0x0100002B0003E17F",
+                              "text": "\"Oh... right.\" She scratches her cheek. \"Can you tell me when you've taken him away then?\"",
+                              "links": [
+                                {
+                                  "id": 88,
+                                  "title": "Conceptualization: \"Yeah, keep her in the *loop*. It's...\"",
+                                  "articyId": "0x0100008200009B24",
+                                  "text": "Yeah, keep her in the *loop*. It's strangely enjoyable to report back on the minute progress you've made. Even to strangers.",
+                                  "links": [
+                                    {
+                                      "id": 113,
+                                      "title": "Authority: \"No! Do *not* keep this random civil...\"",
+                                      "articyId": "0x0100008200009B32",
+                                      "text": "No! Do *not* keep this random civilian in any loops.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 406,
+                                      "title": "Authority: \"No! Do *not* report back to this ra...\"",
+                                      "articyId": "0x0100008200009B41",
+                                      "text": "No! Do *not* report back to this random civilian about anything.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 57,
+                          "title": "You: \"\"It's gone from the *tree*.\"\"",
+                          "articyId": "0x0100002B0003E350",
+                          "text": "\"It's gone from the *tree*.\"",
+                          "links": [
+                            {
+                              "id": 332,
+                              "title": "The Gardener: \"\"Oh... right.\" She scratches her ch...\"",
+                              "articyId": "0x0100002B0003E357",
+                              "text": "\"Oh... right.\" She scratches her cheek. \"But not from the yard. I understand.\"",
+                              "links": [
+                                {
+                                  "id": 376,
+                                  "title": "The Gardener: \"\"Can you tell me when you've taken...\"",
+                                  "articyId": "0x0100008200009B16",
+                                  "text": "\"Can you tell me when you've taken him away then. Because I'm sort of waiting for *that*.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "title": "You: \"\"The body is gone.\"\"",
+              "articyId": "0x0100002B0003E1AD",
+              "text": "\"The body is gone.\"",
+              "links": [
+                {
+                  "id": 123,
+                  "title": "The Gardener: \"\"Like gone-gone?\" The girl repeats,...\"",
+                  "articyId": "0x0100002B0003E1B3",
+                  "text": "\"Like gone-gone?\" The girl repeats, her face beaming with appreciation.",
+                  "links": [
+                    {
+                      "id": 303,
+                      "title": "You: \"\"No, just gone.\"\"",
+                      "articyId": "0x0100002B0003E1BA",
+                      "text": "\"No, just gone.\"",
+                      "links": [
+                        {
+                          "id": 361,
+                          "title": "The Gardener: \"\"Gone to heaven?\" A quick smile. \"T...\"",
+                          "articyId": "0x0100002B0003E1D0",
+                          "text": "\"Gone to heaven?\" A quick smile. \"Thank you, officer. Looks like I'll get mint in the ground by April.\"",
+                          "links": [
+                            {
+                              "id": 213,
+                              "title": "Drama: \"You get a strange feeling, looking...\"",
+                              "articyId": "0x0100008200009B5D",
+                              "text": "You get a strange feeling, looking at that smile. It spoils the moment. It is disingenuous.",
+                              "links": [
+                                {
+                                  "id": 28,
+                                  "title": "You: \"What's going on here?\"",
+                                  "articyId": "0x0100008200009B76",
+                                  "text": "What's going on here?",
+                                  "links": [
+                                    {
+                                      "id": 69,
+                                      "title": "Drama: \"Surely it was nothing, sire. Just p...\"",
+                                      "articyId": "0x0100008200009B8B",
+                                      "text": "Surely it was nothing, sire. Just paranoia.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 173,
+                                  "title": "You: \"I don't care, I just wanna enjoy th...\"",
+                                  "articyId": "0x0100008200009BA9",
+                                  "text": "I don't care, I just wanna enjoy the nice moment.",
+                                  "links": [
+                                    {
+                                      "id": 52,
+                                      "title": "Drama: \"Of course, sire, of course.\"",
+                                      "articyId": "0x0100008200009BB0",
+                                      "text": "Of course, sire, of course.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 271,
+                      "title": "You: \"\"It's not in the yard anymore. It's...\"",
+                      "articyId": "0x0100002B0003E1C0",
+                      "text": "\"It's not in the yard anymore. It's in... some other place now.\"",
+                      "links": [
+                        {
+                          "id": 229,
+                          "title": "The Gardener: \"\"In heaven?\" A quick smile. \"Thank...\"",
+                          "articyId": "0x0100002B0003E1C8",
+                          "text": "\"In heaven?\" A quick smile. \"Thank you, officer. Looks like I'll get mint in the ground by April.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 51,
+                      "title": "You: \"\"It was sent to processing in the m...\"",
+                      "articyId": "0x0100008200009B4C",
+                      "text": "\"It was sent to processing in the morgue.\"",
+                      "links": [
+                        {
+                          "id": 172,
+                          "title": "The Gardener: \"\"I'm glad to hear that.\" A quick sm...\"",
+                          "articyId": "0x0100008200009B53",
+                          "text": "\"I'm glad to hear that.\" A quick smile. \"Thank you, officer. Looks like I'll get mint in the ground by April.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 256,
+              "title": "You: \"\"Tell me, what exactly have you bee...\"",
+              "articyId": "0x0100005700021707",
+              "text": "\"Tell me, what exactly have you been doing in your greenhouse -- in *March*?\"",
+              "links": [
+                {
+                  "id": 427,
+                  "title": "The Gardener: \"\"Well uh...\" She points to her whee...\"",
+                  "articyId": "0x0100008200009BBF",
+                  "text": "\"Well uh...\" She points to her wheelbarrow, surprised at the question. \"This might be the last snow we get. At least I hope so...\"",
+                  "links": [
+                    {
+                      "id": 114,
+                      "title": "The Gardener: \"\"Snow has nutrients in it -- helps...\"",
+                      "articyId": "0x0100008200009BB8",
+                      "text": "\"Snow has nutrients in it -- helps everything green up in the spring. At least that's what my grandma always told me.\" She smiles shyly.",
+                      "links": [
+                        {
+                          "id": 289,
+                          "title": "Drama: \"Yes, think about the cute grandma,...\"",
+                          "articyId": "0x0100008200009BC6",
+                          "text": "Yes, think about the cute grandma, not the weird snow.",
+                          "links": [
+                            {
+                              "id": 407,
+                              "title": "You: \"\"The grandma is a bit too much.\"\"",
+                              "articyId": "0x0100008200009BD3",
+                              "text": "\"The grandma is a bit too much.\"",
+                              "links": [
+                                {
+                                  "id": 258,
+                                  "title": "The Gardener: \"\"A bit much? What are you talking a...\"",
+                                  "articyId": "0x0100008200009BDB",
+                                  "text": "\"A bit much? What are you talking about? That's what my grandma told me, okay?\"",
+                                  "links": [
+                                    {
+                                      "id": 429,
+                                      "title": "Drama: \"She feels interrogated now. It's ha...\"",
+                                      "articyId": "0x0100008200009BE2",
+                                      "text": "She feels interrogated now. It's hard to say if she's lying.",
+                                      "links": [
+                                        {
+                                          "id": 354,
+                                          "title": "Kim Kitsuragi: \"\"Relax, miss. This is not an interr...\"",
+                                          "articyId": "0x0100008200009BEF",
+                                          "text": "\"Relax, miss. This is not an interrogation. We are just checking some facts.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 259,
+                              "title": "You: \"\"What nutrients?\"\"",
+                              "articyId": "0x0100008200009C38",
+                              "text": "\"What nutrients?\"",
+                              "links": [
+                                {
+                                  "id": 408,
+                                  "title": "The Gardener: \"\"Nitrogen and sulphur mostly.\" She...\"",
+                                  "articyId": "0x0100008200009C3F",
+                                  "text": "\"Nitrogen and sulphur mostly.\" She points to the sky. \"And whatever factories and aerostatics exhale too I guess.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 131,
+                              "title": "You: \"Squint your eyes and look at her in...\"",
+                              "articyId": "0x0100008200009C08",
+                              "text": "Squint your eyes and look at her intently.",
+                              "links": [
+                                {
+                                  "id": 393,
+                                  "title": "Visual Calculus: \"Stop looking at her, look around! W...\"",
+                                  "articyId": "0x0100008200009C11",
+                                  "text": "Stop looking at her, look around! What do you see?",
+                                  "links": [
+                                    {
+                                      "id": 29,
+                                      "title": "You: \"The traffic jam?\"",
+                                      "articyId": "0x0100008200009C4C",
+                                      "text": "The traffic jam?",
+                                      "links": [
+                                        {
+                                          "id": 195,
+                                          "title": "Visual Calculus: \"That's right. And the canal, the bo...\"",
+                                          "articyId": "0x0100008200009D1B",
+                                          "text": "That's right. And the canal, the bookstore, the harbour gates... This is a great vantage point -- for keeping an eye on *you*.",
+                                          "links": [
+                                            {
+                                              "id": 116,
+                                              "title": "You: \"\"Are you by any chance keeping an e...\"",
+                                              "articyId": "0x0100008200009D24",
+                                              "text": "\"Are you by any chance keeping an eye on us?\"",
+                                              "links": [
+                                                {
+                                                  "id": 377,
+                                                  "title": "The Gardener: \"\"No, of course not! I don't underst...\"",
+                                                  "articyId": "0x0100008200009D3A",
+                                                  "text": "\"No, of course not! I don't understand what this is about...\" She looks towards the yard and her expression clears.",
+                                                  "links": [
+                                                    {
+                                                      "id": 395,
+                                                      "title": "The Gardener: \"\"The kid did this, right? The red-h...\"",
+                                                      "articyId": "0x0100008200009D41",
+                                                      "text": "\"The kid did this, right? The red-haired rat? Can't say a sentence without *f****t* or *kipt*... He's always giving me trouble.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 71,
+                                                          "title": "You: \"\"I was talking to him, yes.\"\"",
+                                                          "articyId": "0x0100008200009D4C",
+                                                          "text": "\"I was talking to him, yes.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 378,
+                                                              "title": "The Gardener: \"\"Maybe you shouldn't be. I mean......\"",
+                                                              "articyId": "0x0100008200009D5A",
+                                                              "text": "\"Maybe you shouldn't be. I mean... you do your job, but that kid is beyond help. And he certainly won't help *you*.\" She shakes her head.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 296,
+                                                                  "title": "Kim Kitsuragi: \"\"You've been resting here for quite...\"",
+                                                                  "articyId": "0x0100008200009D81",
+                                                                  "text": "\"You've been resting here for quite a *while*, haven't you?\" The lieutenant intervenes, looking at her intently.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 379,
+                                                                      "title": "The Gardener: \"\"Yes. I'm tired.\"\"",
+                                                                      "articyId": "0x0100008200009D91",
+                                                                      "text": "\"Yes. I'm tired.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 315,
+                                                                          "title": "Kim Kitsuragi: \"\"I understand -- the RCM isn't welc...\"",
+                                                                          "articyId": "0x0100008200009D98",
+                                                                          "text": "\"I understand -- the RCM isn't welcome here and the locals want to keep an eye on us.\"",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 240,
+                                                                              "title": "The Gardener: \"There's silence. The smallest of sm...\"",
+                                                                              "articyId": "0x0100008200009DA0",
+                                                                              "text": "There's silence. The smallest of smiles.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 409,
+                                                                                  "title": "Kim Kitsuragi: \"\"That's okay, miss -- do what you h...\"",
+                                                                                  "articyId": "0x0100008200009DAA",
+                                                                                  "text": "\"That's okay, miss -- do what you have to do.\" The lieutenant nods at you. \"I think we're done here. Let's go.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 266,
+                                                                  "title": "Visual Calculus: \"She has changed the subject and won...\"",
+                                                                  "articyId": "0x0100000500003C33",
+                                                                  "text": "She has changed the subject and won't let you get back to this.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 430,
+                                                          "title": "You: \"\"That's not important right now.\"\"",
+                                                          "articyId": "0x0100008200009D52",
+                                                          "text": "\"That's not important right now.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 239,
+                                                              "title": "The Gardener: \"\"It is, because he sent you to hara...\"",
+                                                              "articyId": "0x0100008200009D61",
+                                                              "text": "\"It is, because he sent you to harass me, didn't he? You shouldn't listen to him.\" She points to the defaced sign above her on the corner. \"It was probably him, who wrote that.\"",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 396,
+                                                              "title": "The Gardener: \"\"It is, because he sent you to hara...\"",
+                                                              "articyId": "0x0100008200009D70",
+                                                              "text": "\"It is, because he sent you to harass me. He's playing you.\" She shakes her head. \"He hates the police, okay? A lot of people do around here.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 215,
+                                              "title": "You: \"Noted, but I'll keep it to myself.\"",
+                                              "articyId": "0x0100008200009D2A",
+                                              "text": "Noted, but I'll keep it to myself.",
+                                              "links": [
+                                                {
+                                                  "id": 297,
+                                                  "title": "Visual Calculus: \"Glad to have been of service. Now y...\"",
+                                                  "articyId": "0x0100008200009DB8",
+                                                  "text": "Glad to have been of service. Now you know -- the locals are keeping tabs on you.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 313,
+                                      "title": "You: \"The plaza?\"",
+                                      "articyId": "0x0100008200009D14",
+                                      "text": "The plaza?",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 325,
+                                      "title": "You: \"An entrance to the yard?\"",
+                                      "articyId": "0x0100008200009D06",
+                                      "text": "An entrance to the yard?",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 237,
+                                  "title": "Visual Calculus: \"All you can see is the fact that he...\"",
+                                  "articyId": "0x0100008200009C16",
+                                  "text": "All you can see is the fact that her skin is a different colour from yours. That's literally all. You're gonna have to run with that.",
+                                  "links": [
+                                    {
+                                      "id": 260,
+                                      "title": "Reaction Speed: \"No, you don't. Just back up, cancel...\"",
+                                      "articyId": "0x0100008200009C71",
+                                      "text": "No, you don't. Just back up, cancel this.",
+                                      "links": [
+                                        {
+                                          "id": 30,
+                                          "title": "You: \"Why am I thinking this, I said I'm...\"",
+                                          "articyId": "0x0100008200009C5F",
+                                          "text": "Why am I thinking this, I said I'm black as fuck.",
+                                          "links": [
+                                            {
+                                              "id": 138,
+                                              "title": "Visual Calculus: \"Are you entirely sure you're black...\"",
+                                              "articyId": "0x0100008200009C69",
+                                              "text": "Are you entirely sure you're black as *fuck*? You should really check out that mirror thing. For now, go with she's black. It's important to the case.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 394,
+                                          "title": "You: \"\"You're black.\"\"",
+                                          "articyId": "0x0100008200009C52",
+                                          "text": "\"You're black.\"",
+                                          "links": [
+                                            {
+                                              "id": 431,
+                                              "title": "The Gardener: \"\"Yes, I'm black, how many times are...\"",
+                                              "articyId": "0x0100008200009DCE",
+                                              "text": "\"Yes, I'm black, how many times are you gonna say that?\"",
+                                              "links": [
+                                                {
+                                                  "id": 316,
+                                                  "title": "Kim Kitsuragi: \"\"That was the last time, miss.\" He...\"",
+                                                  "articyId": "0x0100008200009DDB",
+                                                  "text": "\"That was the last time, miss.\" He looks at you with a stern expression. \"Our questioning here is concluded. Let's go.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 298,
+                                                      "title": "Suggestion: \"He didn't think you were about to b...\"",
+                                                      "articyId": "0x0100008200009DEF",
+                                                      "text": "He didn't think you were about to bust a case.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 214,
+                                                  "title": "The Gardener: \"\"Ask me a normal question or leave...\"",
+                                                  "articyId": "0x0100008200009C9A",
+                                                  "text": "\"Ask me a normal question or leave me alone.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 242,
+                                              "title": "The Gardener: \"\"What does that mean?\" She doesn't...\"",
+                                              "articyId": "0x0100008200009DFB",
+                                              "text": "\"What does that mean?\" She doesn't flinch.",
+                                              "links": [
+                                                {
+                                                  "id": 329,
+                                                  "title": "You: \"\"So, what kind of music do you list...\"",
+                                                  "articyId": "0x0100008200009E0C",
+                                                  "text": "\"So, what kind of music do you listen to nowadays?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 381,
+                                                      "title": "The Gardener: \"\"I don't know...\" She looks around....\"",
+                                                      "articyId": "0x0100008200009E24",
+                                                      "text": "\"I don't know...\" She looks around. \"Whatever's on the radio I guess. What does this have to do with snow, or gardening in March?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 174,
+                                                          "title": "Empathy: \"She seems more perplexed than corne...\"",
+                                                          "articyId": "0x0100008200009E4A",
+                                                          "text": "She seems more perplexed than cornered.",
+                                                          "links": [
+                                                            {
+                                                              "id": 32,
+                                                              "title": "You: \"\"Nothing, this is just something my...\"",
+                                                              "articyId": "0x0100008200009E82",
+                                                              "text": "\"Nothing, this is just something my brain told me.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 196,
+                                                                  "title": "The Gardener: \"\"Okay.\"\"",
+                                                                  "articyId": "0x0100008200009E89",
+                                                                  "text": "\"Okay.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 221,
+                                                                      "title": "Conceptualization: \"What are you waiting for, ask about...\"",
+                                                                      "articyId": "0x0100008200009E90",
+                                                                      "text": "What are you waiting for, ask about the disco already. You need some fresh jams to get out of this rut.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 118,
+                                                              "title": "You: \"\"Do you listen to disco?\"\"",
+                                                              "articyId": "0x0100008200009E3B",
+                                                              "text": "\"Do you listen to disco?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 264,
+                                                                  "title": "The Gardener: \"\"Uh... I'm gonna say no.\"\"",
+                                                                  "articyId": "0x0100008200009E35",
+                                                                  "text": "\"Uh... I'm gonna say no.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 117,
+                                                                      "title": "Kim Kitsuragi: \"\"We should probably proceed with ou...\"",
+                                                                      "articyId": "0x0100008200009E2F",
+                                                                      "text": "\"We should probably proceed with our business in Martinaise.\" The lieutenant interrupts her, turning to you. \"Unless you didn't have any more *official* questions?\"",
+                                                                      "links": []
+                                                                    },
+                                                                    {
+                                                                      "id": 220,
+                                                                      "title": "The Gardener: \"\"If you don't have anything normal...\"",
+                                                                      "articyId": "0x0100008200009E6C",
+                                                                      "text": "\"If you don't have anything normal to say I had something I needed to think about.\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 380,
+                                                              "title": "You: \"\"Okay.\"\"",
+                                                              "articyId": "0x0100008200009E06",
+                                                              "text": "\"Okay.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 410,
+                                                                  "title": "The Gardener: \"\"Okay.\"\"",
+                                                                  "articyId": "0x0100008200009E1E",
+                                                                  "text": "\"Okay.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 317,
+                                                  "title": "You: \"\"Nothing.\"\"",
+                                                  "articyId": "0x0100008200009E18",
+                                                  "text": "\"Nothing.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 299,
+                                                      "title": "Kim Kitsuragi: \"\"We should proceed with our busines...\"",
+                                                      "articyId": "0x0100008200009E12",
+                                                      "text": "\"We should proceed with our business in Martinaise.\" The lieutenant turns to you.",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 432,
+                                                      "title": "The Gardener: \"\"Sure thing.\" She narrows her eyes.\"",
+                                                      "articyId": "0x0100008200009E50",
+                                                      "text": "\"Sure thing.\" She narrows her eyes.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 70,
+                                          "title": "You: \"Yeah, I'm not gonna say that.\"",
+                                          "articyId": "0x0100008200009C7C",
+                                          "text": "Yeah, I'm not gonna say that.",
+                                          "links": [
+                                            {
+                                              "id": 238,
+                                              "title": "Reaction Speed: \"Better to get off before it starts....\"",
+                                              "articyId": "0x0100008200009C83",
+                                              "text": "Better to get off before it starts. Nothing left to gain here.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 193,
+                              "title": "You: \"\"Okay then. Snow it is.\"\"",
+                              "articyId": "0x0100008200009C23",
+                              "text": "\"Okay then. Snow it is.\"",
+                              "links": [
+                                {
+                                  "id": 115,
+                                  "title": "The Gardener: \"\"Mhmh.\" She looks at her wheelbarro...\"",
+                                  "articyId": "0x0100008200009C2A",
+                                  "text": "\"Mhmh.\" She looks at her wheelbarrow, where the snow is slowly melting.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 318,
+              "title": "You: \"\"The police need directions.\"\"",
+              "articyId": "0x0100002B0003E0B8",
+              "text": "\"The police need directions.\"",
+              "links": [
+                {
+                  "id": 26,
+                  "title": "The Gardener: \"\"Of course. Where to?\"\"",
+                  "articyId": "0x010000570002165F",
+                  "text": "\"Of course. Where to?\"",
+                  "links": [
+                    {
+                      "id": 204,
+                      "title": "You: \"\"I'm looking for a dead body.\"\"",
+                      "articyId": "0x0100002B0003E229",
+                      "text": "\"I'm looking for a dead body.\"",
+                      "links": [
+                        {
+                          "id": 50,
+                          "title": "The Gardener: \"\"It's there.\" She points north. \"In...\"",
+                          "articyId": "0x01000045000203DA",
+                          "text": "\"It's there.\" She points north. \"In the yard, right through the hole in the fence.\"",
+                          "links": [
+                            {
+                              "id": 94,
+                              "title": "Perception (Smell): \"Even all the way over here, there's...\"",
+                              "articyId": "0x010000060001F5D4",
+                              "text": "Even all the way over here, there's a drop of death in the spring air.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 147,
+                          "title": "The Gardener: \"\"Oh that...\" She points north. \"Tha...\"",
+                          "articyId": "0x0100002B0003E22F",
+                          "text": "\"Oh that...\" She points north. \"That's right there, in the yard.\"",
+                          "links": [
+                            {
+                              "id": 400,
+                              "title": "Empathy: \"She's relieved someone has come for...\"",
+                              "articyId": "0x01000045000203F5",
+                              "text": "She's relieved someone has come for it -- finally.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 347,
+                      "title": "You: \"\"Do you know where I could find the...\"",
+                      "articyId": "0x01000057000216F4",
+                      "text": "\"Do you know where I could find the representative for Wild Pines?\"",
+                      "links": [
+                        {
+                          "id": 255,
+                          "title": "The Gardener: \"\"Wild Pines? You mean the company w...\"",
+                          "articyId": "0x01000057000216FA",
+                          "text": "\"Wild Pines? You mean the company woman?\"",
+                          "links": [
+                            {
+                              "id": 128,
+                              "title": "Kim Kitsuragi: \"\"Yes. A representative of the harbo...\"",
+                              "articyId": "0x010000450002024B",
+                              "text": "\"Yes. A representative of the harbour. She should have set up operations nearby.\"",
+                              "links": [
+                                {
+                                  "id": 205,
+                                  "title": "The Gardener: \"\"Oh, that must be the woman on the...\"",
+                                  "articyId": "0x0100004500020252",
+                                  "text": "\"Oh, that must be the woman on the giant boat.\" She points northwest. \"There's one docked on the pier. It arrived a couple of weeks ago. It's very hard to miss.\"",
+                                  "links": [
+                                    {
+                                      "id": 338,
+                                      "title": "Empathy: \"She doesn't like that *giant* boat....\"",
+                                      "articyId": "0x010000450002023F",
+                                      "text": "She doesn't like that *giant* boat. Nor does she like the woman on it.",
+                                      "links": [
+                                        {
+                                          "id": 21,
+                                          "title": "You: \"\"You don't like the boat?\"\"",
+                                          "articyId": "0x0100004500020268",
+                                          "text": "\"You don't like the boat?\"",
+                                          "links": [
+                                            {
+                                              "id": 417,
+                                              "title": "The Gardener: \"\"I'm okay with it. Was there someth...\"",
+                                              "articyId": "0x0100004500020276",
+                                              "text": "\"I'm okay with it. Was there something else?\"",
+                                              "links": [
+                                                {
+                                                  "id": 159,
+                                                  "title": "Empathy: \"She's not okay with it. It's a disp...\"",
+                                                  "articyId": "0x0100008200009A88",
+                                                  "text": "She's not okay with it. It's a display of power and she feels threatened by it. You don't know why.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 22,
+                                          "title": "You: \"Let it go.\"",
+                                          "articyId": "0x010000450002026E",
+                                          "text": "Let it go.",
+                                          "links": [
+                                            {
+                                              "id": 418,
+                                              "title": "Empathy: \"She would probably prefer not to go...\"",
+                                              "articyId": "0x0100004500020284",
+                                              "text": "She would probably prefer not to go into it. It wasn't easy to pick up on either...",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "title": "You: \"\"Yes. That's the one.\"\"",
+                              "articyId": "0x010000450002025B",
+                              "text": "\"Yes. That's the one.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 346,
+                      "title": "You: \"\"Where am I?\"\"",
+                      "articyId": "0x010000570002166E",
+                      "text": "\"Where am I?\"",
+                      "links": [
+                        {
+                          "id": 311,
+                          "title": "The Gardener: \"\"What do you mean?\"\"",
+                          "articyId": "0x010000640000BC06",
+                          "text": "\"What do you mean?\"",
+                          "links": [
+                            {
+                              "id": 389,
+                              "title": "You: \"\"I'm... disorientated. I don't know...\"",
+                              "articyId": "0x010000640000BC0D",
+                              "text": "\"I'm... disorientated. I don't know where I am.\"",
+                              "links": [
+                                {
+                                  "id": 254,
+                                  "title": "The Gardener: \"\"In Martinaise, sir. In the city of...\"",
+                                  "articyId": "0x0100005700021675",
+                                  "text": "\"In Martinaise, sir. In the city of Revachol...\" She looks around, thinking what else to say. \"This intersection is called Roundabout North.\"",
+                                  "links": [
+                                    {
+                                      "id": 281,
+                                      "title": "Kim Kitsuragi: \"\"He knows where we are. He just wan...\"",
+                                      "articyId": "0x010000640000BC2A",
+                                      "text": "\"He knows where we are. He just wants directions.\" The lieutenant seems uncomfortable with the level of disorientation you are displaying.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 390,
+                              "title": "You: \"\"Just tell me where we are, okay?\"\"",
+                              "articyId": "0x010000640000BC14",
+                              "text": "\"Just tell me where we are, okay?\"",
+                              "links": [
+                                {
+                                  "id": 280,
+                                  "title": "The Gardener: \"\"We're in Martinaise, sir.\" She loo...\"",
+                                  "articyId": "0x010000640000BC1B",
+                                  "text": "\"We're in Martinaise, sir.\" She looks around. \"This intersection is called... Roundabout North, I think.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 373,
+                      "title": "You: \"\"What is up in the North?\"\"",
+                      "articyId": "0x01000057000216B0",
+                      "text": "\"What is up in the North?\"",
+                      "links": [
+                        {
+                          "id": 86,
+                          "title": "The Gardener: \"\"There's the pier, the Capeside apa...\"",
+                          "articyId": "0x01000057000216B7",
+                          "text": "\"There's the pier, the Capeside apartment buildings. Some more tenements... Not a lot, really.\"",
+                          "links": [
+                            {
+                              "id": 2,
+                              "title": "Savoir Faire: \"Pier? Buildings? Apartments? You sh...\"",
+                              "articyId": "0x010000060001F5DD",
+                              "text": "Pier? Buildings? Apartments? You should *explore*, maybe scale a wall?",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 108,
+                      "title": "You: \"\"What is in the East?\"\"",
+                      "articyId": "0x010000570002167D",
+                      "text": "\"What is in the East?\"",
+                      "links": [
+                        {
+                          "id": 109,
+                          "title": "The Gardener: \"\"The harbour gates. Some kind of co...\"",
+                          "articyId": "0x0100005700021691",
+                          "text": "\"The harbour gates. Some kind of commotion, I think? I don't follow the local politics.\" She shrugs. \"A Frittte store too.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 129,
+                      "title": "You: \"\"What is in the South?\"\"",
+                      "articyId": "0x0100005700021698",
+                      "text": "\"What is in the South?\"",
+                      "links": [
+                        {
+                          "id": 158,
+                          "title": "The Gardener: \"\"Some shops and a bridge. The canal...\"",
+                          "articyId": "0x01000057000216A7",
+                          "text": "\"Some shops and a bridge. The canal bridge leads to the coast, but it's broken, I think? Some kind of accident probably.\"",
+                          "links": [
+                            {
+                              "id": 87,
+                              "title": "You: \"\"What is on the other side of the c...\"",
+                              "articyId": "0x01000057000216D4",
+                              "text": "\"What is on the other side of the canal?\"",
+                              "links": [
+                                {
+                                  "id": 310,
+                                  "title": "The Gardener: \"\"Just coast. There's a little fishi...\"",
+                                  "articyId": "0x01000057000216DA",
+                                  "text": "\"Just coast. There's a little fishing village there... and a fish market. But that got closed down ages ago.\"",
+                                  "links": [
+                                    {
+                                      "id": 419,
+                                      "title": "Shivers: \"Rows of stalls under a broad roof,...\"",
+                                      "articyId": "0x010000450002029D",
+                                      "text": "Rows of stalls under a broad roof, where silvery fish were heaped on newspapers. Water, water everywhere -- pouring from the heavens, in the shadow of the old church.",
+                                      "links": [
+                                        {
+                                          "id": 370,
+                                          "title": "You: \"\"What kind of a fish market is this?\"\"",
+                                          "articyId": "0x01000045000202A8",
+                                          "text": "\"What kind of a fish market is this?\"",
+                                          "links": [
+                                            {
+                                              "id": 170,
+                                              "title": "The Gardener: \"\"I don't know... the abandoned kind...\"",
+                                              "articyId": "0x01000045000202BF",
+                                              "text": "\"I don't know... the abandoned kind? It used to gather every spring, but there's nothing to do there now. Just drug addicts.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 99,
+                                          "title": "You: \"Shake it off, you seem to be under...\"",
+                                          "articyId": "0x01000045000202DF",
+                                          "text": "Shake it off, you seem to be under some kind of cold spell...",
+                                          "links": [
+                                            {
+                                              "id": 23,
+                                              "title": "The Gardener: \"\"Anything else?\" The girl watches y...\"",
+                                              "articyId": "0x01000045000202E5",
+                                              "text": "\"Anything else?\" The girl watches you rub your sides for warmth.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 110,
+                      "title": "You: \"\"What is in the West?\"\"",
+                      "articyId": "0x010000570002169D",
+                      "text": "\"What is in the West?\"",
+                      "links": [
+                        {
+                          "id": 279,
+                          "title": "The Gardener: \"\"It's just water...\" She looks at t...\"",
+                          "articyId": "0x01000057000216C0",
+                          "text": "\"It's just water...\" She looks at the water, squinting. \"No, actually, I think they call it the Martinaise Inlet. There are some islands in the bay, but they're hard to reach.\"",
+                          "links": [
+                            {
+                              "id": 222,
+                              "title": "Inland Empire: \"In the West is the miracle...\"",
+                              "articyId": "0x0100000600018149",
+                              "text": "In the West is the miracle...",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 27,
+                      "title": "You: \"\"Thanks, that's all for now.\"\"",
+                      "articyId": "0x0100005700021683",
+                      "text": "\"Thanks, that's all for now.\"",
+                      "links": [
+                        {
+                          "id": 388,
+                          "title": "The Gardener: \"\"No problem.\" She nods, brushing a...\"",
+                          "articyId": "0x0100005700021689",
+                          "text": "\"No problem.\" She nods, brushing a fleck of soil off her cheek.",
+                          "links": [
+                            {
+                              "id": 37,
+                              "title": "Composure: \"She's very well composed. Back stra...\"",
+                              "articyId": "0x010000060001F5E5",
+                              "text": "She's very well composed. Back straight.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 176,
+              "title": "You: \"\"What is this *fuck the police* bus...\"",
+              "articyId": "0x0100002B0003DF29",
+              "text": "\"What is this *fuck the police* business?\"",
+              "links": [
+                {
+                  "id": 177,
+                  "title": "The Gardener: \"\"Excuse me?\" She doesn't understand...\"",
+                  "articyId": "0x0100002B0003DF2F",
+                  "text": "\"Excuse me?\" She doesn't understand.",
+                  "links": [
+                    {
+                      "id": 412,
+                      "title": "Empathy: \"She's uncomfortable. Maybe you shou...\"",
+                      "articyId": "0x010000060001DB29",
+                      "text": "She's uncomfortable. Maybe you should drop this line of questioning.",
+                      "links": [
+                        {
+                          "id": 268,
+                          "title": "You: \"\"This street sign says fuck the pol...\"",
+                          "articyId": "0x0100002B0003DF36",
+                          "text": "\"This street sign says fuck the police.\" (Point to it.)",
+                          "links": [
+                            {
+                              "id": 212,
+                              "title": "The Gardener: \"\"Oh?\" She cranes her neck. \"Well, I...\"",
+                              "articyId": "0x0100005700021651",
+                              "text": "\"Oh?\" She cranes her neck. \"Well, I didn't write it there. I'm just sitting here.\"",
+                              "links": [
+                                {
+                                  "id": 112,
+                                  "title": "Rhetoric: \"You didn't say she wrote it, you as...\"",
+                                  "articyId": "0x0100008200009A96",
+                                  "text": "You didn't say she wrote it, you asked what it was doing there.",
+                                  "links": [
+                                    {
+                                      "id": 234,
+                                      "title": "You: \"\"I didn't say you wrote it.\"\"",
+                                      "articyId": "0x0100008200009AA1",
+                                      "text": "\"I didn't say you wrote it.\"",
+                                      "links": [
+                                        {
+                                          "id": 235,
+                                          "title": "The Gardener: \"\"Sir, it was *implied* in your ques...\"",
+                                          "articyId": "0x0100008200009AA8",
+                                          "text": "\"Sir, it was *implied* in your question.\"",
+                                          "links": [
+                                            {
+                                              "id": 236,
+                                              "title": "Rhetoric: \"The timidness is gone for a second....\"",
+                                              "articyId": "0x0100008200009AAF",
+                                              "text": "The timidness is gone for a second. Something else takes it's place. A readiness.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 121,
+                                      "title": "You: \"\"What about the other sign. *Pigs g...\"",
+                                      "articyId": "0x0100002B0003DF58",
+                                      "text": "\"What about the other sign. *Pigs go home*? Who are these pigs?\"",
+                                      "links": [
+                                        {
+                                          "id": 269,
+                                          "title": "The Gardener: \"\"I don't know anything about that e...\"",
+                                          "articyId": "0x0100002B0003DF66",
+                                          "text": "\"I don't know anything about that either. As I said, I didn't write it.\"",
+                                          "links": [
+                                            {
+                                              "id": 55,
+                                              "title": "Encyclopedia: \"*Pig* is a widely-used term for mem...\"",
+                                              "articyId": "0x0100002B0003DF6D",
+                                              "text": "*Pig* is a widely-used term for members of the Police. It's not loving.",
+                                              "links": [
+                                                {
+                                                  "id": 122,
+                                                  "title": "Authority: \"Even if she didn't write it, she sh...\"",
+                                                  "articyId": "0x0100002B0003DF7D",
+                                                  "text": "Even if she didn't write it, she should CLEAN IT.",
+                                                  "links": [
+                                                    {
+                                                      "id": 166,
+                                                      "title": "You: \"\"You could clean it up if you get a...\"",
+                                                      "articyId": "0x0100002B0003DF8A",
+                                                      "text": "\"You could clean it up if you get a chance. Be a citizen -- be a winner.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 56,
+                                                          "title": "The Gardener: \"\"Okay.\" She straightens her back.\"",
+                                                          "articyId": "0x0100002B0003DFB4",
+                                                          "text": "\"Okay.\" She straightens her back.",
+                                                          "links": [
+                                                            {
+                                                              "id": 324,
+                                                              "title": "Authority: \"She's probably not gonna do it.\"",
+                                                              "articyId": "0x0100008200009ACB",
+                                                              "text": "She's probably not gonna do it.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 248,
+                                                      "title": "You: \"\"It's alright, I'm just asking.\"\"",
+                                                      "articyId": "0x0100002B0003DF90",
+                                                      "text": "\"It's alright, I'm just asking.\"",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 96,
+                                                      "title": "Kim Kitsuragi: \"\"No need to worry,\" the lieutenant...\"",
+                                                      "articyId": "0x0100002B0003DF97",
+                                                      "text": "\"No need to worry,\" the lieutenant steps in, \"we're not saying you did.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 426,
+                                                          "title": "The Gardener: \"\"Okay, well, I didn't,\" she leans b...\"",
+                                                          "articyId": "0x0100008200009AC3",
+                                                          "text": "\"Okay, well, I didn't,\" she leans back, shoulders relaxing.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 54,
+                                      "title": "You: \"\"It's alright, I didn't mean to sta...\"",
+                                      "articyId": "0x0100002B0003DF5E",
+                                      "text": "\"It's alright, I didn't mean to startle you.\"",
+                                      "links": [
+                                        {
+                                          "id": 201,
+                                          "title": "The Gardener: \"\"Okay,\" she replies, shoulders rela...\"",
+                                          "articyId": "0x0100002B0003DFBD",
+                                          "text": "\"Okay,\" she replies, shoulders relaxing.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 228,
+                          "title": "You: \"\"Never mind.\"\"",
+                          "articyId": "0x0100002B0003DF3C",
+                          "text": "\"Never mind.\"",
+                          "links": [
+                            {
+                              "id": 397,
+                              "title": "The Gardener: \"She shifts in her seat awkwardly.\"",
+                              "articyId": "0x0100002B0003DFC7",
+                              "text": "She shifts in her seat awkwardly.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 322,
+              "title": "You: \"\"Who are you exactly?\"\"",
+              "articyId": "0x0100004C0000BD81",
+              "text": "\"Who are you exactly?\"",
+              "links": [
+                {
+                  "id": 63,
+                  "title": "The Gardener: \"\"Me? I'm just a gardener.\"\"",
+                  "articyId": "0x01000057000213E3",
+                  "text": "\"Me? I'm just a gardener.\"",
+                  "links": [
+                    {
+                      "id": 80,
+                      "title": "Composure: \"She hides it well, but behind the s...\"",
+                      "articyId": "0x010000450002032C",
+                      "text": "She hides it well, but behind the sweat and dirt there is something... else. In her rigid posture.",
+                      "links": [
+                        {
+                          "id": 321,
+                          "title": "You: \"\"There's more to you than that.\"\"",
+                          "articyId": "0x010000450002033C",
+                          "text": "\"There's more to you than that.\"",
+                          "links": [
+                            {
+                              "id": 340,
+                              "title": "The Gardener: \"\"Is there?\"\"",
+                              "articyId": "0x0100004500020343",
+                              "text": "\"Is there?\"",
+                              "links": [
+                                {
+                                  "id": 341,
+                                  "title": "Composure: \"The quickness of the reply certainl...\"",
+                                  "articyId": "0x010000450002034F",
+                                  "text": "The quickness of the reply certainly does not prove you wrong.",
+                                  "links": [
+                                    {
+                                      "id": 425,
+                                      "title": "You: \"\"Yes. What are you doing here?\"\"",
+                                      "articyId": "0x0100006B00009630",
+                                      "text": "\"Yes. What are you doing here?\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 130,
+                                      "title": "You: \"\"Maybe.\" (Nod.) \"Pleased to meet yo...\"",
+                                      "articyId": "0x0100006B00009635",
+                                      "text": "\"Maybe.\" (Nod.) \"Pleased to meet you, Just A Gardener. I have another question.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 25,
+                          "title": "You: \"\"Cool. And what are you doing here?\"\"",
+                          "articyId": "0x0100005700021352",
+                          "text": "\"Cool. And what are you doing here?\"",
+                          "links": [
+                            {
+                              "id": 308,
+                              "title": "The Gardener: \"\"I'm working.\"\"",
+                              "articyId": "0x01000057000213F9",
+                              "text": "\"I'm working.\"",
+                              "links": [
+                                {
+                                  "id": 24,
+                                  "title": "You: \"\"Working on what?\"\"",
+                                  "articyId": "0x01000045000203B8",
+                                  "text": "\"Working on what?\"",
+                                  "links": [
+                                    {
+                                      "id": 49,
+                                      "title": "The Gardener: \"\"I have a greenhouse in the yard th...\"",
+                                      "articyId": "0x01000045000203BF",
+                                      "text": "\"I have a greenhouse in the yard there.\" She gestures over her shoulder. \"I've been trying to get some work done...\"",
+                                      "links": [
+                                        {
+                                          "id": 167,
+                                          "title": "Empathy: \"There's discomfort. She stops mid s...\"",
+                                          "articyId": "0x0100004500020108",
+                                          "text": "There's discomfort. She stops mid sentence.",
+                                          "links": [
+                                            {
+                                              "id": 59,
+                                              "title": "Rhetoric: \"She realizes she's about to critici...\"",
+                                              "articyId": "0x0100004500020101",
+                                              "text": "She realizes she's about to criticize your work -- or lack thereof.",
+                                              "links": [
+                                                {
+                                                  "id": 10,
+                                                  "title": "You: \"\"But?\"\"",
+                                                  "articyId": "0x0100004500020139",
+                                                  "text": "\"But?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 415,
+                                                      "title": "The Gardener: \"\"Well... as you *probably* know, th...\"",
+                                                      "articyId": "0x0100004500020142",
+                                                      "text": "\"Well... as you *probably* know, there's a corpse hanging from a tree there. It smells pretty bad. So I have to take breaks.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 274,
+                                                          "title": "Kim Kitsuragi: \"\"Don't worry, miss. We're here to c...\"",
+                                                          "articyId": "0x0100004500020162",
+                                                          "text": "\"Don't worry, miss. We're here to clean it up -- you can get to work soon.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 188,
+                                                              "title": "The Gardener: \"\"Thank you.\" She smiles politely. \"...\"",
+                                                              "articyId": "0x01000057000213F3",
+                                                              "text": "\"Thank you.\" She smiles politely. \"My head is about to explode from all the salts I've had to inhale.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 312,
+                                                                  "title": "Reaction Speed: \"Salts? Ammonium salts? Perhaps usef...\"",
+                                                                  "articyId": "0x0100008200009AD3",
+                                                                  "text": "Salts? Ammonium salts? Perhaps useful for later.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 362,
+                                                  "title": "You: \"\"There's a corpse there, keeping yo...\"",
+                                                  "articyId": "0x0100004500020125",
+                                                  "text": "\"There's a corpse there, keeping you from doing your work.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 127,
+                                                      "title": "The Gardener: \"\"Yes.\" She looks relieved. \"It smel...\"",
+                                                      "articyId": "0x010000450002012D",
+                                                      "text": "\"Yes.\" She looks relieved. \"It smells pretty bad, so I have to take breaks.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 9,
+                                                  "title": "You: \"\"Go on, it's okay.\"\"",
+                                                  "articyId": "0x0100004500020117",
+                                                  "text": "\"Go on, it's okay.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 304,
+                                                      "title": "The Gardener: \"\"As you *probably* know, there's a...\"",
+                                                      "articyId": "0x0100004500020133",
+                                                      "text": "\"As you *probably* know, there's a corpse hanging from a tree there. It smells pretty bad. So I have to take breaks.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 154,
+                          "title": "You: \"\"Good to meet you, Just-A-Gardener....\"",
+                          "articyId": "0x01000057000213CA",
+                          "text": "\"Good to meet you, Just-A-Gardener. Another question then.\"",
+                          "links": [
+                            {
+                              "id": 231,
+                              "title": "The Gardener: \"\"I am pleased to meet you too, offi...\"",
+                              "articyId": "0x0100005700021397",
+                              "text": "\"I am pleased to meet you too, officer.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 146,
+              "title": "You: \"\"I have to run.\" [Leave.]\"",
+              "articyId": "0x0100002B0003E101",
+              "text": "\"I have to run.\" [Leave.]",
+              "links": [
+                {
+                  "id": 253,
+                  "title": "The Gardener: \"\"See you around, officer.\"\"",
+                  "articyId": "0x01000057000214A1",
+                  "text": "\"See you around, officer.\"",
+                  "links": []
+                },
+                {
+                  "id": 85,
+                  "title": "The Gardener: \"\"Of course, I won't hold you back.\"...\"",
+                  "articyId": "0x010000570002147A",
+                  "text": "\"Of course, I won't hold you back.\" She wipes her brow with the canary yellow glove.",
+                  "links": [
+                    {
+                      "id": 64,
+                      "title": "Interfacing: \"Those gloves would really come in h...\"",
+                      "articyId": "0x0100006B0000A484",
+                      "text": "Those gloves would really come in handy for the autopsy.",
+                      "links": [
+                        {
+                          "id": 277,
+                          "title": "You: \"\"One more thing... Can I borrow you...\"",
+                          "articyId": "0x0100005700021496",
+                          "text": "\"One more thing... Can I borrow your gloves?\"",
+                          "links": [
+                            {
+                              "id": 309,
+                              "title": "The Gardener: \"\"Sure, keep them. I have another pa...\"",
+                              "articyId": "0x01000057000214AC",
+                              "text": "\"Sure, keep them. I have another pair.\" She hands you the rubber gloves with no visible annoyance.",
+                              "links": [
+                                {
+                                  "id": 330,
+                                  "title": "Half Light: \"Really? *None.* Maybe just a *tiny*...\"",
+                                  "articyId": "0x010000060001F5ED",
+                                  "text": "Really? *None.* Maybe just a *tiny* bit of annoyance.",
+                                  "links": [
+                                    {
+                                      "id": 402,
+                                      "title": "Perception (Sight): \"She must be very diligent about the...\"",
+                                      "articyId": "0x0100004C0000BFC2",
+                                      "text": "She must be very diligent about the glove-use, because her hands are clean and delicate.",
+                                      "links": [
+                                        {
+                                          "id": 411,
+                                          "title": "You: \"\"Thank you.\" [Leave]\"",
+                                          "articyId": "0x0100000600018156",
+                                          "text": "\"Thank you.\" [Leave]",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 387,
+                          "title": "You: \"No, those gloves aren't really my s...\"",
+                          "articyId": "0x0100005700021474",
+                          "text": "No, those gloves aren't really my style. [Leave.]",
+                          "links": []
+                        },
+                        {
+                          "id": 265,
+                          "title": "Inland Empire: \"Psst! Her gloves -- they'll help yo...\"",
+                          "articyId": "0x01000002000000DA",
+                          "text": "Psst! Her gloves -- they'll help you with the autopsy.",
+                          "links": []
+                        },
+                        {
+                          "id": 36,
+                          "title": "Inland Empire: \"Her gloves -- you get the feeling t...\"",
+                          "articyId": "0x01000002000000B4",
+                          "text": "Her gloves -- you get the feeling that you need them. You have a dead body to deal with, after all.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 422,
+                      "title": "Interfacing: \"If there's a corpse, then you're go...\"",
+                      "articyId": "0x0100005700021480",
+                      "text": "If there's a corpse, then you're going to need those gloves for the autopsy.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "title": "The Gardener: \"\"It's raining again...\" The young w...\"",
+      "articyId": "0x010000570002130E",
+      "text": "\"It's raining again...\" The young woman resting by the wheelbarrow sighs.",
+      "links": [
+        {
+          "id": 250,
+          "title": "The Gardener: \"\"It was clear just an hour ago...\"\"",
+          "articyId": "0x01000045000200BA",
+          "text": "\"It was clear just an hour ago...\"",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 345,
+      "title": "The Gardener: \"\"Hello again, officer. How are thin...\"",
+      "articyId": "0x010000570002162D",
+      "text": "\"Hello again, officer. How are things?\"",
+      "links": []
+    },
+    {
+      "id": 187,
+      "title": "The Gardener: \"\"You're back.\"\"",
+      "articyId": "0x0100004500020441",
+      "text": "\"You're back.\"",
+      "links": [
+        {
+          "id": 275,
+          "title": "You: \"\"You sound surprised.\"\"",
+          "articyId": "0x010000450002040B",
+          "text": "\"You sound surprised.\"",
+          "links": [
+            {
+              "id": 62,
+              "title": "The Gardener: \"\"We don't see a lot of police aroun...\"",
+              "articyId": "0x0100004500020418",
+              "text": "\"We don't see a lot of police around here, that's all.\"",
+              "links": [
+                {
+                  "id": 161,
+                  "title": "Perception (Sight): \"The place looks the part. There's g...\"",
+                  "articyId": "0x010000060001F5CB",
+                  "text": "The place looks the part. There's graffito everywhere and the traffic jam behind you is completely *unregulated*.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "title": "You: \"\"I have some questions for you.\"\"",
+          "articyId": "0x0100004500020411",
+          "text": "\"I have some questions for you.\"",
+          "links": [
+            {
+              "id": 83,
+              "title": "The Gardener: \"\"Of course. What can I help you wit...\"",
+              "articyId": "0x0100004500020420",
+              "text": "\"Of course. What can I help you with?\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 252,
+          "title": "You: \"\"Later.\" [Leave.]\"",
+          "articyId": "0x0100004500020429",
+          "text": "\"Later.\" [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "title": "The Gardener: \"\"The RCM in Martinaise?\" The young...\"",
+      "articyId": "0x0100005700021308",
+      "text": "\"The RCM in Martinaise?\" The young woman looks up at you. \"What can I help you with?\"",
+      "links": []
+    }
+  ]
+}

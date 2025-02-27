@@ -1,0 +1,90 @@
+{
+  "id": "0x010000570001D9C3",
+  "title": "APT / WRITING DESK IN CUNO'S APT",
+  "description": "2 bottles of speed on the table, in plain sight. A straw in the bottle. Low-quality trucker speed. Drugs have charges, this is a low-charge one. 0 bonus to your electrochem base-count of how many times you can use the drug.\n\nFIND THE SPEED finishes when you click on the table. While you're taking that shit, Kim is already checking the other room. Kitsuragi love goes down if you take the drugs.\n\nTable diag despaws after you've taken the drugs.\n\nHabit-initiation dialogue. Electrochem tells you blast one already in this dialogue. Ask Argo (abt cigarette initiation dial). It should also teach you to put it in your hold slot. \n\nGlobal afterthought, electrochem pops up",
+  "dialogueTree": [
+    {
+      "id": 6,
+      "title": "Writing Desk: \"A phone book lies open on the table...\"",
+      "articyId": "0x010000570001DE88",
+      "text": "A phone book lies open on the table, covering a stack of utility bills. Right next to it, in plain sight, sits a small bottle of amphetamine, conveniently equipped with a straw.",
+      "links": [
+        {
+          "id": 9,
+          "title": "Electrochemistry: \"Score! It's right there, baby. Toda...\"",
+          "articyId": "0x0100005700020F4F",
+          "text": "Score! It's right there, baby. Today's your lucky day.",
+          "links": []
+        },
+        {
+          "id": 19,
+          "title": "Savoir Faire: \"You could slip the bottle right int...\"",
+          "articyId": "0x0100005700020EEE",
+          "text": "You could slip the bottle right into your pocket -- the lieutenant wouldn't even notice...",
+          "links": []
+        },
+        {
+          "id": 3,
+          "title": "You: \"\"Lieutenant, I've located psychoact...\"",
+          "articyId": "0x010000570001DE96",
+          "text": "\"Lieutenant, I've located psychoactive substances on this table.\"",
+          "links": [
+            {
+              "id": 5,
+              "title": "Kim Kitsuragi: \"\"Good, confiscate it.\"\"",
+              "articyId": "0x010000570001DEAB",
+              "text": "\"Good, confiscate it.\"",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "Esprit de Corps: \"The minuscule amount of amphetamine...\"",
+                  "articyId": "0x0100008200008DE8",
+                  "text": "The minuscule amount of amphetamine doesn't interest the lieutenant in the slightest. He listens instead to something in the other room.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"Take the speed from the table.\"",
+          "articyId": "0x010000570001DE9C",
+          "text": "Take the speed from the table.",
+          "links": [
+            {
+              "id": 21,
+              "title": "Writing Desk: \"You pocket the bottle as if it were...\"",
+              "articyId": "0x010000570001DED5",
+              "text": "You pocket the bottle as if it were the most natural thing in the world.",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "Electrochemistry: \"Don't wait, celebrate! Blast that s...\"",
+                  "articyId": "0x010000570001DF14",
+                  "text": "Don't wait, celebrate! Blast that shit right here! Take inventory of it once this boring table shit is done!",
+                  "links": [
+                    {
+                      "id": 20,
+                      "title": "Half Light: \"Blast it before you face the beast,...\"",
+                      "articyId": "0x0100005700020F0D",
+                      "text": "Blast it before you face the beast, de Ruyter. You're going to need the encouragement.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000570001DEA2",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

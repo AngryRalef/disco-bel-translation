@@ -1,0 +1,496 @@
+{
+  "id": "0x0100006B00002E1A",
+  "title": "INVENTORY / KLAASJE PASSPORT",
+  "description": "This is the inventory interaction folder for the readable item: Klaasje's Passport!",
+  "dialogueTree": [
+    {
+      "id": 94,
+      "title": "Oranjese Passport: \"This passport, issued by the Sovere...\"",
+      "articyId": "0x01000089000029EB",
+      "text": "This passport, issued by the Sovereign Republic of Oranje -- is issued to a black haired woman called Katarzine Alasije.",
+      "links": [
+        {
+          "id": 53,
+          "title": "Kim Kitsuragi: \"\"Klaasje's hidden documents...\" The...\"",
+          "articyId": "0x010000780001166E",
+          "text": "\"Klaasje's hidden documents...\" The lieutenant looks at it in your hands. \"From the empty buoy.\"",
+          "links": [
+            {
+              "id": 55,
+              "title": "You: \"Look at the photo.\"",
+              "articyId": "0x0100007800011594",
+              "text": "Look at the photo.",
+              "links": [
+                {
+                  "id": 27,
+                  "title": "Oranjese Passport: \"It's Klaasje. With short, black hai...\"",
+                  "articyId": "0x010000780001159A",
+                  "text": "It's Klaasje. With short, black hair and glasses. She looks boyish, younger somehow.",
+                  "links": [
+                    {
+                      "id": 81,
+                      "title": "Empathy: \"An old photo. Before life came and...\"",
+                      "articyId": "0x010000060001F22B",
+                      "text": "An old photo. Before life came and did what it does.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 40,
+              "title": "You: \"\"What was this doing in the phasmid...\"",
+              "articyId": "0x01000078000114DE",
+              "text": "\"What was this doing in the phasmid's nest?\"",
+              "links": [
+                {
+                  "id": 149,
+                  "title": "Kim Kitsuragi: \"\"Maybe our man, Mr. Dros, took it f...\"",
+                  "articyId": "0x01000078000114E6",
+                  "text": "\"Maybe our man, Mr. Dros, took it from Klaasje's -- or whatever her name was -- hiding place? Or...\"",
+                  "links": [
+                    {
+                      "id": 157,
+                      "title": "You: \"\"Perhaps -- for some blackmailing p...\"",
+                      "articyId": "0x0100007800011517",
+                      "text": "\"Perhaps -- for some blackmailing plan?\"",
+                      "links": [
+                        {
+                          "id": 91,
+                          "title": "Kim Kitsuragi: \"\"Perhaps... But that still doesn't...\"",
+                          "articyId": "0x0100007800011502",
+                          "text": "\"Perhaps... But that still doesn't explain how it got into the nest.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 150,
+                      "title": "You: \"\"I think the *phasmid* took it.\"\"",
+                      "articyId": "0x010000780001151D",
+                      "text": "\"I think the *phasmid* took it.\"",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "Kim Kitsuragi: \"\"Like a magpie?\" He looks around. \"...\"",
+                          "articyId": "0x010000780001152B",
+                          "text": "\"Like a magpie?\" He looks around. \"What a coincidence. Then it would also have *collected* the other objects, which would be highly unusual...\"",
+                          "links": [
+                            {
+                              "id": 129,
+                              "title": "Kim Kitsuragi: \"\"I can see how the helmet could was...\"",
+                              "articyId": "0x0100007800011531",
+                              "text": "\"I can see how the helmet could wash up on the island. And the scope -- maybe Mr. Dros lost it? But to seek this out would be *very* unusual behaviour for an arthropod.\"",
+                              "links": [
+                                {
+                                  "id": 19,
+                                  "title": "Empathy: \"Would it? Maybe it was simply curio...\"",
+                                  "articyId": "0x0100007800011545",
+                                  "text": "Would it? Maybe it was simply curious.",
+                                  "links": [
+                                    {
+                                      "id": 7,
+                                      "title": "Encyclopedia: \"A curious octopus would do somethin...\"",
+                                      "articyId": "0x010000780001154C",
+                                      "text": "A curious octopus would do something similar. Or even a cuttlefish.",
+                                      "links": [
+                                        {
+                                          "id": 130,
+                                          "title": "You: \"\"Perhaps it was curious? Like an oc...\"",
+                                          "articyId": "0x010000780001155B",
+                                          "text": "\"Perhaps it was curious? Like an octopus?\"",
+                                          "links": [
+                                            {
+                                              "id": 82,
+                                              "title": "Kim Kitsuragi: \"\"An octopus belongs to a very diffe...\"",
+                                              "articyId": "0x010000780001156F",
+                                              "text": "\"An octopus belongs to a very different Class. It's not even an insect, it's a mollusc. But, yes -- I see your point.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 10,
+                                          "title": "You: \"\"Perhaps it had a vendetta against...\"",
+                                          "articyId": "0x0100007800011561",
+                                          "text": "\"Perhaps it had a vendetta against our Miss Oranje?\"",
+                                          "links": [
+                                            {
+                                              "id": 83,
+                                              "title": "Kim Kitsuragi: \"\"Phasmids are not capable of holdin...\"",
+                                              "articyId": "0x0100007800011576",
+                                              "text": "\"Phasmids are not capable of holding grudges. Only humans and some tracking predators do that.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 42,
+                      "title": "You: \"\"The phasmid took it -- and I *sens...\"",
+                      "articyId": "0x0100007800011523",
+                      "text": "\"The phasmid took it -- and I *sensed* it do so. I saw something open up the buoy with spindly legs.\" (Point to your head.)",
+                      "links": [
+                        {
+                          "id": 65,
+                          "title": "Kim Kitsuragi: \"\"Like a magpie?\" He looks around. \"...\"",
+                          "articyId": "0x010000060001F234",
+                          "text": "\"Like a magpie?\" He looks around. \"What a coincidence. Then it would also have *collected* the other objects, which would be highly unusual...\"",
+                          "links": [
+                            {
+                              "id": 101,
+                              "title": "Rhetoric: \"By now, the lieutenant has accepted...\"",
+                              "articyId": "0x010000060001F23B",
+                              "text": "By now, the lieutenant has accepted your unusual methods.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 118,
+                  "title": "Cuno: \"\"Fuck if I know... maybe it's colle...\"",
+                  "articyId": "0x010000060000F6E4",
+                  "text": "\"Fuck if I know... maybe it's collecting shit? Like an octopus can get, like, curious?\"",
+                  "links": [
+                    {
+                      "id": 72,
+                      "title": "Encyclopedia: \"A curious octopus would do somethin...\"",
+                      "articyId": "0x010000060000F6F9",
+                      "text": "A curious octopus would do something similar. Or even a cuttlefish.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "title": "Oranjese Passport: \"The woman on the photo does not rep...\"",
+                  "articyId": "0x010000060000F6F2",
+                  "text": "The woman on the photo does not reply. She looks at you with mysterious eyes, disguised as someone else.",
+                  "links": [
+                    {
+                      "id": 4,
+                      "title": "Encyclopedia: \"A curious octopus sometimes collect...\"",
+                      "articyId": "0x010000060000F700",
+                      "text": "A curious octopus sometimes collects things? Or a cuttlefish?",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 75,
+              "title": "You: \"\"It says -- Katarzine Alasije.\"\"",
+              "articyId": "0x01000078000114EC",
+              "text": "\"It says -- Katarzine Alasije.\"",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Kim Kitsuragi: \"He opens his notes. \"She said it wo...\"",
+                  "articyId": "0x01000078000114F8",
+                  "text": "He opens his notes. \"She said it would be for *Annouk Meijer-Smit*. Annouk -- Meijer -- Smit.\"",
+                  "links": [
+                    {
+                      "id": 96,
+                      "title": "Logic: \"Katarzine Alasije was supposed to b...\"",
+                      "articyId": "0x01000078000115AD",
+                      "text": "Katarzine Alasije was supposed to be her *real* name. Where *Klaasje* comes from, remember? God dammit!",
+                      "links": [
+                        {
+                          "id": 151,
+                          "title": "Volition: \"I told you she kept on lying to you...\"",
+                          "articyId": "0x01000078000115DF",
+                          "text": "I told you she kept on lying to you. She's probably lying to someone else right now -- another detective.",
+                          "links": []
+                        },
+                        {
+                          "id": 102,
+                          "title": "Volition: \"I told you she kept lying to you. S...\"",
+                          "articyId": "0x01000078000115BA",
+                          "text": "I told you she kept lying to you. She's probably lying to someone else right now. In another city.",
+                          "links": []
+                        },
+                        {
+                          "id": 43,
+                          "title": "You: \"\"Katarzine Alasije was supposed to...\"",
+                          "articyId": "0x01000078000115A7",
+                          "text": "\"Katarzine Alasije was supposed to be her real name. She lied to us.\"",
+                          "links": [
+                            {
+                              "id": 56,
+                              "title": "Kim Kitsuragi: \"\"Yes, somehow she managed to lie to...\"",
+                              "articyId": "0x01000078000115C6",
+                              "text": "\"Yes, somehow she managed to lie to us -- *one more time*. In a way she's still lying to us right now.\" The lieutenant smiles.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 92,
+                          "title": "You: \"\"Maybe this is her real passport? N...\"",
+                          "articyId": "0x01000078000115C0",
+                          "text": "\"Maybe this is her real passport? Not a fake? Because this is her real name.\"",
+                          "links": [
+                            {
+                              "id": 11,
+                              "title": "Kim Kitsuragi: \"\"No. She lied to us. Her so-called...\"",
+                              "articyId": "0x01000078000115CC",
+                              "text": "\"No. She lied to us. Her so-called real name was not her real name. Somehow she's managed to lie to us about that too...\" He almost smiles.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 57,
+                      "title": "Kim Kitsuragi: \"\"I don't know who Katarzine Alasije...\"",
+                      "articyId": "0x010000780001163B",
+                      "text": "\"I don't know who Katarzine Alasije is, but it's safe to say it's not her either. In short: we got lied to, again. Good luck to whoever is questioning her in the 57th right now.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 28,
+                      "title": "Kim Kitsuragi: \"\"I don't know who Katarzine Alasije...\"",
+                      "articyId": "0x010000780001164B",
+                      "text": "\"I don't know who Katarzine Alasije is, but it's safe to say it's not her either. In short: we got lied to, again. In a way she's *still* lying to us...\" The lieutenant can't help but smile.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 153,
+                  "title": "Cuno: \"\"Okay. So what? Loop Cuno in on thi...\"",
+                  "articyId": "0x010000060000F719",
+                  "text": "\"Okay. So what? Loop Cuno in on this.\"",
+                  "links": [
+                    {
+                      "id": 144,
+                      "title": "Logic: \"Katarzine Alasije was supposed to b...\"",
+                      "articyId": "0x010000060000F74C",
+                      "text": "Katarzine Alasije was supposed to be her *real* name. Where *Klaasje* comes from, remember? God dammit!",
+                      "links": [
+                        {
+                          "id": 95,
+                          "title": "Volition: \"I told you she kept on lying to you...\"",
+                          "articyId": "0x010000060000F77E",
+                          "text": "I told you she kept on lying to you. She's probably lying to someone else right now -- another detective.",
+                          "links": []
+                        },
+                        {
+                          "id": 145,
+                          "title": "Volition: \"I told you she kept lying to you. S...\"",
+                          "articyId": "0x010000060000F771",
+                          "text": "I told you she kept lying to you. She's probably lying to someone else right now. In another city. She moves fast.",
+                          "links": []
+                        },
+                        {
+                          "id": 79,
+                          "title": "You: \"\"She told me it was her real name -...\"",
+                          "articyId": "0x010000060000F790",
+                          "text": "\"She told me it was her real name -- and it isn't this. It isn't even the name she said would be on here...\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 61,
+                      "title": "You: \"\"It's not the name she said would b...\"",
+                      "articyId": "0x010000060000F752",
+                      "text": "\"It's not the name she said would be on here. I got lied to.\"",
+                      "links": [
+                        {
+                          "id": 125,
+                          "title": "Cuno: \"\"Cool. Got lied to. Double-lied to....\"",
+                          "articyId": "0x010000060000F79D",
+                          "text": "\"Cool. Got lied to. Double-lied to. I get it. You cops need the Cuno on stuff like this. No one lies to the Cuno.\" He nods, with a stern and serious expression.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 136,
+                      "title": "You: \"\"Never mind.\"\"",
+                      "articyId": "0x010000060000F796",
+                      "text": "\"Never mind.\"",
+                      "links": [
+                        {
+                          "id": 97,
+                          "title": "Cuno: \"\"Yeah -- okay. *Don't* loop Cuno in...\"",
+                          "articyId": "0x010000060000F7A5",
+                          "text": "\"Yeah -- okay. *Don't* loop Cuno in. Leave the Cuno in the dark. Fine.\" He pretends he doesn't care.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 73,
+                  "title": "Oranjese Passport: \"And not *Annouk Meijer-Smit*. Like...\"",
+                  "articyId": "0x010000060000F804",
+                  "text": "And not *Annouk Meijer-Smit*. Like she told you. Annouk -- Meijer -- Smit. Remember? You got lied to. Again.",
+                  "links": [
+                    {
+                      "id": 90,
+                      "title": "Logic: \"Even worse -- *Katarzine Alasije* w...\"",
+                      "articyId": "0x010000060000F81B",
+                      "text": "Even worse -- *Katarzine Alasije* was supposed to be her *real* name. Where *Klaasje* comes from, remember? God dammit!",
+                      "links": [
+                        {
+                          "id": 63,
+                          "title": "Volition: \"I told you she kept on lying to you...\"",
+                          "articyId": "0x010000060000F815",
+                          "text": "I told you she kept on lying to you. She's probably lying to someone else right now -- another detective.",
+                          "links": []
+                        },
+                        {
+                          "id": 64,
+                          "title": "Volition: \"I told you she kept lying to you. S...\"",
+                          "articyId": "0x010000060000F828",
+                          "text": "I told you she kept lying to you. She's probably lying to someone else right now. In another city. She moves fast.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 107,
+                      "title": "Drama: \"This Katarzine Alasije -- it's safe...\"",
+                      "articyId": "0x010000060000F88E",
+                      "text": "This Katarzine Alasije -- it's safe to say it's not her either. In short: you got lied to, sire. Good luck to whoever is questioning her in the 57th right now.",
+                      "links": []
+                    },
+                    {
+                      "id": 30,
+                      "title": "Drama: \"This Katarzine Alasije -- it's safe...\"",
+                      "articyId": "0x010000060000F888",
+                      "text": "This Katarzine Alasije -- it's safe to say it's not her either. In short: you got lied to, sire. Maybe it's best we let her go -- at least we don't have to question her again.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 51,
+              "title": "You: \"\"What's her *real* name then?\"\"",
+              "articyId": "0x01000078000115FB",
+              "text": "\"What's her *real* name then?\"",
+              "links": [
+                {
+                  "id": 103,
+                  "title": "Kim Kitsuragi: \"\"I don't know. But it was not Katar...\"",
+                  "articyId": "0x0100007800011601",
+                  "text": "\"I don't know. But it was not Katarzine Alasije. Or Annouk Meijer-Smit. Or Klaasje. Whoever she is -- when we get back I need to warn our holding cells. We need to double the security around her.\"",
+                  "links": []
+                },
+                {
+                  "id": 70,
+                  "title": "Kim Kitsuragi: \"\"I don't know. But it's not Katarzi...\"",
+                  "articyId": "0x0100007800011610",
+                  "text": "\"I don't know. But it's not Katarzine Alasije. Or Klaasje. Or Annouk Meijer-Smit. We didn't even scratch the surface with her, detective.\"",
+                  "links": [
+                    {
+                      "id": 158,
+                      "title": "Kim Kitsuragi: \"He looks east. \"Perhaps it's better...\"",
+                      "articyId": "0x010000780001161E",
+                      "text": "He looks east. \"Perhaps it's better that we didn't arrest her. Who knows what hell she'd be raising in my district by now...\"",
+                      "links": [
+                        {
+                          "id": 131,
+                          "title": "Shivers: \"The winds are silent. The streets a...\"",
+                          "articyId": "0x0100007800011630",
+                          "text": "The winds are silent. The streets are empty of her. She is no longer in the city of Revachol.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "Cuno: \"\"Cuno's gonna say it's *not* any of...\"",
+                  "articyId": "0x010000060000F8A8",
+                  "text": "\"Cuno's gonna say it's *not* any of the things you *think* it is. Cuno'd have to get deep into this shit, but whatever it is -- you got played here. That's for sure.\"",
+                  "links": []
+                },
+                {
+                  "id": 74,
+                  "title": "Oranjese Passport: \"The girl on the passport looks at y...\"",
+                  "articyId": "0x010000060000F8B5",
+                  "text": "The girl on the passport looks at you with no answer. She is not Katarzine Alasije. Or Annouk Meijer-Smit. *Or* Klaasje. That much is sure.",
+                  "links": [
+                    {
+                      "id": 38,
+                      "title": "Savoir Faire: \"Precinct 57 needs to double the sec...\"",
+                      "articyId": "0x010000060000F8BC",
+                      "text": "Precinct 57 needs to double the security around her.",
+                      "links": []
+                    },
+                    {
+                      "id": 6,
+                      "title": "Shivers: \"The winds are silent. The streets a...\"",
+                      "articyId": "0x010000060000F8AE",
+                      "text": "The winds are silent. The streets are empty of her. She is no longer in the city of Revachol.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "title": "You: \"[Put the passport away.]\"",
+              "articyId": "0x01000089000029FC",
+              "text": "[Put the passport away.]",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "title": "Kim Kitsuragi: \"\"Klaasje's hidden documents...\" The...\"",
+          "articyId": "0x0100007800011674",
+          "text": "\"Klaasje's hidden documents...\" The lieutenant looks at it in your hands. \"That she said would be in a buoy on the coast.\"",
+          "links": []
+        },
+        {
+          "id": 2,
+          "title": "Logic: \"Klaasje's hidden documents -- from...\"",
+          "articyId": "0x010000060000F6CB",
+          "text": "Klaasje's hidden documents -- from the empty buoy.",
+          "links": [
+            {
+              "id": 62,
+              "title": "Reaction Speed: \"She said the false passport would b...\"",
+              "articyId": "0x010000060000F7C0",
+              "text": "She said the false passport would be for *Annouk Meijer-Smit*...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 152,
+          "title": "Logic: \"Klaasje's hidden documents. That sh...\"",
+          "articyId": "0x010000060000F6D1",
+          "text": "Klaasje's hidden documents. That she said would be in a buoy on the coast.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "id": "0x010000580000AD85",
+  "title": "KINEEMA / SERIAL NUMBER",
+  "description": "1. Ask Alice to run the serial number you got from the boot.\n2. Come back the next day to get results and ask for Alice to try to get more personal info on the mercenary (finish task to run serial number, gain task to get personal info from serial number).\n3. Come back the next day to get personal info (finish task to get personal info from serial number).",
+  "dialogueTree": [
+    {
+      "id": 120,
+      "title": "Alice: \"\"Yes. It took some convincing, but...\"",
+      "articyId": "0x010000580000B0F1",
+      "text": "\"Yes. It took some convincing, but I got the mercenary's name and a few biographical details. Are you ready?\"",
+      "links": [
+        {
+          "id": 13,
+          "title": "Kim Kitsuragi: \"The lieutenant leans in to listen,...\"",
+          "articyId": "0x0100007800012D43",
+          "text": "The lieutenant leans in to listen, notebook in hand.",
+          "links": []
+        },
+        {
+          "id": 178,
+          "title": "You: \"\"Shoot.\"\"",
+          "articyId": "0x010000580000B0FC",
+          "text": "\"Shoot.\"",
+          "links": [
+            {
+              "id": 51,
+              "title": "Alice: \"\"That suit of armour was issued to...\"",
+              "articyId": "0x010000580000B111",
+              "text": "\"That suit of armour was issued to an Oranjese citizen named Ellis Kortenaer -- that's E-L-L-I-S K-O-R-T-E-N-A-E-R. Exact date of birth unknown. He was signed into the Lelystad County Neonatal Care Unit on 28th of February, ’09.\"",
+              "links": [
+                {
+                  "id": 135,
+                  "title": "You: \"\"Neonatal Care Unit?\"\"",
+                  "articyId": "0x0100007800012D28",
+                  "text": "\"Neonatal Care Unit?\"",
+                  "links": [
+                    {
+                      "id": 26,
+                      "title": "Alice: \"\"He was found as a newborn, in a le...\"",
+                      "articyId": "0x0100007800012D2E",
+                      "text": "\"He was found as a newborn, in a leaf compactor, near an abandoned farm. He spent four months in the neonatal unit -- survived, apparently -- and was assigned to a foster family at two.\"",
+                      "links": [
+                        {
+                          "id": 146,
+                          "title": "Inland Empire: \"According to Klaasje, Lely said his...\"",
+                          "articyId": "0x010000580000B290",
+                          "text": "According to Klaasje, Lely said his real name wasn't really *his* -- perhaps that's because he was fostered?",
+                          "links": []
+                        },
+                        {
+                          "id": 170,
+                          "title": "Logic: \"Joyce said the dead man went by Lel...\"",
+                          "articyId": "0x010000580000B26C",
+                          "text": "Joyce said the dead man went by Lely. He must have gotten that from *Lelystad* -- the name of the county.",
+                          "links": []
+                        },
+                        {
+                          "id": 65,
+                          "title": "Alice: \"\"This is what the ICP knows about h...\"",
+                          "articyId": "0x010000580000B11A",
+                          "text": "\"This is what the ICP knows about him: He was raised by foster parents, entered the Ijsbrand Military Academy -- in Vredefort -- at 17, then served in the Oranjese forces till he was honourably discharged in '41, just a year before the Semenese conflict.\"",
+                          "links": [
+                            {
+                              "id": 148,
+                              "title": "Alice: \"\"Then the armour followed him to Se...\"",
+                              "articyId": "0x0100007800012D39",
+                              "text": "\"Then the armour followed him to Semenine -- or at least I assume it did. And that's it. There are no records of his employment in Krenel. Or any of its other incarnations. Or him even entering Revachol.",
+                              "links": [
+                                {
+                                  "id": 193,
+                                  "title": "You: \"\"Wait, he was found in a... leaf co...\"",
+                                  "articyId": "0x0100007800012D8B",
+                                  "text": "\"Wait, he was found in a... leaf compactor?\"",
+                                  "links": [
+                                    {
+                                      "id": 194,
+                                      "title": "Alice: \"\"It's a garden tool used to press l...\"",
+                                      "articyId": "0x0100007800012D91",
+                                      "text": "\"It's a garden tool used to press leaves into these... cubes. It's a detail the hospital had -- the only detail in these files. So I thought it would be good for you to know.\"",
+                                      "links": [
+                                        {
+                                          "id": 78,
+                                          "title": "Kim Kitsuragi: \"\"It is! Thank you, Alice!\"\"",
+                                          "articyId": "0x0100007800012D9E",
+                                          "text": "\"It is! Thank you, Alice!\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 104,
+                                  "title": "You: \"\"Any information on his foster pare...\"",
+                                  "articyId": "0x0100007800012DA8",
+                                  "text": "\"Any information on his foster parents?\"",
+                                  "links": [
+                                    {
+                                      "id": 183,
+                                      "title": "Alice: \"\"None, officer. Sorry.\"\"",
+                                      "articyId": "0x0100007800012DAE",
+                                      "text": "\"None, officer. Sorry.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 198,
+                                  "title": "You: \"\"So his name wasn't *his* because h...\"",
+                                  "articyId": "0x0100007800012DD5",
+                                  "text": "\"So his name wasn't *his* because he was fostered?\"",
+                                  "links": [
+                                    {
+                                      "id": 110,
+                                      "title": "Kim Kitsuragi: \"\"Hah! Yes -- what Klaasje said. Ver...\"",
+                                      "articyId": "0x0100007800012DE0",
+                                      "text": "\"Hah! Yes -- what Klaasje said. Very good. That makes sense to me.\" He takes a quick note.",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 161,
+                                      "title": "Alice: \"\"I... don't know what that means. B...\"",
+                                      "articyId": "0x0100007800012DEB",
+                                      "text": "\"I... don't know what that means. But -- sure.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "title": "You: \"\"Lelystad is probably where he got...\"",
+                                  "articyId": "0x010000580000B193",
+                                  "text": "\"Lelystad is probably where he got the name *Lely*.\"",
+                                  "links": [
+                                    {
+                                      "id": 27,
+                                      "title": "Kim Kitsuragi: \"The lieutenant nods -- then jots it...\"",
+                                      "articyId": "0x0100007800012DBB",
+                                      "text": "The lieutenant nods -- then jots it down in his notes: \"Lelystad -- Lely. I like that.\"",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 184,
+                                      "title": "Alice: \"\"If you say so, officer -- of cours...\"",
+                                      "articyId": "0x0100007800012DC7",
+                                      "text": "\"If you say so, officer -- of course.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 14,
+                                  "title": "You: \"\"So all we have to connect him to K...\"",
+                                  "articyId": "0x0100007800012D5B",
+                                  "text": "\"So all we have to connect him to Krenel is the armour.\"",
+                                  "links": [
+                                    {
+                                      "id": 125,
+                                      "title": "Kim Kitsuragi: \"\"Even that is a small miracle -- th...\"",
+                                      "articyId": "0x0100007800012D60",
+                                      "text": "\"Even that is a small miracle -- these *organizations* usually double check their inventory.\" He leans closer and shouts: \"Thank you, Alice. Great work!\"",
+                                      "links": [
+                                        {
+                                          "id": 61,
+                                          "title": "Alice: \"\"No problem, lieutenant.\" She sound...\"",
+                                          "articyId": "0x0100007800012D6D",
+                                          "text": "\"No problem, lieutenant.\" She sounds pleased.",
+                                          "links": [
+                                            {
+                                              "id": 67,
+                                              "title": "Authority: \"A compliment from Lieutenant Kitsur...\"",
+                                              "articyId": "0x0100007800012D83",
+                                              "text": "A compliment from Lieutenant Kitsuragi! Not bad.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 103,
+                                      "title": "Alice: \"\"Even that took quite a bit of conv...\"",
+                                      "articyId": "0x0100007800012D74",
+                                      "text": "\"Even that took quite a bit of convincing to retrieve the information from the database, officer.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 18,
+                                  "title": "You: \"\"Well, we have his name and service...\"",
+                                  "articyId": "0x0100007800012DF9",
+                                  "text": "\"Well, we have his name and service record now.\" (Move on.)",
+                                  "links": [
+                                    {
+                                      "id": 121,
+                                      "title": "Kim Kitsuragi: \"\"A name -- this is very good. Ellis...\"",
+                                      "articyId": "0x010000580000B1F1",
+                                      "text": "\"A name -- this is very good. Ellis Kortenaer...\" he says to himself.",
+                                      "links": [
+                                        {
+                                          "id": 40,
+                                          "title": "Inland Empire: \"This means something to him. To kno...\"",
+                                          "articyId": "0x0100007800012E39",
+                                          "text": "This means something to him. To know that name. Like naming a case. It's important.",
+                                          "links": [
+                                            {
+                                              "id": 185,
+                                              "title": "Esprit de Corps: \"Sometimes police work is about huma...\"",
+                                              "articyId": "0x0100002D00000460",
+                                              "text": "Sometimes police work is about human dignity -- about giving back names to anonymous victims.",
+                                              "links": [
+                                                {
+                                                  "id": 102,
+                                                  "title": "Alice: \"\"I'm glad the inquiry was helpful t...\"",
+                                                  "articyId": "0x010000580000B1E2",
+                                                  "text": "\"I'm glad the inquiry was helpful to your investigation, officer. Did you have any other questions?\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 68,
+                                      "title": "Alice: \"\"I'm glad the inquiry was helpful t...\"",
+                                      "articyId": "0x0100007800012E31",
+                                      "text": "\"I'm glad the inquiry was helpful to your investigation, officer. Did you have any other questions?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 145,
+          "title": "You: \"\"I was born ready, baby!\"\"",
+          "articyId": "0x010000580000B108",
+          "text": "\"I was born ready, baby!\"",
+          "links": []
+        },
+        {
+          "id": 52,
+          "title": "You: \"\"The world will end soon.\"\"",
+          "articyId": "0x0100007800012D16",
+          "text": "\"The world will end soon.\"",
+          "links": [
+            {
+              "id": 109,
+              "title": "Alice: \"\"Okay.\" She's not worried. \"Does th...\"",
+              "articyId": "0x0100007800012D1F",
+              "text": "\"Okay.\" She's not worried. \"Does that mean you're ready?\"",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "title": "Alice: \"\"Still no word I'm afraid, sir. I k...\"",
+      "articyId": "0x0100000200000726",
+      "text": "\"Still no word I'm afraid, sir. I know it must be frustrating. Was there anything else you wanted to ask?\"",
+      "links": []
+    },
+    {
+      "id": 46,
+      "title": "Alice: \"\"Sorry, sir. I still haven't heard...\"",
+      "articyId": "0x0100000200000713",
+      "text": "\"Sorry, sir. I still haven't heard back from the database people. Try calling again later. Is there anything else I can do for you?\"",
+      "links": []
+    },
+    {
+      "id": 166,
+      "title": "Alice: \"\"Not yet -- but I was able to convi...\"",
+      "articyId": "0x010000580000ADC7",
+      "text": "\"Not yet -- but I was able to convince the database people to share private sector information. They promised to get back to me by tomorrow morning. Did you have any other questions?\"",
+      "links": []
+    },
+    {
+      "id": 48,
+      "title": "Alice: \"\"Yes. The armour was produced by......\"",
+      "articyId": "0x010000580000AF20",
+      "text": "\"Yes. The armour was produced by...\" She looks at her notes. \"Fairweather in their facilities in Betancourt, Sur-la-Clef, in '42.\"",
+      "links": [
+        {
+          "id": 79,
+          "title": "Alice: \"\"It was part of a special order for...\"",
+          "articyId": "0x0100002D00000452",
+          "text": "\"It was part of a special order for Corps de Pharmacie, a security firm contracted to protect the interests of Oranjese pharmaceutical companies. In the Semenine conflict.\"",
+          "links": [
+            {
+              "id": 154,
+              "title": "Alice: \"She browses pages. \"So... it seems...\"",
+              "articyId": "0x010000580000AF26",
+              "text": "She browses pages. \"So... it seems the armour went to Semenine. That's where the paper trail ends, though. Even the firm has proven difficult to track. Corps de Pharmacie has been renamed several times over in the years since the armour was issued.\"",
+              "links": [
+                {
+                  "id": 96,
+                  "title": "You: \"\"I'm guessing one of its names is K...\"",
+                  "articyId": "0x010000580000AFDB",
+                  "text": "\"I'm guessing one of its names is Krenel.\"",
+                  "links": [
+                    {
+                      "id": 73,
+                      "title": "Alice: \"\"Yes!\" She seems glad you guessed i...\"",
+                      "articyId": "0x010000580000AFE2",
+                      "text": "\"Yes!\" She seems glad you guessed it. \"That is the most recent name the ICP has been able to connect to the CdP. And the one before it was Downwell. I also have one called Sediment -- but I think that might be a different contractor...\"",
+                      "links": [
+                        {
+                          "id": 98,
+                          "title": "Alice: \"You hear her fingers on a keyboard....\"",
+                          "articyId": "0x0100007800012D0C",
+                          "text": "You hear her fingers on a keyboard. \"No, they were called *Sediment*. And *Somatosensor*, it seems. All that during the last nine years.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 45,
+                  "title": "You: \"\"Do you know what it's called now?\"\"",
+                  "articyId": "0x010000580000AFF0",
+                  "text": "\"Do you know what it's called now?\"",
+                  "links": [
+                    {
+                      "id": 25,
+                      "title": "Alice: \"\"The most recently registered firm...\"",
+                      "articyId": "0x010000580000AFF7",
+                      "text": "\"The most recently registered firm that the ICP has been able to connect to the CdP is a military contractor called *Krenel*. And the one before it was Downwell. I think they might be the same contractor.\"",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "Visual Calculus: \"A suit of armour like this would ha...\"",
+                          "articyId": "0x010000580000AFFE",
+                          "text": "A suit of armour like this would have been manufactured with a particular person's physique in mind. You should ask for whom this suit was fitted.",
+                          "links": [
+                            {
+                              "id": 97,
+                              "title": "You: \"\"First, has the firm continued to w...\"",
+                              "articyId": "0x010000580000B018",
+                              "text": "\"First, has the firm continued to work for pharmaceutical companies through all these name changes?\"",
+                              "links": [
+                                {
+                                  "id": 159,
+                                  "title": "Alice: \"\"Hard to say. Their client list is...\"",
+                                  "articyId": "0x010000580000B05B",
+                                  "text": "\"Hard to say. Their client list is rather diverse. And... incomplete. The only constant seems to be that the mercenaries are always deployed in third- and fourth-world countries.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 169,
+                              "title": "You: \"\"Is there any way to find out who g...\"",
+                              "articyId": "0x010000580000B045",
+                              "text": "\"Is there any way to find out who got this particular suit of armour?\"",
+                              "links": [
+                                {
+                                  "id": 59,
+                                  "title": "Alice: \"\"Yes, but the ICP tends to be reluc...\"",
+                                  "articyId": "0x010000580000B051",
+                                  "text": "\"Yes, but the ICP tends to be reluctant to share private sector records. I could try to talk them into it, though.\"",
+                                  "links": [
+                                    {
+                                      "id": 10,
+                                      "title": "Esprit de Corps: \"This is a fun challenge for her, an...\"",
+                                      "articyId": "0x010000580000B085",
+                                      "text": "This is a fun challenge for her, an opportunity to contribute beyond doing her job by rote. She'll gladly put in the extra effort for team RCM!",
+                                      "links": [
+                                        {
+                                          "id": 85,
+                                          "title": "You: \"\"You are my beautiful conquering he...\"",
+                                          "articyId": "0x010000580000B09E",
+                                          "text": "\"You are my beautiful conquering heroine.\"",
+                                          "links": [
+                                            {
+                                              "id": 177,
+                                              "title": "Alice: \"\"I'm going to ignore that, officer....\"",
+                                              "articyId": "0x010000580000B0B0",
+                                              "text": "\"I'm going to ignore that, officer. Call back tomorrow. Hopefully I will have more information for you then.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 84,
+                                          "title": "You: \"\"Yes, thank you, officer. I really...\"",
+                                          "articyId": "0x010000580000B098",
+                                          "text": "\"Yes, thank you, officer. I really appreciate your efforts in this case.\"",
+                                          "links": [
+                                            {
+                                              "id": 160,
+                                              "title": "Alice: \"\"Glad to help. Call back tomorrow....\"",
+                                              "articyId": "0x010000580000B0AA",
+                                              "text": "\"Glad to help. Call back tomorrow. Hopefully I'll have more for you then.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 74,
+                                          "title": "You: \"\"Yes, please do try. It's imperativ...\"",
+                                          "articyId": "0x010000580000B02A",
+                                          "text": "\"Yes, please do try. It's imperative that we learn whose armour this was.\"",
+                                          "links": [
+                                            {
+                                              "id": 9,
+                                              "title": "Alice: \"\"Sure. Call back tomorrow. Hopefull...\"",
+                                              "articyId": "0x010000580000B073",
+                                              "text": "\"Sure. Call back tomorrow. Hopefully I will have more information for you then.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 35,
+                              "title": "Kim Kitsuragi: \"\"Armour like this isn't mass-produc...\"",
+                              "articyId": "0x010000580000B03D",
+                              "text": "\"Armour like this isn't mass-produced -- it would have probably been fitted. Perhaps there's a record of who signed for this particular suit of armour.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "title": "Alice: \"\"They couldn't find anything on the...\"",
+      "articyId": "0x010000580000AF0E",
+      "text": "\"They couldn't find anything on the full code you gave me. However, the first ten characters tracked to a custom-made baby stroller made in Vaasa City ten years ago.\"",
+      "links": [
+        {
+          "id": 31,
+          "title": "Alice: \"\"Does that seem relevant to your in...\"",
+          "articyId": "0x010000580000AF2F",
+          "text": "\"Does that seem relevant to your investigation?\"",
+          "links": [
+            {
+              "id": 71,
+              "title": "You: \"\"No, but thank you for looking into...\"",
+              "articyId": "0x010000580000AF36",
+              "text": "\"No, but thank you for looking into it.\"",
+              "links": [
+                {
+                  "id": 72,
+                  "title": "Alice: \"\"Just doing my job, officer. Was th...\"",
+                  "articyId": "0x010000580000AF44",
+                  "text": "\"Just doing my job, officer. Was there anything else?\"",
+                  "links": [
+                    {
+                      "id": 192,
+                      "title": "Drama: \"We're still glad you did it, my lie...\"",
+                      "articyId": "0x0100007800012D01",
+                      "text": "We're still glad you did it, my liege. This was good training. For when you need to lie to save your life maybe?",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 80,
+              "title": "You: \"\"Yes, absolutely! This is exactly w...\"",
+              "articyId": "0x010000580000AF3C",
+              "text": "\"Yes, absolutely! This is exactly what I wanted.\"",
+              "links": [
+                {
+                  "id": 188,
+                  "title": "Alice: \"\"Great. Anything else I could do fo...\"",
+                  "articyId": "0x010000580000AF4B",
+                  "text": "\"Great. Anything else I could do for you?\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Alice: \"\"They couldn't find anything on the...\"",
+      "articyId": "0x010000580000AF1A",
+      "text": "\"They couldn't find anything on the full code you gave me. However, the first eight characters were match for a series of paintings by Tobias Pren -- you know, that artist who recently hanged himself?\"",
+      "links": [
+        {
+          "id": 33,
+          "title": "You: \"\"No, what were his paintings like?\"\"",
+          "articyId": "0x010000580000AF68",
+          "text": "\"No, what were his paintings like?\"",
+          "links": [
+            {
+              "id": 131,
+              "title": "Alice: \"\"Very pretty pictures of assorted w...\"",
+              "articyId": "0x010000580000AF90",
+              "text": "\"Very pretty pictures of assorted wildlife meant to inspire viewers and look good over couches in office building lobbies.\" She hesitates. \"I've always sort of thought they were trash.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 95,
+          "title": "You: \"\"No, why did he hang himself?\"\"",
+          "articyId": "0x010000580000AF6D",
+          "text": "\"No, why did he hang himself?\"",
+          "links": [
+            {
+              "id": 34,
+              "title": "Alice: \"\"Celebrity problems.\"\"",
+              "articyId": "0x010000580000AF96",
+              "text": "\"Celebrity problems.\"",
+              "links": [
+                {
+                  "id": 44,
+                  "title": "Electrochemistry: \"She means pills and alcohol. See, p...\"",
+                  "articyId": "0x010000580000AFA7",
+                  "text": "She means pills and alcohol. See, pills and alcohol make you *a celebrity*. Hasn't it been a while since you've had any?",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "You: \"\"This doesn't seem relevant to my i...\"",
+          "articyId": "0x010000580000AF5B",
+          "text": "\"This doesn't seem relevant to my investigation.\" (Conclude the conversation.)",
+          "links": [
+            {
+              "id": 195,
+              "title": "Alice: \"\"It's all I could learn, I'm afraid...\"",
+              "articyId": "0x010000580000AFAF",
+              "text": "\"It's all I could learn, I'm afraid. That's the serial number you gave me. Anything else I can do for you?\"",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Encyclopedia: \"I don't know about you, but I reall...\"",
+                  "articyId": "0x0100007800012CE3",
+                  "text": "I don't know about you, but I really, really enjoyed it. Worked out really well in the end.",
+                  "links": [
+                    {
+                      "id": 182,
+                      "title": "Drama: \"I knew this would lead to something...\"",
+                      "articyId": "0x0100007800012CF3",
+                      "text": "I knew this would lead to something good!",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "title": "You: \"\"I'm not sure how this relates to m...\"",
+          "articyId": "0x010000580000AF75",
+          "text": "\"I'm not sure how this relates to my investigation yet, but I'm sure it does.\" (Conclude the conversation.)",
+          "links": [
+            {
+              "id": 64,
+              "title": "Alice: \"\"I hope so. Anything else I can do...\"",
+              "articyId": "0x010000580000AFB6",
+              "text": "\"I hope so. Anything else I can do for you?\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "title": "You: \"\"Art is extremely relevant to my in...\"",
+          "articyId": "0x010000580000AF61",
+          "text": "\"Art is extremely relevant to my investigation. Thank you.\" (Conclude the conversation.)",
+          "links": [
+            {
+              "id": 132,
+              "title": "Alice: \"\"Great. Anything else I can do for...\"",
+              "articyId": "0x010000580000AFBD",
+              "text": "\"Great. Anything else I can do for you?\"",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "title": "Alice: \"\"No, and I doubt they'll get back t...\"",
+      "articyId": "0x010000580000ADEF",
+      "text": "\"No, and I doubt they'll get back to me before tomorrow morning. Anything else?\"",
+      "links": []
+    },
+    {
+      "id": 70,
+      "title": "Alice: \"\"Sure, officer. What's the number?...\"",
+      "articyId": "0x010000580000ADFC",
+      "text": "\"Sure, officer. What's the number? And the make of the armour, if you know it?\"",
+      "links": [
+        {
+          "id": 100,
+          "title": "You: \"\"E50.100.1000. The make and model o...\"",
+          "articyId": "0x010000580000AE02",
+          "text": "\"E50.100.1000. The make and model of the armour is Fairweather T-500 / VE.\"",
+          "links": [
+            {
+              "id": 58,
+              "title": "Alice: \"\"Got it. I'll contact the ICP datab...\"",
+              "articyId": "0x010000580000AE22",
+              "text": "\"Got it. I'll contact the ICP database immediately. Call back tomorrow. Hopefully they'll have dug up something useful by then.\"",
+              "links": [
+                {
+                  "id": 144,
+                  "title": "Encyclopedia: \"The International Collaboration Pol...\"",
+                  "articyId": "0x010000580000AEDD",
+                  "text": "The International Collaboration Police (ICP) is an interisolary law enforcement service, the crown jewel in the Moralintern diadem alongside EPIS and the Coalition Government.",
+                  "links": [
+                    {
+                      "id": 108,
+                      "title": "You: \"\"Wait, what's ICP?\"\"",
+                      "articyId": "0x010000580000AE97",
+                      "text": "\"Wait, what's ICP?\"",
+                      "links": [
+                        {
+                          "id": 187,
+                          "title": "Alice: \"\"The International Collaboration Po...\"",
+                          "articyId": "0x010000580000AEA0",
+                          "text": "\"The International Collaboration Police? Uhm...\" She seems confused for a second. \"They keep detailed records of all military technology produced by licensed manufacturers. That's one of the reasons the Moralintern spearheaded the creation of the ICP in the first place.\"",
+                          "links": [
+                            {
+                              "id": 43,
+                              "title": "You: \"\"Cool... and what's the Moralintern?\"\"",
+                              "articyId": "0x010000580000AEB9",
+                              "text": "\"Cool... and what's the Moralintern?\"",
+                              "links": [
+                                {
+                                  "id": 6,
+                                  "title": "Alice: \"\"Officer, as much as I appreciate y...\"",
+                                  "articyId": "0x010000580000AEC5",
+                                  "text": "\"Officer, as much as I appreciate your efforts to lighten the mood, we both have important work to get back to. Did you have any other *serious* questions?\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 134,
+                      "title": "You: \"\"Okay.\"\"",
+                      "articyId": "0x0100007800012CC8",
+                      "text": "\"Okay.\"",
+                      "links": [
+                        {
+                          "id": 147,
+                          "title": "Alice: \"\"Was there anything else?\"\"",
+                          "articyId": "0x0100007800012CD0",
+                          "text": "\"Was there anything else?\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 140,
+          "title": "You: \"\"X54156745678222. The make and mode...\"",
+          "articyId": "0x010000580000AE08",
+          "text": "\"X54156745678222. The make and model of the armour is Fairweather T-500 / VE.\"",
+          "links": [
+            {
+              "id": 118,
+              "title": "Alice: \"\"Are you sure that's the right numb...\"",
+              "articyId": "0x010000580000AE0E",
+              "text": "\"Are you sure that's the right number? Doesn't sound like a serial.\"",
+              "links": [
+                {
+                  "id": 47,
+                  "title": "Authority: \"There's a slightly weary, condescen...\"",
+                  "articyId": "0x010000580000AE34",
+                  "text": "There's a slightly weary, condescending note in her voice. She doesn't trust your professionalism following your rather tasteless come-ons.",
+                  "links": [
+                    {
+                      "id": 167,
+                      "title": "You: \"\"That's definitely the right number.\"\"",
+                      "articyId": "0x010000580000AE14",
+                      "text": "\"That's definitely the right number.\"",
+                      "links": [
+                        {
+                          "id": 119,
+                          "title": "Alice: \"\"Well, I'll contact the ICP databas...\"",
+                          "articyId": "0x010000580000AE49",
+                          "text": "\"Well, I'll contact the ICP database immediately. Call back tomorrow. Hopefully they'll have dug up something useful to your investigation by then.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 88,
+                      "title": "You: \"\"You're right. I meant to say E50.1...\"",
+                      "articyId": "0x010000580000AE1A",
+                      "text": "\"You're right. I meant to say E50.100.1000. Sorry for the confusion.\"",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Alice: \"\"No problem, officer. Just glad we...\"",
+                          "articyId": "0x010000580000AE4F",
+                          "text": "\"No problem, officer. Just glad we got it straightened out. I'll contact the ICP database immediately. Call back tomorrow. Hopefully they'll have dug up something useful to your investigation by then.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 130,
+                  "title": "Empathy: \"There's just a hint of weariness in...\"",
+                  "articyId": "0x010000580000AE3A",
+                  "text": "There's just a hint of weariness in her voice. It's not that she doesn't trust you -- she just wants to be thorough so as not to create extra work for both of you.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 153,
+          "title": "You: \"\"AO5577789RHG9999. The make and mod...\"",
+          "articyId": "0x010000580000AE71",
+          "text": "\"AO5577789RHG9999. The make and model of the armour is Fairweather T-500 / VE.\"",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

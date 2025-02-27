@@ -1,0 +1,115 @@
+{
+  "id": "0x0100008F00001CA2",
+  "title": "COAST ORB / bunkerthought",
+  "description": "Maybe a way underground? Maybe she’s down there?",
+  "dialogueTree": [
+    {
+      "id": 7,
+      "title": "Visual Calculus: \"The light vanishes inside the concr...\"",
+      "articyId": "0x0100000400015147",
+      "text": "The light vanishes inside the concrete slit. The structure goes deep under the earth.",
+      "links": [
+        {
+          "id": 10,
+          "title": "You: \"Yell \"Ho!\" into the slit.\"",
+          "articyId": "0x0100001600009AAB",
+          "text": "Yell \"Ho!\" into the slit.",
+          "links": [
+            {
+              "id": 17,
+              "title": "Visual Calculus: \"There's no echo -- and no answer.\"",
+              "articyId": "0x0100001600009AB3",
+              "text": "There's no echo -- and no answer.",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "Conceptualization: \"The silence of god? Sorry...\"",
+                  "articyId": "0x0100001600009ABA",
+                  "text": "The silence of god? Sorry...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "You: \"What's in there?\"",
+          "articyId": "0x0100000400015154",
+          "text": "What's in there?",
+          "links": [
+            {
+              "id": 16,
+              "title": "Visual Calculus: \"Maybe it's just a storm drain for t...\"",
+              "articyId": "0x010000040001515D",
+              "text": "Maybe it's just a storm drain for the sewer?",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"\"Kim, any idea what's down there?\"\"",
+          "articyId": "0x0100000400015168",
+          "text": "\"Kim, any idea what's down there?\"",
+          "links": [
+            {
+              "id": 12,
+              "title": "Kim Kitsuragi: \"\"No idea.\" He takes his glasses off...\"",
+              "articyId": "0x0100000400015179",
+              "text": "\"No idea.\" He takes his glasses off to polish. \"Could be connected to one of the buildings around here...\"",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "You: \"\"Think we might find Ruby down ther...\"",
+                  "articyId": "0x0100000400015180",
+                  "text": "\"Think we might find Ruby down there?\"",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Kim Kitsuragi: \"\"We might find her down *somewhere*...\"",
+                      "articyId": "0x010000040001518F",
+                      "text": "\"We might find her down *somewhere* -- there's an old storm drain system beneath Martinaise that's mostly collapsed. Revachol's sewage system has been built and rebuilt four or five times now.\"",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "Kim Kitsuragi: \"He puts his glasses back on. \"In co...\"",
+                          "articyId": "0x0100001600009AC5",
+                          "text": "He puts his glasses back on. \"In conclusion -- she could be under any building.\"",
+                          "links": [
+                            {
+                              "id": 14,
+                              "title": "You: \"\"But not in there?\"\"",
+                              "articyId": "0x0100001600009ACE",
+                              "text": "\"But not in there?\"",
+                              "links": [
+                                {
+                                  "id": 11,
+                                  "title": "Kim Kitsuragi: \"He looks into the slit and sighs. \"...\"",
+                                  "articyId": "0x0100001600009AD8",
+                                  "text": "He looks into the slit and sighs. \"I hope not.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "You: \"[Finish thought.]\"",
+          "articyId": "0x010000040001514E",
+          "text": "[Finish thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

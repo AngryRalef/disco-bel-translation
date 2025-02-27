@@ -1,0 +1,539 @@
+{
+  "id": "0x010000580000BEF6",
+  "title": "BOARDWALK / LADDER",
+  "description": "Savoir Faire White Check to climb up.",
+  "dialogueTree": [
+    {
+      "id": 11,
+      "title": "Feld Ladder: \"The rusty ladder leads to the rooft...\"",
+      "articyId": "0x010000070001AECA",
+      "text": "The rusty ladder leads to the rooftop.",
+      "links": [
+        {
+          "id": 7,
+          "title": "You: \"Assess the situation.\"",
+          "articyId": "0x0100007100002A9F",
+          "text": "Assess the situation.",
+          "links": [
+            {
+              "id": 113,
+              "title": "Feld Ladder: \"The distances between the remaining...\"",
+              "articyId": "0x0100007100002AA5",
+              "text": "The distances between the remaining rungs are rather *wide*. You'd have to use the mounting brackets. However, they seem corroded and the peeling rust is razor-sharp.",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Feld Ladder: \"In addition, the first rung is goin...\"",
+                  "articyId": "0x010000160000998C",
+                  "text": "In addition, the first rung is going to be *tough* to reach. It's, what, three metres above ground, and you're -- 180...?",
+                  "links": [
+                    {
+                      "id": 64,
+                      "title": "You: \"One-eighty seems about right.\"",
+                      "articyId": "0x0100001600009995",
+                      "text": "One-eighty seems about right.",
+                      "links": [
+                        {
+                          "id": 110,
+                          "title": "Feld Ladder: \"Not to mention that the roof is col...\"",
+                          "articyId": "0x01000016000099AA",
+                          "text": "Not to mention that the roof is collapsing and the wind gets pretty brutal up there. Dismounting from the ladder is going to be *hard*. Perhaps if you were to... *not* climb the ladder? Instead...",
+                          "links": [
+                            {
+                              "id": 20,
+                              "title": "Savoir Faire: \"What if you were to do something mo...\"",
+                              "articyId": "0x01000016000099B1",
+                              "text": "What if you were to do something more *subtle*?",
+                              "links": [
+                                {
+                                  "id": 33,
+                                  "title": "Conceptualization: \"What if you were to *re-conceptuali...\"",
+                                  "articyId": "0x01000016000099B8",
+                                  "text": "What if you were to *re-conceptualize* climbing the ladder?",
+                                  "links": [
+                                    {
+                                      "id": 61,
+                                      "title": "Rhetoric: \"Yes -- climbing it would be too *ex...\"",
+                                      "articyId": "0x0100000600014CB9",
+                                      "text": "Yes -- climbing it would be too *expensive*. The animations your body needs to make, interacting with the ladder, are beyond your capabilities at this moment in your career.",
+                                      "links": [
+                                        {
+                                          "id": 30,
+                                          "title": "Inland Empire: \"ASTRAL PROJECTION! Be *open-minded*...\"",
+                                          "articyId": "0x01000016000099BF",
+                                          "text": "ASTRAL PROJECTION! Be *open-minded* about this.",
+                                          "links": [
+                                            {
+                                              "id": 52,
+                                              "title": "Pain Threshold: \"Yeah... Because falling from that h...\"",
+                                              "articyId": "0x01000016000099C6",
+                                              "text": "Yeah... Because falling from that height seems, well -- SPLAT! So don't do that. Just, you know...",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 108,
+                      "title": "You: \"One-ninety. I'm a giant.\"",
+                      "articyId": "0x010000160000999B",
+                      "text": "One-ninety. I'm a giant.",
+                      "links": [
+                        {
+                          "id": 93,
+                          "title": "Feld Ladder: \"Okay. But, still -- the roof is col...\"",
+                          "articyId": "0x01000016000099A3",
+                          "text": "Okay. But, still -- the roof is collapsing and the wind gets pretty brutal up there. Dismounting from the ladder is going to be *hard*. Perhaps if you were to... *not* climb the ladder? Instead...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "title": "You: \"\"What if I don't climb? What if I j...\"",
+          "articyId": "0x0100008900000AB3",
+          "text": "\"What if I don't climb? What if I just... *teleport*?\"",
+          "links": [
+            {
+              "id": 82,
+              "title": "Kim Kitsuragi: \"\"Teleportation is not a thing.\" The...\"",
+              "articyId": "0x0100008900000ABA",
+              "text": "\"Teleportation is not a thing.\" The lieutenant stares at you, stone-faced.",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Rhetoric: \"Even if it isn't -- no one told you...\"",
+                  "articyId": "0x0100000600014C7A",
+                  "text": "Even if it isn't -- no one told you.",
+                  "links": [
+                    {
+                      "id": 31,
+                      "title": "You: \"\"It is a thing for *me*. I can't *r...\"",
+                      "articyId": "0x0100000600014C8C",
+                      "text": "\"It is a thing for *me*. I can't *remember* it's not a thing.\"",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "Kim Kitsuragi: \"\"That's not how physics work, detec...\"",
+                          "articyId": "0x0100000600014C93",
+                          "text": "\"That's not how physics work, detective. And even if it were -- wouldn't you need some kind of apparatus? A teleportation field or...\"",
+                          "links": [
+                            {
+                              "id": 56,
+                              "title": "Mikael Heidelstam: \"\"What are they talking about?\" the...\"",
+                              "articyId": "0x0100000600014CA3",
+                              "text": "\"What are they talking about?\" the kid behind you whispers, asking his father.",
+                              "links": [
+                                {
+                                  "id": 41,
+                                  "title": "Trant Heidelstam: \"\"Teleportation, Mikael. It's... gen...\"",
+                                  "articyId": "0x0100000600014CAA",
+                                  "text": "\"Teleportation, Mikael. It's... generally thought impossible.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 75,
+                      "title": "You: \"\"C'mon, Kim. Where's your adventuro...\"",
+                      "articyId": "0x0100008900000AC1",
+                      "text": "\"C'mon, Kim. Where's your adventurous spirit?\"",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "Kim Kitsuragi: \"\"This really has nothing to do with...\"",
+                          "articyId": "0x0100008900000ACE",
+                          "text": "\"This really has nothing to do with... adventure. We're dealing with basic physics here.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 58,
+                      "title": "You: \"\"Teleportation *is* a thing. Just n...\"",
+                      "articyId": "0x0100008900000AC6",
+                      "text": "\"Teleportation *is* a thing. Just needs a bit of concentration...\"",
+                      "links": [
+                        {
+                          "id": 83,
+                          "title": "Kim Kitsuragi: \"\"Okay, let's say teleportation is a...\"",
+                          "articyId": "0x0100008900000ADA",
+                          "text": "\"Okay, let's say teleportation is a thing. Wouldn't you need some kind of... scientific apparatus to create a teleportation field? You can't just do it without apparatus.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 88,
+                      "title": "You: \"\"It won't hurt to try.\"\"",
+                      "articyId": "0x010000580000C7ED",
+                      "text": "\"It won't hurt to try.\"",
+                      "links": [
+                        {
+                          "id": 74,
+                          "title": "Kim Kitsuragi: \"\"Oh yes. It could hurt. A lot.\"\"",
+                          "articyId": "0x010000580000C80C",
+                          "text": "\"Oh yes. It could hurt. A lot.\"",
+                          "links": [
+                            {
+                              "id": 111,
+                              "title": "Authority: \"He is restraining himself from usin...\"",
+                              "articyId": "0x010000580000C812",
+                              "text": "He is restraining himself from using a parental tone with you right now.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "title": "You: \"Teleport to the roof.\"",
+          "articyId": "0x0100008900000AEE",
+          "text": "Teleport to the roof.",
+          "links": [
+            {
+              "id": 76,
+              "title": "Savoir Faire: \"All you need to do is close your ey...\"",
+              "articyId": "0x0100008900000B05",
+              "text": "All you need to do is close your eyes and concentrate. Darkness *enfolds* you. You can *feel* the distance between the bench and the first rung of the ladder. All you need to is...",
+              "links": [
+                {
+                  "id": 115,
+                  "title": "You: \"Do it.\"",
+                  "articyId": "0x0100008900000B0C",
+                  "text": "Do it.",
+                  "links": [
+                    {
+                      "id": 89,
+                      "title": "Savoir Faire: \"*ZOOT*! *ZAP*! *POW*! *CRINKLE*! It...\"",
+                      "articyId": "0x0100008900000B1E",
+                      "text": "*ZOOT*! *ZAP*! *POW*! *CRINKLE*! It's like magic, you feel yourself disappear, your atoms fading out of existence...",
+                      "links": [
+                        {
+                          "id": 8,
+                          "title": "Trant Heidelstam: \"\"Oh my god! I can't believe it!\"\"",
+                          "articyId": "0x0100008900000B25",
+                          "text": "\"Oh my god! I can't believe it!\"",
+                          "links": [
+                            {
+                              "id": 21,
+                              "title": "Savoir Faire: \"*BAM*! You find yourself on the roo...\"",
+                              "articyId": "0x0100008900000B2C",
+                              "text": "*BAM*! You find yourself on the roof... having mastered the art of physical displacement.",
+                              "links": [
+                                {
+                                  "id": 55,
+                                  "title": "You: \"\"I did it, Kim! I teleported!\"\"",
+                                  "articyId": "0x0100008900000B39",
+                                  "text": "\"I did it, Kim! I teleported!\"",
+                                  "links": [
+                                    {
+                                      "id": 59,
+                                      "title": "Kim Kitsuragi: \"\"I just *saw* you climb the ladder,...\"",
+                                      "articyId": "0x0100008900000B40",
+                                      "text": "\"I just *saw* you climb the ladder,\" the lieutenant shouts from below. \"You just climbed it, like a regular person.\"",
+                                      "links": [
+                                        {
+                                          "id": 38,
+                                          "title": "Savoir Faire: \"No -- not like a regular person. Li...\"",
+                                          "articyId": "0x010000060001E689",
+                                          "text": "No -- not like a regular person. Like a phase spider.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 66,
+                                  "title": "You: \"Don't gloat. Just stand there like...\"",
+                                  "articyId": "0x0100001600009A53",
+                                  "text": "Don't gloat. Just stand there like a Samaran master.",
+                                  "links": [
+                                    {
+                                      "id": 16,
+                                      "title": "Kim Kitsuragi: \"\"You know, for the record, you didn...\"",
+                                      "articyId": "0x0100000600014E92",
+                                      "text": "\"You know, for the record, you didn't teleport there. You just climbed the ladder with your eyes closed...\"",
+                                      "links": [
+                                        {
+                                          "id": 27,
+                                          "title": "Perception (Hearing): \"The wind at the top of the building...\"",
+                                          "articyId": "0x0100008900000B5E",
+                                          "text": "The wind at the top of the building starts howling loudly, blowing away the lieutenant's voice... faintly you hear...",
+                                          "links": [
+                                            {
+                                              "id": 68,
+                                              "title": "Kim Kitsuragi: \"\"Never mind... find a way to let me...\"",
+                                              "articyId": "0x0100008900000B73",
+                                              "text": "\"Never mind... find a way to let me in when you get inside! Don't go adventuring without backup, especially if we think the suspect may be hiding here.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 10,
+                          "title": "Kim Kitsuragi: \"\"Okay, well. That's impressive, but...\"",
+                          "articyId": "0x0100000600014E50",
+                          "text": "\"Okay, well. That's impressive, but...\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 72,
+              "title": "Savoir Faire: \"It's not happening. You simply do n...\"",
+              "articyId": "0x0100000600014E6C",
+              "text": "It's not happening. You simply do not have the mind-over-matter athletic capacity to pull it off at this time.",
+              "links": []
+            },
+            {
+              "id": 40,
+              "title": "Savoir Faire: \"Yes. Teleportation is completely no...\"",
+              "articyId": "0x010000580000C82C",
+              "text": "Yes. Teleportation is completely not a thing. Perhaps if you were to, instead, climb the ladder with your eyes closed? This way it's less scary.",
+              "links": [
+                {
+                  "id": 109,
+                  "title": "You: \"Grab the first rung.\"",
+                  "articyId": "0x010000580000C832",
+                  "text": "Grab the first rung.",
+                  "links": [
+                    {
+                      "id": 106,
+                      "title": "Feld Ladder: \"It doesn't crumble in your hand, as...\"",
+                      "articyId": "0x010000580000C838",
+                      "text": "It doesn't crumble in your hand, as one might expect. In fact, it doesn't even bend.",
+                      "links": [
+                        {
+                          "id": 43,
+                          "title": "You: \"Grab the second rung.\"",
+                          "articyId": "0x0100007100002AEC",
+                          "text": "Grab the second rung.",
+                          "links": [
+                            {
+                              "id": 99,
+                              "title": "Feld Ladder: \"Your fingers slip from the rung...\"",
+                              "articyId": "0x0100007100002AE3",
+                              "text": "Your fingers slip from the rung...",
+                              "links": [
+                                {
+                                  "id": 42,
+                                  "title": "Trant Heidelstam: \"\"Officer, be careful! Officer!\"\"",
+                                  "articyId": "0x010000580000C83E",
+                                  "text": "\"Officer, be careful! Officer!\"",
+                                  "links": [
+                                    {
+                                      "id": 54,
+                                      "title": "Pain Threshold: \"Brace yourself!\"",
+                                      "articyId": "0x0100006B00005FE9",
+                                      "text": "Brace yourself!",
+                                      "links": [
+                                        {
+                                          "id": 112,
+                                          "title": "Feld Ladder: \"The ladder gleams arrogantly with w...\"",
+                                          "articyId": "0x0100006B00005FFB",
+                                          "text": "The ladder gleams arrogantly with what remains of its metallic lustre as you hit the barrel and tumble onto the ground.",
+                                          "links": [
+                                            {
+                                              "id": 77,
+                                              "title": "Kim Kitsuragi: \"\"Enough of that now, officer...\" Th...\"",
+                                              "articyId": "0x0100000600014E80",
+                                              "text": "\"Enough of that now, officer...\" The lieutenant pats you on the back. \"There has got to be a better, more *age-appropriate* way in.\"",
+                                              "links": [
+                                                {
+                                                  "id": 51,
+                                                  "title": "Physical Instrument: \"Hear that? You're old. That's why y...\"",
+                                                  "articyId": "0x0100000600014EAA",
+                                                  "text": "Hear that? You're old. That's why you can't do it. Old and feeble. A let-down. A failure.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 71,
+                                          "title": "Feld Ladder: \"The ladder gleams arrogantly with w...\"",
+                                          "articyId": "0x010000580000C844",
+                                          "text": "The ladder gleams arrogantly with what remains of its metallic lustre as you hit the barrel and tumble onto the ground.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 69,
+                                  "title": "Kim Kitsuragi: \"\"Careful...\"\"",
+                                  "articyId": "0x0100000600014E64",
+                                  "text": "\"Careful...\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 73,
+              "title": "Savoir Faire: \"On second thought, maybe teleportat...\"",
+              "articyId": "0x01000016000099EA",
+              "text": "On second thought, maybe teleportation isn't a thing.",
+              "links": [
+                {
+                  "id": 70,
+                  "title": "You: \"Why?\"",
+                  "articyId": "0x01000016000099F7",
+                  "text": "Why?",
+                  "links": [
+                    {
+                      "id": 65,
+                      "title": "Perception (Hearing): \"Because you're just standing there...\"",
+                      "articyId": "0x01000016000099FE",
+                      "text": "Because you're just standing there squeezing your buttocks and nothing is happening.",
+                      "links": [
+                        {
+                          "id": 100,
+                          "title": "You: \"\"Kim, do you know where I could *ge...\"",
+                          "articyId": "0x0100001600009A0B",
+                          "text": "\"Kim, do you know where I could *get* that teleportation apparatus?\"",
+                          "links": [
+                            {
+                              "id": 39,
+                              "title": "Kim Kitsuragi: \"\"Teleportation apparatus? I don't r...\"",
+                              "articyId": "0x0100001600009A34",
+                              "text": "\"Teleportation apparatus? I don't remember mentioning anything about teleportation apparatus. Please don't try to *climb* the building, we'll get in another way.\"",
+                              "links": [
+                                {
+                                  "id": 32,
+                                  "title": "Rhetoric: \"He *did*, he totally said something...\"",
+                                  "articyId": "0x0100000600014E20",
+                                  "text": "He *did*, he totally said something about the apparatus, god damn it...",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "title": "You: \"\"Kim, it isn't happening! I'm not t...\"",
+                          "articyId": "0x0100001600009A14",
+                          "text": "\"Kim, it isn't happening! I'm not teleporting.\"",
+                          "links": [
+                            {
+                              "id": 23,
+                              "title": "Kim Kitsuragi: \"He looks at you, eyes wide with fei...\"",
+                              "articyId": "0x0100001600009A1D",
+                              "text": "He looks at you, eyes wide with feigned surprise. \"You're not? Please don't try to *climb* the building, we'll get in another way.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 24,
+                          "title": "You: \"Don't say the stupid thing.\"",
+                          "articyId": "0x0100001600009A24",
+                          "text": "Don't say the stupid thing.",
+                          "links": [
+                            {
+                              "id": 101,
+                              "title": "Kim Kitsuragi: \"The lieutenant looks at you with th...\"",
+                              "articyId": "0x0100001600009A2B",
+                              "text": "The lieutenant looks at you with that 'I-know-you're-thinking-the-stupid-thing' look -- as you grow tired of clenching your buttocks and give up.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "title": "You: \"You're not ready to do this yet. [L...\"",
+          "articyId": "0x010000580000C7F9",
+          "text": "You're not ready to do this yet. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Feld Ladder: \"A rusty ladder leads to the rooftop...\"",
+      "articyId": "0x010000580000C7C8",
+      "text": "A rusty ladder leads to the rooftop. Some of the rungs are missing.",
+      "links": [
+        {
+          "id": 57,
+          "title": "Kim Kitsuragi: \"\"Yeah, that doesn't look good at al...\"",
+          "articyId": "0x010000580000C7D4",
+          "text": "\"Yeah, that doesn't look good at all.\"",
+          "links": []
+        },
+        {
+          "id": 98,
+          "title": "Esprit de Corps: \"You shouldn't attempt to get to the...\"",
+          "articyId": "0x010000580000C7DA",
+          "text": "You shouldn't attempt to get to the roof without the lieutenant here. What if you fall and need to be rushed to the hospital?",
+          "links": []
+        },
+        {
+          "id": 29,
+          "title": "Esprit de Corps: \"You shouldn't attempt to climb this...\"",
+          "articyId": "0x0100000600014E46",
+          "text": "You shouldn't attempt to climb this ladder without the lieutenant here. What if you fall and need to be rushed to the hospital?",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

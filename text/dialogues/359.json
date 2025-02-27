@@ -1,0 +1,83 @@
+{
+  "id": "0x010000570001D9FF",
+  "title": "APT ORB / foreclosed apt logic",
+  "description": "Logic wonders what happened in this apartment.",
+  "dialogueTree": [
+    {
+      "id": 2,
+      "title": "Logic: \"What happened here?\"",
+      "articyId": "0x010000570001E0B2",
+      "text": "What happened here?",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"You can't foreclose on an apartment...\"",
+          "articyId": "0x010000570001E16F",
+          "text": "You can't foreclose on an apartment with a hole in the wall.",
+          "links": [
+            {
+              "id": 11,
+              "title": "Logic: \"It will still be accessible through...\"",
+              "articyId": "0x010000570001E17E",
+              "text": "It will still be accessible through the apartment next to it. That one didn't have a door... Sadly, nothing of great value remains here.",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "You: \"Except the stuff in the fridge.\"",
+                  "articyId": "0x010000570001E2DC",
+                  "text": "Except the stuff in the fridge.",
+                  "links": [
+                    {
+                      "id": 9,
+                      "title": "Logic: \"Indeed!\"",
+                      "articyId": "0x010000570001E307",
+                      "text": "Indeed!",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "You: \"There's always a little something i...\"",
+                  "articyId": "0x010000570001E2E2",
+                  "text": "There's always a little something in the fridge.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "You: \"This looks so sad...\"",
+          "articyId": "0x010000570001E2EA",
+          "text": "This looks so sad...",
+          "links": [
+            {
+              "id": 6,
+              "title": "Logic: \"Put your emotions aside. Try to foc...\"",
+              "articyId": "0x010000570001E2F2",
+              "text": "Put your emotions aside. Try to focus on abstract, impersonal things.",
+              "links": [
+                {
+                  "id": 7,
+                  "title": "Inland Empire: \"But this reeks of sadness!\"",
+                  "articyId": "0x010000570001E2F8",
+                  "text": "But this reeks of sadness!",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "You: \"[Discard thought.]\"",
+          "articyId": "0x010000570001E175",
+          "text": "[Discard thought.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

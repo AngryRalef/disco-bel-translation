@@ -1,0 +1,926 @@
+{
+  "id": "0x0100000B00000020",
+  "title": "ICE / CHURCH DOOR",
+  "description": "Initiating the Get Into The Church TO-DO",
+  "dialogueTree": [
+    {
+      "id": 6,
+      "title": "Church Doors: \"Heavy wooden doors more than twice...\"",
+      "articyId": "0x0100000B00000027",
+      "text": "Heavy wooden doors more than twice your height stand shut in front of you. The rectangular, sea-worn ornamentation appears in stark contrast to the padlock carelessly drilled into the wood.",
+      "links": [
+        {
+          "id": 52,
+          "title": "You: \"Open the padlock with the key.\"",
+          "articyId": "0x0100000B00002778",
+          "text": "Open the padlock with the key.",
+          "links": [
+            {
+              "id": 45,
+              "title": "Church Doors: \"The lock turns easily. You hear a c...\"",
+              "articyId": "0x0100000B0000277F",
+              "text": "The lock turns easily. You hear a click as the shackle pops open.",
+              "links": [
+                {
+                  "id": 223,
+                  "title": "Shivers: \"Feels like electricity and a very s...\"",
+                  "articyId": "0x01000004000054AC",
+                  "text": "Feels like electricity and a very small piece of nothingness.",
+                  "links": [
+                    {
+                      "id": 15,
+                      "title": "Kim Kitsuragi: \"\"Let's go.\" The lieutenant nods at...\"",
+                      "articyId": "0x0100000B0000278C",
+                      "text": "\"Let's go.\" The lieutenant nods at you.",
+                      "links": []
+                    },
+                    {
+                      "id": 216,
+                      "title": "You: \"Pull on the doors...\"",
+                      "articyId": "0x010000060001E3A0",
+                      "text": "Pull on the doors...",
+                      "links": [
+                        {
+                          "id": 29,
+                          "title": "Inland Empire: \"As you do, you hear and the echo of...\"",
+                          "articyId": "0x0100005A0000DDC6",
+                          "text": "As you do, you hear and the echo of the Doomed Commercial Area. Its black halls and dusty machines. Then the feeling passes.",
+                          "links": []
+                        },
+                        {
+                          "id": 222,
+                          "title": "Church Doors: \"A great whoosh of air rushes into t...\"",
+                          "articyId": "0x0100000400005497",
+                          "text": "A great whoosh of air rushes into the dark innards of the church, as though rushing to fill a great vacuum...",
+                          "links": [
+                            {
+                              "id": 27,
+                              "title": "Church Doors: \"... in the heart of the city.\"",
+                              "articyId": "0x0100002100002AC0",
+                              "text": "... in the heart of the city.",
+                              "links": [
+                                {
+                                  "id": 43,
+                                  "title": "Church Doors: \"You enter the church.\"",
+                                  "articyId": "0x010000060001E3A8",
+                                  "text": "You enter the church.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "title": "You: \"Rattle the doors to see if they ope...\"",
+          "articyId": "0x0100000B0000004A",
+          "text": "Rattle the doors to see if they open.",
+          "links": [
+            {
+              "id": 185,
+              "title": "Church Doors: \"Nothing happens, only the sound of...\"",
+              "articyId": "0x01000014000021F4",
+              "text": "Nothing happens, only the sound of the padlock rattling against the door.",
+              "links": [
+                {
+                  "id": 197,
+                  "title": "Kim Kitsuragi: \"\"I don't think that's going to work...\"",
+                  "articyId": "0x0100000B00000064",
+                  "text": "\"I don't think that's going to work...\"",
+                  "links": [
+                    {
+                      "id": 26,
+                      "title": "Kim Kitsuragi: \"\"Besides, we should really get to t...\"",
+                      "articyId": "0x0100002100002AB6",
+                      "text": "\"Besides, we should really get to the island.\" He looks at the sea.",
+                      "links": []
+                    },
+                    {
+                      "id": 96,
+                      "title": "Kim Kitsuragi: \"\"Do you think our suspect is hiding...\"",
+                      "articyId": "0x01000004000042C5",
+                      "text": "\"Do you think our suspect is hiding inside?\" He raises his sight to the darkened windows overhead.",
+                      "links": [
+                        {
+                          "id": 153,
+                          "title": "You: \"\"I do.\"\"",
+                          "articyId": "0x010000040000495D",
+                          "text": "\"I do.\"",
+                          "links": [
+                            {
+                              "id": 135,
+                              "title": "Kim Kitsuragi: \"\"People do look to churches for she...\"",
+                              "articyId": "0x0100000400004964",
+                              "text": "\"People do look to churches for shelter, but an abandoned thing like this... I'm not so sure.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 157,
+                          "title": "You: \"\"She might be. It's worth checking...\"",
+                          "articyId": "0x0100000B00000079",
+                          "text": "\"She might be. It's worth checking out anyway.\"",
+                          "links": [
+                            {
+                              "id": 158,
+                              "title": "Kim Kitsuragi: \"The lieutenant nods silently.\"",
+                              "articyId": "0x0100000B00000089",
+                              "text": "The lieutenant nods silently.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 80,
+                          "title": "You: \"\"No, I'm just curious.\"\"",
+                          "articyId": "0x0100000B00000073",
+                          "text": "\"No, I'm just curious.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 51,
+                  "title": "Shivers: \"High above, the wind wraps the chur...\"",
+                  "articyId": "0x0100000B000000CC",
+                  "text": "High above, the wind wraps the church in its rush. Cold and wet from the ocean bay, it parts around the massive keel-shaped roof. Like a test tunnel washing both sides, the way it has done for three-hundred-and-forty years. The wind keeps its distance. So should you.",
+                  "links": [
+                    {
+                      "id": 183,
+                      "title": "You: \"\"What is this feeling?\"\"",
+                      "articyId": "0x0100000B00000098",
+                      "text": "\"What is this feeling?\"",
+                      "links": [
+                        {
+                          "id": 22,
+                          "title": "Shivers: \"THERE IS A HOLE IN MY HEART.\"",
+                          "articyId": "0x0100000B000000A6",
+                          "text": "THERE IS A HOLE IN MY HEART.",
+                          "links": [
+                            {
+                              "id": 61,
+                              "title": "Kim Kitsuragi: \"The lieutenant looks at the padlock...\"",
+                              "articyId": "0x0100000B000000AD",
+                              "text": "The lieutenant looks at the padlock. He didn't hear you asking, you were quiet enough.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 148,
+                      "title": "You: \"Back up and look at the door.\"",
+                      "articyId": "0x0100000B0000009E",
+                      "text": "Back up and look at the door.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 182,
+          "title": "You: \"Inspect the carpentry.\"",
+          "articyId": "0x0100000B00000050",
+          "text": "Inspect the carpentry.",
+          "links": [
+            {
+              "id": 141,
+              "title": "Church Doors: \"The carving on the door is blocklik...\"",
+              "articyId": "0x0100000B000000C5",
+              "text": "The carving on the door is blocklike and angular, like the church itself. Two large beams shoot downwards, sinking into the wood before they reach the threshold.",
+              "links": [
+                {
+                  "id": 151,
+                  "title": "You: \"Run your hand over a beam.\"",
+                  "articyId": "0x01000004000042DB",
+                  "text": "Run your hand over a beam.",
+                  "links": [
+                    {
+                      "id": 152,
+                      "title": "Church Doors: \"The surface is smooth from the wind...\"",
+                      "articyId": "0x01000004000042EA",
+                      "text": "The surface is smooth from the wind, but moist to the touch.",
+                      "links": [
+                        {
+                          "id": 10,
+                          "title": "Interfacing: \"Feels exceptional. Three hundred to...\"",
+                          "articyId": "0x010000060001DEA3",
+                          "text": "Feels exceptional. Three hundred tons of pine wood fit together seamlessly. It's old too, cut and carved many centuries ago.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 117,
+                  "title": "You: \"Back up and look at the door.\"",
+                  "articyId": "0x01000004000042E1",
+                  "text": "Back up and look at the door.",
+                  "links": [
+                    {
+                      "id": 235,
+                      "title": "Church Doors: \"The doors remain unchanged -- close...\"",
+                      "articyId": "0x0100000B000000B6",
+                      "text": "The doors remain unchanged -- closed with a padlock.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 147,
+          "title": "You: \"Take a closer look at the padlock.\"",
+          "articyId": "0x0100000B00000056",
+          "text": "Take a closer look at the padlock.",
+          "links": [
+            {
+              "id": 184,
+              "title": "Church Doors: \"This cheap-looking padlock is sturd...\"",
+              "articyId": "0x0100000B000000D9",
+              "text": "This cheap-looking padlock is sturdily built. It shackles together a hasp and a staple screwed into the wooden door. The lock is adorned with a yellow sticker.",
+              "links": [
+                {
+                  "id": 78,
+                  "title": "Interfacing: \"It'll be easier to break the staple...\"",
+                  "articyId": "0x010000060001DEAB",
+                  "text": "It'll be easier to break the staple than the lock. Also -- that sticker is interesting, somehow...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 220,
+          "title": "You: \"Look at the sticker.\"",
+          "articyId": "0x01000004000010B1",
+          "text": "Look at the sticker.",
+          "links": [
+            {
+              "id": 30,
+              "title": "Church Doors: \"You see a yellow circle with two X'...\"",
+              "articyId": "0x01000004000010C4",
+              "text": "You see a yellow circle with two X's and a big curve below them that looks like a mouth. You're pretty sure you haven't seen it before, but what the symbol depicts is clear enough: a smiling dead guy. The curve makes it smile and the X's make it dead.",
+              "links": [
+                {
+                  "id": 63,
+                  "title": "Conceptualization: \"There is something blindingly *mode...\"",
+                  "articyId": "0x01000004000010CB",
+                  "text": "There is something blindingly *modern* about this symbol. Its modernness puts to shame everything you've seen before.",
+                  "links": [
+                    {
+                      "id": 118,
+                      "title": "You: \"What makes it so modern?\"",
+                      "articyId": "0x01000004000042FD",
+                      "text": "What makes it so modern?",
+                      "links": [
+                        {
+                          "id": 75,
+                          "title": "Conceptualization: \"It's the contrast between the cheer...\"",
+                          "articyId": "0x0100000400004303",
+                          "text": "It's the contrast between the cheery, chemical yellow and the rigor mortis. As if the cheery guy didn't know he was dead or the dead guy didn't care that he was. Either way, you get the sense the forces of *future* are at work here.",
+                          "links": [
+                            {
+                              "id": 122,
+                              "title": "Inland Empire: \"These forces of future have chosen...\"",
+                              "articyId": "0x010000060001DEB3",
+                              "text": "These forces of future have chosen to depict something that reminds you of... you.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 71,
+                      "title": "You: \"\"Have you seen this symbol before?\"...\"",
+                      "articyId": "0x01000004000010FE",
+                      "text": "\"Have you seen this symbol before?\" (Point to it.)",
+                      "links": [
+                        {
+                          "id": 72,
+                          "title": "Kim Kitsuragi: \"He takes off his glasses and uses a...\"",
+                          "articyId": "0x0100000400001113",
+                          "text": "He takes off his glasses and uses a blue handkerchief to thoroughly wipe them clean before inspecting the sticker. Then he looks up, pauses, and replies...",
+                          "links": [
+                            {
+                              "id": 9,
+                              "title": "Kim Kitsuragi: \"\"No.\"\"",
+                              "articyId": "0x01000004000042F2",
+                              "text": "\"No.\"",
+                              "links": [
+                                {
+                                  "id": 54,
+                                  "title": "You: \"\"What does it look like to you?\"\"",
+                                  "articyId": "0x010000040000111A",
+                                  "text": "\"What does it look like to you?\"",
+                                  "links": [
+                                    {
+                                      "id": 115,
+                                      "title": "Kim Kitsuragi: \"\"Looks like a dead man smiling. Sug...\"",
+                                      "articyId": "0x0100000400001127",
+                                      "text": "\"Looks like a dead man smiling. Suggests... junior delinquency.\"",
+                                      "links": [
+                                        {
+                                          "id": 131,
+                                          "title": "You: \"\"Okay, what is *junior delinquency*?\"\"",
+                                          "articyId": "0x0100000400001294",
+                                          "text": "\"Okay, what is *junior delinquency*?\"",
+                                          "links": [
+                                            {
+                                              "id": 65,
+                                              "title": "Kim Kitsuragi: \"\"For Revachol ZoC, the Moralintern...\"",
+                                              "articyId": "0x010000040000128E",
+                                              "text": "\"For Revachol ZoC, the Moralintern defines junior delinquents as minors between the ages of 10 and 16 who have committed an act in violation of the law...\"",
+                                              "links": [
+                                                {
+                                                  "id": 64,
+                                                  "title": "Kim Kitsuragi: \"\"These acts aren't called *crimes*...\"",
+                                                  "articyId": "0x0100000400001288",
+                                                  "text": "\"These acts aren't called *crimes* as they would be for adults. Crimes committed by minors are called 'delinquent acts'. This was part of your officer's exams.\" He puts the handkerchief in his coat pocket.",
+                                                  "links": [
+                                                    {
+                                                      "id": 19,
+                                                      "title": "Empathy: \"He feels sorry for you. For him as...\"",
+                                                      "articyId": "0x0100000400001282",
+                                                      "text": "He feels sorry for you. For him as a lieutenant it would be demeaning to have someone recite terms from the officer's exam.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 130,
+                                          "title": "You: \"\"What is suggestive of junior delin...\"",
+                                          "articyId": "0x010000040000125E",
+                                          "text": "\"What is suggestive of junior delinquency here?\"",
+                                          "links": [
+                                            {
+                                              "id": 93,
+                                              "title": "Kim Kitsuragi: \"\"I haven't seen that sticker before...\"",
+                                              "articyId": "0x010000040000113C",
+                                              "text": "\"I haven't seen that sticker before. And I am not a youth.\"",
+                                              "links": [
+                                                {
+                                                  "id": 73,
+                                                  "title": "You: \"\"I agree -- it's very modern. But d...\"",
+                                                  "articyId": "0x0100000400001143",
+                                                  "text": "\"I agree -- it's very modern. But does the cheery guy not know he's dead, or does the dead guy not care that he is? What is the source of the irony here?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 225,
+                                                      "title": "Kim Kitsuragi: \"\"That level of conceptual thinking...\"",
+                                                      "articyId": "0x010000040000114A",
+                                                      "text": "\"That level of conceptual thinking is not part of my skill set.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 137,
+                                                  "title": "You: \"Padlock, padlock, padlock!\"",
+                                                  "articyId": "0x0100000400004C6D",
+                                                  "text": "Padlock, padlock, padlock!",
+                                                  "links": []
+                                                },
+                                                {
+                                                  "id": 179,
+                                                  "title": "Logic: \"Thus, it must be made by youths.\"",
+                                                  "articyId": "0x010000060001DEBC",
+                                                  "text": "Thus, it must be made by youths.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 175,
+                      "title": "You: \"Take another look at the padlock.\"",
+                      "articyId": "0x0100000400001104",
+                      "text": "Take another look at the padlock.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "You: \"Inspect the staple.\"",
+          "articyId": "0x01000004000010B7",
+          "text": "Inspect the staple.",
+          "links": [
+            {
+              "id": 62,
+              "title": "Church Doors: \"The padlock passes through a staple...\"",
+              "articyId": "0x01000004000010AA",
+              "text": "The padlock passes through a staple that's been hastily attached to the wood. Closer inspection reveals that one of the screws is not a screw at all, but a nail. The work has been done recently and is unprofessional, to say the least.",
+              "links": [
+                {
+                  "id": 74,
+                  "title": "Logic: \"Should you want to get through, it...\"",
+                  "articyId": "0x010000040000117B",
+                  "text": "Should you want to get through, it might be easier to just pry the whole thing off.",
+                  "links": [
+                    {
+                      "id": 136,
+                      "title": "You: \"(Turn to the lieutenant.) \"This is...\"",
+                      "articyId": "0x0100000400004A8E",
+                      "text": "(Turn to the lieutenant.) \"This is where Mr. Prybar comes in handy.\"",
+                      "links": [
+                        {
+                          "id": 128,
+                          "title": "Kim Kitsuragi: \"He takes a step back. \"Maybe we sho...\"",
+                          "articyId": "0x0100001F000003F2",
+                          "text": "He takes a step back. \"Maybe we should look for another way in first... The church has seen enough mistreatment.\"",
+                          "links": [
+                            {
+                              "id": 224,
+                              "title": "Empathy: \"There is a touch of something in hi...\"",
+                              "articyId": "0x0100001F000003F8",
+                              "text": "There is a touch of something in his voice. Hard to say what.",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Kim Kitsuragi: \"\"How about we go and check out that...\"",
+                                  "articyId": "0x0100001F000003FF",
+                                  "text": "\"How about we go and check out that tent again?\" He nods at the shabby piece of canvas set up on the ice next to the church.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 48,
+                          "title": "Kim Kitsuragi: \"He takes a step back. \"Maybe we sho...\"",
+                          "articyId": "0x0100000400004A95",
+                          "text": "He takes a step back. \"Maybe we should circle the building first and look for another way. The building has seen enough mistreatment.\"",
+                          "links": [
+                            {
+                              "id": 226,
+                              "title": "Empathy: \"There is a touch of guilt in his vo...\"",
+                              "articyId": "0x01000004000011B1",
+                              "text": "There is a touch of guilt in his voice.",
+                              "links": [
+                                {
+                                  "id": 94,
+                                  "title": "You: \"\"Where do you think we should start?\"\"",
+                                  "articyId": "0x01000004000011B8",
+                                  "text": "\"Where do you think we should start?\"",
+                                  "links": [
+                                    {
+                                      "id": 18,
+                                      "title": "Kim Kitsuragi: \"\"Can you hear the pulsing bass unde...\"",
+                                      "articyId": "0x01000004000011D9",
+                                      "text": "\"Can you hear the pulsing bass underneath the wind?\" He raises his hand to his ear. \"A sure sign of junior delinquency -- somewhere east of here.\"",
+                                      "links": [
+                                        {
+                                          "id": 101,
+                                          "title": "Visual Calculus: \"There's something on the sea ice th...\"",
+                                          "articyId": "0x010000060001DECD",
+                                          "text": "There's something on the sea ice there.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 123,
+                      "title": "You: \"Back off.\"",
+                      "articyId": "0x0100000B00000128",
+                      "text": "Back off.",
+                      "links": []
+                    },
+                    {
+                      "id": 57,
+                      "title": "You: \"\"Kim, do you happen to have a pryba...\"",
+                      "articyId": "0x0100000400001194",
+                      "text": "\"Kim, do you happen to have a prybar?\"",
+                      "links": [
+                        {
+                          "id": 2,
+                          "title": "Kim Kitsuragi: \"The lieutenant takes a step back an...\"",
+                          "articyId": "0x01000004000011A1",
+                          "text": "The lieutenant takes a step back and looks at the church looming overhead. \"Yes, there's a toolbox in the Kineema...\"",
+                          "links": [
+                            {
+                              "id": 46,
+                              "title": "Kim Kitsuragi: \"\"But maybe we should look for anoth...\"",
+                              "articyId": "0x0100001F000003C9",
+                              "text": "\"But maybe we should look for another way in first... The building has seen enough mistreatment.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 192,
+                              "title": "Kim Kitsuragi: \"\"But maybe we should circle the bui...\"",
+                              "articyId": "0x0100000400004314",
+                              "text": "\"But maybe we should circle the building and look for another way in first. The building has seen enough mistreatment.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "You: \"Try to peel off the sticker without...\"",
+          "articyId": "0x010000040000230E",
+          "text": "Try to peel off the sticker without ripping it.",
+          "links": [
+            {
+              "id": 165,
+              "title": "Interfacing: \"There's nothing like the sound of a...\"",
+              "articyId": "0x0100000400002331",
+              "text": "There's nothing like the sound of a sticker unpeeling. Now it's stuck to your thumb.",
+              "links": [
+                {
+                  "id": 8,
+                  "title": "You: \"Put the sticker *in* your ledger --...\"",
+                  "articyId": "0x0100000400002346",
+                  "text": "Put the sticker *in* your ledger -- after the last entry, where it belongs.",
+                  "links": [
+                    {
+                      "id": 97,
+                      "title": "Interfacing: \"Looks like today was a gold star da...\"",
+                      "articyId": "0x0100000400004AC1",
+                      "text": "Looks like today was a gold star day!",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 166,
+                  "title": "You: \"Put the sticker *on* your ledger --...\"",
+                  "articyId": "0x0100000400002340",
+                  "text": "Put the sticker *on* your ledger -- right on the cover!",
+                  "links": [
+                    {
+                      "id": 49,
+                      "title": "Interfacing: \"Voilà! Looks very modern.\"",
+                      "articyId": "0x0100000400004AB1",
+                      "text": "Voilà! Looks very modern.",
+                      "links": [
+                        {
+                          "id": 11,
+                          "title": "Conceptualization: \"You're part of the future-brigade n...\"",
+                          "articyId": "0x010000060001DEC4",
+                          "text": "You're part of the future-brigade now. And so is your formerly humdrum ledger. Neon, baby!",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 95,
+                  "title": "You: \"Shake it off your thumb and throw i...\"",
+                  "articyId": "0x010000040000233A",
+                  "text": "Shake it off your thumb and throw it in the wind.",
+                  "links": [
+                    {
+                      "id": 232,
+                      "title": "Interfacing: \"Au revoir, sticker!\"",
+                      "articyId": "0x0100000400004AB9",
+                      "text": "Au revoir, sticker!",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 176,
+              "title": "Interfacing: \"Your hands are clammy from the sea...\"",
+              "articyId": "0x0100000400002326",
+              "text": "Your hands are clammy from the sea air. The piece of sticker keeps slipping away...",
+              "links": [
+                {
+                  "id": 69,
+                  "title": "You: \"\"Kim, could I have that handkerchie...\"",
+                  "articyId": "0x010000040000499D",
+                  "text": "\"Kim, could I have that handkerchief? My hands are wet.\"",
+                  "links": [
+                    {
+                      "id": 110,
+                      "title": "Kim Kitsuragi: \"The lieutenant hands you a blue han...\"",
+                      "articyId": "0x01000004000049B4",
+                      "text": "The lieutenant hands you a blue handkerchief. He looks a little dismayed when he gets it back crumpled. However, it should be easier to peel the sticker off now.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 154,
+                  "title": "You: \"\"Fuck this!\" (Hit the lock.)\"",
+                  "articyId": "0x01000004000049A3",
+                  "text": "\"Fuck this!\" (Hit the lock.)",
+                  "links": [
+                    {
+                      "id": 178,
+                      "title": "Kim Kitsuragi: \"That hurt. The lieutenant looks up...\"",
+                      "articyId": "0x01000004000049BB",
+                      "text": "That hurt. The lieutenant looks up at the roof of the church, ignoring your little tantrum.",
+                      "links": []
+                    },
+                    {
+                      "id": 41,
+                      "title": "Church Doors: \"The padlock hits the wood like a kn...\"",
+                      "articyId": "0x010000040000544C",
+                      "text": "The padlock hits the wood like a knocker, with a resounding thud. Your cold hand hurts from the impact. Congratulations!",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 177,
+                  "title": "You: \"Gracefully let the lock go.\"",
+                  "articyId": "0x01000004000049A9",
+                  "text": "Gracefully let the lock go.",
+                  "links": [
+                    {
+                      "id": 155,
+                      "title": "Church Doors: \"The lock clanks against the door, c...\"",
+                      "articyId": "0x01000004000049C2",
+                      "text": "The lock clanks against the door, cold and heavy.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 227,
+          "title": "You: \"Apply some official force on the pa...\"",
+          "articyId": "0x01000004000011FE",
+          "text": "Apply some official force on the padlock.",
+          "links": [
+            {
+              "id": 143,
+              "title": "Physical Instrument: \"You jam the prybar between the lock...\"",
+              "articyId": "0x0100005A00006650",
+              "text": "You jam the prybar between the lock and the staple and apply force -- your biceps bulge from the strain. The metal creaks and squeals...",
+              "links": [
+                {
+                  "id": 159,
+                  "title": "Physical Instrument: \"The pathetic old wood, rusty screws...\"",
+                  "articyId": "0x0100005A0000663B",
+                  "text": "The pathetic old wood, rusty screws (and one nail) stand no chance against the forces of *leverage*. From deep within, a bellow rips...",
+                  "links": [
+                    {
+                      "id": 88,
+                      "title": "You: \"\"Welcome to Revachol, lock!\"\"",
+                      "articyId": "0x0100005A0000665D",
+                      "text": "\"Welcome to Revachol, lock!\"",
+                      "links": [
+                        {
+                          "id": 161,
+                          "title": "Physical Instrument: \"Suddenly, the prybar snaps. Metal s...\"",
+                          "articyId": "0x0100005A00006674",
+                          "text": "Suddenly, the prybar snaps. Metal shavings fly everywhere. The upper half, between the lock and the staple, falls to the ground with a *thunk*.",
+                          "links": [
+                            {
+                              "id": 162,
+                              "title": "You: \"Look at the broken tool in your han...\"",
+                              "articyId": "0x0100005A0000CC0A",
+                              "text": "Look at the broken tool in your hand.",
+                              "links": [
+                                {
+                                  "id": 16,
+                                  "title": "Physical Instrument: \"The broken edge of the snapped pryb...\"",
+                                  "articyId": "0x0100005A0000CC1F",
+                                  "text": "The broken edge of the snapped prybar is smooth. Took the tip right off...",
+                                  "links": [
+                                    {
+                                      "id": 163,
+                                      "title": "Inland Empire: \"A bad omen. Beware of this church.\"",
+                                      "articyId": "0x0100005A0000CC27",
+                                      "text": "A bad omen. Beware of this church.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 47,
+                              "title": "You: \"\"The fuck? How is this even *possib...\"",
+                              "articyId": "0x0100005A0000667E",
+                              "text": "\"The fuck? How is this even *possible*?\"",
+                              "links": [
+                                {
+                                  "id": 181,
+                                  "title": "Kim Kitsuragi: \"\"Tools break, officer. Try to contr...\"",
+                                  "articyId": "0x010000060001DEF1",
+                                  "text": "\"Tools break, officer. Try to control yourself.\"",
+                                  "links": [
+                                    {
+                                      "id": 140,
+                                      "title": "Esprit de Corps: \"For example, see how calm I am, alt...\"",
+                                      "articyId": "0x010000060001DEFB",
+                                      "text": "For example, see how calm I am, although you broke my favourite prybar.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 196,
+                                  "title": "Physical Instrument: \"Your muscles do not know. This shou...\"",
+                                  "articyId": "0x010000060001DED6",
+                                  "text": "Your muscles do not know. This shouldn't happen. You're sure the wood looked weak.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 240,
+                              "title": "You: \"\"I broke the prybar. Where do I get...\"",
+                              "articyId": "0x0100005A00006684",
+                              "text": "\"I broke the prybar. Where do I get a new one?\" (Proceed.)",
+                              "links": [
+                                {
+                                  "id": 31,
+                                  "title": "Kim Kitsuragi: \"\"I don't know... you *don't*? Or ma...\"",
+                                  "articyId": "0x0100000400001217",
+                                  "text": "\"I don't know... you *don't*? Or maybe we'll find a new one. I don't carry more than one prybar with me...\" He looks up at the bell-tower.",
+                                  "links": [
+                                    {
+                                      "id": 79,
+                                      "title": "Kim Kitsuragi: \"\"I thought this was a lousy way to...\"",
+                                      "articyId": "0x010000060001DF0B",
+                                      "text": "\"I thought this was a lousy way to enter a place of worship that's already in disrepair. I guess the church agreed.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 42,
+                                  "title": "Church Doors: \"The church does not reply. The wood...\"",
+                                  "articyId": "0x010000060001DF03",
+                                  "text": "The church does not reply. The wood now seems less rotten, the screws (and one nail) almost shimmer with perseverance.",
+                                  "links": [
+                                    {
+                                      "id": 173,
+                                      "title": "Logic: \"This was surely just a freak accide...\"",
+                                      "articyId": "0x0100005A0000CC57",
+                                      "text": "This was surely just a freak accident.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 129,
+                      "title": "You: \"\"RAAARRRRRG!\"\"",
+                      "articyId": "0x0100005A00006663",
+                      "text": "\"RAAARRRRRG!\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 150,
+              "title": "Physical Instrument: \"Nice try, son, but this is not some...\"",
+              "articyId": "0x0100000200001165",
+              "text": "Nice try, son, but this is not something you should be attempting to do with your bare hands.",
+              "links": []
+            },
+            {
+              "id": 160,
+              "title": "Physical Instrument: \"A minute or so of mauling away at t...\"",
+              "articyId": "0x0100005A00006640",
+              "text": "A minute or so of mauling away at the lock has led to no success. The prybar in your hand has given you... zero mechanical advantage.",
+              "links": [
+                {
+                  "id": 138,
+                  "title": "You: \"\"You could give me a hand, you know?\"\"",
+                  "articyId": "0x0100000400004D57",
+                  "text": "\"You could give me a hand, you know?\"",
+                  "links": [
+                    {
+                      "id": 111,
+                      "title": "Kim Kitsuragi: \"\"I'm not as *sturdy* as you are. I...\"",
+                      "articyId": "0x0100000400004D51",
+                      "text": "\"I'm not as *sturdy* as you are. I have even less leverage.\" He doesn't even try to sound convincing.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 37,
+                  "title": "You: \"Admit defeat and leave the lock alo...\"",
+                  "articyId": "0x0100000400004D43",
+                  "text": "Admit defeat and leave the lock alone.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 116,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100000400001242",
+          "text": "[Leave.]",
+          "links": [
+            {
+              "id": 76,
+              "title": "Kim Kitsuragi: \"\"If you really think we should get...\"",
+              "articyId": "0x0100000400004E1E",
+              "text": "\"If you really think we should get in there, we need to find some other way...\"",
+              "links": [
+                {
+                  "id": 149,
+                  "title": "You: \"\"Where do you think we should start?\"\"",
+                  "articyId": "0x0100005A000081BB",
+                  "text": "\"Where do you think we should start?\"",
+                  "links": [
+                    {
+                      "id": 53,
+                      "title": "Kim Kitsuragi: \"\"Can you hear the pulsing bass unde...\"",
+                      "articyId": "0x0100005A000081C3",
+                      "text": "\"Can you hear the pulsing bass underneath the east wind?\" He raises his hand to his ear. \"A sure sign of junior delinquency.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 89,
+                  "title": "You: \"\"I'm actually not that interested i...\"",
+                  "articyId": "0x0100005A0000830B",
+                  "text": "\"I'm actually not that interested in the church right now.\"",
+                  "links": [
+                    {
+                      "id": 28,
+                      "title": "Kim Kitsuragi: \"\"It does seem rather irrelevant to...\"",
+                      "articyId": "0x0100005A000082FF",
+                      "text": "\"It does seem rather irrelevant to our case.\" The lieutenant nods.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

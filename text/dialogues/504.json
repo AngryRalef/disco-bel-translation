@@ -1,0 +1,190 @@
+{
+  "id": "0x0100007B000020E6",
+  "title": "BOARDWALK / RAILING",
+  "description": "You've discovered Idiot Doom Spiral's missing jacket.",
+  "dialogueTree": [
+    {
+      "id": 15,
+      "title": "Railing: \"Someone has left an unidentifiable...\"",
+      "articyId": "0x0100007B000020E7",
+      "text": "Someone has left an unidentifiable article of clothing on this railing. It smells really bad.",
+      "links": [
+        {
+          "id": 16,
+          "title": "You: \"Touch it.\"",
+          "articyId": "0x0100008900001BA4",
+          "text": "Touch it.",
+          "links": [
+            {
+              "id": 27,
+              "title": "Railing: \"The cloth, if you can still call it...\"",
+              "articyId": "0x0100007B00002253",
+              "text": "The cloth, if you can still call it that, makes a soft crunching sound as you thrust your finger into it.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "You: \"Take a closer look.\"",
+          "articyId": "0x0100007B00002195",
+          "text": "Take a closer look.",
+          "links": [
+            {
+              "id": 38,
+              "title": "Railing: \"It's streaked with dried seagull sh...\"",
+              "articyId": "0x0100007B0000219C",
+              "text": "It's streaked with dried seagull shit and tangled with pieces of seaweed. A dangling arm suggests that there might be a jacket beneath the crust of filth.",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "Logic: \"It seems likely that it was left in...\"",
+                  "articyId": "0x0100007B000021AA",
+                  "text": "It seems likely that it was left in the surf until someone laid it out on this fence to dry out. Unfortunately that just seems to have stiffened it into a shapeless mass.",
+                  "links": [
+                    {
+                      "id": 34,
+                      "title": "Kim Kitsuragi: \"\"Please tell me you're not taking t...\"",
+                      "articyId": "0x0100007B000021C4",
+                      "text": "\"Please tell me you're not taking that with you.\"",
+                      "links": [
+                        {
+                          "id": 29,
+                          "title": "You: \"\"I think this is the jacket the Idi...\"",
+                          "articyId": "0x0100007B00002214",
+                          "text": "\"I think this is the jacket the Idiot Doom Spiral Guy wanted me to find.\"",
+                          "links": [
+                            {
+                              "id": 37,
+                              "title": "Kim Kitsuragi: \"The lieutenant looks at the stinkin...\"",
+                              "articyId": "0x0100007B0000221E",
+                              "text": "The lieutenant looks at the stinking rag and sniffs. \"I'm sure he'll be *thrilled* to have it returned.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 25,
+                          "title": "You: \"\"Why not?\"\"",
+                          "articyId": "0x0100007B000021CB",
+                          "text": "\"Why not?\"",
+                          "links": [
+                            {
+                              "id": 39,
+                              "title": "Kim Kitsuragi: \"\"It's a guano-encrusted jacket. And...\"",
+                              "articyId": "0x0100007B000021EF",
+                              "text": "\"It's a guano-encrusted jacket. And you're already carrying around enough as it is.\"",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "title": "You: \"\"It might be a clue.\"\"",
+                          "articyId": "0x0100007B0000220E",
+                          "text": "\"It might be a clue.\"",
+                          "links": [
+                            {
+                              "id": 13,
+                              "title": "Kim Kitsuragi: \"\"A clue? You think our suspect is a...\"",
+                              "articyId": "0x0100007B00002226",
+                              "text": "\"A clue? You think our suspect is a seagull who's been defecating on unsuspecting jackets?\"",
+                              "links": [
+                                {
+                                  "id": 5,
+                                  "title": "You: \"\"No.\"\"",
+                                  "articyId": "0x0100007B0000222D",
+                                  "text": "\"No.\"",
+                                  "links": [
+                                    {
+                                      "id": 6,
+                                      "title": "Kim Kitsuragi: \"\"Me neither.\"\"",
+                                      "articyId": "0x0100007B0000224C",
+                                      "text": "\"Me neither.\"",
+                                      "links": [
+                                        {
+                                          "id": 28,
+                                          "title": "Interfacing: \"You should still take it. It's prob...\"",
+                                          "articyId": "0x0100000600017EF9",
+                                          "text": "You should still take it. It's probably Doom Spiral's.",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 17,
+                                          "title": "Interfacing: \"You should still take it.\"",
+                                          "articyId": "0x0100000600017F09",
+                                          "text": "You should still take it.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 26,
+                                  "title": "You: \"\"Yes.\"\"",
+                                  "articyId": "0x0100007B00002233",
+                                  "text": "\"Yes.\"",
+                                  "links": [
+                                    {
+                                      "id": 35,
+                                      "title": "Kim Kitsuragi: \"The lieutenant sighs.\"",
+                                      "articyId": "0x0100007B00002242",
+                                      "text": "The lieutenant sighs.",
+                                      "links": [
+                                        {
+                                          "id": 2,
+                                          "title": "Conceptualization: \"A poet could write a dozen verses a...\"",
+                                          "articyId": "0x0100002100000BF0",
+                                          "text": "A poet could write a dozen verses and still not begin to capture the profound vexation in that sigh.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 3,
+                                  "title": "You: \"\"It could have been multiple seagul...\"",
+                                  "articyId": "0x0100007B00002239",
+                                  "text": "\"It could have been multiple seagulls.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 36,
+                      "title": "Interfacing: \"Much as the thought of touching it...\"",
+                      "articyId": "0x01000089000011FD",
+                      "text": "Much as the thought of touching it causes you to cringe, this could be the jacket that the idiot in the colourful tracksuit was looking for...",
+                      "links": [
+                        {
+                          "id": 40,
+                          "title": "Inland Empire: \"This jacket reeks of loss and failu...\"",
+                          "articyId": "0x0100008900001B90",
+                          "text": "This jacket reeks of loss and failure. It could be the one that the idiot in the colourful tracksuit was looking for...",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "You: \"Maybe later. [Leave.]\"",
+          "articyId": "0x0100007B00002101",
+          "text": "Maybe later. [Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "0x0100006B00009DD4",
+  "title": "COAL ORB / labourer jeans equipped",
+  "description": "putting on the labourer pants make orb appear, similar to your own pants at beginning of game; in order to find gum wrapper in pocket",
+  "dialogueTree": [
+    {
+      "id": 7,
+      "title": "Interfacing: \"The pockets of these new jeans are...\"",
+      "articyId": "0x0100006B00009DEE",
+      "text": "The pockets of these new jeans are perfect for sticking your hand into. Makes you look cool, calm, and collected. As your hand enters the pocket, your fingers brush against something... soft, yet crinkly.",
+      "links": [
+        {
+          "id": 3,
+          "title": "You: \"Take the item out.\"",
+          "articyId": "0x0100006B00009DFB",
+          "text": "Take the item out.",
+          "links": [
+            {
+              "id": 2,
+              "title": "Interfacing: \"Hey! It's a chewing gum wrapper. It...\"",
+              "articyId": "0x0100006B00009E01",
+              "text": "Hey! It's a chewing gum wrapper. It reminds you of the fruity juice of apricots. You should inspect it closer if you have time. Something about the wrapper's texture is familiar...",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Pain Threshold: \"*Not* familiar in a good way, you m...\"",
+                  "articyId": "0x010000060001BB71",
+                  "text": "*Not* familiar in a good way, you might say. There's pain in there somewhere...",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "Encyclopedia: \"By the way, the raw materials were...\"",
+                      "articyId": "0x0100006B00009E14",
+                      "text": "By the way, the raw materials were most likely exported from Siigay (the Apricot Suzerainty) and processed in Sur-La-Clef into the apricot-flavoured chewing gum loved by kids of today -- and yesterday. Hmm. Something about it *is* familiar... And not only to your fingers.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

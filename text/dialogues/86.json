@@ -1,0 +1,397 @@
+{
+  "id": "0x0100000F000070BA",
+  "title": "GATES ORB / communistquest",
+  "description": "Rhetoric smells a communist around here. Part of the Communist Dream Quest",
+  "dialogueTree": [
+    {
+      "id": 9,
+      "title": "Rhetoric: \"There it is again! There's a spectr...\"",
+      "articyId": "0x0100000F000070CD",
+      "text": "There it is again! There's a spectral smell haunting this industrial harbour. And it smells like...",
+      "links": [
+        {
+          "id": 69,
+          "title": "Perception (Smell): \"Heavy fuel oil, mostly. Because it'...\"",
+          "articyId": "0x0100000F000070DB",
+          "text": "Heavy fuel oil, mostly. Because it's an industrial harbour.",
+          "links": [
+            {
+              "id": 31,
+              "title": "Rhetoric: \"Years of turmoil, of hopes and drea...\"",
+              "articyId": "0x0100000F000070E2",
+              "text": "Years of turmoil, of hopes and dreams ground beneath the inexorable tides of capital.",
+              "links": [
+                {
+                  "id": 48,
+                  "title": "You: \"(Close your eyes and take a deep br...\"",
+                  "articyId": "0x0100000F0000728E",
+                  "text": "(Close your eyes and take a deep breath.)",
+                  "links": []
+                },
+                {
+                  "id": 14,
+                  "title": "You: \"I *still* don't smell anything.\"",
+                  "articyId": "0x0100000F00007293",
+                  "text": "I *still* don't smell anything.",
+                  "links": [
+                    {
+                      "id": 76,
+                      "title": "Rhetoric: \"Nonsense. The reek of communism is...\"",
+                      "articyId": "0x0100000F00007160",
+                      "text": "Nonsense. The reek of communism is unmistakable, and it's coming... from that railing over there!",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "You: \"I can *kind of* smell dreams being...\"",
+                  "articyId": "0x0100000F00007298",
+                  "text": "I can *kind of* smell dreams being ground down by capital.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Rhetoric: \"There! Do you smell that?\"",
+      "articyId": "0x0100000F000070D3",
+      "text": "There! Do you smell that?",
+      "links": [
+        {
+          "id": 22,
+          "title": "You: \"Smell what?\"",
+          "articyId": "0x0100000F000070E9",
+          "text": "Smell what?",
+          "links": [
+            {
+              "id": 27,
+              "title": "Rhetoric: \"Can you not detect that inimitable...\"",
+              "articyId": "0x0100000F000070F9",
+              "text": "Can you not detect that inimitable *whiff* of dissatisfaction and restlessness, that sense that the world is in need of dramatic, even *violent* re-ordering?",
+              "links": [
+                {
+                  "id": 23,
+                  "title": "You: \"(Close your eyes and take a deep br...\"",
+                  "articyId": "0x0100000F00007109",
+                  "text": "(Close your eyes and take a deep breath.)",
+                  "links": [
+                    {
+                      "id": 10,
+                      "title": "Rhetoric: \"Can you smell it now?\"",
+                      "articyId": "0x0100000F00007103",
+                      "text": "Can you smell it now?",
+                      "links": [
+                        {
+                          "id": 4,
+                          "title": "Perception (Smell): \"You inhale. The cilia along your ol...\"",
+                          "articyId": "0x0100000F00007118",
+                          "text": "You inhale. The cilia along your olfactory epithelium tingle with excitement as they sift through the swirling morass of industrial odours...",
+                          "links": [
+                            {
+                              "id": 43,
+                              "title": "Perception (Smell): \"First come the smells of the agitat...\"",
+                              "articyId": "0x0100000F00007127",
+                              "text": "First come the smells of the agitated strikebreakers, layers of body oil and sweat, over-buttered meals pulled from bakelite lunch pails, the biting stench of lye soap. And then there's the slowly oxidizing metal gates, the scent of stale grease emanating from every crack...",
+                              "links": [
+                                {
+                                  "id": 15,
+                                  "title": "Kim Kitsuragi: \"\"Still smelling for communists, det...\"",
+                                  "articyId": "0x0100000F0000714B",
+                                  "text": "\"Still smelling for communists, detective?\"",
+                                  "links": [
+                                    {
+                                      "id": 40,
+                                      "title": "You: \"\"Yes.\"\"",
+                                      "articyId": "0x0100000F00007231",
+                                      "text": "\"Yes.\"",
+                                      "links": [
+                                        {
+                                          "id": 26,
+                                          "title": "Kim Kitsuragi: \"\"Well, I'll be over here when you'v...\"",
+                                          "articyId": "0x0100000F00007246",
+                                          "text": "\"Well, I'll be over here when you've finished.\" The lieutenant nudges something on the ground with his foot.",
+                                          "links": [
+                                            {
+                                              "id": 5,
+                                              "title": "Esprit de Corps: \"His impatience is feigned. He's cur...\"",
+                                              "articyId": "0x0100000F00007261",
+                                              "text": "His impatience is feigned. He's curious to see how this *personal errand* shakes out.",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 68,
+                                              "title": "Esprit de Corps: \"He'll tolerate this *personal erran...\"",
+                                              "articyId": "0x0100000F00007266",
+                                              "text": "He'll tolerate this *personal errand*, but his patience is wearing thin.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 70,
+                                      "title": "You: \"\"No.\"\"",
+                                      "articyId": "0x0100000F00007236",
+                                      "text": "\"No.\"",
+                                      "links": [
+                                        {
+                                          "id": 83,
+                                          "title": "Kim Kitsuragi: \"\"Uh huh.\"\"",
+                                          "articyId": "0x0100000F0000724B",
+                                          "text": "\"Uh huh.\"",
+                                          "links": [
+                                            {
+                                              "id": 38,
+                                              "title": "Drama: \"The lieutenant issss not persuaded,...\"",
+                                              "articyId": "0x0100000F0000726F",
+                                              "text": "The lieutenant issss not persuaded, sssssire.",
+                                              "links": [
+                                                {
+                                                  "id": 41,
+                                                  "title": "Rhetoric: \"What the lieutenant thinks is irrel...\"",
+                                                  "articyId": "0x0100000F0000727D",
+                                                  "text": "What the lieutenant thinks is irrelevant. Your politico-olfactory cortex is lighting up like a holiday display. Look, it's pointing you right... to that railing over there!",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 67,
+                                      "title": "You: \"\"What makes you say that?\"\"",
+                                      "articyId": "0x0100000F0000723B",
+                                      "text": "\"What makes you say that?\"",
+                                      "links": [
+                                        {
+                                          "id": 13,
+                                          "title": "Kim Kitsuragi: \"\"No offence, detective, but you're...\"",
+                                          "articyId": "0x0100000F00007250",
+                                          "text": "\"No offence, detective, but you're not particularly *subtle*.\"",
+                                          "links": [
+                                            {
+                                              "id": 30,
+                                              "title": "Savoir Faire: \"The lieutenant's right. It's sort o...\"",
+                                              "articyId": "0x0100000F00007276",
+                                              "text": "The lieutenant's right. It's sort of amazing how un-subtly you're sniffing the air around you, almost like you're *trying* to call attention to yourself.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 59,
+                                  "title": "Kim Kitsuragi: \"\"Everything in order, detective?\" T...\"",
+                                  "articyId": "0x0100000F00007152",
+                                  "text": "\"Everything in order, detective?\" The lieutenant gives you a quizzical look.",
+                                  "links": [
+                                    {
+                                      "id": 16,
+                                      "title": "You: \"\"It's kind of a personal errand.\"\"",
+                                      "articyId": "0x0100000F000071A0",
+                                      "text": "\"It's kind of a personal errand.\"",
+                                      "links": [
+                                        {
+                                          "id": 81,
+                                          "title": "Kim Kitsuragi: \"\"A *personal errand*.\"\"",
+                                          "articyId": "0x0100000F000071D3",
+                                          "text": "\"A *personal errand*.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 79,
+                                      "title": "You: \"\"I'm smelling for communists, Kim.\"\"",
+                                      "articyId": "0x0100000F000071A5",
+                                      "text": "\"I'm smelling for communists, Kim.\"",
+                                      "links": [
+                                        {
+                                          "id": 25,
+                                          "title": "Kim Kitsuragi: \"\"You're smelling for...\"\"",
+                                          "articyId": "0x0100000F000071CC",
+                                          "text": "\"You're smelling for...\"",
+                                          "links": [
+                                            {
+                                              "id": 65,
+                                              "title": "Kim Kitsuragi: \"\"You know what? I'll just leave you...\"",
+                                              "articyId": "0x0100000F000071EF",
+                                              "text": "\"You know what? I'll just leave you to it. Carry on, detective.\"",
+                                              "links": [
+                                                {
+                                                  "id": 11,
+                                                  "title": "Esprit de Corps: \"It is a mark of the lieutenant's re...\"",
+                                                  "articyId": "0x0100000F00007201",
+                                                  "text": "It is a mark of the lieutenant's respect for you that he does not press you on this decidedly *extra-curricular* errand.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 66,
+                                              "title": "Kim Kitsuragi: \"\"I'm struggling to see the connecti...\"",
+                                              "articyId": "0x0100000F000071F4",
+                                              "text": "\"I'm struggling to see the connection with our investigation, but I'm sure *all will be revealed* in time.\"",
+                                              "links": [
+                                                {
+                                                  "id": 55,
+                                                  "title": "Esprit de Corps: \"Nota bene: The lieutenant is not at...\"",
+                                                  "articyId": "0x0100000F00007206",
+                                                  "text": "Nota bene: The lieutenant is not at all convinced that anything will be revealed.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 82,
+                                              "title": "Kim Kitsuragi: \"\"In the interest of our investigati...\"",
+                                              "articyId": "0x0100000F000071FB",
+                                              "text": "\"In the interest of our investigation, I suggest you focus on the case at hand. You can pursue your *political projects* after hours.\"",
+                                              "links": [
+                                                {
+                                                  "id": 39,
+                                                  "title": "Esprit de Corps: \"The lieutenant is not pleased with...\"",
+                                                  "articyId": "0x0100000F0000720B",
+                                                  "text": "The lieutenant is not pleased with this turn of events, but it's unlikely that he'll move to intervene to stop them.",
+                                                  "links": [
+                                                    {
+                                                      "id": 12,
+                                                      "title": "Rhetoric: \"The lieutenant lacks your *highly d...\"",
+                                                      "articyId": "0x0100000F00007219",
+                                                      "text": "The lieutenant lacks your *highly developed* politico-olfactory cortex. The reek of communism is undeniable. And it's coming... from that railing right there!",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 80,
+                                      "title": "You: \"\"I'm working on developing my polit...\"",
+                                      "articyId": "0x0100000F000071AA",
+                                      "text": "\"I'm working on developing my political consciousness.\"",
+                                      "links": [
+                                        {
+                                          "id": 32,
+                                          "title": "Kim Kitsuragi: \"\"You're developing your...\"\"",
+                                          "articyId": "0x0100000F000071C5",
+                                          "text": "\"You're developing your...\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 24,
+                                      "title": "You: \"\"Just taking in the fresh air, like...\"",
+                                      "articyId": "0x0100000F000071AF",
+                                      "text": "\"Just taking in the fresh air, like a normal detective.\"",
+                                      "links": [
+                                        {
+                                          "id": 34,
+                                          "title": "Kim Kitsuragi: \"\"There's a lot to take in, isn't th...\"",
+                                          "articyId": "0x0100000F000071BE",
+                                          "text": "\"There's a lot to take in, isn't there?\" The lieutenant wrinkles his nose.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 47,
+                                  "title": "Perception (Smell): \"In a word, exactly what you would e...\"",
+                                  "articyId": "0x0100000F00007159",
+                                  "text": "In a word, exactly what you would expect to find at any harbour in the industrialized world...",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 57,
+                              "title": "Perception (Smell): \"No, actually. In fact, you can't sm...\"",
+                              "articyId": "0x0100000F0000712D",
+                              "text": "No, actually. In fact, you can't smell much of *anything*. Perhaps your allergies are acting up?",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "title": "You: \"Does that mean there's a communist...\"",
+                  "articyId": "0x0100000F00007110",
+                  "text": "Does that mean there's a communist nearby?",
+                  "links": [
+                    {
+                      "id": 77,
+                      "title": "Rhetoric: \"Undoubtedly. And the scent is comin...\"",
+                      "articyId": "0x0100000F00007166",
+                      "text": "Undoubtedly. And the scent is coming... from that railing over there!",
+                      "links": [
+                        {
+                          "id": 63,
+                          "title": "You: \"You mean from Mañana?\"",
+                          "articyId": "0x0100000F00007178",
+                          "text": "You mean from Mañana?",
+                          "links": [
+                            {
+                              "id": 78,
+                              "title": "Rhetoric: \"Yes. Now's your chance to *establis...\"",
+                              "articyId": "0x0100000F0000718C",
+                              "text": "Yes. Now's your chance to *establish contact*.",
+                              "links": [
+                                {
+                                  "id": 28,
+                                  "title": "Savoir Faire: \"But be easy about it. Communists ha...\"",
+                                  "articyId": "0x0100000F00007198",
+                                  "text": "But be easy about it. Communists have been known to charge when startled.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 64,
+                          "title": "You: \"You mean from the skinny guy in the...\"",
+                          "articyId": "0x0100000F00007185",
+                          "text": "You mean from the skinny guy in the red hat?",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "title": "You: \"I don't smell anything.\"",
+          "articyId": "0x0100000F000070EE",
+          "text": "I don't smell anything.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

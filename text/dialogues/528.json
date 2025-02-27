@@ -1,0 +1,444 @@
+{
+  "id": "0x010000820001EDAA",
+  "title": "OFFICE / PUNCHCLOCK AND PHONE",
+  "description": "For ten cents you can attempt an interfacing WC and call to a video rental you used to rent films from.",
+  "dialogueTree": [
+    {
+      "id": 24,
+      "title": "Punch Clock/Payphone: \"The payphone hangs mutely on the wa...\"",
+      "articyId": "0x010000820001F155",
+      "text": "The payphone hangs mutely on the wall. There isn't much more to do here.",
+      "links": []
+    },
+    {
+      "id": 20,
+      "title": "Punch Clock/Payphone: \"The already familiar cold touch of...\"",
+      "articyId": "0x010000820001EFB1",
+      "text": "The already familiar cold touch of plastic welcomes you as you pick up the handset.",
+      "links": []
+    },
+    {
+      "id": 55,
+      "title": "Punch Clock/Payphone: \"An imposing combination of a punch-...\"",
+      "articyId": "0x010000820001EFAC",
+      "text": "An imposing combination of a punch-clock and a payphone is looking down at you from the wall. A note on the side says: \"Tokens unavailable due to strike. Use change.\"",
+      "links": [
+        {
+          "id": 9,
+          "title": "You: \"Insert 10 cents.\"",
+          "articyId": "0x010000820001EFBD",
+          "text": "Insert 10 cents.",
+          "links": [
+            {
+              "id": 60,
+              "title": "Punch Clock/Payphone: \"The machine swallows your coin and...\"",
+              "articyId": "0x010000820001EDD3",
+              "text": "The machine swallows your coin and seems to be waiting for your next move.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "title": "You: \"Let your muscle memory dial a rando...\"",
+          "articyId": "0x010000820001EDE8",
+          "text": "Let your muscle memory dial a random number.",
+          "links": [
+            {
+              "id": 63,
+              "title": "Interfacing: \"Your fingers run over the dial pad....\"",
+              "articyId": "0x010000820001EFD6",
+              "text": "Your fingers run over the dial pad. 005... that's the dialling code for Revachol -- 49-52... and a moment of hesitation before entering the final numbers: 993.",
+              "links": [
+                {
+                  "id": 66,
+                  "title": "Punch Clock/Payphone: \"Calling...\"",
+                  "articyId": "0x010000820001FA13",
+                  "text": "Calling...",
+                  "links": [
+                    {
+                      "id": 7,
+                      "title": "Punch Clock/Payphone: \"Calling...\"",
+                      "articyId": "0x010000820001FA0B",
+                      "text": "Calling...",
+                      "links": [
+                        {
+                          "id": 86,
+                          "title": "Punch Clock/Payphone: \"Still calling... then...\"",
+                          "articyId": "0x010000060001858B",
+                          "text": "Still calling... then...",
+                          "links": [
+                            {
+                              "id": 49,
+                              "title": "Video Revachol, 24h: \"...a crackle, someone picks up! The...\"",
+                              "articyId": "0x010000820001EE5B",
+                              "text": "...a crackle, someone picks up! They say: \"Video Revachol, 24 hour video rental. We rent eight- and ten-millimetre film for home use. This is Lemmy, how may I help you?\"",
+                              "links": [
+                                {
+                                  "id": 25,
+                                  "title": "Perception (Hearing): \"The voice of a youngster on the oth...\"",
+                                  "articyId": "0x010000820001F028",
+                                  "text": "The voice of a youngster on the other end sounds as enthusiastic as that of a man walking towards the gallows.",
+                                  "links": [
+                                    {
+                                      "id": 73,
+                                      "title": "You: \"\"What is this place?\"\"",
+                                      "articyId": "0x010000820001EE37",
+                                      "text": "\"What is this place?\"",
+                                      "links": [
+                                        {
+                                          "id": 45,
+                                          "title": "Video Revachol, 24h: \"\"Video Revachol is a 24 hour video...\"",
+                                          "articyId": "0x010000820001EE3D",
+                                          "text": "\"Video Revachol is a 24 hour video rental. We rent eight and ten millimetre film for home use. This is Lemmy.\"",
+                                          "links": [
+                                            {
+                                              "id": 78,
+                                              "title": "You: \"\"No, I meant what is this place to...\"",
+                                              "articyId": "0x010000820001EE8F",
+                                              "text": "\"No, I meant what is this place to *me*?\"",
+                                              "links": [
+                                                {
+                                                  "id": 29,
+                                                  "title": "Video Revachol, 24h: \"\"Sir, I don't know. It's a video re...\"",
+                                                  "articyId": "0x010000820001EE95",
+                                                  "text": "\"Sir, I don't know. It's a video rental. Maybe you rent videos here?\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 46,
+                                              "title": "You: \"\"Do you know me?\"\"",
+                                              "articyId": "0x010000820001EE43",
+                                              "text": "\"Do you know me?\"",
+                                              "links": [
+                                                {
+                                                  "id": 19,
+                                                  "title": "Video Revachol, 24h: \"\"No.\"\"",
+                                                  "articyId": "0x010000820001EDF6",
+                                                  "text": "\"No.\"",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 56,
+                                              "title": "You: \"\"Why did I call you?\" (Continue.)\"",
+                                              "articyId": "0x010000820001EE49",
+                                              "text": "\"Why did I call you?\" (Continue.)",
+                                              "links": [
+                                                {
+                                                  "id": 44,
+                                                  "title": "Video Revachol, 24h: \"\"Maybe you called to extend your re...\"",
+                                                  "articyId": "0x010000820001EDFC",
+                                                  "text": "\"Maybe you called to extend your rental period? Do you need to extend your rental period?\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 77,
+                                                      "title": "You: \"\"Maybe, but I don't even know my *n...\"",
+                                                      "articyId": "0x010000820001EE02",
+                                                      "text": "\"Maybe, but I don't even know my *name*.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 62,
+                                                          "title": "Video Revachol, 24h: \"\"If you need any further assistance...\"",
+                                                          "articyId": "0x010000820001EE9B",
+                                                          "text": "\"If you need any further assistance you can visit us on the corner of Voyager and Main.\" He sounds annoyed now. \"I can't help you over the phone -- are we done?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 34,
+                                                              "title": "Empathy: \"He thinks you're pulling a prank on...\"",
+                                                              "articyId": "0x010000820001F087",
+                                                              "text": "He thinks you're pulling a prank on him.",
+                                                              "links": [
+                                                                {
+                                                                  "id": 82,
+                                                                  "title": "Shivers: \"On the corner of Voyager and Main a...\"",
+                                                                  "articyId": "0x010000820001F0AD",
+                                                                  "text": "On the corner of Voyager and Main a large neon sign hangs on the side of a building: \"Video Revachol, 24h.\" It's raining and there is almost no traffic on the street. A woman's footprints in the mud lead away from the front door.",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 27,
+                                                                      "title": "Shivers: \"Tiny heels, tip-toeing down the roa...\"",
+                                                                      "articyId": "0x01000006000185A4",
+                                                                      "text": "Tiny heels, tip-toeing down the road. Beautiful steps, light-footed, with a lifetime ahead of them. You look up and the air seems to grow darker.",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 71,
+                                                                          "title": "Inland Empire: \"Suddenly you feel like you don't wa...\"",
+                                                                          "articyId": "0x010000820001F0DF",
+                                                                          "text": "Suddenly you feel like you don't want to hear about video rentals anymore. You don't want to hear about *any of it*. It was all shit. It's over.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 15,
+                                                                              "title": "You: \"What was all shit?\"",
+                                                                              "articyId": "0x010000820001F101",
+                                                                              "text": "What was all shit?",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 81,
+                                                                                  "title": "Inland Empire: \"*It*.\"",
+                                                                                  "articyId": "0x010000820001EECD",
+                                                                                  "text": "*It*.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 80,
+                                                                              "title": "You: \"\"Kim, I feel sad about Video Revach...\"",
+                                                                              "articyId": "0x010000820001F110",
+                                                                              "text": "\"Kim, I feel sad about Video Revachol 24h.\"",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 26,
+                                                                                  "title": "Kim Kitsuragi: \"\"That's enough for you today,\" the...\"",
+                                                                                  "articyId": "0x010000820001F124",
+                                                                                  "text": "\"That's enough for you today,\" the lieutenant says quietly. \"Let's conclude this call.\"",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": 65,
+                                                                              "title": "You: \"\"We're done.\" Hang up the phone. [L...\"",
+                                                                              "articyId": "0x010000820001F11D",
+                                                                              "text": "\"We're done.\" Hang up the phone. [Leave.]",
+                                                                              "links": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": 79,
+                                                                      "title": "Video Revachol, 24h: \"The call is terminated by the other...\"",
+                                                                      "articyId": "0x010000820001F0F9",
+                                                                      "text": "The call is terminated by the other party. You're left with the discomforting sound of the disconnect tone.",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 3,
+                                                      "title": "You: \"\"My name is Raphaël Ambrosius Coste...\"",
+                                                      "articyId": "0x01000021000010D6",
+                                                      "text": "\"My name is Raphaël Ambrosius Costeau. Do you have anything on my name?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 59,
+                                                          "title": "Video Revachol, 24h: \"\"Raphaël *what*? Listen, I can't he...\"",
+                                                          "articyId": "0x01000021000010DD",
+                                                          "text": "\"Raphaël *what*? Listen, I can't help you over the phone.\" He sounds annoyed now. \"If you need further assistance you can visit us on the corner of Voyager and Main. Are we done?\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 48,
+                                                      "title": "You: \"\"My name is Harry Something. Do you...\"",
+                                                      "articyId": "0x01000021000010AA",
+                                                      "text": "\"My name is Harry Something. Do you have anything on my name?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 67,
+                                                          "title": "Video Revachol, 24h: \"\"What did you say your last name wa...\"",
+                                                          "articyId": "0x01000021000010B0",
+                                                          "text": "\"What did you say your last name was?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 87,
+                                                              "title": "You: \"\"Something.\"\"",
+                                                              "articyId": "0x01000021000010B8",
+                                                              "text": "\"Something.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 2,
+                                                                  "title": "Video Revachol, 24h: \"\"*Something?* Listen, I can't help...\"",
+                                                                  "articyId": "0x01000021000010CC",
+                                                                  "text": "\"*Something?* Listen, I can't help you.\" He sounds annoyed now. \"If you need further assistance you can visit us on the corner of Voyager and Main. Are we done?\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 35,
+                                                              "title": "You: \"\"Can't we do it without my last nam...\"",
+                                                              "articyId": "0x01000021000010BF",
+                                                              "text": "\"Can't we do it without my last name? I can't really remember it.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 75,
+                                                                  "title": "Video Revachol, 24h: \"\"Listen, man, I can't help you with...\"",
+                                                                  "articyId": "0x01000021000010C5",
+                                                                  "text": "\"Listen, man, I can't help you without your surname.\" He sounds annoyed now. \"If you need further assistance you can visit us on the corner of Voyager and Main. Are we done?\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 53,
+                                                      "title": "You: \"\"My name is Harry Du Bois. Do you h...\"",
+                                                      "articyId": "0x01000021000010A2",
+                                                      "text": "\"My name is Harry Du Bois. Do you have anything on my name?\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 64,
+                                                          "title": "Video Revachol, 24h: \"\"Let me fire up the machine...\" Key...\"",
+                                                          "articyId": "0x010000820001F058",
+                                                          "text": "\"Let me fire up the machine...\" Keys are being pressed in the background. \"Du Bois... Du Bois...\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 22,
+                                                              "title": "Video Revachol, 24h: \"\"Here we are! You haven't rented an...\"",
+                                                              "articyId": "0x010000820001FA1B",
+                                                              "text": "\"Here we are! You haven't rented anything in five years, but you still have a copy of *Blue Ocean Hell* from November '46. Wooh, not a fun film, that one.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 70,
+                                                                  "title": "You: \"\"What kind of a film is that?\"\"",
+                                                                  "articyId": "0x010000820001F05F",
+                                                                  "text": "\"What kind of a film is that?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 68,
+                                                                      "title": "Video Revachol, 24h: \"\"Uh... it's not an easy watch.\" He...\"",
+                                                                      "articyId": "0x010000820001EEA1",
+                                                                      "text": "\"Uh... it's not an easy watch.\" He reads: \"'After the death of his daughter and subsequent divorce, Zsiemsk immigrant Igidius Wójcik tries to come to terms with the onset of dementia...'\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 54,
+                                                                          "title": "Video Revachol, 24h: \"He concludes: \"No wonder no one's b...\"",
+                                                                          "articyId": "0x010000820001EEAE",
+                                                                          "text": "He concludes: \"No wonder no one's been missing it. Still, it would be great if you could return it to us. We're on the corner of Voyager and Main.\"",
+                                                                          "links": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 10,
+                                                                  "title": "You: \"\"Oh, okay. Thanks.\"\"",
+                                                                  "articyId": "0x010000820001F065",
+                                                                  "text": "\"Oh, okay. Thanks.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 11,
+                                                                      "title": "Video Revachol, 24h: \"\"If you can, return it to us on the...\"",
+                                                                      "articyId": "0x010000820001F07E",
+                                                                      "text": "\"If you can, return it to us on the corner of Voyager and Main.\"",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 74,
+                                                      "title": "You: \"\"My name is Harrier Du Bois. Do you...\"",
+                                                      "articyId": "0x010000820001EE89",
+                                                      "text": "\"My name is Harrier Du Bois. Do you have anything on my name?\"",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 39,
+                                                      "title": "You: \"Quietly hang up the phone. [Leave.]\"",
+                                                      "articyId": "0x010000820001FAF5",
+                                                      "text": "Quietly hang up the phone. [Leave.]",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 57,
+              "title": "Interfacing: \"It's unclear whether you actually h...\"",
+              "articyId": "0x010000820001EFDB",
+              "text": "It's unclear whether you actually have muscle memory. Right now your finger is just drawing vaguely occult patterns in the air.",
+              "links": [
+                {
+                  "id": 61,
+                  "title": "You: \"Useful patterns?\"",
+                  "articyId": "0x010000820001EFEC",
+                  "text": "Useful patterns?",
+                  "links": [
+                    {
+                      "id": 23,
+                      "title": "Interfacing: \"Undoubtedly, no.\"",
+                      "articyId": "0x010000820001EFFA",
+                      "text": "Undoubtedly, no.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "You: \"I might try this again later.\"",
+                  "articyId": "0x010000820001EFF3",
+                  "text": "I might try this again later.",
+                  "links": [
+                    {
+                      "id": 69,
+                      "title": "Interfacing: \"Sure, why not. Muscle memory is a t...\"",
+                      "articyId": "0x010000820001F001",
+                      "text": "Sure, why not. Muscle memory is a tricky thing.",
+                      "links": [
+                        {
+                          "id": 6,
+                          "title": "Physical Instrument: \"Nothing tricky about that. You just...\"",
+                          "articyId": "0x010000820001F014",
+                          "text": "Nothing tricky about that. You just *do*, *fail*, *repeat* until it works. All it takes is motivation and practice.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000820001EDD8",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

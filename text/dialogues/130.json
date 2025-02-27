@@ -1,0 +1,2281 @@
+{
+  "id": "0x0100002B00037BBC",
+  "title": "JAM / HUMANITARIAN AID",
+  "description": "Siileng, the humanitarian aid guy!",
+  "dialogueTree": [
+    {
+      "id": 398,
+      "title": "Siileng: \"\"Everything's still cool here, offi...\"",
+      "articyId": "0x0100002B00041122",
+      "text": "\"Everything's still cool here, officer,\" the street vendor assures you.",
+      "links": [
+        {
+          "id": 262,
+          "title": "You: \"\"Hey, a quick question -- do you se...\"",
+          "articyId": "0x010000210000030E",
+          "text": "\"Hey, a quick question -- do you sell any tapes?\"",
+          "links": [
+            {
+              "id": 9,
+              "title": "Siileng: \"\"Tapes, you mean like music tapes?...\"",
+              "articyId": "0x0100002100000314",
+              "text": "\"Tapes, you mean like music tapes? No, music is *out*! Don't listen to music. I sell extremely cool sunglasses if you want get your *mojo* going.\" He points at the shoddy box on the left.",
+              "links": [
+                {
+                  "id": 10,
+                  "title": "You: \"\"Alright, so you have no idea whats...\"",
+                  "articyId": "0x010000210000031B",
+                  "text": "\"Alright, so you have no idea whatsoever where I could find tapes?\"",
+                  "links": [
+                    {
+                      "id": 161,
+                      "title": "Siileng: \"\"Tapes?\" The notion sounds preposte...\"",
+                      "articyId": "0x0100002100000322",
+                      "text": "\"Tapes?\" The notion sounds preposterous to him. \"Tapes are *everywhere*! They're worthless, kids throw them in the trees -- there's one in the bushes, right behind this lorry.\"",
+                      "links": [
+                        {
+                          "id": 94,
+                          "title": "Siileng: \"He nods at the empty lorry cabin be...\"",
+                          "articyId": "0x0100002100000329",
+                          "text": "He nods at the empty lorry cabin behind his back. \"No one would ever throw a good pair of *high quality plastic* sunglasses in the bushes, mister.\" His smile widens.",
+                          "links": [
+                            {
+                              "id": 475,
+                              "title": "Shivers: \"To the west, dark brown ribbons of...\"",
+                              "articyId": "0x010000060001C2FD",
+                              "text": "To the west, dark brown ribbons of tape hang from the tree, flowing in the wind...",
+                              "links": [
+                                {
+                                  "id": 479,
+                                  "title": "Interfacing: \"You should have a look. It's better...\"",
+                                  "articyId": "0x010000060001F708",
+                                  "text": "You should have a look. It's better than nothing.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "You: \"\"What kind of stuff are you selling...\"",
+          "articyId": "0x0100007000000B2D",
+          "text": "\"What kind of stuff are you selling here?\"",
+          "links": [
+            {
+              "id": 457,
+              "title": "Siileng: \"\"Only the coolest goods in Revachol...\"",
+              "articyId": "0x0100007000000B34",
+              "text": "\"Only the coolest goods in Revachol. I've got sneakers, speakers, *extremely* comfy pants too. Try them on right here. No shame -- only freedom.\"",
+              "links": [
+                {
+                  "id": 130,
+                  "title": "You: \"\"Where'd you get those *comfy* pant...\"",
+                  "articyId": "0x0100007000000AD7",
+                  "text": "\"Where'd you get those *comfy* pants?\"",
+                  "links": [
+                    {
+                      "id": 340,
+                      "title": "Siileng: \"\"I'm an entrepreneur, officer!\" He...\"",
+                      "articyId": "0x0100007000000AED",
+                      "text": "\"I'm an entrepreneur, officer!\" He begins counting on his fingers. \"I've got sources, buyers, suppliers, distributors, manufacturers, wholesalers... all extremely cool and aboveboard.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 136,
+                  "title": "You: \"\"Do you have a permit to sell all t...\"",
+                  "articyId": "0x0100002B00040ECB",
+                  "text": "\"Do you have a permit to sell all that?\"",
+                  "links": [
+                    {
+                      "id": 137,
+                      "title": "Siileng: \"\"Good joke, officer! Here we don't...\"",
+                      "articyId": "0x0100002B00040F08",
+                      "text": "\"Good joke, officer! Here we don't have permits, just economic freedom. Take a look around...\" He takes a deep breath.",
+                      "links": [
+                        {
+                          "id": 195,
+                          "title": "Perception (Sight): \"You glance around the decrepit buil...\"",
+                          "articyId": "0x0100007000000F2F",
+                          "text": "You glance around the decrepit buildings, the miserable weather, the sidewalks strewn with sunflower seeds and the dust-choked air...",
+                          "links": [
+                            {
+                              "id": 102,
+                              "title": "Siileng: \"\"...it's beautiful. Beautiful freed...\"",
+                              "articyId": "0x0100002B0006BA88",
+                              "text": "\"...it's beautiful. Beautiful freedom!\"",
+                              "links": [
+                                {
+                                  "id": 488,
+                                  "title": "You: \"\"Wait, is it really true that you d...\"",
+                                  "articyId": "0x0100007800009D63",
+                                  "text": "\"Wait, is it really true that you don't need a *single permit* to set up a shop?\"",
+                                  "links": [
+                                    {
+                                      "id": 150,
+                                      "title": "Siileng: \"\"That's right, no permits, no burea...\"",
+                                      "articyId": "0x0100007800009D69",
+                                      "text": "\"That's right, no permits, no bureaucracy! That's why this city -- *and* its law officials -- are *so* cool!\"",
+                                      "links": [
+                                        {
+                                          "id": 242,
+                                          "title": "You: \"\"Wait, but what am *I* doing here,...\"",
+                                          "articyId": "0x0100002B0006BA9D",
+                                          "text": "\"Wait, but what am *I* doing here, if there are no permits?\" (Stare at the police insignia on your sleeve.)",
+                                          "links": [
+                                            {
+                                              "id": 191,
+                                              "title": "Kim Kitsuragi: \"\"If you wanted to be *cynical* abou...\"",
+                                              "articyId": "0x0100002B0006D15D",
+                                              "text": "\"If you wanted to be *cynical* about it, you could say we're here to protect the interests of property holders. I'm not, however.\"",
+                                              "links": []
+                                            },
+                                            {
+                                              "id": 408,
+                                              "title": "Siileng: \"\"My man, officer, *you* make all th...\"",
+                                              "articyId": "0x0100002B0006D157",
+                                              "text": "\"My man, officer, *you* make all this possible! Without you, this climate would be extremely bad for business. You're part of the gossamer state!\"",
+                                              "links": [
+                                                {
+                                                  "id": 315,
+                                                  "title": "Encyclopedia: \"Gossamer is a fine, filmy substance...\"",
+                                                  "articyId": "0x0100007800009D7C",
+                                                  "text": "Gossamer is a fine, filmy substance consisting of cobwebs spun by small spiders, seen especially in autumn. It's safe to say he's referring to the near absence of regulations.",
+                                                  "links": [
+                                                    {
+                                                      "id": 404,
+                                                      "title": "You: \"\"A gossamer state? You're right, th...\"",
+                                                      "articyId": "0x0100002B0006BAB4",
+                                                      "text": "\"A gossamer state? You're right, this *is* cool. I'm part of a hip, thin, almost non-existent state apparatus!\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 163,
+                                                          "title": "Siileng: \"\"Yeah, that's the main thing about...\"",
+                                                          "articyId": "0x0100002B0006BACA",
+                                                          "text": "\"Yeah, that's the main thing about you.\" He nods admiringly. \"Freedom is great, it's what lets independent entrepreneurs, like me, sell quality goods at competitive prices.\"",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 334,
+                                                      "title": "You: \"\"So 'cool' guys protect businessmen...\"",
+                                                      "articyId": "0x0100002B0006BABA",
+                                                      "text": "\"So 'cool' guys protect businessmen while everyone else lives in the ruins? I can think of cooler things.\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 103,
+                                                          "title": "Siileng: \"\"Yeah -- *cool* ruins,\" he agrees....\"",
+                                                          "articyId": "0x0100002B0006BAD1",
+                                                          "text": "\"Yeah -- *cool* ruins,\" he agrees. \"I get to sell quality goods like these by cutting out the middlemen. *You* don't have to rebuild your house. Live in a crater! Or in a tree!\" He points to a tree. \"*Where* can you do that? Only here.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 2,
+                                                              "title": "Rhetoric: \"You're pretty sure you can live in...\"",
+                                                              "articyId": "0x0100000600010409",
+                                                              "text": "You're pretty sure you can live in a tree elsewhere too -- but he wouldn't believe it anyway.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 44,
+                                                      "title": "You: \"\"But you're a foreigner. I'm protec...\"",
+                                                      "articyId": "0x0100007800009D8B",
+                                                      "text": "\"But you're a foreigner. I'm protecting the business interests of foreign nations!\"",
+                                                      "links": [
+                                                        {
+                                                          "id": 360,
+                                                          "title": "Siileng: \"\"Yeah, Revachol's the coolest. Does...\"",
+                                                          "articyId": "0x0100007800009D9D",
+                                                          "text": "\"Yeah, Revachol's the coolest. Doesn't care about where you're from, who you are... It's all about *freedom*.\" He nods admiringly.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": 151,
+                                                      "title": "You: \"\"Then I'm protecting a state lawles...\"",
+                                                      "articyId": "0x0100007800009D91",
+                                                      "text": "\"Then I'm protecting a state lawlessness. I'm not an officer of law, I'm an officer of common anarchy.\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 197,
+                                          "title": "You: \"\"Okay. No permit then. Cool.\"\"",
+                                          "articyId": "0x0100000600010C48",
+                                          "text": "\"Okay. No permit then. Cool.\"",
+                                          "links": [
+                                            {
+                                              "id": 152,
+                                              "title": "Siileng: \"\"Hyper cool.\" He nods solemnly, the...\"",
+                                              "articyId": "0x0100000600010401",
+                                              "text": "\"Hyper cool.\" He nods solemnly, then breathes out a sigh of pride surveying the city around him.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 410,
+                                  "title": "You: \"\"Kim, is it true? He doesn't need a...\"",
+                                  "articyId": "0x0100007000000ADD",
+                                  "text": "\"Kim, is it true? He doesn't need a permit to sell?\"",
+                                  "links": [
+                                    {
+                                      "id": 107,
+                                      "title": "Kim Kitsuragi: \"\"It is, yes. Anyone can set up thei...\"",
+                                      "articyId": "0x0100007000000AE3",
+                                      "text": "\"It is, yes. Anyone can set up their shop whenever they feel like it.\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 482,
+                                  "title": "You: \"\"Sweet, no permits means less work...\"",
+                                  "articyId": "0x0100002B0006BA90",
+                                  "text": "\"Sweet, no permits means less work for me. Let's move on.\"",
+                                  "links": [
+                                    {
+                                      "id": 243,
+                                      "title": "Siileng: \"\"That's right. Revachol is the best...\"",
+                                      "articyId": "0x0100002B0006BAE1",
+                                      "text": "\"That's right. Revachol is the best place for an independent self-employer like myself. That's why it's so *cool* with all the models coming here and cool celebrities...\" He smiles his bright toothpaste-ad smile.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 235,
+                  "title": "You: \"\"Is there a discount for cool offic...\"",
+                  "articyId": "0x0100002B00065072",
+                  "text": "\"Is there a discount for cool officers like me?\"",
+                  "links": [
+                    {
+                      "id": 138,
+                      "title": "Siileng: \"\"No need for discounts at Siileng's...\"",
+                      "articyId": "0x0100002B000650B6",
+                      "text": "\"No need for discounts at Siileng's, officer. Everything's already on sale.\" He nods towards the crates. \"Anything you want, 50% off!\"",
+                      "links": [
+                        {
+                          "id": 376,
+                          "title": "Logic: \"But did he first mark them up 100%,...\"",
+                          "articyId": "0x0100002B0006BA10",
+                          "text": "But did he first mark them up 100%, just so he could put them on \"sale\"?",
+                          "links": [
+                            {
+                              "id": 403,
+                              "title": "You: \"\"Are those things really on sale or...\"",
+                              "articyId": "0x0100002B0006BA1D",
+                              "text": "\"Are those things really on sale or did you just jack up the price first?\"",
+                              "links": [
+                                {
+                                  "id": 377,
+                                  "title": "Siileng: \"\"My man, you know how the game is p...\"",
+                                  "articyId": "0x0100002B0006BA23",
+                                  "text": "\"My man, you know how the game is played! You and me, we should work together. What do you think -- shake things up?\" He winks.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "title": "You: \"No use prying.\"",
+                              "articyId": "0x0100000600010412",
+                              "text": "No use prying.",
+                              "links": [
+                                {
+                                  "id": 361,
+                                  "title": "Logic: \"Yes. It's a business secret. Let hi...\"",
+                                  "articyId": "0x010000060001041F",
+                                  "text": "Yes. It's a business secret. Let him keep it.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 412,
+                  "title": "You: \"\"That's all then. Let me ask you so...\"",
+                  "articyId": "0x0100007000000B4E",
+                  "text": "\"That's all then. Let me ask you something else.\"",
+                  "links": [
+                    {
+                      "id": 294,
+                      "title": "Siileng: \"\"Anything for you...\" He smiles aga...\"",
+                      "articyId": "0x0100008900000F7B",
+                      "text": "\"Anything for you...\" He smiles again.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 205,
+          "title": "You: \"\"The food packages you're selling h...\"",
+          "articyId": "0x0100002B00040ED4",
+          "text": "\"The food packages you're selling have *humanitarian aid* written on them. How come?\"",
+          "links": [
+            {
+              "id": 485,
+              "title": "Siileng: \"\"You mean these *delicious* pre-pac...\"",
+              "articyId": "0x0100007000000EA2",
+              "text": "\"You mean these *delicious* pre-packaged, shelf-stable meal kits? Really easy to cook, no hassle, *really* cheap too -- buy some, try them out!\"",
+              "links": [
+                {
+                  "id": 384,
+                  "title": "Rhetoric: \"No hassle? There's a *little* of a...\"",
+                  "articyId": "0x0100000600010C63",
+                  "text": "No hassle? There's a *little* of a hassle here, it appears. A moral hassle.",
+                  "links": [
+                    {
+                      "id": 45,
+                      "title": "You: \"\"Doesn't that beat the idea of huma...\"",
+                      "articyId": "0x0100000600010C53",
+                      "text": "\"Doesn't that beat the idea of humanitarian aid? It's *supposed* to be free. That's what makes it humanitarian.\"",
+                      "links": [
+                        {
+                          "id": 166,
+                          "title": "Siileng: \"\"It *is* -- *practically* free. You...\"",
+                          "articyId": "0x0100000600010C59",
+                          "text": "\"It *is* -- *practically* free. Yours for five cents a piece! Rock that tuna -- why not some macaroni too?\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 358,
+                      "title": "You: \"\"I think one said 'Not for Resale'...\"",
+                      "articyId": "0x0100007000000EBE",
+                      "text": "\"I think one said 'Not for Resale' on the packaging.\"",
+                      "links": [
+                        {
+                          "id": 484,
+                          "title": "Siileng: \"\"No problem here, officer. I get al...\"",
+                          "articyId": "0x0100007000000E96",
+                          "text": "\"No problem here, officer. I get all this from one of my suppliers, an extremely reputable guy.\"",
+                          "links": [
+                            {
+                              "id": 113,
+                              "title": "Reaction Speed: \"Wait... *HUMANOX*, *humanitarian* a...\"",
+                              "articyId": "0x0100000600010CB2",
+                              "text": "Wait... *HUMANOX*, *humanitarian* aid...",
+                              "links": []
+                            },
+                            {
+                              "id": 458,
+                              "title": "You: \"\"Does your supplier drive that HUMA...\"",
+                              "articyId": "0x0100007000000E90",
+                              "text": "\"Does your supplier drive that HUMANOX lorry over there?\" (Point at the lorry with the big HUMANOX sign on it.)",
+                              "links": [
+                                {
+                                  "id": 459,
+                                  "title": "Siileng: \"\"What?\" The street vendor looks ove...\"",
+                                  "articyId": "0x0100007000000EA8",
+                                  "text": "\"What?\" The street vendor looks over his left shoulder and stares at the lorry -- as though he's never seen a lorry in his entire life.",
+                                  "links": [
+                                    {
+                                      "id": 292,
+                                      "title": "Drama: \"A convincing performance, bravo!\"",
+                                      "articyId": "0x0100007000000EB4",
+                                      "text": "A convincing performance, bravo!",
+                                      "links": [
+                                        {
+                                          "id": 165,
+                                          "title": "Siileng: \"\"Look, officer. I'm just the retail...\"",
+                                          "articyId": "0x0100007000000EAE",
+                                          "text": "\"Look, officer. I'm just the retailer. You'd have to talk to my supplier if you got questions about the supply chain. That's how the game works.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 112,
+                              "title": "You: \"\"And *who* is your supplier, exactl...\"",
+                              "articyId": "0x0100007000001ACA",
+                              "text": "\"And *who* is your supplier, exactly?\"",
+                              "links": [
+                                {
+                                  "id": 487,
+                                  "title": "Siileng: \"\"Oh, he's a good guy. I think you'd...\"",
+                                  "articyId": "0x0100007000001AD2",
+                                  "text": "\"Oh, he's a good guy. I think you'd get along. I'll let you know the next time he's around.\"",
+                                  "links": [
+                                    {
+                                      "id": 194,
+                                      "title": "Kim Kitsuragi: \"\"Interesting.\" The lieutenant whips...\"",
+                                      "articyId": "0x0100007000000EF9",
+                                      "text": "\"Interesting.\" The lieutenant whips out his blue notebook and makes a note.",
+                                      "links": [
+                                        {
+                                          "id": 47,
+                                          "title": "Esprit de Corps: \"We'll need more if we're going to p...\"",
+                                          "articyId": "0x0100000600010C90",
+                                          "text": "We'll need more if we're going to pin this one down, he thinks -- good questions, though. Sharp eyes, officer.",
+                                          "links": [
+                                            {
+                                              "id": 168,
+                                              "title": "Drama: \"It's for show, my liege. He knows y...\"",
+                                              "articyId": "0x0100000600010C9F",
+                                              "text": "It's for show, my liege. He knows you need more than this to bust this guy. Later, perhaps?",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 486,
+                      "title": "You: \"\"Don't play games with me, hawker....\"",
+                      "articyId": "0x0100007000001AC2",
+                      "text": "\"Don't play games with me, hawker. What's going on?\"",
+                      "links": []
+                    },
+                    {
+                      "id": 463,
+                      "title": "You: \"\"Okay, well -- if they're delicious...\"",
+                      "articyId": "0x0100000600010C76",
+                      "text": "\"Okay, well -- if they're delicious it's okay.\"",
+                      "links": [
+                        {
+                          "id": 167,
+                          "title": "Siileng: \"\"They're *very* delicious. *And* sh...\"",
+                          "articyId": "0x0100000600010C7E",
+                          "text": "\"They're *very* delicious. *And* shelf stable. You can keep all this out in the sun come summer! Try it -- buy some tuna. Won't rot. Un-rottable.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "title": "You: \"\"So... where are you from?\"\"",
+          "articyId": "0x0100002B0006B870",
+          "text": "\"So... where are you from?\"",
+          "links": [
+            {
+              "id": 38,
+              "title": "Siileng: \"\"Me? It's a boring story, officer....\"",
+              "articyId": "0x0100002B0006B876",
+              "text": "\"Me? It's a boring story, officer. Who cares about the past? I'm all business now -- all Revachol.\"",
+              "links": [
+                {
+                  "id": 399,
+                  "title": "Encyclopedia: \"This man probably comes from Siigay...\"",
+                  "articyId": "0x0100002B000650DD",
+                  "text": "This man probably comes from Siigay, sometimes known as the 'Apricot Suzerainty,' an archipelago in the Samaran isola.",
+                  "links": [
+                    {
+                      "id": 69,
+                      "title": "You: \"\"You're from the 'Apricot Suzeraint...\"",
+                      "articyId": "0x0100002B0006517C",
+                      "text": "\"You're from the 'Apricot Suzerainty', right?\"",
+                      "links": [
+                        {
+                          "id": 246,
+                          "title": "Kim Kitsuragi: \"The lieutenant winces at the words...\"",
+                          "articyId": "0x0100007000000BD0",
+                          "text": "The lieutenant winces at the words -- slightly.",
+                          "links": [
+                            {
+                              "id": 341,
+                              "title": "Suggestion: \"As if you've committed some faux pa...\"",
+                              "articyId": "0x010000060001042A",
+                              "text": "As if you've committed some faux pas.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 239,
+                          "title": "Rhetoric: \"*Apricot Suzerainty* calls to mind...\"",
+                          "articyId": "0x0100002B0006B9FF",
+                          "text": "*Apricot Suzerainty* calls to mind an era when the Siigay archipelago was colonized by Revachol. It's a bit of a slur, in other words.",
+                          "links": [
+                            {
+                              "id": 208,
+                              "title": "You: \"\"Sorry, I didn't mean to say that....\"",
+                              "articyId": "0x0100002B0006BC4B",
+                              "text": "\"Sorry, I didn't mean to say that. I meant to say that you're from...\" (Pronounce it very painstakingly.) \"... See-guy...\"",
+                              "links": [
+                                {
+                                  "id": 440,
+                                  "title": "Siileng: \"\"Very cool,\" Siileng nods, his eyeb...\"",
+                                  "articyId": "0x0100002B0006BC58",
+                                  "text": "\"Very cool,\" Siileng nods, his eyebrows furrowed, \"I admire your awareness of our intertwined histories. It's super nice of you to apologize for colonialism. But the Apricot Suzerainty is a shithole -- that's why I left.\"",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 164,
+                              "title": "You: \"Don't fret. Let him answer.\"",
+                              "articyId": "0x0100002B0006BC52",
+                              "text": "Don't fret. Let him answer.",
+                              "links": [
+                                {
+                                  "id": 162,
+                                  "title": "Siileng: \"\"That's right, officer, but it's a...\"",
+                                  "articyId": "0x0100002B00065183",
+                                  "text": "\"That's right, officer, but it's a bad scene for business there. Too many regulations, extremely bad for an independent local entrepreneur.\"",
+                                  "links": [
+                                    {
+                                      "id": 244,
+                                      "title": "Siileng: \"\"Hey -- why not support *this* loca...\"",
+                                      "articyId": "0x0100002B0006BD59",
+                                      "text": "\"Hey -- why not support *this* local entrepreneur? You can start by buying a pair of sexy pants. Or cool sunglasses... maybe some macaroni?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 21,
+                              "title": "Siileng: \"\"Siigay, Apricot Suzerainty -- it's...\"",
+                              "articyId": "0x0100000600010432",
+                              "text": "\"Siigay, Apricot Suzerainty -- it's all the same to me, it's all cool. I'm interested in sales. Go ahead, let's make one.\" He gestures to the boxes. \"Super high quality, friendly prices.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 481,
+                      "title": "You: \"\"But you're not a local, are you?\"\"",
+                      "articyId": "0x0100002B00065176",
+                      "text": "\"But you're not a local, are you?\"",
+                      "links": [
+                        {
+                          "id": 453,
+                          "title": "Siileng: \"\"Very sharp, officer. I'm Seraise,...\"",
+                          "articyId": "0x0100002B00065189",
+                          "text": "\"Very sharp, officer. I'm Seraise, from the Siigay province of the Seraise Empire. The 'Apricot Suzerainty', you know?\"",
+                          "links": [
+                            {
+                              "id": 335,
+                              "title": "Rhetoric: \"*Apricot Suzerainty* calls to mind...\"",
+                              "articyId": "0x0100002B0006BCFF",
+                              "text": "*Apricot Suzerainty* calls to mind an era when the Siigay archipelago was colonized by Revachol. It's a bit of a slur, in other words.",
+                              "links": [
+                                {
+                                  "id": 73,
+                                  "title": "You: \"(Wince.) \"Isn't that name kind of.....\"",
+                                  "articyId": "0x0100002B0006BD08",
+                                  "text": "(Wince.) \"Isn't that name kind of... insensitive?\"",
+                                  "links": [
+                                    {
+                                      "id": 189,
+                                      "title": "Siileng: \"\"Very cool,\" the street vendor nods...\"",
+                                      "articyId": "0x0100002B0006BD0F",
+                                      "text": "\"Very cool,\" the street vendor nods, his eyebrows furrowed, \"I admire your awareness of our intertwined histories. It's super nice of you to apologize for colonialism. But the Apricot Suzerainty is a shithole -- that's why I left.\"",
+                                      "links": [
+                                        {
+                                          "id": 14,
+                                          "title": "You: \"\"Right, but isn't it only a shithol...\"",
+                                          "articyId": "0x0100002B0006BCF3",
+                                          "text": "\"Right, but isn't it only a shithole *because* of Revachol?\"",
+                                          "links": [
+                                            {
+                                              "id": 129,
+                                              "title": "Siileng: \"He smiles brightly. \"If you say so,...\"",
+                                              "articyId": "0x0100002B0006BD4C",
+                                              "text": "He smiles brightly. \"If you say so, officer. I don't worry too much about politics. I'm an entrepreneur, you know? Whatever's good for business is good for me.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 441,
+                                          "title": "You: \"\"You're welcome. I do try to be sup...\"",
+                                          "articyId": "0x0100002B0006BCFA",
+                                          "text": "\"You're welcome. I do try to be supportive of other peoples and cultures.\"",
+                                          "links": [
+                                            {
+                                              "id": 313,
+                                              "title": "Siileng: \"\"That's *so* cool, officer. Speakin...\"",
+                                              "articyId": "0x0100002B0006BD33",
+                                              "text": "\"That's *so* cool, officer. Speaking of, why not support an independent local entrepreneur by buying some pants and glasses?\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 247,
+                                          "title": "You: \"\"I don't know why I'm talking about...\"",
+                                          "articyId": "0x010000060001043A",
+                                          "text": "\"I don't know why I'm talking about this. It's some kind of... mind-reaction.\" (Point to your head.)",
+                                          "links": [
+                                            {
+                                              "id": 196,
+                                              "title": "Siileng: \"\"No, no. It's very cool, officer. Y...\"",
+                                              "articyId": "0x0100000600010441",
+                                              "text": "\"No, no. It's very cool, officer. You're a cool cop for caring about those things. You should buy cool glasses too.\" He points to a pile of sunglasses.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 236,
+                                  "title": "You: \"\"Yum. Apricots are delicious.\"\"",
+                                  "articyId": "0x0100002B00069611",
+                                  "text": "\"Yum. Apricots are delicious.\"",
+                                  "links": [
+                                    {
+                                      "id": 12,
+                                      "title": "Kim Kitsuragi: \"\"The *Apricot Suzerainty*,\" the lie...\"",
+                                      "articyId": "0x0100002B00069625",
+                                      "text": "\"The *Apricot Suzerainty*,\" the lieutenant explains, \"is what the Siigay archipelago is commonly known as in Revachol.\" He pauses. \"It's a bit of a *fraught* term, I'm sure you understand.\"",
+                                      "links": [
+                                        {
+                                          "id": 22,
+                                          "title": "Siileng: \"\"No-no, apricots come from Siigay,\"...\"",
+                                          "articyId": "0x010000060001044B",
+                                          "text": "\"No-no, apricots come from Siigay,\" the vendor explains. \"My grandma used to grow them. But Siigay is a shithole, that's why I came to Revachol. Here's much better for an independent entrepreneur. Less *laws*.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 206,
+                                      "title": "Siileng: \"\"Yes, apricots come from Siigay,\" t...\"",
+                                      "articyId": "0x0100002B00069633",
+                                      "text": "\"Yes, apricots come from Siigay,\" the man explains. \"My grandma used to grow them. But Siigay is a shithole, that's why I came to Revachol. Here's much better for an independent entrepreneur. Less *laws*.\"",
+                                      "links": [
+                                        {
+                                          "id": 436,
+                                          "title": "Siileng: \"\"Speaking of -- why not support an...\"",
+                                          "articyId": "0x0100002B0006963C",
+                                          "text": "\"Speaking of -- why not support an independent local entrepreneur? I send half my profits back to my grandma in Siigay.\"",
+                                          "links": [
+                                            {
+                                              "id": 401,
+                                              "title": "Empathy: \"Well. If it's for his *grandma*......\"",
+                                              "articyId": "0x0100002B0006B8F0",
+                                              "text": "Well. If it's for his *grandma*... you should buy a lot of things.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 190,
+                                  "title": "You: \"\"Man, this apricots business sounds...\"",
+                                  "articyId": "0x0100002B0006BD5F",
+                                  "text": "\"Man, this apricots business sounds complicated all of a sudden.\"",
+                                  "links": [
+                                    {
+                                      "id": 16,
+                                      "title": "Siileng: \"\"Oh! Oh no! It's very simple, actua...\"",
+                                      "articyId": "0x0100002B0006BD66",
+                                      "text": "\"Oh! Oh no! It's very simple, actually. Siigay is a shithole. Not good for independent entrepreneurs like this one here. That's why I came to Revachol.\"",
+                                      "links": [
+                                        {
+                                          "id": 209,
+                                          "title": "Siileng: \"\"Speaking of, could I convince you...\"",
+                                          "articyId": "0x0100002B0006BD6D",
+                                          "text": "\"Speaking of, could I convince you to support an independent local entrepreneur right now?\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 70,
+                                  "title": "You: \"\"Why's it called that? Lots of apri...\"",
+                                  "articyId": "0x0100002B00069617",
+                                  "text": "\"Why's it called that? Lots of apricots there?\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 400,
+                      "title": "You: \"(Better not to mention.) \"Sounds go...\"",
+                      "articyId": "0x0100002B0006B88B",
+                      "text": "(Better not to mention.) \"Sounds good. Let's get back to business then.\"",
+                      "links": [
+                        {
+                          "id": 290,
+                          "title": "Siileng: \"\"Very cool. I like your style, offi...\"",
+                          "articyId": "0x0100002B0006B894",
+                          "text": "\"Very cool. I like your style, officer.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 451,
+          "title": "You: \"\"Do you accept net worth as a form...\"",
+          "articyId": "0x0100000F0001496B",
+          "text": "\"Do you accept net worth as a form of payment?\"",
+          "links": [
+            {
+              "id": 261,
+              "title": "Siileng: \"\"I only accept *legal* tender, offi...\"",
+              "articyId": "0x0100000F00014975",
+              "text": "\"I only accept *legal* tender, officer.\" He lowers his voice. \"Unless that's code for something?\"",
+              "links": [
+                {
+                  "id": 331,
+                  "title": "Kim Kitsuragi: \"\"It is not code. He really means hi...\"",
+                  "articyId": "0x0100000F00014986",
+                  "text": "\"It is not code. He really means his individual net worth,\" the lieutenant jumps in. \"It is *not* legal tender.\"",
+                  "links": [
+                    {
+                      "id": 480,
+                      "title": "Siileng: \"\"In that case, I cannot accept that...\"",
+                      "articyId": "0x0100000F0001499B",
+                      "text": "\"In that case, I cannot accept that as payment, officer. I run everything above board here. Cash only.\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 93,
+                  "title": "You: \"\"Nah, it's not code. I really mean...\"",
+                  "articyId": "0x0100000F000149A1",
+                  "text": "\"Nah, it's not code. I really mean my individual net worth.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 390,
+          "title": "You: \"\"So, Siileng -- what's *your* stanc...\"",
+          "articyId": "0x01000006000111D4",
+          "text": "\"So, Siileng -- what's *your* stance on drugs?\"",
+          "links": [
+            {
+              "id": 175,
+              "title": "Siileng: \"\"Drugs?\" For a moment he's unsure h...\"",
+              "articyId": "0x01000006000111E6",
+              "text": "\"Drugs?\" For a moment he's unsure how to respond. \"I don't go in for that, officer. Drugs ruin lives.\"",
+              "links": [
+                {
+                  "id": 447,
+                  "title": "Siileng: \"\"Unless *you're* into drugs, of cou...\"",
+                  "articyId": "0x01000006000111E0",
+                  "text": "\"Unless *you're* into drugs, of course -- in which case, drugs are *excellent*.\" He kisses his fingers. \"Tasty-tasty drugs.\"",
+                  "links": [
+                    {
+                      "id": 370,
+                      "title": "You: \"\"I'm super into drugs.\"\"",
+                      "articyId": "0x01000006000113BE",
+                      "text": "\"I'm super into drugs.\"",
+                      "links": [
+                        {
+                          "id": 303,
+                          "title": "Siileng: \"\"That's cool. Especially after you...\"",
+                          "articyId": "0x01000006000113E7",
+                          "text": "\"That's cool. Especially after you said you *don't* like them. All the cool detectives do drugs without liking them. Sadly I don't have any drugs on sale here.\" He smiles.",
+                          "links": [
+                            {
+                              "id": 250,
+                              "title": "Perception (Sight): \"Sir, it appears to be true. No drug...\"",
+                              "articyId": "0x01000006000113D2",
+                              "text": "Sir, it appears to be true. No drugs in sight -- not in the box of sunglasses *or* under the speakers.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 176,
+                          "title": "Siileng: \"\"That's very cool, a lot of the coo...\"",
+                          "articyId": "0x01000006000113CB",
+                          "text": "\"That's very cool, a lot of the coolest detectives do drugs. Sadly, I don't have any drugs on sale -- or at my home. Or on my person.\" He smiles.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 222,
+                      "title": "You: \"\"I actually *don't* like drugs.\"\"",
+                      "articyId": "0x01000006000113C4",
+                      "text": "\"I actually *don't* like drugs.\"",
+                      "links": [
+                        {
+                          "id": 251,
+                          "title": "Siileng: \"\"That's cool. Especially after you...\"",
+                          "articyId": "0x01000006000113FA",
+                          "text": "\"That's cool. Especially after you already said you're into them. All the coolest detectives in the movies do drugs *and* are very conflicted about it. Still -- no drugs here.\" He smiles.",
+                          "links": []
+                        },
+                        {
+                          "id": 282,
+                          "title": "Siileng: \"\"That's very cool. I don't like dru...\"",
+                          "articyId": "0x01000006000113F4",
+                          "text": "\"That's very cool. I don't like drugs, either. I only said I do because I didn't want to sound *lame*.\" He smiles. \"Peer pressure.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 121,
+                      "title": "You: \"(Proceed.) \"We're looking for a lor...\"",
+                      "articyId": "0x01000006000111F8",
+                      "text": "(Proceed.) \"We're looking for a lorry driver who is transporting drugs out of the harbour. He or she is in this traffic jam.\"",
+                      "links": [
+                        {
+                          "id": 156,
+                          "title": "Siileng: \"\"That's even cooler -- you investig...\"",
+                          "articyId": "0x01000006000111FE",
+                          "text": "\"That's even cooler -- you investigating that and all. But --\" he points to the goods. \"I am not a lorry driver, I'm just a street vendor. I don't know anything about that.\"",
+                          "links": [
+                            {
+                              "id": 87,
+                              "title": "Drama: \"A blatant lie, sire. Yet he tells i...\"",
+                              "articyId": "0x010000060001142B",
+                              "text": "A blatant lie, sire. Yet he tells it with such conviction. We'd believe him -- if we didn't know better.",
+                              "links": [
+                                {
+                                  "id": 199,
+                                  "title": "You: \"\"But you *are* a lorryman. Another...\"",
+                                  "articyId": "0x0100000600011204",
+                                  "text": "\"But you *are* a lorryman. Another driver has identified you *and* your lorry.\"",
+                                  "links": [
+                                    {
+                                      "id": 347,
+                                      "title": "Siileng: \"\"*Who* said that? It's the fat raci...\"",
+                                      "articyId": "0x010000060001144E",
+                                      "text": "\"*Who* said that? It's the fat racist, right? I bet it's him. He has an agenda against me, because I'm an immigrant who works harder than he does. He's a hater.\"",
+                                      "links": [
+                                        {
+                                          "id": 326,
+                                          "title": "Kim Kitsuragi: \"\"So you admit you're a lorry driver?\"\"",
+                                          "articyId": "0x0100000600011456",
+                                          "text": "\"So you admit you're a lorry driver?\"",
+                                          "links": [
+                                            {
+                                              "id": 62,
+                                              "title": "Siileng: \"\"No! I just said I work harder and...\"",
+                                              "articyId": "0x0100000600011465",
+                                              "text": "\"No! I just said I work harder and he's an asshole. I'm...\" He stops to think.",
+                                              "links": [
+                                                {
+                                                  "id": 63,
+                                                  "title": "Reaction Speed: \"Realizing he can't get out of it. S...\"",
+                                                  "articyId": "0x010000060001146B",
+                                                  "text": "Realizing he can't get out of it. Smart man.",
+                                                  "links": [
+                                                    {
+                                                      "id": 125,
+                                                      "title": "Siileng: \"\"Okay, maybe I'm a lorry driver too...\"",
+                                                      "articyId": "0x0100000600011471",
+                                                      "text": "\"Okay, maybe I'm a lorry driver too -- a little. But that's not the most important thing about me, that's my day job. This is my *dream*.\" He spreads his arms.",
+                                                      "links": [
+                                                        {
+                                                          "id": 448,
+                                                          "title": "You: \"\"So you *forgot* to tell me?\"\"",
+                                                          "articyId": "0x0100000600011481",
+                                                          "text": "\"So you *forgot* to tell me?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 202,
+                                                              "title": "Siileng: \"\"Exactly! It's such a small part of...\"",
+                                                              "articyId": "0x010000060001149D",
+                                                              "text": "\"Exactly! It's such a small part of my life. It's in the rear view mirror now. I'm climbing out of that hole -- with ingenuity.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 255,
+                                                          "title": "You: \"\"So you were *embarrassed* to tell...\"",
+                                                          "articyId": "0x0100000600011487",
+                                                          "text": "\"So you were *embarrassed* to tell me?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 283,
+                                                              "title": "Siileng: \"\"No. I just forgot. It's such a sma...\"",
+                                                              "articyId": "0x0100000600011496",
+                                                              "text": "\"No. I just forgot. It's such a small part of my life. It's in the rear view mirror now. I'm climbing out of that hole -- with ingenuity.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 327,
+                                                          "title": "You: \"\"Stop squirming. What do you know a...\"",
+                                                          "articyId": "0x010000060001148D",
+                                                          "text": "\"Stop squirming. What do you know about the drug operation at the harbour?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 256,
+                                                              "title": "Siileng: \"\"Nothing, I told you. I'm not a dum...\"",
+                                                              "articyId": "0x01000006000114CB",
+                                                              "text": "\"Nothing, I told you. I'm not a dumb guy -- I don't get involved with that crowd. \"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 307,
+                                                                  "title": "Kim Kitsuragi: \"\"And what *crowd* is that?\"\"",
+                                                                  "articyId": "0x01000006000114E2",
+                                                                  "text": "\"And what *crowd* is that?\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 177,
+                                                                      "title": "Siileng: \"\"Crowd -- you know? The drug crowd.\"\"",
+                                                                      "articyId": "0x01000006000114D6",
+                                                                      "text": "\"Crowd -- you know? The drug crowd.\"",
+                                                                      "links": [
+                                                                        {
+                                                                          "id": 157,
+                                                                          "title": "Rhetoric: \"No. He wasn't talking about an abst...\"",
+                                                                          "articyId": "0x0100000600011518",
+                                                                          "text": "No. He wasn't talking about an abstract crowd. It was *that crowd*.",
+                                                                          "links": [
+                                                                            {
+                                                                              "id": 391,
+                                                                              "title": "Half Light: \"There's more here. He's *afraid* of...\"",
+                                                                              "articyId": "0x0100000600011511",
+                                                                              "text": "There's more here. He's *afraid* of this crowd, whoever they are. More than he is of the racist lorryman.",
+                                                                              "links": [
+                                                                                {
+                                                                                  "id": 88,
+                                                                                  "title": "You: \"\"Who are you afraid of, Siileng?\"\"",
+                                                                                  "articyId": "0x010000060001152A",
+                                                                                  "text": "\"Who are you afraid of, Siileng?\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 203,
+                                                                                      "title": "Siileng: \"\"Look...\" He looks around and lower...\"",
+                                                                                      "articyId": "0x0100000600011555",
+                                                                                      "text": "\"Look...\" He looks around and lowers his voice. \"There's bad people doing *bad* things here -- that's all I know. Please don't get me into this mess, I've spent fifteen years working my way up...\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 308,
+                                                                                          "title": "Logic: \"Here we go. There's a *tiny bit* of...\"",
+                                                                                          "articyId": "0x010000060001158F",
+                                                                                          "text": "Here we go. There's a *tiny bit* of truth on the table. Zoom in on it.",
+                                                                                          "links": [
+                                                                                            {
+                                                                                              "id": 229,
+                                                                                              "title": "You: \"\"If you don't want to get into this...\"",
+                                                                                              "articyId": "0x0100000600011596",
+                                                                                              "text": "\"If you don't want to get into this mess...\" (Raise your voice) \"You HAVE to give us a REASON to move on.\"",
+                                                                                              "links": [
+                                                                                                {
+                                                                                                  "id": 32,
+                                                                                                  "title": "Siileng: \"\"It's a *she*, okay?\" he whispers....\"",
+                                                                                                  "articyId": "0x01000006000115A7",
+                                                                                                  "text": "\"It's a *she*, okay?\" he whispers. \"The other drivers call her the *lady driver*. You're better off staying away from her -- the way they talk about her...\" He shakes his head. \"She's no lady.\"",
+                                                                                                  "links": [
+                                                                                                    {
+                                                                                                      "id": 291,
+                                                                                                      "title": "Reaction Speed: \"There you go. A witness with corrob...\"",
+                                                                                                      "articyId": "0x0100002F00013283",
+                                                                                                      "text": "There you go. A witness with corroborating evidence: it's Ruby.",
+                                                                                                      "links": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "id": 34,
+                                                                                                      "title": "Reaction Speed: \"A lady driver? Perhaps connected to...\"",
+                                                                                                      "articyId": "0x010000060001D1DD",
+                                                                                                      "text": "A lady driver? Perhaps connected to *Ruby* somehow?",
+                                                                                                      "links": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "id": 330,
+                                                                                                      "title": "Reaction Speed: \"Interesting. Could this driver be c...\"",
+                                                                                                      "articyId": "0x010000060001D1F3",
+                                                                                                      "text": "Interesting. Could this driver be connected to the Hardie boys?",
+                                                                                                      "links": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "id": 159,
+                                                                                                      "title": "You: \"\"Who are these 'other drivers' who...\"",
+                                                                                                      "articyId": "0x01000006000115B5",
+                                                                                                      "text": "\"Who are these 'other drivers' who talk?\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 65,
+                                                                                                          "title": "Siileng: \"\"All of them, I don't know. I told...\"",
+                                                                                                          "articyId": "0x01000006000115CE",
+                                                                                                          "text": "\"All of them, I don't know. I told you all I know. Are we cool now? I really want us to be cool now.\"",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 8,
+                                                                                                              "title": "Kim Kitsuragi: \"\"Who *exactly* is talking about thi...\"",
+                                                                                                              "articyId": "0x01000006000115E0",
+                                                                                                              "text": "\"Who *exactly* is talking about this lady-driver of yours? The racist? Or the other one, with the tattoos?\" He points north.",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 91,
+                                                                                                                  "title": "Siileng: \"\"All of them. Even the ones who've...\"",
+                                                                                                                  "articyId": "0x01000006000115D5",
+                                                                                                                  "text": "\"All of them. Even the ones who've left. I don't hang out with them, I don't remember who has tattoos.\"",
+                                                                                                                  "links": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "id": 135,
+                                                                                                              "title": "Suggestion: \"He's *aching* to get back to his us...\"",
+                                                                                                              "articyId": "0x0100000600011600",
+                                                                                                              "text": "He's *aching* to get back to his usual shtick. All this whispering is bad for business.",
+                                                                                                              "links": []
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "id": 350,
+                                                                                                      "title": "You: \"\"Is the lady driver the old woman b...\"",
+                                                                                                      "articyId": "0x01000006000115BB",
+                                                                                                      "text": "\"Is the lady driver the old woman back there?\" (Point to the Paledriver.) \"Dazed out, *strange*?\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 66,
+                                                                                                          "title": "Siileng: \"\"I don't know... maybe? If she is,...\"",
+                                                                                                          "articyId": "0x01000006000115EF",
+                                                                                                          "text": "\"I don't know... maybe? If she is, I haven't gone near her. I don't get *involved*, I told you.\"",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 75,
+                                                                                                              "title": "Logic: \"No, it's still Ruby. Interesting th...\"",
+                                                                                                              "articyId": "0x0100002F000132AC",
+                                                                                                              "text": "No, it's still Ruby. Interesting that he doesn't seem aware of her existence, though...",
+                                                                                                              "links": []
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "id": 160,
+                                                                                                              "title": "Inland Empire: \"It could be. She was strange.\"",
+                                                                                                              "articyId": "0x010000060001D1AC",
+                                                                                                              "text": "It could be. She was strange.",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 396,
+                                                                                                                  "title": "Rhetoric: \"He's not ruling her out.\"",
+                                                                                                                  "articyId": "0x010000060001D1B2",
+                                                                                                                  "text": "He's not ruling her out.",
+                                                                                                                  "links": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "id": 449,
+                                                                                                      "title": "You: \"\"She? Where is she? I haven't yet m...\"",
+                                                                                                      "articyId": "0x010000060001160B",
+                                                                                                      "text": "\"She? Where is she? I haven't yet met a woman on the roundabout.\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 92,
+                                                                                                          "title": "Siileng: \"\"There's one by the statue of that...\"",
+                                                                                                          "articyId": "0x0100000600011612",
+                                                                                                          "text": "\"There's one by the statue of that king.\" He points towards the roundabout. \"I haven't gone near her. And I *won't* either.\"",
+                                                                                                          "links": [
+                                                                                                            {
+                                                                                                              "id": 395,
+                                                                                                              "title": "Kim Kitsuragi: \"\"The third driver,\" he nods. \"We ha...\"",
+                                                                                                              "articyId": "0x010000060001161F",
+                                                                                                              "text": "\"The third driver,\" he nods. \"We haven't talked to her yet. Where exactly is she -- near the horseback monument?\"",
+                                                                                                              "links": [
+                                                                                                                {
+                                                                                                                  "id": 182,
+                                                                                                                  "title": "Siileng: \"He nods. \"In her lorry there, but.....\"",
+                                                                                                                  "articyId": "0x0100000600011625",
+                                                                                                                  "text": "He nods. \"In her lorry there, but... I don't know if it's her... Are we cool now? I think we're cool now.\"",
+                                                                                                                  "links": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "id": 284,
+                                                                                                      "title": "You: \"\"Could her name be *Ruby* by any ch...\"",
+                                                                                                      "articyId": "0x010000060001D1E6",
+                                                                                                      "text": "\"Could her name be *Ruby* by any chance?\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 450,
+                                                                                                          "title": "Siileng: \"\"I don't know. I told you... I don'...\"",
+                                                                                                          "articyId": "0x010000060001D205",
+                                                                                                          "text": "\"I don't know. I told you... I don't know her name.\"",
+                                                                                                          "links": []
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "id": 126,
+                                                                                                      "title": "You: \"\"Could she be associated with the H...\"",
+                                                                                                      "articyId": "0x010000060001D1FE",
+                                                                                                      "text": "\"Could she be associated with the Hardie boys?\"",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 35,
+                                                                                                          "title": "Siileng: \"\"I don't know... I'm not local. I d...\"",
+                                                                                                          "articyId": "0x010000060001D20C",
+                                                                                                          "text": "\"I don't know... I'm not local. I don't know anything about that.\"",
+                                                                                                          "links": []
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "id": 178,
+                                                                                                      "title": "You: \"\"Okay. We're cool now.\" (Conclude.)\"",
+                                                                                                      "articyId": "0x01000006000115C7",
+                                                                                                      "text": "\"Okay. We're cool now.\" (Conclude.)",
+                                                                                                      "links": [
+                                                                                                        {
+                                                                                                          "id": 309,
+                                                                                                          "title": "Siileng: \"\"All right!\" He snaps back to his a...\"",
+                                                                                                          "articyId": "0x01000006000115F9",
+                                                                                                          "text": "\"All right!\" He snaps back to his act. \"Very cool. Let's cap this off with a *purchase*. A pair of funky sunglasses, detective. You deserve it! And *I* deserve it too, don't you think?\"",
+                                                                                                          "links": []
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "id": 371,
+                                                                                              "title": "You: \"\"We're buddies, Siileng. Help us ou...\"",
+                                                                                              "articyId": "0x010000060001159C",
+                                                                                              "text": "\"We're buddies, Siileng. Help us out. No one will know it was you.\"",
+                                                                                              "links": []
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 257,
+                                                                                  "title": "You: \"\"It wasn't *some drug crowd*. You k...\"",
+                                                                                  "articyId": "0x0100000600011530",
+                                                                                  "text": "\"It wasn't *some drug crowd*. You know who they are. Tell me now!\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 7,
+                                                                                      "title": "Siileng: \"\"Shush, please...\" He looks around,...\"",
+                                                                                      "articyId": "0x0100000600011563",
+                                                                                      "text": "\"Shush, please...\" He looks around, then lowers his voice. \"There's *bad* people doing *bad* things here -- that's all I know. Please don't get me into this mess, I've spent *fifteen* years working my way up...\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 349,
+                                                                                  "title": "You: \"\"You're wasting my time. Tell me wh...\"",
+                                                                                  "articyId": "0x0100000600011536",
+                                                                                  "text": "\"You're wasting my time. Tell me who the *fuck* is transporting the drugs here!\"",
+                                                                                  "links": []
+                                                                                },
+                                                                                {
+                                                                                  "id": 89,
+                                                                                  "title": "You: \"\"Okay. If you don't know then I'll...\"",
+                                                                                  "articyId": "0x010000060001154E",
+                                                                                  "text": "\"Okay. If you don't know then I'll tell your employer you've been selling his stuff.\"",
+                                                                                  "links": [
+                                                                                    {
+                                                                                      "id": 204,
+                                                                                      "title": "Kim Kitsuragi: \"\"No use -- he's not telling us. He'...\"",
+                                                                                      "articyId": "0x0100000600011570",
+                                                                                      "text": "\"No use -- he's not telling us. He's too afraid. We need to take him to my station and ask him there. *After* we've called his boss.\"",
+                                                                                      "links": [
+                                                                                        {
+                                                                                          "id": 90,
+                                                                                          "title": "Siileng: \"\"Okay, look...\" The vendor looks ar...\"",
+                                                                                          "articyId": "0x0100000600011577",
+                                                                                          "text": "\"Okay, look...\" The vendor looks around, then lowers his voice. \"There's *bad* people doing *bad* things here -- that's all I know. Please don't get me into this mess, I've spent *fifteen* years working my way up...\"",
+                                                                                          "links": []
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "id": 328,
+                                                                                      "title": "Siileng: \"\"Okay, look...\" He looks around and...\"",
+                                                                                      "articyId": "0x0100000600011582",
+                                                                                      "text": "\"Okay, look...\" He looks around and lowers his voice. \"There's *bad* people here. Doing *bad* things. That's all I know. Please don't get into this mess. I've been Revachol for *fifteen* years, working my way up...\"",
+                                                                                      "links": []
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "id": 158,
+                                                                                  "title": "Empathy: \"He doesn't want to talk about them....\"",
+                                                                                  "articyId": "0x0100000600011542",
+                                                                                  "text": "He doesn't want to talk about them... he's *afraid*.",
+                                                                                  "links": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": 64,
+                                                                  "title": "You: \"\"Wait, what crowd?\"\"",
+                                                                  "articyId": "0x01000006000114DC",
+                                                                  "text": "\"Wait, what crowd?\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 306,
+                                                          "title": "You: \"\"Siileng, my source tells me *you'r...\"",
+                                                          "articyId": "0x01000006000114A6",
+                                                          "text": "\"Siileng, my source tells me *you're* the one transporting drugs for the Union.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 431,
+                                                              "title": "Siileng: \"\"No. That's insane... It's the fat...\"",
+                                                              "articyId": "0x01000006000114AF",
+                                                              "text": "\"No. That's insane... It's the fat hater! He's been eyeing me for a week and he sent you here. Maybe *he's* the one, huh? Have you thought about that?\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 201,
+                                          "title": "You: \"\"So you admit you're a lorry driver.\"\"",
+                                          "articyId": "0x010000060001145D",
+                                          "text": "\"So you admit you're a lorry driver.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 58,
+                          "title": "Siileng: \"\"That's *even* cooler -- you invest...\"",
+                          "articyId": "0x010000060001141E",
+                          "text": "\"That's *even* cooler -- you investigating narcotics crimes like that. But --\" he points to the goods. \"I am not a lorry driver, I'm just a street vendor. I don't know anything about that.\"",
+                          "links": []
+                        },
+                        {
+                          "id": 304,
+                          "title": "Siileng: \"\"That's *so* cool -- you investigat...\"",
+                          "articyId": "0x0100000600011433",
+                          "text": "\"That's *so* cool -- you investigating the local drug trade like some cool Narc. But --\" he points to the goods. \"I am not a lorry driver, I'm just a street vendor. I don't know anything about that.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "title": "You: \"Persuade him to give you some money...\"",
+          "articyId": "0x0100000600010E1B",
+          "text": "Persuade him to give you some money.",
+          "links": [
+            {
+              "id": 285,
+              "title": "Rhetoric: \"Start with a little compliment, the...\"",
+              "articyId": "0x0100002100000484",
+              "text": "Start with a little compliment, then work your way up from there -- this is about business, remember.",
+              "links": [
+                {
+                  "id": 67,
+                  "title": "You: \"\"Hey, you seem like a really succes...\"",
+                  "articyId": "0x010000210000048F",
+                  "text": "\"Hey, you seem like a really successful entrepreneur... would you like to support a member of the local police force?\"",
+                  "links": [
+                    {
+                      "id": 214,
+                      "title": "Siileng: \"\"*Now* we're getting somewhere,\" th...\"",
+                      "articyId": "0x0100000600010E55",
+                      "text": "\"*Now* we're getting somewhere,\" the street vendor nods. \"If you'd only give me a good reason as well...\"",
+                      "links": [
+                        {
+                          "id": 417,
+                          "title": "Rhetoric: \"Because you need to solve the bigge...\"",
+                          "articyId": "0x0100000600010E9C",
+                          "text": "Because you need to solve the biggest case in the history of criminal sciences.",
+                          "links": [
+                            {
+                              "id": 119,
+                              "title": "You: \"\"See this island over there?\" (Poin...\"",
+                              "articyId": "0x0100000600010EF9",
+                              "text": "\"See this island over there?\" (Point at the sea.) \"I need money to fund an expedition there. It's important for the case.\"",
+                              "links": [
+                                {
+                                  "id": 4,
+                                  "title": "Siileng: \"\"Oh... I like expeditions, and I li...\"",
+                                  "articyId": "0x0100000600010F1B",
+                                  "text": "\"Oh... I like expeditions, and I like you. I can give you...\" He counts in his head. \"... 10 reál.\"",
+                                  "links": [
+                                    {
+                                      "id": 318,
+                                      "title": "Kim Kitsuragi: \"The lieutenant nods calmly and says...\"",
+                                      "articyId": "0x0100000600010E6B",
+                                      "text": "The lieutenant nods calmly and says: \"Corruption.\"",
+                                      "links": [
+                                        {
+                                          "id": 153,
+                                          "title": "Empathy: \"It's just like *bus*, or *seagull*...\"",
+                                          "articyId": "0x0100000600010F4B",
+                                          "text": "It's just like *bus*, or *seagull* -- a kid watching out of a window describing things going by. He doesn't like it too much, but what do you do.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 416,
+                                      "title": "Esprit de Corps: \"Somewhere not so distant, officer C...\"",
+                                      "articyId": "0x0100000600010E85",
+                                      "text": "Somewhere not so distant, officer Chad Tillbrook refuses a bribe from a local hood. He doesn't know you've just made his job, and the job of all honest cops, a little bit harder.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 57,
+                          "title": "Rhetoric: \"After all this mess -- the broken s...\"",
+                          "articyId": "0x01000006000110FC",
+                          "text": "After all this mess -- the broken seals, lying to you? C'mon!",
+                          "links": []
+                        },
+                        {
+                          "id": 365,
+                          "title": "You: \"\"Think of it as an *investment*.\"\"",
+                          "articyId": "0x0100000600010EED",
+                          "text": "\"Think of it as an *investment*.\"",
+                          "links": [
+                            {
+                              "id": 319,
+                              "title": "Siileng: \"\"An investment?\" He raises a brow,...\"",
+                              "articyId": "0x0100000600010F15",
+                              "text": "\"An investment?\" He raises a brow, intrigued. \"What kind of investment?\"",
+                              "links": [
+                                {
+                                  "id": 281,
+                                  "title": "Volition: \"*Or* you could *not* make this abou...\"",
+                                  "articyId": "0x0100000600011112",
+                                  "text": "*Or* you could *not* make this about corruption and go with something even wilder.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 421,
+                                  "title": "You: \"\"It's an investment in me, a highly...\"",
+                                  "articyId": "0x0100000600010F78",
+                                  "text": "\"It's an investment in me, a highly experimental human being. My risk/reward ratio is insane.\"",
+                                  "links": [
+                                    {
+                                      "id": 467,
+                                      "title": "Siileng: \"\"I guess it can't be any riskier th...\"",
+                                      "articyId": "0x0100000600010FEC",
+                                      "text": "\"I guess it can't be any riskier than speculating in exotic derivatives... how much are we talking about here?\"",
+                                      "links": [
+                                        {
+                                          "id": 324,
+                                          "title": "You: \"\"Five reál.\"\"",
+                                          "articyId": "0x010000060001102D",
+                                          "text": "\"Five reál.\"",
+                                          "links": [
+                                            {
+                                              "id": 444,
+                                              "title": "Siileng: \"\"What, only a fiver? You can't even...\"",
+                                              "articyId": "0x0100000600010EC9",
+                                              "text": "\"What, only a fiver? You can't even buy a pack of Royal Extras with that -- let's make this one *stick*, my man.\"",
+                                              "links": [
+                                                {
+                                                  "id": 118,
+                                                  "title": "Electrochemistry: \"God, a pack of Royals would taste *...\"",
+                                                  "articyId": "0x0100000600010ED5",
+                                                  "text": "God, a pack of Royals would taste *so* good right now. Get you some of those tar-sticks, baby!",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 6,
+                                          "title": "You: \"\"Ten reál.\"\"",
+                                          "articyId": "0x0100000600011022",
+                                          "text": "\"Ten reál.\"",
+                                          "links": [
+                                            {
+                                              "id": 273,
+                                              "title": "Siileng: \"\"Ten reál is a bargain for that kin...\"",
+                                              "articyId": "0x0100000600010E0C",
+                                              "text": "\"Ten reál is a bargain for that kind of investment! You got it, my man.\" He takes a ten-note from a leather pouch.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 389,
+                                          "title": "You: \"\"One million reál.\"\"",
+                                          "articyId": "0x010000060001101C",
+                                          "text": "\"One million reál.\"",
+                                          "links": [
+                                            {
+                                              "id": 317,
+                                              "title": "Siileng: \"\"But officer, I don't have that kin...\"",
+                                              "articyId": "0x0100000600010E38",
+                                              "text": "\"But officer, I don't have that kind of money. There's got to be a more modest investment.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 325,
+                                  "title": "You: \"\"Invest into me not telling your em...\"",
+                                  "articyId": "0x01000006000110F0",
+                                  "text": "\"Invest into me not telling your employer about your operation here.\"",
+                                  "links": [
+                                    {
+                                      "id": 345,
+                                      "title": "Siileng: \"\"Hah -- that! You drive a hard barg...\"",
+                                      "articyId": "0x0100000600010F21",
+                                      "text": "\"Hah -- that! You drive a hard bargain, officer. I respect that.\" He nods. \"Okay, what's it going to cost me? Be reasonable...\"",
+                                      "links": [
+                                        {
+                                          "id": 134,
+                                          "title": "You: \"\"Five reál.\"\"",
+                                          "articyId": "0x0100000600010FB4",
+                                          "text": "\"Five reál.\"",
+                                          "links": [
+                                            {
+                                              "id": 366,
+                                              "title": "Siileng: \"\"What, only a fiver? You can't even...\"",
+                                              "articyId": "0x0100000600010F0F",
+                                              "text": "\"What, only a fiver? You can't even buy a pack of Royal Extras with that -- let's make this one *stick*, my friend!\"",
+                                              "links": [
+                                                {
+                                                  "id": 420,
+                                                  "title": "Electrochemistry: \"God, a pack of Royals would taste *...\"",
+                                                  "articyId": "0x0100000600010F09",
+                                                  "text": "God, a pack of Royals would taste *so* good right now. Get you some of those tar-sticks, baby!",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 249,
+                                          "title": "You: \"\"Ten reál.\"\"",
+                                          "articyId": "0x0100000600010FC0",
+                                          "text": "\"Ten reál.\"",
+                                          "links": [
+                                            {
+                                              "id": 322,
+                                              "title": "Siileng: \"\"Sounds like a fair deal all around...\"",
+                                              "articyId": "0x0100000600010F9C",
+                                              "text": "\"Sounds like a fair deal all around.\" He takes a ten-note from a leather pouch.",
+                                              "links": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 278,
+                                          "title": "You: \"\"One million reál.\"\"",
+                                          "articyId": "0x0100000600010FCC",
+                                          "text": "\"One million reál.\"",
+                                          "links": [
+                                            {
+                                              "id": 248,
+                                              "title": "Siileng: \"\"Officer, do I look like a drug lor...\"",
+                                              "articyId": "0x0100000600010EFF",
+                                              "text": "\"Officer, do I look like a drug lord? I don't have that kinda money. Be reasonable here.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 28,
+                                  "title": "You: \"\"I'm *not* going tell HUMANOX about...\"",
+                                  "articyId": "0x0100000600010EF3",
+                                  "text": "\"I'm *not* going tell HUMANOX about the little side business you've got here.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 27,
+                                  "title": "You: \"\"I'm *not* gonna confiscate this hu...\"",
+                                  "articyId": "0x0100000600010EE7",
+                                  "text": "\"I'm *not* gonna confiscate this humanitarian aid that you're reselling.\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 443,
+                                  "title": "You: \"\"I'm a policeman. It's an investmen...\"",
+                                  "articyId": "0x0100000600010EBD",
+                                  "text": "\"I'm a policeman. It's an investment in good relations with the RCM.\"",
+                                  "links": [
+                                    {
+                                      "id": 321,
+                                      "title": "Siileng: \"He looks you straight in the eye. \"...\"",
+                                      "articyId": "0x0100000600010F72",
+                                      "text": "He looks you straight in the eye. \"I hear you, officer,\" he agrees. \"What kind of a sum are we talking about here?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 154,
+                                  "title": "You: \"\"It's an investment in your custome...\"",
+                                  "articyId": "0x0100000600010F7E",
+                                  "text": "\"It's an investment in your customer base. Gotta prime the pump, man!\"",
+                                  "links": [
+                                    {
+                                      "id": 5,
+                                      "title": "Siileng: \"\"Fair point,\" he agrees, \"You can't...\"",
+                                      "articyId": "0x0100000600010FF8",
+                                      "text": "\"Fair point,\" he agrees, \"You can't have a successful business without a loyal customer base. How much is your loyalty worth?\"",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 155,
+                                  "title": "You: \"\"A guy told me I need money to live...\"",
+                                  "articyId": "0x0100000600010F84",
+                                  "text": "\"A guy told me I need money to live, otherwise it's game over -- and I don't want to die.\"",
+                                  "links": [
+                                    {
+                                      "id": 198,
+                                      "title": "Rhetoric: \"A bold move! Let's see if it pays o...\"",
+                                      "articyId": "0x0100000600011004",
+                                      "text": "A bold move! Let's see if it pays off.",
+                                      "links": [
+                                        {
+                                          "id": 323,
+                                          "title": "Siileng: \"\"I... officer,\" he nods. He is genu...\"",
+                                          "articyId": "0x010000060001100A",
+                                          "text": "\"I... officer,\" he nods. He is genuinely perplexed.",
+                                          "links": [
+                                            {
+                                              "id": 56,
+                                              "title": "You: \"\"I don't even want happiness, or *u...\"",
+                                              "articyId": "0x0100000600010FC6",
+                                              "text": "\"I don't even want happiness, or *un-unhappiness* -- I just don't want to die.\"",
+                                              "links": [
+                                                {
+                                                  "id": 464,
+                                                  "title": "Empathy: \"Tugging at his heart strings like t...\"",
+                                                  "articyId": "0x0100000600010E06",
+                                                  "text": "Tugging at his heart strings like that... doesn't it feel a bit manipulative?",
+                                                  "links": [
+                                                    {
+                                                      "id": 120,
+                                                      "title": "Drama: \"It feels great.\"",
+                                                      "articyId": "0x0100000600011016",
+                                                      "text": "It feels great.",
+                                                      "links": [
+                                                        {
+                                                          "id": 465,
+                                                          "title": "Siileng: \"\"Okay, officer,\" he finally says, \"...\"",
+                                                          "articyId": "0x0100000600010F90",
+                                                          "text": "\"Okay, officer,\" he finally says, \"I can't leave a man in need like that. How much do you need?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 170,
+                                                              "title": "You: \"\"Five reál.\"\"",
+                                                              "articyId": "0x0100000600010FBA",
+                                                              "text": "\"Five reál.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 320,
+                                                                  "title": "Siileng: \"\"What, only a fiver? You can't even...\"",
+                                                                  "articyId": "0x0100000600010F66",
+                                                                  "text": "\"What, only a fiver? You can't even buy a pack of Royal Extras with that -- let's make this one *stick*, my man.\"",
+                                                                  "links": [
+                                                                    {
+                                                                      "id": 218,
+                                                                      "title": "Electrochemistry: \"God, a pack of Royals would taste *...\"",
+                                                                      "articyId": "0x0100000600010EDB",
+                                                                      "text": "God, a pack of Royals would taste *so* good right now. Get you some of those tar-sticks, baby!",
+                                                                      "links": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 219,
+                                                              "title": "You: \"\"Ten reál.\"\"",
+                                                              "articyId": "0x0100000600010FA8",
+                                                              "text": "\"Ten reál.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 55,
+                                                                  "title": "Siileng: \"\"Alright, this should help you get...\"",
+                                                                  "articyId": "0x0100000600010F6C",
+                                                                  "text": "\"Alright, this should help you get back on your feet.\" He takes a ten-note from a leather pouch.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 30,
+                                                              "title": "You: \"\"One million reál.\"\"",
+                                                              "articyId": "0x0100000600010FA2",
+                                                              "text": "\"One million reál.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 29,
+                                                                  "title": "Siileng: \"\"Officer, do I look like *I* have t...\"",
+                                                                  "articyId": "0x0100000600010F60",
+                                                                  "text": "\"Officer, do I look like *I* have that kinda money? Be reasonable.\"",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 368,
+                                              "title": "You: \"\"You said I was a cool cop, but it'...\"",
+                                              "articyId": "0x0100000600010FE6",
+                                              "text": "\"You said I was a cool cop, but it's not very cool to freeze to death on a cold park bench.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 114,
+                      "title": "Siileng: \"\"Oh, okay.\" The man stops, his face...\"",
+                      "articyId": "0x0100000600010DE8",
+                      "text": "\"Oh, okay.\" The man stops, his face suddenly serious. \"But why, officer?\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 232,
+              "title": "Rhetoric: \"No need to dress this one up, just...\"",
+              "articyId": "0x01000021000004A3",
+              "text": "No need to dress this one up, just tell him what you want.",
+              "links": [
+                {
+                  "id": 186,
+                  "title": "You: \"\"You, I want your money. Now.\"\"",
+                  "articyId": "0x0100002100000495",
+                  "text": "\"You, I want your money. Now.\"",
+                  "links": [
+                    {
+                      "id": 169,
+                      "title": "Siileng: \"\"It's very cool of you to ask again...\"",
+                      "articyId": "0x0100000600010E44",
+                      "text": "\"It's very cool of you to ask again -- it's the third time now. How about you give *me* money and I give *you* cool pants and sneakers.\" He points to them.",
+                      "links": []
+                    },
+                    {
+                      "id": 418,
+                      "title": "Siileng: \"\"Wow! So cool... you keep saying *t...\"",
+                      "articyId": "0x0100000600010EA8",
+                      "text": "\"Wow! So cool... you keep saying *the same sentence*, mister. No difference. Same words.\" He grins in amazement. \"Let me donate you some sunglasses. For only 20 cents to 2 reál.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 171,
+                      "title": "Siileng: \"\"Oh, okay.\" Siileng stops, his face...\"",
+                      "articyId": "0x0100000600011010",
+                      "text": "\"Oh, okay.\" Siileng stops, his face suddenly serious. \"But why, officer?\"",
+                      "links": [
+                        {
+                          "id": 132,
+                          "title": "You: \"\"Because I want you to bribe me. I'...\"",
+                          "articyId": "0x0100000600010F27",
+                          "text": "\"Because I want you to bribe me. I'm a police officer, remember? That's what you're supposed to *do* around here.\"",
+                          "links": [
+                            {
+                              "id": 367,
+                              "title": "Siileng: \"\"But officer, bribe you to do what?...\"",
+                              "articyId": "0x0100000600010F2D",
+                              "text": "\"But officer, bribe you to do what?\" The street vendor's expression is dead serious.",
+                              "links": [
+                                {
+                                  "id": 466,
+                                  "title": "Kim Kitsuragi: \"\"I don't think you really understan...\"",
+                                  "articyId": "0x0100000600010F96",
+                                  "text": "\"I don't think you really understand how bribes work, detective...\" He looks at you, then the vendor.",
+                                  "links": [
+                                    {
+                                      "id": 133,
+                                      "title": "Siileng: \"\"Sorry, detective.\" The man grins a...\"",
+                                      "articyId": "0x0100000600010F33",
+                                      "text": "\"Sorry, detective.\" The man grins as if the entire incident is already forgotten.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 277,
+                                  "title": "Empathy: \"The air between you becomes a littl...\"",
+                                  "articyId": "0x0100000600010FAE",
+                                  "text": "The air between you becomes a little awkward as it becomes clear you don't know the first thing about bribes.",
+                                  "links": [
+                                    {
+                                      "id": 344,
+                                      "title": "Siileng: \"\"You see, I'm an honest entrepreneu...\"",
+                                      "articyId": "0x0100000600010EE1",
+                                      "text": "\"You see, I'm an honest entrepreneur. I can't help you if you don't give me a good reason as to why I should -- sorry, detective.\" The man grins as if the entire incident is already forgotten.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 220,
+                          "title": "You: \"\"Because I... am corrupt? I don't r...\"",
+                          "articyId": "0x0100000600010FD6",
+                          "text": "\"Because I... am corrupt? I don't really remember how it works, though -- being corrupt, I mean.\"",
+                          "links": [
+                            {
+                              "id": 301,
+                              "title": "Siileng: \"\"Ah, yes. Lots of cops are.\" The st...\"",
+                              "articyId": "0x0100000600010FDC",
+                              "text": "\"Ah, yes. Lots of cops are.\" The street vendor nods, dead-serious.",
+                              "links": [
+                                {
+                                  "id": 388,
+                                  "title": "Kim Kitsuragi: \"\"Are you trying to ask for a *bribe...\"",
+                                  "articyId": "0x0100000600010FFE",
+                                  "text": "\"Are you trying to ask for a *bribe*? If so, you're not doing a very good job...\" He looks at the vendor.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 85,
+                                  "title": "Empathy: \"The air between you becomes a littl...\"",
+                                  "articyId": "0x0100000600010E4F",
+                                  "text": "The air between you becomes a little awkward as it becomes clear you don't know the first thing about bribes.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 342,
+                          "title": "You: \"\"I don't know, it was just the only...\"",
+                          "articyId": "0x0100000600010DD1",
+                          "text": "\"I don't know, it was just the only thing I could come up with in my head -- to ask you. I need to get money *somehow*.\"",
+                          "links": [
+                            {
+                              "id": 23,
+                              "title": "Siileng: \"\"Ah, yes. Money is very important.\"...\"",
+                              "articyId": "0x0100000600010DFA",
+                              "text": "\"Ah, yes. Money is very important.\" The street vendor nods, dead-serious.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 311,
+          "title": "You: \"\"I'll look around, thanks.\" [Leave....\"",
+          "articyId": "0x0100002B00037BEA",
+          "text": "\"I'll look around, thanks.\" [Leave.]",
+          "links": [
+            {
+              "id": 233,
+              "title": "Siileng: \"\"Sure, mister, very cool. Take a ni...\"",
+              "articyId": "0x0100002B00037BFC",
+              "text": "\"Sure, mister, very cool. Take a nice long look, I've got all sorts of things here.\"",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "title": "Siileng: \"\"Wow.\"\"",
+      "articyId": "0x01000057000230F2",
+      "text": "\"Wow.\"",
+      "links": [
+        {
+          "id": 105,
+          "title": "You: \"\"Wow what?\"\"",
+          "articyId": "0x01000057000230F8",
+          "text": "\"Wow what?\"",
+          "links": [
+            {
+              "id": 42,
+              "title": "Siileng: \"\"A cop limping down the street, ble...\"",
+              "articyId": "0x0100005700023105",
+              "text": "\"A cop limping down the street, bleeding from the shoulder, face bruised, looking like hell... You know what that is?\"",
+              "links": [
+                {
+                  "id": 77,
+                  "title": "Siileng: \"\"Cool. That's *cool*.\" He nods and...\"",
+                  "articyId": "0x010000570002310B",
+                  "text": "\"Cool. That's *cool*.\" He nods and settles back into the pile of boxes.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x01000057000230FE",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 382,
+      "title": "Siileng: \"You see a Samaran street vendor sur...\"",
+      "articyId": "0x0100007000002F93",
+      "text": "You see a Samaran street vendor surrounded by a motley assemblage of goods. When he realizes you're looking at him his face breaks into a wide welcoming grin...",
+      "links": [
+        {
+          "id": 293,
+          "title": "Perception (Sight): \"The name \"Siileng\" is embroidered o...\"",
+          "articyId": "0x0100007B000006B8",
+          "text": "The name \"Siileng\" is embroidered over his breast pocket.",
+          "links": [
+            {
+              "id": 193,
+              "title": "Siileng: \"\"Happy shopping, officer! Everythin...\"",
+              "articyId": "0x0100007000000A8E",
+              "text": "\"Happy shopping, officer! Everything's cool here!\" He gives you a thumbs up.",
+              "links": [
+                {
+                  "id": 452,
+                  "title": "You: \"\"What's so cool?\"\"",
+                  "articyId": "0x0100002B00037C86",
+                  "text": "\"What's so cool?\"",
+                  "links": [
+                    {
+                      "id": 234,
+                      "title": "Siileng: \"\"*Everything's* cool. The goods are...\"",
+                      "articyId": "0x0100002B00037C8D",
+                      "text": "\"*Everything's* cool. The goods are cool, the customers are cool, the place is cool -- and one more thing, officer...\"",
+                      "links": [
+                        {
+                          "id": 286,
+                          "title": "Shivers: \"...from out on the bay a cool wind...\"",
+                          "articyId": "0x0100002B00040EBB",
+                          "text": "...from out on the bay a cool wind gathers. It sweeps into the city, tugging at the textiles hanging around the stand. Some distance away the sound of a tin can clattering across the street can be heard...",
+                          "links": [
+                            {
+                              "id": 68,
+                              "title": "Siileng: \"\"... you're *very* cool.\" He makes...\"",
+                              "articyId": "0x0100002B000650CF",
+                              "text": "\"... you're *very* cool.\" He makes both hands into finger-pistols and fires a few finger-bullets into the air.",
+                              "links": [
+                                {
+                                  "id": 207,
+                                  "title": "Composure: \"You feel a twitch in your index fin...\"",
+                                  "articyId": "0x0100002B0006B993",
+                                  "text": "You feel a twitch in your index fingers. There's a finger-shootout a-brewing.",
+                                  "links": [
+                                    {
+                                      "id": 98,
+                                      "title": "You: \"Whip 'em out!\"",
+                                      "articyId": "0x0100002B0006B9A7",
+                                      "text": "Whip 'em out!",
+                                      "links": [
+                                        {
+                                          "id": 39,
+                                          "title": "Siileng: \"He raises his arms in mock alarm. \"...\"",
+                                          "articyId": "0x0100002B0006B9B5",
+                                          "text": "He raises his arms in mock alarm. \"Don't shoot, officer! Have we got an arrest here, or just a shakedown?\"",
+                                          "links": [
+                                            {
+                                              "id": 332,
+                                              "title": "Authority: \"Even better! It's like a shakedown,...\"",
+                                              "articyId": "0x0100002B0006BA2C",
+                                              "text": "Even better! It's like a shakedown, but somehow legal. This is \"civil asset forfeiture.\"",
+                                              "links": [
+                                                {
+                                                  "id": 238,
+                                                  "title": "You: \"\"A shakedown.\"\"",
+                                                  "articyId": "0x0100002B0006B9BE",
+                                                  "text": "\"A shakedown.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 187,
+                                                      "title": "Siileng: \"\"Good one, officer. You're a funny...\"",
+                                                      "articyId": "0x0100002B0006B9CC",
+                                                      "text": "\"Good one, officer. You're a funny guy! Now what can I do for you?\" He nods toward his shabby wares.",
+                                                      "links": [
+                                                        {
+                                                          "id": 71,
+                                                          "title": "You: \"\"This isn't a joke. Give me your mo...\"",
+                                                          "articyId": "0x0100002B0006B9D3",
+                                                          "text": "\"This isn't a joke. Give me your money. I need money.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 411,
+                                                              "title": "Kim Kitsuragi: \"\"He does not need your money. Pleas...\"",
+                                                              "articyId": "0x0100007000000B01",
+                                                              "text": "\"He does not need your money. Please disregard that. We're just here to ask some questions.\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 336,
+                                                                  "title": "Siileng: \"\"Of course. Fire away!\" He settles...\"",
+                                                                  "articyId": "0x01000057000230D3",
+                                                                  "text": "\"Of course. Fire away!\" He settles back into the pile of boxes he's sitting on, making himself comfortable.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "id": 240,
+                                                              "title": "Siileng: \"\"I would, officer, gladly, but I do...\"",
+                                                              "articyId": "0x0100002B0006BA5D",
+                                                              "text": "\"I would, officer, gladly, but I don't have any cash on hand, you know?\" He winks. \"But maybe if you *buy* something first *then* I'll have some money you can shake me down for. Sound fair?\"",
+                                                              "links": [
+                                                                {
+                                                                  "id": 142,
+                                                                  "title": "Siileng: \"\"I think that's fair.\" He settles b...\"",
+                                                                  "articyId": "0x01000057000230C1",
+                                                                  "text": "\"I think that's fair.\" He settles back into the pile of boxes he's sitting on, making himself comfortable.",
+                                                                  "links": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 13,
+                                                          "title": "You: \"\"Just kidding. I'm really here to s...\"",
+                                                          "articyId": "0x0100002B0006B9D9",
+                                                          "text": "\"Just kidding. I'm really here to shake you down for some *answers* to official police questions.\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 140,
+                                                              "title": "Siileng: \"\"Then fire away, officer!\" He settl...\"",
+                                                              "articyId": "0x0100002B0006BA4B",
+                                                              "text": "\"Then fire away, officer!\" He settles back into the pile of boxes he's sitting on, getting comfortable.",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 402,
+                                                  "title": "You: \"\"An arrest.\"\"",
+                                                  "articyId": "0x0100002B0006B9C4",
+                                                  "text": "\"An arrest.\"",
+                                                  "links": [
+                                                    {
+                                                      "id": 72,
+                                                      "title": "Siileng: \"\"Of course, I'll come quietly.\" A s...\"",
+                                                      "articyId": "0x0100002B0006BAF0",
+                                                      "text": "\"Of course, I'll come quietly.\" A sly wink. \"But perhaps I could convince you to arrest some of my wares, officer? With your money, maybe?\"",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 454,
+                                                  "title": "You: \"\"Even better, it's civil asset forf...\"",
+                                                  "articyId": "0x0100002B0006B9DF",
+                                                  "text": "\"Even better, it's civil asset forfeiture.\" (Make an imaginary warning shot.)",
+                                                  "links": [
+                                                    {
+                                                      "id": 333,
+                                                      "title": "Siileng: \"\"You're threatening my inviolable p...\"",
+                                                      "articyId": "0x0100002B0006BA36",
+                                                      "text": "\"You're threatening my inviolable property rights?\" He inhales dramatically, then simmers down.",
+                                                      "links": [
+                                                        {
+                                                          "id": 442,
+                                                          "title": "Siileng: \"\"Good joke, officer, you're very fu...\"",
+                                                          "articyId": "0x0100005700023042",
+                                                          "text": "\"Good joke, officer, you're very funny, you know that?\"",
+                                                          "links": [
+                                                            {
+                                                              "id": 40,
+                                                              "title": "You: \"\"This isn't a joke. Give me your mo...\"",
+                                                              "articyId": "0x0100002B0006BA3D",
+                                                              "text": "\"This isn't a joke. Give me your money. I need money.\"",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 128,
+                                                              "title": "You: \"\"Yeah, I'm funny. This isn't a civi...\"",
+                                                              "articyId": "0x0100002B0006BA43",
+                                                              "text": "\"Yeah, I'm funny. This isn't a civil forfeiture, I just want to ask some questions.\"",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 312,
+                                      "title": "You: \"No, it's a safety hazard.\"",
+                                      "articyId": "0x0100002B0006B9AD",
+                                      "text": "No, it's a safety hazard.",
+                                      "links": [
+                                        {
+                                          "id": 378,
+                                          "title": "Siileng: \"\"What, no finger-pistols, officer?\"...\"",
+                                          "articyId": "0x0100002B0006BA65",
+                                          "text": "\"What, no finger-pistols, officer?\" The street vendor makes a little *pew-pew* sound.",
+                                          "links": [
+                                            {
+                                              "id": 241,
+                                              "title": "You: \"\"I'm not here to play with finger-p...\"",
+                                              "articyId": "0x0100002B0006BA6C",
+                                              "text": "\"I'm not here to play with finger-pistols. I'm here on official business.\"",
+                                              "links": [
+                                                {
+                                                  "id": 357,
+                                                  "title": "Kim Kitsuragi: \"The lieutenant nods approvingly.\"",
+                                                  "articyId": "0x0100007000000AA0",
+                                                  "text": "The lieutenant nods approvingly.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 188,
+                                              "title": "You: \"\"What do you think is going to happ...\"",
+                                              "articyId": "0x0100002B0006BA72",
+                                              "text": "\"What do you think is going to happen when all those finger-bullets come raining down to earth?\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 352,
+                                      "title": "You: \"\"Really? You think I'm cool?\"\"",
+                                      "articyId": "0x010000570002304B",
+                                      "text": "\"Really? You think I'm cool?\"",
+                                      "links": [
+                                        {
+                                          "id": 104,
+                                          "title": "Siileng: \"\"Oh yes! You got style, you got *pe...\"",
+                                          "articyId": "0x0100005700023060",
+                                          "text": "\"Oh yes! You got style, you got *personal* style. You know what you like.\" He surveys his consumerist kingdom with an air of satisfaction.",
+                                          "links": [
+                                            {
+                                              "id": 456,
+                                              "title": "Siileng: \"\"You like premium menswear! Look ar...\"",
+                                              "articyId": "0x010000570002306A",
+                                              "text": "\"You like premium menswear! Look around and browse, everything looks cool on a guy like you. Take your time.\" He settles back into the pile of boxes he's sitting on.",
+                                              "links": [
+                                                {
+                                                  "id": 316,
+                                                  "title": "Volition: \"Don't be distracted by the flattery...\"",
+                                                  "articyId": "0x01000006000103EC",
+                                                  "text": "Don't be distracted by the flattery and funny-man act. *Questions*.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 380,
+                                      "title": "You: \"\"I'm not cool.\"\"",
+                                      "articyId": "0x0100005700023052",
+                                      "text": "\"I'm not cool.\"",
+                                      "links": [
+                                        {
+                                          "id": 141,
+                                          "title": "Siileng: \"\"What? No. I can't believe you said...\"",
+                                          "articyId": "0x0100005700023065",
+                                          "text": "\"What? No. I can't believe you said that! You got *personal* style! You know what you like.\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 353,
+                                      "title": "You: \"\"Whether I'm cool is unimportant, I...\"",
+                                      "articyId": "0x01000057000230A1",
+                                      "text": "\"Whether I'm cool is unimportant, I have *police* questions for you.\"",
+                                      "links": [
+                                        {
+                                          "id": 379,
+                                          "title": "Siileng: \"\"You're right, officer, 100%.\" He r...\"",
+                                          "articyId": "0x0100002B0006BA7A",
+                                          "text": "\"You're right, officer, 100%.\" He returns his finger-pistols to their finger-holsters. \"No playing around then. Strictly business. Maybe I can interest you in some premium menswear instead?\"",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 210,
+                  "title": "You: \"[Leave.]\"",
+                  "articyId": "0x0100005700023039",
+                  "text": "[Leave.]",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "0x010000070001206C",
+  "title": "VILLAGE / LILLY SANDCASTLE",
+  "description": "This is the interaction dialogue with Lilly's Little Sandcastle, where she hid the gloves.",
+  "dialogueTree": [
+    {
+      "id": 19,
+      "title": "Sandcastle: \"The fortress is still defiantly sta...\"",
+      "articyId": "0x01000007000120E4",
+      "text": "The fortress is still defiantly standing. There's an inviting gleam of *something* coming from the depths of the deepest cellars.",
+      "links": [
+        {
+          "id": 23,
+          "title": "You: \"\"Broken...\"\"",
+          "articyId": "0x010000070001207D",
+          "text": "\"Broken...\"",
+          "links": [
+            {
+              "id": 14,
+              "title": "Kim Kitsuragi: \"\"The little castle?\" The lieutenant...\"",
+              "articyId": "0x0100000700012098",
+              "text": "\"The little castle?\" The lieutenant smiles a little. \"The reigning lord must have come upon some really tough times to let it slip in such decrepitude.\"",
+              "links": []
+            },
+            {
+              "id": 11,
+              "title": "Sandcastle: \"A gush of wind disintegrates anothe...\"",
+              "articyId": "0x01000007000120A1",
+              "text": "A gush of wind disintegrates another piece of the cellar ceiling, exposing more of the mysterious glimmer underneath. The shithole's about to collapse.",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Half Light: \"The building's coming down on you,...\"",
+                  "articyId": "0x01000007000120B6",
+                  "text": "The building's coming down on you, you need to get out of here!",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Visual Calculus: \"Smooth reflective surface... are th...\"",
+                      "articyId": "0x01000007000120C2",
+                      "text": "Smooth reflective surface... are these the gloves you're looking for?",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"Reach in the catacombs and pull out...\"",
+          "articyId": "0x0100000700012083",
+          "text": "Reach in the catacombs and pull out the shiny object.",
+          "links": [
+            {
+              "id": 18,
+              "title": "Sandcastle: \"The walls and floors give way to th...\"",
+              "articyId": "0x01000007000120CB",
+              "text": "The walls and floors give way to the giant's greed, collapse and present you with a pair of ceramic gauntlets.",
+              "links": [
+                {
+                  "id": 13,
+                  "title": "Kim Kitsuragi: \"\"Congratulations -- that's the gaun...\"",
+                  "articyId": "0x010000060001DE89",
+                  "text": "\"Congratulations -- that's the gauntlets down, then. We're doing good on the armour collection front.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"Leave the sandcastle alone. [Leave....\"",
+          "articyId": "0x0100000700012089",
+          "text": "Leave the sandcastle alone. [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Sandcastle: \"Weather has not been kind to Lily's...\"",
+      "articyId": "0x0100000700012077",
+      "text": "Weather has not been kind to Lily's little sandcastle. The once mighty towers are quickly eroding away. You can see something shining back to you from what must have been a vast underground catacomb network.",
+      "links": []
+    }
+  ]
+}

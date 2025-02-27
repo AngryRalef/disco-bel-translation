@@ -1,0 +1,204 @@
+{
+  "id": "0x0100004500011649",
+  "title": "INVENTORY / DRIED MAY BELLS",
+  "description": "This dialogue is attached to the \"dried_may_bells\" item.",
+  "dialogueTree": [
+    {
+      "id": 4,
+      "title": "Dried Wildflower: \"Six crumbling petals rest on your p...\"",
+      "articyId": "0x010000450001170C",
+      "text": "Six crumbling petals rest on your palm. They're white, a bell-shaped crown.",
+      "links": [
+        {
+          "id": 48,
+          "title": "You: \"\"What is this, Kim?\"\"",
+          "articyId": "0x0100004500011727",
+          "text": "\"What is this, Kim?\"",
+          "links": [
+            {
+              "id": 8,
+              "title": "Kim Kitsuragi: \"\"As I said -- an Insulindian Lily,...\"",
+              "articyId": "0x010000780000A995",
+              "text": "\"As I said -- an Insulindian Lily, or a May bell. Girls pinned them on their boys during the Revolution.\"",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Encyclopedia: \"This flower is a spring flower, but...\"",
+                  "articyId": "0x010000780000A956",
+                  "text": "This flower is a spring flower, but it's a bit early for that, isn't it?",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "You: \"\"What is the Revolution?\"\"",
+                      "articyId": "0x0100004500011665",
+                      "text": "\"What is the Revolution?\"",
+                      "links": [
+                        {
+                          "id": 9,
+                          "title": "Kim Kitsuragi: \"\"A big political and military confl...\"",
+                          "articyId": "0x01000045000116A2",
+                          "text": "\"A big political and military conflict. Ask around, or buy a book.\" He seems annoyed by the question.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 16,
+                      "title": "You: \"\"Who pinned them? Which side?\"\"",
+                      "articyId": "0x0100004500011671",
+                      "text": "\"Who pinned them? Which side?\"",
+                      "links": [
+                        {
+                          "id": 17,
+                          "title": "Kim Kitsuragi: \"\"The revolutionaries: so the commun...\"",
+                          "articyId": "0x01000045000116B1",
+                          "text": "\"The revolutionaries: so the communards and the anarchists. White's their colour. But the custom started in the Suzerain's army so it held meaning for the kingsmen too.\"",
+                          "links": [
+                            {
+                              "id": 39,
+                              "title": "Kim Kitsuragi: \"\"It's about girls and boys more tha...\"",
+                              "articyId": "0x01000045000116B7",
+                              "text": "\"It's about girls and boys more than *sides*. Girls sending off boys who are going to their deaths -- then also dying themselves in the ruins, from dysentery and consumption. It's a symbol of the Civil War.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 50,
+                      "title": "You: \"\"Does this flower blossom in early...\"",
+                      "articyId": "0x010000450001167D",
+                      "text": "\"Does this flower blossom in early spring?\"",
+                      "links": [
+                        {
+                          "id": 3,
+                          "title": "Kim Kitsuragi: \"\"Yes, but not *this* early -- not t...\"",
+                          "articyId": "0x01000045000116C1",
+                          "text": "\"Yes, but not *this* early -- not to my knowledge...\" He observes the petals: \"It looks dried. Preserved.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 44,
+                      "title": "You: \"\"Is it a coincidence -- it being on...\"",
+                      "articyId": "0x010000780000A95E",
+                      "text": "\"Is it a coincidence -- it being on the roof?\"",
+                      "links": [
+                        {
+                          "id": 22,
+                          "title": "Kim Kitsuragi: \"\"Maybe -- maybe not.\" He makes a no...\"",
+                          "articyId": "0x010000780000A965",
+                          "text": "\"Maybe -- maybe not.\" He makes a note in his little note book. \"We'll see.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 32,
+                      "title": "You: \"\"Very well.\" (Put the flower back i...\"",
+                      "articyId": "0x010000450001166B",
+                      "text": "\"Very well.\" (Put the flower back in your pocket.)",
+                      "links": [
+                        {
+                          "id": 34,
+                          "title": "Dried Wildflower: \"The petals feel dry and fragile in...\"",
+                          "articyId": "0x01000045000116E8",
+                          "text": "The petals feel dry and fragile in your hand.",
+                          "links": [
+                            {
+                              "id": 5,
+                              "title": "Shivers: \"Water flows under the channel bridg...\"",
+                              "articyId": "0x0100004500011689",
+                              "text": "Water flows under the channel bridge -- dark water. You rub your sides for warmth but there is none.",
+                              "links": [
+                                {
+                                  "id": 38,
+                                  "title": "You: \"Blow on your fingers.\"",
+                                  "articyId": "0x0100004500011677",
+                                  "text": "Blow on your fingers.",
+                                  "links": [
+                                    {
+                                      "id": 10,
+                                      "title": "Shivers: \"Inland, above the Martinaise distri...\"",
+                                      "articyId": "0x01000045000116C7",
+                                      "text": "Inland, above the Martinaise distributary, the channel that brought waste water from the silk mills of Jamrock; and then dead bodies during the War...",
+                                      "links": [
+                                        {
+                                          "id": 7,
+                                          "title": "Shivers: \"...the wrinkled fingers of an old m...\"",
+                                          "articyId": "0x010000450001168F",
+                                          "text": "...the wrinkled fingers of an old man crush flower petals. Then sprinkle them in the stream, like white salt.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 27,
+                                  "title": "You: \"Stand still.\"",
+                                  "articyId": "0x01000045000116D6",
+                                  "text": "Stand still.",
+                                  "links": [
+                                    {
+                                      "id": 21,
+                                      "title": "Shivers: \"The feeling recedes.\"",
+                                      "articyId": "0x01000045000116E2",
+                                      "text": "The feeling recedes.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 28,
+                                  "title": "Logic: \"René! That old man in the uniform....\"",
+                                  "articyId": "0x0100000600016FC1",
+                                  "text": "René! That old man in the uniform. Maybe you should show it to him when you get the chance.",
+                                  "links": []
+                                },
+                                {
+                                  "id": 6,
+                                  "title": "Reaction Speed: \"Wait, have you noticed there's a *w...\"",
+                                  "articyId": "0x010000060001D442",
+                                  "text": "Wait, have you noticed there's a *war veteran* playing a ball game -- on the plaza? You should ask him about the flowers.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 33,
+              "title": "Kim Kitsuragi: \"\"This is the Insulindian Lily.\" The...\"",
+              "articyId": "0x0100004500011651",
+              "text": "\"This is the Insulindian Lily.\" The lieutenant corrects his glasses. \"Called 'May bells' or 'Lucille's tears' during the Revolution. Girls used to pin these on soldiers before sending them off to battle.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "title": "You: \"Never mind [Leave.]\"",
+          "articyId": "0x010000780000A981",
+          "text": "Never mind [Leave.]",
+          "links": []
+        },
+        {
+          "id": 11,
+          "title": "Esprit de Corps: \"Somewhere in Central Jamrock, Lieut...\"",
+          "articyId": "0x0100004500011718",
+          "text": "Somewhere in Central Jamrock, Lieutenant Kitsuragi steps into the public library, rows of shelves pass on either side... you feel he should be here for in-depth flower analysis.",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

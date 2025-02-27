@@ -1,0 +1,230 @@
+{
+  "id": "0x010000320000019B",
+  "title": "APT / EMPTY ROOM DOOR",
+  "description": "APARTMENT #10. A door leading to the apt with a real estate agent.",
+  "dialogueTree": [
+    {
+      "id": 19,
+      "title": "Locked Door: \"The door number #10 is closed again...\"",
+      "articyId": "0x0100007500001408",
+      "text": "The door number #10 is closed again.",
+      "links": [
+        {
+          "id": 12,
+          "title": "You: \"Knock.\"",
+          "articyId": "0x0100007500001415",
+          "text": "Knock.",
+          "links": [
+            {
+              "id": 43,
+              "title": "Locked Door: \"Nothing happens. The real estate ag...\"",
+              "articyId": "0x0100007500001426",
+              "text": "Nothing happens. The real estate agent must have left.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000750000141C",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Locked Door: \"You hear someone walking around ins...\"",
+      "articyId": "0x010000570001DD94",
+      "text": "You hear someone walking around inside, rearranging the furniture. The number on the panel says #10.",
+      "links": [
+        {
+          "id": 25,
+          "title": "You: \"Knock.\"",
+          "articyId": "0x010000570001DDA4",
+          "text": "Knock.",
+          "links": [
+            {
+              "id": 5,
+              "title": "Locked Door: \"The walking stops abruptly, but no...\"",
+              "articyId": "0x010000570001DF32",
+              "text": "The walking stops abruptly, but no one comes to the door.",
+              "links": [
+                {
+                  "id": 6,
+                  "title": "Inland Empire: \"You can feel tension on the other s...\"",
+                  "articyId": "0x010000570001DF3B",
+                  "text": "You can feel tension on the other side.",
+                  "links": [
+                    {
+                      "id": 20,
+                      "title": "Perception (Hearing): \"Sounded like a woman. A woman's sho...\"",
+                      "articyId": "0x010000060001B95D",
+                      "text": "Sounded like a woman. A woman's shoes.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "You: \"Knock again.\"",
+          "articyId": "0x010000570001DDAA",
+          "text": "Knock again.",
+          "links": [
+            {
+              "id": 30,
+              "title": "Locked Door: \"This time the steps come closer. \"W...\"",
+              "articyId": "0x010000570001DDBF",
+              "text": "This time the steps come closer. \"Who is this?\" demands a female voice, wary and tense.",
+              "links": [
+                {
+                  "id": 38,
+                  "title": "You: \"\"This is the police. Open up.\"\"",
+                  "articyId": "0x010000570001DF4F",
+                  "text": "\"This is the police. Open up.\"",
+                  "links": [
+                    {
+                      "id": 26,
+                      "title": "Locked Door: \"\"Do I *have to* open the door?\" You...\"",
+                      "articyId": "0x010000570001DF5B",
+                      "text": "\"Do I *have to* open the door?\" You hear the clacking of heels again, as the other side walks right up to the door. Her tone is now getting a defensive edge...",
+                      "links": [
+                        {
+                          "id": 27,
+                          "title": "Locked Door: \"\"Do you have a warrant? I'm not obl...\"",
+                          "articyId": "0x010000570001DF82",
+                          "text": "\"Do you have a warrant? I'm not obligated to open the door if you don't have a warrant.\"",
+                          "links": [
+                            {
+                              "id": 9,
+                              "title": "Kim Kitsuragi: \"\"Let's go,\" the lieutenant says, \"w...\"",
+                              "articyId": "0x010000570001DF72",
+                              "text": "\"Let's go,\" the lieutenant says, \"we don't have a reason to get inside that apartment.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 48,
+                              "title": "Physical Instrument: \"Later then. Entering this door seem...\"",
+                              "articyId": "0x010000060001B966",
+                              "text": "Later then. Entering this door seems a physical *challenge*.",
+                              "links": [
+                                {
+                                  "id": 44,
+                                  "title": "Logic: \"It's generally easier to do things...\"",
+                                  "articyId": "0x010000060001B96E",
+                                  "text": "It's generally easier to do things if you have literally *any* reason.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "title": "You: \"\"This apartment is supposed to be e...\"",
+          "articyId": "0x010000570001E1AD",
+          "text": "\"This apartment is supposed to be empty. Did you break in here?\"",
+          "links": [
+            {
+              "id": 18,
+              "title": "Locked Door: \"\"Excuse me? Of course not!\"\"",
+              "articyId": "0x010000570001E1B4",
+              "text": "\"Excuse me? Of course not!\"",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Half Light: \"Scare them. Suspected of some *big...\"",
+                  "articyId": "0x010000060001B9F9",
+                  "text": "Scare them. Suspected of some *big crime*!",
+                  "links": [
+                    {
+                      "id": 2,
+                      "title": "Suggestion: \"There's no sweet-talking your way i...\"",
+                      "articyId": "0x010000060001B9FF",
+                      "text": "There's no sweet-talking your way in there. Be official.",
+                      "links": [
+                        {
+                          "id": 21,
+                          "title": "Logic: \"You have *plenty* of reason to ente...\"",
+                          "articyId": "0x010000060001BA04",
+                          "text": "You have *plenty* of reason to enter.",
+                          "links": [
+                            {
+                              "id": 10,
+                              "title": "You: \"\"I don't need a warrant if I suspec...\"",
+                              "articyId": "0x010000570001E1BB",
+                              "text": "\"I don't need a warrant if I suspect there's been a *break-in*.\"",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Locked Door: \"\"Oh, come on!\" There's a pause, bef...\"",
+                                  "articyId": "0x010000570001E1C3",
+                                  "text": "\"Oh, come on!\" There's a pause, before you hear the door being unlocked.",
+                                  "links": [
+                                    {
+                                      "id": 23,
+                                      "title": "Rhetoric: \"Well, that was easy.\"",
+                                      "articyId": "0x010000570001E340",
+                                      "text": "Well, that was easy.",
+                                      "links": [
+                                        {
+                                          "id": 39,
+                                          "title": "Kim Kitsuragi: \"\"That was smart,\" the lieutenant sa...\"",
+                                          "articyId": "0x010000570001E1CB",
+                                          "text": "\"That was smart,\" the lieutenant says, nodding toward the unlocked door.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 28,
+                              "title": "You: \"\"Then open the door, so I can *veri...\"",
+                              "articyId": "0x0100007000005B2B",
+                              "text": "\"Then open the door, so I can *verify* your identity.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 24,
+                              "title": "You: \"\"Are you cooking *morphine* in ther...\"",
+                              "articyId": "0x010000060001BA0F",
+                              "text": "\"Are you cooking *morphine* in there?!\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x010000570001DDB6",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

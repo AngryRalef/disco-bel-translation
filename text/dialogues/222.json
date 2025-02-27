@@ -1,0 +1,137 @@
+{
+  "id": "0x010000310000C8AB",
+  "title": "YARD / PILE OF ETERNITE",
+  "description": "Someone has left some crumbly looking eternite panels leaning against this wall. Most suspicious.",
+  "dialogueTree": [
+    {
+      "id": 10,
+      "title": "Pile of Eternite: \"An inconspicuous pile of the roofin...\"",
+      "articyId": "0x0100008F00000E20",
+      "text": "An inconspicuous pile of the roofing material, eternite.",
+      "links": [
+        {
+          "id": 31,
+          "title": "You: \"What is this?\"",
+          "articyId": "0x010000820000862A",
+          "text": "What is this?",
+          "links": [
+            {
+              "id": 19,
+              "title": "Pile of Eternite: \"It's nothing. Someone just left som...\"",
+              "articyId": "0x0100008200008638",
+              "text": "It's nothing. Someone just left some roofing material slanted against an old shack.",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "Encyclopedia: \"Glad you asked. When junior researc...\"",
+                  "articyId": "0x010000820000863F",
+                  "text": "Glad you asked. When junior researcher Õlari Taal invented eternite in the Värtna Polytechnic Institute, some thirty odd years ago, he thought it would last forever -- hence the name eternite. Sadly the only lasting thing turned out to be the material's highly carcinogenic effect.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "You: \"Why am I looking at this pile of th...\"",
+          "articyId": "0x0100008200008630",
+          "text": "Why am I looking at this pile of the roofing material?",
+          "links": [
+            {
+              "id": 26,
+              "title": "Perception (Sight): \"Because there's a secret door hidde...\"",
+              "articyId": "0x01000082000086B6",
+              "text": "Because there's a secret door hidden behind the panels of eternite. That's why they're *too* orderly.",
+              "links": [
+                {
+                  "id": 43,
+                  "title": "You: \"Pull the panels aside.\"",
+                  "articyId": "0x01000082000086C9",
+                  "text": "Pull the panels aside.",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "Perception (Sight): \"There it is! You see a shabby littl...\"",
+                      "articyId": "0x01000082000086A5",
+                      "text": "There it is! You see a shabby little door.",
+                      "links": [
+                        {
+                          "id": 32,
+                          "title": "Kim Kitsuragi: \"\"What is this, then? A tool shed?\"...\"",
+                          "articyId": "0x01000082000086D7",
+                          "text": "\"What is this, then? A tool shed?\" He peeks inside. \"Let's investigate.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 42,
+              "title": "Perception (Sight): \"Because it's nice and orderly. Well...\"",
+              "articyId": "0x0100008200008658",
+              "text": "Because it's nice and orderly. Well laid pallet. Easy on the eyes.",
+              "links": [
+                {
+                  "id": 12,
+                  "title": "Perception (Sight): \"It reveals no secrets at this time.\"",
+                  "articyId": "0x0100002F000133BF",
+                  "text": "It reveals no secrets at this time.",
+                  "links": []
+                },
+                {
+                  "id": 21,
+                  "title": "Conceptualization: \"Rhythmic pattern -- calms your mind...\"",
+                  "articyId": "0x0100008200008665",
+                  "text": "Rhythmic pattern -- calms your mind. Mammals like this stuff.",
+                  "links": [
+                    {
+                      "id": 33,
+                      "title": "Inland Empire: \"No, there's more to this. You get t...\"",
+                      "articyId": "0x010000820000867C",
+                      "text": "No, there's more to this. You get this strange *feeling*.",
+                      "links": [
+                        {
+                          "id": 5,
+                          "title": "You: \"What feeling?\"",
+                          "articyId": "0x010000820000860A",
+                          "text": "What feeling?",
+                          "links": [
+                            {
+                              "id": 18,
+                              "title": "Inland Empire: \"Hard to say, it's gone now. Feeling...\"",
+                              "articyId": "0x010000820000861A",
+                              "text": "Hard to say, it's gone now. Feelings pass, you see. Especially the small ones.",
+                              "links": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 41,
+                          "title": "You: \"Discard the feeling.\"",
+                          "articyId": "0x0100008200008604",
+                          "text": "Discard the feeling.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100008F00000E18",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

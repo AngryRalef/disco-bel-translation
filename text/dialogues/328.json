@@ -1,0 +1,450 @@
+{
+  "id": "0x0100004D000038BB",
+  "title": "CANAL / MAN ON WATER LOCK",
+  "description": "A man is eating salami on the water lock.",
+  "dialogueTree": [
+    {
+      "id": 109,
+      "title": "Man on water lock: \"\"Evening, officer!\"\"",
+      "articyId": "0x0100006B00007E39",
+      "text": "\"Evening, officer!\"",
+      "links": [
+        {
+          "id": 77,
+          "title": "Man on water lock: \"\"High time I got moving up the coas...\"",
+          "articyId": "0x01000002000013F0",
+          "text": "\"High time I got moving up the coast. But please, officer, after you.\"",
+          "links": [
+            {
+              "id": 20,
+              "title": "You: \"\"But, wait, what's further down the...\"",
+              "articyId": "0x0100000200001498",
+              "text": "\"But, wait, what's further down the coast?\"",
+              "links": [
+                {
+                  "id": 99,
+                  "title": "Man on water lock: \"\"Well, there's the fishing village....\"",
+                  "articyId": "0x010000020000149E",
+                  "text": "\"Well, there's the fishing village. An abandoned fish market. A bizarro church. Not much use to the congregation, though -- there always seems to be something wrong with it.\" He thinks for a moment.",
+                  "links": [
+                    {
+                      "id": 86,
+                      "title": "Man on water lock: \"\"Yeah, not really much else. Just b...\"",
+                      "articyId": "0x01000002000014A4",
+                      "text": "\"Yeah, not really much else. Just bombed-out ruins.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 50,
+              "title": "You: \"\"Alrighty then.\" [Leave.]\"",
+              "articyId": "0x0100000200001482",
+              "text": "\"Alrighty then.\" [Leave.]",
+              "links": [
+                {
+                  "id": 45,
+                  "title": "Man on water lock: \"\"Cheers!\" He salutes you with a hal...\"",
+                  "articyId": "0x0100000200001446",
+                  "text": "\"Cheers!\" He salutes you with a half-eaten piece of salami.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "title": "Man on water lock: \"\"'Fraid I can't hang out and chat.\"...\"",
+          "articyId": "0x01000002000013D6",
+          "text": "\"'Fraid I can't hang out and chat.\" He looks west, across the water, chewing on a piece of salami. \"Damned water lock's finally been fixed, so I've got to get going.\"",
+          "links": [
+            {
+              "id": 104,
+              "title": "Composure: \"He doesn't actually seem to be in a...\"",
+              "articyId": "0x0100001600008B5D",
+              "text": "He doesn't actually seem to be in a rush. It's not in his nature. Enviable calm.",
+              "links": [
+                {
+                  "id": 49,
+                  "title": "Man on water lock: \"\"So, wanna do the honours now?\"\"",
+                  "articyId": "0x0100000200001454",
+                  "text": "\"So, wanna do the honours now?\"",
+                  "links": [
+                    {
+                      "id": 12,
+                      "title": "You: \"\"But what's further down the coast?\"\"",
+                      "articyId": "0x010000020000146C",
+                      "text": "\"But what's further down the coast?\"",
+                      "links": [
+                        {
+                          "id": 111,
+                          "title": "Man on water lock: \"\"Well, there's the fishing village....\"",
+                          "articyId": "0x0100000200001479",
+                          "text": "\"Well, there's the fishing village. An abandoned fish market. A bizarro church. Not much use to the congregation, though -- there always seems to be something wrong with it.\" He thinks for a moment.",
+                          "links": [
+                            {
+                              "id": 46,
+                              "title": "Man on water lock: \"\"Yeah, not really much else. Just b...\"",
+                              "articyId": "0x0100000200001473",
+                              "text": "\"Yeah, not really much else. Just bombed-out ruins.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 14,
+                      "title": "You: \"\"Why don't you just do it yourself?\"\"",
+                      "articyId": "0x0100000200001437",
+                      "text": "\"Why don't you just do it yourself?\"",
+                      "links": [
+                        {
+                          "id": 44,
+                          "title": "Man on water lock: \"\"Bah! I've handled enough heavy mac...\"",
+                          "articyId": "0x010000020000143E",
+                          "text": "\"Bah! I've handled enough heavy machinery in my day.\"",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 98,
+                      "title": "You: \"\"I'll get right to it.\" [Leave.]\"",
+                      "articyId": "0x0100000200001431",
+                      "text": "\"I'll get right to it.\" [Leave.]",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 85,
+                  "title": "Man on water lock: \"\"Have you ever made a water lock mo...\"",
+                  "articyId": "0x01000002000013DC",
+                  "text": "\"Have you ever made a water lock move yourself?\" he adds, gesturing toward the water lock control panel to his right. \"It's quite the thing. Makes a man feel real powerful.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "title": "You: \"\"What's with the lever that does no...\"",
+          "articyId": "0x0100006B00007E58",
+          "text": "\"What's with the lever that does nothing?\" (Point at the control panel next to him.)",
+          "links": [
+            {
+              "id": 84,
+              "title": "Man on water lock: \"\"It's supposed to operate the water...\"",
+              "articyId": "0x0100006B00007E5E",
+              "text": "\"It's supposed to operate the water lock, but as noted... it's all junk right now. Disabled because of the blockage.\"",
+              "links": [
+                {
+                  "id": 113,
+                  "title": "You: \"\"Why is it disabled?\"\"",
+                  "articyId": "0x0100006B00007FB6",
+                  "text": "\"Why is it disabled?\"",
+                  "links": [
+                    {
+                      "id": 67,
+                      "title": "Man on water lock: \"\"Safety measure. Turns out the pane...\"",
+                      "articyId": "0x0100006B00007FCF",
+                      "text": "\"Safety measure. Turns out the panel needs a special key to be re-activated. Wouldn't want anyone moving the water lock with debris still in the channel.\"",
+                      "links": [
+                        {
+                          "id": 66,
+                          "title": "Man on water lock: \"\"It'll be restarted on Wednesday mo...\"",
+                          "articyId": "0x0100006B00007E66",
+                          "text": "\"It'll be restarted on Wednesday morning.\" He nods his head towards the control panel. \"You wanna do the honours when the time comes?\"",
+                          "links": [
+                            {
+                              "id": 120,
+                              "title": "You: \"\"Do I ever!\" (Nod enthusiastically....\"",
+                              "articyId": "0x0100006B00007E6D",
+                              "text": "\"Do I ever!\" (Nod enthusiastically.)",
+                              "links": [
+                                {
+                                  "id": 43,
+                                  "title": "Man on water lock: \"\"Great! Just drop in on Wednesday i...\"",
+                                  "articyId": "0x0100006B00007E81",
+                                  "text": "\"Great! Just drop in on Wednesday if you want to see the water lock at work. They say the canal crew will be here at 07.15.\" He cuts a fresh slice from his salami.",
+                                  "links": [
+                                    {
+                                      "id": 114,
+                                      "title": "Tutorial Agent: \"The coast part of the map is inacce...\"",
+                                      "articyId": "0x010000060001750F",
+                                      "text": "The coast part of the map is inaccessible until the third day.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 62,
+                              "title": "You: \"\"We'll see... I'm not all that into...\"",
+                              "articyId": "0x0100006B00007E72",
+                              "text": "\"We'll see... I'm not all that into manual labour.\"",
+                              "links": [
+                                {
+                                  "id": 19,
+                                  "title": "Man on water lock: \"\"Suit yourself. Just drop by on Wed...\"",
+                                  "articyId": "0x0100006B00007E7B",
+                                  "text": "\"Suit yourself. Just drop by on Wednesday if you want to see the water lock work again.\" He cuts a fresh slice from his salami.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "title": "You: \"\"You said the coast is closed off?...\"",
+          "articyId": "0x01000006000175DF",
+          "text": "\"You said the coast is closed off? This may be why Lena's husband Morell the cryptozoologist hasn't returned.\"",
+          "links": [
+            {
+              "id": 51,
+              "title": "Man on water lock: \"\"Uhm... I haven't seen any *cryptol...\"",
+              "articyId": "0x01000006000175E6",
+              "text": "\"Uhm... I haven't seen any *cryptologists* around here, but sure -- if they're on the other side, they're stuck. Like my friend Barry.\"",
+              "links": [
+                {
+                  "id": 100,
+                  "title": "Kim Kitsuragi: \"\"We should probably go tell Lena. T...\"",
+                  "articyId": "0x01000006000175F1",
+                  "text": "\"We should probably go tell Lena. Take a load off her mind.\"",
+                  "links": []
+                },
+                {
+                  "id": 4,
+                  "title": "Logic: \"You should probably tell Lena. It'l...\"",
+                  "articyId": "0x01000006000175FD",
+                  "text": "You should probably tell Lena. It'll take a load off her mind.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "You: \"\"Do you know what's further down th...\"",
+          "articyId": "0x0100004D00003AEC",
+          "text": "\"Do you know what's further down the coast?\"",
+          "links": [
+            {
+              "id": 37,
+              "title": "Man on water lock: \"\"Well, there's the fishing village....\"",
+              "articyId": "0x0100004D00003B3E",
+              "text": "\"Well, there's the fishing village. An abandoned fish market. A bizarro church. Not much use to the congregation, though -- there always seems to be something wrong with it.\" He thinks for a moment.",
+              "links": [
+                {
+                  "id": 79,
+                  "title": "Man on water lock: \"\"Yeah, not really much else. Just b...\"",
+                  "articyId": "0x0100004D00003B46",
+                  "text": "\"Yeah, not really much else. Just bombed-out ruins.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "title": "You: \"\"Can I have some of that salami?\" (...\"",
+          "articyId": "0x0100004D00003A8C",
+          "text": "\"Can I have some of that salami?\" (Point at his food.)",
+          "links": [
+            {
+              "id": 18,
+              "title": "Man on water lock: \"\"Sure thing.\" He cuts off a slice o...\"",
+              "articyId": "0x0100004D00003AAC",
+              "text": "\"Sure thing.\" He cuts off a slice of salami.",
+              "links": [
+                {
+                  "id": 80,
+                  "title": "Perception (Taste): \"It is salty. It is savoury. It is c...\"",
+                  "articyId": "0x0100004D00003B5D",
+                  "text": "It is salty. It is savoury. It is chewy. The hangover only makes the salami *more* tasty.",
+                  "links": [
+                    {
+                      "id": 33,
+                      "title": "Man on water lock: \"\"Want some too, officer?\" he turns...\"",
+                      "articyId": "0x0100004D00003B4D",
+                      "text": "\"Want some too, officer?\" he turns to the lieutenant.",
+                      "links": [
+                        {
+                          "id": 55,
+                          "title": "Kim Kitsuragi: \"\"Why not?\" The lieutenant ponders t...\"",
+                          "articyId": "0x0100004D00003B54",
+                          "text": "\"Why not?\" The lieutenant ponders the offer for a moment, then decides to go for it. He takes a slice of salami from the man and chews on it.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "You: \"\"Right, bye.\" [Leave.]\"",
+          "articyId": "0x0100004D00003B21",
+          "text": "\"Right, bye.\" [Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Man on water lock: \"\"G'day to you, officer!\"\"",
+      "articyId": "0x0100006B00007E41",
+      "text": "\"G'day to you, officer!\"",
+      "links": []
+    },
+    {
+      "id": 11,
+      "title": "Man on water lock: \"\"Good morning to you, officer!\"\"",
+      "articyId": "0x0100006B00007E49",
+      "text": "\"Good morning to you, officer!\"",
+      "links": []
+    },
+    {
+      "id": 13,
+      "title": "Man on water lock: \"\"Welcome back, officer.\"\"",
+      "articyId": "0x0100006B00007DF4",
+      "text": "\"Welcome back, officer.\"",
+      "links": [
+        {
+          "id": 42,
+          "title": "You: \"\"First things first -- what are you...\"",
+          "articyId": "0x0100004D00003AB3",
+          "text": "\"First things first -- what are you doing here, man on the water lock?\"",
+          "links": [
+            {
+              "id": 29,
+              "title": "Man on water lock: \"\"My friend Barry the Butcher is stu...\"",
+              "articyId": "0x010000060001751B",
+              "text": "\"My friend Barry the Butcher is stuck on the other side of the water lock. I'm keeping him company -- and eating his salami.\"",
+              "links": [
+                {
+                  "id": 115,
+                  "title": "Barry the Butcher: \"From the corner of your eye you see...\"",
+                  "articyId": "0x010000210000268E",
+                  "text": "From the corner of your eye you see a man in a yellow shirt and grey overalls waving at you from across the canal. He seems disappointed about the wreckage on the water lock -- *and* the salami.",
+                  "links": [
+                    {
+                      "id": 32,
+                      "title": "Man on water lock: \"\"*Very* good stuff. Anything I can...\"",
+                      "articyId": "0x0100004D00003ABA",
+                      "text": "\"*Very* good stuff. Anything I can do for you, officer?\" The man on the water lock picks the skin off a slice of a salami and takes a sizeable bite.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "You: \"\"Do you know what caused this wreck...\"",
+          "articyId": "0x0100004D00003A80",
+          "text": "\"Do you know what caused this wreckage?\" (Point at the smashed billboard in the canal.)",
+          "links": [
+            {
+              "id": 22,
+              "title": "Man on water lock: \"\"I wasn't here to witness it, but t...\"",
+              "articyId": "0x0100004D00003AA0",
+              "text": "\"I wasn't here to witness it, but those look like tyre tracks on that sign. Weird, huh? Then again, plenty of daredevil drivers in Revachol.\"",
+              "links": [
+                {
+                  "id": 108,
+                  "title": "Inland Empire: \"The words *daredevil driver* sound...\"",
+                  "articyId": "0x0100000600017503",
+                  "text": "The words *daredevil driver* sound ominous to you.",
+                  "links": [
+                    {
+                      "id": 78,
+                      "title": "Man on water lock: \"\"Too bad it also takes a year and a...\"",
+                      "articyId": "0x0100004D00003AE4",
+                      "text": "\"Too bad it also takes a year and a day to repair anything 'round here -- especially a water lock. The rest of the coast is closed off till then.\"",
+                      "links": [
+                        {
+                          "id": 71,
+                          "title": "Reaction Speed: \"This is the water lock on the Marti...\"",
+                          "articyId": "0x0100001600008B53",
+                          "text": "This is the water lock on the Martinaise Canal. It has to be the same water lock Lena mentioned, the one her husband crossed on his \"expedition.\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100004D00003B0B",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Man on water lock: \"\"Evening, officer!\"\"",
+      "articyId": "0x0100006B00007E29",
+      "text": "\"Evening, officer!\"",
+      "links": [
+        {
+          "id": 90,
+          "title": "Man on water lock: \"A burly man hangs out by the water...\"",
+          "articyId": "0x0100004D00003A66",
+          "text": "A burly man hangs out by the water lock, carving up a generous serving of salami with an old hunter's knife. His eyes are fixed on a man stranded on the other side of the water lock -- and on an enormous billboard that has fallen down into the canal between them.",
+          "links": [
+            {
+              "id": 73,
+              "title": "Physical Instrument: \"His posture is relaxed. Despite his...\"",
+              "articyId": "0x0100004D00003B2E",
+              "text": "His posture is relaxed. Despite his powerful build and the knife in his hand, this man resorts to physical intimidation only infrequently, if at all.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Man on water lock: \"\"G'day to you, officer!\"\"",
+      "articyId": "0x0100004D00003B16",
+      "text": "\"G'day to you, officer!\"",
+      "links": []
+    },
+    {
+      "id": 65,
+      "title": "Man on water lock: \"\"Good morning to you, officer!\"\"",
+      "articyId": "0x0100006B00007E20",
+      "text": "\"Good morning to you, officer!\"",
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "0x0100002B00083391",
+  "title": "DOOMED / BREAKER BOX",
+  "description": "Doomed cellar, breaker box. DONE. \n\nGet task finished for locate a fridge if you need to plug the fridge back in.",
+  "dialogueTree": [
+    {
+      "id": 68,
+      "title": "Breaker Box: \"Both cables are unplugged from the...\"",
+      "articyId": "0x01000057000237A7",
+      "text": "Both cables are unplugged from the breaker box.",
+      "links": [
+        {
+          "id": 44,
+          "title": "You: \"Unplug the giant red cable.\"",
+          "articyId": "0x0100002B00085AE3",
+          "text": "Unplug the giant red cable.",
+          "links": [
+            {
+              "id": 75,
+              "title": "Kim Kitsuragi: \"\"Uh, what are you doing? We need th...\"",
+              "articyId": "0x01000005000022B0",
+              "text": "\"Uh, what are you doing? We need the fridge for the body, you can't just unplug it.\" He takes the cable and plugs it back in.",
+              "links": []
+            },
+            {
+              "id": 84,
+              "title": "Breaker Box: \"An electric sizzle! The room is sli...\"",
+              "articyId": "0x0100002B00085AF9",
+              "text": "An electric sizzle! The room is slightly quieter now.",
+              "links": []
+            },
+            {
+              "id": 83,
+              "title": "Breaker Box: \"An electric sizzle! The room is sli...\"",
+              "articyId": "0x010000570002379E",
+              "text": "An electric sizzle! The room is slightly quieter now.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "title": "You: \"Plug in the giant red cable.\"",
+          "articyId": "0x0100002B00085AF0",
+          "text": "Plug in the giant red cable.",
+          "links": [
+            {
+              "id": 47,
+              "title": "Breaker Box: \"A giant electric mammal awakens. Th...\"",
+              "articyId": "0x0100000500002294",
+              "text": "A giant electric mammal awakens. The dead body is going to be safe in the embrace of its cold innards.",
+              "links": [
+                {
+                  "id": 9,
+                  "title": "Kim Kitsuragi: \"\"Great. The owners of this building...\"",
+                  "articyId": "0x01000005000022A1",
+                  "text": "\"Great. The owners of this building will just have to keep paying for the electricity sucked up by this monstrosity a little longer. Let's return to the fridge.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 80,
+              "title": "Breaker Box: \"A giant electric mammal awakens. Th...\"",
+              "articyId": "0x010000580000ABC9",
+              "text": "A giant electric mammal awakens. The dead body is now safe in the embrace of its cold innards.",
+              "links": [
+                {
+                  "id": 27,
+                  "title": "Kim Kitsuragi: \"\"Great. The owners of this building...\"",
+                  "articyId": "0x010000580000ABC1",
+                  "text": "\"Great. The owners of this building will just have to keep paying for the electricity sucked up by this monstrosity a little longer.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 28,
+              "title": "Breaker Box: \"Somewhere in the dark, a giant elec...\"",
+              "articyId": "0x0100002B00085AFF",
+              "text": "Somewhere in the dark, a giant electric mammal stirs to life...",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "title": "You: \"Unplug the black cable.\"",
+          "articyId": "0x0100002B00086349",
+          "text": "Unplug the black cable.",
+          "links": [
+            {
+              "id": 82,
+              "title": "Breaker Box: \"Something close to you dies with a...\"",
+              "articyId": "0x0100002B0008635D",
+              "text": "Something close to you dies with a soft electric purr.",
+              "links": [
+                {
+                  "id": 60,
+                  "title": "Kim Kitsuragi: \"\"Very smart. Opening the lid should...\"",
+                  "articyId": "0x0100005700003AD7",
+                  "text": "\"Very smart. Opening the lid should be much easier after the ice cream maker has defrosted.\"",
+                  "links": []
+                },
+                {
+                  "id": 33,
+                  "title": "Kim Kitsuragi: \"\"Very smart. Opening the lid should...\"",
+                  "articyId": "0x010000920000135A",
+                  "text": "\"Very smart. Opening the lid should be much easier after the ice cream maker has defrosted. But we're still going to need a proper prybar.\"",
+                  "links": []
+                },
+                {
+                  "id": 71,
+                  "title": "Kim Kitsuragi: \"\"Why did you do that?\"\"",
+                  "articyId": "0x0100005700003ADE",
+                  "text": "\"Why did you do that?\"",
+                  "links": [
+                    {
+                      "id": 40,
+                      "title": "You: \"\"It's black, it's not like it's the...\"",
+                      "articyId": "0x0100005700003AE5",
+                      "text": "\"It's black, it's not like it's the red one.\"",
+                      "links": [
+                        {
+                          "id": 26,
+                          "title": "Kim Kitsuragi: \"The lieutenant raises his brows, bu...\"",
+                          "articyId": "0x0100005700003AFC",
+                          "text": "The lieutenant raises his brows, but doesn't say anything. The electric distribution board now has one cable missing.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 67,
+                      "title": "You: \"\"Because it's black, the colour of...\"",
+                      "articyId": "0x0100005700003AEB",
+                      "text": "\"Because it's black, the colour of immeasurable cosmos.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 62,
+                      "title": "You: \"\"I don't know why I unplugged it, I...\"",
+                      "articyId": "0x0100005700003AF1",
+                      "text": "\"I don't know why I unplugged it, I do things without any reason.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "title": "You: \"Plug in the black cable.\"",
+          "articyId": "0x0100002B0008634F",
+          "text": "Plug in the black cable.",
+          "links": [
+            {
+              "id": 59,
+              "title": "Breaker Box: \"Somewhere a machine hums along with...\"",
+              "articyId": "0x0100002B00086357",
+              "text": "Somewhere a machine hums along with the current, happy and contented.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x0100002B00085AE9",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Breaker Box: \"Only the red cable is plugged into...\"",
+      "articyId": "0x01000057000237AD",
+      "text": "Only the red cable is plugged into the breaker box, while the black one lies neglected on the floor.",
+      "links": []
+    },
+    {
+      "id": 46,
+      "title": "Breaker Box: \"Only the black cable is plugged int...\"",
+      "articyId": "0x01000057000237B3",
+      "text": "Only the black cable is plugged into the breaker box, while the red one lies neglected on the floor.",
+      "links": []
+    },
+    {
+      "id": 45,
+      "title": "Breaker Box: \"Two cables are plugged into the bre...\"",
+      "articyId": "0x01000057000001D7",
+      "text": "Two cables are plugged into the breaker box. The red one leads to the ice bear fridge and the black one to the ice cream maker nearby.",
+      "links": []
+    },
+    {
+      "id": 25,
+      "title": "Breaker Box: \"Two cables are plugged into the bre...\"",
+      "articyId": "0x01000057000001DD",
+      "text": "Two cables are plugged into the breaker box. The red one leads to the ice bear fridge and the black one to some kind of a buzzing fridge-like thing nearby.",
+      "links": []
+    },
+    {
+      "id": 70,
+      "title": "Breaker Box: \"Two cables are plugged into the bre...\"",
+      "articyId": "0x0100002B000833BF",
+      "text": "Two cables are plugged into the breaker box. The red one leads off into the darkness and the black one to the ice cream maker nearby.",
+      "links": [
+        {
+          "id": 14,
+          "title": "Half Light: \"Rip the red one out! Look how giant...\"",
+          "articyId": "0x0100002B00085B0B",
+          "text": "Rip the red one out! Look how giant and red and inviting it is...",
+          "links": [
+            {
+              "id": 61,
+              "title": "Inland Empire: \"Don't rip the red one out -- you'll...\"",
+              "articyId": "0x0100005700003AAF",
+              "text": "Don't rip the red one out -- you'll awaken the ghosts!",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Breaker Box: \"Two cables are plugged into the bre...\"",
+      "articyId": "0x01000057000001B7",
+      "text": "Two cables are plugged into the breaker box. The red one leads off into the darkness, while the black one seems to be feeding a buzzing little fridge-like thing in the corner.",
+      "links": []
+    }
+  ]
+}

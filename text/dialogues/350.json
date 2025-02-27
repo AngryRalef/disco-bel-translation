@@ -1,0 +1,371 @@
+{
+  "id": "0x010000570001668F",
+  "title": "PIER / APARTMENTS PIER DOOR",
+  "description": "Approaching the door from outside.",
+  "dialogueTree": [
+    {
+      "id": 22,
+      "title": "Southwest Entrance to the Tenements: \"A sturdy metal door guards the sout...\"",
+      "articyId": "0x01000057000166A4",
+      "text": "A sturdy metal door guards the southwest entrance to the apartment building. It's locked.",
+      "links": [
+        {
+          "id": 54,
+          "title": "Visual Calculus: \"This could be a way into the apartm...\"",
+          "articyId": "0x010000060001B8FB",
+          "text": "This could be a way into the apartment building the smoking man vanished into.",
+          "links": []
+        },
+        {
+          "id": 71,
+          "title": "You: \"Knock.\"",
+          "articyId": "0x01000057000166AA",
+          "text": "Knock.",
+          "links": [
+            {
+              "id": 9,
+              "title": "Southwest Entrance to the Tenements: \"The door rattles against your knuck...\"",
+              "articyId": "0x01000057000166B9",
+              "text": "The door rattles against your knuckles, but there's no response.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "title": "You: \"Knock again.\"",
+          "articyId": "0x01000057000166C5",
+          "text": "Knock again.",
+          "links": [
+            {
+              "id": 74,
+              "title": "Southwest Entrance to the Tenements: \"The door rattles again, but this ti...\"",
+              "articyId": "0x01000057000166CC",
+              "text": "The door rattles again, but this time you hear an elderly woman's voice calling out from inside...",
+              "links": [
+                {
+                  "id": 51,
+                  "title": "Cleaning Lady: \"\"Stop banging on the door! I'm not...\"",
+                  "articyId": "0x0100005700023C4E",
+                  "text": "\"Stop banging on the door! I'm not letting any more strangers inside.\"",
+                  "links": [
+                    {
+                      "id": 11,
+                      "title": "You: \"\"Hold on, who am I speaking to?\"\"",
+                      "articyId": "0x010000570001DA99",
+                      "text": "\"Hold on, who am I speaking to?\"",
+                      "links": [
+                        {
+                          "id": 17,
+                          "title": "Cleaning Lady: \"\"It doesn't matter who I am. Now go...\"",
+                          "articyId": "0x010000570001DAA8",
+                          "text": "\"It doesn't matter who I am. Now go on, get out of here!\"",
+                          "links": [
+                            {
+                              "id": 53,
+                              "title": "Perception (Hearing): \"From within comes the faint sound o...\"",
+                              "articyId": "0x010000570001DC5A",
+                              "text": "From within comes the faint sound of a broom sweeping across the concrete floor.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 78,
+                      "title": "You: \"\"This is the police -- open the doo...\"",
+                      "articyId": "0x010000570001DA93",
+                      "text": "\"This is the police -- open the door.\"",
+                      "links": [
+                        {
+                          "id": 64,
+                          "title": "Cleaning Lady: \"\"The police?! Everyone knows the po...\"",
+                          "articyId": "0x010000570001DAA0",
+                          "text": "\"The police?! Everyone knows the police don't come around *here*.“ The hallways echoes with her cackle.",
+                          "links": [
+                            {
+                              "id": 60,
+                              "title": "You: \"\"Please, let me inside. It's cold o...\"",
+                              "articyId": "0x010000570001E250",
+                              "text": "\"Please, let me inside. It's cold out here.\"",
+                              "links": [
+                                {
+                                  "id": 34,
+                                  "title": "Cleaning Lady: \"\"No, I already told you, I won't be...\"",
+                                  "articyId": "0x010000570001DAF8",
+                                  "text": "\"No, I already told you, I won't be responsible for any more strangers getting into the building...\"",
+                                  "links": [
+                                    {
+                                      "id": 56,
+                                      "title": "Cleaning Lady: \"\"Go check the backyard door, maybe...\"",
+                                      "articyId": "0x010000570001DB0D",
+                                      "text": "\"Go check the backyard door, maybe someone there will...\" She trails off, leaving the sentence unfinished.",
+                                      "links": [
+                                        {
+                                          "id": 76,
+                                          "title": "Interfacing: \"Backyard door? With the smoker? You...\"",
+                                          "articyId": "0x010000060001B91C",
+                                          "text": "Backyard door? With the smoker? You already were there. Didn't work.",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 2,
+                                          "title": "Visual Calculus: \"Backyard door? There must be anothe...\"",
+                                          "articyId": "0x010000060001B90D",
+                                          "text": "Backyard door? There must be another entrance to the east.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 23,
+                              "title": "You: \"\"But I'm not joking.\"\"",
+                              "articyId": "0x010000570001DAB0",
+                              "text": "\"But I'm not joking.\"",
+                              "links": []
+                            },
+                            {
+                              "id": 29,
+                              "title": "You: \"\"I need to talk to a young man in t...\"",
+                              "articyId": "0x010000570001DAFF",
+                              "text": "\"I need to talk to a young man in this building.\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "title": "You: \"\"Hey, are you there? I've checked t...\"",
+          "articyId": "0x010000570001DAE4",
+          "text": "\"Hey, are you there? I've checked the backyard, but couldn't get in that way.\"",
+          "links": [
+            {
+              "id": 82,
+              "title": "Cleaning Lady: \"\"Good. We've had enough problems wi...\"",
+              "articyId": "0x010000570001DAF1",
+              "text": "\"Good. We've had enough problems with bums and drunks and thieves loitering in the hallway... You have no business here.\"",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "title": "You: \"\"Kim, tell her we're real policemen!\"\"",
+          "articyId": "0x0100000400014FFC",
+          "text": "\"Kim, tell her we're real policemen!\"",
+          "links": [
+            {
+              "id": 39,
+              "title": "Kim Kitsuragi: \"\"Madam, I assure you we're real pol...\"",
+              "articyId": "0x0100000400014FF4",
+              "text": "\"Madam, I assure you we're real police officers,\" the lieutenant repeats dutifully.",
+              "links": [
+                {
+                  "id": 4,
+                  "title": "Southwest Entrance to the Tenements: \"There is no reply. Just faint sweep...\"",
+                  "articyId": "0x010000060001B924",
+                  "text": "There is no reply. Just faint sweeping sounds inside.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "title": "You: \"\"Ma'am, we're looking for Billie Mé...\"",
+          "articyId": "0x01000005000039F1",
+          "text": "\"Ma'am, we're looking for Billie Méjean's apartment. We have important news to deliver.\"",
+          "links": [
+            {
+              "id": 8,
+              "title": "Southwest Entrance to the Tenements: \"No reply. You can hear faint sweepi...\"",
+              "articyId": "0x01000005000039F8",
+              "text": "No reply. You can hear faint sweeping inside; a gust of wind blows through your clothes.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "title": "You: \"Convince her that you're a real pol...\"",
+          "articyId": "0x01000057000166D3",
+          "text": "Convince her that you're a real policeman.",
+          "links": [
+            {
+              "id": 6,
+              "title": "Authority: \"You're well versed in the kind of t...\"",
+              "articyId": "0x0100005700016719",
+              "text": "You're well versed in the kind of threatening legalese that implies criminal liability but in fact has no meaning whatsoever.",
+              "links": [
+                {
+                  "id": 3,
+                  "title": "You: \"Am I?\"",
+                  "articyId": "0x010000060001B92C",
+                  "text": "Am I?",
+                  "links": [
+                    {
+                      "id": 70,
+                      "title": "Authority: \"Obviously. Look at that vague yet t...\"",
+                      "articyId": "0x010000060001B933",
+                      "text": "Obviously. Look at that vague yet threatening stuff spewing forth from your mouth...",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 20,
+                  "title": "You: \"\"Ma'am, your non-compliance is hind...\"",
+                  "articyId": "0x010000570001DFF8",
+                  "text": "\"Ma'am, your non-compliance is hindering a police matter. I may be forced to refer you for potential prosecution.\"",
+                  "links": [
+                    {
+                      "id": 58,
+                      "title": "Cleaning Lady: \"\"I know my rights! And don't you 'm...\"",
+                      "articyId": "0x010000570001DFFF",
+                      "text": "\"I know my rights! And don't you 'ma'am' me, boy!\" the voice snaps back.",
+                      "links": [
+                        {
+                          "id": 73,
+                          "title": "Perception (Hearing): \"But the sweeping on the other side...\"",
+                          "articyId": "0x010000570001E03F",
+                          "text": "But the sweeping on the other side has stopped.",
+                          "links": [
+                            {
+                              "id": 25,
+                              "title": "Kim Kitsuragi: \"\"Miss,\" the lieutenant jumps in, \"w...\"",
+                              "articyId": "0x010000570001E032",
+                              "text": "\"Miss,\" the lieutenant jumps in, \"would it help if we offered to show you our badges?\"",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Rhetoric: \"Ah! It's like a carrot to the stick...\"",
+                                  "articyId": "0x010000570001E25A",
+                                  "text": "Ah! It's like a carrot to the stick, sort of.",
+                                  "links": [
+                                    {
+                                      "id": 18,
+                                      "title": "Cleaning Lady: \"\"Hold your horses...\" You hear the...\"",
+                                      "articyId": "0x010000570001E047",
+                                      "text": "\"Hold your horses...\" You hear the click of a night latch, before the lady on the other side gets caught in a coughing spasm.",
+                                      "links": [
+                                        {
+                                          "id": 26,
+                                          "title": "Cleaning Lady: \"\"I don't care about your stinkin' b...\"",
+                                          "articyId": "0x010000570001E04D",
+                                          "text": "\"I don't care about your stinkin' badge. Just come in,\" she manages to say with a wheeze.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 24,
+                              "title": "Authority: \"Insufficiently deferential!\"",
+                              "articyId": "0x010000570001E01F",
+                              "text": "Insufficiently deferential!",
+                              "links": [
+                                {
+                                  "id": 21,
+                                  "title": "You: \"\"Okay, miss, would it help if I sho...\"",
+                                  "articyId": "0x010000570001E055",
+                                  "text": "\"Okay, miss, would it help if I showed you my badge?\"",
+                                  "links": []
+                                },
+                                {
+                                  "id": 65,
+                                  "title": "You: \"(Lie.) \"I've got my badge right her...\"",
+                                  "articyId": "0x010000570001E05B",
+                                  "text": "(Lie.) \"I've got my badge right here, if you want to see it.\"",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "title": "Authority: \"You already tried and all you got w...\"",
+              "articyId": "0x010000060001B943",
+              "text": "You already tried and all you got was *hurt*. Better not to try anymore. Then you won't get HURT.",
+              "links": []
+            },
+            {
+              "id": 46,
+              "title": "Authority: \"You can't think of anything convinc...\"",
+              "articyId": "0x01000057000166EB",
+              "text": "You can't think of anything convincing. Time for some police brutality!",
+              "links": [
+                {
+                  "id": 77,
+                  "title": "You: \"\"I'm gonna light this place up!\" (R...\"",
+                  "articyId": "0x01000057000166F0",
+                  "text": "\"I'm gonna light this place up!\" (Roll up your sleeves.)",
+                  "links": [
+                    {
+                      "id": 16,
+                      "title": "Kim Kitsuragi: \"\"No, you're not.\"\"",
+                      "articyId": "0x010000570001DB38",
+                      "text": "\"No, you're not.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 59,
+                      "title": "Cleaning Lady: \"\"You don't scare me, punk! I may be...\"",
+                      "articyId": "0x010000570001DB1D",
+                      "text": "\"You don't scare me, punk! I may be an old woman but I can still take the likes of you!\"",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 35,
+                  "title": "You: \"\"Open up or I'm gonna breach this m...\"",
+                  "articyId": "0x010000570001DB3D",
+                  "text": "\"Open up or I'm gonna breach this motherfucker!\" (Kick the door.)",
+                  "links": []
+                },
+                {
+                  "id": 57,
+                  "title": "You: \"\"Ma'am, if you don't open this door...\"",
+                  "articyId": "0x010000570001DB24",
+                  "text": "\"Ma'am, if you don't open this door, I'm gonna introduce you to a lateral vascular neck restraint -- and it's going to *hurt*.\"",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "title": "You: \"[Leave.]\"",
+          "articyId": "0x01000057000166B0",
+          "text": "[Leave.]",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

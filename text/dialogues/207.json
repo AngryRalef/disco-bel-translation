@@ -1,0 +1,455 @@
+{
+  "id": "0x0100002F00011502",
+  "title": "BOOKSTORE / MAP WALL",
+  "description": "Different maps attached to the wall. Including the Map of Martinaise (fast travel?)",
+  "dialogueTree": [
+    {
+      "id": 29,
+      "title": "Map Wall: \"Several maps have been attached to...\"",
+      "articyId": "0x0100005A0000E9D8",
+      "text": "Several maps have been attached to a bulletin board hidden inside the alcove. They're held up by small pins. The board has come loose from one corner.",
+      "links": [
+        {
+          "id": 4,
+          "title": "Map Wall: \"The maps look old and faded. Your e...\"",
+          "articyId": "0x0100005A0000EA09",
+          "text": "The maps look old and faded. Your eye catches a map of Insulinde, a map of Revachol, and a map of Martinaise.",
+          "links": [
+            {
+              "id": 38,
+              "title": "Kim Kitsuragi: \"The lieutenant nods toward it and s...\"",
+              "articyId": "0x010000060000DBFE",
+              "text": "The lieutenant nods toward it and says: \"Map of Martinaise. This could work maybe?\"",
+              "links": []
+            },
+            {
+              "id": 53,
+              "title": "Reaction Speed: \"Martinaise!\"",
+              "articyId": "0x010000060000DC0D",
+              "text": "Martinaise!",
+              "links": [
+                {
+                  "id": 36,
+                  "title": "Visual Calculus: \"This one *could* work for seeing wh...\"",
+                  "articyId": "0x010000060000DC14",
+                  "text": "This one *could* work for seeing where the shot came from.",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 30,
+              "title": "You: \"Look at the map of Insulinde.\"",
+              "articyId": "0x0100005A0000E9E4",
+              "text": "Look at the map of Insulinde.",
+              "links": [
+                {
+                  "id": 37,
+                  "title": "Map Wall: \"This large map displays archipelago...\"",
+                  "articyId": "0x0100005A0000EA54",
+                  "text": "This large map displays archipelagos. You see a constellation of small dots on the light blue emptiness of the Insulindic ocean. The largest, in the northeast, is \"Le Caillou\" (you are here). Another, far away in the southwest -- \"Semenese Islands (Ile du Fantôme)\".",
+                  "links": [
+                    {
+                      "id": 33,
+                      "title": "You: \"What else?\"",
+                      "articyId": "0x010000060001BE1E",
+                      "text": "What else?",
+                      "links": [
+                        {
+                          "id": 49,
+                          "title": "Map Wall: \"Ozonne, Laurentide, Face-a-la-Mer,...\"",
+                          "articyId": "0x0100005A0000EA5C",
+                          "text": "Ozonne, Laurentide, Face-a-la-Mer, Archipelagos, North Arcade Islands... all just specks of dust on the vastness of the Insulindic. On the edges of the map, the colour fades into a blur of dotted lines. Black and white.",
+                          "links": [
+                            {
+                              "id": 47,
+                              "title": "Visual Calculus: \"Disintegrating into mathematics.\"",
+                              "articyId": "0x010000060001BE37",
+                              "text": "Disintegrating into mathematics.",
+                              "links": [
+                                {
+                                  "id": 54,
+                                  "title": "Inland Empire: \"In the northeast a dust mite stands...\"",
+                                  "articyId": "0x010000060001BE2C",
+                                  "text": "In the northeast a dust mite stands on the north coast of Caillou. In a bookstore. It's you.",
+                                  "links": [
+                                    {
+                                      "id": 55,
+                                      "title": "Shivers: \"Radiating outwards from you -- the...\"",
+                                      "articyId": "0x010000060001BE32",
+                                      "text": "Radiating outwards from you -- the Suzerain Revachol. With a radius of 80 kilometres. Still, the crown jewel of this isola would be barely visible.",
+                                      "links": [
+                                        {
+                                          "id": 26,
+                                          "title": "You: \"Squint first -- can you see *cities...\"",
+                                          "articyId": "0x010000060001BE42",
+                                          "text": "Squint first -- can you see *cities* on the islands?",
+                                          "links": [
+                                            {
+                                              "id": 2,
+                                              "title": "Map Wall: \"You can. On Caillou -- Revachol, a...\"",
+                                              "articyId": "0x010000060001BE26",
+                                              "text": "You can. On Caillou -- Revachol, a single black star; on Ozonne -- Fond de l'Air and Virmandeux; on Archipelagos -- Croyant-Morain, Villiers; on Semenine -- Olduvai. And on Laurentide -- Deora Of The Seven Seas...",
+                                              "links": [
+                                                {
+                                                  "id": 21,
+                                                  "title": "Empathy: \"Lost little pearls of light. Tiny f...\"",
+                                                  "articyId": "0x010000060001BE51",
+                                                  "text": "Lost little pearls of light. Tiny fires in the dark.",
+                                                  "links": [
+                                                    {
+                                                      "id": 63,
+                                                      "title": "Encyclopedia: \"850 million people live on these li...\"",
+                                                      "articyId": "0x010000060001BE57",
+                                                      "text": "850 million people live on these little dots. An oceanic world of culture and commerce, torn apart by history.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "title": "You: \"Look at the edges.\"",
+                                          "articyId": "0x010000060001BE48",
+                                          "text": "Look at the edges.",
+                                          "links": [
+                                            {
+                                              "id": 32,
+                                              "title": "Map Wall: \"The ocean breaks apart into a tangl...\"",
+                                              "articyId": "0x0100005A0000EE2A",
+                                              "text": "The ocean breaks apart into a tangle of cosines and azimuths, all pointing into pale nothingness. *Mundi* is the north azimuth; *Graad* is the northeast azimuth; *Samara* is the east azimuth; *Seol* is the west azimuth. *Isolas*, they're called.",
+                                              "links": [
+                                                {
+                                                  "id": 27,
+                                                  "title": "Inland Empire: \"Connections to other worlds. Worlds...\"",
+                                                  "articyId": "0x010000060001BE61",
+                                                  "text": "Connections to other worlds. Worlds past the Insulindian, unknown to you. You only know you've never been there.",
+                                                  "links": [
+                                                    {
+                                                      "id": 72,
+                                                      "title": "Logic: \"850 million people live on these ti...\"",
+                                                      "articyId": "0x010000060001BE6E",
+                                                      "text": "850 million people live on these tiny dots. An oceanic world of culture and commerce, torn apart by history.",
+                                                      "links": []
+                                                    },
+                                                    {
+                                                      "id": 56,
+                                                      "title": "Encyclopedia: \"You have little idea what they are...\"",
+                                                      "articyId": "0x010000060001BE75",
+                                                      "text": "You have little idea what they are -- distant stars? gods? -- but looking at them makes you feel almost non-existent. Whatever they are, the *isolas* are immeasurably large compared to you. And very, very far away.",
+                                                      "links": [
+                                                        {
+                                                          "id": 39,
+                                                          "title": "Conceptualization: \"Perhaps they *are* gods. Gods of di...\"",
+                                                          "articyId": "0x010000060001BE7E",
+                                                          "text": "Perhaps they *are* gods. Gods of distance and outer dust.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 23,
+              "title": "You: \"Look at the map of Revachol.\"",
+              "articyId": "0x0100005A0000E9F0",
+              "text": "Look at the map of Revachol.",
+              "links": [
+                {
+                  "id": 64,
+                  "title": "Map Wall: \"The north coast of a verdant island...\"",
+                  "articyId": "0x010000060001BE88",
+                  "text": "The north coast of a verdant island is shattered by the delta of a river. It is the River Esperance. Countless bridges put the shards back together, connecting city blocks to river islands. *La Delta*, says a great, artificial heart in the centre, teeming with lifeforms and construction.",
+                  "links": [
+                    {
+                      "id": 57,
+                      "title": "Map Wall: \"To the east, rolling hillsides: Le...\"",
+                      "articyId": "0x010000060001BE8E",
+                      "text": "To the east, rolling hillsides: Le Jardin, Stella Maris, the suburbs of Saint-Batiste, swallowed up into the megacity. They sound *rich* to you. This is Revachol East.",
+                      "links": [
+                        {
+                          "id": 18,
+                          "title": "You: \"And west of the river?\"",
+                          "articyId": "0x010000060001BE95",
+                          "text": "And west of the river?",
+                          "links": [
+                            {
+                              "id": 74,
+                              "title": "Map Wall: \"Couron. It's somewhere to live. Not...\"",
+                              "articyId": "0x0100005A0000EA61",
+                              "text": "Couron. It's somewhere to live. Not bad. Then there's Jamrock -- it's *bad*. People shouldn't live there, but they do. Then Faubourg -- it's almost *as* bad and much larger. Then Coal City. It's the worst.",
+                              "links": [
+                                {
+                                  "id": 22,
+                                  "title": "You: \"And Martinaise?\"",
+                                  "articyId": "0x010000060001BE9E",
+                                  "text": "And Martinaise?",
+                                  "links": [
+                                    {
+                                      "id": 40,
+                                      "title": "Map Wall: \"It's so small you can't even see it...\"",
+                                      "articyId": "0x010000060001BEAB",
+                                      "text": "It's so small you can't even see it on the map. No... wait. There it is! North of Jamrock, the strip of coast next to the Greater Revachol Industrial Harbour. It looks downright despondent. It's almost Coal City, to be honest.",
+                                      "links": [
+                                        {
+                                          "id": 28,
+                                          "title": "Shivers: \"No. Coal City is worse. A charred l...\"",
+                                          "articyId": "0x010000060001BEB9",
+                                          "text": "No. Coal City is worse. A charred limb. Rain falls on its slick black streets. And then there's the Burnt-Out Quarter in the heart of Jamrock... is it cold in this bookstore, or is it just *you*?",
+                                          "links": [
+                                            {
+                                              "id": 19,
+                                              "title": "Volition: \"No. This is somewhere to be. This i...\"",
+                                              "articyId": "0x010000060001BEC0",
+                                              "text": "No. This is somewhere to be. This is all you have, but it's still something. Streets and sodium lights. The sky, the world. You're still alive.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 58,
+                                  "title": "Inland Empire: \"You feel you're *just* west of Coal...\"",
+                                  "articyId": "0x010000060001BEB1",
+                                  "text": "You feel you're *just* west of Coal City. Somewhere above Jamrock and close to Coal City.",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 48,
+              "title": "You: \"Look at the map of Martinaise.\"",
+              "articyId": "0x0100005A0000EA38",
+              "text": "Look at the map of Martinaise.",
+              "links": [
+                {
+                  "id": 24,
+                  "title": "Map Wall: \"It's not really a map. It's a touri...\"",
+                  "articyId": "0x0100005A0000EA4A",
+                  "text": "It's not really a map. It's a tourist thing -- a picture postcard with buildings on it, drawn from an isometric perspective. A date in the upper right corner says: '48.",
+                  "links": [
+                    {
+                      "id": 80,
+                      "title": "Map Wall: \"Still, it's detailed. Could be pret...\"",
+                      "articyId": "0x0100005A0000EA66",
+                      "text": "Still, it's detailed. Could be pretty useful for scouting ahead. You see the jagged boxes of an industrial harbour, even the Whirling-in-Rags there...",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 73,
+              "title": "You: \"\"Storekeep, can I buy these maps?\"\"",
+              "articyId": "0x0100005A0000EA3E",
+              "text": "\"Storekeep, can I buy these maps?\"",
+              "links": [
+                {
+                  "id": 66,
+                  "title": "Plaisance: \"\"I'm sorry, officer, the map of Mar...\"",
+                  "articyId": "0x0100005A0000EA44",
+                  "text": "\"I'm sorry, officer, the map of Martinaise is the only one available. The other two are not for sale anymore... and besides, you could scarcely afford them.\"",
+                  "links": [
+                    {
+                      "id": 81,
+                      "title": "Plaisance: \"\"They're quite valuable, though the...\"",
+                      "articyId": "0x0100005A0000EA98",
+                      "text": "\"They're quite valuable, though they might not look it. The map of Martinaise is 90 cents, though.\"",
+                      "links": [
+                        {
+                          "id": 9,
+                          "title": "You: \"\"Why is the one of Martinaise so ch...\"",
+                          "articyId": "0x0100005A0000EAA0",
+                          "text": "\"Why is the one of Martinaise so cheap?\"",
+                          "links": [
+                            {
+                              "id": 82,
+                              "title": "Plaisance: \"\"That old thing? It's an out-of-dat...\"",
+                              "articyId": "0x0100005A0000EAB4",
+                              "text": "\"That old thing? It's an out-of-date map of a tourist location that never was nor came to be...\"",
+                              "links": [
+                                {
+                                  "id": 52,
+                                  "title": "Plaisance: \"\"From when some *design-studio peop...\"",
+                                  "articyId": "0x0100005A0000EABB",
+                                  "text": "\"From when some *design-studio people* tried to spruce the place up, four or five years ago. They also renovated the horse-statue, set up those coin-operated viewers and designed the new street lamps.\"",
+                                  "links": [
+                                    {
+                                      "id": 67,
+                                      "title": "Rhetoric: \"The place does not look like a succ...\"",
+                                      "articyId": "0x0100005A0000EAC8",
+                                      "text": "The place does not look like a successful tourist trap, does it?",
+                                      "links": [
+                                        {
+                                          "id": 25,
+                                          "title": "You: \"\"What happened then?\"\"",
+                                          "articyId": "0x0100005A0000EAD0",
+                                          "text": "\"What happened then?\"",
+                                          "links": [
+                                            {
+                                              "id": 6,
+                                              "title": "Plaisance: \"\"They didn't get far... for some re...\"",
+                                              "articyId": "0x0100005A0000EAE3",
+                                              "text": "\"They didn't get far... for some reason. A shame the project never got going. Would be nice if someone fixed Martinaise up. All these ruins are bad for business.\"",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 31,
+                          "title": "You: \"\"You seem to underestimate my resou...\"",
+                          "articyId": "0x0100005A0000EAA6",
+                          "text": "\"You seem to underestimate my resources, but sure, okay.\"",
+                          "links": [
+                            {
+                              "id": 42,
+                              "title": "Plaisance: \"\"Yes-yes. Are you interested or not?\"\"",
+                              "articyId": "0x0100005A0000EAAD",
+                              "text": "\"Yes-yes. Are you interested or not?\"",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 20,
+              "title": "You: \"\"I want to buy the map of Martinais...\"",
+              "articyId": "0x0100005A0000E9FE",
+              "text": "\"I want to buy the map of Martinaise.\"",
+              "links": [
+                {
+                  "id": 41,
+                  "title": "Plaisance: \"She nods. \"Always good to be inform...\"",
+                  "articyId": "0x0100005A0000EA19",
+                  "text": "She nods. \"Always good to be informed of your surroundings.\"",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Tutorial Agent: \"You've acquired an interactable ite...\"",
+                      "articyId": "0x0100005300025AD9",
+                      "text": "You've acquired an interactable item. Investigate this item further by going to the INTERACT tab in your INVENTORY.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 75,
+              "title": "You: \"\"I want to buy the map of Martinais...\"",
+              "articyId": "0x0100005A0000EB07",
+              "text": "\"I want to buy the map of Martinaise.\"",
+              "links": [
+                {
+                  "id": 94,
+                  "title": "Plaisance: \"\"Officer, discard the thought. For...\"",
+                  "articyId": "0x0100005A0000EAF9",
+                  "text": "\"Officer, discard the thought. For your brave efforts against those thugs you may have it for free.\"",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 87,
+              "title": "You: \"Steal it instead.\"",
+              "articyId": "0x0100005A0000E9F6",
+              "text": "Steal it instead.",
+              "links": [
+                {
+                  "id": 5,
+                  "title": "Interfacing: \"You peek at the storekeep, waiting...\"",
+                  "articyId": "0x0100005A0000EA2C",
+                  "text": "You peek at the storekeep, waiting for her to be distracted. When she's not looking, you deftly rip the map off the bulletin board and pocket it.",
+                  "links": [
+                    {
+                      "id": 91,
+                      "title": "Interfacing: \"You're now the proud owner of a map...\"",
+                      "articyId": "0x0100005A0000EA75",
+                      "text": "You're now the proud owner of a map of Martinaise, which, to be honest, did not even cost that much.",
+                      "links": []
+                    }
+                  ]
+                },
+                {
+                  "id": 65,
+                  "title": "Interfacing: \"Slowly, you move your hand towards...\"",
+                  "articyId": "0x0100005A0000EA31",
+                  "text": "Slowly, you move your hand towards the map attached to the board. Before you can even reach it, you're interrupted...",
+                  "links": [
+                    {
+                      "id": 50,
+                      "title": "Kim Kitsuragi: \"The lieutenant coughs sharply, then...\"",
+                      "articyId": "0x0100005A0000EA80",
+                      "text": "The lieutenant coughs sharply, then whispers: \"Perhaps not. It's against RCM policy to defraud small business owners.\"",
+                      "links": []
+                    },
+                    {
+                      "id": 51,
+                      "title": "Plaisance: \"\"Sir, please, no touching the merch...\"",
+                      "articyId": "0x0100005A0000EA85",
+                      "text": "\"Sir, please, no touching the merchandise. These old maps are... relics of the past.\"",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 71,
+              "title": "You: \"[Leave.]\"",
+              "articyId": "0x0100005A0000E9DE",
+              "text": "[Leave.]",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
