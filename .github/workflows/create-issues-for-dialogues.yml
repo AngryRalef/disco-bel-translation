@@ -16,7 +16,7 @@ jobs:
         run: |
           SKIP_LIST="000 001 002 073 416"
 
-          for i in {501..572}; do
+          for i in {505..572}; do
             PADDED_NUM=$(printf "%03d" $i)
           
             if echo "$SKIP_LIST" | grep -wq "$PADDED_NUM"; then
