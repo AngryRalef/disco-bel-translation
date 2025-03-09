@@ -26,6 +26,7 @@ jobs:
 
             gh issue create --title "dialogue-$PADDED_NUM" \
                             --body "Рэдактура дыялогу пад нумарам $i" \
+                            --label "dialogue" \
                             --repo ${{ github.repository }}
 
             echo "Created issue #$PADDED_NUM"
