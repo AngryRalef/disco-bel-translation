@@ -1,0 +1,32 @@
+name: Create GitHub Issues
+
+on:
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  create-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          SKIP_LIST="000 001 002 073"
+
+          for i in {1..500}; do
+            PADDED_NUM=$(printf "%03d" $i)
+          
+            if echo "$SKIP_LIST" | grep -wq "$PADDED_NUM"; then
+              echo "Skipping issue #$PADDED_NUM"
+              continue
+            fi
+
+            gh issue create --title "dialogue-$PADDED_NUM" \
+                            --body "Рэдактура дыялогу пад нумарам $i" \
+                            --repo ${{ github.repository }}
+
+            echo "Created issue #$PADDED_NUM"
+          done
