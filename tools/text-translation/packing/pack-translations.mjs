@@ -54,6 +54,8 @@ async function packDialoguesFromTreesToSingleFile() {
     flatDialogues[`Dialogue Text/${key}`].belarusian = translations[key];
   }
 
+  fs.writeFileSync(flatDialoguesFilePath, JSONBig.stringify(flatDialogues, null, 2));
+
   console.log('Total rows in trees:', totalRowsInTrees);
   console.log('Total rows not found:', notFound);
 }
