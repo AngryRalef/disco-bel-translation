@@ -1,7 +1,7 @@
 import JSONBig from "json-bigint";
 import fs from "fs";
 
-const pathToDialogueTree = '../../text/dialogues-tree.json';
+const pathToDialogueTree = './../../../text/dialogues-tree.json';
 
 // path to the dialogue fields: conversations.Array[].dialogueEntries.Array[].fields.Array[]
 const getEnglishTextFromDialogueTree = function (dialogueTree) {
@@ -43,7 +43,7 @@ const execute = async () => {
   const dialogueTree = JSONBig.parse(fs.readFileSync(pathToDialogueTree, 'utf8'));
   const englishText = getEnglishTextFromDialogueTree(dialogueTree);
 
-  fs.writeFileSync('../../text/dialogues-tree-english.json', JSONBig.stringify(englishText, null, 2));
+  fs.writeFileSync('./../../../text/dialogues-tree-english.json', JSONBig.stringify(englishText, null, 2));
 }
 
 execute().then(() => console.log('Done'));

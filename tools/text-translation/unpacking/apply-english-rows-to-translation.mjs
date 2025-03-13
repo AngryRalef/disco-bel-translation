@@ -1,8 +1,8 @@
 import fs from "fs";
 import JSONBig from "json-bigint";
 
-const simplifiedEnglishRowsPath = '../../text/dialogues-tree-english.json';
-const dialoguesTranslatedPath = '../../text/translated/dialogues-translated.json';
+const simplifiedEnglishRowsPath = './../../../text/dialogues-tree-english.json';
+const dialoguesTranslatedPath = './../../../text/translated/dialogues-translated.json';
 
 const applyEnglishRowsToTranslation = async () => {
   const simplifiedEnglishRows = JSONBig.parse(fs.readFileSync(simplifiedEnglishRowsPath, 'utf8'));

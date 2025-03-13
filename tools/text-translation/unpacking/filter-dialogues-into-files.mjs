@@ -1,7 +1,7 @@
 import fs from 'fs';
 
-const dialoguesTreePath = './../../text/dialogues-tree.json';
-const translations = JSON.parse(fs.readFileSync('./../../text/translated/dialogues-translated.json', 'utf8'));
+const dialoguesTreePath = './../../../text/dialogues-tree.json';
+const translations = JSON.parse(fs.readFileSync('./../../../text/translated/dialogues-translated.json', 'utf8'));
 
 async function findRootDialogueEntry(dialogueEntries) {
   if (!dialogueEntries) {
@@ -18,11 +18,11 @@ async function findRootDialogueEntry(dialogueEntries) {
 }
 
 async function createDialogueFile(filename, data) {
-  if (!fs.existsSync('./../../text/dialogues')) {
-    fs.mkdirSync('./../../text/dialogues');
+  if (!fs.existsSync('./../../../text/dialogues')) {
+    fs.mkdirSync('./../../../text/dialogues');
   }
 
-  fs.writeFileSync(`./../../text/dialogues/${filename}.json`, JSON.stringify(data, null, 2));
+  fs.writeFileSync(`./../../../text/dialogues/${filename}.json`, JSON.stringify(data, null, 2));
 }
 
 async function buildFullTree(dialogues) {
