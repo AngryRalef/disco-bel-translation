@@ -2,6 +2,7 @@ import fs from 'fs';
 
 const dialoguesTreePath = './../../../text/dialogues-tree.json';
 const translations = JSON.parse(fs.readFileSync('./../../../text/translated/dialogues-translated.json', 'utf8'));
+const alternatesField = ['Alternate1', 'Alternate2', 'Alternate3', 'Alternate4'];
 
 async function findRootDialogueEntry(dialogueEntries) {
   if (!dialogueEntries) {
@@ -23,6 +24,15 @@ async function createDialogueFile(filename, data) {
   }
 
   fs.writeFileSync(`./../../../text/dialogues/${filename}.json`, JSON.stringify(data, null, 2));
+}
+
+async function getAlternatesFromFields(fields) {
+  return fields.Array.reduce((acc, field) => {
+    if (alternatesField.includes(field.title)) {
+      acc[field.title] = field.value;
+    }
+    return acc;
+  }, {});
 }
 
 async function buildFullTree(dialogues) {
@@ -50,6 +60,7 @@ async function buildFullTree(dialogues) {
       title: node.fields.Array.find(field => field.title === 'Title')?.value,
       articyId: node.fields.Array.find(field => field.title === 'Articy Id')?.value,
       text: node.fields.Array.find(field => field.title === 'Dialogue Text')?.value,
+      alternates: await getAlternatesFromFields(node.fields),
       links: []
     });
     resultMap.set(node.id, treeNode);
@@ -98,12 +109,29 @@ async function buildDialogueTree(dialogues) {
   return removeHiddenNodes(fullTree, hiddenSet);
 }
 
+async function getTranslationForAlternates(alternates, articyId) {
+  return alternatesField.reduce((acc, field) => {
+    const translation = translations[`${field}/${articyId}`];
+    const alternate = alternates[field];
+    if (translation && alternate) {
+      acc[field] = {
+        english: alternate,
+        polish: translation.polish,
+        belarusian: translation.belarusian,
+      }
+    }
+    return acc;
+  }, {});
+}
+
 async function getTranslationForDialogue(dialogue) {
   const translation = translations[`Dialogue Text/${dialogue.articyId}`];
 
   if (!translation) {
     return dialogue;
   }
+
+  const alternates = await getTranslationForAlternates(dialogue.alternates, dialogue.articyId);
 
   return {
     id: dialogue.id,
@@ -115,6 +143,7 @@ async function getTranslationForDialogue(dialogue) {
     english: dialogue.text,
     polish: translation.polish,
     belarusian: translation.belarusian,
+    ...(Object.keys(alternates).length ? { alternates } : {}),
     links: dialogue.links,
   }
 }
