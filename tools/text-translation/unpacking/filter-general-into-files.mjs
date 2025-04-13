@@ -22,6 +22,7 @@ data.other = {};
 
 for (const key in generalTranslated) {
   let matched = false;
+  delete generalTranslated[key].redacted;
 
   for (const prefix in categories) {
     if (key.startsWith(prefix)) {
