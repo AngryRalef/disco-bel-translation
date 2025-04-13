@@ -82,6 +82,7 @@ async function packGeneralFromMultipleFilesToSingleFile() {
     }
 
     generalTranslated[key] = {
+      ...generalTranslated[key],
       belarusian: translations[key].belarusian,
     }
   }
