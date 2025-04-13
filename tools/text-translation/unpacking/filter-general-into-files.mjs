@@ -27,7 +27,10 @@ for (const key in generalTranslated) {
   for (const prefix in categories) {
     if (key.startsWith(prefix)) {
       const category = categories[prefix];
-      if (category === 'conversations' && generalTranslated[key].belarusian === 'Not to translate') {
+      if (generalTranslated[key].belarusian === 'Not to translate'
+        || generalTranslated[key].polish === 'Not to translate'
+        || generalTranslated[key].polish === '')
+      {
         matched = true;
         break;
       }
