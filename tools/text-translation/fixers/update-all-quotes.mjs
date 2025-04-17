@@ -3,7 +3,7 @@ import JSONBig from 'json-bigint';
 
 const dialoguesFolder = './../../../text/dialogues';
 const filesToSkip = [
-  '107.json',
+  '104.json',
   '17.json',
   '7.json',
   '6.json',
@@ -29,7 +29,7 @@ for (const file of fs.readdirSync(dialoguesFolder)) {
     let totalQuotesReplaced = 0;
 
     function replaceQuotes(text) {
-        return text.replace(/[“”«»‘’„]/g, '"');
+        return text.replace(/[“”«»„]/g, '"');
     }
 
     function findAndReplaceAlternateQuotes(alternates) {
