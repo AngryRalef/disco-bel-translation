@@ -12,6 +12,13 @@ const filesToSkip = [
   '416.json',
 ];
 
+const alternateKeys = [
+  'Alternate1',
+  'Alternate2',
+  'Alternate3',
+  'Alternate4',
+]
+
 for (const file of fs.readdirSync(dialoguesFolder)) {
     if (filesToSkip.includes(file)) {
         continue;
@@ -20,18 +27,43 @@ for (const file of fs.readdirSync(dialoguesFolder)) {
     
     let totalQuotes = 0;
     let totalQuotesReplaced = 0;
+
+    function replaceQuotes(text) {
+        return text.replace(/[“”«»‘’„]/g, '"');
+    }
+
+    function findAndReplaceAlternateQuotes(alternates) {
+        for (const alternateKey in alternateKeys) {
+            const alternate = alternates[alternateKeys[alternateKey]];
+
+            if (alternate && alternate.belarusian) {
+                const originalText = alternate.belarusian;
+                const newText = replaceQuotes(originalText);
+
+                if (originalText !== newText) {
+                    totalQuotes++;
+                    totalQuotesReplaced++;
+                    alternates[alternateKeys[alternateKey]].belarusian = newText;
+                }
+            }
+        }
+    }
     
     function traverseTreeRecursively(links) {
         for (const link of links) {
             if (link.belarusian) {
                 const originalText = link.belarusian;
-                const newText = originalText.replace(/[“”«»‘’„]/g, '"');
+                const newText = replaceQuotes(originalText);
                 
                 if (originalText !== newText) {
                     totalQuotes++;
                     totalQuotesReplaced++;
                     link.belarusian = newText;
                 }
+            }
+
+            if (link.alternates) {
+                findAndReplaceAlternateQuotes(link.alternates);
             }
             
             if (link.links) {
