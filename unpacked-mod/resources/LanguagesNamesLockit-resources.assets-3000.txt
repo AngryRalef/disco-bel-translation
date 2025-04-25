@@ -1,0 +1,165 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 1172
+ 1 string m_Name = "LanguagesNamesLockit"
+ 0 LanguageSourceData mSource
+  1 UInt8 UserAgreesToHaveItOnTheScene = 0
+  1 UInt8 UserAgreesToHaveItInsideThePluginsFolder = 0
+  1 UInt8 GoogleLiveSyncIsUptoDate = 1
+  0 TermData mTerms
+   1 Array Array (1 items)
+    0 int size = 1
+    [0]
+     0 TermData data
+      1 string Term = "LANGUAGE_NAME"
+      0 int TermType = 0
+      0 string Languages
+       1 Array Array (13 items)
+        0 int size = 13
+        [0]
+         1 string data = "English"
+        [1]
+         1 string data = "简体中文"
+        [2]
+         1 string data = "繁體中文"
+        [3]
+         1 string data = "Español"
+        [4]
+         1 string data = "한국어"
+        [5]
+         1 string data = "Português (Br)"
+        [6]
+         1 string data = "Français"
+        [7]
+         1 string data = "Deutsch"
+        [8]
+         1 string data = "Pусский"
+        [9]
+         1 string data = "Polski"
+        [10]
+         1 string data = "日本語"
+        [11]
+         1 string data = "Türkçe"
+        [12]
+         1 string data = "العربية"
+      0 vector Flags
+       1 Array Array (13 items)
+        0 int size = 13
+        [0]
+         0 UInt8 data = 0
+        [1]
+         0 UInt8 data = 0
+        [2]
+         0 UInt8 data = 0
+        [3]
+         0 UInt8 data = 0
+        [4]
+         0 UInt8 data = 0
+        [5]
+         0 UInt8 data = 0
+        [6]
+         0 UInt8 data = 0
+        [7]
+         0 UInt8 data = 0
+        [8]
+         0 UInt8 data = 0
+        [9]
+         0 UInt8 data = 0
+        [10]
+         0 UInt8 data = 0
+        [11]
+         0 UInt8 data = 0
+        [12]
+         0 UInt8 data = 0
+      0 string Languages_Touch
+       1 Array Array (0 items)
+        0 int size = 0
+  1 UInt8 CaseInsensitiveTerms = 0
+  0 int OnMissingTranslation = 1
+  1 string mTerm_AppName = ""
+  0 LanguageData mLanguages
+   1 Array Array (13 items)
+    0 int size = 13
+    [0]
+     0 LanguageData data
+      1 string Name = "English"
+      1 string Code = "en"
+      1 UInt8 Flags = 0
+    [1]
+     0 LanguageData data
+      1 string Name = "Chinese"
+      1 string Code = "zh"
+      1 UInt8 Flags = 0
+    [2]
+     0 LanguageData data
+      1 string Name = "Traditional Chinese"
+      1 string Code = "zh-TW"
+      1 UInt8 Flags = 0
+    [3]
+     0 LanguageData data
+      1 string Name = "Spanish"
+      1 string Code = "es"
+      1 UInt8 Flags = 0
+    [4]
+     0 LanguageData data
+      1 string Name = "Korean"
+      1 string Code = "ko"
+      1 UInt8 Flags = 0
+    [5]
+     0 LanguageData data
+      1 string Name = "Portuguese (Brazil)"
+      1 string Code = "pt-BR"
+      1 UInt8 Flags = 0
+    [6]
+     0 LanguageData data
+      1 string Name = "French"
+      1 string Code = "fr"
+      1 UInt8 Flags = 0
+    [7]
+     0 LanguageData data
+      1 string Name = "German"
+      1 string Code = "de"
+      1 UInt8 Flags = 0
+    [8]
+     0 LanguageData data
+      1 string Name = "Russian"
+      1 string Code = "ru"
+      1 UInt8 Flags = 0
+    [9]
+     0 LanguageData data
+      1 string Name = "Polish"
+      1 string Code = "pl"
+      1 UInt8 Flags = 0
+    [10]
+     0 LanguageData data
+      1 string Name = "Japanese"
+      1 string Code = "ja"
+      1 UInt8 Flags = 0
+    [11]
+     0 LanguageData data
+      1 string Name = "Turkish"
+      1 string Code = "tr"
+      1 UInt8 Flags = 0
+    [12]
+     0 LanguageData data
+      1 string Name = "Arabic"
+      1 string Code = "ar"
+      1 UInt8 Flags = 0
+  1 UInt8 IgnoreDeviceLanguage = 0
+  0 int _AllowUnloadingLanguages = 0
+  1 string Google_WebServiceURL = ""
+  1 string Google_SpreadsheetKey = ""
+  1 string Google_SpreadsheetName = ""
+  1 string Google_LastUpdatedVersion = ""
+  0 int GoogleUpdateFrequency = 3
+  0 int GoogleInEditorCheckFrequency = 2
+  0 int GoogleUpdateSynchronization = 1
+  0 float GoogleUpdateDelay = 0
+  0 vector Assets
+   1 Array Array (0 items)
+    0 int size = 0
