@@ -3,6 +3,7 @@ import fs from 'fs';
 const dialoguesTreePath = './../../../text/dialogues-tree.json';
 const translations = JSON.parse(fs.readFileSync('./../../../text/translated/dialogues-translated.json', 'utf8'));
 const alternatesField = ['Alternate1', 'Alternate2', 'Alternate3', 'Alternate4'];
+const dialoguesFolder = './../../../text/dialogues';
 
 async function findRootDialogueEntry(dialogueEntries) {
   if (!dialogueEntries) {
@@ -19,11 +20,11 @@ async function findRootDialogueEntry(dialogueEntries) {
 }
 
 async function createDialogueFile(filename, data) {
-  if (!fs.existsSync('./../../../text/dialogues')) {
-    fs.mkdirSync('./../../../text/dialogues');
+  if (!fs.existsSync(dialoguesFolder)) {
+    fs.mkdirSync(dialoguesFolder);
   }
 
-  fs.writeFileSync(`./../../../text/dialogues/${filename}.json`, JSON.stringify(data, null, 2));
+  fs.writeFileSync(`${dialoguesFolder}/${filename}.json`, JSON.stringify(data, null, 2));
 }
 
 async function getAlternatesFromFields(fields) {
