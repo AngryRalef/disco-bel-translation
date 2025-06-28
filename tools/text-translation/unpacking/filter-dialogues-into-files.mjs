@@ -1,9 +1,12 @@
 import fs from 'fs';
+import * as crypto from "node:crypto";
 
 const dialoguesTreePath = './../../../text/dialogues-tree.json';
 const translations = JSON.parse(fs.readFileSync('./../../../text/translated/dialogues-translated.json', 'utf8'));
 const alternatesField = ['Alternate1', 'Alternate2', 'Alternate3', 'Alternate4'];
 const dialoguesFolder = './../../../text/dialogues';
+const conversationsWithOutgoingLinksPath = './../../../text/dialogues-outgoing-links.json';
+const additionalDialoguesFolder = './../../../text/additional-dialogues';
 
 async function findRootDialogueEntry(dialogueEntries) {
   if (!dialogueEntries) {
@@ -19,12 +22,12 @@ async function findRootDialogueEntry(dialogueEntries) {
   return startDialogueEntry;
 }
 
-async function createDialogueFile(filename, data) {
-  if (!fs.existsSync(dialoguesFolder)) {
-    fs.mkdirSync(dialoguesFolder);
+async function createDialogueFile(folder, filename, data) {
+  if (!fs.existsSync(folder)) {
+    fs.mkdirSync(folder);
   }
 
-  fs.writeFileSync(`${dialoguesFolder}/${filename}.json`, JSON.stringify(data, null, 2));
+  fs.writeFileSync(`${folder}/${filename}.json`, JSON.stringify(data, null, 2));
 }
 
 async function getAlternatesFromFields(fields) {
@@ -36,7 +39,7 @@ async function getAlternatesFromFields(fields) {
   }, {});
 }
 
-async function buildFullTree(dialogues) {
+async function buildFullTree(dialogues, startDialogue = null) {
   const dialogueMap = new Map();
 
   // Create a map of ID to dialogue objects for easy lookup
@@ -44,7 +47,9 @@ async function buildFullTree(dialogues) {
     dialogueMap.set(dialogue.id, { ...dialogue, links: [...dialogue.outgoingLinks.Array] });
   });
 
-  let startDialogue = await findRootDialogueEntry(dialogues);
+  if (!startDialogue) {
+    startDialogue = await findRootDialogueEntry(dialogues);
+  }
 
   const visited = new Set();
   const queue = [{ parent: null, node: startDialogue }];
@@ -103,8 +108,8 @@ function removeHiddenNodes(tree, hiddenSet) {
   return hiddenSet.has(tree.id) ? tree.links : tree;
 }
 
-async function buildDialogueTree(dialogues) {
-  let fullTree = await buildFullTree(dialogues);
+async function buildDialogueTree(dialogues, startDialogue = null) {
+  let fullTree = await buildFullTree(dialogues, startDialogue);
 
   const hiddenSet = new Set(dialogues.filter(d => !d.fields.Array.find(field => field.title === 'Dialogue Text')).map(d => d.id));
   return removeHiddenNodes(fullTree, hiddenSet);
@@ -136,7 +141,6 @@ async function getTranslationForDialogue(dialogue) {
 
   return {
     id: dialogue.id,
-    redacted: translation.redacted,
     title: dialogue.title,
     actor: translation.actor,
     to: translation.to,
@@ -149,15 +153,53 @@ async function getTranslationForDialogue(dialogue) {
   }
 }
 
+async function getAllIncomingEntries(conversation, conversationsWithOutgoingLinks) {
+  let allIncomingEntries = [];
+
+  for (const outgoingConversation of conversationsWithOutgoingLinks) {
+    for (const entry of outgoingConversation.dialogueEntriesWithLinks) {
+      const links = entry.outgoingConversations.filter(link => link.destinationConversationID === conversation.id);
+
+      for (const link of links) {
+        const incomingEntry = conversation.dialogueEntries.Array.find(e => e.id === link.destinationDialogueID);
+
+        if (incomingEntry) {
+          allIncomingEntries.push(incomingEntry);
+        }
+      }
+    }
+  }
+
+  return allIncomingEntries;
+}
+
+async function deleteDuplicateFiles(folder) {
+  const files = fs.readdirSync(folder);
+  const seen = new Set();
+
+  for (const file of files) {
+    const filePath = `${folder}/${file}`;
+    const content = fs.readFileSync(filePath, 'utf8');
+    const hash = crypto.createHash('md5').update(content).digest('hex');
+    if (seen.has(hash)) {
+      console.log(`Deleting duplicate file: ${file}`);
+      fs.unlinkSync(filePath);
+    } else {
+      seen.add(hash);
+    }
+  }
+}
+
 async function filterDialoguesIntoFiles() {
   const dialoguesTree = JSON.parse(fs.readFileSync(dialoguesTreePath, 'utf8'));
+  const conversationsWithOutgoingLinks = JSON.parse(fs.readFileSync(conversationsWithOutgoingLinksPath, 'utf8'));
 
   const conversations = dialoguesTree.conversations.Array;
 
   let counter = 0;
 
   for (const conversation of conversations) {
-    console.log(`Processing conversation ${counter}`);
+    console.log(`Processing conversation ${conversation.id}`);
 
     const conversationId = conversation.fields.Array.find(field => field.title === 'Articy Id')?.value;
     const conversationTitle = conversation.fields.Array.find(field => field.title === 'Title')?.value;
@@ -166,11 +208,40 @@ async function filterDialoguesIntoFiles() {
     const dialogueTree = await buildDialogueTree(conversation.dialogueEntries.Array);
 
     if (!dialogueTree.length) {
-      console.log(`No dialogue tree found for conversation ${counter}`);
+      console.log(`No dialogue tree found for conversation ${conversation.id}`);
+
+      const hasLinkToThisConversation = conversationsWithOutgoingLinks.some(outgoingConversation => {
+        return outgoingConversation.dialogueEntriesWithLinks.some(entry =>
+          entry.outgoingConversations.some(link => link.destinationConversationID === conversation.id)
+        );
+      });
+
+      if (hasLinkToThisConversation) {
+        console.log(`Found empty conversation that has links to it: ${conversationId} - ${conversationTitle}`);
+
+        const incomingEntries = await getAllIncomingEntries(conversation, conversationsWithOutgoingLinks);
+
+        for (const incomingEntry of incomingEntries) {
+          const incomingDialogueTree = await buildDialogueTree(conversation.dialogueEntries.Array, incomingEntry);
+
+          if (incomingDialogueTree.length) {
+            await createDialogueFile(additionalDialoguesFolder, `${counter}-${conversation.id}`, {
+              id: conversationId,
+              title: conversationTitle,
+              description: conversationDescription,
+              dialogueTree: incomingDialogueTree,
+            });
+            counter++;
+          } else {
+            console.log(`No dialogue tree found for incoming entry ${incomingEntry.id}`);
+          }
+        }
+      }
+
       continue;
     }
 
-    await createDialogueFile(counter, {
+    await createDialogueFile(dialoguesFolder, counter, {
       id: conversationId,
       title: conversationTitle,
       description: conversationDescription,
@@ -179,6 +250,8 @@ async function filterDialoguesIntoFiles() {
 
     counter++;
   }
+
+  await deleteDuplicateFiles(additionalDialoguesFolder);
 }
 
 filterDialoguesIntoFiles().catch(console.error);

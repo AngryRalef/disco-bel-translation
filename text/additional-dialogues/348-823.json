@@ -1,0 +1,919 @@
+{
+  "id": "0x0100004C000196DB",
+  "title": "TRIBUNAL / I GOT TO KNOW THE HANGED MAN",
+  "description": "\"Look, I've gotten to know the hanged man too a bit over the course of this investigation...\"",
+  "dialogueTree": [
+    {
+      "id": 49,
+      "title": "Suggestion: \"Dangerous! Ask about him first. You...\"",
+      "actor": "Suggestion",
+      "to": "You",
+      "articyId": "0x0100007800012E58",
+      "english": "Dangerous! Ask about him first. You don't want personal facts about his dead friend coming out of your mouth -- *he* has to start it.",
+      "polish": "To niebezpieczne! Najpierw o niego spytaj. Nie chcesz wyrzucać nagle z siebie osobistych szczegółów na temat jego martwego kumpla. *On* musi to zacząć.",
+      "belarusian": "Гэта небяспечна! Спачатку спытайся ў яго. Ты не хочаш раптоўна выкладаць асабістыя падрабязнасці аб яго памерлым сябру. *Ён* павінен гэта пачаць.",
+      "links": [
+        {
+          "id": 72,
+          "title": "You: \"\"I knew you weren't a god damn scab...\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
+          "articyId": "0x0100007800012E6C",
+          "english": "\"I knew you weren't a god damn scab leader!\"",
+          "polish": "„Wiedziałem, że nie jesteś pieprzonym przywódcą łamistrajków!”",
+          "belarusian": "«Я ведаў, што ты не прокляты кіраўнік забастоўшчыкаў!»",
+          "links": [
+            {
+              "id": 30,
+              "title": "Kortenaer: \"\"Yeah, I don't fucking *act* so wel...\"",
+              "actor": "Kortenaer",
+              "to": "You",
+              "articyId": "0x0100007800012E93",
+              "english": "\"Yeah, I don't fucking *act* so well. Lely had a hard-on for making faces for you natives. Fucking food-aid shit...\" He wipes his mouth. \"That shit is done now. Trigger time.\"",
+              "polish": "„Taa, kiepsko mi idzie jebane *granie*. Lely uparł się na ten teatrzyk dla tubylców. Pieprzone odpady z pomocy żywnościowej...” – wyciera usta. „Ale z tym gównem już koniec. Pora na spluwy”.",
+              "belarusian": "«Так, у мяне кепска атрымліваецца гэтае чортавае *гульнё*. Лелі ўпёуўся на гэты тэатрык для тубыльцаў. Чортавыя адпады з харчовай дапамогі...» — выцер вусны. «Але з гэтай лухтой ужо канец. Прыйшоў час для стрэльбаў».",
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "You: \"\"Who are you?\"\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
+          "articyId": "0x0100007800012E80",
+          "english": "\"Who are you?\"",
+          "polish": "„Ktoś ty?”",
+          "belarusian": "«Хто ты?»",
+          "alternates": {
+            "Alternate1": {
+              "english": "\"Who are you -- a major?\"",
+              "polish": "„Ktoś ty? Major?”",
+              "belarusian": "«Хто ты? Маёр?»"
+            },
+            "Alternate2": {
+              "english": "\"Who are you -- *Korty*?\"",
+              "polish": "„Ktoś ty? *Korty*?”",
+              "belarusian": "«Хто ты? *Корты*?»"
+            }
+          },
+          "links": [
+            {
+              "id": 26,
+              "title": "Kortenaer: \"\"Sergeant Major Raul Kortenaer -- r...\"",
+              "actor": "Kortenaer",
+              "to": "You",
+              "articyId": "0x0100007800012E87",
+              "english": "\"Sergeant Major Raul Kortenaer -- reporting in to burn this fucking mud hut to the ground!\" He points at the Whirling-in-Rags...",
+              "polish": "„Starszy sierżant Raul Kortenaer, melduje się do spalenia tej jebanej lepianki do szczętu!” – odpowiada, wskazując Whirling-in-Rags...",
+              "belarusian": "«Старшы сяржант Рауль Кортэнаэр, дакладвае пра гатоўнасць спаліць гэтую чортаву хаціну ўшчэнт!» – адказвае ён, указваючы на Whirling-in-Rags...",
+              "links": [
+                {
+                  "id": 3,
+                  "title": "Perception (Hearing): \"As he moves, the interlocking piece...\"",
+                  "actor": "Perception (Hearing)",
+                  "to": "You",
+                  "articyId": "0x0100007800012E99",
+                  "english": "As he moves, the interlocking pieces of his armour click, softly.",
+                  "polish": "Kiedy się porusza, połączone elementy jego pancerza delikatnie klikają.",
+                  "belarusian": "Калі ён рухаецца, злучаныя элементы яго панцыра далікатна клякаюць.",
+                  "links": [
+                    {
+                      "id": 81,
+                      "title": "Logic: \"...click, click, click! The realiza...\"",
+                      "actor": "Logic",
+                      "to": "You",
+                      "articyId": "0x0100007800012EC0",
+                      "english": "...click, click, click! The realization comes to you, like a picture puzzle coming together: His name is Raul Kortenaer -- the dead man's name is Ellis Kortenaer. He's *brothers* with the deceased!",
+                      "polish": "Klik, klik, klik! Nagle czujesz, jakby w twojej głowie ułożyła się układanka: on nazywa się Raul Kortenaer. Zabity to Ellis Kortenaer. To *brat* denata!",
+                      "belarusian": "Клік, клік, клік! Раптам адчуваеш, быццам у тваёй галаве склаўся галавалом: яго завуць Рауль Корценэр. Забіты — гэта Эліс Корценэр. Гэта *брат* нябожчыка!",
+                      "links": [
+                        {
+                          "id": 23,
+                          "title": "Empathy: \"No -- probably foster brothers! Ell...\"",
+                          "actor": "Empathy",
+                          "to": "You",
+                          "articyId": "0x0100007800012EC7",
+                          "english": "No -- probably foster brothers! Ellis was put into a foster home, remember...",
+                          "polish": "Nie. Raczej przybrany brat! Ellis został adoptowany, pamiętasz...?",
+                          "belarusian": "Не. Хутчэй прыёмны брат! Элліс быў усыноўлены, памятаеш...?",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 66,
+                      "title": "Logic: \"Korty -- Kortenaer. Major Raul *Kor...\"",
+                      "actor": "Logic",
+                      "to": "You",
+                      "articyId": "0x0100007800012ECE",
+                      "english": "Korty -- Kortenaer. Major Raul *Korty* Kortenaer. Friends with Lely. Raul and Lely.",
+                      "polish": "Korty – Kortenaer. Major Raul Kortenaer, pseudonim Korty. Przyjaciel Lely'ego. Raul i Lely.",
+                      "belarusian": "Корты – Кортэнаэр. Майор Раул Кортэнаэр, псеўданім Корты. Сябар Лелі. Раул і Лелі.",
+                      "links": [
+                        {
+                          "id": 101,
+                          "title": "Kortenaer: \"...and then he bellows: \"For killin...\"",
+                          "actor": "Kortenaer",
+                          "to": "You",
+                          "articyId": "0x010000780001305D",
+                          "english": "...and then he bellows: \"For killing, maiming and humiliating our commanding officer -- you're all sentenced to death by lead!\"",
+                          "polish": "...po czym ryczy: „Za zabicie, okaleczenie i upokorzenie naszego dowódcy skazuję was wszystkich na śmierć przez rozstrzelanie!”",
+                          "belarusian": "...пасля чаго крычыць: «За забойства, калецтва і прыніжэнне нашага камандзіра я асуджаю вас усіх на смерць праз расстрэл!»",
+                          "links": [
+                            {
+                              "id": 88,
+                              "title": "You: \"\"Kortenaer -- I know that name.\"\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800012ED7",
+                              "english": "\"Kortenaer -- I know that name.\"",
+                              "polish": "„Kortenaer. Znam to nazwisko”.",
+                              "belarusian": "«Кортэнаэр. Я ведаю гэтае прозвішча».",
+                              "links": [
+                                {
+                                  "id": 104,
+                                  "title": "Kortenaer: \"He sways from left to right, inspec...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800012EF0",
+                                  "english": "He sways from left to right, inspecting you.",
+                                  "polish": "Kołysze się od lewej do prawej, przyglądając ci się uważnie.",
+                                  "belarusian": "Гойдаецца злева направа, уважліва прыглядаючыся да цябе.",
+                                  "links": [
+                                    {
+                                      "id": 31,
+                                      "title": "You: \"\"Raul and Ellis Kortenaer...\" Look...\"",
+                                      "actor": "You",
+                                      "to": "Kim Kitsuragi",
+                                      "articyId": "0x0100007800012EF7",
+                                      "english": "\"Raul and Ellis Kortenaer...\" Look him in the eye. \"I'm sorry about your brother, Raul.\"",
+                                      "polish": "„Raul i Ellis Kortenaer...” (Spójrz mu w oczy). „Przykro mi z powodu śmierci twojego brata, Raul”.",
+                                      "belarusian": "«Рауль і Элліс Кортэнэр...» (Паглядзі яму ў вочы). «Спачуваю з нагоды смерці твайго брата, Рауль».",
+                                      "links": [
+                                        {
+                                          "id": 44,
+                                          "title": "Kortenaer: \"\"He wasn't my fucking brother! We j...\"",
+                                          "actor": "Kortenaer",
+                                          "to": "You",
+                                          "articyId": "0x0100007800012EFE",
+                                          "english": "\"He wasn't my fucking brother! We just grew up on the same farm and got beat into place by the same sick fuck...\"",
+                                          "polish": "„On nie był moim pieprzonym bratem! Dorastaliśmy tylko na tej samej farmie i dostawaliśmy lanie od tego samego chorego zjeba...”",
+                                          "belarusian": "«Ён не быў маім чортавым братам! Мы проста выраслі на адной ферме і атрымлівалі збіццё ад аднаго і таго ж хворага вырадка...»",
+                                          "links": [
+                                            {
+                                              "id": 95,
+                                              "title": "Half Light: \"Beaten by a foster parent, or someo...\"",
+                                              "actor": "Half Light",
+                                              "to": "You",
+                                              "articyId": "0x0100007800012F29",
+                                              "english": "Beaten by a foster parent, or someone on the farm?",
+                                              "polish": "Lanie od przybranego rodzica czy od kogoś na farmie?",
+                                              "belarusian": "Біццё ад прыёмнага бацькі ці ад кагосьці на ферме?",
+                                              "links": [
+                                                {
+                                                  "id": 50,
+                                                  "title": "You: \"\"And then went to the same military...\"",
+                                                  "actor": "You",
+                                                  "to": "Kim Kitsuragi",
+                                                  "articyId": "0x0100007800012F06",
+                                                  "english": "\"And then went to the same military academy. And the same unit. And the same war...\"",
+                                                  "polish": "„A potem poszliście do tej samej akademii wojskowej. Potem była ta sama jednostka. I ta sama wojna...”",
+                                                  "belarusian": "«А потым вы пайшлі ў тую самую ваенную акадэмію. Потым была тая ж частка. І тая ж вайна...»",
+                                                  "links": [
+                                                    {
+                                                      "id": 28,
+                                                      "title": "Kortenaer: \"\"Same fucking mudhut town too...\" h...\"",
+                                                      "actor": "Kortenaer",
+                                                      "to": "You",
+                                                      "articyId": "0x0100007800012F19",
+                                                      "english": "\"Same fucking mudhut town too...\" he looks around, then wipes his face with his armoured glove.",
+                                                      "polish": "„I to samo pieprzone miasto lepianek...” – stwierdza, rozglądając się wokoło, po czym ociera twarz swoją pancerną rękawicą.",
+                                                      "belarusian": "«І ў гэтым самым праклятым горадзе буданоў...» — кажа, аглядаючыся вакол, затым выцірае твар сваёй браняванай пальчаткай.",
+                                                      "links": [
+                                                        {
+                                                          "id": 77,
+                                                          "title": "Suggestion: \"Okay. Good.\"",
+                                                          "actor": "Suggestion",
+                                                          "to": "You",
+                                                          "articyId": "0x01000078000139FF",
+                                                          "english": "Okay. Good.",
+                                                          "polish": "Dobrze. Świetnie.",
+                                                          "belarusian": "Добра. Цудоўна.",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 89,
+                                                  "title": "You: \"\"You were foster brothers. I know t...\"",
+                                                  "actor": "You",
+                                                  "to": "Kim Kitsuragi",
+                                                  "articyId": "0x0100007800012F0C",
+                                                  "english": "\"You were foster brothers. I know that.\"",
+                                                  "polish": "„Byliście przybranymi braćmi. Wiem o tym”.",
+                                                  "belarusian": "«Вы былі прыёмнымі братамі. Я ведаю пра гэта».",
+                                                  "links": [
+                                                    {
+                                                      "id": 46,
+                                                      "title": "Kortenaer: \"\"You don't *know* shit. Lance Corpo...\"",
+                                                      "actor": "Kortenaer",
+                                                      "to": "You",
+                                                      "articyId": "0x0100007800012F78",
+                                                      "english": "\"You don't *know* shit. Lance Corporal, why don't you..\" He turns to the radio officer on this right...",
+                                                      "polish": "„Gówno *wiesz*. Starsza szeregowa, może byś tak...” – zwraca się do radiooperatorki stojącej po jego prawej...",
+                                                      "belarusian": "«Гаўно *ведаеш*. Старэйшая радавя, можа, ты б так...» — звяртаецца да радыёаператаркі, якая стаіць па яго правым боку...",
+                                                      "links": [
+                                                        {
+                                                          "id": 18,
+                                                          "title": "Suggestion: \"You lost him. Quick!\"",
+                                                          "actor": "Suggestion",
+                                                          "to": "You",
+                                                          "articyId": "0x0100007800012F7F",
+                                                          "english": "You lost him. Quick!",
+                                                          "polish": "Rozproszyłeś go. Szybko!",
+                                                          "belarusian": "Ты яго адцягнуў. Хутка!",
+                                                          "links": [
+                                                            {
+                                                              "id": 70,
+                                                              "title": "Reaction Speed: \"Don't let him finish the sentence!\"",
+                                                              "actor": "Reaction Speed",
+                                                              "to": "You",
+                                                              "articyId": "0x0100007800012F86",
+                                                              "english": "Don't let him finish the sentence!",
+                                                              "polish": "Nie daj mu dokończyć zdania!",
+                                                              "belarusian": "Не дазваляй яму скончыць сказ!",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 16,
+                              "title": "You: \"\"His parents left him in a fucking...\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800012EDD",
+                              "english": "\"His parents left him in a fucking leaf compactor.\"",
+                              "polish": "„Rodzice zostawili go w jebanej prasie do liści”.",
+                              "belarusian": "„Бацькі пакінулі яго ў гэтай халеры прэсе для лісця”.",
+                              "links": [
+                                {
+                                  "id": 82,
+                                  "title": "Kortenaer: \"\"Who... Lely?\"\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800012F33",
+                                  "english": "\"Who... Lely?\"",
+                                  "polish": "„Kogo...? Lely'ego?”",
+                                  "belarusian": "«Каго...? Лелі'га?»",
+                                  "links": [
+                                    {
+                                      "id": 90,
+                                      "title": "You: \"\"Yes. When he was small... just an...\"",
+                                      "actor": "You",
+                                      "to": "Kim Kitsuragi",
+                                      "articyId": "0x0100007800012F3A",
+                                      "english": "\"Yes. When he was small... just an infant.\"",
+                                      "polish": "„Tak. Kiedy był mały... Jak był niemowlakiem”.",
+                                      "belarusian": "«Так. Калі быў маленькі... Як быў немаўлём».",
+                                      "links": [
+                                        {
+                                          "id": 51,
+                                          "title": "Kim Kitsuragi: \"\"We researched him. We contacted th...\"",
+                                          "actor": "Kim Kitsuragi",
+                                          "to": "You",
+                                          "articyId": "0x0100007800012F92",
+                                          "english": "\"We researched him. We contacted the ICP and looked at his birth records. That was in there. And other things...\"",
+                                          "polish": "„Sprawdziliśmy go. Skontaktowaliśmy się z MOP i przejrzeliśmy jego akt urodzenia. Znaleźliśmy tam tę informację. I inne rzeczy...”",
+                                          "belarusian": "«Мы праверылі яго. Мы звязаліся з МАП і прагледзелі яго пасведчанне аб нараджэнні. Мы знайшлі там гэтую інфармацыю. І іншыя рэчы...»",
+                                          "links": [
+                                            {
+                                              "id": 32,
+                                              "title": "Kortenaer: \"\"They fucking put Lely in a leaf co...\"",
+                                              "actor": "Kortenaer",
+                                              "to": "You",
+                                              "articyId": "0x0100007800012F99",
+                                              "english": "\"They fucking put Lely in a leaf compactor and now these cunts finished the job...\" He waves at the gang huddled by the doors.",
+                                              "polish": "„Wsadzili Lely'ego do prasy do liści, a teraz te pizdy dokończyły robotę...” – stwierdza, wskazując machnięciem ręki ludzi zbitych przy drzwiach.",
+                                              "belarusian": "«Усунулі Лелі ў ліст высока ўздоўж прэсы, а цяпер гэтыя пизды скончылі працу...» — заяўляе ён, махаючы рукой на людзей, што сцякліся каля дзвярэй.",
+                                              "links": [
+                                                {
+                                                  "id": 52,
+                                                  "title": "Pain Threshold: \"There's real anguish in his voice....\"",
+                                                  "actor": "Pain Threshold",
+                                                  "to": "You",
+                                                  "articyId": "0x0100007800012FA9",
+                                                  "english": "There's real anguish in his voice. A drunken sadness suddenly engulfs him. Memories...",
+                                                  "polish": "W jego głosie pobrzmiewa prawdziwa udręka. Nagle ogarnia go pijacki smutek. Wspomnienia...",
+                                                  "belarusian": "У яго голасе чуваць сапраўднае пакуты. Раптам яго ахоплівае п'яная смутак. Успаміны...",
+                                                  "links": [
+                                                    {
+                                                      "id": 24,
+                                                      "title": "De Paule: \"\"It's a mind-fuck, Korty. He wasn't...\"",
+                                                      "actor": "De Paule",
+                                                      "to": "You",
+                                                      "articyId": "0x0100007800012FA2",
+                                                      "english": "\"It's a mind-fuck, Korty. He wasn't put it a leaf compactor. They're making it up to fuck with us.\" She glances at him. \"Major, permission to...\"",
+                                                      "polish": "„Mieszają nam w głowach, Korty. Nikt go nie wsadził do prasy. Wymyślają to, żeby zrobić nam wodę z mózgu” – zerka na niego. „Sierżancie, proszę o pozwolenie na...”",
+                                                      "belarusian": "«Блытаюць нам у галаве, Корт. Ніхто яго не закідаў у прэсу. Выдумляюць гэта, каб нам замуціць мазгі», — зірнуў на яго. «Сяржант, прашу дазволу на...»",
+                                                      "links": [
+                                                        {
+                                                          "id": 105,
+                                                          "title": "Suggestion: \"...open fire -- we can't have that....\"",
+                                                          "actor": "Suggestion",
+                                                          "to": "You",
+                                                          "articyId": "0x0100007800012FB1",
+                                                          "english": "...open fire -- we can't have that. Interfere, now!",
+                                                          "polish": "...otworzenie ognia. Nie możemy na to pozwolić. Przerwij to. Natychmiast!",
+                                                          "belarusian": "...адкрыццё агню. Мы не можам гэтага дазволіць. Спыніце гэта. Неадкладна!",
+                                                          "links": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 67,
+                              "title": "You: \"\"Listen, your Lely -- everyone says...\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800012EE3",
+                              "english": "\"Listen, your Lely -- everyone says good things about him. He was a talker.\"",
+                              "polish": "„Słuchaj – twój Lely... Wszyscy mówią o nim dobre rzeczy. Że miał gadane”.",
+                              "belarusian": "«Слухай – твой Лелі... Усе гавораць пра яго добрыя рэчы. Што ён умеў добра размаўляць».",
+                              "links": [
+                                {
+                                  "id": 11,
+                                  "title": "Kortenaer: \"\"Fuck do you mean *talker*?\"\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800012F44",
+                                  "english": "\"Fuck do you mean *talker*?\"",
+                                  "polish": "„Co to ma, kurwa, znaczyć?”",
+                                  "belarusian": "«Што гэта, халера, азначае?»",
+                                  "links": [
+                                    {
+                                      "id": 96,
+                                      "title": "Kim Kitsuragi: \"\"We've heard testimony. People say...\"",
+                                      "actor": "Kim Kitsuragi",
+                                      "to": "You",
+                                      "articyId": "0x0100007800012F51",
+                                      "english": "\"We've heard testimony. People say he was charismatic. A nice guy to be around.\"",
+                                      "polish": "„Wysłuchaliśmy zeznań świadków. Wynika z nich, że był charyzmatyczny. Że był miłym człowiekiem”.",
+                                      "belarusian": "«Мы выслухалі паказанні сведкаў. Па іх вынікае, што ён быў харызматычны. Што ён быў прыемным чалавекам».",
+                                      "links": [
+                                        {
+                                          "id": 97,
+                                          "title": "Kortenaer: \"\"Yeah, he liked to chat up the nati...\"",
+                                          "actor": "Kortenaer",
+                                          "to": "You",
+                                          "articyId": "0x0100007800012F58",
+                                          "english": "\"Yeah, he liked to chat up the natives. Share leaflets, squeeze a bit of kipt ass here and there. Great fucking idea that turned out to be...\" He points toward the yard.",
+                                          "polish": "„Taa, lubił pogawędki z tubylcami. Rozdawanie ulotek, przygruchanie sobie kiptowej dupy od czasu do czasu. Zajebiście się to dla niego skończyło...” – stwierdza, wskazując dziedziniec.",
+                                          "belarusian": "«Таа, любіў пагаворкі з мясцовымі. Раздаванне ўлётак, заваёва мясцовай красуні час ад часу. Дужа добра яму гэта скончылася...» – заўважае, паказваючы на двор.",
+                                          "links": [
+                                            {
+                                              "id": 45,
+                                              "title": "Kortenaer: \"\"If Lely was here, he would spare t...\"",
+                                              "actor": "Kortenaer",
+                                              "to": "You",
+                                              "articyId": "0x0100007800012F5F",
+                                              "english": "\"If Lely was here, he would spare the lot of you. Maybe shoot one for show. But me...\" He points to himself. \"I'm not a big fan of public affairs, clay-monkey. I'll gun every one of you down for what you did.\"",
+                                              "polish": "„Gdyby Lely tu był, toby was oszczędził. Może zastrzeliłby jednego na pokaz. Ale ja...” – wskazuje na siebie – „...ja nie jestem miłośnikiem dbania o wizerunek, małpiszonie. Zastrzelę was wszystkich co do jednego za to, co zrobiliście”.",
+                                              "belarusian": "«Калі б Лелі быў тут, ён бы вас шкадаваў. Можа, застрэліў бы аднаго для паказу. Але я...» — паказвае на сябе — «...я не з'яўляюся аматарам клопату пра імідж, малпанятак. Застралю вас усіх да аднаго за тое, што вы зрабілі».",
+                                              "links": [
+                                                {
+                                                  "id": 40,
+                                                  "title": "De Paule: \"\"Ready to open fire, major. At your...\"",
+                                                  "actor": "De Paule",
+                                                  "to": "You",
+                                                  "articyId": "0x0100007800012F66",
+                                                  "english": "\"Ready to open fire, major. At your command.\"",
+                                                  "polish": "„Jestem gotowa do strzału, sierżancie. Czekam na rozkaz”.",
+                                                  "belarusian": "«Я гатовая страляць, сяржант. Чакаю загаду».",
+                                                  "links": [
+                                                    {
+                                                      "id": 41,
+                                                      "title": "Endurance: \"This one isn't used to being suited...\"",
+                                                      "actor": "Endurance",
+                                                      "to": "You",
+                                                      "articyId": "0x010000060001E8BA",
+                                                      "english": "This one isn't used to being suited this long. She's uncomfortable; will open fire just to hurry things along.",
+                                                      "polish": "Nie nawykła do tak długiego hamowania się. Czuje się niekomfortowo. Otworzy ogień tylko po to, żeby przyspieszyć sprawę.",
+                                                      "belarusian": "Не прывыкла да такога доўгага стрымлівання. Адчувае сябе нязручна. Адкрые агонь толькі для таго, каб паскорыць справу.",
+                                                      "links": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 19,
+                              "title": "You: \"\"Banaital, '41... that really happe...\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800012FBB",
+                              "english": "\"Banaital, '41... that really happened didn't it?\"",
+                              "polish": "„Banaital, rok czterdziesty pierwszy... To się naprawdę wydarzyło, co?”",
+                              "belarusian": "«Банайталь, сорак першым годам... Гэта сапраўды адбылося, ці не так?»",
+                              "links": [
+                                {
+                                  "id": 59,
+                                  "title": "Kortenaer: \"\"Our colonel did what he had to do....\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800012FD2",
+                                  "english": "\"Our colonel did what he had to do. It was either one cunt, or a hundred of them. Ruud here...\" He points to him.",
+                                  "polish": "„Nasz pułkownik zrobił, co musiał zrobić. Miał do wyboru tę jedną pizdę albo setki. Ruud...” – wskazuje mężczyznę.",
+                                  "belarusian": "«Наш падпалкоўнік зрабіў тое, што павінен быў зрабіць. У яго быў выбар: адна піца або сотні. Рууд...» – паказвае мужчына.",
+                                  "links": [
+                                    {
+                                      "id": 99,
+                                      "title": "Ruud Hoenkloewen: \"\"... in your shit-pipes, right...\"...\"",
+                                      "actor": "Ruud Hoenkloewen",
+                                      "to": "You",
+                                      "articyId": "0x0100007800012FD9",
+                                      "english": "\"... in your shit-pipes, right...\" Indecipherable mumbling.",
+                                      "polish": "„...prosto w bebechy, tak...” – mamrocze coś niewyraźnie.",
+                                      "belarusian": "«...прама ў нутро, так...» – мармычыць нешта неразборліва.",
+                                      "links": [
+                                        {
+                                          "id": 98,
+                                          "title": "Kortenaer: \"\"He likes to fire mortars at random...\"",
+                                          "actor": "Kortenaer",
+                                          "to": "You",
+                                          "articyId": "0x0100007800012FE0",
+                                          "english": "\"He likes to fire mortars at random coordinates. Wipe out mud-huts like that. When he gets *bored*. Lely knew how to command.\"",
+                                          "polish": "„On lubi strzelać z moździerza do celów o losowych współrzędnych. Rozwala w ten sposób lepianki. Gdy mu się *nudzi*. Lely znał się na dowodzeniu”.",
+                                          "belarusian": "«Ён любіць страляць з мінамёта па мэтах з выпадковымі каардынатамі. Разбурае такім чынам мазанкі. Калі яму *нудна*. Лелі добра ведаўся на камандаванне».",
+                                          "links": [
+                                            {
+                                              "id": 33,
+                                              "title": "Kim Kitsuragi: \"\"He was a good commander. I can see...\"",
+                                              "actor": "Kim Kitsuragi",
+                                              "to": "You",
+                                              "articyId": "0x0100007800012FE7",
+                                              "english": "\"He was a good commander. I can see you miss him.\"",
+                                              "polish": "„Był dobrym dowódcą. Widzę, że go panu brakuje”.",
+                                              "belarusian": "«Ён быў добрым камандзірам. Бачу, што вам яго не хапае».",
+                                              "links": [
+                                                {
+                                                  "id": 12,
+                                                  "title": "Kortenaer: \"\"Oh yeah, he would have commanded t...\"",
+                                                  "actor": "Kortenaer",
+                                                  "to": "You",
+                                                  "articyId": "0x0100007800012FEE",
+                                                  "english": "\"Oh yeah, he would have commanded this fuck-hell way better than I did. But that didn't happen, because Hayseed Bill and Kipty the Kipt here...\" he points to Titus and Eugene.",
+                                                  "polish": "„O tak, dowodziłby w tej piekielnej dziurze znacznie lepiej ode mnie. Ale nie dowodził, bo chłopek roztropek i kiptowy kipt...” – wskazuje Titusa i Eugene'a.",
+                                                  "belarusian": "«О так, ён бы камандаваў у гэтай пякельнай дзірцы значна лепш за мяне. Але не камандаваў, бо хлопчык-мудрэц і махляр...» – паказвае на Тытуса і Юджына.",
+                                                  "links": [
+                                                    {
+                                                      "id": 83,
+                                                      "title": "Kortenaer: \"\"...fucking murdered him. Had him s...\"",
+                                                      "actor": "Kortenaer",
+                                                      "to": "You",
+                                                      "articyId": "0x0100007800012FF4",
+                                                      "english": "\"...fucking murdered him. Had him stink the village up for two weeks after. And you fucks did nothing.\" He points at you.",
+                                                      "polish": "„Zamordowali go. Zasmradzał potem tę wieś przez dwa tygodnie. A wy, zjeby, nie kiwnęliście palcem” – wskazuje na ciebie.",
+                                                      "belarusian": "«Забілі яго. Засмярдзелі гэтую вёску два тыдні сваёй прысутнасцю. А вы, прыдуркі, і пальцам не варухнулі,» – паказвае на цябе.",
+                                                      "links": [
+                                                        {
+                                                          "id": 13,
+                                                          "title": "Alain: \"\"Listen, man. We told you we...\"\"",
+                                                          "actor": "Alain",
+                                                          "to": "You",
+                                                          "articyId": "0x0100007800012FFC",
+                                                          "english": "\"Listen, man. We told you we...\"",
+                                                          "polish": "„Posłuchaj, chłopie. Mówiliśmy wam, że...”",
+                                                          "belarusian": "«Пасынкуй, хлопча. Мы казалі вам, што...»",
+                                                          "links": [
+                                                            {
+                                                              "id": 47,
+                                                              "title": "Kortenaer: \"\"Told us WHAT?!\" He staggers forwar...\"",
+                                                              "actor": "Kortenaer",
+                                                              "to": "You",
+                                                              "articyId": "0x0100007800013090",
+                                                              "english": "\"Told us WHAT?!\" He staggers forward. \"What did you say? Tattoo-fuck, you'll die NEXT. Right when the she-kipt's out...\"",
+                                                              "polish": "„CO mówiliście?!” – pyta, robiąc krok do przodu. „Co powiedziałeś? Wytatuowany zjebie – ty zginiesz NASTĘPNY. Zaraz po tym, jak kipta odpłynie...”",
+                                                              "belarusian": "«Што вы сказалі?!» – пытае, зрабіўшы крок наперад. «Што ты сказаў? Выпатараваны адмарозак — ты памрэш НАСТУПНЫ. Адразу пасля таго, як судна адплыве...»",
+                                                              "links": []
+                                                            },
+                                                            {
+                                                              "id": 29,
+                                                              "title": "Kortenaer: \"\"Told us WHAT?!\" He staggers forwar...\"",
+                                                              "actor": "Kortenaer",
+                                                              "to": "You",
+                                                              "articyId": "0x0100007800013003",
+                                                              "english": "\"Told us WHAT?!\" He staggers forward. \"What did you say? Who said that? Tattoo-fuck -- you'll die FIRST.\"",
+                                                              "polish": "„CO mówiliście?!” – pyta, robiąc krok do przodu. „Co powiedziałeś? Który to się odezwał? Zjeb z tatuażami – ty zginiesz PIERWSZY”.",
+                                                              "belarusian": "«ШТО вы казалі?!» — пытаецца, робячы крок наперад. «Што ты сказаў? Хто гэта сказаў? Ідыёт з татуіроўкамі — ты памрэш ПЕРШЫ».",
+                                                              "links": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 53,
+                              "title": "You: \"\"He had blue eyes didn't he -- your...\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800012FC2",
+                              "english": "\"He had blue eyes didn't he -- your colonel.\"",
+                              "polish": "„Wasz porucznik miał niebieskie oczy, prawda?”",
+                              "belarusian": "«Ваш лейтэнант меў блакітныя вочы, праўда?»",
+                              "alternates": {
+                                "Alternate1": {
+                                  "english": "\"He had blue eyes didn't he -- your brother.\"",
+                                  "polish": "„Twój brat miał niebieskie oczy, prawda?”",
+                                  "belarusian": "«Твой брат меў блакітныя вочы, праўда?»"
+                                }
+                              },
+                              "links": [
+                                {
+                                  "id": 68,
+                                  "title": "Kortenaer: \"\"Baby blue, yeah... Like someone fu...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800012FCB",
+                                  "english": "\"Baby blue, yeah... Like someone fucked up and put a baby's eyes on a grown man.\" He smiles, pulling his face in a strange way.",
+                                  "polish": "„Niebieściutkie, taa... Jakby ktoś dał dupy i wstawił oczy dziecka dorosłemu facetowi” – uśmiecha się, dziwnie wykrzywiając twarz.",
+                                  "belarusian": "«Сінія, так... Як быццам хтосьці напартачыў і паставіў вочы дзіцяці даросламу мужчыну», — усміхаецца, дзіўна крывіўшы твар.",
+                                  "links": [
+                                    {
+                                      "id": 20,
+                                      "title": "Kortenaer: \"\"It was creepy, but bitches... bitc...\"",
+                                      "actor": "Kortenaer",
+                                      "to": "You",
+                                      "articyId": "0x0100007800013035",
+                                      "english": "\"It was creepy, but bitches... bitches like that shit, I guess. Or... I don't know what bitches like. I just know how to mow down *cloths*.\"",
+                                      "polish": "„To było dziwaczne, ale babki... Babki lubią takie gówno. Chyba. Albo... Nie wiem, co lubią babki. Wiem tylko, jak kosić *szmaciarzy*”.",
+                                      "belarusian": "«Гэта было дзіўна, але бабулі... Бабулі любяць такое бязглуздзіца. Напэўна. Ці... Я не ведаю, што любяць бабулі. Я ведаю толькі, як касіць *трасяк*».",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 27,
+                              "title": "You: \"(Conclude.) \"Your colonel did not d...\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800012EE9",
+                              "english": "(Conclude.) \"Your colonel did not deserve to go out like that. I promise -- I *will* find his killer.\"",
+                              "polish": "(Zakończ). „Wasz porucznik nie zasłużył na taką śmierć. Obiecuję – *znajdę* jego zabójcę”.",
+                              "belarusian": "(Скончыце). «Ваш лейтэнант не заслугоўваў такой смерці. Абяцаю – *знайду* яго забойцу».",
+                              "alternates": {
+                                "Alternate1": {
+                                  "english": "(Conclude.) \"Your brother did not deserve to go out like that. I promise -- I *will* find his killer.\"",
+                                  "polish": "(Zakończ). „Twój brat nie zasłużył na taką śmierć. Obiecuję – *znajdę* jego zabójcę”.",
+                                  "belarusian": "(Скончыў). «Твой брат не заслужыў такой смерці. Абяцаю – *знайду* яго забойцу»."
+                                }
+                              },
+                              "links": [
+                                {
+                                  "id": 100,
+                                  "title": "Kortenaer: \"\"Find his killer?! Cop, his killers...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800013056",
+                                  "english": "\"Find his killer?! Cop, his killers stand right there!\" He waves at the men behind you. \"Shitting their pants -- and *you're* standing in the way protecting them.\"",
+                                  "polish": "„Znajdziesz jego zabójcę?! Glino, jego zabójcy stoją przede mną!” – krzyczy, wskazując ręką ludzi za tobą. „Srają w portki, a *ty* stanąłeś nam na drodze i chronisz ich”.",
+                                  "belarusian": "«Знайдзеш яго забойцу?! Мянтоўня, яго забойцы стаяць перада мной!» — крычыць, указваючы рукой на людзей за табой. «Сраюць у штаны, а *ты* стаў нам на дарозе і абараняеш іх».",
+                                  "links": [
+                                    {
+                                      "id": 113,
+                                      "title": "The Gardener: \"\"They... they didn't...\" The woman...\"",
+                                      "actor": "The Gardener",
+                                      "to": "You",
+                                      "articyId": "0x0100007800013047",
+                                      "english": "\"They... they didn't...\" The woman holds on to her side, teeth rattling.",
+                                      "polish": "„Oni... Oni nie...” – kobieta trzyma się za bok, szczękając zębami.",
+                                      "belarusian": "«Яны... Яны не...» — жанчына трымаецца за бок, ляскаючы зубамі.",
+                                      "links": [
+                                        {
+                                          "id": 21,
+                                          "title": "Kortenaer: \"\"Shush...\" He squints at her. \"Bloo...\"",
+                                          "actor": "Kortenaer",
+                                          "to": "You",
+                                          "articyId": "0x0100007800013066",
+                                          "english": "\"Shush...\" He squints at her. \"Blood's all gone out now. Not long to go till the rattle starts. One down, girl -- seven to go...\"",
+                                          "polish": "„Ćśśś...” – ucisza ją, mrużąc oczy. „Wykrwawiła się. Niedługo zaczną się drgawki. Jedna załatwiona – jeszcze siedmiu...”",
+                                          "belarusian": "«Ц-ц-ц...» — адукоўвае яе, прыжмурыўшы вочы. «Яна страціла шмат крыві. Хутка пачнуцца сутаргі. Адна гатова — яшчэ сем...».",
+                                          "alternates": {
+                                            "Alternate1": {
+                                              "english": "\"Shush, sister...\" He squints at her. \"Blood's all gone out now. Not long to go till the rattle starts. One down, girl -- six to go...\"",
+                                              "polish": "„Ćśśś, siostro...” – ucisza ją, mrużąc oczy. „Wykrwawiła się. Niedługo zaczną się drgawki. Jedna załatwiona – jeszcze sześciu...”",
+                                              "belarusian": "«Цссс, сястра...» — прыцішвае яе, прыжмурваючы вочы. «Яна выцякла крывёй. Хутка пачнуцца сутаргі. Адна гатовая — засталося яшчэ шэсць...»"
+                                            }
+                                          },
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 84,
+                                  "title": "Kortenaer: \"\"Find his killer?! Cop, his killer...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x010000780001304F",
+                                  "english": "\"Find his killer?! Cop, his killer stands right there!\" He waves at the men behind you. \"Shitting his pants -- and *you're* standing in the way protecting them.\"",
+                                  "polish": "„Znajdziesz jego zabójcę?! Glino, jego zabójca stoi przede mną!” – krzyczy, wskazując ręką ludzi za tobą. „Sra w portki, a *ty* stanąłeś nam na drodze i chronisz go”.",
+                                  "belarusian": "«Знойдзеш ягонага забойцу?! Паліцыянт, ягоны забойца стаіць перада мной!» — крычыць ён, паказваючы рукой на людзей за табой. «Срае ў штаны, а *ты* стаў нам на шляху і абараняеш яго».",
+                                  "links": [
+                                    {
+                                      "id": 63,
+                                      "title": "Kortenaer: \"\"I know what this tactic is, Silo S...\"",
+                                      "actor": "Kortenaer",
+                                      "to": "You",
+                                      "articyId": "0x010000780001306F",
+                                      "english": "\"I know what this tactic is, Silo Sam.\" He stares at you, eyes pink from the alcohol -- fingers tapping the pistol. \"You're gonna die for them. Right here. Today.\"",
+                                      "polish": "„Znam tę taktykę, wsiowy głupku” – wpatruje się w ciebie przekrwionymi od alkoholu oczami. Palcami postukuje w pistolet. „Zginiesz za nich. Tutaj. Dzisiaj”.",
+                                      "belarusian": "«Я ведаю гэтую тактыку, вясковы дурню», — утаропіўшыся на цябе з прачырванелымі ад алкаголю вачыма. Пальцамі пастуквае па пісталеце. «Ты загінеш за іх. Тут. Сёння».",
+                                      "links": [
+                                        {
+                                          "id": 71,
+                                          "title": "Suggestion: \"Big talk, but that leaf compactor w...\"",
+                                          "actor": "Suggestion",
+                                          "to": "You",
+                                          "articyId": "0x01000078000130A1",
+                                          "english": "Big talk, but that leaf compactor won't leave his mind any time soon. It's a small thing -- but it got him off centre...",
+                                          "polish": "Gadkę ma hardą, ale ta prasa do liści nieprędko wyjdzie mu z głowy. To drobiazg, ale wytrącił go z równowagi...",
+                                          "belarusian": "Гаворка ў яго сур'ёзная, але гэты прэс для лісця не хутка выйдзе ў яго з галавы. Гэта дробязь, але яна выбіла яго з раўнавагі...",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 54,
+                                          "title": "Suggestion: \"Big talk, but you got him to admit...\"",
+                                          "actor": "Suggestion",
+                                          "to": "You",
+                                          "articyId": "0x01000078000130BE",
+                                          "english": "Big talk, but you got him to admit he's a bad leader. It's a small thing -- but it got him off centre...",
+                                          "polish": "Gadkę ma hardą, ale zmusiłeś go do przyznania, że jest kiepskim przywódcą. To drobiazg, ale wytrącił go z równowagi...",
+                                          "belarusian": "Ён жорстка гаворыць, але ты прымусіў яго прызнаць, што ён кепскі лідар. Гэта дробязь, але вывела яго з раўнавагі...",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 76,
+                                          "title": "Half Light: \"This did nothing. You think you wer...\"",
+                                          "actor": "Half Light",
+                                          "to": "You",
+                                          "articyId": "0x01000078000130B5",
+                                          "english": "This did nothing. You think you were on to something?! You *just* wasted time... please, act.",
+                                          "polish": "To nic nie dało. Myślałeś, że coś osiągnąłeś?! Zmarnowałeś tylko *czas*... Działaj, proszę.",
+                                          "belarusian": "Гэта нічога не дало. Ты думаў, што нечага дасягнуў?! Ты толькі змарнаваў *час*... Дзейнічай, калі ласка.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Suggestion: \"Of course! Nothing bad will happen....\"",
+      "actor": "Suggestion",
+      "to": "You",
+      "articyId": "0x0100007800012E5E",
+      "english": "Of course! Nothing bad will happen. Talk about his dead friend! He seems stable enough to take it.",
+      "polish": "Oczywiście! Nic złego się nie stanie. Pogadaj o jego zabitym kumplu! Wygląda na opanowanego, wytrzyma.",
+      "belarusian": "Вядома! Нічога дрэннага не здарыцца. Пагавары пра ягонага забітага сябра! Выглядае спакойным, выстаіць.",
+      "links": [
+        {
+          "id": 114,
+          "title": "You: \"He doesn't seem stable at all....\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
+          "articyId": "0x01000078000130CE",
+          "english": "He doesn't seem stable at all....",
+          "polish": "Nie wydaje się ani trochę opanowany...",
+          "belarusian": "Ён не выглядае ні крыху спакойным...",
+          "alternates": {
+            "Alternate1": {
+              "english": "Am I sure? He's already shot one person...",
+              "polish": "Jestem tego pewien? Jedną osobę już postrzelił...",
+              "belarusian": "Ці ўпэўнены я ў гэтым? Ён ужо адну асобу параніў..."
+            }
+          },
+          "links": [
+            {
+              "id": 69,
+              "title": "Suggestion: \"Ever better! It will further destab...\"",
+              "actor": "Suggestion",
+              "to": "You",
+              "articyId": "0x01000078000130DB",
+              "english": "Ever better! It will further destabilize him -- costing time and maybe even lives!",
+              "polish": "To nawet lepiej! To go jeszcze bardziej zdestabilizuje. Co pociągnie za sobą koszt w czasie, a może i życiach!",
+              "belarusian": "Гэта нават лепш! Гэта яго яшчэ больш дэстабілізуе. Што пацягне за сабой кошт у часе, а можа, і ў жыццях!",
+              "links": [
+                {
+                  "id": 25,
+                  "title": "Logic: \"Uhm... this might be a *very* bad m...\"",
+                  "actor": "Logic",
+                  "to": "You",
+                  "articyId": "0x01000078000130EA",
+                  "english": "Uhm... this might be a *very* bad moment to come up with this, but he's *Korty* right?",
+                  "polish": "Yyy... To chyba *bardzo* kiepski moment, żeby o tym wspominać, ale ma ksywkę *Korty*, prawda?",
+                  "belarusian": "Гмм... Верагодна, гэта *вельмі* нясвоечасовы момант, каб пра гэта ўзгадваць, але ў яго клічка *Карты*, так?",
+                  "links": [
+                    {
+                      "id": 48,
+                      "title": "You: \"Yes, go on. I don't want to do anyt...\"",
+                      "actor": "You",
+                      "to": "Kim Kitsuragi",
+                      "articyId": "0x01000078000130FE",
+                      "english": "Yes, go on. I don't want to do anything but say that thing down there.",
+                      "polish": "Tak, słucham cię dalej. Jedyne, co chcę zrobić, to powiedzieć, co mi tu podszeptujesz.",
+                      "belarusian": "Так, слухаю цябе далей. Адзінае, што я хачу зрабіць, гэта сказаць, што ты мне тут падшэптваеш.",
+                      "links": [
+                        {
+                          "id": 94,
+                          "title": "Logic: \"The man he's mourning was called El...\"",
+                          "actor": "Logic",
+                          "to": "You",
+                          "articyId": "0x0100007800013105",
+                          "english": "The man he's mourning was called Ellis *Kortenaer*. Korty could be short for Kortenaer? Could they be brothers? Ask him that. What could go wrong. It's a discovery!",
+                          "polish": "Człowiek, którego on opłakuje, nazywał się Ellis *Kortenaer*. „Korty” może być zdrobnieniem? Czyżby to byli bracia? Spytaj go o to. Co mogłoby pójść nie tak? To w końcu odkrycie!",
+                          "belarusian": "Чалавек, якога ён аплаквае, называўся Элліс *Кортонаэр*. «Корты» можа быць змяншальнай формай? Няўжо яны былі братамі? Спытай яго пра гэта. Што магло пайсці не так? Гэта ж, нарэшце, адкрыццё!",
+                          "links": [
+                            {
+                              "id": 15,
+                              "title": "Suggestion: \"Yes. This will be good. It will cal...\"",
+                              "actor": "Suggestion",
+                              "to": "You",
+                              "articyId": "0x01000007000082C9",
+                              "english": "Yes. This will be good. It will calm him down and won't cost any more lives. Lives that could be spared.",
+                              "polish": "Tak. Naprawdę niezłe. To go uspokoi i nikogo więcej nie kosztuje życia. Życia, które mogłoby inaczej zostać oszczędzone.",
+                              "belarusian": "Так. Сапраўды нядрэнна. Гэта яго супакоіць і нікога больш не каштуе жыцця. Жыцця, якое магло б быць у іншым выпадку выратавана.",
+                              "links": [
+                                {
+                                  "id": 102,
+                                  "title": "Rhetoric: \"And if not -- lives aren't *that* i...\"",
+                                  "actor": "Rhetoric",
+                                  "to": "You",
+                                  "articyId": "0x010000780001311F",
+                                  "english": "And if not -- lives aren't *that* important anyway (including yours). There are billions of them, being lived.",
+                                  "polish": "A nawet jeśli nie, to życia (w tym twoje) nie są *aż tak* istotne. Są ich w końcu obecnie miliardy.",
+                                  "belarusian": "І нават калі не, то жыцці (у тым ліку тваё) не настолькі важныя. Іх жа ў канцы канцоў цяпер мільярды.",
+                                  "links": [
+                                    {
+                                      "id": 109,
+                                      "title": "You: \"\"Hey... I don't mean to pry but the...\"",
+                                      "actor": "You",
+                                      "to": "Kim Kitsuragi",
+                                      "articyId": "0x010000780001310C",
+                                      "english": "\"Hey... I don't mean to pry but the hanged man -- was he your brother?\"",
+                                      "polish": "„Hej... Nie chcę być wścibski, ale ten powieszony człowiek... był twoim bratem?”",
+                                      "belarusian": "«Гэй... Не хачу быць цікаўным, але гэты павешаны чалавек... быў тваім братам?»",
+                                      "links": [
+                                        {
+                                          "id": 65,
+                                          "title": "Kortenaer: \"\"You don't fucking TALK TO ME about...\"",
+                                          "actor": "Kortenaer",
+                                          "to": "You",
+                                          "articyId": "0x01000078000130E2",
+                                          "english": "\"You don't fucking TALK TO ME about my brother, loincloth!\" He squeezes the words out from between clamped lips, his hand on the pistol...",
+                                          "polish": "„Nie waż się DO MNIE MÓWIĆ o moim bracie, szmaciarzu!” – cedzi słowa, zaciskając zęby, a rękę trzyma na swoim pistolecie.",
+                                          "belarusian": "«Не смей ГАВАРЫЦЬ СА МНОЙ пра майго брата, халуй!» – прашаптаў слова, сціснуўшы зубы, а руку трымае на сваім пісталеце.",
+                                          "links": [
+                                            {
+                                              "id": 103,
+                                              "title": "Suggestion: \"Okay, yes. Immediate failure. Thing...\"",
+                                              "actor": "Suggestion",
+                                              "to": "You",
+                                              "articyId": "0x0100007800013143",
+                                              "english": "Okay, yes. Immediate failure. Things are worse now. He's observing your every motion carefully...",
+                                              "polish": "Dobrze, tak. Natychmiastowe niepowodzenie. Sytuacja jest jeszcze gorsza. Obserwuje uważnie każdy twój ruch...",
+                                              "belarusian": "Добра, так. Хуткае няўдача. Сітуацыя яшчэ горшая. Назіраю ўважліва кожнае тваё рух...",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 110,
+                              "title": "Suggestion: \"Yes. This will be good. It will cal...\"",
+                              "actor": "Suggestion",
+                              "to": "You",
+                              "articyId": "0x0100007800013113",
+                              "english": "Yes. This will be good. It will calm him down and won't cost any lives. Lives that could have been otherwise spared.",
+                              "polish": "Tak. Naprawdę niezłe. To go uspokoi i nikogo nie kosztuje życia. Życia, które mogłoby inaczej zostać oszczędzone.",
+                              "belarusian": "Так. Сапраўды нядрэнна. Гэта яго супакоіць і нікога не будзе каштаваць жыцця. Жыцця, якое магло б быць зэканомлена інакш.",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "title": "You: \"\"I feel like I got to know your dea...\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
+          "articyId": "0x01000078000130D4",
+          "english": "\"I feel like I got to know your dead friend. During our investigation.\"",
+          "polish": "„Czuję, jakbym trochę poznał waszego zabitego przyjaciela. Podczas naszego śledztwa”.",
+          "belarusian": "«Адчуваю, быццам я трохі пазнаёміўся з вашым забітым сябрам. Падчас нашага расследавання».",
+          "links": [
+            {
+              "id": 34,
+              "title": "Kortenaer: \"\"You don't fucking TALK TO ME about...\"",
+              "actor": "Kortenaer",
+              "to": "You",
+              "articyId": "0x0100007800013138",
+              "english": "\"You don't fucking TALK TO ME about my brother, loincloth!\" He squeezes the words out from between clamped lips, his hand on the pistol...",
+              "polish": "„Nie waż się DO MNIE MÓWIĆ o moim bracie, szmaciarzu!” – cedzi słowa, zaciskając zęby, a rękę trzyma na swoim pistolecie.",
+              "belarusian": "«Не смей ГАВАРЫЦЬ СА МНОЙ пра майго брата, мярзотнік!» — прамаўляе праз сціснутыя зубы, трымаючы руку на сваім пісталеце.",
+              "links": [
+                {
+                  "id": 14,
+                  "title": "Suggestion: \"Okay, yes. Immediate failure. Thing...\"",
+                  "actor": "Suggestion",
+                  "to": "You",
+                  "articyId": "0x01000078000130F0",
+                  "english": "Okay, yes. Immediate failure. Things are worse now. He's observing your every motion carefully...",
+                  "polish": "Dobrze, tak. Natychmiastowe niepowodzenie. Sytuacja jest jeszcze gorsza. Obserwuje uważnie każdy twój ruch...",
+                  "belarusian": "Добра, так. Неадкладная няўдача. Сітуацыя яшчэ горш. Уважліва назіраю за кожным тваім крокам...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
