@@ -1,0 +1,612 @@
+{
+  "id": "0x0100006400006E22",
+  "title": "PLAZA / GASTON CASE",
+  "description": "The Case",
+  "dialogueTree": [
+    {
+      "id": 23,
+      "title": "You: \"\"How do you know Evrart?\"\"",
+      "actor": "You",
+      "to": "Gaston Martin",
+      "articyId": "0x010000070000F529",
+      "english": "\"How do you know Evrart?\"",
+      "polish": "„Skąd zna pan Evrarta?”",
+      "belarusian": "«Адкуль вы ведаеце Эўрара?»",
+      "alternates": {
+        "Alternate1": {
+          "english": "\"And who is this *Evrart* you know?\"",
+          "polish": "„A kim jest ten *Evrart*, którego pan zna?”",
+          "belarusian": "«А хто такі гэты *Еврат*, якога вы ведаеце?»"
+        }
+      },
+      "links": [
+        {
+          "id": 8,
+          "title": "Gaston Martin: \"\"Everyone in Martinaise knows the C...\"",
+          "actor": "Gaston Martin",
+          "to": "You",
+          "articyId": "0x010000070000F544",
+          "english": "\"Everyone in Martinaise knows the Claire brothers,\" he says solemnly. \"I taught these boys human studies and history in the gymnasium.\"",
+          "polish": "„Każdy w Martinaise zna braci Claire” – mówi z powagą w głosie. „W gimnazjum uczyłem tych chłopców humanistyki i historii”.",
+          "belarusian": "«Кожны ў Мартынайзе ведае братоў Клэр», — кажа з сур'ёзнасцю ў голасе. «У гімназіі я вучыў гэтых хлопцаў гуманітарным навукам і гісторыі».",
+          "alternates": {
+            "Alternate1": {
+              "english": "\"Evrart *Claire*. Everyone in Martinaise knows the Claire brothers,\" he says solemnly. \"I taught these boys human studies and history in the gymnasium.\"",
+              "polish": "„Evrart *Claire*. Każdy w Martinaise zna braci Claire” – mówi z powagą w głosie. „W gimnazjum uczyłem tych chłopców humanistyki i historii”.",
+              "belarusian": "«Эўрар *Клэр*. Кожны ў Марцінаізе ведае братоў Клэр», — кажа з сур'ёзнасцю ў голасе. «У гімназіі я выкладаў гэтым хлопцам гуманітарыстыку і гісторыю»."
+            }
+          },
+          "links": [
+            {
+              "id": 68,
+              "title": "Physical Instrument: \"*Gymnasium*. I love that word.\"",
+              "actor": "Physical Instrument",
+              "to": "You",
+              "articyId": "0x010000070000F596",
+              "english": "*Gymnasium*. I love that word.",
+              "polish": "*Gimnazjum*. Uwielbiam to słowo.",
+              "belarusian": "*Гімназія*. Мне вельмі падабаецца гэтае слова.",
+              "links": [
+                {
+                  "id": 70,
+                  "title": "Reaction Speed: \"Hmm... so Gaston taught both Easy L...\"",
+                  "actor": "Reaction Speed",
+                  "to": "You",
+                  "articyId": "0x010000070000F55A",
+                  "english": "Hmm... so Gaston taught both Easy Leo and the Claire Brothers.",
+                  "polish": "Hmm, a więc Gaston uczył zarówno Luźnego Leo, jak i braci Claire.",
+                  "belarusian": "Хмм, значыць, Гастон вучыў як Лужнага Лео, так і братоў Клэр.",
+                  "links": []
+                },
+                {
+                  "id": 55,
+                  "title": "René Arnoux: \"\"What do *you* know about history?\"...\"",
+                  "actor": "René Arnoux",
+                  "to": "You",
+                  "articyId": "0x010000070000F553",
+                  "english": "\"What do *you* know about history?\" The carabineer snaps at Gaston. \"You never witnessed history. Only heard about it -- years later -- when it had already moved on. You don't know history.\"",
+                  "polish": "„A co *ty* wiesz o historii?” – karabinier warczy na Gastona. „Nigdy nie byłeś jej świadkiem. Dowiadywałeś się o niej po latach, kiedy zdążyła już ustąpić miejsca nowej. Nie znasz historii”.",
+                  "belarusian": "«А што *ты* ведаеш пра гісторыю?» – карабінер рычыць на Гастона. «Ты ніколі не быў яе сведкам. Ты даведваўся пра яе праз гады, калі яна ўжо саступіла месца новай. Ты не ведаеш гісторыі».",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "You: \"\"Are you a Union member?\"\"",
+      "actor": "You",
+      "to": "Gaston Martin",
+      "articyId": "0x010000070000F52F",
+      "english": "\"Are you a Union member?\"",
+      "polish": "„Jest pan członkiem Związku?”",
+      "belarusian": "«Ці з’яўляецеся вы членам Саюза?»",
+      "links": [
+        {
+          "id": 27,
+          "title": "Gaston Martin: \"\"Oh...\" His cheeks turn red again....\"",
+          "actor": "Gaston Martin",
+          "to": "You",
+          "articyId": "0x010000070000F5B7",
+          "english": "\"Oh...\" His cheeks turn red again. \"In many ways, yes. Like an honorary member. I attend meetings and parties. Help with little things. Evrart, Edgar, and the older *Débardeurs* all know me.\"",
+          "polish": "„Och” – znów się czerwieni. „Pod wieloma względami owszem. Powiedzmy, honorowym członkiem. Chodzę na zebrania i na przyjęcia. Pomagam w drobnych sprawach. Znają mnie wszyscy: Evrart, Edgar i starsi *Débardeurowie*”.",
+          "belarusian": "«Ох» — зноў пачырванеў. «У многіх адносінах так. Скажам так, я ганаровы член. Хаджу на сходы і на прыёмы. Дапамагаю ў дробных справах. Усе мяне ведаюць: Эўрар, Эдгар і старэйшыя *Дэбардзёры*».",
+          "links": [
+            {
+              "id": 74,
+              "title": "You: \"\"'In many ways'?\"\"",
+              "actor": "You",
+              "to": "Gaston Martin",
+              "articyId": "0x010000070000F5D8",
+              "english": "\"'In many ways'?\"",
+              "polish": "„Pod wieloma względami?”",
+              "belarusian": "«Па многіх аспектах?»",
+              "links": [
+                {
+                  "id": 32,
+                  "title": "Gaston Martin: \"\"Oh yes.\"\"",
+                  "actor": "Gaston Martin",
+                  "to": "You",
+                  "articyId": "0x010000060001FA45",
+                  "english": "\"Oh yes.\"",
+                  "polish": "„O tak”.",
+                  "belarusian": "«О так».",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "title": "You: \"\"So you're not an actual member?\"\"",
+              "actor": "You",
+              "to": "Gaston Martin",
+              "articyId": "0x010000060001FA38",
+              "english": "\"So you're not an actual member?\"",
+              "polish": "„Czyli nie jest pan tak naprawdę członkiem?”",
+              "belarusian": "«Дык, вы насамрэч не з'яўляецеся членам?»",
+              "links": [
+                {
+                  "id": 2,
+                  "title": "Gaston Martin: \"\"Not in the technical sense...\" His...\"",
+                  "actor": "Gaston Martin",
+                  "to": "You",
+                  "articyId": "0x010000070000F5E6",
+                  "english": "\"Not in the technical sense...\" His eyes fix on the boules in the crater. \"I don't have a vote or a membership card. But Evrart keeps me on the payroll. Just for the little things.\"",
+                  "polish": "„Nie w pełnym tego słowa znaczeniu...” – jego wzrok nieruchomieje na bulach w leju. „Nie mam prawa głosu ani karty członkowskiej. Ale jestem na liście płac Evrarta. Pomagam w drobniejszych kwestiach”.",
+                  "belarusian": "«Не ў поўным сэнсе гэтага слова...» – яго погляд замірае на булёл ёмістасці. «У мяне няма права голасу або сяброўскай карты. Але я ў спісе заробкаў Эўрара. Я дапамагаю ў дробных пытаннях».",
+                  "links": [
+                    {
+                      "id": 3,
+                      "title": "Drama: \"So that's what it was, before! Him...\"",
+                      "actor": "Drama",
+                      "to": "You",
+                      "articyId": "0x010000070000F648",
+                      "english": "So that's what it was, before! Him hiding something. He tries to make it look like he's a big deal in the Union and now the illusion is disintegrating before your -- and René's -- eyes.",
+                      "polish": "A więc o to chodziło wcześniej. To właśnie ukrywał. Próbuje udawać, że jest w Związku kimś ważnym, a teraz ta ułuda rozpływa się na twoich i Renégo oczach.",
+                      "belarusian": "Дык вось у чым раней была справа. Гэта ён і хаваў. Прабуе прыкідвацца, што ў Звязе ён хтосьці важны, а зараз гэтая ілюзія раствараецца на тваіх і Рэнэ вачах.",
+                      "links": [
+                        {
+                          "id": 46,
+                          "title": "Logic: \"He doesn't know anything, because n...\"",
+                          "actor": "Logic",
+                          "to": "You",
+                          "articyId": "0x010000070000F65B",
+                          "english": "He doesn't know anything, because no one tells him anything. He's an outsider.",
+                          "polish": "Nic nie wie, bo nikt mu niczego nie mówi. Jest outsiderem.",
+                          "belarusian": "Ніхто не ведае, бо яму ніхто нічога не кажа. Ён аўтсайдар.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 45,
+                      "title": "René Arnoux: \"\"Of course he's not a member! He's...\"",
+                      "actor": "René Arnoux",
+                      "to": "You",
+                      "articyId": "0x010000070000F61C",
+                      "english": "\"Of course he's not a member! He's not a member of anything. I knew that.\" He frowns. \"He's a weathervane -- turns to where the wind blows and tries to look important.\"",
+                      "polish": "„Oczywiście, że nie jest członkiem! Nie jest członkiem niczego. Wiedziałem” – krzywi się. „Jest jak chorągiewka – zawsze idzie tam, gdzie zawieje, i próbuje zgrywać kogoś ważnego”.",
+                      "belarusian": "«Вядома, што ён не з'яўляецца чальцом! Ён не з'яўляецца чальцом нічога. Я ведаў», — скрывіўся ён. «Ён як флюгер — заўсёды ідзе туды, куды дзьме вецер, і спрабуе прыкідвацца важным».",
+                      "links": [
+                        {
+                          "id": 94,
+                          "title": "René Arnoux: \"\"I hate the socialist rabble,\" he c...\"",
+                          "actor": "René Arnoux",
+                          "to": "You",
+                          "articyId": "0x010000070000F66A",
+                          "english": "\"I hate the socialist rabble,\" he continues, \"but even siding with *them* is better than living your entire life on the fence, never committing to anything. Pick a damn side already!\"",
+                          "polish": "„Nie cierpię tej socjalistycznej hołoty” – ciągnie dalej. „Ale nawet sprzymierzenie się z *nimi* jest lepsze od życia w rozkroku, bez zadeklarowania się po którejś ze stron. Zdecydujże się wreszcie!”",
+                          "belarusian": "«Я не цярплю гэтай сацыялістычнай чэрні», — працягвае ён. «Але нават саюз з *імі* лепшы, чым жыць у няпэўнасці, не вызначыўшыся, на чыім ты баку. Вызначся ўжо нарэшце!»",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "You: \"\"What are the 'little things' you d...\"",
+      "actor": "You",
+      "to": "Gaston Martin",
+      "articyId": "0x010000070000F5ED",
+      "english": "\"What are the 'little things' you do for Evrart?\"",
+      "polish": "„W jakich to drobniejszych kwestiach pomaga pan Evrartowi?”",
+      "belarusian": "«У якіх больш дробных пытаннях вы дапамагаеце пану Эўрару?»",
+      "links": [
+        {
+          "id": 62,
+          "title": "Gaston Martin: \"\"Writing work mostly,\" he smiles. \"...\"",
+          "actor": "Gaston Martin",
+          "to": "You",
+          "articyId": "0x010000070000F699",
+          "english": "\"Writing work mostly,\" he smiles. \"Occasionally he needs something written and I happen to have a way with words, people say.\"",
+          "polish": "„Zwykle praca sekretarza” – uśmiecha się. „Czasem trzeba coś napisać, a ludzie mówią, że sprawnie posługuję się słowem”.",
+          "belarusian": "«Звычайна праца сакратара», — усміхаецца ён. «Часам трэба нешта напісаць, а людзі кажуць, што я добра валодаю словам».",
+          "links": [
+            {
+              "id": 78,
+              "title": "You: \"\"What kind of things do you write f...\"",
+              "actor": "You",
+              "to": "Gaston Martin",
+              "articyId": "0x010000070000F6AB",
+              "english": "\"What kind of things do you write for him?\"",
+              "polish": "„Jakie rzeczy dla niego pan pisze?”",
+              "belarusian": "«Якія рэчы вы для яго пішыце?»",
+              "links": [
+                {
+                  "id": 60,
+                  "title": "Gaston Martin: \"\"Oh, nothing official, I assure you...\"",
+                  "actor": "Gaston Martin",
+                  "to": "You",
+                  "articyId": "0x010000070000F6B4",
+                  "english": "\"Oh, nothing official, I assure you. Just essays for the newspapers. About Martinaise and how things are and how they *could* be. Evrart and I have these long talks where...\"",
+                  "polish": "„Och, nic o charakterze oficjalnym, zapewniam. Głównie artykuły do gazet. Na temat Martinaise i tego, jak jest, a jak *mogłoby* być. Ucinamy sobie z Evrartem długie pogawędki, w których...”",
+                  "belarusian": "«О, нічога афіцыйнага, запэўніваю. Асноўны артыкулы для газет. Пра Мартынаіз і пра тое, які ён ёсць і якім *мог бы* быць. Мы з Эўрарам весці доўгія размовы, у якіх...»",
+                  "links": [
+                    {
+                      "id": 47,
+                      "title": "René Arnoux: \"\"Where he tells his little *penman*...\"",
+                      "actor": "René Arnoux",
+                      "to": "You",
+                      "articyId": "0x010000070000F6BC",
+                      "english": "\"Where he tells his little *penman* exactly what to say! It's commie propaganda, plain and simple. You should be ashamed of yourself.\"",
+                      "polish": "„W których Evrart mówi swojemu *skrybie*, co dokładnie ma napisać! To nic więcej jak komusza propaganda. Powinieneś się wstydzić”.",
+                      "belarusian": "«У якіх Эўрар кажа свайму *пісару*, што дакладна пісаць! Гэта не больш чым камуністычная прапаганда. Ты павінен саромецца».",
+                      "links": [
+                        {
+                          "id": 42,
+                          "title": "Logic: \"That's why Gaston isn't a Union mem...\"",
+                          "actor": "Logic",
+                          "to": "You",
+                          "articyId": "0x010000070000F6C3",
+                          "english": "That's why Gaston isn't a Union member. Evrart needs a 'neutral' party to speak his ideas.",
+                          "polish": "Właśnie dlatego Gaston nie jest członkiem Związku. Evrart potrzebuje kogoś „neutralnego”, aby głosił jego poglądy.",
+                          "belarusian": "Менавіта таму Гастон не з'яўляецца членам Саюза. Эўрару патрэбен хтосьці «нейтральны», каб агучваць яго погляды.",
+                          "links": [
+                            {
+                              "id": 30,
+                              "title": "You: \"\"I do 'little things' for Evrart my...\"",
+                              "actor": "You",
+                              "to": "Gaston Martin",
+                              "articyId": "0x010000070000F6E1",
+                              "english": "\"I do 'little things' for Evrart myself. Nothing wrong with that.\"",
+                              "polish": "„Ja też pomagam Evrartowi w różnych drobnych sprawach. To nic złego”.",
+                              "belarusian": "«Я таксама дапамагаю Эўрару ў розных дробных справах. Гэта нічога кепскага».",
+                              "links": [
+                                {
+                                  "id": 95,
+                                  "title": "Gaston Martin: \"\"That's just the way things work ar...\"",
+                                  "actor": "Gaston Martin",
+                                  "to": "You",
+                                  "articyId": "0x010000070000F70E",
+                                  "english": "\"That's just the way things work around here,\" he declares merrily. \"No reason to feel bad about it.\"",
+                                  "polish": "„Po prostu tak to tutaj działa” – oznajmia wesoło. „Nie ma sensu robić sobie z tego powodu wyrzutów”.",
+                                  "belarusian": "«Проста так гэта тут працуе», — вясёла абвяшчае ён. «Няма сэнсу з гэтага ладзіць сабе папрокі».",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "title": "You: \"\"I do 'little things' for Evrart to...\"",
+                              "actor": "You",
+                              "to": "Gaston Martin",
+                              "articyId": "0x010000070000F6E7",
+                              "english": "\"I do 'little things' for Evrart too. I feel terrible about it.\"",
+                              "polish": "„Ja też pomagam Evrartowi w różnych drobnych sprawach. Bardzo mi z tym źle”.",
+                              "belarusian": "«Я таксама дапамагаю Эўрару ў розных дробных справах. Мне вельмі дрэнна з гэтым».",
+                              "links": []
+                            },
+                            {
+                              "id": 71,
+                              "title": "You: \"\"Let's stay on the track here, guys.\"\"",
+                              "actor": "You",
+                              "to": "Gaston Martin",
+                              "articyId": "0x010000070000F6ED",
+                              "english": "\"Let's stay on the track here, guys.\"",
+                              "polish": "„Nie zbaczajmy z tematu, panowie”.",
+                              "belarusian": "«Не адхіляйцеся ад тэмы, спадарства».",
+                              "links": [
+                                {
+                                  "id": 72,
+                                  "title": "Gaston Martin: \"\"On the Union-track?\"\"",
+                                  "actor": "Gaston Martin",
+                                  "to": "You",
+                                  "articyId": "0x010000070000F6F6",
+                                  "english": "\"On the Union-track?\"",
+                                  "polish": "„Z toru związkowego?”",
+                                  "belarusian": "„З саюзнай дарогі?”",
+                                  "links": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "You: \"\"Can you help me get inside the har...\"",
+      "actor": "You",
+      "to": "Gaston Martin",
+      "articyId": "0x010000070000F5F4",
+      "english": "\"Can you help me get inside the harbour?\"",
+      "polish": "„Może pan pomóc mi dostać się do portu?”",
+      "belarusian": "«Ці можаце вы дапамагчы мне дабрацца да порта?»",
+      "links": [
+        {
+          "id": 96,
+          "title": "Gaston Martin: \"\"No, I'm sorry, officer.\" he shakes...\"",
+          "actor": "Gaston Martin",
+          "to": "You",
+          "articyId": "0x010000070000F727",
+          "english": "\"No, I'm sorry, officer.\" he shakes his head. \"I don't even have a keycard. Evrart usually sends someone to get me, when he wants to talk.\"",
+          "polish": "„Przykro mi, ale nie” – kręci głową. „Nie mam nawet karty dostępu. Kiedy Evrart chce ze mną mówić, zazwyczaj wysyła po mnie kogoś”.",
+          "belarusian": "«Прабачце, але не» – круціць галавой. «У мяне нават няма карты доступу. Калі Эўрар хоча са мной пагаварыць, звычайна ён пасылае некага па мяне».",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "You: \"\"Are you a *caviar socialist*?\"\"",
+      "actor": "You",
+      "to": "Gaston Martin",
+      "articyId": "0x010000070000F590",
+      "english": "\"Are you a *caviar socialist*?\"",
+      "polish": "„Jest pan kawiorowym socjalistą?”",
+      "belarusian": "«Вы кавіарны сацыяліст?»",
+      "links": [
+        {
+          "id": 39,
+          "title": "Gaston Martin: \"\"I don't even consider myself a reg...\"",
+          "actor": "Gaston Martin",
+          "to": "You",
+          "articyId": "0x010000070000F746",
+          "english": "\"I don't even consider myself a regular socialist. Politics is not really something I involve myself in, officer.\"",
+          "polish": "„Ja nawet nie uważam się za pełnoprawnego socjalistę. Tak naprawdę nie zajmuje mnie polityka”.",
+          "belarusian": "«Я нават не лічу сябе паўнапраўным сацыялістам. Насамрэч, палітыка мяне не цікавіць».",
+          "links": [
+            {
+              "id": 31,
+              "title": "You: \"\"Wait, how can you write those news...\"",
+              "actor": "You",
+              "to": "Gaston Martin",
+              "articyId": "0x010000070000F74D",
+              "english": "\"Wait, how can you write those newspaper pieces if you're not *political*?\"",
+              "polish": "„Chwila. Jak może pan pisać te artykuły do gazet i pozostawać *apolitycznym*?”",
+              "belarusian": "«Хвіліна. Як вы можаце пісаць гэтыя артыкулы для газет і заставацца *апалітычным*?»",
+              "links": [
+                {
+                  "id": 57,
+                  "title": "Gaston Martin: \"\"Officer, I have a vivid imaginatio...\"",
+                  "actor": "Gaston Martin",
+                  "to": "You",
+                  "articyId": "0x010000070000F760",
+                  "english": "\"Officer, I have a vivid imagination.\" He laughs again. \"And like I said, I have a way with words. That's enough. No need to sink into politics.\"",
+                  "polish": "„Mam żywą wyobraźnię, panie władzo” – mówi ze śmiechem. „I jak już mówiłem – łatwość wysławiania się. Tyle wystarczy. Nie trzeba brnąć w politykę”.",
+                  "belarusian": "«У мяне жывая ўяўленне, пане ўлада» — кажа са смехам. «І як я ўжо казаў — лёгкасць у выразах. Гэтага дастаткова. Не трэба ўлазіць у палітыку».",
+                  "links": [
+                    {
+                      "id": 22,
+                      "title": "Rhetoric: \"He just fluffs it up.\"",
+                      "actor": "Rhetoric",
+                      "to": "You",
+                      "articyId": "0x010000060001FA57",
+                      "english": "He just fluffs it up.",
+                      "polish": "Po prostu ładnie wszystko ubarwia.",
+                      "belarusian": "Проста прыгожа ўсё ўпрыгожвае.",
+                      "links": [
+                        {
+                          "id": 67,
+                          "title": "René Arnoux: \"\"Of course -- don't *sink* into any...\"",
+                          "actor": "René Arnoux",
+                          "to": "You",
+                          "articyId": "0x010000060001FA5E",
+                          "english": "\"Of course -- don't *sink* into anything. Don't sink into any fight. Only sink into your couch.\"",
+                          "polish": "„No oczywiście, lepiej w nic nie *brnąć*. W żaden spór. Najlepiej dobrnąć do kanapy i na niej zostać”.",
+                          "belarusian": "«Ну вядома, лепш ні ў што не *ўвязвацца*. Ні ў які спрэчка. Лепш за ўсё дайсці да канапы і на ёй застацца».",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 87,
+              "title": "You: \"\"So you *are* a 'weathervane'?\"\"",
+              "actor": "You",
+              "to": "Gaston Martin",
+              "articyId": "0x010000070000F72E",
+              "english": "\"So you *are* a 'weathervane'?\"",
+              "polish": "„A więc *jest pan* »chorągiewką«?”",
+              "belarusian": "«Дык вы «вілія»?»",
+              "links": [
+                {
+                  "id": 97,
+                  "title": "Gaston Martin: \"\"I prefer *highly-adaptable* myself...\"",
+                  "actor": "Gaston Martin",
+                  "to": "You",
+                  "articyId": "0x010000070000F734",
+                  "english": "\"I prefer *highly-adaptable* myself,\" he chuckles merrily. \"Has a better ring to it, don't you think?\"",
+                  "polish": "„Wolę określenie *potrafiący się dostosować*” – tłumi śmiech z rozbawieniem. „Jakoś tak lepiej brzmi, nieprawdaż?”",
+                  "belarusian": "«Я аддаю перавагу тэрміну *здольны адаптавацца*», — душыць смех з задавальненнем. «Неяк так лепш гучыць, ці не так?»",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 61,
+              "title": "You: \"\"But you need to believe in *someth...\"",
+              "actor": "You",
+              "to": "Gaston Martin",
+              "articyId": "0x010000070000F76A",
+              "english": "\"But you need to believe in *something*. Freedom, the people, Revachol or even money...\"",
+              "polish": "„Ale w *coś* musi pan wierzyć. W wolność, ludzi, Revachol czy chociażby pieniądze...”",
+              "belarusian": "«Але ў *нешта* мусіцьце верыць. У свабоду, людзей, Рэвошоль ці хаця б у грошы...»",
+              "links": [
+                {
+                  "id": 79,
+                  "title": "Gaston Martin: \"\"I believe everyone has the right t...\"",
+                  "actor": "Gaston Martin",
+                  "to": "You",
+                  "articyId": "0x010000070000F773",
+                  "english": "\"I believe everyone has the right to think and do whatever they want. Even if it's nothing at all. I'm very *adaptable*.\"",
+                  "polish": "„Uważam, że każdy ma prawo myśleć i robić, co chce. Nawet jeśli to coś oznacza zupełnie nic. Łatwo się *dostosowuję*”.",
+                  "belarusian": "«Я лічу, што кожны мае права думаць і рабіць тое, што хоча. Нават калі гэта нешта азначае зусім нічога. Лёгка *прыстасоўваюся*».",
+                  "links": []
+                }
+              ]
+            },
+            {
+              "id": 48,
+              "title": "You: \"\"That's smart. I keep my nose clean...\"",
+              "actor": "You",
+              "to": "Gaston Martin",
+              "articyId": "0x010000070000F759",
+              "english": "\"That's smart. I keep my nose clean too.\"",
+              "polish": "„Mądrze. Ja też wolę się w nic nie pakować”.",
+              "belarusian": "«Мудра. Я таксама лепш не буду ні ў што ўвязвацца».",
+              "links": [
+                {
+                  "id": 49,
+                  "title": "Gaston Martin: \"\"Just easier that way,\" he nods in...\"",
+                  "actor": "Gaston Martin",
+                  "to": "You",
+                  "articyId": "0x010000070000F77B",
+                  "english": "\"Just easier that way,\" he nods in approval. \"Besides, life isn't as black and white as René's of the World try to make it seem. It's all shades of grey really.\"",
+                  "polish": "„Tak jest po prostu łatwiej” – przytakuje. „Poza tym życie nie jest tak czarno-białe, jak przedstawiają to wszyscy René tego świata. Tak naprawdę składa się z odcieni szarości”.",
+                  "belarusian": "«Проста так лягчэй», — згаджаецца ён. «Дарэчы, жыццё не такое чорна-белае, як гэта ўяўляюць усе Рэнэ гэтага свету. На самай справе яно складаецца з адценняў шэрага».",
+                  "links": [
+                    {
+                      "id": 50,
+                      "title": "René Arnoux: \"\"*Mon dieu*...\" the carabineer clos...\"",
+                      "actor": "René Arnoux",
+                      "to": "You",
+                      "articyId": "0x010000070000F784",
+                      "english": "\"*Mon dieu*...\" the carabineer closes his eyes, like he's never going to open them again.",
+                      "polish": "„*Mon dieu*...” – karabinier zamyka oczy tak, jakby nie miał zamiaru ponownie ich otwierać.",
+                      "belarusian": "„*Mon dieu*...” – карабінер зачыняе вочы так, быццам не мае намеру зноў іх адкрываць.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "You: \"\"Thanks, that's all for now.\" (Conc...\"",
+      "actor": "You",
+      "to": "Gaston Martin",
+      "articyId": "0x010000070000F535",
+      "english": "\"Thanks, that's all for now.\" (Conclude.)",
+      "polish": "„Dziękuję, to na razie wszystko”. (Zakończ).",
+      "belarusian": "«Дзякуй, пакуль што гэта ўсё». (Завяршыць).",
+      "links": [
+        {
+          "id": 81,
+          "title": "Gaston Martin: \"\"Thank you officer,\" he nods, smili...\"",
+          "actor": "Gaston Martin",
+          "to": "You",
+          "articyId": "0x010000070000F71D",
+          "english": "\"Thank you officer,\" he nods, smiling wide. \"For being a consummate professional. You'll have this case wrapped up in no time.\"",
+          "polish": "„Dziękuję, panie władzo” – kiwa głową, uśmiechając się szeroko. „Za tak profesjonalną postawę. To pozwoli raz-dwa zamknąć tę sprawę”.",
+          "belarusian": "«Дзякуй, пан паня» — ківае галавой, шырока ўсміхаючыся. «За такую прафесіянальную пазіцыю. Гэта дазволіць хутка закрыць гэтую справу».",
+          "alternates": {
+            "Alternate1": {
+              "english": "\"No, thank you,\" he nods, smiling wide. \"For being consummate professionals. You'll have this case wrapped up in no time.\"\n",
+              "polish": "„Pozwólcie, że wam podziękuję” – kiwa głową, uśmiechając się szeroko. „Za tak profesjonalną postawę. To pozwoli raz-dwa zamknąć tę sprawę”.",
+              "belarusian": "«Дазвольце, я вас падзякую», — ківае галавой, шырока ўсміхаючыся. «За такую прафесійную пазіцыю. Гэта дазволіць хутка закрыць гэтую справу»."
+            }
+          },
+          "links": [
+            {
+              "id": 38,
+              "title": "René Arnoux: \"The old soldier mumbles something u...\"",
+              "actor": "René Arnoux",
+              "to": "You",
+              "articyId": "0x010000070000F564",
+              "english": "The old soldier mumbles something under his breath and turns to face the sea.",
+              "polish": "Stary wojak mruczy coś pod nosem i odwraca się w stronę morza.",
+              "belarusian": "Стары воін мармыча нешта пад нос і паварочваецца да мора.",
+              "links": [
+                {
+                  "id": 11,
+                  "title": "Conceptualization: \"There he stands. Proud, rigid, and...\"",
+                  "actor": "Conceptualization",
+                  "to": "You",
+                  "articyId": "0x010000070000F849",
+                  "english": "There he stands. Proud, rigid, and alone, like a cracking marble statue.",
+                  "polish": "Oto stoi. Dumny, sztywny i samotny niczym kruszący się marmurowy posąg.",
+                  "belarusian": "Вось ён стаіць. Ганарлівы, стыльны і адзінотны, як мраморная статуя, якая развальваецца.",
+                  "links": [
+                    {
+                      "id": 56,
+                      "title": "Kim Kitsuragi: \"\"Let's try not to get caught in the...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
+                      "articyId": "0x010000070000F571",
+                      "english": "\"Let's try not to get caught in the...\" The lieutenant lowers his voice: \"Crossfire.\"",
+                      "polish": "„Postarajmy się uniknąć...” – porucznik ścisza głos – „...krzyżowego ognia”.",
+                      "belarusian": "„Паспрабуем пазбегнуць...” – лейтэнант зніжае голас – „...крыжавога агню”.",
+                      "links": [
+                        {
+                          "id": 41,
+                          "title": "Esprit de Corps: \"Lest we leave riddled with bullet h...\"",
+                          "actor": "Esprit de Corps",
+                          "to": "You",
+                          "articyId": "0x010000070000F586",
+                          "english": "Lest we leave riddled with bullet holes. This animosity is ancient.",
+                          "polish": "Albo oberwie nam się gradem kul. Ta wrogość ma długą historię.",
+                          "belarusian": "Ці нас накрые град ад куляў. Гэтая варожасць мае доўгую гісторыю.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 59,
+                      "title": "Gaston Martin: \"\"What a prick,\" the jolly man decla...\"",
+                      "actor": "Gaston Martin",
+                      "to": "You",
+                      "articyId": "0x010000070000F5AF",
+                      "english": "\"What a prick,\" the jolly man declares, with a sigh. \"The officer was addressing me, not you, *capitaine*. Where were we?\"",
+                      "polish": "„Co za kutafon” – oświadcza wesoły człowieczek, wzdychając. „Pan władza zwraca się do mnie, nie do ciebie, *capitaine*. O czym to mówiliśmy?”",
+                      "belarusian": "«Што за кутэфон» — заяўляе вясёлы чалавечак, уздыхаючы. «Спадар уладар звяртаецца да мяне, не да цябе, *капітэн*. Пра што мы гаварылі?»",
+                      "links": [
+                        {
+                          "id": 51,
+                          "title": "Rhetoric: \"'Where were we' -- what a joyous wa...\"",
+                          "actor": "Rhetoric",
+                          "to": "You",
+                          "articyId": "0x010000070000F7CA",
+                          "english": "'Where were we' -- what a joyous way of putting it.",
+                          "polish": "„O czym to mówiliśmy” – cóż za radosne określenie.",
+                          "belarusian": "«Пра што мы казалі» – якая радасная выраз.",
+                          "links": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 58,
+                      "title": "Perception (Hearing): \"\"*The blind leading the blind* does...\"",
+                      "actor": "Perception (Hearing)",
+                      "to": "You",
+                      "articyId": "0x010000070000F577",
+                      "english": "\"*The blind leading the blind* doesn't even begin to describe it,\" is what he said.",
+                      "polish": "„*Ślepiec wiodący ślepca* to za słabe porównanie” – oto, co powiedział.",
+                      "belarusian": "„*Сляпы, які вядзе сляпога* гэта занадта слабое параўнанне” – вось што ён сказаў.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
