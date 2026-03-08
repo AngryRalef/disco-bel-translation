@@ -1,0 +1,547 @@
+{
+  "id": "0x0100004C00018A4F",
+  "title": "TRIBUNAL / THIRD GUY?",
+  "description": "\"Hey, who is this third guy? I didn't know there was three of you!\"",
+  "dialogueTree": [
+    {
+      "id": 24,
+      "title": "De Paule: \"\"Oh yeah, that's Ruud.\" The armoure...\"",
+      "actor": "De Paule",
+      "to": "You",
+      "articyId": "0x0100007800011C23",
+      "english": "\"Oh yeah, that's Ruud.\" The armoured woman smiles a vicious smile. \"Ruud 'The Killer' Hoenkloewen -- he doesn't talk much.\"",
+      "polish": "„A tak, to Ruud” – odpowiada opancerzona kobieta ze złośliwym uśmiechem. „Ruud »Zabójca« Hoenkloewen – on jest oszczędny w słowach”.",
+      "belarusian": "«А так, гэта Рууд», — адказвае браняваная жанчына з зласлівым усмешкай. «Рууд «Забойца» Хоенклаен — ён скуплівы на словы».",
+      "links": [
+        {
+          "id": 5,
+          "title": "Ruud Hoenkloewen: \"\"... all of you fucking cunts insid...\"",
+          "actor": "Ruud Hoenkloewen",
+          "to": "You",
+          "articyId": "0x0100007800011A55",
+          "english": "\"... all of you fucking cunts inside out...\"",
+          "polish": "„...wszystkich was, głupie pizdy, na wylot...”",
+          "belarusian": "«...усіх вас, дурныя пі@дзі, напралом...»",
+          "links": [
+            {
+              "id": 50,
+              "title": "You: \"\"What was that, Ruud?\"\"",
+              "actor": "You",
+              "to": "Kim Kitsuragi",
+              "articyId": "0x0100007800011B0E",
+              "english": "\"What was that, Ruud?\"",
+              "polish": "„Co mówiłeś, Ruud?”",
+              "belarusian": "«Што ты казаў, Рууд?»",
+              "links": [
+                {
+                  "id": 61,
+                  "title": "Ruud Hoenkloewen: \"\"... rip you open...\"\"",
+                  "actor": "Ruud Hoenkloewen",
+                  "to": "You",
+                  "articyId": "0x0100007800011B15",
+                  "english": "\"... rip you open...\"",
+                  "polish": "„...wypatroszę...”",
+                  "belarusian": "«...раўну...»",
+                  "links": [
+                    {
+                      "id": 51,
+                      "title": "Conceptualization: \"Perhaps it's for the best. Him not...\"",
+                      "actor": "Conceptualization",
+                      "to": "You",
+                      "articyId": "0x0100007800011B1C",
+                      "english": "Perhaps it's for the best. Him not talking *too* much.",
+                      "polish": "Może tak będzie najlepiej. Jeśli nie będzie gadał *zbyt* wiele.",
+                      "belarusian": "Можа, так будзе найлепш. Калі не будзе гаварыць *за* шмат.",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 21,
+              "title": "You: \"\"The *Killer*?\"\"",
+              "actor": "You",
+              "to": "Kim Kitsuragi",
+              "articyId": "0x0100007800011A64",
+              "english": "\"The *Killer*?\"",
+              "polish": "„*Zabójca*?”",
+              "belarusian": "„*Забойца*?”",
+              "links": [
+                {
+                  "id": 18,
+                  "title": "Kortenaer: \"\"The gunner.\" He gestures toward hi...\"",
+                  "actor": "Kortenaer",
+                  "to": "You",
+                  "articyId": "0x0100007800011A5E",
+                  "english": "\"The gunner.\" He gestures toward himself. \"The radist.\" He nods towards the woman. \"The killer.\" He points to the figure clad entirely in ceramic plate.",
+                  "polish": "„Strzelec” – wskazuje na siebie. „Radiooperatorka” – wskazuje skinieniem głowy kobietę. „Zabójca” – wskazuje postać pokrytą w całości ceramicznymi płytkami.",
+                  "belarusian": "«Стралец» — указвае на сябе. «Радыёаператарка» — ківае на жанчыну. «Забойца» — указвае на постаць, пакрытую цалкам керамічнымі пліткамі.",
+                  "links": [
+                    {
+                      "id": 68,
+                      "title": "Kortenaer: \"\"What do you think he *does?*\"\"",
+                      "actor": "Kortenaer",
+                      "to": "You",
+                      "articyId": "0x0100007800011AEE",
+                      "english": "\"What do you think he *does?*\"",
+                      "polish": "„Jak myślisz, czym się *zajmuje*?”",
+                      "belarusian": "«Як ты думаеш, чым ён *займаецца*?»",
+                      "links": [
+                        {
+                          "id": 73,
+                          "title": "Perception (Sight): \"There -- on the rim of Hoenkloewen'...\"",
+                          "actor": "Perception (Sight)",
+                          "to": "You",
+                          "articyId": "0x0100007800011B49",
+                          "english": "There -- on the rim of Hoenkloewen's helmet -- you count little stick figures: 19, 20, 21...",
+                          "polish": "Na rancie hełmu Hoenkloewena widzisz małe ludziki z kreseczek. 19, 20, 21...",
+                          "belarusian": "На краі шлема Хоэнклоўэна бачыш маленькіх чалавечкаў з рысак. 19, 20, 21...",
+                          "links": [
+                            {
+                              "id": 6,
+                              "title": "You: \"Count the figures.\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800011B5C",
+                              "english": "Count the figures.",
+                              "polish": "Policz ludziki.",
+                              "belarusian": "Палічы чалавечкаў.",
+                              "links": [
+                                {
+                                  "id": 53,
+                                  "title": "Perception (Sight): \"About *fifty* little stick figures...\"",
+                                  "actor": "Perception (Sight)",
+                                  "to": "You",
+                                  "articyId": "0x0100007800011B65",
+                                  "english": "About *fifty* little stick figures -- all of them black. Plus two little white ones in the end.",
+                                  "polish": "Około *pięćdziesięciu* małych ludzików – wszystkie czarne. I dwa małe, białe, na samym końcu.",
+                                  "belarusian": "Прыблізна *пяцьдзясят* малых чалавечкаў - усе чорныя. І два малыя, белыя, напрыканцы.",
+                                  "links": [
+                                    {
+                                      "id": 43,
+                                      "title": "Encyclopedia: \"These men served in Semenine... the...\"",
+                                      "actor": "Encyclopedia",
+                                      "to": "You",
+                                      "articyId": "0x0100007800011B74",
+                                      "english": "These men served in Semenine... the native islanders...",
+                                      "polish": "Ci ludzie służyli na Semenine... To rodowici wyspiarze...",
+                                      "belarusian": "Гэта людзі служылі на Семеніне... Гэта карэнныя выспачане...",
+                                      "links": []
+                                    },
+                                    {
+                                      "id": 12,
+                                      "title": "Logic: \"The two little *white* figures in t...\"",
+                                      "actor": "Logic",
+                                      "to": "You",
+                                      "articyId": "0x0100007800011B96",
+                                      "english": "The two little *white* figures in the end are from when they moved to Revachol. They're recent.",
+                                      "polish": "Te dwie małe, *białe* postaci na końcu pochodzą z czasu po przeprowadzce do Revacholu. Dodano je niedawno.",
+                                      "belarusian": "Гэтыя дзве маленькія, *белыя* постаці ў канцы паходзяць з часу пасля пераезду ў Рэвашоль. Іх дадалі нядаўна.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 39,
+                              "title": "You: \"\"He kills?\"\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800011A6A",
+                              "english": "\"He kills?\"",
+                              "polish": "„Zajmuje się zabijaniem?”",
+                              "belarusian": "«Вы займаецеся забойствамі?»",
+                              "links": [
+                                {
+                                  "id": 59,
+                                  "title": "Kortenaer: \"\"Smart loincloth.\" He stares at you...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800011A70",
+                                  "english": "\"Smart loincloth.\" He stares at you with his watery eyes. \"He fucks natives up. Soldier of the Apocalypse-style.\"",
+                                  "polish": "„Bystry szmaciarz” – wpatruje się w ciebie swoimi wodnistymi oczami. „Zajmuje się rozjebywaniem tubylców. Jak żołnierz apokalipsy”.",
+                                  "belarusian": "«Хуткі анучнік» – узіраецца ў цябе сваімі вачнымі вачыма. «Займаецца развалам мясцовага насельніцтва. Як воін апакаліпсісу».",
+                                  "links": [
+                                    {
+                                      "id": 10,
+                                      "title": "Half Light: \"Now! Now is the time! Stop waiting.\"",
+                                      "actor": "Half Light",
+                                      "to": "You",
+                                      "articyId": "0x010000060001E8A7",
+                                      "english": "Now! Now is the time! Stop waiting.",
+                                      "polish": "Teraz! To ta chwila! Nie czekaj dłużej.",
+                                      "belarusian": "Цяпер! Гэта тая хвіліна! Не чакай больш.",
+                                      "links": [
+                                        {
+                                          "id": 25,
+                                          "title": "Volition: \"Easy. Easy now.\"",
+                                          "actor": "Volition",
+                                          "to": "You",
+                                          "articyId": "0x010000060001E8A1",
+                                          "english": "Easy. Easy now.",
+                                          "polish": "Spokojnie. Tylko spokojnie.",
+                                          "belarusian": "Спакойна. Толькі спакойна.",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 20,
+                              "title": "You: \"\"Kills black people?\"\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800011B7D",
+                              "english": "\"Kills black people?\"",
+                              "polish": "„Zabija czarnoskórych?”",
+                              "belarusian": "«Забівае чарнаскурых?»",
+                              "alternates": {
+                                "Alternate1": {
+                                  "english": "\"Kills black people -- almost exclusively?\"",
+                                  "polish": "„Zabija czarnoskórych? Niemal wyłącznie ich?”",
+                                  "belarusian": "«Забівае чорнаскурых? Амаль выключна іх?»"
+                                }
+                              },
+                              "links": [
+                                {
+                                  "id": 63,
+                                  "title": "Kortenaer: \"\"Not today, Ruud. That'll be *me* t...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800011BC3",
+                                  "english": "\"Not today, Ruud. That'll be *me* today...\" He looks at the woman on the plaza floor.",
+                                  "polish": "„Nie dzisiaj, Ruud. Dzisiaj to *ja* się tym zajmę...” – stwierdza i spogląda na stojącą na placu kobietę.",
+                                  "belarusian": "«Не сёння, Рууд. Сёння гэтым зоймуся *я*...» – заяўляе ён і глядзіць на жанчыну, якая стаіць на плошчы.",
+                                  "links": [
+                                    {
+                                      "id": 54,
+                                      "title": "The Gardener: \"She has fallen silent.\"",
+                                      "actor": "The Gardener",
+                                      "to": "You",
+                                      "articyId": "0x0100007800011BCA",
+                                      "english": "She has fallen silent.",
+                                      "polish": "Zamilkła.",
+                                      "belarusian": "Замоўкла.",
+                                      "links": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 11,
+                                  "title": "Kortenaer: \"\"That's right.\" He stares at you wi...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800011B84",
+                                  "english": "\"That's right.\" He stares at you with watery eyes. \"Plenty of kipts here in Revachol too.\"",
+                                  "polish": "„Zgadza się” – wpatruje się w ciebie swoimi wodnistymi oczami. „W Revacholu jest też pełno kiptów”.",
+                                  "belarusian": "«Сапраўды», — глядзіць на цябе сваімі вадападобнымі вачыма. «У Рэвашолі таксама поўна кіптоў».",
+                                  "links": [
+                                    {
+                                      "id": 36,
+                                      "title": "Eugene: \"\"T, let's fucking *do* it,\" the man...\"",
+                                      "actor": "Eugene",
+                                      "to": "You",
+                                      "articyId": "0x0100007800011BD1",
+                                      "english": "\"T, let's fucking *do* it,\" the man presses through his teeth -- his hand is on his belt.",
+                                      "polish": "„T, kurwa, *zróbmy* to już” – cedzi przez zęby mężczyzna. Dłoń trzyma na swoim pasie.",
+                                      "belarusian": "«Т, чортаў ступень, *зрабіце* гэта ўжо» – праз зубы прамаўляе мужчына. Ягоная рука на ягоным поясе.",
+                                      "links": [
+                                        {
+                                          "id": 37,
+                                          "title": "Titus Hardie: \"\"Gene...\"\"",
+                                          "actor": "Titus Hardie",
+                                          "to": "You",
+                                          "articyId": "0x0100007800011BE4",
+                                          "english": "\"Gene...\"",
+                                          "polish": "„Gene...”",
+                                          "belarusian": "\"Гене...\"",
+                                          "links": [
+                                            {
+                                              "id": 13,
+                                              "title": "Half Light: \"Now! Now is the time! Stop waiting.\"",
+                                              "actor": "Half Light",
+                                              "to": "You",
+                                              "articyId": "0x0100007800013991",
+                                              "english": "Now! Now is the time! Stop waiting.",
+                                              "polish": "Teraz! To ta chwila! Nie czekaj dłużej.",
+                                              "belarusian": "Цяпер! Гэта той момант! Не чакай больш.",
+                                              "links": [
+                                                {
+                                                  "id": 78,
+                                                  "title": "Volition: \"Easy. Easy now.\"",
+                                                  "actor": "Volition",
+                                                  "to": "You",
+                                                  "articyId": "0x010000780001398B",
+                                                  "english": "Easy. Easy now.",
+                                                  "polish": "Spokojnie. Tylko spokojnie.",
+                                                  "belarusian": "Спакойна. Толькі спакойна.",
+                                                  "links": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 38,
+                              "title": "You: \"\"Uh... tends to the stables?\"\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800011A86",
+                              "english": "\"Uh... tends to the stables?\"",
+                              "polish": "„Yyy... Sprząta stajnie?”",
+                              "belarusian": "«Эээ... Прыбірае стайні?»",
+                              "links": [
+                                {
+                                  "id": 66,
+                                  "title": "De Paule: \"\"What are we waiting for?\" She turn...\"",
+                                  "actor": "De Paule",
+                                  "to": "You",
+                                  "articyId": "0x0100007800011BF4",
+                                  "english": "\"What are we waiting for?\" She turns to the leader. \"Let's blow that big fucking mouth off his face!\"",
+                                  "polish": "„Na co czekamy?” – pyta przywódcę. „Rozwalmy mu tę jego pieprzoną mordę!”",
+                                  "belarusian": "«Чаго чакаем?» — пытаецца ў лідара. «Давайце раздзяўбём яму гэту праклятую морду!»",
+                                  "links": [
+                                    {
+                                      "id": 64,
+                                      "title": "Kortenaer: \"\"Hold your fire!\" He licks his lips...\"",
+                                      "actor": "Kortenaer",
+                                      "to": "You",
+                                      "articyId": "0x0100007800011A8C",
+                                      "english": "\"Hold your fire!\" He licks his lips. \"Wait for my command.\"",
+                                      "polish": "„Wstrzymać ogień!” – rozkazuje i oblizuje wargi. „Czekać na mój rozkaz”.",
+                                      "belarusian": "«Прыпыніць агонь!» – загадае і аблізвае вусны. «Чакаць майго загадзу».",
+                                      "links": [
+                                        {
+                                          "id": 16,
+                                          "title": "Perception (Sight): \"He has chewed his lips bloody.\"",
+                                          "actor": "Perception (Sight)",
+                                          "to": "You",
+                                          "articyId": "0x0100007800011A92",
+                                          "english": "He has chewed his lips bloody.",
+                                          "polish": "Rozgryzł sobie wargi do krwi.",
+                                          "belarusian": "Разгрыз сабе вусны да крыві.",
+                                          "links": [
+                                            {
+                                              "id": 52,
+                                              "title": "Composure: \"This man has been under severe emot...\"",
+                                              "actor": "Composure",
+                                              "to": "You",
+                                              "articyId": "0x0100007800011AB5",
+                                              "english": "This man has been under severe emotional pressure recently.",
+                                              "polish": "Ten człowiek został ostatnimi czasy poddany olbrzymiej emocjonalnej presji.",
+                                              "belarusian": "Гэты чалавек апошнім часам падвяргаўся вялікаму эмацыйнаму ціску.",
+                                              "links": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 44,
+                              "title": "You: \"\"You think you're real tough, huh?...\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800011A76",
+                              "english": "\"You think you're real tough, huh? This killing is meaningless.\"",
+                              "polish": "„Macie się za prawdziwych twardzieli, co? To mordowanie jest pozbawione sensu”.",
+                              "belarusian": "«Вы сябе за сапраўдных крутых мяркуеце, так? Гэтае забойства не мае сэнсу».",
+                              "links": [
+                                {
+                                  "id": 42,
+                                  "title": "Kortenaer: \"\"Huh?\" He just stares at you with h...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800011B25",
+                                  "english": "\"Huh?\" He just stares at you with his watery eyes.",
+                                  "polish": "„Hę?” – wpatruje się w ciebie swoimi wodnistymi oczami.",
+                                  "belarusian": "«Га?» – утаропіўся ў цябе сваімі вадзяністымі вачыма.",
+                                  "links": [
+                                    {
+                                      "id": 22,
+                                      "title": "Empathy: \"That struck some chord -- a dark ch...\"",
+                                      "actor": "Empathy",
+                                      "to": "You",
+                                      "articyId": "0x0100007800011B2C",
+                                      "english": "That struck some chord -- a dark chord.",
+                                      "polish": "Uderzyłeś w jakąś strunę. Mroczną.",
+                                      "belarusian": "Вы закранулі нейкую струну. Цёмную.",
+                                      "links": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 65,
+                              "title": "You: \"\"I'm a killer too.\"\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800011B00",
+                              "english": "\"I'm a killer too.\"",
+                              "polish": "„Ja też jestem zabójcą”.",
+                              "belarusian": "«Я таксама забойца».",
+                              "links": [
+                                {
+                                  "id": 40,
+                                  "title": "Kortenaer: \"\"You're a tit-sucking pig...\" He st...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100007800011B07",
+                                  "english": "\"You're a tit-sucking pig...\" He staggers forward: \"I'm gonna show you killer.\"",
+                                  "polish": "„Jesteś ciągającą cycka świnią...” – stwierdza i robi krok do przodu. „Pokażę ci, jak wygląda zabójca”.",
+                                  "belarusian": "„Ты цягаешца за цыцкі свіння...” – заяўляе ён і робіць крок наперад. „Пакажу табе, як выглядае забойца”.",
+                                  "links": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 45,
+                              "title": "You: \"\"Good -- I *kill* killers.\" (Point...\"",
+                              "actor": "You",
+                              "to": "Kim Kitsuragi",
+                              "articyId": "0x0100007800011AA0",
+                              "english": "\"Good -- I *kill* killers.\" (Point to your chest.)",
+                              "polish": "„Doskonale. A ja *zabijam* zabójców”. (Wskaż swoją klatkę piersiową).",
+                              "belarusian": "«Выдатна. А я *забіваю* забойцаў». (Пакажыце на сваю грудзі).",
+                              "links": [
+                                {
+                                  "id": 49,
+                                  "title": "De Paule: \"\"What are we waiting for?! Let's bl...\"",
+                                  "actor": "De Paule",
+                                  "to": "You",
+                                  "articyId": "0x0100007800011A80",
+                                  "english": "\"What are we waiting for?! Let's blow that pig-fucking mouth off his face!\"",
+                                  "polish": "„Na co czekamy? Rozwalmy mu tę jego pieprzoną świńską mordę!”",
+                                  "belarusian": "«На што чакаем? Давайце разб’ем яму гэтую яго праклятую свіную пыску!»",
+                                  "links": [
+                                    {
+                                      "id": 60,
+                                      "title": "Kortenaer: \"\"Lance-corporal...\" He turns to the...\"",
+                                      "actor": "Kortenaer",
+                                      "to": "You",
+                                      "articyId": "0x0100007800011A9A",
+                                      "english": "\"Lance-corporal...\" He turns to the woman. \"Just fucking shut up and wait for your order.\"",
+                                      "polish": "„Starsza szeregowa...” – zwraca się do kobiety. „Zamknąć się, kurwa, i czekać na rozkaz”.",
+                                      "belarusian": "«Старшы радавой...» — звяртаецца да жанчыны. «Зачыніся, халера, і чакай на загад».",
+                                      "links": [
+                                        {
+                                          "id": 46,
+                                          "title": "Authority: \"He is not used to commanding, or le...\"",
+                                          "actor": "Authority",
+                                          "to": "You",
+                                          "articyId": "0x0100007800011AAB",
+                                          "english": "He is not used to commanding, or leading. He feels uncomfortable. He'd rather shoot to kill...",
+                                          "polish": "Nie nawykł do rozkazywania ani do dowodzenia. Nie czuje się dobrze w tej roli. Wolałby strzelać i zabijać...",
+                                          "belarusian": "Не прывык камандаваць або кіраваць. Не адчувае сябе добра ў гэтай ролі. Лепей бы страляў і забіваў...",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 17,
+              "title": "You: \"\"Okay. Let's just keep talking -- n...\"",
+              "actor": "You",
+              "to": "Kim Kitsuragi",
+              "articyId": "0x0100007800011ACF",
+              "english": "\"Okay. Let's just keep talking -- no one needs to die today.\" (Back off.)",
+              "polish": "„Dobrze. Rozmawiajmy dalej. Nikt nie musi dzisiaj umierać”. (Cofnij się).",
+              "belarusian": "«Добра. Давай працягнем размову. Ніхто не павінен сёння паміраць». (Адступіць).",
+              "alternates": {
+                "Alternate1": {
+                  "english": "\"Okay. Let's just keep talking -- no one needs to die today.\" (Back off.)",
+                  "polish": "„Dobrze. Rozmawiajmy dalej. Nikt nie musi dzisiaj umierać”. (Cofnij się).",
+                  "belarusian": "«Добра. Пагаворым далей. Сёння ніхто не павінен памерці». (Адступіцеся)."
+                },
+                "Alternate2": {
+                  "english": "\"Okay. Let's just keep talking -- no one needs to die tonight.\" (Back off.)",
+                  "polish": "„Dobrze. Rozmawiajmy dalej. Nikt nie musi tej nocy umierać”. (Cofnij się).",
+                  "belarusian": "«Добра. Размаўляйма далей. Ніхто не павінен гэтай ноччу паміраць». (Адступіцеся)."
+                },
+                "Alternate3": {
+                  "english": "\"Okay. Let's just keep talking -- no one needs to die this night.\" (Back off.)",
+                  "polish": "„Dobrze. Rozmawiajmy dalej. Nikt nie musi tej nocy umierać”. (Cofnij się).",
+                  "belarusian": "«Добра. Размаўляйма далей. Ніхто не мусіць гэтай ноччу паміраць». (Адступіся)."
+                }
+              },
+              "links": [
+                {
+                  "id": 19,
+                  "title": "Kortenaer: \"\"This... talking-shit won't help yo...\"",
+                  "actor": "Kortenaer",
+                  "to": "You",
+                  "articyId": "0x0100007800011AC9",
+                  "english": "\"This... talking-shit won't help you.\" The man shakes his head and staggers forward.",
+                  "polish": "„To... mielenie ozorem niewiele ci pomoże” – stwierdza mężczyzna, kręcąc głową, i robi krok do przodu.",
+                  "belarusian": "„Гэта... мала табе дапаможа таўчы язык” – заўважае мужчына, ківаючы галавой, і робіць крок наперад.",
+                  "links": [
+                    {
+                      "id": 74,
+                      "title": "Half Light: \"Now! Now is the time! Stop waiting.\"",
+                      "actor": "Half Light",
+                      "to": "You",
+                      "articyId": "0x0100007800011ADD",
+                      "english": "Now! Now is the time! Stop waiting.",
+                      "polish": "Teraz! To ta chwila! Nie czekaj dłużej.",
+                      "belarusian": "Цяпер! Гэта той момант! Не чакай больш.",
+                      "links": [
+                        {
+                          "id": 41,
+                          "title": "Volition: \"Easy. Easy now.\"",
+                          "actor": "Volition",
+                          "to": "You",
+                          "articyId": "0x0100007800013983",
+                          "english": "Easy. Easy now.",
+                          "polish": "Spokojnie. Tylko spokojnie.",
+                          "belarusian": "Спакойна. Толькі спакойна.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "De Paule: \"\"Ruud? Ruud is the killer --\" The a...\"",
+      "actor": "De Paule",
+      "to": "You",
+      "articyId": "0x0100007800011A4E",
+      "english": "\"Ruud? Ruud is the killer --\" The armoured woman smiles a vicious smile. \"Ruud 'The Killer' Hoenkloewen -- he doesn't talk much.\"",
+      "polish": "„Ruud? Ruud to zabójca...” – odpowiada opancerzona kobieta ze złośliwym uśmiechem. „Ruud »Zabójca« Hoenkloewen – on jest oszczędny w słowach”.",
+      "belarusian": "«Рууд? Рууд — забойца...» — адказвае браняваная жанчына са злоснаю ўсмешкаю. «Рууд «Забойца» Хоэнклоўэн — ён сціплы на словы».",
+      "links": []
+    }
+  ]
+}
