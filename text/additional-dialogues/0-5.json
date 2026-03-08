@@ -1,0 +1,170 @@
+{
+  "id": "0x010000010000037D",
+  "title": "KIM SWITCH / flashlight",
+  "description": "Fires when you remain in the dark with Kim",
+  "dialogueTree": [
+    {
+      "id": 16,
+      "title": "Kim Kitsuragi: \"\"And the flashlight works a lot bet...\"",
+      "actor": "Kim Kitsuragi",
+      "to": "You",
+      "articyId": "0x0100000100000386",
+      "english": "\"And the flashlight works a lot better if you *hold it in your hand*.\"",
+      "polish": "„Latarka działa znacznie lepiej, gdy *trzyma się ją w ręce*”.",
+      "belarusian": "«Ліхтарык працуе значна лепш, калі *трыманы ў руцэ*».",
+      "links": [
+        {
+          "id": 15,
+          "title": "You: \"\"Fair point. Yes, totally obvious.\"\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
+          "articyId": "0x010000010000038E",
+          "english": "\"Fair point. Yes, totally obvious.\"",
+          "polish": "„Ma to sens. Tak, to oczywiste”.",
+          "belarusian": "«Гэта мае сэнс. Так, гэта відавочна».",
+          "links": [
+            {
+              "id": 10,
+              "title": "Kim Kitsuragi: \"\"Right. Now let's get to it,\" the l...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
+              "articyId": "0x01000012000000C0",
+              "english": "\"Right. Now let's get to it,\" the lieutenant nods.",
+              "polish": "„Tak. Do dzieła” – odpowiada porucznik, kiwając głową.",
+              "belarusian": "«Так. Наперад» — адказвае лейтэнант, ківаючы галавой.",
+              "links": [
+                {
+                  "id": 20,
+                  "title": "Tutorial Agent: \"Some areas are inaccessible without...\"",
+                  "actor": "Tutorial Agent",
+                  "to": "You",
+                  "articyId": "0x01000021000016A3",
+                  "english": "Some areas are inaccessible without your FLASHLIGHT. After you’ve acquired it, go to your INVENTORY and equip it in a HELD slot to continue exploring.",
+                  "polish": "W niektóre miejsca nie da się wejść bez LATARKI. Kiedy już ją zdobędziesz, otwórz swój EKWIPUNEK i umieść ją w którejś z RĄK, aby dalej badać otoczenie.",
+                  "belarusian": "У некаторыя месцы нельга ўвайсці без ЛІХТАРЫКА. Калі ўжо знойдзеш яго, адкрый свой ЭКІПІРОЎКУ і размясці яго ў адну з РУК, каб далей даследаваць асяроддзе.",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "You: \"\"Flashlights go *in* hand?\" (Stare...\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
+          "articyId": "0x01000012000000B2",
+          "english": "\"Flashlights go *in* hand?\" (Stare at your hand uncomprehendingly.)",
+          "polish": "„Latarki trzyma się *w* dłoni?” (Popatrz z niezrozumieniem na swoją dłoń).",
+          "belarusian": "«Ліхтарык трымаецца *ў* руцэ?» (Паглядзі з нявызначэннем на сваю руку).",
+          "links": [
+            {
+              "id": 12,
+              "title": "Kim Kitsuragi: \"\"Yes,\" the lieutenant says. \"You mi...\"",
+              "actor": "Kim Kitsuragi",
+              "to": "You",
+              "articyId": "0x01000012000000B9",
+              "english": "\"Yes,\" the lieutenant says. \"You might even call it a *feature* of the universe, that you need to *hold* tools to *use* them.\"",
+              "polish": "„Tak” – odpowiada porucznik. „Można to nawet nazwać jedną z *funkcji* wszechświata – aby *używać* narzędzi, należy *trzymać* je w rękach”.",
+              "belarusian": "«Так», – адказвае лейтэнант. «Можна нават назваць гэта адной з *функцый* сусвету – каб *карыстацца* інструментамі, трэба *трымаць* іх у руках».",
+              "links": [
+                {
+                  "id": 17,
+                  "title": "You: \"\"That makes so much sense.\"\"",
+                  "actor": "You",
+                  "to": "Kim Kitsuragi",
+                  "articyId": "0x01000012000000C7",
+                  "english": "\"That makes so much sense.\"",
+                  "polish": "„No tak, to ma ogromny sens”.",
+                  "belarusian": "«Ну так, гэта мае велізарны сэнс».",
+                  "links": []
+                },
+                {
+                  "id": 18,
+                  "title": "You: \"\"That makes no sense at all.\"\"",
+                  "actor": "You",
+                  "to": "Kim Kitsuragi",
+                  "articyId": "0x01000012000000CE",
+                  "english": "\"That makes no sense at all.\"",
+                  "polish": "„To kompletnie bez sensu”.",
+                  "belarusian": "«Гэта цалкам бессэнсоўна».",
+                  "links": [
+                    {
+                      "id": 5,
+                      "title": "Kim Kitsuragi: \"\"I'm sorry the fundamental laws of...\"",
+                      "actor": "Kim Kitsuragi",
+                      "to": "You",
+                      "articyId": "0x01000012000000D6",
+                      "english": "\"I'm sorry the fundamental laws of the universe don't seem to agree with you, detective, but the fact remains that it's too dark to see in here without the flashlight...\"",
+                      "polish": "„Przykro mi, że fundamentalne prawa wszechświata sprawiają ci takie kłopoty, detektywie, ale tak czy inaczej, bez latarki niczego w tej ciemności nie zobaczymy...”",
+                      "belarusian": "«Мне шкада, што фундаментальныя законы сусвету ствараюць табе такія праблемы, дэтэктыве, але ў любым выпадку, без ліхтарыка мы нічога не ўбачым у гэтай цемры...»",
+                      "links": [
+                        {
+                          "id": 13,
+                          "title": "Kim Kitsuragi: \"\"So come on. We've got work to do.\"\"",
+                          "actor": "Kim Kitsuragi",
+                          "to": "You",
+                          "articyId": "0x01000012000000DD",
+                          "english": "\"So come on. We've got work to do.\"",
+                          "polish": "„Dlatego do dzieła. Mamy zadanie do wykonania”.",
+                          "belarusian": "«Таму да працы. У нас ёсць заданне, якое трэба выканаць».",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "You: \"\"Got it, Kim, no need to rub it in....\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
+          "articyId": "0x0100002100001695",
+          "english": "\"Got it, Kim, no need to rub it in.\" [Leave.]",
+          "polish": "„Zrozumiałem, Kim, nie musisz się wyzłośliwiać”. [Odejdź].",
+          "belarusian": "«Зразумеў, Кім, табе не трэба кпіць». [Сыходзіць].",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Kim Kitsuragi: \"\"This would be a lot easier with a...\"",
+      "actor": "Kim Kitsuragi",
+      "to": "You",
+      "articyId": "0x0100001200000097",
+      "english": "\"This would be a lot easier with a flashlight...\"",
+      "polish": "„Z latarką byłoby znacznie łatwiej...”",
+      "belarusian": "\"З ліхтарыкам было б значна прасцей...\"",
+      "links": [
+        {
+          "id": 11,
+          "title": "Kim Kitsuragi: \"\"I've got one in the Kineema's tool...\"",
+          "actor": "Kim Kitsuragi",
+          "to": "You",
+          "articyId": "0x010000120000009F",
+          "english": "\"I've got one in the Kineema's toolbox. We should go back for it before we continue. No sense in tripping around in the darkness.\"",
+          "polish": "„Mam jedną w skrzynce narzędziowej mojej kineemy. Powinniśmy wrócić po nią, zanim pójdziemy dalej. Nie ma sensu potykać się w ciemności”.",
+          "belarusian": "«У мяне адна ёсць у скрынцы для інструментаў маёй каноэ. Мы павінны вярнуцца па яе, перш чым працягнем далей. Няма сэнсу спатыкацца ў цемры».",
+          "links": [
+            {
+              "id": 14,
+              "title": "Tutorial Agent: \"Some areas are inaccessible without...\"",
+              "actor": "Tutorial Agent",
+              "to": "You",
+              "articyId": "0x01000021000016AC",
+              "english": "Some areas are inaccessible without your FLASHLIGHT. After you’ve acquired it, go to your INVENTORY and equip it in a HELD slot to continue exploring.",
+              "polish": "W niektóre miejsca nie da się wejść bez LATARKI. Kiedy już ją zdobędziesz, otwórz swój EKWIPUNEK i umieść ją w którejś z RĄK, aby dalej badać otoczenie.",
+              "belarusian": "У некаторыя месцы нельга ўвайсці без ЛІХТАРЫКА. Калі ўжо яго здабудзеце, адкрыйце свой ЭКІПІРОЎКУ і змесціце яго ў адну з РУК, каб далей даследаваць акружэнне.",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

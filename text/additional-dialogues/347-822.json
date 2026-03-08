@@ -1,0 +1,498 @@
+{
+  "id": "0x0100004C0001922B",
+  "title": "TRIBUNAL / LEGITIMACY OF THIS TRIBUNAL",
+  "description": "\"Does Krenel give you the right to conduct tribunal?\"",
+  "dialogueTree": [
+    {
+      "id": 62,
+      "title": "Rhetoric: \"All right, here we go -- this is an...\"",
+      "actor": "Rhetoric",
+      "to": "You",
+      "articyId": "0x010000780001249D",
+      "english": "All right, here we go -- this is an *illegal tribunal*. Their employer would never *sanction* this. Who's the *commanding officer*? Take your pick!",
+      "polish": "Dobra, proszę bardzo: to *nielegalny trybunał*. Ich pracodawca nigdy by się na to *nie zgodził*. Kto z nich jest *dowódcą*? Wybierz któreś!",
+      "belarusian": "Добра, калі ласка: гэта *нелегальны трыбунал*. Іх працадаўца ніколі б на гэта *не пагадзіўся*. Хто з іх з'яўляецца *камандзірам*? Абярыце кагосьці!",
+      "alternates": {
+        "Alternate1": {
+          "english": "All right, here we go -- this is an *illegal tribunal*. Krenel would never *sanction* this. Who's the *commanding officer*? Take your pick!",
+          "polish": "Dobra, proszę bardzo: to *nielegalny trybunał*. Krenel nigdy by się na to *nie zgodził*. Kto z nich jest *dowódcą*? Wybierz któreś!",
+          "belarusian": "Добра, калі ласка: гэта *незаконны трыбунал*. Кренель ніколі б з гэтым не *пагадзіўся*. Хто з іх *камандуючы*? Выберыце аднаго!"
+        }
+      },
+      "links": [
+        {
+          "id": 63,
+          "title": "Encyclopedia: \"I have some *trivia* too! Get him *...\"",
+          "actor": "Encyclopedia",
+          "to": "You",
+          "articyId": "0x01000078000124D8",
+          "english": "I have some *trivia* too! Get him *interested* in facts!",
+          "polish": "Mam też na podorędziu *ciekawostki*! *Zainteresuj* go różnymi faktami!",
+          "belarusian": "У мяне таксама ёсць пад рукой *цікавыя факты*! *Зацікаў* яго рознымі фактамі!",
+          "links": []
+        },
+        {
+          "id": 53,
+          "title": "Suggestion: \"Really? None of this looks like it'...\"",
+          "actor": "Suggestion",
+          "to": "You",
+          "articyId": "0x01000078000124B2",
+          "english": "Really? None of this looks like it's going to do anything but piss him off.",
+          "polish": "Serio? To wszystko wygląda tak, jakby mogło go co najwyżej wkurzyć.",
+          "belarusian": "Сур'ёзна? Усё гэта выглядае так, як быццам можа яго толькі раздражніць.",
+          "links": [
+            {
+              "id": 3,
+              "title": "Reaction Speed: \"You only have time for *one* argume...\"",
+              "actor": "Reaction Speed",
+              "to": "You",
+              "articyId": "0x010000060001E8D0",
+              "english": "You only have time for *one* argument, choose wisely...",
+              "polish": "Masz czas na użycie *jednego* argumentu. Wybieraj mądrze...",
+              "belarusian": "У цябе ёсць час выкарыстаць *адзін* аргумент. Выбірай мудра...",
+              "links": [
+                {
+                  "id": 37,
+                  "title": "You: \"\"Just a question -- who's in charge...\"",
+                  "actor": "You",
+                  "to": "Kim Kitsuragi",
+                  "articyId": "0x0100004C000195F7",
+                  "english": "\"Just a question -- who's in charge of your unit after the death of your colonel?\"",
+                  "polish": "„Mam tylko pytanie – kto dowodzi waszą jednostką po śmierci pułkownika?”",
+                  "belarusian": "«У мяне толькі адно пытанне – хто камандуе вашым падраздзяленнем пасля смерці палкоўніка?»",
+                  "alternates": {
+                    "Alternate1": {
+                      "english": "\"Just to be clear -- are you officially in charge of this unit after the death of your colonel?\"",
+                      "polish": "„Żebym miał jasność – dowodzisz oficjalnie tą jednostką po śmierci pułkownika?”",
+                      "belarusian": "«Каб я меў яснасць – ты афіцыйна камандуеш гэтай адзінкай пасля смерці палкоўніка?»"
+                    }
+                  },
+                  "links": [
+                    {
+                      "id": 51,
+                      "title": "Kortenaer: \"\"I am a Krenel major with over 15 y...\"",
+                      "actor": "Kortenaer",
+                      "to": "You",
+                      "articyId": "0x0100004C0001963E",
+                      "english": "\"I am a Krenel major with over 15 years of live-combat experience. When my colonel gets hanged by clay-monkeys I lead the platoon on a *retaliation strike*.\"",
+                      "polish": "„Jestem starszym sierżantem Krenel z ponad 15 latami bojowego doświadczenia. Gdy miejscowe małpy wieszają mojego pułkownika, to ja prowadzę pluton do *ataku odwetowego*”.",
+                      "belarusian": "«Я старшы сяржант Крэнеў з больш чым 15-гадовым баявым вопытам. Калі мясцовыя малпы вешаюць майго палкоўніка, я ўзначальваю ўзвод для *контратакі*».",
+                      "alternates": {
+                        "Alternate1": {
+                          "english": "\"Me, I fucking *told* you -- I'm a Krenel major with 15 years of live-combat experience. When my colonel gets hanged by clay-monkeys I lead the platoon on a retaliation strike.\"",
+                          "polish": "„Już ci, kurwa, *mówiłem* – jestem starszym sierżantem Krenel z 15 latami bojowego doświadczenia. Gdy miejscowe małpy wieszają mojego pułkownika, to ja prowadzę pluton do ataku odwetowego”.",
+                          "belarusian": "«Я ўжо табе, халера, *казаў* — я старшы сяржант Крэль з 15-гадовым баявым досведам. Калі мясцовыя малпы павесілі майго палкоўніка, то я вяду ўзвод у контратаку»."
+                        }
+                      },
+                      "links": [
+                        {
+                          "id": 39,
+                          "title": "You: \"\"So you are the highest ranking of...\"",
+                          "actor": "You",
+                          "to": "Kim Kitsuragi",
+                          "articyId": "0x0100004C0001964B",
+                          "english": "\"So you are the highest ranking of the three of you?\"",
+                          "polish": "„A więc masz najwyższy stopień z waszej trójki?”",
+                          "belarusian": "«А значыць, у цябе самая высокая ступень з вашай тройкі?»",
+                          "links": [
+                            {
+                              "id": 32,
+                              "title": "Kortenaer: \"\"Nah... I just have the biggest gun...\"",
+                              "actor": "Kortenaer",
+                              "to": "You",
+                              "articyId": "0x0100004C00019669",
+                              "english": "\"Nah... I just have the biggest gun.\" He raps on his armoured barrel-like chest.",
+                              "polish": "„Nieee... Po prostu mam największą spluwę” – odpowiada, uderzając pięścią w swoją szeroką jak beczka klatę.",
+                              "belarusian": "«Неее... Проста ў мяне самая вялікая пісталетка», — адказвае ён, ударыўшы кулаком па сваёй шырокай, як бочка, грудзі.",
+                              "links": [
+                                {
+                                  "id": 59,
+                                  "title": "Hand/Eye Coordination: \"Technically, the other man has the...\"",
+                                  "actor": "Hand/Eye Coordination",
+                                  "to": "You",
+                                  "articyId": "0x010000060001E8C2",
+                                  "english": "Technically, the other man has the biggest gun, but... we're beyond that now.",
+                                  "polish": "Właściwie to ten drugi ma największą spluwę, ale... to teraz mało istotne.",
+                                  "belarusian": "На самой справе, другі мае найвялікшую гармату, але... цяпер гэта малаважна.",
+                                  "links": [
+                                    {
+                                      "id": 21,
+                                      "title": "You: \"\"Hold on, what's the highest rank i...\"",
+                                      "actor": "You",
+                                      "to": "Kim Kitsuragi",
+                                      "articyId": "0x0100004C00019652",
+                                      "english": "\"Hold on, what's the highest rank in Krenel?\"",
+                                      "polish": "„Zaraz, a jaki jest najwyższy stopień w Krenel?”",
+                                      "belarusian": "«Пачакайце, а які найвышэйшы ранг у Крэнэле?»",
+                                      "links": [
+                                        {
+                                          "id": 64,
+                                          "title": "Kortenaer: \"\"King Reaper,\" he says without iron...\"",
+                                          "actor": "Kortenaer",
+                                          "to": "You",
+                                          "articyId": "0x0100004C00019660",
+                                          "english": "\"King Reaper,\" he says without irony.",
+                                          "polish": "„Król żniwiarz” – odpowiada bez cienia ironii w głosie.",
+                                          "belarusian": "«Кароль жнівец» – адказвае без ценю іроніі ў голасе.",
+                                          "links": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 38,
+                                      "title": "You: \"\"As the leader of this group -- rec...\"",
+                                      "actor": "You",
+                                      "to": "Kim Kitsuragi",
+                                      "articyId": "0x0100004C00019658",
+                                      "english": "\"As the leader of this group -- reconsider your actions. This does not need to end in bloodshed.\"",
+                                      "polish": "„Przemyśl raz jeszcze swoje działania jako dowódca tej grupy. To nie musi się kończyć rzezią”.",
+                                      "belarusian": "«Перадумай яшчэ раз свае дзеянні як камандзір гэтай групы. Гэта не абавязкова павінна заканчвацца разнёй».",
+                                      "links": [
+                                        {
+                                          "id": 27,
+                                          "title": "Kortenaer: \"\"You're right. But you see...\" he p...\"",
+                                          "actor": "Kortenaer",
+                                          "to": "You",
+                                          "articyId": "0x0100004C0001967D",
+                                          "english": "\"You're right. But you see...\" he pauses and smiles. \"I *want* it to end in bloodshed.\"",
+                                          "polish": "„Masz rację. Ale tak się składa...” – uśmiecha się – „...że *chcę*, aby skończyło się rzezią”.",
+                                          "belarusian": "«Ты маеш рацыю. Але так складваецца...» — усміхаецца — «...што *хачу*, каб гэта скончылася разням».",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "title": "You: \"\"Krenel does not give you the right...\"",
+                  "actor": "You",
+                  "to": "Kim Kitsuragi",
+                  "articyId": "0x0100004500018AF0",
+                  "english": "\"Krenel does not give you the right to conduct a tribunal!\"",
+                  "polish": "„Krenel nie daje wam prawa urządzania trybunałów!”",
+                  "belarusian": "«Крэнэль не дае вам права ладзіць трыбуналы!»",
+                  "alternates": {
+                    "Alternate1": {
+                      "english": "\"Does your employer give you the right to conduct tribunal?\"",
+                      "polish": "„Czy wasz pracodawca daje wam prawo urządzania trybunałów?”",
+                      "belarusian": "\"Ці дае ваш працадаўца вам права наладжваць трыбуналы?\""
+                    }
+                  },
+                  "links": [
+                    {
+                      "id": 47,
+                      "title": "Kortenaer: \"\"Pops...\" he says looking at your s...\"",
+                      "actor": "Kortenaer",
+                      "to": "You",
+                      "articyId": "0x01000078000124A9",
+                      "english": "\"Pops...\" he says looking at your saggy sideburns -- they seem to calm him down for a second. \"You have no idea about the rights Krenel extends to us.\"",
+                      "polish": "„Ojczulku...” – zwraca się do ciebie, zerkając na twoje bujne bokobrody, które zdają się uspokajać go na chwilę. „Nie masz pojęcia o prawach, jakie daje nam Krenel”.",
+                      "belarusian": "«Бацька…» – звяртаецца да цябе, зіркаючы на твае пышныя бакенбарды, якія, здаецца, супакойваюць яго на імгненне. «Ты не маеш паняцця пра правы, якія дае нам Крэнель».",
+                      "alternates": {
+                        "Alternate1": {
+                          "english": "\"Pops...\" he says. \"You have no idea about the rights Krenel extends to us.\"",
+                          "polish": "„Ojczulku...” – zwraca się do ciebie. „Nie masz pojęcia o prawach, jakie daje nam Krenel”.",
+                          "belarusian": "«Татку...» — звяртаецца да цябе. «Ты не маеш уяўлення пра правы, якія дае нам Крэнеў»."
+                        }
+                      },
+                      "links": [
+                        {
+                          "id": 60,
+                          "title": "You: \"\"I don't care. It's not okay to kil...\"",
+                          "actor": "You",
+                          "to": "Kim Kitsuragi",
+                          "articyId": "0x0100004C0001940F",
+                          "english": "\"I don't care. It's not okay to kill civilians and local law enforcement officers.\"",
+                          "polish": "„Nie obchodzi mnie to. Zabijanie cywilów i miejscowych stróżów prawa nie jest w porządku”.",
+                          "belarusian": "«Мяне гэта не хвалюе. Забойствы мірных жыхароў і мясцовых праваахоўнікаў не зьяўляюцца правільнымі».",
+                          "links": [
+                            {
+                              "id": 65,
+                              "title": "Kortenaer: \"\"If I fuck and kill you, hang you t...\"",
+                              "actor": "Kortenaer",
+                              "to": "You",
+                              "articyId": "0x0100004C00019490",
+                              "english": "\"If I fuck and kill you, hang you to that street light...\" He points to it. \"... by your shit-pipes -- then that's called a *necessary display of force*.\"",
+                              "polish": "„Gdy przelecę cię i zabiję, a twoje truchło powieszę na tej ulicznej latarni...” – wskazuje – „...używając do tego twoich własnych kiszek – to nazywa się to wtedy *niezbędnym pokazem siły*”.",
+                              "belarusian": "«Калі я пералячу цераз цябе і заб'ю, а твой труп павешу на гэтай вулічнай ліхтары...» — указвае — «...скарыстаўшыся тваімі ўласнымі кішкамі — гэта называецца *неабходным паказам сілы*».",
+                              "links": [
+                                {
+                                  "id": 7,
+                                  "title": "Kortenaer: \"\"No one's going to give a shit abou...\"",
+                                  "actor": "Kortenaer",
+                                  "to": "You",
+                                  "articyId": "0x0100004C00019497",
+                                  "english": "\"No one's going to give a shit about dead loincloths.\" He snorts. \"That's reality.\"",
+                                  "polish": "„Nikt nie kiwnie palcem w sprawie martwych szmaciarzy” – prycha. „Taka jest rzeczywistość”.",
+                                  "belarusian": "«Ніхто і пальцам не варухне ў справе мёртвых злыдняроў», — фыркае. «Такі вось рэальны свет».",
+                                  "links": [
+                                    {
+                                      "id": 34,
+                                      "title": "Rhetoric: \"Okay -- it's not much. But he's thi...\"",
+                                      "actor": "Rhetoric",
+                                      "to": "You",
+                                      "articyId": "0x0100007800012516",
+                                      "english": "Okay -- it's not much. But he's thinking about something *else*. And his hand is off the gun. This did *something*...",
+                                      "polish": "Dobra, to niewiele. Ale przynajmniej myśli o czymś *innym*. I nie trzyma ręki na spluwie. Więc *coś* to dało...",
+                                      "belarusian": "Добра, гэта няшмат. Але прынамсі думае пра нешта *іншае*. І не трымае руку на пісталеце. Дык *нешта* гэта дало...",
+                                      "links": [
+                                        {
+                                          "id": 10,
+                                          "title": "Physical Instrument: \"Now fire! Fuck them up! DO IT! The...\"",
+                                          "actor": "Physical Instrument",
+                                          "to": "You",
+                                          "articyId": "0x010000780001256A",
+                                          "english": "Now fire! Fuck them up! DO IT! The muscles on your back tense up...",
+                                          "polish": "Teraz, wal! Rozpieprz ich! DAWAJ! Napinają ci się mięśnie grzbietu...",
+                                          "belarusian": "Цяпер, бі! Разбі ты іх! ДАВАЙ! Напінаюцца мышцы спіны...",
+                                          "links": []
+                                        },
+                                        {
+                                          "id": 11,
+                                          "title": "Rhetoric: \"Easy, now... Tell them these men di...\"",
+                                          "actor": "Rhetoric",
+                                          "to": "You",
+                                          "articyId": "0x010000060001E8E7",
+                                          "english": "Easy, now... Tell them these men didn't do it. There's a peaceful way out!",
+                                          "polish": "Tylko spokojnie. Powiedz im, że ci ludzie tego nie zrobili. Da się to skończyć pokojowo!",
+                                          "belarusian": "Толькі спакойна. Скажы ім, што гэтыя людзі гэтага не рабілі. Можна ўрэгуляваць гэта мірным шляхам!",
+                                          "links": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 66,
+                          "title": "You: \"\"Okay. What rights are those then?\"\"",
+                          "actor": "You",
+                          "to": "Kim Kitsuragi",
+                          "articyId": "0x0100007800012520",
+                          "english": "\"Okay. What rights are those then?\"",
+                          "polish": "„W porządku. Jakie to zatem prawa?”",
+                          "belarusian": "\"У парадку. Якія ж гэта правы?\"",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "You: \"\"You were called *Downwell* once. W...\"",
+                  "actor": "You",
+                  "to": "Kim Kitsuragi",
+                  "articyId": "0x0100004C00019416",
+                  "english": "\"You were called *Downwell* once. What happened?\"",
+                  "polish": "„Kiedyś nazywaliście się *Downwell*. Co się stało?”",
+                  "belarusian": "«Калісьці вы называлі сябе *Downwell*. Што здарылася?»",
+                  "links": [
+                    {
+                      "id": 8,
+                      "title": "Kortenaer: \"\"What always happens when you get g...\"",
+                      "actor": "Kortenaer",
+                      "to": "You",
+                      "articyId": "0x0100004C000195C2",
+                      "english": "\"What always happens when you get good at your job. That name meant night raids, fucking extra-judicial funkytime... burned villages. Shit that sounds bad on the radio.\"",
+                      "polish": "„To, co dzieje się zawsze, gdy jesteś dobry w tym, co robisz. Ta nazwa oznacza nocne naloty, jebane pozasądowe balety... spalone wioski. Gówno, które źle brzmi w radiu”.",
+                      "belarusian": "«Тое, што адбываецца заўсёды, калі ты добры ў тым, што робіш. Гэтая назва азначае начныя налёты, чортавыя пазасудовыя балі... спаленыя вёскі. Лайно, якое дрэнна гучыць па радыё».",
+                      "links": [
+                        {
+                          "id": 31,
+                          "title": "Kortenaer: \"\"The same thing happened when we we...\"",
+                          "actor": "Kortenaer",
+                          "to": "You",
+                          "articyId": "0x0100004C000195CD",
+                          "english": "\"The same thing happened when we were called whatever-the-fuck it was. Probably won't be called *Krenel* for much longer either...\" He looks around.",
+                          "polish": "„To samo stało się, gdy nazywaliśmy się chuj go wie jak wcześniej. Nazwa *Krenel* pewnie też nie zostanie z nami na długo...” – stwierdza i rozgląda się.",
+                          "belarusian": "«Тое самае адбылося, калі мы раней называліся чорт ведае як. Назва *Крэнэль*, напэўна, таксама не застанецца з намі надоўга...» — кажа ён і азіраецца.",
+                          "links": [
+                            {
+                              "id": 44,
+                              "title": "The Gardener: \"The woman has grown silent. She dra...\"",
+                              "actor": "The Gardener",
+                              "to": "You",
+                              "articyId": "0x01000078000124FC",
+                              "english": "The woman has grown silent. She draws shallow breaths.",
+                              "polish": "Kobieta zamilkła. Bierze płytkie wdechy.",
+                              "belarusian": "Жанчына змоўкла. Яна робіць павярхоўныя ўдыхі.",
+                              "links": []
+                            },
+                            {
+                              "id": 42,
+                              "title": "Kortenaer: \"\"Not after this shit.\"\"",
+                              "actor": "Kortenaer",
+                              "to": "You",
+                              "articyId": "0x0100004C000195D4",
+                              "english": "\"Not after this shit.\"",
+                              "polish": "„Nie po tym gównie”.",
+                              "belarusian": "«Не пасля гэтага лайна».",
+                              "links": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 40,
+                  "title": "You: \"Gulp and say nothing.\"",
+                  "actor": "You",
+                  "to": "Kim Kitsuragi",
+                  "articyId": "0x0100007800012528",
+                  "english": "Gulp and say nothing.",
+                  "polish": "Przełknij ślinę i nic nie mów.",
+                  "belarusian": "Праглыні сліну і нічога не кажы.",
+                  "links": [
+                    {
+                      "id": 45,
+                      "title": "Rhetoric: \"So you just *stand* there!? This is...\"",
+                      "actor": "Rhetoric",
+                      "to": "You",
+                      "articyId": "0x010000780001253C",
+                      "english": "So you just *stand* there!? This is bad, very bad, DO OR SAY SOMETHING NOW!",
+                      "polish": "I tak będziesz *stał*? To źle. Bardzo źle. NATYCHMIAST COŚ ZRÓB ALBO POWIEDZ!",
+                      "belarusian": "І так будзеш *стаяць*? Гэта дрэнна. Вельмі дрэнна. НЕАДКЛАДНА НЕШТА ЗРОБІЦЬ АБО СКАЖЫ!",
+                      "links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Rhetoric: \"International-something?! Internati...\"",
+      "actor": "Rhetoric",
+      "to": "You",
+      "articyId": "0x01000078000124A3",
+      "english": "International-something?! International law!",
+      "polish": "Coś międzynarodowego?! Prawo międzynarodowe!",
+      "belarusian": "Нешта міжнароднае?! Міжнароднае права!",
+      "links": [
+        {
+          "id": 6,
+          "title": "You: \"\"This tribunal is against the law....\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
+          "articyId": "0x0100004C00019467",
+          "english": "\"This tribunal is against the law. The international law.\"",
+          "polish": "„Ten trybunał jest niezgodny z prawem. Międzynarodowym”.",
+          "belarusian": "«Гэты трыбунал супярэчыць закону. Міжнароднаму».",
+          "links": [
+            {
+              "id": 54,
+              "title": "Kortenaer: \"The large man laughs. \"Look around...\"",
+              "actor": "Kortenaer",
+              "to": "You",
+              "articyId": "0x0100004C0001946E",
+              "english": "The large man laughs. \"Look around you, livestock... we're about to butcher the lot of you! Where is your *international law*?\"",
+              "polish": "Olbrzym wybucha śmiechem. „Rozejrzyj się, świnio... Za chwilę zarżniemy was wszystkich! Gdzie jest to twoje *międzynarodowe prawo*?”",
+              "belarusian": "Велетень выбухае смехам. „Азірніся, свіння... Праз хвіліну мы парэжам вас усіх! Дзе тваё *міжнароднае права*?”",
+              "links": [
+                {
+                  "id": 67,
+                  "title": "Kim Kitsuragi: \"\"There will be ramifications -- but...\"",
+                  "actor": "Kim Kitsuragi",
+                  "to": "You",
+                  "articyId": "0x010000780001254F",
+                  "english": "\"There will be ramifications -- but there don't need to be. Let's go inside and discuss what our investigation has uncovered. We have important...\"",
+                  "polish": "„Pociągnie to za sobą konsekwencje – ale nie musi. Wejdźmy do środka i porozmawiajmy o wynikach naszego śledztwa. Mamy istotne...”",
+                  "belarusian": "«Гэта пацягне за сабой наступствы — але не абавязкова. Давайце ўвойдзем унутр і абмеркуем вынікі нашага расследавання. У нас ёсць важныя...»",
+                  "links": [
+                    {
+                      "id": 26,
+                      "title": "De Paule: \"\"We're not fucking coming anywhere,...\"",
+                      "actor": "De Paule",
+                      "to": "You",
+                      "articyId": "0x010000780001255A",
+                      "english": "\"We're not fucking coming anywhere, seolite!\"",
+                      "polish": "„Nigdzie się stąd nie ruszymy, jebany Seolito!”",
+                      "belarusian": "«Адтуль мы нікуды не пойдзем, чортавы Сеоліто!»",
+                      "links": [
+                        {
+                          "id": 43,
+                          "title": "Suggestion: \"It's a *miracle* no one got shot th...\"",
+                          "actor": "Suggestion",
+                          "to": "You",
+                          "articyId": "0x0100007800012585",
+                          "english": "It's a *miracle* no one got shot this time. Stop attempting to use your *head*. It won't work!",
+                          "polish": "To *cud*, że tym razem nikt nie oberwał kulki. Przestań próbować używać *głowy*. To się nie uda!",
+                          "belarusian": "Гэта *цуд*, што гэтым разам ніхто не трапіў пад кулю. Перастань спрабаваць выкарыстоўваць *галаву*. Гэта не атрымаецца!",
+                          "links": []
+                        },
+                        {
+                          "id": 46,
+                          "title": "Suggestion: \"Say something. Get off this trail....\"",
+                          "actor": "Suggestion",
+                          "to": "You",
+                          "articyId": "0x0100007800012562",
+                          "english": "Say something. Get off this trail. Thank god it's only *ineffectual* thus far.",
+                          "polish": "Powiedz coś. Zbij go z tropu. Bogu dzięki, że jak dotąd to tylko *nieskuteczne*.",
+                          "belarusian": "Скажы нешта. Зблытай яго. Дзякуй Богу, што пакуль гэта толькі *неефектыўна*.",
+                          "links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "title": "You: \"Don't say it.\"",
+          "actor": "You",
+          "to": "Kim Kitsuragi",
+          "articyId": "0x01000078000139EA",
+          "english": "Don't say it.",
+          "polish": "Nie mów tego.",
+          "belarusian": "Не кажы гэтага.",
+          "links": [
+            {
+              "id": 58,
+              "title": "Rhetoric: \"DON'T SAY IT? But now you've stood...\"",
+              "actor": "Rhetoric",
+              "to": "You",
+              "articyId": "0x01000078000139F1",
+              "english": "DON'T SAY IT? But now you've stood there scratching your ass for 1.5 seconds, you think this *helps* things?",
+              "polish": "NIE MÓW TEGO? Już od półtorej sekundy stoisz i drapiesz się po dupie. Myślisz, że to coś *daje*?",
+              "belarusian": "НЕ КАЖЫ ГЭТАГА? Яшчэ паўтары секунды ты стаіш і чухаеш сабе па задніцы. Думаеш, што гэта нешта *даў*?",
+              "links": [
+                {
+                  "id": 36,
+                  "title": "Rhetoric: \"Easy, now! Easy. Just tell them the...\"",
+                  "actor": "Rhetoric",
+                  "to": "You",
+                  "articyId": "0x010000060001E8F4",
+                  "english": "Easy, now! Easy. Just tell them these men didn't do it. There's a peaceful way out...",
+                  "polish": "Tylko spokojnie! Spokojnie. Powiedz im po prostu, że ci ludzie tego nie zrobili. Da się to skończyć pokojowo...",
+                  "belarusian": "Толькі спакойна! Спакойна. Скажы ім проста, што гэтыя людзі гэтага не зрабілі. Можна скончыць гэта мірна...",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
