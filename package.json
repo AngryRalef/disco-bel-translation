@@ -4,7 +4,9 @@
   "description": "",
   "main": "translation.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node tools/text-translation/integrity-checkers/lint-json-files.mjs",
+    "fix-json": "node tools/text-translation/fixers/fix-json-files.mjs"
   },
   "private": true,
   "dependencies": {
@@ -13,5 +15,10 @@
     "openai": "^4.77.3",
     "throttled-queue": "^2.1.4",
     "uuid": "^11.0.4"
+  },
+  "devDependencies": {
+    "glob": "^13.0.6",
+    "jsonlint": "^1.6.3",
+    "jsonrepair": "^3.14.0"
   }
 }
