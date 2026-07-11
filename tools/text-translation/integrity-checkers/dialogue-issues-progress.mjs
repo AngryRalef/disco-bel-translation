@@ -1,3 +1,39 @@
+/**
+ * dialogue-issues-progress.mjs
+ *
+ * Usage:
+ *   node dialogue-issues-progress.mjs [--owner <owner>] [--repo <repo>] [--output <relative-path>] [--token <github-token>]
+ *
+ *   --owner   GitHub repository owner (default: AngryRalef)
+ *   --repo    GitHub repository name  (default: disco-bel-translation)
+ *   --output  Output file path relative to the repo root (default: text/dialogue-issues-progress.json)
+ *   --token   GitHub personal access token; falls back to the GITHUB_TOKEN env variable.
+ *             Omitting the token still works but is subject to lower API rate limits.
+ *
+ * What it does:
+ *   1. Scans text/dialogues/ for all numeric JSON files (e.g. 1.json, 42.json).
+ *   2. Fetches all GitHub issues whose title matches "dialogue-NNN" from the given repo.
+ *   3. For every dialogue file it counts English and Belarusian words (including alternates).
+ *   4. Correlates each dialogue with its GitHub issue status: closed | open | missing.
+ *
+ * Output — a JSON report saved to the path specified by --output (or the default above):
+ *   {
+ *     generatedAt,           // ISO timestamp
+ *     repository,            // { owner, name }
+ *     source,                // { dialoguesPath, dialogueCount }
+ *     issues,                // { closed, open, missing, mapped } — dialogue counts
+ *     words: {
+ *       english:    { total, closed, progressPercent },
+ *       belarusian: { total, closed, progressPercent }
+ *     },
+ *     completion: { byDialoguesPercent },
+ *     perDialogue            // per-file breakdown: dialogueId, issueKey, status, issueNumbers, word counts
+ *   }
+ *
+ * Also prints a summary to stdout:
+ *   dialogue totals, word-count progress for both languages, and the output file path.
+ */
+
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
