@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "node tools/text-translation/integrity-checkers/lint-json-files.mjs",
     "fix-json": "node tools/text-translation/fixers/fix-json-files.mjs",
-    "import-lockit": "dotnet run --project tools/asset-importer"
+    "import-assets": "dotnet run --project tools/asset-importer"
   },
   "private": true,
   "dependencies": {
