@@ -92,6 +92,25 @@ foreach (var job in jobs)
     Console.WriteLine($"  {job.DisplayName} -> {job.Container} @ {job.PathId}{suffix}");
 }
 
+// Cpp2IL is only needed for assets without an embedded type tree, and it's slow to set
+// up (parses the game's whole IL2CPP binary) - build it at most once per run and share it.
+Cpp2IlTempGenerator? sharedCpp2Il = null;
+Cpp2IlTempGenerator GetCpp2Il()
+{
+    if (sharedCpp2Il == null)
+    {
+        var metaPath = Path.Combine(dataDir, "il2cpp_data", "Metadata", "global-metadata.dat");
+        var asmPath = Path.Combine(config.GamePath, "GameAssembly.dll");
+        if (!File.Exists(metaPath) || !File.Exists(asmPath))
+        {
+            throw new FileNotFoundException($"IL2CPP metadata not found ({metaPath} / {asmPath})");
+        }
+        Console.WriteLine("  (setting up IL2CPP metadata - this takes a moment)");
+        sharedCpp2Il = new Cpp2IlTempGenerator(metaPath, asmPath);
+    }
+    return sharedCpp2Il;
+}
+
 // resolve each job's container to either a bundle file, or a direct "<file>.assets" in dataDir
 var bundleFiles = Directory.Exists(bundlesRoot)
     ? Directory.GetFiles(bundlesRoot, "*", SearchOption.AllDirectories)
@@ -102,17 +121,43 @@ var directContainers = new HashSet<string>(jobs.Select(j => j.Container).Where(c
 var bundleContainers = new HashSet<string>(jobs.Select(j => j.Container).Where(c => !c.EndsWith(".assets")));
 
 Console.WriteLine("\nLocating containers...");
+
+// fast path: exact CAB-hash match against each bundle's directory entries
 var containerToBundle = new Dictionary<string, string>();
 foreach (var container in bundleContainers)
 {
     string? found = bundleFiles.FirstOrDefault(f => BundleContainsEntry(f, container));
+    if (found != null)
+    {
+        containerToBundle[container] = found;
+        Console.WriteLine($"  {container} -> {Path.GetRelativePath(bundlesRoot, found)} (bundle)");
+    }
+}
+
+// Resolve every bundle-hosted job to its actual (bundleFile, container). Jobs whose
+// container matched above inherit it directly. The rest have a container whose CAB hash
+// no longer exists in any bundle at all - a full container-level drift (e.g. after a
+// rebuild), not just a stale pathId within an otherwise-found container - so fall back to
+// scanning every bundle for an asset matching this job's name instead of the stale hash.
+var jobTarget = new Dictionary<ImportJob, (string BundleFile, string Container)>();
+foreach (var job in jobs.Where(j => bundleContainers.Contains(j.Container)))
+{
+    if (containerToBundle.TryGetValue(job.Container, out var bundleFile))
+    {
+        jobTarget[job] = (bundleFile, job.Container);
+        continue;
+    }
+
+    Console.WriteLine($"  {job.Container} not found directly, searching all bundles by name for '{job.DisplayName}'...");
+    var expectedType = job.IsDirectTexture ? AssetClassID.Texture2D : AssetClassID.MonoBehaviour;
+    var found = FindContainerByName(bundleFiles, toolDir, job, expectedType, GetCpp2Il);
     if (found == null)
     {
-        Console.WriteLine($"ERROR: couldn't find any bundle under {bundlesRoot} containing {container}");
+        Console.WriteLine($"ERROR: couldn't find '{job.DisplayName}' in any bundle under {bundlesRoot} (by container {job.Container} or by name)");
         return 1;
     }
-    containerToBundle[container] = found;
-    Console.WriteLine($"  {container} -> {Path.GetRelativePath(bundlesRoot, found)} (bundle)");
+    Console.WriteLine($"  WARNING: {job.Container} drifted - '{job.DisplayName}' found instead in {Path.GetRelativePath(bundlesRoot, found.Value.BundleFile)} / {found.Value.Container}");
+    jobTarget[job] = (found.Value.BundleFile, found.Value.Container);
 }
 
 foreach (var container in directContainers)
@@ -126,29 +171,10 @@ foreach (var container in directContainers)
     Console.WriteLine($"  {container} -> {container} (direct file)");
 }
 
-// Cpp2IL is only needed for direct files without an embedded type tree, and it's slow to
-// set up (parses the game's whole IL2CPP binary) - build it at most once per run and share it.
-Cpp2IlTempGenerator? sharedCpp2Il = null;
-Cpp2IlTempGenerator GetCpp2Il()
-{
-    if (sharedCpp2Il == null)
-    {
-        var metaPath = Path.Combine(dataDir, "il2cpp_data", "Metadata", "global-metadata.dat");
-        var asmPath = Path.Combine(config.GamePath, "GameAssembly.dll");
-        if (!File.Exists(metaPath) || !File.Exists(asmPath))
-        {
-            throw new FileNotFoundException($"IL2CPP metadata not found ({metaPath} / {asmPath})");
-        }
-        Console.WriteLine("  (setting up IL2CPP metadata for a direct-file import - this takes a moment)");
-        sharedCpp2Il = new Cpp2IlTempGenerator(metaPath, asmPath);
-    }
-    return sharedCpp2Il;
-}
-
 var touchedFiles = new List<string>();
 
 // ============ bundle-hosted jobs ============
-foreach (var group in jobs.Where(j => containerToBundle.ContainsKey(j.Container)).GroupBy(j => containerToBundle[j.Container]))
+foreach (var group in jobTarget.Keys.GroupBy(j => jobTarget[j].BundleFile))
 {
     var liveBundlePath = group.Key;
     var originalBackupPath = liveBundlePath + "-original";
@@ -167,7 +193,7 @@ foreach (var group in jobs.Where(j => containerToBundle.ContainsKey(j.Container)
     var bunInst = manager.LoadBundleFile(originalBackupPath);
     var dirInfos = bunInst.file.BlockAndDirInfo.DirectoryInfos;
 
-    foreach (var containerGroup in group.GroupBy(j => j.Container))
+    foreach (var containerGroup in group.GroupBy(j => jobTarget[j].Container))
     {
         var container = containerGroup.Key;
         var idx = dirInfos.ToList().FindIndex(d => d.Name == container);
@@ -329,11 +355,36 @@ static bool WriteReplacing(Action writeTmp, string livePath, string gamePath)
 // Unity's texture row order).
 static bool PatchAsset(AssetsManager manager, AssetsFileInstance fileInst, ImportJob job)
 {
+    var expectedType = job.IsDirectTexture ? AssetClassID.Texture2D : AssetClassID.MonoBehaviour;
     var info = fileInst.file.GetAssetInfo(job.PathId);
-    if (info == null)
+    var resolvedName = info != null ? TryGetName(manager, fileInst, info) : null;
+
+    // Fast path (pathId hit and its name matches) is the common case. Otherwise the
+    // pathId either moved or got reassigned to a different asset entirely (both are real
+    // risks across a game rebuild) - fall back to finding the asset by its own name
+    // instead of trusting a potentially-stale/wrong pathId.
+    if (info == null || resolvedName != job.DisplayName)
     {
-        Console.WriteLine($"  ERROR: pathId {job.PathId} ({job.DisplayName}) not found in {job.Container}");
-        return false;
+        var oldPathId = job.PathId;
+        var candidates = fileInst.file.GetAssetsOfType(expectedType)
+            .Select(c => (Info: c, Name: TryGetName(manager, fileInst, c)))
+            .Where(c => c.Name == job.DisplayName)
+            .ToList();
+
+        if (candidates.Count == 0)
+        {
+            var atPathId = info != null ? $"'{resolvedName}'" : "(pathId missing)";
+            Console.WriteLine($"  ERROR: '{job.DisplayName}' not found in {job.Container} by pathId {oldPathId} (found {atPathId} there) or by name (checked {expectedType})");
+            return false;
+        }
+        if (candidates.Count > 1)
+        {
+            Console.WriteLine($"  ERROR: '{job.DisplayName}' matched multiple assets in {job.Container} by name: {string.Join(", ", candidates.Select(c => c.Info.PathId))}");
+            return false;
+        }
+
+        info = candidates[0].Info;
+        Console.WriteLine($"  WARNING: {job.DisplayName} drifted (was pathId {oldPathId}, now {info.PathId}) - resolved by name");
     }
 
     if (job.IsDirectTexture)
@@ -462,6 +513,83 @@ static bool BundleContainsEntry(string bundleFile, string container)
     {
         return false;
     }
+}
+
+// Reads an asset's own m_Name field - the identity we trust over a filename-embedded
+// pathId/container, since it's what UABE's export convention names files after.
+static string? TryGetName(AssetsManager manager, AssetsFileInstance fileInst, AssetFileInfo info)
+{
+    try
+    {
+        return manager.GetBaseField(fileInst, info)["m_Name"].AsString;
+    }
+    catch
+    {
+        return null;
+    }
+}
+
+// Fallback for full container-level drift: a job's CAB hash doesn't exist in any bundle
+// anymore (e.g. after a rebuild reshuffled bundle contents). Scans every bundle's every
+// container for an asset of the expected type whose m_Name matches the job's name.
+static (string BundleFile, string Container)? FindContainerByName(
+    List<string> bundleFiles, string toolDir, ImportJob job, AssetClassID expectedType, Func<Cpp2IlTempGenerator> getCpp2Il)
+{
+    foreach (var bundleFile in bundleFiles)
+    {
+        var manager = new AssetsManager();
+        manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+
+        BundleFileInstance? bunInst = null;
+        try
+        {
+            bunInst = manager.LoadBundleFile(bundleFile);
+        }
+        catch
+        {
+            // not a readable bundle - skip it
+        }
+
+        if (bunInst == null)
+        {
+            manager.UnloadAll();
+            continue;
+        }
+
+        var dirInfos = bunInst.file.BlockAndDirInfo.DirectoryInfos;
+        for (var idx = 0; idx < dirInfos.Count; idx++)
+        {
+            AssetsFileInstance? fileInst = null;
+            try
+            {
+                fileInst = manager.LoadAssetsFileFromBundle(bunInst, idx);
+                manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+                if (!fileInst.file.Metadata.TypeTreeEnabled)
+                {
+                    manager.MonoTempGenerator = getCpp2Il();
+                }
+            }
+            catch
+            {
+                fileInst = null;
+            }
+
+            if (fileInst == null) continue;
+
+            var match = fileInst.file.GetAssetsOfType(expectedType)
+                .FirstOrDefault(c => TryGetName(manager, fileInst, c) == job.DisplayName);
+            if (match != null)
+            {
+                var container = dirInfos[idx].Name;
+                manager.UnloadAll();
+                return (bundleFile, container);
+            }
+        }
+
+        manager.UnloadAll();
+    }
+
+    return null;
 }
 
 static string FindDataDir(string gamePath)
