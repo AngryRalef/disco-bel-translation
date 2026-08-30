@@ -1,0 +1,14 @@
+{
+  "_comment": "Maps each font-assets/output/<name>.json (the in-game font identity, kept intact) to the font-assets/input/<name> Atlas-*.png whose alpha channel supplies the replacement glyph atlas pixels. Source: https://docs.google.com/spreadsheets/d/1PJZUrZLbVxKCHZDMjq5jAI-3l3R0cKODoWCOpJOUZus",
+  "mappings": [
+    { "font": "CoreSansES Light SDF", "atlasPng": "RobotoCondensed-ExtraLight SDF Atlas-sharedassets0.assets-17.png" },
+    { "font": "Dobra-Bold SDF", "atlasPng": "Exo2-Bold SDF Atlas-sharedassets0.assets-14.png" },
+    { "font": "Dobra-Book SDF", "atlasPng": "MPLUSRounded1c-Medium SDF Atlas-sharedassets0.assets-16.png" },
+    { "font": "Dobra-Light SDF", "atlasPng": "Roboto-Light SDF Atlas-sharedassets0.assets-12.png" },
+    { "font": "Dobra-Medium SDF", "atlasPng": "Exo2-SemiBold SDF Atlas-sharedassets0.assets-11.png" },
+    { "font": "OpenDyslexic3-Bold SDF", "atlasPng": "OpenDyslexic-Bold SDF Atlas-sharedassets0.assets-15.png" },
+    { "font": "OpenDyslexic3-Regular SDF", "atlasPng": "OpenDyslexic-Regular SDF Atlas-sharedassets0.assets-18.png" },
+    { "font": "SinaNova-Bold SDF", "atlasPng": "Merriweather-Regular SDF Atlas-sharedassets0.assets-19.png" },
+    { "font": "SinaNova-Medium SDF", "atlasPng": "Merriweather-Light SDF Atlas-sharedassets0.assets-13.png" }
+  ]
+}
