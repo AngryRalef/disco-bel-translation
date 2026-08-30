@@ -1,20 +1,26 @@
 import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import JSONBig from 'json-bigint';
 
-const dialoguesTreeFolder = './../../../text/dialogues';
-const flatDialoguesFilePath = './../../../text/translated/dialogues-translated.json';
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const textDir = path.join(__dirname, '../../../text');
+const translatedDir = path.join(textDir, 'translated');
 
-const generalFilesFolder = './../../../text/general';
-const generalTranslatedFilePath = './../../../text/translated/general-translated.json';
+const dialoguesTreeFolder = path.join(textDir, 'dialogues');
+const flatDialoguesFilePath = path.join(translatedDir, 'dialogues-translated.json');
+
+const generalFilesFolder = path.join(textDir, 'general');
+const generalTranslatedFilePath = path.join(translatedDir, 'general-translated.json');
 
 const files = [
   {
-    packed: './../../../text/translated/GeneralLockitSpanish-CAB-d60e2740a0d8c8bcedcc6e25a73023dc--3226765757514329824.json',
-    unpacked: './../../../text/translated/general-translated.json'
+    packed: path.join(translatedDir, 'GeneralLockitSpanish-CAB-d60e2740a0d8c8bcedcc6e25a73023dc--3226765757514329824.json'),
+    unpacked: generalTranslatedFilePath
   },
   {
-    packed: './../../../text/translated/DialoguesLockitSpanish-CAB-d60e2740a0d8c8bcedcc6e25a73023dc--7891955455278724077.json',
-    unpacked: './../../../text/translated/dialogues-translated.json'
+    packed: path.join(translatedDir, 'DialoguesLockitSpanish-CAB-d60e2740a0d8c8bcedcc6e25a73023dc--7891955455278724077.json'),
+    unpacked: flatDialoguesFilePath
   }
 ]
 

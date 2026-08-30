@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "node tools/text-translation/integrity-checkers/lint-json-files.mjs",
     "fix-json": "node tools/text-translation/fixers/fix-json-files.mjs",
-    "import-assets": "dotnet run --project tools/asset-importer"
+    "pack-text": "node tools/text-translation/packing/pack-translations.mjs",
+    "import-assets": "dotnet run --project tools/asset-importer",
+    "release": "npm run pack-text && npm run import-assets --"
   },
   "private": true,
   "dependencies": {
