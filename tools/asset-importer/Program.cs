@@ -183,6 +183,106 @@ if (args.Length > 0 && args[0] == "find-lockit-value")
 // Prints a RectTransform's GameObject name + key components, then recurses into its
 // m_Children, to inspect a whole UI panel's layout (siblings like dice icons next to a
 // text label) rather than one object's own ancestor chain.
+// Ad-hoc diagnostic: `dotnet run -- find-gameobject <file> <name>`
+// Finds every GameObject whose m_Name exactly matches `name`, printing its pathId and
+// sibling components - for locating a UI element by name when scan-term (which only
+// searches MonoBehaviour string fields, not GameObject names) doesn't apply.
+if (args.Length > 0 && args[0] == "find-gameobject")
+{
+    return FindGameObjectByName(args[1], args[2]);
+}
+
+// Ad-hoc diagnostic: `dotnet run -- clone-font-cyrillic <targetFile> <targetPathId> <sourceContainer> <sourcePathId> <atlasPngPath>`
+// Copies the font-content fields (glyph/character tables, face metrics, atlas packing) from
+// an already-Cyrillic-patched font asset into a different copy of "the same" font that lives
+// in a different container and was never patched - while leaving every field that's a
+// cross-reference specific to the target's own container (m_Script, material,
+// m_FallbackFontAssetTable, m_FontWeightTable, m_AtlasTextures' PPtr) untouched, since those
+// are already valid there. Also overwrites the target's own atlas Texture2D with the same
+// replacement PNG used for the source, so the two stay visually consistent.
+if (args.Length > 0 && args[0] == "clone-font-cyrillic")
+{
+    return CloneFontCyrillic(args[1], long.Parse(args[2]), args[3], long.Parse(args[4]), args[5]);
+}
+
+// Ad-hoc diagnostic: `dotnet run -- dump-monob-bundle <bundleEntry> <pathId> [maxDepth]`
+// Same as dump-monob but for an asset living inside a bundle entry (CAB-hash) rather than
+// a direct data file.
+if (args.Length > 0 && args[0] == "dump-monob-bundle")
+{
+    return DumpMonoBehaviourInBundle(args[1], long.Parse(args[2]), args.Length > 3 ? int.Parse(args[3]) : 4);
+}
+
+// Ad-hoc diagnostic: `dotnet run -- list-deps <file>`
+// Lists a direct data file's external dependency table (the m_FileID index used by PPtrs
+// that point outside the file itself), so a cross-file PPtr can be resolved to a real path.
+if (args.Length > 0 && args[0] == "list-deps")
+{
+    return ListDeps(args[1]);
+}
+
+// Ad-hoc diagnostic: `dotnet run -- dump-monob <file> <pathId> [maxDepth]`
+// Dumps any asset by pathId directly (no GameObject assumption) - for font assets,
+// materials, and other ScriptableObject-style MonoBehaviours dump-object can't handle.
+if (args.Length > 0 && args[0] == "dump-monob")
+{
+    return DumpMonoBehaviourByPathId(args[1], long.Parse(args[2]), args.Length > 3 ? int.Parse(args[3]) : 4);
+}
+
+// Ad-hoc diagnostic: `dotnet run -- find-monob-everywhere <name>`
+// Like find-gameobject-all-bundles, but searches MonoBehaviour-typed assets (font assets,
+// materials-with-scripts, etc. are stored this way, not as GameObject) across every bundle
+// AND every direct data file, since font assets are ScriptableObjects with no GameObject.
+if (args.Length > 0 && args[0] == "find-monob-everywhere")
+{
+    return FindMonoBehaviourEverywhere(args[1]);
+}
+
+// Ad-hoc diagnostic: `dotnet run -- find-gameobject-all-bundles <name>`
+// Sweeps every bundle file under bundlesRoot (using AssetsTools.NET's own bundle reader,
+// which transparently handles LZ4/LZMA compression - unlike a raw byte grep, which only
+// works on uncompressed bundles) for any GameObject whose m_Name matches exactly.
+if (args.Length > 0 && args[0] == "find-gameobject-all-bundles")
+{
+    return FindGameObjectAllBundles(args[1]);
+}
+
+// Ad-hoc diagnostic/fix: `dotnet run -- remove-component <file> <gameObjectPathId> <componentPathId>`
+// Removes one entry from a GameObject's m_Component array outright (rather than just
+// setting m_Enabled=0), so the component's Awake() can never run at all - Unity only
+// skips Update()/OnEnable()-driven logic for a disabled component, not Awake(), which
+// fires unconditionally at instantiation. Live-file test (writes straight to dataDir,
+// via the usual -original backup), not yet a tracked override.
+if (args.Length > 0 && args[0] == "remove-component")
+{
+    return RemoveComponentLive(args[1], long.Parse(args[2]), long.Parse(args[3]));
+}
+
+// Ad-hoc diagnostic: `dotnet run -- remove-and-patch <file> --remove <goPathId>:<compPathId> [...] --patch <pathId>:<field>=<value> [...]`
+// Combines component removal (see remove-component) with ordinary field patches in one
+// rebuild from -original, so a live test doesn't lose one fix while proving the other.
+if (args.Length > 0 && args[0] == "remove-and-patch")
+{
+    var removeIdx = Array.IndexOf(args, "--remove");
+    var patchIdx = Array.IndexOf(args, "--patch");
+    var removeArgs = args.Skip(removeIdx + 1).Take((patchIdx > removeIdx ? patchIdx : args.Length) - removeIdx - 1);
+    var patchArgs = patchIdx >= 0 ? args.Skip(patchIdx + 1) : Enumerable.Empty<string>();
+
+    var removals = removeArgs.Select(a =>
+    {
+        var colon = a.IndexOf(':');
+        return (GoPathId: long.Parse(a[..colon]), CompPathId: long.Parse(a[(colon + 1)..]));
+    }).ToList();
+    var edits = patchArgs.Select(a =>
+    {
+        var colon = a.IndexOf(':');
+        var eq = a.IndexOf('=');
+        return (PathId: long.Parse(a[..colon]), Field: a[(colon + 1)..eq], Value: a[(eq + 1)..]);
+    }).ToList();
+
+    return RemoveAndPatchLive(args[1], removals, edits);
+}
+
 if (args.Length > 0 && args[0] == "dump-tree")
 {
     return DumpTree(args[1], long.Parse(args[2]), args.Length > 3 ? int.Parse(args[3]) : 3);
@@ -454,7 +554,7 @@ static bool WriteReplacing(Action writeTmp, string livePath, string gamePath)
 // `job.PathId`. If the job carries an atlas PNG (fonts only), also overwrites that
 // font's atlas Texture2D with the PNG's alpha channel (vertically flipped to match
 // Unity's texture row order).
-static bool PatchAsset(AssetsManager manager, AssetsFileInstance fileInst, ImportJob job)
+bool PatchAsset(AssetsManager manager, AssetsFileInstance fileInst, ImportJob job)
 {
     var info = fileInst.file.GetAssetInfo(job.PathId);
     var resolvedName = info != null ? TryGetName(manager, fileInst, info) : null;
@@ -512,6 +612,97 @@ static bool PatchAsset(AssetsManager manager, AssetsFileInstance fileInst, Impor
             if (!ApplyFieldPatch(patchField, patch, job.DisplayName)) return false;
             info.SetNewData(patchField);
             Console.WriteLine($"  patched {job.DisplayName}");
+            return true;
+        }
+
+        // A component-removal override (top-level "$removeComponents": [pathId, ...]) drops
+        // entries from this GameObject's m_Component array outright - needed because setting
+        // a component's own m_Enabled=0 only skips its Update()/OnEnable()-driven logic, not
+        // Awake(), which fires unconditionally at instantiation regardless of enabled state.
+        // `job` here must target a GameObject (ClassID 1), not the component itself.
+        if (doc.RootElement.TryGetProperty("$removeComponents", out var removeArray))
+        {
+            var goField = manager.GetBaseField(fileInst, info);
+            foreach (var compPathIdElem in removeArray.EnumerateArray())
+            {
+                if (!RemoveComponentFromGameObject(goField, compPathIdElem.GetInt64(), out var err))
+                {
+                    Console.WriteLine($"  ERROR: {job.DisplayName}: {err}");
+                    return false;
+                }
+            }
+            info.SetNewData(goField);
+            Console.WriteLine($"  patched {job.DisplayName} (removed {removeArray.GetArrayLength()} component(s))");
+            return true;
+        }
+
+        // A font-content-clone override (top-level "$cloneFontFrom": { container, pathId,
+        // atlasPng }) copies the Cyrillic glyph/character tables + face metrics from an
+        // already-patched copy of "the same" font living elsewhere, into this asset - while
+        // leaving every reference specific to THIS asset's own container (m_Script, material,
+        // m_FallbackFontAssetTable, m_FontWeightTable, the atlas Texture2D's own PPtr)
+        // untouched, since those are already valid here. Needed when a font asset was
+        // duplicated across containers by Unity's own build process and only one copy ever
+        // got the Cyrillic-glyph treatment - the other keeps rendering via TMP's fallback
+        // chain, at whatever scale that fallback font happens to use.
+        if (doc.RootElement.TryGetProperty("$cloneFontFrom", out var cloneSpec))
+        {
+            var sourceContainer = cloneSpec.GetProperty("container").GetString()!;
+            var sourcePathId = cloneSpec.GetProperty("pathId").GetInt64();
+            var atlasPngName = cloneSpec.GetProperty("atlasPng").GetString()!;
+            var atlasPngPath = Path.Combine(fontInputDir, atlasPngName);
+
+            AssetsFileInstance sourceFileInst;
+            if (IsDirectContainer(sourceContainer))
+            {
+                sourceFileInst = manager.LoadAssetsFile(Path.Combine(dataDir, sourceContainer), true);
+            }
+            else
+            {
+                var bundleFile = Directory.GetFiles(bundlesRoot, "*", SearchOption.AllDirectories)
+                    .Where(f => !f.EndsWith(".manifest", StringComparison.OrdinalIgnoreCase))
+                    .FirstOrDefault(f => BundleContainsEntry(f, sourceContainer));
+                if (bundleFile == null)
+                {
+                    Console.WriteLine($"  ERROR: {job.DisplayName}: source container '{sourceContainer}' not found in any bundle");
+                    return false;
+                }
+                var bunInst = manager.LoadBundleFile(bundleFile);
+                var dirInfos = bunInst.file.BlockAndDirInfo.DirectoryInfos;
+                var idx = dirInfos.ToList().FindIndex(d => d.Name == sourceContainer);
+                sourceFileInst = manager.LoadAssetsFileFromBundle(bunInst, idx);
+            }
+            manager.LoadClassDatabaseFromPackage(sourceFileInst.file.Metadata.UnityVersion);
+            if (!sourceFileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+
+            var sourceInfo = sourceFileInst.file.GetAssetInfo(sourcePathId);
+            if (sourceInfo == null)
+            {
+                Console.WriteLine($"  ERROR: {job.DisplayName}: pathId {sourcePathId} not found in '{sourceContainer}'");
+                return false;
+            }
+
+            var targetField = manager.GetBaseField(fileInst, info);
+            var sourceField = manager.GetBaseField(sourceFileInst, sourceInfo);
+            CloneFontContentFields(targetField, sourceField);
+
+            var clonedAtlasPathId = targetField["m_AtlasTextures"]["Array"][0]["m_PathID"].AsLong;
+            info.SetNewData(targetField);
+
+            var clonedAtlasInfo = fileInst.file.GetAssetInfo(clonedAtlasPathId);
+            var clonedAtlasField = manager.GetBaseField(fileInst, clonedAtlasInfo);
+            var clonedPixels = LoadAlphaChannelFlippedVertically(atlasPngPath, out var clonedW, out var clonedH);
+            clonedAtlasField["m_Width"].AsInt = clonedW;
+            clonedAtlasField["m_Height"].AsInt = clonedH;
+            clonedAtlasField["m_CompleteImageSize"].AsInt = clonedPixels.Length;
+            clonedAtlasField["m_TextureFormat"].AsInt = 1; // Alpha8
+            clonedAtlasField["image data"].AsByteArray = clonedPixels;
+            clonedAtlasField["m_StreamData"]["offset"].AsULong = 0;
+            clonedAtlasField["m_StreamData"]["size"].AsUInt = 0;
+            clonedAtlasField["m_StreamData"]["path"].AsString = "";
+            clonedAtlasInfo.SetNewData(clonedAtlasField);
+
+            Console.WriteLine($"  patched {job.DisplayName} (cloned font content from {sourceContainer}@{sourcePathId}, atlas {clonedW}x{clonedH})");
             return true;
         }
     }
@@ -596,6 +787,77 @@ static bool PatchAsset(AssetsManager manager, AssetsFileInstance fileInst, Impor
     }
 
     return true;
+}
+
+// Removes one entry from a GameObject's m_Component array whose PPtr resolves to
+// `componentPathId`, updating the array's size. Handles every m_Component entry shape
+// seen across Unity versions: PPtr<Component> directly, { first, second: PPtr }, or a
+// ComponentPair with { component: PPtr } as the entry itself.
+static bool RemoveComponentFromGameObject(AssetTypeValueField goField, long componentPathId, out string error)
+{
+    var componentArrayField = goField["m_Component"]["Array"];
+    var entries = componentArrayField.Children;
+    AssetTypeValueField? toRemove = null;
+    foreach (var entry in entries)
+    {
+        var pptrField = entry.Children.FirstOrDefault(c => c.FieldName == "second")
+            ?? entry.Children.FirstOrDefault(c => c.FieldName == "component")
+            ?? entry;
+        if (pptrField.Children.FirstOrDefault(c => c.FieldName == "m_PathID") == null) continue;
+        if (pptrField["m_PathID"].AsLong == componentPathId)
+        {
+            toRemove = entry;
+            break;
+        }
+    }
+
+    if (toRemove == null)
+    {
+        error = $"componentPathId {componentPathId} not found in this GameObject's m_Component array";
+        return false;
+    }
+
+    entries.Remove(toRemove);
+    var arrayInfo = componentArrayField.Value!.AsArray;
+    arrayInfo.size = entries.Count;
+    componentArrayField.Value.AsArray = arrayInfo;
+    error = "";
+    return true;
+}
+
+// Copies the fields that describe a TMP_FontAsset's actual glyph content and atlas packing
+// from `sourceField` onto `targetField` in place: face metrics, character/glyph tables,
+// kerning/OpenType feature tables, and the atlas dimensions. Both sides must be the same
+// class (TMP_FontAsset), so the shape always matches - only the array lengths differ, which
+// is why array fields are rebuilt wholesale (with AssetTypeArrayInfo.size resynced) rather
+// than merged. Every field that's a cross-reference specific to the target's own container
+// (m_Script, material, m_FallbackFontAssetTable, m_FontWeightTable, the atlas PPtr itself)
+// is deliberately left alone by this function - the caller still owns those.
+static void CloneFontContentFields(AssetTypeValueField targetField, AssetTypeValueField sourceField)
+{
+    foreach (var fieldName in new[] { "m_FaceInfo", "m_KerningTable", "m_FontFeatureTable" })
+    {
+        var t = targetField[fieldName];
+        var s = sourceField[fieldName];
+        t.Children.Clear();
+        t.Children.AddRange(s.Children);
+    }
+
+    foreach (var fieldName in new[] { "m_GlyphTable", "m_CharacterTable", "m_UsedGlyphRects", "m_FreeGlyphRects" })
+    {
+        var t = targetField[fieldName]["Array"];
+        var s = sourceField[fieldName]["Array"];
+        t.Children.Clear();
+        t.Children.AddRange(s.Children);
+        var arrayInfo = t.Value!.AsArray;
+        arrayInfo.size = t.Children.Count;
+        t.Value.AsArray = arrayInfo;
+    }
+
+    targetField["m_AtlasWidth"].AsInt = sourceField["m_AtlasWidth"].AsInt;
+    targetField["m_AtlasHeight"].AsInt = sourceField["m_AtlasHeight"].AsInt;
+    targetField["m_AtlasPadding"].AsInt = sourceField["m_AtlasPadding"].AsInt;
+    targetField["m_AtlasRenderMode"].AsInt = sourceField["m_AtlasRenderMode"].AsInt;
 }
 
 // Sets each "dotted.field.path": value pair in `patch` on `baseField` in place. The
@@ -837,6 +1099,389 @@ int DumpObject(string fileName, long gameObjectPathId)
     var isActive = goField.Children.FirstOrDefault(f => f.FieldName == "m_IsActive")?.AsBool;
     Console.WriteLine($"GameObject '{goField["m_Name"].AsString}' (pathId {gameObjectPathId}) m_IsActive={isActive}:");
     DumpComponents(manager, fileInst, goField);
+    manager.UnloadAll();
+    return 0;
+}
+
+int RemoveComponentLive(string fileName, long gameObjectPathId, long componentPathId)
+{
+    return RemoveAndPatchLive(fileName, new List<(long, long)> { (gameObjectPathId, componentPathId) }, new List<(long, string, string)>());
+}
+
+int RemoveAndPatchLive(string fileName, List<(long GoPathId, long CompPathId)> removals, List<(long PathId, string Field, string Value)> edits)
+{
+    var livePath = Path.Combine(dataDir, fileName);
+    var originalBackupPath = livePath + "-original";
+    if (!File.Exists(originalBackupPath))
+    {
+        Console.WriteLine($"Creating pristine backup: {Path.GetFileName(originalBackupPath)}");
+        File.Copy(livePath, originalBackupPath);
+    }
+
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+    var fileInst = manager.LoadAssetsFile(originalBackupPath, true);
+    manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+    if (!fileInst.file.Metadata.TypeTreeEnabled)
+    {
+        manager.MonoTempGenerator = GetCpp2Il();
+    }
+
+    foreach (var (goPathId, compPathId) in removals)
+    {
+        var info = fileInst.file.GetAssetInfo(goPathId);
+        if (info == null) { Console.WriteLine($"ERROR: GameObject pathId {goPathId} not found"); return 1; }
+        var goField = manager.GetBaseField(fileInst, info);
+
+        if (!RemoveComponentFromGameObject(goField, compPathId, out var err))
+        {
+            Console.WriteLine($"ERROR: {err}");
+            return 1;
+        }
+
+        info.SetNewData(goField);
+        Console.WriteLine($"  removed component pathId {compPathId} from GameObject {goPathId}");
+    }
+
+    foreach (var group in edits.GroupBy(e => e.PathId))
+    {
+        var info = fileInst.file.GetAssetInfo(group.Key);
+        if (info == null) { Console.WriteLine($"ERROR: pathId {group.Key} not found in {fileName}"); return 1; }
+        var baseField = manager.GetBaseField(fileInst, info);
+
+        foreach (var (_, fieldPath, value) in group)
+        {
+            var field = baseField;
+            foreach (var segment in fieldPath.Split('.')) field = field[segment];
+            if (field.Value == null) { Console.WriteLine($"ERROR: '{fieldPath}' doesn't resolve to a value field"); return 1; }
+
+            switch (field.Value.ValueType)
+            {
+                case AssetValueType.Bool: field.AsBool = bool.Parse(value); break;
+                case AssetValueType.Int8: field.AsSByte = sbyte.Parse(value); break;
+                case AssetValueType.UInt8: field.AsByte = byte.Parse(value); break;
+                case AssetValueType.Int16: field.AsShort = short.Parse(value); break;
+                case AssetValueType.UInt16: field.AsUShort = ushort.Parse(value); break;
+                case AssetValueType.Int32: field.AsInt = int.Parse(value); break;
+                case AssetValueType.UInt32: field.AsUInt = uint.Parse(value); break;
+                case AssetValueType.Int64: field.AsLong = long.Parse(value); break;
+                case AssetValueType.UInt64: field.AsULong = ulong.Parse(value); break;
+                case AssetValueType.Float: field.AsFloat = float.Parse(value); break;
+                case AssetValueType.Double: field.AsDouble = double.Parse(value); break;
+                case AssetValueType.String: field.AsString = value; break;
+                default: Console.WriteLine($"ERROR: '{fieldPath}' has unsupported type {field.Value.ValueType}"); return 1;
+            }
+            Console.WriteLine($"  pathId {group.Key}: {fieldPath} = {value}");
+        }
+
+        info.SetNewData(baseField);
+    }
+
+    var ok = WriteReplacing(() => { using var s = File.Create(livePath + ".tmp"); fileInst.file.Write(new AssetsFileWriter(s)); }, livePath, config.GamePath);
+    manager.UnloadAll();
+    return ok ? 0 : 1;
+}
+
+int CloneFontCyrillic(string targetFile, long targetPathId, string sourceContainer, long sourcePathId, string atlasPngPath)
+{
+    var livePath = Path.Combine(dataDir, targetFile);
+    var originalBackupPath = livePath + "-original";
+    if (!File.Exists(originalBackupPath))
+    {
+        Console.WriteLine($"Creating pristine backup: {Path.GetFileName(originalBackupPath)}");
+        File.Copy(livePath, originalBackupPath);
+    }
+
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+
+    var targetFileInst = manager.LoadAssetsFile(originalBackupPath, true);
+    manager.LoadClassDatabaseFromPackage(targetFileInst.file.Metadata.UnityVersion);
+    if (!targetFileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+
+    var targetInfo = targetFileInst.file.GetAssetInfo(targetPathId);
+    if (targetInfo == null) { Console.WriteLine($"ERROR: pathId {targetPathId} not found in {targetFile}"); manager.UnloadAll(); return 1; }
+    var targetField = manager.GetBaseField(targetFileInst, targetInfo);
+
+    AssetsFileInstance sourceFileInst;
+    if (IsDirectContainer(sourceContainer))
+    {
+        sourceFileInst = manager.LoadAssetsFile(Path.Combine(dataDir, sourceContainer), true);
+    }
+    else
+    {
+        var bundleFiles = Directory.GetFiles(bundlesRoot, "*", SearchOption.AllDirectories)
+            .Where(f => !f.EndsWith(".manifest", StringComparison.OrdinalIgnoreCase));
+        var bundleFile = bundleFiles.FirstOrDefault(f => BundleContainsEntry(f, sourceContainer));
+        if (bundleFile == null) { Console.WriteLine($"ERROR: container '{sourceContainer}' not found in any bundle"); manager.UnloadAll(); return 1; }
+        var bunInst = manager.LoadBundleFile(bundleFile);
+        var dirInfos = bunInst.file.BlockAndDirInfo.DirectoryInfos;
+        var idx = dirInfos.ToList().FindIndex(d => d.Name == sourceContainer);
+        sourceFileInst = manager.LoadAssetsFileFromBundle(bunInst, idx);
+    }
+    manager.LoadClassDatabaseFromPackage(sourceFileInst.file.Metadata.UnityVersion);
+    if (!sourceFileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+
+    var sourceInfo = sourceFileInst.file.GetAssetInfo(sourcePathId);
+    if (sourceInfo == null) { Console.WriteLine($"ERROR: pathId {sourcePathId} not found in '{sourceContainer}'"); manager.UnloadAll(); return 1; }
+    var sourceField = manager.GetBaseField(sourceFileInst, sourceInfo);
+
+    CloneFontContentFields(targetField, sourceField);
+
+    // Deliberately untouched: m_Script, material, m_SourceFontFile*, m_AtlasTextures' own
+    // PPtr, m_FallbackFontAssetTable, m_FontWeightTable - all already valid references
+    // within the target's own container.
+    var atlasPathId = targetField["m_AtlasTextures"]["Array"][0]["m_PathID"].AsLong;
+
+    targetInfo.SetNewData(targetField);
+
+    var atlasInfo = targetFileInst.file.GetAssetInfo(atlasPathId);
+    var atlasField = manager.GetBaseField(targetFileInst, atlasInfo);
+    var pixels = LoadAlphaChannelFlippedVertically(atlasPngPath, out var w, out var h);
+    atlasField["m_Width"].AsInt = w;
+    atlasField["m_Height"].AsInt = h;
+    atlasField["m_CompleteImageSize"].AsInt = pixels.Length;
+    atlasField["m_TextureFormat"].AsInt = 1; // Alpha8
+    atlasField["image data"].AsByteArray = pixels;
+    atlasField["m_StreamData"]["offset"].AsULong = 0;
+    atlasField["m_StreamData"]["size"].AsUInt = 0;
+    atlasField["m_StreamData"]["path"].AsString = "";
+    atlasInfo.SetNewData(atlasField);
+
+    var writeOk = WriteReplacing(() => { using var fs = File.Create(livePath + ".tmp"); targetFileInst.file.Write(new AssetsFileWriter(fs)); }, livePath, config.GamePath);
+    manager.UnloadAll();
+    if (!writeOk) return 1;
+
+    Console.WriteLine($"  cloned font content {sourceContainer}@{sourcePathId} -> {targetFile}@{targetPathId} (atlas pathId {atlasPathId}, {w}x{h})");
+    return 0;
+}
+
+int DumpMonoBehaviourInBundle(string bundleEntry, long pathId, int maxDepth)
+{
+    var bundleFile = Directory.GetFiles(bundlesRoot, "*", SearchOption.AllDirectories)
+        .Where(f => !f.EndsWith(".manifest", StringComparison.OrdinalIgnoreCase))
+        .FirstOrDefault(f => BundleContainsEntry(f, bundleEntry));
+    if (bundleFile == null) { Console.WriteLine($"ERROR: container '{bundleEntry}' not found in any bundle"); return 1; }
+
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+    var bunInst = manager.LoadBundleFile(bundleFile);
+    var dirInfos = bunInst.file.BlockAndDirInfo.DirectoryInfos;
+    var idx = dirInfos.ToList().FindIndex(d => d.Name == bundleEntry);
+    var fileInst = manager.LoadAssetsFileFromBundle(bunInst, idx);
+    manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+    if (!fileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+
+    var info = fileInst.file.GetAssetInfo(pathId);
+    if (info == null) { Console.WriteLine($"ERROR: pathId {pathId} not found in '{bundleEntry}'"); manager.UnloadAll(); return 1; }
+
+    var field = manager.GetBaseField(fileInst, info);
+    Console.WriteLine($"Asset pathId {pathId} in {bundleEntry} (TypeId {info.TypeId}):");
+    DumpField(field, 0, maxDepth);
+
+    manager.UnloadAll();
+    return 0;
+}
+
+int ListDeps(string fileName)
+{
+    var path = Path.Combine(dataDir, fileName);
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+    var fileInst = manager.LoadAssetsFile(path, true);
+
+    var externals = fileInst.file.Metadata.Externals;
+    Console.WriteLine($"{fileName} has {externals.Count} external dependencies (index 0 = self):");
+    for (var i = 0; i < externals.Count; i++)
+    {
+        Console.WriteLine($"  [{i + 1}] {externals[i].PathName}");
+    }
+
+    manager.UnloadAll();
+    return 0;
+}
+
+int DumpMonoBehaviourByPathId(string fileName, long pathId, int maxDepth)
+{
+    var path = Path.Combine(dataDir, fileName);
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+    var fileInst = manager.LoadAssetsFile(path, true);
+    manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+    if (!fileInst.file.Metadata.TypeTreeEnabled)
+    {
+        manager.MonoTempGenerator = GetCpp2Il();
+    }
+
+    var info = fileInst.file.GetAssetInfo(pathId);
+    if (info == null) { Console.WriteLine($"ERROR: pathId {pathId} not found in {fileName}"); manager.UnloadAll(); return 1; }
+
+    var field = manager.GetBaseField(fileInst, info);
+    Console.WriteLine($"Asset pathId {pathId} in {fileName} (TypeId {info.TypeId}):");
+    DumpField(field, 0, maxDepth);
+
+    manager.UnloadAll();
+    return 0;
+}
+
+int FindMonoBehaviourEverywhere(string name)
+{
+    var totalHits = 0;
+
+    void ScanFileInst(AssetsManager manager, AssetsFileInstance fileInst, string label)
+    {
+        foreach (var info in fileInst.file.GetAssetsOfType(AssetClassID.MonoBehaviour))
+        {
+            string? goName;
+            try { goName = manager.GetBaseField(fileInst, info)["m_Name"].AsString; } catch { continue; }
+            if (goName != name) continue;
+
+            totalHits++;
+            Console.WriteLine($"  FOUND in {label}, pathId {info.PathId}");
+        }
+    }
+
+    // direct data files
+    var directFiles = Directory.Exists(dataDir)
+        ? Directory.GetFiles(dataDir, "*.assets").Concat(Directory.GetFiles(dataDir, "level*")
+            .Where(f => !f.Contains('.'))).ToList()
+        : new List<string>();
+
+    Console.WriteLine($"Scanning {directFiles.Count} direct file(s) + bundles for MonoBehaviour '{name}'...");
+
+    foreach (var directFile in directFiles)
+    {
+        var manager = new AssetsManager();
+        manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+        AssetsFileInstance? fileInst = null;
+        try
+        {
+            fileInst = manager.LoadAssetsFile(directFile, true);
+            manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+            if (!fileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+            ScanFileInst(manager, fileInst, Path.GetFileName(directFile));
+        }
+        catch { /* skip unreadable files */ }
+        manager.UnloadAll();
+    }
+
+    var bundleFiles = Directory.Exists(bundlesRoot)
+        ? Directory.GetFiles(bundlesRoot, "*", SearchOption.AllDirectories)
+            .Where(f => !f.EndsWith(".manifest", StringComparison.OrdinalIgnoreCase))
+            .ToList()
+        : new List<string>();
+
+    foreach (var bundleFile in bundleFiles)
+    {
+        var manager = new AssetsManager();
+        manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+
+        BundleFileInstance? bunInst = null;
+        try { bunInst = manager.LoadBundleFile(bundleFile); } catch { /* not a bundle */ }
+        if (bunInst == null) { manager.UnloadAll(); continue; }
+
+        var dirInfos = bunInst.file.BlockAndDirInfo.DirectoryInfos;
+        for (var idx = 0; idx < dirInfos.Count; idx++)
+        {
+            AssetsFileInstance? fileInst = null;
+            try
+            {
+                fileInst = manager.LoadAssetsFileFromBundle(bunInst, idx);
+                manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+                if (!fileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+            }
+            catch { fileInst = null; }
+            if (fileInst == null) continue;
+
+            ScanFileInst(manager, fileInst, $"{Path.GetRelativePath(bundlesRoot, bundleFile)} / {dirInfos[idx].Name}");
+        }
+
+        manager.UnloadAll();
+    }
+
+    Console.WriteLine($"\n{totalHits} total hit(s) for '{name}' across all direct files + bundles.");
+    return 0;
+}
+
+int FindGameObjectAllBundles(string name)
+{
+    var bundleFiles = Directory.Exists(bundlesRoot)
+        ? Directory.GetFiles(bundlesRoot, "*", SearchOption.AllDirectories)
+            .Where(f => !f.EndsWith(".manifest", StringComparison.OrdinalIgnoreCase))
+            .ToList()
+        : new List<string>();
+
+    Console.WriteLine($"Scanning {bundleFiles.Count} bundle file(s) for GameObject '{name}'...");
+    var totalHits = 0;
+
+    foreach (var bundleFile in bundleFiles)
+    {
+        var manager = new AssetsManager();
+        manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+
+        BundleFileInstance? bunInst = null;
+        try { bunInst = manager.LoadBundleFile(bundleFile); } catch { /* not a bundle */ }
+        if (bunInst == null) { manager.UnloadAll(); continue; }
+
+        var dirInfos = bunInst.file.BlockAndDirInfo.DirectoryInfos;
+        for (var idx = 0; idx < dirInfos.Count; idx++)
+        {
+            AssetsFileInstance? fileInst = null;
+            try
+            {
+                fileInst = manager.LoadAssetsFileFromBundle(bunInst, idx);
+                manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+                if (!fileInst.file.Metadata.TypeTreeEnabled)
+                {
+                    manager.MonoTempGenerator = GetCpp2Il();
+                }
+            }
+            catch { fileInst = null; }
+            if (fileInst == null) continue;
+
+            foreach (var info in fileInst.file.GetAssetsOfType(AssetClassID.GameObject))
+            {
+                string? goName;
+                try { goName = manager.GetBaseField(fileInst, info)["m_Name"].AsString; } catch { continue; }
+                if (goName != name) continue;
+
+                totalHits++;
+                Console.WriteLine($"  FOUND in {Path.GetRelativePath(bundlesRoot, bundleFile)} / {dirInfos[idx].Name}, pathId {info.PathId}");
+            }
+        }
+
+        manager.UnloadAll();
+    }
+
+    Console.WriteLine($"\n{totalHits} total hit(s) for '{name}' across all bundles.");
+    return 0;
+}
+
+int FindGameObjectByName(string fileName, string name)
+{
+    var path = Path.Combine(dataDir, fileName);
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+    var fileInst = manager.LoadAssetsFile(path, true);
+    manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+    if (!fileInst.file.Metadata.TypeTreeEnabled)
+    {
+        manager.MonoTempGenerator = GetCpp2Il();
+    }
+
+    var hits = 0;
+    foreach (var info in fileInst.file.GetAssetsOfType(AssetClassID.GameObject))
+    {
+        AssetTypeValueField goField;
+        try { goField = manager.GetBaseField(fileInst, info); } catch { continue; }
+        if (goField["m_Name"].AsString != name) continue;
+
+        hits++;
+        Console.WriteLine($"\nGameObject '{name}' (pathId {info.PathId}) in {fileName}:");
+        DumpComponents(manager, fileInst, goField);
+    }
+
+    Console.WriteLine($"\n{hits} GameObject(s) named '{name}' in {fileName}.");
     manager.UnloadAll();
     return 0;
 }
