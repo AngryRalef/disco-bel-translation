@@ -1,6 +1,6 @@
 # UI text bug fixes — reminder / reference
 
-Four separate UI text bugs, what actually caused each one, and where the fix lives.
+Five separate UI text bugs, what actually caused each one, and where the fix lives.
 Written after a long investigation (2026-08-31) where several plausible-looking fixes
 turned out to be wrong. Read the "ruled out" notes before re-chasing an old theory.
 
@@ -183,17 +183,114 @@ matched by index — not an array of `{language, value}` pairs like `LocalizeFon
 above). The vanilla Spanish (`es`) entry was `620`, sized for the original short Spanish
 title — nowhere near enough for `"ДАПАСУЙ ЗДОЛЬНАСЦІ:"`.
 
-**Fix:** a new override directive, `$translationFloatPatch`
-(`{"$translationFloatPatch": {"AdjustAbilitiesWidth": {"Spanish": 660.0}}}` — matched by
-the **full language name**, e.g. `"Spanish"`, not a language code like `"es"`) in
-`asset-overrides/CharacterCreationTitleBar-level2-29247.json`.
+**Fix:** the `$translationFloatPatch` override directive (matched by the **full language
+name**, e.g. `"Spanish"`, not a language code like `"es"`) in
+`asset-overrides/CharacterCreationTitleBar-level2-29247.json`:
+```json
+{
+  "$translationFloatPatch": {
+    "AdjustAbilitiesWidth": { "Spanish": 685.0 },
+    "SetSkillWidth": { "Spanish": 480.0 }
+  }
+}
+```
+Same component, same script, two separate title states it switches between
+(`SetAdjustTitle()`/`SetSkillTitle()` — this screen shows `"АБЯРЫ НАВЫК"` when picking a
+*signature skill*, a different header than `"ДАПАСУЙ ЗДОЛЬНАСЦІ:"`). If a third title
+state on this same component ever turns up with the same box-sizing symptom, it's
+almost certainly a third `TranslationTestableFloat` field on `CharacterCreationTitleBar`
+needing the same treatment — check the class's field list in the decompiled `types.cs`
+first.
 
-**Why `660` specifically:** computed the actual rendered text width via the font's own
-glyph data (`measure-text` command, ~695px for the 19 glyphs it has, missing one glyph —
-see below), tried `720` first (visibly too much empty gap between the text and the pips,
-since the pips start at the *end* of the `AdjustAbilitiesWidth`-sized region regardless
-of how much of it the text actually fills), then `660` — confirmed correct in-game in
-both the "many pips" and "one pip" states.
+**Why `685`/`480` specifically:** computed each string's actual rendered text width via
+the font's own glyph data (`measure-text` command — `~695px` for
+`"ДАПАСУЙ ЗДОЛЬНАСЦІ:"` (missing one glyph, see below), `~445px` for
+`"АБЯРЫ НАВЫК"`), then live-tested starting a bit above the raw estimate and tightened
+based on the actual on-screen gap between the text and the pips (`720` for the first one
+left visibly too much dead space before the pips started, since they begin at the *end*
+of the `AdjustAbilitiesWidth`-sized region regardless of how much of it the text actually
+fills) — landed on `660`, then bumped to `685` for a bit more clearance during the
+title-bar's slide-in animation, where it can clip slightly tighter than the settled
+state. Confirmed correct in-game for both title states in the settled state; the
+animation transition has a very minor, split-second visual glitch even at `685` that
+wasn't worth chasing further (see `textTweenDuration`/`backgroundTweenDuration` in
+`CharacterCreationTitleBar` if this needs revisiting — the tween might not be perfectly
+synced between the text and background regardless of the width value).
+
+---
+
+## 5. Thought Cabinet slot names (thought names overflowing their diamond icons)
+
+**Symptom:** thought names in the Thought Cabinet grid overflowed way outside their
+diamond-shaped slot icons — sometimes bleeding into the row above, sometimes into the
+character portrait below. Reducing the font size on the object that *looked* relevant
+had zero visible effect, repeatedly, even after a full restart.
+
+**Root cause, part 1 — five more unpatched duplicate-font copies.** The text itself is
+rendered via `ThoughtSlot._thoughtNameText`. Investigating this font turned into a
+proactive sweep of the whole cluster of direct-file font copies in `sharedassets1.assets`
+(pathIds `9783`-`9793`, found via `dump-monob sharedassets1.assets <pathId> 1` across the
+range) — the same duplicate-font problem as `SinaNova-Medium SDF` in bug #3 turned out to
+affect **five more** fonts that had never been checked individually: `CoreSansES Light`,
+`Dobra-Bold`, `Dobra-Light`, `Dobra-Medium`, `SinaNova-Bold`. All five had zero Cyrillic
+glyphs in their direct copies while their bundle-hosted twins were correctly patched.
+Fixed the same way, one `$cloneFontFrom` override per font
+(`asset-overrides/<FontName>-sharedassets1.assets-<pathId>.json`). **If a future font
+bug looks like this pattern, check the entire pathId cluster around a known font
+directly** rather than one font at a time — `font-mapping.json` lists every font this
+mod manages; any of them could have an unpatched direct-file twin nobody's found yet.
+
+**Root cause, part 2 — editing the wrong prefab entirely, twice.** `ThoughtSlot` exists
+as **two separate prefab templates** (not per-instance duplicates like the dice widget in
+bug #2 — actual reusable prefabs, instantiated at runtime): `sharedassets1.assets`
+pathId `1564` ("`THC_SlotPrefab`", `fontSize=36`) and `sharedassets2.assets` pathId
+`1853` ("`Thought SlotPrefab`", `fontSize=18`, `m_fontAsset` **null**). Guessing by name
+and visual plausibility (the bigger `fontSize=36` "looked more consistent" with the
+screenshot), the wrong one was edited and tested twice with zero effect. The actual live
+one was found the reliable way — via the spawner's own reference,
+`ThoughtSlotsTree.slotPrefab` (a `[SerializeField] ThoughtSlot` field on the singleton
+found by `find-script-users globalgamemanagers.assets ThoughtSlotsTree "*"`, live
+instance in `level2`) — which pointed to the `sharedassets2.assets` copy. **Always
+resolve "which of several duplicate objects is actually live" via the spawner/controller
+script's own SerializeField reference, never by name or visual guessing** — this is now
+the third time in this investigation a guess-by-name turned out wrong (see bug #3's
+`Probability Text` mislabeling, and this).
+
+**Root cause, part 3 — a null font asset resolves through a mechanism edits can't see.**
+Even after finding the *correct* prefab, changing its `m_fontSize` still had zero visible
+effect. Its `m_fontAsset` PPtr is `(0, 0)` — **null** — so TextMeshPro falls back to
+`TMP_Settings.m_defaultFontAsset`, which is *also* null, meaning TMP resolves the actual
+font via `Resources.Load(TMP_Settings.m_defaultFontAssetPath + "LiberationSans SDF")` at
+runtime — a Unity Resources-folder lookup, not a direct asset reference our tooling can
+just edit and expect to see used. Also worth remembering: this file
+(`sharedassets2.assets`) had never been touched by this pipeline before, so its
+`-original` pristine backup was still the **2-day-stale one from before the game reset**
+(see the environmental gotcha at the bottom of this doc) — a second, compounding reason
+edits weren't landing as expected. Deleted the stale backup, then **sidestepped the
+whole null-default-resolution mystery** by explicitly assigning a known-good, already
+Cyrillic-patched font asset (`Dobra-Medium SDF`, `sharedassets1.assets` pathId `9787`,
+cross-file `m_FileID=6`) directly to `m_fontAsset`, rather than trying to figure out
+which physical asset `Resources.Load` was actually resolving to.
+
+**Fix:** `asset-overrides/ThoughtSlotPrefab-sharedassets2.assets-3312.json`:
+```json
+{
+  "$fieldPatch": {
+    "m_fontAsset.m_FileID": 6,
+    "m_fontAsset.m_PathID": 9787,
+    "m_fontSize": 16.0,
+    "m_fontSizeBase": 16.0
+  }
+}
+```
+`16` was reached empirically: `13` fixed the overflow entirely (confirming the fix) but
+looked too small; `16` was confirmed comfortable with no overflow returning.
+
+**If a TMP component's font/size edit has zero effect and `m_fontAsset` is `(0, 0)`:**
+that's this exact mechanism — don't try to edit `TMP_Settings.m_defaultFontAsset`
+globally (affects every default-font TMP object project-wide, way outside this mod's
+intended blast radius); assign an explicit, already-patched font directly to the
+specific component instead.
 
 **Side-finding, not yet acted on:** the font used here (`LiberationSans SDF`,
 `resources.assets` pathId `2988` — TMP's own stock default font, confirmed *not* one of
