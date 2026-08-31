@@ -223,6 +223,43 @@ if (args.Length > 0 && args[0] == "patch-lang-fontsize")
     return PatchLangFontSizeLive(args[1], langEdits);
 }
 
+// Ad-hoc diagnostic: `dotnet run -- patch-translation-float <file> <pathId>:<field>:<langName>=<value> [more...]`
+// Live-test helper for a TranslationTestableFloat field (two parallel arrays,
+// `floatValues`/`languagesNames`, indexed together - not an array of pairs like
+// LocalizeFontSize.translationList): finds the index in `languagesNames` matching
+// <langName> exactly and sets `floatValues` at that same index. <field> is the containing
+// field's own name (e.g. AdjustAbilitiesWidth) since a component can have more than one.
+if (args.Length > 0 && args[0] == "patch-translation-float")
+{
+    var tfEdits = args.Skip(2).Select(a =>
+    {
+        var colon1 = a.IndexOf(':');
+        var colon2 = a.IndexOf(':', colon1 + 1);
+        var eq = a.IndexOf('=');
+        return (PathId: long.Parse(a[..colon1]), Field: a[(colon1 + 1)..colon2], LangName: a[(colon2 + 1)..eq], Value: float.Parse(a[(eq + 1)..]));
+    }).ToList();
+    return PatchTranslationFloatLive(args[1], tfEdits);
+}
+
+// Ad-hoc diagnostic: `dotnet run -- measure-text <file> <fontAssetPathId> <fontSize> <text>`
+// Computes the rendered pixel width of <text> at <fontSize>, using a live TMP_FontAsset's
+// own m_CharacterTable/m_GlyphTable/m_FaceInfo (m_HorizontalAdvance per glyph, scaled by
+// fontSize/m_PointSize*m_Scale) - for sizing a UI box to a specific translated string
+// without needing to already have that font exported to JSON.
+if (args.Length > 0 && args[0] == "measure-text")
+{
+    return MeasureText(args[1], long.Parse(args[2]), float.Parse(args[3]), args[4]);
+}
+
+// Ad-hoc diagnostic: `dotnet run -- find-term-everywhere <termSubstring>`
+// Structurally scans every bundle (and direct file) for a Localize component whose mTerm
+// contains <termSubstring> - unlike a raw byte grep, this works even inside compressed
+// bundles, and unlike list-terms-bundle (one bundle at a time), covers everything at once.
+if (args.Length > 0 && args[0] == "find-term-everywhere")
+{
+    return FindTermEverywhere(args[1]);
+}
+
 // Ad-hoc diagnostic: `dotnet run -- find-script-users <scriptFile> <className> <targetFile>`
 // Finds the MonoScript pathId for a C# class name in <scriptFile> (usually
 // globalgamemanagers.assets), then scans <targetFile> for every MonoBehaviour whose
@@ -669,6 +706,45 @@ bool PatchAsset(AssetsManager manager, AssetsFileInstance fileInst, ImportJob jo
             }
             info.SetNewData(patchField);
             Console.WriteLine($"  patched {job.DisplayName} (language font sizes)");
+            return true;
+        }
+
+        // A translation-float override (top-level "$translationFloatPatch":
+        // { "<fieldName>": { "<languageName>": value, ... }, ... }) sets an entry in a
+        // TranslationTestableFloat field - two parallel arrays (`floatValues`/
+        // `languagesNames`, matched by index, not an array of pairs like
+        // LocalizeFontSize.translationList above), matched by the *full language name*
+        // (e.g. "Spanish", not a language code). Found on UI elements that size themselves
+        // per-language for a translated string's expected width (e.g.
+        // CharacterCreationTitleBar.AdjustAbilitiesWidth) - same "silent per-language
+        // override the obvious field can't see" shape as $langFontSizePatch above, just for
+        // a size instead of a font size, and keyed by full name instead of code.
+        if (doc.RootElement.TryGetProperty("$translationFloatPatch", out var tfPatch))
+        {
+            var patchField = manager.GetBaseField(fileInst, info);
+            foreach (var fieldProp in tfPatch.EnumerateObject())
+            {
+                var container = patchField[fieldProp.Name];
+                if (container.Value == null && container.Children.Count == 0)
+                {
+                    Console.WriteLine($"  ERROR: {job.DisplayName}: field '{fieldProp.Name}' not found");
+                    return false;
+                }
+                var names = container["languagesNames"]["Array"].Children;
+                var values = container["floatValues"]["Array"].Children;
+                foreach (var langProp in fieldProp.Value.EnumerateObject())
+                {
+                    var idx = names.FindIndex(n => n.AsString == langProp.Name);
+                    if (idx < 0)
+                    {
+                        Console.WriteLine($"  ERROR: {job.DisplayName}: no languagesNames entry '{langProp.Name}' in '{fieldProp.Name}'");
+                        return false;
+                    }
+                    values[idx].AsFloat = (float)langProp.Value.GetDouble();
+                }
+            }
+            info.SetNewData(patchField);
+            Console.WriteLine($"  patched {job.DisplayName} (translation floats)");
             return true;
         }
 
@@ -1380,51 +1456,235 @@ int FindScriptUsers(string scriptFile, string className, string targetFile)
         return 1;
     }
     Console.WriteLine($"'{className}' MonoScript is pathId {scriptPathId} in {scriptFile}");
-
-    var targetFileInst = manager.LoadAssetsFile(Path.Combine(dataDir, targetFile), true);
-    manager.LoadClassDatabaseFromPackage(targetFileInst.file.Metadata.UnityVersion);
-    if (!targetFileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
-
-    var externals = targetFileInst.file.Metadata.Externals;
-    var depIndex = -1;
-    for (var i = 0; i < externals.Count; i++)
-    {
-        if (externals[i].PathName.EndsWith(scriptFile, StringComparison.OrdinalIgnoreCase) ||
-            Path.GetFileName(externals[i].PathName).Equals(scriptFile, StringComparison.OrdinalIgnoreCase))
-        {
-            depIndex = i + 1; // m_FileID is 1-based into Externals
-            break;
-        }
-    }
-    if (depIndex == -1)
-    {
-        Console.WriteLine($"ERROR: {targetFile} has no dependency matching '{scriptFile}' - can't resolve m_FileID");
-        manager.UnloadAll();
-        return 1;
-    }
-    Console.WriteLine($"{scriptFile} is dependency index {depIndex} (m_FileID) in {targetFile}");
-
-    var hits = 0;
-    foreach (var info in targetFileInst.file.GetAssetsOfType(AssetClassID.MonoBehaviour))
-    {
-        AssetTypeValueField field;
-        try { field = manager.GetBaseField(targetFileInst, info); } catch { continue; }
-        var script = field["m_Script"];
-        if (script["m_FileID"].AsInt != depIndex || script["m_PathID"].AsLong != scriptPathId) continue;
-
-        hits++;
-        var goPathId = field["m_GameObject"]["m_PathID"].AsLong;
-        string? goName = null;
-        if (goPathId != 0)
-        {
-            var goInfo = targetFileInst.file.GetAssetInfo(goPathId);
-            if (goInfo != null) { try { goName = manager.GetBaseField(targetFileInst, goInfo)["m_Name"].AsString; } catch { } }
-        }
-        Console.WriteLine($"  FOUND: MonoBehaviour pathId {info.PathId}, on GameObject '{goName}' (pathId {goPathId})");
-    }
-
-    Console.WriteLine($"\n{hits} instance(s) of '{className}' in {targetFile}.");
     manager.UnloadAll();
+
+    var targetFiles = targetFile == "*"
+        ? (Directory.Exists(dataDir)
+            ? Directory.GetFiles(dataDir, "*.assets").Concat(Directory.GetFiles(dataDir, "level*")
+                .Where(f => !f.Contains('.'))).Select(Path.GetFileName).ToList()
+            : new List<string?>())
+        : new List<string?> { targetFile };
+
+    var totalHits = 0;
+    foreach (var tf in targetFiles)
+    {
+        if (tf == null) continue;
+        var tManager = new AssetsManager();
+        tManager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+        AssetsFileInstance targetFileInst;
+        try
+        {
+            targetFileInst = tManager.LoadAssetsFile(Path.Combine(dataDir, tf), true);
+            tManager.LoadClassDatabaseFromPackage(targetFileInst.file.Metadata.UnityVersion);
+            if (!targetFileInst.file.Metadata.TypeTreeEnabled) tManager.MonoTempGenerator = GetCpp2Il();
+        }
+        catch { tManager.UnloadAll(); continue; }
+
+        var externals = targetFileInst.file.Metadata.Externals;
+        var depIndex = tf.Equals(scriptFile, StringComparison.OrdinalIgnoreCase) ? 0 : -1;
+        if (depIndex == -1)
+        {
+            for (var i = 0; i < externals.Count; i++)
+            {
+                if (externals[i].PathName.EndsWith(scriptFile, StringComparison.OrdinalIgnoreCase) ||
+                    Path.GetFileName(externals[i].PathName).Equals(scriptFile, StringComparison.OrdinalIgnoreCase))
+                {
+                    depIndex = i + 1; // m_FileID is 1-based into Externals
+                    break;
+                }
+            }
+        }
+        if (depIndex == -1) { tManager.UnloadAll(); continue; } // this file has no dependency on scriptFile at all
+
+        foreach (var info in targetFileInst.file.GetAssetsOfType(AssetClassID.MonoBehaviour))
+        {
+            AssetTypeValueField field;
+            try { field = tManager.GetBaseField(targetFileInst, info); } catch { continue; }
+            var script = field["m_Script"];
+            if (script["m_FileID"].AsInt != depIndex || script["m_PathID"].AsLong != scriptPathId) continue;
+
+            totalHits++;
+            var goPathId = field["m_GameObject"]["m_PathID"].AsLong;
+            string? goName = null;
+            if (goPathId != 0)
+            {
+                var goInfo = targetFileInst.file.GetAssetInfo(goPathId);
+                if (goInfo != null) { try { goName = tManager.GetBaseField(targetFileInst, goInfo)["m_Name"].AsString; } catch { } }
+            }
+            Console.WriteLine($"  FOUND: {tf}, MonoBehaviour pathId {info.PathId}, on GameObject '{goName}' (pathId {goPathId})");
+        }
+        tManager.UnloadAll();
+    }
+
+    Console.WriteLine($"\n{totalHits} instance(s) of '{className}' found.");
+    return 0;
+}
+
+int PatchTranslationFloatLive(string fileName, List<(long PathId, string Field, string LangName, float Value)> edits)
+{
+    var livePath = Path.Combine(dataDir, fileName);
+    var originalBackupPath = livePath + "-original";
+    if (!File.Exists(originalBackupPath))
+    {
+        Console.WriteLine($"Creating pristine backup: {Path.GetFileName(originalBackupPath)}");
+        File.Copy(livePath, originalBackupPath);
+    }
+
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+    var fileInst = manager.LoadAssetsFile(originalBackupPath, true);
+    manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+    if (!fileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+
+    foreach (var (pathId, fieldName, langName, value) in edits)
+    {
+        var info = fileInst.file.GetAssetInfo(pathId);
+        if (info == null) { Console.WriteLine($"ERROR: pathId {pathId} not found in {fileName}"); manager.UnloadAll(); return 1; }
+        var baseField = manager.GetBaseField(fileInst, info);
+
+        var container = baseField[fieldName];
+        var names = container["languagesNames"]["Array"].Children;
+        var values = container["floatValues"]["Array"].Children;
+        var idx = names.FindIndex(n => n.AsString == langName);
+        if (idx < 0)
+        {
+            Console.WriteLine($"ERROR: no languagesNames entry '{langName}' in {fieldName} at pathId {pathId} in {fileName}");
+            manager.UnloadAll();
+            return 1;
+        }
+        values[idx].AsFloat = value;
+        info.SetNewData(baseField);
+        Console.WriteLine($"  pathId {pathId}: {fieldName}[{langName}] = {value}");
+    }
+
+    var ok = WriteReplacing(() => { using var s = File.Create(livePath + ".tmp"); fileInst.file.Write(new AssetsFileWriter(s)); }, livePath, config.GamePath);
+    manager.UnloadAll();
+    return ok ? 0 : 1;
+}
+
+int MeasureText(string fileName, long fontAssetPathId, float fontSize, string text)
+{
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+    var fileInst = manager.LoadAssetsFile(Path.Combine(dataDir, fileName), true);
+    manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+    if (!fileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+
+    var info = fileInst.file.GetAssetInfo(fontAssetPathId);
+    if (info == null) { Console.WriteLine($"ERROR: pathId {fontAssetPathId} not found in {fileName}"); manager.UnloadAll(); return 1; }
+    var field = manager.GetBaseField(fileInst, info);
+
+    var pointSize = field["m_FaceInfo"]["m_PointSize"].AsInt;
+    var scale = field["m_FaceInfo"]["m_Scale"].AsFloat;
+
+    var charToGlyph = new Dictionary<uint, uint>();
+    foreach (var c in field["m_CharacterTable"]["Array"].Children)
+        charToGlyph[(uint)c["m_Unicode"].AsUInt] = (uint)c["m_GlyphIndex"].AsUInt;
+
+    var glyphAdvance = new Dictionary<uint, float>();
+    foreach (var g in field["m_GlyphTable"]["Array"].Children)
+        glyphAdvance[(uint)g["m_Index"].AsUInt] = g["m_Metrics"]["m_HorizontalAdvance"].AsFloat;
+
+    float totalUnits = 0;
+    foreach (var rune in text.EnumerateRunes())
+    {
+        var cp = (uint)rune.Value;
+        if (!charToGlyph.TryGetValue(cp, out var gi)) { Console.WriteLine($"  MISSING glyph for U+{cp:X4} '{rune}'"); continue; }
+        if (!glyphAdvance.TryGetValue(gi, out var adv)) { Console.WriteLine($"  MISSING advance for glyph {gi}"); continue; }
+        totalUnits += adv;
+    }
+
+    var pixelWidth = totalUnits * (fontSize / pointSize) * scale;
+    Console.WriteLine($"'{text}' @ fontSize {fontSize}: {totalUnits:F1} design units -> {pixelWidth:F1}px (pointSize={pointSize}, scale={scale})");
+
+    manager.UnloadAll();
+    return 0;
+}
+
+int FindTermEverywhere(string termSubstring)
+{
+    var totalHits = 0;
+
+    void ScanFileInst(AssetsManager manager, AssetsFileInstance fileInst, string label)
+    {
+        foreach (var info in fileInst.file.GetAssetsOfType(AssetClassID.MonoBehaviour))
+        {
+            AssetTypeValueField baseField;
+            try { baseField = manager.GetBaseField(fileInst, info); } catch { continue; }
+            var termField = baseField.Children.FirstOrDefault(f => f.FieldName == "mTerm");
+            if (termField == null) continue;
+            var term = termField.AsString;
+            if (string.IsNullOrEmpty(term) || term.IndexOf(termSubstring, StringComparison.OrdinalIgnoreCase) < 0) continue;
+
+            totalHits++;
+            var goPathId = baseField["m_GameObject"]["m_PathID"].AsLong;
+            string? goName = null;
+            if (goPathId != 0)
+            {
+                var goInfo = fileInst.file.GetAssetInfo(goPathId);
+                if (goInfo != null) { try { goName = manager.GetBaseField(fileInst, goInfo)["m_Name"].AsString; } catch { } }
+            }
+            Console.WriteLine($"  FOUND term '{term}' in {label}, Localize pathId {info.PathId}, on GameObject '{goName}' (pathId {goPathId})");
+        }
+    }
+
+    var directFiles = Directory.Exists(dataDir)
+        ? Directory.GetFiles(dataDir, "*.assets").Concat(Directory.GetFiles(dataDir, "level*")
+            .Where(f => !f.Contains('.'))).ToList()
+        : new List<string>();
+
+    Console.WriteLine($"Scanning {directFiles.Count} direct file(s) + bundles for term containing '{termSubstring}'...");
+
+    foreach (var directFile in directFiles)
+    {
+        var manager = new AssetsManager();
+        manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+        try
+        {
+            var fileInst = manager.LoadAssetsFile(directFile, true);
+            manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+            if (!fileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+            ScanFileInst(manager, fileInst, Path.GetFileName(directFile));
+        }
+        catch { /* skip unreadable files */ }
+        manager.UnloadAll();
+    }
+
+    var bundleFiles = Directory.Exists(bundlesRoot)
+        ? Directory.GetFiles(bundlesRoot, "*", SearchOption.AllDirectories)
+            .Where(f => !f.EndsWith(".manifest", StringComparison.OrdinalIgnoreCase))
+            .ToList()
+        : new List<string>();
+
+    foreach (var bundleFile in bundleFiles)
+    {
+        var manager = new AssetsManager();
+        manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+
+        BundleFileInstance? bunInst = null;
+        try { bunInst = manager.LoadBundleFile(bundleFile); } catch { /* not a bundle */ }
+        if (bunInst == null) { manager.UnloadAll(); continue; }
+
+        var dirInfos = bunInst.file.BlockAndDirInfo.DirectoryInfos;
+        for (var idx = 0; idx < dirInfos.Count; idx++)
+        {
+            AssetsFileInstance? fileInst = null;
+            try
+            {
+                fileInst = manager.LoadAssetsFileFromBundle(bunInst, idx);
+                manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+                if (!fileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+            }
+            catch { fileInst = null; }
+            if (fileInst == null) continue;
+
+            ScanFileInst(manager, fileInst, $"{Path.GetRelativePath(bundlesRoot, bundleFile)} / {dirInfos[idx].Name}");
+        }
+
+        manager.UnloadAll();
+    }
+
+    Console.WriteLine($"\n{totalHits} total hit(s) for term containing '{termSubstring}'.");
     return 0;
 }
 

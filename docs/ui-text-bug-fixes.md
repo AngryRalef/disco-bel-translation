@@ -1,6 +1,6 @@
 # UI text bug fixes — reminder / reference
 
-Three separate UI text bugs, what actually caused each one, and where the fix lives.
+Four separate UI text bugs, what actually caused each one, and where the fix lives.
 Written after a long investigation (2026-08-31) where several plausible-looking fixes
 turned out to be wrong. Read the "ruled out" notes before re-chasing an old theory.
 
@@ -160,6 +160,57 @@ this mod hijacks.
 
 ---
 
+## 4. Ability-adjustment title bar ("ДАПАСУЙ ЗДОЛЬНАСЦІ:" — character sheet screen)
+
+**Symptom:** the white title-bar background behind the header text was sized for the
+original (shorter) text. With few "ability points" left to spend, the header wrapped to
+two lines inside a box only tall/wide enough for one; with more points left, the header
+overlapped the row of small progress dots ("pips") next to it.
+
+**Root cause:** the controlling script, `CharacterCreationTitleBar` (found via the
+decompiled `types.cs` — grep for the term key `Abilities/ABILITY_ADJUST_TITLE` in
+`LocalizationCustomSystem.cs`, then found the actual view class,
+`CharacterCreationAdjustAbilitiesView`, and its sibling `CharacterCreationTitleBar`
+script, both on the `Charsheet` GameObject in `level2`), computes the background box's
+width with this exact formula (from decompiling `SetAdjustTitle()`):
+```
+targetWidth = pipCount * pipWidth + AdjustAbilitiesWidth[language] + paddingWidth
+```
+`pipCount` legitimately varies (more remaining points = more pips shown, box needs to be
+wider) — that part isn't a bug. `AdjustAbilitiesWidth` is a **per-language lookup table**
+(a `TranslationTestableFloat`: two parallel arrays, `floatValues`/`languagesNames`,
+matched by index — not an array of `{language, value}` pairs like `LocalizeFontSize`
+above). The vanilla Spanish (`es`) entry was `620`, sized for the original short Spanish
+title — nowhere near enough for `"ДАПАСУЙ ЗДОЛЬНАСЦІ:"`.
+
+**Fix:** a new override directive, `$translationFloatPatch`
+(`{"$translationFloatPatch": {"AdjustAbilitiesWidth": {"Spanish": 660.0}}}` — matched by
+the **full language name**, e.g. `"Spanish"`, not a language code like `"es"`) in
+`asset-overrides/CharacterCreationTitleBar-level2-29247.json`.
+
+**Why `660` specifically:** computed the actual rendered text width via the font's own
+glyph data (`measure-text` command, ~695px for the 19 glyphs it has, missing one glyph —
+see below), tried `720` first (visibly too much empty gap between the text and the pips,
+since the pips start at the *end* of the `AdjustAbilitiesWidth`-sized region regardless
+of how much of it the text actually fills), then `660` — confirmed correct in-game in
+both the "many pips" and "one pip" states.
+
+**Side-finding, not yet acted on:** the font used here (`LiberationSans SDF`,
+`resources.assets` pathId `2988` — TMP's own stock default font, confirmed *not* one of
+this mod's managed fonts, not in `font-mapping.json`) is **missing the glyph for `І`**
+(U+0406, the Belarusian dotted-I, distinct from Cyrillic `И`/Latin `I`). It's rendering
+via TMP's fallback chain currently without an obvious visual problem, but if a similar
+"garbled/wrong-scale fallback" bug ever shows up on text using this font, check this
+first — see the `Dobra-Book`/`SinaNova` fallback-chain bug in bug #3 above for what that
+looks like when it goes wrong.
+
+**If a UI box's size is wrong for translated text despite the *text itself* being
+correct:** check for a `TranslationTestableFloat`-typed field on a nearby MonoBehaviour
+(not just `LocalizeFontSize` — any per-language "testable" value is suspect) before
+assuming it's a plain layout/wrap bug like bug #1's zero-size RectTransform.
+
+---
+
 ## Tools added along the way (all in `tools/asset-importer/Program.cs`)
 
 - `dump-monob <file> <pathId> [depth]` / `dump-monob-bundle <bundleEntry> <pathId>` —
@@ -172,11 +223,33 @@ this mod hijacks.
   this whenever you can't tell which of several duplicate objects is actually rendered.
 - `list-deps <file>` — list a direct file's external dependency table (what `m_FileID`
   indices resolve to).
+- `find-term-everywhere <termSubstring>` — structurally scan every direct file *and*
+  bundle for a `Localize` component whose `mTerm` contains the substring. If this comes
+  back with 0 hits for a term you know is used somewhere, the text is being set by code
+  directly (see `find-script-users` below), not a static `Localize` component.
+- `measure-text <file> <fontAssetPathId> <fontSize> <text>` — compute a string's actual
+  rendered pixel width from a live font asset's own glyph advance-width data, for sizing
+  a box to fit a specific translated string precisely instead of guessing.
 - `patch-lang-fontsize <file> <pathId>:<lang>=<size> [more...]` — live-test a
   `LocalizeFontSize` entry before committing it to an override.
+- `patch-translation-float <file> <pathId>:<field>:<langName>=<value> [more...]` —
+  live-test a `TranslationTestableFloat` entry (matched by full language name, e.g.
+  `Spanish`) before committing it to an override.
 - Override directives: `$fieldPatch`, `$removeComponents`, `$cloneFontFrom`,
-  `$langFontSizePatch` — see comments above each dispatch block in `PatchAsset` in
-  `Program.cs` for exact semantics.
+  `$langFontSizePatch`, `$translationFloatPatch` — see comments above each dispatch
+  block in `PatchAsset` in `Program.cs` for exact semantics.
+
+**Batching gotcha that bit twice this session:** every one of the live-test commands
+above (`patch-field`, `patch-lang-fontsize`, `patch-translation-float`,
+`remove-and-patch`) rebuilds its target file from that file's `-original` pristine
+backup on *every call* — it does not layer onto whatever the previous call just wrote.
+Multiple edits to the *same file* must go in one call (all these commands accept
+multiple `pathId:...` tokens for exactly this reason) or the second call's rebuild
+silently erases the first call's change. Calling one of these commands with **zero**
+edit arguments by mistake rebuilds the file from pristine with *no* changes at all,
+instantly reverting every tracked fix in that file back to vanilla until the next
+`npm run import-assets` — always double-check the command actually has its edit
+arguments before running it, and re-run the full pipeline immediately if in doubt.
 
 ## One environmental gotcha worth remembering
 
