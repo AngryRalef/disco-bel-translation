@@ -205,6 +205,35 @@ if (args.Length > 0 && args[0] == "clone-font-cyrillic")
     return CloneFontCyrillic(args[1], long.Parse(args[2]), args[3], long.Parse(args[4]), args[5]);
 }
 
+// Ad-hoc diagnostic: `dotnet run -- patch-lang-fontsize <file> <pathId>:<langCode>=<fontSize> [more...]`
+// Live-test helper for LocalizeFontSize.translationList: finds the entry whose `language`
+// field matches <langCode> and sets its `fontSize`, rebuilding from the file's pristine
+// `-original` backup like patch-field does. Needed because the generic $fieldPatch/
+// patch-field dotted-path resolver can't index into an array by position or by a sibling
+// field's value. Multiple edits to the same file are applied together in one rebuild (same
+// reasoning as patch-field's batching) so they don't clobber each other.
+if (args.Length > 0 && args[0] == "patch-lang-fontsize")
+{
+    var langEdits = args.Skip(2).Select(a =>
+    {
+        var colon = a.IndexOf(':');
+        var eq = a.IndexOf('=');
+        return (PathId: long.Parse(a[..colon]), LangCode: a[(colon + 1)..eq], FontSize: int.Parse(a[(eq + 1)..]));
+    }).ToList();
+    return PatchLangFontSizeLive(args[1], langEdits);
+}
+
+// Ad-hoc diagnostic: `dotnet run -- find-script-users <scriptFile> <className> <targetFile>`
+// Finds the MonoScript pathId for a C# class name in <scriptFile> (usually
+// globalgamemanagers.assets), then scans <targetFile> for every MonoBehaviour whose
+// m_Script references it (matching by class name resolution, not a hardcoded pathId, so it
+// still works after a pathId-shuffling game update) - for finding the *actual* live instance
+// of a script-driven object when its GameObject name can't be guessed.
+if (args.Length > 0 && args[0] == "find-script-users")
+{
+    return FindScriptUsers(args[1], args[2], args[3]);
+}
+
 // Ad-hoc diagnostic: `dotnet run -- dump-monob-bundle <bundleEntry> <pathId> [maxDepth]`
 // Same as dump-monob but for an asset living inside a bundle entry (CAB-hash) rather than
 // a direct data file.
@@ -612,6 +641,34 @@ bool PatchAsset(AssetsManager manager, AssetsFileInstance fileInst, ImportJob jo
             if (!ApplyFieldPatch(patchField, patch, job.DisplayName)) return false;
             info.SetNewData(patchField);
             Console.WriteLine($"  patched {job.DisplayName}");
+            return true;
+        }
+
+        // A language-font-size override (top-level "$langFontSizePatch": { "<langCode>":
+        // fontSize, ... }) sets the `fontSize` on the matching entry of a LocalizeFontSize
+        // component's `translationList` array (matched by its `language` field, not by
+        // index - the generic $fieldPatch dotted-path resolver can't index into an array).
+        // I2 Localization applies this table's value for the active language on every
+        // Localize()/OnEnable() call, silently overwriting whatever the TMP component's own
+        // m_fontSize says - so patching that field directly has no effect for any object
+        // that carries a LocalizeFontSize sibling with a populated table for the active
+        // language (this mod hijacks the "es" slot).
+        if (doc.RootElement.TryGetProperty("$langFontSizePatch", out var langPatch))
+        {
+            var patchField = manager.GetBaseField(fileInst, info);
+            var entries = patchField["translationList"]["Array"].Children;
+            foreach (var prop in langPatch.EnumerateObject())
+            {
+                var match = entries.FirstOrDefault(e => e["language"].AsString == prop.Name);
+                if (match == null)
+                {
+                    Console.WriteLine($"  ERROR: {job.DisplayName}: no translationList entry with language '{prop.Name}'");
+                    return false;
+                }
+                match["fontSize"].AsInt = prop.Value.GetInt32();
+            }
+            info.SetNewData(patchField);
+            Console.WriteLine($"  patched {job.DisplayName} (language font sizes)");
             return true;
         }
 
@@ -1081,6 +1138,46 @@ int PatchFieldLive(string fileName, List<(long PathId, string Field, string Valu
     return ok ? 0 : 1;
 }
 
+int PatchLangFontSizeLive(string fileName, List<(long PathId, string LangCode, int FontSize)> edits)
+{
+    var livePath = Path.Combine(dataDir, fileName);
+    var originalBackupPath = livePath + "-original";
+    if (!File.Exists(originalBackupPath))
+    {
+        Console.WriteLine($"Creating pristine backup: {Path.GetFileName(originalBackupPath)}");
+        File.Copy(livePath, originalBackupPath);
+    }
+
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+    var fileInst = manager.LoadAssetsFile(originalBackupPath, true);
+    manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+    if (!fileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+
+    foreach (var (pathId, langCode, fontSize) in edits)
+    {
+        var info = fileInst.file.GetAssetInfo(pathId);
+        if (info == null) { Console.WriteLine($"ERROR: pathId {pathId} not found in {fileName}"); manager.UnloadAll(); return 1; }
+        var baseField = manager.GetBaseField(fileInst, info);
+
+        var entries = baseField["translationList"]["Array"].Children;
+        var match = entries.FirstOrDefault(e => e["language"].AsString == langCode);
+        if (match == null)
+        {
+            Console.WriteLine($"ERROR: no translationList entry with language '{langCode}' at pathId {pathId} in {fileName}");
+            manager.UnloadAll();
+            return 1;
+        }
+        match["fontSize"].AsInt = fontSize;
+        info.SetNewData(baseField);
+        Console.WriteLine($"  pathId {pathId}: translationList[{langCode}].fontSize = {fontSize}");
+    }
+
+    var ok = WriteReplacing(() => { using var s = File.Create(livePath + ".tmp"); fileInst.file.Write(new AssetsFileWriter(s)); }, livePath, config.GamePath);
+    manager.UnloadAll();
+    return ok ? 0 : 1;
+}
+
 int DumpObject(string fileName, long gameObjectPathId)
 {
     var path = Path.Combine(dataDir, fileName);
@@ -1253,6 +1350,81 @@ int CloneFontCyrillic(string targetFile, long targetPathId, string sourceContain
     if (!writeOk) return 1;
 
     Console.WriteLine($"  cloned font content {sourceContainer}@{sourcePathId} -> {targetFile}@{targetPathId} (atlas pathId {atlasPathId}, {w}x{h})");
+    return 0;
+}
+
+int FindScriptUsers(string scriptFile, string className, string targetFile)
+{
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+
+    var scriptFileInst = manager.LoadAssetsFile(Path.Combine(dataDir, scriptFile), true);
+    manager.LoadClassDatabaseFromPackage(scriptFileInst.file.Metadata.UnityVersion);
+    if (!scriptFileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+
+    long? scriptPathId = null;
+    foreach (var info in scriptFileInst.file.GetAssetsOfType(AssetClassID.MonoScript))
+    {
+        AssetTypeValueField field;
+        try { field = manager.GetBaseField(scriptFileInst, info); } catch { continue; }
+        if (field["m_ClassName"].AsString == className)
+        {
+            scriptPathId = info.PathId;
+            break;
+        }
+    }
+    if (scriptPathId == null)
+    {
+        Console.WriteLine($"ERROR: class '{className}' not found as a MonoScript in {scriptFile}");
+        manager.UnloadAll();
+        return 1;
+    }
+    Console.WriteLine($"'{className}' MonoScript is pathId {scriptPathId} in {scriptFile}");
+
+    var targetFileInst = manager.LoadAssetsFile(Path.Combine(dataDir, targetFile), true);
+    manager.LoadClassDatabaseFromPackage(targetFileInst.file.Metadata.UnityVersion);
+    if (!targetFileInst.file.Metadata.TypeTreeEnabled) manager.MonoTempGenerator = GetCpp2Il();
+
+    var externals = targetFileInst.file.Metadata.Externals;
+    var depIndex = -1;
+    for (var i = 0; i < externals.Count; i++)
+    {
+        if (externals[i].PathName.EndsWith(scriptFile, StringComparison.OrdinalIgnoreCase) ||
+            Path.GetFileName(externals[i].PathName).Equals(scriptFile, StringComparison.OrdinalIgnoreCase))
+        {
+            depIndex = i + 1; // m_FileID is 1-based into Externals
+            break;
+        }
+    }
+    if (depIndex == -1)
+    {
+        Console.WriteLine($"ERROR: {targetFile} has no dependency matching '{scriptFile}' - can't resolve m_FileID");
+        manager.UnloadAll();
+        return 1;
+    }
+    Console.WriteLine($"{scriptFile} is dependency index {depIndex} (m_FileID) in {targetFile}");
+
+    var hits = 0;
+    foreach (var info in targetFileInst.file.GetAssetsOfType(AssetClassID.MonoBehaviour))
+    {
+        AssetTypeValueField field;
+        try { field = manager.GetBaseField(targetFileInst, info); } catch { continue; }
+        var script = field["m_Script"];
+        if (script["m_FileID"].AsInt != depIndex || script["m_PathID"].AsLong != scriptPathId) continue;
+
+        hits++;
+        var goPathId = field["m_GameObject"]["m_PathID"].AsLong;
+        string? goName = null;
+        if (goPathId != 0)
+        {
+            var goInfo = targetFileInst.file.GetAssetInfo(goPathId);
+            if (goInfo != null) { try { goName = manager.GetBaseField(targetFileInst, goInfo)["m_Name"].AsString; } catch { } }
+        }
+        Console.WriteLine($"  FOUND: MonoBehaviour pathId {info.PathId}, on GameObject '{goName}' (pathId {goPathId})");
+    }
+
+    Console.WriteLine($"\n{hits} instance(s) of '{className}' in {targetFile}.");
+    manager.UnloadAll();
     return 0;
 }
 
