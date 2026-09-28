@@ -1,5 +1,6 @@
 import fs from 'fs';
 import * as crypto from "node:crypto";
+import { dedupe, readDialogueFiles, applyDedupe } from '../converters/dedupe-additional-dialogues.mjs';
 
 const dialoguesTreePath = './../../../text/dialogues-tree.json';
 const translations = JSON.parse(fs.readFileSync('./../../../text/translated/dialogues-translated.json', 'utf8'));
@@ -261,6 +262,15 @@ async function filterDialoguesIntoFiles() {
   }
 
   await deleteDuplicateFiles(additionalDialoguesFolder);
+
+  // Different ways into the same conversation reach the same lines - keep each line
+  // translatable in one file only (the others show it as context).
+  const dedupeResult = dedupe(readDialogueFiles('./../../../text'));
+  applyDedupe('./../../../text', dedupeResult);
+  for (const { name, containedIn } of dedupeResult.removed) {
+    console.log(`Deleting ${name}: every line is also in ${containedIn}`);
+  }
+  console.log(`Context-only lines in additional dialogues: ${dedupeResult.stats.references}`);
 }
 
 filterDialoguesIntoFiles().catch(console.error);

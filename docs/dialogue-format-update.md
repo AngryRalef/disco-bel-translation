@@ -47,6 +47,36 @@ After:
 
 ---
 
+## Context-only lines (`translatedIn`)
+
+Some additional dialogues are different ways into the same conversation, so they used to
+contain the same lines, each translated differently, while the game can only use one text
+per line. Now every line is translated in exactly one file. Where another file passes
+through the same lines, they're still there so you can follow the conversation, but
+without `polish`/`belarusian`:
+```json
+{
+  "id": 77,
+  "articyId": "0x01000007000149D3",
+  "speaker": "The Pigs -> You",
+  "english": "The gun lands on the wooden planks and tears run down her scratched cheeks. ...",
+  "translatedIn": "additional-dialogues/60-280.json",
+  "links": [ ... ]
+}
+```
+Nothing to translate there. To change that line, edit it in the file named in
+`translatedIn`. **Don't add `belarusian` to a context-only line**: packing stops with an
+error if the same line has two different translations.
+
+Five files that were entirely contained in another file were removed on 2026-09-28:
+`30-71` (all of it is in `33-71`), `334-806` and `335-806` (in `333-806`), `338-810` (in
+`339-810`), `342-814` (in `343-814`).
+
+Tools: `npm run dedupe-dialogues` (safe to repeat) and `npm run check-dialogues-dedupe`.
+The unpacking script applies the same rule automatically.
+
+---
+
 ## If you're translating a dialogue right now
 
 Nothing to do. Your file wasn't touched, so keep working and merge as usual.
