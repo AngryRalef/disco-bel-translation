@@ -92,9 +92,12 @@ would show up as "changed".
 **Everything that's untaken right now** (same rule as the translation assistant, run from
 the disco-translation-assistant repo):
 ```
-npm run convert-format -- --dry-run   # list what would be converted
-npm run convert-format                # convert + check
+npm run convert-format -- --dry-run          # list what would be converted
+npm run convert-format                       # convert + check
+npm run convert-format -- --include-closed   # also finished dialogues (closed issue)
 ```
+It never touches assigned dialogues, and it skips files that an open pull request changes,
+or that changed on `main` since your branch split off (merge `main` first, then re-run).
 
 **Specific finished dialogues** (from this repo's root):
 ```
