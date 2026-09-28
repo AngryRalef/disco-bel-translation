@@ -63,7 +63,6 @@ async function buildFullTree(dialogues, startDialogue = null) {
 
     const treeNode = await getTranslationForDialogue({
       id: node.id,
-      title: node.fields.Array.find(field => field.title === 'Title')?.value,
       articyId: node.fields.Array.find(field => field.title === 'Articy Id')?.value,
       text: node.fields.Array.find(field => field.title === 'Dialogue Text')?.value,
       alternates: await getAlternatesFromFields(node.fields),
@@ -130,21 +129,31 @@ async function getTranslationForAlternates(alternates, articyId) {
   }, {});
 }
 
+// Same "speaker" format as converters/convert-dialogues-format.mjs
+function formatSpeaker(actor, to) {
+  return `${actor ?? 'N/A'} -> ${to ?? 'N/A'}`;
+}
+
+// `links` must stay the same array: buildFullTree fills it in after this returns.
 async function getTranslationForDialogue(dialogue) {
   const translation = translations[`Dialogue Text/${dialogue.articyId}`];
 
   if (!translation) {
-    return dialogue;
+    return {
+      id: dialogue.id,
+      articyId: dialogue.articyId,
+      text: dialogue.text,
+      alternates: dialogue.alternates,
+      links: dialogue.links,
+    };
   }
 
   const alternates = await getTranslationForAlternates(dialogue.alternates, dialogue.articyId);
 
   return {
     id: dialogue.id,
-    title: dialogue.title,
-    actor: translation.actor,
-    to: translation.to,
     articyId: dialogue.articyId,
+    speaker: formatSpeaker(translation.actor, translation.to),
     english: dialogue.text,
     polish: translation.polish,
     belarusian: translation.belarusian,
