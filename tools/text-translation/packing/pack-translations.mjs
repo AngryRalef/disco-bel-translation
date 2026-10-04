@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const textDir = path.join(__dirname, '../../../text');
 const translatedDir = path.join(textDir, 'translated');
 
-const dialoguesTreeFolder = path.join(textDir, 'dialogues');
+const dialoguesTreeFolders = [path.join(textDir, 'dialogues'), path.join(textDir, 'additional-dialogues')];
 const flatDialoguesFilePath = path.join(translatedDir, 'dialogues-translated.json');
 
 const generalFilesFolder = path.join(textDir, 'general');
@@ -24,48 +24,78 @@ const files = [
   }
 ]
 
-async function packDialoguesFromTreesToSingleFile() {
-  function getTranslationsFromTreeRecursively(links, result) {
-    for (const link of links) {
-      result[link.articyId] = link.belarusian;
-      getTranslationsFromTreeRecursively(link.links, result);
-    }
+// Collects every translation from the dialogue files as lockit keys:
+// "Dialogue Text/<articyId>" for a line and "<AlternateN>/<articyId>" for its alternates.
+// Nodes without "belarusian" are skipped: untranslated test nodes, and context-only nodes
+// ("translatedIn") whose translation lives in another file.
+// A line translated differently in two files is an error - the game can only hold one text,
+// so nothing is written until it's fixed (see converters/dedupe-additional-dialogues.mjs).
+function collectDialogueTranslations() {
+  const translations = new Map(); // key -> { text, file }
+  const conflicts = [];
+  const counts = { lines: 0, alternates: 0 };
 
-    return result;
+  function add(key, text, file) {
+    const existing = translations.get(key);
+    if (existing) {
+      if (existing.text !== text) conflicts.push(`${key}: ${existing.file} and ${file} have different translations`);
+      return;
+    }
+    translations.set(key, { text, file });
+    counts[key.startsWith('Dialogue Text/') ? 'lines' : 'alternates']++;
   }
 
-  const filesPaths = fs.readdirSync(dialoguesTreeFolder);
+  function collect(nodes, file) {
+    for (const node of nodes || []) {
+      if (typeof node.belarusian === 'string') add(`Dialogue Text/${node.articyId}`, node.belarusian, file);
+
+      if (node.alternates && typeof node.alternates === 'object') {
+        for (const [alternateKey, alternate] of Object.entries(node.alternates)) {
+          if (alternate && typeof alternate.belarusian === 'string') {
+            add(`${alternateKey}/${node.articyId}`, alternate.belarusian, file);
+          }
+        }
+      }
+
+      collect(node.links, file);
+    }
+  }
+
+  for (const folder of dialoguesTreeFolders) {
+    for (const file of fs.readdirSync(folder).filter((name) => name.endsWith('.json')).sort()) {
+      const dialogues = JSONBig.parse(fs.readFileSync(folder + '/' + file, 'utf8'));
+      collect(dialogues.dialogueTree, `${path.basename(folder)}/${file}`);
+    }
+  }
+
+  if (conflicts.length) {
+    throw new Error(`${conflicts.length} line(s) have different translations in different files, nothing was written:\n  ${conflicts.join('\n  ')}`);
+  }
+
+  return { translations, counts };
+}
+
+async function packDialoguesFromTreesToSingleFile() {
+  const { translations, counts } = collectDialogueTranslations();
 
   const flatDialogues = JSONBig.parse(fs.readFileSync(flatDialoguesFilePath, 'utf8'));
 
-  let translations = {};
-
-  let totalRowsInTrees = 0;
-
-  for (const file of filesPaths) {
-    const dialogues = JSONBig.parse(fs.readFileSync(dialoguesTreeFolder + '/' + file, 'utf8'));
-
-    const flattenedDialogueTree = getTranslationsFromTreeRecursively(dialogues.dialogueTree, translations);
-    totalRowsInTrees += Object.keys(flattenedDialogueTree).length;
-
-    translations = { ...translations, ...flattenedDialogueTree };
-  }
-
   let notFound = 0;
 
-  for (const key in translations) {
-    if (!flatDialogues[`Dialogue Text/${key}`]) {
+  for (const [key, { text }] of translations) {
+    if (!flatDialogues[key]) {
       console.log(`Can't find in dialogues-translated.json key: ${key}`);
       notFound++;
       continue;
     }
 
-    flatDialogues[`Dialogue Text/${key}`].belarusian = translations[key];
+    flatDialogues[key].belarusian = text;
   }
 
   fs.writeFileSync(flatDialoguesFilePath, JSONBig.stringify(flatDialogues, null, 2));
 
-  console.log('Total rows in trees:', totalRowsInTrees);
+  console.log('Total rows in trees:', counts.lines);
+  console.log('Total alternates in trees:', counts.alternates);
   console.log('Total rows not found:', notFound);
 }
 
@@ -124,14 +154,17 @@ async function packTranslations(unpacked, packed) {
 }
 
 const execute = async () => {
-  await Promise.all([
-    packDialoguesFromTreesToSingleFile(),
-    packGeneralFromMultipleFilesToSingleFile()
-  ]);
+  // One after another, so a failure in the dialogues (e.g. conflicting translations) stops
+  // everything before any file is written.
+  await packDialoguesFromTreesToSingleFile();
+  await packGeneralFromMultipleFilesToSingleFile();
 
   for (const file of files) {
     await packTranslations(file.unpacked, file.packed);
   }
 }
 
-execute().then(() => console.log('Done'));
+execute().then(() => console.log('Done')).catch((error) => {
+  console.error(`Packing failed: ${error.message}`);
+  process.exit(1);
+});

@@ -378,6 +378,17 @@ if (args.Length > 0 && args[0] == "patch-field")
     return PatchFieldLive(args[1], edits);
 }
 
+// `dotnet run -- dump-lockit <file> <lockitName> <outJson>`
+// Dumps one Lockit MonoBehaviour (by m_Name, e.g. GeneralLockitEnglish) from a direct data
+// file into a flat { "<Term>": "<first language value>" } JSON. The game's English source
+// text lives in resources.assets (GeneralLockitEnglish), loaded via Resources rather than a
+// bundle - this is what text-translation/unpacking/apply-english-to-general.mjs consumes.
+// Reads the pristine "-original" backup when one exists, so it's never mod-patched text.
+if (args.Length > 0 && args[0] == "dump-lockit")
+{
+    return DumpLockit(args[1], args[2], args[3]);
+}
+
 // resolve each job's container to either a bundle file, or a direct "<file>.assets" in dataDir
 var bundleFiles = Directory.Exists(bundlesRoot)
     ? Directory.GetFiles(bundlesRoot, "*", SearchOption.AllDirectories)
@@ -1955,6 +1966,50 @@ static void DumpTreeNode(AssetsManager manager, AssetsFileInstance fileInst, Ass
         if (childRect == null) continue;
         DumpTreeNode(manager, fileInst, childRect, depth + 1, maxDepth);
     }
+}
+
+int DumpLockit(string fileName, string lockitName, string outPath)
+{
+    var path = Path.Combine(dataDir, fileName);
+    if (File.Exists(path + "-original")) path += "-original";
+    if (!File.Exists(path)) { Console.WriteLine($"ERROR: {path} not found"); return 1; }
+
+    var manager = new AssetsManager();
+    manager.LoadClassPackage(Path.Combine(toolDir, "classdata.tpk"));
+    var fileInst = manager.LoadAssetsFile(path, true);
+    manager.LoadClassDatabaseFromPackage(fileInst.file.Metadata.UnityVersion);
+    if (!fileInst.file.Metadata.TypeTreeEnabled)
+    {
+        manager.MonoTempGenerator = GetCpp2Il();
+    }
+
+    foreach (var info in fileInst.file.GetAssetsOfType(AssetClassID.MonoBehaviour))
+    {
+        AssetTypeValueField baseField;
+        try { baseField = manager.GetBaseField(fileInst, info); } catch { continue; }
+        if (baseField["m_Name"].AsString != lockitName) continue;
+
+        var terms = new SortedDictionary<string, string>(StringComparer.Ordinal);
+        foreach (var term in baseField["mSource"]["mTerms"]["Array"].Children)
+        {
+            var languages = term["Languages"]["Array"].Children;
+            terms[term["Term"].AsString] = languages.Count > 0 ? languages[0].AsString : "";
+        }
+
+        var options = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+        };
+        File.WriteAllText(outPath, JsonSerializer.Serialize(terms, options));
+        Console.WriteLine($"Wrote {terms.Count} terms from {lockitName} ({Path.GetFileName(path)}, pathId {info.PathId}) to {outPath}");
+        manager.UnloadAll();
+        return 0;
+    }
+
+    Console.WriteLine($"ERROR: no MonoBehaviour named {lockitName} in {Path.GetFileName(path)}");
+    manager.UnloadAll();
+    return 1;
 }
 
 int FindLockitValue(string bundlePath, string substring)
